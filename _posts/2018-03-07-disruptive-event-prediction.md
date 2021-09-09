@@ -18,7 +18,7 @@ tags:
 Our paper, "Crystal Cube: Multidisciplinary Approach to Disruptive
 Events Prediction," is going to be presented at the [9th International
 Conference on Applied Human Factors and Ergonomics (AHFE 2018) and
-the Affiliated Conferences](http://www.ahfe2018.org/), which is
+the Affiliated Conferences](http://ahfe.org), which is
 like 20 simultaneous conferences held at the same time and place,
 which is July 21-25 in Orlando.  Anyway, I am not presenting the
 paper, but the paper itself has been finalized!  Here's the abstract
@@ -43,6 +43,9 @@ may become easier to foresee disruptive events such as civil war,
 religious violence, or international crises with some measure of
 notice, and take preemptive action to mitigate risks associated
 with the event.  More details are in the paper.
+
+Monthly predictions for most countries are available from the 
+[Crystal Cube website at JHU/APL](http://iaa-ccube-dmz.outer.jhuapl.edu/).
 
 _Image by [Tiomono / English
 Wikipedia](https://en.wikipedia.org/wiki/File:Smoke_break_el_serrano_1987.jpg)._
