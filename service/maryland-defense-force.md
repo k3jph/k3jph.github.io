@@ -25,7 +25,7 @@ redirect_from:
 <a href="#MDESR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDESR.png" class="ribbon-left"
     alt="Maryland Emergency Service Ribbon"
     title="Maryland Emergency Service Ribbon" /></a>
-<a href="#MDSVCR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDSVCR10.png" class="ribbon-center"
+<a href="#MDSVCR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDSVCR15.png" class="ribbon-center"
     alt="Maryland State Service Ribbon"
     title="Maryland State Service Ribbon" /></a>
 <a href="#MDDFCR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFCR.png" class="ribbon-right"
@@ -73,10 +73,10 @@ crisis such as a natural disaster or civil unrest.
 Maryland State Service Ribbon is awarded to Maryland Military
 Department service members who have completed five good continuous
 years of faithful, honorable, and efficient service to the State
-of Maryland as a member of the Maryland Army or Air National Guard,
-or Maryland Defense Force.
+of Maryland as a member of the Maryland Army National Guard,
+Maryland Air National Guard, or Maryland Defense Force.
 
-The addition of one bronze botonee is for ten years of service.
+The addition of two bronze botonees is for fifteen years of service.
 
 ### <a id='MDDFCR' />Maryland Defense Force Commendation Ribbon
 
