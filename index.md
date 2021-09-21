@@ -44,7 +44,7 @@ experience also includes providing economic advice to the [Columbia
 Association](http://www.columbiaassociation.com/), establishing an
 alumni association for the [College Park Scholars
 Program](https://www.scholars.umd.edu/) at the University of Maryland,
-and serving on numerous public and private volunteer advisory boards.
+and serving on numerous public and private boards.
 
 ## Education
 
