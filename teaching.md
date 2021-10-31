@@ -33,6 +33,8 @@ I have taught undergraduate mathematics at the [University of Maryland Global Ca
     *   [Spring 2015 (OL4) Syllabus](/assets/docs/MATH-106-Spring-2015-OL4.pdf)
     *   [Fall 2014 (OL4) Syllabus](/assets/docs/MATH-106-Fall-2014-OL4.pdf)
 *   **MATH 107 College Algebra** A gentle introduction college-level algebra including equations, inequalities, graphing, and polynomial and exponential equations.
+    *   [Fall 2021 (OL3) Syllabus](/assets/docs/MATH_107_7386_College_Algebra_2218_MATH_107_Fall_2021.pdf)
+    *   [Fall 2021 (OL1) Syllabus](/assets/docs/MATH_107_6377_College_Algebra_2218_MATH_107_Fall_2021.pdf)
     *   [Spring 2021 (OL1) Syllabus](/assets/docs/MATH_107_6394_College_Algebra_2212_MATH_107_Spring_2021.pdf)
     *   [Fall 2020 (OL3) Syllabus](/assets/docs/MATH_107_7382_College_Algebra_2208_MATH_107_Fall_2020.pdf)
     *   [Fall 2020 (OL2) Syllabus](/assets/docs/MATH_107_6984_College_Algebra_2208_MATH_107_Fall_2020.pdf)
@@ -80,8 +82,9 @@ In the Spring of 2021, I was invited to cover a course for the [Baruch College p
 
 *   **PAF 503 Research and Analysis II** This course brings forth more advanced research methods with focus on both national
 and international applications.  We will be using Stata as the core statistical language in this course.
-    *   Fall 2020 Syllabus--Coming soon!
-    *   [Spring 2021 Syllabus](/assets/docs/PAF9172-Sp21-Syllabus.pdf)
+    * [Fall 2021 Syllabus](/assets/docs/PAF9172-Fa21-Syllabus.pdf)
+      * [Additional Policies](/assets/docs/PAF9172-Fa21-Syllabus-Policies.pdf)
+    * [Spring 2021 Syllabus](/assets/docs/PAF9172-Sp21-Syllabus.pdf)
 
 ### Central Michigan University
 
@@ -101,7 +104,7 @@ In the spring of 2017, I started occasionally teaching in the [Master of Science
     *   [Fall 2018 Syllabus](/assets/docs/MSA647-Syllabus-Fall-2018.pdf)
     *   [Spring 2018 Syllabus](/assets/docs/MSA647-Syllabus-Spring-2018.pdf)
 *   **PSC 516 Environmental Politics and Policy** This course explores the nexus between the environment and policymaking.  We are going to look at the applications of politics to environmental questions, how the environment plays into larger political questions, and explore how to communicate environmental concerns in the policy context.
-    *   Fall 2021 Syllabus--Comming soon!
+    *   [Fall 2021 Syllabus](/assets/docs/PSC516-Syllabus-Fall-2021.pdf)
     *   [Summer 2021 Syllabus](/assets/docs/PSC516-Syllabus-Summer-2021.pdf)
 
 ### The Pennsylvania State University
