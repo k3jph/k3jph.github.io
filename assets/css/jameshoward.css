@@ -309,3 +309,12 @@ a[class^=jh-] {
   text-align: center;
   margin: 1rem 0;
 }
+
+span.cv-numbering ol li:before {
+    content: counter(a)'.';
+    counter-increment: a -1;
+    position: absolute;
+    left: 0;
+    color: blue;
+    font-size: 4rem;
+}
