@@ -18,11 +18,13 @@ Maryland Global Campus.
 I currently hold a commission from the State of Maryland in the 
 Maryland Defense Force.
 
-In the last three years, I have been employed by the Pennsylvania 
-State University, received extramural research support
-from the Extreme Science and Engineering Discovery Environment,
-sponsored by the National Science Foundation.  I have also held
-appointments from the Howard County, Maryland, government.
+In the last three years, I have been employed by the Pennsylvania
+State University, received extramural research support from the
+Extreme Science and Engineering Discovery Environment, sponsored
+by the National Science Foundation, and the Open Science Grid
+Consortium, also sponsored by the National Science Foundation.  I
+have also held appointments from the Howard County, Maryland,
+government.
 
 Finally, I have published books with Chapman & Hall/CRC Press,
 Springer Nature, and Steve Jackson Games Incorporated.
