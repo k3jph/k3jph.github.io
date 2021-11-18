@@ -41,3 +41,7 @@ events](/2018/03/07/disruptive-event-prediction/).  If you want to
 play with it, you can see our most recent predictions [live on the
 Crystal Cub website hosted by
 JHU/APL](http://iaa-ccube-dmz.outer.jhuapl.edu/).
+
+{% include figure.html image="aai-cc-frontpage.png" width="100%"
+alt="Front page of article"
+cap="Front page of article" %}
