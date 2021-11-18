@@ -6,6 +6,7 @@ author: James Howard
 layout: page
 guid: http://jameshoward.us/?page_id=6791
 redirect_from:
+  - /gdh
   - /gurps-hurricane/
   - /games/gurps-hurricane/
 ---
