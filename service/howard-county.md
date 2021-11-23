@@ -65,7 +65,9 @@ different departments, and the Councilmembers themselves.  Howard
 County has all of the agendas, minutes, and recordings of our
 meetings available [on its
 website](https://cc.howardcountymd.gov/About-Us/Commissions-Task-Forces-and-Special-Reports/Charter-Review-Commission-2019-2020).
-In addition, we produced three major documents:
+We produced three major documents.
+
+### Documents
 
 * [Synopsis of Recommendations](/assets/docs/HowardCounty-CRC2019-Synopsis.pdf), February 28, 2020
 * [Preliminary Report](/assets/docs/HowardCounty-CRC2019-PreliminaryReport.pdf), March 16, 2020 
