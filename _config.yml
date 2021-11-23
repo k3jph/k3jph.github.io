@@ -42,6 +42,7 @@ exclude:
   - Gemfile
   - "Main Website.code-workspace"
   - vendor
+  - .idea
 
 # This site uses the pretty permalink structure, this renders all urls with a slash / at the end and 
 # no file endings, I guess that is considered pretty :)
