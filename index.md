@@ -35,16 +35,17 @@ researched using blockchain for government services, and created
 devices for rescuing victims of building collapse. I have written [two
 books](/books/) on my work and co-edited two more.
 
-In my spare time, I have served Howard County, Maryland, as [a
-member of the Board of Appeals](/service/howard-county/) and Charter
-Review Commission and the [Watershed Stewards Academy Advisory
-Committee](http://howardwsa.org/) of the [University of Maryland
-Extension](https://extension.umd.edu/howard-county). Prior volunteer
-experience also includes providing economic advice to the [Columbia
-Association](http://www.columbiaassociation.com/), establishing an
-alumni association for the [College Park Scholars
+In my spare time, I have served [Howard County,
+Maryland](/service/howard-county), as a member of the Board of
+Appeals and Charter Review Commission and the [Watershed Stewards
+Academy Advisory Committee](http://howardwsa.org/) of the [University
+of Maryland Extension](https://extension.umd.edu/howard-county).
+Prior volunteer experience also includes providing economic advice
+to the [Columbia Association](http://www.columbiaassociation.com/),
+establishing an alumni association for the [College Park Scholars
 Program](https://www.scholars.umd.edu/) at the University of Maryland,
 and serving on numerous public and private boards.
+
 
 ## Education
 
