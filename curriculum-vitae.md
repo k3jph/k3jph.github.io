@@ -39,7 +39,7 @@ redirect_from:
 
 ## Major Awards
 
-* Senior Member of the [Institute of Electrical and Electronics Engineers](/assets/docs/JHoward-IEEE-SM.pdf), 2021
+* Senior Member of the [Institute of Electrical and Electronics Engineers](/assets/docs/JHoward-IEEE-SM-2022.pdf), 2021
 * Fellow of the [Cybernetics Society](/assets/docs/JHoward-FCybS.pdf), 2021
 * Fellow of the Royal Society of Arts, 2000
 * Fellow of the [British Computer Society](/assets/docs/JHoward-FBCS.pdf), 2020
