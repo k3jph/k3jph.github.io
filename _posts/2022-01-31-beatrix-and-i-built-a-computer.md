@@ -32,7 +32,7 @@ else.  The very first home computers relied on something called the
 S-100 buses, but there's a problem.  We were going to use a relatively
 standard 8-bit processor, like the Z-80 or 6502 and those operate
 on 5V.  Frankly, anything we were interested in would operate on
-5V.  But the S-100 bus only provides 8V and & plusmn;16V.  This
+5V.  But the S-100 bus only provides 8V and &plusmn;16V.  This
 would mean each card would have to provide its own transformer to
 step down to the right voltage.
 
