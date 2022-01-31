@@ -43,9 +43,9 @@ exist for a reason and soon we identified the
 an almost perfect choice.  We ended up designing a custom passive
 backplane for the STD Bus and since we like standards, we built it
 with ATX power coming in and in a [Mini-ITX](https://www.mini-itx.com/)
-footprint.  The Mini-ITX and ATX power specific are common enough
-these are available at commodity prices.  We had the motherboards
-printed by [JLCPCB](https://jlcpcb.com) and shipped in.
+footprint.  The Mini-ITX and ATX power are common enough these are 
+available at commodity prices.  We had the motherboards printed by 
+[JLCPCB](https://jlcpcb.com) and shipped in.
 
 But we had to go further, we needed to get something on them.  After
 we got the card slots and motherboards together, we also had JLCPCB
