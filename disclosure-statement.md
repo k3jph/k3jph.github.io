@@ -13,7 +13,7 @@ University Applied Physics Laboratory, LLC, a university-affiliated
 research center and division of the Johns Hopkins University.
 In addition, I am a member of the adjunct faculty at Central Michigan
 University, the City University of New York, and University of 
-Maryland Global Campus.
+Maryland Global Campus.  I am the sole member of Riave LLC.
 
 I currently hold a commission from the State of Maryland in the 
 Maryland Defense Force.
