@@ -61,9 +61,10 @@ and serving on numerous public and private boards.
 
 ## Major Awards
 
-* Fellow of the [Cybernetics Society](/assets/docs/JHoward-FCybS.pdf)
-* Fellow of the Royal Society of Arts
 * Fellow of the [British Computer Society](/assets/docs/JHoward-FBCS.pdf)
+* Fellow of the [Cybernetics Society](/assets/docs/JHoward-FCybS.pdf)
+* Fellow of the Institute of Mathematics and its Applications
+* Fellow of the Royal Society of Arts
 * Senior Member of the [Institute of Electrical and Electronics Engineers](/assets/docs/JHoward-IEEE-SM.pdf)
 
 {% include figure.html image="akureyri-shades-420.jpg" alt="Me in Akureyri...with solar shades"
