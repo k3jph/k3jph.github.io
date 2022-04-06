@@ -63,7 +63,7 @@ and serving on numerous public and private boards.
 
 * Fellow of the [British Computer Society](/assets/docs/JHoward-FBCS.pdf)
 * Fellow of the [Cybernetics Society](/assets/docs/JHoward-FCybS.pdf)
-* Fellow of the Institute of Mathematics and its Applications
+* Fellow of the [Institute of Mathematics and its Applications](/assets/docs/JHoward-IMA-FIMA.pdf)
 * Fellow of the Royal Society of Arts
 * Senior Member of the [Institute of Electrical and Electronics Engineers](/assets/docs/JHoward-IEEE-SM.pdf)
 
