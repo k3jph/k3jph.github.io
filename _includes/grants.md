@@ -1,4 +1,4 @@
-1. Co-Principal Investigator, Data Dashboards for Individual Risk of Covid-19&mdash;Integrating Local and Population Levels of Data, Johns Hopkins Institute for Data Intensive Engineering and Science (IDIES), Seed Funding Program 2022, ($25,000).
+1. Co-Principal Investigator, Data Dashboards for Individual Risk of Covid-19&mdash;Integrating Local and Population Levels of Data, Johns Hopkins Institute for Data Intensive Engineering and Science (Co-PI: [Tom Woolf](https://www.hopkinsmedicine.org/research/labs/tom-woolf-lab)), Seed Funding Program 2022, ($25,000).
 1. Principal Investigator, Travel Grant, Johns Hopkins Applied Physics Laboratory, Janney Energize Award 2019, (INFORMS 2019, $6,500).
 2. Principal Investigator, Development Grant, Johns Hopkins Applied Physics Laboratory, Ignition Grant 2018, ($10,000).
 3. Principal Investigator, Europa Lander Orbital Tours, Extreme Science and Engineering Discovery Environment (XSEDE), Startup Allocation TG-DBS170012 National Science Foundation (NSF), 2018, (33,562,428 NUs, $13,652.86).
