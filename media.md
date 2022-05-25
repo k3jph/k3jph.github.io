@@ -19,8 +19,7 @@ menu-label:     Media
 5. Geoff Williams, "[Help! My Basement Is Flooded](https://money.usnews.com/money/personal-finance/articles/2016-09-23/help-my-basement-is-flooded)," _U.S. News and World Report_, Sep. 23, 2016.
 6. Bill Marcus, "[In the Minds of Machines: Fundamental Change from Deep Analytics](HPE-mindsmachines.pdf)," HPE Insights, Aug. 11, 2016.
 7. Margot Bigg, "[What It's Like to Evacuate for a Tsunami](/2016/07/04/watch-interview-mars-one-candidate-heidi-hecht/)," Oyster.com, Jul. 28, 2016.
-8. Autumn Yates, "[Pokemon Go: From Accidents to Stranger Danger, Tips to Keeping Kids Safe](/assets/docs/pokemon-go-advi
-ce-parents.pdf)," HighYa Jul. 16, 2016.
+8. Autumn Yates, "[Pokemon Go: From Accidents to Stranger Danger, Tips to Keeping Kids Safe](/assets/docs/pokemon-go-advice-parents.pdf)," HighYa Jul. 16, 2016.
 9. Breakthrough Entertainment with David S. Isaac, "[Pros an Cons of Implementing an Annual Purge](/2016/07/04/listen-interview-purge-kphx/)," 1480 KPHX, Jul. 2, 2016.
 10. Robert McGarvey, "[So You Want to Be a Billionaire? Buy Lottery Tickets, Maybe](https://www.thestreet.com/personal-finance/so-you-want-to-be-a-billionaire-buy-lottery-tickets-maybe-13624257)," The Street Jun. 29, 2016.
 11. Shannon Lee, "[Online University & College Research Companion](https://www.learnhowtobecome.org/online-universities-and-colleges/best/)," Learn How to Become, Jun. 25, 2016.
@@ -33,7 +32,8 @@ ce-parents.pdf)," HighYa Jul. 16, 2016.
 
 ## Profiles
 
-1. 2LT (MDDF) Anthony Granado, "[Captain James Howard Completes Ph.D. and Provides Talent to the Maryland Defense Force](http://mddfdefender.blogspot.com/2014/07/captain-james-howard-completes-phd-and.html)," _Maryland Defense Force Defender_, Jul. 10, 2014.
+1. Rick Barnes, "MDDF Officer Receives Token of Appreciation," Maryland Defense Force Facebook, Jun. 24, 2021.
+2. 2LT (MDDF) Anthony Granado, "[Captain James Howard Completes Ph.D. and Provides Talent to the Maryland Defense Force](http://mddfdefender.blogspot.com/2014/07/captain-james-howard-completes-phd-and.html)," _Maryland Defense Force Defender_, Jul. 10, 2014.
 
 ## Radio and Podcasts
 
