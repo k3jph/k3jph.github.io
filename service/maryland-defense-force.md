@@ -26,8 +26,8 @@ redirect_from:
     alt="Maryland Emergency Service Ribbon"
     title="Maryland Emergency Service Ribbon" /></a>
 <a href="#MDSVCR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDSVCR15.png" class="ribbon-center"
-    alt="Maryland State Service Ribbon"
-    title="Maryland State Service Ribbon" /></a>
+    alt="Maryland State Service Medal"
+    title="Maryland State Service Medal" /></a>
 <a href="#MDDFCR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFCR.png" class="ribbon-right"
     alt="Maryland Defense Force Commendation Ribbon"
     title="Maryland Defense Force Commendation Ribbon" /></a>
@@ -55,7 +55,7 @@ the mission.
 
 #### October 13, 2020
 
-> For outstanding unit performance in support of the COVID-19 response
+> For outstanding unit performance in support of the COVID-19 response.
 
 ### <a id='MDESR' />Maryland Emergency Service Ribbon
 
@@ -68,15 +68,33 @@ crisis such as a natural disaster or civil unrest.
 
 >  Operation Steadfast Guardian--March 15, 2020 to June 21, 2020
 
-### <a id='MDSVCR' />Maryland State Service Ribbon
+### <a id='MDSVCR' />Maryland State Service Medal
 
-Maryland State Service Ribbon is awarded to Maryland Military
+Maryland State Service Medal is awarded to Maryland Military
 Department service members who have completed five good continuous
 years of faithful, honorable, and efficient service to the State
 of Maryland as a member of the Maryland Army National Guard,
 Maryland Air National Guard, or Maryland Defense Force.
 
 The addition of two bronze botonees is for fifteen years of service.
+
+### <a id='MDDFMSR' />Maryland Defense Force Meritorious Service Ribbon
+
+The Maryland Defense Force Meritorious Service Ribbon is the highest
+MDDF award and is presented to any active member of the MDDF who
+distinguished him/herself by extraordinary distinguished service
+or through sustained and extraordinary service or achievement beyond
+the normal call of duty to the Maryland Defense Force, Maryland
+Military Department, or State of Maryland in a duty of great
+responsibility.
+
+#### November 4, 2021
+
+> For sustained meritorious service in support of the Maryland National
+> Guard Medical Detachment's statewide COVID-19 vaccination efforts to
+> include supporting Task Force Equity.  The MDDF's support of the
+> vaccination clinics from January to June 2021 resulted in 8285 shots
+> being given during Operation Steadfast Guardian II.
 
 ### <a id='MDDFCR' />Maryland Defense Force Commendation Ribbon
 
@@ -85,6 +103,29 @@ clearly placed the individual far above their peer or superior
 service which results in achievement of a specific project, complex
 tasks, or period of sustained service which clearly warrants
 recognition of the individual's achievement.
+
+### <a id='MDDFHSR' />Maryland Defense Force Humanitarian Service Ribbon
+
+The Maryland Defense Force Humanitarian Service Ribbon is presented to
+any active member of the MDDF who, while under orders and in the opinion
+of the MDDF Commanding General, greatly distinguishes themselves by
+meritorious service in direct participation in any significant military
+act or operation of a humanitarian nature as approved by the Maryland
+Military Department.
+
+#### November 28, 2021
+
+> For supporting the MDDF's participation in Operation Steadfast Guardian II.
+
+### <a id='MDDFACAR' />Maryland Defense Force Aid to Civil Authority Ribbon
+
+The Maryland Defense Force Aid to Civil Authority Ribbon is awarded to MDDF
+members for being mobilized by the Commanding General, MDDF to support a
+domestic emergency, crisis or other missions as deemed appropriate.
+
+#### November 28, 2021
+
+> For supporting the MDDF's participation in Operation Steadfast Guardian II.
 
 ### <a id='MDDFCERTR' />Maryland Defense Force Community Emergency Response Team Ribbon
 
