@@ -28,9 +28,20 @@ redirect_from:
 <a href="#MDSVCR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDSVCR15.png" class="ribbon-center"
     alt="Maryland State Service Medal"
     title="Maryland State Service Medal" /></a>
-<a href="#MDDFCR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFCR.png" class="ribbon-right"
+<a href="#MDDFMSR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFMSR.png" class="ribbon-right"
+    alt="Maryland Defense Force Meritorious Service Ribbon"
+    title="Maryland Defense Force Meritorious Service Ribbon" /></a>
+</div>
+<div class="ribbonbar">
+<a href="#MDDFCR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFCR.png" class="ribbon-left"
     alt="Maryland Defense Force Commendation Ribbon"
     title="Maryland Defense Force Commendation Ribbon" /></a>
+<a href="#MDDFHSRq" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFHSR.png" class="ribbon-center"
+    alt="Maryland Defense Force Humanitarian Service Ribbon"
+    title="Maryland Defense Force Humanitarian Service Ribbon" /></a>
+<a href="#MDDFACAR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFACAR.png" class="ribbon-right"
+    alt="Maryland Defense Force Aid to Civil Authority Ribbon"
+    title="Maryland Defense Force Aid to Civil Authority Ribbon" /></a>
 </div>
 <div class="ribbonbar">
 <a href="#MDDFCERTR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFCERTR.png" class="ribbon-left"
