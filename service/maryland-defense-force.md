@@ -17,7 +17,7 @@ redirect_from:
 <!-- Make images at http://www.ultimaterack.ajandj.com/index.php/ribbon-creator -->
 <div class="ribbonrack">
 <div class="ribbonbar">
-<a href="#TAGSRR"  class="ribbon"><img src="/assets/images/ribbons/mddf/TAGSRR.png" class="ribbon-left"
+<a href="#TAGSRR" class="ribbon"><img src="/assets/images/ribbons/mddf/TAGSRR.png" class="ribbon-left"
     alt="The Adjutant General's Special Recognition Ribbon"
     title="The Adjutant General's Special Recognition Ribbon" /></a>
 </div>
@@ -36,7 +36,7 @@ redirect_from:
 <a href="#MDDFCR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFCR.png" class="ribbon-left"
     alt="Maryland Defense Force Commendation Ribbon"
     title="Maryland Defense Force Commendation Ribbon" /></a>
-<a href="#MDDFHSRq" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFHSR.png" class="ribbon-center"
+<a href="#MDDFHSR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFHSR.png" class="ribbon-center"
     alt="Maryland Defense Force Humanitarian Service Ribbon"
     title="Maryland Defense Force Humanitarian Service Ribbon" /></a>
 <a href="#MDDFACAR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFACAR.png" class="ribbon-right"
@@ -131,8 +131,8 @@ Military Department.
 ### <a id='MDDFACAR' />Maryland Defense Force Aid to Civil Authority Ribbon
 
 The Maryland Defense Force Aid to Civil Authority Ribbon is awarded to MDDF
-members for being mobilized by the Commanding General, MDDF to support a
-domestic emergency, crisis or other missions as deemed appropriate.
+members for being mobilized by the Commanding General, MDDF, to support a
+domestic emergency, crisis, or other missions as deemed appropriate.
 
 #### November 28, 2021
 
@@ -146,6 +146,9 @@ accredited local, state, or federal government sponsored CERT
 training program. The CERT course or program must also be certified
 by the MDDF-D5/7.
 
+In 2022, this ribbon was superseded by the Maryland Defense Force
+Community CERT Instructor Ribbon.
+
 ### <a id='MDDFPDR' />Maryland Defense Force Professional Development Ribbon
 
 The Maryland Defense Force Professional Development Ribbon is awarded
@@ -155,7 +158,7 @@ within a member's MDDF specialty and/or the core mission of the
 Maryland Defense Force.
 
 After receiving my third award, I have not submitted any more
-courses, as, well, it seemed a bit out of control.
+courses.
 
 ### <a id='MDDFBTR' />Maryland Defense Force Basic Training Ribbon
 
