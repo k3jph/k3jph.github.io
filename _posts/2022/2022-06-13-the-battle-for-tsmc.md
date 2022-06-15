@@ -1,7 +1,7 @@
 ---
 id: the-battle-for-tsmc
 title: The Battle for TSMC
-date: 2022-06-15T07:15:07-04:00
+date: 2025-06-15T07:15:07-04:00
 author: k3jph
 layout: post
 permalink: /2022/06/13/the-battle-for-tsmc
