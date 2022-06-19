@@ -17,43 +17,45 @@ redirect_from:
 <!-- Make images at http://www.ultimaterack.ajandj.com/index.php/ribbon-creator -->
 <div class="ribbonrack">
 <div class="ribbonbar">
-<a href="#TAGSRR" class="ribbon"><img src="/assets/images/ribbons/mddf/TAGSRR.png" class="ribbon-left"
+<a href="#TAGSRR" class="ribbon ribbon-left"><img src="/assets/images/ribbons/mddf/TAGSRR.png"
     alt="The Adjutant General's Special Recognition Ribbon"
     title="The Adjutant General's Special Recognition Ribbon" /></a>
-</div>
-<div class="ribbonbar">
-<a href="#MDESR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDESR.png" class="ribbon-left"
+<a href="#MDESR" class="ribbon ribbon-right"><img src="/assets/images/ribbons/mddf/MDESR.png"
     alt="Maryland Emergency Service Ribbon"
     title="Maryland Emergency Service Ribbon" /></a>
-<a href="#MDSVCR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDSVCR15.png" class="ribbon-center"
+</div>
+<div class="ribbonbar">
+<a href="#MDSVCR" class="ribbon ribbon-left"><img src="/assets/images/ribbons/mddf/MDSVCR15.png"
     alt="Maryland State Service Medal"
     title="Maryland State Service Medal" /></a>
-<a href="#MDDFMSR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFMSR.png" class="ribbon-right"
+<a href="#MDDFMSR" class="ribbon ribbon-center"><img src="/assets/images/ribbons/mddf/MDDFMSR.png"
     alt="Maryland Defense Force Meritorious Service Ribbon"
     title="Maryland Defense Force Meritorious Service Ribbon" /></a>
-</div>
-<div class="ribbonbar">
-<a href="#MDDFCR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFCR.png" class="ribbon-left"
+<a href="#MDDFCR" class="ribbon ribbon-right"><img src="/assets/images/ribbons/mddf/MDDFCR.png"
     alt="Maryland Defense Force Commendation Ribbon"
     title="Maryland Defense Force Commendation Ribbon" /></a>
-<a href="#MDDFHSR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFHSR.png" class="ribbon-center"
-    alt="Maryland Defense Force Humanitarian Service Ribbon"
-    title="Maryland Defense Force Humanitarian Service Ribbon" /></a>
-<a href="#MDDFACAR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFACAR.png" class="ribbon-right"
-    alt="Maryland Defense Force Aid to Civil Authority Ribbon"
-    title="Maryland Defense Force Aid to Civil Authority Ribbon" /></a>
 </div>
 <div class="ribbonbar">
-<a href="#MDDFCERTR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFCERTR.png" class="ribbon-left"
+<a href="#MDDFHSR" class="ribbon ribbon-left"><img src="/assets/images/ribbons/mddf/MDDFHSR.png"
+    alt="Maryland Defense Force Humanitarian Service Ribbon"
+    title="Maryland Defense Force Humanitarian Service Ribbon" /></a>
+<a href="#MDDFACAR" class="ribbon ribbon-center"><img src="/assets/images/ribbons/mddf/MDDFACAR.png"
+    alt="Maryland Defense Force Aid to Civil Authority Ribbon"
+    title="Maryland Defense Force Aid to Civil Authority Ribbon" /></a>
+<a href="#MDDFCERTR" class="ribbon ribbon-right"><img src="/assets/images/ribbons/mddf/MDDFCERTR.png"
     alt="Maryland Defense Force Community Emergency Response Team Ribbon"
     title="Maryland Defense Force Community Emergency Response Team Ribbon" /></a>
-<a href="#MDDFPDR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFPDR3.png" class="ribbon-center"
+</div>
+<div class="ribbonbar">
+<a href="#MDDFPDR" class="ribbon ribbon-left"><img src="/assets/images/ribbons/mddf/MDDFPDR3.png"
     alt="Maryland Defense Force Professional Development Ribbon"
     title="Maryland Defense Force Professional Development Ribbon" /></a>
-<a href="#MDDFBTR" class="ribbon"><img src="/assets/images/ribbons/mddf/MDDFBTR.png" class="ribbon-right"
+<a href="#MDDFBTR" class="ribbon ribbon-center"><img src="/assets/images/ribbons/mddf/MDDFBTR.png"
     alt="Maryland Defense Force Basic Training Ribbon"
     title="Maryland Defense Force Basic Training Ribbon" /></a>
-</div>
+<a href="#SGAUSPDA" class="ribbon ribbon-right"><img src="/assets/images/ribbons/mddf/SGAUSPDA2.png"
+    alt="State Guard Association of United States Professional Development Award"
+    title="State Guard Association of United States Professional Development Award" /></a></div>
 </div>
 
 ### <a id='TAGSRR' />The Adjutant General's Special Recognition Ribbon
@@ -172,3 +174,12 @@ You could do this in an afternoon, and I think I did.  In 2010, the
 entire curriculum was revised into a more involved process called
 "Initial Entry Training" (IET) and this ribbon was superseded with
 one for the new IET process.
+
+### <a id='SGAUSPDA' />State Guard Association of United States Professional Development Award
+
+The State Guard Association of United States Professional Development
+Award is awarded to active SGAUS members who complete certain
+training through the organization.  The first award is for completing
+the SGAUS Officer Basic Course and the second is for completing the
+SGAUS Officer Advanced Course.  Earned SGAUS awards are authorized
+for wear by MDDF members.
