@@ -26,8 +26,8 @@ redirect_from:
 </div>
 <div class="ribbonbar">
 <a href="#MDSVCR" class="ribbon ribbon-left"><img src="/assets/images/ribbons/mddf/MDSVCR15.png"
-    alt="Maryland State Service Medal"
-    title="Maryland State Service Medal" /></a>
+    alt="State of Maryland State Service Medal"
+    title="State of Maryland State Service Medal" /></a>
 <a href="#MDDFMSR" class="ribbon ribbon-center"><img src="/assets/images/ribbons/mddf/MDDFMSR.png"
     alt="Maryland Defense Force Meritorious Service Ribbon"
     title="Maryland Defense Force Meritorious Service Ribbon" /></a>
@@ -81,13 +81,13 @@ crisis such as a natural disaster or civil unrest.
 
 >  Operation Steadfast Guardian--March 15, 2020 to June 21, 2020
 
-### <a id='MDSVCR' />Maryland State Service Medal
+### <a id='MDSVCR' />State of Maryland State Service Medal
 
-Maryland State Service Medal is awarded to Maryland Military
-Department service members who have completed five good continuous
-years of faithful, honorable, and efficient service to the State
-of Maryland as a member of the Maryland Army National Guard,
-Maryland Air National Guard, or Maryland Defense Force.
+The State of Maryland State Service Medal is awarded to Maryland
+Military Department service members who have completed five good
+continuous years of faithful, honorable, and efficient service to
+the State of Maryland as a member of the Maryland Army National
+Guard, Maryland Air National Guard, or Maryland Defense Force.
 
 The addition of two bronze botonees is for fifteen years of service.
 
