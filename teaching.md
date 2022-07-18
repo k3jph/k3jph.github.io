@@ -38,7 +38,7 @@ Online](/tlmo)_, where we collected together ideas, skills, and
 tools to make teaching mathematics online better.
 
 At the opposite extreme, I have also taught graduate public management
-courses for several schools, most notably [Baruch College at the
+courses for several schools, most notably at [Baruch College at the
 City University of New York](https://marxe.baruch.cuny.edu/) and
 [Central Michigan
 University](https://www.cmich.edu/program/master-of-science-administration).
