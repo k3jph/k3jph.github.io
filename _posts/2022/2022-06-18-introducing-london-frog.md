@@ -11,6 +11,7 @@ categories:
 tags:
 - tea
 - mint
+- ChaseKBH
 ---
 
 A week or so ago, Chase asked me about getting some vanilla syrup.
