@@ -14,18 +14,20 @@ redirect_from:
    alt="Me at the 2017 Howard County Library Evening in the Stacks"
    cap="Me at the 2017 Howard County Library Evening in the Stacks" %}
 
-I am a scientist at the [Johns Hopkins Applied Physics
-Laboratory](http://www.jhuapl.edu/). Previously, I have been a
-consultant to numerous government agencies, including the Securities
-and Exchange Commission, the Executive Office of the President, and
-the United States Department of Homeland Security, and worked for
-the Board of Governors of the Federal Reserve System as an internal
-consultant on scientific computing. I am a passionate educator,
-teaching mathematics and statistics at the University of Maryland
-Global Campus since 2010, and I have taught public affairs at [Baruch
+[I am a scientist](https://pages.jh.edu/jhowar54) at the [Johns
+Hopkins Applied Physics Laboratory](http://www.jhuapl.edu/).
+Previously, I have been a consultant to numerous government agencies,
+including the Securities and Exchange Commission, the Executive
+Office of the President, and the United States Department of Homeland
+Security, and worked for the Board of Governors of the Federal
+Reserve System as an internal consultant on scientific computing.
+I am a passionate educator, teaching mathematics and statistics at
+the University of Maryland Global Campus since 2010, and I have
+taught public affairs at [Baruch
 College](https://blogs.baruch.cuny.edu/jameshoward/), [Central
 Michigan University](https://blogs.cmich.edu/howarjp1/), [Penn
-State](https://sites.psu.edu/jameshoward/), and the University of
+State](https://sites.psu.edu/jameshoward/), the [University of New
+Mexico](https://jphoward.people.unm.edu/), and the University of
 Baltimore.
 
 I am fortunate to [play in everyone else's backyard](/scholarship).

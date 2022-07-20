@@ -127,19 +127,24 @@ I have also taught other courses from the mathematics program:
 Finally, I have taught courses from our statistics program. We are now down to just STAT 200, but we previously had an array of thematically-linked statistics classes for business, social science, and computer science:
 
 *   **STAT 200 Introduction to Statistics** This is an introduction to applied statistics. Probability, t-tests, and [latex]\chi^2[/latex]-tests are introduced. Application areas are broadly selected from across many different fields.
-STAT-200-Spring-2020-OL4.pdf
     *   [Spring 2020 (OL4) Syllabus](/assets/docs/STAT-200-Spring-2020-OL4.pdf)
     *   [Fall 2017 (OL1) Syllabus](/assets/docs/STAT200-Syllabus-Fall-2017-OL1.pdf)
 *   **STAT 230 Introductory Business Statistics** This is is essentially the same as STAT 200, but the examples are drawn primarily from business settings and include production and finance problems. This class has since been discontinued in favor of STAT 200, above, as a generalized statistics course.
 
 ## Public Affairs and Management
 
+### The University of New Mexico
+
+For the fall of 2022, I was invited to teach in the the [University of New Mexico master of public administration program](https://spa.unm.edu/).
+
+*   **PADM 503 Research Methods II: Data Analysis** This course covers advanced statistics with a specific application to public management. One interesting feature of this course is an explicit Stata knowledge requirement.
+    * Fall 202 Syllabus, Coming Soon
+
 ### Baruch College
 
 In the Spring of 2021, I was invited to cover a course for the [Baruch College public and international affairs programs](https://marxe.baruch.cuny.edu/) in the Marxe School of Public and International Affairs.
 
-*   **PAF 503 Research and Analysis II** This course brings forth more advanced research methods with focus on both national
-and international applications.  We will be using Stata as the core statistical language in this course.
+*   **PAF 503 Research and Analysis II** This course brings forth more advanced research methods with focus on both national and international applications.  We will be using Stata as the core statistical language in this course.
     * [Fall 2021 Syllabus](/assets/docs/PAF9172-Fa21-Syllabus.pdf)
       * [Additional Policies](/assets/docs/PAF9172-Fa21-Syllabus-Policies.pdf)
     * [Spring 2021 Syllabus](/assets/docs/PAF9172-Sp21-Syllabus.pdf)
