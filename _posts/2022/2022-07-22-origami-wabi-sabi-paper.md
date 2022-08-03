@@ -97,7 +97,7 @@ here, is necessary for the ritual's success.
 
 Finally, we must consider the imperfection of origami.  One key
 form of imperfection origami recognizes is asymmetry.  Asymmetry
-in wabi-savi refers to "[design that emphasises irregularity or
+in wabi-sabi refers to "[design that emphasises irregularity or
 unevenness](https://www.tandfonline.com/doi/full/10.1080/17543266.2016.1165740)."
 While it is possible to construct origami symmetrically, as, for
 instance, a well made paper airplane is, there is a preference for
