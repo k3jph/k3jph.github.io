@@ -91,6 +91,10 @@ I have taught undergraduate mathematics at the [University of Maryland Global Ca
     *   [Spring 2015 (OL4) Syllabus](/assets/docs/MATH-106-Spring-2015-OL4.pdf)
     *   [Fall 2014 (OL4) Syllabus](/assets/docs/MATH-106-Fall-2014-OL4.pdf)
 *   **MATH 107 College Algebra** A gentle introduction college-level algebra including equations, inequalities, graphing, and polynomial and exponential equations.
+    *   Fall 2021 (OL3) Syllabus, coming soon
+    *   [Fall 2021 (OL1) Syllabus](/assets/docs/MATH_107_6381_College_Algebra_2222_MATH_107_Spring_2022.pdf)
+    *   [Spring 2022 (OL3) Syllabus](/assets/docs/MATH_107_7391_College_Algebra_2222_MATH_107_Spring_2022.pdf)
+    *   [Spring 2022 (OL1) Syllabus](/assets/docs/MATH_107_6381_College_Algebra_2222_MATH_107_Spring_2022.pdf)
     *   [Fall 2021 (OL3) Syllabus](/assets/docs/MATH_107_7386_College_Algebra_2218_MATH_107_Fall_2021.pdf)
     *   [Fall 2021 (OL1) Syllabus](/assets/docs/MATH_107_6377_College_Algebra_2218_MATH_107_Fall_2021.pdf)
     *   [Spring 2021 (OL1) Syllabus](/assets/docs/MATH_107_6394_College_Algebra_2212_MATH_107_Spring_2021.pdf)
@@ -138,13 +142,15 @@ Finally, I have taught courses from our statistics program. We are now down to j
 For the fall of 2022, I was invited to teach in the the [University of New Mexico master of public administration program](https://spa.unm.edu/).
 
 *   **PADM 503 Research Methods II: Data Analysis** This course covers advanced statistics with a specific application to public management. One interesting feature of this course is an explicit Stata knowledge requirement.
-    * Fall 202 Syllabus, Coming Soon
+    * [Fall 2022 Syllabus](/assets/docs/PADM596-Syllabus-Fall2022.pdf)
 
 ### Baruch College
 
 In the Spring of 2021, I was invited to cover a course for the [Baruch College public and international affairs programs](https://marxe.baruch.cuny.edu/) in the Marxe School of Public and International Affairs.
 
 *   **PAF 503 Research and Analysis II** This course brings forth more advanced research methods with focus on both national and international applications.  We will be using Stata as the core statistical language in this course.
+    * [Spring 2022 Syllabus](/assets/docs/PAF9172-Sp22-Syllabus.pdf)
+        * [Additional Policies](/assets/docs/PAF9172-Sp22-Syllabus-Policies.pdf)
     * [Fall 2021 Syllabus](/assets/docs/PAF9172-Fa21-Syllabus.pdf)
       * [Additional Policies](/assets/docs/PAF9172-Fa21-Syllabus-Policies.pdf)
     * [Spring 2021 Syllabus](/assets/docs/PAF9172-Sp21-Syllabus.pdf)
@@ -156,11 +162,15 @@ In the spring of 2017, I started occasionally teaching in the [Master of Science
 *   **MSA 600 Foundations of Research Methods in Administration** This course covers the basic research process starting with the scientific method, lit reviews, data collection, analysis, through to research writing. Through this course, a student is well-prepared to design and complete a research project in a government or business setting.
     *   [Spring 2017 Syllabus](/assets/docs/MSA600-Syllabus-Spring2017.pdf)
 *   **MSA 607 Program Management in Complex Organizations** This course is a unique course that looks beyond standard project management and looks at the interrelationships of projects inside large and diversified organizations.
+    *   [Fall 2022 Syllabus](/assets/docs/MSA607-Syllabus-Fall2022.pdf)
+    *   [Spring 2022 Syllabus](/assets/docs/MSA607-Syllabus-Spring2022.pdf)
     *   [Spring 2021 Syllabus](/assets/docs/MSA607-Syllabus-Spring2021.pdf)
     *   [Spring 2020 Syllabus](/assets/docs/MSA607-Syllabus-Spring2020.pdf)
     *   [Fall 2019 Syllabus](/assets/docs/MSA607-Syllabus-Fall2019.pdf)
     *   [Spring 2019 Syllabus](/assets/docs/MSA607-Syllabus-Spring2019.pdf)
 *   **MSA 647 People and Project Administration** This course introduces the nontechnical side of project management. It focuses on communication, principally with stakeholders and within the project team. From this course, students should be able to manage project risk better from a personnel standpoint.
+    *   [Fall 2022 Syllabus](/assets/docs/MSA647-Syllabus-Fall2022.pdf)
+    *   [Spring 2022 Syllabus](/assets/docs/MSA647-Syllabus-Spring2022.pdf)
     *   [Fall 2020 Syllabus](/assets/docs/MSA647-Syllabus-Fall2020.pdf)
     *   [Summer 2020 Syllabus](/assets/docs/MSA647-Syllabus-Summer2020.pdf)
     *   [Spring 2020 Syllabus](/assets/docs/MSA647-Syllabus-Spring2020.pdf)
