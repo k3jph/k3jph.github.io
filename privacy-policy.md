@@ -29,7 +29,7 @@ should be accurate, complete, and up-to-date.
 *   I will protect personal information by using reasonable security
 safeguards against loss or theft, as well as unauthorized access,
 disclosure, copying, use or modification.
-*   I will make reaily available to customers information about
+*   I will make readily available to customers information about
 our policies and practices relating to the management of personal
 information.
 *   I will only retain personal information for as long as necessary
