@@ -9,7 +9,7 @@ tc-thumb-fld:
   - 'a:2:{s:9:"_thumb_id";s:4:"2379";s:11:"_thumb_type";s:5:"thumb";}'
 dsq_thread_id:
   - "4004153575"
-image: /assets/images/Virtual-Bumblebees-MathFest2015-Cover-600x400.png
+image: /assets/images/Virtual-Bumblebees-MathFest2015-Cover.png
 categories:
   - Blog
 tags:
