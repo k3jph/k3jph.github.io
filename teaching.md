@@ -141,7 +141,7 @@ Finally, I have taught courses from our statistics program. We are now down to j
 
 For the fall of 2022, I was invited to teach in the the [University of New Mexico master of public administration program](https://spa.unm.edu/).
 
-*   **PADM 503 Research Methods II: Data Analysis** This course covers advanced statistics with a specific application to public management. One interesting feature of this course is an explicit Stata knowledge requirement.
+*   **PADM 596 Research Methods II: Data Analysis** This course covers advanced statistics with a specific application to public management. One interesting feature of this course is an explicit Stata knowledge requirement.
     * [Fall 2022 Syllabus](/assets/docs/PADM596-Syllabus-Fall2022.pdf)
 
 ### Baruch College
