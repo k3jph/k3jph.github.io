@@ -11,71 +11,40 @@ menu-label:     Teaching
 ---
 
 Teaching is the opportunity to share the joy and passion of the
-material with others who might engage it.  In the classroom, my
-first goal is to extend to my students an intuitive understanding
-of the material.  As students approach economics and the underlying
-mathematics, some are easily intimidated and retreat from participation
-and learning.  Hands-on instruction is an effective approach for
-reaching that intuitive understanding, but not always practical.
+material with others who might engage in it.  My goal is to connect
+the students and the material through familiar applications showing
+the value of lifelong application.  Working with students to see
+the material as something they will use every day, and probably are
+without knowing it, gives them the motivation to live the material.
 
-I began teaching with the University of Maryland Global Campus in
-undergraduate mathematics and statistics. My belief that mathematics
-is a fundamental life skill, on par with reading and writing, has
-earned me a reputation as a "math evangelist." Working principally
-with online students, it is difficult to provide students with the
-feedback necessary to support and nurture a healthy mathematical
-skill set. I tried several approaches to work with students settling
-on developing a number of custom interactive tools using
-[Wolfram\|Alpha](http://www.wolframalpha.com) and computable documents
-to use directly in our digital classroom.  These provide manipulable
-examples of many college algebra and business mathematics concepts
-and encourage the intuitive understanding that comes from hands-on
-learning.  These have been well received by both students and my
-fellow faculty leading me to present them at the 2014 Joint
-Mathematics Meeting.  Later, I
-co-edited a book called _[Teaching and Learning Mathematics
-Online](/tlmo)_, where we collected together ideas, skills, and
-tools to make teaching mathematics online better.
-
-At the opposite extreme, I have also taught graduate public management
-courses for several schools, most notably at [Baruch College at the
-City University of New York](https://marxe.baruch.cuny.edu/) and
-[Central Michigan
-University](https://www.cmich.edu/program/master-of-science-administration).
-My first experience, though, was at the [University of
-Baltimore](https://www.ubalt.edu/cpa/graduate-programs-and-certificates/degree-programs/master-of-public-administration/).
-In my first two semesters, I used a research project, culminating
-in a paper where the students had to explore the financial or
-economic effects of a policy or program that interests them.
-Research-based learning is excellent for methodological instruction
+I learned the value of this connection by teaching at the University
+of Baltimore. In my first two semesters, I used a research project,
+culminating in a paper where the students had to explore the financial
+or economic effects of a policy or program that interests them.
+Research-based learning is excellent for methodological instruction,
 and this has encouraged them to understand that finances and economics
 underlie much policy.
 
-However, I want to take my instruction outside the classroom.  So
+However, I wanted to take my instruction outside the classroom. So
 I led my graduate students as they applied their learning to make
-Baltimore a better place.  One semester, in a financial management
-class, my students started a nonprofit from scratch.  Most of an
+Baltimore a better place. One semester, in a financial management
+class, my students started a nonprofit from scratch. Most of an
 organization's startup is in financial management and accounting.
 For a nonprofit, the start-up phase also includes managing tax-exempt
 status, a nontrivial task. For many students, this service activity
 will be the biggest community leadership opportunity they have had.
 I was fortunate to have the department's support and encouragement
 in this unconventional approach to teaching financial management.
-Another semester, in a public finance course, my students analyzed
-policies on nutrition and health as part of a University-wide
-thematic focus on food deserts in Baltimore.
 
 In all of my classes, I like to use specific examples from the real
 world to connect the material to their life. In an undergraduate
 mathematics course, this may involve something as common as
-measurements for cooking, or an analysis of a baseball player, a
+measurements for cooking or an analysis of a baseball player, a
 popular topic in business mathematics. For graduate students, that
-may involve putting a slide from my dissertation research on the
-screen to show how pricing nonmarket goods can work outside of a
-contrived example. Regardless, my goal is to connect the students
-and the material through familiar applications showing the value
-of lifelong application.
-
+may involve taking their own work and life and putting it into the
+material.  From a student running a transformation project at their
+job to one planning a wedding, the connections exist when you look
+for them.
 
 ## Mathematics
 
