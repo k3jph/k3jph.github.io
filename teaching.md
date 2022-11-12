@@ -41,7 +41,7 @@ world to connect the material to their life. In an undergraduate
 mathematics course, this may involve something as common as
 measurements for cooking or an analysis of a baseball player, a
 popular topic in business mathematics. For graduate students, that
-may involve taking their own work and life and putting it into the
+may involve taking their work and life and putting it into the
 material.  From a student running a transformation project at their
 job to one planning a wedding, the connections exist when you look
 for them.
