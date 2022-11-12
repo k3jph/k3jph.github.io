@@ -10,22 +10,24 @@ menu2-label:   Disclosure Statement
 ---
 I am a member of the senior professional staff at the Johns Hopkins
 University Applied Physics Laboratory, LLC, a university-affiliated
-research center and division of the Johns Hopkins University.
-In addition, I am a member of the adjunct faculty at Central Michigan
-University, the City University of New York, the University of 
-Maryland Global Campus, and the University of New Mexico.  I am the 
-sole member of Riave LLC.
+research center and division of the Johns Hopkins University.  In
+addition, I am a member of the adjunct faculty at Central Michigan
+University, the University of Maryland Global Campus, and the
+University of New Mexico.  I am the sole member of Riave LLC.
 
-I currently hold a commission from the State of Maryland in the 
+I am currently a series editor at Chapman & Hall/CRC Press and
+associate editor at _Military Operations Research_.
+
+I currently hold a commission from the State of Maryland in the
 Maryland Defense Force.
 
-In the last three years, I have been employed by the Pennsylvania
-State University, received extramural research support from the
-Extreme Science and Engineering Discovery Environment, sponsored
-by the National Science Foundation, and the Open Science Grid
-Consortium, also sponsored by the National Science Foundation.  I
-have also held appointments from the Howard County, Maryland,
-government.
+In the last three years, I have been employed by the City University
+of New York, the Pennsylvania State University, received extramural
+research support from the Extreme Science and Engineering Discovery
+Environment, sponsored by the National Science Foundation, and the
+Open Science Grid Consortium, also sponsored by the National Science
+Foundation.  I have also held appointments from the Howard County,
+Maryland, government.
 
 Finally, I have published books with Chapman & Hall/CRC Press,
 Springer Nature, and Steve Jackson Games Incorporated.
