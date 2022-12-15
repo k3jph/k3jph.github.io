@@ -17,8 +17,8 @@ tags:
 
 Last year, I was working with a set of LEDs that are kind of dead
 common WS2818B LED assemblies.  These are available on
-[Amazon](https://www.amazon.com/s?k=ws2812b),
-[Aliexpress](https://www.aliexpress.com/wholesale?catId=0&SearchText=ws2812b),
+[Amazon](https://www.amazon.com/s?k=ws2818b),
+[Aliexpress](https://www.aliexpress.com/wholesale?catId=0&SearchText=ws2818b),
 and pretty much any other electronics retailer.  If you are buying
 programmable LEDs, odds on it is WS2818B.  And there's a good reason
 for that.  They are dirt cheap and supposedly easy to work with.
@@ -31,8 +31,8 @@ works like this:
 
 1.  Assume you have some fixed number of LEDs.  We'll call that number $$n$$.
 2.  For the first LED, you send 24 bits of data to it, representing an [RGB value](https://www.rapidtables.com/web/color/RGB_Color.html).
-    1. To send a 1, first raise the WS2828B's data input high for 580 to 1600ns.  Then set the input low for 220 to 420ns.
-    2. To send a 0, first raise the WS2828B's data input high for 220 to 380ns.  Then set the input low for 580 to 1600ns.
+    1. To send a 1, first raise the WS2818B's data input high for 580 to 1600ns.  Then set the input low for 220 to 420ns.
+    2. To send a 0, first raise the WS2818B's data input high for 220 to 380ns.  Then set the input low for 580 to 1600ns.
     3. Loop this step for each LED up to $$n$$.
 3.  To reset and address the first LED again, set the input low for more than 2800ms, then go back to the first step.
 
