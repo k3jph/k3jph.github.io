@@ -25,7 +25,7 @@ proven to be a controversial and unreliable tool for managing the
 government's finances, and there is a long-standing debate over
 whether it is necessary or whether it should be eliminated.
 
-# A Quick History
+## A Quick History
 
 The debt ceiling has a long and tumultuous history in the United
 States. It was first [introduced in 1917 to fund U.S. involvement
@@ -60,7 +60,7 @@ ceiling and avoid default. Still, the [damage to the U.S. economy
 and the country's reputation](https://www.gao.gov/products/gao-12-701)
 had already been done.
 
-# Why It's Broken
+## Why It's Broken
 
 The debt ceiling has several negative consequences that make it a
 risky and potentially damaging tool for managing the government's
@@ -92,7 +92,7 @@ This can undermine the credibility of the U.S. government on the
 global stage and damage its reputation as a reliable financial
 partner.
 
-# Doing it Better
+## Doing it Better
 
 Given the negative consequences of the debt ceiling, it is important
 to consider alternative approaches to fiscal responsibility that
@@ -131,7 +131,7 @@ transparent and accountable, as they involve the participation of
 Congress and the President in the development and implementation
 of fiscal policy.
 
-# Conclusion
+## Conclusion
 
 The debt ceiling has proven to be an unreliable and potentially
 damaging tool for managing the government's finances. It has a long
