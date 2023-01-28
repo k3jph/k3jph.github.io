@@ -5,7 +5,7 @@ date: 2023-01-28T10:37:07-04:00
 author: k3jph
 layout: post
 permalink: /2023/01/28/time-come-incorporate-columbia
-image: /assets/images/time-come-incorporate-columbia.png
+image: /assets/images/time-come-incorporate-columbia.jpg
 categories:
 - Blog 
 tags:
