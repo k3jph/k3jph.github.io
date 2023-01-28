@@ -71,7 +71,7 @@ would give it more control over the development of the community.
 For decades, the development and management of Columbia has had a
 thumb on the scale from outside Columbia.  Key boards, like the
 [Board of
-Appeals](https://cc.howardcountymd.gov/Zoning-Land-Use/Board-of-Appeals)
+Appeals](https://cc.howardcountymd.gov/Zoning-Land-Use/Board-of-Appeals)[^1]
 and [Planning
 Board](https://www.howardcountymd.gov/boards-commissions/planning-board),
 often have a majority of members appointed from outside Columbia.
@@ -86,7 +86,6 @@ more control over their community and provide the community with
 more autonomy and flexibility. It is time for Columbia to take the
 next step and become a city.
 
-[^1]: I served on the [Board of Appeals](/service/howard-county)
-from 2011 to 2021.
+[^1]: I served on the [Board of Appeals](/service/howard-county) from 2011 to 2021.
 
 _Image by [Famartin / Wikimedia](https://commons.wikimedia.org/wiki/File:2019-08-07_08_56_34_View_south_along_U.S._Route_29_%28Columbia_Pike%29_at_Exit_20B_%28Columbia_Town_Center%29_in_Columbia,_Howard_County,_Maryland.jpg)._
