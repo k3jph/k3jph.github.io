@@ -88,3 +88,5 @@ next step and become a city.
 
 [^1]: I served on the [Board of Appeals](/service/howard-county)
 from 2011 to 2021.
+
+_Image by [Famartin / Wikimedia](https://commons.wikimedia.org/wiki/File:2019-08-07_08_56_34_View_south_along_U.S._Route_29_%28Columbia_Pike%29_at_Exit_20B_%28Columbia_Town_Center%29_in_Columbia,_Howard_County,_Maryland.jpg)._
