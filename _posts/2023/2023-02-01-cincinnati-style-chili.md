@@ -28,7 +28,7 @@ tournament.
 
 The youngest kids play five half-hour matches over five or six
 hours.  Since the kids only play for about half that time, they
-spend a lot of it running around.  A bunch play chess against each
+spend a lot of it running around.  A bunch play chess against each other
 for practice.  Others hit the basketball courts.  Some grab a snack.
 Regardless of what type of parent you are, you've self-segregated
 by school.  Even among the chess parents, the class differences are
