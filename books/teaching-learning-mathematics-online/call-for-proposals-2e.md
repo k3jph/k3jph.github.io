@@ -121,7 +121,7 @@ and chapter template will be available to accepted authors.
 Inquiries may be forwarded electronically to:
 
 *   James P. Howard, II <[james.howard@jhu.edu](mailto:james.howard@jhu.edu)>
-*   John F. Beyers <[john.beyers@umgc.edu](john.beyers@umgc.edu)>
+*   John F. Beyers <[john.beyers@umgc.edu](mailto:john.beyers@umgc.edu)>
 
 Updates and further information available at
 [https://jameshoward.us/tlmo/cfp2e](https://jameshoward.us/tlmo/cfp2e).
