@@ -38,7 +38,7 @@ of _TLMO_.
 
 ## Objectives of the Book
 
-The objective of TLMO is to provide a set of practice standards for
+The objective of _TLMO_ is to provide a set of practice standards for
 educators teaching mathematics and statistics in the online and
 hybrid environments. The text will present sound methods for
 delivering mathematical content to students grounded in both the
