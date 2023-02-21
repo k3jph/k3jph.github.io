@@ -5,7 +5,7 @@ date: 2023-02-20T19:00:00-04:00
 author: James Howard
 layout: page
 guid: tlmo-cfp-2e
-permalink: /teaching-learning-mathematics-online/second-edition-for-call-proposals
+permalink: /teaching-learning-mathematics-online/second-edition-call-for-proposals
 redirect_from:
   - /tlmo/cfp2e/
   - /books/tlmo/cfp2e/
