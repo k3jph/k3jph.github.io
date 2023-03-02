@@ -15,39 +15,39 @@ redirect_from:
    cap="Me at the 2017 Howard County Library Evening in the Stacks" %}
 
 [I am a scientist](https://pages.jh.edu/jhowar54) at the [Johns
-Hopkins Applied Physics Laboratory](http://www.jhuapl.edu/).
-Previously, I have been a consultant to numerous government agencies,
-including the Securities and Exchange Commission, the Executive
-Office of the President, and the United States Department of Homeland
-Security, and worked for the Board of Governors of the Federal
-Reserve System as an internal consultant on scientific computing.
-I am a passionate educator, teaching mathematics and statistics at
-the University of Maryland Global Campus since 2010, and I have
-taught public affairs at [Baruch
+Hopkins Applied Physics Laboratory](http://www.jhuapl.edu/). and a
+consultant to various government agencies, including the Securities
+and Exchange Commission, the Executive Office of the President, and
+the United States Department of Homeland Security. In my previous
+role, I served as an internal consultant on scientific computing
+for the Board of Governors of the Federal Reserve System.
+
+Alongside my professional work, I have a strong passion for teaching
+and have been teaching mathematics and statistics at the University
+of Maryland Global Campus since 2010. I have also taught public
+affairs at several institutions, including [Baruch
 College](https://blogs.baruch.cuny.edu/jameshoward/), [Central
 Michigan University](https://blogs.cmich.edu/howarjp1/), [Penn
 State](https://sites.psu.edu/jameshoward/), the [University of New
 Mexico](https://jphoward.people.unm.edu/), and the University of
 Baltimore.
 
-I am fortunate to [play in everyone else's backyard](/scholarship).
-My most recent work has modeled the spread of infectious respiratory
-diseases and Ebolavirus, predicted global disruptive events,
-researched using blockchain for government services, and created
-devices for rescuing victims of building collapse. I have written [two
-books](/books/) on my work and co-edited two more.
+I consider myself [fortunate to have played a part in many innovative
+projects throughout my career](/scholarship), which include modeling
+the spread of infectious respiratory diseases and Ebolavirus,
+predicting global disruptive events, researching blockchain for
+government services, and designing devices to rescue victims of
+building collapse. I've also authored [two books](/books/) on my
+work and co-edited two more.
 
-In my spare time, I have served [Howard County,
-Maryland](/service/howard-county), as a member of the Board of
-Appeals and Charter Review Commission and the [Watershed Stewards
-Academy Advisory Committee](http://howardwsa.org/) of the [University
-of Maryland Extension](https://extension.umd.edu/howard-county).
-Prior volunteer experience also includes providing economic advice
+In my free time, I'm an active member of my community, having served
+[Howard County, Maryland](/service/howard-county) in various roles
+including as a member of the Board of Appeals and Charter Review
+Commission. I've also volunteered my time providing economic advice
 to the [Columbia Association](http://www.columbiaassociation.com/),
 establishing an alumni association for the [College Park Scholars
 Program](https://www.scholars.umd.edu/) at the University of Maryland,
-and serving on numerous public and private boards.
-
+and serving on several public and private boards.
 
 ## Education
 
