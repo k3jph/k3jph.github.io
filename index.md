@@ -37,7 +37,7 @@ projects throughout my career](/scholarship), which include modeling
 the spread of infectious respiratory diseases and Ebolavirus,
 predicting global disruptive events, researching blockchain for
 government services, and designing devices to rescue victims of
-building collapse. I've also authored [two books](/books/) on my
+building collapse. I have also authored [two books](/books/) on my
 work and co-edited two more.
 
 In my free time, I'm an active member of my community, having served
