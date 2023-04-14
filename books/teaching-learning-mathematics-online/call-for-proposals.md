@@ -12,8 +12,8 @@ redirect_from:
 
 * Proposal Submission Deadline: September 30, 2017
 * Editors: 
-    * James P. Howard, II (Johns Hopkins University Applied Physics Laboratory)
-    * John F. Beyers (University of Maryland University College)
+    * James P. Howard, II
+    * John F. Beyers
 
 ## Introduction
 

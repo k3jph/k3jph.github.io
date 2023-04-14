@@ -13,8 +13,8 @@ redirect_from:
 
 * Proposal Submission Deadline: March 31, 2023 
 * Editors:
-  * James P. Howard, II (The Johns Hopkins University) 
-  * John F. Beyers (University of Maryland Global Campus)
+  * James P. Howard, II
+  * John F. Beyers 
 
 ## Introduction
 
