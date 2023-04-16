@@ -12,19 +12,20 @@ redirect_from:
 {% include figure.html image="mddf-dui.png" placement="right" width="35%"
 alt="Maryland Defense Force distinctive unit insignia" %}
 
-As a captain in the Maryland Defense Force (MDDF), I am proud to
-serve as a member of this highly trained and dedicated force. The
-MDDF is a volunteer military organization that serves as a complement
-to the Maryland National Guard, providing critical support to the
-state's emergency response efforts. With a focus on disaster relief
-and other emergency services, the MDDF is a vital part of Maryland's
-emergency response capabilities.
+As a captain in the [Maryland Defense Force
+(MDDF)](https://military.maryland.gov/mddf/Pages/default.aspx), I
+am proud to serve as a member of this highly trained and dedicated
+force. The MDDF is a volunteer military organization that serves
+as a complement to the Maryland National Guard, providing critical
+support to the state's emergency response efforts. With a focus on
+disaster relief and other emergency services, the MDDF is a vital
+part of Maryland's emergency response capabilities.
 
 As a member of the MDDF, I have had the opportunity to work alongside
 other highly skilled and motivated individuals from a wide range
 of backgrounds. The MDDF is organized into several units, each with
 its own unique mission and focus. These units include medical and
-engineering, among others. each playing a critical role in supporting
+engineering, among others, each playing a critical role in supporting
 Maryland's emergency response efforts.
 
 I have had the opportunity to lead and manage teams of volunteers
