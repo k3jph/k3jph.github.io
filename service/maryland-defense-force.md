@@ -9,8 +9,77 @@ redirect_from:
   - /service/mddf/
 ---
 
+{% include figure.html image="mddf-dui.png" placement="right" width="35%"
+alt="Maryland Defense Force distinctive unit insignia" %}
 
-## Badges
+As a captain in the Maryland Defense Force (MDDF), I am proud to
+serve as a member of this highly trained and dedicated force. The
+MDDF is a volunteer military organization that serves as a complement
+to the Maryland National Guard, providing critical support to the
+state's emergency response efforts. With a focus on disaster relief
+and other emergency services, the MDDF is a vital part of Maryland's
+emergency response capabilities.
+
+As a member of the MDDF, I have had the opportunity to work alongside
+other highly skilled and motivated individuals from a wide range
+of backgrounds. The MDDF is organized into several units, each with
+its own unique mission and focus. These units include medical and
+engineering, among others. each playing a critical role in supporting
+Maryland's emergency response efforts.
+
+I have had the opportunity to lead and manage teams of volunteers
+in a variety of settings, from disaster response to training
+exercises. I have gained invaluable experience in coordinating and
+collaborating with other emergency response organizations and
+agencies, including the Maryland National Guard and the Federal
+Emergency Management Agency (FEMA).
+
+Overall, my experience in the MDDF has been incredibly rewarding
+and fulfilling. It has provided me with the opportunity to serve
+my community and my state in a meaningful way, while also developing
+important skills and knowledge that I can apply in both my personal
+and professional life.
+
+The following is a brief overview of my experience and
+accomplishments with the MDDF.
+
+## Skill Badges
+
+<div class="ribbonrack">
+<div class="ribbonbar">
+<a href="#MEMS" class="ribbon ribbon-center"><img src="/assets/images/ribbons/mddf/BMEMS.png"
+    alt="Military Emergency Management Specialist"
+    title="Military Emergency Management Specialist" /></a>
+</div>
+</div>
+
+### <a id='MEMS' />Military Emergency Management Specialist
+
+Members of the U.S. uniformed services and state guards increasingly
+have been mobilized to respond to natural and man-made disasters
+and other emergencies. Military and civilian authorities now see
+an urgent need to provide additional and improved emergency management
+training for personnel deployed during disasters. The MEMS Academy
+continues to fill that need.
+
+Individuals with Basic MEMS certificates will have operational
+understanding of the principles of emergency management, including
+mitigation, preparedness, emergency response and recovery with
+knowledge, skills, and abilities needed to effectively work within
+a comprehensive emergency management operation. Those with Senior
+and Master level certificates will be able to lead and plan incident
+response efforts of increasing complexity.
+
+The MEMS badges are awarded by the [State Guard Association of the
+United States](https://sgaus.org/) and are authorized for wear by
+MDDF members.
+
+<!-- Members with the LNO certificate will be able to work within any EOC. -->
+
+#### March 3, 2021
+
+> Awarded Basic Military Emergency Management Specialist
+
 
 ## Awards
 
@@ -181,5 +250,61 @@ The State Guard Association of United States Professional Development
 Award is awarded to active SGAUS members who complete certain
 training through the organization.  The first award is for completing
 the SGAUS Officer Basic Course and the second is for completing the
-SGAUS Officer Advanced Course.  Earned SGAUS awards are authorized
-for wear by MDDF members.
+SGAUS Officer Advanced Course.
+
+The SGAUSPDA medal is awarded by the State Guard Association of the
+United States and is authorized for wear by MDDF members.
+
+## Unit Awards
+
+<div class="ribbonrack">
+<div class="ribbonbar">
+<a href="#SGAUSSUC" class="ribbon ribbon-center"><img src="/assets/images/ribbons/mddf/SGAUSSUC.png"
+    alt="State Guard Association of United States Superior Unit Citation"
+    title="State Guard Association of United States Superior Unit Citation" /></a>
+</div>
+</div>
+
+### <a id='SGAUSSUC' />State Guard Association of United States Superior Unit Citation
+
+The Superior Unit Citation may be awarded to SGAUS members in a
+state guard/defense force unit that performed outstanding service
+in response to a riot, natural or manmade disasters, and emergencies
+to a degree beyond that normally expected, either for a sustained
+period or in a specific set circumstance. The Superior Unit Citation
+is given to foster unit esprit-de-corps by recognizing those units
+that demonstrated outstanding performance in support of the mission
+of SGAUS and the state guard/defense force.
+
+The soldiers of the Maryland Defense Force have distinguished
+themselves as a force multiplier in support of the Maryland National
+Guard's Operation Steadfast Guardian. While on state active duty
+from March 2020 to June 2020, the soldiers of the Maryland Defense
+Force provided critical support in the fight against the coronavirus
+pandemic completing all assigned tasks with efficiency and
+professionalism. Their selfless service and commitment to their
+motto "Ready when called" is indeed keeping with the finest traditions
+of the Maryland Defense Force and the Maryland Military Department.
+
+The Superior Unit Citation is awarded by the State Guard Association of the
+United States and is authorized for wear by MDDF members.
+
+#### September 15, 2001
+
+> The soldiers of the Maryland Defense Force have distinguished
+themselves as a force multiplier in support of the Maryland National
+Guard's Operation Steadfast Guardian. While on state active duty
+from March 2020 to June 2020, the soldiers of the Maryland Defense
+Force provided critical support in the fight against the coronavirus
+pandemic completing all assigned tasks with efficiency and
+professionalism. Their selfless service and commitment to their
+motto "Ready when called" is indeed keeping with the finest traditions
+of the Maryland Defense Force and the Maryland Military Department.
+
+## <a id='DatesOfRank' />Dates of Rank
+
+|        Rank       	|        Date        	|
+|:-----------------:	|:------------------:	|
+|      Captain      	| September 16, 2013 	|
+|  First Lieutenant 	|    June 20, 2011   	|
+| Second Lieutenant 	|  November 21, 2006 	|
