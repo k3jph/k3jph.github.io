@@ -14,12 +14,13 @@ redirect_from:
    alt="Me at the 2017 Howard County Library Evening in the Stacks"
    cap="Me at the 2017 Howard County Library Evening in the Stacks" %}
 
-[I am a scientist](https://pages.jh.edu/jhowar54) at the [Johns
-Hopkins Applied Physics Laboratory](http://www.jhuapl.edu/). and a
+I am a data scientist at the [Johns
+Hopkins Applied Physics Laboratory](http://www.jhuapl.edu/).
+Previously, I have been a
 consultant to various government agencies, including the Securities
 and Exchange Commission, the Executive Office of the President, and
-the United States Department of Homeland Security. In my previous
-role, I served as an internal consultant on scientific computing
+the United States Department of Homeland Security. Before that,
+I served as an internal consultant on scientific computing
 for the Board of Governors of the Federal Reserve System.
 
 Alongside my professional work, I have a strong passion for teaching
