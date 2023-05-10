@@ -10,42 +10,55 @@ menu-order:     30
 menu-label:     Teaching
 ---
 
-Teaching is the opportunity to share the joy and passion of the
-material with others who might engage in it.  My goal is to connect
-the students and the material through familiar applications showing
-the value of lifelong application.  Working with students to see
-the material as something they will use every day, and probably are
-without knowing it, gives them the motivation to live the material.
+As an educator, I strive to foster a deep love and appreciation for
+the material that I teach. To achieve this, I believe in creating
+an interactive and engaging learning environment that connects
+students to the subject matter in a meaningful and relevant way.
+My goal is to instill in students a sense of curiosity and intellectual
+curiosity that extends beyond the classroom and into their everyday
+lives.
 
-I learned the value of this connection by teaching at the University
-of Baltimore. In my first two semesters, I used a research project,
-culminating in a paper where the students had to explore the financial
-or economic effects of a policy or program that interests them.
-Research-based learning is excellent for methodological instruction,
-and this has encouraged them to understand that finances and economics
-underlie much policy.
+One of my core teaching beliefs is that students learn best by
+doing. I incorporate active learning strategies and real-world
+applications into my courses to create an immersive and hands-on
+learning experience. For example, in my financial management course,
+my graduate students started a nonprofit from scratch. By putting
+theory into practice, students gained a practical understanding of
+the financial and accounting principles necessary to launch a
+successful organization. Additionally, they developed important
+leadership and community engagement skills that will serve them
+well in their future careers.
 
-However, I wanted to take my instruction outside the classroom. So
-I led my graduate students as they applied their learning to make
-Baltimore a better place. One semester, in a financial management
-class, my students started a nonprofit from scratch. Most of an
-organization's startup is in financial management and accounting.
-For a nonprofit, the start-up phase also includes managing tax-exempt
-status, a nontrivial task. For many students, this service activity
-will be the biggest community leadership opportunity they have had.
-I was fortunate to have the department's support and encouragement
-in this unconventional approach to teaching financial management.
+I also believe in the importance of fostering a supportive and
+inclusive learning environment. As an educator, I strive to create
+a classroom culture that values diversity and encourages active
+participation from all students. I seek to understand and respond
+to the unique needs of each student to ensure that they feel heard,
+respected, and valued.
 
-In all of my classes, I like to use specific examples from the real
-world to connect the material to their life. In an undergraduate
-mathematics course, this may involve something as common as
-measurements for cooking or an analysis of a baseball player, a
-popular topic in business mathematics. For graduate students, that
-may involve taking their work and life and putting it into the
-material.  From a student running a transformation project at their
-job to one planning a wedding, the connections exist when you look
-for them.
+In my classes, I use real-world examples and case studies to
+illustrate how mathematical concepts and statistical methods can
+be applied in practical situations. This approach helps students
+to see the value of the material beyond the classroom and inspires
+them to explore the subject matter further. I encourage students
+to think critically, ask questions, and challenge assumptions to
+develop a deep and nuanced understanding of the material.
 
+Finally, I believe that education is a lifelong pursuit. As an
+educator, I see myself as a lifelong learner, always seeking out
+new knowledge and innovative teaching strategies to improve my
+practice. I encourage my students to view learning as an ongoing
+process and to continue to engage with the material long after they
+have completed my course.
+
+In summary, my teaching philosophy centers on creating an interactive
+and inclusive learning environment that connects students to the
+material in a meaningful and relevant way. By incorporating active
+learning strategies, real-world applications, and a focus on diversity
+and inclusion, I aim to inspire a lifelong love of learning in my
+students and prepare them for success in their future careers.
+
+<!--
 ## Mathematics
 
 I have taught undergraduate mathematics at the [University of Maryland Global Campus](http://www.umuc.edu) since 2010, when it was called the University of Maryland University College. UMGC's classes are primarily delivered via distance education, though some courses are "hybrid" including a weekly session on campus, usually at the University of Maryland, College Park. At UMGC, I routinely teach the introductory mathematics courses:
@@ -172,5 +185,7 @@ During the spring of 2014, the [University of Baltimore's](http://www.ubalt.edu)
 *   **PUAD 702 Public Financial Management** A discussion of public financial management, including debt management, accounting policies, performance management, and accountability. This discussion should extend beyond the introductory graduate-level course on budgeting.
     *   [Spring 2015 Syllabus](/assets/docs/PUAD702-Syllabus-2015.pdf)
     *   [Spring 2014 Syllabus](/assets/docs/PUAD702-Syllabus-2014.pdf)
+
+-->
 
 _Image by [Luke Jones](https://www.flickr.com/photos/befuddledsenses/9379803665)._
