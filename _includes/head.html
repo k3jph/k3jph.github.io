@@ -23,6 +23,9 @@
 <link rel="canonical" href="{{ page.url | absolute_url }}" />
 {% endif %}
 
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Quattrocento&family=Quattrocento+Sans&family=Oxygen+Mono" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript> <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quattrocento&family=Quattrocento+Sans&family=Oxygen+Mono"></noscript>
+
 <link rel="preload" href="{{ '/assets/css/poole.css' | absolute_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
 <noscript><link rel="stylesheet" href="{{ '/assets/css/poole.css' | absolute_url }}"></noscript>
 
@@ -34,9 +37,6 @@
 
 <link rel="preload" href="{{ '/assets/css/jameshoward.css' | absolute_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
 <noscript> <link rel="stylesheet" href="{{ '/assets/css/jameshoward.css' | absolute_url }}"></noscript>
-
-<link rel="preload" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400"></noscript>
 
 <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/feed/atom.xml' | absolute_url }}" />
 

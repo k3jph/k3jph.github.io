@@ -27,6 +27,19 @@ body {
   background-color: #fcfcfc;
 }
 
+.red-box {
+    background-color: #871717;
+    width: 50%;
+    height: 1em;
+    margin-top: -3em;
+    margin-bottom: 2em;
+}
+
+.red-bottom {
+    margin-top: -1em;
+    margin-bottom: 0px;
+}
+
 .sidebar-toggle {
   background-color: #fcfcfc;
 }
@@ -179,7 +192,9 @@ ul ul {
 }
 
 .pager {
-  font-family: fixed;
+    font-family: "Oxygen Mono", fixed;
+
+    font-family: fixed;
   text-align: center;
   position: absolute;
   left: 50px;
@@ -237,7 +252,7 @@ a[class^=jh-] {
 }
 
 .jh-Pagination-item {
-    font-family: sans-serif;
+    font-family: "Quattrocento Sans", sans-serif;
     margin-left: .3rem
 }
 
@@ -270,7 +285,7 @@ a[class^=jh-] {
     color: #fff;
     background-color: #871717;
     border-color: #871717;
-    font-family: sans-serif;
+    font-family: "Quattrocento Sans", sans-serif;
     margin-left: .3rem
 }
 

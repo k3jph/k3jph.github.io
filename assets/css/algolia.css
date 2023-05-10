@@ -3,7 +3,7 @@
  */
 
  body {
-  font-family: sans-serif;
+     font-family: "Quattrocento", serif;
   padding: 1em;
 }
 
@@ -40,7 +40,7 @@
   border: none;
   box-shadow: none;
   padding: 0;
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+    font-family: "Quattrocento", serif;
 }
 
 .ais-Hits-item img {
