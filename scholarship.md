@@ -10,29 +10,58 @@ menu-order:     10
 menu-label:     Scholarship
 ---
 
+My research philosophy centers on the use of statistical methods
+and data analysis to inform decision-making and improve public
+welfare. My work is rooted in the belief that understanding risk
+and predicting outcomes is essential for public safety and national
+security, particularly in the face of rapidly evolving challenges
+like extreme weather and global climate change.
+
 My dissertation research focused on the policy, economic, and social
 effects of the National Flood Insurance Program (NFIP) and the Flood
-Mitigation Assistance (FMA) programs. The NFIP is a $1 trillion
-Federal insurance program that provides flood insurance in the
-United States, where private flood insurance is rarely available.
-The NFIP itself is subject to risk from extreme weather and global
-climate change. Because the NFIP is a government program, it is
-ripe for policy, economic, and social welfare analysis.
+Mitigation Assistance (FMA) programs. Through this work, I gained
+a deep appreciation for the need to apply statistical methods to
+government programs and public policy issues. The NFIP, for example,
+is a $1 trillion Federal insurance program that provides flood
+insurance in the United States, where private flood insurance is
+rarely available. My research shed light on the challenges and
+opportunities presented by this program, highlighting the importance
+of effective risk management strategies.
 
-> The best thing about being a statistician is that you get
-> to play in everyone's backyard. <cite>-- John W. Tukey</cite>
+Building on this foundation, my research now spans multiple fields,
+including science, policy, and technology. I am driven by the needs
+of those around me and seek to apply statistical methods in diverse
+areas to address real-world challenges. For example, I have applied
+my expertise to analyze the risks of flood insurance, model the
+population of Earth-orbiting satellites, predict disruptive events,
+and understand small business cybersecurity. In each of these areas,
+I have sought to use my statistical training to make a meaningful
+contribution to solving complex problems.
 
-Today, I extend those core methods across science, policy, and
-technology. Understanding risk and predicting outcomes are critical
-for public safety and national security and I am fortunate to play
-in everyone else’s backyard. My research is largely driven by the
-needs of those around me. I apply statistical methods in areas as
-diverse as public health, global security, and space science. My
-most recent published scholarship has modeled the population of
-Earth-orbiting satellites, analyzed the risks of flood insurance,
-predicted disruptive events, and sought to understand small business
-cybersecurity. I have written two books on my work and have edited
-two more.
+As a researcher, I am committed to remaining agile and adaptable.
+I believe that taking a multidisciplinary approach allows me to
+make meaningful contributions to a variety of fields and to tackle
+complex problems from multiple angles. By collaborating with experts
+from different disciplines, I have been able to expand my own
+understanding and explore new areas of inquiry.
+
+One of the key values that underlies my work is the importance of
+disseminating research findings to a broad audience. I believe that
+sharing knowledge and promoting interdisciplinary collaboration is
+essential to advancing scientific understanding and achieving
+practical solutions to real-world problems. To this end, I have
+authored several books and edited volumes on my work, and I actively
+seek out opportunities to engage with researchers, policymakers,
+and the public at large.
+
+Ultimately, my research philosophy centers on using data-driven
+analysis and critical thinking to support evidence-based decision-making
+and improve public welfare. By applying statistical methods to a
+wide range of issues, I hope to contribute to a more comprehensive
+understanding of the world around us and to make a positive impact
+on society. Whether working on issues related to public health,
+global security, or space science, I am dedicated to advancing
+knowledge and using it to create positive change in the world.
 
 ## Publications and Presentations 
 
