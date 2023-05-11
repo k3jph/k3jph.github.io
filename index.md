@@ -26,12 +26,9 @@ for the Board of Governors of the Federal Reserve System.
 Alongside my professional work, I have a strong passion for teaching
 and have been teaching mathematics and statistics at the University
 of Maryland Global Campus since 2010. I have also taught public
-affairs at several institutions, including [Baruch
-College](https://blogs.baruch.cuny.edu/jameshoward/), [Central
-Michigan University](https://blogs.cmich.edu/howarjp1/), [Penn
-State](https://sites.psu.edu/jameshoward/), the [University of New
-Mexico](https://jphoward.people.unm.edu/), and the University of
-Baltimore.
+affairs at several institutions, including the City University of
+New York and the 
+[University of New Mexico](https://jphoward.people.unm.edu/).
 
 I consider myself [fortunate to have played a part in many innovative
 projects throughout my career](/scholarship), which include modeling
