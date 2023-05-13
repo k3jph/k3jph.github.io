@@ -81,7 +81,6 @@ MDDF members.
 
 > Awarded Basic Military Emergency Management Specialist
 
-
 ## Awards
 
 <!-- Make images at http://www.ultimaterack.ajandj.com/index.php/ribbon-creator -->
@@ -276,16 +275,6 @@ period or in a specific set circumstance. The Superior Unit Citation
 is given to foster unit esprit-de-corps by recognizing those units
 that demonstrated outstanding performance in support of the mission
 of SGAUS and the state guard/defense force.
-
-The soldiers of the Maryland Defense Force have distinguished
-themselves as a force multiplier in support of the Maryland National
-Guard's Operation Steadfast Guardian. While on state active duty
-from March 2020 to June 2020, the soldiers of the Maryland Defense
-Force provided critical support in the fight against the coronavirus
-pandemic completing all assigned tasks with efficiency and
-professionalism. Their selfless service and commitment to their
-motto "Ready when called" is indeed keeping with the finest traditions
-of the Maryland Defense Force and the Maryland Military Department.
 
 The Superior Unit Citation is awarded by the State Guard Association of the
 United States and is authorized for wear by MDDF members.
