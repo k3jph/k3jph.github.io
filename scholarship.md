@@ -10,58 +10,67 @@ menu-order:     10
 menu-label:     Scholarship
 ---
 
-My research philosophy centers on the use of statistical methods
-and data analysis to inform decision-making and improve public
-welfare. My work is rooted in the belief that understanding risk
-and predicting outcomes is essential for public safety and national
-security, particularly in the face of rapidly evolving challenges
-like extreme weather and global climate change.
+My research philosophy is firmly grounded in the use of statistical
+methods and data analysis to inform decision-making and enhance
+public welfare. I strongly believe that a thorough understanding
+of risk and the ability to predict outcomes are crucial for ensuring
+public safety and national security, particularly in the face of
+complex challenges such as extreme weather events and the far-reaching
+impact of global climate change.
 
-My dissertation research focused on the policy, economic, and social
-effects of the National Flood Insurance Program (NFIP) and the Flood
-Mitigation Assistance (FMA) programs. Through this work, I gained
-a deep appreciation for the need to apply statistical methods to
-government programs and public policy issues. The NFIP, for example,
-is a $1 trillion Federal insurance program that provides flood
-insurance in the United States, where private flood insurance is
-rarely available. My research shed light on the challenges and
-opportunities presented by this program, highlighting the importance
-of effective risk management strategies.
+Throughout my academic journey, my dissertation research focused
+on investigating the policy, economic, and social implications of
+the National Flood Insurance Program (NFIP) and the Flood Mitigation
+Assistance (FMA) programs. This in-depth exploration underscored
+the significance of applying statistical methods to government
+initiatives and public policy matters. By delving into the complexities
+of the NFIP, a Federal insurance program with a staggering $1
+trillion coverage, which provides flood insurance in regions where
+private alternatives are scarce, my research shed light on the
+inherent challenges and opportunities associated with such programs.
+The findings emphasized the critical importance of effective risk
+management strategies in mitigating the impact of floods.
 
-Building on this foundation, my research now spans multiple fields,
-including science, policy, and technology. I am driven by the needs
-of those around me and seek to apply statistical methods in diverse
-areas to address real-world challenges. For example, I have applied
-my expertise to analyze the risks of flood insurance, model the
-population of Earth-orbiting satellites, predict disruptive events,
-and understand small business cybersecurity. In each of these areas,
-I have sought to use my statistical training to make a meaningful
-contribution to solving complex problems.
+Building upon this foundational research, my work has evolved to
+span multiple disciplines, including science, policy, and technology.
+Guided by the needs of those around me, I actively seek opportunities
+to apply statistical methods in diverse areas to address real-world
+challenges. My expertise has been instrumental in conducting risk
+analyses of flood insurance, developing models to track and forecast
+the population of Earth-orbiting satellites, predicting disruptive
+events, and advancing our understanding of small business cybersecurity.
+In each of these domains, my aim has been to leverage statistical
+training and methodologies to make meaningful contributions towards
+solving complex problems.
 
-As a researcher, I am committed to remaining agile and adaptable.
-I believe that taking a multidisciplinary approach allows me to
-make meaningful contributions to a variety of fields and to tackle
-complex problems from multiple angles. By collaborating with experts
-from different disciplines, I have been able to expand my own
-understanding and explore new areas of inquiry.
+As a researcher, I embrace agility and adaptability. I firmly believe
+that adopting a multidisciplinary approach enables me to make
+significant contributions across various fields and tackle intricate
+issues from multiple perspectives. By actively collaborating with
+experts from different disciplines, I continually expand my knowledge
+and explore new avenues of inquiry.
 
-One of the key values that underlies my work is the importance of
-disseminating research findings to a broad audience. I believe that
-sharing knowledge and promoting interdisciplinary collaboration is
-essential to advancing scientific understanding and achieving
-practical solutions to real-world problems. To this end, I have
-authored several books and edited volumes on my work, and I actively
-seek out opportunities to engage with researchers, policymakers,
-and the public at large.
+The value of disseminating research findings to a wide audience is
+deeply ingrained in my work. I am passionate about sharing knowledge
+and fostering interdisciplinary collaboration to advance scientific
+understanding and generate practical solutions for real-world
+problems. My dedication to this principle is evident in my authorship
+of books and edited volumes, which serve to make research accessible
+to diverse audiences. Moreover, I actively seek opportunities to
+engage with fellow researchers, policymakers, and the general public
+to promote dialogue, foster innovation, and drive positive societal
+change.
 
-Ultimately, my research philosophy centers on using data-driven
-analysis and critical thinking to support evidence-based decision-making
-and improve public welfare. By applying statistical methods to a
-wide range of issues, I hope to contribute to a more comprehensive
-understanding of the world around us and to make a positive impact
-on society. Whether working on issues related to public health,
-global security, or space science, I am dedicated to advancing
-knowledge and using it to create positive change in the world.
+In essence, my research philosophy revolves around the application
+of data-driven analysis and critical thinking to support evidence-based
+decision-making and enhance public welfare. Through the application
+of statistical methods to a wide range of issues, I am committed
+to cultivating a comprehensive understanding of the world and making
+a positive impact on society. Whether addressing public health
+concerns, global security challenges, or advancements in space
+science, my unwavering dedication to advancing knowledge and utilizing
+it to effect meaningful change drives me to contribute to a better
+future for all.
 
 ## Publications and Presentations 
 
