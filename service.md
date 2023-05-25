@@ -10,61 +10,80 @@ menu-order:     35
 menu-label:     Service
 ---
 
-Service and scholarship intertwine and have fed each other in my
-academic and public service careers. I selected the University of
-Baltimore MPA program after volunteering for the [Columbia
-Association's](http://www.columbiassociation.org) budget committee
-in 2004. Our work on the effects of budget changes on the organization
-led me to want to learn more. I followed the MPA with a PhD and
-during this time, focused on numerous land use issues. After 2010,
-I would leave the Columbia Association’s advisory groups but also
-served on the [Howard County](http://cc.howardcountymd.gov/) Public
-Engagement in Land Use Planning Task Force and later the Howard
-County Board of Appeals, the quasi-judicial land use decision-making
-body. The common focus on land use and finance has fit well with
-my academic and research pursuits in flood insurance and program
-evaluation.
+Throughout my academic and public service careers, I have been
+driven by the intertwined principles of service and scholarship,
+recognizing the inherent value and symbiotic relationship between
+the two. This perspective has shaped my approach to education,
+research, and community engagement.
 
-In addition to community service, supporting the profession and the
-institution are important. I served on the [Maryland Chapter Council
-of the American Society for Public
-Administration](http://scpp.ubalt.edu/~ASPA/) from 2011 to 2016. I
-successfully planned our annual conference and awards program in
-2012, connecting our public administrators to professionals in
-disaster management, environmental economics, public health, and
-other fields. I would later serve a year as chapter president.
+My journey in public administration began with volunteering for the
+[Columbia Association's](http://www.columbiassociation.org) budget
+committee in 2004. This hands-on experience allowed me to witness
+firsthand the impact of budget decisions on the organization.
+Intrigued by the complexities of public finance, I pursued a Master
+of Public Administration (MPA) at the University of Baltimore. This
+educational pursuit provided me with a solid foundation in understanding
+the intricate relationship between budgeting, policy, and program
+implementation.
 
-As an adjunct, it is difficult to serve the institution. However,
-at the University of Maryland Global Campus, I participated in the
-Learning Management System Selection Project and as an alumnus of
-University of Maryland, College Park, I worked with University of
-Maryland leaders to establish the [College Park Scholars Alumni
-Association](http://alumni.umd.edu/s/1132/index.aspx?sid=1132&gid=1&pgid=1256).
-In addition, as an adjunct at the University of Baltimore, I gave
-a talk at the UB annual teaching and learning day on how to manage
-a course or research project using state of the art agile management
-tools.
+Eager to delve deeper into the field, I continued my academic journey
+by pursuing a Ph.D. in Public Policy, focusing on various land use
+issues. This research trajectory aligned seamlessly with my passion
+for examining the implications of flood insurance and evaluating
+program effectiveness. By exploring the intersections of policy,
+economics, and social welfare, I aimed to contribute to evidence-based
+decision-making and the improvement of public well-being.
 
-It is important, as part of my service agenda, to reach out to the
-public when possible. I have written two pieces for _The Conversation_,
-one on the [unsustainability of the National Flood Insurance
+While immersing myself in academia, I recognized the importance of
+community service and actively sought opportunities to make meaningful
+contributions beyond the confines of the classroom. Serving on the
+[Howard County](http://cc.howardcountymd.gov/) Public Engagement
+in Land Use Planning Task Force and later on the Howard County Board
+of Appeals allowed me to contribute to the development of land use
+policies and decisions. These experiences deepened my understanding
+of the challenges faced by communities and reinforced the need for
+informed and inclusive decision-making processes.
+
+In addition to my commitment to community service, I have dedicated
+myself to supporting the profession and institutions that have
+nurtured my growth. As a member of the Maryland Chapter Council of
+the American Society for Public Administration, I played an active
+role in organizing our annual conference and awards program. By
+fostering connections between public administrators and professionals
+from diverse fields, I aimed to create opportunities for collaboration
+and knowledge sharing.
+
+As an adjunct faculty member, I have strived to serve the institutions
+I have been associated with. At the University of Maryland Global
+Campus, I actively participated in the Learning Management System
+Selection Project, contributing my insights to shape the educational
+technology landscape. Leveraging my status as an alumnus of the
+University of Maryland, College Park, I collaborated with university
+leaders to establish the [College Park Scholars Alumni
+Association](http://alumni.umd.edu/s/1132/index.aspx?sid=1132&gid=1&pgid=1256),
+fostering a vibrant community of scholars and practitioners.
+
+Recognizing the importance of engaging with the wider public, I
+have sought avenues to share my expertise and insights beyond
+academic circles. Writing articles for _The Conversation_, I have
+addressed pressing issues such as the [unsustainability of the
+National Flood Insurance
 Program](https://theconversation.com/texas-floods-highlight-need-to-reform-key-insurance-program-42235)
-and one on the [Congressional debate over the Export-Import Bank
-of the United
+and the [debates surrounding the Export-Import Bank of the United
 States](https://theconversation.com/why-congress-should-keep-the-imperiled-export-import-bank-42234).
-I have also given talks through the Ignite series, explaining the
-myth behind the Defense Department's purchase of a $435 hammer and
-describing Maryland's stormwater management problem. Finally, and
-also related to my [teaching agenda](/teaching), I recently gave a
-talk through the Data Community DC organization on the computational
-methods underlying our key statistical tools.
+Through Ignite series talks, I have debunked misconceptions and
+shed light on complex challenges, ranging from the Defense Department's
+infamous $435 hammer to Maryland's stormwater management problem.
 
-I firmly believe our role as educators is not limited to our enrolled
-students. Communicating our work to the public is critical to
-ensuring our results are valued, used, and critical policy decisions
-reflect our latest findings. Working with the public to assist them
-in understanding the world around them is the highest calling we
-can have.
+As an educator, I firmly believe that our responsibility extends
+beyond the boundaries of the classroom. Effective communication of
+our work to the public is paramount in ensuring its impact and
+relevance. By engaging with the public and fostering understanding,
+we empower individuals to make informed decisions and shape policies
+that reflect the latest research findings. Embracing this service
+philosophy, I am committed to bridging the gap between academia and
+the broader community, leveraging my expertise to contribute to a
+more informed and equitable society.
 
 ## Howard County, Maryland
 
