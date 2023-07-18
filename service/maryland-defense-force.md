@@ -279,7 +279,7 @@ of SGAUS and the state guard/defense force.
 The Superior Unit Citation is awarded by the State Guard Association of the
 United States and is authorized for wear by MDDF members.
 
-#### September 15, 2001
+#### September 15, 2021
 
 > The soldiers of the Maryland Defense Force have distinguished
 themselves as a force multiplier in support of the Maryland National
@@ -290,6 +290,70 @@ pandemic completing all assigned tasks with efficiency and
 professionalism. Their selfless service and commitment to their
 motto "Ready when called" is indeed keeping with the finest traditions
 of the Maryland Defense Force and the Maryland Military Department.
+
+## Other Awards
+
+<div class="ribbonrack">
+<div class="ribbonbar">
+<a href="#PVSA" class="ribbon ribbon-left"><img src="/assets/images/ribbons/mddf/PVSA.png"
+    alt="President's Volunteer Service Award"
+    title="President's Volunteer Service Award" /></a>
+<a href="#CHZTM1" class="ribbon ribbon-right"><img src="/assets/images/ribbons/mddf/CHZTM1.png"
+    alt="Schweizerischer Zweitagemarsch"
+    title="Schweizerischer Zweitagemarsch" /></a>
+</div>
+</div>
+
+### <a id='PVSA' />President's Volunteer Service Award
+
+The President's Volunteer Service Award (PVSA) is a notable honor
+that celebrates individuals who have made remarkable contributions
+through volunteer service within their communities and beyond. Since
+its establishment in 2003, the PVSA has recognized the exceptional
+efforts of individuals who have dedicated their time and energy to
+selflessly serve others. Through the PVSA, recipients are commended
+for their significant commitment and the number of hours they have
+devoted to various volunteer activities. The award is divided into
+different levels - bronze, silver, gold, and the prestigious
+President's Lifetime Achievement Award - reflecting the recipients'
+outstanding contributions and their impact on improving lives and
+communities.  The PVSA serves as a meaningful recognition of these
+individuals' dedication to creating a positive difference in the
+world.
+
+The award is administered by the [Corporation for National and
+Community Service (CNCS)](https://americorps.gov/) in collaboration
+with [Points of Light](https://www.pointsoflight.org/), an organization
+devoted to promoting and acknowledging volunteerism.  It is not
+authorized for wear by MDDF members.
+
+#### April 9, 2022
+
+>  For calendar year 2021, bronze
+
+### <a id='CHZTM1' />Schweizerischer Zweitagemarsch
+
+The [Schweizerischer Zweitagemarsch](https://2tama.ch/), 
+also known as the Swiss Two Day
+March, is a renowned non-competitive walking event held annually
+in Switzerland. This event, taking place over two days, invites
+participants of all ages and fitness levels to embark on an
+invigorating journey through the picturesque Swiss countryside. The
+walk is divided into several routes of different distances, allowing
+walkers to choose a challenge that fits their abilities and endurance
+levels. In essence, the event is not just about walking but is a
+celebration of the stunning Swiss landscapes, fostering a spirit
+of camaraderie, and promoting a healthy, active lifestyle. The
+Schweizerischer Zweitagemarsch embodies the joy of movement and the
+unity of diverse people under the shared love for nature and walking,
+making it a much-anticipated event in the Swiss annual calendar.
+
+The Schweizerischer Zweitagemarsch Medal is awarded for particpating,
+with a silver helmet for the first award.  In 2023, Chase, Ducky, and
+I joined up and walked with the event.
+
+The medal is awarded by Der Verein Schweizerischer Zweitagemarsch 
+and is not authorized for wear by MDDF members.
 
 ## <a id='DatesOfRank' />Dates of Rank
 
