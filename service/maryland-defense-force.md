@@ -9,8 +9,9 @@ redirect_from:
   - /service/mddf/
 ---
 
-{% include figure.html image="mddf-dui.png" placement="right" width="35%"
-alt="Maryland Defense Force distinctive unit insignia" %}
+{% include figure.html image="mddf-dui.png" placement="right" width="40%"
+cap="The Maryland Defense Force's distinctive unit insignia"
+alt="The Maryland Defense Force's distinctive unit insignia" %}
 
 As a captain in the [Maryland Defense Force
 (MDDF)](https://military.maryland.gov/mddf/Pages/default.aspx), I
@@ -27,6 +28,10 @@ of backgrounds. The MDDF is organized into several units, each with
 its own unique mission and focus. These units include medical and
 engineering, among others, each playing a critical role in supporting
 Maryland's emergency response efforts.
+
+{% include figure.html image="mddf-ssi.png" placement="right" width="40%"
+cap="The Maryland Defense Force's shoulder sleeve insignia"
+alt="The Maryland Defense Force's shoulder sleeve insignia" %}
 
 I have had the opportunity to lead and manage teams of volunteers
 in a variety of settings, from disaster response to training
@@ -46,15 +51,15 @@ accomplishments with the MDDF.
 
 ## Skill Badges
 
-<div class="ribbonrack">
+<div class="badgerack">
 <div class="ribbonbar">
-<a href="#MEMS" class="ribbon ribbon-center"><img src="/assets/images/ribbons/mddf/BMEMS.png"
-    alt="Military Emergency Management Specialist"
-    title="Military Emergency Management Specialist" /></a>
+<a href="#SMEMS" class="ribbon ribbon-center"><img src="/assets/images/ribbons/mddf/SMEMS-Flash.png"
+    alt="Senior Military Emergency Management Specialist"
+    title="Senior Military Emergency Management Specialist" /></a>
 </div>
 </div>
 
-### <a id='MEMS' />Military Emergency Management Specialist
+### <a id='SMEMS' />Senior Military Emergency Management Specialist
 
 Members of the U.S. uniformed services and state guards increasingly
 have been mobilized to respond to natural and man-made disasters
@@ -63,19 +68,24 @@ an urgent need to provide additional and improved emergency management
 training for personnel deployed during disasters. The MEMS Academy
 continues to fill that need.
 
-Individuals with Basic MEMS certificates will have operational
-understanding of the principles of emergency management, including
-mitigation, preparedness, emergency response and recovery with
-knowledge, skills, and abilities needed to effectively work within
-a comprehensive emergency management operation. Those with Senior
-and Master level certificates will be able to lead and plan incident
-response efforts of increasing complexity.
+Individuals with Basic MEMS certificates will have an operational understanding
+of the principles of emergency management, including mitigation, preparedness,
+emergency response and recovery with the knowledge, skills, and abilities needed
+to effectively work within a comprehensive emergency management operation. Those
+with Senior and Master level certificates will be able to lead and plan incident
+response efforts of increasing complexity.  The blue MEMS flash is awarded to
+those who have been activated or mobilized for a disaster, declared emergency,
+or major event requiring the activation of the  [Incident Command
+System](https://training.fema.gov/emiweb/is/icsresource/).
 
-The MEMS badges are awarded by the [State Guard Association of the
-United States](https://sgaus.org/) and are authorized for wear by
-MDDF members.
+The MEMS badges are awarded by the [State Guard Association of the United
+States](https://sgaus.org/) and are authorized for wear by MDDF members.
 
 <!-- Members with the LNO certificate will be able to work within any EOC. -->
+
+#### September 10, 2023
+
+> Awarded Senior Military Emergency Management Specialist with MEMS flash
 
 #### March 3, 2021
 
@@ -362,3 +372,7 @@ and is not authorized for wear by MDDF members.
 |      Captain      	| September 16, 2013 	|
 |  First Lieutenant 	|    June 20, 2011   	|
 | Second Lieutenant 	|  November 21, 2006 	|
+
+## Related Posts
+
+{% include relatedposts.html tag="Maryland Defense Force" %}
