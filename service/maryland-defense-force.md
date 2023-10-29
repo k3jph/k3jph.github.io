@@ -227,9 +227,6 @@ accredited local, state, or federal government sponsored CERT
 training program. The CERT course or program must also be certified
 by the MDDF-D5/7.
 
-In 2022, this ribbon was superseded by the Maryland Defense Force
-Community CERT Instructor Ribbon.
-
 ### <a id='MDDFPDR' />Maryland Defense Force Professional Development Ribbon
 
 The Maryland Defense Force Professional Development Ribbon is awarded
@@ -238,8 +235,7 @@ Awarding of this ribbon will be based on five completed courses
 within a member's MDDF specialty and/or the core mission of the
 Maryland Defense Force.
 
-After receiving my third award, I have not submitted any more
-courses.
+I have received this award three times.
 
 ### <a id='MDDFBTR' />Maryland Defense Force Basic Training Ribbon
 
@@ -262,7 +258,7 @@ training through the organization.  The first award is for completing
 the SGAUS Officer Basic Course and the second is for completing the
 SGAUS Officer Advanced Course.
 
-The SGAUSPDA medal is awarded by the State Guard Association of the
+This medal is awarded by the State Guard Association of the
 United States and is authorized for wear by MDDF members.
 
 ## Unit Awards

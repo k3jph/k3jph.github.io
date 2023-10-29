@@ -4,7 +4,7 @@ title: Service Philosophy
 date: 2015-10-13T18:22:06-04:00
 author: James Howard
 layout: page
-guid: https://jameshoward.us/?page_id=3003
+guid: service-philosophy
 image: /assets/images/service-banner.png
 menu-order:     35
 menu-label:     Service
@@ -85,20 +85,44 @@ philosophy, I am committed to bridging the gap between academia and
 the broader community, leveraging my expertise to contribute to a
 more informed and equitable society.
 
+## Maryland Defense Force
+
+As a captain in the [Maryland Defense
+Force](/service/maryland-defense-force), I've had the opportunity
+to lead and coordinate teams during various emergency response
+scenarios. The role has enabled me to work alongside professionals
+from multiple disciplines, enhancing the state's overall emergency
+readiness. This service not only allows me to give back to my
+community but also enriches my own understanding of crisis management
+and public policy.
+
 ## Howard County, Maryland
 
-Among other roles, I sat on the Board of Appeals and Charter Review
-Commission for [Howard County](/service/howard-county)
+Serving on [Howard County](/service/howard-county)'s Board of Appeals
+and Charter Review Commission has been both an honor and a civic
+duty. These roles allowed me to influence local zoning and planning,
+as well as contribute to the legal frameworks guiding county
+operations. The experience has enhanced my academic work, offering
+practical insights into governance.
 
 ## Long Reach Community Association
 
-I helped design the [master plan for the Long Reach Village
-Center](/service/long-reach-community-association).
+In my role with the Long Reach Community Association, I was actively
+involved in creating the [Long Reach Village Center Master
+Plan](/service/long-reach-community-association). This wasn't just
+an academic exercise; it was a collaborative effort aimed at building
+a sustainable and inclusive community. The plan has since become a
+guiding blueprint for development in the area.
 
 ## Columbia Association
 
-I volunteered on the [CA's budget and financial advisory
-committees](/service/columbia-association) for a number of years.
+My years-long volunteer involvement with the [Columbia
+Association](/service/columbia-association)'s budget and financial
+advisory committees has been about more than just service. It
+involved scrutinizing budgets, making resource allocation
+recommendations, and aligning financial plans with the organization’s
+mission. This hands-on experience complemented my academic background,
+bridging theory and real-world application.
 
 _Image by [Creative Sustainability /
 Flickr](https://www.flickr.com/photos/aalto-cs/9669249877)._
