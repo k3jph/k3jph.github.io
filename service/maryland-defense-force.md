@@ -16,7 +16,7 @@ alt="The Maryland Defense Force's distinctive unit insignia" %}
 As a captain in the [Maryland Defense Force
 (MDDF)](https://military.maryland.gov/mddf/Pages/default.aspx), I
 am proud to serve as a member of this highly trained and dedicated
-force. The MDDF is a volunteer military organization that serves
+agency. The MDDF is a volunteer military organization that serves
 as a complement to the Maryland National Guard, providing critical
 support to the state's emergency response efforts. With a focus on
 disaster relief and other emergency services, the MDDF is a vital
