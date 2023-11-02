@@ -39,7 +39,15 @@
   <script>
     window.MathJax = {
       tex: {
-        inlineMath: [['$', '$'], ['[latex]', '[/latex]'], ['\\(', '\\)']]
+          inlineMath: [
+              ['$', '$'],
+              ['[latex]', '[/latex]'],
+              ["\\(", "\\)"]
+          ],
+          displayMath: [             // start/end delimiter pairs for display math
+              ['$$', '$$'],
+              ['\\[', '\\]']
+          ],
       }
     };
   </script>
