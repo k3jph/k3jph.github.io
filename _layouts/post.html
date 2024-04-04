@@ -1,0 +1,49 @@
+---
+layout: base
+---
+
+<div class="section section-header-blog">
+    <div class="parallax filter filter-color-black">
+        {% if page.featured_image %}
+        <div class="image" style="background-image:url({{ page.featured_image | relative_url }})"></div>
+        {% else %}
+        <div class="image" style="background-image:url({{ '/assets/img/header-home.jpg' | relative_url }})"></div>
+        {% endif %}
+        <div class="container">
+            <div class="content">
+                <h1>{{ page.title }}</h1>
+                <h3 class="subtitle">{{ page.date | date: "%A %B %d, %Y" }}</h3>
+                <div class="separator separator"><img src="{{ '/assets/img/martlet.svg' | relative_url }}" height="35rem" /></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if page.featured_image %}
+<div class="container">
+    <div class="row featured-image-post">
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="card">
+                <img src="{{ page.featured_image | relative_url }}" class="image-header">
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content-blog">
+                    {{ content }}
+                </div>
+                {% if page.credits %}
+                <div class="separator separator-danger"><img src="{{ '/assets/img/martlet-danger.svg' | relative_url }}" height="35rem" /></div>
+                <div class="">{{ page.credits | markdownify }}</div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>

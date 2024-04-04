@@ -1,0 +1,16 @@
+{% if include.placement != null %}
+<div style="float: {{ include.placement }}; width: {{ include.width }}; "> 
+{% else %}
+<div>
+{% endif %}
+    <figure>
+        {% if include.link != null %}<a href="{{ include.link }}">{% endif %}
+        <img class="featured-img" src="{{ '/assets/img/news/' | append: include.image | relative_url }}"
+          alt="{{ include.alt | default: 'no description' }}" width="90%"
+        {% if include.load != null %}loading="lazy"{% else %}loading="{{ include.loading }}"{% endif %}/>
+        {% if include.link != null %}</a>{% endif %}
+        {% if include.cap != null %}
+            <figcaption class="images-caption">{{ include.cap }}</figcaption>
+        {% endif %}
+    </figure>
+</div>

@@ -1,0 +1,71 @@
+favicon: /assets/img/identity/favicon.svg
+primaryLogo: /assets/img/identity/primary-logo-light.svg
+
+main_menu_settings:
+  menu_items:
+    - title: About Me
+      url: /about-me
+    - title: My Work
+      submenu_items:
+        - title: Scholarship
+          url: /scholarship
+        - title: Teaching
+          url: /teaching
+        - title: Service
+          url: /service
+    - title: Blog
+      url: /blog
+
+
+footer_menu_settings:
+  menu_items:
+    - title: The House
+      submenu_items:
+      - title: House of Basu-Howard
+        url: https://basuhoward.org
+        target: _blank
+      - title: Manor of Dungeon in Kent
+        url: https://dungeonmanor.uk
+        target: _blank
+      - title: Dr James P. Howard, II
+        url: https://jameshoward.us
+        target: _blank
+    - title: Westarctica
+      submenu_items:
+      - title: Grand Duchy of Westarctica
+        url: https://www.westarctica.info
+        target: _blank
+      - title: Encyclopedia Westarctica
+        url: https://www.westarctica.wiki
+        target: _blank
+      - title: Westarctica, Inc.
+        url: https://www.westarctica.org
+        target: _blank
+    - title: Resources
+      submenu_items:
+      - title: NOAA
+        url: https://www.climate.gov
+        target: _blank
+      - title: United Nations
+        url: https://www.un.org/en/climatechange
+        target: _blank
+      - title: EPA
+        url: https://www.epa.gov/climate-change
+        target: _blank
+    - title: Legal
+      submenu_items:
+      - title: Privacy
+        url: /privacy-policy
+      - title: Terms of Use
+        url: /terms-of-use
+      - title: Copyright
+        url: /copyright
+
+social_media:
+  - icon: twitter
+    url: https://twitter.com/countkrigsvold
+  - icon: facebook
+    url: https://www.facebook.com/CountKrigsvoldWestarctica
+
+footer_settings:
+  footer_tagline: A website of the House of Basu-Howard

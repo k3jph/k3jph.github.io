@@ -1,0 +1,41 @@
+<!--   core js files    -->
+<script src="{{ '/assets/js/jquery.min.js' | relative_url }}" type="text/javascript"></script>
+<script src="{{ '/assets/js/bootstrap.js' | relative_url }}" type="text/javascript"></script>
+
+<!--  js library for devices recognition -->
+<script type="text/javascript" src="{{ '/assets/js/modernizr.js' | relative_url }}"></script>
+
+<!-- MathJAX -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
+<script type="text/javascript" src="{{ '/assets/js/gaia.js' | relative_url }}"></script>
+
+<script>
+  window.MathJax = {
+      tex: {
+          inlineMath: [
+              ['$', '$'],
+              ['[latex]', '[/latex]'],
+              ["\\(", "\\)"]
+          ],
+          displayMath: [             // start/end delimiter pairs for display math
+              ['$$', '$$'],
+              ['\\[', '\\]']
+          ],
+      }
+  };
+</script>
+
+<script>
+  imagesLoaded( document.querySelector('#masonry-container'), function( instance ) {
+      var msnry = new Masonry('#masonry-container', {
+          itemSelector: '.item',
+          columnWidth: '.item',
+          percentPosition: true
+      });
+  });
+</script>
+
+<script src="{{ '/assets/js/cookiealert.js' | relative_url }}"></script>
