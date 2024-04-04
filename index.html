@@ -1,0 +1,171 @@
+---
+layout: base
+title: Home
+---
+<div class="section section-header">
+    <div class="parallax filter filter-color-black">
+        <div class="image" style="background-image: url({{ '/assets/img/header-home.jpg' | relative_url }})">
+        </div>
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-1 col-1"></div>
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10">
+                        <img src="{{ '/assets/img/identity/jameshoward-logo.svg' | relative_url }}" width="40%">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-10 col-10"></div>
+                </div>
+                <div class="separator-container">
+                    <div class="separator separator"><img src="{{ '/assets/img/martlet.svg' | relative_url }}" height="35rem" /></div>
+                </div>
+                <h5>A Mathematician, a Different Kind of Mathematician, and a Statistician</h5>
+            </div>
+        </div>
+    </div>
+    <a href="" data-scroll="true" data-id="#firstSection" class="scroll-arrow hidden-xs hidden-sm">
+        <i class="fa fa-angle-down"></i>
+    </a>
+</div>
+
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="title-area">
+                <h2>Our Services</h2>
+                <div class="separator separator-info">
+                    <img src="{{ '/assets/img/martlet-info.svg' | relative_url }}" height="35rem" />
+                </div>
+                <p class="description">We promise you a new look and more importantly, a new attitude. We build that by getting to know you, your needs and creating the best looking clothes.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="info-icon">
+                    <div class="icon text-info">
+                        <i class="pe-7s-culture"></i>
+                    </div>
+                    <h3>Service</h3>
+                    <p class="description">We sketch your wardrobe down to the last detail and present it to you.</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="info-icon">
+                    <div class="icon text-info">
+                        <i class="pe-7s-pen"></i>
+                    </div>
+                    <h3>Scholarship</h3>
+                    <p class="description">We make our design perfect for you. Our adjustment turn our clothes into your clothes.</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="info-icon">
+                    <div class="icon text-info">
+                        <i class="pe-7s-study"></i>
+                    </div>
+                    <h3>Teaching</h3>
+                    <p class="description">We create a persona regarding the multiple wardrobe accessories that we provide..</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="info-icon">
+                    <div class="icon text-info">
+                        <i class="pe-7s-medal"></i>
+                    </div>
+                    <h3>Honors</h3>
+                    <p class="description">The honors and awards I have received</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="section section-cards section-gray">
+    <div class="container">
+        <div class="title-area">
+            <h5 class="subtitle text-gray">What have I been up to?</h5>
+            <h2>Most Recent Posts</h2>
+            <div class="separator separator-danger"><img src="{{ '/assets/img/martlet-danger.svg' | relative_url }}" height="35rem" /></div>
+        </div>
+
+        <div id="masonry-container" class="row">
+            {% for post in site.posts limit: 6 %}
+            <div class="item col-md-4">
+                <div class="card card-blog">
+                    <a href="{{ post.permalink | relative_url }}" class="header">
+                        <img src="{{ post.featured_image | relative_url }}" class="image-header">
+                    </a>
+                    <div class="content">
+                        <div class="circle-black">
+                            <div class="circle">
+                                <div class="date-wrapper">
+                                    <span class="month">{{ post.date | date: '%b' }}</span>
+                                    <span class="date">{{ post.date | date: '%d' }}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="{{ post.permalink | relative_url }}" class="card-title"><h3>{{ post.title }}</h3></a>
+                        <p class="text-description text-gray">{{ post.content | truncatewords: 25 | strip_html }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div class="section section-get-started">
+    <div class="parallax filter filter-color-black">
+        <div class="image" style="background-image: url({{ '/assets/img/heading-martlets.jpg' | relative_url }})">
+        </div>
+        <div class="container">
+            <div class="title-area">
+                <h2 class="text-white">Want to get started with us?</h2>
+                <div class="separator separator"><img src="{{ '/assets/img/martlet.svg' | relative_url }}" height="35rem" /></div>
+                <p class="description">
+                    We are keen on creating a second skin for anyone with a sense of style! We design our clothes having our customers in mind and we never disappoint!
+                </p>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="info-icon">
+                        <div class="icon text-danger">
+                            <i class="pe-7s-ball"></i>
+                        </div>
+                        <h3>Games</h3>
+                        <p class="description">We sketch your wardrobe down to the last detail and present it to you.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="info-icon">
+                        <div class="icon text-danger">
+                            <i class="pe-7s-notebook"></i>
+                        </div>
+                        <h3>My Books</h3>
+                        <p class="description">We make our design perfect for you. Our adjustment turn our clothes into your clothes.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="info-icon">
+                        <div class="icon text-danger">
+                            <i class="pe-7s-micro"></i>
+                        </div>
+                        <h3>Media Appearances</h3>
+                        <p class="description">We create a persona regarding the multiple wardrobe accessories that we provide..</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="info-icon">
+                        <div class="icon text-danger">
+                            <i class="pe-7s-diskette"></i>
+                        </div>
+                        <h3>Software</h3>
+                        <p class="description">The honors and awards I have received</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

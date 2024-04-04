@@ -1,0 +1,33 @@
+<div class="section section-cards section-gray">
+    <div class="container">
+        <div class="title-area">
+            <h2>Related Posts</h2>
+            <div class="separator separator-info"><img src="{{ '/assets/img/martlet-info.svg' | relative_url }}" height="35rem" /></div>
+        </div>
+
+        <div id="masonry-container" class="row">
+            {% assign posts = site.tags[include.tag] %}
+            {% for post in posts %}
+            <div class="item col-md-4">
+                <div class="card card-blog">
+                    <a href="{{ post.permalink | relative_url }}" class="header">
+                        <img src="{{ post.featured_image | relative_url }}" class="image-header">
+                    </a>
+                    <div class="content">
+                        <div class="circle-black">
+                            <div class="circle">
+                                <div class="date-wrapper">
+                                    <span class="month">{{ post.date | date: '%b' }}</span>
+                                    <span class="date">{{ post.date | date: '%d' }}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="{{ post.permalink | relative_url }}" class="card-title"><h3>{{ post.title }}</h3></a>
+                        <p class="text-description text-gray">{{ post.content | truncatewords: 25 | strip_html }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

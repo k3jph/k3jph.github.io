@@ -1,0 +1,11 @@
+<div class="iframely-embed">
+    <div class="iframely-responsive" style="padding-bottom: 66.6667%; padding-top: 120px;"><a href="{{ include.url }}"
+            {% if include.key != null %}
+            data-iframely-url="//cdn.iframe.ly/api/iframe?url={{ include.url | cgi_escape }}&amp;key={{ include.key }}"></a>
+        {% else %}
+        data-iframely-url="//cdn.iframe.ly/api/iframe?url={{ site.url | cgi_escape }}{{ "/assets/docs/" | cgi_escape }}{{ include.pdf | cgi_escape }}&amp;key={{ site.iframely-key }}"></a>
+        {% endif %}
+    </div>
+</div>
+<script defer async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+<br />
