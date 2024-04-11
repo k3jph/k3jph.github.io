@@ -20,6 +20,6 @@ There's an image macro from _[Back to the Future Part II](https://en.wikipedia.o
 
 The person dressed for an office job is Marty McFly.  His suit may be terribly ugly, but it is also terribly traditional...except for the double ties:
 
-{% include figure.html image="BTTF2-40-Two-Ties.jpg" %}
+{% include figure.html image="news/BTTF2-40-Two-Ties.jpg" %}
 
 _Images via Universal Pictures._

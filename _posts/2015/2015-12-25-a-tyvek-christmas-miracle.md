@@ -35,6 +35,6 @@ We've used it to protect the table during massive cookie baking exercises this C
 
 Finally, we used it yesterday to protect the floor for painting.  
 
-{% include figure.html image="tyvek-painting-full.jpg" %}
+{% include figure.html image="news/tyvek-painting-full.jpg" %}
 
 Tyvek is awesome.  Well, when you actually cover things with it.

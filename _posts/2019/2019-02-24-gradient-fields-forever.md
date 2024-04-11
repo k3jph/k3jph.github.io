@@ -39,7 +39,7 @@ I](https://svs.gsfc.nasa.gov/4444) on the Moon, produced by [NASA
 as a part of the Apollo 8
 mission](https://history.nasa.gov/SP-362/ch1.htm).
 
-{% include figure.html image="Rima-Prinz-I-Contour-Map.jpg" alt="Map of Rima Prinz I" 
+{% include figure.html image="news/Rima-Prinz-I-Contour-Map.jpg" alt="Map of Rima Prinz I" 
    cap="Map of Rima Prinz I" width="100%" %}
 
 There are other examples, too. If we take all of the individual
@@ -50,7 +50,7 @@ show the evolution of [the May 24, 2017 tornado
 outbreak](https://www.weather.gov/cae/may_24_2017_event_review.html) from
 the National Weather Service.
 
-{% include figure.html image="20170524-Tornados.gif" width="100%"
+{% include figure.html image="news/20170524-Tornados.gif" width="100%"
    alt="Evolution of the May 24, 2017 tornado outbreak"
    cap="Evolution of the May 24, 2017 tornado outbreak" %}
 

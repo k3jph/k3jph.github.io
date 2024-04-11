@@ -9,7 +9,7 @@ redirect_from:
   - /about-me/
 ---
 
-{% include figure.html image="jhoward-greenglow.jpg" width="50%" placement="right"
+{% include figure.html image="jhoward-greenglow.jpg" width="4" placement="right"
    alt="Me at the 2017 Howard County Library Evening in the Stacks"
    cap="Me at the 2017 Howard County Library Evening in the Stacks" %}
 
@@ -69,6 +69,8 @@ and serving on several public and private boards.
 * Senior Member of the [Institute of Electrical and Electronics Engineers](/assets/docs/JHoward-IEEE-SM.pdf)
 
 {% include figure.html image="akureyri-shades-420.jpg" alt="Me in Akureyri...with solar shades"
-   cap="Me in Akureyri...with solar shades" width="50%" placement="left" %}
+   cap="Me in Akureyri...with solar shades" width="4" %}
 {% include figure.html image="knoxville-shades-420.jpg" alt="Me in Knoxville...with solar shades"
-   cap="Me in Knoxville...with solar shades" width="50%" placement="right" %}
+   cap="Me in Knoxville...with solar shades" width="4" %}
+{% include figure.html image="warren-shades-420.jpg" alt="Me in Warren...with solar shades"
+   cap="Me in Warren...with solar shades" width="4" %}

@@ -18,7 +18,7 @@ tags:
   - public affairs education
   - teaching
 ---
-{% include figure.html image="4249886990_107e92c466_b.jpg"
+{% include figure.html image="news/4249886990_107e92c466_b.jpg"
    cap="According to this, all decisions are supposed to be made in triplicate (Mr.TinDC / Flickr)" 
    alt="According to this, all decisions are supposed to be made in triplicate (Mr.TinDC / Flickr)" %}
 

@@ -81,7 +81,7 @@ validity, as the abstract verified, is that I acknowledge my use
 of XSEDE's resources when I talk about my project.  That's kind of
 awesome.  I can even monitor the whole thing from my phone.
 
-{% include figure.html image="Screenshot_20171107-214118.png"
+{% include figure.html image="news/Screenshot_20171107-214118.png"
   alt="XSEDE Android Application"
   cap="The textmetrics job running on Comet" %}
 

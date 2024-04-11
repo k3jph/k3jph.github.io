@@ -69,6 +69,6 @@ z <- wave(u, speed, xdelta, tdelta, n)</pre>
 
 The image below comes from animating the output.
 
-{% include figure.html image="output_pwVyzg.gif" alt="Wave on a String" cap="Wave on a String" %}
+{% include figure.html image="news/output_pwVyzg.gif" alt="Wave on a String" cap="Wave on a String" %}
 
 _Cover image by [Wills16 / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ruthin_School_Uploads_19.jpg)._

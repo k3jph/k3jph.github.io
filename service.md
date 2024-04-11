@@ -5,9 +5,9 @@ date: 2015-10-13T18:22:06-04:00
 author: James Howard
 layout: page
 guid: service-philosophy
-image: /assets/images/service-banner.png
-menu-order:     35
-menu-label:     Service
+featured_image: /assets/img/service.jpg
+credits: _Image by [Creative Sustainability / Flickr](https://www.flickr.com/photos/aalto-cs/9669249877)._
+
 ---
 
 Throughout my academic and public service careers, I have been driven by the
@@ -113,17 +113,3 @@ budgets, making resource allocation recommendations, and aligning financial
 plans with the organization's mission. This hands-on experience complemented my
 academic background, bridging theory and real-world application.
 
-## Grand Duchy of Westarctica
-
-My recognition by [Westarctica](/service/westarctica), through prestigious
-awards, underscores a commitment to environmental advocacy and public service on
-a global scale. These honors, including titles and commendations, are reflective
-of efforts to address critical environmental issues, bolstering awareness and
-action within the international community. Westarctica's recognition not only
-highlights individual contributions to conservation and sustainability but also
-reinforces the importance of global stewardship. Each award from Westarctica is
-a reminder of the collective responsibility we share in preserving our planet
-for future generations.
-
-_Image by [Creative Sustainability /
-Flickr](https://www.flickr.com/photos/aalto-cs/9669249877)._

@@ -18,7 +18,7 @@ tags:
   - public affairs education
   - teaching
 ---
-{% include figure.html image="7143277339_119f20d696_z.jpg"
+{% include figure.html image="news/7143277339_119f20d696_z.jpg"
    cap="That's a nicer boardroom than we'll have (ShellVacationsHospitality / Flickr)" 
    alt="That's a nicer boardroom than we'll have (ShellVacationsHospitality / Flickr)" %}
 

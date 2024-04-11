@@ -19,6 +19,6 @@ Going northbound on [U.S. Route 29](https://en.wikipedia.org/wiki/U.S._Route_29_
 
 I don't get it, but I bet it makes this guy happy.
 
-{% include figure.html image="scarecrow.jpg" alt="This guy would like this (MGM)" cap="This guy would like this (MGM)" %}
+{% include figure.html image="news/scarecrow.jpg" alt="This guy would like this (MGM)" cap="This guy would like this (MGM)" %}
 
 _Image stolen from [Google Maps](https://www.google.com/maps/@39.2961111,-76.8252186,15z)._

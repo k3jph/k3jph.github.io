@@ -19,7 +19,7 @@ tags:
 
 I've made a sample board, using [Star Trek: Deep Space Nine](http://www.startrek.com/page/star-trek-deep-space-nine) as the premise:
 
-{% include figure.html image="Status-Board-Trello.png"
+{% include figure.html image="news/Status-Board-Trello.png"
    cap="What's going on on Upper Pylon 2, anyway? (Trello)" 
    alt="What's going on on Upper Pylon 2, anyway? (Trello)" %}
 
@@ -27,7 +27,7 @@ You can see the [actual board here](https://trello.com/b/zkYNhmMf/status-board).
 
 In addition, many offices have calendars showing where people will be day-to-day.  It will have future statuses for vacation and teleworking. I've created a sample 5-day telework schedule using Deep Space Nine as the background, again:
 
-{% include figure.html image="Telework-Schedule-Trello.png"
+{% include figure.html image="news/Telework-Schedule-Trello.png"
    cap="Worf sure is phoning it in (Trello)" 
    alt="Worf sure is phoning it in (Trello)" %}
 

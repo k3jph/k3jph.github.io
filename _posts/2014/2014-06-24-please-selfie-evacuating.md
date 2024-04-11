@@ -22,7 +22,7 @@ I've done this before:
 
 But I might have a real problem.  Apparently MEININGER Hotels posted this:
 
-{% include figure.html image="dc3cb935a216d8d1449adf36533a2f0a.jpg" 
+{% include figure.html image="news/dc3cb935a216d8d1449adf36533a2f0a.jpg" 
    cap="Put the damn phone away (MEININGER Hotels)"
    alt="Put the damn phone away (MEININGER Hotels)" %}
 

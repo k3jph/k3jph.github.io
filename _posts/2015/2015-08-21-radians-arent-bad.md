@@ -23,7 +23,7 @@ First, degrees are messy.  There are 360 of them in a circle, but there's no goo
 
 The radian is the [SI unit](https://en.wikipedia.org/wiki/International_System_of_Units) for measuring angles, like the meter is for distance.  But it is a derived unit.  It's not based on a fundamental constant of the universe, like how long it takes [light to travel a certain distance](https://en.wikipedia.org/wiki/Metre), but is instead derived from a different fundamental constant of the universe, the ratio ratio of the diameter of a circle to its circumference.  First, imagine a circle of radius [latex] r[/latex].  The radian is how big of an angle we need to cut an arc that is has a length of [latex]r[/latex].  In other words, how do we get a wedge of cake that is the same length, straight or curved doesn't matter, on all sides?  That's a radian.  Check out this excellent animation from Wikipedia:
 
-{% include figure.html image="Circle_radians.gif" cap="By Lucas V. Barbosa, via Wikimedia Commons" %}
+{% include figure.html image="news/Circle_radians.gif" cap="By Lucas V. Barbosa, via Wikimedia Commons" %}
 
 So how do we end up with [latex] 2\pi[/latex] radians in a circle?  Well, there are two famous formulae for circles.  First is the area, which is [latex] A = \pi r^2[/latex].  That one isn't important right now.  The second is for the circumference, which is [latex] C = d\pi[/latex] where [latex]d[/latex] is the diameter of the circle, something we can measure.  But the diameter is just twice the radius, so the [latex] C = d\pi = 2r\pi[/latex].  So how many times the radius go into the diameter?  Right, [latex] \frac{C}{r} = 2\pi[/latex] and that's why there are [latex] 2\pi[/latex] radians in a circle.
 

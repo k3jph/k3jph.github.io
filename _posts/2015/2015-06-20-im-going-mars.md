@@ -24,6 +24,6 @@ tags:
 
 Slides will be posted when they are ready.
 
-{% include figure.html image="marsociety2015poster.jpg" %}
+{% include figure.html image="news/marsociety2015poster.jpg" %}
 
 _Images by [NASA](http://www.nasa.gov/centers/ames/news/releases/2004/mars/mars.html) and the [Mars Society](http://www.marssociety.org)._

@@ -70,7 +70,7 @@ have complete data for 175 countries in the Worldometer dataset.
 So we can find the comparable number, we'll call the `deathrate`
 for these countries.  This gives us this histogram:
 
-{% include figure.html image="likelihood-of-death-from-covid-19-following-positive-diagnosis.png"
+{% include figure.html image="news/likelihood-of-death-from-covid-19-following-positive-diagnosis.png"
    alt="Density Plot of Likelihood of Death from COVID-19 After Diagnosis per Country"
    cap="Density Plot of Likelihood of Death from COVID-19 After Diagnosis per Country" %}
 

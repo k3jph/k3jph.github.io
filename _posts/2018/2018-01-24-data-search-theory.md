@@ -30,13 +30,13 @@ I wasn't quite sure how I might prove my theory statistically yet,
 but I started with a basic plot of the annual number of "quits"
 across the Federal government:
 
-{% include figure.html image="FedScope-Quits.png" %}
+{% include figure.html image="news/FedScope-Quits.png" %}
 
 Remembering that the 2013 shutdown happened at the start of fiscal
 year 2014, we should see a rise in resignations for 2014.  Instead,
 we see a drop.  We also take a look at retirements:
 
-{% include figure.html image="FedScope-Retires.png" %}
+{% include figure.html image="news/FedScope-Retires.png" %}
 
 This story is more interesting.  Retirements increase in 2014, but
 they are still below the 2012 peak.  It may be some of those were

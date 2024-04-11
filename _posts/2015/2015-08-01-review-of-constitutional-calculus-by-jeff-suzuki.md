@@ -16,7 +16,7 @@ tags:
   - reviews
 ---
 
-{% include figure.html image="suzuki-cc-cover.png"
+{% include figure.html image="news/suzuki-cc-cover.png"
    cap="Cover of Constitutional Calculus" width="50%" placement="right"
    alt="Cover of Constitutional Calculus" %}
 

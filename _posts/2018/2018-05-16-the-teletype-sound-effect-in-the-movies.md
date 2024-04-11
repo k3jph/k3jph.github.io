@@ -88,7 +88,7 @@ showing an entrance sign.  Nothing unusual about that.  Here's the
 first, where the location is explained as the "Fort Jericho Disposal
 Site," and the sign makes that plain as day...even in the night.
 
-{% include figure.html image="fort-jericho-disposal-site.png" alt="Still from The War of the Words" %} 
+{% include figure.html image="news/fort-jericho-disposal-site.png" alt="Still from The War of the Words" %} 
 
 But in the second half of the episode, things change.  We start
 using the teletype method.  Here's the first, I think:

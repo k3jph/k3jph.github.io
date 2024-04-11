@@ -31,7 +31,7 @@ One part of the story that still amazes me is the story of the Chernobyl Liquida
 
 The Soviets were desperate to clean up, and organized 500,000 troops over the next year to do the job.  These people became known as the Chernobyl Liquidators, or more sarcastically, as biorobots.  You can see an image of them here:
 
-{% include figure.html image="2hqlevj41b_85mq1yq2rn_file.jpeg"
+{% include figure.html image="news/2hqlevj41b_85mq1yq2rn_file.jpeg"
    cap="Chernobyl's liquidators cleaning up (Soviet Army)"
    alt="Chernobyl's liquidators cleaning up (Soviet Army)" %}
 

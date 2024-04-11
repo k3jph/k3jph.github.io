@@ -105,7 +105,7 @@ up and broke open.  So while you're waiting for the chili, you drop
 some Tabasco inside the cracker and pop it.  The kids call it cracker
 bomb, but it's just hot sauce for the sake of hot sauce.
 
-{% include figure.html image="cincinnati-style-chili-coneys.jpg" placement="left" width="50%"
+{% include figure.html image="news/cincinnati-style-chili-coneys.jpg" placement="left" width="50%"
 cap="Cincinnati-style chili on a coney hotdog"
 alt="Cincinnati-style chili on a coney hotdog" %}
 

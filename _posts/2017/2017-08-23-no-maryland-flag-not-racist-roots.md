@@ -28,7 +28,7 @@ Baltimore](https://en.wikipedia.org/wiki/Cecil_Calvert,_2nd_Baron_Baltimore).
 Here, these the arms granted by the College of Arms no later than
 1675:
 
-{% include figure.html image="Coat_of_Arms_of_Cecil_Calvert_Baron_Baltimore.svg_.png"
+{% include figure.html image="news/Coat_of_Arms_of_Cecil_Calvert_Baron_Baltimore.svg_.png"
    cap="The Arms of Cecil Calvert, Baron Baltimore, showing the Crossland shield"
    alt="The Arms of Cecil Calvert, Baron Baltimore, showing the Crossland shield" %}
 
