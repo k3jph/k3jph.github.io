@@ -32,7 +32,7 @@ The important point is that when Day says, "So what rules for flood plains have 
 
 Well, it escalated quickly, and here's a photo from this afternoon, three blocks away.  I imagine that closer to the water, as Day's business is, is worse.
 
-{% include figure.html image="13335963_880867425369959_2914989014247480069_n.jpg"
+{% include figure.html image="news/13335963_880867425369959_2914989014247480069_n.jpg"
    cap="It's four feet of water in some places (Butler County Sheriff's Office)"
    alt="It's four feet of water in some places (Butler County Sheriff's Office)" %}
 

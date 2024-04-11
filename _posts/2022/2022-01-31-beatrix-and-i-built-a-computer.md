@@ -61,7 +61,7 @@ The backplane provides connections for the ATX standard power button,
 reset button, and indicator lights. The backplane provides seven
 STD Bus card slots starting with slot 0.
 
-{% include figure.html image="pcb-backplane.png" width="100%"
+{% include figure.html image="news/pcb-backplane.png" width="100%"
 alt="Schematic of STD Bus backplane"
 cap="Schematic of STD Bus backplane" %}
 
@@ -98,7 +98,7 @@ defined by the STD Bus standard and we build the prototyping card
 as a four-layer PCB.  Layers 1 (top) and 4 (bottom) are signal
 layers.  Layer 2 is a ground plane and layer 3 is a power plane.
 
-{% include figure.html image="pcb-protocard.png" width="100%"
+{% include figure.html image="news/pcb-protocard.png" width="100%"
 alt="Schematic of STD Bus prototyping card"
 cap="Schematic of STD Bus prototyping card" %}
 

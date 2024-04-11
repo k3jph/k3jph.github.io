@@ -54,7 +54,7 @@ this](https://en.wikipedia.org/wiki/Radioisotope_thermoelectric_generator).
 Our typical radioactivity source is plutonium-238.  That's where
 this gets messy.
 
-{% include figure.html image="IMG_20180811_033026.jpg" alt="Ducky becomes a monster at oh-dark-thirty"
+{% include figure.html image="news/IMG_20180811_033026.jpg" alt="Ducky becomes a monster at oh-dark-thirty"
    cap="Ducky becomes a monster at oh-dark-thirty" placement="left" width="50%" %}
 
 Plutonium-238 is not a typical nuclear waste product and has to be

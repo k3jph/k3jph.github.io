@@ -47,7 +47,7 @@ eventually will, the nutrient balance is kept close to normal.  This
 will keep the Bay clear of harmful algae blooms, keeping everything
 else in the Bay alive.  So we can enjoy crab this summer.
 
-{% include figure.html image="maryland-1277097_640.jpg" alt="Maryland crabs"
+{% include figure.html image="news/maryland-1277097_640.jpg" alt="Maryland crabs"
    cap="Maryland crabs" width="50%" placement="right" %}
 
 Of course, the Chesapeake Bay Restoration Fund became much derided

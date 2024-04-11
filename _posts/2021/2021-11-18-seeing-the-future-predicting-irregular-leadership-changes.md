@@ -42,6 +42,6 @@ play with it, you can see our most recent predictions [live on the
 Crystal Cub website hosted by
 JHU/APL](http://iaa-ccube-dmz.outer.jhuapl.edu/).
 
-{% include figure.html image="aai-cc-frontpage.png" width="100%"
+{% include figure.html image="news/aai-cc-frontpage.png" width="100%"
 alt="Front page of article"
 cap="Front page of article" %}

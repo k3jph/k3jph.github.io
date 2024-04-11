@@ -20,7 +20,7 @@ The problem with this is the scale only goes up to 5.  There are 5
 hurricane strength categories and two sub-hurricane strength levels.
 We can see those plotted below.
 
-{% include figure.html image="sshwc.png"
+{% include figure.html image="news/sshwc.png"
    alt="Saffir-Simpson Hurricane Wind Scale"
    cap="Saffir-Simpson Hurricane Wind Scale" %}
    

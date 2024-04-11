@@ -33,7 +33,7 @@ related to math anxiety, conceptual understanding of mathematical
 ideas, communicating mathematically, and the appropriate use of
 technology.
 
-{% include figure.html image="tlmo-cover-300px.jpg" placement="right" width="40%"
+{% include figure.html image="news/tlmo-cover-300px.jpg" placement="right" width="40%"
    alt="Teaching and Learning Mathematics Online book cover" %}
 
 _TLMO_ bridges these issues by presenting meaningful and practical

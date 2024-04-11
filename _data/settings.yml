@@ -5,16 +5,16 @@ main_menu_settings:
   menu_items:
     - title: About Me
       url: /about-me
-    - title: My Work
-      submenu_items:
-        - title: Scholarship
-          url: /scholarship
-        - title: Teaching
-          url: /teaching
-        - title: Service
-          url: /service
+    - title: Scholarship
+      url: /scholarship
+    - title: Teaching
+      url: /teaching
+    - title: Service
+      url: /service
     - title: Blog
       url: /blog
+    - title: Contact Me
+      url: /contact-me
 
 
 footer_menu_settings:

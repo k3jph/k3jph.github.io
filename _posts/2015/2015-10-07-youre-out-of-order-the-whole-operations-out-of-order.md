@@ -18,7 +18,7 @@ tags:
 ---
 It's ambiguous.  There are two problems here.  First, [PEMDAS](https://en.wikipedia.org/wiki/Order_of_operations) doesn't necessarily include all of the things in this example problem.  The implicit multiplication is one. That is, which rule governs 2(? Some argue it is covered by the parenthesis rule.  Others the multiplication rule.  When pressed, many mathematicians resolve the ambiguity by introducing a new rule that places implicit multiplication ahead of explicit.  But others, who really fail to understand PEMDAS, argue implicit multiplication is the same as explicit. This is not obviously incorrect, but neither is it obviously correct.  That's why these two calculators give different answers.
 
-{% include figure.html image="6przez2.jpg" cap="Segal's law strikes again (OnePlus)" alt="Segal's law strikes again (OnePlus)" %}
+{% include figure.html image="news/6przez2.jpg" cap="Segal's law strikes again (OnePlus)" alt="Segal's law strikes again (OnePlus)" %}
 
 The second problem is inline division. Because it can introduce these sorts of questions, many publishers define inline division as lower precedence than explicit multiplication and division. Lets be clear, you can cite PEMDAS, but given how many different versions there are, you may not be helping your case. Generally, pushing down inline division resolves the ambiguity here, but I imagine a carefully crafted example could break it, too.
 

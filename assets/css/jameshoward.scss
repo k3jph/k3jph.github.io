@@ -268,3 +268,8 @@ $ct-xxxlarge: 		145em; // 2030px
 .text-black {
     color: $black-color;
 }
+
+*::selection{
+    background: $info-color;
+    color: #FFFFFF;
+}

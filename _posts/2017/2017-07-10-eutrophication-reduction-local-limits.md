@@ -32,7 +32,7 @@ but [166,534 square
 kilometers](https://en.wikipedia.org/wiki/Chesapeake_Bay) over seven
 states. We can see them both here.
 
-{% include figure.html image="baltic-watershed.png" placement="left" width="50%"
+{% include figure.html image="news/baltic-watershed.png" placement="left" width="50%"
    cap="The Baltic Sea watershed (Sansculotte / Wikimedia Commons)"
    alt="The Baltic Sea watershed (Sansculotte / Wikimedia Commons) "%}
 
@@ -54,7 +54,7 @@ Erie](http://www.motherjones.com/food/2015/08/giant-toxic-algae-bloom-haunts-tol
 in 2005. So limiting eutrophy in major bodies of water is critical
 for safety.
 
-{% include figure.html image="435px-Chesapeakewatershedmap.png" placement="left" width="50%"
+{% include figure.html image="news/435px-Chesapeakewatershedmap.png" placement="left" width="50%"
    cap="The Chesapeake Bay watershed (Kmusser / Wikimedia Commons)"
    alt="The Chesapeake Bay watershed (Kmusser / Wikimedia Commons) "%} 
    

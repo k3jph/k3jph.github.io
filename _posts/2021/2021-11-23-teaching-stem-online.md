@@ -51,6 +51,6 @@ as the area of least concern for teaching STEM online.
 Education in Science and Technology_/Taylor & Francis
 website.](https://www.tandfonline.com/doi/full/10.1080/0020739X.2021.1954251)
 
-{% include figure.html image="teaching-stem-cover.png" width="100%"
+{% include figure.html image="news/teaching-stem-cover.png" width="100%"
 alt="Front page of article"
 cap="Front page of article" %}

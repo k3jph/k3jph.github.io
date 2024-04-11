@@ -1,0 +1,73 @@
+---
+layout:         page
+title:          Blog
+menu-order:     1
+menu-label:     Blog
+sitemap:
+exclude:      yes
+---
+
+{% assign years = paginator.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% for year in years %}
+<div class="title-area">
+  <h2>{{ year.name }}</h2>
+  <div class="separator separator-info"><img src="{{ '/assets/img/martlet-info.svg' | relative_url }}" height="35rem" /></div>
+</div>
+{% for post in year.items %}
+<div class="card card-blog card-plain">
+  <div class="row">
+    <div class="col-md-2">
+      <a href="{{ post.permalink | relative_url }}" class="header">
+        <img src="{{ post.featured_image | relative_url }}" class="image-header">
+      </a>
+    </div>
+    <div class="col-md-10">
+      <h6 class="card-date">{{ post.date | date: '%A %B %d, %Y' }}</h6>
+      <a href="{{ post.permalink | relative_url }}" class="card-title">
+        <h3>{{ post.title }}</h3>
+      </a>
+      <h6 class="card-category">&bull;&nbsp;
+        {% for tag in post.tags %}
+        {% capture tag_name %}{{ tag }}{% endcapture %}
+        <nobr>{{ tag_name }}</nobr>&nbsp;&bull;&nbsp;
+        {% endfor %}
+      </h6>
+    </div>
+  </div>
+</div>
+{% endfor %}
+{% endfor %}
+
+<div class="separator separator-info"><img src="{{ '/assets/img/martlet-info.svg' | relative_url }}" height="35rem" /></div>
+
+<div class="row">
+  <div class="col-md-4 text-left">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      <div class="info-icon">
+        <div class="icon text-info">
+          <i class="pe-7s-left-arrow"></i>
+        </div>
+      </div>  
+    </a>
+    {% endif %}
+  </div>
+  <div class="col-md-4 text-center">
+    <div class="card card-blog card-plain">
+    <h6 class="card-category p-3">
+      {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+</div>
+  </div>
+  <div class="col-md-4 text-right">
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">
+      <div class="info-icon">
+        <div class="icon text-info">
+          <i class="pe-7s-right-arrow"></i>
+        </div>
+      </div>
+    </a>
+    {% endif %}
+  </div>
+</div>

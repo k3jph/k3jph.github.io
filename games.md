@@ -11,21 +11,48 @@ menu-label:     Games
 ---
 ## GURPS Disasters: Hurricane
 
-{% include figure.html image="GURPS_Disasters_Hurricane.png" cap="" width="40%" 
+{% include figure.html image="GURPS_Disasters_Hurricane.png" cap="" width="25%" 
    placement="right" link="/gurps-hurricane"
    alt="GURPS Disasters: Hurricane gamebook cover" %}
 
 _You've had a couple of days' warning, but it's never enough. You
 have half the plywood you need, and don't know how high the water
-will get this time. The evacuation order was just announced…_
+will get this time. The evacuation order was just announced..._
 
-Into every life some rain must fall…but when a lot of rain falls
-all at once, you may find yourself in the eye of the storm. _GURPS
-Disasters: Hurricane_ is your guide to one of the most devastating
-forces that nature can unleash. It includes information on the
-science of hurricanes, a discussion of what makes these phenomena
-dangerous, and a look at a few of the most noteworthy historical
-storms. It also includes ideas for how to endure and survive during
-this cacophonous crisis, and gives suggestions for working one into
-your campaigns set in the past, present, and future. This supplement
-puts the "story" in "stormy!"
+In the tapestry of life, a measure of rain is inevitable, serving
+as a reminder of nature's unpredictable temperament. However, when
+the skies unleash a deluge, transforming serene landscapes into
+scenes of tumultuous chaos, one realizes the formidable power of
+nature's fury. **GURPS Disasters: Hurricane** emerges as your
+quintessential compendium to understanding and navigating the
+tempestuous wrath of hurricanes. This guide delves deep into the
+meteorological mechanics behind hurricanes, shedding light on the
+scientific principles that conjure these spinning giants of
+destruction.
+
+Beyond the science, the book explores the multifaceted dangers posed
+by hurricanes, from the immediate threats of ferocious winds and
+surging floodwaters to the lingering aftermath of disrupted communities
+and economies. It pays homage to the historic hurricanes that have
+left indelible marks on human history, providing insightful
+retrospectives on these natural catastrophes and their profound
+impacts on society.
+
+Yet, amidst the portrayal of hurricanes as harbingers of havoc,
+**GURPS Disasters: Hurricane** offers a beacon of hope and resilience.
+It furnishes readers with pragmatic strategies for survival, equipping
+them with the knowledge to weather the storm both physically and
+psychologically. Moreover, for enthusiasts of role-playing games,
+this supplement serves as a treasure trove of inspiration, offering
+imaginative frameworks for integrating the dramatic essence of
+hurricanes into gaming campaigns across various eras—be it the
+distant past, the tumultuous present, or the uncertain future.
+
+This meticulously crafted guide transforms the concept of a hurricane
+from a mere meteorological event into a narrative powerhouse,
+infusing your storytelling and gaming experiences with unparalleled
+depth and realism. **GURPS Disasters: Hurricane** doesn’t just tell
+you about the storm; it immerses you in the eye of the storm,
+ensuring that when you tell your story, it truly embodies the essence
+of being "stormy."
+

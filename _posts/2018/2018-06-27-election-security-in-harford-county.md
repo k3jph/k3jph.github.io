@@ -42,4 +42,4 @@ The point of this question is to show the complexity of even "simple"
 tasks.  The flowchart shows how complicated the voting process is
 and exposes some of the places an adversary can attack it.
 
-{% include figure.html image="Megan-Price-Protecting-Marylands-Voting-Process.png" alt="Megan Price's Poster" %}
+{% include figure.html image="news/Megan-Price-Protecting-Marylands-Voting-Process.png" alt="Megan Price's Poster" %}

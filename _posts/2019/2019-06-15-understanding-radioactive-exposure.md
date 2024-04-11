@@ -55,7 +55,7 @@ etc.). When we say someone has been exposed to radiation, there are
 two things this might mean and they are very different from both a
 treatment and contamination perspective.
 
-{% include figure.html image="glow-stick-578604_1280.jpg" alt="Glow sticks"
+{% include figure.html image="news/glow-stick-578604_1280.jpg" alt="Glow sticks"
    cap="Please do not eat the glowsticks, no matter what this post says" placement="right" width="50%" %}
 
 So, as I said, there are two types of "exposure" to radiation. In

@@ -32,7 +32,7 @@ RainbowCrash](http://www.cracked.com/members/RainbowCrash/), says,
 their own holes.  Any shape other than a circle would be able to
 fit through in at least one way."
 
-{% include figure.html image="manholecovers.jpg" 
+{% include figure.html image="news/manholecovers.jpg" 
    cap="Manhole covers dirty secret [RainbowCrash / Cracked.com]"
    alt="Manhole covers dirty secret [RainbowCrash / Cracked.com]" %}
 
@@ -53,7 +53,7 @@ triangle](https://en.wikipedia.org/wiki/Reuleaux_triangle).  Not
 only can this shape described a manhole cover, San Franciso uses
 them for it!
 
-{% include figure.html image="756px-Manhole_cover_for_reclaimed_water_SFWD.jpg" 
+{% include figure.html image="news/756px-Manhole_cover_for_reclaimed_water_SFWD.jpg" 
    cap="Noncircular manhole cover in San Francisco [Marianna Zavodovskaya / Wikimedia Commons]"
    alt="Noncircular manhole cover in San Francisco [Marianna Zavodovskaya / Wikimedia Commons]" %}
 

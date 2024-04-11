@@ -1,16 +1,39 @@
-{% if include.placement != null %}
-<div style="float: {{ include.placement }}; width: {{ include.width }}; "> 
-{% else %}
-<div>
-{% endif %}
-    <figure>
-        {% if include.link != null %}<a href="{{ include.link }}">{% endif %}
-        <img class="featured-img" src="{{ '/assets/img/news/' | append: include.image | relative_url }}"
-          alt="{{ include.alt | default: 'no description' }}" width="90%"
-        {% if include.load != null %}loading="lazy"{% else %}loading="{{ include.loading }}"{% endif %}/>
-        {% if include.link != null %}</a>{% endif %}
-        {% if include.cap != null %}
-            <figcaption class="images-caption">{{ include.cap }}</figcaption>
-        {% endif %}
-    </figure>
+{% if include.placement == "right"          %}
+{%   assign pull = "pull-right"             %}
+{% else                                     %}
+{%   assign pull = ""                       %}
+{% endif                                    %}
+
+{% assign w = include.width | to_integer    %}
+{% if w <= 12                               %}
+{%   assign colwidth="col-md-" | append: w  %}
+{% else                                     %}
+{%   if w < 40                              %}
+{%     assign colwidth="col-md-4"           %}
+{%   else                                   %}
+{%     if w < 65                            %}
+{%       assign colwidth="col-md-6"         %}
+{%     else                                 %}
+{%       assign colwidth="col-md-12"        %}
+{%     endif                                %}                        
+{%   endif                                  %}
+{% endif                                    %}
+
+<div class="item {{ colwidth }} {{ pull }} px-5">
+    {% if include.link != null %}
+    <a href="{{ include.link | relative_url }}" class="header">
+    {% endif %}
+        <div class="card">
+            <figure>
+                <img class="featured-img" src="{{ '/assets/img/' | append: include.image | relative_url }}"
+                     alt="{{ include.alt | default: 'no description' }}"
+                     {% if include.load != null %}loading="lazy"{% else %}loading="{{ include.loading }}"{% endif %}/>
+                <div class="content">
+                    {% if include.cap != null %}
+                    <figcaption class="images-caption">{{ include.cap }}</figcaption>
+                    {% endif %}
+                </div>
+            </figure>
+        </div>
+    {% if include.link != null %}</a>{% endif %}
 </div>

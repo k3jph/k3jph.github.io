@@ -29,7 +29,7 @@ tags:
 ---
 It is often hard to wrap your head around the finances of organizations and the unusual accounting rules of public organizations make that even more difficult. When I read [The McKinsey Way](http://books.google.com/books?id=UtNZZU6JLiQC&lpg=PP1&dq=mckinsey%20way&pg=PP1#v=onepage&q&f=false) several years ago, I saw the value in using waterfall charts to analyze and understand the finances of public organizations. So I created functions for plotting waterfall charts using both traditional and grid graphics in [R](http://www.r-project.org/). Here’s an example using the sample data from _The McKinsey Way_:
 
-{% include figure.html image="tumblr_l2tyqg9LdU1qzy7qe.png"
+{% include figure.html image="news/tumblr_l2tyqg9LdU1qzy7qe.png"
    alt="Raisel's waterfall plot example"
    cap="Raisel's waterfall plot example" %}
 

@@ -29,7 +29,7 @@ As an aside, we can use the limited number of calendar configurations to determi
 
 It should come as no surprise, I also saw this on the same person's feed.
 
-{% include figure.html image="algebra-useit.png"
+{% include figure.html image="news/algebra-useit.png"
    cap="Well, now you're just embarrassing yourself"
    alt="Well, now you're just embarrassing yourself" %}
 
