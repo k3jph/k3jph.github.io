@@ -1,101 +1,45 @@
 <footer class="footer footer-big footer-color-black" data-color="black">
     <div class="container">
         <div class="row">
-            <div class="col-md-2 col-sm-3">
+            <div class="col-md-3 col-sm-3">
                 <div class="info">
-                    <h5 class="title">Company</h5>
+                    <h5 class="title">Other Sites</h5>
                     <nav>
                         <ul>
-                            <li>
-                                <a href="#">Home</a></li>
-                            <li>
-                                <a href="#">Find offers</a>
-                            </li>
-                            <li>
-                                <a href="#">Discover Projects</a>
-                            </li>
-                            <li>
-                                <a href="#">Our Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="#">About Us</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <div class="col-md-3 col-md-offset-1 col-sm-3">
-                <div class="info">
-                    <h5 class="title"> Help and Support</h5>
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="#">Contact Us</a>
-                            </li>
-                            <li>
-                                <a href="#">How it works</a>
-                            </li>
-                            <li>
-                                <a href="#">Terms &amp; Conditions</a>
-                            </li>
-                            <li>
-                                <a href="#">Company Policy</a>
-                            </li>
-                            <li>
-                                <a href="#">Money Back</a>
-                            </li>
+                            {% for item in site.data.settings.other_sites %}
+                            <li><a href="{{ item.url }}" target="{{ item.target }}">{{ item.title }}</a></li>
+                            {% endfor %}
                         </ul>
                     </nav>
                 </div>
             </div>
             <div class="col-md-3 col-sm-3">
                 <div class="info">
-                    <h5 class="title">Latest News</h5>
+                    <h5 class="title">Notices</h5>
                     <nav>
                         <ul>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-twitter"></i> <b>Get Shit Done</b> The best kit in the market is here, just give it a try and let us...
-                                    <hr class="hr-small">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-twitter"></i> We've just been featured on <b> Awwwards Website</b>! Thank you everybody for...
-                                </a>
-                            </li>
+                            {% for item in site.data.settings.notices %}
+                            <li><a href="{{ item.url }}" target="{{ item.target }}">{{ item.title }}</a></li>
+                            {% endfor %}
                         </ul>
                     </nav>
                 </div>
             </div>
-            <div class="col-md-2 col-md-offset-1 col-sm-3">
-                <div class="info">
-                    <h5 class="title">Follow us on</h5>
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="#" class="btn btn-social btn-facebook btn-simple">
-                                    <i class="fa fa-facebook-square"></i> Facebook
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn btn-social btn-dribbble btn-simple">
-                                    <i class="fa fa-dribbble"></i> Dribbble
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn btn-social btn-twitter btn-simple">
-                                    <i class="fa fa-twitter"></i> Twitter
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn btn-social btn-reddit btn-simple">
-                                    <i class="fa fa-google-plus-square"></i> Google+
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+            <div class="col-md-6 col-sm-6">
+                <h5 class="title">Follow me on</h5>
+                <nav>
+                <ul>
+                    {% for item in site.data.settings.social_media %}
+                    <div class="col-md-4">
+                        <li>
+                            <a href="{{ item.url }}">
+                                <i class="fa-brands fa-{{ item.icon }} fa-fw"></i>&nbsp;&nbsp;{{ item.name }}
+                            </a>
+                        </li>
+                    </div>
+                    {% endfor %}
+                </ul>
+                </nav>
             </div>
         </div>
         <hr>

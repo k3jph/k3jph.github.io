@@ -1,13 +1,12 @@
 ---
 id: 4047
 title: Honors
-date: 2016-04-28T23:26:12-04:00
+date: 2024-04-02
 author: James Howard
 layout: page
-guid: https://jameshoward.us/?page_id=4047
+guid: honors
 image: /assets/images/honors.png
-menu-order:     38
-menu-label:     Honors
+
 ---
 
 Welcome to the section of my website dedicated to the honors and
@@ -39,29 +38,43 @@ tribute to the mentors, colleagues, students, and community members
 who inspire and propel us forward, reminding us that the most
 meaningful accomplishments are those we achieve together.
 
-## Coat of Arms from the Republic of Malta
+## Coat of Arms from Malta
 
-The [coat of arms](/honors/malta) I've been honored with by Malta represents a fusion
-of personal heritage and professional dedication, encapsulated
-within the ancient tradition of heraldry. At its heart, the design
-features a tetrahedron and a sword, symbols of my mathematical
-pursuits and connections to Cincinnati, Ohio, respectively. This
-emblem not only reflects my academic and public service contributions
-but also hints at a storied lineage, potentially linked to Thomas
-Arundell through the inclusion of a martlet, a nod to the unproven
-but cherished ancestral ties. This heraldic achievement celebrates
-a commitment to community, knowledge, and the enduring quest for
-understanding.
+The [coat of arms](/honors/malta) I've been honored with by Malta
+represents a fusion of personal heritage and professional dedication,
+encapsulated within the ancient tradition of heraldry. At its heart,
+the design features a tetrahedron and a sword, symbols of my
+mathematical pursuits and connections to Cincinnati, Ohio, respectively.
+This emblem not only reflects my academic and public service
+contributions but also hints at a storied lineage, potentially
+linked to Thomas Arundell through the inclusion of a martlet, a nod
+to the unproven but cherished ancestral ties. This heraldic achievement
+celebrates a commitment to community, knowledge, and the enduring
+quest for understanding.
 
 ## Grand Duchy of Westarctica
 
-My recognition by [Westarctica](/honors/westarctica), through prestigious
-awards, underscores a commitment to environmental advocacy and public service on
-a global scale. These honors, including titles and commendations, are reflective
-of efforts to address critical environmental issues, bolstering awareness and
-action within the international community. Westarctica's recognition not only
-highlights individual contributions to conservation and sustainability but also
-reinforces the importance of global stewardship. Each award from Westarctica is
-a reminder of the collective responsibility we share in preserving our planet
-for future generations.
+My recognition by [Westarctica](/honors/westarctica), through
+prestigious awards, underscores a commitment to environmental
+advocacy and public service on a global scale. These honors, including
+titles and commendations, are reflective of efforts to address
+critical environmental issues, bolstering awareness and action
+within the international community. Westarctica's recognition not
+only highlights individual contributions to conservation and
+sustainability but also reinforces the importance of global
+stewardship. Each award from Westarctica is a reminder of the
+collective responsibility we share in preserving our planet for
+future generations.
+
+## Kentucky Colonel
+
+I was appointed a [Kentucky Colonel by Governor Andy Beshear on
+March 25th, 2024](/2024/04/02/i-was-appointed-a-kentucky-colonel),
+an accolade that not only recognizes my contributions to the community
+but also continues a valued family tradition, following in the
+footsteps of my father. This prestigious title, the highest honor
+granted by the Commonwealth of Kentucky, is a testament to a steadfast
+commitment to the values of leadership, excellence, and service.
+As a Kentucky Colonel, I am dedicated to advancing these ideals and
+positively impacting our communities and beyond.
 

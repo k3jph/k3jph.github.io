@@ -19,28 +19,25 @@ main_menu_settings:
 
 footer_menu_settings:
   menu_items:
-    - title: The House
+    - title: Other Websites
       submenu_items:
       - title: House of Basu-Howard
         url: https://basuhoward.org
         target: _blank
+      - title: The Count of Krigsvold
+        url: https://krigsvold.org
+        target: _blank
       - title: Manor of Dungeon in Kent
         url: https://dungeonmanor.uk
         target: _blank
-      - title: Dr James P. Howard, II
-        url: https://jameshoward.us
-        target: _blank
-    - title: Westarctica
+    - title: 
       submenu_items:
       - title: Grand Duchy of Westarctica
         url: https://www.westarctica.info
-        target: _blank
       - title: Encyclopedia Westarctica
         url: https://www.westarctica.wiki
-        target: _blank
       - title: Westarctica, Inc.
         url: https://www.westarctica.org
-        target: _blank
     - title: Resources
       submenu_items:
       - title: NOAA
@@ -61,11 +58,53 @@ footer_menu_settings:
       - title: Copyright
         url: /copyright
 
+other_sites:
+  - title: House of Basu-Howard
+    url: https://basuhoward.org
+    target: _blank
+  - title: The Count of Krigsvold
+    url: https://krigsvold.org
+    target: _blank
+  - title: The Manor of Dungeon in Kent
+    url: https://dungeonmanor.uk
+    target: _blank
+
+notices:
+  - title: Disclosure Statement
+    url: /disclosure-statement/
+  - title: Terms of Use
+    url: /terms-of-use/
+  - title: Privacy Policy
+    url: /privacy-policy/
+        
 social_media:
-  - icon: twitter
-    url: https://twitter.com/countkrigsvold
+  - icon: keybase
+    name: Keybase
+    url: https://keybase.io/howardjp
   - icon: facebook
-    url: https://www.facebook.com/CountKrigsvoldWestarctica
+    name: Facebook
+    url: https://facebook.com/k3jph
+  - icon: mastodon
+    name: Mastodon
+    url: https://mastodon.social/@k3jph
+  - icon: instagram
+    name: Instagram
+    url: https://www.instagram.com/k3jph/
+  - icon: linkedin
+    name: LinkedIn
+    url: https://www.linkedin.com/in/k3jph/
+  - icon: youtube
+    name: Youtube
+    url: https://www.youtube.com/@k3jph
+  - icon: github
+    name: Github
+    url: https://github.com/k3jph
+  - icon: amazon
+    name: Amazon
+    url: https://amazon.com/author/k3jph
+  - icon: orcid
+    name: ORCiD
+    url: https://orcid.org/0000-0003-4530-1547
 
 footer_settings:
   footer_tagline: A website of the House of Basu-Howard

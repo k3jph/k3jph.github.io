@@ -19,7 +19,7 @@
 {%   endif                                  %}
 {% endif                                    %}
 
-<div class="item {{ colwidth }} {{ pull }} px-5">
+<div class="item {{ colwidth }} {{ pull }} px-4">
     {% if include.link != null %}
     <a href="{{ include.link | relative_url }}" class="header">
     {% endif %}
@@ -30,7 +30,7 @@
                      {% if include.load != null %}loading="lazy"{% else %}loading="{{ include.loading }}"{% endif %}/>
                 <div class="content">
                     {% if include.cap != null %}
-                    <figcaption class="images-caption">{{ include.cap }}</figcaption>
+                    <figcaption class="images-caption">{{ include.cap | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
                     {% endif %}
                 </div>
             </figure>
