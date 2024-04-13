@@ -1,15 +1,15 @@
 ---
 id: introducing-count-of-krigsvold
 title: Introducing the Count of Krigsvold
-date: 2024-02-16T20:23:07-04:00
+date: 2024-02-16
 author: k3jph
 layout: post
 permalink: /2024/02/16/count-of-krigsvold
-featured_image: /assets/img/news/count-of-krigsvold.jpg
+featured_image: /assets/img/2024/count-of-krigsvold.jpg
 categories:
 - Blog 
 tags:
-- nobility
+- honors
 - Westarctica
 - environmentalism
 ---
