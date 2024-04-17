@@ -29,10 +29,6 @@ titles, such as Count of Krigsvold, are awarded to those who have demonstrated
 an unwavering dedication to environmental advocacy and have actively engaged in
 projects that align with Westarctica's mission.
 
-{% include figure.html image="westarctica-flag.jpg" placement="right" width="40%"
-cap="The Flag of Westarctica"
-alt="The Flag of Westarctica" %}
-
 This dedication to environmental stewardship and the innovative approach of
 using a micronation as a platform for advocacy underscore the creative
 strategies necessary in today’s environmental movement. Westarctica’s focus on
@@ -47,6 +43,10 @@ Westarctica not only celebrates individual achievements but also galvanizes a
 broader commitment to safeguarding our planet’s future.
 
 ## The Westarctican Peerage
+
+{% include figure.html image="westarctica-flag.jpg" placement="right" width="40%"
+cap="The Flag of Westarctica"
+alt="The Flag of Westarctica" %}
 
 The Westarctican peerage system is a unique and symbolic aspect of the
 micronation's cultural identity, mirroring traditional noble titles in a
