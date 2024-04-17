@@ -33,6 +33,7 @@
 a {
   color: #07406e;
   font-weight: bold;
+  font-size: initial;
 }
 
 .form-group {
@@ -93,9 +94,15 @@ figure {
 
 .front-page-arrow {
   position: absolute;
-  top: 50%;
+  transform: translateX(-50%);
   left: 50%;
-  transform: translate(-50%, -50%);
+  bottom: 1rem;
+  font-size: 2em;
+  color: #f8f8f8;
+}
+
+a.scroll-arrow {
+  border: none;
 }
 
 .m-0 { margin:0!important; }
