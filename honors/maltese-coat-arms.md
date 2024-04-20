@@ -83,8 +83,8 @@ I received a grant of arms from the Office of the Chief Herald of
 Arms of Malta, formalized through Letters Patent numbered G0102,
 issued on an unspecified day in March 2024.  The formal notice of
 this grant was published in the _Gazzetta tal-Gvern ta’ Malta_, the
-official gazette of the Government of Malta, in issue number
-21,194, on Feburary 16, 2024. This publication
+official gazette of the Government of Malta, [in issue number
+21,194, on Feburary 16, 2024](/assets/docs/malta-government-gazette-20240216.pdf). This publication
 serves as the official record, ensuring transparency and public
 acknowledgment of the newly granted arms.
 
