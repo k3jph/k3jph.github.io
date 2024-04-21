@@ -4,6 +4,7 @@ title: Grand Duchy of Westarctica
 author: James Howard
 layout: page
 permalink: /honors/grand-duchy-of-westarctica
+featured_image: /assets/img/westarctica.jpg
 redirect_from:
   - /westarctica/
   - /honors/westarctica

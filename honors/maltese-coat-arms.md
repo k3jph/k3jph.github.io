@@ -4,6 +4,7 @@ title: Maltese Coat of Arms
 author: James Howard
 layout: page
 permalink: /honors/maltese-coat-arms
+featured_image: /assets/img/malta.jpg
 redirect_from:
   - /coa/
   - /coat-of-arms/
@@ -11,7 +12,7 @@ redirect_from:
   - /honors/malta/
 ---
 
-{% include figure.html image="jhoward-maltese-coa-ARTISTNAME.png" placement="right"
+{% include figure.html image="jhoward-maltese-coa-ARTISTNAME-960px.png" placement="right"
 width="40%" cap="Coat of Arms for James P. Howard, II" alt="Coat
 of Arms for James P. Howard, II" %}
 
