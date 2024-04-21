@@ -3,7 +3,7 @@ id: grand-duchy-of-westarctica
 title: Grand Duchy of Westarctica
 author: James Howard
 layout: page
-permalink: /service/grand-duchy-of-westarctica
+permalink: /honors/grand-duchy-of-westarctica
 redirect_from:
   - /westarctica/
   - /honors/westarctica
