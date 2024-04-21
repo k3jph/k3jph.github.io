@@ -19,6 +19,11 @@ This title, previously held by my father, is the highest honor granted
 by the Commonwealth of Kentucky and celebrates an individual's
 dedication to community, excellence, and service. 
 
+{% include figure.html width="4"
+   image="/kentucky-seal.svg" 
+   alt="Seal of the Commonwealth of Kentucky" 
+   cap="Seal of the Commonwealth of Kentucky" %}
+   
 Dating back to 1813, the title of Kentucky Colonel represents a
 long-standing tradition of honor and service. It is given to those
 who make significant contributions to society and exemplify leadership,
