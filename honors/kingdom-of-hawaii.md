@@ -108,7 +108,7 @@ The diploma is in Hawaiian and translates to:
 >
 > James Patrick Howard II<br/>
 > Knight Commander<br/>
-> Royal Order of the Star of Oceani
+> Royal Order of the Star of Oceania
 >
 > In your official capacity and as part of your inclusion, you may
 > wear the honors representing your distinguished merit and noble 
