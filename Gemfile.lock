@@ -68,6 +68,8 @@ GEM
       sass-embedded (~> 1.54)
     jekyll-seo-tag (2.8.0)
       jekyll (>= 3.8, < 5.0)
+    jekyll-tagging (1.1.0)
+      nuggets
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.7.2)
@@ -96,6 +98,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.3-x86_64-linux)
       racc (~> 1.4)
+    nuggets (1.6.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     progressbar (1.13.0)
@@ -175,6 +178,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-sass-converter
   jekyll-seo-tag
+  jekyll-tagging
   rake
   stringex
   tzinfo (>= 1, < 3)
