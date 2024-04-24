@@ -20,6 +20,7 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem 'jekyll-sass-converter'
   gem "jekyll-paginate"
+  gem 'jekyll-tagging'
   gem "stringex"
 end
 

@@ -11,7 +11,7 @@ categories:
 tags:
   - JSM
   - public health
-  - ebola
+  - Ebola
   - infectious disease
 ---
 

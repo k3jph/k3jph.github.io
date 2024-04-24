@@ -9,7 +9,7 @@ featured_image: /assets/img/news/ebola-virus.jpg
 categories:
   - Blog
 tags:
-  - Ebolavirus
+  - Ebola
   - data science
   - public health
   - statistics

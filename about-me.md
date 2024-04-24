@@ -52,7 +52,7 @@ and serving on several public and private boards.
     * CPhil, [Public Policy](/assets/docs/JHoward-UMBC-CPhil.pdf), University of Maryland Graduate School, Baltimore
     * MPA, [Public Policy and Administration](/assets/docs/UBALT-MPA-PPA.pdf), University of Baltimore
 * MS, Electrical Engineering, Columbia University in the City of New York, _in progress_
-* MA, Buddhist Studies, University of South Wales, _in progress_
+* MA, Buddhist Studies, with Distinction, University of South Wales, _in progress_
 * MS, [Applied and Computational Mathematics](/assets/docs/JHoward-JHU-MS-ACM.pdf), the Johns Hopkins University
 * MS, [Environmental Engineering and Science](/assets/docs/JHU-MS-EES.pdf), the Johns Hopkins University
 * BA, [East Asian Studies](/assets/docs/UMGC-BA-EAS.pdf), _cum laude_, University of Maryland Global Campus
