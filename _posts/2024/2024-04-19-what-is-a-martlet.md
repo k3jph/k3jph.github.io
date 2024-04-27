@@ -105,6 +105,11 @@ of the time.
 
 ## Conclusion
 
+{% include figure.html width="4" placement="right"
+   image="/2024/what-is-a-martlet/martlet-kamon.svg"
+   alt="A martlet as a _kamon_" 
+   cap="A martlet as a _kamon_" %}
+
 The martlet, a seemingly simple yet profoundly symbolic creature
 within the heraldic tradition, encapsulates the enduring human
 spirit of ambition and perseverance. Its footless form, soaring
