@@ -1,5 +1,6 @@
 ---
 id: maltese-coat-arms
+published: false
 title: Maltese Coat of Arms
 author: James Howard
 layout: page
