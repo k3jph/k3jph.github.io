@@ -1,7 +1,7 @@
 <footer class="footer footer-big footer-color-black" data-color="black">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-sm-3">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-6">
                 <div class="info">
                     <h5 class="title">Other Sites</h5>
                     <nav>
@@ -13,7 +13,7 @@
                     </nav>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-3">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-6">
                 <div class="info">
                     <h5 class="title">Notices</h5>
                     <nav>
@@ -25,13 +25,13 @@
                     </nav>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-6">
-                <div class="info row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
+                <div class="info">
                     <h5 class="title">Follow me on</h5>
                     <nav>
                         <ul>
                             {% for item in site.data.settings.social_media %}
-                            <div class="col-md-4">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-6">
                                 <li>
                                     <a href="{{ item.url }}">
                                         <i class="fa-brands fa-{{ item.icon }} fa-fw"></i>&nbsp;&nbsp;{{ item.name }}
@@ -46,15 +46,18 @@
         </div>
         <hr>
         <div class="row" style="margin-top: 2rem; margin-bottom: 2rem;">
-            <div class="col-lg-1 col-md-1 col-sm-1 col-1 pr-0">
-                <a href="https://basuhoward.org"><img src="{{ '/assets/img/identity/bh-flag-1x1.svg' | relative_url }}" style="border: 1px #f8f8f8 solid;" width="50em" /></a>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-12">
+                <div class="basu-howard-banner">
+                    <div class="basu-howard-flag">
+                        <a href="https://basuhoward.org">
+                            <img src="{{ '/assets/img/identity/bh-flag-1x1.svg' | relative_url }}" style="border: 1px #f8f8f8 solid;" width="40em" />
+                        </a>
+                    </div>
+                    <div class="info ml-4 mt-0 basu-howard-text">jameshoward.us<br/>A website of the House of Basu-Howard</div>
+                </div>
             </div>
-            <div class="col-lg-5 col-md-5 col-sm-5 col-5 pl-0 my-auto">
-                <p>jameshoward.us<br/>A website of the House of Basu-Howard</p>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                <p class="text-right"><br/>Copyright &copy; 1997-{{ 'now' | date: "%Y" }} James P. Howard, II</p>
+            <div class="info col-lg-6 col-md-6 col-sm-6 col-xs-12 col-12">
+                <div class="jh-copyright"><br/>Copyright &copy; 1997-{{ 'now' | date: "%Y" }} James P. Howard, II</div>
             </div>
         </div>
-    </div>
 </footer>

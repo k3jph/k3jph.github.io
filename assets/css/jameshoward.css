@@ -28,6 +28,7 @@
 
 .separator::before, .separator::after {
   margin-top: 16px !important;
+  width: 35%;
 }
 
 a {
@@ -81,8 +82,41 @@ figure {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-  color: #f8f8f8;
-} }
+    color: #f8f8f8;
+  }
+
+  .jh-copyright {
+    text-align: center;
+  }
+
+  .basu-howard-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .jh-copyright {
+    text-align: right;
+  }
+
+  .basu-howard-banner {
+    float: left;
+  }
+
+  .basu-howard-flag {
+    display: inline;
+    vertical-align: baseline;
+  }
+
+  .basu-howard-text {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+}
+
+
 
 .images-caption {
   margin-top: 0.5em;
