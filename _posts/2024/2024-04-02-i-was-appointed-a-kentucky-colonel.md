@@ -20,7 +20,7 @@ by the Commonwealth of Kentucky and celebrates an individual's
 dedication to community, excellence, and service. 
 
 {% include figure.html width="4"
-   image="/kentucky-seal.svg" 
+   image="/2024/i-was-appointed-a-kentucky-colonel/kentucky-seal.svg" 
    alt="Seal of the Commonwealth of Kentucky" 
    cap="Seal of the Commonwealth of Kentucky" %}
    
@@ -62,3 +62,8 @@ As I accept this honor, I am reminded of the importance of tradition,
 service, and the significant impact we can have by inspiring others.
 I am honored to carry on this tradition and excited about the
 potential to make meaningful contributions.
+
+{% include figure.html width="12"
+   image="/2024/i-was-appointed-a-kentucky-colonel/jhoward-kyc.png" 
+   alt="Certificate of Appointment as a Kentucky Colonel"
+   cap="Certificate of Appointment as a Kentucky Colonel" %}
