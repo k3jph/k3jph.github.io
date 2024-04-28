@@ -5,6 +5,7 @@ date: 2024-04-12
 author: James Howard
 layout: page
 guid: disclosure-statement
+permalink: disclosure-statement
 ---
 I am a member of the senior professional staff at the Johns Hopkins
 University Applied Physics Laboratory, LLC, a university-affiliated

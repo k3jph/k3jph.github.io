@@ -1,5 +1,6 @@
 ---
 id: 4281
+permalink: /terms-of-use
 title: Terms of Use
 date: 2016-07-05T16:31:21-04:00
 author: James Howard

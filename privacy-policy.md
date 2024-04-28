@@ -1,5 +1,6 @@
 ---
 id: 4285
+permalink: /privacy-policy
 title: Privacy Policy
 date: 2016-07-05T16:33:01-04:00
 author: James Howard
