@@ -105,6 +105,10 @@ a.scroll-arrow {
   border: none;
 }
 
+body {
+  padding: 0px;
+}
+
 .m-0 { margin:0!important; }
 .m-1 { margin:.25rem!important; }
 .m-2 { margin:.5rem!important; }
