@@ -7,20 +7,34 @@
       {% assign title = title | append: page.tag %}
     {% endif %}
 
+    {% assign title_formatted = title | markdownify | strip_html %}
+    {% assign title_clean = title_formatted | append: " – " | append: site.title %}
+
+    {% assign featured_image = "/assets/img/header-home.jpg" | relative_url %}
+    {% if page.featured_image %}
+      {% assign featured_image = page.featured_image %}
+    {% endif %}
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>{{ title }} | James Howard</title>
-    <meta name="description" content="{{ page.description }}">
+    <title>{{ title }}</title>
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ title }}">
-    <meta name="twitter:description" content="{{ page.description }}">
-    <meta name="twitter:image:src" content="{{ page.featured_image | absolute_url }}">
+    <meta name="title" content="{{ title }}" />
+    <meta name="author" content="James" />
+    <meta name="description" content="{{ page.subtitle }}" />
 
-    <!-- Facebook OpenGraph -->
     <meta property="og:title" content="{{ title }}" />
-    <meta property="og:description" content="{{ page.description }}" />
-    <meta property="og:image" content="{{ page.featured_image | absolute_url }}" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:description" content="{{ page.subtitle }}" />
+    <meta property="og:url" content="{{ page.url }}" />
+    <meta property="og:site_name" content="James Howard" />
+    <meta property="og:image" content="{{ featured_image | relative_url }}" />
+    <meta property="og:type" content="article" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:image" content="{{ featured_image | relative_url }}" />
+    <meta property="twitter:title" content="{{ title }}" />
+    <meta name="twitter:site" content="@k3jph" />
+    <meta name="twitter:creator" content="@k3jph" />
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <link href="{{ '/assets/css/bootstrap.css' | relative_url }}" rel="stylesheet" />
