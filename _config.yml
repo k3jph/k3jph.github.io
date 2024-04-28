@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   the world, aiming to inspire, educate, and make a meaningful impact
   in every endeavor I undertake.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: ""
+url: "https://jameshoward.us"
 port: 4000
 
 twitter_username: k3jph
