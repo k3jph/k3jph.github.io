@@ -51,7 +51,7 @@ body {
 }
 
 .hit-description {
-  color: #888;
+  color: #303030;
   font-size: 14px;
   margin-bottom: 0.5em;
 }
@@ -69,19 +69,19 @@ body {
   text-decoration: underline;
 }
 .post-breadcrumbs {
-  color: #424242;
+  color: #303030;
   display: block;
 }
 .post-breadcrumb {
   font-size: 18px;
-  color: #424242;
+  color: #303030;
 }
 .post-breadcrumb .ais-Highlight {
   font-weight: bold;
   font-style: normal;
 }
 .post-snippet .ais-Highlight {
-  color: #2a7ae2;
+  color: #0c6793;
   font-style: normal;
   font-weight: bold;
 }
@@ -90,12 +90,12 @@ body {
 }
 
 .ais-Pagination-item--selected .ais-Pagination-link {
-    color: #fff;
-    background-color: #871717;
-    border-color: #871717;
+    color: #f8f8f8;
+    background-color: #07406e;
+    border-color: #07406e;
 }
 
 .ais-Pagination-link:focus,
 .ais-Pagination-link:hover {
-    color: #000000
+    color: #303030
 }
