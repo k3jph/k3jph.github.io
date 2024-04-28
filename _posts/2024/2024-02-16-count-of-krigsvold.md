@@ -5,7 +5,7 @@ date: 2024-02-16
 author: k3jph
 layout: post
 permalink: /2024/02/16/count-of-krigsvold
-featured_image: /assets/img/2024/count-of-krigsvold.jpg
+featured_image: /assets/img/2024/count-of-krigsvold.png
 categories:
 - Blog 
 tags:
@@ -41,3 +41,5 @@ critical environmental issues while encouraging a collective effort towards
 sustainable living and conservation practices. Through this honors system,
 Westarctica not only celebrates individual achievements but also galvanizes a
 broader commitment to safeguarding our planet’s future.
+
+For more information, [visit the Count of Krigvold's website](https://krigsvold.org).
