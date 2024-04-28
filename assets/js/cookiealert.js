@@ -10,7 +10,7 @@
     var acceptCookies = document.querySelector(".acceptcookies");
     var rejectCookies = document.querySelector(".rejectcookies");
 
-    window['ga-disable-G-13CWX5EBQG'] = true;
+    window['ga-disable-G-FSDET4HG4L'] = true;
 
     if (!cookieAlert) {
        return;
@@ -22,8 +22,8 @@
     if (!getCookie("acceptCookies")) {
         cookieAlert.classList.add("show");
     } else {
-        window['ga-disable-G-13CWX5EBQG'] = false;
-        startGoogleAnalytics("G-13CWX5EBQG")
+        window['ga-disable-G-FSDET4HG4L'] = false;
+        startGoogleAnalytics("G-FSDET4HG4L")
     }
 
     // When clicking on the agree button, create a 1 year
@@ -32,7 +32,7 @@
         setCookie("acceptCookies", true, 365);
         cookieAlert.classList.remove("show");
 
-        startGoogleAnalytics("G-13CWX5EBQG")
+        startGoogleAnalytics("G-FSDET4HG4L")
         // dispatch the accept event
         window.dispatchEvent(new Event("cookieAlertAccept"))
     });
