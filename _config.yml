@@ -30,6 +30,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jameshoward.us"
 port: 4000
 
+permalink: pretty
+
 twitter_username: k3jph
 github_username:  k3jph
 sass:
