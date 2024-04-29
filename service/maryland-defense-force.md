@@ -9,7 +9,7 @@ redirect_from:
   - /service/mddf/
 ---
 
-{% include figure.html image="mddf-dui.png" placement="right" width="30%"
+{% include figure.html image="ribbons/mddf/MDDF-DUI.svg" placement="right" width="30%"
 cap="The Maryland Defense Force's distinctive unit insignia"
 alt="The Maryland Defense Force's distinctive unit insignia" %}
 
@@ -36,7 +36,7 @@ collaborating with other emergency response organizations and
 agencies, including the Maryland National Guard and the Federal
 Emergency Management Agency (FEMA).
 
-{% include figure.html image="mddf-ssi.png" placement="right" width="30%"
+{% include figure.html image="ribbons/mddf/MDDF-SSI.svg" placement="right" width="30%"
 cap="The Maryland Defense Force's shoulder sleeve insignia"
 alt="The Maryland Defense Force's shoulder sleeve insignia" %}
 
@@ -53,9 +53,9 @@ accomplishments with the MDDF.
 
 <div class="badgerack">
 <div class="ribbonbar">
-<a href="#SMEMS" class="ribbon ribbon-center"><img src="/assets/img/ribbons/mddf/SMEMS-Flash.png"
-    alt="Senior Military Emergency Management Specialist"
-    title="Senior Military Emergency Management Specialist" /></a>
+<a href="#SMEMS" class="ribbon ribbon-center">
+<img src="/assets/img/ribbons/mddf/SMEMS-Flash.svg"
+    alt="Senior Military Emergency Management Specialist" /></a>
 </div>
 </div>
 
@@ -96,45 +96,36 @@ States](https://sgaus.org/) and are authorized for wear by MDDF members.
 <!-- Make img at http://www.ultimaterack.ajandj.com/index.php/ribbon-creator -->
 <div class="ribbonrack">
 <div class="ribbonbar">
-<a href="#TAGSRR" class="ribbon ribbon-left"><img src="/assets/img/ribbons/mddf/TAGSRR.png"
+<a href="#TAGSRR" class="ribbon ribbon-left"><img src="/assets/img/ribbons/mddf/TAGSRR.svg"
     alt="The Adjutant General's Special Recognition Ribbon"
     title="The Adjutant General's Special Recognition Ribbon" /></a>
-<a href="#MDESR" class="ribbon ribbon-right"><img src="/assets/img/ribbons/mddf/MDESR.png"
-    alt="Maryland Emergency Service Ribbon"
-    title="Maryland Emergency Service Ribbon" /></a>
+<a href="#MDESR" class="ribbon ribbon-right"><img src="/assets/img/ribbons/mddf/MDESR.svg"
+    alt="Maryland Emergency Service Ribbon" /></a>
 </div>
 <div class="ribbonbar">
-<a href="#MDSVCR" class="ribbon ribbon-left"><img src="/assets/img/ribbons/mddf/MDSVCR15.png"
-    alt="State of Maryland State Service Medal"
-    title="State of Maryland State Service Medal" /></a>
-<a href="#MDDFMSR" class="ribbon ribbon-center"><img src="/assets/img/ribbons/mddf/MDDFMSR.png"
-    alt="Maryland Defense Force Meritorious Service Ribbon"
-    title="Maryland Defense Force Meritorious Service Ribbon" /></a>
-<a href="#MDDFCR" class="ribbon ribbon-right"><img src="/assets/img/ribbons/mddf/MDDFCR.png"
-    alt="Maryland Defense Force Commendation Ribbon"
-    title="Maryland Defense Force Commendation Ribbon" /></a>
+<a href="#MDSVCR" class="ribbon ribbon-left"><img src="/assets/img/ribbons/mddf/MDSVCR15.svg"
+    alt="State of Maryland State Service Medal" /></a>
+<a href="#MDDFMSR" class="ribbon ribbon-center"><img src="/assets/img/ribbons/mddf/MDDFMSR.svg"
+    alt="Maryland Defense Force Meritorious Service Ribbon" /></a>
+<a href="#MDDFCR" class="ribbon ribbon-right"><img src="/assets/img/ribbons/mddf/MDDFCR.svg"
+    alt="Maryland Defense Force Commendation Ribbon" /></a>
 </div>
 <div class="ribbonbar">
-<a href="#MDDFHSR" class="ribbon ribbon-left"><img src="/assets/img/ribbons/mddf/MDDFHSR.png"
-    alt="Maryland Defense Force Humanitarian Service Ribbon"
-    title="Maryland Defense Force Humanitarian Service Ribbon" /></a>
-<a href="#MDDFACAR" class="ribbon ribbon-center"><img src="/assets/img/ribbons/mddf/MDDFACAR.png"
-    alt="Maryland Defense Force Aid to Civil Authority Ribbon"
-    title="Maryland Defense Force Aid to Civil Authority Ribbon" /></a>
-<a href="#MDDFCERTR" class="ribbon ribbon-right"><img src="/assets/img/ribbons/mddf/MDDFCERTR.png"
-    alt="Maryland Defense Force Community Emergency Response Team Ribbon"
-    title="Maryland Defense Force Community Emergency Response Team Ribbon" /></a>
+<a href="#MDDFHSR" class="ribbon ribbon-left"><img src="/assets/img/ribbons/mddf/MDDFHSR.svg"
+    alt="Maryland Defense Force Humanitarian Service Ribbon" /> </a>
+<a href="#MDDFACAR" class="ribbon ribbon-center"><img src="/assets/img/ribbons/mddf/MDDFACAR.svg"
+    alt="Maryland Defense Force Aid to Civil Authority Ribbon" /></a>
+<a href="#MDDFCERTR" class="ribbon ribbon-right"><img src="/assets/img/ribbons/mddf/MDDFCERTR.svg"
+    alt="Maryland Defense Force Community Emergency Response Team Ribbon" /></a>
 </div>
 <div class="ribbonbar">
-<a href="#MDDFPDR" class="ribbon ribbon-left"><img src="/assets/img/ribbons/mddf/MDDFPDR3.png"
-    alt="Maryland Defense Force Professional Development Ribbon"
-    title="Maryland Defense Force Professional Development Ribbon" /></a>
-<a href="#MDDFBTR" class="ribbon ribbon-center"><img src="/assets/img/ribbons/mddf/MDDFBTR.png"
+<a href="#MDDFPDR" class="ribbon ribbon-left"><img src="/assets/img/ribbons/mddf/MDDFPDR3.svg"
+    alt="Maryland Defense Force Professional Development Ribbon" /></a>
+<a href="#MDDFBTR" class="ribbon ribbon-center"><img src="/assets/img/ribbons/mddf/MDDFBTR.svg"
     alt="Maryland Defense Force Basic Training Ribbon"
     title="Maryland Defense Force Basic Training Ribbon" /></a>
-<a href="#SGAUSPDA" class="ribbon ribbon-right"><img src="/assets/img/ribbons/mddf/SGAUSPDA2.png"
-    alt="State Guard Association of United States Professional Development Award"
-    title="State Guard Association of United States Professional Development Award" /></a></div>
+<a href="#SGAUSPDA" class="ribbon ribbon-right"><img src="/assets/img/ribbons/mddf/SGAUSPDA2.svg"
+    alt="State Guard Association of United States Professional Development Award" /></a></div>
 </div>
 
 ### <a id='TAGSRR' />The Adjutant General's Special Recognition Ribbon
@@ -265,9 +256,8 @@ United States and is authorized for wear by MDDF members.
 
 <div class="ribbonrack">
 <div class="ribbonbar">
-<a href="#SGAUSSUC" class="ribbon ribbon-center"><img src="/assets/img/ribbons/mddf/SGAUSSUC.png"
-    alt="State Guard Association of United States Superior Unit Citation"
-    title="State Guard Association of United States Superior Unit Citation" /></a>
+<a href="#SGAUSSUC" class="ribbon ribbon-center"><img src="/assets/img/ribbons/mddf/SGAUSSUC.svg"
+    alt="State Guard Association of United States Superior Unit Citation" /></a>
 </div>
 </div>
 
@@ -301,12 +291,10 @@ of the Maryland Defense Force and the Maryland Military Department.
 
 <div class="ribbonrack">
 <div class="ribbonbar">
-<a href="#PVSA" class="ribbon ribbon-left"><img src="/assets/img/ribbons/mddf/PVSA.png"
-    alt="President's Volunteer Service Award"
-    title="President's Volunteer Service Award" /></a>
-<a href="#CHZTM1" class="ribbon ribbon-right"><img src="/assets/img/ribbons/mddf/CHZTM1.png"
-    alt="Schweizerischer Zweitagemarsch"
-    title="Schweizerischer Zweitagemarsch" /></a>
+<a href="#PVSA" class="ribbon ribbon-left"><img src="/assets/img/ribbons/mddf/PVSA.svg"
+    alt="President's Volunteer Service Award" /></a>
+<a href="#CHZTM1" class="ribbon ribbon-right"><img src="/assets/img/ribbons/mddf/CHZTM1.svg"
+    alt="Schweizerischer Zweitagemarsch" /></a>
 </div>
 </div>
 

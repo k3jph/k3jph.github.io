@@ -99,8 +99,7 @@ alt="Letters Pattent for the Baron of Matikonis" %}
 <div class="ribbonbar">
 <a href="#WAKTS" class="ribbon ribbon-center">
   <img src="/assets/img/ribbons/westarctica/WAKTS.svg"
-       alt="Knight of the Snowflake ribbon"
-       qtitle="Knight of the Snowflake ribbon" /></a>
+       alt="Knight of the Snowflake ribbon" /></a>
 </div>
 </div>
 
