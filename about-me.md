@@ -5,8 +5,6 @@ date: 2013-12-02T00:50:20-05:00
 author: James Howard
 layout: page
 guid: http://localhost/wp-faculty/?page_id=2
-redirect_from:
-  - /about-me/
 ---
 
 {% include figure.html image="jhoward-greenglow.jpg" width="4" placement="right"
