@@ -4,7 +4,7 @@ title: Lord Baltimore's Influence on Maryland's Heraldry
 date: 2024-03-12
 author: k3jph
 layout: post
-permalink: /2024/lord-baltimores-influence-on-marylands-heraldry
+permalink: /2024/03/12/lord-baltimores-influence-on-marylands-heraldry
 featured_image: /assets/img/2024/lord-baltimores-influence-on-marylands-heraldry.jpg
 categories:
 - Blog 

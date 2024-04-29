@@ -4,7 +4,7 @@ title: Spatial Reasoning Insights from Hunt the Wumpus and ChatGPT
 date: 2024-03-02
 author: k3jph
 layout: post
-permalink: /2024/03-02/spatial-reasoning-insights-from-hunt-the-wumpus-and-chatgpt
+permalink: /2024/03/02/spatial-reasoning-insights-from-hunt-the-wumpus-and-chatgpt
 featured_image: /assets/img/2024/spatial-reasoning-insights-from-hunt-the-wumpus-and-chatgpt.jpg
 categories:
 - Blog 
