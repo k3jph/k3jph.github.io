@@ -1,6 +1,6 @@
 ---
 id: kingdom-of-hawaii
-title: Kingdom of Hawaii
+title: Kingdom of Hawai'i
 author: James Howard
 date: 2024-03-17
 layout: page
@@ -12,8 +12,8 @@ redirect_from:
 ---
 
 {% include figure.html image="kingdom-hawaii-coat-of-arms.svg" placement="right" width="40%"
-cap="The coat of arms of the Kingdom of Hawaii"
-alt="The coat of arms of the Kingdom of Hawaii" %}
+cap="The coat of arms of the Kingdom of Hawai'i"
+alt="The coat of arms of the Kingdom of Hawai'i" %}
 
 The [Royal House of Keōua Nui](https://www.crownofhawaii.com/),
 integral to the rich tapestry of Hawaiian history, traces its lineage
@@ -38,14 +38,14 @@ relations and cultural exchange.
 However, the [overthrow of Queen Lili'uokalani in
 1893](https://www.zinnedproject.org/news/tdih/queen-liliuokalani-overthrown/)
 marked a significant turning point, leading to the eventual annexation
-of Hawaii by the United States in 1898. Despite these challenges,
+of Hawai'i by the United States in 1898. Despite these challenges,
 the descendants of the Hawaiian monarchy have continued to uphold
 their cultural heritage and advocate for the rights and recognition
 of Native Hawaiians.
 
 {% include figure.html image="kingdom-hawaii-flag.svg" placement="right" width="40%"
-cap="The Flag of the Kingdom of Hawaii"
-alt="The Flag of the Kingdom of Hawaii" %}
+cap="The Flag of the Kingdom of Hawai'i"
+alt="The Flag of the Kingdom of Hawai'i" %}
 
 In modern times, the Royal House of Keōua Nui, led by [H.R.H.
 Princess Owana Kaʻōhelelani](https://en.wikipedia.org/wiki/Owana_Salazar),
@@ -54,7 +54,7 @@ legacies of its royal lineage, promoting education about Hawaiian
 history, language, and traditions. The re-establishment of traditional
 honors, such as the Royal Order of the Star of Oceania, underlines
 ongoing efforts to celebrate and perpetuate the significance of
-Hawaii's royal heritage in both local and international contexts.
+Hawai'i's royal heritage in both local and international contexts.
 
 ## The Royal Order of the Star of Oceania 
 
@@ -116,4 +116,4 @@ The diploma is in Hawaiian and translates to:
 > expediently issued on March 17, 2024, in the district of Hilo in 
 > Hawai'i.
 
-{% include relatedposts.html tag="Hawaii" %}
+{% include relatedposts.html tag="Hawai'i" %}
