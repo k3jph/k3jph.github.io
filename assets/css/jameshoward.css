@@ -65,6 +65,10 @@ ul.social-media-menu {
   font-weight: normal;
 }
 
+.footer nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus {
+  color: #f8f8f8;
+}
+
 .search-box {
   color: #f8f8f8;
   margin: 15px 3px;
