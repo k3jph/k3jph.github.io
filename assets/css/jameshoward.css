@@ -31,6 +31,14 @@
   width: 35%;
 }
 
+.info-icon .description {
+  color: #303030;
+}
+
+.danger-icon .icon {
+  font-size: 62px;
+}
+
 a {
   color: #07406e;
   font-weight: bold;
@@ -39,6 +47,22 @@ a {
 
 .form-group {
   margin: 0;
+}
+
+ul.social-media-menu {
+  a {
+    color: #f8f8f8;
+  }
+
+  li {
+    margin-bottom: 4px;
+  }
+
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
 }
 
 .search-box {
@@ -76,6 +100,10 @@ figure {
   min-height: 27vh;
 }
 
+.footer nav>ul a:not(.btn) {
+  color: #f8f8f8;
+}
+
 .navbar-collapse::after {
   background-color: #303030;
 }
@@ -88,7 +116,7 @@ figure {
   .jh-copyright {
     text-align: center;
         font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #777;
+    color: #f8f8f8;
     font-weight: bold;
   }
 
@@ -100,7 +128,7 @@ figure {
 
   .basu-howard-text {
       font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #777;
+    color: #f8f8f8;
     font-weight: bold;
 }
 }
@@ -109,7 +137,7 @@ figure {
   .jh-copyright {
     text-align: right;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #777;
+    color: #f8f8f8;
     font-weight: bold;
   }
 
@@ -126,7 +154,7 @@ figure {
     display: inline-block;
     vertical-align: bottom;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #777;
+    color: #f8f8f8;
     font-weight: bold;
   }
 }

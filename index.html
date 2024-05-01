@@ -12,18 +12,18 @@ subtitle: The website of James Howard, a Mathematician, a Different Kind of Math
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-1 col-1"></div>
                     <div class="col-lg-4 col-md-4 col-sm-10 col-10">
-                        <img src="{{ '/assets/img/identity/jameshoward-logo.svg' | relative_url }}" width="40%">
+                        <img src="{{ '/assets/img/identity/jameshoward-logo.svg' | relative_url }}" width="40%" alt="James Howard vertical logo">
                     </div>
                 </div>
                 <div class="separator-container">
-                    <div class="separator separator"><img src="{{ '/assets/img/martlet.svg' | relative_url }}" height="35rem" /></div>
+                    <div class="separator separator"><img src="{{ '/assets/img/martlet.svg' | relative_url }}" height="35rem" alt="Decorative text bullet" /></div>
                 </div>
                 <h5>A Mathematician, a Different Kind of<br/>Mathematician, and a Statistician</h5>
             </div>
         </div>
     </div>
     <div>
-        <a href="" data-scroll="true" data-id="#firstSection" class="scroll-arrow hidden-xs hidden-sm">
+        <a href="" data-scroll="true" data-id="#firstSection" class="scroll-arrow hidden-xs hidden-sm" aria-label="Read more about James Howard">
             <div class="icon front-page-arrow">
                 <i class="pe-7s-angle-down-circle"></i>
             </div>
@@ -38,7 +38,7 @@ subtitle: The website of James Howard, a Mathematician, a Different Kind of Math
             <div class="title-area">
                 <h2>Explore My World</h2>
                 <div class="separator separator-info">
-                    <img src="{{ '/assets/img/martlet-info.svg' | relative_url }}" height="35rem" />
+                    <img src="{{ '/assets/img/martlet-info.svg' | relative_url }}" height="35rem" alt="Decorative text bullet" />
                 </div>
             </div>
         </div>
@@ -97,15 +97,15 @@ subtitle: The website of James Howard, a Mathematician, a Different Kind of Math
     <div class="container">
         <div class="title-area">
             <h2>Most Recent Posts</h2>
-            <div class="separator separator-danger"><img src="{{ '/assets/img/martlet-danger.svg' | relative_url }}" height="35rem" /></div>
+            <div class="separator separator-danger"><img src="{{ '/assets/img/martlet-danger.svg' | relative_url }}" height="35rem" alt="Decorative text bullet" /></div>
         </div>
 
         <div id="masonry-container" class="row">
             {% for post in site.posts limit: 6 %}
             <div class="item col-md-4">
                 <div class="card card-blog">
-                    <a href="{{ post.permalink | relative_url }}" class="header">
-                        <img src="{{ post.featured_image | relative_url }}" class="image-header">
+                    <a href="{{ post.permalink | relative_url }}" class="header" aria-label="{{ post.title }}">
+                        <img src="{{ post.featured_image | relative_url }}" class="image-header" alt="">
                     </a>
                     <div class="content">
                         <div class="circle-black">
@@ -116,7 +116,7 @@ subtitle: The website of James Howard, a Mathematician, a Different Kind of Math
                                 </div>
                             </div>
                         </div>
-                        <a href="{{ post.permalink | relative_url }}" class="card-title"><h3>{{ post.title }}</h3></a>
+                        <a href="{{ post.permalink | relative_url }}" class="card-title" aria-label="{{ post.title }}"><h3>{{ post.title }}</h3></a>
                         <p class="text-description text-gray">{{ post.content | markdownify | truncatewords: 30 }}</p>
                     </div>
                 </div>
@@ -132,12 +132,12 @@ subtitle: The website of James Howard, a Mathematician, a Different Kind of Math
         <div class="container">
             <div class="title-area">
                 <h2 class="text-white">Dive Deeper into My Universe</h2>
-                <div class="separator separator"><img src="{{ '/assets/img/martlet.svg' | relative_url }}" height="35rem" /></div>
+                <div class="separator separator"><img src="{{ '/assets/img/martlet.svg' | relative_url }}" height="35rem" alt="Decorative text bullet" /></div>
             </div>
             <div class="row">
                 <a href="{{ '/games' | relative_url }}">
                     <div class="col-md-3 col-sm-6">
-                        <div class="info-icon">
+                        <div class="danger-icon">
                             <div class="icon text-danger">
                                 <i class="pe-7s-ball"></i>
                             </div>
@@ -148,7 +148,7 @@ subtitle: The website of James Howard, a Mathematician, a Different Kind of Math
                 </a>
                 <a href="{{ '/books' | relative_url }}">
                     <div class="col-md-3 col-sm-6">
-                        <div class="info-icon">
+                        <div class="danger-icon">
                             <div class="icon text-danger">
                                 <i class="pe-7s-notebook"></i>
                             </div>
@@ -159,7 +159,7 @@ subtitle: The website of James Howard, a Mathematician, a Different Kind of Math
                 </a>
                 <a href="{{ '/media' | relative_url }}">
                     <div class="col-md-3 col-sm-6">
-                        <div class="info-icon">
+                        <div class="danger-icon">
                             <div class="icon text-danger">
                                 <i class="pe-7s-micro"></i>
                             </div>
@@ -170,7 +170,7 @@ subtitle: The website of James Howard, a Mathematician, a Different Kind of Math
                 </a>
                 <a href="{{ '/software' | reltive_url }}">
                     <div class="col-md-3 col-sm-6">
-                        <div class="info-icon">
+                        <div class="danger-icon">
                             <div class="icon text-danger">
                                 <i class="pe-7s-diskette"></i>
                             </div>
