@@ -1,6 +1,6 @@
 ---
 id: the-energy-cost-of-ai-ml-iceland-to-the-rescue
-title: Introducing the Count of Krigsvold
+title: The Energy Cost of AI/ML, Iceland to the Rescue
 date: 2024-05-01
 author: k3jph
 layout: post
