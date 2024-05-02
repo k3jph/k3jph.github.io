@@ -67,3 +67,5 @@ potential to make meaningful contributions.
    image="/2024/i-was-appointed-a-kentucky-colonel/jhoward-kyc.png" 
    alt="Certificate of Appointment as a Kentucky Colonel"
    cap="Certificate of Appointment as a Kentucky Colonel" %}
+   
+Or you can [download the PDF here](/assets/img/2024/i-was-appointed-a-kentucky-colonel/jhoward-kyc.pdf).
