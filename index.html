@@ -102,7 +102,7 @@ subtitle: The website of James Howard, a Mathematician, a Different Kind of Math
 
         <div id="masonry-container" class="row">
             {% for post in site.posts limit: 6 %}
-            <div class="item col-md-4">
+            <div class="item col-md-4 my-5">
                 <div class="card card-blog">
                     <a href="{{ post.permalink | relative_url }}" class="header" aria-label="{{ post.title }}">
                         <img src="{{ post.featured_image | relative_url }}" class="image-header" alt="">
@@ -117,7 +117,7 @@ subtitle: The website of James Howard, a Mathematician, a Different Kind of Math
                             </div>
                         </div>
                         <a href="{{ post.permalink | relative_url }}" class="card-title" aria-label="{{ post.title }}"><h3>{{ post.title }}</h3></a>
-                        <p class="text-description text-gray">{{ post.content | markdownify | truncatewords: 30 }}</p>
+                        <p class="text-description text-gray card-blog-excerpt">{{ post.content | markdownify | remove: "<p>" | remove: "</p>" | truncatewords: 30 }}</p>
                     </div>
                 </div>
             </div>

@@ -51,6 +51,10 @@ a {
   }
 }
 
+.card-blog-excerpt {
+  text-align: left;
+}
+
 a.card-title, a.card-category {
   text-decoration: none;
 }
