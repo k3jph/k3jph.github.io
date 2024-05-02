@@ -148,7 +148,11 @@ figure {
       font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #f8f8f8;
     font-weight: bold;
-}
+  }
+
+  .content h1 {
+    font-size: 180%;
+  }
 }
 
 @media (min-width: 768px) {
