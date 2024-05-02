@@ -45,6 +45,16 @@ a {
   font-size: initial;
 }
 
+.content-blog {
+  a {
+    text-decoration: underline;
+  }
+}
+
+a.card-title, a.card-category {
+  text-decoration: none;
+}
+
 .form-group {
   margin: 0;
 }
