@@ -52,6 +52,19 @@ stewardship. Each award from Westarctica is a reminder of the
 collective responsibility we share in preserving our planet for
 future generations.
 
+## Royal Order of the Star of Oceania
+
+I was honored as a [Knight Commander of the Royal Order of the Star
+of Oceania](/honors/hawaii) by H.R.H Princess Owana Ka'ōhelelani
+on March 17th, 2024. This distinction not only celebrates my efforts
+in promoting Polynesian culture and education. This venerable
+accolade, reinstated to foster cultural ties and mutual respect
+among Pacific nations, acknowledges my dedication to preserving and
+enlightening a rich heritage spanning the vast expanse of Oceania.
+As a Knight Commander, I am committed to embodying the principles
+of this Order, advocating for cultural preservation, and enhancing
+educational opportunities across the Pacific.
+
 ## Kentucky Colonel
 
 I was appointed a [Kentucky Colonel by Governor Andy Beshear on
