@@ -42,7 +42,7 @@
 a {
   color: #07406e;
   font-weight: bold;
-  font-size: initial;
+  font-size: inherit;
 }
 
 .content-blog {

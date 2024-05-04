@@ -38,19 +38,19 @@ tribute to the mentors, colleagues, students, and community members
 who inspire and propel us forward, reminding us that the most
 meaningful accomplishments are those we achieve together.
 
-## Grand Duchy of Westarctica
+## Coat of Arms from Malta
 
-My recognition by [Westarctica](/honors/westarctica), through
-prestigious awards, underscores a commitment to environmental
-advocacy and public service on a global scale. These honors, including
-titles and commendations, are reflective of efforts to address
-critical environmental issues, bolstering awareness and action
-within the international community. Westarctica's recognition not
-only highlights individual contributions to conservation and
-sustainability but also reinforces the importance of global
-stewardship. Each award from Westarctica is a reminder of the
-collective responsibility we share in preserving our planet for
-future generations.
+The [coat of arms](/honors/malta) I've been honored with by Malta
+represents a fusion of personal heritage and professional dedication,
+encapsulated within the ancient tradition of heraldry. At its heart,
+the design features a tetrahedron and a sword, symbols of my
+mathematical pursuits and connections to Cincinnati, Ohio, respectively.
+This emblem not only reflects my academic and public service
+contributions but also hints at a storied lineage, potentially
+linked to Thomas Arundell through the inclusion of a martlet, a nod
+to the unproven but cherished ancestral ties. This heraldic achievement
+celebrates a commitment to community, knowledge, and the enduring
+quest for understanding.
 
 ## Royal Order of the Star of Oceania
 
@@ -77,3 +77,16 @@ commitment to the values of leadership, excellence, and service.
 As a Kentucky Colonel, I am dedicated to advancing these ideals and
 positively impacting our communities and beyond.
 
+## Grand Duchy of Westarctica
+
+My recognition by [Westarctica](/honors/westarctica), through
+prestigious awards, underscores a commitment to environmental
+advocacy and public service on a global scale. These honors, including
+titles and commendations, are reflective of efforts to address
+critical environmental issues, bolstering awareness and action
+within the international community. Westarctica's recognition not
+only highlights individual contributions to conservation and
+sustainability but also reinforces the importance of global
+stewardship. Each award from Westarctica is a reminder of the
+collective responsibility we share in preserving our planet for
+future generations.
