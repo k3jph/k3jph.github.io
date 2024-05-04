@@ -25,7 +25,7 @@
     {% endif %}
         <div class="card">
             <figure>
-                <img class="featured-img" src="{{ '/assets/img/' | append: include.image | relative_url }}"
+                <img class="featured-img mx-auto" src="{{ '/assets/img/' | append: include.image | relative_url }}"
                      alt="{{ include.alt | default: 'no description' }}"
                      {% if include.load != null %}loading="lazy"{% else %}loading="{{ include.loading }}"{% endif %}/>
                 <div class="content">
