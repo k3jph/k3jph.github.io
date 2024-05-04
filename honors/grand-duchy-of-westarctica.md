@@ -45,7 +45,7 @@ broader commitment to safeguarding our planet’s future.
 
 ## The Westarctican Peerage
 
-{% include figure.html image="westarctica-flag.jpg" placement="right" width="40%"
+{% include figure.html image="westarctica-flag.svg" placement="right" width="40%"
 cap="The Flag of Westarctica"
 alt="The Flag of Westarctica" %}
 
