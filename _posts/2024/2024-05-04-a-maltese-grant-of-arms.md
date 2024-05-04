@@ -76,7 +76,6 @@ reinforces my commitment to uphold the values it signifies and to
 carry forth the legacy of service and excellence that the arms
 represent.
 
-{% include figure.html image="jhoward-maltese-coa-salmeron-960px.png" 
-width="12" 
+{% include figure.html image="jhoward-maltese-salmeron-960px.jpg" width="12" border=true
 cap="Coat of Arms for James P. Howard, II, as interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
 alt="Coat of Arms for James P. Howard, II, as interpreted by Dr Antonio Salmerón" %}

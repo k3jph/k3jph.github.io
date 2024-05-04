@@ -17,8 +17,7 @@ redirect_from:
   - /honors/malta/
 ---
 
-{% include figure.html image="jhoward-maltese-coa-salmeron-960px.png" placement="right"
-width="40%" 
+{% include figure.html image="jhoward-maltese-salmeron-960px.jpg" placement="right" width="40%" border=true
 cap="Coat of Arms for James P. Howard, II, as interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
 alt="Coat of Arms for James P. Howard, II, as interpreted by Dr Antonio Salmerón" %}
 
@@ -200,7 +199,7 @@ the essence of the coat of arms remains consistent across different
 renditions, showcasing the universal language of heraldry that
 transcends individual variations in artistic expression.
 
-{% include figure.html image="jhoward-maltese-coa-salmeron-960px.png" width="80%"
+{% include figure.html image="jhoward-maltese-salmeron-960px.jpg" width="80%" border=true
 cap="Coat of Arms for James P. Howard, II, as interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
 alt="Coat of Arms for James P. Howard, II, as interpreted by Dr Antonio Salmerón" %}
 
