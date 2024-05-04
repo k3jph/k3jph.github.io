@@ -4,6 +4,12 @@
 {%   assign pull = ""                       %}
 {% endif                                    %}
 
+{% if include.border == true                %}
+{%   assign img_border = "img-border"       %}
+{% else                                     %}
+{%   assign img_border = ""                 %}
+{% endif                                    %}
+
 {% assign w = include.width | to_integer    %}
 {% if w <= 12                               %}
 {%   assign colwidth="col-md-" | append: w  %}
@@ -25,7 +31,7 @@
     {% endif %}
         <div class="card">
             <figure>
-                <img class="featured-img mx-auto" src="{{ '/assets/img/' | append: include.image | relative_url }}"
+                <img class="featured-img mx-auto {{ img_border }}" src="{{ '/assets/img/' | append: include.image | relative_url }}"
                      alt="{{ include.alt | default: 'no description' }}"
                      {% if include.load != null %}loading="lazy"{% else %}loading="{{ include.loading }}"{% endif %}/>
                 <div class="content">
