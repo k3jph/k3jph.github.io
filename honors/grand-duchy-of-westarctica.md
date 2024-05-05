@@ -119,8 +119,8 @@ used for for the grade of Knight Commander, but without the white enamel.
 > For devotion to Westarctica
 
 {% include figure.html image="honors/jhoward-kts.jpg" width="12" border=true
-cap="Letters Patent for the Knight of the Snowflake"
-alt="Letters Patent for the Knight of the Snowflake" %}
+cap="Brevet for the Knight of the Snowflake"
+alt="Brevet for the Knight of the Snowflake" %}
 
 &nbsp;
 
