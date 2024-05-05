@@ -11,7 +11,7 @@ redirect_from:
   - /honors/hawaii
 ---
 
-{% include figure.html image="kingdom-hawaii-coat-of-arms.svg" placement="right" width="40%"
+{% include figure.html image="kingdom-hawaii-coat-of-arms.svg" placement="right" width="6"
 cap="The coat of arms of the Kingdom of Hawai'i"
 alt="The coat of arms of the Kingdom of Hawai'i" %}
 
@@ -43,7 +43,7 @@ the descendants of the Hawaiian monarchy have continued to uphold
 their cultural heritage and advocate for the rights and recognition
 of Native Hawaiians.
 
-{% include figure.html image="kingdom-hawaii-flag.svg" placement="right" width="40%"
+{% include figure.html image="kingdom-hawaii-flag.svg" placement="right" width="6" border=true
 cap="The Flag of the Kingdom of Hawai'i"
 alt="The Flag of the Kingdom of Hawai'i" %}
 
