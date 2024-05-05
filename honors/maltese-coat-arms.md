@@ -100,7 +100,7 @@ heritage and dynamic future of Malta. It stands as a symbol of honor
 and distinction, offering a lasting legacy that will be cherished
 by generations to come.
 
-{% include figure.html image="/2024/a-maltese-grant-of-arms.png" width="80%"
+{% include figure.html image="/2024/a-maltese-grant-of-arms.png" width="12" border=true
 cap="Letters patent for the coat of arms" 
 alt="Letters patent for the coat of arms" %}
 
