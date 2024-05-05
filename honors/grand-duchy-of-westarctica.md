@@ -80,15 +80,15 @@ Earth's most extraordinary and vulnerable ecosystems.
 
 > Created [Count of Krigsvold](https://www.westarctica.wiki/index.php?title=Krigsvold_Nunataks), the Peerage of Westarctica
 
-{% include figure.html image="JHoward-Westarctica-Krigsvold.jpg" width="95%"
-cap="Letters Pattent for the Count of Krigsvold"
-alt="Letters Pattent for the Count of Krigsvold" %}
+{% include figure.html image="honors/jhoward-krigsvold.jpg" width="12" border=true
+cap="Letters Patent for the Count of Krigsvold"
+alt="Letters Patent for the Count of Krigsvold" %}
 
 #### <a id='Matikonis' /> November 29, 2023
 
 > Created [Baron of Matikonis](https://www.westarctica.wiki/index.php?title=Matikonis_Peak), the Peerage of Westarctica
 
-{% include figure.html image="JHoward-Westarctica-Matikonis.jpg" width="95%"
+{% include figure.html image="honors/jhoward-matikonis.jpg" width="95%" border=true
 cap="Letters Pattent for the Baron of Matikonis"
 alt="Letters Pattent for the Baron of Matikonis" %}
 
@@ -118,7 +118,7 @@ used for for the grade of Knight Commander, but without the white enamel.
 
 > For devotion to Westarctica
 
-{% include figure.html image="JHoward-Westarctica-KtS.jpg" width="95%"
+{% include figure.html image="honors/jhoward-kts.jpg" width="95%" border=true
 cap="Letters Pattent for the Knight of the Snowflake"
 alt="Letters Pattent for the Knight of the Snowflake" %}
 
