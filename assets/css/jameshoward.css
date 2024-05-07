@@ -40,9 +40,10 @@
 }
 
 a {
-  color: #07406e;
+  color: #0c6793;
   font-weight: bold;
   font-size: inherit;
+  opacity: inherit;
 }
 
 .content-blog {
