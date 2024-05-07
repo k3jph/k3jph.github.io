@@ -11,7 +11,7 @@ redirect_from:
   - /honors/hawaii
 ---
 
-{% include figure.html image="kingdom-hawaii-coat-of-arms.svg" placement="right" width="6"
+{% include figure.html image="kingdom-hawaii-coat-of-arms.svg" placement="right" width="4"
 cap="The coat of arms of the Kingdom of Hawai'i"
 alt="The coat of arms of the Kingdom of Hawai'i" %}
 
@@ -43,7 +43,7 @@ the descendants of the Hawaiian monarchy have continued to uphold
 their cultural heritage and advocate for the rights and recognition
 of Native Hawaiians.
 
-{% include figure.html image="kingdom-hawaii-flag.svg" placement="right" width="6" border=true
+{% include figure.html image="kingdom-hawaii-flag.svg" placement="right" width="4" border=true
 cap="The Flag of the Kingdom of Hawai'i"
 alt="The Flag of the Kingdom of Hawai'i" %}
 
@@ -56,7 +56,17 @@ honors, such as the Royal Order of the Star of Oceania, underlines
 ongoing efforts to celebrate and perpetuate the significance of
 Hawai'i's royal heritage in both local and international contexts.
 
-## The Royal Order of the Star of Oceania 
+## Awards
+
+<div class="ribbonrack">
+<div class="ribbonbar">
+<a href="#KCRSO" class="ribbon ribbon-center">
+  <img src="/assets/img/ribbons/KCRSO.svg"
+       alt="Knight of the Royal Order of the Star of Oceania ribbon" /></a>
+</div>
+</div>
+
+### <a id='KCRSO' />The Royal Order of the Star of Oceania 
 
 The [Royal Order of the Star of
 Oceania](https://uchterhous.org/knights-2/elementor-1149/hawaii/),
