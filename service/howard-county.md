@@ -73,6 +73,13 @@ We produced three major documents.
 * [Preliminary Report](/assets/docs/HowardCounty-CRC2019-PreliminaryReport.pdf), March 16, 2020 
 * [Final Report](/assets/docs/HowardCounty-CRC2019-FinalReport.pdf), April 30, 2020
 
+### <a id='AResolution' />A Resolution
+
+{% include figure.html width="12" border=true
+   image="/service/jhoward-hoco-crcres.png"
+   alt="Honorary Resolution for the Charter Review Commission Members"
+   cap="Honorary Resolution for the Charter Review Commission Members" %}
+
 ## Public Engagement in Land Use Planning Task Force
 
 The Public Engagement in Land Use Planning Task Force (PELU) was a
