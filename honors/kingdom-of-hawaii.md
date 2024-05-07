@@ -83,7 +83,7 @@ forward-thinking approach to international diplomacy and his
 commitment to advocating for the sovereignty and collaboration of
 island nations in the Pacific and Indian Oceans.
 
-{% include figure.html image="star-oceania-emblem.png" placement="right" width="3"
+{% include figure.html image="star-oceania-emblem.jpg" placement="right" width="4"
 cap="Insignia of the Order of the Star of Oceania"
 alt="Insignia of the Order of the Star of Oceania" %}
 
