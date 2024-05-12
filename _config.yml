@@ -73,7 +73,7 @@ exclude:
   - vendor/ruby/
 
 svg:
-  optimize: true
+  optimize: false
   
 # Iframely!
 iframely-key:       176ff6184ababb980170f6037497fb6a
