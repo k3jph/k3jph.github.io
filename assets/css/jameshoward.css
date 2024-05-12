@@ -149,6 +149,17 @@ figure {
     display: flex;
     justify-content: center;
     align-items: center;
+    vertical-align: middle;
+  }
+
+  .basu-howard-flag {
+    display: inline;
+    svg {
+      vertical-align: middle;
+      border: 1px #f8f8f8 solid;
+      width: 3rem;
+      height: 3rem;
+    }
   }
 
   .basu-howard-text {
@@ -172,11 +183,17 @@ figure {
 
   .basu-howard-banner {
     float: left;
+    vertical-align: middle;
   }
 
   .basu-howard-flag {
     display: inline;
-    vertical-align: baseline;
+    svg {
+      vertical-align: middle;
+      border: 1px #f8f8f8 solid;
+      width: 3rem;
+      height: 3rem;
+    }
   }
 
   .basu-howard-text {
