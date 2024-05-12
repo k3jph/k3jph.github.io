@@ -57,6 +57,7 @@ plugins:
   - jekyll-algolia
   - jekyll-paginate
   - jekyll/tagging
+  - jekyll-inline-svg
 
 exclude:
   - .sass-cache/
@@ -70,6 +71,9 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+svg:
+  optimize: true
   
 # Iframely!
 iframely-key:       176ff6184ababb980170f6037497fb6a
