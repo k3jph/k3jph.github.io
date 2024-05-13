@@ -5,7 +5,7 @@ date: 2024-05-04
 author: k3jph
 layout: post
 permalink: /2024/05/04/a-maltese-grant-of-arms
-featured_image: /assets/img/2024/a-maltese-grant-of-arms.png
+featured_image: /assets/img/2024/a-maltese-grant-of-arms.webp
 categories:
 - Blog 
 tags:
