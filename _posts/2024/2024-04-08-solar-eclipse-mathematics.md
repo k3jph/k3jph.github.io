@@ -5,7 +5,7 @@ date: 2024-04-08
 author: k3jph
 layout: post
 permalink: /2024/04/08/solar-eclipse-mathematics
-featured_image: /assets/img/2024/solar-eclipse-mathematics.jpg
+featured_image: /assets/img/2024/solar-eclipse-mathematics.webp
 categories:
 - Blog 
 tags:
