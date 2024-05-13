@@ -127,7 +127,7 @@ The diploma is in Hawaiian and translates to:
 > Hawai'i.
 
 {% include figure.html width="12"
-   image="/honors/jhoward-kcrso.png" 
+   image="/honors/jhoward-kcrso.webp" 
    alt="Brevet of Knight Commander of Royal Order of the Star of Oceania"
    cap="Brevet of Knight Commander of Royal Order of the Star of Oceania" %}
    
