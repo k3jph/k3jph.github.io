@@ -47,8 +47,13 @@ a {
 }
 
 .content-blog {
+  font-family: "Camdo","Times New Roman",serif;
   a {
     text-decoration: underline;
+    font-family: inherit;
+  }
+  ul {
+    font-size:18px;
   }
 }
 
