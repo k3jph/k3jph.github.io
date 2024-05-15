@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/10/27/probability-at-scale-and-kic-8462852/
 dsq_thread_id:
   - "4264043106"
-featured_image: /assets/img/news/Ringworld.jpg
+featured_image: /assets/img/news/Ringworld.webp
 categories:
   - Blog
 tags:
@@ -38,4 +38,4 @@ This same mistaking of net population probability for individual probability und
 [^1]: At this point, we should remember that KIC 8462852 is around 1500 light-years away and anything we are observing happened 1500 years ago relative to our clocks.  But let's ignore this for now.
 [^stardensity]: Erik Gregersen, _The Milky Way and Beyond_, Rosen Publishing Group. pp. 35–36.
 
-_Image by [Hill / Wikimedia](https://commons.wikimedia.org/wiki/File:Ringworld.jpg)._
+_Image by [Hill / Wikimedia](https://commons.wikimedia.org/wiki/File:Ringworld.webp)._

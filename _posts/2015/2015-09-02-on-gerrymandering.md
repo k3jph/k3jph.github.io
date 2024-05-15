@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/09/02/on-gerrymandering/
 dsq_thread_id:
   - "4088972883"
-featured_image: /assets/img/news/henderson-residence.png
+featured_image: /assets/img/news/henderson-residence.webp
 categories:
   - Blog
 tags:

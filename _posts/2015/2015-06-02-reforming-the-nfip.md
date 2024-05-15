@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/06/02/reforming-the-nfip/
 dsq_thread_id:
   - "4127021546"
-featured_image: /assets/img/news/flood-cover.png
+featured_image: /assets/img/news/flood-cover.webp
 categories:
   - Blog
 tags:

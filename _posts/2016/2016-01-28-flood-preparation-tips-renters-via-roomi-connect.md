@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/01/28/flood-preparation-tips-renters-via-roomi-connect/
 dsq_thread_id:
   - "4594367622"
-featured_image: /assets/img/news/room-6flood.jpg
+featured_image: /assets/img/news/room-6flood.webp
 categories:
   - Blog
 tags:
@@ -27,4 +27,4 @@ You an read the full article here:
 
 {% include pdfembed.html pdf="The 6 Critical Steps of a Flood Safety Plan | Roomi | blog.pdf" width="100%" %}
 
-_Image by [Jccohen / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hurricane_Isabel_flood_damage_Maryland.jpg)._
+_Image by [Jccohen / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hurricane_Isabel_flood_damage_Maryland.webp)._

@@ -5,7 +5,7 @@ date: 2018-11-18T09:47:53-05:00
 author: k3jph
 layout: post
 permalink: /2018/11/18/howard-county-and-everyone-else-needs-the-plastic-bag-tax/
-featured_image: /assets/img/news/howard-county-and-everyone-else-needs-the-plastic-bag-tax.jpg
+featured_image: /assets/img/news/howard-county-and-everyone-else-needs-the-plastic-bag-tax.webp
 categories:
   - Blog
 tags:

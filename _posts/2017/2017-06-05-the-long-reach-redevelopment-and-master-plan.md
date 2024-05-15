@@ -5,7 +5,7 @@ date: 2017-06-05T06:50:24-04:00
 author: k3jph
 layout: post
 permalink: /2017/06/05/the-long-reach-redevelopment-and-master-plan/
-featured_image: /assets/img/news/the-long-reach-redevelopment-and-master-plan.jpg
+featured_image: /assets/img/news/the-long-reach-redevelopment-and-master-plan.webp
 categories:
   - Blog
 tags:

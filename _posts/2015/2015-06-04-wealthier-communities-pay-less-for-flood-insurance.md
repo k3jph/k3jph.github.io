@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/06/04/wealthier-communities-pay-less-for-flood-insurance/
 dsq_thread_id:
   - "3822231333"
-featured_image: /assets/img/news/cedarrapids.png
+featured_image: /assets/img/news/cedarrapids.webp
 categories:
   - Blog
 tags:

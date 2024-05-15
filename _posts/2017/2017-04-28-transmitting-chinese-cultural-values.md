@@ -9,7 +9,7 @@ instant_articles_submission_id:
   - "642027185983127"
 dsq_thread_id:
   - "5767340601"
-featured_image: /assets/img/news/transmitting-chinese-cultural-values.jpg
+featured_image: /assets/img/news/transmitting-chinese-cultural-values.webp
 categories:
   - Blog
 tags:
@@ -48,4 +48,4 @@ transmitting those values, but those values complemented and were
 assimilated by existing systems, rather than replaced them.
 
 _Image by [Tom@HK / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Statue_of_Lao_Tzu_in_Quanzhou.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:Statue_of_Lao_Tzu_in_Quanzhou.webp)._

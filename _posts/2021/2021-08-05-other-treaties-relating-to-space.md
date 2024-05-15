@@ -5,7 +5,7 @@ date: 2021-08-05T07:43:00-04:00
 author: k3jph
 layout: post
 permalink: /2021/08/05/other-treaties-relating-to-space
-featured_image: /assets/img/news/other-treaties-relating-to-space.jpg
+featured_image: /assets/img/news/other-treaties-relating-to-space.webp
 categories:
   - Blog
 tags:

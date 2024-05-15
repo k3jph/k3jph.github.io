@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/12/13/is-sewing-engineering/
 dsq_thread_id:
   - "5376118191"
-featured_image: /assets/img/news/is-sewing-engineering.jpg
+featured_image: /assets/img/news/is-sewing-engineering.webp
 categories:
   - Blog
 tags:

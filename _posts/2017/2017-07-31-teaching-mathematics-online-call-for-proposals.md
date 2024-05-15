@@ -5,7 +5,7 @@ date: 2017-07-31T07:38:25-04:00
 author: k3jph
 layout: post
 permalink: /2017/07/31/teaching-mathematics-online-call-for-proposals/
-featured_image: /assets/img/news/teaching-mathematics-online-call-for-proposals.jpg
+featured_image: /assets/img/news/teaching-mathematics-online-call-for-proposals.webp
 categories:
   - News
 tags:

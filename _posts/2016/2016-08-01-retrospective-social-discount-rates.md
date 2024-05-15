@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/08/01/retrospective-social-discount-rates/
 dsq_thread_id:
   - "5031637074"
-featured_image: /assets/img/news/retrospective-social-discount-rates.jpg
+featured_image: /assets/img/news/retrospective-social-discount-rates.webp
 categories:
   - Blog
 tags:

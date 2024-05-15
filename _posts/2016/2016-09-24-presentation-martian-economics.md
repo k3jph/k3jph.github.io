@@ -9,7 +9,7 @@ instant_articles_submission_id:
   - "719754878172135"
 dsq_thread_id:
   - "5168634761"
-featured_image: /assets/img/news/EconoMars.jpg
+featured_image: /assets/img/news/EconoMars.webp
 categories:
   - Blog
 tags:

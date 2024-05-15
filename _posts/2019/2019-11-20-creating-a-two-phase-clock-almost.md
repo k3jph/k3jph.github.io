@@ -5,7 +5,7 @@ date: 2019-11-20T11:19:24-05:00
 author: k3jph
 layout: post
 permalink: /2019/11/20/creating-a-two-phase-clock-almost/
-featured_image: /assets/img/news/creating-a-two-phase-clock-almost.jpg
+featured_image: /assets/img/news/creating-a-two-phase-clock-almost.webp
 categories:
   - Blog
 tags:

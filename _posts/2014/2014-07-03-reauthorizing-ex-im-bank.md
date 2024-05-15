@@ -7,7 +7,7 @@ layout: post
 permalink: /2014/07/03/reauthorizing-ex-im-bank/
 dsq_thread_id:
   - "2813305261"
-featured_image: /assets/img/news/3468445533_33c0f0d490_z.jpg
+featured_image: /assets/img/news/3468445533_33c0f0d490_z.webp
 categories:
   - Blog
 tags:

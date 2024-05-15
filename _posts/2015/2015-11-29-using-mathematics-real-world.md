@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/11/29/using-mathematics-real-world/
 dsq_thread_id:
   - "4361223150"
-featured_image: /assets/img/news/assembly-line.png
+featured_image: /assets/img/news/assembly-line.webp
 categories:
   - Blog
 tags:

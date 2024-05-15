@@ -13,7 +13,7 @@ geo_public:
   - "1"
 dsq_thread_id:
   - "4715507051"
-featured_image: /assets/img/news/red-team-rocks.jpg
+featured_image: /assets/img/news/red-team-rocks.webp
 categories:
   - Blog
 tags:
@@ -25,7 +25,7 @@ tags:
 ---
 I spent today at the [Mid-Atlantic Collegiate Cyber Defense Competition](http://maccdc.org/) as part of an [MDDF](http://mddf.maryland.gov/) mission.  The competition pits college teams around the region against each other as they run a model service, perform business transactions, and try to keep hackers out.  The winner goes on to national.
 
-{% include figure.html image="news/competition-pit.jpg"
+{% include figure.html image="news/competition-pit.webp"
    cap="The competition pit at MACCDC16"
    alt="The competition pit at MACCDC16" %}
 
@@ -33,7 +33,7 @@ On the MDDF, we were White Team, providing support and enforcing the rules.  The
 
 We were occasionally given business tasks and told to drop them on our teams at a specific time.  Here's a picture of a White Team meeting.  
 
-{% include figure.html image="news/injections.jpg"
+{% include figure.html image="news/injections.webp"
    cap="White Team briefing at MACCDC16"
    alt="White Team briefing at MACCDC16" %}
 

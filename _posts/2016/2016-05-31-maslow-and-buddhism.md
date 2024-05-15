@@ -9,7 +9,7 @@ dsq_thread_id:
   - "4873580695"
 instant_articles_submission_id:
   - "1599075177060467"
-featured_image: /assets/img/news/GoldenBuddhas.png
+featured_image: /assets/img/news/GoldenBuddhas.webp
 categories:
   - Blog
 tags:

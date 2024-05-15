@@ -5,7 +5,7 @@ date: 2017-09-25T06:53:35-04:00
 author: k3jph
 layout: post
 permalink: /2017/09/25/music-festival-pollution-prevention/
-featured_image: /assets/img/news/audience-1850022_1280.jpg
+featured_image: /assets/img/news/audience-1850022_1280.webp
 categories:
   - Blog
 tags:

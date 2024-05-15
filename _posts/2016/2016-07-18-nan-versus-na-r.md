@@ -11,7 +11,7 @@ ampforwp_custom_content_editor_checkbox:
   - ""
 instant_articles_submission_id:
   - "204056390074161"
-featured_image: /assets/img/news/divid-by-zero.jpg
+featured_image: /assets/img/news/divid-by-zero.webp
 categories:
   - Blog
 tags:
@@ -81,4 +81,4 @@ Any operation with `NA` results in `NA`:
 
 **Update:** David Smith at Microsoft covered NAs [in a blog post today, too](http://blog.revolutionanalytics.com/2016/07/understanding-na-in-r.html).
 
-_Image by [Torindkflt / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TI86_Calculator_DivByZero.jpg)._
+_Image by [Torindkflt / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TI86_Calculator_DivByZero.webp)._

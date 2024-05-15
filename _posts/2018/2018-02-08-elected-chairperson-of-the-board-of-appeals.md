@@ -5,7 +5,7 @@ date: 2018-02-08T19:51:43-05:00
 author: k3jph
 layout: post
 permalink: /2018/02/08/elected-chairperson-of-the-board-of-appeals/
-featured_image: /assets/img/news/elected-chairperson-of-the-board-of-appeals.jpg
+featured_image: /assets/img/news/elected-chairperson-of-the-board-of-appeals.webp
 categories:
   - News
 tags:

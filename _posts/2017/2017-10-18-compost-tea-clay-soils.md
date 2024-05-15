@@ -5,7 +5,7 @@ date: 2017-10-18T19:22:27-04:00
 author: k3jph
 layout: post
 permalink: /2017/10/18/compost-tea-clay-soils/
-featured_image: /assets/img/news/compost-tea-on-clay-soils.jpg
+featured_image: /assets/img/news/compost-tea-on-clay-soils.webp
 categories:
   - Blog
 tags:

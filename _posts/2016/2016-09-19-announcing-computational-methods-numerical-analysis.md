@@ -9,7 +9,7 @@ instant_articles_submission_id:
   - "1872278823056749"
 dsq_thread_id:
   - "5157592188"
-featured_image: /assets/img/news/announcing-computational-methods-for-numerical-analysis.jpg
+featured_image: /assets/img/news/announcing-computational-methods-for-numerical-analysis.webp
 categories:
   - Blog
 tags:

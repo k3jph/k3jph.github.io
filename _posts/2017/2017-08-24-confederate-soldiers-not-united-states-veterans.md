@@ -5,7 +5,7 @@ date: 2017-08-24T06:35:28-04:00
 author: k3jph
 layout: post
 permalink: /2017/08/24/confederate-soldiers-not-united-states-veterans/
-featured_image: /assets/img/news/confederate-soldiers-not-united-states-veterans.jpg
+featured_image: /assets/img/news/confederate-soldiers-not-united-states-veterans.webp
 categories:
   - Blog
 tags:
@@ -166,4 +166,4 @@ If you would stop saying silly things, I could get back to writing
 about fun stuff, like robots and space.
 
 _Image by [Vera de Kok / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Stonewall_Jackson_and_Robert_E._Lee_Monument,_Baltimore_Aug_2017_-_3.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:Stonewall_Jackson_and_Robert_E._Lee_Monument,_Baltimore_Aug_2017_-_3.webp)._

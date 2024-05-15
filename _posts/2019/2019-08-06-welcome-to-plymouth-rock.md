@@ -5,7 +5,7 @@ date: 2019-08-06T07:47:00-04:00
 author: k3jph
 layout: post
 permalink: /2019/08/06/welcome-to-plymouth-rock/
-featured_image: /assets/img/news/welcome-to-plymouth-rock.jpg
+featured_image: /assets/img/news/welcome-to-plymouth-rock.webp
 categories:
   - Blog
 tags:

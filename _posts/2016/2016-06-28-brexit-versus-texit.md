@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/06/28/brexit-versus-texit/
 dsq_thread_id:
   - "4944851273"
-featured_image: /assets/img/news/battle-stirling-bridge.jpg
+featured_image: /assets/img/news/battle-stirling-bridge.webp
 categories:
   - Blog
 tags:
@@ -61,4 +61,4 @@ each of these jurisdictions want.
 
 _Image of the Battle of Stirling Bridge, unknown artist, from [Hanley
 / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:The_Battle_of_Stirling_Bridge.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:The_Battle_of_Stirling_Bridge.webp)._

@@ -5,7 +5,7 @@ date: 2014-11-12T18:31:13-05:00
 author: k3jph
 layout: post
 permalink: /2014/11/12/water-life-water-business/
-featured_image: /assets/img/news/5622947662_ea0812b3d6_z.jpg
+featured_image: /assets/img/news/5622947662_ea0812b3d6_z.webp
 dsq_thread_id:
   - "3219045551"
 categories:

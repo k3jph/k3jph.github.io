@@ -5,7 +5,7 @@ date: 2023-11-01T21:10:33-04:00
 author: k3jph
 layout: post
 permalink: /2023/11/01/what-is-stochastic-calculus
-featured_image: /assets/img/news/what-is-stochastic-calculus.jpg
+featured_image: /assets/img/news/what-is-stochastic-calculus.webp
 categories:
 - Blog 
 tags:
@@ -22,10 +22,10 @@ natural world. It provides the tools for analyzing and understanding change,
 motion, and growth. From engineering and physics to economics and biology, the
 impact of calculus is profound and pervasive.
 
-{% include figure.html image="news/Newton.jpg" placement="left" width="50%"
+{% include figure.html image="news/Newton.webp" placement="left" width="50%"
 cap="This guy had beef with the guy on the other side"
 alt="Painting of Isaac Newton" %}
-{% include figure.html image="news/Leibniz.jpg" placement="right" width="50%"
+{% include figure.html image="news/Leibniz.webp" placement="right" width="50%"
 cap="This guy thought the other guy was off his rocker"
 alt="Painting of Gottfried Leibniz" %}
 
@@ -57,7 +57,7 @@ $$
 dX_t = a(X_t, t) dt + b(X_t, t) dW_t
 $$
 
-{% include figure.html image="news/Einstein_1921.jpg" placement="right" width="40%"
+{% include figure.html image="news/Einstein_1921.webp" placement="right" width="40%"
 cap="This guy had a lot to say about Brownian motion"
 alt="Picture of Albert Einstein from 1921 in front of a chalkboard" %}
 

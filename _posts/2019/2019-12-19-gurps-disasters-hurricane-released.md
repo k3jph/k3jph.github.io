@@ -5,7 +5,7 @@ date: 2019-12-19T20:34:38-05:00
 author: k3jph
 layout: post
 permalink: /2019/12/19/gurps-disasters-hurricane-released/
-featured_image: /assets/img/news/GURPS_Disasters_Hurricane-1.png
+featured_image: /assets/img/news/GURPS_Disasters_Hurricane-1.webp
 categories:
   - News
 tags:

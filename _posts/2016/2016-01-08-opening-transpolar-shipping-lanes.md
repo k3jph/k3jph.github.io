@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/01/08/opening-transpolar-shipping-lanes/
 dsq_thread_id:
   - "4473007488"
-featured_image: /assets/img/news/yamal-icebreaker.png
+featured_image: /assets/img/news/yamal-icebreaker.webp
 categories:
   - Blog
 tags:

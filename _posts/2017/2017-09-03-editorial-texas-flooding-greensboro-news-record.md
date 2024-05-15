@@ -5,7 +5,7 @@ date: 2017-09-03T20:36:23-04:00
 author: k3jph
 layout: post
 permalink: /2017/09/03/editorial-texas-flooding-greensboro-news-record/
-featured_image: /assets/img/news/editorial-texas-flooding-greensboro-news-record.jpg
+featured_image: /assets/img/news/editorial-texas-flooding-greensboro-news-record.webp
 categories:
   - News
 tags:

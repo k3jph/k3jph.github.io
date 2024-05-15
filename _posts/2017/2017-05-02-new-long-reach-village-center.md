@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/05/02/new-long-reach-village-center/
 dsq_thread_id:
   - "5780922113"
-featured_image: /assets/img/news/new-long-reach-village-center.jpg
+featured_image: /assets/img/news/new-long-reach-village-center.webp
 categories:
   - Blog
 tags:

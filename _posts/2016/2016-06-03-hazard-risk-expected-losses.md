@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/06/03/hazard-risk-expected-losses/
 dsq_thread_id:
   - "4880575973"
-featured_image: /assets/img/news/roulette.png
+featured_image: /assets/img/news/roulette.webp
 categories:
   - Blog
 tags:
@@ -29,4 +29,4 @@ At the other end of the spectrum is high-hazard / low-risk scenarios.  For insta
 
 Failure to understand the relationship among hazard, risk, and expected losses are the reasons we make bizarre decisions, as a society.
 
-_Image by [Ralf Roletschek / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:13-02-27-spielbank-wiesbaden-by-RalfR-093.jpg)._
+_Image by [Ralf Roletschek / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:13-02-27-spielbank-wiesbaden-by-RalfR-093.webp)._

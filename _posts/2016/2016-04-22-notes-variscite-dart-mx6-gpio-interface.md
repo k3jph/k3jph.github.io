@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/04/22/notes-variscite-dart-mx6-gpio-interface/
 dsq_thread_id:
   - "4762052093"
-featured_image: /assets/img/news/VAR-DVK-DT6_Evaluation_Kit.jpg
+featured_image: /assets/img/news/VAR-DVK-DT6_Evaluation_Kit.webp
 categories:
   - Blog
 tags:

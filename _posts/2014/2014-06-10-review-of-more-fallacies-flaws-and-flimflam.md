@@ -15,7 +15,7 @@ tags:
   - reviews
   - teaching
 ---
-{% include figure.html image="news/415gCIcGsvL.jpg" placement="right" width="50%"
+{% include figure.html image="news/415gCIcGsvL.webp" placement="right" width="50%"
    cap="Cover of More Fallacies, Flaws and Flimflam"
    alt="Cover of More Fallacies, Flaws and Flimflam" %}
 

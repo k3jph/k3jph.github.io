@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/06/15/expanding-market-fear/
 dsq_thread_id:
   - "4912122930"
-featured_image: /assets/img/news/pillbottles.png
+featured_image: /assets/img/news/pillbottles.webp
 categories:
   - Blog
 tags:
@@ -35,4 +35,4 @@ How do you get people to pay so much for a drug?  We address this when [I teach 
 
 This question is a great wakeup call for the policy student, but the answer is simple and elegant.  Tell the consumer they will die if they don't get the treatment.  Whether service or medication, profits can be increased by expanding the market, if prices are capped.  This is one of the reasons so many unnecessary tests are run by the health care industry.  But it works because the consumer, the buyer, never sees the price, since it is paid by insurance.
 
-_Image by the [United States Marine Corps via Wikimedia](https://commons.wikimedia.org/wiki/File:USMC-100209-M-1998T-001.jpg)._
+_Image by the [United States Marine Corps via Wikimedia](https://commons.wikimedia.org/wiki/File:USMC-100209-M-1998T-001.webp)._

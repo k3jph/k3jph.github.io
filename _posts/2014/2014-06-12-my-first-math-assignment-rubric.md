@@ -7,7 +7,7 @@ layout: post
 permalink: /2014/06/12/my-first-math-assignment-rubric/
 dsq_thread_id:
   - "2754327935"
-featured_image: /assets/img/news/rubric-first.png
+featured_image: /assets/img/news/rubric-first.webp
 categories:
   - Blog
 tags:

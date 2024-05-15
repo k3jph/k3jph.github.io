@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/05/10/economic-effects-of-the-ex-im-bank/
 dsq_thread_id:
   - "3748125500"
-featured_image: /assets/img/news/containers.png
+featured_image: /assets/img/news/containers.webp
 categories:
   - Blog
 tags:

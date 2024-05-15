@@ -5,7 +5,7 @@ date: 2018-06-12T08:50:46-04:00
 author: k3jph
 layout: post
 permalink: /2018/06/12/wireless-market-consolidation-and-the-last-mile/
-featured_image: /assets/img/news/wireless-market-consolidation-and-the-last-mile.jpg
+featured_image: /assets/img/news/wireless-market-consolidation-and-the-last-mile.webp
 categories:
   - Blog
 tags:

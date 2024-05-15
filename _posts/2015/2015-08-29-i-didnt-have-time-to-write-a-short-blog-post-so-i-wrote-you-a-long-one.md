@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/08/29/i-didnt-have-time-to-write-a-short-blog-post-so-i-wrote-you-a-long-one/
 dsq_thread_id:
   - "4077947830"
-featured_image: /assets/img/news/2044819979_0c442bc242_b.jpg
+featured_image: /assets/img/news/2044819979_0c442bc242_b.webp
 categories:
   - Blog
 tags:

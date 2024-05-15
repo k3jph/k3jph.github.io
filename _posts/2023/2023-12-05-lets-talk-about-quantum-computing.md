@@ -5,7 +5,7 @@ date: 2023-12-05
 author: k3jph
 layout: post
 permalink: /2023/12/05/lets-talk-about-quantum-computing
-featured_image: /assets/img/news/lets-talk-about-quantum-computing.jpg
+featured_image: /assets/img/news/lets-talk-about-quantum-computing.webp
 categories:
 - Blog 
 tags:

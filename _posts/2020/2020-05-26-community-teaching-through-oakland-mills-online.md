@@ -5,7 +5,7 @@ date: 2020-05-27T20:09:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/05/27/community-teaching-through-oakland-mills-online
-featured_image: /assets/img/news/community-teaching-through-oakland-mills-online.png
+featured_image: /assets/img/news/community-teaching-through-oakland-mills-online.webp
 categories:
   - Blog
 tags:

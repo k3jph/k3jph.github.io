@@ -5,7 +5,7 @@ date: 2017-07-28T07:00:07-04:00
 author: k3jph
 layout: post
 permalink: /2017/07/28/precedent-cap-trade-success/
-featured_image: /assets/img/news/precedent-cap-trade-success-download.jpg
+featured_image: /assets/img/news/precedent-cap-trade-success-download.webp
 categories:
   - Blog
 tags:

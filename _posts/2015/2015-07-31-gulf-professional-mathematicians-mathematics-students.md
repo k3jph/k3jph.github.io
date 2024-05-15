@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/07/31/gulf-professional-mathematicians-mathematics-students/
 dsq_thread_id:
   - "3984707585"
-featured_image: /assets/img/news/mathed.png
+featured_image: /assets/img/news/mathed.webp
 categories:
   - Blog
 tags:

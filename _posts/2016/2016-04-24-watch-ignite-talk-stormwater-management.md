@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/04/24/watch-ignite-talk-stormwater-management/
 dsq_thread_id:
   - "4773551294"
-featured_image: /assets/img/news/ib18-solo.png
+featured_image: /assets/img/news/ib18-solo.webp
 categories:
   - Blog
 tags:

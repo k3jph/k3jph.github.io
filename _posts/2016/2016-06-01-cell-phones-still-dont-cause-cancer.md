@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/06/01/cell-phones-still-dont-cause-cancer/
 dsq_thread_id:
   - "4874706820"
-featured_image: /assets/img/news/cell-hands.png
+featured_image: /assets/img/news/cell-hands.webp
 categories:
   - Blog
 tags:

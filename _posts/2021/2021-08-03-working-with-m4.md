@@ -5,7 +5,7 @@ date: 2021-08-03T12:54:00-04:00
 author: k3jph
 layout: post
 permalink: /2021/08/03/working-with-m4-macro-language
-featured_image: /assets/img/news/working-with-m4.png
+featured_image: /assets/img/news/working-with-m4.webp
 categories:
   - Blog
 tags:

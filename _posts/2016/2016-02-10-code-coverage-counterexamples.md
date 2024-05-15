@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/02/10/code-coverage-counterexamples/
 dsq_thread_id:
   - "4569179037"
-featured_image: /assets/img/news/8445190520_6830cb2c1e_k.jpg
+featured_image: /assets/img/news/8445190520_6830cb2c1e_k.webp
 categories:
   - Blog
 tags:

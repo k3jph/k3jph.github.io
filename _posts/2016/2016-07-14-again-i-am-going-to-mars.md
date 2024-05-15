@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/07/14/again-i-am-going-to-mars/
 dsq_thread_id:
   - "4986600311"
-featured_image: /assets/img/news/marssocietyposter_wlogo.jpg
+featured_image: /assets/img/news/marssocietyposter_wlogo.webp
 categories:
   - Blog
 tags:

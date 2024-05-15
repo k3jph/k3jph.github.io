@@ -5,7 +5,7 @@ date: 2021-01-20T09:54:00-04:00
 author: k3jph
 layout: post
 permalink: /2021/01/20/why-is-mrna-in-my-vaccine
-featured_image: /assets/img/news/why-is-mrna-in-my-vaccine.jpg
+featured_image: /assets/img/news/why-is-mrna-in-my-vaccine.webp
 categories:
   - Blog
 tags:
@@ -19,20 +19,20 @@ Okay, this is complicated, so take a deep breath and work with me.  When your ce
 
 These proteins come in all sorts of varieties.  Some of these proteins are the hormones we all have, and in some cases, lament.  Some of these hormones are not just the ones we learned about in health classes, and do much more basic functions, like enable a rudimentary cell-to-cell communications network.  Others are used to build physical structures:  hair, fingernails, muscle mass, and so many other little bits of the body.  Enzymes are special proteins that are used to trigger certain chemical reactions.  They are little tiny chemical fuses.  Once they start a reaction, there iss no going back.  This does everything from converting the food you eat into something your body can use for energy to making more proteins.
 
-{% include figure.html image="news/dna-3656587_1280.jpg" width="50%" placement="left"
+{% include figure.html image="news/dna-3656587_1280.webp" width="50%" placement="left"
    alt="Rendering of DNA"
    cap="Rendering of DNA" %}
 
 So inside your cells are DNA.  That stands for deoxyribonucleic acid.  It is mostly what makes you, you.  You get it from your parents.  This is the awesome double helix structure you have likely seen that looks like a super twisty ribbon.  One enzyme called [polymerase actually does something awesome here](https://www.sciencedirect.com/topics/medicine-and-dentistry/polymerase).  It walks along the DNA molecule in your cell and "unzips" it into two halves.  Once it has the DNA molecule unzipped, it then starts to make a copy of one half of the DNA.  When it comes to making proteins, when it has enough for a complete gene (think of a gene as being a complete recipe), that little bit of copied DNA is only a copy of half, so it is literally half of the double helix.  And that is ribonucleic acid (RNA).  The RNA with instructions to make a protein is called ["messenger RNA" or mRNA](https://www.genome.gov/genetics-glossary/messenger-rna).  There are other types, but this is the important one here.  (Also, I am sure there is a geneticist reading this and shaking their head at my write up...you do better!)
 
-{% include figure.html image="news/960px-Difference_DNA_RNA-EN.svg.png" width="100%"
+{% include figure.html image="news/960px-Difference_DNA_RNA-EN.svg.webp" width="100%"
    alt="Differences between DNA and RNA (via Sponk/Wikimedia Commons)"
    cap="Differences between DNA and RNA (via <a href='https://commons.wikimedia.org/wiki/File:Difference_DNA_RNA-EN.svg'>Sponk/Wikimedia Commons</a>)"
  %}
    
 All of that happens in the cell nucleus, but then the mRNA goes off to do its own thing.  Now, typically, some other component of the cell will see this and go, oh, a work order for protein, and start making whatever protein the nucleus asked for.  You get hair, or something digestive, or whatever.  Now, we have to take a detour.
 
-{% include figure.html image="news/pexels-cdc-3992933.jpg" width="50%" placement="right"
+{% include figure.html image="news/pexels-cdc-3992933.webp" width="50%" placement="right"
    alt="Rendering of the SARS-CoV-2 virus (via the CDC)"
    cap="Rendering of the SARS-CoV-2 virus (via the CDC)" %}
 

@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/06/22/take-it-down-amazon/
 dsq_thread_id:
   - "3870699032"
-featured_image: /assets/img/news/takeitdown.jpg
+featured_image: /assets/img/news/takeitdown.webp
 categories:
   - Blog
 tags:

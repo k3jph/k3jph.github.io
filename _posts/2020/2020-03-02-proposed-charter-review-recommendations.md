@@ -5,7 +5,7 @@ date: 2020-03-02T20:47:32-05:00
 author: k3jph
 layout: post
 permalink: /2020/03/02/proposed-charter-review-recommendations/
-featured_image: /assets/img/news/charter-review-commission-public-hearing.png
+featured_image: /assets/img/news/charter-review-commission-public-hearing.webp
 categories:
   - Blog
 tags:

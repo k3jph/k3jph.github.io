@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/09/30/like-water-mars/
 dsq_thread_id:
   - "4207268516"
-featured_image: /assets/img/news/marswaterstreaks.jpg
+featured_image: /assets/img/news/marswaterstreaks.webp
 categories:
   - Blog
 tags:

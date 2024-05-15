@@ -5,7 +5,7 @@ date: 2017-12-31T14:23:58-05:00
 author: k3jph
 layout: post
 permalink: /2017/12/31/appearing-on-wbol-on-new-years-day-lets-talk-taxes/
-featured_image: /assets/img/news/appearing-wbol-new-years-day-lets-talk-taxes.jpg
+featured_image: /assets/img/news/appearing-wbol-new-years-day-lets-talk-taxes.webp
 categories:
   - Blog
 tags:

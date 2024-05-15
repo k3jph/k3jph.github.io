@@ -5,7 +5,7 @@ date: 2017-10-07T08:04:07-04:00
 author: k3jph
 layout: post
 permalink: /2017/10/07/wont-someone-please-think-sushi/
-featured_image: /assets/img/news/wont-someone-please-think-sushi.jpg
+featured_image: /assets/img/news/wont-someone-please-think-sushi.webp
 categories:
   - Blog
 tags:

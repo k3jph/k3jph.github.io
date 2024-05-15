@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/07/03/notes-wastewater-treatment/
 dsq_thread_id:
   - "5956429584"
-featured_image: /assets/img/news/notes-wastewater-treatment.jpg
+featured_image: /assets/img/news/notes-wastewater-treatment.webp
 categories:
   - Blog
 tags:
@@ -57,4 +57,4 @@ part Chase never really believed was when I told him about the water
 bears.
 
 _Image by [Annabel / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:WWTP_Antwerpen-Zuid.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:WWTP_Antwerpen-Zuid.webp)._

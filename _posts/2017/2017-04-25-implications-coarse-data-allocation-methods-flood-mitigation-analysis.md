@@ -9,7 +9,7 @@ instant_articles_submission_id:
   - "1340666662679279"
 dsq_thread_id:
   - "5758059544"
-featured_image: /assets/img/news/implications-coarse-data-allocation-methods-flood-mitigation-analysis.jpg
+featured_image: /assets/img/news/implications-coarse-data-allocation-methods-flood-mitigation-analysis.webp
 categories:
   - Blog
 tags:

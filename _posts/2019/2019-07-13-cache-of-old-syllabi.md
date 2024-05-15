@@ -5,7 +5,7 @@ date: 2019-07-13T12:00:32-04:00
 author: k3jph
 layout: post
 permalink: /2019/07/13/cache-of-old-syllabi/
-featured_image: /assets/img/news/cache-of-old-syllabi.jpg
+featured_image: /assets/img/news/cache-of-old-syllabi.webp
 categories:
   - Blog
 tags:

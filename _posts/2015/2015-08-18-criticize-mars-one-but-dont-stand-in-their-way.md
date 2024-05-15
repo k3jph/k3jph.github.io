@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/08/18/criticize-mars-one-but-dont-stand-in-their-way/
 dsq_thread_id:
   - "4045817413"
-featured_image: /assets/img/news/roadmap2023.jpg
+featured_image: /assets/img/news/roadmap2023.webp
 categories:
   - Blog
 tags:

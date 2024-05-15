@@ -5,7 +5,7 @@ date: 2024-04-02
 author: k3jph
 layout: post
 permalink: /2024/04/02/i-was-appointed-a-kentucky-colonel
-featured_image: /assets/img/2024/i-was-appointed-a-kentucky-colonel.jpg
+featured_image: /assets/img/2024/i-was-appointed-a-kentucky-colonel.webp
 categories:
 - Blog 
 tags:
@@ -64,7 +64,7 @@ I am honored to carry on this tradition and excited about the
 potential to make meaningful contributions.
 
 {% include figure.html width="12" border=true
-   image="/2024/i-was-appointed-a-kentucky-colonel/jhoward-kyc.png" 
+   image="/2024/i-was-appointed-a-kentucky-colonel/jhoward-kyc.webp" 
    alt="Brevet as a Kentucky Colonel"
    cap="Brevet as a Kentucky Colonel" %}
    

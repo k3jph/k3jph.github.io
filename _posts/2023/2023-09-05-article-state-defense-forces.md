@@ -5,7 +5,7 @@ date: 2023-09-06
 author: k3jph
 layout: post
 permalink: /2023/09/06/article-state-defense-forces
-featured_image: /assets/img/news/article-state-defense-forces.jpg
+featured_image: /assets/img/news/article-state-defense-forces.webp
 categories:
 - Blog 
 tags:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/01/29/rffs-parametric-flood-insurance-proposal/
 dsq_thread_id:
   - "4533607009"
-featured_image: /assets/img/news/sf-earthquake.png
+featured_image: /assets/img/news/sf-earthquake.webp
 categories:
   - Blog
 tags:
@@ -31,4 +31,4 @@ Then, and only then, I take the money and tell you to shove off.  You get no mor
 
 At the end of the day, I can't get excited about this proposal from RFF.  While the [NFIP](/tag/NFIP) is a mess, the political environment won't support government funds paying people who happened to be near a water main break.
 
-_Image by [National Archives and Records Administration via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Post-and-Grant-Avenue.-Look.jpg).  The 1906 San Fransisco earthquake was one of the largest disasters in the United States._
+_Image by [National Archives and Records Administration via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Post-and-Grant-Avenue.-Look.webp).  The 1906 San Fransisco earthquake was one of the largest disasters in the United States._

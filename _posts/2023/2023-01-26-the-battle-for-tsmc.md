@@ -5,7 +5,7 @@ date: 2023-01-26T12:22:07-04:00
 author: k3jph
 layout: post
 permalink: /2023/01/26/the-battle-for-tsmc
-featured_image: /assets/img/news/the-battle-for-tsmc.png
+featured_image: /assets/img/news/the-battle-for-tsmc.webp
 categories:
 - Blog 
 tags:

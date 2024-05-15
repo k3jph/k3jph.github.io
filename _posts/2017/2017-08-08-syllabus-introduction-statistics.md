@@ -5,7 +5,7 @@ date: 2017-08-08T21:59:01-04:00
 author: k3jph
 layout: post
 permalink: /2017/08/08/syllabus-introduction-statistics/
-featured_image: /assets/img/news/syllabus-introduction-statistics.jpg
+featured_image: /assets/img/news/syllabus-introduction-statistics.webp
 categories:
   - Blog
 tags:

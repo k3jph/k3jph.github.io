@@ -5,7 +5,7 @@ date: 2020-04-15T20:05:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/04/15/ebolavirus-transmission-at-jsm2020/
-featured_image: /assets/img/news/ebola-virus.jpg
+featured_image: /assets/img/news/ebola-virus.webp
 categories:
   - Blog
 tags:

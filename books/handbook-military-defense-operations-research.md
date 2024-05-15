@@ -10,7 +10,7 @@ redirect_from:
   - /books/mdor/
 ---
 
-{% include figure.html image="mdor-cover-300w.jpg" placement="right" width="30%"
+{% include figure.html image="mdor-cover-300w.webp" placement="right" width="30%"
    alt="Handbook of Military and Defense Operations Research book cover" %}
 
 Operations research (OR) is a core discipline in military and defense

@@ -5,7 +5,7 @@ date: 2022-06-18T09:19:07-04:00
 author: k3jph
 layout: post
 permalink: /2022/06/18/introducing-london-frog
-featured_image: /assets/img/news/introducing-london-frog.jpg
+featured_image: /assets/img/news/introducing-london-frog.webp
 categories:
 - Blog 
 tags:

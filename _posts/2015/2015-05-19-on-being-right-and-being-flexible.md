@@ -11,7 +11,7 @@ instant_articles_submission_id:
   - "728292460682404"
 ampforwp_custom_content_editor_checkbox:
   - ""
-featured_image: /assets/img/news/flexible.png
+featured_image: /assets/img/news/flexible.webp
 categories:
   - Blog
 tags:

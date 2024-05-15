@@ -5,7 +5,7 @@ date: 2024-02-27
 author: k3jph
 layout: post
 permalink: /2024/02/27/intersection-ethics-technology-autonomous-vehicle-legislation
-featured_image: /assets/img/2024/intersection-ethics-technology-autonomous-vehicle-legislation.jpg
+featured_image: /assets/img/2024/intersection-ethics-technology-autonomous-vehicle-legislation.webp
 categories:
 - Blog 
 tags:
@@ -21,7 +21,7 @@ This incident underscored the urgent need for comprehensive
 legislation in the era of autonomous vehicles.
 
 {% include figure.html width="4" placement="right"
-   image="2024/intersection-ethics-technology-autonomous-vehicle-legislation/arizona-collision.jpg"
+   image="2024/intersection-ethics-technology-autonomous-vehicle-legislation/arizona-collision.webp"
    alt="Scene of the Autonomous Vehicle Incident in Arizona" 
    cap="Scene of the Autonomous Vehicle Incident in Arizona" %}
 
@@ -51,7 +51,7 @@ of decision-making algorithms that must be programmed to handle
 potential life-and-death scenarios.
 
 {% include figure.html width="6" placement="left" 
-   image="2024/intersection-ethics-technology-autonomous-vehicle-legislation/trolley-problem.jpg" 
+   image="2024/intersection-ethics-technology-autonomous-vehicle-legislation/trolley-problem.webp" 
    alt="Illustration of the Trolley Problem" cap="Illustration of the Trolley Problem" %}
 
 Moreover, these vehicles operate as data hubs, continuously collecting
@@ -88,7 +88,7 @@ hours without any human intervention, showcasing the potential of
 autonomous technology to improve road safety.
 
 {% include figure.html width="4" placement="right"
-   image="2024/intersection-ethics-technology-autonomous-vehicle-legislation/waymo-safety.jpg"
+   image="2024/intersection-ethics-technology-autonomous-vehicle-legislation/waymo-safety.webp"
    alt="Waymo Vehicles in an Urban Environment" 
    cap="Waymo Vehicles in an Urban Environment (_Photo by Anna Squires, NREL_)" %}
 

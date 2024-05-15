@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/07/04/watch-interview-mars-one-candidate-heidi-hecht/
 dsq_thread_id:
   - "4960885083"
-featured_image: /assets/img/news/mars-interview.jpg
+featured_image: /assets/img/news/mars-interview.webp
 categories:
   - News
 tags:

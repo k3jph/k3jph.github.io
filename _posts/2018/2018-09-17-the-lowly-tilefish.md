@@ -5,7 +5,7 @@ date: 2018-09-17T19:08:39-04:00
 author: k3jph
 layout: post
 permalink: /2018/09/17/the-lowly-tilefish/
-featured_image: /assets/img/news/the-lowly-tilefish.jpg
+featured_image: /assets/img/news/the-lowly-tilefish.webp
 categories:
   - Blog
 tags:

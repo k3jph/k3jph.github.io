@@ -5,7 +5,7 @@ date: 2018-02-05T07:53:36-05:00
 author: k3jph
 layout: post
 permalink: /2018/02/05/climate-change-business/
-featured_image: /assets/img/news/climate-change-business.jpg
+featured_image: /assets/img/news/climate-change-business.webp
 categories:
   - Blog
 tags:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2007/03/09/eulogy-for-james-patrick-howard/
 dsq_thread_id:
   - "4478947496"
-featured_image: /assets/img/news/Pats_Memorial_Photo.jpg
+featured_image: /assets/img/news/Pats_Memorial_Photo.webp
 categories:
   - Blog
 tags:

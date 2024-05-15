@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/07/29/learn-prepare-tsunami/
 dsq_thread_id:
   - "5025558234"
-featured_image: /assets/img/news/learn-prepare-tsunami-1.jpg
+featured_image: /assets/img/news/learn-prepare-tsunami-1.webp
 categories:
   - News
 tags:

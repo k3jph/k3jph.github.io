@@ -5,7 +5,7 @@ date: 2024-04-23
 author: k3jph
 layout: post
 permalink: /2024/04/23/kamon-as-japanese-heraldry
-featured_image: /assets/img/2024/kamon-as-japanese-heraldry.jpg
+featured_image: /assets/img/2024/kamon-as-japanese-heraldry.webp
 categories:
 - Blog 
 tags:
@@ -38,7 +38,7 @@ a fascinating subject within the broader field of heraldry, emphasizing
 their unique place in the global history of heraldic tradition.
 
 {% include figure.html width="6" placement="right"
-   image="/2024/kamon-as-japanese-heraldry/kirimon-rooftile.jpg" 
+   image="/2024/kamon-as-japanese-heraldry/kirimon-rooftile.webp" 
    alt="The Kirimon on a roof tile"
    cap="The Kirimon on a roof tile" %} 
    
@@ -209,7 +209,7 @@ monarchy, symbolizes purity and the Virgin Mary and has historically
 been used to convey the divine right to rule.
 
 {% include figure.html width="3" placement="left"
-   image="/2024/kamon-as-japanese-heraldry/tokugawa-banner.jpg" 
+   image="/2024/kamon-as-japanese-heraldry/tokugawa-banner.webp" 
    alt="The Tokugawa kamon on a banner" 
    cap="The Tokugawa kamon on a banner" %} 
    

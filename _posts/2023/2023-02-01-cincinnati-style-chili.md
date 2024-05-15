@@ -5,13 +5,13 @@ date: 2023-02-01T10:39:07-04:00
 author: k3jph
 layout: post
 permalink: /2023/02/01/cincinnati-style-chili
-featured_image: /assets/img/news/cincinnati-style-chili.jpg
+featured_image: /assets/img/news/cincinnati-style-chili.webp
 categories:
 - Blog 
 tags:
 - food
 - Cincinnati
-credits: Images via [TheDapperDan / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Skyline_4-way.jpg) and [Navi75 / Flickr](https://www.flickr.com/people/23597588@N00).
+credits: Images via [TheDapperDan / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Skyline_4-way.webp) and [Navi75 / Flickr](https://www.flickr.com/people/23597588@N00).
 ---
 
 Children's sporting events have three types of parent attendees.
@@ -105,7 +105,7 @@ up and broke open.  So while you're waiting for the chili, you drop
 some Tabasco inside the cracker and pop it.  The kids call it cracker
 bomb, but it's just hot sauce for the sake of hot sauce.
 
-{% include figure.html image="news/cincinnati-style-chili-coneys.jpg" placement="left" width="50%"
+{% include figure.html image="news/cincinnati-style-chili-coneys.webp" placement="left" width="50%"
 cap="Cincinnati-style chili on a coney hotdog"
 alt="Cincinnati-style chili on a coney hotdog" %}
 

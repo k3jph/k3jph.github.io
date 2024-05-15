@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/06/08/critical-information-acquisition/
 dsq_thread_id:
   - "4895258977"
-featured_image: /assets/img/news/4124425733_f143f51284_b.jpg
+featured_image: /assets/img/news/4124425733_f143f51284_b.webp
 categories:
   - Blog
 tags:

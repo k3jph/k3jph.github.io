@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/07/20/not-teaching-calculus/
 dsq_thread_id:
   - "4999744138"
-featured_image: /assets/img/news/sextant-triangles.jpg
+featured_image: /assets/img/news/sextant-triangles.webp
 categories:
   - Blog
 tags:

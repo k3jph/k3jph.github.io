@@ -5,7 +5,7 @@ date: 2020-02-18T09:59:08-05:00
 author: k3jph
 layout: post
 permalink: /2020/02/18/shotgun-pi/
-featured_image: /assets/img/news/shotgun-pi.jpg
+featured_image: /assets/img/news/shotgun-pi.webp
 categories:
   - Blog
 tags:

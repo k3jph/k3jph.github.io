@@ -5,7 +5,7 @@ date: 2024-04-14
 author: k3jph
 layout: post
 permalink: /2024/04/14/debunking-the-long-tailpipe-myth 
-featured_image: /assets/img/2024/debunking-the-long-tailpipe-myth.jpg
+featured_image: /assets/img/2024/debunking-the-long-tailpipe-myth.webp
 categories:
 - Blog 
 tags:

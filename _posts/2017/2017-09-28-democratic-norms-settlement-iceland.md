@@ -5,7 +5,7 @@ date: 2017-09-28T07:15:27-04:00
 author: k3jph
 layout: post
 permalink: /2017/09/28/democratic-norms-settlement-iceland/
-featured_image: /assets/img/news/democratic-norms-settlement-iceland.jpg
+featured_image: /assets/img/news/democratic-norms-settlement-iceland.webp
 categories:
   - Blog
 tags:

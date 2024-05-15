@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/05/11/private-flood-insurance-bill/
 dsq_thread_id:
   - "4816083643"
-featured_image: /assets/img/news/flood-642586_1280.jpg
+featured_image: /assets/img/news/flood-642586_1280.webp
 categories:
   - Blog
 tags:

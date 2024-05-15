@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/06/20/five-years-umuc/
 dsq_thread_id:
   - "4926325880"
-featured_image: /assets/img/news/umuc-certificate-appreciation-5.jpg
+featured_image: /assets/img/news/umuc-certificate-appreciation-5.webp
 categories:
   - Blog
 tags:

@@ -5,7 +5,7 @@ date: 2017-09-04T07:37:09-04:00
 author: k3jph
 layout: post
 permalink: /2017/09/04/making-things-buy-better/
-featured_image: /assets/img/news/making-things-buy-better.png
+featured_image: /assets/img/news/making-things-buy-better.webp
 categories:
   - Blog
 tags:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/11/17/weird-youtube/
 dsq_thread_id:
   - "4328211413"
-featured_image: /assets/img/news/solwayfirthspaceman.png
+featured_image: /assets/img/news/solwayfirthspaceman.webp
 categories:
   - Blog
 tags:

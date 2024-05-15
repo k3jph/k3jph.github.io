@@ -9,7 +9,7 @@ dsq_thread_id:
   - "5925180687"
 instant_articles_submission_id:
   - "229973897511787"
-featured_image: /assets/img/news/testimony-long-reach-redevelopment.jpg
+featured_image: /assets/img/news/testimony-long-reach-redevelopment.webp
 categories:
   - Blog
 tags:

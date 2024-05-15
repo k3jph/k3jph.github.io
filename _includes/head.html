@@ -10,7 +10,7 @@
     {% assign title_formatted = title | markdownify | strip_html %}
     {% assign title_clean = title_formatted | append: " – " | append: site.title %}
 
-    {% assign featured_image = "/assets/img/header-home.jpg" | relative_url %}
+    {% assign featured_image = "/assets/img/header-home.webp" | relative_url %}
     {% if page.featured_image %}
       {% assign featured_image = page.featured_image %}
     {% endif %}

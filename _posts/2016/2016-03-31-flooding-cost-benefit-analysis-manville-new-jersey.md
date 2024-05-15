@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/03/31/flooding-cost-benefit-analysis-manville-new-jersey/
 dsq_thread_id:
   - "4708230287"
-featured_image: /assets/img/news/raritan-flooding.png
+featured_image: /assets/img/news/raritan-flooding.webp
 categories:
   - Blog
 tags:

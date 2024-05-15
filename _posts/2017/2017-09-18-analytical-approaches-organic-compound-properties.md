@@ -5,7 +5,7 @@ date: 2017-09-18T20:38:32-04:00
 author: k3jph
 layout: post
 permalink: /2017/09/18/analytical-approaches-organic-compound-properties/
-featured_image: /assets/img/news/analytical-approaches-estimating-organic-compound-properties.jpg
+featured_image: /assets/img/news/analytical-approaches-estimating-organic-compound-properties.webp
 categories:
   - Blog
 tags:

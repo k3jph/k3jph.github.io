@@ -5,7 +5,7 @@ date: 2019-12-03T17:43:42-05:00
 author: k3jph
 layout: post
 permalink: /2019/12/03/analysis-of-zoning-boards-for-charter-review/
-featured_image: /assets/img/news/analysis-of-zoning-boards-for-charter-review.png
+featured_image: /assets/img/news/analysis-of-zoning-boards-for-charter-review.webp
 categories:
   - Blog
 tags:

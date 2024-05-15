@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/06/20/im-going-mars/
 dsq_thread_id:
   - "3863307354"
-featured_image: /assets/img/news/marscolony.png
+featured_image: /assets/img/news/marscolony.webp
 categories:
   - Blog
 tags:
@@ -24,6 +24,6 @@ tags:
 
 Slides will be posted when they are ready.
 
-{% include figure.html image="news/marsociety2015poster.jpg" %}
+{% include figure.html image="news/marsociety2015poster.webp" %}
 
 _Images by [NASA](http://www.nasa.gov/centers/ames/news/releases/2004/mars/mars.html) and the [Mars Society](http://www.marssociety.org)._

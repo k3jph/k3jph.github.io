@@ -5,14 +5,14 @@ date: 2016-04-28T23:26:12-04:00
 author: James Howard
 layout: page
 guid: https://jameshoward.us/?page_id=4047
-image: /assets/images/toolkit.png
+image: /assets/images/toolkit.webp
 menu-order:     40
 menu-label:     Projects
 ---
 
 ## Virtual Bumblebees
 
-{% include figure.html image="bee-bug-bumblebee-close-up-235764.jpg"
+{% include figure.html image="bee-bug-bumblebee-close-up-235764.webp"
    placement="right" link="/software/virtual-bumblebees" width="40%"
    cap="A bumblebee"
    alt="A bumblebee" %}
@@ -28,7 +28,7 @@ for the Coursera Internet of Things capstone course.
 
 ## Danish Language Resources
 
-{% include figure.html image="Codex_Holmiensis_CE_1350.jpg"
+{% include figure.html image="Codex_Holmiensis_CE_1350.webp"
    placement="left" link="/dansk" width="40%"
    cap="The first page of the Jutlandic Law originally from 1241 in Codex Holmiensis"
    alt="The first page of the Jutlandic Law originally from 1241 in Codex Holmiensis" %}
@@ -48,7 +48,7 @@ material.
 
 ## Swedish Language Resources
 
-{% include figure.html image="Västgötalagen_blad_21.jpg"
+{% include figure.html image="Västgötalagen_blad_21.webp"
    placement="right" link="/svenska" width="40%"
    cap="Sheet number 21 from the Early Westrogothic law" 
    alt="Sheet number 21 from the Early Westrogothic law" %}

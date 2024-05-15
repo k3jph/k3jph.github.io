@@ -5,7 +5,7 @@ date: 2019-11-13T08:33:00-05:00
 author: k3jph
 layout: post
 permalink: /2019/11/13/social-change-in-shinto-and-meiji-japan/
-featured_image: /assets/img/news/social-change-in-shinto-and-meiji-japan.jpg
+featured_image: /assets/img/news/social-change-in-shinto-and-meiji-japan.webp
 categories:
   - Blog
 tags:

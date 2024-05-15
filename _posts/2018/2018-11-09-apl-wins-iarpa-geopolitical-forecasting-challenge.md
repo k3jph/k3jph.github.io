@@ -5,7 +5,7 @@ date: 2018-11-09T09:48:17-05:00
 author: k3jph
 layout: post
 permalink: /2018/11/09/apl-wins-iarpa-geopolitical-forecasting-challenge/
-featured_image: /assets/img/news/apl-wins-iarpa-geopolitical-forecasting-challenge.jpg
+featured_image: /assets/img/news/apl-wins-iarpa-geopolitical-forecasting-challenge.webp
 categories:
   - News
 tags:

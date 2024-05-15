@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/06/27/accidental-math-professor/
 dsq_thread_id:
   - "4940213132"
-featured_image: /assets/img/news/accidental-math-professor.jpg
+featured_image: /assets/img/news/accidental-math-professor.webp
 categories:
   - Blog
 tags:

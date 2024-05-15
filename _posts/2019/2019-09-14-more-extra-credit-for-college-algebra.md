@@ -5,7 +5,7 @@ date: 2019-09-14T15:31:02-04:00
 author: k3jph
 layout: post
 permalink: /2019/09/14/more-extra-credit-for-college-algebra/
-featured_image: /assets/img/news/more-extra-credit-for-college-algebra.png
+featured_image: /assets/img/news/more-extra-credit-for-college-algebra.webp
 categories:
   - Blog
 tags:

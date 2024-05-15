@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/08/22/why-i-wont-play-greedy-dice/
 dsq_thread_id:
   - "5087161137"
-featured_image: /assets/img/news/why-i-wont-play-greedy-dice.jpg
+featured_image: /assets/img/news/why-i-wont-play-greedy-dice.webp
 categories:
   - Blog
 tags:

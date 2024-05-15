@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/02/08/historical-social-discount-rates/
 dsq_thread_id:
   - "4563412210"
-featured_image: /assets/img/news/discounts.png
+featured_image: /assets/img/news/discounts.webp
 categories:
   - Blog
 tags:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/06/02/better-extra-credit/
 dsq_thread_id:
   - "3816340543"
-featured_image: /assets/img/news/businessmath.png
+featured_image: /assets/img/news/businessmath.webp
 categories:
   - Blog
 tags:

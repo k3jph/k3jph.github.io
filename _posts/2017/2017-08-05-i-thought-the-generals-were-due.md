@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/08/05/i-thought-the-generals-were-due/
 dsq_thread_id:
   - "6043034447"
-featured_image: /assets/img/news/i-thought-the-generals-were-due.jpg
+featured_image: /assets/img/news/i-thought-the-generals-were-due.webp
 categories:
   - Blog
 tags:

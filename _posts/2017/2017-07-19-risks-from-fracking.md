@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/07/19/risks-from-fracking/
 dsq_thread_id:
   - "6000516547"
-featured_image: /assets/img/news/risks-from-fracking.jpg
+featured_image: /assets/img/news/risks-from-fracking.webp
 categories:
   - Blog
 tags:

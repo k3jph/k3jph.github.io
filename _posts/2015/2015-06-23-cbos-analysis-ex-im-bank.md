@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/06/23/cbos-analysis-ex-im-bank/
 dsq_thread_id:
   - "3870755442"
-featured_image: /assets/img/news/freightcontainers.png
+featured_image: /assets/img/news/freightcontainers.webp
 categories:
   - Blog
 tags:

@@ -5,7 +5,7 @@ date: 2018-07-12T06:50:14-04:00
 author: k3jph
 layout: post
 permalink: /2018/07/12/nanotechnology-on-your-face/
-featured_image: /assets/img/news/nanotechnology-on-your-face.jpg
+featured_image: /assets/img/news/nanotechnology-on-your-face.webp
 categories:
   - Blog
 tags:

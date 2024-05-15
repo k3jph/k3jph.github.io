@@ -5,7 +5,7 @@ date: 2017-09-11T07:11:23-04:00
 author: k3jph
 layout: post
 permalink: /2017/09/11/implementation-clean-water-act/
-featured_image: /assets/img/news/implementation-clean-water-act.jpg
+featured_image: /assets/img/news/implementation-clean-water-act.webp
 categories:
   - Blog
 tags:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/05/29/flood-insurance-profits-maybe-not/
 dsq_thread_id:
   - "4867600013"
-featured_image: /assets/img/news/budgeting.png
+featured_image: /assets/img/news/budgeting.webp
 categories:
   - Blog
 tags:

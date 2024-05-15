@@ -5,7 +5,7 @@ date: 2020-01-09T09:33:33-05:00
 author: k3jph
 layout: post
 permalink: /2020/01/09/predicting-restaurant-health-hazards/
-featured_image: /assets/img/news/predicting-restaurant-health-hazards.png
+featured_image: /assets/img/news/predicting-restaurant-health-hazards.webp
 categories:
   - News
 tags:

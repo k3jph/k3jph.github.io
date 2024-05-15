@@ -5,7 +5,7 @@ date: 2015-09-30T15:57:20-04:00
 author: James Howard
 layout: page
 guid: https://jameshoward.us/?page_id=2930
-image: /assets/images/books.jpg
+image: /assets/images/books.webp
 menu-order:     90
 menu-label:     Books
 ---
@@ -14,7 +14,7 @@ menu-label:     Books
 
 ### Edited with John F. Beyers
 
-{% include figure.html image="tlmo-cover-300px.jpg"
+{% include figure.html image="tlmo-cover-300px.webp"
    placement="right" link="/tlmo" width="30%"
    alt="Teaching and Learning Mathematics Online book cover" %}
 
@@ -62,7 +62,7 @@ also develop a lasting appreciation for the mathematical sciences.
 
 ### Edited with Natalie M. Scala
 
-{% include figure.html image="mdor-cover-300w.jpg"
+{% include figure.html image="mdor-cover-300w.webp"
    placement="right" link="/mdor" width="30%"
    alt="Handbook of Military and Defense Operations Research book cover" %}
 
@@ -105,7 +105,7 @@ University](https://fusion.towson.edu/www/cbe/DigitalMeasures/faculty_profile_ma
 
 ## Computational Methods for Numerical Analysis with R
 
-{% include figure.html image="CMNA-cover-300.png"
+{% include figure.html image="CMNA-cover-300.webp"
    placement="right" link="/cmna" width="30%"
    alt="Computational Methods for Numerical Analysis with R book cover" %}
 
@@ -148,7 +148,7 @@ in various scientific and engineering contexts.
 
 ## Socioeconomic Effects of the National Flood Insurance Program
 
-{% include figure.html image="SE-NFIP-cover-300.png"
+{% include figure.html image="SE-NFIP-cover-300.webp"
    placement="right" link="/se-nfip" width="30%"
    alt="Socioeconomic Effects of the National Flood Insurance Program book cover" %}
 

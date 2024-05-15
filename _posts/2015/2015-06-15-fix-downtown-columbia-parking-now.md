@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/06/15/fix-downtown-columbia-parking-now/
 dsq_thread_id:
   - "3851495481"
-featured_image: /assets/img/news/parking-garage.png
+featured_image: /assets/img/news/parking-garage.webp
 categories:
   - Blog
 tags:

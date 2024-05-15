@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/07/07/discounting-future-risk/
 dsq_thread_id:
   - "5970958919"
-featured_image: /assets/img/news/discounting-future-risk.jpg
+featured_image: /assets/img/news/discounting-future-risk.webp
 categories:
   - Blog
 tags:

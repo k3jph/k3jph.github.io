@@ -5,7 +5,7 @@ date: 2018-01-02T07:33:23-05:00
 author: k3jph
 layout: post
 permalink: /2018/01/02/get-flu-shot/
-featured_image: /assets/img/news/get-flu-shot.jpg
+featured_image: /assets/img/news/get-flu-shot.webp
 categories:
   - Blog
 tags:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2014/11/26/guess-isnt-coming-dinner/
 dsq_thread_id:
   - "3265942505"
-featured_image: /assets/img/news/Guess-Whos-Coming-to-Dinner.jpg
+featured_image: /assets/img/news/Guess-Whos-Coming-to-Dinner.webp
 instant_articles_submission_id:
   - "740271359454855"
 categories:

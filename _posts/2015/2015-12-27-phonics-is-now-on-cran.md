@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/12/27/phonics-is-now-on-cran/
 dsq_thread_id:
   - "4439241541"
-featured_image: /assets/img/news/anotheryak.png
+featured_image: /assets/img/news/anotheryak.webp
 categories:
   - Blog
 tags:
@@ -28,4 +28,4 @@ install.packages("phonics")
 
 You will have to compile it.
 
-_Image by [Bruce1ee / Wikimedia](https://commons.wikimedia.org/wiki/File:Bos_grunniens_at_Letdar_on_Annapurna_Circuit.jpg)._
+_Image by [Bruce1ee / Wikimedia](https://commons.wikimedia.org/wiki/File:Bos_grunniens_at_Letdar_on_Annapurna_Circuit.webp)._

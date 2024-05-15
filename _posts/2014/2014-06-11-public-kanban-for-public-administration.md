@@ -18,7 +18,7 @@ tags:
   - public affairs education
   - public management
 ---
-{% include figure.html image="news/philly-trello.png"
+{% include figure.html image="news/philly-trello.webp"
    cap="A public Trello snapshot for the City of Philadelphia (City of Philadelphia)"
    alt="A public Trello snapshot for the City of Philadelphia (City of Philadelphia)" %}
 

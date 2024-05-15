@@ -5,7 +5,7 @@ date: 2015-12-12T13:52:04-05:00
 author: James Howard
 layout: page
 guid: https://jameshoward.us/?page_id=3374
-image: /assets/images/thomas-viaduct.png
+image: /assets/images/thomas-viaduct.webp
 ---
 
 ## Board of Appeals
@@ -76,7 +76,7 @@ We produced three major documents.
 ### <a id='AResolution' />A Resolution
 
 {% include figure.html width="12" border=true
-   image="/service/jhoward-hoco-crcres.png"
+   image="/service/jhoward-hoco-crcres.webp"
    alt="Honorary Resolution for the Charter Review Commission Members"
    cap="Honorary Resolution for the Charter Review Commission Members" %}
 
@@ -109,4 +109,4 @@ has not been changed since 2008.
 
 {% include relatedposts.html tag="Howard County" %}
 
-_Image by [Jim Kuhn via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Thomas_Viaduct_Inside_Curve_(Relay,_MD).jpg).  The Thomas Viaduct was built by the Baltimore and Ohio Railroad in the 1830s to provide rail access to Howard County, Maryland._
+_Image by [Jim Kuhn via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Thomas_Viaduct_Inside_Curve_(Relay,_MD).webp).  The Thomas Viaduct was built by the Baltimore and Ohio Railroad in the 1830s to provide rail access to Howard County, Maryland._

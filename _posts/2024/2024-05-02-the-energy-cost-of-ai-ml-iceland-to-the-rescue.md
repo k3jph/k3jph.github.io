@@ -5,7 +5,7 @@ date: 2024-05-01
 author: k3jph
 layout: post
 permalink: /2024/05/01/the-energy-cost-of-ai-ml-iceland-to-the-rescue
-featured_image: /assets/img/2024/the-energy-cost-of-ai-ml-iceland-to-the-rescue.jpg
+featured_image: /assets/img/2024/the-energy-cost-of-ai-ml-iceland-to-the-rescue.webp
 categories:
 - Blog 
 tags:

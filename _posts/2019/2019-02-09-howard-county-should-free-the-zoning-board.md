@@ -5,7 +5,7 @@ date: 2019-02-09T10:20:26-05:00
 author: k3jph
 layout: post
 permalink: /2019/02/09/howard-county-should-free-the-zoning-board/
-featured_image: /assets/img/news/howard-county-should-free-the-zoning-board.png
+featured_image: /assets/img/news/howard-county-should-free-the-zoning-board.webp
 categories:
   - Blog
 tags:

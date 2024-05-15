@@ -5,7 +5,7 @@ date: 2019-09-24T08:42:31-04:00
 author: k3jph
 layout: post
 permalink: /2019/09/24/blockchain-basics-for-program-managers/
-featured_image: /assets/img/news/blockchain-basics-for-program-managers.jpg
+featured_image: /assets/img/news/blockchain-basics-for-program-managers.webp
 categories:
   - News
 tags:

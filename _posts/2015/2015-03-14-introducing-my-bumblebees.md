@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/03/14/introducing-my-bumblebees/
 dsq_thread_id:
   - "3595225297"
-featured_image: /assets/img/news/Bumblebees.png
+featured_image: /assets/img/news/Bumblebees.webp
 categories:
   - Blog
 tags:

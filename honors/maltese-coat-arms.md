@@ -4,7 +4,7 @@ title: Maltese Coat of Arms
 author: James Howard
 layout: page
 permalink: /honors/maltese-coat-arms
-featured_image: /assets/img/malta.jpg
+featured_image: /assets/img/malta.webp
 credits: >-
   These images contain components from Wikimedia users
   [Horemhat](https://commons.wikimedia.org/wiki/User:Horemhat),
@@ -17,7 +17,7 @@ redirect_from:
   - /honors/malta/
 ---
 
-{% include figure.html image="jhoward-maltese-salmeron-960px.jpg" placement="right" width="40%" border=true
+{% include figure.html image="jhoward-maltese-salmeron-960px.webp" placement="right" width="40%" border=true
 cap="Coat of Arms for James P. Howard, II, as interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
 alt="Coat of Arms for James P. Howard, II, as interpreted by Dr Antonio Salmerón" %}
 
@@ -62,7 +62,7 @@ institutions, including companies, schools, and corporations, each
 bearing unique armorial symbols that contribute to the cultural
 mosaic of the Maltese Islands.
 
-{% include figure.html image="Coat-of-Arms-Chief-Herald-Malta.png"
+{% include figure.html image="Coat-of-Arms-Chief-Herald-Malta.webp"
 placement="right" width="40%" cap="Arms of the Office Of the Chief
 Herald" alt="Arms of the Office Of the Chief Herald" %}
 
@@ -100,7 +100,7 @@ heritage and dynamic future of Malta. It stands as a symbol of honor
 and distinction, offering a lasting legacy that will be cherished
 by generations to come.
 
-{% include figure.html image="/2024/a-maltese-grant-of-arms.png" width="12" border=true
+{% include figure.html image="/2024/a-maltese-grant-of-arms.webp" width="12" border=true
 cap="Letters patent for the coat of arms" 
 alt="Letters patent for the coat of arms" %}
 
@@ -199,7 +199,7 @@ the essence of the coat of arms remains consistent across different
 renditions, showcasing the universal language of heraldry that
 transcends individual variations in artistic expression.
 
-{% include figure.html image="jhoward-maltese-salmeron-960px.jpg" width="80%" border=true
+{% include figure.html image="jhoward-maltese-salmeron-960px.webp" width="80%" border=true
 cap="Coat of Arms for James P. Howard, II, as interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
 alt="Coat of Arms for James P. Howard, II, as interpreted by Dr Antonio Salmerón" %}
 

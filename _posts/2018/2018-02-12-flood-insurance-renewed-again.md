@@ -5,7 +5,7 @@ date: 2018-02-12T20:47:06-05:00
 author: k3jph
 layout: post
 permalink: /2018/02/12/flood-insurance-renewed-again/
-featured_image: /assets/img/news/flood-insurance-renewed-again.jpg
+featured_image: /assets/img/news/flood-insurance-renewed-again.webp
 categories:
   - Blog
 tags:

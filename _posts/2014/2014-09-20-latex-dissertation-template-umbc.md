@@ -7,7 +7,7 @@ layout: post
 permalink: /2014/09/20/latex-dissertation-template-umbc/
 dsq_thread_id:
   - "3037718518"
-featured_image: /assets/img/news/1898286_541285404792_914859516_n.jpg
+featured_image: /assets/img/news/1898286_541285404792_914859516_n.webp
 categories:
   - Blog
 tags:

@@ -5,7 +5,7 @@ date: 2017-10-24T07:35:09-04:00
 author: k3jph
 layout: post
 permalink: /2017/10/24/going-nasa-social/
-featured_image: /assets/img/news/going-nasa-social.jpg
+featured_image: /assets/img/news/going-nasa-social.webp
 categories:
   - Blog
 tags:

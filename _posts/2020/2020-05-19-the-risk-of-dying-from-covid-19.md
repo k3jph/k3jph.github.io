@@ -5,7 +5,7 @@ date: 2020-05-18T20:30:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/05/19/the-risk-of-dying-from-covid-19
-featured_image: /assets/img/news/the-risk-of-dying-from-covid-19.jpg
+featured_image: /assets/img/news/the-risk-of-dying-from-covid-19.webp
 categories:
   - Blog
 tags:
@@ -70,7 +70,7 @@ have complete data for 175 countries in the Worldometer dataset.
 So we can find the comparable number, we'll call the `deathrate`
 for these countries.  This gives us this histogram:
 
-{% include figure.html image="news/likelihood-of-death-from-covid-19-following-positive-diagnosis.png"
+{% include figure.html image="news/likelihood-of-death-from-covid-19-following-positive-diagnosis.webp"
    alt="Density Plot of Likelihood of Death from COVID-19 After Diagnosis per Country"
    cap="Density Plot of Likelihood of Death from COVID-19 After Diagnosis per Country" %}
 

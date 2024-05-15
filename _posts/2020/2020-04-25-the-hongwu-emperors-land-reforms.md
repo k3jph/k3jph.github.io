@@ -5,7 +5,7 @@ date: 2020-04-25T12:57:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/04/25/the-hongwu-emperors-land-reforms/
-featured_image: /assets/img/news/the-hongwu-emperors-land-reforms.jpg
+featured_image: /assets/img/news/the-hongwu-emperors-land-reforms.webp
 categories:
   - Blog
 tags:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/08/15/syllabus-for-public-administration-and-public-finance/
 dsq_thread_id:
   - "4035031514"
-featured_image: /assets/img/news/desert.png
+featured_image: /assets/img/news/desert.webp
 categories:
   - Blog
 tags:

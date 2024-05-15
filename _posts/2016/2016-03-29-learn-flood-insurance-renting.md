@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/03/29/learn-flood-insurance-renting/
 dsq_thread_id:
   - "4703776656"
-featured_image: /assets/img/news/flooded-homes.jpg
+featured_image: /assets/img/news/flooded-homes.webp
 categories:
   - Blog
 tags:

@@ -5,7 +5,7 @@ date: 2018-10-03T09:42:13-04:00
 author: k3jph
 layout: post
 permalink: /2018/10/03/rainfall-stationarity/
-featured_image: /assets/img/news/rainfall-stationarity.jpg
+featured_image: /assets/img/news/rainfall-stationarity.webp
 categories:
   - Blog
 tags:

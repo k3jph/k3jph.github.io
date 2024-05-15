@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/02/18/textbook-pricing-control/
 dsq_thread_id:
   - "5562997537"
-featured_image: /assets/img/news/textbook-pricing-control.jpg
+featured_image: /assets/img/news/textbook-pricing-control.webp
 categories:
   - Blog
 tags:

@@ -5,7 +5,7 @@ date: 2020-02-25T15:38:06-05:00
 author: k3jph
 layout: post
 permalink: /2020/02/25/the-handbook-for-military-and-defense-operations-research-has-been-published/
-featured_image: /assets/img/news/the-handbook-for-military-and-defense-operations-research-has-been-published.jpg
+featured_image: /assets/img/news/the-handbook-for-military-and-defense-operations-research-has-been-published.webp
 categories:
   - News
 tags:

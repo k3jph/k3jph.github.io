@@ -5,7 +5,7 @@ date: 2017-12-30T07:20:15-05:00
 author: k3jph
 layout: post
 permalink: /2017/12/30/new-way-teaching-math/
-featured_image: /assets/img/news/new-way-teaching-math.jpg
+featured_image: /assets/img/news/new-way-teaching-math.webp
 categories:
   - Blog
 tags:

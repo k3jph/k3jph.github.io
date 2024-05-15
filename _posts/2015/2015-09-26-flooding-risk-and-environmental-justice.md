@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/09/26/flooding-risk-and-environmental-justice/
 dsq_thread_id:
   - "4167642279"
-featured_image: /assets/img/news/cedarrapids.png
+featured_image: /assets/img/news/cedarrapids.webp
 categories:
   - Blog
 tags:

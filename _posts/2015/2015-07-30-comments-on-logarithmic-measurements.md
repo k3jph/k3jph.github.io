@@ -9,7 +9,7 @@ dsq_thread_id:
   - "3986168677"
 ampforwp_custom_content_editor_checkbox:
   - ""
-featured_image: /assets/img/news/tsquare.png
+featured_image: /assets/img/news/tsquare.webp
 categories:
   - Blog
 tags:

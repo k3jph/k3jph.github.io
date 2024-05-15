@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/07/28/tax-incremental-financing-downtown-columbia/
 dsq_thread_id:
   - "5022750216"
-featured_image: /assets/img/news/tax-incremental-financing-and-downtown-columbia.jpg
+featured_image: /assets/img/news/tax-incremental-financing-and-downtown-columbia.webp
 categories:
   - Blog
 tags:
@@ -100,4 +100,4 @@ a TIF is absolutely the best and correct solution for downtown
 Columbia.
 
 _Image by [Sue Brink / United States Navy / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:US_Navy_070530-N-9830B-005_..Tom_Tryon,_of_Public_Works_Department_Jacksonville,_and_Ralph_Kaneshiro_of_NAVFAC_Southeast_break_ground_to_commence_construction_of_the_new_NAVFAC_Southeast_Headquarters_building_aboard_Naval_Air.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:US_Navy_070530-N-9830B-005_..Tom_Tryon,_of_Public_Works_Department_Jacksonville,_and_Ralph_Kaneshiro_of_NAVFAC_Southeast_break_ground_to_commence_construction_of_the_new_NAVFAC_Southeast_Headquarters_building_aboard_Naval_Air.webp)._

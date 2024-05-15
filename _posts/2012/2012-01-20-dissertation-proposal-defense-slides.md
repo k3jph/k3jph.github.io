@@ -5,7 +5,7 @@ date: 2012-01-20T21:32:16-05:00
 author: k3jph
 layout: post
 permalink: /2012/01/20/dissertation-proposal-defense-slides/
-featured_image: /assets/img/news/NFIP-proposal-defense-slides-cover.png
+featured_image: /assets/img/news/NFIP-proposal-defense-slides-cover.webp
 categories:
   - Blog
 tags:

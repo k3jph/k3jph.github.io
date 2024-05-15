@@ -5,7 +5,7 @@ date: 2020-11-15T10:30:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/11/15/lifesaving-with-mixed-reality
-featured_image: /assets/img/news/lifesaving-with-mixed-reality.jpg
+featured_image: /assets/img/news/lifesaving-with-mixed-reality.webp
 categories:
   - Blog
 tags:

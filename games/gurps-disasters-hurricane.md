@@ -11,7 +11,7 @@ redirect_from:
   - /games/gurps-hurricane/
 ---
 
-{% include figure.html image="GURPS_Disasters_Hurricane.png" cap="" width="25%" 
+{% include figure.html image="GURPS_Disasters_Hurricane.webp" cap="" width="25%" 
    placement="right" alt="GURPS Disasters: Hurricane gamebook cover" %}
 
 _You've had a couple of days' warning, but it's never enough. You

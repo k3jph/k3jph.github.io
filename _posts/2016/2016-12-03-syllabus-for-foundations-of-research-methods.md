@@ -9,7 +9,7 @@ instant_articles_submission_id:
   - "556017014589407"
 dsq_thread_id:
   - "5352375767"
-featured_image: /assets/img/news/syllabus-for-foundations-of-research-methods.jpg
+featured_image: /assets/img/news/syllabus-for-foundations-of-research-methods.webp
 categories:
   - Blog
 tags:
@@ -34,4 +34,4 @@ something interesting in such as constrained classroom format yet,
 and I'd like to work it through once just to get a feel.
 
 _Image by [David Iliff / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:NYC_Public_Library_Research_Room_Jan_2006.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:NYC_Public_Library_Research_Room_Jan_2006.webp)._

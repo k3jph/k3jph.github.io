@@ -18,7 +18,7 @@ tags:
 ---
 I started playing correspondence chess on the [ICCF](http://www.iccf.com) server's last summer and as you can see from this my rating, I am not that good.  This is especially embarrassing given the fact we are allowed to use chess engines for help.  But that's not important right now.  I received my first official rating coming into 2015 and held a 1682.  Somewhat respectable, but not chessmaster material.  Then this happened.
 
-{% include figure.html image="news/iccf-ratings.png"
+{% include figure.html image="news/iccf-ratings.webp"
    cap="Oh, this is just embarassing"
    alt="Oh, this is just embarassing" %}
    

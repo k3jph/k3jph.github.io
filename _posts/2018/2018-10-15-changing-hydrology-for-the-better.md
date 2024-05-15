@@ -5,7 +5,7 @@ date: 2018-10-15T20:51:40-04:00
 author: k3jph
 layout: post
 permalink: /2018/10/15/changing-hydrology-for-the-better/
-featured_image: /assets/img/news/changing-hydrology-for-the-better.jpg
+featured_image: /assets/img/news/changing-hydrology-for-the-better.webp
 categories:
   - Blog
 tags:

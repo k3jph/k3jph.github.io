@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/12/11/health-effects-of-climate-change/
 dsq_thread_id:
   - "4393654670"
-featured_image: /assets/img/news/climatechangepoor.png
+featured_image: /assets/img/news/climatechangepoor.webp
 categories:
   - Blog
 tags:

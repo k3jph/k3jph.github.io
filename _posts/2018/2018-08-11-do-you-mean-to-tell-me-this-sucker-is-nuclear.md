@@ -5,7 +5,7 @@ date: 2018-08-11T21:26:14-04:00
 author: k3jph
 layout: post
 permalink: /2018/08/11/do-you-mean-to-tell-me-this-sucker-is-nuclear/
-featured_image: /assets/img/news/whoa-doc-do-you-mean-to-tell-me-this-sucker-is-nuclear-cover.jpg
+featured_image: /assets/img/news/whoa-doc-do-you-mean-to-tell-me-this-sucker-is-nuclear-cover.webp
 categories:
   - Blog
 tags:
@@ -54,7 +54,7 @@ this](https://en.wikipedia.org/wiki/Radioisotope_thermoelectric_generator).
 Our typical radioactivity source is plutonium-238.  That's where
 this gets messy.
 
-{% include figure.html image="news/IMG_20180811_033026.jpg" alt="Ducky becomes a monster at oh-dark-thirty"
+{% include figure.html image="news/IMG_20180811_033026.webp" alt="Ducky becomes a monster at oh-dark-thirty"
    cap="Ducky becomes a monster at oh-dark-thirty" placement="left" width="50%" %}
 
 Plutonium-238 is not a typical nuclear waste product and has to be
@@ -75,4 +75,4 @@ with luck, the launch will happen in just about six hours...
 _Image of Emmett Brown's plutonium case from the film Back to the
 Future displayed at San Diego Comic Con 2011 by [Mooshuu from San
 Diego via Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Back_to_the_Future_Part_1_-_Plutonium_Case_(5963124603).jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:Back_to_the_Future_Part_1_-_Plutonium_Case_(5963124603).webp)._

@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/04/14/why-i-bought-a-mega-millions-ticket/
 dsq_thread_id:
   - "3680817503"
-featured_image: /assets/img/news/lotterymoney.png
+featured_image: /assets/img/news/lotterymoney.webp
 categories:
   - Blog
 tags:

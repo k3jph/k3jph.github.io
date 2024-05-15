@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/10/28/richard-henry-lee-was-not-dr-strangelove/
 dsq_thread_id:
   - "4265781259"
-featured_image: /assets/img/news/strangelove.jpg
+featured_image: /assets/img/news/strangelove.webp
 categories:
   - Blog
 tags:

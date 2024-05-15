@@ -5,7 +5,7 @@ date: 2017-11-24T18:53:54-05:00
 author: k3jph
 layout: post
 permalink: /2017/11/24/icesat-icesat-2/
-featured_image: /assets/img/news/icesat2-hqprint.jpg
+featured_image: /assets/img/news/icesat2-hqprint.webp
 categories:
   - Blog
 tags:
@@ -36,7 +36,7 @@ than ICESat did.  Also, we learned it will have a green laser,
 visible to the eye.  If you look up when it happens above you, you
 should be able to see a green flash from space from ICESat-2.
 
-{% include figure.html image="news/ICESat2PosterBiomes2_print.jpg" 
+{% include figure.html image="news/ICESat2PosterBiomes2_print.webp" 
    alt="ICESat-2 Poster" cap="ICESat-2 Poster" %}
 
 Now, it is important to understand why this is important.  As global

@@ -5,7 +5,7 @@ date: 2019-08-04T11:22:39-04:00
 author: k3jph
 layout: post
 permalink: /2019/08/04/mixing-toxic-chemicals/
-featured_image: /assets/img/news/mixing-toxic-chemicals.jpg
+featured_image: /assets/img/news/mixing-toxic-chemicals.webp
 categories:
   - Blog
 tags:

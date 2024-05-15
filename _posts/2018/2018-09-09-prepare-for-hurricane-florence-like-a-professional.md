@@ -5,7 +5,7 @@ date: 2018-09-09T17:58:27-04:00
 author: k3jph
 layout: post
 permalink: /2018/09/09/prepare-for-hurricane-florence-like-a-professional/
-featured_image: /assets/img/news/prepare-for-hurricane-florence-like-a-professional.jpg
+featured_image: /assets/img/news/prepare-for-hurricane-florence-like-a-professional.webp
 categories:
   - Blog
 tags:

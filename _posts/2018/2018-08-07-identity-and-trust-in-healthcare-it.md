@@ -5,7 +5,7 @@ date: 2018-08-07T14:16:00-04:00
 author: k3jph
 layout: post
 permalink: /2018/08/07/identity-and-trust-in-healthcare-it/
-featured_image: /assets/img/news/hospital-1822457_1920.jpg
+featured_image: /assets/img/news/hospital-1822457_1920.webp
 categories:
   - News
 tags:

@@ -5,7 +5,7 @@ date: 2015-08-10T07:37:24-04:00
 author: k3jph
 layout: post
 permalink: /2015/08/10/bitcoin-mining-pools-and-income-smoothing/
-featured_image: /assets/img/news/9484489496_b6a28de91d_z.jpg
+featured_image: /assets/img/news/9484489496_b6a28de91d_z.webp
 categories:
   - Blog
 tags:

@@ -5,7 +5,7 @@ date: 2020-09-27T13:19:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/09/27/my-interview-with-forward-maryland
-featured_image: /assets/img/news/my-interview-with-forward-maryland.jpg
+featured_image: /assets/img/news/my-interview-with-forward-maryland.webp
 categories:
   - Blog
 tags:

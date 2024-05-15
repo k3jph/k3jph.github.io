@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/08/09/statistical-likelihood-extreme-events-ellicott-city-floods/
 dsq_thread_id:
   - "5053896451"
-featured_image: /assets/img/news/statistical-likelihood-extreme-events-ellicott-city-floods.jpg
+featured_image: /assets/img/news/statistical-likelihood-extreme-events-ellicott-city-floods.webp
 categories:
   - Blog
 tags:
@@ -138,4 +138,4 @@ are so terrible as to be unnatural is really not grounded in the
 numbers.
 
 _Image by [Scott Saghirian / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Main_Street_Bridge,_Ellicott_City,_MD.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:Main_Street_Bridge,_Ellicott_City,_MD.webp)._

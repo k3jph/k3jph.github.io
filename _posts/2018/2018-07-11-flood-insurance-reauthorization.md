@@ -5,7 +5,7 @@ date: 2018-07-11T07:48:38-04:00
 author: k3jph
 layout: post
 permalink: /2018/07/11/flood-insurance-reauthorization/
-featured_image: /assets/img/news/flood-insurance-reauthorization.jpg
+featured_image: /assets/img/news/flood-insurance-reauthorization.webp
 categories:
   - Blog
 tags:

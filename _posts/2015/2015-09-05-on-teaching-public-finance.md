@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/09/05/on-teaching-public-finance/
 dsq_thread_id:
   - "4095019589"
-featured_image: /assets/img/news/ubalt.jpg
+featured_image: /assets/img/news/ubalt.webp
 categories:
   - Blog
 tags:

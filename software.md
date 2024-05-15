@@ -5,7 +5,7 @@ date: 2015-09-20T18:03:41-04:00
 author: James Howard
 layout: page
 guid: https://jameshoward.us/?page_id=2858
-image: /assets/images/software-banner.png
+image: /assets/images/software-banner.webp
 menu-order:     41
 menu-label:     Software
 ---
@@ -15,4 +15,4 @@ Generally, I create software in the [Unix](http://www.unix.org/) tradition, this
 
 Now, most of my code projects support my [data science](/scholarship/) habit. I have written a few packages in R for [record linking](/software/phonics) and [financial waterfall charts](/software/waterfall).  These all follow the same design principles of doing one thing and doing it well.
 
-_Image by [Eric Gaba via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Seagate_ST33232A_hard_disk_head_and_platters_detail.jpg)._
+_Image by [Eric Gaba via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Seagate_ST33232A_hard_disk_head_and_platters_detail.webp)._

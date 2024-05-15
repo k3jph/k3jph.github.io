@@ -5,7 +5,7 @@ date: 2022-09-18T15:23:14-04:00
 author: k3jph
 layout: post
 permalink: /2022/09/18/value-mathematical-knowledge
-featured_image: /assets/img/news/value-mathematical-knowledge.jpg
+featured_image: /assets/img/news/value-mathematical-knowledge.webp
 categories:
 - Blog 
 tags:

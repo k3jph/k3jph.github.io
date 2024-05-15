@@ -5,7 +5,7 @@ date: 2020-04-02T10:10:16-04:00
 author: James Howard
 layout: page
 guid: curriculum-vitae
-image: /assets/images/curriculum-vitae.jpg
+image: /assets/images/curriculum-vitae.webp
 permalink: /curriculum-vitae
 redirect_from:
   - /cv/

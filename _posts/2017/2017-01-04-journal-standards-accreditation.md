@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/01/04/journal-standards-accreditation/
 dsq_thread_id:
   - "5433347050"
-featured_image: /assets/img/news/journal-standards-accreditation.jpg
+featured_image: /assets/img/news/journal-standards-accreditation.webp
 categories:
   - Blog
 tags:

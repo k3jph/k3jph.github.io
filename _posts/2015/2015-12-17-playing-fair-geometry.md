@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/12/17/playing-fair-geometry/
 dsq_thread_id:
   - "4413381178"
-featured_image: /assets/img/news/1024px-Triangles_spherical_geometry.jpg
+featured_image: /assets/img/news/1024px-Triangles_spherical_geometry.webp
 categories:
   - Blog
 tags:
@@ -32,4 +32,4 @@ Others of interest are hyperbolic planes, toral planes, and so forth.  The key p
 
 [^recent]: 8.6766×10^49, according to recent research.
 
-_Image by [Lars H. Rohwedder, Sarregouset / Wikimedia](https://commons.wikimedia.org/wiki/File:Triangles_(spherical_geometry).jpg)._
+_Image by [Lars H. Rohwedder, Sarregouset / Wikimedia](https://commons.wikimedia.org/wiki/File:Triangles_(spherical_geometry).webp)._

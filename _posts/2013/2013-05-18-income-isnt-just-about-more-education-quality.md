@@ -11,7 +11,7 @@ tumblr_howardjp_id:
   - "50690168170"
 dsq_thread_id:
   - "2271888292"
-featured_image: /assets/img/news/tumblr_inline_mmyc3x4jq01qz4rgp.jpg
+featured_image: /assets/img/news/tumblr_inline_mmyc3x4jq01qz4rgp.webp
 categories:
   - Blog
 tags:

@@ -5,7 +5,7 @@ date: 2017-10-25T07:55:53-04:00
 author: k3jph
 layout: post
 permalink: /2017/10/25/syllabus-people-project-administration/
-featured_image: /assets/img/news/syllabus-people-project-administration.jpg
+featured_image: /assets/img/news/syllabus-people-project-administration.webp
 categories:
   - Blog
 tags:

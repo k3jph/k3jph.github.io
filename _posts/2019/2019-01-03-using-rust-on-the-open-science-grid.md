@@ -5,7 +5,7 @@ date: 2019-01-03T07:52:12-05:00
 author: k3jph
 layout: post
 permalink: /2019/01/03/using-rust-on-the-open-science-grid/
-featured_image: /assets/img/news/using-rust-on-the-open-science-grid.jpg
+featured_image: /assets/img/news/using-rust-on-the-open-science-grid.webp
 categories:
   - Blog
 tags:

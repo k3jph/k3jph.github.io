@@ -5,7 +5,7 @@ date: 2019-03-09T18:37:36-05:00
 author: k3jph
 layout: post
 permalink: /2019/03/09/stokes-theorem-and-greens-theorem/
-featured_image: /assets/img/news/Surface_integral_illustration.svg.png
+featured_image: /assets/img/news/Surface_integral_illustration.svg.webp
 categories:
   - Blog
 tags:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/05/06/my-dissertation/
 dsq_thread_id:
   - "4804810671"
-featured_image: /assets/img/news/1898286_541285404792_914859516_n-1.jpg
+featured_image: /assets/img/news/1898286_541285404792_914859516_n-1.webp
 categories:
   - Blog
 tags:

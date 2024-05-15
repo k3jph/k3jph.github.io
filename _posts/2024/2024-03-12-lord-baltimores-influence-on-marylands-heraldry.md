@@ -5,7 +5,7 @@ date: 2024-03-12
 author: k3jph
 layout: post
 permalink: /2024/03/12/lord-baltimores-influence-on-marylands-heraldry
-featured_image: /assets/img/2024/lord-baltimores-influence-on-marylands-heraldry.jpg
+featured_image: /assets/img/2024/lord-baltimores-influence-on-marylands-heraldry.webp
 categories:
 - Blog 
 tags:
@@ -36,13 +36,13 @@ blending old-world symbolism with modern identity.
 
 <div class="row">
 {% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/maryland-flag.png" 
+   image="/2024/lord-baltimores-influence-on-marylands-heraldry/maryland-flag.webp" 
    alt="The Flag of Maryland" cap="The Flag of Maryland" %}
 {% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/baron-baltimore-arms.png" 
+   image="/2024/lord-baltimores-influence-on-marylands-heraldry/baron-baltimore-arms.webp" 
    alt="The Arms of Cecil Calvert, 2nd Baron Baltimore" cap="The Arms of Cecil Calvert, 2nd Baron Baltimore" %}
 {% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/maryland-seal.png" 
+   image="/2024/lord-baltimores-influence-on-marylands-heraldry/maryland-seal.webp" 
    alt="The Seal of Maryland" cap="The Seal of Maryland" %}
 </div>
 
@@ -64,13 +64,13 @@ its official seal:
 
 <div class="row">
 {% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/moco-arms.png" 
+   image="/2024/lord-baltimores-influence-on-marylands-heraldry/moco-arms.webp" 
    alt="The Arms of Montgomery County" cap="The Arms of Montgomery County" %}
 {% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/richard-montgomery-arms.png" 
+   image="/2024/lord-baltimores-influence-on-marylands-heraldry/richard-montgomery-arms.webp" 
    alt="The Arms of Richard Montgomery" cap="The Arms of Richard Montgomery" %}
 {% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/moco-seal.png" 
+   image="/2024/lord-baltimores-influence-on-marylands-heraldry/moco-seal.webp" 
    alt="The Seal of Montgomery County" cap="The Seal of Montgomery County" %}
 </div>
 
@@ -103,10 +103,10 @@ state and to its educational mission:
 <div class="row">
 <div class="item col-md-2">&nbsp;</div>
 {% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/jhu-seal.png" 
+   image="/2024/lord-baltimores-influence-on-marylands-heraldry/jhu-seal.webp" 
    alt="The Seal of the Johns Hopkins University" cap="The Seal of the Johns Hopkins University" %}
 {% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/jhu-logo.png" 
+   image="/2024/lord-baltimores-influence-on-marylands-heraldry/jhu-logo.webp" 
    alt="The Logo of the Johns Hopkins University" cap="The Logo of the Johns Hopkins University" %}
 </div>
 
@@ -129,10 +129,10 @@ position within the ecclesiastical hierarchy of the United States:
 <div class="row">
 <div class="item col-md-2">&nbsp;</div>
 {% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/baltimore-archdiocese-arms.png" 
+   image="/2024/lord-baltimores-influence-on-marylands-heraldry/baltimore-archdiocese-arms.webp" 
    alt="The Arms of the Archdiocese of Baltimore" cap="The Arms of the Archdiocese of Baltimore" %}
 {% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/crossland-arms.png" 
+   image="/2024/lord-baltimores-influence-on-marylands-heraldry/crossland-arms.webp" 
    alt="The Arms of Crossland" cap="The Arms of Crossland" %}
 </div>
 

@@ -9,7 +9,7 @@ dsq_thread_id:
   - "4375005790"
 ampforwp_custom_content_editor_checkbox:
   - ""
-featured_image: /assets/img/news/Flock_of_pigeons_Regents_Park_-_geograph.org_.uk_-_1370466.jpg
+featured_image: /assets/img/news/Flock_of_pigeons_Regents_Park_-_geograph.org_.uk_-_1370466.webp
 categories:
   - Blog
 tags:
@@ -32,4 +32,4 @@ It's also how [random forest](https://en.wikipedia.org/wiki/Random_forest) works
 
 Having a pigeon do it is neat, and it suggests flocks of small neural networks could fill the void.
 
-_Image by [Andy F / Wikimedia](https://commons.wikimedia.org/wiki/File:Flock_of_pigeons,_Regents_Park_-_geograph.org.uk_-_1370466.jpg)._
+_Image by [Andy F / Wikimedia](https://commons.wikimedia.org/wiki/File:Flock_of_pigeons,_Regents_Park_-_geograph.org.uk_-_1370466.webp)._

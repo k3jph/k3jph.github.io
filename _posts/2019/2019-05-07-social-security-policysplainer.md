@@ -5,7 +5,7 @@ date: 2019-05-07T09:49:22-04:00
 author: k3jph
 layout: post
 permalink: /2019/05/07/social-security-policysplainer/
-featured_image: /assets/img/news/social-security-policysplainer.jpg
+featured_image: /assets/img/news/social-security-policysplainer.webp
 categories:
   - Blog
 tags:

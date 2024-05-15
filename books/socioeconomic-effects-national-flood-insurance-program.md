@@ -10,7 +10,7 @@ redirect_from:
   - /books/se-nfip/
 ---
 
-{% include figure.html image="SE-NFIP-cover-300.png" placement="right" width="30%"
+{% include figure.html image="SE-NFIP-cover-300.webp" placement="right" width="30%"
    alt="Socioeconomic Effects of the National Flood Insurance Program book cover" %}
 
 In _Socioeconomic Effects of the National Flood Insurance Program_,

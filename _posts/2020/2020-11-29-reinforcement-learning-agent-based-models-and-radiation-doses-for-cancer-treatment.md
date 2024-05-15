@@ -5,7 +5,7 @@ date: 2020-11-29T11:11:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/11/29/reinforcement-learning-agent-based-models-and-radiation-doses-for-cancer-treatment
-featured_image: /assets/img/news/reinforcement-learning-agent-based-models-and-radiation-doses-for-cancer-treatment.jpg
+featured_image: /assets/img/news/reinforcement-learning-agent-based-models-and-radiation-doses-for-cancer-treatment.webp
 categories:
   - Blog
 tags:

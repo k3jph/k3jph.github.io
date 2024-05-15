@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/02/29/wave-equation-r/
 dsq_thread_id:
   - "4622175208"
-featured_image: /assets/img/news/violin.png
+featured_image: /assets/img/news/violin.webp
 categories:
   - Blog
 tags:
@@ -71,4 +71,4 @@ The image below comes from animating the output.
 
 {% include figure.html image="news/output_pwVyzg.gif" alt="Wave on a String" cap="Wave on a String" %}
 
-_Cover image by [Wills16 / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ruthin_School_Uploads_19.jpg)._
+_Cover image by [Wills16 / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ruthin_School_Uploads_19.webp)._

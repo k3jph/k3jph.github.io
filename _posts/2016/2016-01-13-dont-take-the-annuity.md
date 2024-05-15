@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/01/13/dont-take-the-annuity/
 dsq_thread_id:
   - "4487035949"
-featured_image: /assets/img/news/pileofmoney.png
+featured_image: /assets/img/news/pileofmoney.webp
 categories:
   - Blog
 tags:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/11/08/draft-research-note-bitcoin-mining-pools/
 dsq_thread_id:
   - "4301025698"
-featured_image: /assets/img/news/9484489496_b6a28de91d_z.jpg
+featured_image: /assets/img/news/9484489496_b6a28de91d_z.webp
 categories:
   - Blog
 tags:

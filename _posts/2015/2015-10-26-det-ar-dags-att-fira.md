@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/10/26/det-ar-dags-att-fira/
 dsq_thread_id:
   - "4262260520"
-featured_image: /assets/img/news/swedish-tree.png
+featured_image: /assets/img/news/swedish-tree.webp
 categories:
   - Blog
 tags:

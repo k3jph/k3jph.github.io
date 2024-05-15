@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/07/10/eutrophication-reduction-local-limits/
 dsq_thread_id:
   - "5968755625"
-featured_image: /assets/img/news/eutrophication-reduction-local-limits.jpg
+featured_image: /assets/img/news/eutrophication-reduction-local-limits.webp
 categories:
   - Blog
 tags:
@@ -32,7 +32,7 @@ but [166,534 square
 kilometers](https://en.wikipedia.org/wiki/Chesapeake_Bay) over seven
 states. We can see them both here.
 
-{% include figure.html image="news/baltic-watershed.png" placement="left" width="50%"
+{% include figure.html image="news/baltic-watershed.webp" placement="left" width="50%"
    cap="The Baltic Sea watershed (Sansculotte / Wikimedia Commons)"
    alt="The Baltic Sea watershed (Sansculotte / Wikimedia Commons) "%}
 
@@ -54,7 +54,7 @@ Erie](http://www.motherjones.com/food/2015/08/giant-toxic-algae-bloom-haunts-tol
 in 2005. So limiting eutrophy in major bodies of water is critical
 for safety.
 
-{% include figure.html image="news/435px-Chesapeakewatershedmap.png" placement="left" width="50%"
+{% include figure.html image="news/435px-Chesapeakewatershedmap.webp" placement="left" width="50%"
    cap="The Chesapeake Bay watershed (Kmusser / Wikimedia Commons)"
    alt="The Chesapeake Bay watershed (Kmusser / Wikimedia Commons) "%} 
    
@@ -86,4 +86,4 @@ be negotiated. While possible, it does increase the complexity of
 a TMDL-based solution to Baltic Sea management.
 
 _Image by [Felix Andrews (Floybix) / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:River_algae_Sichuan.jpg))._
+Commons](https://commons.wikimedia.org/wiki/File:River_algae_Sichuan.webp))._

@@ -10,7 +10,7 @@ redirect_from:
   - /books/tlmo/
 ---
 
-{% include figure.html image="tlmo-cover-300px.jpg" placement="right" width="30%"
+{% include figure.html image="tlmo-cover-300px.webp" placement="right" width="30%"
    alt="Teaching and Learning Mathematics Online book cover" %}
 
 Online education has grown to be a major component of the higher

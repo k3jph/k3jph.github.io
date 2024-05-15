@@ -5,7 +5,7 @@ date: 2018-02-02T22:18:58-05:00
 author: k3jph
 layout: post
 permalink: /2018/02/02/postponing-american-elections-doesnt-work/
-featured_image: /assets/img/news/postponing-american-elections-doesnt-work.jpg
+featured_image: /assets/img/news/postponing-american-elections-doesnt-work.webp
 categories:
   - Blog
 tags:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/03/12/observation-central-bank-coordination/
 dsq_thread_id:
   - "4657794717"
-featured_image: /assets/img/news/1024px-BIZ_Basel.jpg
+featured_image: /assets/img/news/1024px-BIZ_Basel.webp
 categories:
   - Blog
 tags:
@@ -29,4 +29,4 @@ Wait, why is Bangladesh Bank executing international settlements through the New
 
 Well, today I learned not everyone is a member of BIS.  Only about 60 countries are [on the list](http://www.bis.org/about/member_cb.htm), and Bangladesh is not one of them.  But Bangladeshis will want to make international transactions, anyway, and the Bangladesh Bank will want to facilitate those transactions.  So they do it through the New York Fed.
 
-_Image by [Wladyslaw Disk / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:BIZ_Basel.jpg)._
+_Image by [Wladyslaw Disk / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:BIZ_Basel.webp)._

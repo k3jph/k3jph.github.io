@@ -5,7 +5,7 @@ date: 2017-12-11T19:08:15-05:00
 author: k3jph
 layout: post
 permalink: /2017/12/11/the-return-of-the-gedi/
-featured_image: /assets/img/news/the-return-of-the-gedi.jpg
+featured_image: /assets/img/news/the-return-of-the-gedi.webp
 categories:
   - Blog
 tags:
@@ -24,7 +24,7 @@ with the [GEDI mission](https://science.nasa.gov/missions/gedi).
 So, first of all, it is pronounced like _Jedi_, and you just have
 to get used to it.
 
-{% include figure.html image="news/GEDI-package.jpg" alt="The main GEDI package"
+{% include figure.html image="news/GEDI-package.webp" alt="The main GEDI package"
    cap="The main GEDI package" %}
 
 The GEDI mission will be shooting a different laser at the ground,
@@ -46,7 +46,7 @@ refrigerator-sized box that will be sent to the [International Space
 Station](https://www.nasa.gov/mission_pages/station/main/index.html)
 (ISS).
 
-{% include figure.html image="news/GEDI-on-ISS.jpg"
+{% include figure.html image="news/GEDI-on-ISS.webp"
    alt="The GEDI placement on the International Space Station"
    cap="The GEDI placement on the International Space Station" %}
 

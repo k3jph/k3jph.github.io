@@ -5,7 +5,7 @@ date: 2019-11-11T10:06:54-05:00
 author: k3jph
 layout: post
 permalink: /2019/11/11/p-hacking-and-data-science/
-featured_image: /assets/img/news/p-hacking-and-data-science.jpg
+featured_image: /assets/img/news/p-hacking-and-data-science.webp
 categories:
   - Blog
 tags:

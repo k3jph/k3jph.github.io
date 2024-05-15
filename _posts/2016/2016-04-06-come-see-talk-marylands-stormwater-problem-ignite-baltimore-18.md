@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/04/06/come-see-talk-marylands-stormwater-problem-ignite-baltimore-18/
 dsq_thread_id:
   - "4726424464"
-featured_image: /assets/img/news/ibshirt.jpg
+featured_image: /assets/img/news/ibshirt.webp
 categories:
   - Blog
 tags:

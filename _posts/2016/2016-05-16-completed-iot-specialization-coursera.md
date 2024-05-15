@@ -9,7 +9,7 @@ dsq_thread_id:
   - "4833078452"
 instant_articles_submission_id:
   - "1819962764951903"
-featured_image: /assets/img/news/Coursera-CLK88WSXRQVQ.png
+featured_image: /assets/img/news/Coursera-CLK88WSXRQVQ.webp
 categories:
   - Blog
 tags:

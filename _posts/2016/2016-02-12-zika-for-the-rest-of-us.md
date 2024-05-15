@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/02/12/zika-for-the-rest-of-us/
 dsq_thread_id:
   - "4574686551"
-featured_image: /assets/img/news/mosquito.png
+featured_image: /assets/img/news/mosquito.webp
 categories:
   - Blog
 tags:
@@ -30,4 +30,4 @@ Also prominent, and different from influenza, is conjunctivitis, which will look
 
 And remember, when mosquito-season hits in late spring, it's going to be really bad.
 
-_Image by [JJ Harrison / Wikimedia](https://commons.wikimedia.org/wiki/File:Mosquito_Tasmania_crop.jpg)._
+_Image by [JJ Harrison / Wikimedia](https://commons.wikimedia.org/wiki/File:Mosquito_Tasmania_crop.webp)._

@@ -5,7 +5,7 @@ date: 2018-02-19T07:46:42-05:00
 author: k3jph
 layout: post
 permalink: /2018/02/19/data-science-overhype/
-featured_image: /assets/img/news/data-science-overhype.jpg
+featured_image: /assets/img/news/data-science-overhype.webp
 categories:
   - News
 tags:

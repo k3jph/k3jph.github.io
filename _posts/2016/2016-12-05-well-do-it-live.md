@@ -9,7 +9,7 @@ instant_articles_submission_id:
   - "221377121636120"
 dsq_thread_id:
   - "5358248865"
-featured_image: /assets/img/news/do-it-live-logo.jpg
+featured_image: /assets/img/news/do-it-live-logo.webp
 categories:
   - Blog
 tags:

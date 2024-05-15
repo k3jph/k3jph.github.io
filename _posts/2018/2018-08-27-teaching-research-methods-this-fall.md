@@ -5,7 +5,7 @@ date: 2018-08-27T17:38:22-04:00
 author: k3jph
 layout: post
 permalink: /2018/08/27/teaching-research-methods-this-fall/
-featured_image: /assets/img/news/teaching-research-methods-this-fall.jpg
+featured_image: /assets/img/news/teaching-research-methods-this-fall.webp
 categories:
   - Blog
 tags:

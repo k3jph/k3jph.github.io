@@ -5,7 +5,7 @@ date: 2015-01-26T16:42:12-05:00
 author: k3jph
 layout: post
 permalink: /2015/01/26/syllabus-public-financial-management-2015/
-featured_image: /assets/img/news/7143277339_119f20d696_z.jpg
+featured_image: /assets/img/news/7143277339_119f20d696_z.webp
 dsq_thread_id:
   - "3457928219"
 categories:

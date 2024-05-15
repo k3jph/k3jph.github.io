@@ -5,7 +5,7 @@ date: 2018-06-27T19:19:10-04:00
 author: k3jph
 layout: post
 permalink: /2018/06/27/election-security-in-harford-county/
-featured_image: /assets/img/news/election-security-in-harford-county.jpg
+featured_image: /assets/img/news/election-security-in-harford-county.webp
 categories:
   - Blog
 tags:
@@ -42,4 +42,4 @@ The point of this question is to show the complexity of even "simple"
 tasks.  The flowchart shows how complicated the voting process is
 and exposes some of the places an adversary can attack it.
 
-{% include figure.html image="news/Megan-Price-Protecting-Marylands-Voting-Process.png" alt="Megan Price's Poster" %}
+{% include figure.html image="news/Megan-Price-Protecting-Marylands-Voting-Process.webp" alt="Megan Price's Poster" %}

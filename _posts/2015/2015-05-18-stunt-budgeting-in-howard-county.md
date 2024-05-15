@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/05/18/stunt-budgeting-in-howard-county/
 dsq_thread_id:
   - "3775262597"
-featured_image: /assets/img/news/budgeting.png
+featured_image: /assets/img/news/budgeting.webp
 categories:
   - Blog
 tags:

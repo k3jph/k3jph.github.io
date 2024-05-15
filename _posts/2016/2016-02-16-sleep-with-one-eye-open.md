@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/02/16/sleep-with-one-eye-open/
 dsq_thread_id:
   - "4585787889"
-featured_image: /assets/img/news/irc-screenshot.png
+featured_image: /assets/img/news/irc-screenshot.webp
 categories:
   - Blog
 tags:
@@ -25,4 +25,4 @@ Anyway, I named it Victoria and used it to capture the attention of those intere
 
 Good times!
 
-_Image by [Ralgis / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:WeeChat_0.3.5_-_es.wikipedia_at_irc.wikimedia.org.png)._
+_Image by [Ralgis / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:WeeChat_0.3.5_-_es.wikipedia_at_irc.wikimedia.org.webp)._

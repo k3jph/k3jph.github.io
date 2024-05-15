@@ -5,7 +5,7 @@ date: 2019-09-30T10:27:00-04:00
 author: k3jph
 layout: post
 permalink: /2019/09/30/jhu-apl-wins-award-for-innovation/
-featured_image: /assets/img/news/jhu-apl-wins-award-for-innovation.jpg
+featured_image: /assets/img/news/jhu-apl-wins-award-for-innovation.webp
 categories:
   - News
 tags:

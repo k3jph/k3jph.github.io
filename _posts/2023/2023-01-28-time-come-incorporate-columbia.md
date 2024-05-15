@@ -5,7 +5,7 @@ date: 2023-01-28T10:37:07-04:00
 author: k3jph
 layout: post
 permalink: /2023/01/28/time-come-incorporate-columbia
-featured_image: /assets/img/news/time-come-incorporate-columbia.jpg
+featured_image: /assets/img/news/time-come-incorporate-columbia.webp
 categories:
 - Blog 
 tags:
@@ -88,4 +88,4 @@ next step and become a city.
 
 [^1]: I served on the [Board of Appeals](/service/howard-county) from 2011 to 2021.
 
-_Image by [Famartin / Wikimedia](https://commons.wikimedia.org/wiki/File:2019-08-07_08_56_34_View_south_along_U.S._Route_29_%28Columbia_Pike%29_at_Exit_20B_%28Columbia_Town_Center%29_in_Columbia,_Howard_County,_Maryland.jpg)._
+_Image by [Famartin / Wikimedia](https://commons.wikimedia.org/wiki/File:2019-08-07_08_56_34_View_south_along_U.S._Route_29_%28Columbia_Pike%29_at_Exit_20B_%28Columbia_Town_Center%29_in_Columbia,_Howard_County,_Maryland.webp)._

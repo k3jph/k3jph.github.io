@@ -7,7 +7,7 @@ layout: page
 guid: http://localhost/wp-faculty/?page_id=2
 ---
 
-{% include figure.html image="jhoward-greenglow.jpg" width="4" placement="right"
+{% include figure.html image="jhoward-greenglow.webp" width="4" placement="right"
    alt="Me at the 2017 Howard County Library Evening in the Stacks"
    cap="Me at the 2017 Howard County Library Evening in the Stacks" %}
 
@@ -66,9 +66,9 @@ and serving on several public and private boards.
 * Fellow of the Royal Society of Arts
 * Senior Member of the [Institute of Electrical and Electronics Engineers](/assets/docs/JHoward-IEEE-SM.pdf)
 
-{% include figure.html image="akureyri-shades-420.jpg" alt="Me in Akureyri...with solar shades"
+{% include figure.html image="akureyri-shades-420.webp" alt="Me in Akureyri...with solar shades"
    cap="Me in Akureyri...with solar shades" width="4" %}
-{% include figure.html image="knoxville-shades-420.jpg" alt="Me in Knoxville...with solar shades"
+{% include figure.html image="knoxville-shades-420.webp" alt="Me in Knoxville...with solar shades"
    cap="Me in Knoxville...with solar shades" width="4" %}
-{% include figure.html image="warren-shades-420.jpg" alt="Me in Warren...with solar shades"
+{% include figure.html image="warren-shades-420.webp" alt="Me in Warren...with solar shades"
    cap="Me in Warren...with solar shades" width="4" %}

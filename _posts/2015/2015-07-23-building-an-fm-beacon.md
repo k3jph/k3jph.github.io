@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/07/23/building-an-fm-beacon/
 dsq_thread_id:
   - "3964416122"
-featured_image: /assets/img/news/20150723_165144.jpg
+featured_image: /assets/img/news/20150723_165144.webp
 categories:
   - Blog
 tags:

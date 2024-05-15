@@ -5,7 +5,7 @@ date: 2017-11-13T07:16:50-05:00
 author: k3jph
 layout: post
 permalink: /2017/11/13/ethohistorical-note-dharma/
-featured_image: /assets/img/news/ethohistorical-note-dharma.jpg
+featured_image: /assets/img/news/ethohistorical-note-dharma.webp
 categories:
   - Blog
 tags:

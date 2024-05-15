@@ -9,7 +9,7 @@ instant_articles_submission_id:
   - "132673277279592"
 dsq_thread_id:
   - "5804003788"
-featured_image: /assets/img/news/banneker-room.jpg
+featured_image: /assets/img/news/banneker-room.webp
 categories:
   - Blog
 tags:

@@ -5,7 +5,7 @@ date: 2016-01-24T13:26:14-05:00
 author: k3jph
 layout: post
 permalink: /2016/01/24/my-robot-or-announcing-dc-closings/
-featured_image: /assets/img/news/snowcapitol.png
+featured_image: /assets/img/news/snowcapitol.webp
 categories:
   - Blog
 tags:

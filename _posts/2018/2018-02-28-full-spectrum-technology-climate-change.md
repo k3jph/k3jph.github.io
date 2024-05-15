@@ -5,7 +5,7 @@ date: 2018-02-28T12:16:48-05:00
 author: k3jph
 layout: post
 permalink: /2018/02/28/full-spectrum-technology-climate-change/
-featured_image: /assets/img/news/full-spectrum-technology.jpg
+featured_image: /assets/img/news/full-spectrum-technology.webp
 categories:
   - Blog
 tags:

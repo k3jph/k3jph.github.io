@@ -5,7 +5,7 @@ date: 2017-08-18T07:07:05-04:00
 author: k3jph
 layout: post
 permalink: /2017/08/18/note-outer-space-treaty/
-featured_image: /assets/img/news/note-outer-space-treaty.jpg
+featured_image: /assets/img/news/note-outer-space-treaty.webp
 categories:
   - Blog
 tags:

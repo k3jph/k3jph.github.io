@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/04/13/california-flood-insurance-hurts-everyone/
 dsq_thread_id:
   - "5724100419"
-featured_image: /assets/img/news/california-flood-insurance-hurts-everyone.jpg
+featured_image: /assets/img/news/california-flood-insurance-hurts-everyone.webp
 categories:
   - Blog
 tags:
@@ -48,4 +48,4 @@ phenomenon](http://www.nejm.org/doi/full/10.1056/NEJM198506203122504), only
 everyone loses here.
 
 _Image by [Dave Gatley / FEMA / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:FEMA_-_1336_-_Photograph_by_Dave_Gatley_taken_on_03-03-1998_in_California.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:FEMA_-_1336_-_Photograph_by_Dave_Gatley_taken_on_03-03-1998_in_California.webp)._

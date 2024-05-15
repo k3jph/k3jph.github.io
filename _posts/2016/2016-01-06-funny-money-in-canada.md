@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/01/06/funny-money-in-canada/
 dsq_thread_id:
   - "4466733648"
-featured_image: /assets/img/news/currency-cad.png
+featured_image: /assets/img/news/currency-cad.webp
 categories:
   - Blog
 tags:

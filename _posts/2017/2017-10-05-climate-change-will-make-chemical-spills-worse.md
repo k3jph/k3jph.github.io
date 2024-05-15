@@ -5,7 +5,7 @@ date: 2017-10-05T07:27:05-04:00
 author: k3jph
 layout: post
 permalink: /2017/10/05/climate-change-will-make-chemical-spills-worse/
-featured_image: /assets/img/news/climate-change-will-make-chemical-spills-worse.jpg
+featured_image: /assets/img/news/climate-change-will-make-chemical-spills-worse.webp
 categories:
   - Blog
 tags:

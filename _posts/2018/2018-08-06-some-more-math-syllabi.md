@@ -5,7 +5,7 @@ date: 2018-08-06T16:56:57-04:00
 author: k3jph
 layout: post
 permalink: /2018/08/06/some-more-math-syllabi/
-featured_image: /assets/img/news/some-more-math-syllabi.jpg
+featured_image: /assets/img/news/some-more-math-syllabi.webp
 categories:
   - Blog
 tags:

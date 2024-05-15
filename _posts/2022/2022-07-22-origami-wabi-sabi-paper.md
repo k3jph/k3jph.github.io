@@ -5,7 +5,7 @@ date: 2022-07-22T07:19:07-04:00
 author: k3jph
 layout: post
 permalink: /2022/07/22/origami-wabi-sabi-paper
-featured_image: /assets/img/news/origami-wabi-sabi-paper.png
+featured_image: /assets/img/news/origami-wabi-sabi-paper.webp
 categories:
 - Blog 
 tags:

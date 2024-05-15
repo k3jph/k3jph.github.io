@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/09/11/vasquez-on-the-nfip-download/
 dsq_thread_id:
   - "4119783983"
-featured_image: /assets/img/news/cedarrapids.png
+featured_image: /assets/img/news/cedarrapids.webp
 categories:
   - Blog
 tags:

@@ -5,7 +5,7 @@ date: 2024-01-20
 author: k3jph
 layout: post
 permalink: /2024/01/20/fourier-transforms-in-communication
-featured_image: /assets/img/2024/fourier-transforms-in-communication.jpg
+featured_image: /assets/img/2024/fourier-transforms-in-communication.webp
 credits:  Image via [NASA](https://www.nasa.gov/news-release/nasa-industry-to-collaborate-on-space-communications-by-2025/).
 categories:
 - Blog 
@@ -68,7 +68,7 @@ media.
 ## Historical Context and Development
 
 {% include figure.html width="4" placement="right"
-   image="2024/fourier-transforms-in-communication/joseph-fourier.jpg"
+   image="2024/fourier-transforms-in-communication/joseph-fourier.webp"
    alt="Portrait of Jean-Baptiste Joseph Fourier" 
    cap="Portrait of Jean-Baptiste Joseph Fourier" %}
 

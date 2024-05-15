@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/09/04/after-the-mission-vision-and-values/
 dsq_thread_id:
   - "4095001537"
-featured_image: /assets/img/news/goal.png
+featured_image: /assets/img/news/goal.webp
 categories:
   - Blog
 tags:

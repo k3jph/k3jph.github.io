@@ -14,7 +14,7 @@ tags:
   - risk analysis
   - security
 format: image
-featured_image: /assets/img/news/10169385_680698978656512_1289716627_n.jpg
+featured_image: /assets/img/news/10169385_680698978656512_1289716627_n.webp
 ---
 This pretty well sums it up, and everyone's encountering the worst in the wake of [Heartbleed](http://heartbleed.com/). These types of password requirements are misguided and out of proportion. The password for my bank account can be five lower-case letters, but for a genre-films forum hosted by a kid in his parents' basement, it's more complex than the nuclear launch codes.
 

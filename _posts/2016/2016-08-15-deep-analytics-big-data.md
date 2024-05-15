@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/08/15/deep-analytics-big-data/
 dsq_thread_id:
   - "5068970260"
-featured_image: /assets/img/news/deep-analytics-big-data.jpg
+featured_image: /assets/img/news/deep-analytics-big-data.webp
 categories:
   - News
 tags:

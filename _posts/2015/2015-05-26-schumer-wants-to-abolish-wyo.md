@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/05/26/schumer-wants-to-abolish-wyo/
 dsq_thread_id:
   - "3796071699"
-featured_image: /assets/img/news/schumer.png
+featured_image: /assets/img/news/schumer.webp
 categories:
   - Blog
 tags:

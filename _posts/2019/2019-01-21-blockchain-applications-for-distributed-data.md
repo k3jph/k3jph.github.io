@@ -5,7 +5,7 @@ date: 2019-01-21T17:02:41-05:00
 author: k3jph
 layout: post
 permalink: /2019/01/21/blockchain-applications-for-distributed-data/
-featured_image: /assets/img/news/blockchain-applications-for-distributed-data-imx.jpg
+featured_image: /assets/img/news/blockchain-applications-for-distributed-data-imx.webp
 categories:
   - News
 tags:

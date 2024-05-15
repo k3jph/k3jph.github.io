@@ -5,7 +5,7 @@ date: 2024-03-02
 author: k3jph
 layout: post
 permalink: /2024/03/02/spatial-reasoning-insights-from-hunt-the-wumpus-and-chatgpt
-featured_image: /assets/img/2024/spatial-reasoning-insights-from-hunt-the-wumpus-and-chatgpt.jpg
+featured_image: /assets/img/2024/spatial-reasoning-insights-from-hunt-the-wumpus-and-chatgpt.webp
 categories:
 - Blog 
 tags:

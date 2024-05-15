@@ -5,7 +5,7 @@ date: 2017-11-09T19:52:22-05:00
 author: k3jph
 layout: post
 permalink: /2017/11/09/lottery-luck-tax-proposal/
-featured_image: /assets/img/news/lottery-luck.jpg
+featured_image: /assets/img/news/lottery-luck.webp
 categories:
   - Blog
 tags:

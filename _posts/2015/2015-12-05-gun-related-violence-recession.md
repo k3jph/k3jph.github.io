@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/12/05/gun-related-violence-recession/
 dsq_thread_id:
   - "4378300939"
-featured_image: /assets/img/news/coffin.png
+featured_image: /assets/img/news/coffin.webp
 categories:
   - Blog
 tags:

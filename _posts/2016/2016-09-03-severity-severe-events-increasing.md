@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/09/03/severity-severe-events-increasing/
 dsq_thread_id:
   - "5116784962"
-featured_image: /assets/img/news/the-severity-of-severe-events-is-increasing.jpg
+featured_image: /assets/img/news/the-severity-of-severe-events-is-increasing.webp
 categories:
   - Blog
 tags:
@@ -84,4 +84,4 @@ This is why these more intense storms have suddenly become "the new
 normal."  Worse than normal has become worse than before.
 
 _Image by [Geert Schotanus / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Sea_wall_at_Saint_Jean_de_Luz.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:Sea_wall_at_Saint_Jean_de_Luz.webp)._

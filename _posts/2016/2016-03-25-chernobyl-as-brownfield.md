@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/03/25/chernobyl-as-brownfield/
 dsq_thread_id:
   - "4692184666"
-featured_image: /assets/img/news/Palace_of_Culture_Front.jpg
+featured_image: /assets/img/news/Palace_of_Culture_Front.webp
 categories:
   - Blog
 tags:
@@ -28,4 +28,4 @@ And, while we are at it, we should start calling the land at risk from the [IPCC
 
 [^nextmonth]: By the way, I will have a long post on Chernobyl next month.
 
-_Image of the Palace of Culture on Lenin Square in Pripyat by [Timm Suess / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Palace_of_Culture_Front.jpg)._
+_Image of the Palace of Culture on Lenin Square in Pripyat by [Timm Suess / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Palace_of_Culture_Front.webp)._

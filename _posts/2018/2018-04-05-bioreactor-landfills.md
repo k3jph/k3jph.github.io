@@ -5,7 +5,7 @@ date: 2018-04-05T20:24:22-04:00
 author: k3jph
 layout: post
 permalink: /2018/04/05/bioreactor-landfills/
-featured_image: /assets/img/news/bioreactor-landfills.jpg
+featured_image: /assets/img/news/bioreactor-landfills.webp
 categories:
   - Blog
 tags:

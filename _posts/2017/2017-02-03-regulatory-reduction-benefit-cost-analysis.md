@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/02/03/regulatory-reduction-benefit-cost-analysis/
 dsq_thread_id:
   - "5520022896"
-featured_image: /assets/img/news/regulatory-reduction-benefit-cost-analysis.jpg
+featured_image: /assets/img/news/regulatory-reduction-benefit-cost-analysis.webp
 categories:
   - Blog
 tags:

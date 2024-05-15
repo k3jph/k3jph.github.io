@@ -5,7 +5,7 @@ date: 2020-05-12T12:08:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/05/12/teaching-and-learning-mathematics-online-is-published
-featured_image: /assets/img/news/teaching-and-learning-mathematics-online-is-published.jpg
+featured_image: /assets/img/news/teaching-and-learning-mathematics-online-is-published.webp
 categories:
   - Blog
 tags:
@@ -33,7 +33,7 @@ related to math anxiety, conceptual understanding of mathematical
 ideas, communicating mathematically, and the appropriate use of
 technology.
 
-{% include figure.html image="news/tlmo-cover-300px.jpg" placement="right" width="40%"
+{% include figure.html image="news/tlmo-cover-300px.webp" placement="right" width="40%"
    alt="Teaching and Learning Mathematics Online book cover" %}
 
 _TLMO_ bridges these issues by presenting meaningful and practical

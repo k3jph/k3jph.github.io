@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/09/17/take-a-left-at-albuquerque/
 dsq_thread_id:
   - "4133323994"
-featured_image: /assets/img/news/610px-Pioneer10-plaque_tilt.jpg
+featured_image: /assets/img/news/610px-Pioneer10-plaque_tilt.webp
 categories:
   - Blog
 tags:
@@ -20,4 +20,4 @@ tags:
 
 That highlighted planet is Pluto.  Now that [they demoted Pluto](https://www.youtube.com/watch?v=7pbj_llmiMg), the aliens will never be able to find us.
 
-_Image by [Carl Sagan / Frank Drake / Linda Salzman Sagan / NASA Ames via Wikimedia](https://commons.wikimedia.org/wiki/File:Pioneer10-plaque_tilt.jpg)._
+_Image by [Carl Sagan / Frank Drake / Linda Salzman Sagan / NASA Ames via Wikimedia](https://commons.wikimedia.org/wiki/File:Pioneer10-plaque_tilt.webp)._

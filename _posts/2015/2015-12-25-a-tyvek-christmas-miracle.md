@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/12/25/a-tyvek-christmas-miracle/
 dsq_thread_id:
   - "4432962541"
-featured_image: /assets/img/news/tyvek-painting-banner.png
+featured_image: /assets/img/news/tyvek-painting-banner.webp
 categories:
   - Blog
 tags:
@@ -35,6 +35,6 @@ We've used it to protect the table during massive cookie baking exercises this C
 
 Finally, we used it yesterday to protect the floor for painting.  
 
-{% include figure.html image="news/tyvek-painting-full.jpg" %}
+{% include figure.html image="news/tyvek-painting-full.webp" %}
 
 Tyvek is awesome.  Well, when you actually cover things with it.

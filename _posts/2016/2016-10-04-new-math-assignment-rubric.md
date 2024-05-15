@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/10/04/new-math-assignment-rubric/
 dsq_thread_id:
   - "5197424568"
-featured_image: /assets/img/news/new-math-assignment-rubric.png
+featured_image: /assets/img/news/new-math-assignment-rubric.webp
 categories:
   - Blog
 tags:

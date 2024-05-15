@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/01/14/euler-method-in-r/
 dsq_thread_id:
   - "4493535013"
-featured_image: /assets/img/news/Euler_method.svg_.png
+featured_image: /assets/img/news/Euler_method.svg_.webp
 categories:
   - Blog
 tags:

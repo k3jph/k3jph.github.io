@@ -9,7 +9,7 @@ dsq_thread_id:
   - "5927031286"
 instant_articles_submission_id:
   - "1045985422198238"
-featured_image: /assets/img/news/power-generation-and-decentralization.jpg
+featured_image: /assets/img/news/power-generation-and-decentralization.webp
 categories:
   - Blog
 tags:

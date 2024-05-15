@@ -9,7 +9,7 @@ dsq_thread_id:
   - "4172320416"
 instant_articles_submission_id:
   - "1013267765470310"
-featured_image: /assets/img/news/unshaved-yaks.png
+featured_image: /assets/img/news/unshaved-yaks.webp
 categories:
   - Blog
 tags:
