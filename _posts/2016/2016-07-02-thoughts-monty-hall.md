@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/07/02/thoughts-monty-hall/
 dsq_thread_id:
   - "4955381871"
-featured_image: /assets/img/news/800px-Monty_open_door.svg_.png
+featured_image: /assets/img/news/800px-Monty_open_door.svg_.webp
 categories:
   - Blog
 tags:

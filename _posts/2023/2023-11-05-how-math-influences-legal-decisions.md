@@ -5,7 +5,7 @@ date: 2023-11-05T18:12:58-04:00
 author: k3jph
 layout: post
 permalink: /2023/11/05/how-math-influences-legal-decisions
-featured_image: /assets/img/news/how-math-influences-legal-decisions.jpg
+featured_image: /assets/img/news/how-math-influences-legal-decisions.webp
 categories:
 - Blog 
 tags:

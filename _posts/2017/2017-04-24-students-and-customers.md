@@ -9,7 +9,7 @@ instant_articles_submission_id:
   - "1668290190134284"
 dsq_thread_id:
   - "5754970432"
-featured_image: /assets/img/news/students-and-customers.jpg
+featured_image: /assets/img/news/students-and-customers.webp
 categories:
   - Blog
 tags:

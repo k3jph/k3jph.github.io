@@ -5,7 +5,7 @@ date: 2018-10-25T20:20:57-04:00
 author: k3jph
 layout: post
 permalink: /2018/10/25/landfills-should-not-pollute-the-air-and-water/
-featured_image: /assets/img/news/landfills-should-not-pollute-the-air-and-water.jpg
+featured_image: /assets/img/news/landfills-should-not-pollute-the-air-and-water.webp
 categories:
   - Blog
 tags:

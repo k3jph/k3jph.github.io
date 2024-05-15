@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/08/28/benefits-and-costs/
 dsq_thread_id:
   - "4075011614"
-featured_image: /assets/img/news/500px-Scale_of_justice_2.svg_.png
+featured_image: /assets/img/news/500px-Scale_of_justice_2.svg_.webp
 categories:
   - Blog
 tags:

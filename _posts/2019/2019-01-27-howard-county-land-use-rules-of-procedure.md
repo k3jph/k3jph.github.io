@@ -5,7 +5,7 @@ date: 2019-01-27T19:32:09-05:00
 author: k3jph
 layout: post
 permalink: /2019/01/27/howard-county-land-use-rules-of-procedure/
-featured_image: /assets/img/news/howard-county-land-use-rules-of-procedure.jpg
+featured_image: /assets/img/news/howard-county-land-use-rules-of-procedure.webp
 categories:
   - Blog
 tags:

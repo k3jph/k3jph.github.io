@@ -5,7 +5,7 @@ date: 2017-12-28T22:01:44-05:00
 author: k3jph
 layout: post
 permalink: /2017/12/28/unlocking-the-box/
-featured_image: /assets/img/news/unlocking-the-box.jpg
+featured_image: /assets/img/news/unlocking-the-box.webp
 categories:
   - Blog
 tags:

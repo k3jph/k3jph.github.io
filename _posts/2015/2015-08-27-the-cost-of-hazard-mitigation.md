@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/08/27/the-cost-of-hazard-mitigation/
 dsq_thread_id:
   - "4071944017"
-featured_image: /assets/img/news/920x1240.jpg
+featured_image: /assets/img/news/920x1240.webp
 categories:
   - Blog
 tags:

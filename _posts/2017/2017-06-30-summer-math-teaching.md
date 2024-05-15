@@ -9,7 +9,7 @@ instant_articles_submission_id:
   - "239857066515660"
 dsq_thread_id:
   - "5953603780"
-featured_image: /assets/img/news/summer-math-teaching.jpg
+featured_image: /assets/img/news/summer-math-teaching.webp
 categories:
   - Blog
 tags:

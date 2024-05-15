@@ -5,7 +5,7 @@ date: 2017-11-07T21:39:37-05:00
 author: k3jph
 layout: post
 permalink: /2017/11/07/xsede-is-awesome/
-featured_image: /assets/img/news/xsede-is-awesome.jpg
+featured_image: /assets/img/news/xsede-is-awesome.webp
 categories:
   - Blog
 tags:
@@ -81,7 +81,7 @@ validity, as the abstract verified, is that I acknowledge my use
 of XSEDE's resources when I talk about my project.  That's kind of
 awesome.  I can even monitor the whole thing from my phone.
 
-{% include figure.html image="news/Screenshot_20171107-214118.png"
+{% include figure.html image="news/Screenshot_20171107-214118.webp"
   alt="XSEDE Android Application"
   cap="The textmetrics job running on Comet" %}
 

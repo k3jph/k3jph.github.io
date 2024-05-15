@@ -5,7 +5,7 @@ date: 2017-08-29T07:25:30-04:00
 author: k3jph
 layout: post
 permalink: /2017/08/29/listen-live-thursday-831/
-featured_image: /assets/img/news/listen-live-thursday-831.jpg
+featured_image: /assets/img/news/listen-live-thursday-831.webp
 categories:
   - Blog
 tags:

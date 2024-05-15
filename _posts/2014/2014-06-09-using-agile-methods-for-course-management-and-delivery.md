@@ -5,7 +5,7 @@ date: 2014-06-09T23:13:41-04:00
 author: k3jph
 layout: post
 permalink: /2014/06/09/using-agile-methods-for-course-management-and-delivery/
-featured_image: /assets/img/news/appam-logo.jpg
+featured_image: /assets/img/news/appam-logo.webp
 dsq_thread_id:
   - "2751361146"
 categories:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/03/05/ashamed-die-won-victory-humanity/
 dsq_thread_id:
   - "3571500389"
-featured_image: /assets/img/news/AnitochHall.png
+featured_image: /assets/img/news/AnitochHall.webp
 categories:
   - Blog
 tags:
@@ -23,4 +23,4 @@ But the real problem here is that nobody got the warning when [Antioch](http://a
 
 As an aside, it's not unreasonable to suggest there will be a similar attempt to save Sweet Briar by alumni, students, or other interested parties.  If that happens, the warning will be lost again until next time.
 
-_Image by: [Nyttend / Wikipedia](http://en.wikipedia.org/wiki/File:Antioch_Hall,_Antioch_College.jpg)_
+_Image by: [Nyttend / Wikipedia](http://en.wikipedia.org/wiki/File:Antioch_Hall,_Antioch_College.webp)_

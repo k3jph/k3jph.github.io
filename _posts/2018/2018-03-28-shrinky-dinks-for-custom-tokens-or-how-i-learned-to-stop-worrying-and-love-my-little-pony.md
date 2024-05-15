@@ -5,7 +5,7 @@ date: 2018-03-28T21:00:56-04:00
 author: k3jph
 layout: post
 permalink: /2018/03/28/shrinky-dinks-for-custom-tokens-or-how-i-learned-to-stop-worrying-and-love-my-little-pony/
-featured_image: /assets/img/news/shrinky-dinks-for-custom-tokens-or-how-i-learned-to-stop-worrying-and-love-my-little-pony.jpg
+featured_image: /assets/img/news/shrinky-dinks-for-custom-tokens-or-how-i-learned-to-stop-worrying-and-love-my-little-pony.webp
 categories:
   - Blog
 tags:
@@ -72,9 +72,9 @@ and traced out images for both a
 [Unicorn](http://mlp.wikia.com/wiki/Unicorns) and a
 [Pegasus](http://mlp.wikia.com/wiki/Pegasus_ponies) pony.
 
-{% include figure.html image="news/IMG_20180328_174612.jpg" %}
+{% include figure.html image="news/IMG_20180328_174612.webp" %}
 
-{% include figure.html image="news/IMG_20180328_174608.jpg" %}
+{% include figure.html image="news/IMG_20180328_174608.webp" %}
 
 After coloring these guys in with colored Sharpies, I cut them down
 to circles and we tossed them in the oven for three minutes.  The
@@ -84,18 +84,18 @@ note, there's no mane or tail in those traced images.  I lifted
 those from some line art I used when I created the original Thundercolt
 ponysheet (visible in the cover image).
 
-{% include figure.html image="news/IMG_20180328_182742.jpg" %}
+{% include figure.html image="news/IMG_20180328_182742.webp" %}
 
-{% include figure.html image="news/IMG_20180328_183417.jpg" %}
+{% include figure.html image="news/IMG_20180328_183417.webp" %}
 
 And look how amazing these turned out.
 
-{% include figure.html image="news/IMG_20180328_184621.jpg" %}
+{% include figure.html image="news/IMG_20180328_184621.webp" %}
 
 Ducky and I even got to use them for a session tonight!
 
 {% include figure.html
-image="news/shrinky-dinks-for-custom-tokens-or-how-i-learned-to-stop-worrying-and-love-my-little-pony.jpg"
+image="news/shrinky-dinks-for-custom-tokens-or-how-i-learned-to-stop-worrying-and-love-my-little-pony.webp"
 %}
 
 Now, Chase has asked if he can make an

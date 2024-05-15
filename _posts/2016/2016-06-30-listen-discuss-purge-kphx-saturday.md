@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/06/30/listen-discuss-purge-kphx-saturday/
 dsq_thread_id:
   - "4950353356"
-featured_image: /assets/img/news/listen-discuss-purge-kphx-saturday.jpg
+featured_image: /assets/img/news/listen-discuss-purge-kphx-saturday.webp
 categories:
   - News
 tags:

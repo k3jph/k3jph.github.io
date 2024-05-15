@@ -5,7 +5,7 @@ date: 2019-07-19T12:22:27-04:00
 author: k3jph
 layout: post
 permalink: /2019/07/19/blowing-the-hatch/
-featured_image: /assets/img/news/blowing-the-hatch.jpg
+featured_image: /assets/img/news/blowing-the-hatch.webp
 categories:
   - Blog
 tags:

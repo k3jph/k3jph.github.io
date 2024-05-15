@@ -5,7 +5,7 @@ date: 2018-02-16T07:16:40-05:00
 author: k3jph
 layout: post
 permalink: /2018/02/16/cyanobacteria-early-earth/
-featured_image: /assets/img/news/cyanobacteria-early-earth.jpg
+featured_image: /assets/img/news/cyanobacteria-early-earth.webp
 categories:
   - Blog
 tags:

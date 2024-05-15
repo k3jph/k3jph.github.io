@@ -5,7 +5,7 @@ date: 2015-10-13T18:22:06-04:00
 author: James Howard
 layout: page
 guid: service-philosophy
-featured_image: /assets/img/service.jpg
+featured_image: /assets/img/service.webp
 credits: _Image by [Creative Sustainability / Flickr](https://www.flickr.com/photos/aalto-cs/9669249877)._
 
 ---

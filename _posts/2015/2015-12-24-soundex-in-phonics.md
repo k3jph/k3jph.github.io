@@ -11,7 +11,7 @@ ampforwp_custom_content_editor_checkbox:
   - ""
 instant_articles_submission_id:
   - "397397467289696"
-featured_image: /assets/img/news/yakblanket.png
+featured_image: /assets/img/news/yakblanket.webp
 categories:
   - Blog
 tags:
@@ -32,4 +32,4 @@ It's Christmas Eve, I have about eleventy things I need to get done, so I checke
 
 LEIN, like NYSIIS and others, are implemented as regular expression replacement series.  Soundex and refined Soundex, however, are implemented in C++, which makes them quite fast.  I am not terrible impressed with the implementation, but it is correct.  The Soundex implementation is very loosely based on the Apache Commons implementation.
 
-_Image by [Dennis Jarvis / Wikimedia](https://commons.wikimedia.org/wiki/File:Yak_in_Tibet-1.jpg)._
+_Image by [Dennis Jarvis / Wikimedia](https://commons.wikimedia.org/wiki/File:Yak_in_Tibet-1.webp)._

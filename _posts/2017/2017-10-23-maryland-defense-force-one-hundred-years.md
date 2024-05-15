@@ -5,7 +5,7 @@ date: 2017-10-23T19:41:37-04:00
 author: k3jph
 layout: post
 permalink: /2017/10/23/maryland-defense-force-one-hundred-years/
-featured_image: /assets/img/news/maryland-defense-force-one-hundred-years.jpg
+featured_image: /assets/img/news/maryland-defense-force-one-hundred-years.webp
 categories:
   - Blog
 tags:

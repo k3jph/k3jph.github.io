@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/08/31/mission-vision-and-values/
 dsq_thread_id:
   - "4084276644"
-featured_image: /assets/img/news/4633956242_b193e15c9f_o.jpg
+featured_image: /assets/img/news/4633956242_b193e15c9f_o.webp
 categories:
   - Blog
 tags:

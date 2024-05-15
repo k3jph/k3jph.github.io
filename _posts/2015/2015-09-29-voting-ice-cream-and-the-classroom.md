@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/09/29/voting-ice-cream-and-the-classroom/
 dsq_thread_id:
   - "4178173855"
-featured_image: /assets/img/news/ballotboxes.png
+featured_image: /assets/img/news/ballotboxes.webp
 categories:
   - Blog
 tags:

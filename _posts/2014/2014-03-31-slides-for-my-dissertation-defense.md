@@ -7,7 +7,7 @@ layout: post
 permalink: /2014/03/31/slides-for-my-dissertation-defense/
 dsq_thread_id:
   - "4575006082"
-featured_image: /assets/img/news/NFIP-dissertation-defense-slides-cover.png
+featured_image: /assets/img/news/NFIP-dissertation-defense-slides-cover.webp
 categories:
   - Blog
 tags:

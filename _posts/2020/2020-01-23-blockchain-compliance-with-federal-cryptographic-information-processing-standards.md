@@ -5,7 +5,7 @@ date: 2020-01-23T08:01:40-05:00
 author: k3jph
 layout: post
 permalink: /2020/01/23/blockchain-compliance-with-federal-cryptographic-information-processing-standards/
-featured_image: /assets/img/news/blockchain-compliance-with-federal-cryptographic-information-processing-standards.jpg
+featured_image: /assets/img/news/blockchain-compliance-with-federal-cryptographic-information-processing-standards.webp
 categories:
   - News
 tags:

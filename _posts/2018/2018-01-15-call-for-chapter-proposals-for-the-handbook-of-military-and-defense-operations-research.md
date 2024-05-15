@@ -5,7 +5,7 @@ date: 2018-01-15T21:40:52-05:00
 author: k3jph
 layout: post
 permalink: /2018/01/15/call-for-chapter-proposals-for-the-handbook-of-military-and-defense-operations-research/
-featured_image: /assets/img/news/call-for-chapter-proposals-for-the-handbook-of-military-and-defense-operations-research.jpg
+featured_image: /assets/img/news/call-for-chapter-proposals-for-the-handbook-of-military-and-defense-operations-research.webp
 categories:
   - News
 tags:

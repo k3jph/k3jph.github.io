@@ -5,7 +5,7 @@ date: 2018-07-09T11:28:31-04:00
 author: k3jph
 layout: post
 permalink: /2018/07/09/interview-in-the-extra-mile/
-featured_image: /assets/img/news/interview-in-the-extra-mile.jpg
+featured_image: /assets/img/news/interview-in-the-extra-mile.webp
 categories:
   - News
 tags:

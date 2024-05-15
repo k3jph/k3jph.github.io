@@ -5,7 +5,7 @@ date: 2018-03-09T17:43:36-05:00
 author: k3jph
 layout: post
 permalink: /2018/03/09/summary-of-expected-climate-change-effects-on-howard-county/
-featured_image: /assets/img/news/summary-of-expected-climate-change-effects-on-howard-county.jpg
+featured_image: /assets/img/news/summary-of-expected-climate-change-effects-on-howard-county.webp
 categories:
   - Blog
 tags:

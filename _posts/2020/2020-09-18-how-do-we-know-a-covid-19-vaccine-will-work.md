@@ -5,7 +5,7 @@ date: 2020-09-18T17:40:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/09/18/how-do-we-know-a-covid-19-vaccine-will-work
-featured_image: /assets/img/news/how-do-we-know-a-covid-19-vaccine-will-work.jpg
+featured_image: /assets/img/news/how-do-we-know-a-covid-19-vaccine-will-work.webp
 categories:
   - Blog
 tags:

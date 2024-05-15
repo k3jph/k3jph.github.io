@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/04/05/nerd-nite-baltimore/
 dsq_thread_id:
   - "5699816086"
-featured_image: /assets/img/news/nerd-nite-baltimore.jpg
+featured_image: /assets/img/news/nerd-nite-baltimore.webp
 categories:
   - Blog
 tags:

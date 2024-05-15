@@ -5,7 +5,7 @@ date: 2020-10-05T11:19:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/10/05/mpodcast-on-nist-requirements-and-blockchain
-featured_image: /assets/img/news/podcast-on-nist-requirements-and-blockchain.jpg
+featured_image: /assets/img/news/podcast-on-nist-requirements-and-blockchain.webp
 categories:
   - Blog
 tags:

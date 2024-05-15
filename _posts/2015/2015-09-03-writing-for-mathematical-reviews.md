@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/09/03/writing-for-mathematical-reviews/
 dsq_thread_id:
   - "4088978408"
-featured_image: /assets/img/news/mr-titlepage.png
+featured_image: /assets/img/news/mr-titlepage.webp
 categories:
   - Blog
 tags:

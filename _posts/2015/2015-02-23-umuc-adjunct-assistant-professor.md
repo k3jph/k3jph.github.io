@@ -15,6 +15,6 @@ tags:
   - mathematics
   - UMGC
 ---
-{% include figure.html image="news/UMUC_logox300.jpg" 
+{% include figure.html image="news/UMUC_logox300.webp" 
    alt="The University of Maryland University College announced today they are promoting me to adjunct assistant professor." 
    cap="The University of Maryland University College announced today they are promoting me to adjunct assistant professor." %}

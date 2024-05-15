@@ -5,7 +5,7 @@ date: 2020-08-05T10:00:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/08/05/jsm-presentation-on-ebola
-featured_image: /assets/img/news/jsm-presentation-on-ebola.jpg
+featured_image: /assets/img/news/jsm-presentation-on-ebola.webp
 categories:
   - Blog
 tags:

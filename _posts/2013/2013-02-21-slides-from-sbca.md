@@ -7,7 +7,7 @@ layout: post
 permalink: /2013/02/21/slides-from-sbca/
 dsq_thread_id:
   - "4575035592"
-featured_image: /assets/img/news/sbca-nfip-130218211959-phpapp02.png
+featured_image: /assets/img/news/sbca-nfip-130218211959-phpapp02.webp
 categories:
   - Blog
 tags:

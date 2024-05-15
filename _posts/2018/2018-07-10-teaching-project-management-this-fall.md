@@ -5,7 +5,7 @@ date: 2018-07-10T07:36:46-04:00
 author: k3jph
 layout: post
 permalink: /2018/07/10/teaching-project-management-this-fall/
-featured_image: /assets/img/news/teaching-project-management-this-fall.jpg
+featured_image: /assets/img/news/teaching-project-management-this-fall.webp
 categories:
   - Blog
 tags:

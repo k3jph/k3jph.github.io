@@ -5,7 +5,7 @@ date: 2019-03-12T18:34:17-04:00
 author: k3jph
 layout: post
 permalink: /2019/03/12/groundwater-recharge-in-old-cemeteries/
-featured_image: /assets/img/news/groundwater-recharge-in-old-cemeteries.jpg
+featured_image: /assets/img/news/groundwater-recharge-in-old-cemeteries.webp
 categories:
   - Blog
 tags:

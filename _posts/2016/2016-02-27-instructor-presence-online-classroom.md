@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/02/27/instructor-presence-online-classroom/
 dsq_thread_id:
   - "4632737356"
-featured_image: /assets/img/news/1024px-Teliris_VL_Executive.jpg
+featured_image: /assets/img/news/1024px-Teliris_VL_Executive.webp
 categories:
   - Blog
 tags:
@@ -25,4 +25,4 @@ To an extent, the social media features inside the online classroom are self-def
 
 [^ec]: Under the circumstances, it was entirely appropriate.  It was the last class before the exam and I had review material only.  Precisely two students came to class.  They suggested they should get extra credit.  I posted on Facebook that if anyone agreed they should get extra credit, I would grant it.  One of the two students hunted down the post and agreed.  I gave them extra credit.
 
-_Image by [Fuelrefuel / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Teliris_VL_Executive.jpg)._
+_Image by [Fuelrefuel / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Teliris_VL_Executive.webp)._

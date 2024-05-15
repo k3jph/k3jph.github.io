@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/08/17/one-flew-over-the-cuckoos-egg/
 dsq_thread_id:
   - "4042093024"
-featured_image: /assets/img/news/cuckoosegg.jpg
+featured_image: /assets/img/news/cuckoosegg.webp
 categories:
   - Blog
 tags:

@@ -13,7 +13,7 @@ ampforwp_custom_content_editor_checkbox:
   - null
 ampforwp-amp-on-off:
   - default
-featured_image: /assets/img/news/circlingthedrain.png
+featured_image: /assets/img/news/circlingthedrain.webp
 categories:
   - Blog
 tags:

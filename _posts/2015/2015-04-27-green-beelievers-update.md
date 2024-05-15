@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/04/27/green-beelievers-update/
 dsq_thread_id:
   - "3718390882"
-featured_image: /assets/img/news/baltimore-skyline.png
+featured_image: /assets/img/news/baltimore-skyline.webp
 categories:
   - Blog
 tags:

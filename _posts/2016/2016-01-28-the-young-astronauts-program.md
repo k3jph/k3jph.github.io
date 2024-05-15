@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/01/28/the-young-astronauts-program/
 dsq_thread_id:
   - "4530470813"
-featured_image: /assets/img/news/challenger.png
+featured_image: /assets/img/news/challenger.webp
 categories:
   - Blog
 tags:

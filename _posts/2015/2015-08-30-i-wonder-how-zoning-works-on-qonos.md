@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/08/30/i-wonder-how-zoning-works-on-qonos/
 dsq_thread_id:
   - "4080721355"
-featured_image: /assets/img/news/pirates-of-orion.png
+featured_image: /assets/img/news/pirates-of-orion.webp
 categories:
   - Blog
 tags:

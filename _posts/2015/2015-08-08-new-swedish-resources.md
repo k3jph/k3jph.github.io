@@ -5,7 +5,7 @@ date: 2015-08-08T08:30:57-04:00
 author: k3jph
 layout: post
 permalink: /2015/08/08/new-swedish-resources/
-featured_image: /assets/img/news/svmeatballs.png
+featured_image: /assets/img/news/svmeatballs.webp
 categories:
   - Blog
 tags:

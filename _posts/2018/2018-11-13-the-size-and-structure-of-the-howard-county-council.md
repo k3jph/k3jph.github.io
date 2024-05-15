@@ -5,7 +5,7 @@ date: 2018-11-13T07:19:20-05:00
 author: k3jph
 layout: post
 permalink: /2018/11/13/the-size-and-structure-of-the-howard-county-council/
-featured_image: /assets/img/news/the-size-and-structure-of-the-howard-county-council.jpg
+featured_image: /assets/img/news/the-size-and-structure-of-the-howard-county-council.webp
 categories:
   - Blog
 tags:

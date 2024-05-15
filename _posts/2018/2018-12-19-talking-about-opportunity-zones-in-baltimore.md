@@ -5,7 +5,7 @@ date: 2018-12-19T09:25:42-05:00
 author: k3jph
 layout: post
 permalink: /2018/12/19/talking-about-opportunity-zones-in-baltimore/
-featured_image: /assets/img/news/talking-about-opportunity-zones-in-baltimore.png
+featured_image: /assets/img/news/talking-about-opportunity-zones-in-baltimore.webp
 categories:
   - News
 tags:

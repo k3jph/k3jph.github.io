@@ -5,7 +5,7 @@ date: 2019-09-13T20:59:19-04:00
 author: k3jph
 layout: post
 permalink: /2019/09/13/the-divine-wind-and-mongolian-invasions/
-featured_image: /assets/img/news/the-divine-wind-and-mongolian-invasions-1.jpg
+featured_image: /assets/img/news/the-divine-wind-and-mongolian-invasions-1.webp
 categories:
   - Blog
 tags:
@@ -24,7 +24,7 @@ and included Chinese, Korean, and other forces, previously subjugated
 by Kahn. Starting with 600 ships and 40,000 men, Khan tried to take
 Japan.
 
-{% include figure.html image="news/478px-MokoShurai.jpg" placement="left" width="50%"
+{% include figure.html image="news/478px-MokoShurai.webp" placement="left" width="50%"
     cap="The kamikaze winds take on the Mongolians in 1281"
     alt="The kamikaze winds take on the Mongolians in 1281" %}
 

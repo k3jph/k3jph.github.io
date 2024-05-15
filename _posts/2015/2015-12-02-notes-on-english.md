@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/12/02/notes-on-english/
 dsq_thread_id:
   - "4368859759"
-featured_image: /assets/img/news/UigChessmen_SelectionOfKings.jpg
+featured_image: /assets/img/news/UigChessmen_SelectionOfKings.webp
 categories:
   - Blog
 tags:
@@ -24,5 +24,5 @@ This is something I felt rather acutely while [learning Danish](/2015/05/29/jeg-
 
 And you're left wondering why English is so complicated.
 
-_Image by [Andrew Dunn / Wikimedia](https://en.wikipedia.org/wiki/File:UigChessmen_SelectionOfKings.jpg)._
+_Image by [Andrew Dunn / Wikimedia](https://en.wikipedia.org/wiki/File:UigChessmen_SelectionOfKings.webp)._
 

@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/09/03/the-values-statement/
 dsq_thread_id:
   - "4094460787"
-featured_image: /assets/img/news/corevalues.png
+featured_image: /assets/img/news/corevalues.webp
 categories:
   - Blog
 tags:

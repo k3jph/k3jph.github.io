@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/10/17/applying-bayes-to-kic-8462852/
 dsq_thread_id:
   - "4233372164"
-featured_image: /assets/img/news/Dyson_Bubble.png
+featured_image: /assets/img/news/Dyson_Bubble.webp
 categories:
   - Blog
 tags:
@@ -35,4 +35,4 @@ Now that's a question only a [Bayesian](https://en.wikipedia.org/wiki/Bayesian_p
 
 Astronomers are trying to get a radiotelescope pointed at KIC 8462852.  They are looking for an infrared heat signature that is strongly suggestive of an artificial structure.  This is not unreasonable, think about how cities on Earth are hotter than the surrounding area.  I'd rather they heard the unmistakable broadcast of Alf on the local FM, but there's only so much I can hope for.
 
-_Image by [Vedexent / Wikimedia](https://commons.wikimedia.org/wiki/File:Dyson_Bubble.png)._
+_Image by [Vedexent / Wikimedia](https://commons.wikimedia.org/wiki/File:Dyson_Bubble.webp)._

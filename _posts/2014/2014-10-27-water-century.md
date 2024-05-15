@@ -5,7 +5,7 @@ date: 2014-10-27T17:56:17-04:00
 author: k3jph
 layout: post
 permalink: /2014/10/27/water-century/
-featured_image: /assets/img/news/calif-drought.jpg
+featured_image: /assets/img/news/calif-drought.webp
 dsq_thread_id:
   - "3163088706"
 categories:

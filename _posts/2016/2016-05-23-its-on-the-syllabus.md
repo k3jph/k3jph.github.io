@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/05/23/its-on-the-syllabus/
 dsq_thread_id:
   - "4852489120"
-featured_image: /assets/img/news/syllabus.png
+featured_image: /assets/img/news/syllabus.webp
 categories:
   - Blog
 tags:

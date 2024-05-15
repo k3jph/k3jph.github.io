@@ -5,7 +5,7 @@ date: 2021-11-23T09:57:07-04:00
 author: k3jph
 layout: post
 permalink: /2021/11/23/teaching-stem-online
-featured_image: /assets/img/news/teaching-stem-online.jpg
+featured_image: /assets/img/news/teaching-stem-online.webp
 categories:
 - Blog 
 tags:
@@ -51,6 +51,6 @@ as the area of least concern for teaching STEM online.
 Education in Science and Technology_/Taylor & Francis
 website.](https://www.tandfonline.com/doi/full/10.1080/0020739X.2021.1954251)
 
-{% include figure.html image="news/teaching-stem-cover.png" width="100%"
+{% include figure.html image="news/teaching-stem-cover.webp" width="100%"
 alt="Front page of article"
 cap="Front page of article" %}

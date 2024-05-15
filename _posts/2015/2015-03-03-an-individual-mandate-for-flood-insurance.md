@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/03/03/an-individual-mandate-for-flood-insurance/
 dsq_thread_id:
   - "3565317774"
-featured_image: /assets/img/news/nzflood.png
+featured_image: /assets/img/news/nzflood.webp
 categories:
   - Blog
 tags:

@@ -5,7 +5,7 @@ date: 2022-05-09T15:45:07-04:00
 author: k3jph
 layout: post
 permalink: /2022/05/09/ws2818b-spi-controller-for-attiny85
-featured_image: /assets/img/news/ws2818b-spi-controller-for-attiny85.jpg
+featured_image: /assets/img/news/ws2818b-spi-controller-for-attiny85.webp
 categories:
 - Blog 
 tags:

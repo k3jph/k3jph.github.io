@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/06/05/place-space-christianisation-sagas/
 dsq_thread_id:
   - "3824856482"
-featured_image: /assets/img/news/islendabok.png
+featured_image: /assets/img/news/islendabok.webp
 categories:
   - Blog
 tags:

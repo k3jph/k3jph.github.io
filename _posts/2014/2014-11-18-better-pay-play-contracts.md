@@ -5,7 +5,7 @@ date: 2014-11-18T20:50:46-05:00
 author: k3jph
 layout: post
 permalink: /2014/11/18/better-pay-play-contracts/
-featured_image: /assets/img/news/13859755804_3f99bf33c8_z.jpg
+featured_image: /assets/img/news/13859755804_3f99bf33c8_z.webp
 categories:
   - Blog
 tags:

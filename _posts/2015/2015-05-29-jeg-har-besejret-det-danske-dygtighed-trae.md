@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/05/29/jeg-har-besejret-det-danske-dygtighed-trae/
 dsq_thread_id:
   - "3805632759"
-featured_image: /assets/img/news/danish-conquer1.png
+featured_image: /assets/img/news/danish-conquer1.webp
 categories:
   - Blog
 tags:

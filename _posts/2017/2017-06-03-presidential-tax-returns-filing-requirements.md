@@ -9,7 +9,7 @@ instant_articles_submission_id:
   - "298498370602960"
 dsq_thread_id:
   - "5877715723"
-featured_image: /assets/img/news/presidential-tax-returns-and-filing-requirements.jpg
+featured_image: /assets/img/news/presidential-tax-returns-and-filing-requirements.webp
 categories:
   - Blog
 tags:

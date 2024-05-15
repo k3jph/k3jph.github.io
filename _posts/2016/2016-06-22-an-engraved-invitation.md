@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/06/22/an-engraved-invitation/
 dsq_thread_id:
   - "4930069596"
-featured_image: /assets/img/news/handwriting.jpg
+featured_image: /assets/img/news/handwriting.webp
 categories:
   - Blog
 tags:

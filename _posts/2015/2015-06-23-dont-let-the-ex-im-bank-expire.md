@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/06/23/dont-let-the-ex-im-bank-expire/
 dsq_thread_id:
   - "4127049044"
-featured_image: /assets/img/news/exim-cover.png
+featured_image: /assets/img/news/exim-cover.webp
 categories:
   - Blog
 tags:

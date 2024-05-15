@@ -9,7 +9,7 @@ instant_articles_submission_id:
   - "1672832446349415"
 dsq_thread_id:
   - "5142495634"
-featured_image: /assets/img/news/these-people-are-not-qualified-to-give-opinions.jpg
+featured_image: /assets/img/news/these-people-are-not-qualified-to-give-opinions.webp
 categories:
   - Blog
 tags:
@@ -68,4 +68,4 @@ Both candidates have serious problems.  Address them head on.
 
 _Image of a joint session of Congress via [Lawrence Jackson /
 Wikimedia Commons / White
-House](https://commons.wikimedia.org/wiki/File:Obama_Health_Care_Speech_to_Joint_Session_of_Congress.jpg)._
+House](https://commons.wikimedia.org/wiki/File:Obama_Health_Care_Speech_to_Joint_Session_of_Congress.webp)._

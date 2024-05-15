@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/02/26/cheerleading-online-classroom/
 dsq_thread_id:
   - "4611569131"
-featured_image: /assets/img/news/7658219802_46bbb17722_o.jpg
+featured_image: /assets/img/news/7658219802_46bbb17722_o.webp
 categories:
   - Blog
 tags:

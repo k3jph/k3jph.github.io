@@ -9,7 +9,7 @@ dsq_thread_id:
   - "4526333626"
 ampforwp-amp-on-off:
   - default
-featured_image: /assets/img/news/useless-machine.png
+featured_image: /assets/img/news/useless-machine.webp
 categories:
   - Blog
 tags:

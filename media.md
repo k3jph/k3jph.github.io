@@ -5,7 +5,7 @@ date: 2020-04-15T10:10:16-04:00
 author: James Howard
 layout: page
 guid: http://jameshoward.us/media
-image: /assets/images/media.jpg
+image: /assets/images/media.webp
 menu-order:     5
 menu-label:     Media
 ---

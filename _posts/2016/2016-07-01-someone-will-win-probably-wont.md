@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/07/01/someone-will-win-probably-wont/
 dsq_thread_id:
   - "4953002025"
-featured_image: /assets/img/news/someone-will-win-and-it-probably-wont-be-you.jpg
+featured_image: /assets/img/news/someone-will-win-and-it-probably-wont-be-you.webp
 categories:
   - News
 tags:

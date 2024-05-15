@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/08/04/halloween-changes-mega-millions-scare/
 dsq_thread_id:
   - "6039679106"
-featured_image: /assets/img/news/megamillions-rules-change.jpg
+featured_image: /assets/img/news/megamillions-rules-change.webp
 categories:
   - Blog
 tags:

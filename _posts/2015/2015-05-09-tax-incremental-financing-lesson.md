@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/05/09/tax-incremental-financing-lesson/
 dsq_thread_id:
   - "3748628433"
-featured_image: /assets/img/news/TIF-coverpage.png
+featured_image: /assets/img/news/TIF-coverpage.webp
 categories:
   - Blog
 tags:

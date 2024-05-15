@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/09/14/planning-for-martian-polity-now-on-youtube/
 dsq_thread_id:
   - "4126501368"
-featured_image: /assets/img/news/mars-talk-cover.png
+featured_image: /assets/img/news/mars-talk-cover.webp
 categories:
   - Blog
 tags:

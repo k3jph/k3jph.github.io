@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/02/11/pennsylvanias-flood-insurance-exchange/
 dsq_thread_id:
   - "4571543609"
-featured_image: /assets/img/news/flooding-branhower.png
+featured_image: /assets/img/news/flooding-branhower.webp
 categories:
   - Blog
 tags:

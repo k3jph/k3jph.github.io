@@ -5,7 +5,7 @@ date: 2018-01-04T22:30:59-05:00
 author: k3jph
 layout: post
 permalink: /2018/01/04/jmm-san-diego-next-week/
-featured_image: /assets/img/news/jmm-san-diego-next-week.jpg
+featured_image: /assets/img/news/jmm-san-diego-next-week.webp
 categories:
   - Blog
 tags:

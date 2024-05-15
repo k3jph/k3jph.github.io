@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/11/06/decision-relative-risk/
 dsq_thread_id:
   - "4295364762"
-featured_image: /assets/img/news/640px-Female_Emperor_Scorpion.jpg
+featured_image: /assets/img/news/640px-Female_Emperor_Scorpion.webp
 categories:
   - Blog
 tags:
@@ -30,4 +30,4 @@ Also, this:
 
 > [A]s the Mythbusters have demonstrated on numerous occasions, you can do just about anything to a car and it won't explode.
 
-_Image by [Rosa Pineda / Wikimedia](https://commons.wikimedia.org/wiki/File:Female_Emperor_Scorpion.jpg)._
+_Image by [Rosa Pineda / Wikimedia](https://commons.wikimedia.org/wiki/File:Female_Emperor_Scorpion.webp)._

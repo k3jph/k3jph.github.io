@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/06/29/read-article-public-financial-management-syllabus/
 dsq_thread_id:
   - "4947640037"
-featured_image: /assets/img/news/read-article-public-financial-management-syllabus.jpg
+featured_image: /assets/img/news/read-article-public-financial-management-syllabus.webp
 categories:
   - News
 tags:

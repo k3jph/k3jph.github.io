@@ -5,7 +5,7 @@ date: 2019-09-07T14:35:51-04:00
 author: k3jph
 layout: post
 permalink: /2019/09/07/monte-carlo-simulation-advantages-and-disadvantages/
-featured_image: /assets/img/news/ahh-monte-carlo.jpg
+featured_image: /assets/img/news/ahh-monte-carlo.webp
 categories:
   - Blog
 tags:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/10/16/illinoiss-junk-bonds/
 dsq_thread_id:
   - "4230524033"
-featured_image: /assets/img/news/lottery-174132_1920.jpg
+featured_image: /assets/img/news/lottery-174132_1920.webp
 categories:
   - Blog
 tags:

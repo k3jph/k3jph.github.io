@@ -5,7 +5,7 @@ date: 2017-08-21T06:58:09-04:00
 author: k3jph
 layout: post
 permalink: /2017/08/21/fun-facts-moon-sun/
-featured_image: /assets/img/news/fun-facts-moon-sun.jpg
+featured_image: /assets/img/news/fun-facts-moon-sun.webp
 categories:
   - Blog
 tags:

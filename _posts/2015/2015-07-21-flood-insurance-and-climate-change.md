@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/07/21/flood-insurance-and-climate-change/
 dsq_thread_id:
   - "3954535747"
-featured_image: /assets/img/news/177378324_1ec42a417a_o.jpg
+featured_image: /assets/img/news/177378324_1ec42a417a_o.webp
 categories:
   - Blog
 tags:

@@ -5,7 +5,7 @@ date: 2020-04-02T10:10:16-04:00
 author: James Howard
 layout: page
 guid: scholarship-philosophy
-featured_image: /assets/img/researchlibrary.png
+featured_image: /assets/img/researchlibrary.webp
 menu-order:     10
 menu-label:     Scholarship
 credits: _Image by [Michael D Beckwith / Flickr](https://www.flickr.com/photos/118118485@N05/16468895996)._

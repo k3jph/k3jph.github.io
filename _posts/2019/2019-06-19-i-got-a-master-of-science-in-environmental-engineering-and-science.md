@@ -5,7 +5,7 @@ date: 2019-06-19T09:41:47-04:00
 author: k3jph
 layout: post
 permalink: /2019/06/19/i-got-a-master-of-science-in-environmental-engineering-and-science/
-featured_image: /assets/img/news/JHU-MS-EES-diploma-blog.png
+featured_image: /assets/img/news/JHU-MS-EES-diploma-blog.webp
 categories:
   - Blog
 tags:

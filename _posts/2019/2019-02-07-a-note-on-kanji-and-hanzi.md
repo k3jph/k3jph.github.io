@@ -5,7 +5,7 @@ date: 2019-02-07T20:58:38-05:00
 author: k3jph
 layout: post
 permalink: /2019/02/07/a-note-on-kanji-and-hanzi/
-featured_image: /assets/img/news/a-note-on-kanji-and-hanzi.jpg
+featured_image: /assets/img/news/a-note-on-kanji-and-hanzi.webp
 categories:
   - Blog
 tags:

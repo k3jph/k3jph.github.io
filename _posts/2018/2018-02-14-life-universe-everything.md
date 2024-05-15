@@ -5,7 +5,7 @@ date: 2018-02-14T08:02:09-05:00
 author: k3jph
 layout: post
 permalink: /2018/02/14/life-universe-everything/
-featured_image: /assets/img/news/life-universe-everything.jpg
+featured_image: /assets/img/news/life-universe-everything.webp
 categories:
   - Blog
 tags:

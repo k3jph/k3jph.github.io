@@ -9,7 +9,7 @@ dsq_thread_id:
   - "4776551446"
 instant_articles_submission_id:
   - "147604632450999"
-featured_image: /assets/img/news/tumblr_mjxog7R1J21s72vg8o1_1280.jpg
+featured_image: /assets/img/news/tumblr_mjxog7R1J21s72vg8o1_1280.webp
 categories:
   - Blog
 tags:

@@ -5,7 +5,7 @@ date: 2022-12-21T15:03:14-04:00
 author: k3jph
 layout: post
 permalink: /2022/12/21/abolish-debt-ceiling
-featured_image: /assets/img/news/abolish-debt-ceiling.jpg
+featured_image: /assets/img/news/abolish-debt-ceiling.webp
 categories:
 - Blog 
 tags:

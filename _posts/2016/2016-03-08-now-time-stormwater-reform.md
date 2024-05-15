@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/03/08/now-time-stormwater-reform/
 dsq_thread_id:
   - "4645896445"
-featured_image: /assets/img/news/361667885_8e2da8fa96_b.jpg
+featured_image: /assets/img/news/361667885_8e2da8fa96_b.webp
 categories:
   - Blog
 tags:

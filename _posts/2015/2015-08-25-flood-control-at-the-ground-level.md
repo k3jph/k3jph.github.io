@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/08/25/flood-control-at-the-ground-level/
 dsq_thread_id:
   - "4065175012"
-featured_image: /assets/img/news/DSC_0115-1.jpg
+featured_image: /assets/img/news/DSC_0115-1.webp
 categories:
   - Blog
 tags:

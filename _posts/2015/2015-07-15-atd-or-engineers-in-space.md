@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/07/15/atd-or-engineers-in-space/
 dsq_thread_id:
   - "3938461841"
-featured_image: /assets/img/news/20150715_210628.jpg
+featured_image: /assets/img/news/20150715_210628.webp
 categories:
   - Blog
 tags:
@@ -29,7 +29,7 @@ In 2001, I worked for a company called Wavix and we were building ground termina
 
 The terminal, the Stasia 906, was a StrongARM SBC running Linux.  There was a GPS receiver and an RF transmitter and receiver, all jammed inside a Pelican case.  
 
-{% include figure.html image="news/20150715_202138.jpg" alt="In here? Doom." cap="In here? Doom." %}
+{% include figure.html image="news/20150715_202138.webp" alt="In here? Doom." cap="In here? Doom." %}
 
 The hack I was proudest of was a surreal patch to the Linux kernel.  The terminal had an [RS-232](https://en.wikipedia.org/wiki/RS-232) on the front and the user would connect a serial cable from the PC to connect.  The idea was that the terminal would provide IP services over the wire and run mini POP and SMTP servers for mail transfer.  But we couldn't figure out how to get the link up after booting.  
 
@@ -39,7 +39,7 @@ The Hayes modem command set was an abomination since it was inline.  The "+++" a
 
 Another awesome thing I did there was write a driver for the GPS unit.  This was back in 2001, so there weren't GPS units everywhere.  The ones we had were terribly unreliable and couldn't get a signal on a cloudy day.  Also, they didn't know about leap seconds, so they were all about 12 seconds too fast.  But I wrote the code to synchronize the time on the terminal to it (accounting for leap seconds, since they didn't).  Also, I set the location so the terminal would know where it was, too, and could plan for an overhead satellite pass.
 
-{% include figure.html image="news/20150715_202250.jpg" alt="At least the on/off button is labeled" cap="At least the on/off button is labeled" %}
+{% include figure.html image="news/20150715_202250.webp" alt="At least the on/off button is labeled" cap="At least the on/off button is labeled" %}
 
 Passes were infrequent.  Usually only four a day (two satellites, two passes each), but we were happy to have two usable passes per day.  During this time, we did uplink and downlink.  Mail was sent and received over [AX.25](http://www.ax25.net/) at 9600 bps.  Our own uplink and downlink happened in Landover, Maryland.  We operated at 56k bps, but still used AX.25.  The last really neat thing I did there was how we managed the mail flow from Internet through to the satellite.  We didn't write a line of code.  We turned on [UUCP](https://tools.ietf.org/html/rfc976) and gave each ground terminal both an Internet address and a [bang path](http://www.catb.org/jargon/html/B/bang-path.html).  We took in mail over SMTP and ran it through the UUCP gateway, which just queued it for upload on the next pass.  Had I been cleverer, I would have called it an enterprise service bus.
 
@@ -49,7 +49,7 @@ These  were just things that needed to get done.  That's the best part of workin
 
 I was there for just about ten months before we ran out of money and everyone was laid off.  And that ended my career as an embedded systems engineer.
 
-{% include figure.html image="news/20150715_202320.jpg" alt="Where does the fibre cable go in?" cap="Where does the fibre cable go in?" %}
+{% include figure.html image="news/20150715_202320.webp" alt="Where does the fibre cable go in?" cap="Where does the fibre cable go in?" %}
 
 The pictures are my old development system.  The hardware should be fully functional.  Believe it or not, I acquired it on Ebay years after we went defunct.  The same one from my desk.
 

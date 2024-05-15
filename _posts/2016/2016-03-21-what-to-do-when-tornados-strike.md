@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/03/21/what-to-do-when-tornados-strike/
 dsq_thread_id:
   - "4681846825"
-featured_image: /assets/img/news/tornado-cover.png
+featured_image: /assets/img/news/tornado-cover.webp
 categories:
   - Blog
 tags:
@@ -26,4 +26,4 @@ Read more [at Roomi Connect](http://roomiconnect.com/4-must-know-tornado-safety-
 
 While targeted at renters, this tornado advice applies to pretty much everyone.  This is the second time Roomi Connect has [interviewed me about disaster preparation](/2016/01/28/flood-preparation-tips-renters-via-roomi-connect/).
 
-_Image by [Justin Hobson  / Wikimedia](https://commons.wikimedia.org/wiki/File:F5_tornado_Elie_Manitoba_2007.jpg)._
+_Image by [Justin Hobson  / Wikimedia](https://commons.wikimedia.org/wiki/File:F5_tornado_Elie_Manitoba_2007.webp)._

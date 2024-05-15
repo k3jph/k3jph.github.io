@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/10/04/stop-being-so-irrational/
 dsq_thread_id:
   - "4193067570"
-featured_image: /assets/img/news/1024px-Real_number_line.svg_.png
+featured_image: /assets/img/news/1024px-Real_number_line.svg_.webp
 categories:
   - Blog
 tags:

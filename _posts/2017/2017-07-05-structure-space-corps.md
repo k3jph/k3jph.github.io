@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/07/05/structure-space-corps/
 dsq_thread_id:
   - "5965513658"
-featured_image: /assets/img/news/structure-space-corps.jpg
+featured_image: /assets/img/news/structure-space-corps.webp
 categories:
   - Blog
 tags:

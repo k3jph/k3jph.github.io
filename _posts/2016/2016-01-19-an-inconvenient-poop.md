@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/01/19/an-inconvenient-poop/
 dsq_thread_id:
   - "4506223376"
-featured_image: /assets/img/news/hogfarm.png
+featured_image: /assets/img/news/hogfarm.webp
 categories:
   - Blog
 tags:
@@ -24,4 +24,4 @@ There's a [magnificently titled master's thesis](https://150.216.68.228/handle/1
 
 This is actually a big deal.  North Carolina is in the way of a lot of big storms and a lot of flooding.  It's also the home of [a lot of cheap bacon](http://qz.com/433750/the-world-eats-cheap-bacon-at-the-expense-of-north-carolinas-rural-poor/).  Understanding the effects of flooding, storms, and climate change on the commercial farming industry in North Carolina is very important.
 
-_Image by the [Environmental Protection Agency via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hog_confinement_barn_interior.jpg)._
+_Image by the [Environmental Protection Agency via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hog_confinement_barn_interior.webp)._

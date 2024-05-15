@@ -5,7 +5,7 @@ date: 2017-08-16T07:03:38-04:00
 author: k3jph
 layout: post
 permalink: /2017/08/16/notes-solid-waste-reduction/
-featured_image: /assets/img/news/notes-solid-waste-reduction.jpg
+featured_image: /assets/img/news/notes-solid-waste-reduction.webp
 categories:
   - Blog
 tags:

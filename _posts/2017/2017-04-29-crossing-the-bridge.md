@@ -9,7 +9,7 @@ instant_articles_submission_id:
   - "284273628690471"
 dsq_thread_id:
   - "5770609752"
-featured_image: /assets/img/news/crossing-the-bridge.jpg
+featured_image: /assets/img/news/crossing-the-bridge.webp
 categories:
   - Blog
 tags:

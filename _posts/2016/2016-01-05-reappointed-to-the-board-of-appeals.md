@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/01/05/reappointed-to-the-board-of-appeals/
 dsq_thread_id:
   - "4462146165"
-featured_image: /assets/img/news/hoco-council-chambers.jpg
+featured_image: /assets/img/news/hoco-council-chambers.webp
 categories:
   - Blog
 tags:

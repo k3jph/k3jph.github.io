@@ -5,7 +5,7 @@ date: 2018-03-02T07:48:40-05:00
 author: k3jph
 layout: post
 permalink: /2018/03/02/values-trends-cybersecurity/
-featured_image: /assets/img/news/values-trends-cybersecurity.jpg
+featured_image: /assets/img/news/values-trends-cybersecurity.webp
 categories:
   - News
 tags:

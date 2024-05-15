@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/11/19/whistling-tuneby-the-seaside/
 dsq_thread_id:
   - "4333803566"
-featured_image: /assets/img/news/beachdunes.png
+featured_image: /assets/img/news/beachdunes.webp
 categories:
   - Blog
 tags:

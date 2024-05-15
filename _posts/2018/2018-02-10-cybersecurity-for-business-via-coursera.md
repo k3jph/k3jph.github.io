@@ -5,7 +5,7 @@ date: 2018-02-10T08:15:18-05:00
 author: k3jph
 layout: post
 permalink: /2018/02/10/cybersecurity-for-business-via-coursera/
-featured_image: /assets/img/news/cybersecurity-for-business-via-coursera.png
+featured_image: /assets/img/news/cybersecurity-for-business-via-coursera.webp
 categories:
   - Blog
 tags:

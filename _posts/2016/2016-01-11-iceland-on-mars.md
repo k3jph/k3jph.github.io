@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/01/11/iceland-on-mars/
 dsq_thread_id:
   - "4482598820"
-featured_image: /assets/img/news/terraforming-mars.png
+featured_image: /assets/img/news/terraforming-mars.webp
 categories:
   - Blog
 tags:
@@ -29,4 +29,4 @@ Those are important, and I acknowledged those reasons, though Mars is far less h
 
 Because of how impractical that is at Mars, vis-a-vis, for instance, the Moon, my research has split the governance strategies depending on whether getting back to Earth is easy (Moon and LEO), hard (Mars), or impossible (a generation ship).
 
-_Image by [D Mitriy / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Terraforming_of_Mars.jpg)._
+_Image by [D Mitriy / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Terraforming_of_Mars.webp)._

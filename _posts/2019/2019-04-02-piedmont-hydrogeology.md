@@ -5,7 +5,7 @@ date: 2019-04-02T06:38:15-04:00
 author: k3jph
 layout: post
 permalink: /2019/04/02/piedmont-hydrogeology/
-featured_image: /assets/img/news/fields-837660_1280.jpg
+featured_image: /assets/img/news/fields-837660_1280.webp
 categories:
   - Blog
 tags:

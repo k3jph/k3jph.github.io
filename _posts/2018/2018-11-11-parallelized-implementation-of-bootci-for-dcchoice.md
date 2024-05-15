@@ -5,7 +5,7 @@ date: 2018-11-11T09:10:34-05:00
 author: k3jph
 layout: post
 permalink: /2018/11/11/parallelized-implementation-of-bootci-for-dcchoice/
-featured_image: /assets/img/news/parallelized-implementation-of-bootci-for-dcchoice.jpg
+featured_image: /assets/img/news/parallelized-implementation-of-bootci-for-dcchoice.webp
 categories:
   - Blog
 tags:

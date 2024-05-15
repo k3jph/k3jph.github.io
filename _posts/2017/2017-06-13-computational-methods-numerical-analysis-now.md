@@ -9,7 +9,7 @@ instant_articles_submission_id:
   - "255070978307187"
 dsq_thread_id:
   - "5906436836"
-featured_image: /assets/img/news/computational-methods-numerical-analysis-now-cover.png
+featured_image: /assets/img/news/computational-methods-numerical-analysis-now-cover.webp
 categories:
   - News
 tags:
@@ -51,4 +51,4 @@ please see [Computational Methods for Numerical Analysis with
 R](/cmna).
 
 _Image by [Jorge Royan / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:A_tower_of_used_books_-_8444.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:A_tower_of_used_books_-_8444.webp)._

@@ -9,7 +9,7 @@ instant_articles_submission_id:
   - "189445094868976"
 dsq_thread_id:
   - "5521739780"
-featured_image: /assets/img/news/math-1547018_1280.jpg
+featured_image: /assets/img/news/math-1547018_1280.webp
 categories:
   - Blog
 tags:

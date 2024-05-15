@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/08/17/public-economics-and-gps/
 dsq_thread_id:
   - "5074213317"
-featured_image: /assets/img/news/public-economics-and-gps.jpg
+featured_image: /assets/img/news/public-economics-and-gps.webp
 categories:
   - Blog
 tags:
@@ -102,4 +102,4 @@ an application to building Martian infrastructure.  Please come and
 watch!
 
 _Image by [NASA via Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:GPS_Satellite_NASA_art-iif.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:GPS_Satellite_NASA_art-iif.webp)._

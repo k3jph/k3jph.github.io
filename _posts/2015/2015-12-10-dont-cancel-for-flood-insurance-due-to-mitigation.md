@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/12/10/dont-cancel-for-flood-insurance-due-to-mitigation/
 dsq_thread_id:
   - "4391965874"
-featured_image: /assets/img/news/missourifloods.png
+featured_image: /assets/img/news/missourifloods.webp
 categories:
   - Blog
 tags:
@@ -26,4 +26,4 @@ While we can question of the wisdom of staying after being flooded out 32 times 
 
 The worst part of this is properties with flood mitigation protection are likely to pay substantially less than similarly situated properties without mitigation due to the reduced effects.
 
-_Image by [FEMA via Wikimedia](https://commons.wikimedia.org/wiki/File:FEMA_-_29892_-_Flood_mitigation_in_Missouri.jpg)._
+_Image by [FEMA via Wikimedia](https://commons.wikimedia.org/wiki/File:FEMA_-_29892_-_Flood_mitigation_in_Missouri.webp)._

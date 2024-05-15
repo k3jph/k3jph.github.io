@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/06/18/duckpin-bowling-dollars/
 dsq_thread_id:
   - "4920009045"
-featured_image: /assets/img/news/bowling-duckpin-dollars.jpg
+featured_image: /assets/img/news/bowling-duckpin-dollars.webp
 categories:
   - Blog
 tags:
@@ -51,4 +51,4 @@ For more information, Facebook it!
 
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.facebook.com/events/d41d8cd9/duckpin-throwdown-i-woodcock-vs-howard/292479114419845/" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Fwww.facebook.com%2Fevents%2F292479114419845%2F&key=176ff6184ababb980170f6037497fb6a"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 
-_Image by [Valerie Everett / Wikimedia](https://commons.wikimedia.org/wiki/File:Duckpins_closeup.jpg)._
+_Image by [Valerie Everett / Wikimedia](https://commons.wikimedia.org/wiki/File:Duckpins_closeup.webp)._

@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/03/31/introducing-green-beelievers/
 dsq_thread_id:
   - "3644531471"
-featured_image: /assets/img/news/Park.png
+featured_image: /assets/img/news/Park.webp
 categories:
   - Blog
 tags:

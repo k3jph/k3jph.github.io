@@ -9,7 +9,7 @@ dsq_thread_id:
   - "4470203941"
 instant_articles_submission_id:
   - "362871530781700"
-featured_image: /assets/img/news/arizona-flood.png
+featured_image: /assets/img/news/arizona-flood.webp
 categories:
   - Blog
 tags:
@@ -30,4 +30,4 @@ Kozachik further says that homeowners will likely save since they will not be re
 
 Of course, I [already wrote about this this month](/2015/12/10/dont-cancel-for-flood-insurance-due-to-mitigation/).  Happy new year, everyone.
 
-_Image of Tucson flash flooding by [Owen Kelly via Wikipedia](https://en.wikipedia.org/wiki/File:Flash_flood_near_tucson_az_2.jpg)._
+_Image of Tucson flash flooding by [Owen Kelly via Wikipedia](https://en.wikipedia.org/wiki/File:Flash_flood_near_tucson_az_2.webp)._

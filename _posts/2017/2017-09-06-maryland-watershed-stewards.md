@@ -5,7 +5,7 @@ date: 2017-09-06T06:55:27-04:00
 author: k3jph
 layout: post
 permalink: /2017/09/06/maryland-watershed-stewards/
-featured_image: /assets/img/news/maryland-watershed-stewards.jpg
+featured_image: /assets/img/news/maryland-watershed-stewards.webp
 categories:
   - Blog
 tags:

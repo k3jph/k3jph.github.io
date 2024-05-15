@@ -5,7 +5,7 @@ date: 2020-11-09T16:30:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/11/09/informs-presentation-on-electoral-process
-featured_image: /assets/img/news/informs-presentation-on-electoral-process.jpg
+featured_image: /assets/img/news/informs-presentation-on-electoral-process.webp
 categories:
   - Blog
 tags:

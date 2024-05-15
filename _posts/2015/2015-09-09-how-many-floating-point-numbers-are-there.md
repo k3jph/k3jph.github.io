@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/09/09/how-many-floating-point-numbers-are-there/
 dsq_thread_id:
   - "4112776720"
-featured_image: /assets/img/news/1000px-IEEE_754_Single_Floating_Point_Format.svg_.png
+featured_image: /assets/img/news/1000px-IEEE_754_Single_Floating_Point_Format.svg_.webp
 categories:
   - Blog
 tags:

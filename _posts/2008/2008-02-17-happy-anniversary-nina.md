@@ -7,7 +7,7 @@ layout: post
 permalink: /2008/02/17/happy-anniversary-nina/
 dsq_thread_id:
   - "4293907171"
-featured_image: /assets/img/news/2267339562_e472235cb4_o.jpg
+featured_image: /assets/img/news/2267339562_e472235cb4_o.webp
 categories:
   - Blog
 ---

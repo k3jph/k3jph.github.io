@@ -5,7 +5,7 @@ date: 2021-01-13T18:13:00-04:00
 author: k3jph
 layout: post
 permalink: /2021/01/13/my-talk-on-ar-vr-xr-ethics
-featured_image: /assets/img/news/my-talk-on-ar-vr-xr-ethics.jpg
+featured_image: /assets/img/news/my-talk-on-ar-vr-xr-ethics.webp
 categories:
   - Blog
 tags:

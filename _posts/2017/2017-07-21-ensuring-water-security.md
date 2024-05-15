@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/07/21/ensuring-water-security/
 dsq_thread_id:
   - "6004632258"
-featured_image: /assets/img/news/ensuring-water-security.jpg
+featured_image: /assets/img/news/ensuring-water-security.webp
 categories:
   - Blog
 tags:

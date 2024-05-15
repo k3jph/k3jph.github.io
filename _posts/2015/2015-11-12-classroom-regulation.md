@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/11/12/classroom-regulation/
 dsq_thread_id:
   - "4313694204"
-featured_image: /assets/img/news/15471928635_c2502585e0_z.jpg
+featured_image: /assets/img/news/15471928635_c2502585e0_z.webp
 categories:
   - Blog
 tags:

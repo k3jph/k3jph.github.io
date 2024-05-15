@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/07/01/georgia-neese-clark-for-the-20/
 dsq_thread_id:
   - "3896377757"
-featured_image: /assets/img/news/Georgia_Neese_Clark_cph.3f05813.jpg
+featured_image: /assets/img/news/Georgia_Neese_Clark_cph.3f05813.webp
 categories:
   - Blog
 tags:
@@ -36,5 +36,5 @@ But back in 1949, Truman was getting pressure to name a woman to an important po
 
 Clark's term was just under four years, but then something interesting happened.  Every Treasurer since then has been a woman.  Every single one.  For more than 60 years.  Clark led an important transformation at low-profile but critical office in the Treasury Department.  And because of this, she should be selected as the new face of the $20 bill.
 
-_Image from the [Library of Congress](http://loc.gov/pictures/resource/cph.3f05813/) via [Wikipedia](https://commons.wikimedia.org/wiki/File:Georgia_Neese_Clark_cph.3f05813.jpg)._
+_Image from the [Library of Congress](http://loc.gov/pictures/resource/cph.3f05813/) via [Wikipedia](https://commons.wikimedia.org/wiki/File:Georgia_Neese_Clark_cph.3f05813.webp)._
 

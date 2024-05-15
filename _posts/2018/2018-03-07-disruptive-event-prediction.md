@@ -5,7 +5,7 @@ date: 2018-03-07T12:13:07-05:00
 author: k3jph
 layout: post
 permalink: /2018/03/07/disruptive-event-prediction/
-featured_image: /assets/img/news/disruptive-event-prediction.jpg
+featured_image: /assets/img/news/disruptive-event-prediction.webp
 categories:
   - News
 tags:
@@ -48,4 +48,4 @@ Monthly predictions for most countries are available from the
 [Crystal Cube website at JHU/APL](http://iaa-ccube-dmz.outer.jhuapl.edu/).
 
 _Image by [Tiomono / English
-Wikipedia](https://en.wikipedia.org/wiki/File:Smoke_break_el_serrano_1987.jpg)._
+Wikipedia](https://en.wikipedia.org/wiki/File:Smoke_break_el_serrano_1987.webp)._

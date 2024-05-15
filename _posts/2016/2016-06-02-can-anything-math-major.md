@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/06/02/can-anything-math-major/
 dsq_thread_id:
   - "4877645429"
-featured_image: /assets/img/news/graduation-995042_1280.jpg
+featured_image: /assets/img/news/graduation-995042_1280.webp
 categories:
   - Blog
 tags:

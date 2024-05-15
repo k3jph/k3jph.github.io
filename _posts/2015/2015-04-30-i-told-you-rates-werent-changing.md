@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/04/30/i-told-you-rates-werent-changing/
 dsq_thread_id:
   - "3726892910"
-featured_image: /assets/img/news/federalreserve.png
+featured_image: /assets/img/news/federalreserve.webp
 categories:
   - Blog
 tags:

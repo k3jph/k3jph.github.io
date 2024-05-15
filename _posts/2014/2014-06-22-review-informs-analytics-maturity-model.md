@@ -19,7 +19,7 @@ tags:
   - mathematics
   - scientific computing
   - statistics
-featured_image: /assets/img/news/54997131_6b8171eb75_o.jpg
+featured_image: /assets/img/news/54997131_6b8171eb75_o.webp
 ---
 
 At last Monday's WINFORMS meetup in DC, Aaron Burciaga and Raj Reddi presented the new INFORMS [Analytics Maturity Model](https://analyticsmaturity.informs.org/) (AMM). The AMM is a graded typology allowing organizations to assess their use of data analytics in existing business processes. The AMM also gives organizations the ability to set goals for future performance. Burciaga and Reddi's presentation covered the basics of the model and presented viewers with the website, which can track organizational performance over time. Such maturity models give organizations tools to match their performance against a best practices framework.

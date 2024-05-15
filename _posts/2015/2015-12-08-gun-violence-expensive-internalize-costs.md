@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/12/08/gun-violence-expensive-internalize-costs/
 dsq_thread_id:
   - "4384940945"
-featured_image: /assets/img/news/bullets.png
+featured_image: /assets/img/news/bullets.webp
 categories:
   - Blog
 tags:

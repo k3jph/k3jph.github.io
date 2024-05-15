@@ -5,7 +5,7 @@ date: 2018-02-07T07:34:53-05:00
 author: k3jph
 layout: post
 permalink: /2018/02/07/three-reasons-buy-flood-insurance/
-featured_image: /assets/img/news/three-reasons-buy-flood-insurance.jpg
+featured_image: /assets/img/news/three-reasons-buy-flood-insurance.webp
 categories:
   - News
 tags:

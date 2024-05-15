@@ -5,7 +5,7 @@ date: 2017-05-02T19:51:44-04:00
 author: James Howard
 layout: page
 guid: https://jameshoward.us/?page_id=4954
-image: /assets/images/long-reach-community-association.jpg
+image: /assets/images/long-reach-community-association.webp
 ---
 ## Master Plan Committee
 

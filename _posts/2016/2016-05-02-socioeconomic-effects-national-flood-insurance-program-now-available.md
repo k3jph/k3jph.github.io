@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/05/02/socioeconomic-effects-national-flood-insurance-program-now-available/
 dsq_thread_id:
   - "4795304727"
-featured_image: /assets/img/news/se-nfip-announce-banner.png
+featured_image: /assets/img/news/se-nfip-announce-banner.webp
 categories:
   - News
 tags:
@@ -26,4 +26,4 @@ I am happy to say my book, [_Socioeconomic Effects of the National Flood Insuran
 
 This book was written from 2010 through 2014 as part of my dissertation research at [UMBC](http://www.umbc.edu).  This is quite exciting, so go buy a copy!
 
-_Image by [Johannes Jansson / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Urval_av_de_bocker_som_har_vunnit_Nordiska_radets_litteraturpris_under_de_50_ar_som_priset_funnits_(3).jpg)_
+_Image by [Johannes Jansson / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Urval_av_de_bocker_som_har_vunnit_Nordiska_radets_litteraturpris_under_de_50_ar_som_priset_funnits_(3).webp)_

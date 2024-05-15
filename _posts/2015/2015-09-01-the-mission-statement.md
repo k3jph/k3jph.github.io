@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/09/01/the-mission-statement/
 dsq_thread_id:
   - "4073803672"
-featured_image: /assets/img/news/missionstatment.png
+featured_image: /assets/img/news/missionstatment.webp
 categories:
   - Blog
 tags:

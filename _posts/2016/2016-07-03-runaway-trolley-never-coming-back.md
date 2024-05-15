@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/07/03/runaway-trolley-never-coming-back/
 dsq_thread_id:
   - "4957433829"
-featured_image: /assets/img/news/trolly-problem.jpg
+featured_image: /assets/img/news/trolly-problem.webp
 categories:
   - Blog
 tags:
@@ -116,4 +116,4 @@ interesting solutions that are distinct from each other.
 [^khan]: Also, yes, _Star Trek II_ again.
 
 _Image by [Mike Knell / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Mattapan_Trolley_at_Capen_Street.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:Mattapan_Trolley_at_Capen_Street.webp)._

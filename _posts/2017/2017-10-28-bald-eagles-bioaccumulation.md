@@ -5,7 +5,7 @@ date: 2017-10-28T09:48:31-04:00
 author: k3jph
 layout: post
 permalink: /2017/10/28/bald-eagles-bioaccumulation/
-featured_image: /assets/img/news/bald-eagles-bioaccumulation.jpg
+featured_image: /assets/img/news/bald-eagles-bioaccumulation.webp
 categories:
   - Blog
 tags:

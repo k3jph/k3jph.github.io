@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/07/17/read-response-parents-need-know-pokemon-go/
 dsq_thread_id:
   - "4992410446"
-featured_image: /assets/img/news/read-response-parents-need-know-pokemon-go-1.jpg
+featured_image: /assets/img/news/read-response-parents-need-know-pokemon-go-1.webp
 categories:
   - News
 tags:

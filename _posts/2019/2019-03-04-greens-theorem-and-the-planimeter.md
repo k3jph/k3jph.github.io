@@ -5,7 +5,7 @@ date: 2019-03-04T07:19:31-05:00
 author: k3jph
 layout: post
 permalink: /2019/03/04/greens-theorem-and-the-planimeter/
-featured_image: /assets/img/news/30764630562_3c99082d7b_k.jpg
+featured_image: /assets/img/news/30764630562_3c99082d7b_k.webp
 categories:
   - Blog
 tags:

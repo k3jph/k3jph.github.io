@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/01/05/behind-door-3/
 dsq_thread_id:
   - "5439826772"
-featured_image: /assets/img/news/behind-door-3.jpg
+featured_image: /assets/img/news/behind-door-3.webp
 categories:
   - Blog
 tags:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/06/11/only-evil-genius-spontaneously-arises/
 dsq_thread_id:
   - "3841456388"
-featured_image: /assets/img/news/o-GOODWILLHUNTING-facebook.jpg
+featured_image: /assets/img/news/o-GOODWILLHUNTING-facebook.webp
 categories:
   - Blog
 tags:

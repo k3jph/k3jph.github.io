@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/02/25/notes-expected-papal-life-spans/
 dsq_thread_id:
   - "4610095932"
-featured_image: /assets/img/news/Franciscus_kotel.jpg
+featured_image: /assets/img/news/Franciscus_kotel.webp
 categories:
   - Blog
 tags:
@@ -21,4 +21,4 @@ There's an interesting article in _Significance_ about the [expected lifespan of
 
 Using the list of popes since 1404, the authors are able to show that popes have a longer than average lifespan, after being elected pope.  This is interesting, since it shows that being elected pope seems to lengthen your life.  I'd like to see this compared to being a cardinal, the pool from which popes are historically elected.  Looking at the [list of living cardinals](https://en.wikipedia.org/wiki/List_of_living_cardinals), being a cardinal itself may be sufficient for a longer life.
 
-_Image by [דוברות משטרת ישראל / Wikimedia Commons](https://en.wikipedia.org/wiki/File:Franciscus_kotel.jpg)._
+_Image by [דוברות משטרת ישראל / Wikimedia Commons](https://en.wikipedia.org/wiki/File:Franciscus_kotel.webp)._

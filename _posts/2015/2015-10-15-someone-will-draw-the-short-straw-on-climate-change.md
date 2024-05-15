@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/10/15/someone-will-draw-the-short-straw-on-climate-change/
 dsq_thread_id:
   - "4227181715"
-featured_image: /assets/img/news/2095961797_1d27dedc4e_b.jpg
+featured_image: /assets/img/news/2095961797_1d27dedc4e_b.webp
 categories:
   - Blog
 tags:

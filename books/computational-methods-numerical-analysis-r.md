@@ -10,7 +10,7 @@ redirect_from:
   - /books/cmna/
 ---
 
-{% include figure.html image="CMNA-cover-300.png" placement="right" width="30%"
+{% include figure.html image="CMNA-cover-300.webp" placement="right" width="30%"
    alt="Computational Methods for Numerical Analysis with R book cover" %}
 
 _Computational Methods for Numerical Analysis with R_ (_CMNA_) is

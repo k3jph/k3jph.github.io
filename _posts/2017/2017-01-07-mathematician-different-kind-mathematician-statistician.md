@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/01/07/mathematician-different-kind-mathematician-statistician/
 dsq_thread_id:
   - "5444014491"
-featured_image: /assets/img/news/mathematician-different-kind-mathematician-statistician.jpg
+featured_image: /assets/img/news/mathematician-different-kind-mathematician-statistician.webp
 categories:
   - Blog
 tags:

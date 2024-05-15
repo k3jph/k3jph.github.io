@@ -5,7 +5,7 @@ date: 2018-01-12T15:52:23-05:00
 author: k3jph
 layout: post
 permalink: /2018/01/12/audio-slides-talk-jmm/
-featured_image: /assets/img/news/audio-and-slides-from-my-talk-at-jmm.jpg
+featured_image: /assets/img/news/audio-and-slides-from-my-talk-at-jmm.webp
 categories:
   - News
 tags:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/06/16/terrorism-policysplainer/
 dsq_thread_id:
   - "4914811579"
-featured_image: /assets/img/news/terrorism-policysplainer.jpg
+featured_image: /assets/img/news/terrorism-policysplainer.webp
 categories:
   - Blog
 tags:
@@ -42,4 +42,4 @@ There's no policy component to this.  There's no rational reasoning to this.  If
 
 Again, this all matters because the policy prescriptions to prevent these sorts of attacks are different from those to address terrorism.  [Banning Muslims from entering the country](https://www.washingtonpost.com/politics/trump-pushes-expanded-ban-on-muslims-and-other-foreigners/2016/06/13/c9988e96-317d-11e6-8ff7-7b6c1998b7a0_story.html) would not have prevented this attack.  Setting aside the legal and ethical dimensions of this, it just doesn't make sense.  Mateen was a New Yorker.  Now, additional evidence may be forthcoming, but Mateen seems to be an open and shut case of an open and shut case.  Unless and until it is clear that the shooter were motivated by some clear policy objective, it is irresponsible to call it terrorism and also addresses the wrong problem.
 
-_Image by [Archiwum Główne Akt Dawnych via Wikimedia](https://commons.wikimedia.org/wiki/File:Plakat_La_Terroriste.jpg)._
+_Image by [Archiwum Główne Akt Dawnych via Wikimedia](https://commons.wikimedia.org/wiki/File:Plakat_La_Terroriste.webp)._

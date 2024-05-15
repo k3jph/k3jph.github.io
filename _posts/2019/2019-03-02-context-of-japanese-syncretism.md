@@ -5,7 +5,7 @@ date: 2019-03-02T11:41:24-05:00
 author: k3jph
 layout: post
 permalink: /2019/03/02/context-of-japanese-syncretism/
-featured_image: /assets/img/news/o-torii-3970153_1280.jpg
+featured_image: /assets/img/news/o-torii-3970153_1280.webp
 categories:
   - Blog
 tags:

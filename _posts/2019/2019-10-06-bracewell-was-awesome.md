@@ -40,7 +40,7 @@ C. Clarke book, _Rendezvous with Rama_. It's also interesting because
 all of the sudden, we've had two visitors from outside the solar
 system, lately.
 
-{% include figure.html image="news/aliens.png" placement="right" width="40%"
+{% include figure.html image="news/aliens.webp" placement="right" width="40%"
     alt="I'm not saying it was aliens, but it was aliens" %}
 
 First, in 2018, an interstellar object

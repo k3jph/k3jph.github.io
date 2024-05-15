@@ -5,7 +5,7 @@ date: 2017-11-28T15:36:39-05:00
 author: k3jph
 layout: post
 permalink: /2017/11/28/county-council-seeks-new-member-board-appeals/
-featured_image: /assets/img/news/board-appeals-seeks-new-member.jpg
+featured_image: /assets/img/news/board-appeals-seeks-new-member.webp
 categories:
   - Blog
 tags:
@@ -49,4 +49,4 @@ If you're interested and want to know more before applying, let me
 know and we'll set up a time to talk about the Board of Appeals.
 
 _Image by [FlugKerl2 / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:George_Howard_Building.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:George_Howard_Building.webp)._

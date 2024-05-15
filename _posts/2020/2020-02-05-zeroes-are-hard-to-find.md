@@ -5,7 +5,7 @@ date: 2020-02-05T12:16:00-05:00
 author: k3jph
 layout: post
 permalink: /2020/02/05/zeroes-are-hard-to-find/
-featured_image: /assets/img/news/zeroes-are-hard-to-find.jpg
+featured_image: /assets/img/news/zeroes-are-hard-to-find.webp
 categories:
   - Blog
 tags:

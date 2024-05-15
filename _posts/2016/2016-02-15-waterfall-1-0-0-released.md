@@ -11,7 +11,7 @@ ampforwp_custom_content_editor_checkbox:
   - ""
 instant_articles_submission_id:
   - "418958268451909"
-featured_image: /assets/img/news/barchart-rasiel.png
+featured_image: /assets/img/news/barchart-rasiel.webp
 categories:
   - Blog
 tags:

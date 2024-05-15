@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/09/14/why-this-hammer-costs-435/
 dsq_thread_id:
   - "4129584463"
-featured_image: /assets/img/news/ignite-hoco2-cover.png
+featured_image: /assets/img/news/ignite-hoco2-cover.webp
 categories:
   - Blog
 tags:

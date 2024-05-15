@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/08/31/foiled-again/
 dsq_thread_id:
   - "4083605925"
-featured_image: /assets/img/news/batmanrobin-foil.jpg
+featured_image: /assets/img/news/batmanrobin-foil.webp
 categories:
   - Blog
 tags:

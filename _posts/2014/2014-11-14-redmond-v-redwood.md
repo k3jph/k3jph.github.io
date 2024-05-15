@@ -23,7 +23,7 @@ tags:
   - software engineering
   - systems science
   - technology
-featured_image: /assets/img/news/8903529_2824fb78cc_z.jpg
+featured_image: /assets/img/news/8903529_2824fb78cc_z.webp
 ---
 
 The chatter online for the last couple of days is that Microsoft is really late to the game in open sourcing its .NET platform.  There's also been some chatter that this signals the end of Java.  Anyone who thinks nobody can stand up to the Microsoft juggernaut has never encountered the Oracle juggernaut.  But neither of these juggernauts will win.

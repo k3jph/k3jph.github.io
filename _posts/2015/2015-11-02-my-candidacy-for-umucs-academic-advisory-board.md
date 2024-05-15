@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/11/02/my-candidacy-for-umucs-academic-advisory-board/
 dsq_thread_id:
   - "4284260347"
-featured_image: /assets/img/news/umuc-img.jpg
+featured_image: /assets/img/news/umuc-img.webp
 categories:
   - Blog
 tags:

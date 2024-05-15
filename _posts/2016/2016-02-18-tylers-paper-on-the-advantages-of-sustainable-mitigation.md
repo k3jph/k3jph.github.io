@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/02/18/tylers-paper-on-the-advantages-of-sustainable-mitigation/
 dsq_thread_id:
   - "4591757433"
-featured_image: /assets/img/news/1024px-Wall_in_kalpakkam.jpg
+featured_image: /assets/img/news/1024px-Wall_in_kalpakkam.webp
 categories:
   - Blog
 tags:

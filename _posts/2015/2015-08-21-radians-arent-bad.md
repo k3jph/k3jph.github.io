@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/08/21/radians-arent-bad/
 dsq_thread_id:
   - "4054915038"
-featured_image: /assets/img/news/rings.png
+featured_image: /assets/img/news/rings.webp
 categories:
   - Blog
 tags:

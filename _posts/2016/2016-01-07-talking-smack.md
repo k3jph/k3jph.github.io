@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/01/07/talking-smack/
 dsq_thread_id:
   - "4469473634"
-featured_image: /assets/img/news/smack-study.png
+featured_image: /assets/img/news/smack-study.webp
 categories:
   - Blog
 tags:

@@ -11,7 +11,7 @@ ampforwp_custom_content_editor_checkbox:
   - ""
 instant_articles_submission_id:
   - "419973988349578"
-featured_image: /assets/img/news/mongolian-yak.png
+featured_image: /assets/img/news/mongolian-yak.webp
 categories:
   - Blog
 tags:

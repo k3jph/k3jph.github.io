@@ -5,7 +5,7 @@ date: 2019-10-10T13:23:38-04:00
 author: k3jph
 layout: post
 permalink: /2019/10/10/howard-county-is-looking-for-a-new-board-of-appeals-member/
-featured_image: /assets/img/news/howard-county-is-looking-for-a-new-board-of-appeals-member.jpg
+featured_image: /assets/img/news/howard-county-is-looking-for-a-new-board-of-appeals-member.webp
 categories:
   - Blog
 tags:

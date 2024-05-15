@@ -5,7 +5,7 @@ date: 2019-05-24T20:01:23-04:00
 author: k3jph
 layout: post
 permalink: /2019/05/24/how-data-science-happens/
-featured_image: /assets/img/news/how-data-science-happens.jpg
+featured_image: /assets/img/news/how-data-science-happens.webp
 categories:
   - Blog
 tags:

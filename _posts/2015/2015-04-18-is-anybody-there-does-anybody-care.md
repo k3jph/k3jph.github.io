@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/04/18/is-anybody-there-does-anybody-care/
 dsq_thread_id:
   - "3692131106"
-featured_image: /assets/img/news/13310082333_941f7a998c_o.jpg
+featured_image: /assets/img/news/13310082333_941f7a998c_o.webp
 categories:
   - Blog
 tags:

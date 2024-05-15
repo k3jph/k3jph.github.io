@@ -5,7 +5,7 @@ date: 2019-03-05T20:18:22-05:00
 author: k3jph
 layout: post
 permalink: /2019/03/05/howard-county-charter-review/
-featured_image: /assets/img/news/howard-county-charter-review.jpg
+featured_image: /assets/img/news/howard-county-charter-review.webp
 categories:
   - News
 tags:

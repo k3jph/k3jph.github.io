@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/06/26/tips-managing-online-courses/
 dsq_thread_id:
   - "4940062840"
-featured_image: /assets/img/news/tips-for-manging-online-courses.jpg
+featured_image: /assets/img/news/tips-for-manging-online-courses.webp
 categories:
   - News
 tags:
@@ -25,4 +25,4 @@ my experiences teaching for [UMUC](/teaching) for the
 last few years!  Read more at [Learn How to Become](http://www.learnhowtobecome.org/online-universities-and-colleges/).
 
 _Image by [Sage Ross / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Advanced_editing_workshop_at_Wikipedia_in_Higher_Education_Summit,_2011-07-09.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:Advanced_editing_workshop_at_Wikipedia_in_Higher_Education_Summit,_2011-07-09.webp)._

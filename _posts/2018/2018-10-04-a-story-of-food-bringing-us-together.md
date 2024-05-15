@@ -5,7 +5,7 @@ date: 2018-10-04T09:16:39-04:00
 author: k3jph
 layout: post
 permalink: /2018/10/04/a-story-of-food-bringing-us-together/
-featured_image: /assets/img/news/a-story-of-food-bringing-us-together.jpg
+featured_image: /assets/img/news/a-story-of-food-bringing-us-together.webp
 categories:
   - Blog
 tags:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/03/04/remedial-placements/
 dsq_thread_id:
   - "4635045917"
-featured_image: /assets/img/news/Algebraproblem.jpg
+featured_image: /assets/img/news/Algebraproblem.webp
 categories:
   - Blog
 tags:
@@ -27,4 +27,4 @@ The Atlantic has a new story on the treadmill of remedial courses for students e
 
 The short version is, placing students into remedial classes is more harmful than not.  It has been a huge hope of mine that MOOCs could deliver quality free courses in elementary mathematics.  Based on these, students could place higher.  Costs are cut and student outcomes would vastly improve. But students are not being steered that way.
 
-_Image by [Sweetness46 / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Algebraproblem.jpg)._
+_Image by [Sweetness46 / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Algebraproblem.webp)._

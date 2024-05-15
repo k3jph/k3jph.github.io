@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/03/03/data-science-restaurant-inspections/
 dsq_thread_id:
   - "5599847238"
-featured_image: /assets/img/news/data-science-restaurant-inspections.jpg
+featured_image: /assets/img/news/data-science-restaurant-inspections.webp
 categories:
   - Blog
 tags:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/08/04/odder-than-a-month-of-sundays/
 dsq_thread_id:
   - "4004052900"
-featured_image: /assets/img/news/FB_IMG_1438645098896.jpg
+featured_image: /assets/img/news/FB_IMG_1438645098896.webp
 categories:
   - Blog
 tags:
@@ -29,7 +29,7 @@ As an aside, we can use the limited number of calendar configurations to determi
 
 It should come as no surprise, I also saw this on the same person's feed.
 
-{% include figure.html image="news/algebra-useit.png"
+{% include figure.html image="news/algebra-useit.webp"
    cap="Well, now you're just embarrassing yourself"
    alt="Well, now you're just embarrassing yourself" %}
 

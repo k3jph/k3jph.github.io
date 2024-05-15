@@ -5,7 +5,7 @@ date: 2014-11-30T14:14:11-05:00
 author: k3jph
 layout: post
 permalink: /2014/11/30/radiolab-loses-statistics/
-featured_image: /assets/img/news/coinflip.png
+featured_image: /assets/img/news/coinflip.webp
 dsq_thread_id:
   - "3277316953"
 categories:

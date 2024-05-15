@@ -7,7 +7,7 @@ layout: page
 guid: https://jameshoward.us/?page_id=2107
 dsq_thread_id:
   - "3748694539"
-image: /assets/images/statscode.png
+image: /assets/images/statscode.webp
 menu-order:     97
 menu-label:     Consulting
 ---

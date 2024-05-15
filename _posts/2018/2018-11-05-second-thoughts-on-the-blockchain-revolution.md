@@ -5,7 +5,7 @@ date: 2018-11-05T12:23:22-05:00
 author: k3jph
 layout: post
 permalink: /2018/11/05/second-thoughts-on-the-blockchain-revolution/
-featured_image: /assets/img/news/second-thoughts-on-the-blockchain-revolution.png
+featured_image: /assets/img/news/second-thoughts-on-the-blockchain-revolution.webp
 categories:
   - News
 tags:

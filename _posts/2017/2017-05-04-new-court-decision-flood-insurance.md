@@ -9,7 +9,7 @@ instant_articles_submission_id:
   - "235330783611074"
 dsq_thread_id:
   - "5787295530"
-featured_image: /assets/img/news/new-court-decision-flood-insurance.jpg
+featured_image: /assets/img/news/new-court-decision-flood-insurance.webp
 categories:
   - Blog
 tags:
@@ -40,4 +40,4 @@ only to Federal law, smoothing the process.  This decision should
 be adopted by other circuits.
 
 _Image by [Acroterion / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Richmond_Federal_Appeals_Court_and_skyline_VA2.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:Richmond_Federal_Appeals_Court_and_skyline_VA2.webp)._

@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/03/10/casual-transhumanism/
 dsq_thread_id:
   - "3584736752"
-featured_image: /assets/img/news/eyeball.png
+featured_image: /assets/img/news/eyeball.webp
 categories:
   - Blog
 tags:

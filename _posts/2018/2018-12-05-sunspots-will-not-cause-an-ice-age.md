@@ -5,7 +5,7 @@ date: 2018-12-05T12:43:36-05:00
 author: k3jph
 layout: post
 permalink: /2018/12/05/sunspots-will-not-cause-an-ice-age/
-featured_image: /assets/img/news/sunspots-will-not-cause-an-ice-age.jpg
+featured_image: /assets/img/news/sunspots-will-not-cause-an-ice-age.webp
 categories:
   - Blog
 tags:
@@ -44,7 +44,7 @@ from the plot below ([data from
 NOAA](https://www.ncdc.noaa.gov/cag/global/time-series/globe/land_ocean/ytd/12/1979-2018)),
 the mean global temperature is increasing.
 
-{% include figure.html image="news/global-temperature-anomaly-C.png" alt="The mean global temperature is increasing" width="100%" %}
+{% include figure.html image="news/global-temperature-anomaly-C.webp" alt="The mean global temperature is increasing" width="100%" %}
 
 And it is increasing due to the greenhouse effect. I used 1979 as
 the starting year since that is the year I was born. Conveniently,
@@ -54,7 +54,7 @@ cycles since 1979 and we take an initial look at the mean daily
 sunspot count per year, to see where they are going ([data from
 SILSO](http://sidc.oma.be/silso/datafiles)).
 
-{% include figure.html image="news/sunspots-mean.png" alt="Sunspot activity is highly cyclical " width="100%" %}
+{% include figure.html image="news/sunspots-mean.webp" alt="Sunspot activity is highly cyclical " width="100%" %}
 
 As we can see, sunspot activity is highly cyclical and there's no
 similar cyclical pattern to the global temperature anomaly. And it

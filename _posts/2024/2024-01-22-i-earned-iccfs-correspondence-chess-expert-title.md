@@ -5,7 +5,7 @@ date: 2024-01-20
 author: k3jph
 layout: post
 permalink: /2024/01/22/i-earned-iccfs-correspondence-chess-expert-title
-featured_image: /assets/img/2024/i-earned-iccfs-correspondence-chess-expert-title.jpg
+featured_image: /assets/img/2024/i-earned-iccfs-correspondence-chess-expert-title.webp
 categories:
 - Blog 
 tags:
@@ -19,7 +19,7 @@ international correspondence chess, I'm thrilled to share I've beeg
 awarded the prestigious first title of Correspondence Chess Expert.
 
 {% include figure.html width="6" link="/assets/docs/jhoward-iccf-cce.pdf"
-   image="/2024/i-earned-iccfs-correspondence-chess-expert-title/jhoward-iccf-cce.jpg"
+   image="/2024/i-earned-iccfs-correspondence-chess-expert-title/jhoward-iccf-cce.webp"
    alt="My Correspondence Chess Expert certificate" 
    cap="My Correspondence Chess Expert certificate" %}
 

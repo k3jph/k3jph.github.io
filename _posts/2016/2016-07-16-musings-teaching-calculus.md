@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/07/16/musings-teaching-calculus/
 dsq_thread_id:
   - "4991436071"
-featured_image: /assets/img/news/musings-on-teaching-calculus-again.jpg
+featured_image: /assets/img/news/musings-on-teaching-calculus-again.webp
 categories:
   - Blog
 tags:
@@ -35,4 +35,4 @@ application and turns away from unfortunate "plug-and-chug" problems.
 Generally, like to have as few of these as possible.
 
 _Image by [Chris 73 / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:NautilusCutawayLogarithmicSpiral.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:NautilusCutawayLogarithmicSpiral.webp)._

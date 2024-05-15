@@ -5,7 +5,7 @@ date: 2014-03-14T14:44:15-04:00
 author: k3jph
 layout: post
 permalink: /2014/03/14/financial-metrics-for-homeowners-associations/
-featured_image: /assets/img/news/DSC_0115-1.jpg
+featured_image: /assets/img/news/DSC_0115-1.webp
 dsq_thread_id:
   - "2431238706"
 categories:

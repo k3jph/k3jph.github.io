@@ -5,7 +5,7 @@ date: 2018-12-15T08:53:02-05:00
 author: k3jph
 layout: post
 permalink: /2018/12/15/brexit-cracks-me-up/
-featured_image: /assets/img/news/brexit-cracks-me-up.jpg
+featured_image: /assets/img/news/brexit-cracks-me-up.webp
 categories:
   - Blog
 tags:

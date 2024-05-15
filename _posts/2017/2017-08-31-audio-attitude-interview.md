@@ -5,7 +5,7 @@ date: 2017-08-31T18:15:51-04:00
 author: k3jph
 layout: post
 permalink: /2017/08/31/audio-attitude-interview/
-featured_image: /assets/img/news/audio-attitude-interview.jpg
+featured_image: /assets/img/news/audio-attitude-interview.webp
 categories:
   - News
 tags:

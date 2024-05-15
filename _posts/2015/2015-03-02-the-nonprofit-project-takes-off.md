@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/03/02/the-nonprofit-project-takes-off/
 dsq_thread_id:
   - "3562129240"
-featured_image: /assets/img/news/5231765066_405ca16a91_b.jpg
+featured_image: /assets/img/news/5231765066_405ca16a91_b.webp
 categories:
   - Blog
 tags:

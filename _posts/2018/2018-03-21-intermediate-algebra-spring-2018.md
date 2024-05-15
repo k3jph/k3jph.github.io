@@ -5,7 +5,7 @@ date: 2018-03-21T19:09:49-04:00
 author: k3jph
 layout: post
 permalink: /2018/03/21/intermediate-algebra-spring-2018/
-featured_image: /assets/img/news/intermediate-algebra-spring-2018.jpg
+featured_image: /assets/img/news/intermediate-algebra-spring-2018.webp
 categories:
   - Blog
 tags:

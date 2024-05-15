@@ -5,7 +5,7 @@ date: 2020-12-31T20:01:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/12/31/umgc-gave-me-a-ba-in-east-asian-studies
-featured_image: /assets/img/news/umgc-gave-me-a-ba-in-east-asian-studies.jpg
+featured_image: /assets/img/news/umgc-gave-me-a-ba-in-east-asian-studies.webp
 categories:
   - Blog
 tags:

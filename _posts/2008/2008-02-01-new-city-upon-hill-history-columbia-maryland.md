@@ -7,7 +7,7 @@ layout: post
 permalink: /2008/02/01/new-city-upon-hill-history-columbia-maryland/
 dsq_thread_id:
   - "4341422358"
-featured_image: /assets/img/news/newcitycover.jpg
+featured_image: /assets/img/news/newcitycover.webp
 categories:
   - Blog
 tags:

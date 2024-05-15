@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/07/27/the-problem-with-offering-flood-insurance-subsidies/
 dsq_thread_id:
   - "6020749414"
-featured_image: /assets/img/news/the-problem-with-offering-flood-insurance-subsidies.jpg
+featured_image: /assets/img/news/the-problem-with-offering-flood-insurance-subsidies.webp
 categories:
   - Blog
 tags:
@@ -65,4 +65,4 @@ qualifies for funding from the Federal Emergency Management Agency.
 National Flood Insurance Program"
 
 _Image by [Preservation Maryland / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Ellicott_City_Flood_Recovery,_Patapsco_River_(29376019606).jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:Ellicott_City_Flood_Recovery,_Patapsco_River_(29376019606).webp)._

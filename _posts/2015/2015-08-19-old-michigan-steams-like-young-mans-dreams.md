@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/08/19/old-michigan-steams-like-young-mans-dreams/
 dsq_thread_id:
   - "4048606568"
-featured_image: /assets/img/news/lakemichighan.png
+featured_image: /assets/img/news/lakemichighan.webp
 categories:
   - Blog
 tags:

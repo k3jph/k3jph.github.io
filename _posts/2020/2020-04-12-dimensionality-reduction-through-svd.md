@@ -5,7 +5,7 @@ date: 2020-04-12T20:11:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/04/11/dimensionality-reduction-through-svd/
-featured_image: /assets/img/news/dimensionality-reduction-through-svd.png
+featured_image: /assets/img/news/dimensionality-reduction-through-svd.webp
 categories:
   - Blog
 tags:

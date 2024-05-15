@@ -9,7 +9,7 @@ dsq_thread_id:
   - "4540662881"
 instant_articles_submission_id:
   - "232632643869573"
-featured_image: /assets/img/news/1000px-Integration_trapezoid.svg_.png
+featured_image: /assets/img/news/1000px-Integration_trapezoid.svg_.webp
 categories:
   - Blog
 tags:

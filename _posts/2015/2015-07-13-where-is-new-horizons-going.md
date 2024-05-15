@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/07/13/where-is-new-horizons-going/
 dsq_thread_id:
   - "3931610174"
-featured_image: /assets/img/news/nh-pluto.jpg
+featured_image: /assets/img/news/nh-pluto.webp
 categories:
   - Blog
 tags:

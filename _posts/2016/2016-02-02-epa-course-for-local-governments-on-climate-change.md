@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/02/02/epa-course-for-local-governments-on-climate-change/
 dsq_thread_id:
   - "4545472960"
-featured_image: /assets/img/news/lakehume-4percent.png
+featured_image: /assets/img/news/lakehume-4percent.webp
 categories:
   - Blog
 tags:

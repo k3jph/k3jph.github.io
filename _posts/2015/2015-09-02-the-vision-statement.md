@@ -11,7 +11,7 @@ onesignal_meta_box_present:
   - "1"
 onesignal_send_notification:
   - ""
-featured_image: /assets/img/news/vision.png
+featured_image: /assets/img/news/vision.webp
 categories:
   - Blog
 tags:

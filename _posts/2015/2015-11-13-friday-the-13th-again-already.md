@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/11/13/friday-the-13th-again-already/
 dsq_thread_id:
   - "4313698931"
-featured_image: /assets/img/news/270007412_37c6fabf50_z.jpg
+featured_image: /assets/img/news/270007412_37c6fabf50_z.webp
 categories:
   - Blog
 tags:

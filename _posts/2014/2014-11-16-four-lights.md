@@ -5,7 +5,7 @@ date: 2014-11-16T08:40:48-05:00
 author: k3jph
 layout: post
 permalink: /2014/11/16/four-lights/
-featured_image: /assets/img/news/7742232822_6e32399ff6_z.jpg
+featured_image: /assets/img/news/7742232822_6e32399ff6_z.webp
 dsq_thread_id:
   - "3228782576"
 categories:

@@ -5,7 +5,7 @@ date: 2019-08-21T07:44:51-04:00
 author: k3jph
 layout: post
 permalink: /2019/08/21/jomon-and-yayoi-culture/
-featured_image: /assets/img/news/jomon-and-yayoi-culture.jpg
+featured_image: /assets/img/news/jomon-and-yayoi-culture.webp
 categories:
   - Blog
 tags:
@@ -54,4 +54,4 @@ as living in a feudal state with small-scale mercantilism and
 [shamanistic Shinto rituals](https://www.britannica.com/topic/Shinto).
 
 _Image via [Davide Ferro / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Dogu_jomon_period_japan.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:Dogu_jomon_period_japan.webp)._

@@ -21,7 +21,7 @@ tags:
   - software engineering
   - systems science
   - technology
-featured_image: /assets/img/news/4460725620_a96930c144_z.jpg
+featured_image: /assets/img/news/4460725620_a96930c144_z.webp
 ---
 
 It looks like [FOSE is dead](http://www.bizjournals.com/washington/blog/fedbiz_daily/2014/11/its-official-fose-is-dead-for-now.html):

@@ -9,7 +9,7 @@ dsq_thread_id:
   - "4764837050"
 instant_articles_submission_id:
   - "284584218670653"
-featured_image: /assets/img/news/tsunami-sign.png
+featured_image: /assets/img/news/tsunami-sign.webp
 categories:
   - Blog
 tags:

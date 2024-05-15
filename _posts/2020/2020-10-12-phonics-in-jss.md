@@ -5,7 +5,7 @@ date: 2020-10-12T11:59:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/10/12/phonics-in-jss
-featured_image: /assets/img/news/phonics-in-jss.jpg
+featured_image: /assets/img/news/phonics-in-jss.webp
 categories:
   - Blog
 tags:

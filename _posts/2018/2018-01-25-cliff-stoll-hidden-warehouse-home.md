@@ -5,7 +5,7 @@ date: 2018-01-25T12:26:08-05:00
 author: k3jph
 layout: post
 permalink: /2018/01/25/cliff-stoll-hidden-warehouse-home/
-featured_image: /assets/img/news/cliff-stoll-hidden-warehouse-home.jpg
+featured_image: /assets/img/news/cliff-stoll-hidden-warehouse-home.webp
 categories:
   - Blog
 tags:

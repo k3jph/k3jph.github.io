@@ -9,7 +9,7 @@ dsq_thread_id:
   - "4388044602"
 ampforwp_custom_content_editor_checkbox:
   - ""
-featured_image: /assets/img/news/nair.png
+featured_image: /assets/img/news/nair.webp
 categories:
   - Blog
 tags:

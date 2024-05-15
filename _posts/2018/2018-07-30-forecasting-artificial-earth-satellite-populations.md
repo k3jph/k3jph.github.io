@@ -5,7 +5,7 @@ date: 2018-07-30T13:30:39-04:00
 author: k3jph
 layout: post
 permalink: /2018/07/30/forecasting-artificial-earth-satellite-populations/
-featured_image: /assets/img/news/forecasting-artificial-earth-satellite-populations.jpg
+featured_image: /assets/img/news/forecasting-artificial-earth-satellite-populations.webp
 categories:
   - News
 tags:
@@ -28,6 +28,6 @@ be will can help service providers better understand demand.
 You can see a copy of my poster below. In a few weeks, I should have a
 draft paper ready.
 
-{% include figure.html image="news/JSM-2018-Forecasting-Artificial-Earth-Satellite-Populations.png"
+{% include figure.html image="news/JSM-2018-Forecasting-Artificial-Earth-Satellite-Populations.webp"
    link="/assets/docs/JSM-2018-Forecasting-Artificial-Earth-Satellite-Populations.pdf"
    alt="Forecasting Artificial Earth Satellite Populations poster" %}

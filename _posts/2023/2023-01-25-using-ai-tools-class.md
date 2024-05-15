@@ -5,7 +5,7 @@ date: 2023-01-25T17:37:14-04:00
 author: k3jph
 layout: post
 permalink: /2023/01/25/using-ai-tools-class
-featured_image: /assets/img/news/using-ai-tools-class.jpg
+featured_image: /assets/img/news/using-ai-tools-class.webp
 categories:
 - Blog 
 tags:

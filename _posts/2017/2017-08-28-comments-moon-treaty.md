@@ -5,7 +5,7 @@ date: 2017-08-28T07:21:25-04:00
 author: k3jph
 layout: post
 permalink: /2017/08/28/comments-moon-treaty/
-featured_image: /assets/img/news/comments-moon-treaty.jpg
+featured_image: /assets/img/news/comments-moon-treaty.webp
 categories:
   - Blog
 tags:

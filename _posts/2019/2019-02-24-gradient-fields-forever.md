@@ -6,7 +6,7 @@ author: k3jph
 layout: post
 permalink: /2019/02/24/gradient-fields-forever/
 
-featured_image: /assets/img/news/gradient-fields-forever.jpg
+featured_image: /assets/img/news/gradient-fields-forever.webp
 categories:
   - Blog
 tags:
@@ -39,7 +39,7 @@ I](https://svs.gsfc.nasa.gov/4444) on the Moon, produced by [NASA
 as a part of the Apollo 8
 mission](https://history.nasa.gov/SP-362/ch1.htm).
 
-{% include figure.html image="news/Rima-Prinz-I-Contour-Map.jpg" alt="Map of Rima Prinz I" 
+{% include figure.html image="news/Rima-Prinz-I-Contour-Map.webp" alt="Map of Rima Prinz I" 
    cap="Map of Rima Prinz I" width="100%" %}
 
 There are other examples, too. If we take all of the individual

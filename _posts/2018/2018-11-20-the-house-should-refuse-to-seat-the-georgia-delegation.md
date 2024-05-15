@@ -5,7 +5,7 @@ date: 2018-11-20T07:14:28-05:00
 author: k3jph
 layout: post
 permalink: /2018/11/20/the-house-should-refuse-to-seat-the-georgia-delegation/
-featured_image: /assets/img/news/the-house-should-refuse-to-seat-the-georgia-delegation.jpg
+featured_image: /assets/img/news/the-house-should-refuse-to-seat-the-georgia-delegation.webp
 categories:
   - Blog
 tags:

@@ -5,7 +5,7 @@ date: 2018-04-02T07:46:45-04:00
 author: k3jph
 layout: post
 permalink: /2018/04/02/meiji-land-reforms-and-modernization/
-featured_image: /assets/img/news/meiji-land-reforms-and-modernization-in-japan.jpg
+featured_image: /assets/img/news/meiji-land-reforms-and-modernization-in-japan.webp
 categories:
   - Blog
 tags:

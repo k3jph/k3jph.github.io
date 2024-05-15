@@ -5,7 +5,7 @@ date: 2024-01-15
 author: k3jph
 layout: post
 permalink: /2024/01/14/tartans-as-woven-heraldry-in-scotland
-featured_image: /assets/img/2024/tartans-as-woven-heraldry-in-scotland.jpg
+featured_image: /assets/img/2024/tartans-as-woven-heraldry-in-scotland.webp
 categories:
 - Blog 
 tags:
@@ -25,7 +25,7 @@ identity across Europe, deeply rooted in the chivalric and cultural
 practices of the Middle Ages.
 
 {% include figure.html width="4" alt="The Black Watch Tartan"
-image="/2024/tartans-as-woven-heraldry-in-scotland/black-watch.jpg"
+image="/2024/tartans-as-woven-heraldry-in-scotland/black-watch.webp"
 cap="The Black Watch tartan, one of Scotland's most famous tartans"
 %}
 
@@ -52,7 +52,7 @@ and regulation.
 ## Understanding Tartans
 
 {% include figure.html width="4" alt="The Royal Stewart Tartan"
-image="/2024/tartans-as-woven-heraldry-in-scotland/royal-stewart.jpg"
+image="/2024/tartans-as-woven-heraldry-in-scotland/royal-stewart.webp"
 cap="The Royal Stewart tartan, another famous tartan" placement="right"
 %}
 
@@ -270,7 +270,7 @@ identifying combatants and their allegiances.
 ### Modern Example: The Scottish Police Tartan
 
 {% include figure.html width="4" alt="Scottish Police Federation Tartan"
-image="/2024/tartans-as-woven-heraldry-in-scotland/scottish-police-tartan.jpg"
+image="/2024/tartans-as-woven-heraldry-in-scotland/scottish-police-tartan.webp"
 cap="Scottish Police Federation Tartan" placement="right" %}
 
 In contemporary Scotland, tartans continue to embody roles typically

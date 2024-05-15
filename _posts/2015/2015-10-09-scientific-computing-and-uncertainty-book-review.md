@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/10/09/scientific-computing-and-uncertainty-book-review/
 dsq_thread_id:
   - "4208956589"
-featured_image: /assets/img/news/51N-xXddsL._SX312_BO1204203200_.jpg
+featured_image: /assets/img/news/51N-xXddsL._SX312_BO1204203200_.webp
 categories:
   - Blog
 tags:

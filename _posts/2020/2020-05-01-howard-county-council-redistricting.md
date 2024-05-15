@@ -5,7 +5,7 @@ date: 2020-05-01T20:18:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/05/01/howard-county-council-redistricting
-featured_image: /assets/img/news/howard-county-council-redistricting.jpg
+featured_image: /assets/img/news/howard-county-council-redistricting.webp
 categories:
   - Blog
 tags:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/08/11/speed-cameras-of-the-future/
 dsq_thread_id:
   - "4022584821"
-featured_image: /assets/img/news/trafficcamera.png
+featured_image: /assets/img/news/trafficcamera.webp
 categories:
   - Blog
 tags:

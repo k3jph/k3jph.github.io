@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/06/10/bitcoin-and-money/
 dsq_thread_id:
   - "3838360418"
-featured_image: /assets/img/news/coins.png
+featured_image: /assets/img/news/coins.webp
 categories:
   - Blog
 tags:

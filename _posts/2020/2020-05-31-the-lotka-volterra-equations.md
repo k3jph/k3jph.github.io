@@ -5,7 +5,7 @@ date: 2020-05-31T16:58:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/05/31/the-lotka-volterra-equations
-featured_image: /assets/img/news/the-lotka-volterra-equations.jpg
+featured_image: /assets/img/news/the-lotka-volterra-equations.webp
 categories:
   - Blog
 tags:

@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/12/23/drone-hobbyists-need-to-calm-down-about-registration/
 dsq_thread_id:
   - "4428453719"
-featured_image: /assets/img/news/dronemoon.png
+featured_image: /assets/img/news/dronemoon.webp
 categories:
   - Blog
 tags:

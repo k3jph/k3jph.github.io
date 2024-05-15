@@ -5,7 +5,7 @@ date: 2020-03-27T21:11:15-04:00
 author: k3jph
 layout: post
 permalink: /2020/03/27/confucianism-in-the-time-of-coronavirus/
-featured_image: /assets/img/news/confucianism-in-the-time-of-coronavirus.jpg
+featured_image: /assets/img/news/confucianism-in-the-time-of-coronavirus.webp
 categories:
   - Blog
 tags:

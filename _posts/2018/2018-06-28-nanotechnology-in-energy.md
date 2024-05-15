@@ -5,7 +5,7 @@ date: 2018-06-28T16:47:28-04:00
 author: k3jph
 layout: post
 permalink: /2018/06/28/nanotechnology-in-energy/
-featured_image: /assets/img/news/nanotechnology-in-energy.jpg
+featured_image: /assets/img/news/nanotechnology-in-energy.webp
 categories:
   - Blog
 tags:

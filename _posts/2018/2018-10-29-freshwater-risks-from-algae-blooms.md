@@ -5,7 +5,7 @@ date: 2018-10-29T19:56:49-04:00
 author: k3jph
 layout: post
 permalink: /2018/10/29/freshwater-risks-from-algae-blooms/
-featured_image: /assets/img/news/freshwater-risks-from-algae-blooms.jpg
+featured_image: /assets/img/news/freshwater-risks-from-algae-blooms.webp
 categories:
   - Blog
 tags:

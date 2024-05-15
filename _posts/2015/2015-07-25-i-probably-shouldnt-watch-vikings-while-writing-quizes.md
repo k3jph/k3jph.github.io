@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/07/25/i-probably-shouldnt-watch-vikings-while-writing-quizes/
 dsq_thread_id:
   - "3962445475"
-featured_image: /assets/img/news/allhailkingragnar.jpg
+featured_image: /assets/img/news/allhailkingragnar.webp
 categories:
   - Blog
 tags:

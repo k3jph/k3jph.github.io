@@ -5,7 +5,7 @@ date: 2020-03-22T18:45:12-04:00
 author: k3jph
 layout: post
 permalink: /2020/03/22/china-and-founding-myth/
-featured_image: /assets/img/news/china-and-founding-myth.jpg
+featured_image: /assets/img/news/china-and-founding-myth.webp
 categories:
   - Blog
 tags:

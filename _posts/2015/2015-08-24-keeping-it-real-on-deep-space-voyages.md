@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/08/24/keeping-it-real-on-deep-space-voyages/
 dsq_thread_id:
   - "4060671900"
-featured_image: /assets/img/news/Preparing_an_EEG_recording_node_full_image_2.jpg
+featured_image: /assets/img/news/Preparing_an_EEG_recording_node_full_image_2.webp
 categories:
   - Blog
 tags:

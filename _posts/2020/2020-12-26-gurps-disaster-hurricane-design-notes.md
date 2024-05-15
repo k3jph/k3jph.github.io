@@ -5,7 +5,7 @@ date: 2020-12-26T21:49:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/12/26/gurps-disaster-hurricane-design-notes
-featured_image: /assets/img/news/gurps-disaster-hurricane-design-notes.jpg
+featured_image: /assets/img/news/gurps-disaster-hurricane-design-notes.webp
 categories:
   - Blog
 tags:

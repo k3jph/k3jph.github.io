@@ -4,7 +4,7 @@ title: Irma is Not Category 6, but Could be
 date: 2017-09-06T13:02:26-04:00
 author: k3jph
 layout: post
-featured_image: /assets/img/news/irma-not-category-6.jpg
+featured_image: /assets/img/news/irma-not-category-6.webp
 permalink: /2017/09/06/irma-not-category-6/
 categories:
   - Blog
@@ -20,7 +20,7 @@ The problem with this is the scale only goes up to 5.  There are 5
 hurricane strength categories and two sub-hurricane strength levels.
 We can see those plotted below.
 
-{% include figure.html image="news/sshwc.png"
+{% include figure.html image="news/sshwc.webp"
    alt="Saffir-Simpson Hurricane Wind Scale"
    cap="Saffir-Simpson Hurricane Wind Scale" %}
    

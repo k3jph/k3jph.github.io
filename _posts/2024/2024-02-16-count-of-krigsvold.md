@@ -5,7 +5,7 @@ date: 2024-02-16
 author: k3jph
 layout: post
 permalink: /2024/02/16/count-of-krigsvold
-featured_image: /assets/img/2024/count-of-krigsvold.png
+featured_image: /assets/img/2024/count-of-krigsvold.webp
 categories:
 - Blog 
 tags:

@@ -9,7 +9,7 @@ instant_articles_submission_id:
   - "229893464184246"
 dsq_thread_id:
   - "5942937633"
-featured_image: /assets/img/news/the-fish-bowl.jpg
+featured_image: /assets/img/news/the-fish-bowl.webp
 categories:
   - Blog
 tags:

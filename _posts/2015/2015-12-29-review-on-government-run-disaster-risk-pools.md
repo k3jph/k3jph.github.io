@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/12/29/review-on-government-run-disaster-risk-pools/
 dsq_thread_id:
   - "4445190873"
-featured_image: /assets/img/news/volcano-holuhraun.png
+featured_image: /assets/img/news/volcano-holuhraun.webp
 categories:
   - Blog
 tags:

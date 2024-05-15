@@ -5,7 +5,7 @@ date: 2024-04-19
 author: k3jph
 layout: post
 permalink: /2024/04/19/what-is-a-martlet
-featured_image: /assets/img/2024/what-is-a-martlet.jpg
+featured_image: /assets/img/2024/what-is-a-martlet.webp
 categories:
 - Blog 
 tags:

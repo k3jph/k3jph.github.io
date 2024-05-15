@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/04/12/political-risk-export-finance/
 dsq_thread_id:
   - "4742052025"
-featured_image: /assets/img/news/boeing-plant.jpg
+featured_image: /assets/img/news/boeing-plant.webp
 categories:
   - Blog
 tags:
@@ -30,4 +30,4 @@ Predictably, I make an appearance discussing political risk.  You can get the fu
 
 {% include iframely.html url="http://www.globaltrademag.com/banking-on-global-trade/export-credit-agencies-abide" %}
 
-_Image of the Boeing Everett Factory via [Jetstar Airways and Wikimedia](https://en.wikipedia.org/wiki/File:Jetstar%27s_first_787_on_the_production_line_(9132370198).jpg).  Boeing is a beneficiary of Ex-Im Bank's financing options, creating jobs throughout the United States._
+_Image of the Boeing Everett Factory via [Jetstar Airways and Wikimedia](https://en.wikipedia.org/wiki/File:Jetstar%27s_first_787_on_the_production_line_(9132370198).webp).  Boeing is a beneficiary of Ex-Im Bank's financing options, creating jobs throughout the United States._

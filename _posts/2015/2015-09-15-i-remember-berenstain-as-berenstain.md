@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/09/15/i-remember-berenstain-as-berenstain/
 dsq_thread_id:
   - "4130187754"
-featured_image: /assets/img/news/640.jpg
+featured_image: /assets/img/news/640.webp
 categories:
   - Blog
 tags:

@@ -5,7 +5,7 @@ date: 2020-04-24T14:33:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/04/24/the-challenge-of-assessment-and-evaluation-in-online-education/
-featured_image: /assets/img/news/the-challenge-of-assessment-and-evaluation-in-online-education.jpg
+featured_image: /assets/img/news/the-challenge-of-assessment-and-evaluation-in-online-education.webp
 categories:
   - Blog
 tags:

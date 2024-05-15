@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/12/12/how-we-externalize-other-life-risks/
 dsq_thread_id:
   - "4396532455"
-featured_image: /assets/img/news/car-accident.png
+featured_image: /assets/img/news/car-accident.webp
 categories:
   - Blog
 tags:
@@ -33,5 +33,5 @@ None of this offsets the risk to human life from accidents, but there's a soluti
 
 So yes, the comment is right, it would be like applying such a fee to car parts or miles driven, which is why that is exactly what we already do.
 
-_Image by [Torsodog / Wikimedia](https://commons.wikimedia.org/wiki/File:Japanese_car_accident_blur.jpg)._
+_Image by [Torsodog / Wikimedia](https://commons.wikimedia.org/wiki/File:Japanese_car_accident_blur.webp)._
 

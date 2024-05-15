@@ -5,7 +5,7 @@ date: 2024-04-02
 author: James Howard
 layout: page
 guid: honors
-featured_image: /assets/img/honors.png
+featured_image: /assets/img/honors.webp
 
 ---
 

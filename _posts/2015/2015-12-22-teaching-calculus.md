@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/12/22/teaching-calculus/
 dsq_thread_id:
   - "4426627396"
-featured_image: /assets/img/news/calcrealpeople.jpg
+featured_image: /assets/img/news/calcrealpeople.webp
 categories:
   - Blog
 tags:

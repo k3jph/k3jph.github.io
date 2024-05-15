@@ -5,7 +5,7 @@ date: 2018-12-07T07:03:08-05:00
 author: k3jph
 layout: post
 permalink: /2018/12/07/sewage-sludge-down-on-the-farm/
-featured_image: /assets/img/news/sewage-sludge-down-on-the-farm.jpg
+featured_image: /assets/img/news/sewage-sludge-down-on-the-farm.webp
 categories:
   - Blog
 tags:

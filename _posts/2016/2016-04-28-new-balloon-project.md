@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/04/28/new-balloon-project/
 dsq_thread_id:
   - "4785754966"
-featured_image: /assets/img/news/Picture_taken_at_aprox._100000_feet_above_Oregon_by_Justin_Hamel_and_Chris_Thompson.jpg
+featured_image: /assets/img/news/Picture_taken_at_aprox._100000_feet_above_Oregon_by_Justin_Hamel_and_Chris_Thompson.webp
 categories:
   - Blog
 tags:
@@ -28,4 +28,4 @@ At the same time, I am taking the [Internet of Things specialization](https://ww
 
 The first requirement for the capstone course is to write a [requirements specification](/docs/assets/CNBS-Requirements.pdf) document for the project.  I've kind of exceeded expectations, I think, for this course, but it is a good and solid requirements list.  I'll post the other documents to the [Carme Project page](/projects/carme) as I work through them.
 
-_Image by [Justin Hamel via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Picture_taken_at_aprox._100,000_feet_above_Oregon_by_Justin_Hamel_and_Chris_Thompson.jpg)._
+_Image by [Justin Hamel via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Picture_taken_at_aprox._100,000_feet_above_Oregon_by_Justin_Hamel_and_Chris_Thompson.webp)._

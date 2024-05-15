@@ -5,7 +5,7 @@ date: 2014-04-01T18:47:21-04:00
 author: k3jph
 layout: post
 permalink: /2014/04/01/unsinkable-in-space/
-featured_image: /assets/img/news/Gemini31.jpg
+featured_image: /assets/img/news/Gemini31.webp
 dsq_thread_id:
   - "2578927941"
 categories:

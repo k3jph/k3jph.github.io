@@ -12,7 +12,7 @@ categories:
 tags:
   - disaster management
   - social media
-featured_image: /assets/img/news/earthquake-run-for-cover-before-facebook.jpg
+featured_image: /assets/img/news/earthquake-run-for-cover-before-facebook.webp
 ---
 
 I've done this before:
@@ -22,7 +22,7 @@ I've done this before:
 
 But I might have a real problem.  Apparently MEININGER Hotels posted this:
 
-{% include figure.html image="news/dc3cb935a216d8d1449adf36533a2f0a.jpg" 
+{% include figure.html image="news/dc3cb935a216d8d1449adf36533a2f0a.webp" 
    cap="Put the damn phone away (MEININGER Hotels)"
    alt="Put the damn phone away (MEININGER Hotels)" %}
 

@@ -5,7 +5,7 @@ date: 2020-02-08T08:01:00-05:00
 author: k3jph
 layout: post
 permalink: /2020/02/08/matrices-in-the-machine/
-featured_image: /assets/img/news/pattern-metal-pipes-grid-35543.jpg
+featured_image: /assets/img/news/pattern-metal-pipes-grid-35543.webp
 categories:
   - Blog
 tags:

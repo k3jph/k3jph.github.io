@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/08/14/slides-for-the-mars-society-convention/
 dsq_thread_id:
   - "4033166567"
-featured_image: /assets/img/news/Planning-for-Martian-Polity.png
+featured_image: /assets/img/news/Planning-for-Martian-Polity.webp
 categories:
   - Blog
 tags:

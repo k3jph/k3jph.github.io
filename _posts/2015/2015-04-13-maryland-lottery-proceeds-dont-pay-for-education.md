@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/04/13/maryland-lottery-proceeds-dont-pay-for-education/
 dsq_thread_id:
   - "3679275458"
-featured_image: /assets/img/news/maryland-lottery.png
+featured_image: /assets/img/news/maryland-lottery.webp
 categories:
   - Blog
 tags:

@@ -9,7 +9,7 @@ instant_articles_submission_id:
   - "286637178466062"
 dsq_thread_id:
   - "5923438546"
-featured_image: /assets/img/news/geothermal-power-united-states.jpg
+featured_image: /assets/img/news/geothermal-power-united-states.webp
 categories:
   - Blog
 tags:
@@ -66,4 +66,4 @@ where each is practical, whether it be solar, wind, geothermal, or
 nuclear.
 
 _Image by [Ásgeir Eggertsson / Wikimedia
-Commons](https://commons.wikimedia.org/wiki/File:Krafla_geothermal_power_station_wiki.jpg)._
+Commons](https://commons.wikimedia.org/wiki/File:Krafla_geothermal_power_station_wiki.webp)._

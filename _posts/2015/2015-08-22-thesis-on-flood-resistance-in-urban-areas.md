@@ -9,7 +9,7 @@ dsq_thread_id:
   - "4056633171"
 instant_articles_submission_id:
   - "221694015010865"
-featured_image: /assets/img/news/sandy-flooding.png
+featured_image: /assets/img/news/sandy-flooding.webp
 categories:
   - Blog
 tags:

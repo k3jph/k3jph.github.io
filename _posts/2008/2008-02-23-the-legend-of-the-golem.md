@@ -7,7 +7,7 @@ layout: post
 permalink: /2008/02/23/the-legend-of-the-golem/
 dsq_thread_id:
   - "4473964448"
-featured_image: /assets/img/news/legend-golem.jpg
+featured_image: /assets/img/news/legend-golem.webp
 categories:
   - Blog
 tags:

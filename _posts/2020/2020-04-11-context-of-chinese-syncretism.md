@@ -5,7 +5,7 @@ date: 2020-04-11T23:11:00-04:00
 author: k3jph
 layout: post
 permalink: /2020/04/11/context-of-chinese-syncretism/
-featured_image: /assets/img/news/context-of-chinese-syncretism.jpg
+featured_image: /assets/img/news/context-of-chinese-syncretism.webp
 categories:
   - Blog
 tags:

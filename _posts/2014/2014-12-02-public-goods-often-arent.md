@@ -5,7 +5,7 @@ date: 2014-12-02T06:32:43-05:00
 author: k3jph
 layout: post
 permalink: /2014/12/02/public-goods-often-arent/
-featured_image: /assets/img/news/poollocked.png
+featured_image: /assets/img/news/poollocked.webp
 dsq_thread_id:
   - "3285241853"
 categories:

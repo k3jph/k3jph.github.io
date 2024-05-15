@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/06/10/howard-county-schools-sick/
 dsq_thread_id:
   - "4900754910"
-featured_image: /assets/img/news/hcpss-cover.png
+featured_image: /assets/img/news/hcpss-cover.webp
 categories:
   - Blog
 tags:

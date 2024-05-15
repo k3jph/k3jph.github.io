@@ -5,7 +5,7 @@ date: 2023-01-30T7:37:07-04:00
 author: k3jph
 layout: post
 permalink: /2023/01/30/case-risc-v
-featured_image: /assets/img/news/case-risc-v.jpg
+featured_image: /assets/img/news/case-risc-v.webp
 categories:
 - Blog 
 tags:

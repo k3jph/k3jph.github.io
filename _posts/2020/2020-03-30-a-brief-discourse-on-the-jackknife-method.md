@@ -5,7 +5,7 @@ date: 2020-03-30T20:44:30-04:00
 author: k3jph
 layout: post
 permalink: /2020/03/30/a-brief-discourse-on-the-jackknife-method/
-featured_image: /assets/img/news/a-brief-discourse-on-the-jackknife-method.jpg
+featured_image: /assets/img/news/a-brief-discourse-on-the-jackknife-method.webp
 categories:
   - Blog
 tags:

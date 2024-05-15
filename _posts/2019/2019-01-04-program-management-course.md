@@ -5,7 +5,7 @@ date: 2019-01-04T07:36:37-05:00
 author: k3jph
 layout: post
 permalink: /2019/01/04/program-management-course/
-featured_image: /assets/img/news/program-management-course.jpg
+featured_image: /assets/img/news/program-management-course.webp
 categories:
   - Blog
 tags:

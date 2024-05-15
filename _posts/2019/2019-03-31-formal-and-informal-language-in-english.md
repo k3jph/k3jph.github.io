@@ -5,7 +5,7 @@ date: 2019-03-31T10:48:01-04:00
 author: k3jph
 layout: post
 permalink: /2019/03/31/formal-and-informal-language-in-english/
-featured_image: /assets/img/news/people-2570596_1920.jpg
+featured_image: /assets/img/news/people-2570596_1920.webp
 categories:
   - Blog
 tags:

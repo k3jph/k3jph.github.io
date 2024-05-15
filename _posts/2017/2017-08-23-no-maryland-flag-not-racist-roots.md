@@ -5,7 +5,7 @@ date: 2017-08-23T07:24:11-04:00
 author: k3jph
 layout: post
 permalink: /2017/08/23/no-maryland-flag-not-racist-roots/
-featured_image: /assets/img/news/no-the-maryland-flag-does-not-have-racist-roots.jpg
+featured_image: /assets/img/news/no-the-maryland-flag-does-not-have-racist-roots.webp
 categories:
   - Blog
 tags:
@@ -28,7 +28,7 @@ Baltimore](https://en.wikipedia.org/wiki/Cecil_Calvert,_2nd_Baron_Baltimore).
 Here, these the arms granted by the College of Arms no later than
 1675:
 
-{% include figure.html image="news/Coat_of_Arms_of_Cecil_Calvert_Baron_Baltimore.svg_.png"
+{% include figure.html image="news/Coat_of_Arms_of_Cecil_Calvert_Baron_Baltimore.svg_.webp"
    cap="The Arms of Cecil Calvert, Baron Baltimore, showing the Crossland shield"
    alt="The Arms of Cecil Calvert, Baron Baltimore, showing the Crossland shield" %}
 

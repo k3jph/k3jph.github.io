@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/03/01/adam-gopnik-needs-get-real/
 dsq_thread_id:
   - "5595643224"
-featured_image: /assets/img/news/adam-gopnik-needs-get-real.jpg
+featured_image: /assets/img/news/adam-gopnik-needs-get-real.webp
 categories:
   - Blog
 tags:

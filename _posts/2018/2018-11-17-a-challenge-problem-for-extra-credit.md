@@ -5,7 +5,7 @@ date: 2018-11-17T10:31:45-05:00
 author: k3jph
 layout: post
 permalink: /2018/11/17/a-challenge-problem-for-extra-credit/
-featured_image: /assets/img/news/a-challenge-problem-for-extra-credit.jpg
+featured_image: /assets/img/news/a-challenge-problem-for-extra-credit.webp
 categories:
   - Blog
 tags:

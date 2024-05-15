@@ -5,7 +5,7 @@ date: 2018-02-14T11:25:53-05:00
 author: k3jph
 layout: post
 permalink: /2018/02/14/phonics-joss-version-1-0-0-released/
-featured_image: /assets/img/news/phonics-joss-version-1-0-0-released.jpg
+featured_image: /assets/img/news/phonics-joss-version-1-0-0-released.webp
 categories:
   - News
 tags:

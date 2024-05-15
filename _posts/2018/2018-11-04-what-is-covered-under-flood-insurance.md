@@ -5,7 +5,7 @@ date: 2018-11-04T11:44:29-05:00
 author: k3jph
 layout: post
 permalink: /2018/11/04/what-is-covered-under-flood-insurance/
-featured_image: /assets/img/news/what-is-covered-under-flood-insurance.jpg
+featured_image: /assets/img/news/what-is-covered-under-flood-insurance.webp
 categories:
   - News
 tags:

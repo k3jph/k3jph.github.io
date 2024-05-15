@@ -5,7 +5,7 @@ date: 2018-03-23T07:49:22-04:00
 author: k3jph
 layout: post
 permalink: /2018/03/23/errata-for-computational-methods-for-numerical-analysis/
-featured_image: /assets/img/news/errata-for-computational-methods-for-numerical-analysis.jpg
+featured_image: /assets/img/news/errata-for-computational-methods-for-numerical-analysis.webp
 categories:
   - Blog
 tags:

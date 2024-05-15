@@ -5,7 +5,7 @@ date: 2019-06-15T09:08:29-04:00
 author: k3jph
 layout: post
 permalink: /2019/06/15/understanding-radioactive-exposure/
-featured_image: /assets/img/news/understanding-radioactive-exposure.jpg
+featured_image: /assets/img/news/understanding-radioactive-exposure.webp
 categories:
   - Blog
 tags:
@@ -55,7 +55,7 @@ etc.). When we say someone has been exposed to radiation, there are
 two things this might mean and they are very different from both a
 treatment and contamination perspective.
 
-{% include figure.html image="news/glow-stick-578604_1280.jpg" alt="Glow sticks"
+{% include figure.html image="news/glow-stick-578604_1280.webp" alt="Glow sticks"
    cap="Please do not eat the glowsticks, no matter what this post says" placement="right" width="50%" %}
 
 So, as I said, there are two types of "exposure" to radiation. In

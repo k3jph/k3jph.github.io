@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/07/04/listen-interview-purge-kphx/
 dsq_thread_id:
   - "4960917644"
-featured_image: /assets/img/news/listen-discuss-purge-kphx-saturday.jpg
+featured_image: /assets/img/news/listen-discuss-purge-kphx-saturday.webp
 categories:
   - News
 tags:

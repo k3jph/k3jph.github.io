@@ -5,7 +5,7 @@ date: 2018-03-30T08:12:54-04:00
 author: k3jph
 layout: post
 permalink: /2018/03/30/my-orbit-population-model-at-jsm/
-featured_image: /assets/img/news/my-orbit-population-model-at-jsm.jpg
+featured_image: /assets/img/news/my-orbit-population-model-at-jsm.webp
 categories:
   - Blog
 tags:

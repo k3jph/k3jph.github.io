@@ -9,7 +9,7 @@ dsq_thread_id:
   - "3698542940"
 ampforwp_custom_content_editor_checkbox:
   - ""
-featured_image: /assets/img/news/matrices.jpg
+featured_image: /assets/img/news/matrices.webp
 categories:
   - Blog
 tags:

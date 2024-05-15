@@ -5,7 +5,7 @@ date: 2017-08-11T07:35:41-04:00
 author: k3jph
 layout: post
 permalink: /2017/08/11/effects-rising-temperatures/
-featured_image: /assets/img/news/effects-rising-temperatures.jpg
+featured_image: /assets/img/news/effects-rising-temperatures.webp
 categories:
   - Blog
 tags:

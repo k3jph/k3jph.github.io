@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/11/05/mobile-farmers-markets-for-food-deserts/
 dsq_thread_id:
   - "4292306221"
-featured_image: /assets/img/news/farmersmarket.png
+featured_image: /assets/img/news/farmersmarket.webp
 categories:
   - Blog
 tags:

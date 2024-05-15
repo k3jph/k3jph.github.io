@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/12/15/volokh-conspiracy-maryland-state-guard/
 dsq_thread_id:
   - "4405635856"
-featured_image: /assets/img/news/5574092086_edb2fd2316_z.jpg
+featured_image: /assets/img/news/5574092086_edb2fd2316_z.webp
 categories:
   - Blog
 tags:

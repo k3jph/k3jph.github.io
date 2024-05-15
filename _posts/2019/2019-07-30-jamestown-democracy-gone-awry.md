@@ -5,7 +5,7 @@ date: 2019-07-30T09:39:35-04:00
 author: k3jph
 layout: post
 permalink: /2019/07/30/jamestown-democracy-gone-awry/
-featured_image: /assets/img/news/jamestown-democracy-gone-awry.jpg
+featured_image: /assets/img/news/jamestown-democracy-gone-awry.webp
 categories:
   - Blog
 tags:

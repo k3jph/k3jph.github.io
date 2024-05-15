@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/07/12/comments-on-rpn/
 dsq_thread_id:
   - "5984890517"
-featured_image: /assets/img/news/comments-on-rpn.jpg
+featured_image: /assets/img/news/comments-on-rpn.webp
 categories:
   - Blog
 tags:

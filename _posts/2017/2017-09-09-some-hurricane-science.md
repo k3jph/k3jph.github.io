@@ -5,7 +5,7 @@ date: 2017-09-09T07:43:48-04:00
 author: k3jph
 layout: post
 permalink: /2017/09/09/some-hurricane-science/
-featured_image: /assets/img/news/some-hurricane-science.jpg
+featured_image: /assets/img/news/some-hurricane-science.webp
 categories:
   - Blog
 tags:

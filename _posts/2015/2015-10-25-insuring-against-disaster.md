@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/10/25/insuring-against-disaster/
 dsq_thread_id:
   - "4258701517"
-featured_image: /assets/img/news/disaster.png
+featured_image: /assets/img/news/disaster.webp
 categories:
   - Blog
 tags:

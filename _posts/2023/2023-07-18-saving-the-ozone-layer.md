@@ -5,7 +5,7 @@ date: 2023-07-18T20:04:29-04:00
 author: k3jph
 layout: post
 permalink: /2023/07/18/saving-the-ozone-layer
-featured_image: /assets/img/news/saving-the-ozone-layer.jpg
+featured_image: /assets/img/news/saving-the-ozone-layer.webp
 categories:
 - Blog 
 tags:
@@ -84,7 +84,7 @@ of severe consequences such as increased cancer rates and environmental
 damage, which they argue have not been realized to the predicted
 extent.
 
-{% include figure.html image="news/wonka.jpg" placement="left" width="50%"
+{% include figure.html image="news/wonka.webp" placement="left" width="50%"
 cap="Misinformation meme about the Ozone Layer (found online)"
 alt="Misinformation meme about the Ozone Layer (found online)" %}
 
@@ -113,7 +113,7 @@ However, the direst predictions didn't materialize as projected,
 not because they were fundamentally flawed, but primarily because
 the world took them seriously and acted.
 
-{% include figure.html image="news/ozone-2021.png" placement="right"
+{% include figure.html image="news/ozone-2021.webp" placement="right"
 width="50%" cap="Southern Hemisphere ozone levels (October 7, 2021),
 via NOAA" alt="Southern Hemisphere ozone levels (October 7, 2021),
 via NOAA" %}
@@ -249,7 +249,7 @@ industry for cleaning circuit boards. Methyl chloroform was used
 as an industrial solvent for cleaning and degreasing, as well as
 in some aerosol products.
 
-{% include figure.html image="news/drycleaner.jpg" placement="center"
+{% include figure.html image="news/drycleaner.webp" placement="center"
 width="100%" cap="Carbon tetrachloride and methyl chloroform have
 been widely-used in drycleaning (via PXhere)" alt="Carbon tetrachloride
 and methyl chloroform have been widely-used in drycleaning (via

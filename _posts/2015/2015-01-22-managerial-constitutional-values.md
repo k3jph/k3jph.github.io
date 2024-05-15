@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/01/22/managerial-constitutional-values/
 dsq_thread_id:
   - "3447183070"
-featured_image: /assets/img/news/4249886990_107e92c466_b.jpg
+featured_image: /assets/img/news/4249886990_107e92c466_b.webp
 categories:
   - Blog
 tags:

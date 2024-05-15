@@ -7,7 +7,7 @@ layout: post
 permalink: /2015/11/30/teaching-public-finance-public-administrators/
 dsq_thread_id:
   - "4364502324"
-featured_image: /assets/img/news/nyse.png
+featured_image: /assets/img/news/nyse.webp
 categories:
   - Blog
 tags:

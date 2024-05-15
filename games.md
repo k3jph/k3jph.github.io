@@ -5,13 +5,13 @@ date: 2018-02-19T16:33:40-05:00
 author: James Howard
 layout: page
 guid: https://jameshoward.us/?page_id=6181
-image: /assets/images/games-header.jpg
+image: /assets/images/games-header.webp
 menu-order:     91
 menu-label:     Games
 ---
 ## GURPS Disasters: Hurricane
 
-{% include figure.html image="GURPS_Disasters_Hurricane.png" cap="" width="25%" 
+{% include figure.html image="GURPS_Disasters_Hurricane.webp" cap="" width="25%" 
    placement="right" link="/gurps-hurricane"
    alt="GURPS Disasters: Hurricane gamebook cover" %}
 

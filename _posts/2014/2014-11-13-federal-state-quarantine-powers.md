@@ -5,7 +5,7 @@ date: 2014-11-13T09:25:21-05:00
 author: k3jph
 layout: post
 permalink: /2014/11/13/federal-state-quarantine-powers/
-featured_image: /assets/img/news/5322817686_0c670bdaa6_z.jpg
+featured_image: /assets/img/news/5322817686_0c670bdaa6_z.webp
 dsq_thread_id:
   - "3219081630"
 categories:

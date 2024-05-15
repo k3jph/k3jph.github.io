@@ -5,7 +5,7 @@ date: 2017-12-22T20:31:21-05:00
 author: k3jph
 layout: post
 permalink: /2017/12/22/tax-bill-wont-create-jobs/
-featured_image: /assets/img/news/tax-bill-wont-create-jobs.jpg
+featured_image: /assets/img/news/tax-bill-wont-create-jobs.webp
 categories:
   - Blog
 tags:
@@ -36,7 +36,7 @@ the supply curves meet, just like any other good or service.  We
 call this equilibrium and looks like this rather vanilla supple and
 demand chart:
 
-{% include figure.html image="news/768px-Supply-demand-equilibrium.svg_.png" 
+{% include figure.html image="news/768px-Supply-demand-equilibrium.svg_.webp" 
    alt="Supply and demand at equilibrium (SilverStar / Wikimedia Commons)"
    cap="Supply and demand at equilibrium (SilverStar / Wikimedia Commons)" %}
 
@@ -61,7 +61,7 @@ money.  Also, money is good, so we want as much of that as we can
 get.  Here's a chart showing the relationship between marginal cost,
 price, and revenue, which we typically call the "cost curve":
 
-{% include figure.html image="news/800px-Costcurve_-_Combined.svg_.png" 
+{% include figure.html image="news/800px-Costcurve_-_Combined.svg_.webp" 
    alt="The cost curve for a good or service (Jarry1250 / Wikimedia Commons)"
    cap="The cost curve for a good or service (Jarry1250 / Wikimedia Commons)" %}
 

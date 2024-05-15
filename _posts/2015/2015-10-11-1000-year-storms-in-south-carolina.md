@@ -9,7 +9,7 @@ dsq_thread_id:
   - "4216380829"
 instant_articles_submission_id:
   - "1539899926043055"
-featured_image: /assets/img/news/columbia-sc-flooding.png
+featured_image: /assets/img/news/columbia-sc-flooding.webp
 categories:
   - Blog
 tags:
@@ -31,4 +31,4 @@ The post quotes an [awful editorial in the Charleston _Post and Courier_](http:/
 
 That is a complete misunderstanding of the AEP.  The AEP provides a probability, not an interval.  A storm like this is just as likely tomorrow as  it was yesterday.  Nothing will prevent one from coming again before a thousand years are up.  As many, including HSW, have pointed out, these storms and floods are likely to become more frequent as global climate change distorts long term weather patterns.
 
-_Image by [United States Air National Guard / Wikimedia](https://en.wikipedia.org/wiki/File:Columbia,_South_Carolina,_October_5,_2015,_levee_breach.jpg)._
+_Image by [United States Air National Guard / Wikimedia](https://en.wikipedia.org/wiki/File:Columbia,_South_Carolina,_October_5,_2015,_levee_breach.webp)._

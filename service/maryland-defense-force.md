@@ -377,7 +377,7 @@ and is not authorized for wear by MDDF members.
 ## <a id='MyCommission' />My Commission
 
 {% include figure.html width="12"
-   image="/service/jhoward-mddf-commission.png" 
+   image="/service/jhoward-mddf-commission.webp" 
    alt="Commission in the Maryland Defense Force"
    cap="Commission in the Maryland Defense Force" %}
 
