@@ -342,11 +342,31 @@ and the commitment to uphold principles of justice and honor.
 ### Scottish Crest Badge
 
 The Scottish crest badge, traditionally worn as a cap badge,
-incorporates the elements of my crest within a belt and buckle design,
-symbolizing loyalty and fidelity. The martlet, encircled by the belt
-bearing my motto "_Ir-rieda biss tmexxi l-qalb_," echoes the themes of
-determination and leadership. This adaptation allows for the heraldic
-elements to be displayed in a manner that is both culturally resonant
-and deeply personal, aligning with the Scottish tradition of crest
-badges representing clan affiliation and personal heritage.
+incorporates elements from my crest within a belt and buckle design,
+symbolizing loyalty and fidelity. This format is deeply rooted in
+Scottish heraldic tradition, where the belt and buckle, or strap and
+buckle, signifies allegiance to a clan chief and adherence to a shared
+heritage.
 
+The central element of my Scottish crest badge is the martlet, which is
+encircled by a belt bearing they motto "_Ir-rieda biss tmexxi l-qalb_."
+The martlet, a small bird depicted without feet, traditionally
+symbolizes continuous quest and ambition, representing the idea of
+perpetual journey and striving for excellence. This imagery aligns with
+my personal values of constant endeavor and the pursuit of higher
+aspirations.
+
+The belt and buckle design is a prominent feature in Scottish crest
+badges, symbolizing a strong and binding connection to one's lineage and
+loyalty to the clan or family represented by the crest. The circular
+form of the belt signifies unity and continuity, while the buckle
+denotes security and steadfastness. This design element emphasizes a
+sense of belonging and commitment, reinforcing the collective identity
+of the bearers of the badge.
+
+In my crest badge, the belt and buckle also serve to frame the martlet
+and motto, highlighting their importance and ensuring that the emblem is
+cohesive and visually balanced. The integration of the belt and buckle
+with my personal motto further underscores the themes of determination
+and leadership, suggesting that true guidance and direction in life come
+from inner strength and resolve.
