@@ -146,20 +146,20 @@ the mythical king.
 {% include figure.html image="house-kamon.svg" width="3"
 cap="Kamon adapted from the Crest" alt="Kamon adapted from the Crest" %}
      
-The crest features a martlet sable, a heraldic charge that holds
-rich symbolism within the realm of heraldry. Suggested by Count
-Gauci, the martlet's inclusion hints at a lineage likely connecting
-me to Thomas Arundell, whose arms bore six martlets. While the
-descent remains unproven, the martlet is a significant symbol in
-heraldry, often representing continuous quest and ambition.
-Traditionally depicted without feet, the martlet is said to be in
-perpetual flight, emblematic of constant endeavor and the pursuit
-of higher aspirations. This imagery aligns with the bearer's journey
-of discovery and excellence in their field. Therefore, the use of
-the martlet is not only a potential nod to ancestral ties but also
-a testament to the bearer's tireless dedication and pursuit of
-knowledge, embodying the spirit of ambition and the relentless
-pursuit of achievement.
+The crest features a martlet sable, a heraldic charge that holds rich
+symbolism within the realm of heraldry. Suggested by Count Gauci, the
+martlet's inclusion hints at a lineage likely connecting me to [Thomas
+Arundell](https://www.catholic.com/encyclopedia/thomas-arundell), whose
+arms bore six martlets. While the descent remains unproven, the martlet
+is a significant symbol in heraldry, often representing continuous quest
+and ambition.  Traditionally depicted without feet, the martlet is said
+to be in perpetual flight, emblematic of constant endeavor and the
+pursuit of higher aspirations. This imagery aligns with the bearer's
+journey of discovery and excellence in their field. Therefore, the use
+of the martlet is not only a potential nod to ancestral ties but also a
+testament to the bearer's tireless dedication and pursuit of knowledge,
+embodying the spirit of ambition and the relentless pursuit of
+achievement.
             
 In addition to incorporating the martlet into the crest of the coat of arms,
 I've embraced a unique cross-cultural heraldic approach by creating an image of
@@ -200,8 +200,8 @@ renditions, showcasing the universal language of heraldry that
 transcends individual variations in artistic expression.
 
 {% include figure.html image="jhoward-maltese-salmeron-960px.webp" width="80%" border=true
-cap="Coat of Arms for James P. Howard, II, as interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
-alt="Coat of Arms for James P. Howard, II, as interpreted by Dr Antonio Salmerón" %}
+cap="Coat of Arms as interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
+alt="Coat of Arms as interpreted by Dr Antonio Salmerón" %}
 
 I have developed two versions of my coat of arms, utilizing digital
 techniques to craft the heraldic elements. Displayed side by side,
@@ -211,26 +211,142 @@ used the medieval style in most cases due to its more compact and
 streamlined design, which offers greater versatility for various
 applications.
 
-{% include figure.html image="jhoward-maltese-coa-english.svg" placement="left"
-width="50%" cap="Coat of Arms for James P. Howard, II, in the English
-style by me" alt="Coat of Arms for James P. Howard, II, in the
-English style by me" %}
+{% include figure.html placement="left" width="6" 
+image="jhoward-maltese-coa-english.svg"
+cap="Coat of Arms in the English style by me" 
+alt="Coat of Arms in the English style by me" %}
 
-{% include figure.html image="jhoward-maltese-coa-medieval.svg" placement="left"
-width="50%" cap="Coat of Arms for James P. Howard, II, in the medieval
-style by me" alt="Coat of Arms for James P. Howard, II, in the
-medieval style by me" %}
+{% include figure.html placement="left" width="6"
+image="jhoward-maltese-coa-medieval.svg" 
+cap="Coat of Arms for in the medieval style by me" 
+alt="Coat of Arms for in the medieval style by me" %}
+
+## Banner and Flag 
 
 The coat of arms has also been adapted into flag and banner formats,
-presented in the standard 2:3 flag proportions and the square 1:1
-banner proportions. This allows for the heraldic design to be
-displayed in various contexts, extending its visibility and versatility
-in use.
+each serving distinct purposes and conforming to specific proportions.
+This allows the heraldic design to be displayed in various contexts,
+extending its visibility and versatility in use.
 
-{% include figure.html image="jhoward-maltese-flag.svg" 
-width="50%" cap="Flag for James P. Howard, II" alt="Flag for James
-P. Howard, II" %}
+### Flag
 
-{% include figure.html image="jhoward-maltese-banner.svg"
-width="50%" cap="Banner for James P. Howard, II" alt="Banner for
-James P. Howard, II" %}
+The flag, presented in the standard 2:3 proportions, is designed for
+broader, more public displays. Flags are typically used for flying from
+flagpoles, serving as a symbol of identification and pride that can be
+seen from a distance. The design of the flag ensures that it remains
+recognizable and impactful even when viewed from afar. 
+
+In my case, the flag version of my coat of arms retains the same content
+as the original design, adapted to fit the rectangular format. This
+adaptation ensures that the essential elements of the coat of arms are
+maintained while providing a format that is suitable for outdoor use,
+ceremonial occasions, and events where the emblem needs to be
+prominently displayed to represent the bearer or the institution. The
+flag is ideal for situations where visibility and ease of recognition
+are paramount, such as during parades, official functions, or as a
+marker of presence and authority.
+
+### Banner
+
+The banner, on the other hand, is presented in a square 1:1 proportion,
+adhering to traditional heraldic practices. Banners are often used in
+more formal and static displays, such as indoor environments,
+processions, or when hung vertically from a balcony or a wall. The
+square shape of the banner allows for a different visual emphasis, often
+highlighting the central elements of the coat of arms with greater
+prominence.
+
+Banners serve as a heraldic standard, providing a more detailed and
+elaborate representation of the arms. In contrast to flags, which are
+meant to be viewed from a distance, banners are typically displayed
+closer to the observer, allowing for a finer appreciation of the
+intricate details and symbolism of the coat of arms. This makes banners
+particularly suitable for ceremonial use, academic settings, or as part
+of an exhibit where the heraldic art can be admired up close.
+
+The banner version of my coat of arms focuses on the shield and crest,
+ensuring that the primary symbols are prominently featured. This format
+is ideal for formal occasions and environments where the banner can be
+displayed as a testament to heritage and honor.
+
+{% include figure.html image="jhoward-maltese-flag.svg" width="7" 
+cap="Heraldic flag adapted from the arms" 
+alt="Heraldic flag adapted from the arms"  %}
+
+{% include figure.html image="jhoward-maltese-banner.svg" width="5"
+cap="Heraldic banner for adapted from the arms" 
+alt="Heraldic banner for adapted from the arms" %}
+
+## Heraldic Badges
+
+In addition to my coat of arms, I have adopted its design into heraldic
+badges, reflecting both the English heraldic badge tradition and the
+Scottish crest badge. Heraldic badges, distinct from coats of arms,
+serve as a versatile symbol of allegiance and identification, often worn
+by retainers and followers. These badges are simpler in design, intended
+for widespread recognition and usage, extending the visual
+representation of the bearer's heraldic identity beyond the formal
+confines of a coat of arms.
+
+Modern Maltese law of arms is influenced by both English and Scottish
+heraldic traditions, reflecting the island's historical ties and
+cultural exchanges with the British Isles. This influence is evident in
+the adoption of heraldic practices and symbols that honor the rich
+tapestry of Maltese history while incorporating elements from these
+well-established heraldic systems. By integrating these traditions, the
+Maltese heraldic system ensures a robust framework for granting and
+regulating coats of arms and badges, maintaining a respectful nod to its
+diverse heraldic heritage.
+
+{% include figure.html width="4"
+image="jhoward-maltese-heraldic-badge.svg" 
+cap="Badge in the form of an English heraldic badge"
+alt="Badge in the form of an English heraldic badge" %}
+
+{% include figure.html width="4" 
+image="jhoward-maltese-crest-badge-member.svg" 
+cap="Crest in the form of a crest badge" 
+alt="Crest in the form of a crest badge" %}
+
+{% include figure.html width="4" 
+image="jhoward-maltese-crest-badge-chief.svg" 
+cap="Crest in the form of an armiger's crest badge" 
+alt="Crest in the form of an armiger's crest badge" %}
+
+<div class="row"></div>
+
+### English Heraldic Badge
+
+The English heraldic badge I have adopted features the martlet from my
+crest, depicted in front of the sword from my coat of arms, which is
+arranged vertically. This design choice adds a layer of complexity and
+meaning, combining two significant elements from my coat of arms into a
+single, cohesive emblem. The badge is designed to be recognizable and
+straightforward, making it suitable for various applications such as
+seals, stationery, and personal regalia. 
+
+The martlet, depicted in a prominent and uncluttered manner, maintains
+its symbolic significance of continuous quest and ambition.
+Traditionally, the martlet is seen as a symbol of perpetual effort and
+aspiration, as it is often shown without feet, suggesting a bird that
+never comes to rest. This aligns with the values of constant endeavor
+and the pursuit of higher goals.
+
+Including the sword complements the martlet's representation of tireless
+endeavor. The sword's vertical arrangement evokes strength and
+readiness, highlighting themes of nobility and righteousness. Together,
+these elements create a badge that serves as a personal emblem,
+reflecting the enduring effort towards personal and professional goals,
+and the commitment to uphold principles of justice and honor.
+
+### Scottish Crest Badge
+
+The Scottish crest badge, traditionally worn as a cap badge,
+incorporates the elements of my crest within a belt and buckle design,
+symbolizing loyalty and fidelity. The martlet, encircled by the belt
+bearing my motto "_Ir-rieda biss tmexxi l-qalb_," echoes the themes of
+determination and leadership. This adaptation allows for the heraldic
+elements to be displayed in a manner that is both culturally resonant
+and deeply personal, aligning with the Scottish tradition of crest
+badges representing clan affiliation and personal heritage.
+
