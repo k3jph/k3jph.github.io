@@ -23,15 +23,15 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="13.349648"
-     inkscape:cx="40.712684"
-     inkscape:cy="15.543481"
-     inkscape:window-width="1472"
-     inkscape:window-height="892"
-     inkscape:window-x="0"
-     inkscape:window-y="64"
+     inkscape:zoom="22.627417"
+     inkscape:cx="145.92916"
+     inkscape:cy="1.1269514"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="1470"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g8" />
+     inkscape:current-layer="svg8" />
   <title
      id="title1">k3jph: James Howard</title>
   <linearGradient
@@ -48,34 +48,29 @@
        stop-opacity=".1"
        id="stop2" />
   </linearGradient>
-  <clipPath
-     id="r">
-    <rect
-       width="149"
-       height="20"
-       rx="3"
-       fill="#fff"
-       id="rect2" />
-  </clipPath>
   <g
-     clip-path="url(#r)"
+     clip-path="none"
      id="g5">
-    <rect
-       width="58"
-       height="20"
-       fill="#f5c96f"
-       id="rect3" />
-    <rect
-       x="58"
-       width="91"
-       height="20"
-       fill="#0c6793"
-       id="rect4" />
+    <path
+       id="rect4-0"
+       style="fill:#f5c96f;fill-opacity:1"
+       d="M 3,0 C 1.338,0 0,1.338 0,3 v 14 c 0,1.662 1.338,3 3,3 H 91 V 0 Z"
+       sodipodi:nodetypes="ssssccs" />
+    <path
+       id="rect4"
+       style="fill:#0c6793"
+       d="m 146,0 c 1.662,0 3,1.338 3,3 v 14 c 0,1.662 -1.338,3 -3,3 H 58 V 0 Z"
+       sodipodi:nodetypes="ssssccs" />
     <rect
        width="149"
        height="20"
        fill="url(#s)"
-       id="rect5" />
+       id="rect5"
+       x="0"
+       y="0"
+       style="display:inline"
+       ry="3"
+       sodipodi:insensitive="true" />
   </g>
   <g
      fill="#fff"

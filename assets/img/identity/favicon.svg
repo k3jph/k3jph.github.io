@@ -34,7 +34,7 @@
      inkscape:window-x="1470"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1-7" />
   <defs
      id="defs1">
     <inkscape:path-effect
@@ -518,19 +518,9 @@
     <path
        id="path1"
        d="m -145.70702,-0.65677633 c 0.12588,0.42047 0.64688,0.6826 1.66128,0.74384 9.36446,0.56535 52.918221,-12.93078967 76.926731,-16.19028967 24.00851,-3.2595 44.56804,-3.45753 67.12434039,-3.36668 22.55629961,0.09084 44.20496961,0.65207 68.21345961,3.91174 24.00849,3.25966 66.121299,15.88730967 75.837469,15.64624967 1.19267,-0.02959 1.78657,-0.28712 1.91585,-0.71893" />
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath82">
-      <path
-         d="M 177.83488,372.26396 62.282529,172.12141 195.71088,95.086518 c 143.00809,-82.565761 319.2013,-82.565774 462.20939,-2e-6 1e-5,165.131524 -88.09659,317.719324 -231.10468,400.285084 l -133.42835,77.0349 z"
-         id="path82"
-         style="display:inline;fill:none;fill-opacity:0;stroke:#333333;stroke-width:2.31105;stroke-linecap:round;stroke-linejoin:round"
-         inkscape:label="Outline" />
-    </clipPath>
   </defs>
   <g
      inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-50.566844,-44.359853)">
     <rect
@@ -549,7 +539,7 @@
          id="layer2"
          inkscape:label="Sword"
          transform="matrix(-0.30155074,0,0,-0.30155074,213.56861,224.77485)"
-         clip-path="url(#clipPath82)"
+         clip-path="none"
          style="display:inline">
         <g
            stroke-linecap="round"

@@ -24,26 +24,16 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.6820162"
-     inkscape:cx="164.38605"
-     inkscape:cy="191.13965"
+     inkscape:cx="164.08879"
+     inkscape:cy="190.84239"
      inkscape:window-width="1920"
-     inkscape:window-height="1080"
-     inkscape:window-x="2056"
-     inkscape:window-y="0"
+     inkscape:window-height="1027"
+     inkscape:window-x="1470"
+     inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer2" />
+     inkscape:current-layer="layer1" />
   <defs
-     id="defs1">
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath82">
-      <path
-         d="M 177.83488,372.26396 62.282529,172.12141 195.71088,95.086518 c 143.00809,-82.565761 319.2013,-82.565774 462.20939,-2e-6 1e-5,165.131524 -88.09659,317.719324 -231.10468,400.285084 l -133.42835,77.0349 z"
-         id="path82"
-         style="display:inline;fill:none;fill-opacity:0;stroke:#333333;stroke-width:2.31105;stroke-linecap:round;stroke-linejoin:round"
-         inkscape:label="Outline" />
-    </clipPath>
-  </defs>
+     id="defs1" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
@@ -54,7 +44,7 @@
        id="layer2"
        inkscape:label="Sword"
        transform="matrix(-0.30155074,0,0,-0.30155074,213.56861,224.77485)"
-       clip-path="url(#clipPath82)"
+       clip-path="none"
        style="display:inline">
       <g
          stroke-linecap="round"
