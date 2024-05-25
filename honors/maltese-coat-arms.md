@@ -17,9 +17,9 @@ redirect_from:
   - /honors/malta/
 ---
 
-{% include figure.html image="jhoward-maltese-salmeron-960px.webp" placement="right" width="40%" border=true
-cap="Coat of Arms for James P. Howard, II, as interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
-alt="Coat of Arms for James P. Howard, II, as interpreted by Dr Antonio Salmerón" %}
+{% include figure.html image="jhoward-maltese-coa-achernushkin-960px.webp" placement="right" width="6"
+cap="Coat of Arms as interpreted by [Alexandr Chernushkin](https://www.fiverr.com/achernushkin)" 
+alt="Coat of Arms as interpreted by Alexandr Chernushkin" %}
 
 At its core, heraldry started as a means of identification, evolving
 over centuries from simple insignias to the complex art of designing,
@@ -199,10 +199,6 @@ the essence of the coat of arms remains consistent across different
 renditions, showcasing the universal language of heraldry that
 transcends individual variations in artistic expression.
 
-{% include figure.html image="jhoward-maltese-salmeron-960px.webp" width="80%" border=true
-cap="Coat of Arms as interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
-alt="Coat of Arms as interpreted by Dr Antonio Salmerón" %}
-
 I have developed two versions of my coat of arms, utilizing digital
 techniques to craft the heraldic elements. Displayed side by side,
 the version on the left adheres to the traditional English style,
@@ -373,10 +369,6 @@ from inner strength and resolve.
 
 ## Additional Emblazonments
 
-{% include figure.html image="jhoward-maltese-coa-ratul-960px.webp" placement="right" width="40%" border=true
-cap="Coat of Arms as interpreted by [Ratul S](https://www.fiverr.com/ratulsen544)" 
-alt="Coat of Arms as interpreted by Ratul S" %}
-
 In this section, we showcase various artistic interpretations of my coat of
 arms, highlighting the diversity and creativity within heraldic art. Each
 emblazonment, while adhering to the same blazon, brings a unique style and
@@ -386,5 +378,13 @@ heraldry can be both a precise science and a vibrant art form.  By exploring
 different emblazonments, we can appreciate the multifaceted nature of heraldic
 design and its capacity to convey identity and heritage through various artistic
 lenses.
+
+{% include figure.html image="jhoward-maltese-salmeron-960px.webp" placement="right" width="6" 
+cap="Coat of Arms as interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
+alt="Coat of Arms as interpreted by Dr Antonio Salmerón" %}
+
+{% include figure.html image="jhoward-maltese-coa-ratul-960px.webp" placement="right" width="6" border=true
+cap="Coat of Arms as interpreted by [Ratul S](https://www.fiverr.com/ratulsen544)" 
+alt="Coat of Arms as interpreted by Ratul S" %}
 
 <div class="row"></div>
