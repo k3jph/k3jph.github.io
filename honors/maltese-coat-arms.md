@@ -370,3 +370,21 @@ cohesive and visually balanced. The integration of the belt and buckle
 with my personal motto further underscores the themes of determination
 and leadership, suggesting that true guidance and direction in life come
 from inner strength and resolve.
+
+## Additional Emblazonments
+
+{% include figure.html image="jhoward-maltese-coa-ratul-960px.webp" placement="right" width="40%" border=true
+cap="Coat of Arms as interpreted by [Ratul S](https://www.fiverr.com/ratulsen544)" 
+alt="Coat of Arms as interpreted by Ratul S" %}
+
+In this section, we showcase various artistic interpretations of my coat of
+arms, highlighting the diversity and creativity within heraldic art. Each
+emblazonment, while adhering to the same blazon, brings a unique style and
+perspective, reflecting the individual artistry of the creators. These
+variations enrich the visual representation of the arms, demonstrating how
+heraldry can be both a precise science and a vibrant art form.  By exploring
+different emblazonments, we can appreciate the multifaceted nature of heraldic
+design and its capacity to convey identity and heritage through various artistic
+lenses.
+
+<div class="row"></div>
