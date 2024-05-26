@@ -73,8 +73,12 @@ I have taught undergraduate mathematics at the [University of Maryland Global Ca
     *   [Spring 2015 (OL4) Syllabus](/assets/docs/MATH-106-Spring-2015-OL4.pdf)
     *   [Fall 2014 (OL4) Syllabus](/assets/docs/MATH-106-Fall-2014-OL4.pdf)
 *   **MATH 107 College Algebra** A gentle introduction college-level algebra including equations, inequalities, graphing, and polynomial and exponential equations.
-    *   [Summer 2023 (OL1) Syllabus]()
-    *   [Spring 2023 (OL3) Syllabus]()
+    *   [Summer 2024 (OL1) Syllabus](/assets/docs/MATH_107_6382_College_Algebra_2245_MATH_107_Summer_2024.pdf)
+    *   [Spring 2024 (OL3) Syllabus](/assets/docs/MATH_107_7388_College_Algebra_2242_MATH_107_Spring_2024.pdf)
+    *   [Fall 2023 (OL3) Syllabus](/assets/docs/MATH_107_7384_College_Algebra_2238_MATH_107_Fall_2023.pdf)
+    *   [Fall 2023 (OL1) Syllabus](/assets/docs/MATH_107_6382_College_Algebra_2238_MATH_107_Fall_2023.pdf)
+    *   [Summer 2023 (OL1) Syllabus](/assets/docs/MATH_107_6394_College_Algebra_2235_MATH_107_Summer_2023.pdf)
+    *   [Spring 2023 (OL3) Syllabus](/assets/docs/MATH_107_7390_College_Algebra_2232_MATH_107_Spring_2023.pdf)
     *   [Spring 2023 (OL1) Syllabus](/assets/docs/MATH_107_6390_College_Algebra_2232_MATH_107_Spring_2023.pdf)
     *   [Fall 2022 (OL3) Syllabus](/assets/docs/MATH_107_7389_College_Algebra_2228_MATH_107_Fall_2022.pdf)
     *   [Fall 2022 (OL1) Syllabus](/assets/docs/MATH_107_6376_College_Algebra_2228_MATH_107_Fall_2022.pdf)
@@ -116,7 +120,8 @@ I have also taught other courses from the mathematics program:
 Finally, I have taught courses from our statistics program. We are now down to just STAT 200, but we previously had an array of thematically-linked statistics classes for business, social science, and computer science:
 
 *   **STAT 200 Introduction to Statistics** This is an introduction to applied statistics. Probability, t-tests, and [latex]\chi^2[/latex]-tests are introduced. Application areas are broadly selected from across many different fields.
-    *   [Summer 2023 (OL1) Syllabus]()
+    *   [Spring 2024 (OL1) Syllabus](/assets/docs/STAT_200_6377_Introduction_to_Statistics_2242_STAT_200_Spring_2024.pdf)
+    *   [Summer 2023 (OL1) Syllabus](/assets/docs/STAT_200_6391_Introduction_to_Statistics_2235_STAT_200_Summer_2023.pdf)
     *   [Spring 2020 (OL4) Syllabus](/assets/docs/STAT-200-Spring-2020-OL4.pdf)
     *   [Fall 2017 (OL1) Syllabus](/assets/docs/STAT200-Syllabus-Fall-2017-OL1.pdf)
 *   **STAT 230 Introductory Business Statistics** This is is essentially the same as STAT 200, but the examples are drawn primarily from business settings and include production and finance problems. This class has since been discontinued in favor of STAT 200, above, as a generalized statistics course.
@@ -149,6 +154,7 @@ In the spring of 2017, I started occasionally teaching in the [Master of Science
 *   **MSA 600 Foundations of Research Methods in Administration** This course covers the basic research process starting with the scientific method, lit reviews, data collection, analysis, through to research writing. Through this course, a student is well-prepared to design and complete a research project in a government or business setting.
     *   [Spring 2017 Syllabus](/assets/docs/MSA600-Syllabus-Spring2017.pdf)
 *   **MSA 607 Program Management in Complex Organizations** This course is a unique course that looks beyond standard project management and looks at the interrelationships of projects inside large and diversified organizations.
+    *   [Spring 2024 Syllabus](/assets/docs/MSA607-Syllabus-Spring2024.pdf)
     *   [Spring 2023 Syllabus](/assets/docs/MSA607-Syllabus-Spring2023.pdf)
     *   [Fall 2022 Syllabus](/assets/docs/MSA607-Syllabus-Fall2022.pdf)
     *   [Spring 2022 Syllabus](/assets/docs/MSA607-Syllabus-Spring2022.pdf)
@@ -157,7 +163,8 @@ In the spring of 2017, I started occasionally teaching in the [Master of Science
     *   [Fall 2019 Syllabus](/assets/docs/MSA607-Syllabus-Fall2019.pdf)
     *   [Spring 2019 Syllabus](/assets/docs/MSA607-Syllabus-Spring2019.pdf)
 *   **MSA 647 People and Project Administration** This course introduces the nontechnical side of project management. It focuses on communication, principally with stakeholders and within the project team. From this course, students should be able to manage project risk better from a personnel standpoint.
-    *   Fall 2023 Syllabus, coming soon
+    *   [Summer 2024 Syllabus](/assets/docs/MSA647-Syllabus-Summer2024.pdf)
+    *   [Fall 2023 Syllabus](/assets/docs/MSA647-Syllabus-Fall2023.pdf)
     *   [Spring 2023 Syllabus](/assets/docs/MSA647-Syllabus-Spring2023.pdf)
     *   [Fall 2022 Syllabus](/assets/docs/MSA647-Syllabus-Fall2022.pdf)
     *   [Spring 2022 Syllabus](/assets/docs/MSA647-Syllabus-Spring2022.pdf)
