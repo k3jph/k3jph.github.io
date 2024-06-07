@@ -83,9 +83,9 @@ forward-thinking approach to international diplomacy and his
 commitment to advocating for the sovereignty and collaboration of
 island nations in the Pacific and Indian Oceans.
 
-{% include figure.html image="star-oceania-emblem.webp" placement="right" width="4"
-cap="Insignia of the Order of the Star of Oceania"
-alt="Insignia of the Order of the Star of Oceania" %}
+{% include figure.html image="honors/KCRSO-medal.svg" placement="right" width="4"
+cap="The medal of a Knight Commander of the Royal Order of the Star of Oceania"
+alt="The medal of a Knight Commander of the Royal Order of the Star of Oceania" %}
 
 However, the order was abolished following the overthrow of Queen
 Lili'uokalani in 1893, an event that marked the decline of the
@@ -108,6 +108,10 @@ cultures. The Royal Order of the Star of Oceania thus continues to
 embody the spirit of unity and recognition that was its original
 intent, bridging historical traditions with contemporary pursuits
 in cultural diplomacy and education.
+
+{% include figure.html image="star-oceania-emblem.webp" width="12"
+cap="Insignia of the Order of the Star of Oceania"
+alt="Insignia of the Order of the Star of Oceania" %}
 
 The diploma is in Hawaiian and translates to:
 
