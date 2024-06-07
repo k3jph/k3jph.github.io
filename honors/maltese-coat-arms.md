@@ -345,7 +345,7 @@ buckle, signifies allegiance to a clan chief and adherence to a shared
 heritage.
 
 The central element of my Scottish crest badge is the martlet, which is
-encircled by a belt bearing they motto "_Ir-rieda biss tmexxi l-qalb_."
+encircled by a belt bearing the motto "_Ir-rieda biss tmexxi l-qalb_."
 The martlet, a small bird depicted without feet, traditionally
 symbolizes continuous quest and ambition, representing the idea of
 perpetual journey and striving for excellence. This imagery aligns with
