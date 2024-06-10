@@ -88,7 +88,7 @@ such issues.
 
 {% include figure.html width="4" placement="right"
    image="/2024/why-cellphones-cannot-be-used-on-planes/zack-morris-phone.webp"
-   alt="Zack Morris and his phone" cap="Zack Morris and his phone"
+   alt="Zack Morris and his phone, via Peter Engel Productions" cap="Zack Morris and his phone [Peter Engel Productions](https://www.imdb.com/name/nm0257137/)"
    %}
 
 [Analog cell phones](http://osmocom-analog.eversberg.eu/docs/amps.html),
