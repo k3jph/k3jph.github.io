@@ -36,10 +36,6 @@ collaborating with other emergency response organizations and
 agencies, including the Maryland National Guard and the Federal
 Emergency Management Agency (FEMA).
 
-{% include figure.html image="ribbons/mddf/MDDF-SSI.svg" placement="right" width="30%"
-cap="The Maryland Defense Force's shoulder sleeve insignia"
-alt="The Maryland Defense Force's shoulder sleeve insignia" %}
-
 Overall, my experience in the MDDF has been incredibly rewarding
 and fulfilling. It has provided me with the opportunity to serve
 my community and my state in a meaningful way, while also developing
@@ -47,7 +43,74 @@ important skills and knowledge that I can apply in both my personal
 and professional life.
 
 The following is a brief overview of my experience and
-accomplishments with the MDDF.
+accomplishments with the MDDF, as well as the MDDF itself.
+
+## History of the Maryland Defense Force
+
+The traces its origins to the early
+20th century, playing a pivotal role in state defense and emergency
+response. Initially established on October 23, 1917, as the Maryland
+State Guard, its creation was a direct response to World War I,
+aimed at assuming the duties of the National Guard when federalized.
+The primary mission of this early incarnation was to provide homeland
+security, protect critical infrastructure, and maintain public order
+during a tumultuous period.
+
+{% include figure.html image="ribbons/mddf/MDDF-SSI.svg" placement="right" width="30%"
+cap="The Maryland Defense Force's shoulder sleeve insignia"
+alt="The Maryland Defense Force's shoulder sleeve insignia" %}
+
+Following World War I, the Maryland State Guard was disbanded, but
+the concept of a state defense force persisted. It wasn't until
+World War II that the need for a state-level military force became
+apparent again. Reactivated as the Maryland State Guard Reserve,
+the MDDF's focus shifted to defending the state against potential
+threats and assisting in civil defense efforts. This period saw the
+MDDF involved in a range of activities, from patrolling vital
+infrastructure to providing support during blackouts and other
+wartime emergencies.
+
+Post-World War II, the MDDF underwent several transformations. In
+1983, the Maryland Defense Force was officially reestablished in
+its modern form. This reactivation was part of a broader national
+trend recognizing the importance of state defense forces in
+supplementing the National Guard and providing critical support
+during emergencies. The MDDF was tasked with a broader mandate,
+including disaster response, search and rescue operations, and
+support for public health emergencies.
+
+The MDDF's structure reflects its diverse mission. Organized into
+specialized units such as medical, engineering, and cyber defense,
+the MDDF leverages the professional skills of its volunteer members
+to address specific needs during emergencies. This modular structure
+allows for rapid deployment and effective coordination with other
+state and federal agencies. For example, the MDDF's Medical Unit
+has been crucial in providing medical support during large-scale
+public health crises, while the Engineering Unit has assisted in
+infrastructure assessment and repair following natural disasters.
+
+One significant milestone in the MDDF's history was its response
+to the September 11, 2001, terrorist attacks. The MDDF was mobilized
+to provide security at critical sites and assist in the overall
+state response to the heightened security threats. This period
+underscored the importance of the MDDF's role in homeland security
+and emergency preparedness.
+
+In recent years, the MDDF has been at the forefront of responding
+to natural disasters and public health emergencies. Notably, during
+the COVID-19 pandemic, the MDDF played a crucial role in supporting
+vaccination efforts and other public health initiatives. The force's
+ability to mobilize quickly and work in conjunction with the Maryland
+National Guard and other agencies has been a testament to its
+training, dedication, and organizational efficiency.
+
+Today, the Maryland Defense Force remains an integral part of
+Maryland's emergency response framework. Its members, driven by a
+strong sense of duty and community service, continue to uphold the
+MDDF's legacy of readiness and resilience. The force's history is
+marked by a commitment to protecting and serving the citizens of
+Maryland, adapting to new challenges, and maintaining a steadfast
+presence in times of need.
 
 ## Skill Badges
 
