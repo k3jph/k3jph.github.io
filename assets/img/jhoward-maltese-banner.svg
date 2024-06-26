@@ -27,14 +27,14 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.53904917"
-     inkscape:cx="521.28825"
+     inkscape:cx="520.36069"
      inkscape:cy="267.13704"
-     inkscape:window-width="1920"
-     inkscape:window-height="1027"
-     inkscape:window-x="1470"
-     inkscape:window-y="25"
+     inkscape:window-width="3200"
+     inkscape:window-height="1305"
+     inkscape:window-x="1728"
+     inkscape:window-y="28"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer3" />
+     inkscape:current-layer="layer6" />
   <defs
      id="defs1">
     <clipPath
@@ -551,7 +551,7 @@
   </defs>
   <g
      id="layer3"
-     inkscape:label="Field"
+     inkscape:label="Banner"
      transform="matrix(0.6,0,0,0.6,2.9510534,38.073362)"
      inkscape:groupmode="layer">
     <rect
@@ -560,43 +560,33 @@
        width="250"
        height="250"
        x="-4.2729273"
-       y="-62.810108" />
-  </g>
-  <g
-     id="g1"
-     transform="matrix(0.6,0,0,0.6,0.38729694,30.38731)">
+       y="-62.810108"
+       inkscape:label="Field" />
     <g
-       id="layer5"
-       inkscape:label="Tetrahedron"
-       inkscape:groupmode="layer"
-       transform="translate(-0.49999998,-0.50000014)">
-      <g
-         id="Tetrahedron"
-         transform="matrix(2.0418533,-1.1711734e-8,1.1711734e-8,2.0418533,-211.80757,-327.2032)"
-         style="display:inline">
-        <path
-           id="rect2"
-           style="display:inline;vector-effect:non-scaling-stroke;fill:#79abb9;stroke-width:1.72461;-inkscape-stroke:hairline"
-           transform="matrix(0.15341601,0,0,0.15341601,147.51982,99.457368)"
-           d="m 140.90793,429.76711 -2e-5,277.00001 -241.99999,138 z"
-           sodipodi:nodetypes="cccc" />
-        <path
-           id="rect2-8"
-           style="display:inline;vector-effect:non-scaling-stroke;fill:#07406e;stroke-width:0.271478;-inkscape-stroke:hairline"
-           d="m 169.13735,207.88676 36.66643,21.17141 h -73.7931 z"
-           sodipodi:nodetypes="cccc" />
-        <path
-           id="rect2-87"
-           style="display:inline;vector-effect:non-scaling-stroke;fill:#0c6793;stroke-width:0.264583;-inkscape-stroke:hairline"
-           d="m 169.13735,165.39052 36.66643,63.66765 -36.66643,-21.17141 z"
-           sodipodi:nodetypes="cccc" />
-      </g>
+       id="Tetrahedron"
+       transform="matrix(2.0418533,-1.1711734e-8,1.1711734e-8,2.0418533,-216.5805,-340.51328)"
+       style="display:inline">
+      <path
+         id="rect2"
+         style="display:inline;vector-effect:non-scaling-stroke;fill:#79abb9;stroke-width:1.72461;-inkscape-stroke:hairline"
+         transform="matrix(0.15341601,0,0,0.15341601,147.51982,99.457368)"
+         d="m 140.90793,429.76711 -2e-5,277.00001 -241.99999,138 z"
+         sodipodi:nodetypes="cccc" />
+      <path
+         id="rect2-8"
+         style="display:inline;vector-effect:non-scaling-stroke;fill:#07406e;stroke-width:0.271478;-inkscape-stroke:hairline"
+         d="m 169.13735,207.88676 36.66643,21.17141 h -73.7931 z"
+         sodipodi:nodetypes="cccc" />
+      <path
+         id="rect2-87"
+         style="display:inline;vector-effect:non-scaling-stroke;fill:#0c6793;stroke-width:0.264583;-inkscape-stroke:hairline"
+         d="m 169.13735,165.39052 36.66643,63.66765 -36.66643,-21.17141 z"
+         sodipodi:nodetypes="cccc" />
     </g>
     <g
        id="layer6"
-       inkscape:label="Sword 1"
-       inkscape:groupmode="layer"
-       transform="translate(-0.49999998,-0.50000014)">
+       inkscape:label="Sword"
+       transform="translate(-4.7729274,-13.310085)">
       <g
          stroke-linecap="round"
          style="display:inline"
