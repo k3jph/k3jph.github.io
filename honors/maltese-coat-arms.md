@@ -379,7 +379,7 @@ different emblazonments, we can appreciate the multifaceted nature of heraldic
 design and its capacity to convey identity and heritage through various artistic
 lenses.
 
-{% include figure.html image="jhoward-maltese-salmeron-960px.webp" placement="right" width="6" 
+{% include figure.html image="jhoward-maltese-salmeron-960px.webp" placement="right" width="6" border=true
 cap="Coat of Arms as interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
 alt="Coat of Arms as interpreted by Dr Antonio Salmerón" %}
 
