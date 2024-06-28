@@ -32,6 +32,7 @@
         setCookie("acceptCookies", true, 365);
         cookieAlert.classList.remove("show");
 
+        window['ga-disable-G-FSDET4HG4L'] = false;
         startGoogleAnalytics("G-FSDET4HG4L")
         // dispatch the accept event
         window.dispatchEvent(new Event("cookieAlertAccept"))
