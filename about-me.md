@@ -58,13 +58,29 @@ and serving on several public and private boards.
     * College Park Scholars Citation, International Studies
 * Post Secondary Educational Options Program, Miami University
 
-## Major Awards
+<div class="row">
+  <div class="col-12 col-md-6">
+    <h2 id="major-awards">Major Awards</h2>
+    <ul>
+      <li>Fellow of the <a href="/assets/docs/JHoward-FBCS.pdf">British Computer Society</a></li>
+      <li>Fellow of the <a href="/assets/docs/JHoward-FCybS.pdf">Cybernetics Society</a></li>
+      <li>Fellow of the <a href="/assets/docs/JHoward-IMA-FIMA.pdf">Institute of Mathematics and its Applications</a></li>
+      <li>Fellow of the Royal Society of Arts</li>
+      <li>Senior Member of the <a href="/assets/docs/JHoward-IEEE-SM.pdf">IEEE</a></li>
+    </ul>
+  </div>
+  <div class="col-12 col-md-6">
+    <h2 id="major-awards">Professional Titles</h2>
+    <ul>
+      <li>Chartered Scientist</li>
+      <li>Chartered Mathematician</li>
+      <li><a href="/assets/docs/JHoward-EURING.pdf">European Engineer</a></li>
+      <li><a href="/assets/docs/JHoward-ECUK-CEng.pdf">Chartered Engineer</a></li>
+      <li><a href="/assets/docs/JHoward-FBCS.pdf">Chartered IT Professional</a></li>
+    </ul>
+  </div>
+</div>
 
-* Fellow of the [British Computer Society](/assets/docs/JHoward-FBCS.pdf)
-* Fellow of the [Cybernetics Society](/assets/docs/JHoward-FCybS.pdf)
-* Fellow of the [Institute of Mathematics and its Applications](/assets/docs/JHoward-IMA-FIMA.pdf)
-* Fellow of the Royal Society of Arts
-* Senior Member of the [Institute of Electrical and Electronics Engineers](/assets/docs/JHoward-IEEE-SM.pdf)
 
 {% include figure.html image="akureyri-shades-420.webp" alt="Me in Akureyri...with solar shades"
    cap="Me in Akureyri...with solar shades" width="4" %}
