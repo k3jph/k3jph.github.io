@@ -1,5 +1,6 @@
 ---
-    layout: null
+layout: null
+sitemap: false
 ---
 /* global instantsearch algoliasearch */
 
