@@ -26,20 +26,14 @@
 {% endif                                    %}
 
 <div class="item {{ colwidth }} {{ pull }} px-4">
-    {% if include.link != null %}
-    <a href="{{ include.link | relative_url }}" class="header">
-    {% endif %}
-        <div class="card">
-            <figure>
-                <img class="featured-img mx-auto {{ img_border }}" src="{{ '/assets/img/' | append: include.image | relative_url }}"
-                     alt="{{ include.alt | default: 'no description' }}"
-                     {% if include.load != null %}loading="lazy"{% else %}loading="{{ include.loading }}"{% endif %}/>
-                <div class="content">
-                    {% if include.cap != null %}
-                    <figcaption class="images-caption">{{ include.cap | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
-                    {% endif %}
-                </div>
-            </figure>
-        </div>
-    {% if include.link != null %}</a>{% endif %}
+    <div class="card">
+        <figure>
+            {% if include.link != null %}<a href="{{ include.link | relative_url }}" class="header">{% endif %}
+            <img class="featured-img mx-auto {{ img_border }}" src="{{ '/assets/img/' | append: include.image | relative_url }}" alt="{{ include.alt | default: 'no description' }}" {% if include.load != null %}loading="lazy"{% else %}loading="{{ include.loading }}"{% endif %}/>
+            {% if include.link != null %}</a>{% endif %}
+            <div class="content">
+                {% if include.cap != null %}<figcaption class="images-caption">{{ include.cap | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>{% endif %}
+            </div>
+        </figure>
+   </div>
 </div>
