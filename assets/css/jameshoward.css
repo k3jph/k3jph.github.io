@@ -161,7 +161,6 @@ figure {
     display: inline;
     svg {
       vertical-align: middle;
-      border: 1px #f8f8f8 solid;
       width: 3rem;
       height: 3rem;
     }
