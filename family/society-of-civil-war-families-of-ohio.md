@@ -1,6 +1,7 @@
 ---
 id: society-of-civil-war-families-of-ohio
 title: Society of Civil War Families of Ohio
+subtitle: Member _jure_ Private Thomas Wesley Newman<br/>(79th Ohio Volunteer Infantry, Company H); member no. 1070
 date: 2024-08-19
 author: k3jph
 layout: page
@@ -15,8 +16,6 @@ redirect_from: [/family/scwfo, /family/ogs/modsoscwfo]
     link="https://www.ogs.org/about/lineage/scwfo/"
     cap="Logo of the Society of Civil War Families of Ohio"
     alt="Logo of the Society of Civil War Families of Ohio" %}
-
-> Member _jure_ Private Thomas Wesley Newman (79th Ohio Volunteer Infantry, Company H); member no. 1070
 
 The [Society of Civil War Families of
 Ohio](https://www.ogs.org/about/lineage/scwfo/) (SCWFO) is a lineage society
