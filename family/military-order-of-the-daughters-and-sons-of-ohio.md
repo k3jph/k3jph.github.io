@@ -1,6 +1,7 @@
 ---
 id: military-order-of-the-daughters-and-sons-of-ohio
 title: Military Order of the Daughters and Sons of Ohio
+subtitle: Member _jure_ Ralph Everett Rees (World War II); member no. 48
 date: 2024-07-04
 author: k3jph
 layout: page
@@ -15,8 +16,6 @@ redirect_from: [/family/modso, /family/ogs/modso]
     link="https://www.ogs.org/about/lineage/modso"
     cap="Logo of the Military Order of the Daughters and Sons of Ohio"
     alt="Logo of the Military Order of the Daughters and Sons of Ohio" %}
-
-> Member _jure_ Ralph Everett Rees (World War II); member no. 48
 
 The [Military Order of the Daughters and Sons of Ohio
 (MODSO)](https://www.ogs.org/about/lineage/modso) is a lineage society
