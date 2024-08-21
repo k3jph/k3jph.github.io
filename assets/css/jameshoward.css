@@ -126,6 +126,13 @@ figure {
   min-height: 28vh;
 }
 
+.section-subtitle p {
+  text-transform: unset !important;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .footer {
   min-height: 27vh;
 }
