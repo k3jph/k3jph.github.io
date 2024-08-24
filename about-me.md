@@ -49,7 +49,7 @@ and serving on several public and private boards.
 * PhD, [Public Policy](/assets/docs/UMBC-PHD-POLICY.pdf), University of Maryland Baltimore County
     * CPhil, [Public Policy](/assets/docs/JHoward-UMBC-CPhil.pdf), University of Maryland Graduate School, Baltimore
     * MPA, [Public Policy and Administration](/assets/docs/JHoward-MPA-PPA.pdf), University of Baltimore
-* MA, Buddhist Studies, with Distinction, University of South Wales
+* MA, [Buddhist Studies](/assets/docs/JHoward-MA-USW.pdf), with Distinction, University of South Wales
 * MS, [Electrical Engineering](/assets/docs/JHoward-MS-Columbia.pdf), Columbia University in the City of New York
 * MS, [Applied and Computational Mathematics](/assets/docs/JHoward-JHU-MS-ACM.pdf), the Johns Hopkins University
 * MS, [Environmental Engineering and Science](/assets/docs/JHU-MS-EES.pdf), the Johns Hopkins University
