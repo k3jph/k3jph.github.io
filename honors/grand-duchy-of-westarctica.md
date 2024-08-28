@@ -78,7 +78,7 @@ Earth's most extraordinary and vulnerable ecosystems.
 
 #### <a id='Krigsvold' /> December 25, 2023
 
-> Created [Count of Krigsvold](https://www.westarctica.wiki/index.php?title=Krigsvold_Nunataks), the Peerage of Westarctica
+> Created [Count of Krigsvold](https://www.westarctica.wiki/index.php?title=Krigsvold_Nunataks) in the Peerage of Westarctica
 
 {% include figure.html image="honors/jhoward-krigsvold.webp" width="12" border=true
 cap="Letters Patent for the Count of Krigsvold"
@@ -86,7 +86,7 @@ alt="Letters Patent for the Count of Krigsvold" %}
 
 #### <a id='Matikonis' /> November 29, 2023
 
-> Created [Baron of Matikonis](https://www.westarctica.wiki/index.php?title=Matikonis_Peak), the Peerage of Westarctica
+> Created [Baron of Matikonis](https://www.westarctica.wiki/index.php?title=Matikonis_Peak) in the Peerage of Westarctica
 
 {% include figure.html image="honors/jhoward-matikonis.webp" width="12" border=true
 cap="Letters Patent for the Baron of Matikonis"
