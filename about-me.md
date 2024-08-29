@@ -62,10 +62,10 @@ and serving on several public and private boards.
   <div class="col-12 col-md-6">
     <h2 id="professional-titles">Professional Titles</h2>
     <ul>
-      <li>Chartered Scientist</li>
-      <li>Chartered Mathematician</li>
       <li><a href="/assets/docs/JHoward-EURING.pdf">European Engineer</a></li>
+      <li>Chartered Scientist</li> 
       <li><a href="/assets/docs/JHoward-ECUK-CEng.pdf">Chartered Engineer</a></li>
+    <li>Chartered Mathematician</li>
       <li><a href="/assets/docs/JHoward-FBCS.pdf">Chartered IT Professional</a></li>
     </ul>
   </div>
@@ -77,6 +77,26 @@ and serving on several public and private boards.
       <li>Fellow of the <a href="/assets/docs/JHoward-IMA-FIMA.pdf">Institute of Mathematics and its Applications</a></li>
       <li>Fellow of the Royal Society of Arts</li>
       <li>Senior Member of the <a href="/assets/docs/JHoward-IEEE-SM.pdf">IEEE</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12 col-md-6">
+    <h2 id="certifications">Certifications</h2>
+    <ul>
+      <li><a href="/assets/docs/certifications/JHoward-PMI-PMP.pdf">Project Management Professional</a></li>
+      <li><a href="/assets/docs/certifications/JHoward-PMI-ACP.pdf">PMI Agile Certified Practitioner</a></li>
+      <li><a href="/assets/docs/certifications/JHoward-PMI-PBA.pdf">PMI Professional in Business Analysis</a></li>
+      <li><a href="/assets/docs/certifications/JHoward-PMI-CAPM.pdf">Certified Associate in Project Management</a></li>
+      <li><a href="https://www.credly.com/badges/9b7ead19-ed5d-46f0-8aec-6c99d230e049/public_url">Certified Government Financial Manager</a></li>
+
+    </ul>
+  </div>
+  <div class="col-12 col-md-6">
+    <h2 id="other-accomplishments">Other Accomplishments</h2>
+    <ul>
+      <li><a href="/assets/docs/jhoward-iccf-cce.pdf">Correspondence Chess Expert</a></li>
     </ul>
   </div>
 </div>
