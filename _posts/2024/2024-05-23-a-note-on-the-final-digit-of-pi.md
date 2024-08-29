@@ -1,6 +1,6 @@
 ---
 id: a-note-on-the-final-digit-of-pi
-title: A Note on the Final Digit of $\pi$
+title: A Note on the Final Digit of \( \pi \)
 date: 2024-05-23
 author: k3jph
 layout: post
