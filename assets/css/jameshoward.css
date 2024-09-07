@@ -145,6 +145,10 @@ figure {
   background-color: #303030;
 }
 
+.jh-copyright a {
+   color: #f2daa6;
+}
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #f8f8f8;
