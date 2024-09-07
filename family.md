@@ -5,7 +5,6 @@ author: James Howard
 layout: page
 featured_image: /assets/img/family.webp
 guid: family
-permalink: /family
 redirect_from:
   - /hereditary-societies
   - /hs
