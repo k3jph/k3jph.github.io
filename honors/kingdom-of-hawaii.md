@@ -9,9 +9,15 @@ featured_image: /assets/img/kingdom-of-hawaii.webp
 redirect_from:
   - /hawaii/
   - /honors/hawaii
+credits: >-
+  The coat of arms of the Kingdom of Hawai'i is [copyright by
+  Sodacan](https://en.wikipedia.org/wiki/File:Royal_Coat_of_Arms_of_Hawaii.svg).
+  Elements used in the medal of a Knight Commander of the Royal Order of the
+  Star of Oceania are also [copyrighted by
+  Sodacan](https://en.wikipedia.org/wiki/Coat_of_arms_of_the_Hawaiian_Kingdom#/media/File:Crown_of_Hawaii_(Heraldic).svg).
 ---
 
-{% include figure.html image="kingdom-hawaii-coat-of-arms.svg" placement="right" width="4"
+{% include figure.html image="honors/Royal_Coat_of_Arms_of_Hawaii.svg" placement="right" width="4"
 cap="The coat of arms of the Kingdom of Hawai'i"
 alt="The coat of arms of the Kingdom of Hawai'i" %}
 
@@ -87,33 +93,56 @@ island nations in the Pacific and Indian Oceans.
 cap="The medal of a Knight Commander of the Royal Order of the Star of Oceania"
 alt="The medal of a Knight Commander of the Royal Order of the Star of Oceania" %}
 
-However, the order was abolished following the overthrow of Queen
-Lili'uokalani in 1893, an event that marked the decline of the
-Hawaiian monarchy and the eventual annexation of the Hawaiian Islands
-by the United States. The Order lay dormant until its revival in
-2020 by the senior heir to the House of Keoua Nui, H.R.H. Princess
-Owana Ka'ōhelelani. This revival was part of a broader effort to
-restore and honor the Hawaiian people's cultural heritage and
-historical sovereignty.
+The Royal Order of the Star of Oceania, originally established during the
+Hawaiian Kingdom's monarchy, was abolished following the overthrow of Queen
+Liliʻuokalani in 1893. This pivotal event not only marked the decline of the
+Hawaiian monarchy but also set in motion a series of political changes that
+culminated in the annexation of the Hawaiian Islands by the United States
+in 1898. The overthrow was a critical turning point in Hawaiian history, leading
+to the suppression of the islands’ sovereign institutions and cultural
+expressions for over a century.
 
-Today, the Royal Order of the Star of Oceania is not only linked
-to the Hawaiian monarchy's past ambitions but also as a contemporary
-emblem of cultural recognition and educational excellence.  In its
-modern form, the Order also functions as a platform for promoting
-educational initiatives and cultural preservation among the Hawaiian
-and Polynesian communities. It highlights the importance of maintaining
-and celebrating the unique cultural identities of the Pacific islands
-while advocating for cooperation and mutual respect among diverse
-cultures. The Royal Order of the Star of Oceania thus continues to
-embody the spirit of unity and recognition that was its original
-intent, bridging historical traditions with contemporary pursuits
-in cultural diplomacy and education.
+After decades of dormancy, the Royal Order was revived in 2020 by H.R.H.
+Princess Owana Kaʻōhelelani, the senior heir to the House of Keoua Nui. This
+revival represents more than just a reinstatement of a historical order; it is a
+powerful statement of cultural resilience and a broader effort to reclaim and
+honor the Hawaiian people’s rich heritage and historical sovereignty. The
+reinstatement of the Order serves as a symbolic act of resistance against the
+erasure of Native Hawaiian identity and reaffirms the enduring significance of
+the Hawaiian monarchy's legacy in contemporary times.
 
-{% include figure.html image="star-oceania-emblem.webp" width="12"
+Today, the Royal Order of the Star of Oceania stands as a bridge between the
+past and the present, embodying the aspirations of the Hawaiian monarchy while
+evolving into a modern emblem of cultural recognition, advocacy, and educational
+excellence. The Order functions as a platform to support educational
+initiatives, cultural preservation, and the promotion of Hawaiian and Polynesian
+traditions. It plays a vital role in raising awareness of the historical and
+ongoing challenges faced by indigenous communities in the Pacific, emphasizing
+the need to protect and celebrate their unique cultural identities.
+
+Moreover, the Order's revival reflects a commitment to fostering unity and
+cooperation among the diverse cultures of the Pacific region. Through its modern
+activities, the Order champions cultural diplomacy, seeking to promote mutual
+respect, understanding, and collaboration across cultural boundaries. By
+honoring achievements in education, arts, and community service, the Royal Order
+of the Star of Oceania continues to uphold its original mission: to recognize
+and celebrate excellence, nurture cultural pride, and promote the values of
+aloha, unity, and respect that are deeply embedded in Hawaiian and Polynesian
+traditions.
+
+The Royal Order of the Star of Oceania thus not only honors its historical roots
+but also plays a dynamic role in contemporary efforts to empower and uplift
+Pacific islander communities. It stands as a testament to the enduring spirit of
+the Hawaiian monarchy and a beacon of hope for future generations committed to
+cultural preservation, education, and the pursuit of sovereignty and
+self-determination.
+
+{% include figure.html image="honors/KCRSO-medal.webp" width="12"
 cap="Insignia of the Order of the Star of Oceania"
 alt="Insignia of the Order of the Star of Oceania" %}
 
-The diploma is in Hawaiian and translates to:
+The diploma is in Hawaiian and reflects the same text usually seen in such
+documents.  Below is a translation:
 
 > Her Royal Highness Princess Owana Ka'öhelelani, Head of the Royal
 > House of Hawai'i, hereby issues this Charter to affirm and uphold
