@@ -19,7 +19,7 @@ the lasting legacy of Ohio's early settlers, acknowledging their pivotal role in
 shaping the state's history during a time of significant expansion and
 development in the mid-19th century.
 
-## William Rees and Eunice Marcella Burch
+### William Rees and Eunice Marcella Burch
 
 [William Rees](https://www.wikitree.com/wiki/Rees-4587), born in 1834, and
 [Eunice Marcella Burch](https://www.wikitree.com/wiki/Burch-6263), born in 1855,
@@ -31,7 +31,7 @@ continues to resonate with their descendants today, offering a window into
 Ohio's rich historical tapestry as it transitioned from a frontier region to a
 thriving state.
 
-## Challenges in Documentation
+### Challenges in Documentation
 
 Documenting the lives of William Rees and Eunice Marcella Burch presented unique
 challenges due to the existence of a nearly identically named couple living in
