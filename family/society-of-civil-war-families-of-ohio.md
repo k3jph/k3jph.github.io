@@ -25,7 +25,7 @@ acknowledges a family's direct connection to the state's Civil War history,
 ensuring that the contributions of these veterans and their descendants are
 remembered and preserved.
 
-## Private Thomas Wesley Newman
+### Private Thomas Wesley Newman
 
 Private [Thomas Wesley Newman](https://www.wikitree.com/wiki/Newman-16570)
 served in the [79th Ohio Volunteer

@@ -24,7 +24,7 @@ recognizes the direct descendants of those pioneers who helped shape the state's
 history, contributing to its growth and laying the foundations for the
 communities we see today.
 
-## Thornton Williams
+### Thornton Williams
 
 [Thornton Williams](https://www.wikitree.com/wiki/Williams-143184), recognized
 as an Indiana Pioneer, represents the pioneering spirit that was essential to
@@ -33,7 +33,7 @@ emblematic of the courage and perseverance required to thrive in a new and
 challenging environment. The thorough documentation of his life and lineage
 underscores the depth of his connection to Indiana’s early history.
 
-## Legacy and Future Opportunities
+### Legacy and Future Opportunities
 
 Membership in The Society of Indiana Pioneers commemorates Thornton Williams'
 contributions to the state's rich history. His documented legacy as an Indiana
