@@ -1,14 +1,17 @@
 ---
-id: kingdom-of-hawaii
-title: Kingdom of Hawai'i
+id: royal-order-of-the-star-of-oceania
+title: Royal Order of the Star of Oceania
 author: James Howard
 date: 2024-03-17
 layout: page
-permalink: /honors/kingdom-of-hawaii
+permalink: /honors/royal-order-of-the-star-of-oceania
 featured_image: /assets/img/kingdom-of-hawaii.webp
 redirect_from:
   - /hawaii/
   - /honors/hawaii
+  - /honors/kingdom-of-hawaii
+  - /kcrso
+  - /honors/kcrso
 credits: >-
   The coat of arms of the Kingdom of Hawai'i is [copyright by
   Sodacan](https://en.wikipedia.org/wiki/File:Royal_Coat_of_Arms_of_Hawaii.svg).
@@ -62,17 +65,7 @@ honors, such as the Royal Order of the Star of Oceania, underlines
 ongoing efforts to celebrate and perpetuate the significance of
 Hawai'i's royal heritage in both local and international contexts.
 
-## Awards
-
-<div class="ribbonrack">
-<div class="ribbonbar">
-<a href="#KCRSO" class="ribbon ribbon-center">
-  <img src="/assets/img/ribbons/KCRSO.svg"
-       alt="Knight of the Royal Order of the Star of Oceania ribbon" /></a>
-</div>
-</div>
-
-### <a id='KCRSO' />The Royal Order of the Star of Oceania 
+## <a id='KCRSO' />The Royal Order of the Star of Oceania 
 
 The [Royal Order of the Star of
 Oceania](https://uchterhous.org/knights-2/elementor-1149/hawaii/),
@@ -84,7 +77,7 @@ plan](https://imagesofoldhawaii.com/polynesian-confederacy/)
 to create a [confederation of Polynesian nations and Pacific
 islands](https://worldhistoryconnected.press.uillinois.edu/8.3/forum_cook.html),
 aiming to strengthen regional ties and promote mutual interests
-against colonial expansion. The Order symbolized the King’s
+against colonial expansion. The Order symbolized the King's
 forward-thinking approach to international diplomacy and his
 commitment to advocating for the sovereignty and collaboration of
 island nations in the Pacific and Indian Oceans.
@@ -95,7 +88,7 @@ alt="The medal of a Knight Commander of the Royal Order of the Star of Oceania" 
 
 The Royal Order of the Star of Oceania, originally established during the
 Hawaiian Kingdom's monarchy, was abolished following the overthrow of Queen
-Liliʻuokalani in 1893. This pivotal event not only marked the decline of the
+Lili'uokalani in 1893. This pivotal event not only marked the decline of the
 Hawaiian monarchy but also set in motion a series of political changes that
 culminated in the annexation of the Hawaiian Islands by the United States
 in 1898. The overthrow was a critical turning point in Hawaiian history, leading
@@ -103,10 +96,10 @@ to the suppression of the islands’ sovereign institutions and cultural
 expressions for over a century.
 
 After decades of dormancy, the Royal Order was revived in 2020 by H.R.H.
-Princess Owana Kaʻōhelelani, the senior heir to the House of Keoua Nui. This
+Princess Owana Ka'ōhelelani, the senior heir to the House of Keoua Nui. This
 revival represents more than just a reinstatement of a historical order; it is a
 powerful statement of cultural resilience and a broader effort to reclaim and
-honor the Hawaiian people’s rich heritage and historical sovereignty. The
+honor the Hawaiian people's rich heritage and historical sovereignty. The
 reinstatement of the Order serves as a symbolic act of resistance against the
 erasure of Native Hawaiian identity and reaffirms the enduring significance of
 the Hawaiian monarchy's legacy in contemporary times.
