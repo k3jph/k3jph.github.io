@@ -1,13 +1,14 @@
 ---
 id: century-families-of-paulding-county
 title: Century Families of Paulding County
-subtitle: Member _jure_ Mina Elizabeth Hall (1888)
+subtitle: Member _jure_ Mina Elizabeth Hall (1888); member no. 101
 date: 2024-09-11
 author: k3jph
 layout: page
 guid: century-families-of-paulding-county
 featured_image: /assets/img/family.webp
 permalink: /family/century-families-of-paulding-county
+redirect_from: [/family/cfpc]
 ---
 
 The [Century Families of Paulding County](https://www.pauldingcountyogs.org/)
@@ -36,3 +37,9 @@ those of other ancestors, is preserved for future generations. Her documented
 presence and contributions exemplify the legacy of families who have shaped the
 county’s history and continue to influence its identity today.
 
+{% include figure.html width="12"
+   image="/family/CFPC-MinaElizabethHall.webp" 
+   alt="Membership certificate in the Century Families of Paulding County"
+   cap="Membership certificate in the Century Families of Paulding County" %}
+   
+Or you can [download the PDF here](/assets/docs/family/CFPC-MinaElizabethHall.pdf).
