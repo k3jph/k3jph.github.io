@@ -19,7 +19,7 @@ ancestors and celebrates their values, which continue to resonate today.
 
 ## Jonathan Newman
 
-[Jonathan Newman](https://www.wikitree.com/wiki/Newman-1768), born on 8 December
+[Jonathan Newman](https://www.wikitree.com/wiki/Newman-16493), born on 8 December
 1768 in Chatham County, North Carolina, is my direct ancestor and the basis for
 my acceptance into NSDEQ. Jonathan was an early Quaker whose life journey took
 him from the South to Warren County, Ohio, where he and his family established
