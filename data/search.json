@@ -5,7 +5,7 @@ sitemap: false
 [
 {% assign first = true %}
 {% for post in site.posts %}
-    {% unless post.published == false %}
+    {% unless post.published == false or post.sitemap == false %}
         {% if first %}
             {% assign first = false %}
         {% else %}
@@ -21,7 +21,7 @@ sitemap: false
 {% endfor %}
 
 {% for page in site.pages %}
-    {% unless page.sitemap == false %}
+    {% unless page.published == false or page.sitemap == false %}
         {% if first %}
             {% assign first = false %}
         {% else %}

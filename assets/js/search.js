@@ -40,7 +40,7 @@
         const n = new XMLHttpRequest;
         n.responseType = "json", n.addEventListener("load", (e => {
             const r = n.response;
-            r && 0 !== r.length ? (t.placeholder = i.infoOk || "Type to search:", o = new Fuse(r, {
+            r && 0 !== r.length ? (t.placeholder = i.infoOk || "SEARCH...", o = new Fuse(r, {
                 keys: [{
                     name: "title",
                     weight: 5
