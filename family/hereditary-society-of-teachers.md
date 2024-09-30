@@ -59,7 +59,7 @@ articulate the Society’s purpose:
 
 > The object of this Society shall be to honor all men and women who
 > taught in what is now considered the boundaries of the United States
-> of America and those teachers’ descendants; to promote genealogical
+> of America and those teachers' descendants; to promote genealogical
 > and historical research; encourage camaraderie among the members and
 > those of like pursuit; and to encourage the recognition of outstanding
 > teachers.
