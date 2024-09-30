@@ -2,11 +2,11 @@
 id: hereditary-society-of-teachers
 title: Hereditary Society of Teachers
 subtitle: Member _jure_ Mary Jane Cavender (20th Century); member no. 196
-date: 2024-09-29
+date: 2024-09-29 
 author: k3jph
 layout: page
 guid: hereditary-society-of-teachers
-featured_image: /assets/img/teacher.webp
+featured_image: /assets/img/family.webp
 permalink: /family/hereditary-society-of-teachers
 redirect_from: [ /family/hst ]
 ---
@@ -31,7 +31,7 @@ might have been a personal setback into a passionate commitment to
 helping countless students navigate their learning journeys.
 
 Mary Jane's dedication to education is emblematic of the values upheld
-by the Society—recognizing the importance of teachers in shaping the
+by the Society--recognizing the importance of teachers in shaping the
 minds and futures of their students. Her long-standing contribution to
 education forms a significant part of our family legacy, and being able
 to honor her through this society is deeply meaningful.
