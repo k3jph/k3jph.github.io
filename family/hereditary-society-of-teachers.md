@@ -22,7 +22,7 @@ who have made a lasting impact on their communities.
 ## Mary Jane Cavender
 
 [Mary Jane Cavender](https://www.wikitree.com/wiki/Cavender-523), born
-on October 14, 1918, in Bradford, Ohio, is my direct ancestor and the
+on October 14, 1918, in Bradford, Ohio, is my maternal grandmother and the
 basis for my acceptance into the Hereditary Society of Teachers. Mary
 Jane dedicated her life to teaching third grade in the 20th century,
 humorously noting that she kept returning because she "never managed to
