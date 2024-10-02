@@ -6,7 +6,7 @@ date: 2024-08-16
 author: k3jph
 layout: page
 guid: century-families-of-hamilton-county
-featured_image: /assets/img/family.webp
+featured_image: /assets/img/family/century-families-of-hamilton-county.webp
 permalink: /family/century-families-of-hamilton-county
 redirect_from: [/family/cfhc, /family/hcgs/cfhc]
 ---
@@ -19,7 +19,7 @@ application. Membership in CFHC honors a family's deep-rooted
 connections to Hamilton County’s history and heritage, reflecting the
 continued presence and contributions of these families over a century.
 
-### Harry Lee Williams, Julia McNeal, and Helen Williams
+## Harry Lee Williams, Julia McNeal, and Helen Williams
 
 [Harry Lee Williams](https://www.wikitree.com/wiki/Williams-143061),
 born on August 9, 1885, in Reynolds, Indiana, and his wife [Julia
@@ -32,7 +32,7 @@ McNeal's life spanned several key periods of development in both Dayton
 and Cincinnati, offering a rich perspective on the lives of those who
 helped shape the region.
 
-### Legacy
+## Legacy
 
 The inclusion of Harry Lee Williams, Julia McNeal, and Helen Williams in
 the Century Families of Hamilton County lineage society provides a
