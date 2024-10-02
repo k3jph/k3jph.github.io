@@ -6,7 +6,7 @@ date: 2024-09-28
 author: k3jph
 layout: page
 guid: national-society-descendants-of-early-quakers
-featured_image: /assets/img/family.webp
+featured_image: /assets/img/family/national-society-descendants-of-early-quakers.webp
 permalink: /family/national-society-descendants-of-early-quakers
 redirect_from: [ /family/nsdeq ]
 ---

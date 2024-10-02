@@ -6,7 +6,7 @@ date: 2024-07-04
 author: k3jph
 layout: page
 guid: military-order-of-the-daughters-and-sons-of-ohio
-featured_image: /assets/img/family.webp
+featured_image: /assets/img/family/military-order-of-the-daughters-and-sons-of-ohio.webp
 permalink: /family/military-order-of-the-daughters-and-sons-of-ohio
 redirect_from: [/family/modso, /family/ogs/modso]
 ---
@@ -28,8 +28,10 @@ society's mission is to celebrate and document the contributions of
 these military ancestors, ensuring their sacrifices and stories are
 remembered for future generations.
 
-One of the notable members of my family who qualifies for recognition by
-MODSO is my maternal grandfather, [Ralph Everett
+## Ralph Everett Rees
+
+One of member of my family who qualifies for recognition by MODSO is my
+maternal grandfather, [Ralph Everett
 Rees](https://www.wikitree.com/wiki/Rees-4585). Ralph served in the
 [Army of the United
 States](https://military-history.fandom.com/wiki/Army_of_the_United_States)

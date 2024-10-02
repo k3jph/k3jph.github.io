@@ -6,9 +6,9 @@ date: 2024-08-19
 author: k3jph
 layout: page
 guid: society-of-civil-war-families-of-ohio
-featured_image: /assets/img/family.webp
+featured_image: /assets/img/family/society-of-civil-war-families-of-ohio.webp
 permalink: /family/society-of-civil-war-families-of-ohio
-redirect_from: [/family/scwfo, /family/ogs/modsoscwfo]
+redirect_from: [/family/scwfo, /family/ogs/scwfo]
 ---
 
 {% include figure.html image="hereditary-societies/ogs-scwfo.png" 
@@ -25,7 +25,7 @@ acknowledges a family's direct connection to the state's Civil War history,
 ensuring that the contributions of these veterans and their descendants are
 remembered and preserved.
 
-### Private Thomas Wesley Newman
+## Private Thomas Wesley Newman
 
 Private [Thomas Wesley Newman](https://www.wikitree.com/wiki/Newman-16570)
 served in the [79th Ohio Volunteer

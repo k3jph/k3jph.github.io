@@ -6,7 +6,7 @@ date: 2024-09-29
 author: k3jph
 layout: page
 guid: hereditary-society-of-teachers
-featured_image: /assets/img/family.webp
+featured_image: /assets/img/family/hereditary-society-of-teachers.webp
 permalink: /family/hereditary-society-of-teachers
 redirect_from: [ /family/hst ]
 ---
