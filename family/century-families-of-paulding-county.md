@@ -6,7 +6,7 @@ date: 2024-09-11
 author: k3jph
 layout: page
 guid: century-families-of-paulding-county
-featured_image: /assets/img/family.webp
+featured_image: /assets/img/family/century-families-of-paulding-county.webp
 permalink: /family/century-families-of-paulding-county
 redirect_from: [/family/cfpc]
 ---
