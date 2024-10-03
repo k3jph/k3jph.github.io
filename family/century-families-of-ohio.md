@@ -6,7 +6,7 @@ date: 2024-07-29
 author: k3jph
 layout: page
 guid: century-families-of-ohio
-featured_image: /assets/img/family.webp
+featured_image: /assets/img/family/century-families-of-ohio.webp
 permalink: /family/century-families-of-ohio
 redirect_from: [/family/cfo, /family/ogs/cfo]
 ---
@@ -28,7 +28,7 @@ documented proof of their ancestors' residency in Ohio during the
 specified period, helping to preserve the state's genealogical and
 historical records.
 
-### Mina Hall and Charles Franklin Cavender
+## Mina Hall and Charles Franklin Cavender
 
 [Mina Elizabeth Hall](https://www.wikitree.com/wiki/Hall-76727), born on
 February 9, 1888, in Paulding County, Ohio, was a teacher and homemaker.
@@ -45,7 +45,7 @@ Because I was unable to find a birth record for Mina, the first date I
 am able to prove she was resident in Ohio is as of December 8, 1915,
 when she and Charles received their marriage certificate.
 
-### Legacy
+## Legacy
 
 Mina and Charles's connection to Ohio provides a glimpse into the
 state's past and the lives of its residents. Their documented lineage,
