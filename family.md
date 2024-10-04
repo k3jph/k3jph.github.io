@@ -52,7 +52,7 @@ family.
     <table class="table align-items-center">
       <thead class="thead-light">
         <tr>
-          <th scope="col">Society</th>
+          <th scope="col" width="45%">Society</th>
           <th scope="col">Principal Qualifying Ancestor</th>
           <th scope="col">Founding Date</th>
         </tr>
@@ -89,8 +89,6 @@ family.
                 <span class="date mb-0 text-sm">
                   {% if society.founding_date %}
                     {{ society.founding_date | date: '%b %d, %Y' }}
-                  {% else %}
-                    N/A
                   {% endif %}
                 </span>
               </div>
