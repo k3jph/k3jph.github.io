@@ -4,6 +4,7 @@ title: Century Families of Hamilton County
 subtitle: Member _jure_ Harry Lee Williams (1907), Julia McNeal (1907),<br/>and Helen Williams (1908); member no. 77
 date: 2024-08-16
 author: k3jph
+founding_date: 2011-12-31
 layout: page
 guid: century-families-of-hamilton-county
 featured_image: /assets/img/family/century-families-of-hamilton-county.webp

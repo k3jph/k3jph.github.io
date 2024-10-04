@@ -3,6 +3,7 @@ id: society-of-indiana-pioneers
 title: Society of Indiana Pioneers
 subtitle: Member _jure_ Thornton Williams (1849)
 date: 2024-08-22
+founding_date: 1916-12-31
 author: k3jph
 layout: page
 guid: society-of-indiana-pioneers

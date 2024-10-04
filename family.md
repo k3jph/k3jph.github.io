@@ -35,22 +35,35 @@ roots and preserving the Howard family story for future generations.
     title="Century Families of Hamilton County" /></a></div>
 </div>
 
-
 ### Precedence Among Hereditary Societies
 
-Precedence among hereditary societies is traditionally based on the order of their founding. Therefore, the memberships below are presented according to this historical order, highlighting the legacy and heritage of each organization.
+Precedence among hereditary societies is traditionally based on the
+order of their founding. Therefore, the memberships above are presented
+according to this historical order, highlighting the legacy and heritage
+of each organization.
 
+## Lineage Society Memberships
 
-### Society of Civil War Families of Ohio
-
-- **Members:** Private Thomas Wesley Newman (79th Ohio Volunteer Infantry, Company H)  
-- **Description:** Recognizes descendants of Civil War veterans with ties to Ohio.
-
-### Society of Indiana Pioneers
-
-- **Members:** Thornton Williams (Indiana Pioneer)  
-- **Description:** Commemorates the descendants of early settlers who helped shape the history of Indiana.
-
-## Precedence Among Hereditary Societies
-
-Precedence among hereditary societies is traditionally based on the order of their founding. Therefore, the memberships below are presented according to this historical order, highlighting the legacy and heritage of each organization.
+<table id="lineage-societies" class="table">
+  <thead>
+    <tr>
+      <th>Society</th>
+      <th>Founding Date</th>
+    </tr>
+  </thead>
+  <tbody>
+{% assign socities = site.family | sort: 'title' %}
+{% for society in socities %}
+<tr>
+  <td>
+    <a href="{{ society.permalink | relative_url }}">{{ society.title }}</a>
+  </td>
+  <td>
+    {% if society.founding_date %}
+    {{ society.founding_date | date: '%b %d, %Y' }}
+    {% endif %}
+  </td>
+</tr>
+{% endfor %}
+</tbody>
+</table>

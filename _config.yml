@@ -32,6 +32,20 @@ port: 4000
 
 permalink: pretty
 
+collections:
+  pages:
+    output: true
+    permalink: /:slug
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:slug
+    type: "post"
+  family:
+    output: true
+    permalink: /family/:slug
+    type: "page"
+
+
 twitter_username: k3jph
 github_username:  k3jph
 sass:
