@@ -4,6 +4,7 @@ title: National Society Descendants of Early Quakers
 subtitle: Member _jure_ Jonathan Newman (1768); member no. 891
 date: 2024-09-28
 founding_date: 1980-12-31
+qualifying_ancestor: Jonathan Newman
 author: k3jph
 layout: page
 guid: national-society-descendants-of-early-quakers

@@ -4,6 +4,7 @@ title: Military Order of the Daughters and Sons of Ohio
 subtitle: Member _jure_ Ralph Everett Rees (World War II); member no. 48
 date: 2024-07-04
 founding_date: 2021-12-31
+qualifying_ancestor: Ralph Everett Rees
 author: k3jph
 layout: page
 guid: military-order-of-the-daughters-and-sons-of-ohio

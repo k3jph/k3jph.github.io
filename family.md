@@ -44,26 +44,62 @@ of each organization.
 
 ## Lineage Society Memberships
 
-<table id="lineage-societies" class="table">
-  <thead>
-    <tr>
-      <th>Society</th>
-      <th>Founding Date</th>
-    </tr>
-  </thead>
-  <tbody>
-{% assign socities = site.family | sort: 'title' %}
-{% for society in socities %}
-<tr>
-  <td>
-    <a href="{{ society.permalink | relative_url }}">{{ society.title }}</a>
-  </td>
-  <td>
-    {% if society.founding_date %}
-    {{ society.founding_date | date: '%b %d, %Y' }}
-    {% endif %}
-  </td>
-</tr>
-{% endfor %}
-</tbody>
-</table>
+The table below lists lineage society memberships associated with the Howard
+family.
+
+<div class="table-responsive">
+  <div>
+    <table class="table align-items-center">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Society</th>
+          <th scope="col">Principal Qualifying Ancestor</th>
+          <th scope="col">Founding Date</th>
+        </tr>
+      </thead>
+      <tbody class="list">
+        {% assign societies = site.family | sort: 'title' %}
+        {% for society in societies %}
+        <tr>
+          <th scope="row">
+            <div class="align-items-center table-element">
+              <div class="media-body">
+                <span class="name mb-0 text-sm">
+                  <a href="{{ society.permalink | relative_url }}">{{ society.title }}</a>
+                </span>
+              </div>
+            </div>
+          </th>
+          <th scope="row">
+            <div class="align-items-center table-element">
+              <div class="media-body">
+                <span class="name mb-0 text-sm">
+                  {% if society.qualifying_ancestor %}
+                    {{ society.qualifying_ancestor }}
+                  {% else %}
+                    N/A
+                  {% endif %}
+                </span>
+              </div>
+            </div>
+          </th>
+          <th scope="row">
+            <div class="align-items-center table-element">
+              <div class="media-body">
+                <span class="date mb-0 text-sm">
+                  {% if society.founding_date %}
+                    {{ society.founding_date | date: '%b %d, %Y' }}
+                  {% else %}
+                    N/A
+                  {% endif %}
+                </span>
+              </div>
+            </div>
+          </th>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
