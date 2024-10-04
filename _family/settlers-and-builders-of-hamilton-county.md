@@ -4,6 +4,7 @@ title: Settlers and Builders of Hamilton County
 subtitle: Member _jure_ Cordelia Curran (1858); member no. 120
 date: 2024-08-04
 founding_date: 2004-12-31
+qualifying_ancestor: Cordelia Curran
 author: k3jph
 layout: page
 guid: settlers-and-builders-of-hamilton-county

@@ -3,6 +3,7 @@ id: society-of-civil-war-families-of-ohio
 title: Society of Civil War Families of Ohio
 subtitle: Member _jure_ Private Thomas Wesley Newman<br/>(79th Ohio Volunteer Infantry, Company H); member no. 1070
 date: 2024-08-19
+qualifying_ancestor: Thomas Wesley Newman
 author: k3jph
 layout: page
 guid: society-of-civil-war-families-of-ohio
