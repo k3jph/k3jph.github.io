@@ -39,6 +39,23 @@
   font-size: 62px;
 }
 
+.index-fade {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust height as needed */
+}
+
+.index-fade::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #181818ff 100%);
+}
+
 a {
   color: #0c6793;
   font-weight: bold;
@@ -247,6 +264,10 @@ a.scroll-arrow {
 
 body {
   padding: 0px;
+}
+
+.section-get-started {
+  background-color: #181818;
 }
 
 .m-0 { margin:0!important; }
