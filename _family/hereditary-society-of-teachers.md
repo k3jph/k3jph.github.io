@@ -2,7 +2,8 @@
 id: hereditary-society-of-teachers
 title: Hereditary Society of Teachers
 subtitle: Member _jure_ Mary Jane Cavender (20th Century); member no. 196
-date: 2024-09-29 
+date: 2024-09-29
+founding_date: 2010-09-30
 author: k3jph
 layout: page
 guid: hereditary-society-of-teachers
