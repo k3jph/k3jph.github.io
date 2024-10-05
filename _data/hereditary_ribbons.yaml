@@ -1,0 +1,15 @@
+- id: HCGS-SBHC
+  type: hereditary
+  url: /family/hcgs/sbhc
+  img: /assets/img/ribbons/hereditary/HCGS-SBHC.svg
+  alt: "Settlers and Builders of Hamilton County"
+- id: OGS-CFO
+  type: hereditary
+  url: /family/ogs/cfo
+  img: /assets/img/ribbons/hereditary/OGS-CFO.svg
+  alt: "Century Families of Ohio"
+- id: HCGS-CFHC
+  type: hereditary
+  url: /family/hcgs/cfhc
+  img: /assets/img/ribbons/hereditary/HCGS-CFHC.svg
+  alt: "Century Families of Hamilton County"
