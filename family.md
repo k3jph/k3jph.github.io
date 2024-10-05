@@ -19,20 +19,41 @@ records of our ancestors, their contributions to history, and our ongoing
 genealogical efforts, this page reflects our passion for connecting with our
 roots and preserving the Howard family story for future generations.
 
-## Lineage Societies
+## Hereditary Societies
 
-<!-- Make img at http://www.ultimaterack.ajandj.com/index.php/ribbon-creator -->
-<div class="ribbonrack">
-<div class="ribbonbar">
-<a href="/family/hcgs/sbhc" class="ribbon ribbon-left"><img src="/assets/img/ribbons/hereditary/HCGS-SBHC.svg"
-    alt="Settlers and Builders of Hamilton County"
-    title="Settlers and Builders of Hamilton County" /></a>
-<a href="/family/ogs/cfo" class="ribbon ribbon-center"><img src="/assets/img/ribbons/hereditary/OGS-CFO.svg"
-    alt="Century Families of Ohio"
-    title="Century Families of Ohio" /></a>
-<a href="/family/hcgs/cfhc" class="ribbon ribbon-right"><img src="/assets/img/ribbons/hereditary/HCGS-CFHC.svg"
-    alt="Century Families of Hamilton County" 
-    title="Century Families of Hamilton County" /></a></div>
+{% assign ribbons = site.data.hereditary_ribbons | where: "type","hereditary" %}
+{% assign remainder = ribbons.size | modulo: 3 %}
+<div class="ribbonrack container mt-3 mb-5">
+  {% if remainder != 0 %}
+    <div class="row g-1 justify-content-center">
+      {% if remainder == 1 %}
+        <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0"></div>
+      {% else if %}
+        <div class="col-2 col-md-2 d-flex justify-content-center p-1px m-0"></div>
+      {% endif %}
+      {% for ribbon in ribbons limit: remainder %}
+        <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0">
+          <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
+            <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class="row g-1">
+    {% for ribbon in ribbons offset: remainder %}
+      <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0">
+        <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
+          <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
+        </a>
+      </div>
+      {% assign indexmod = forloop.index | modulo: 3 %}
+      {% if indexmod == 0 %}
+        </div><div class="row g-1">
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>
 
 ### Precedence Among Hereditary Societies
@@ -42,7 +63,7 @@ order of their founding. Therefore, the memberships above are presented
 according to this historical order, highlighting the legacy and heritage
 of each organization.
 
-## Lineage Society Memberships
+## Complete Hereditary Society Memberships List
 
 The table below lists lineage society memberships associated with the Howard
 family.

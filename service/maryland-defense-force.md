@@ -156,39 +156,39 @@ States](https://sgaus.org/) and are authorized for wear by MDDF members.
 
 ## Awards
 
-<!-- Make img at http://www.ultimaterack.ajandj.com/index.php/ribbon-creator -->
-<div class="ribbonrack">
-<div class="ribbonbar">
-<a href="#TAGSRR" class="ribbon ribbon-left"><img src="/assets/img/ribbons/mddf/TAGSRR.svg"
-    alt="The Adjutant General's Special Recognition Ribbon"
-    title="The Adjutant General's Special Recognition Ribbon" /></a>
-<a href="#MDESR" class="ribbon ribbon-right"><img src="/assets/img/ribbons/mddf/MDESR.svg"
-    alt="Maryland Emergency Service Ribbon" /></a>
-</div>
-<div class="ribbonbar">
-<a href="#MDSVCR" class="ribbon ribbon-left"><img src="/assets/img/ribbons/mddf/MDSVCR15.svg"
-    alt="State of Maryland State Service Medal" /></a>
-<a href="#MDDFMSR" class="ribbon ribbon-center"><img src="/assets/img/ribbons/mddf/MDDFMSR.svg"
-    alt="Maryland Defense Force Meritorious Service Ribbon" /></a>
-<a href="#MDDFCR" class="ribbon ribbon-right"><img src="/assets/img/ribbons/mddf/MDDFCR.svg"
-    alt="Maryland Defense Force Commendation Ribbon" /></a>
-</div>
-<div class="ribbonbar">
-<a href="#MDDFHSR" class="ribbon ribbon-left"><img src="/assets/img/ribbons/mddf/MDDFHSR.svg"
-    alt="Maryland Defense Force Humanitarian Service Ribbon" /> </a>
-<a href="#MDDFACAR" class="ribbon ribbon-center"><img src="/assets/img/ribbons/mddf/MDDFACAR.svg"
-    alt="Maryland Defense Force Aid to Civil Authority Ribbon" /></a>
-<a href="#MDDFCERTR" class="ribbon ribbon-right"><img src="/assets/img/ribbons/mddf/MDDFCERTR.svg"
-    alt="Maryland Defense Force Community Emergency Response Team Ribbon" /></a>
-</div>
-<div class="ribbonbar">
-<a href="#MDDFPDR" class="ribbon ribbon-left"><img src="/assets/img/ribbons/mddf/MDDFPDR3.svg"
-    alt="Maryland Defense Force Professional Development Ribbon" /></a>
-<a href="#MDDFBTR" class="ribbon ribbon-center"><img src="/assets/img/ribbons/mddf/MDDFBTR.svg"
-    alt="Maryland Defense Force Basic Training Ribbon"
-    title="Maryland Defense Force Basic Training Ribbon" /></a>
-<a href="#SGAUSPDA" class="ribbon ribbon-right"><img src="/assets/img/ribbons/mddf/SGAUSPDA2.svg"
-    alt="State Guard Association of United States Professional Development Award" /></a></div>
+{% assign ribbons = site.data.mddf_ribbons | where: "type","personal" %}
+{% assign remainder = ribbons.size | modulo: 3 %}
+<div class="ribbonrack container mt-3 mb-5">
+  {% if remainder != 0 %}
+    <div class="row g-1 justify-content-center">
+      {% if remainder == 1 %}
+        <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0"></div>
+      {% else if %}
+        <div class="col-2 col-md-2 d-flex justify-content-center p-1px m-0"></div>
+      {% endif %}
+      {% for ribbon in ribbons limit: remainder %}
+        <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0">
+          <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
+            <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class="row g-1">
+    {% for ribbon in ribbons offset: remainder %}
+      <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0">
+        <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
+          <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
+        </a>
+      </div>
+      {% assign indexmod = forloop.index | modulo: 3 %}
+      {% if indexmod == 0 %}
+        </div><div class="row g-1">
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>
 
 ### <a id='TAGSRR' />The Adjutant General's Special Recognition Ribbon
@@ -196,7 +196,7 @@ States](https://sgaus.org/) and are authorized for wear by MDDF members.
 The Adjutant General's Special Recognition Ribbon is awarded to
 recognize an agency, organization, or entity that is not a numbered
 or lettered unit for exceptional service or achievement to the
-Maryland Military Department in support of its Service Members and
+Maryland Military Department in support of its Service Members and 
 the mission.
 
 #### October 13, 2020
@@ -317,11 +317,39 @@ United States and is authorized for wear by MDDF members.
 
 ## Unit Awards
 
-<div class="ribbonrack">
-<div class="ribbonbar">
-<a href="#SGAUSSUC" class="ribbon ribbon-center"><img src="/assets/img/ribbons/mddf/SGAUSSUC.svg"
-    alt="State Guard Association of United States Superior Unit Citation" /></a>
-</div>
+{% assign ribbons = site.data.mddf_ribbons | where: "type","unit" %}
+{% assign remainder = ribbons.size | modulo: 3 %}
+<div class="ribbonrack container mt-3 mb-5">
+  {% if remainder != 0 %}
+    <div class="row g-1 justify-content-center">
+      {% if remainder == 1 %}
+        <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0"></div>
+      {% else if %}
+        <div class="col-2 col-md-2 d-flex justify-content-center p-1px m-0"></div>
+      {% endif %}
+      {% for ribbon in ribbons limit: remainder %}
+        <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0">
+          <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
+            <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class="row g-1">
+    {% for ribbon in ribbons offset: remainder %}
+      <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0">
+        <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
+          <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
+        </a>
+      </div>
+      {% assign indexmod = forloop.index | modulo: 3 %}
+      {% if indexmod == 0 %}
+        </div><div class="row g-1">
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>
 
 ### <a id='SGAUSSUC' />State Guard Association of United States Superior Unit Citation
@@ -352,13 +380,39 @@ of the Maryland Defense Force and the Maryland Military Department.
 
 ## Other Awards
 
-<div class="ribbonrack">
-<div class="ribbonbar">
-<a href="#PVSA" class="ribbon ribbon-left"><img src="/assets/img/ribbons/mddf/PVSA.svg"
-    alt="President's Volunteer Service Award" /></a>
-<a href="#CHZTM1" class="ribbon ribbon-right"><img src="/assets/img/ribbons/mddf/CHZTM1.svg"
-    alt="Schweizerischer Zweitagemarsch" /></a>
-</div>
+{% assign ribbons = site.data.mddf_ribbons | where: "type","unofficial" %}
+{% assign remainder = ribbons.size | modulo: 3 %}
+<div class="ribbonrack container mt-3 mb-5">
+  {% if remainder != 0 %}
+    <div class="row g-1 justify-content-center">
+      {% if remainder == 1 %}
+        <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0"></div>
+      {% else if %}
+        <div class="col-2 col-md-2 d-flex justify-content-center p-1px m-0"></div>
+      {% endif %}
+      {% for ribbon in ribbons limit: remainder %}
+        <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0">
+          <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
+            <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class="row g-1">
+    {% for ribbon in ribbons offset: remainder %}
+      <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0">
+        <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
+          <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
+        </a>
+      </div>
+      {% assign indexmod = forloop.index | modulo: 3 %}
+      {% if indexmod == 0 %}
+        </div><div class="row g-1">
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>
 
 ### <a id='PVSA' />President's Volunteer Service Award
