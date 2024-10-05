@@ -109,3 +109,10 @@ ensuring that the stories of Jonathan and his family are preserved for future
 generations, and that their values remain part of our collective heritage.
 
 *Additional memberships will be added as they are approved.*
+
+{% include figure.html width="12"
+   image="/family/NSDEQ-JonathanNewman.webp" 
+   alt="Membership certificate in the National Society Descendants of Early Quakers"
+   cap="Membership certificate in the National Society Descendants of Early Quakers" %}
+   
+Or you can [download the PDF here](/assets/docs/family/NSDEQ-JonathanNewman.pdf).

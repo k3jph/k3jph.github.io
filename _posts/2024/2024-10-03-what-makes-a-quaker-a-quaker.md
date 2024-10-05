@@ -202,3 +202,11 @@ of courage in the face of adversity, and of an enduring commitment to
 equality and peace. Understanding these connections has deepened my
 respect for my ancestors and inspired me to carry their values forward
 in a world that needs them now more than ever.
+
+{% include figure.html width="12"
+   image="/family/NSDEQ-JonathanNewman.webp" 
+   alt="Membership certificate in the National Society Descendants of Early Quakers"
+   cap="Membership certificate in the National Society Descendants of Early Quakers" %}
+   
+Or you can [download the PDF here](/assets/docs/family/NSDEQ-JonathanNewman.pdf).
+
