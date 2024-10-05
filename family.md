@@ -19,7 +19,19 @@ records of our ancestors, their contributions to history, and our ongoing
 genealogical efforts, this page reflects our passion for connecting with our
 roots and preserving the Howard family story for future generations.
 
+As I have been learning more of the family history, it is not enough to simply
+look at some website and see that some random king or countess was an ancient
+progenitor.  Most of that information is incorrect.  However, there are
+standards for establishing genealogical truth and as I connect another layer
+deeper, it often leads to eligibility for a new hereditary society.  Joining,
+since verificaiton is required, provides a great check.  Plus, I learn something
+and I get a prize.  The gamification of historical research is now.
+
 ## Hereditary Societies
+
+Many hereditary socities have associated medals.  This section provides a
+[ribbon rack](https://en.wikipedia.org/wiki/Medal_ribbon) for those I am a
+member of.
 
 {% assign ribbons = site.data.hereditary_ribbons | where: "type","hereditary" %}
 {% assign remainder = ribbons.size | modulo: 3 %}
@@ -122,3 +134,7 @@ family.
   </div>
 </div>
 
+Above, if I am unable to locate an exact day for founding, but a year or even
+year and month are available, the founding date is selected to be the last day
+of that year or month.  If anyone has corrections, you [should contact
+me](/contact-me) with more information.
