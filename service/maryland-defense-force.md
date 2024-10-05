@@ -158,16 +158,16 @@ States](https://sgaus.org/) and are authorized for wear by MDDF members.
 
 {% assign ribbons = site.data.mddf_ribbons | where: "type","personal" %}
 {% assign remainder = ribbons.size | modulo: 3 %}
-<div class="ribbonrack container mt-3 mb-5">
+<div class="ribbonrack container mt-3 mb-3">
   {% if remainder != 0 %}
     <div class="row g-1 justify-content-center">
       {% if remainder == 1 %}
-        <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0"></div>
+        <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0"></div>
       {% else if %}
-        <div class="col-2 col-md-2 d-flex justify-content-center p-1px m-0"></div>
+        <div class="col-2 col-md-2 col-sm-2 col-xs-2 d-flex justify-content-center p-1px m-0"></div>
       {% endif %}
       {% for ribbon in ribbons limit: remainder %}
-        <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0">
+        <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0">
           <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
             <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
           </a>
@@ -178,7 +178,7 @@ States](https://sgaus.org/) and are authorized for wear by MDDF members.
 
   <div class="row g-1">
     {% for ribbon in ribbons offset: remainder %}
-      <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0">
+      <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0">
         <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
           <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
         </a>
@@ -319,16 +319,16 @@ United States and is authorized for wear by MDDF members.
 
 {% assign ribbons = site.data.mddf_ribbons | where: "type","unit" %}
 {% assign remainder = ribbons.size | modulo: 3 %}
-<div class="ribbonrack container mt-3 mb-5">
+<div class="ribbonrack container mt-3 mb-3">
   {% if remainder != 0 %}
     <div class="row g-1 justify-content-center">
       {% if remainder == 1 %}
-        <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0"></div>
+        <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0"></div>
       {% else if %}
-        <div class="col-2 col-md-2 d-flex justify-content-center p-1px m-0"></div>
+        <div class="col-2 col-md-2 col-sm-2 col-xs-2 d-flex justify-content-center p-1px m-0"></div>
       {% endif %}
       {% for ribbon in ribbons limit: remainder %}
-        <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0">
+        <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0">
           <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
             <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
           </a>
@@ -339,7 +339,7 @@ United States and is authorized for wear by MDDF members.
 
   <div class="row g-1">
     {% for ribbon in ribbons offset: remainder %}
-      <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0">
+      <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0">
         <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
           <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
         </a>
@@ -382,16 +382,16 @@ of the Maryland Defense Force and the Maryland Military Department.
 
 {% assign ribbons = site.data.mddf_ribbons | where: "type","unofficial" %}
 {% assign remainder = ribbons.size | modulo: 3 %}
-<div class="ribbonrack container mt-3 mb-5">
+<div class="ribbonrack container mt-3 mb-3">
   {% if remainder != 0 %}
     <div class="row g-1 justify-content-center">
       {% if remainder == 1 %}
-        <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0"></div>
+        <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0"></div>
       {% else if %}
-        <div class="col-2 col-md-2 d-flex justify-content-center p-1px m-0"></div>
+        <div class="col-2 col-md-2 col-sm-2 col-xs-2 d-flex justify-content-center p-1px m-0"></div>
       {% endif %}
       {% for ribbon in ribbons limit: remainder %}
-        <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0">
+        <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0">
           <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
             <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
           </a>
@@ -402,7 +402,7 @@ of the Maryland Defense Force and the Maryland Military Department.
 
   <div class="row g-1">
     {% for ribbon in ribbons offset: remainder %}
-      <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0">
+      <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0">
         <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
           <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
         </a>
