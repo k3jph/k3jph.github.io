@@ -1,0 +1,56 @@
+- id: TAGSRR
+  type: personal
+  img: /assets/img/ribbons/mddf/TAGSRR.svg
+  alt: "The Adjutant General's Special Recognition Ribbon"
+- id: MDESR
+  type: personal
+  img: /assets/img/ribbons/mddf/MDESR.svg
+  alt: "Maryland Emergency Service Ribbon"
+- id: MDSVCR
+  type: personal
+  img: /assets/img/ribbons/mddf/MDSVCR15.svg
+  alt: "State of Maryland State Service Medal"
+- id: MDDFMSR
+  type: personal
+  img: /assets/img/ribbons/mddf/MDDFMSR.svg
+  alt: "Maryland Defense Force Meritorious Service Ribbon"
+- id: MDDFCR
+  type: personal
+  img: /assets/img/ribbons/mddf/MDDFCR.svg
+  alt: "Maryland Defense Force Commendation Ribbon"
+- id: MDDFHSR
+  type: personal
+  img: /assets/img/ribbons/mddf/MDDFHSR.svg
+  alt: "Maryland Defense Force Humanitarian Service Ribbon"
+- id: MDDFACAR
+  type: personal
+  img: /assets/img/ribbons/mddf/MDDFACAR.svg
+  alt: "Maryland Defense Force Aid to Civil Authority Ribbon"
+- id: MDDFCERTR
+  type: personal
+  img: /assets/img/ribbons/mddf/MDDFCERTR.svg
+  alt: "Maryland Defense Force Community Emergency Response Team Ribbon"
+- id: MDDFPDR
+  type: personal
+  img: /assets/img/ribbons/mddf/MDDFPDR3.svg
+  alt: "Maryland Defense Force Professional Development Ribbon"
+- id: MDDFBTR
+  type: personal
+  img: /assets/img/ribbons/mddf/MDDFBTR.svg
+  alt: "Maryland Defense Force Basic Training Ribbon"
+- id: SGAUSPDA
+  type: personal
+  img: /assets/img/ribbons/mddf/SGAUSPDA2.svg
+  alt: "State Guard Association of United States Professional Development Award"
+- id: SGAUSSUC
+  type: unit
+  img: /assets/img/ribbons/mddf/SGAUSSUC.svg
+  alt: "State Guard Association of United States Superior Unit Citation"
+- id: PVSA
+  type: unofficial
+  img: /assets/img/ribbons/mddf/PVSA.svg
+  alt: "President's Volunteer Service Award"
+- id: CHZTM1
+  type: unofficial
+  img: /assets/img/ribbons/mddf/CHZTM1.svg
+  alt: "Schweizerischer Zweitagemarsch"
