@@ -3,6 +3,7 @@ layout: base
 title: Home
 subtitle: The website of James Howard, a Mathematician, a Different Kind of Mathematician, and a Statistician
 ---
+
 <div class="section section-header">
     <div class="parallax filter filter-color-black">
         <div class="image" style="background-image: url({{ '/assets/img/header-home.webp' | relative_url }})">
@@ -12,13 +13,15 @@ subtitle: The website of James Howard, a Mathematician, a Different Kind of Math
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-1 col-1"></div>
                     <div class="col-lg-4 col-md-4 col-sm-10 col-10">
-                        {% svg "/assets/img/identity/jameshoward-logo.svg" width="50%" alt="James Howard vertical logo" %}
+                        {% svg "/assets/img/identity/jameshoward-logo.svg" width="60%" alt="James Howard vertical logo" %}
                     </div>
                 </div>
                 <div class="separator-container">
-                    <div class="separator separator"><img src="{{ '/assets/img/martlet.svg' | relative_url }}" height="35rem" alt="Decorative text bullet" /></div>
+                    <div class="separator separator"><img src="{{ '/assets/img/martlet.svg' | relative_url }}" height="35rem"
+                                                          alt="Decorative text bullet" /></div>
                 </div>
-                <h5>A Mathematician, a Different Kind of<br/>Mathematician, and a Statistician</h5>
+                <h5>A Mathematician, a Different Kind of<br/>Mathematician, and
+                    a Statistician</h5>
             </div>
         </div>
     </div>
@@ -38,53 +41,111 @@ subtitle: The website of James Howard, a Mathematician, a Different Kind of Math
             <div class="title-area">
                 <h2>Explore My World</h2>
                 <div class="separator separator-info">
-                    <img src="{{ '/assets/img/martlet-info.svg' | relative_url }}" height="35rem" alt="Decorative text bullet" />
+                    <img src="{{ '/assets/img/martlet-info.svg' | relative_url
+                              }}" height="35rem" alt="Decorative text bullet" />
                 </div>
             </div>
         </div>
         <div class="row">
-            <a href="{{ '/service' | relative_url }}">
-                <div class="col-md-3 col-sm-6">
-                    <div class="info-icon">
-                        <div class="icon text-info">
-                            <i class="pe-7s-culture"></i>
-                        </div>
-                        <h3>Service</h3>
-                        <p class="description">Committed to making a difference through public service, I strive to contribute positively to our community and beyond</p>
-                    </div>
-                </div>
-            </a>
             <a href="{{ '/scholarship' | relative_url }}">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="info-icon">
                         <div class="icon text-info">
                             <i class="pe-7s-pen"></i>
                         </div>
                         <h3>Scholarship</h3>
-                        <p class="description">Dedicated to excellence in research and innovation, my work aims to expand boundaries and explore new horizons</p>
+                        <p class="description">Dedicated to excellence in
+                            research and innovation, my work aims to expand
+                            boundaries and explore new horizons</p>
                     </div>
                 </div>
             </a>
             <a href="{{ '/teaching' | relative_url }}">
 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="info-icon">
                         <div class="icon text-info">
                             <i class="pe-7s-study"></i>
                         </div>
                         <h3>Teaching</h3>
-                        <p class="description">Fostering growth and discovery through mentorship, I guide learners on a journey of knowledge and self-discovery</p>
+                        <p class="description">Fostering growth and discovery
+                            through mentorship, I guide learners on a journey of
+                            knowledge and self-discovery</p>
                     </div>
                 </div>
             </a>
-            <a href="{{ '/honors' | relative_url }}">
+            <a href="{{ '/service' | relative_url }}">
+                <div class="col-md-4 col-sm-6">
+                    <div class="info-icon">
+                        <div class="icon text-info">
+                            <i class="pe-7s-culture"></i>
+                        </div>
+                        <h3>Service</h3>
+                        <p class="description">Committed to making a difference
+                            through public service, I strive to contribute
+                            positively to our community and beyond</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <a href="{{ '/games' | relative_url }}">
                 <div class="col-md-3 col-sm-6">
                     <div class="info-icon">
                         <div class="icon text-info">
-                            <i class="pe-7s-medal"></i>
+                            <i class="pe-7s-ball"></i>
                         </div>
-                        <h3>Honors</h3>
-                        <p class="description">The honors and awards I have received</p>
+                        <h3>Games</h3>
+                        <p class="description">
+                            Exploring creativity through interactive
+                            experiences, I once designed a game to engage the
+                            mind and entertain
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="{{ '/books' | relative_url }}">
+                <div class="col-md-3 col-sm-6">
+                    <div class="info-icon">
+                        <div class="icon text-info">
+                            <i class="pe-7s-notebook"></i>
+                        </div>
+                        <h3>My Books</h3>
+                        <p class="description">
+                            Authoring and editing books that span a range of
+                            topics, I strive to contribute meaningful insights
+                            to the fields of my expertise
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="{{ '/media' | relative_url }}">
+                <div class="col-md-3 col-sm-6">
+                    <div class="info-icon">
+                        <div class="icon text-info">
+                            <i class="pe-7s-micro"></i>
+                        </div>
+                        <h3>Media Appearance</h3>
+                        <p class="description">
+                            From interviews to in-depth profiles, my media
+                            appearances have allowed me to share my work with a
+                            broader audience
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="{{ '/software' | relative_url }}">
+                <div class="col-md-3 col-sm-6">
+                    <div class="info-icon">
+                        <div class="icon text-info">
+                            <i class="pe-7s-diskette"></i>
+                        </div>
+                        <h3>Software</h3>
+                        <p class="description">
+                            My software projects are a blend of innovation and
+                            practicality, developed to solve problems, automate
+                            tasks, or simply bring ideas to life
+                        </p>
                     </div>
                 </div>
             </a>
@@ -97,7 +158,8 @@ subtitle: The website of James Howard, a Mathematician, a Different Kind of Math
     <div class="container">
         <div class="title-area">
             <h2>Most Recent Posts</h2>
-            <div class="separator separator-danger"><img src="{{ '/assets/img/martlet-danger.svg' | relative_url }}" height="35rem" alt="Decorative text bullet" /></div>
+            <div class="separator separator-danger"><img src="{{ '/assets/img/martlet-danger.svg' | relative_url }}" height="35rem"
+                                                         alt="Decorative text bullet" /></div>
         </div>
 
         <div id="masonry-container" class="row">
@@ -111,13 +173,18 @@ subtitle: The website of James Howard, a Mathematician, a Different Kind of Math
                         <div class="circle-black">
                             <div class="circle">
                                 <div class="date-wrapper">
-                                    <span class="month">{{ post.date | date: '%b' }}</span>
-                                    <span class="date">{{ post.date | date: '%d' }}</span>
+                                    <span class="month">{{ post.date | date:
+                                        '%b' }}</span>
+                                    <span class="date">{{ post.date | date: '%d'
+                                        }}</span>
                                 </div>
                             </div>
                         </div>
-                        <a href="{{ post.permalink | relative_url }}" class="card-title" aria-label="{{ post.title }}"><h3>{{ post.title }}</h3></a>
-                        <p class="text-description text-gray card-blog-excerpt">{{ post.content | markdownify | remove: "<p>" | remove: "</p>" | truncatewords: 30 }}</p>
+                        <a href="{{ post.permalink | relative_url }}"
+                           class="card-title" aria-label="{{ post.title }}"><h3>{{ post.title }}</h3></a>
+                        <p class="text-description text-gray
+                                  card-blog-excerpt">{{ post.content | markdownify | remove: "<p>" | remove: "</p>" | truncatewords: 30
+                        }}</p>
                     </div>
                 </div>
             </div>
@@ -128,54 +195,43 @@ subtitle: The website of James Howard, a Mathematician, a Different Kind of Math
 
 <div class="section section-get-started">
     <div class="parallax filter filter-color-black">
-        <div class="image index-fade" style="background-image: url({{ '/assets/img/heading-martlets.webp' | relative_url }})"></div>
+        <div class="image index-fade" style="background-image: url({{
+                                             '/assets/img/heading-martlets.webp' | relative_url }})"></div>
         <div class="container">
             <div class="title-area">
                 <h2 class="text-white">Dive Deeper into My Universe</h2>
-                <div class="separator separator"><img src="{{ '/assets/img/martlet.svg' | relative_url }}" height="35rem" alt="Decorative text bullet" /></div>
+                <div class="separator separator"><img src="{{
+                                                           '/assets/img/martlet.svg' | relative_url }}" height="35rem"
+                                                      alt="Decorative text bullet" /></div>
             </div>
             <div class="row">
-                <a href="{{ '/games' | relative_url }}">
+                <div class="col-md-3 col-sm-0"></div>
+                <a href="{{ '/honors' | relative_url }}">
                     <div class="col-md-3 col-sm-6">
                         <div class="danger-icon">
                             <div class="icon text-danger">
-                                <i class="pe-7s-ball"></i>
+                                <i class="pe-7s-medal"></i>
                             </div>
-                            <h3 class="text-white">Games</h3>
-                            <p class="description text-white">I once created a game</p>
+                            <h3 class="text-white">Honors</h3>
+                            <p class="description text-white">
+                                Recognitions and awards that reflect my
+                                contributions across various fields
+                            </p>
                         </div>
                     </div>
                 </a>
-                <a href="{{ '/books' | relative_url }}">
+                <a href="{{ '/family' | relative_url }}">
                     <div class="col-md-3 col-sm-6">
                         <div class="danger-icon">
                             <div class="icon text-danger">
-                                <i class="pe-7s-notebook"></i>
+                                <i class="pe-7s-users"></i>
                             </div>
-                            <h3 class="text-white">My Books</h3>
-                            <p class="description text-white">The books I have written and edited</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="{{ '/media' | relative_url }}">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="danger-icon">
-                            <div class="icon text-danger">
-                                <i class="pe-7s-micro"></i>
-                            </div>
-                            <h3 class="text-white">Media Appearances</h3>
-                            <p class="description text-white">Interviews and profiles</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="{{ '/software' | reltive_url }}">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="danger-icon">
-                            <div class="icon text-danger">
-                                <i class="pe-7s-diskette"></i>
-                            </div>
-                            <h3 class="text-white">Software</h3>
-                            <p class="description text-white">Some of the software I have created</p>
+                            <h3 class="text-white">Ancestry</h3>
+                            <p class="description text-white">
+                                A journey into my family's past, exploring the
+                                stories, traditions, and people who shaped who I
+                                am today
+                            </p>
                         </div>
                     </div>
                 </a>
