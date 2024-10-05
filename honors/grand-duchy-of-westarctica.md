@@ -94,13 +94,39 @@ alt="Letters Patent for the Baron of Matikonis" %}
 
 ## Awards
 
-<!-- Make images at http://www.ultimaterack.ajandj.com/index.php/ribbon-creator -->
-<div class="ribbonrack">
-<div class="ribbonbar">
-<a href="#WAKTS" class="ribbon ribbon-center">
-  <img src="/assets/img/ribbons/westarctica/WAKTS.svg"
-       alt="Knight of the Snowflake ribbon" /></a>
-</div>
+{% assign ribbons = site.data.honors_ribbons | where: "type","westarctica" %}
+{% assign remainder = ribbons.size | modulo: 3 %}
+<div class="ribbonrack container mt-3 mb-5">
+  {% if remainder != 0 %}
+    <div class="row g-1 justify-content-center">
+      {% if remainder == 1 %}
+        <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0"></div>
+      {% else if %}
+        <div class="col-2 col-md-2 d-flex justify-content-center p-1px m-0"></div>
+      {% endif %}
+      {% for ribbon in ribbons limit: remainder %}
+        <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0">
+          <a href="#{{ ribbon.id }}" class="ribbon p-0">
+            <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class="row g-1">
+    {% for ribbon in ribbons offset: remainder %}
+      <div class="col-4 col-md-4 d-flex justify-content-center p-1px m-0">
+        <a href="#{{ ribbon.id }}" class="ribbon p-0">
+          <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
+        </a>
+      </div>
+      {% assign indexmod = forloop.index | modulo: 3 %}
+      {% if indexmod == 0 %}
+        </div><div class="row g-1">
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>
 
 ### <a id='WAKTS' />Knight of the Order of the Snowflake
