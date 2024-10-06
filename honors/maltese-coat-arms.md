@@ -214,8 +214,8 @@ alt="Coat of Arms in the English style by me" %}
 
 {% include figure.html placement="left" width="6"
 image="jhoward-maltese-coa-medieval.svg" 
-cap="Coat of Arms for in the medieval style by me" 
-alt="Coat of Arms for in the medieval style by me" %}
+cap="Coat of Arms in the medieval style by me" 
+alt="Coat of Arms in the medieval style by me" %}
 
 ## Banner and Flag 
 
@@ -270,8 +270,8 @@ cap="Heraldic flag adapted from the arms"
 alt="Heraldic flag adapted from the arms"  %}
 
 {% include figure.html image="jhoward-maltese-banner.svg" width="5"
-cap="Heraldic banner for adapted from the arms" 
-alt="Heraldic banner for adapted from the arms" %}
+cap="Heraldic banner adapted from the arms" 
+alt="Heraldic banner adapted from the arms" %}
 
 ## Heraldic Badges
 
@@ -379,11 +379,15 @@ different emblazonments, we can appreciate the multifaceted nature of heraldic
 design and its capacity to convey identity and heritage through various artistic
 lenses.
 
-{% include figure.html image="jhoward-maltese-salmeron-960px.webp" placement="right" width="6" border=true
+{% include figure.html image="jhoward-arms-sodacan-glasshouse.svg" placement="right" width="4" border=false
+cap="Coat of Arms in the [Sodacan](https://commons.wikimedia.org/wiki/User:Sodacan)/[Glasshouse](https://commons.wikimedia.org/wiki/User:Glasshouse) style by me" 
+alt="Coat of Arms in the Sodacan/Glasshouse style by me" %}
+
+{% include figure.html image="jhoward-maltese-salmeron-960px.webp" placement="right" width="4" border=true
 cap="Coat of Arms as interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
 alt="Coat of Arms as interpreted by Dr Antonio Salmerón" %}
 
-{% include figure.html image="jhoward-maltese-coa-ratul-960px.webp" placement="right" width="6" border=true
+{% include figure.html image="jhoward-maltese-coa-ratul-960px.webp" placement="right" width="4" border=true
 cap="Coat of Arms as interpreted by [Ratul S](https://www.fiverr.com/ratulsen544)" 
 alt="Coat of Arms as interpreted by Ratul S" %}
 
