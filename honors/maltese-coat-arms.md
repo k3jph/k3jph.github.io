@@ -379,24 +379,29 @@ different emblazonments, we can appreciate the multifaceted nature of heraldic
 design and its capacity to convey identity and heritage through various artistic
 lenses.
 
+<div class="row">
 {% include figure.html image="jhoward-maltese-coa-ratul-960px.webp" placement="left" width="6" border=true
 cap="Coat of Arms as interpreted by [Ratul S](https://www.fiverr.com/ratulsen544)" 
 alt="Coat of Arms as interpreted by Ratul S" %}
 
-{% include figure.html image="jhoward-maltese-salmeron-960px.webp" placement="right" width="6" border=true
+{% include figure.html image="jhoward-maltese-salmeron-960px.webp" placement="left" width="6" border=true
 cap="Coat of Arms as interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
 alt="Coat of Arms as interpreted by Dr Antonio Salmerón" %}
+</div>
+
+<div class="row">
+{% include figure.html image="jhoward-arms-hatched.svg" placement="left" width="6" border=false
+cap="Coat of Arms in the hatched style by me" 
+alt="Coat of Arms in the hatched style by me" %}
 
 {% include figure.html image="jhoward-arms-sodacan-glasshouse.svg" placement="left" width="6" border=false
 cap="Coat of Arms in the [Sodacan](https://commons.wikimedia.org/wiki/User:Sodacan)/[Glasshouse](https://commons.wikimedia.org/wiki/User:Glasshouse) style by me" 
 alt="Coat of Arms in the Sodacan/Glasshouse style by me" %}
+</div>
 
-{% include figure.html image="jhoward-arms-hatched.svg" placement="right" width="6" border=false
-cap="Coat of Arms in the hatched style by me" 
-alt="Coat of Arms in the hatched style by me" %}
-
-{% include figure.html image="jhoward-arms-wappenwiki.svg" placement="center" width="6" border=false
+<div class="row">
+{% include figure.html image="jhoward-arms-wappenwiki.svg" placement="left" width="6" border=false
 cap="Coat of Arms in the [WappenWiki](https://wappenwiki.org/) style by me" 
 alt="Coat of Arms in the WappenWiki style by me" %}
+</div>
 
-<div class="row"></div>
