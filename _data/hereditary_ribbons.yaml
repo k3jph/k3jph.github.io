@@ -1,15 +1,24 @@
 - id: HCGS-SBHC
   type: hereditary
+  date: 2004-12-31
   url: /family/hcgs/sbhc
   img: /assets/img/ribbons/hereditary/HCGS-SBHC.svg
   alt: "Settlers and Builders of Hamilton County"
 - id: OGS-CFO
   type: hereditary
+  date: 2010-12-31
   url: /family/ogs/cfo
   img: /assets/img/ribbons/hereditary/OGS-CFO.svg
   alt: "Century Families of Ohio"
 - id: HCGS-CFHC
   type: hereditary
+  date: 2011-12-31
   url: /family/hcgs/cfhc
   img: /assets/img/ribbons/hereditary/HCGS-CFHC.svg
   alt: "Century Families of Hamilton County"
+- id: NSDEQ
+  type: hereditary-mini
+  date: 1980-09-10
+  url: /family/nsdeq
+  img: /assets/img/ribbons/hereditary/NSDEQ.svg
+  alt: "National Society Descendants of Early Quakers"

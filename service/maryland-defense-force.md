@@ -158,34 +158,35 @@ States](https://sgaus.org/) and are authorized for wear by MDDF members.
 
 {% assign ribbons = site.data.mddf_ribbons | where: "type","personal" %}
 {% assign remainder = ribbons.size | modulo: 3 %}
-<div class="ribbonrack container mt-3 mb-3">
+<div class="ribbonrack container mt-3 mb-4">
   {% if remainder != 0 %}
-    <div class="row g-1 justify-content-center">
-      {% if remainder == 1 %}
-        <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0"></div>
-      {% else if %}
-        <div class="col-2 col-md-2 col-sm-2 col-xs-2 d-flex justify-content-center p-1px m-0"></div>
-      {% endif %}
-      {% for ribbon in ribbons limit: remainder %}
-        <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0">
-          <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
-            <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
-          </a>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row" style="display: flex; justify-content: center;">
+          {% for ribbon in ribbons limit: remainder %}
+          <div class="col-md-4 col-sm-4 col-xs-4 p-1px mb-0 text-center" style="line-height: 0px;">
+            <a href="{% if ribbon.url %}{{ ribbon.url | relative_url }}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon">
+              <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" title="{{ ribbon.alt }}" />
+            </a>
+          </div>
+          {% endfor %}
         </div>
-      {% endfor %}
+      </div>
     </div>
   {% endif %}
 
-  <div class="row g-1">
+  <div class="row">
+    {% assign counter = 0 %}
     {% for ribbon in ribbons offset: remainder %}
-      <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0">
-        <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
-          <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
-        </a>
-      </div>
-      {% assign indexmod = forloop.index | modulo: 3 %}
-      {% if indexmod == 0 %}
-        </div><div class="row g-1">
+          <div class="col-md-4 col-sm-4 col-xs-4 p-1px mb-0 text-center" style="line-height: 0px;">
+            <a href="{% if ribbon.url %}{{ ribbon.url | relative_url }}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon">
+              <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" title="{{ ribbon.alt }}" />
+            </a>
+          </div>
+      {% assign counter = counter | plus: 1 %}
+      {% if counter == 3 %}
+        </div><div class="row">
+        {% assign counter = 0 %}
       {% endif %}
     {% endfor %}
   </div>
@@ -319,34 +320,35 @@ United States and is authorized for wear by MDDF members.
 
 {% assign ribbons = site.data.mddf_ribbons | where: "type","unit" %}
 {% assign remainder = ribbons.size | modulo: 3 %}
-<div class="ribbonrack container mt-3 mb-3">
+<div class="ribbonrack container mt-3 mb-4">
   {% if remainder != 0 %}
-    <div class="row g-1 justify-content-center">
-      {% if remainder == 1 %}
-        <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0"></div>
-      {% else if %}
-        <div class="col-2 col-md-2 col-sm-2 col-xs-2 d-flex justify-content-center p-1px m-0"></div>
-      {% endif %}
-      {% for ribbon in ribbons limit: remainder %}
-        <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0">
-          <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
-            <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
-          </a>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row" style="display: flex; justify-content: center;">
+          {% for ribbon in ribbons limit: remainder %}
+          <div class="col-md-4 col-sm-4 col-xs-4 p-1px mb-0 text-center" style="line-height: 0px;">
+            <a href="{% if ribbon.url %}{{ ribbon.url | relative_url }}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon">
+              <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" title="{{ ribbon.alt }}" />
+            </a>
+          </div>
+          {% endfor %}
         </div>
-      {% endfor %}
+      </div>
     </div>
   {% endif %}
 
-  <div class="row g-1">
+  <div class="row">
+    {% assign counter = 0 %}
     {% for ribbon in ribbons offset: remainder %}
-      <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0">
-        <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
-          <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
-        </a>
-      </div>
-      {% assign indexmod = forloop.index | modulo: 3 %}
-      {% if indexmod == 0 %}
-        </div><div class="row g-1">
+          <div class="col-md-4 col-sm-4 col-xs-4 p-1px mb-0 text-center" style="line-height: 0px;">
+            <a href="{% if ribbon.url %}{{ ribbon.url | relative_url }}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon">
+              <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" title="{{ ribbon.alt }}" />
+            </a>
+          </div>
+      {% assign counter = counter | plus: 1 %}
+      {% if counter == 3 %}
+        </div><div class="row">
+        {% assign counter = 0 %}
       {% endif %}
     {% endfor %}
   </div>
@@ -382,34 +384,35 @@ of the Maryland Defense Force and the Maryland Military Department.
 
 {% assign ribbons = site.data.mddf_ribbons | where: "type","unofficial" %}
 {% assign remainder = ribbons.size | modulo: 3 %}
-<div class="ribbonrack container mt-3 mb-3">
+<div class="ribbonrack container mt-3 mb-4">
   {% if remainder != 0 %}
-    <div class="row g-1 justify-content-center">
-      {% if remainder == 1 %}
-        <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0"></div>
-      {% else if %}
-        <div class="col-2 col-md-2 col-sm-2 col-xs-2 d-flex justify-content-center p-1px m-0"></div>
-      {% endif %}
-      {% for ribbon in ribbons limit: remainder %}
-        <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0">
-          <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
-            <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
-          </a>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row" style="display: flex; justify-content: center;">
+          {% for ribbon in ribbons limit: remainder %}
+          <div class="col-md-4 col-sm-4 col-xs-4 p-1px mb-0 text-center" style="line-height: 0px;">
+            <a href="{% if ribbon.url %}{{ ribbon.url | relative_url }}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon">
+              <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" title="{{ ribbon.alt }}" />
+            </a>
+          </div>
+          {% endfor %}
         </div>
-      {% endfor %}
+      </div>
     </div>
   {% endif %}
 
-  <div class="row g-1">
+  <div class="row">
+    {% assign counter = 0 %}
     {% for ribbon in ribbons offset: remainder %}
-      <div class="col-4 col-md-4 col-sm-4 col-xs-4 d-flex justify-content-center p-1px m-0">
-        <a href="{% if ribbon.url %}{{ ribbon.url | relative_url}}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon p-0">
-          <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" />
-        </a>
-      </div>
-      {% assign indexmod = forloop.index | modulo: 3 %}
-      {% if indexmod == 0 %}
-        </div><div class="row g-1">
+          <div class="col-md-4 col-sm-4 col-xs-4 p-1px mb-0 text-center" style="line-height: 0px;">
+            <a href="{% if ribbon.url %}{{ ribbon.url | relative_url }}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon">
+              <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" title="{{ ribbon.alt }}" />
+            </a>
+          </div>
+      {% assign counter = counter | plus: 1 %}
+      {% if counter == 3 %}
+        </div><div class="row">
+        {% assign counter = 0 %}
       {% endif %}
     {% endfor %}
   </div>
