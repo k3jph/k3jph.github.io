@@ -19,13 +19,14 @@ records of our ancestors, their contributions to history, and our ongoing
 genealogical efforts, this page reflects our passion for connecting with our
 roots and preserving the Howard family story for future generations.
 
-As I have been learning more of the family history, it is not enough to simply
-look at some website and see that some random king or countess was an ancient
-progenitor.  Most of that information is incorrect.  However, there are
-standards for establishing genealogical truth and as I connect another layer
-deeper, it often leads to eligibility for a new hereditary society.  Joining,
-since verificaiton is required, provides a great check.  Plus, I learn something
-and I get a prize.  The gamification of historical research is now.
+As I have been learning more of the family history, it is not enough to
+simply look at some website and see that some random king or countess
+was an ancient progenitor.  Most of that information is incorrect.
+However, there are standards for establishing genealogical truth and as
+I connect another layer deeper, it often leads to eligibility for a new
+hereditary society.  Joining, since verificaiton is required, provides a
+great check.  Plus, I learn something and I get a prize.  The
+gamification of historical research is now.
 
 ## Hereditary Societies
 
@@ -108,6 +109,9 @@ those separately below.
     {% endfor %}
   </div>
 </div>
+
+The propensity of hereditary socities to use solid red ribbons may make
+this difficult.
 
 ### Precedence Among Hereditary Societies
 

@@ -22,3 +22,9 @@
   url: /family/nsdeq
   img: /assets/img/ribbons/hereditary/NSDEQ.svg
   alt: "National Society Descendants of Early Quakers"
+- id: HST
+  type: hereditary-mini
+  date: 2010-09-30
+  url: /family/hst
+  img: /assets/img/ribbons/hereditary/HST.svg
+  alt: "Hereditary Society of Teachers"
