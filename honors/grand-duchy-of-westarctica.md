@@ -102,7 +102,7 @@ alt="Letters Patent for the Baron of Matikonis" %}
       <div class="col-md-12">
         <div class="row" style="display: flex; justify-content: center;">
           {% for ribbon in ribbons limit: remainder %}
-          <div class="col-md-4 col-sm-4 col-xs-4 p-1px mb-0 text-center" style="line-height: 0px;">
+          <div class="col-md-4 col-sm-4 col-xs-4 p-1px m-0 text-center" style="line-height: 0px;">
             <a href="{% if ribbon.url %}{{ ribbon.url | relative_url }}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon">
               <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" title="{{ ribbon.alt }}" />
             </a>
@@ -116,7 +116,7 @@ alt="Letters Patent for the Baron of Matikonis" %}
   <div class="row">
     {% assign counter = 0 %}
     {% for ribbon in ribbons offset: remainder %}
-          <div class="col-md-4 col-sm-4 col-xs-4 p-1px mb-0 text-center" style="line-height: 0px;">
+          <div class="col-md-4 col-sm-4 col-xs-4 p-1px m-0 text-center" style="line-height: 0px;">
             <a href="{% if ribbon.url %}{{ ribbon.url | relative_url }}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon">
               <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" title="{{ ribbon.alt }}" />
             </a>
