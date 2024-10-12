@@ -1,13 +1,14 @@
 ---
-id: family
-title: Family
+id: ancestry
+title: Ancestry
 author: James Howard
 layout: page
-featured_image: /assets/img/family.webp
-guid: family
+featured_image: /assets/img/ancestry.webp
+guid: ancestry
 redirect_from:
   - /hereditary-societies
   - /hs
+  - /family
 ---
 
 ## Introduction
