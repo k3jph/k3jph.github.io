@@ -4,6 +4,7 @@ title: Pioneers & Settlers Families of Miami County
 subtitle: Member _jure_ William Henry Harrison Martin (1841), Vincent Martin (1841), and Mary Stiles (1841)
 date: 2024-10-10
 qualifying_ancestor: William Henry Harrison Martin
+qualifying_ancestors: ["Vincent Martin (1841)", "Mary Stiles (1841)", "William Henry Harrison Martin (1841)" ]
 author: James P. Howard, II
 layout: page
 guid: pioneers-settlers-miami-county

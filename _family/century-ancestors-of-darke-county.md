@@ -4,7 +4,7 @@ title: Century Ancestors of Darke County
 subtitle: Member _jure_ Samuel R. Hall (1869) and Nancy Jane Coate (1860)
 date: 2024-10-02
 author: k3jph
-qualifying_ancestor: Nancy Jane Coate
+qualifying_ancestors: [ "Nancy Jane Coate (1860)", "Samuel R. Hall (1869)" ]
 layout: page
 guid: century-ancestors-of-darke-county
 featured_image: /assets/img/family/century-ancestors-of-darke-county.webp

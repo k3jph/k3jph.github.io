@@ -131,8 +131,8 @@ family.
       <thead class="thead-light">
         <tr>
           <th scope="col" width="45%">Society</th>
-          <th scope="col">Principal Qualifying Ancestor</th>
-          <th scope="col">Founding Date</th>
+          <th scope="col" width="40%">Qualifying Ancestors</th>
+          <th scope="col" width="15%">Founding Date</th>
         </tr>
       </thead>
       <tbody class="list">
@@ -152,8 +152,10 @@ family.
             <div class="align-items-center table-element">
               <div class="media-body">
                 <span class="name mb-0 text-sm">
-                  {% if society.qualifying_ancestor %}
-                    {{ society.qualifying_ancestor }}
+                  {% if society.qualifying_ancestors %}
+                      {% for ancestor in society.qualifying_ancestors %}
+                        {{ ancestor }}<br/>
+                      {% endfor %}
                   {% else %}
                     N/A
                   {% endif %}
@@ -166,7 +168,7 @@ family.
               <div class="media-body">
                 <span class="date mb-0 text-sm">
                   {% if society.founding_date %}
-                    {{ society.founding_date | date: '%b %d, %Y' }}
+                    {{ society.founding_date | date: '%d %b %Y' }}
                   {% endif %}
                 </span>
               </div>
@@ -178,6 +180,18 @@ family.
     </table>
   </div>
 </div>
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+<script>
+  $(document).ready(function() {
+    $('.table').DataTable({
+      "paging": true,
+      "searching": true,
+      "ordering": true,
+      "info": true
+    });
+  });
+</script>
 
 Above, if I am unable to locate an exact day for founding, but a year or even
 year and month are available, the founding date is selected to be the last day

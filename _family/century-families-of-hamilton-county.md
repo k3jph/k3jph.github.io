@@ -5,7 +5,7 @@ subtitle: Member _jure_ Harry Lee Williams (1907), Julia McNeal (1907),<br/>and 
 date: 2024-08-16
 author: k3jph
 founding_date: 2011-12-31
-qualifying_ancestor: Julia McNeal
+qualifying_ancestors: [ "Julia McNeal (1907)", "Harry Lee Williams (1907)", "Helen Williams (1908)" ]
 layout: page
 guid: century-families-of-hamilton-county
 featured_image: /assets/img/family/century-families-of-hamilton-county.webp

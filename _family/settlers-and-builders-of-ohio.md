@@ -4,6 +4,7 @@ title: Settlers and Builders of Ohio
 subtitle: Member _jure_ William Rees (1834) and Eunice Marcella Burch (1855)
 date: 2024-08-21
 qualifying_ancestor: William Rees
+qualifying_ancestors: [ "William Rees (1834)", "Eunice Marcella Burch (1855)" ]
 author: k3jph
 layout: page
 guid: settlers-and-builders-of-ohio
@@ -28,7 +29,7 @@ represent the strong roots of Ohio's pioneering spirit. Their lives in Ohio
 during a period marked by rapid growth, agricultural development, and community
 building exemplify the resilience and determination that were necessary to build
 the state's early communities. Through descent from these ancestors, their story
-continues to resonate with their descendants today, offering a window into
+continues to resonate with their descendants today, hio Volunteer Infantryoffering a window into
 Ohio's rich historical tapestry as it transitioned from a frontier region to a
 thriving state.
 

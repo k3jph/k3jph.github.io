@@ -4,6 +4,7 @@ title: Victorian Families of Miami County
 subtitle: Member _jure_ Louisa Hearn (1854) and Sarah Jane Rinehart (1862)
 date: 2024-10-10
 qualifying_ancestor: Louisa Hearn
+qualifying_ancestors: [ "Louisa Hearn (1854)", "Sarah Jane Rinehart (1862)"]
 author: James P. Howard, II
 layout: page
 guid: victorian-families-miami-county

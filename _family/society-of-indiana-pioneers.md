@@ -5,6 +5,7 @@ subtitle: Member _jure_ Thornton Williams (1849)
 date: 2024-08-22
 founding_date: 1916-12-31
 qualifying_ancestor: Thornton Williams
+qualifying_ancestors: [ "Thornton Williams (1849)" ]
 author: k3jph
 layout: page
 guid: society-of-indiana-pioneers
