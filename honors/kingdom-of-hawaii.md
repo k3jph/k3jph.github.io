@@ -82,7 +82,7 @@ forward-thinking approach to international diplomacy and his
 commitment to advocating for the sovereignty and collaboration of
 island nations in the Pacific and Indian Oceans.
 
-{% include figure.html image="honors/KCRSO-medal.svg" placement="right" width="4"
+{% include figure.html image="honors/KCRSO-pendant-medal.svg" placement="right" width="4"
 cap="The medal of a Knight Commander of the Royal Order of the Star of Oceania"
 alt="The medal of a Knight Commander of the Royal Order of the Star of Oceania" %}
 
