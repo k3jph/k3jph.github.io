@@ -40,9 +40,9 @@ collections:
     output: true
     permalink: /blog/:year/:month/:day/:slug
     type: "post"
-  family:
+  ancestry:
     output: true
-    permalink: /family/:slug
+    permalink: /ancestry/:slug
     type: "page"
 
 

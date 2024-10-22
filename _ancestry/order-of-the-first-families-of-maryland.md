@@ -3,20 +3,34 @@ id: order-of-the-first-families-of-maryland
 title: Order of the First Families of Maryland
 subtitle: Member _jure_ Edward Teague (1675)
 date: 2024-10-10
+founding_date: 1999-04-17
 qualifying_ancestors: [ "Edward Teague (1675)" ]
 author: James P. Howard, II
 layout: page
 guid: order-of-the-first-families-of-maryland
-featured_image: /assets/img/family/order-of-the-first-families-of-maryland.webp
-permalink: /family/order-of-the-first-families-of-maryland
-redirect_from: [ "/family/offm" ]
+featured_image: /assets/img/ancestry/order-of-the-first-families-of-maryland.webp
+permalink: /ancestry/order-of-the-first-families-of-maryland
+redirect_from: [ "/ancestry/offm" ]
 published: false
 ---
 
-The [Victorian Families of Miami
-County](https://sites.rootsweb.com/~ohmchgs/mchgs_recognition.html)
-lineage society honors the descendants of individuals who lived in Miami
-County, Ohio, from January 1, 1851, to December 31, 1880.
+{% include figure.html image="ancestry/medals/offm.svg" 
+    placement="right" width="3"
+    link="https://firstfamiliesofmaryland.com/"
+    cap="Insignia of the Order of the First Families of Maryland"
+    alt="Insignia of the Order of the First Families of Maryland" %}
+
+The [Order of the First Families of
+Maryland](https://firstfamiliesofmaryland.com/) is an hereditary society
+dedicated to honoring the descendants of the early settlers who played a role in
+the founding and development of the [Province of
+Maryland](https://en.wikipedia.org/wiki/Province_of_Maryland).  Established to
+recognize those who can trace their lineage back to individuals who arrived in
+Maryland between 1634 and 1734, the society emphasizes the preservation of the
+state’s colonial history and heritage. Members work to promote historical
+scholarship and public awareness of Maryland's early colonial period, as well as
+contribute to the conservation of historical sites and documents related to this
+formative era in American history.
 
 ## Edward Teague
 
@@ -87,16 +101,16 @@ descendants to build upon.
         <figure>
             <div class="row mb-2">
             <div class="item col-md-3">
-                <img class="featured-img mx-auto" src="/assets/img/family/offm/pembrooke-teggs-delight-pg1.webp" alt="Original grant of Pembroke, page 1" />
+                <img class="featured-img mx-auto" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg1.webp" alt="Original grant of Pembroke, page 1" />
             </div>
             <div class="item col-md-3">
-                <img class="featured-img mx-auto" src="/assets/img/family/offm/pembrooke-teggs-delight-pg2.webp" alt="Original grant of Pembroke, page 2" />
+                <img class="featured-img mx-auto" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg2.webp" alt="Original grant of Pembroke, page 2" />
             </div>
             <div class="item col-md-3">
-                <img class="featured-img mx-auto" src="/assets/img/family/offm/pembrooke-teggs-delight-pg3.webp" alt="Original grant of Pembroke, page 3" />
+                <img class="featured-img mx-auto" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg3.webp" alt="Original grant of Pembroke, page 3" />
             </div>
             <div class="item col-md-3">
-                <img class="featured-img mx-auto" src="/assets/img/family/offm/pembrooke-teggs-delight-pg4.webp" alt="Original grant of Pembroke, page 4" />
+                <img class="featured-img mx-auto" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg4.webp" alt="Original grant of Pembroke, page 4" />
             </div>
             </div>
             <div class="content">

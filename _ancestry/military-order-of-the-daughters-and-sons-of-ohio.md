@@ -8,12 +8,12 @@ qualifying_ancestors: [ "Ralph Everett Rees (World War II)" ]
 author: k3jph
 layout: page
 guid: military-order-of-the-daughters-and-sons-of-ohio
-featured_image: /assets/img/family/military-order-of-the-daughters-and-sons-of-ohio.webp
-permalink: /family/military-order-of-the-daughters-and-sons-of-ohio
-redirect_from: [/family/modso, /family/ogs/modso]
+featured_image: /assets/img/ancestry/military-order-of-the-daughters-and-sons-of-ohio.webp
+permalink: /ancestry/military-order-of-the-daughters-and-sons-of-ohio
+redirect_from: [/ancestry/modso, /ancestry/ogs/modso]
 ---
 
-{% include figure.html image="hereditary-societies/ogs-modso.svg" 
+{% include figure.html image="ancestry/ogs-modso.svg" 
     placement="right" width="3"
     link="https://www.ogs.org/about/lineage/modso"
     cap="Logo of the Military Order of the Daughters and Sons of Ohio"

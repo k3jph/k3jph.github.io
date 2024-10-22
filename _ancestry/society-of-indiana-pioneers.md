@@ -9,12 +9,12 @@ qualifying_ancestors: [ "Thornton Williams (1849)" ]
 author: k3jph
 layout: page
 guid: society-of-indiana-pioneers
-featured_image: /assets/img/family/society-of-indiana-pioneers.webp
-permalink: /family/society-of-indiana-pioneers
-redirect_from: [/family/sip]
+featured_image: /assets/img/ancestry/society-of-indiana-pioneers.webp
+permalink: /ancestry/society-of-indiana-pioneers
+redirect_from: [/ancestry/sip]
 ---
 
-{% include figure.html image="hereditary-societies/sip.svg" 
+{% include figure.html image="ancestry/sip.svg" 
     placement="right" width="3"
     link="https://indianapioneers.org/"
     cap="Logo of the Society of Indiana Pioneers"

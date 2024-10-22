@@ -8,9 +8,9 @@ qualifying_ancestors: ["Vincent Martin (1841)", "Mary Stiles (1841)", "William H
 author: James P. Howard, II
 layout: page
 guid: pioneers-settlers-miami-county
-featured_image: /assets/img/family/pioneers-settlers-miami-county.webp
-permalink: /family/pioneers-settlers-miami-county
-redirect_from: [/family/psmc, /family/mchgs/psmc]
+featured_image: /assets/img/ancestry/pioneers-settlers-miami-county.webp
+permalink: /ancestry/pioneers-settlers-miami-county
+redirect_from: [/ancestry/psmc, /ancestry/mchgs/psmc]
 ---
 
 The [Pioneers & Settlers Families of Miami

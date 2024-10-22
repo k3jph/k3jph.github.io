@@ -188,7 +188,7 @@ live, how we treat others, and how we connect to something greater than
 ourselves.
 
 Recently, I have had the honor of becoming a member of the [National
-Society Descendants of Early Quakers](/family/nsdeq). This recognition
+Society Descendants of Early Quakers](/ancestry/nsdeq). This recognition
 has given me an opportunity to formally connect with my Quaker heritage
 and reflect on how the values of these early Friends have echoed down
 through the generations. This lineage, filled with individuals committed
@@ -204,9 +204,9 @@ respect for my ancestors and inspired me to carry their values forward
 in a world that needs them now more than ever.
 
 {% include figure.html width="12"
-   image="/family/NSDEQ-JonathanNewman.webp" 
+   image="/ancestry/NSDEQ-JonathanNewman.webp" 
    alt="Membership certificate in the National Society Descendants of Early Quakers"
    cap="Membership certificate in the National Society Descendants of Early Quakers" %}
    
-Or you can [download the PDF here](/assets/docs/family/NSDEQ-JonathanNewman.pdf).
+Or you can [download the PDF here](/assets/docs/ancestry/NSDEQ-JonathanNewman.pdf).
 

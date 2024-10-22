@@ -6,11 +6,12 @@ date: 2024-08-16
 author: k3jph
 founding_date: 2011-12-31
 qualifying_ancestors: [ "Julia McNeal (1907)", "Harry Lee Williams (1907)", "Helen Williams (1908)" ]
+member_number: 77
 layout: page
 guid: century-families-of-hamilton-county
-featured_image: /assets/img/family/century-families-of-hamilton-county.webp
-permalink: /family/century-families-of-hamilton-county
-redirect_from: [/family/cfhc, /family/hcgs/cfhc]
+featured_image: /assets/img/ancestry/century-families-of-hamilton-county.webp
+permalink: /ancestry/century-families-of-hamilton-county
+redirect_from: [/ancestry/cfhc, /ancestry/hcgs/cfhc]
 ---
 
 The [Century Families of Hamilton County](https://hcgsohio.org/cpage.php?pt=102) (CFHC) is a lineage society

@@ -7,9 +7,9 @@ author: k3jph
 qualifying_ancestors: [ "Nancy Jane Coate (1860)", "Samuel R. Hall (1869)" ]
 layout: page
 guid: century-ancestors-of-darke-county
-featured_image: /assets/img/family/century-ancestors-of-darke-county.webp
-permalink: /family/century-ancestors-of-darke-county
-redirect_from: [ /family/cadc ]
+featured_image: /assets/img/ancestry/century-ancestors-of-darke-county.webp
+permalink: /ancestry/century-ancestors-of-darke-county
+redirect_from: [ /ancestry/cadc ]
 ---
 
 The [Century Ancestors of Darke County](https://www.dcogen.org/) lineage

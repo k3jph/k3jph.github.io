@@ -11,12 +11,12 @@ qualifying_ancestors: [ "Mina Elizabeth Hall (1888, Paulding County)",
 author: k3jph
 layout: page
 guid: century-families-of-ohio
-featured_image: /assets/img/family/century-families-of-ohio.webp
-permalink: /family/century-families-of-ohio
-redirect_from: [/family/cfo, /family/ogs/cfo]
+featured_image: /assets/img/ancestry/century-families-of-ohio.webp
+permalink: /ancestry/century-families-of-ohio
+redirect_from: [/ancestry/cfo, /ancestry/ogs/cfo]
 ---
 
-{% include figure.html image="hereditary-societies/ogs-cfo.svg" 
+{% include figure.html image="ancestry/ogs-cfo.svg" 
     placement="right" width="3"
     link="https://www.ogs.org/about/lineage/cfo"
     cap="Logo of the Century Families of Ohio"
