@@ -7,9 +7,9 @@ qualifying_ancestors: [ "Mina Elizabeth Hall (1888)" ]
 author: k3jph
 layout: page
 guid: century-families-of-paulding-county
-featured_image: /assets/img/family/century-families-of-paulding-county.webp
-permalink: /family/century-families-of-paulding-county
-redirect_from: [/family/cfpc]
+featured_image: /assets/img/ancestry/century-families-of-paulding-county.webp
+permalink: /ancestry/century-families-of-paulding-county
+redirect_from: [/ancestry/cfpc]
 ---
 
 The [Century Families of Paulding County](https://www.pauldingcountyogs.org/)
@@ -28,7 +28,7 @@ everyday experiences of those living in Paulding County during that time. Her
 presence in the county at the turn of the 20th century links our family history
 to the broader narrative of Ohio's rural development and community life.
 
-Mina is also an ancestor in the [Century Families of Ohio](/family/ogs/cfo).
+Mina is also an ancestor in the [Century Families of Ohio](/ancestry/ogs/cfo).
 
 ## Legacy
 
@@ -39,8 +39,8 @@ presence and contributions exemplify the legacy of families who have shaped the
 county’s history and continue to influence its identity today.
 
 {% include figure.html width="12"
-   image="/family/CFPC-MinaElizabethHall.webp" 
+   image="/ancestry/CFPC-MinaElizabethHall.webp" 
    alt="Membership certificate in the Century Families of Paulding County"
    cap="Membership certificate in the Century Families of Paulding County" %}
    
-Or you can [download the PDF here](/assets/docs/family/CFPC-MinaElizabethHall.pdf).
+Or you can [download the PDF here](/assets/docs/ancestry/CFPC-MinaElizabethHall.pdf).

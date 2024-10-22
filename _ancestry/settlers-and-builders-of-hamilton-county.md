@@ -6,12 +6,13 @@ date: 2024-08-04
 founding_date: 2004-12-31
 qualifying_ancestor: Cordelia Curran
 qualifying_ancestors: [ "Cordelia Curran (1858)" ]
+member_number: 120
 author: k3jph
 layout: page
 guid: settlers-and-builders-of-hamilton-county
-featured_image: /assets/img/family/settlers-and-builders-of-hamilton-county.webp
-permalink: /family/settlers-and-builders-of-hamilton-county
-redirect_from: [/family/sbhc, /family/hcgs/sbhc]
+featured_image: /assets/img/ancestry/settlers-and-builders-of-hamilton-county.webp
+permalink: /ancestry/settlers-and-builders-of-hamilton-county
+redirect_from: [/ancestry/sbhc, /ancestry/hcgs/sbhc]
 ---
 
 The [Settlers and Builders of Hamilton

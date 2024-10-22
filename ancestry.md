@@ -133,25 +133,22 @@ family.
         <tr>
           <th scope="col" width="45%">Society</th>
           <th scope="col" width="40%"><span style="font-style: italic;">Jure</span></th>
-          <th scope="col" width="15%">Founding Date</th>
+          <th scope="col" width="15%" class="text-center">Member Number</th>
         </tr>
       </thead>
       <tbody class="list">
-        {% assign societies = site.family | sort: 'title' %}
+        {% assign societies = site.ancestry | sort: 'title' %}
         {% for society in societies %}
         <tr>
           <th scope="row">
             <div class="align-items-center table-element">
-              <div class="media-body">
                 <span class="name mb-0 text-sm">
                   <a href="{{ society.permalink | relative_url }}">{{ society.title }}</a>
                 </span>
-              </div>
             </div>
           </th>
           <th scope="row">
             <div class="align-items-center table-element">
-              <div class="media-body">
                 <span class="name mb-0 text-sm">
                   {% if society.qualifying_ancestors %}
                       {% for ancestor in society.qualifying_ancestors %}
@@ -161,18 +158,15 @@ family.
                     N/A
                   {% endif %}
                 </span>
-              </div>
             </div>
           </th>
           <th scope="row">
-            <div class="align-items-center table-element">
-              <div class="media-body">
+            <div class="align-items-center table-element text-center">
                 <span class="date mb-0 text-sm">
-                  {% if society.founding_date %}
-                    {{ society.founding_date | date: '%d %b %Y' }}
+                  {% if society.member_number %}
+                    {{ society.member_number }}
                   {% endif %}
                 </span>
-              </div>
             </div>
           </th>
         </tr>
@@ -182,7 +176,3 @@ family.
   </div>
 </div>
 
-Above, if I am unable to locate an exact day for founding, but a year or even
-year and month are available, the founding date is selected to be the last day
-of that year or month.  If anyone has corrections, you [should contact
-me](/contact-me) with more information.

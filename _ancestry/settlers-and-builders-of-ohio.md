@@ -8,9 +8,9 @@ qualifying_ancestors: [ "William Rees (1834)", "Eunice Marcella Burch (1855)" ]
 author: k3jph
 layout: page
 guid: settlers-and-builders-of-ohio
-featured_image: /assets/img/family/settlers-and-builders-of-ohio.webp
-permalink: /family/settlers-and-builders-of-ohio
-redirect_from: [/family/sbo, /family/hcgs/sbo]
+featured_image: /assets/img/ancestry/settlers-and-builders-of-ohio.webp
+permalink: /ancestry/settlers-and-builders-of-ohio
+redirect_from: [/ancestry/sbo, /ancestry/hcgs/sbo]
 ---
 
 The [Settlers and Builders of Ohio](https://www.ogs.org/about/lineage/sbo/)

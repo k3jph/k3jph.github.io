@@ -7,9 +7,9 @@ qualifying_ancestors: [ "Henry Cavender (1825)" ]
 author: James P. Howard, II
 layout: page
 guid: first-families-miami-county
-featured_image: /assets/img/family/first-families-miami-county.webp
-permalink: /family/first-families-miami-county
-redirect_from: [/family/ffmc, /family/mchgs/ffmc]
+featured_image: /assets/img/ancestry/first-families-miami-county.webp
+permalink: /ancestry/first-families-miami-county
+redirect_from: [/ancestry/ffmc, /ancestry/mchgs/ffmc]
 ---
 
 The [First Families of Miami

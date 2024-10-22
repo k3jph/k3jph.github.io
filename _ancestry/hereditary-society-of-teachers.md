@@ -5,12 +5,13 @@ subtitle: Member _jure_ Mary Jane Cavender (20th Century); member no. 196
 date: 2024-09-29
 founding_date: 2010-09-30
 qualifying_ancestors: [ "Mary Jane Cavender (20th Century)" ]
+member_number: 196
 author: k3jph
 layout: page
 guid: hereditary-society-of-teachers
-featured_image: /assets/img/family/hereditary-society-of-teachers.webp
-permalink: /family/hereditary-society-of-teachers
-redirect_from: [ /family/hst ]
+featured_image: /assets/img/ancestry/hereditary-society-of-teachers.webp
+permalink: /ancestry/hereditary-society-of-teachers
+redirect_from: [ /ancestry/hst ]
 ---
 
 The [Hereditary Society of

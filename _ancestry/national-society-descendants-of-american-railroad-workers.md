@@ -5,12 +5,13 @@ subtitle: Member _jure_ Harry Lee Williams (Locomotive Engineer); member no. 120
 date: 2024-10-02
 founding_date: 2021-02-28
 qualifying_ancestors: [ "Harry Lee Williams (Locomotive Engineer)" ]
+member_number: 120
 author: k3jph
 layout: page
 guid: national-society-descendants-of-american-railroad-workers
-featured_image: /assets/img/family/national-society-descendants-of-american-railroad-workers.webp
-permalink: /family/national-society-descendants-of-american-railroad-workers
-redirect_from: [ /family/nsdarw ]
+featured_image: /assets/img/ancestry/national-society-descendants-of-american-railroad-workers.webp
+permalink: /ancestry/national-society-descendants-of-american-railroad-workers
+redirect_from: [ /ancestry/nsdarw ]
 ---
 
 The [National Society Descendants of American Railroad

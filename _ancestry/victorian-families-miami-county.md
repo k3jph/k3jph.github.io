@@ -8,9 +8,9 @@ qualifying_ancestors: [ "Louisa Hearn (1854)", "Sarah Jane Rinehart (1862)"]
 author: James P. Howard, II
 layout: page
 guid: victorian-families-miami-county
-featured_image: /assets/img/family/victorian-families-miami-county.webp
-permalink: /family/victorian-families-miami-county
-redirect_from: [/family/vfmc, /family/mchgs/vfmc]
+featured_image: /assets/img/ancestry/victorian-families-miami-county.webp
+permalink: /ancestry/victorian-families-miami-county
+redirect_from: [/ancestry/vfmc, /ancestry/mchgs/vfmc]
 ---
 
 The [Victorian Families of Miami
@@ -42,7 +42,7 @@ married William Henry Harrison Martin in 1862, becoming a part of Miami
 County's history during the Victorian era.  Their marriage, documented
 in local records, places Sarah within the broader lineage of Miami
 County families during this time. William, a qualifying ancestor of the
-[Pioneers and Settlers](/family/psmc) lineage society, further
+[Pioneers and Settlers](/ancestry/psmc) lineage society, further
 establishes the family's deep connection to the county. While specific
 details about Sarah’s life are not widely available, her inclusion in
 the genealogical records through her marriage highlights the family's
