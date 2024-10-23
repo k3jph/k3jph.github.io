@@ -1,7 +1,7 @@
 ---
 id: order-of-the-first-families-of-maryland
 title: Order of the First Families of Maryland
-subtitle: Member _jure_ Edward Teague (1675)
+subtitle: Member _jure_ Edward Teague (1675); member no. 666
 date: 2024-10-10
 founding_date: 1999-04-17
 qualifying_ancestors: [ "Edward Teague (1675)" ]
