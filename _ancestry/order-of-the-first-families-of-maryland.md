@@ -5,13 +5,13 @@ subtitle: Member _jure_ Edward Teague (1675)
 date: 2024-10-10
 founding_date: 1999-04-17
 qualifying_ancestors: [ "Edward Teague (1675)" ]
-author: James P. Howard, II
+member_number: 666
+author: k3jph
 layout: page
 guid: order-of-the-first-families-of-maryland
 featured_image: /assets/img/ancestry/order-of-the-first-families-of-maryland.webp
 permalink: /ancestry/order-of-the-first-families-of-maryland
 redirect_from: [ "/ancestry/offm" ]
-published: false
 ---
 
 {% include figure.html image="ancestry/medals/offm.svg" 
