@@ -15,7 +15,7 @@ redirect_from: [ "/ancestry/offm" ]
 ---
 
 {% include figure.html image="ancestry/medals/offm.svg" 
-    placement="right" width="3"
+    placement="right" width="4"
     link="https://firstfamiliesofmaryland.com/"
     cap="Insignia of the Order of the First Families of Maryland"
     alt="Insignia of the Order of the First Families of Maryland" %}
