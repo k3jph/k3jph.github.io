@@ -34,3 +34,9 @@
   url: /ancestry/offm
   img: /assets/img/ribbons/hereditary/OFFM.svg
   alt: "Order of the First Families of Maryland"
+- id: GCAT
+  type: hereditary
+  date: 2004-05-16
+  url: /ancestry/gcat
+  img: /assets/img/ribbons/hereditary/GCAT.svg
+  alt: "Guild of Colonial Artisans and Tradesmen 1607-1783"
