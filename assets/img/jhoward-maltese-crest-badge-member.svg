@@ -20,15 +20,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.5451573"
-     inkscape:cx="144.64547"
-     inkscape:cy="126.20075"
+     inkscape:zoom="12.361258"
+     inkscape:cx="121.26597"
+     inkscape:cy="111.72002"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
-     inkscape:window-x="1587"
-     inkscape:window-y="330"
+     inkscape:window-x="1470"
+     inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g1"
+     inkscape:current-layer="g25073-1"
      inkscape:document-units="mm"
      showgrid="false" />
   <defs
@@ -411,7 +411,7 @@
              cx="617.4248"
              cy="235.53224"
              r="1.7457818"
-             style="stroke-width:1.11669023;stroke-dasharray:none" />
+             style="stroke-width:1.11669023;stroke-dasharray:none;fill:#303030;fill-opacity:1" />
           <path
              sodipodi:type="inkscape:offset"
              inkscape:radius="-1.0942917"
