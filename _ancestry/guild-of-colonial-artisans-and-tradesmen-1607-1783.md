@@ -1,10 +1,10 @@
 ---
 id: guild-of-colonial-artisans-and-tradesmen-1607-1783
 title: Guild of Colonial Artisans and Tradesmen 1607-1783
-subtitle: Member _jure_ Jeremiah Cloud (cordwainer)
+subtitle: Member _jure_ Jeremiah Cloud (Cordwainer)
 date: 2024-10-22
 founding_date: 2004-05-06
-qualifying_ancestors: [ "Jeremiah Cloud (cordwainer)" ]
+qualifying_ancestors: [ "Jeremiah Cloud (Cordwainer)" ]
 author: k3jph
 layout: page
 guid: guild-of-colonial-artisans-and-tradesmen-1607-1783
