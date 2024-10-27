@@ -14,7 +14,7 @@ categories:
 - Blog 
 tags:
 - religion
-- Eastern philosophy
+- eastern philosophy
 - Hinduism
 ---
 
