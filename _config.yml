@@ -33,9 +33,6 @@ port: 4000
 permalink: pretty
 
 collections:
-  pages:
-    output: true
-    permalink: /:slug
   posts:
     output: true
     permalink: /blog/:year/:month/:day/:slug
