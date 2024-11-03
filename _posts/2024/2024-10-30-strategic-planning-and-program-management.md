@@ -4,7 +4,7 @@ title: Strategic Planning and Program Management
 date: 2024-10-30
 author: k3jph
 layout: post
-permalink: /2024/10/strategic-planning-and-program-management
+permalink: /2024/10/30/strategic-planning-and-program-management
 featured_image: /assets/img/2024/strategic-planning-and-program-management.webp
 categories:
 - Blog 
