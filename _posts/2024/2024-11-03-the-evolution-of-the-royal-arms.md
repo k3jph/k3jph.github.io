@@ -131,7 +131,7 @@ to French lands.
   <div class="card">
     <figure>
       <div class="item">
-          <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-richard-II.svg" alt="The arms of Richard II" />
+          <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-richard-ii.svg" alt="The arms of Richard II" />
             <figcaption class="images-caption">The arms of Richard II</figcaption>
       </div>
     </figure>
