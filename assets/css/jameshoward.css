@@ -166,6 +166,14 @@ figure {
    color: #f2daa6;
 }
 
+.content-blog ul {
+  margin-top: -1rem;
+}
+
+.content-blog ul > li > ul {
+  margin-top: 0rem;
+}
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #f8f8f8;
