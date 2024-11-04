@@ -1,6 +1,6 @@
 ---
 title: "The Evolution of the Royal Arms"
-date: 2024-11-01
+date: 2024-11-03
 author: k3jph
 layout: post
 permalink: /2024/11/03/the-evolution-of-the-royal-arms
