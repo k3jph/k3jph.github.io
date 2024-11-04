@@ -47,9 +47,10 @@ showcasing the values and aspirations of the English monarchy.
   </div>
 </div>
   
-Richard I, famously known as Richard the Lionheart, introduced one of
-the most enduring symbols in English heraldry: the three lions passant
-guardant on a red field. Heraldically described as:
+Richard I, famously known as [Richard the
+Lionheart](https://www.westminster-abbey.org/abbey-commemorations/royals/richard-i/),
+introduced one of the most enduring symbols in English heraldry: the
+three lions passant guardant on a red field. Heraldically described as:
 
 > Gules, three lions passant guardant in pale Or
 
@@ -67,12 +68,13 @@ both at home and across Europe.
 
 The origins of the three lions likely draw from Anglo-Norman heraldic
 traditions, evolving from the symbols used by Richard's father, Henry
-II, and grandfather, Geoffrey of Anjou. Both predecessors had employed
-lions in their seals and personal heraldry, but Richard's choice to
-adopt three may have emphasized the unity and continuity of the
-Plantagenet line. Over time, "England's lions" became inseparable from
-the monarchy's authority across Europe, underscoring Richard's role as a
-crusading king and formidable ruler.
+II, and grandfather, [Geoffrey of
+Anjou](https://www.englishmonarchs.co.uk/plantagenet_42.html). Both
+predecessors had employed lions in their seals and personal heraldry,
+but Richard's choice to adopt three may have emphasized the unity and
+continuity of the Plantagenet line. Over time, "England's lions" became
+inseparable from the monarchy's authority across Europe, underscoring
+Richard's role as a crusading king and formidable ruler.
 
 The design has persisted through the centuries, symbolizing not only the
 monarch but also the English nation itself. Later dynasties built upon
@@ -97,14 +99,15 @@ link from the medieval period to the present day.
 </div>
 
 The addition of French symbolism to the English royal arms began with
-Edward III's assertion of a hereditary claim to the French throne
+Edward III's assertion of a [hereditary claim to the French
+throne](https://en.wikipedia.org/wiki/English_claims_to_the_French_throne)
 in 1340. Edward, as the grandson of Philip IV of France through his
 mother, sought to strengthen his political leverage and consolidate his
 authority by incorporating elements of French heraldry. To formalize his
 claim, he introduced quartering, blending England's three lions with the
-French fleurs-de-lis to create arms described as:
+French *fleurs-de-lis* to create arms described as:
 
-> Quarterly Or and Azure, semée of fleurs-de-lis Or (for France)
+> Quarterly Or and Azure, semée of *fleurs-de-lis* Or (for France)
 > alongside England's three lions
 
 This design not only reinforced his claim to both the English and French
@@ -114,18 +117,19 @@ Hundred Years' War that defined his reign.
 
 The use of quartering marked an innovative period for English heraldic
 design, symbolizing a sophisticated blend of heraldry and political
-ambition. The fleurs-de-lis came to represent the Plantagenet claim to
+ambition. The _fleurs-de-lis_ came to represent the Plantagenet claim to
 French lands, with Edward III's arms serving as a clear declaration of
 intent to govern both realms. This symbolic choice functioned as a form
 of visual propaganda, asserting England's right to French territories
 and bolstering Edward's reputation as a continental monarch.
 
-Through the fleurs-de-lis, Edward signaled his determination to defend
-his claim with military strength and alliances, crafting an emblem that
-rallied his English subjects and supporters across the Channel. The
-quartered arms with France remained in use well beyond Edward III's
-lifetime, embedding a lasting symbol of the Plantagenet dynasty's claim
-to French lands.
+Through the
+_[fleurs-de-lis](https://www.theheraldrysociety.com/articles/the-fleur-de-lys/)_,
+Edward signaled his determination to defend his claim with military
+strength and alliances, crafting an emblem that rallied his English
+subjects and supporters across the Channel. The quartered arms with
+France remained in use well beyond Edward III's lifetime, embedding a
+lasting symbol of the Plantagenet dynasty's claim to French lands.
 
 <div class="item col-md-3 px-4 pull-right">
   <div class="card">
@@ -142,14 +146,16 @@ to French lands.
 
 One notable variation in the royal arms reflecting this influence came
 under Richard II. Seeking to convey a mystical union with the revered
-King Edward the Confessor, Richard adopted a unique design that impaled
-the attributed arms of Edward the Confessor with the royal arms of
-England. This impalement visually signified a bond between the sanctity
-of Edward's legacy and Richard's own authority, reinforcing his
-legitimacy through a divine association. By combining his own heraldic
-lions with Edward's symbolic cross and martlets, Richard's arms
-illustrated an ideal of sacred kingship—a ruler spiritually linked to
-one of England's most sainted monarchs.
+[King Edward the
+Confessor](https://www.westminster-abbey.org/abbey-commemorations/royals/edward-the-confessor-and-edith/),
+Richard adopted a unique design that impaled the attributed arms of
+Edward the Confessor with the royal arms of England. This impalement
+visually signified a bond between the sanctity of Edward's legacy and
+Richard's own authority, reinforcing his legitimacy through a divine
+association. By combining his own heraldic lions with Edward's symbolic
+cross and martlets, Richard's arms illustrated an ideal of sacred
+kingship—a ruler spiritually linked to one of England's most sainted
+monarchs.
 
 ### Henry IV's Simplification
 
@@ -168,24 +174,26 @@ one of England's most sainted monarchs.
 
 Under Henry IV, who reigned from 1399 to 1413, the royal arms underwent
 significant changes that reflected both political pragmatism and the
-evolving relationship with France. Henry IV, the first king from the
-House of Lancaster, sought to establish a distinct identity for his
-reign, distancing himself from the symbolic connections his predecessors
-had made to Edward the Confessor. To this end, he removed the attributed
-arms of Edward the Confessor, which had previously been impaled with the
-royal arms of England by Richard II, emphasizing instead his own
-Lancastrian authority and the legitimacy of his rule.
+evolving relationship with France. Henry IV, [the first king from the
+House of
+Lancaster](https://www.warsoftheroses.com/the-houses-of-york-and-lancaster/),
+sought to establish a distinct identity for his reign, distancing
+himself from the symbolic connections his predecessors had made to
+Edward the Confessor. To this end, he removed the attributed arms of
+Edward the Confessor, which had previously been impaled with the royal
+arms of England by Richard II, emphasizing instead his own Lancastrian
+authority and the legitimacy of his rule.
 
-One of Henry IV’s most notable modifications to the royal arms was his
-decision to reduce the fleurs-de-lis—the emblematic symbol of the French
+One of Henry IV's most notable modifications to the royal arms was his
+decision to reduce the _fleurs-de-lis_--the emblematic symbol of the French
 crown—from a scattered field (or semée) to just three. This change
 mirrored the heraldic style of Charles V of France, who had adopted a
-similar reduction. By limiting the fleurs-de-lis, Henry not only aligned
+similar reduction. By limiting the *fleurs-de-lis*, Henry not only aligned
 his arms with contemporary French heraldic design but also conveyed a
-sense of restraint and practicality in England’s claim to the French
-throne. This design, with three fleurs-de-lis and England’s three lions
+sense of restraint and practicality in England's claim to the French
+throne. This design, with three *fleurs-de-lis* and England's three lions
 passant guardant, became a lasting symbol of the English monarchy and
-would be retained by subsequent rulers, underscoring Henry IV’s lasting
+would be retained by subsequent rulers, underscoring Henry IV's lasting
 impact on English heraldic tradition.
 
 ### Henry VI and the Dual Monarchy
@@ -201,14 +209,16 @@ impact on English heraldic tradition.
   </div>
 </div>
 
-The Treaty of Troyes, signed in 1420, marked a pivotal moment for the
-English monarchy by recognizing Henry V as heir to the French throne
-upon the death of Charles VI of France. To solidify this claim, Henry
-retained the quartered arms of England and France, underscoring
-England's status as a dual monarchy. Although Henry's death in 1422 and
-subsequent losses in France under Henry VI diminished English control,
-the continued use of the French quarter served as a lasting symbol of
-England's assertion of its rights over France.
+The [Treaty of
+Troyes](https://blog.nationalarchives.gov.uk/the-600th-anniversary-of-the-treaty-of-troyes/),
+signed in 1420, marked a pivotal moment for the English monarchy by
+recognizing Henry V as heir to the French throne upon the death of
+Charles VI of France. To solidify this claim, Henry retained the
+quartered arms of England and France, underscoring England's status as a
+dual monarchy. Although Henry's death in 1422 and subsequent losses in
+France under Henry VI diminished English control, the continued use of
+the French quarter served as a lasting symbol of England's assertion of
+its rights over France.
 
 Henry VI introduced another variation that further highlighted the
 French-English connection. As the first English king to be crowned in
@@ -232,7 +242,7 @@ not only the authority of each ruler but also the ideals they wished to
 project through heraldry.
 
 The persistence of French symbols in English heraldry became a hallmark
-of Plantagenet and early Tudor tradition, with the fleurs-de-lis
+of Plantagenet and early Tudor tradition, with the *fleurs-de-lis*
 embedded in the English arms even as the practical claim to French lands
 weakened.
 
@@ -253,27 +263,28 @@ weakened.
 
 ### Mary I and Philip of Spain: A Heraldic Union
 
-In 1554, the marriage of Mary I of England and Philip of Spain brought
-about a distinctive change in the royal arms, symbolizing their joint
-reign. The arms of Philip were impaled with those of Mary, blending
-symbols of both English and Spanish sovereignty. Philip's heraldic
-representation was complex, reflecting his rule over multiple
+In 1554, the marriage of [Mary I of England and Philip of
+Spain](https://www.historyextra.com/period/tudor/philip-ii-spain-mary-tudor-queen-love/)
+brought about a distinctive change in the royal arms, symbolizing their
+joint reign. The arms of Philip were impaled with those of Mary,
+blending symbols of both English and Spanish sovereignty. Philip's
+heraldic representation was complex, reflecting his rule over multiple
 territories:
 
- * Quarterly: Castile and León,
- * Per pale: Aragon and Aragon-Sicily, with the whole enté en point featuring Granada,
- * In base: A combination of Austria, Burgundy ancient, Burgundy modern,
-   and Brabant, with an escutcheon for Flanders and Tyrol in the center.
+ * Quarterly: [Castile and León](https://www.britannica.com/place/Castile-Leon),
+ * Per pale: [Aragon](https://en.wikipedia.org/wiki/Kingdom_of_Aragon) and [Aragon-Sicily](https://en.wikipedia.org/wiki/Kingdom_of_Sicily), with the whole enté en point featuring Granada,
+ * In base: A combination of Austria, [Burgundy ancient, Burgundy modern](https://en.wikipedia.org/wiki/Kingdom_of_Burgundy),
+   and [Brabant](https://en.wikipedia.org/wiki/Duchy_of_Brabant), with an escutcheon for Flanders and Tyrol in the center.
 
 Though Mary's father, Henry VIII, had adopted the title of King of
 Ireland and this was conferred upon Philip as well, their joint arms did
-not include the Kingdom of Ireland. Additionally, as sovereigns of
+not include the [Kingdom of Ireland](https://en.wikipedia.org/wiki/Kingdom_of_Ireland). Additionally, as sovereigns of
 Milan, Mary and Philip included an escutcheon of the Duchy of Milan,
 depicting the Biscione—an azure serpent consuming a human on a silver
 field—quartered with the Imperial eagle. This unique arrangement
 underscored their shared authority while respecting Philip's continental
 claims, particularly in Milan, where French territorial disputes shaped
-the armorial order.  
+the armorial order.
 
 ### Elizabeth I and the Restoration of the Royal Arms
 
@@ -289,14 +300,15 @@ a unified and distinctly English monarchy.
 ## Union of Crowns
 
 In 1603, James VI of Scotland inherited the English throne upon the
-death of Queen Elizabeth I, becoming James I of England. This succession
-established a personal union between England and Scotland, a significant
-moment in the history of the British Isles known as the Union of the
-Crowns. To symbolize this new union, James I introduced a revised royal
-coat of arms that quartered the royal arms of England with those of
-Scotland. Additionally, the royal arms of Ireland were incorporated to
-represent the Kingdom of Ireland, which had been proclaimed a separate
-kingdom in 1542.
+death of Queen Elizabeth I, becoming [James I of
+England](https://www.nms.ac.uk/discover-catalogue/a-brief-history-of-james-vi-and-i).
+This succession established a personal union between England and
+Scotland, a significant moment in the history of the British Isles known
+as the Union of the Crowns. To symbolize this new union, James I
+introduced a revised royal coat of arms that quartered the royal arms of
+England with those of Scotland. Additionally, the royal arms of Ireland
+were incorporated to represent the Kingdom of Ireland, which had been
+proclaimed a separate kingdom in 1542.
 
 The new coat of arms featured:
 
@@ -319,9 +331,10 @@ Britain following the union with Scotland.
 ### The Comonarchy of William III and Mary II
 
 The Glorious Revolution of 1688 led to the deposition of James II and
-the joint accession of his daughter Mary II and her husband William III
-of Orange. As co-monarchs, they faced the unique challenge of
-representing their combined sovereignty in heraldry.
+the joint accession of his daughter [Mary II and her husband William III
+of Orange](https://www.royal.uk/william-and-mary). As co-monarchs, they
+faced the unique challenge of representing their combined sovereignty in
+heraldry.
 
 In accordance with heraldic custom, their arms were impaled, meaning
 they were placed side by side within the same shield. William's arms
@@ -392,10 +405,12 @@ and the first monarch of Great Britain.
   </div>
 </div>
 
-The Acts of Union 1707 were a significant milestone during Anne's reign,
-uniting the kingdoms of England and Scotland into a single sovereign
-state known as the Kingdom of Great Britain. This political union
-necessitated a redesign of the royal arms to reflect the new reality.
+The [Acts of Union
+1707](https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/)
+were a significant milestone during Anne's reign, uniting the kingdoms
+of England and Scotland into a single sovereign state known as the
+Kingdom of Great Britain. This political union necessitated a redesign
+of the royal arms to reflect the new reality.
 
 The updated coat of arms featured:
 
@@ -413,9 +428,10 @@ reinforced the equal status of the two kingdoms within the union.
 ### George I and the Hanoverian Influence
 
 Following Queen Anne's death in 1714 without surviving heirs, the throne
-passed to George I, Elector of Hanover, under the provisions of the Act
-of Settlement 1701. This marked the beginning of the Hanoverian dynasty
-in Britain.
+passed to George I, [Elector of
+Hanover](https://united-kingdom-of-great-britain-and-ireland.fandom.com/wiki/House_of_Hanover),
+under the provisions of the Act of Settlement 1701. This marked the
+beginning of the Hanoverian dynasty in Britain.
 
 <div class="item col-md-6 px-4 pull-right">
   <div class="card">
@@ -473,10 +489,12 @@ modifications, throughout the reigns of the Hanoverian monarchs until
   </div>
 </div>
 
-The Acts of Union 1800 merged the Kingdom of Great Britain and the
-Kingdom of Ireland to form the United Kingdom of Great Britain and
-Ireland, effective from January 1, 1801. This significant political
-change prompted another redesign of the royal arms.
+The [Acts of Union
+1800](https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliamentandireland/collections/ireland/act-of-union-1800/)
+merged the Kingdom of Great Britain and the Kingdom of Ireland to form
+the United Kingdom of Great Britain and Ireland, effective from January
+1, 1801. This significant political change prompted another redesign of
+the royal arms.
 
 Key changes included:
 
@@ -519,7 +537,7 @@ The Acts of Union 1800 united the Kingdom of Great Britain and the
 Kingdom of Ireland, forming the United Kingdom of Great Britain and
 Ireland. With this union, George III abandoned the historical claim to
 the French throne, a decision that led to the removal of the
-fleurs-de-lis from the royal arms. This revision symbolized a shift in
+*fleurs-de-lis* from the royal arms. This revision symbolized a shift in
 Britain's priorities toward unifying its own territories rather than
 emphasizing historical claims in continental Europe. As a result, the
 royal arms now prominently featured England, Scotland, Ireland, and
@@ -533,13 +551,14 @@ royal arms until the death of William IV in 1837.
 
 ### Queen Victoria's Accession and Final Standardization
 
-Queen Victoria's accession in 1837 marked a transformative moment for
-the royal arms due to the end of the personal union between the United
-Kingdom and Hanover. Because Salic law barred women from inheriting
-Hanover's throne, Victoria's ascension effectively separated the British
-and Hanoverian crowns. The inescutcheon bearing Hanoverian symbols was
-removed from the royal arms, resulting in a design focused solely on the
-United Kingdom's territories:
+[Victoria](https://www.rmg.co.uk/stories/topics/life-queen-victoria-her-family)'s
+accession in 1837 marked a transformative moment for the royal arms due
+to the end of the personal union between the United Kingdom and Hanover.
+Because Salic law barred women from inheriting Hanover's throne,
+Victoria's ascension effectively separated the British and Hanoverian
+crowns. The inescutcheon bearing Hanoverian symbols was removed from the
+royal arms, resulting in a design focused solely on the United Kingdom's
+territories:
 
 <div class="item col-md-6 px-4 pull-right">
   <div class="card">
@@ -592,8 +611,9 @@ Wales. However, officials advised against these changes. During this
 time, there were also calls for the inclusion of symbols to represent
 the broader British Empire, though these proposals were ultimately set
 aside. Notably, the Irish harp remained in the royal arms even after the
-Partition of Ireland in 1921, emphasizing the continuity of the
-historical symbols within the arms.
+[Partition of Ireland in
+1921](https://www.rochester.edu/newscenter/partition-of-ireland-explained-477342/),
+emphasizing the continuity of the historical symbols within the arms.
 
 ## The Modern Royal Arms and Its Symbolism
 
