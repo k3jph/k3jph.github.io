@@ -80,6 +80,7 @@ Interestingly, the turtle turned out to be nearly as tall as Nina!
 {% include figure.html image="archive/terrapin-scholar/joe-and-jamie-with-the-checkerboard.webp" 
    alt="Terrapin Scholar's quadrants taped"
    cap="Terrapin Scholar's quadrants taped" width="4" %}
+</div>
 
 ## Preparations
 
