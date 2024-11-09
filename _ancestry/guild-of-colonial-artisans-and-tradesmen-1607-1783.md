@@ -1,10 +1,11 @@
 ---
 id: guild-of-colonial-artisans-and-tradesmen-1607-1783
 title: Guild of Colonial Artisans and Tradesmen 1607-1783
-subtitle: Member _jure_ Jeremiah Cloud (Cordwainer)
+subtitle: Member _jure_ Jeremiah Cloud (Cordwainer); member no. 535
 date: 2024-10-22
 founding_date: 2004-05-06
 qualifying_ancestors: [ "Jeremiah Cloud (Cordwainer)" ]
+member_number: 535
 author: k3jph
 layout: page
 guid: guild-of-colonial-artisans-and-tradesmen-1607-1783
@@ -99,3 +100,10 @@ trades, helping to preserve the heritage of skilled laborers who played a
 foundational role in the establishment of American communities.
 
 *Additional memberships will be added as they are approved.*
+
+{% include figure.html width="12"
+   image="/ancestry/GCAT-JeremiahCloud.webp" border=true
+   alt="Membership certificate in the Guild of Colonial Artisans and Tradesmen 1607-1783"
+   cap="Membership certificate in the Guild of Colonial Artisans and Tradesmen 1607-1783" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/GCAT-JeremiahCloud.pdf).
