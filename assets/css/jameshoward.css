@@ -166,8 +166,17 @@ figure {
    color: #f2daa6;
 }
 
+.content-blog p {
+
+}
+
 .content-blog ul {
   margin-top: -1rem;
+  margin-bottom: 1.5rem;
+}
+
+.content-blog ol {
+  font-size: 18px;
 }
 
 .content-blog ul > li > ul {
