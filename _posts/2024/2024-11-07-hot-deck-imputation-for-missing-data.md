@@ -11,11 +11,11 @@ credits: >-
 categories:
   - Blog
 tags:
-  - Data Science
-  - Statistics
-  - Data Imputation
-  - Survey Methods
-  - Machine Learning
+  - data science
+  - statistics
+  - data impitation
+  - survey methods
+  - machine learning
 ---
 
 Missing data is an unsung challenge in data science. While it's tempting
