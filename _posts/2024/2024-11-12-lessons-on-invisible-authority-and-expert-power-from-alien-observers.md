@@ -84,12 +84,13 @@ resilient.
 ## French and Raven's Bases of Power
 
 Understanding power dynamics isn't just about knowing who's "in charge."
-Social psychologists John French and Bertram Raven described five main
-"bases" of power that shape authority in any setting: **legitimate**,
-**reward**, **coercive**, **referent**, and **expert** power. Each type
-plays a role in dynamic organizations, and Dr. Chen's unexpected command
-over high-ranking military officers in the story is a perfect case
-study.
+Social psychologists [John French and Bertram
+Raven](https://www.mindtools.com/abwzix3/french-and-ravens-five-forms-of-power)
+described five main "bases" of power that shape authority in any
+setting: **legitimate**, **reward**, **coercive**, **referent**, and
+**expert** power. Each type plays a role in dynamic organizations, and
+Dr. Chen's unexpected command over high-ranking military officers in the
+story is a perfect case study.
 
 {% include figure.html width="12" placement="center"
    image="/2024/lessons-on-invisible-authority-and-expert-power-from-alien-observers/french-and-ravens-bases-of-power.webp"
@@ -237,12 +238,13 @@ any title.
 In real-world organizations, blending rank in position with rank in
 person can improve responsiveness and adaptability. A company may have a
 CEO and a strict hierarchy, but when a cybersecurity threat hits, the
-chief information security officer (CISO) often takes the lead,
-regardless of where they sit in the chain of command. In the same way,
-hospitals defer to senior surgeons in operating rooms, even though they
-may have less administrative authority outside of that setting.
-Organizations can prioritize expertise over formal structure when needed
-by allowing situational authority.
+[chief information security officer
+(CISO)](https://www.splunk.com/en_us/blog/learn/chief-information-security-officer-ciso-role.html)
+often takes the lead, regardless of where they sit in the chain of
+command. In the same way, hospitals defer to senior surgeons in
+operating rooms, even though they may have less administrative authority
+outside of that setting.  Organizations can prioritize expertise over
+formal structure when needed by allowing situational authority.
 
 Ultimately, Kleck's confusion highlights a real challenge in leadership:
 balancing the need for stable, clear-cut roles with the flexibility to
@@ -276,14 +278,15 @@ knows that her expertise supersedes his title in this crisis.
    
 This concept, known as **situational authority**, allows the most
 qualified individual to lead, regardless of where they sit in the
-official chain of command. Situational authority is common in fields
-where rapid, high-stakes decisions are required. In emergency response
-teams, for instance, the incident commander takes control not based on
-rank but on having the most relevant expertise for the situation--whether
-it's a medical emergency, a fire, or a hazardous materials spill.
-Similarly, in specialized projects, authority might shift to a technical
-expert or project lead when their skills are essential to the task at
-hand.
+official chain of command. [Situational authority is common in fields
+where rapid, high-stakes decisions are
+required.](https://www.instagram.com/drebaldwin/reel/C86bB2JIAYu/) In
+emergency response teams, for instance, the incident commander takes
+control not based on rank but on having the most relevant expertise for
+the situation--whether it's a medical emergency, a fire, or a hazardous
+materials spill.  Similarly, in specialized projects, authority might
+shift to a technical expert or project lead when their skills are
+essential to the task at hand.
 
 The benefit of situational authority is its responsiveness. The
 traditional hierarchy can become a bottleneck in complex, dynamic
@@ -297,16 +300,19 @@ case, the general steps back because he understands that her medical
 expertise is more critical than his formal authority.
 
 Situational authority isn't just about expertise; it's also about the
-trust and respect others place in the individual taking the lead. Dr.
-Chen's authority is accepted not because she demands it but because the
-others recognize her knowledge and skill. This trust is essential for
-situational authority to work. Without it, individuals in crisis might
-hesitate or second-guess directives, undermining the swift action needed
-in high-stakes scenarios. 
+[trust and respect](https://boolkah.com/situational-leadership/) others
+place in the individual taking the lead. Dr. Chen's authority is
+accepted not because she demands it but because the others recognize her
+knowledge and skill. This trust is essential for situational authority
+to work. Without it, individuals in crisis might hesitate or
+second-guess directives, undermining the swift action needed in
+high-stakes scenarios. 
 
 In dynamic organizations, situational authority provides a flexible
 framework for responding to fast-changing environments. Tech companies
-often embody this model in "scrum" or "agile" project teams, where
+often embody this model in
+"[scrum](https://www.scrum.org/resources/what-scrum-module)" or
+"[agile](https://www.atlassian.com/agile)" project teams, where
 leadership roles shift based on who has the relevant knowledge for each
 sprint. Similarly, hospitals and trauma units rely on situational
 authority, allowing senior medical staff to make calls that other
@@ -350,16 +356,17 @@ understanding is part of the organization's culture, making her
 influence felt even when her role isn't spelled out in the chain of
 command.
 
-Then there's the coffee ritual, another source of mystery to Kleck. For
-the human crew, coffee breaks aren't just a time to refuel--they're also
-moments for informal bonding. Sharing a coffee is an opportunity to
-check in with colleagues, share ideas, and, perhaps most importantly,
-cultivate relationships that aren't defined by rank. Over time, these
-small, repeated interactions build a foundation of trust and camaraderie
-that subtly shifts the organization's power structure. Colleagues with
-strong informal connections often have more influence, as their ideas
-and opinions are shared and valued beyond official meetings or command
-structures.
+Then there's the [coffee
+ritual](https://lifeandthyme.com/drink/coffee-rituals-around-the-world/),
+another source of mystery to Kleck. For the human crew, coffee breaks
+aren't just a time to refuel--they're also moments for informal bonding.
+Sharing a coffee is an opportunity to check in with colleagues, share
+ideas, and, perhaps most importantly, cultivate relationships that
+aren't defined by rank. Over time, these small, repeated interactions
+build a foundation of trust and camaraderie that subtly shifts the
+organization's power structure. Colleagues with strong informal
+connections often have more influence, as their ideas and opinions are
+shared and valued beyond official meetings or command structures.
 
 In this way, organizational culture serves as the invisible scaffolding
 that supports formal authority. Culture-based rituals create shared
@@ -425,7 +432,7 @@ adapt, respond, and thrive. For Dr. Chen, this network-based authority
 isn't an anomaly; it's a key component of effective leadership in
 complex systems.
 
-## Lessons Learned: Designing Effective Power Structures in Complex Organizations
+## Designing Effective Power Structures in Complex Organizations
 
 Captain Kleck's experience on the human base may have been confusing,
 but it offers clear insights for leaders navigating complex
