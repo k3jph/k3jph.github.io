@@ -181,6 +181,7 @@ figure {
 
 .content-blog ul > li > ul {
   margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 
 @media (max-width: 767px) {
