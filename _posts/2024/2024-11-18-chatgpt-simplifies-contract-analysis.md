@@ -18,8 +18,8 @@ tags:
 The average corporate contract is [30–40 pages
 long](https://hbr.org/2018/01/the-case-for-plain-language-contracts), filled
 with dense legalese that can bog down even the most experienced legal teams.
-Reviewing a single contract can take hours, while managing dozens—or even
-hundreds—of contracts at scale can create bottlenecks that delay decisions and
+Reviewing a single contract can take hours, while managing dozens--or even
+hundreds--of contracts at scale can create bottlenecks that delay decisions and
 increase risks. For organizations dealing with increasingly complex contract
 portfolios, traditional manual review processes are struggling to keep up.
 
@@ -30,9 +30,9 @@ clauses, ChatGPT offers faster, more consistent contract analysis while freeing
 up time for legal and contract management professionals to focus on strategic
 decision-making.
 
-In this post, we’ll explore how ChatGPT works as a contract analysis tool, its
-benefits, and its limitations. Whether you’re looking to streamline routine
-contract reviews, flag potential risks, or scale your team’s capabilities,
+In this post, we'll explore how ChatGPT works as a contract analysis tool, its
+benefits, and its limitations. Whether you're looking to streamline routine
+contract reviews, flag potential risks, or scale your team's capabilities,
 ChatGPT offers a powerful assistant to help manage the growing complexity of
 modern contracts.
 
@@ -55,10 +55,10 @@ contracts can contain nuanced clauses that require careful scrutiny. For legal
 teams and contract managers, this means spending hours or days poring over
 documents to identify key terms, ensure compliance, and assess risks.
 
-The challenges don’t stop there. [Manual contract
+The challenges don't stop there. [Manual contract
 review](https://dealhub.io/glossary/contract-analysis/) is inherently prone to
-oversight. It’s easy to miss a critical indemnity clause, a non-standard payment
-term, or a jurisdictional anomaly—each of which can expose the organization to
+oversight. It's easy to miss a critical indemnity clause, a non-standard payment
+term, or a jurisdictional anomaly--each of which can expose the organization to
 unexpected liabilities. As the volume of contracts grows, so does the likelihood
 of errors, delays, and inconsistencies in analysis.
 
@@ -66,7 +66,7 @@ Scaling this process across hundreds of contracts is even more daunting.
 Organizations often find their legal teams stretched thin, creating bottlenecks
 that slow deal-making and compliance efforts. In short, the manual review
 process is time-intensive, error-prone, and increasingly unsustainable in
-today’s fast-paced business environment.
+today's fast-paced business environment.
 
 Addressing these challenges is where tools like ChatGPT come into play, offering
 the potential to speed up the process, improve consistency, and free up
@@ -82,7 +82,7 @@ risks with remarkable accuracy. For instance, it can locate confidentiality
 clauses, governing law terms, or renewal conditions buried in dense legal text,
 saving hours of manual work.
 
-One of ChatGPT’s standout features is its flexibility with input and output
+One of ChatGPT's standout features is its flexibility with input and output
 formats. Whether working with plain text, scanned PDFs, or digital documents,
 ChatGPT can process unstructured inputs and deliver structured, actionable
 outputs. This might include clause summaries, flagged high-risk terms, or even
@@ -92,12 +92,12 @@ workflows.
 
 {% include figure.html width="6" placement="right"
    image="/2024/chatgpt-simplifies-contract-analysis/chatgpt-process.webp"
-   alt="A schematic diagram showing ChatGPT’s contract analysis process. The
+   alt="A schematic diagram showing ChatGPT's contract analysis process. The
    input is contract text in PDF or plain text format. The process includes
    natural language processing, key term extraction, and risk analysis. Outputs
    are a structured summary, flagged clauses, and actionable recommendations,
    with flagged clauses highlighted in red and positive results in green."
-   cap="Schematic representation of ChatGPT’s contract analysis process" %} 
+   cap="Schematic representation of ChatGPT's contract analysis process" %} 
    
 Seamless integration into workflows is another significant advantage. ChatGPT
 can be used to analyze incoming contracts attached to emails, assist with bulk
@@ -123,9 +123,9 @@ process becomes much faster and more efficient.
 
 The manager uploads the contract into a ChatGPT-powered tool, which analyzes the
 text in seconds. ChatGPT identifies a liability clause that deviates from the
-company’s standard terms, flagging it as a potential risk. It also highlights an
+company's standard terms, flagging it as a potential risk. It also highlights an
 ambiguous termination clause and suggests rewording it for clarity. Alongside
-these red flags, ChatGPT generates a concise summary of the contract’s key
+these red flags, ChatGPT generates a concise summary of the contract's key
 terms, including governing law, payment terms, and renewal conditions.
 
 Expected outputs from this review include:
@@ -146,7 +146,7 @@ the most persistent challenges faced by legal teams and contract managers.
 
 ### Efficiency
 
-One of ChatGPT’s greatest strengths is its ability to drastically reduce the
+One of ChatGPT's greatest strengths is its ability to drastically reduce the
 time spent on routine analysis. Tasks like identifying renewal dates, flagging
 non-standard clauses, or summarizing contract terms can now be completed in
 minutes instead of hours. For example, instead of manually reviewing a 40-page
@@ -156,9 +156,9 @@ higher-value activities.
 
 ### Consistency
 
-Manual contract reviews often vary depending on the reviewer’s experience and
+Manual contract reviews often vary depending on the reviewer's experience and
 attention to detail. ChatGPT eliminates this variability by applying uniform
-standards across all analyses. Whether it’s a confidentiality clause or an
+standards across all analyses. Whether it's a confidentiality clause or an
 indemnity term, ChatGPT ensures the same level of scrutiny every time, reducing
 the risk of oversights or inconsistencies.
 
@@ -201,7 +201,7 @@ ensuring accuracy and compliance. Think of ChatGPT as a powerful assistant, not
 a replacement for your legal team. It handles the routine tasks, leaving your
 team free to focus on high-value, strategic decisions.
 
-By combining ChatGPT’s speed and consistency with human oversight, organizations
+By combining ChatGPT's speed and consistency with human oversight, organizations
 can maximize efficiency while maintaining the precision and nuance required for
 effective contract management.
 
