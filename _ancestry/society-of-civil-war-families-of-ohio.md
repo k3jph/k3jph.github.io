@@ -13,7 +13,7 @@ permalink: /ancestry/society-of-civil-war-families-of-ohio
 redirect_from: [/ancestry/scwfo, /ancestry/ogs/scwfo]
 ---
 
-{% include figure.html image="ancestry/ogs-scwfo.png" 
+{% include figure.html image="ancestry/ogs-scwfo.webp" 
     placement="right" width="3"
     link="https://www.ogs.org/about/lineage/scwfo/"
     cap="Logo of the Society of Civil War Families of Ohio"

@@ -1,5 +1,5 @@
 ---
-id: victorian-families-miami-county
+id: victorian-families-of-miami-county
 title: Victorian Families of Miami County
 subtitle: Member _jure_ Louisa Hearn (1854) and Sarah Jane Rinehart (1862)
 date: 2024-10-10
@@ -7,9 +7,9 @@ qualifying_ancestor: Louisa Hearn
 qualifying_ancestors: [ "Louisa Hearn (1854)", "Sarah Jane Rinehart (1862)"]
 author: James P. Howard, II
 layout: page
-guid: victorian-families-miami-county
-featured_image: /assets/img/ancestry/victorian-families-miami-county.webp
-permalink: /ancestry/victorian-families-miami-county
+guid: victorian-families-of-miami-county
+featured_image: /assets/img/ancestry/victorian-families-of-miami-county.webp
+permalink: /ancestry/victorian-families-of-miami-county
 redirect_from: [/ancestry/vfmc, /ancestry/mchgs/vfmc]
 ---
 
@@ -49,4 +49,13 @@ the genealogical records through her marriage highlights the family's
 continued presence in the region during a period of significant
 historical change.
 
-This membership celebrates the lives of individuals like Louisa, who contributed to the county's history during the Victorian era, and helps preserve their stories for future generations.
+This membership celebrates the lives of individuals like Louisa, who contributed
+to the county's history during the Victorian era, and helps preserve their
+stories for future generations.
+
+{% include figure.html width="12"
+   image="/ancestry/MCHGS-VFMC-Hearn.webp" border=true
+   alt="Membership certificate in the Victorian Families of Miami County"
+   cap="Membership certificate in the Victorian Families of Miami County" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/MCHGS-VFMC-Hearn.pdf).
