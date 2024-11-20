@@ -45,3 +45,10 @@ Dayton to Cincinnati and her family’s deep roots in the area,
 underscores the family's enduring impact on the community. This
 membership celebrates their contributions and ensures that their legacy
 is preserved for future generations. 
+
+{% include figure.html width="12"
+   image="/ancestry/HCGS-CFHC-Williams.webp" border=true
+   alt="Membership certificate in the Century Families of Hamilton County"
+   cap="Membership certificate in the Century Families of Hamilton County" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/HCGS-CFHC-Williams.pdf).
