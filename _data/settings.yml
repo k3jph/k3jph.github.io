@@ -78,9 +78,9 @@ notices:
     url: /privacy-policy/
         
 social_media:
-  - icon: keybase
-    name: Keybase
-    url: https://keybase.io/howardjp
+  - icon: bluesky
+    name: Bluesky
+    url: https://bsky.app/profile/k3jph.bsky.social
   - icon: facebook
     name: Facebook
     url: https://facebook.com/k3jph
