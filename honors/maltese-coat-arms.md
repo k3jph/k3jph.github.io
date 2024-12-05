@@ -305,7 +305,7 @@ cap="Crest in the form of a crest badge"
 alt="Crest in the form of a crest badge" %}
 
 {% include figure.html width="4" 
-image="jhoward-maltese-crest-badge-chief.svg" 
+image="jhoward-maltese-crest-badge-armiger.svg" 
 cap="Crest in the form of an armiger's crest badge" 
 alt="Crest in the form of an armiger's crest badge" %}
 
