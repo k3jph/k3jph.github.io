@@ -293,6 +293,8 @@ well-established heraldic systems. By integrating these traditions, the
 Maltese heraldic system ensures a robust framework for granting and
 regulating coats of arms and badges, maintaining a respectful nod to its
 diverse heraldic heritage.
+  
+<div id="masonry-container" class="row">
 
 {% include figure.html width="4"
 image="jhoward-maltese-heraldic-badge.svg" 
@@ -306,34 +308,57 @@ alt="Crest in the form of a crest badge" %}
 
 {% include figure.html width="4" 
 image="jhoward-maltese-crest-badge-armiger.svg" 
+cap="English-style crest badge" 
+alt="English-style crest badge" %}
+
+{% include figure.html width="4" 
+image="jhoward-maltese-crest.svg" 
 cap="Crest in the form of an armiger's crest badge" 
 alt="Crest in the form of an armiger's crest badge" %}
 
+</div>
+
 <div class="row"></div>
 
-### English Heraldic Badge
+### English Heraldic Badges
 
-The English heraldic badge I have adopted features the martlet from my
-crest, depicted in front of the sword from my coat of arms, which is
-arranged vertically. This design choice adds a layer of complexity and
-meaning, combining two significant elements from my coat of arms into a
-single, cohesive emblem. The badge is designed to be recognizable and
+The English heraldic badge I have adopted features two distinct designs,
+each reflecting different aspects of my armigerous status and personal
+values.  The primary badge incorporates the martlet from my crest,
+depicted in front of the sword from my coat of arms, which is arranged
+vertically.  This design choice adds a layer of complexity and meaning,
+combining two significant elements from my coat of arms into a single,
+cohesive emblem. The badge is designed to be recognizable and
 straightforward, making it suitable for various applications such as
-seals, stationery, and personal regalia. 
+seals, stationery, and personal regalia.
 
 The martlet, depicted in a prominent and uncluttered manner, maintains
 its symbolic significance of continuous quest and ambition.
 Traditionally, the martlet is seen as a symbol of perpetual effort and
 aspiration, as it is often shown without feet, suggesting a bird that
 never comes to rest. This aligns with the values of constant endeavor
-and the pursuit of higher goals.
+and the pursuit of higher goals. Including the sword complements the
+martlet's representation of tireless endeavor. The sword's vertical
+arrangement evokes strength and readiness, highlighting themes of
+nobility and righteousness. Together, these elements create a badge that
+serves as a personal emblem, reflecting the enduring effort towards
+personal and professional goals, and the commitment to uphold principles
+of justice and honor.
 
-Including the sword complements the martlet's representation of tireless
-endeavor. The sword's vertical arrangement evokes strength and
-readiness, highlighting themes of nobility and righteousness. Together,
-these elements create a badge that serves as a personal emblem,
-reflecting the enduring effort towards personal and professional goals,
-and the commitment to uphold principles of justice and honor.
+The second design, an English-style crest badge, features the martlet
+atop a torse. This simpler arrangement reflects the traditional display
+of a crest in English heraldry, emphasizing the martlet's central role
+as a personal emblem. The torse, the twisted band of fabric that
+supports the crest, signifies the connection to the armorial bearings
+and provides a foundation for the martlet. This version of the badge
+highlights elegance and tradition, offering a versatile option for use
+in less formal settings while still maintaining its heraldic
+significance.
+
+Both versions of the English heraldic badge offer flexibility in their
+application, allowing for use across different contexts while preserving
+the integrity of the heraldic symbolism. Together, they provide a
+unified yet diverse representation of my heraldic identity.
 
 ### Scottish Crest Badge
 
@@ -352,6 +377,16 @@ perpetual journey and striving for excellence. This imagery aligns with
 my personal values of constant endeavor and the pursuit of higher
 aspirations.
 
+Additionally, my crest badge incorporates a feather, which is a
+significant symbol within Scottish heraldry and marks the badge bearer
+as an armiger—one entitled to bear arms. Traditionally, feathers on an
+armiger's badge are used to differentiate the wearer from other members
+of the clan who may also display the chief's crest badge. This
+distinction underscores the individual's recognized status and personal
+achievements in heraldry. The feather in my badge further complements
+the martlet’s symbolism of upward ambition, evoking ideas of
+intellectual elevation and grace.
+
 The belt and buckle design is a prominent feature in Scottish crest
 badges, symbolizing a strong and binding connection to one's lineage and
 loyalty to the clan or family represented by the crest. The circular
@@ -360,12 +395,12 @@ denotes security and steadfastness. This design element emphasizes a
 sense of belonging and commitment, reinforcing the collective identity
 of the bearers of the badge.
 
-In my crest badge, the belt and buckle also serve to frame the martlet
-and motto, highlighting their importance and ensuring that the emblem is
-cohesive and visually balanced. The integration of the belt and buckle
-with my personal motto further underscores the themes of determination
-and leadership, suggesting that true guidance and direction in life come
-from inner strength and resolve.
+In my crest badge, the belt and buckle also serve to frame the martlet,
+feather, and motto, highlighting their importance and ensuring that the
+emblem is cohesive and visually balanced. The integration of the belt
+and buckle with my personal motto further underscores the themes of
+determination and leadership, suggesting that true guidance and
+direction in life come from inner strength and resolve.
 
 ## Additional Emblazonments
 
