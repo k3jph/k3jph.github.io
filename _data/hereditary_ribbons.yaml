@@ -40,3 +40,9 @@
   url: /ancestry/gcat
   img: /assets/img/ribbons/hereditary/GCAT.svg
   alt: "Guild of Colonial Artisans and Tradesmen 1607-1783"
+- id: NSDARW
+  type: hereditary
+  date: 2021-02-28
+  url: /ancestry/nsdarw
+  img: /assets/img/ribbons/hereditary/NSDARW.svg
+  alt: "National Society Descendants of American Railroad Workers"
