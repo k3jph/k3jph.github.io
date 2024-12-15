@@ -26,103 +26,17 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="2"
-     inkscape:cx="385.49999"
-     inkscape:cy="666.49999"
-     inkscape:window-width="1920"
+     inkscape:zoom="0.25"
+     inkscape:cx="112"
+     inkscape:cy="1144"
+     inkscape:window-width="1712"
      inkscape:window-height="1027"
-     inkscape:window-x="1470"
+     inkscape:window-x="1710"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
      inkscape:current-layer="g3" />
   <defs
      id="defs1">
-    <mask
-       maskUnits="userSpaceOnUse"
-       id="mask28">
-      <g
-         id="g52"
-         transform="matrix(7.7885017,0,0,7.7885017,112.14273,122.72908)">
-        <g
-           id="g51">
-          <g
-             id="g50">
-            <path
-               d="m 50,0 h 50 V 33.33333 C 100,69.05989 80.94011,102.07259 50,119.93587 19.05989,102.07259 0,69.05989 0,33.33333 V 0 Z"
-               clip-rule="evenodd"
-               fill-rule="evenodd"
-               fill="#ffffff"
-               stroke="none"
-               id="path42" />
-          </g>
-        </g>
-      </g>
-    </mask>
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect10080-4"
-       is_visible="true"
-       lpeversion="0" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect10082-1"
-       is_visible="true"
-       lpeversion="0" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect10084-1"
-       is_visible="true"
-       lpeversion="0" />
-    <inkscape:path-effect
-       is_visible="true"
-       id="path-effect10090-3"
-       effect="spiro"
-       lpeversion="0" />
-    <inkscape:path-effect
-       is_visible="true"
-       id="path-effect10096-8"
-       effect="spiro"
-       lpeversion="0" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect10102-7"
-       is_visible="true"
-       lpeversion="0" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect10108-4"
-       is_visible="true"
-       lpeversion="0" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect10112-7"
-       is_visible="true"
-       lpeversion="0" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect10114-7"
-       is_visible="true"
-       lpeversion="0" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect10116-9"
-       is_visible="true"
-       lpeversion="0" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect10118-3"
-       is_visible="true"
-       lpeversion="0" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect10110-2"
-       is_visible="true"
-       lpeversion="0" />
-    <inkscape:path-effect
-       is_visible="true"
-       id="path-effect10120-1"
-       effect="spiro"
-       lpeversion="0" />
     <inkscape:path-effect
        is_visible="true"
        id="path-effect13098"
@@ -533,18 +447,6 @@
        id="path-effect5240-1"
        is_visible="true"
        lpeversion="0" />
-    <path
-       id="path_63"
-       d="m -145.70702,-0.65677633 c 0.12588,0.42047 0.64688,0.6826 1.66128,0.74384 9.36446,0.56535 52.918221,-12.93078967 76.926731,-16.19028967 24.00851,-3.2595 44.56804,-3.45753 67.12434039,-3.36668 22.55629961,0.09084 44.20496961,0.65207 68.21345961,3.91174 24.00849,3.25966 66.121299,15.88730967 75.837469,15.64624967 1.19267,-0.02959 1.78657,-0.28712 1.91585,-0.71893" />
-    <path
-       id="path1"
-       d="m -145.70702,-0.65677633 c 0.12588,0.42047 0.64688,0.6826 1.66128,0.74384 9.36446,0.56535 52.918221,-12.93078967 76.926731,-16.19028967 24.00851,-3.2595 44.56804,-3.45753 67.12434039,-3.36668 22.55629961,0.09084 44.20496961,0.65207 68.21345961,3.91174 24.00849,3.25966 66.121299,15.88730967 75.837469,15.64624967 1.19267,-0.02959 1.78657,-0.28712 1.91585,-0.71893" />
-    <defs
-       id="defs1474">
-      <path
-         id="path2"
-         d="m -145.70702,-0.65677633 c 0.12588,0.42047 0.64688,0.6826 1.66128,0.74384 9.36446,0.56535 52.918221,-12.93078967 76.926731,-16.19028967 24.00851,-3.2595 44.56804,-3.45753 67.12434039,-3.36668 22.55629961,0.09084 44.20496961,0.65207 68.21345961,3.91174 24.00849,3.25966 66.121299,15.88730967 75.837469,15.64624967 1.19267,-0.02959 1.78657,-0.28712 1.91585,-0.71893" />
-    </defs>
   </defs>
   <g
      inkscape:label="Layer 1"
