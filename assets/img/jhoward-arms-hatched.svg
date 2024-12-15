@@ -26,11 +26,11 @@
      inkscape:document-units="mm"
      inkscape:zoom="0.21025203"
      inkscape:cx="768.12576"
-     inkscape:cy="1124.8405"
-     inkscape:window-width="1920"
-     inkscape:window-height="1052"
-     inkscape:window-x="1470"
-     inkscape:window-y="28"
+     inkscape:cy="1122.4624"
+     inkscape:window-width="1712"
+     inkscape:window-height="1027"
+     inkscape:window-x="1710"
+     inkscape:window-y="25"
      inkscape:window-maximized="0"
      inkscape:current-layer="g26" />
   <defs
@@ -43,14 +43,6 @@
        patternTransform="matrix(0.00992547,0.00121869,-0.00121869,0.00992547,3686.4885,2648.166)"
        x="0"
        y="0" />
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath52">
-      <path
-         id="path52"
-         style="stroke-width:0.1;stroke-linecap:square;paint-order:markers fill stroke;stop-color:#000000"
-         d="m -880.82767,-187.29769 h 1640.84 v 73.28155 h -1640.84 z" />
-    </clipPath>
     <pattern
        inkscape:collect="always"
        xlink:href="#pattern16-4"
@@ -112,20 +104,13 @@
        inkscape:isstock="true"
        inkscape:label="Stripes 05 (1:4)">
       <rect
-   style="stroke:none"
-   x="0"
-   y="-0.5"
-   width="1"
-   height="2"
-   id="rect158" />
-
+         style="stroke:none"
+         x="0"
+         y="-0.5"
+         width="1"
+         height="2"
+         id="rect158" />
     </pattern>
-    <clipPath
-       id="artboard_clip_path-5">
-      <path
-         d="M 125,179 H 487 V 612.6419 H 125 Z"
-         id="path1-5" />
-    </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath12">
@@ -307,194 +292,6 @@
       <rect
          style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.463754;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          id="rect13-2"
-         width="254"
-         height="254"
-         x="975.38342"
-         y="-954.66058"
-         transform="scale(1,-1)"
-         ry="0" />
-    </clipPath>
-    <pattern
-       patternUnits="userSpaceOnUse"
-       width="960"
-       height="960"
-       patternTransform="translate(3686.4885,2648.166)"
-       preserveAspectRatio="xMidYMid"
-       id="pattern16-1"
-       style="fill:#000000"
-       inkscape:label="pattern16">
-      <circle
-         style="opacity:1;fill-opacity:1;stroke:none;stroke-width:0.153515;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="path12-71"
-         cx="1102.3834"
-         cy="700.66058"
-         r="38.099998"
-         clip-path="url(#clipPath15-7)"
-         transform="matrix(3.7795276,0,0,3.7795276,-3686.4885,-2648.166)" />
-      <circle
-         style="fill-opacity:1;stroke:none;stroke-width:0.153515;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="path12-78-8"
-         cx="1102.3834"
-         cy="954.66058"
-         r="38.099998"
-         clip-path="url(#clipPath14-9)"
-         transform="matrix(3.7795276,0,0,3.7795276,-3686.4885,-2648.166)" />
-      <circle
-         style="fill-opacity:1;stroke:none;stroke-width:0.153515;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="path12-5-78"
-         cx="1229.3834"
-         cy="827.66058"
-         r="38.099998"
-         clip-path="url(#clipPath13-5)"
-         transform="matrix(3.7795276,0,0,3.7795276,-3686.4885,-2648.166)" />
-      <circle
-         style="fill-opacity:1;stroke:none;stroke-width:0.153515;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="path12-6-7"
-         cx="975.38342"
-         cy="827.66058"
-         r="38.099998"
-         clip-path="url(#clipPath12-58)"
-         transform="matrix(3.7795276,0,0,3.7795276,-3686.4885,-2648.166)" />
-    </pattern>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath15-7">
-      <rect
-         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.463754;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="rect16-44"
-         width="254"
-         height="254"
-         x="975.38342"
-         y="-954.66058"
-         transform="scale(1,-1)"
-         ry="0" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath14-9">
-      <rect
-         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.463754;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="rect15-1"
-         width="254"
-         height="254"
-         x="975.38342"
-         y="-954.66058"
-         transform="scale(1,-1)"
-         ry="0" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath13-5">
-      <rect
-         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.463754;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="rect14-5"
-         width="254"
-         height="254"
-         x="975.38342"
-         y="-954.66058"
-         transform="scale(1,-1)"
-         ry="0" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath12-58">
-      <rect
-         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.463754;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="rect13-29"
-         width="254"
-         height="254"
-         x="975.38342"
-         y="-954.66058"
-         transform="scale(1,-1)"
-         ry="0" />
-    </clipPath>
-    <pattern
-       patternUnits="userSpaceOnUse"
-       width="960"
-       height="960"
-       patternTransform="translate(3686.4885,2648.166)"
-       preserveAspectRatio="xMidYMid"
-       id="pattern16-4-6"
-       style="fill:#000000"
-       inkscape:label="pattern16">
-      <circle
-         style="opacity:1;fill-opacity:1;stroke:none;stroke-width:0.153515;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="path12-9-2"
-         cx="1102.3834"
-         cy="700.66058"
-         r="38.099998"
-         clip-path="url(#clipPath15-5-2)"
-         transform="matrix(3.7795276,0,0,3.7795276,-3686.4885,-2648.166)" />
-      <circle
-         style="fill-opacity:1;stroke:none;stroke-width:0.153515;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="path12-78-1-2"
-         cx="1102.3834"
-         cy="954.66058"
-         r="38.099998"
-         clip-path="url(#clipPath14-1-1)"
-         transform="matrix(3.7795276,0,0,3.7795276,-3686.4885,-2648.166)" />
-      <circle
-         style="fill-opacity:1;stroke:none;stroke-width:0.153515;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="path12-5-7-5"
-         cx="1229.3834"
-         cy="827.66058"
-         r="38.099998"
-         clip-path="url(#clipPath13-8-2)"
-         transform="matrix(3.7795276,0,0,3.7795276,-3686.4885,-2648.166)" />
-      <circle
-         style="fill-opacity:1;stroke:none;stroke-width:0.153515;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="path12-6-5-2"
-         cx="975.38342"
-         cy="827.66058"
-         r="38.099998"
-         clip-path="url(#clipPath12-5-1)"
-         transform="matrix(3.7795276,0,0,3.7795276,-3686.4885,-2648.166)" />
-    </pattern>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath15-5-2">
-      <rect
-         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.463754;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="rect16-4-7"
-         width="254"
-         height="254"
-         x="975.38342"
-         y="-954.66058"
-         transform="scale(1,-1)"
-         ry="0" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath14-1-1">
-      <rect
-         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.463754;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="rect15-8-5"
-         width="254"
-         height="254"
-         x="975.38342"
-         y="-954.66058"
-         transform="scale(1,-1)"
-         ry="0" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath13-8-2">
-      <rect
-         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.463754;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="rect14-3-1"
-         width="254"
-         height="254"
-         x="975.38342"
-         y="-954.66058"
-         transform="scale(1,-1)"
-         ry="0" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath12-5-1">
-      <rect
-         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.463754;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="rect13-2-0"
          width="254"
          height="254"
          x="975.38342"
