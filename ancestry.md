@@ -111,7 +111,7 @@ those separately below.
   </div>
 </div>
 
-The propensity of hereditary socities to use solid red ribbons may make
+The propensity of hereditary societies to use solid red ribbons may make
 this difficult.
 
 ### Precedence Among Hereditary Societies
