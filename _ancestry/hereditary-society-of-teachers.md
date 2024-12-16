@@ -90,3 +90,10 @@ devoted themselves to shaping minds and fostering growth.
 
 *Additional memberships will be added as they are approved.*
 
+{% include figure.html width="12"
+   image="ancestry/HST-Cavender.webp" border=true
+   alt="Membership certificate in the Hereditary Society of Teachers"
+   cap="Membership certificate in the Hereditary Society of Teachers" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/HST-Cavender.pdf).
+
