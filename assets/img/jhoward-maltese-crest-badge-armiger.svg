@@ -7,8 +7,32 @@
    viewBox="0 0 43.18 85.956161"
    version="1.1"
    id="svg1"
+   sodipodi:docname="jhoward-maltese-crest-badge-armiger.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.7241357"
+     inkscape:cx="81.677281"
+     inkscape:cy="133.06973"
+     inkscape:window-width="1728"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="37"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
   <defs
      id="defs1" />
   <g
@@ -29,18 +53,11 @@
        id="g27-1"
        transform="matrix(0.09531558,0,0,0.09531558,-10.958546,-19.999085)"
        style="display:inline;stroke-width:2.64031;stroke-dasharray:none">
-      <circle
-         style="display:inline;opacity:1;vector-effect:non-scaling-stroke;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.491631;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline;paint-order:markers fill stroke"
-         id="path14"
-         cx="21.590002"
-         cy="21.59"
-         r="12.7"
-         transform="matrix(10.491464,0,0,10.491464,114.97119,209.81969)" />
       <path
-         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.11669;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         d="m 607.13861,286.34532 c 9.04431,-3.46425 12.76144,-6.92851 18.6064,-10.39276 l 1.84388,-9.88989 c 18.68331,0.20676 30.92904,-4.95377 34.5308,-11.39852 -0.22709,0.3974 -6.41623,1.27629 -15.08144,1.43588 -5.61814,0.10346 -11.3611,0.40748 -15.09096,-0.42111 -6.70998,-1.49055 -21.12093,-0.84714 -21.12093,-0.84714 l 2.84963,17.60065 c -3.45421,5.27517 -4.77491,9.48359 -6.53738,13.91289 z"
-         id="path25095-6"
-         transform="matrix(2.2838204,-0.61195909,0.61194785,2.2838623,-1273.9772,211.60567)" />
+         id="path14"
+         style="display:inline;opacity:1;vector-effect:non-scaling-stroke;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.491631;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline;paint-order:markers fill stroke"
+         d="M 21.589796 8.8899066 A 12.7 12.7 0 0 0 8.8897954 21.589907 A 12.7 12.7 0 0 0 21.589796 34.289907 A 12.7 12.7 0 0 0 34.289796 21.589907 A 12.7 12.7 0 0 0 21.589796 8.8899066 z M 26.598276 16.98657 C 26.190142 18.599599 23.825605 20.43713 19.746497 21.481903 L 19.92168 23.74223 C 18.851392 24.837286 18.244696 25.808676 16.477963 27.090347 C 16.603271 26.02334 16.645061 25.030038 17.089295 23.680219 L 15.442367 20.014809 C 15.442367 20.014809 18.542036 19.034242 20.089629 18.967328 C 20.949888 18.930142 22.182046 18.528969 23.398988 18.178746 C 25.275952 17.63857 26.572021 17.086325 26.598276 16.98657 z "
+         transform="matrix(10.491464,0,0,10.491464,114.97119,209.81969)" />
       <g
          id="Torse_In_Profile_(3)-4"
          stroke-opacity="1"
