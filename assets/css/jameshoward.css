@@ -31,6 +31,28 @@
   width: 35%;
 }
 
+.balanced-text {
+  text-align: center; /* Justify text for even spacing */
+  hyphens: none; /* Prevent hyphenation */
+  word-break: break-word; /* Allow line breaks at words */
+  overflow-wrap: break-word; /* Handle long words properly */
+  max-width: 35ch; /* Limit maximum width for balanced lines */
+  margin: 0 auto; /* Center the text block */
+}
+
+.inline-svg-coa-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inline-svg-coa-container svg {
+    max-height: 80vh; /* Set maximum height to 80% of viewport height */
+    width: auto;      /* Maintain aspect ratio */
+    transform: scale(0.9);
+    transform-origin: center;
+  }
+
 .info-icon .description {
   color: #303030;
 }
