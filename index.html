@@ -12,14 +12,14 @@ subtitle: The website of James Howard, a Mathematician, a Different Kind of Math
         <div class="container">
             <div class="content hidden-sm hidden-xs">
                 <!-- Horizontal Layout -->
-                <div class="row mt-5 hidden-sm hidden-xs" style="display: flex; align-items: center;">
+                <div class="row mt-5 p-5 hidden-sm hidden-xs" style="display: flex; align-items: center;">
                     <div class="col-lg-2 col-md-2 hidden-sm hidden-xs"></div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 m-5 p-5"
                          style="display: flex; justify-content: center; align-items: center;">
-                        <img src="/assets/img/identity/jameshoward-arms.svg"
+                        {% svg '/assets/img/identity/jameshoward-arms.svg'
                              class="img-responsive"
                              style="transform: scale(0.9); transform-origin: center;"
-                             alt="James Howard coat of arms" />
+                             alt="James Howard coat of arms" %}
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"
                          style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 20px;">
@@ -50,16 +50,16 @@ subtitle: The website of James Howard, a Mathematician, a Different Kind of Math
                                  class="img-responsive mx-auto" width="50%"
                                  alt="James Howard coat of arms" />
                         </div>
-                        <div class="row pt-4">
+                        <div class="row pt-4 mt-3">
                             <img src="/assets/img/identity/jameshoward-wordmark.svg"
                                  class="img-responsive mx-auto"
                                  style="width: 50%;"
                                  alt="James Howard wordmark" />
-                            <div class="separator separator-info">
+                            <div class="separator separator-info mt-2 mb-2">
                                 <img src="{{ '/assets/img/martlet.svg' | relative_url
                                           }}" height="35rem" alt="Decorative text bullet" />
                             </div>
-                            <h5 style="margin-top: 15px;">A Mathematician, a Different Kind of<br />Mathematician, and a Statistician</h5>
+                            <h5 style="margin-top: 0px;">A Mathematician, a Different Kind of<br />Mathematician, and a Statistician</h5>
                         </div>
                     </div>
                 </div>
