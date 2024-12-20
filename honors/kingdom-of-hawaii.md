@@ -152,9 +152,3 @@ documents.  Below is a translation:
 > expediently issued on March 17, 2024, in the district of Hilo in 
 > Hawai'i.
 
-{% include figure.html width="12"
-   image="/honors/jhoward-kcrso.webp" 
-   alt="Brevet of Knight Commander of Royal Order of the Star of Oceania"
-   cap="Brevet of Knight Commander of Royal Order of the Star of Oceania" %}
-   
-Or you can [download the PDF here](/assets/img/honors/jhoward-kcrso.pdf).
