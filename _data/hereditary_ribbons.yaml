@@ -52,3 +52,9 @@
   url: /ancestry/gswar1812
   img: /assets/img/ribbons/hereditary/GSWAR1812.svg
   alt: "General Society of the War of 1812"
+- id: OGS-FFO
+  type: hereditary
+  date: 1964-12-31
+  url: /ancestry/ogs/ffo
+  img: /assets/img/ribbons/hereditary/OGS-FFO.svg
+  alt: "First Families of Ohio"
