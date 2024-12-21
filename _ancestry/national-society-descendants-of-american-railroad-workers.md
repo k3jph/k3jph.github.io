@@ -85,3 +85,10 @@ of my effort to preserve and document the rich history of my family and
 its role in American industry.
 
 *Additional memberships will be added as they are approved.*
+
+{% include figure.html width="12"
+   image="/ancestry/NSDAR-Williams.webp" border=true
+   alt="Membership certificate in the National Society Descendants of American Railroad Workers"
+   cap="Membership certificate in the National Society Descendants of American Railroad Workers" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/NSDAR-Williams.pdf).
