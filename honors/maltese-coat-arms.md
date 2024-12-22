@@ -438,5 +438,9 @@ alt="Coat of Arms in the Sodacan/Glasshouse style by me" %}
 {% include figure.html image="jhoward-arms-wappenwiki.svg" placement="left" width="6" border=false
 cap="Coat of Arms in the [WappenWiki](https://wappenwiki.org/) style by me" 
 alt="Coat of Arms in the WappenWiki style by me" %}
+
+{% include figure.html image="jhoward-arms-pierra.svg" placement="left" width="6" border=false
+cap="Coat of Arms as interpreted by [Jean-Eudes Pierra](https://www.armorialofthebee.com/board)" 
+alt="Coat of Arms as interpreted by Jean-Eudes Pierra" %}
 </div>
 
