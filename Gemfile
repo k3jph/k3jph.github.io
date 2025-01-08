@@ -11,6 +11,7 @@ source "https://rubygems.org"
 gem 'csv'
 gem 'logger'
 gem 'base64'
+gem 'mutex_m'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
