@@ -98,4 +98,4 @@ the _taegeuk_ remains a beacon of harmony, adaptability, and commitment,
 bridging the past and present in the service of shared ideals.
 
 _Image above from the United States Army, 29th Infantry Division
-entering St. Lo, France, on July 20, 1944.__
+entering St. Lo, France, on July 20, 1944._
