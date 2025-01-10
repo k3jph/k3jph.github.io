@@ -58,3 +58,9 @@
   url: /ancestry/ogs/ffo
   img: /assets/img/ribbons/hereditary/OGS-FFO.svg
   alt: "First Families of Ohio"
+- id: OFGD
+  type: hereditary
+  date: 2023-03-24
+  url: /ancestry/ofgd
+  img: /assets/img/ribbons/hereditary/OFGD.svg
+  alt: "Order of Founders of the Granville District"
