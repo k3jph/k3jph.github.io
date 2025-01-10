@@ -100,25 +100,26 @@ descendants to build upon.
     <div class="card">
         <figure>
             <div class="row mb-2">
-            <div class="item col-md-3">
-                <img class="featured-img mx-auto" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg1.webp" alt="Original grant of Pembroke, page 1" />
-            </div>
-            <div class="item col-md-3">
-                <img class="featured-img mx-auto" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg2.webp" alt="Original grant of Pembroke, page 2" />
-            </div>
-            <div class="item col-md-3">
-                <img class="featured-img mx-auto" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg3.webp" alt="Original grant of Pembroke, page 3" />
-            </div>
-            <div class="item col-md-3">
-                <img class="featured-img mx-auto" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg4.webp" alt="Original grant of Pembroke, page 4" />
-            </div>
+                <div class="item col-md-3">
+                    <img class="featured-img mx-auto" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg1.webp" alt="Original grant of Pembroke, page 1" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg1.webp" />
+                </div>
+                <div class="item col-md-3">
+                    <img class="featured-img mx-auto" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg2.webp" alt="Original grant of Pembroke, page 2" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg2.webp" />
+                </div>
+                <div class="item col-md-3">
+                    <img class="featured-img mx-auto" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg3.webp" alt="Original grant of Pembroke, page 3" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg3.webp" />
+                </div>
+                <div class="item col-md-3">
+                    <img class="featured-img mx-auto" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg4.webp" alt="Original grant of Pembroke, page 4" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg4.webp" />
+                </div>
             </div>
             <div class="content">
                 <figcaption class="images-caption">Original grants for Pembroke and Tegg's Delight</figcaption>
             </div>
         </figure>
-   </div>
+    </div>
 </div>
+
 
 ### Life and Challenges in the New World
 
@@ -200,3 +201,40 @@ arrival in Maryland as a teenage servant to his establishment as a
 landowner and patriarch of a prominent family line, Edward's life is a
 microcosm of the colonial experience, filled with struggle, survival,
 and the pursuit of opportunity in the New World.
+
+<!-- Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <img id="modalImage" src="" class="img-responsive" alt="Zoomed Image">
+                <p id="modalCaption" class="mt-3"></p>
+                <a id="modalLink" href="#" target="_blank" class="btn btn-primary mt-2">View Original Source</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Attach click event listeners to all images with data-toggle="modal"
+        document.querySelectorAll('[data-toggle="modal"]').forEach(function (img) {
+            img.addEventListener('click', function () {
+                var fullImage = img.getAttribute('data-full'); // Get the full image URL
+                var modalImage = document.getElementById('modalImage'); // Modal image element
+                var modalCaption = document.getElementById('modalCaption'); // Modal caption element
+                var modalLink = document.getElementById('modalLink'); // Modal link element
+
+                modalImage.setAttribute('src', fullImage); // Set the src of the modal image
+                modalImage.setAttribute('alt', img.getAttribute('alt')); // Set alt text
+                modalCaption.textContent = img.getAttribute('alt'); // Use alt text as caption
+                modalLink.setAttribute('href', fullImage); // Placeholder for the original source
+            });
+        });
+    });
+</script>
