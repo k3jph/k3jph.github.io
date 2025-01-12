@@ -170,6 +170,27 @@ family.
             </div>
           </th>
         </tr>
+        {% if society.chapters %}
+          {% assign sorted_chapters = society.chapters | sort: 'name' %}
+          {% for chapter in sorted_chapters %}
+          <tr>
+            <th scope="row" colspan="2" class="pl-5">
+              <div class="align-items-center table-element">
+                <span class="name mb-0 text-sm">
+                  {{ chapter.name }}
+                </span>
+              </div>
+            </th>
+            <th scope="row">
+              <div class="align-items-center table-element text-center">
+                <span class="date mb-0 text-sm">
+                  {{ chapter.member_number }}
+                </span>
+              </div>
+            </th>
+          </tr>
+          {% endfor %}
+        {% endif %}
         {% endfor %}
       </tbody>
     </table>

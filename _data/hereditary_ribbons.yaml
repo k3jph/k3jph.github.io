@@ -48,7 +48,7 @@
   alt: "National Society Descendants of American Railroad Workers"
 - id: GSWAR1812
   type: hereditary
-  date: 1814-09-14
+  date: 1854-01-09
   url: /ancestry/gswar1812
   img: /assets/img/ribbons/hereditary/GSWAR1812.svg
   alt: "General Society of the War of 1812"
@@ -64,3 +64,9 @@
   url: /ancestry/ofgd
   img: /assets/img/ribbons/hereditary/OFGD.svg
   alt: "Order of Founders of the Granville District"
+- id: MD1812
+  type: hereditary
+  date: 1814-09-14
+  url: /ancestry/md1812
+  img: /assets/img/ribbons/hereditary/MD1812.svg
+  alt: "Society of the War of 1812 in Maryland"
