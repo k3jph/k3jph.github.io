@@ -118,3 +118,10 @@ has upheld its mission to preserve the legacy of this pivotal chapter in
 American history for over two centuries.
 
 *Additional memberships will be added as they are approved.*
+
+{% include figure.html width="12"
+   image="ancestry/MD1812-Ray.webp" border=true
+   alt="Membership certificate in the Society of the War of 1812 in Maryland"
+   cap="Membership certificate in the Society of the War of 1812 in Maryland" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/MD1812-Ray.pdf).
