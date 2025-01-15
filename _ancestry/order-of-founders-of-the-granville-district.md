@@ -5,6 +5,7 @@ subtitle: Member _jure_ Moses Teague (1718–1799)
 date: 2025-01-09
 founding_date: 2022-03-24
 qualifying_ancestors: [ "Moses Teague (Rowan County, 1756)" ]
+member_number: 44
 author: k3jph
 layout: page
 guid: order-of-founders-of-the-granville-district
@@ -146,6 +147,15 @@ contributions to the settlement of the Granville District and his
 enduring legacy in North Carolina's history. Membership in the Order of
 Founders of the Granville District underscores the importance of
 preserving this unique chapter of colonial America.
+
+*Additional memberships will be added as they are approved.*
+
+{% include figure.html width="12"
+   image="ancestry/OFGD-Teague.webp" border=true
+   alt="Membership certificate in the Order of Founders of the Granville District"
+   cap="Membership certificate in the Order of Founders of the Granville District" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/OFGD-Teague.pdf).
 
 <!-- Modal -->
 <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
