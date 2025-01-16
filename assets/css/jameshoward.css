@@ -85,6 +85,10 @@ a {
   opacity: inherit;
 }
 
+.section .image {
+  height:100%;
+}
+
 .content-blog {
   font-family: "Camdo","Times New Roman",serif;
   a {
