@@ -55,7 +55,7 @@ and serving on several public and private boards.
 * MS, [Environmental Engineering and Science](/assets/docs/JHU-MS-EES.pdf), the Johns Hopkins University
 * BA, [East Asian Studies](/assets/docs/UMGC-BA-EAS.pdf), _cum laude_, University of Maryland Global Campus
 * BS, [Mathematics](/assets/docs/JHoward-BS-Math.pdf), University of Maryland, College Park
-    * College Park Scholars Citation, International Studies
+    * College Park Scholars Citation, [International Studies](/assets/docs/JHoward-UMD-CPS.pdf)
 * Post Secondary Educational Options Program, Miami University
 
 <div class="row">
