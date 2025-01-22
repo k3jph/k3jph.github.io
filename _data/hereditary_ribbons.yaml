@@ -70,3 +70,9 @@
   url: /ancestry/md1812
   img: /assets/img/ribbons/hereditary/MD1812.svg
   alt: "Society of the War of 1812 in Maryland"
+- id: OFNA
+  type: hereditary
+  date: 2012-07-08
+  url: /ancestry/ofna
+  img: /assets/img/ribbons/hereditary/OFNA.svg
+  alt: "Order of the Founders of North America"
