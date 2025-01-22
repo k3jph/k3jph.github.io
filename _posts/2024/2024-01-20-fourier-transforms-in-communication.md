@@ -12,7 +12,7 @@ categories:
 tags:
 - information theory
 - Fourier analysis
-- time series analysis
+- time-series analysis
 ---
 
 Imagine you're watching your favorite show on a streaming service,
