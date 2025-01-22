@@ -4,7 +4,7 @@
 
     {% assign title = page.title %}
     {% if page.tag %}
-      {% assign title = title | append: page.tag %}
+      {% assign title = title | append: " " | append: page.tag %}
     {% endif %}
 
     {% assign title_formatted = title | markdownify | strip_html %}
