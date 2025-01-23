@@ -117,11 +117,22 @@ term in a blazon specifies colors, patterns, symbols, and placement,
 ensuring that the coat of arms can be accurately interpreted and
 replicated anywhere in the world.
 
-> Argent in pale a tetrahedron Azure pierced in bend by
-a sword Or with pommel and cross piece of the Second.
-Upon a helm befitting his degree with mantling Azure and
-doubled Or is set for crest, upon a wreath of the liveries a
-martlet Sable
+<div class="row">
+  <div class="item col-md-6 col-sm-12">
+    <blockquote>
+      <p>
+        Argent in pale a tetrahedron Azure pierced in bend by a sword Or with pommel and cross piece of the Second.  Upon a helm befitting his degree with mantling Azure and doubled Or is set for crest, upon a wreath of the liveries a martlet Sable
+      </p>
+    </blockquote>
+  </div>
+  <div class="item col-md-6 col-sm-12">
+    <blockquote>
+      <p>
+        Lewn il-Fidda in Pale tetrahedron lewn Ikħal minfud b’sejf In Bend lewn id-Deheb u bil-maqbad u s-salib tiegħu ta’ lewn Ikħal.Fuq elmu li jixraq il-grad tiegħu bid-drappeġġ Ikħal u lewn id-Deheb hemm bħala Kresta fuq girlanda tal-istess ilwien ħuttafa ta’ lewn Iswed.
+      </p>
+    </blockquote>
+  </div>
+</div>
 
 The blazon presented encapsulates a deeply personal and symbolic
 heraldic identity, reflective of both heritage and individual
