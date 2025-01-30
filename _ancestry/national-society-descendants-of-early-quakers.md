@@ -51,7 +51,7 @@ their communities:
   arrived in the late 17th century as part of William Penn's initiative to
   establish a Quaker refuge. His involvement in the community demonstrates the
   pioneering spirit and resilience of early Quaker settlers.
-- **Alexander Underwood**: An early Quaker minister, Alexander Underwood was
+- **[Alexander Underwood](/ancestry/sdcc)**: An early Quaker minister, Alexander Underwood was
   deeply involved in the spiritual life of his community, spreading the
   teachings of the Society of Friends. His contributions reflect the commitment
   and steadfastness of early Friends in establishing peaceful and principled
