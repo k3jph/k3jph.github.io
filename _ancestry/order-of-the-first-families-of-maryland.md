@@ -202,6 +202,17 @@ landowner and patriarch of a prominent family line, Edward's life is a
 microcosm of the colonial experience, filled with struggle, survival,
 and the pursuit of opportunity in the New World.
 
+## Membership in the Order
+
+*Additional memberships will be added as they are approved.*
+
+{% include figure.html width="12"
+   image="ancestry/OFFM-Teague.webp" border=true
+   alt="Membership certificate in the Order of the First Families of Maryland"
+   cap="Membership certificate in the Order of the First Families of Maryland" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/OFFM-Teague.pdf).
+
 <!-- Modal -->
 <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
