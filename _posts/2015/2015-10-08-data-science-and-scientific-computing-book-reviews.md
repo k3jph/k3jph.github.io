@@ -11,7 +11,7 @@ ampforwp_custom_content_editor_checkbox:
   - ""
 instant_articles_submission_id:
   - "1241762669242871"
-featured_image: /assets/img/news/kutzbookcover.jpeg
+featured_image: /assets/img/news/kutzbookcover.webp
 categories:
   - Blog
 tags:

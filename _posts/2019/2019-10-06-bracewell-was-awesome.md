@@ -5,7 +5,7 @@ date: 2019-10-06T18:30:06-04:00
 author: k3jph
 layout: post
 permalink: /2019/10/06/bracewell-was-awesome/
-featured_image: /assets/img/news/bracewell-was-awesome.jpeg
+featured_image: /assets/img/news/bracewell-was-awesome.webp
 categories:
   - Blog
 tags:
