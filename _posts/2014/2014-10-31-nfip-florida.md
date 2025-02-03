@@ -5,7 +5,7 @@ date: 2014-10-31T09:01:01-04:00
 author: k3jph
 layout: post
 permalink: /2014/10/31/nfip-florida/
-featured_image: /assets/img/news/1024px-Hurricane_Isaac_by_Night.jpeg
+featured_image: /assets/img/news/1024px-Hurricane_Isaac_by_Night.webp
 dsq_thread_id:
   - "3174684299"
 categories:

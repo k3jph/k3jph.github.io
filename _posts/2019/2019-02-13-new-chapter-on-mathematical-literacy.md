@@ -5,7 +5,7 @@ date: 2019-02-13T13:22:50-05:00
 author: k3jph
 layout: post
 permalink: /2019/02/13/new-chapter-on-mathematical-literacy/
-featured_image: /assets/img/news/new-chapter-on-mathematical-literacy.jpeg
+featured_image: /assets/img/news/new-chapter-on-mathematical-literacy.webp
 categories:
   - News
 tags:
