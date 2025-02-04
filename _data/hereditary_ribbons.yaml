@@ -76,3 +76,9 @@
   url: /ancestry/ofna
   img: /assets/img/ribbons/hereditary/OFNA.svg
   alt: "Order of the Founders of North America"
+- id: DOM
+  type: hereditary
+  date: 2019-12-01
+  url: /ancestry/dom
+  img: /assets/img/ribbons/hereditary/DOM.svg
+  alt: "Descendants of Miners 1607-1907"
