@@ -38,7 +38,7 @@ tribute to the mentors, colleagues, students, and community members
 who inspire and propel us forward, reminding us that the most
 meaningful accomplishments are those we achieve together.
 
-## Coat of Arms from Malta
+## A Grant of Arms from Malta
 
 The [coat of arms](/honors/malta) I've been honored with by Malta
 represents a fusion of personal heritage and professional dedication,
