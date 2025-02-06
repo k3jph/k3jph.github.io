@@ -1,9 +1,9 @@
 ---
-id: maltese-coat-arms
-title: Maltese Coat of Arms
+id: grant-of-arms
+title: Grant of Arms
 author: James Howard
 layout: page
-permalink: /honors/maltese-coat-arms
+permalink: /honors/grant-of-arms
 featured_image: /assets/img/malta.webp
 credits: >-
   These images contain components from Wikimedia users
@@ -15,6 +15,7 @@ redirect_from:
   - /coat-of-arms/
   - /malta/
   - /honors/malta/
+  - /honors/maltese-coat-arms
 ---
 
 {% include figure.html image="jhoward-maltese-coa-achernushkin-960px.webp" placement="right" width="6"
