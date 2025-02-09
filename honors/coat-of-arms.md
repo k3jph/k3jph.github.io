@@ -122,7 +122,7 @@ replicated anywhere in the world.
   <div class="item col-md-6 col-sm-12">
     <blockquote>
       <p>
-        Argent in pale a tetrahedron Azure pierced in bend by a sword Or with pommel and cross piece of the Second.  Upon a helm befitting his degree with mantling Azure and doubled Or is set for crest, upon a wreath of the liveries a martlet Sable
+        Argent in pale a tetrahedron Azure pierced in bend by a sword Or with pommel and cross piece of the Second.  Upon a helm befitting his degree with mantling Azure and doubled Or is set for crest, upon a wreath of the liveries a martlet Sable.
       </p>
     </blockquote>
   </div>
