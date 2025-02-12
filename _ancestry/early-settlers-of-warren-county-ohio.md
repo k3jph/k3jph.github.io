@@ -94,3 +94,5 @@ Membership in the Early Settlers of Warren County acknowledges the role
 that these individuals played in the county's history. Through
 documentation and research, their contributions are recognized as part
 of the broader story of Warren County's development.
+
+*Additional memberships will be added as they are approved.*
