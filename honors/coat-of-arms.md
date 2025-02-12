@@ -456,3 +456,8 @@ cap="Coat of Arms as interpreted by [Jean-Eudes Pierra](https://www.armorialofth
 alt="Coat of Arms as interpreted by Jean-Eudes Pierra" %}
 </div>
 
+<div class="row">
+{% include figure.html image="armory/cowan/howard-james-shield.png" placement="center" width="6" border=false
+cap="Coat of Arms as interpreted by [Steve Cowan](https://www.stevecowan.ca/)" 
+alt="Coat of Arms as interpreted by Steve Cowan" %}
+</div>
