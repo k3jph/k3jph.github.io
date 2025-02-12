@@ -97,4 +97,4 @@ Applicants must submit:
 For more information, visit the [Warren County Genealogical
 Society](https://www.wcgsohio.org/) website.
 
-
+*Additional memberships will be added as they are approved.*

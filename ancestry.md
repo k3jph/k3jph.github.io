@@ -31,7 +31,7 @@ gamification of historical research is now.
 
 ## Hereditary Societies
 
-Many hereditary socities have associated medals.  This section provides a
+Many hereditary societies have associated medals.  This section provides a
 [ribbon rack](https://en.wikipedia.org/wiki/Medal_ribbon) for those I am a
 member of.
 
@@ -71,7 +71,7 @@ member of.
   </div>
 </div>
 
-Some socities only provide miniature medals, comparable to the miniature
+Some societies only provide miniature medals, comparable to the miniature
 medals worn on the military's dinner dress uniforms.  I have included
 those separately below.
 
