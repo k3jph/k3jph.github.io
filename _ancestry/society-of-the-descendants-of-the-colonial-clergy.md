@@ -142,4 +142,9 @@ cultural foundations of the American colonies.
 
 *Additional memberships will be added as they are approved.*
 
-
+{% include figure.html width="12"
+   image="/ancestry/SDCC-Underwood.webp" border=true
+   alt="Membership certificate in the Society of the Descendants of the Colonial Clergy"
+   cap="Membership certificate in the Society of the Descendants of the Colonial Clergy" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/SDCC-Underwood.pdf).
