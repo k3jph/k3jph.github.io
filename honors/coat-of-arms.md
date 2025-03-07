@@ -155,9 +155,7 @@ The "sword-in-the-stone" allusion enriches the emblem with a narrative
 of overcoming challenges to achieve one's rightful place, much like
 the mythical king.
 
-{% include figure.html image="house-kamon.svg" width="3"
-cap="Kamon adapted from the Crest" alt="Kamon adapted from the Crest" %}
-     
+    
 The crest features a martlet sable, a heraldic charge that holds rich
 symbolism within the realm of heraldry. Suggested by Count Gauci, the
 martlet's inclusion hints at a lineage likely connecting me to [Thomas
@@ -391,7 +389,7 @@ aspirations.
 
 Additionally, my crest badge incorporates a feather, which is a
 significant symbol within Scottish heraldry and marks the badge bearer
-as an armiger—one entitled to bear arms. Traditionally, feathers on an
+as an armiger--one entitled to bear arms. Traditionally, feathers on an
 armiger's badge are used to differentiate the wearer from other members
 of the clan who may also display the chief's crest badge. This
 distinction underscores the individual's recognized status and personal
@@ -461,3 +459,58 @@ alt="Coat of Arms as interpreted by Jean-Eudes Pierra" %}
 cap="Coat of Arms as interpreted by [Steve Cowan](https://www.stevecowan.ca/)" 
 alt="Coat of Arms as interpreted by Steve Cowan" %}
 </div>
+
+## Related Insignia
+
+### Kamon
+
+{% include figure.html image="house-kamon.svg" width="4" placement="right"
+cap="Kamon adapted from the Crest" alt="Kamon adapted from the Crest" %}
+
+Integrating elements from different heraldic traditions can create a meaningful
+and distinctive personal emblem. In developing my coat of arms, I incorporated
+the concept of Japanese heraldry, known as *kamon*, into my own design. The
+result is a creative fusion that bridges my personal heritage with a
+centuries-old tradition from Japan.
+
+*Kamon* emerged in Japan during the Heian period (794-1185) and historically
+served as familial emblems, helping identify lineage and affiliation. Typically,
+these designs exhibit elegant simplicity, emphasizing clean lines and stylized
+forms. Common motifs include animals, plants, and geometric patterns, rendered
+with refined minimalism.
+
+By applying this aesthetic approach to my own heraldic tradition, I chose the
+image of the raven--significant to my family's symbolism--and transformed it
+through the lens of Japanese design principles. The result is an emblem that not
+only respects the history of both heraldic cultures but also resonates on a
+deeply personal level. The simplicity and symbolism of the *kamon* complement
+the traditional complexity often found in Western heraldry, creating a visual
+representation that reflects both cultural depth and personal heritage.
+
+This fusion highlights the universal appeal and adaptability of heraldic
+traditions, demonstrating how personal identity and history can be elegantly
+expressed through thoughtful design.
+
+### Cockade
+
+{% include figure.html image="jhoward-cockade.svg" width="4" placement="right"
+cap="Cockade adapted from the liveries of the arms" 
+alt="Cockade adapted from the liveries of the arms" %}
+
+Complementing the coat of arms, I have adopted a distinctive heraldic cockade--a
+traditional decorative rosette historically used to symbolize allegiance,
+affiliation, or identity. Often worn on hats or uniforms, cockades have a rich
+tradition in heraldry and carry symbolic significance.
+
+My personal heraldic cockade consists of three concentric circles in white,
+blue, and gold, arranged from the outside to the center. These colors mirror
+those prominently featured in my coat of arms. Together, the cockade and coat of
+arms visually reinforce my personal and heraldic identity, bridging symbolism
+from both tradition and personal heritage.
+
+Together, the harmonious arrangement of these colors reinforces a balanced blend
+of heritage, individual values, and an appreciation of intercultural
+connections. By incorporating this cockade alongside my coat of arms, I
+emphasize not only my personal identity but also the timeless unity of
+meaningful symbolism across diverse cultures.
+
