@@ -82,3 +82,9 @@
   url: /ancestry/dom
   img: /assets/img/ribbons/hereditary/DOM.svg
   alt: "Descendants of Miners 1607-1907"
+- id: SDCC
+  type: hereditary
+  date: 1933-12-01
+  url: /ancestry/sdcc
+  img: /assets/img/ribbons/hereditary/SDCC.svg
+  alt: "Society of the Descendants of the Colonial Clergy"
