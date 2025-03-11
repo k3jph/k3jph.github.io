@@ -30,14 +30,14 @@ honor their shared heritage.
 
 ## George Chappell
 
-[George Chappell](https://www.wikitree.com/wiki/Chappell-1058), an early settler and builder of colonial
-Connecticut, is a figure whose legacy reflects the resilience and
-determination of those who shaped the early history of North America.
-Born in England around 1615, Chappell emigrated during the [Great
-Migration](https://www.americanancestors.org/new-englands-great-migration), a period between 1620 and 1640 when tens of thousands of
-English Puritans sought refuge in New England. His life and work provide
-a window into the challenges and triumphs of colonial life, particularly
-in the Connecticut River Valley.
+[George Chappell](https://www.wikitree.com/wiki/Chappell-1058), an early settler
+and builder of colonial Connecticut, is a figure whose legacy reflects the
+resilience and determination of those who shaped the early history of North
+America.  Born in England around 1615, Chappell emigrated during the [Great
+Migration](https://www.americanancestors.org/new-englands-great-migration), a
+period between 1620 and 1640 when tens of thousands of English Puritans sought
+refuge in New England. His life and work provide a window into the challenges
+and triumphs of colonial life, particularly in the Connecticut River Valley.
 
 ### Arrival in the New World
 
@@ -51,13 +51,11 @@ dream for many in England's rigid social hierarchy.
 
 Chappell came aboard [_Christian de
 London_](https://chipstone.org/article.php/277/american-furniture-2005/fashioning-furniture-and-framing-community:-woodworkers-and-the-rise-of-a-connecticut-river-valley-town)
-the Chappell initially settled in Massachusetts, where the burgeoning
-colonies around the [Massachusetts
-Bay](https://www.ushistory.org/us/3c.asp) and
-[Plymouth](https://plimoth.org/) offered a foothold for new arrivals. By
-the early 1640s, he had moved to Wethersfield, Connecticut, one of the
-oldest towns in the state and a critical hub for trade and settlement in
-the [Connecticut
+and the Chappell initially settled in Massachusetts, where the burgeoning
+colonies around the [Massachusetts Bay](https://www.ushistory.org/us/3c.asp) and
+[Plymouth](https://plimoth.org/) offered a foothold for new arrivals. By the
+early 1640s, he had moved to Wethersfield, Connecticut, one of the oldest towns
+in the state and a critical hub for trade and settlement in the [Connecticut
 Colony](https://connecticuthistory.org/the-importance-of-being-puritan-church-and-state-in-colonial-connecticut/).
 
 ### Life in Wethersfield
