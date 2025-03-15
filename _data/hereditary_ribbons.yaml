@@ -88,3 +88,9 @@
   url: /ancestry/sdcc
   img: /assets/img/ribbons/hereditary/SDCC.svg
   alt: "Society of the Descendants of the Colonial Clergy"
+- id: NSSAR
+  type: hereditary
+  date: 1889-04-30
+  url: /ancestry/nssar
+  img: /assets/img/ribbons/hereditary/NSSAR.svg
+  alt: "National Society of the Sons of the American Revolution"
