@@ -1,17 +1,17 @@
 ---
-id--national-society-descendants-of-early-quakers
-title--National Society Descendants of Early Quakers
-subtitle--Member _jure_ Jonathan Newman (1768); member no. 891
-date--2024-09-28
-founding_date--1980-09-10
-qualifying_ancestors--[ "Jonathan Newman (1768)" ]
-member_number--891
-author--k3jph
-layout--page
-guid--national-society-descendants-of-early-quakers
-featured_image--/assets/img/ancestry/national-society-descendants-of-early-quakers.webp
-permalink--/ancestry/national-society-descendants-of-early-quakers
-redirect_from--[ /ancestry/nsdeq ]
+id: national-society-descendants-of-early-quakers
+title: National Society Descendants of Early Quakers
+subtitle: Member _jure_ Jonathan Newman (1768); member no. 891
+date: 2024-09-28
+founding_date: 1980-09-10
+qualifying_ancestors: [ "Jonathan Newman (1768)" ]
+member_number: 891
+author: k3jph
+layout: page
+guid: national-society-descendants-of-early-quakers
+featured_image: /assets/img/ancestry/national-society-descendants-of-early-quakers.webp
+permalink: /ancestry/national-society-descendants-of-early-quakers
+redirect_from: [ /ancestry/nsdeq ]
 ---
 
 The [National Society Descendants of Early Quakers](http://www.earlyquakers.org)
