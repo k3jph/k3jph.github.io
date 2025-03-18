@@ -1,17 +1,17 @@
 ---
-id: national-society-descendants-of-early-quakers
-title: National Society Descendants of Early Quakers
-subtitle: Member _jure_ Jonathan Newman (1768); member no. 891
-date: 2024-09-28
-founding_date: 1980-09-10
-qualifying_ancestors: [ "Jonathan Newman (1768)" ]
-member_number: 891
-author: k3jph
-layout: page
-guid: national-society-descendants-of-early-quakers
-featured_image: /assets/img/ancestry/national-society-descendants-of-early-quakers.webp
-permalink: /ancestry/national-society-descendants-of-early-quakers
-redirect_from: [ /ancestry/nsdeq ]
+id--national-society-descendants-of-early-quakers
+title--National Society Descendants of Early Quakers
+subtitle--Member _jure_ Jonathan Newman (1768); member no. 891
+date--2024-09-28
+founding_date--1980-09-10
+qualifying_ancestors--[ "Jonathan Newman (1768)" ]
+member_number--891
+author--k3jph
+layout--page
+guid--national-society-descendants-of-early-quakers
+featured_image--/assets/img/ancestry/national-society-descendants-of-early-quakers.webp
+permalink--/ancestry/national-society-descendants-of-early-quakers
+redirect_from--[ /ancestry/nsdeq ]
 ---
 
 The [National Society Descendants of Early Quakers](http://www.earlyquakers.org)
@@ -40,23 +40,23 @@ In addition to Jonathan Newman, my family tree includes several other early
 American Quakers, each of whom played an important role in the development of
 their communities:
 
-- **Marmaduke Coate**: A prominent member of the Quaker community in New Jersey
-  and Pennsylvania, Marmaduke Coate's dedication to the principles of the
-  Society of Friends helped shape the early settlements in these regions.
-- **Joseph Coppock**: Active within the Quaker faith, Joseph Coppock was a
+- [Marmaduke Coate](/ancestry/nssar)--A prominent member of the Quaker community
+  in New Jersey and Pennsylvania, Marmaduke Coate's dedication to the principles
+  of the Society of Friends helped shape the early settlements in these regions.
+- Joseph Coppock--Active within the Quaker faith, Joseph Coppock was a
   steadfast supporter of Quaker values and contributed to the growth of the
   faith in the American colonies. His legacy lives on through his descendants,
   who continued to practice and promote Quaker beliefs.
-- **William Cloud**: One of the earliest settlers in Pennsylvania, William Cloud
+- William Cloud--One of the earliest settlers in Pennsylvania, William Cloud
   arrived in the late 17th century as part of William Penn's initiative to
   establish a Quaker refuge. His involvement in the community demonstrates the
   pioneering spirit and resilience of early Quaker settlers.
-- **[Alexander Underwood](/ancestry/sdcc)**: An early Quaker minister, Alexander Underwood was
+- [Alexander Underwood](/ancestry/sdcc)--An early Quaker minister, Alexander Underwood was
   deeply involved in the spiritual life of his community, spreading the
   teachings of the Society of Friends. His contributions reflect the commitment
   and steadfastness of early Friends in establishing peaceful and principled
   communities.
-- **Ellis Pugh**: A noted Quaker minister and author, Ellis Pugh's influence
+- Ellis Pugh--A noted Quaker minister and author, Ellis Pugh's influence
   extended beyond his community as he helped spread Quaker teachings through his
   writings. His dedication to the faith provides a significant link to the rich
   history of Quaker spirituality and ministry.
