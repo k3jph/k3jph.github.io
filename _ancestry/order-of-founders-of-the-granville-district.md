@@ -4,7 +4,7 @@ title: Order of Founders of the Granville District
 subtitle: Member _jure_ Moses Teague (1718–1799)
 date: 2025-01-09
 founding_date: 2022-03-24
-qualifying_ancestors: [ "Moses Teague (Rowan County, 1756)" ]
+qualifying_ancestors: [ "Moses Teague (Rowan County, 1756); member no. 44" ]
 member_number: 44
 author: k3jph
 layout: page
