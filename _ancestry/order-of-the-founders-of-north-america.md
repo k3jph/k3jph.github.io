@@ -4,7 +4,7 @@ title: Order of the Founders of North America
 subtitle: Member _jure_ George Chappell (Wethersfield, Connecticut, 1635)
 date: 2025-01-15
 founding_date: 2012-07-08
-qualifying_ancestors: [ "George Chappell (Wethersfield, Connecticut, 1635)" ]
+qualifying_ancestors: [ "George Chappell (Wethersfield, Connecticut, 1635); member no. 324" ]
 member_number: 324
 author: k3jph
 layout: page
