@@ -455,9 +455,13 @@ alt="Coat of Arms as interpreted by Jean-Eudes Pierra" %}
 </div>
 
 <div class="row">
-{% include figure.html image="armory/cowan/howard-james-shield.png" placement="center" width="6" border=false
+{% include figure.html image="armory/cowan/howard-james-shield.png" placement="left" width="6" border=false
 cap="Coat of Arms as interpreted by [Steve Cowan](https://www.stevecowan.ca/)" 
 alt="Coat of Arms as interpreted by Steve Cowan" %}
+
+{% include figure.html image="armory/jhoward-armoji.svg" placement="left" width="6" border=false
+cap="Coat of Arms in the armoji style" 
+alt="Coat of Arms as the armoji style" %}
 </div>
 
 ## Related Insignia
