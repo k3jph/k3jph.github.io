@@ -6,7 +6,7 @@ date: 2024-11-23
 qualifying_ancestors: [ "William Ray (2nd Regiment, Ohio Militia)" ]
 member_number: 8537
 chapters:
-  - name: Society of the War of 1812 in Maryland
+  - name: Society of the War of 1812 in the State of Maryland 
     member_number: 1076
 author: k3jph
 layout: page
