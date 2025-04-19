@@ -1,6 +1,6 @@
 ---
-id: decendants-of-miners-1607-1907
-title: Decendants of Miners 1607-1907
+id: decendants-of-miners
+title: Decendants of Miners
 subtitle: Member _jure_ Alexander C. Snyder (Stonecutter); member no. 96
 date: 2025-02-03
 founding_date: 2019-12-01
@@ -8,10 +8,10 @@ qualifying_ancestors: [ "Alexander C. Snyder (Stonecutter)" ]
 member_number: 96
 author: k3jph
 layout: page
-guid: decendants-of-miners-1607-1907
-featured_image: /assets/img/ancestry/decendants-of-miners-1607-1907.webp
-permalink: /ancestry/decendants-of-miners-1607-1907
-redirect_from: [ /ancestry/dom ]
+guid: decendants-of-miners
+featured_image: /assets/img/ancestry/decendants-of-miners.webp
+permalink: /ancestry/decendants-of-miners
+redirect_from: [ /ancestry/dom, /ancestry/decendants-of-miners-1607-1907 ]
 ---
 
 The [Descendants of Miners 1607–1907](https://www.descendantsofminers.org/) is a

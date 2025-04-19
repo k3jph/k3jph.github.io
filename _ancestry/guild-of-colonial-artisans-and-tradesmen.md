@@ -1,6 +1,6 @@
 ---
-id: guild-of-colonial-artisans-and-tradesmen-1607-1783
-title: Guild of Colonial Artisans and Tradesmen 1607-1783
+id: guild-of-colonial-artisans-and-tradesmen
+title: Guild of Colonial Artisans and Tradesmen
 subtitle: Member _jure_ Jeremiah Cloud (Cordwainer); member no. 535
 date: 2024-10-22
 founding_date: 2004-05-06
@@ -8,10 +8,10 @@ qualifying_ancestors: [ "Jeremiah Cloud (Cordwainer)" ]
 member_number: 535
 author: k3jph
 layout: page
-guid: guild-of-colonial-artisans-and-tradesmen-1607-1783
-featured_image: /assets/img/ancestry/guild-of-colonial-artisans-and-tradesmen-1607-1783.webp
-permalink: /ancestry/guild-of-colonial-artisans-and-tradesmen-1607-1783
-redirect_from: [ "/ancestry/gcat" ]
+guid: guild-of-colonial-artisans-and-tradesmen
+featured_image: /assets/img/ancestry/guild-of-colonial-artisans-and-tradesmen.webp
+permalink: /ancestry/guild-of-colonial-artisans-and-tradesmen
+redirect_from: [ "/ancestry/gcat", "/ancestry/guild-of-colonial-artisans-and-tradesmen-1607-1783" ]
 ---
 
 The [Guild of Colonial Artisans and Tradesmen
