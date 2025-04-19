@@ -94,3 +94,9 @@
   url: /ancestry/nssar
   img: /assets/img/ribbons/hereditary/NSSAR.svg
   alt: "National Society of the Sons of the American Revolution"
+- id: ODCPC
+  type: hereditary
+  date: 1974-06-30
+  url: /ancestry/odcpc
+  img: /assets/img/ribbons/hereditary/ODCPC.svg
+  alt: "Order of Descendants Colonial Physicians and Chirurgiens"
