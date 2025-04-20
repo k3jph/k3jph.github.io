@@ -1,10 +1,10 @@
 ---
 id: guild-of-colonial-artisans-and-tradesmen
 title: Guild of Colonial Artisans and Tradesmen
-subtitle: Member _jure_ Jeremiah Cloud (Cordwainer); member no. 535
+subtitle: Member _jure_ Jeremiah Cloud (cordwainer) and Christopher Taylor (author); member no. 535
 date: 2024-10-22
 founding_date: 2004-05-06
-qualifying_ancestors: [ "Jeremiah Cloud (Cordwainer)" ]
+qualifying_ancestors: [ "Jeremiah Cloud (cordwainer)", "Christopher Taylor (author)" ]
 member_number: 535
 author: k3jph
 layout: page
@@ -83,6 +83,73 @@ membership in the Guild of Colonial Artisans and Tradesmen, I honor Jeremiah's
 contributions to the colonial economy and the lasting impact of his skilled
 craft on American history.
 
+## Christopher Taylor--Author
+
+[Christopher Taylor](https://www.wikitree.com/wiki/Taylor-32362) (c. 1620–1686),
+born in Skipton, Yorkshire, England, was a Quaker intellectual, schoolmaster,
+and civic leader whose influence helped shape the early development of
+Pennsylvania. Renowned for his classical education and deep commitment to Quaker
+ideals, Taylor emigrated to the colony in 1682 and settled on Tinicum Island,
+just south of present-day Philadelphia. His life reflects the essential role
+that education, faith, and public service played in the foundation of William
+Penn's "Holy Experiment."
+
+### From Imprisonment to Emigration
+
+A linguist and teacher fluent in Latin, Greek, and Hebrew, [Taylor was
+repeatedly jailed in
+England](https://archive.org/details/historyofskipton00daws/page/299/mode/1up?view=theater)
+for his religious beliefs. As a devout member of the Society of Friends, he
+aligned himself with William Penn's vision for a Quaker-led colony in America.
+In 1682, he sailed to Pennsylvania with his sons, acquiring land and quickly
+becoming one of the most respected figures in the colony.
+
+His landholdings included a substantial tract on Tinicum Island, formerly the
+seat of New Sweden's government, where he established a home, a school, and a
+base for civic life. In 1683, he was appointed to the Provincial Council and
+served in the first Pennsylvania Assembly, [helping to shape the colony's early
+legal and educational
+institutions](https://www.pa-roots.com/2011/04/13/historyofdelawarecountychapter28/).
+
+### A Teacher in the Wilderness
+
+Taylor's most enduring legacy may lie in his role as a teacher. He offered
+classical instruction to the children of settlers, including Latin, Greek, and
+moral philosophy, training a generation of leaders in the Quaker tradition. At a
+time when formal education was scarce, Taylor's school on Tinicum Island was one
+of the earliest organized learning environments in the region.
+
+He was known to conduct school in both his home and a separate structure built
+for the purpose. His students included future civic leaders and fellow Friends,
+and he emphasized literacy, scriptural understanding, and ethical conduct.
+
+In addition to his teaching, Taylor authored several works that reflect his
+scholarly pursuits and religious convictions:​
+
+* _A Warning to this Nation_ (1655)
+* _The Whirlwind of the Lord_ (1655)
+* _[A Faithful and True Witness to the Light](https://www.google.com/books/edition/A_Faithful_and_True_Witness_to_the_light/kXNmAAAAcAAJ?hl=en&gbpv=1)_ (1675)
+* _An Epistle to Friends in Truth_ (1675)
+* _[The Counterfeit Convert Discovered](https://quod.lib.umich.edu/e/eebo2/A35120.0001.001?rgn=main;view=fulltext)_ (1676)
+* _Institutiones Pietatis, with the Chief Principles of the Latin Tongue_ (1676)
+* _[Compendium Trium Linguarum (Latin, Greek, and Hebrew)](https://archive.org/details/bim_early-english-books-1641-1700_compendium-trium-linguar_taylor-christopher_1679)_ (1679)
+* _Testimony to the Lord's Power in Children_ (1679)
+* _[An Epistle of Caution](https://archive.org/details/bim_early-english-books-1641-1700_an-epistle-of-caution-to_taylor-christopher_1681)_ (1681)
+* _[Something in Answer](https://quod.lib.umich.edu/e/eebo2/A95027.0001.001?rgn=main;view=fulltext)_ (1681)
+* _[An Account of a Divine Visitation and Blessing](https://archive.org/details/bim_eighteenth-century_an-account-of-a-divine-v_1799)_ (1797, posthumously published)
+
+### A Founding Mind of Pennsylvania
+
+In addition to teaching, Taylor played a critical role in Pennsylvania's
+governance. He helped interpret land titles, resolve disputes, and shape early
+laws. William Penn personally respected him as "a man of great parts and
+civility," often relying on his judgment in both legal and religious matters.
+
+Taylor's home became a center for local Friends' meetings and community
+activity, underscoring the dual importance of education and faith in early
+Quaker settlements. His sons, Israel and Joseph Taylor, continued his legacy,
+both becoming involved in Pennsylvania's civic and landowning affairs.
+
 ## About the Guild of Colonial Artisans and Tradesmen 1607-1783
 
 The Guild of Colonial Artisans and Tradesmen was founded on May 6, 2004, to
@@ -92,7 +159,7 @@ art, craft, or trade in the American Colonies during this formative period. The
 Guild defines qualifying trades as those practiced by skilled workers who
 created goods and services essential to colonial society, including blacksmiths,
 coopers, weavers, and other artisans.
-
+z
 The Guild's mission includes promoting historical research on colonial artisans
 and fostering camaraderie among descendants. Members are encouraged to share
 their lineages and contribute to the collective understanding of colonial
