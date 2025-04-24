@@ -40,7 +40,7 @@ the broadcast:
 > Announcer 1: Now let's look at the crew a little.
 >
 > Announcer 2:  They're a colorful bunch.  They've been dubbed the
-three musketeers. [ chuckling ]
+three musketeers. (chuckling)
 >
 > Announcer 1: And we laugh legitimately. There's a mathematician,
 a different kind of mathematician and a statistician.
