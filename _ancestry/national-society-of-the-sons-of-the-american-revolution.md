@@ -47,7 +47,7 @@ the United States, promoting civic responsibility and national heritage.
 1738, in Hunterdon County, New Jersey, to [Henry
 Coate](https://www.wikitree.com/wiki/Coate-10) and [Esther
 Willson](https://www.wikitree.com/wiki/Willson-2331). The Coate family were
-members of the [Religious Society of Friends]()https://quaker.org/, commonly
+members of the [Religious Society of Friends](https://quaker.org/), commonly
 known as Quakers, a faith that influenced Marmaduke's life.
 
 In 1764, Marmaduke married [Mary Jane
