@@ -100,3 +100,9 @@
   url: /ancestry/odcpc
   img: /assets/img/ribbons/hereditary/ODCPC.svg
   alt: "Order of Descendants Colonial Physicians and Chirurgiens"
+- id: DEPM
+  type: hereditary
+  date: 2016-12-31
+  url: /ancestry/depm
+  img: /assets/img/ribbons/hereditary/DEPM.svg
+  alt: "Descendants of Early Postmasters"
