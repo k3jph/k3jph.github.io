@@ -1,6 +1,6 @@
 ---
-id: decendants-of-miners
-title: Decendants of Miners
+id: descendants-of-miners
+title: Descendants of Miners
 subtitle: Member _jure_ Alexander C. Snyder (Stonecutter); member no. 96
 date: 2025-02-03
 founding_date: 2019-12-01
@@ -8,10 +8,10 @@ qualifying_ancestors: [ "Alexander C. Snyder (Stonecutter)" ]
 member_number: 96
 author: k3jph
 layout: page
-guid: decendants-of-miners
-featured_image: /assets/img/ancestry/decendants-of-miners.webp
-permalink: /ancestry/decendants-of-miners
-redirect_from: [ /ancestry/dom, /ancestry/decendants-of-miners-1607-1907 ]
+guid: descendants-of-miners
+featured_image: /assets/img/ancestry/descendants-of-miners.webp
+permalink: /ancestry/descendants-of-miners
+redirect_from: [ /ancestry/dom, /ancestry/descendants-of-miners-1607-1907 ]
 ---
 
 The [Descendants of Miners 1607–1907](https://www.descendantsofminers.org/) is a
@@ -61,8 +61,8 @@ past is preserved for future generations.
 
 {% include figure.html width="12"
    image="/ancestry/DOM-AlexanderSynder.webp" border=true
-   alt="Membership certificate in the Decendants of Miners"
-   cap="Membership certificate in the Decendants of Miners" %}
+   alt="Membership certificate in the Descendants of Miners"
+   cap="Membership certificate in the Descendants of Miners" %}
    
 Or you can [download the PDF here](/assets/docs/ancestry/DOM-AlexanderSynder.pdf).
 
