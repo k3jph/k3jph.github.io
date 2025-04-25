@@ -76,6 +76,7 @@ and serving on several public and private boards.
       <li>Fellow of the <a href="/assets/docs/JHoward-FCybS.pdf">Cybernetics Society</a></li>
       <li>Fellow of the <a href="/assets/docs/JHoward-IMA-FIMA.pdf">Institute of Mathematics and its Applications</a></li>
       <li>Fellow of the Royal Society of Arts</li>
+      <li>Fellow of the Society of Antiquaries of Scotland</li>
       <li>Senior Member of the <a href="/assets/docs/JHoward-IEEE-SM-2025.pdf">IEEE</a></li>
     </ul>
   </div>
