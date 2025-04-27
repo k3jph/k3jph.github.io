@@ -1,10 +1,11 @@
 ---
 id: order-of-descendants-of-colonial-physicians-and-chirurgiens
 title: Order of Descendants of Colonial Physicians and Chirurgiens
-subtitle: Member _jure_ Israel Taylor (1660–1725)
+subtitle: Member _jure_ Israel Taylor (1660–1725); member no. 686
 date: 2025-01-09
 founding_date: 2022-03-24
 qualifying_ancestors: [ "Israel Taylor (1660–1725)" ]
+member_number: 686
 author: k3jph
 layout: page
 guid: order-of-descendants-of-colonial-physicians-and-chirurgiens
@@ -92,3 +93,12 @@ the historical importance of his life and work. As a Quaker, a landholder, a
 father, a public servant, and a surgeon, Israel embodied the diverse
 responsibilities placed upon colonial physicians. His story stands as a reminder
 of the humanity and resolve that shaped early America.
+
+*Additional memberships will be added as they are approved.*
+
+{% include figure.html width="12"
+   image="ancestry/ODCPC-Taylor.webp" border=true
+   alt="Membership certificate in the Order of Descendants of Colonial Physicians and Chirurgiens"
+   cap="Membership certificate in the Order of Descendants of Colonial Physicians and Chirurgiens" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/ODCPC-Taylor.pdf).
