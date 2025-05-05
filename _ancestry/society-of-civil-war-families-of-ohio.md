@@ -39,3 +39,12 @@ his brother, [Benjamin Franklin
 Newman](https://www.wikitree.com/wiki/Newman-16481), reflecting the broader
 legacy of the Newman family's contributions during this pivotal period in
 American history.
+
+*Additional memberships will be added as they are approved.*
+
+{% include figure.html width="12"
+   image="/ancestry/OGS-SCWFO-Newman.webp" border=true
+   alt="Membership certificate in the Society of Civil War Families of Ohio"
+   cap="Membership certificate in the Society of Civil War Families of Ohio" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/OGS-SCWFO-Newman.pdf).
