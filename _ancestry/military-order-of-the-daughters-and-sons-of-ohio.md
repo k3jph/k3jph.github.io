@@ -55,3 +55,12 @@ while supporting the society's mission of preserving Ohio's rich
 military history. Through this membership, I aim to contribute to the
 recognition and appreciation of the countless Ohioans whose service and
 sacrifices have shaped our nation's history.
+
+*Additional memberships will be added as they are approved.*
+
+{% include figure.html width="12"
+   image="/ancestry/OGS-MODSO-Rees.webp" border=true
+   alt="Membership certificate in the Military Order of the Daughters and Sons of Ohio"
+   cap="Membership certificate in the Military Order of the Daughters and Sons of Ohio" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/OGS-MODSO-Rees.pdf).
