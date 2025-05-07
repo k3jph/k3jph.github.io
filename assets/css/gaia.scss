@@ -1,3 +1,8 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+sitemap: false
+---
 /*!
 
  =========================================================
@@ -15,33 +20,33 @@
 
  */
 
-@import "jameshoward";
-@import "gaia/mixins";
+@use "jameshoward";
+@use "gaia/mixins";
 
-@import "gaia/typography";
+@use "gaia/typography";
 
 // Core CSS
-@import "gaia/misc";
-@import "gaia/buttons";
-@import "gaia/inputs";
-@import "gaia/sections";
-@import "gaia/navbars";
-@import "gaia/footers";
-@import "gaia/labels";
-@import "gaia/social-buttons";
-@import "gaia/dropdown";
-@import "gaia/carousel";
+@use "gaia/misc";
+@use "gaia/buttons";
+@use "gaia/inputs";
+@use "gaia/sections";
+@use "gaia/navbars";
+@use "gaia/footers";
+@use "gaia/labels";
+@use "gaia/social-buttons";
+@use "gaia/dropdown";
+@use "gaia/carousel";
 
 // Template
-@import "gaia/cards";
-@import "gaia/headers";
-@import "gaia/projects";
-@import "gaia/clients";
-@import "gaia/team";
-@import "gaia/numbers";
-@import "gaia/contact";
-@import "gaia/closure";
-@import "gaia/example-pages";
+@use "gaia/cards";
+@use "gaia/headers";
+@use "gaia/projects";
+@use "gaia/clients";
+@use "gaia/team";
+@use "gaia/numbers";
+@use "gaia/contact";
+@use "gaia/closure";
+@use "gaia/example-pages";
 
 // Responsive Adjustments
-@import "gaia/responsive";
+@use "gaia/responsive";
