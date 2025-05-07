@@ -1,32 +1,36 @@
+@use "../jameshoward";
+@use "mixins/inputs";
+@use "mixins/vendor-prefixes";
+
 .form-control::-moz-placeholder{
-   @include placeholder($medium-gray,1);
+   @include inputs.placeholder(jameshoward.$medium-gray,1);
    -webkit-font-smoothing: antialiased;
 }
 .form-control:-moz-placeholder{
-   @include placeholder($medium-gray,1);
+   @include inputs.placeholder(jameshoward.$medium-gray,1);
    -webkit-font-smoothing: antialiased;
 }
 .form-control::-webkit-input-placeholder{
-   @include placeholder($medium-gray,1);
+   @include inputs.placeholder(jameshoward.$medium-gray,1);
    -webkit-font-smoothing: antialiased;
 }
 .form-control:-ms-input-placeholder{
-   @include placeholder($medium-gray,1);
+   @include inputs.placeholder(jameshoward.$medium-gray,1);
    -webkit-font-smoothing: antialiased;
 }
 
 .form-control {
-    background-color: $white-bg;
-    border: 1px solid $light-gray;
-    border-radius: $border-radius-base;
+    background-color: jameshoward.$white-bg;
+    border: 1px solid jameshoward.$light-gray;
+    border-radius: jameshoward.$border-radius-base;
     color: #444444;
-    @include input-size($padding-base-vertical, 10px, $height-base);
-    @include box-shadow(none);
+    @include inputs.input-size(jameshoward.$padding-base-vertical, 10px, jameshoward.$height-base);
+    @include vendor-prefixes.box-shadow(none);
 
     &:focus{
-           background-color: $white-bg;
-           border: 1px solid $dark-gray;
-           @include box-shadow(none);
+           background-color: jameshoward.$white-bg;
+           border: 1px solid jameshoward.$dark-gray;
+           @include vendor-prefixes.box-shadow(none);
            outline: 0 !important;
     }
 
@@ -34,26 +38,26 @@
     .has-error &,
     .has-success &:focus,
     .has-error &:focus{
-        border-color: $light-gray;
-        @include box-shadow(none);
+        border-color: jameshoward.$light-gray;
+        @include vendor-prefixes.box-shadow(none);
     }
 
     .has-success &{
-        color: $success-color;
+        color: jameshoward.$success-color;
     }
     .has-success &:focus{
-        border-color: $success-color;
+        border-color: jameshoward.$success-color;
     }
     .has-error &{
-        color: $danger-color;
+        color: jameshoward.$danger-color;
     }
     .has-error &:focus{
-        border-color: $danger-color;
+        border-color: jameshoward.$danger-color;
     }
 
     & + .form-control-feedback{
-        border-radius: $border-radius-large;
-        font-size: $font-size-base;
+        border-radius: jameshoward.$border-radius-large;
+        font-size: jameshoward.$font-size-base;
         margin-top: -7px;
         position: absolute;
         right: 10px;
@@ -62,50 +66,50 @@
     }
 
     .open &{
-        border-radius: $border-radius-base $border-radius-base 0 0;
+        border-radius: jameshoward.$border-radius-base jameshoward.$border-radius-base 0 0;
         border-bottom-color: transparent;
     }
 }
 
 .input-lg{
     height: 55px;
-    padding: $padding-large-vertical $padding-large-horizontal;
+    padding: jameshoward.$padding-large-vertical jameshoward.$padding-large-horizontal;
 }
 
 .has-error{
     .form-control-feedback{
-        color: $danger-color;
+        color: jameshoward.$danger-color;
     }
 }
 .has-success{
     .form-control-feedback{
-        color: $success-color
+        color: jameshoward.$success-color
     }
 }
 
 
 .input-group-addon {
-    background-color: $white-color;
-    border: 1px solid $light-gray;
-    border-radius: $border-radius-base;
+    background-color: jameshoward.$white-color;
+    border: 1px solid jameshoward.$light-gray;
+    border-radius: jameshoward.$border-radius-base;
 
     .has-success &,
     .has-error &{
-        background-color: $white-color;
-        border: 1px solid $light-gray;
+        background-color: jameshoward.$white-color;
+        border: 1px solid jameshoward.$light-gray;
     }
     .has-error .form-control:focus + &{
-        border-color: $danger-color;
-        color: $danger-color;
+        border-color: jameshoward.$danger-color;
+        color: jameshoward.$danger-color;
     }
     .has-success .form-control:focus + &{
-        border-color: $success-color;
-        color: $success-color;
+        border-color: jameshoward.$success-color;
+        color: jameshoward.$success-color;
     }
     .form-control:focus + &,
     .form-control:focus ~ &{
-        background-color: $white-color;
-        border-color: $dark-gray;
+        background-color: jameshoward.$white-color;
+        border-color: jameshoward.$dark-gray;
     }
 }
 
@@ -116,8 +120,8 @@
     border-left: 0 none;
 }
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
-    background-color: $light-gray;
-    color: $default-color;
+    background-color: jameshoward.$light-gray;
+    color: jameshoward.$default-color;
     cursor: not-allowed;
 }
 
@@ -129,7 +133,7 @@
     padding: 8px 0;
     font-size: 16px;
     background-color: transparent;
-    border-color: $light-gray;
+    border-color: jameshoward.$light-gray;
     resize: vertical;
 
     &:focus {

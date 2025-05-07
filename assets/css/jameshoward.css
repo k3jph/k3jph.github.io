@@ -423,3 +423,12 @@ body {
 .p-1px {
   padding: 1px;
 }
+
+.text-black {
+    color: $black-color;
+}
+
+*::selection{
+    background: $info-color;
+    color: #FFFFFF;
+}

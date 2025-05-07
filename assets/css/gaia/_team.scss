@@ -1,3 +1,5 @@
+@use "../jameshoward";
+
 
 .section-team-1{
 	padding-top: 0;
@@ -98,7 +100,7 @@
 			.motto{
 				position: relative;
 				text-transform: none;
-				color: $gold-color;
+				color: jameshoward.$gold-color;
 				max-width: 55%;
 				margin: 0 auto;
 
@@ -135,7 +137,7 @@
 					font-size: 14px;
 
 					i{
-					color: $dark-gray;
+					color: jameshoward.$dark-gray;
 				}
 				}
 			}
@@ -163,13 +165,13 @@
 }
 
 .small-text{
-	color: $dark-gray;
+	color: jameshoward.$dark-gray;
 	text-align: center;
 }
 
 .social-buttons{
 	margin-top: -20px;
-	border-top: 1px solid $medium-gray;
+	border-top: 1px solid jameshoward.$medium-gray;
 	text-align: center;
 }
 

@@ -1,3 +1,7 @@
+@use "sass:color";
+@use "../jameshoward";
+@use "mixins/vendor-prefixes";
+
 .card{
     background: #fff;
     box-shadow: 0 32px 44px -24px rgba(0, 0, 0, 0.23),
@@ -6,10 +10,10 @@
     border-radius: 6px;
     margin-bottom: 30px;
 
-    @include transition($slow-transition-time, $transition-bezier);
+    @include vendor-prefixes.transition(jameshoward.$slow-transition-time, jameshoward.$transition-bezier);
 
     &:not(.card-plain):not(.card-price):hover{
-        @include transform-scale(1.03);
+        @include vendor-prefixes.transform-scale(1.03);
 
         box-shadow: 0 26px 50px -10px rgba(0, 0, 0, 0.38),
                     0 10px 20px 0px rgba(0, 0, 0, 0.20),
@@ -36,17 +40,17 @@
 
     .header{
         img{
-            border-radius: $border-radius-base;
+            border-radius: jameshoward.$border-radius-base;
         }
     }
 
     .image-header,
     .header img{
         width: 100%;
-        border-radius: $border-radius-base $border-radius-base 0 0;
+        border-radius: jameshoward.$border-radius-base jameshoward.$border-radius-base 0 0;
 
         &.image-full{
-            border-radius: $border-radius-base;
+            border-radius: jameshoward.$border-radius-base;
         }
     }
 
@@ -55,7 +59,7 @@
         .image-header,
         .header img {
             width: 100%;
-            border-radius: $border-radius-base;
+            border-radius: jameshoward.$border-radius-base;
         }
     }
 
@@ -64,12 +68,12 @@
     }
 
     > img{
-        border-radius: $border-radius-base;
+        border-radius: jameshoward.$border-radius-base;
     }
 
     .title{
         margin-bottom: 5px;
-        color: $black-color;
+        color: jameshoward.$black-color;
     }
     .description{
         font-size: 13px;
@@ -103,7 +107,7 @@
     .card-title {
         line-height: 1.358823529em;
         margin-bottom: 10px;
-        color: $black-color;
+        color: jameshoward.$black-color;
     }
     .date-wrapper {
         position: relative;
@@ -122,7 +126,7 @@
     .card-date,
     .card-month,
     .card-category {
-        color: $dark-gray;
+        color: jameshoward.$dark-gray;
         text-transform: uppercase;
         display: block;
         line-height: 1.2;
@@ -132,14 +136,14 @@
     .card-category {
         margin-top: 10px;
         margin-bottom: 15px;
-        font-family: $sans-serif-font;
-        font-weight: $font-weight-bold;
-        color: $semi-gray;
+        font-family: jameshoward.$sans-serif-font;
+        font-weight: jameshoward.$font-weight-bold;
+        color: jameshoward.$semi-gray;
     }
     .card-date{
-        font-family: $sans-serif-font;
-        font-weight: $font-weight-bold;
-        font-size: $font-size-base;
+        font-family: jameshoward.$sans-serif-font;
+        font-weight: jameshoward.$font-weight-bold;
+        font-size: jameshoward.$font-size-base;
     }
 
     .line-divider {
@@ -148,16 +152,16 @@
         margin: 0 auto;
 
         &.line-info{
-            border-color: $info-color;
+            border-color: jameshoward.$info-color;
         }
         &.line-success{
-            border-color: $success-color;
+            border-color: jameshoward.$success-color;
         }
         &.line-warning{
-            border-color: $warning-color;
+            border-color: jameshoward.$warning-color;
         }
         &.line-danger{
-            border-color: $danger-color;
+            border-color: jameshoward.$danger-color;
         }
     }
     .card-title-2 {
@@ -183,7 +187,7 @@
         margin: 0;
         letter-spacing: 1px;
         font-weight: 600;
-        color: $dark-gray;
+        color: jameshoward.$dark-gray;
     }
     .subtitle-header {
         font-weight: 500;
@@ -191,7 +195,7 @@
     .price {
         position: relative;
         display: inline-block;
-        color: $dark-gray;
+        color: jameshoward.$dark-gray;
 
         .number {
             font-size: 65px;
@@ -207,7 +211,7 @@
     }
     .text-description {
         line-height: 1.8;
-        color: $dark-gray;
+        color: jameshoward.$dark-gray;
     }
     .text-center {
         .btn.btn-info.btn-round.btn-fill {
@@ -220,7 +224,7 @@
             line-height: 14px;
             padding: 9px 31px;
             &:hover {
-                background-color: darken(#c5a47e,5%);
+                background-color: color.adjust(#c5a47e,$lightness: -5%);
             }
         }
     }
@@ -258,7 +262,7 @@
     }
 }
 .card-white{
-    background: $white-color;
+    background: jameshoward.$white-color;
 }
 .card-plain{
     border-radius: 0;
@@ -266,6 +270,6 @@
     background: none;
 
     .image-header{
-        border-radius: $border-radius-base;
+        border-radius: jameshoward.$border-radius-base;
     }
 }

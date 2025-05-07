@@ -1,26 +1,30 @@
+@use "../jameshoward";
+@use "mixins/transparency";
+@use "mixins/vendor-prefixes";
+
 .dropdown-menu{
     visibility: hidden;
     margin: 0;
     padding: 0;
-    border-radius: $border-radius-base;
+    border-radius: jameshoward.$border-radius-base;
     display: block;
     z-index: 9000;
     position: absolute;
 
-    @include opacity(0);
-    @include box-shadow($dropdown-shadow);
+    @include transparency.opacity(0);
+    @include vendor-prefixes.box-shadow(jameshoward.$dropdown-shadow);
 
-    @include transform-translate-y(-20px);
-    @include transition($slow-transition-time, $transition-bezier);
+    @include vendor-prefixes.transform-translate-y(-20px);
+    @include vendor-prefixes.transition(jameshoward.$slow-transition-time, jameshoward.$transition-bezier);
 
     .open &{
-        @include opacity(1);
+        @include transparency.opacity(1);
         visibility: visible;
-        @include transform-translate-y(0px);
+        @include vendor-prefixes.transform-translate-y(0px);
     }
 
     .navbar-nav > li > &{
-        border-radius: $border-radius-base;
+        border-radius: jameshoward.$border-radius-base;
         margin-top: -5px;
     }
 
@@ -56,14 +60,14 @@
     }
 
     > li > a {
-        padding: $padding-base-vertical $padding-base-horizontal;
+        padding: jameshoward.$padding-base-vertical jameshoward.$padding-base-horizontal;
         margin: 0px 0px;
-        color: $black-medium;
+        color: jameshoward.$black-medium;
         text-transform: uppercase;
         font-weight: 600;
         font-size: 12px;
         line-height: 13px;
-        padding: $padding-base-vertical * 2 $padding-base-vertical * 2;
+        padding: jameshoward.$padding-base-vertical * 2 jameshoward.$padding-base-vertical * 2;
         border-bottom: 1px solid #EEEEEE;
 
         img{
@@ -73,7 +77,7 @@
         &:hover,
         &:focus{
             background-color: #FFFFFF;
-            color: $primary-color;
+            color: jameshoward.$primary-color;
             opacity: 1;
             text-decoration: none;
         }
@@ -92,13 +96,13 @@
     }
 
     > li:first-child > a{
-       border-top-left-radius: $border-radius-base;
-       border-top-right-radius: $border-radius-base;
+       border-top-left-radius: jameshoward.$border-radius-base;
+       border-top-right-radius: jameshoward.$border-radius-base;
     }
 
     > li:last-child > a{
-        border-bottom-left-radius: $border-radius-base;
-        border-bottom-right-radius: $border-radius-base;
+        border-bottom-left-radius: jameshoward.$border-radius-base;
+        border-bottom-right-radius: jameshoward.$border-radius-base;
     }
 
     .select & > li:first-child > a{
@@ -113,7 +117,7 @@
         > li > a{
             &:hover,
             &:focus{
-                color: $info-color;
+                color: jameshoward.$info-color;
             }
         }
     }
@@ -121,7 +125,7 @@
         > li > a{
             &:hover,
             &:focus{
-                color: $success-color;
+                color: jameshoward.$success-color;
             }
         }
     }
@@ -129,7 +133,7 @@
         > li > a{
             &:hover,
             &:focus{
-                color: $danger-color;
+                color: jameshoward.$danger-color;
             }
         }
     }
@@ -137,7 +141,7 @@
         > li > a{
             &:hover,
             &:focus{
-                color: $warning-color;
+                color: jameshoward.$warning-color;
             }
         }
     }
@@ -145,7 +149,7 @@
         > li > a{
             &:hover,
             &:focus{
-                color: $black-color;
+                color: jameshoward.$black-color;
             }
         }
     }

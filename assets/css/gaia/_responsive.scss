@@ -1,3 +1,7 @@
+@use "../jameshoward";
+@use "mixins/transparency";
+@use "mixins/vendor-prefixes";
+
 @media (min-width: 768px){
     .nav {
         > .social-links{
@@ -74,7 +78,7 @@
 			.project-description{
 
 				p{
-					color: $dark-gray;
+					color: jameshoward.$dark-gray;
 					display: inline;
 				}
 			}
@@ -90,25 +94,25 @@
 
 			.over-area{
 				opacity: 1;
-				@include transition-projects-1(.25s, .25s);
+				@include vendor-prefixes.transition-projects-1(.25s, .25s);
 				transition-delay: 0;
 				-webkit-transition-delay: 0;
 
 				.content{
 					opacity: 1;
-					@include opacity(.2s);
+					@include transparency.opacity(.2s);
 					top: 50%;
-					@include translateY(-50%);
+					@include vendor-prefixes.translateY(-50%);
 					text-align: center;
 
 					h4{
 						opacity: 1;
-						@include transition-projects-2(.3s);
-						@include translateY(0px);
+						@include vendor-prefixes.transition-projects-2(.3s);
+						@include vendor-prefixes.translateY(0px);
 					}
 					p{
 						opacity: 1;
-						@include translateY(0px);
+						@include vendor-prefixes.translateY(0px);
 					}
 				}
 			}
@@ -345,7 +349,7 @@
 
     .navbar-transparent{
         .navbar-brand{
-            color: $white-color;
+            color: jameshoward.$white-color;
         }
     }
 }
@@ -383,8 +387,8 @@ body {
 }
 
 .navbar-header{
-    @include transform-translate-x(0px);
-    @include transition (0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
+    @include vendor-prefixes.transform-translate-x(0px);
+    @include vendor-prefixes.transition (0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
     position: relative;
 }
 .navbar-burger{
@@ -407,8 +411,8 @@ body {
 
         max-height: none !important;
 
-        @include transform-translate-x(300px);
-        @include transition (0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
+        @include vendor-prefixes.transform-translate-x(300px);
+        @include vendor-prefixes.transition (0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
 
         > ul {
             position: relative;
@@ -426,7 +430,7 @@ body {
             }
             & > a{
                 margin: 0px 0px;
-                color: $black-medium;
+                color: jameshoward.$black-medium;
                 text-transform: uppercase;
                 font-weight: 600;
                 font-size: 13px;
@@ -434,7 +438,7 @@ body {
                 padding: 24px 0;
                 &:hover,
                 &.active{
-                    color: $gold-color;
+                    color: jameshoward.$gold-color;
                 }
             }
 
@@ -456,23 +460,23 @@ body {
             height: 100%;
             width: 100%;
             position: absolute;
-            background-color: $white-color;
+            background-color: jameshoward.$white-color;
             display: block;
             content: "";
             z-index: 1;
         }
         &.has-image::after{
-            @include black-filter(.8);
+            @include transparency.black-filter(.8);
         }
 
         .active > a,
         .dropdown .dropdown-menu > li > a{
             &{
-                color: $black-medium;
+                color: jameshoward.$black-medium;
             }
             &:hover,
             &:focus{
-                color: $gold-color;
+                color: jameshoward.$gold-color;
             }
         }
     }
@@ -492,7 +496,7 @@ body {
         -webkit-box-shadow: none;
         box-shadow: none;
 
-        @include transition-none();
+        @include vendor-prefixes.transition-none();
     }
 
     .open .dropdown-menu{
@@ -524,50 +528,50 @@ body {
     }
     .bar1 {
       top: 0px;
-      @include bar-animation($topbar-back);
+      @include vendor-prefixes.bar-animation(jameshoward.$topbar-back);
     }
     .bar2 {
       opacity: 1;
     }
     .bar3 {
       bottom: 0px;
-      @include bar-animation($bottombar-back);
+      @include vendor-prefixes.bar-animation(jameshoward.$bottombar-back);
     }
     .toggled .bar1 {
       top: 6px;
-      @include bar-animation($topbar-x);
+      @include vendor-prefixes.bar-animation(jameshoward.$topbar-x);
     }
     .toggled .bar2 {
       opacity: 0;
     }
     .toggled .bar3 {
       bottom: 6px;
-      @include bar-animation($bottombar-x);
+      @include vendor-prefixes.bar-animation(jameshoward.$bottombar-x);
     }
 
-    @include topbar-x-rotation();
-    @include topbar-back-rotation();
-    @include bottombar-x-rotation();
-    @include bottombar-back-rotation();
+    @include vendor-prefixes.topbar-x-rotation();
+    @include vendor-prefixes.topbar-back-rotation();
+    @include vendor-prefixes.bottombar-x-rotation();
+    @include vendor-prefixes.bottombar-back-rotation();
 
 }
 
 .wrapper{
-   @include transition (0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
+   @include vendor-prefixes.transition (0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
    left: 0;
    background-color: white;
 
    &.transition{
-     @include transform-translate-x(0px);
+     @include vendor-prefixes.transform-translate-x(0px);
    }
 }
 .nav-open .wrapper{
     //left: 0;
-    @include transform-translate-x(-150px);
+    @include vendor-prefixes.transform-translate-x(-150px);
 }
 
 .nav-open .navbar .navbar-header{
-    @include transform-translate-x(-200px);
+    @include vendor-prefixes.transform-translate-x(-200px);
 }
 
 @media (min-width: 768px){
@@ -614,7 +618,7 @@ body {
     }
 
     .nav-open .navbar-collapse{
-        @include transform-translate-x(0px);
+        @include vendor-prefixes.transform-translate-x(0px);
     }
 
     .navbar-burger{
@@ -672,8 +676,8 @@ body {
 
         max-height: none !important;
 
-        @include transform-translate-x(230px);
-        @include transition (0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
+        @include vendor-prefixes.transform-translate-x(230px);
+        @include vendor-prefixes.transition (0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
 
         ul {
             position: relative;
@@ -690,7 +694,7 @@ body {
             }
             & > a{
                 margin: 0px 0px;
-                color: $black-medium;
+                color: jameshoward.$black-medium;
                 text-transform: uppercase;
                 font-weight: 600;
                 font-size: 13px;
@@ -698,7 +702,7 @@ body {
                 padding: 24px 0;
                 &:hover,
                 &.active{
-                    color: $gold-color;
+                    color: jameshoward.$gold-color;
                 }
             }
 
@@ -720,13 +724,13 @@ body {
             height: 100%;
             width: 100%;
             position: absolute;
-            background-color: $white-color;
+            background-color: jameshoward.$white-color;
             display: block;
             content: "";
             z-index: 1;
         }
         &.has-image::after{
-            @include black-filter(.8);
+            @include transparency.black-filter(.8);
         }
     }
 
@@ -735,12 +739,12 @@ body {
     }
 
     .nav-open .navbar-collapse{
-        @include transform-translate-x(0px);
+        @include vendor-prefixes.transform-translate-x(0px);
     }
 
     .nav-open .wrapper{
         left: 0;
-        @include transform-translate-x(-115px);
+        @include vendor-prefixes.transform-translate-x(-115px);
     }
 
     .navbar-nav {
@@ -772,7 +776,7 @@ body {
         .active > a,
         .dropdown .dropdown-menu > li > a{
             &{
-                color: $black-medium;
+                color: jameshoward.$black-medium;
             }
 
         }
@@ -813,10 +817,10 @@ body {
     }
 
     .social-line .btn{
-        margin: $margin-bottom;
+        margin: jameshoward.$margin-bottom;
     }
     .subscribe-line .form-control{
-        margin: $margin-bottom;
+        margin: jameshoward.$margin-bottom;
     }
     .social-line.pull-right{
         float: none;
@@ -850,7 +854,7 @@ body {
     }
 
     .nav-open .navbar .navbar-header{
-        @include transform-translate-x(-280px);
+        @include vendor-prefixes.transform-translate-x(-280px);
     }
 
 

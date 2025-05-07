@@ -1,3 +1,5 @@
+@use "mixins/transparency";
+@use "mixins/vendor-prefixes";
 
 
 body.noscroll{
@@ -119,36 +121,36 @@ body.noscroll{
 		color: white;
 		opacity: 0;
 		background: rgba(0,0,0,0.55);
-		@include transition-projects-1(.5s, .5s);
+		@include vendor-prefixes.transition-projects-1(.5s, .5s);
 
 		&:hover{
 			opacity: 1;
-			@include transition-projects-1(.25s, 0s);
+			@include vendor-prefixes.transition-projects-1(.25s, 0s);
 			transition-delay: 0;
 			-webkit-transition-delay: 0;
 
 			.content{
 				opacity: 1;
-				@include opacity(.2s);
+				@include transparency.opacity(.2s);
 			}
 
 			h3{
 				opacity: 1;
-				@include transition-projects-2(.3s);
-				@include translateY(0px);
+				@include vendor-prefixes.transition-projects-2(.3s);
+				@include vendor-prefixes.translateY(0px);
 			}
 			p{
 				opacity: 1;
-				@include translateY(0px);
+				@include vendor-prefixes.translateY(0px);
 			}
 			.btn{
 				opacity: 1;
-				@include translateY(0px);
+				@include vendor-prefixes.translateY(0px);
 			}
 
 			.btn{
 			    opacity: 1;
-				@include translateY(0px);
+				@include vendor-prefixes.translateY(0px);
 
 			}
 		}
@@ -250,29 +252,29 @@ body.noscroll{
 		width: 100%;
 		min-height: 165px;
 		word-break: break;
-		@include opacity(.5s);
-		@include perspective(300px);
+		@include transparency.opacity(.5s);
+		@include vendor-prefixes.perspective(300px);
 	}
 
     h3{
         opacity: 0;
 		font-weight: 600;
-        @include translateY(-20px);
-        @include transition-projects-2(.2s);
+        @include vendor-prefixes.translateY(-20px);
+        @include vendor-prefixes.transition-projects-2(.2s);
     }
     p{
         font-size: 1em;
         color: #FFFFFF;
         opacity: 0;
-        @include translateY(-20px);
-        @include transition-projects-3(.5s, .15s);
+        @include vendor-prefixes.translateY(-20px);
+        @include vendor-prefixes.transition-projects-3(.5s, .15s);
     }
 
 
 	.btn{
 	    opacity: 0;
-		@include translateY(-20px);
-		@include transition-projects-3(.3s, .3s);
+		@include vendor-prefixes.translateY(-20px);
+		@include vendor-prefixes.transition-projects-3(.3s, .3s);
 		color: #fff;
 		border-color: #fff;
 	}

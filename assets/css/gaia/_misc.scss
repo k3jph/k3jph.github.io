@@ -1,3 +1,6 @@
+@use "../jameshoward";
+@use "mixins/vendor-prefixes";
+
 
 a{
 
@@ -26,7 +29,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .tagsinput,
 .navbar,
 .navbar .alert{
-    @include transition($general-transition-time, linear);
+    @include vendor-prefixes.transition(jameshoward.$general-transition-time, linear);
 }
 .tagsinput .tag,
 .tagsinput-remove-link,
@@ -34,13 +37,13 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .btn-hover,
 [data-toggle="collapse"] i,
 body > .navbar-collapse a{
-    @include transition($fast-transition-time, linear);
+    @include vendor-prefixes.transition(jameshoward.$fast-transition-time, linear);
 }
 
 .btn-morphing .fa,
 .btn-morphing .circle,
 .gsdk-collapse{
-    @include transition($slow-transition-time, linear);
+    @include vendor-prefixes.transition(jameshoward.$slow-transition-time, linear);
 }
 
 .fa{
@@ -67,17 +70,17 @@ body > .navbar-collapse a{
     .icon{
        font-size: 62px;
        line-height: 66px;
-       color: $primary-color;
+       color: jameshoward.$primary-color;
        margin-bottom: 10px;
    }
    .description{
        margin-top: 15px;
-       color: $dark-gray;
+       color: jameshoward.$dark-gray;
    }
 }
 
 .avatar{
-	border: 3px solid $primary-color;
+	border: 3px solid jameshoward.$primary-color;
 	border-radius: 50%;
 	overflow: hidden;
 	max-width: 110px;
@@ -90,16 +93,16 @@ body > .navbar-collapse a{
 }
 
 .avatar-info{
-    border-color: $info-color;
+    border-color: jameshoward.$info-color;
 }
 .avatar-success{
-    border-color: $success-color;
+    border-color: jameshoward.$success-color;
 }
 .avatar-warning{
-    border-color: $warning-color;
+    border-color: jameshoward.$warning-color;
 }
 .avatar-danger{
-    border-color: $danger-color;
+    border-color: jameshoward.$danger-color;
 }
 
 
@@ -108,7 +111,7 @@ body > .navbar-collapse a{
 
 
 *::selection{
-    background: $danger-color;
+    background: jameshoward.$danger-color;
     color: #FFFFFF;
 }
 
@@ -172,7 +175,7 @@ body > .navbar-collapse a{
             display: block;
             position: relative;
             text-align: center;
-            @include transform-translate-center(-50%);
+            @include vendor-prefixes.transform-translate-center(-50%);
 
         .loader{
             width: 40px;
@@ -209,10 +212,10 @@ body > .navbar-collapse a{
 
 /* BUTTONS */
 .form-control{
-    border-color: $gray;
+    border-color: jameshoward.$gray;
 
     &:focus{
-        border-color: $dark-gray;
+        border-color: jameshoward.$dark-gray;
     }
 }
 
@@ -221,13 +224,13 @@ a,
 .list-logos a img:first-child,
 .section-clients-3 #clients-carousel li img:first-child,
 .project-content .icon-close i,.nav-text > li.active a{
-     @include transition($fast-transition-time, linear);
+     @include vendor-prefixes.transition(jameshoward.$fast-transition-time, linear);
 }
 
 .btn,
 .btn-black i,
 .form-control::-webkit-placeholder{
-    @include transition($fast-transition-time, ease-out);
+    @include vendor-prefixes.transition(jameshoward.$fast-transition-time, ease-out);
 }
 
 /*   end animation   */
