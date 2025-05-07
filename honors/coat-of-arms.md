@@ -18,9 +18,9 @@ redirect_from:
   - /honors/maltese-coat-arms
 ---
 
-{% include figure.html image="jhoward-maltese-coa-achernushkin-960px.webp" placement="right" width="6"
-cap="Coat of Arms as interpreted by [Alexandr Chernushkin](https://www.fiverr.com/achernushkin)" 
-alt="Coat of Arms as interpreted by Alexandr Chernushkin" %}
+{% include figure.html image="armory/jhoward-salmeron-960px.webp" placement="right" width="6" border=true
+cap="Coat of Arms as interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
+alt="Coat of Arms as interpreted by Dr Antonio Salmerón" %}
 
 At its core, heraldry started as a means of identification, evolving
 over centuries from simple insignias to the complex art of designing,
@@ -89,7 +89,7 @@ acknowledgment of arms granted by recognized foreign authorities.
 I received a grant of arms from the Office of the Chief Herald of
 Arms of Malta, formalized through Letters Patent numbered G0102,
 issued on May 1, 2024.  The formal notice of
-this grant was published in the _Gazzetta tal-Gvern ta’ Malta_, the
+this grant was published in the _Gazzetta tal-Gvern ta' Malta_, the
 official gazette of the Government of Malta, [in issue number
 21,194, on Feburary 16, 2024](/assets/docs/malta-government-gazette-20240216.pdf). This publication
 serves as the official record, ensuring transparency and public
@@ -129,7 +129,7 @@ replicated anywhere in the world.
   <div class="item col-md-6 col-sm-12">
     <blockquote>
       <p>
-        Lewn il-Fidda in Pale tetrahedron lewn Ikħal minfud b’sejf In Bend lewn id-Deheb u bil-maqbad u s-salib tiegħu ta’ lewn Ikħal.Fuq elmu li jixraq il-grad tiegħu bid-drappeġġ Ikħal u lewn id-Deheb hemm bħala Kresta fuq girlanda tal-istess ilwien ħuttafa ta’ lewn Iswed.
+        Lewn il-Fidda in Pale tetrahedron lewn Ikħal minfud b'sejf In Bend lewn id-Deheb u bil-maqbad u s-salib tiegħu ta' lewn Ikħal.Fuq elmu li jixraq il-grad tiegħu bid-drappeġġ Ikħal u lewn id-Deheb hemm bħala Kresta fuq girlanda tal-istess ilwien ħuttafa ta' lewn Iswed.
       </p>
     </blockquote>
   </div>
@@ -218,41 +218,84 @@ streamlined design, which offers greater versatility for various
 applications.
 
 {% include figure.html placement="left" width="6" 
-image="jhoward-maltese-coa-english.svg"
+image="armory/jhoward-coa-english.svg"
 cap="Coat of Arms in the English style by me" 
 alt="Coat of Arms in the English style by me" %}
 
 {% include figure.html placement="left" width="6"
-image="jhoward-maltese-coa-medieval.svg" 
+image="armory/jhoward-coa-medieval.svg" 
 cap="Coat of Arms in the medieval style by me" 
 alt="Coat of Arms in the medieval style by me" %}
 
-## Banner and Flag 
+### Additional Emblazonments
 
-The coat of arms has also been adapted into flag and banner formats,
-each serving distinct purposes and conforming to specific proportions.
-This allows the heraldic design to be displayed in various contexts,
-extending its visibility and versatility in use.
+In this section, we showcase various artistic interpretations of my coat of
+arms, highlighting the diversity and creativity within heraldic art. Each
+emblazonment, while adhering to the same blazon, brings a unique style and
+perspective, reflecting the individual artistry of the creators. These
+variations enrich the visual representation of the arms, demonstrating how
+heraldry can be both a precise science and a vibrant art form.  By exploring
+different emblazonments, we can appreciate the multifaceted nature of heraldic
+design and its capacity to convey identity and heritage through various artistic
+lenses.
 
-### Flag
+<div id="masonry-container" class="row">
+{% include figure.html image="armory/jhoward-coa-ratul-960px.webp" placement="left" width="4" border=true
+cap="Coat of Arms as interpreted by [Ratul S](https://www.fiverr.com/ratulsen544)" 
+alt="Coat of Arms as interpreted by Ratul S" %}
 
-The flag, presented in the standard 2:3 proportions, is designed for
-broader, more public displays. Flags are typically used for flying from
-flagpoles, serving as a symbol of identification and pride that can be
-seen from a distance. The design of the flag ensures that it remains
-recognizable and impactful even when viewed from afar. 
+{% include figure.html image="armory/jhoward-coa-achernushkin-960px.webp" placement="right" width="4"
+cap="Coat of Arms as interpreted by [Alexandr Chernushkin](https://www.fiverr.com/achernushkin)" 
+alt="Coat of Arms as interpreted by Alexandr Chernushkin" %}
 
-In my case, the flag version of my coat of arms retains the same content
-as the original design, adapted to fit the rectangular format. This
-adaptation ensures that the essential elements of the coat of arms are
-maintained while providing a format that is suitable for outdoor use,
-ceremonial occasions, and events where the emblem needs to be
-prominently displayed to represent the bearer or the institution. The
-flag is ideal for situations where visibility and ease of recognition
-are paramount, such as during parades, official functions, or as a
-marker of presence and authority.
+{% include figure.html image="armory/jhoward-arms-hatched.svg" placement="left" width="4" border=false
+cap="Coat of Arms in the hatched style by me" 
+alt="Coat of Arms in the hatched style by me" %}
+
+{% include figure.html image="armory/jhoward-arms-sodacan-glasshouse.svg" placement="left" width="4" border=false
+cap="Coat of Arms in the [Sodacan](https://commons.wikimedia.org/wiki/User:Sodacan)/[Glasshouse](https://commons.wikimedia.org/wiki/User:Glasshouse) style by me" 
+alt="Coat of Arms in the Sodacan/Glasshouse style by me" %}
+
+{% include figure.html image="armory/jhoward-arms-wappenwiki.svg" placement="left" width="4" border=false
+cap="Coat of Arms in the [WappenWiki](https://wappenwiki.org/) style by me" 
+alt="Coat of Arms in the WappenWiki style by me" %}
+
+{% include figure.html image="armory/jhoward-arms-pierra.svg" placement="left" width="4" border=false
+cap="Coat of Arms as interpreted by [Jean-Eudes Pierra](https://www.armorialofthebee.com/board)" 
+alt="Coat of Arms as interpreted by Jean-Eudes Pierra" %}
+
+{% include figure.html image="armory/cowan/howard-james-shield.png" placement="left" width="4" border=false
+cap="Coat of Arms as interpreted by [Steve Cowan](https://www.stevecowan.ca/)" 
+alt="Coat of Arms as interpreted by Steve Cowan" %}
+
+{% include figure.html image="armory/jhoward-armoji.svg" placement="left" width="4" border=false
+cap="Coat of Arms in the armoji style" 
+alt="Coat of Arms as the armoji style" %}
+
+{% include figure.html image="armory/jhoward-arms-loggail.webp" placement="left" width="4" border=true
+cap="Coat of Arms as interpreted by Heikki Halkosaari" 
+alt="Coat of Arms as interpreted by Heikki Halkosaari" %}
+</div>
+
+## Related Insignia
+
+Together, the crest, badge, and livery flag form a complete set of
+external insignia associated with my armorial bearings. Each serves a
+distinct purpose within the broader heraldic tradition: the crest,
+placed atop the helm, completes the full achievement; the badge,
+rendered in the Scottish strap-and-buckle form, marks personal identity
+and armigerous status; and the flag, a vertical tricolor of gold, blue,
+and white, displays the livery colors in a form suited for public and
+ceremonial use. Though governed by differing conventions--Scottish,
+English, Maltese, and beyond--these elements share a unifying function:
+to express, in various media and degrees of formality, the continuity
+and presence of heraldic identity.
 
 ### Banner
+
+{% include figure.html image="armory/jhoward-banner.svg" width="4"
+placement="right" cap="Heraldic banner adapted from the arms"
+alt="Heraldic banner adapted from the arms" %}
 
 The banner, on the other hand, is presented in a square 1:1 proportion,
 adhering to traditional heraldic practices. Banners are often used in
@@ -275,62 +318,12 @@ ensuring that the primary symbols are prominently featured. This format
 is ideal for formal occasions and environments where the banner can be
 displayed as a testament to heritage and honor.
 
-{% include figure.html image="jhoward-maltese-flag.svg" width="7" 
-cap="Heraldic flag adapted from the arms" 
-alt="Heraldic flag adapted from the arms"  %}
+### English Heraldic Badges
 
-{% include figure.html image="jhoward-maltese-banner.svg" width="5"
-cap="Heraldic banner adapted from the arms" 
-alt="Heraldic banner adapted from the arms" %}
-
-## Heraldic Badges
-
-In addition to my coat of arms, I have adopted its design into heraldic
-badges, reflecting both the English heraldic badge tradition and the
-Scottish crest badge. Heraldic badges, distinct from coats of arms,
-serve as a versatile symbol of allegiance and identification, often worn
-by retainers and followers. These badges are simpler in design, intended
-for widespread recognition and usage, extending the visual
-representation of the bearer's heraldic identity beyond the formal
-confines of a coat of arms.
-
-Modern Maltese law of arms is influenced by both English and Scottish
-heraldic traditions, reflecting the island's historical ties and
-cultural exchanges with the British Isles. This influence is evident in
-the adoption of heraldic practices and symbols that honor the rich
-tapestry of Maltese history while incorporating elements from these
-well-established heraldic systems. By integrating these traditions, the
-Maltese heraldic system ensures a robust framework for granting and
-regulating coats of arms and badges, maintaining a respectful nod to its
-diverse heraldic heritage.
-  
-<div id="masonry-container" class="row">
-
-{% include figure.html width="4"
-image="jhoward-maltese-heraldic-badge.svg" 
+{% include figure.html width="4" placement="right"
+image="armory/jhoward-heraldic-badge.svg" 
 cap="Badge in the form of an English heraldic badge"
 alt="Badge in the form of an English heraldic badge" %}
-
-{% include figure.html width="4" 
-image="jhoward-maltese-crest-badge-member.svg" 
-cap="Crest in the form of a crest badge" 
-alt="Crest in the form of a crest badge" %}
-
-{% include figure.html width="4" 
-image="jhoward-maltese-crest-badge-armiger.svg" 
-cap="Crest in the form of an armiger's crest badge" 
-alt="Crest in the form of an armiger's crest badge" %}
-
-{% include figure.html width="4" 
-image="jhoward-maltese-crest.svg" 
-cap="English-style crest badge" 
-alt="English-style crest badge" %}
-
-</div>
-
-<div class="row"></div>
-
-### English Heraldic Badges
 
 The English heraldic badge I have adopted features two distinct designs,
 each reflecting different aspects of my armigerous status and personal
@@ -372,103 +365,80 @@ unified yet diverse representation of my heraldic identity.
 
 ### Scottish Crest Badge
 
+{% include figure.html width="4" placement="right"
+image="armory/jhoward-crest-badge-member.svg" 
+cap="Crest in the form of a crest badge" 
+alt="Crest in the form of a crest badge" %}
+
 The Scottish crest badge, traditionally worn as a cap badge,
-incorporates elements from my crest within a belt and buckle design,
-symbolizing loyalty and fidelity. This format is deeply rooted in
-Scottish heraldic tradition, where the belt and buckle, or strap and
-buckle, signifies allegiance to a clan chief and adherence to a shared
-heritage.
+incorporates elements from my personal crest within a strap and buckle
+design, an emblematic format that communicates loyalty and fidelity.
+This design is not merely decorative; it is steeped in the legal and
+symbolic framework of Scottish heraldry. In its classic form, the
+strap-and-buckle encircles the crest of a clan chief and bears the
+chief's motto, signifying allegiance from the wearer to that chief. In
+more recent times, armigers, those granted arms in their own right, have
+adapted this form to display their own crests, thereby signifying
+personal armigerous status and independent heraldic authority.
 
-The central element of my Scottish crest badge is the martlet, which is
-encircled by a belt bearing the motto "_Ir-rieda biss tmexxi l-qalb_."
-The martlet, a small bird depicted without feet, traditionally
-symbolizes continuous quest and ambition, representing the idea of
-perpetual journey and striving for excellence. This imagery aligns with
-my personal values of constant endeavor and the pursuit of higher
-aspirations.
+The origins of the crest badge lie in the clan system of the Scottish
+Highlands, where the chief's crest and motto functioned as visual
+shorthand for the collective identity of the clan. Members of the clan,
+though not necessarily armigers themselves, would wear the chief's crest
+within a belt and buckle to declare their loyalty. This practice was
+codified by the Court of the Lord Lyon, Scotland's heraldic authority,
+which regulates not only the grant and use of arms but also their
+display. It is thus not only a cultural tradition, but a practice
+grounded in heraldic law. For armigers, the adaptation of the badge to
+include their own crest represents a proud assertion of personal
+identity within the broader heraldic community.
 
-Additionally, my crest badge incorporates a feather, which is a
-significant symbol within Scottish heraldry and marks the badge bearer
-as an armiger--one entitled to bear arms. Traditionally, feathers on an
-armiger's badge are used to differentiate the wearer from other members
-of the clan who may also display the chief's crest badge. This
-distinction underscores the individual's recognized status and personal
-achievements in heraldry. The feather in my badge further complements
-the martlet’s symbolism of upward ambition, evoking ideas of
-intellectual elevation and grace.
+The central element of my own Scottish crest badge is the martlet,
+depicted without feet, which traditionally symbolizes ceaseless effort
+and the pursuit of higher goals. The martlet's perpetual motion, never
+able to land, embodies the idea of continual striving, a reflection of
+personal ambition and moral resilience. Encircling the martlet is a belt
+bearing the motto "_Ir-rieda biss tmexxi l-qalb_," which in Maltese
+means "The will must guide the heart." This phrase, personal in origin
+and meaning, pairs naturally with the image of the martlet, both
+emphasizing inward resolve and the search for ethical direction.
 
-The belt and buckle design is a prominent feature in Scottish crest
-badges, symbolizing a strong and binding connection to one's lineage and
-loyalty to the clan or family represented by the crest. The circular
-form of the belt signifies unity and continuity, while the buckle
-denotes security and steadfastness. This design element emphasizes a
-sense of belonging and commitment, reinforcing the collective identity
-of the bearers of the badge.
+{% include figure.html width="4" placement="right"
+image="armory/jhoward-crest-badge-armiger.svg"
+cap="Crest in the form of an armiger's crest badge"
+alt="Crest in the form of an armiger's crest badge" %}
 
-In my crest badge, the belt and buckle also serve to frame the martlet,
-feather, and motto, highlighting their importance and ensuring that the
-emblem is cohesive and visually balanced. The integration of the belt
-and buckle with my personal motto further underscores the themes of
-determination and leadership, suggesting that true guidance and
-direction in life come from inner strength and resolve.
+My badge also includes a feather, a distinctive mark in Scottish
+heraldry that denotes the bearer as an armiger. This usage has evolved
+from the tradition by which clan members without arms might wear a
+single feather behind their badge when attending in support of their
+chief. An armiger, however, may bear a single feather in their badge
+design to signify independent armigerous status, visually setting them
+apart from clansmen who are not entitled to arms. In this context, the
+feather functions as both a heraldic and social indicator, affirming
+that the wearer has been formally recognized by the Lord Lyon as bearing
+arms in their own right.
 
-## Additional Emblazonments
+The belt and buckle motif is not arbitrary. Its circular form denotes
+unity and continuity, while the buckle represents security,
+steadfastness, and the binding nature of oaths. When this design is worn
+around the crest of another, such as a clan chief, it marks deference
+and fealty. When worn with one's own crest, it marks a complete and
+lawful identity within the heraldic tradition. The shape and symbolism
+thus reinforce the meaning of the badge: a unity of personal arms with
+traditional loyalty, enclosed and secured by the emblems of honor.
 
-In this section, we showcase various artistic interpretations of my coat of
-arms, highlighting the diversity and creativity within heraldic art. Each
-emblazonment, while adhering to the same blazon, brings a unique style and
-perspective, reflecting the individual artistry of the creators. These
-variations enrich the visual representation of the arms, demonstrating how
-heraldry can be both a precise science and a vibrant art form.  By exploring
-different emblazonments, we can appreciate the multifaceted nature of heraldic
-design and its capacity to convey identity and heritage through various artistic
-lenses.
-
-<div class="row">
-{% include figure.html image="jhoward-maltese-coa-ratul-960px.webp" placement="left" width="6" border=true
-cap="Coat of Arms as interpreted by [Ratul S](https://www.fiverr.com/ratulsen544)" 
-alt="Coat of Arms as interpreted by Ratul S" %}
-
-{% include figure.html image="jhoward-maltese-salmeron-960px.webp" placement="left" width="6" border=true
-cap="Coat of Arms as interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
-alt="Coat of Arms as interpreted by Dr Antonio Salmerón" %}
-</div>
-
-<div class="row">
-{% include figure.html image="jhoward-arms-hatched.svg" placement="left" width="6" border=false
-cap="Coat of Arms in the hatched style by me" 
-alt="Coat of Arms in the hatched style by me" %}
-
-{% include figure.html image="jhoward-arms-sodacan-glasshouse.svg" placement="left" width="6" border=false
-cap="Coat of Arms in the [Sodacan](https://commons.wikimedia.org/wiki/User:Sodacan)/[Glasshouse](https://commons.wikimedia.org/wiki/User:Glasshouse) style by me" 
-alt="Coat of Arms in the Sodacan/Glasshouse style by me" %}
-</div>
-
-<div class="row">
-{% include figure.html image="jhoward-arms-wappenwiki.svg" placement="left" width="6" border=false
-cap="Coat of Arms in the [WappenWiki](https://wappenwiki.org/) style by me" 
-alt="Coat of Arms in the WappenWiki style by me" %}
-
-{% include figure.html image="jhoward-arms-pierra.svg" placement="left" width="6" border=false
-cap="Coat of Arms as interpreted by [Jean-Eudes Pierra](https://www.armorialofthebee.com/board)" 
-alt="Coat of Arms as interpreted by Jean-Eudes Pierra" %}
-</div>
-
-<div class="row">
-{% include figure.html image="armory/cowan/howard-james-shield.png" placement="left" width="6" border=false
-cap="Coat of Arms as interpreted by [Steve Cowan](https://www.stevecowan.ca/)" 
-alt="Coat of Arms as interpreted by Steve Cowan" %}
-
-{% include figure.html image="armory/jhoward-armoji.svg" placement="left" width="6" border=false
-cap="Coat of Arms in the armoji style" 
-alt="Coat of Arms as the armoji style" %}
-</div>
-
-## Related Insignia
+In my own badge, the strap-and-buckle format not only frames the
+martlet, feather, and motto, it draws them together into a unified
+visual language. The result is an emblem that expresses individual
+aspiration, the legal dignity of armigerous rank, and an inherited
+fidelity to the ideals of Scottish heraldic tradition. It is, in that
+sense, both a personal and cultural declaration, one that honors the
+past even as it presses forward, like the martlet, into the future.
 
 ### Kamon
 
-{% include figure.html image="house-kamon.svg" width="4" placement="right"
+{% include figure.html image="armory/jhoward-kamon.svg" width="4" placement="right"
 cap="Kamon adapted from the Crest" alt="Kamon adapted from the Crest" %}
 
 Integrating elements from different heraldic traditions can create a meaningful
@@ -484,7 +454,7 @@ forms. Common motifs include animals, plants, and geometric patterns, rendered
 with refined minimalism.
 
 By applying this aesthetic approach to my own heraldic tradition, I chose the
-image of the raven--significant to my family's symbolism--and transformed it
+image of the martlet, significant to my family's symbolism, and transformed it
 through the lens of Japanese design principles. The result is an emblem that not
 only respects the history of both heraldic cultures but also resonates on a
 deeply personal level. The simplicity and symbolism of the *kamon* complement
@@ -495,13 +465,48 @@ This fusion highlights the universal appeal and adaptability of heraldic
 traditions, demonstrating how personal identity and history can be elegantly
 expressed through thoughtful design.
 
+### Flag
+
+{% include figure.html image="armory/jhoward-flag.svg" width="4" placement="right" border=true
+cap="Flag adapted from the liveries of the arms" 
+alt="Flag adapted from the liveries of the arms" %}
+
+The flag of my liveries is composed of three vertical stripes of equal
+width, arranged from hoist to fly in the order gold, blue, and white.
+This tricolor format offers a clean, modern articulation of the livery
+colors drawn from my armorial bearings. It is not a banner of arms and
+does not replicate any heraldic charges; rather, it serves as a livery
+flag, a visual marker of affiliation, presence, and identity.
+
+Unlike traditional banners of arms, which transcribe the shield directly
+into flag form, the livery flag is more flexible in use. It may be flown
+in both formal and informal contexts, serving as a field sign, household
+standard, or traveling emblem. Its purpose is to convey recognition, not
+blazon: a coherent expression of the armiger's established colors,
+suitable for display where the full achievement might be impractical or
+excessive.
+
+The vertical arrangement offers a balanced and dignified aesthetic,
+consistent with both heraldic and vexillological principles. Though the
+colors themselves do not carry specific symbolic meaning apart from
+their use in the arms, their combination is distinctive and immediately
+recognizable. When rendered in cloth or drawn in miniature, the
+gold–blue–white tricolor serves as a quiet but unmistakable extension of
+heraldic presence.
+
+In this way, the flag complements the crest, badge, and full
+achievement: not by repeating their form, but by reinforcing their
+identity through color and proportion. It is a modern continuation of
+livery tradition, designed for clarity, defined by lineage, and carried
+forward with fidelity.
+
 ### Cockade
 
-{% include figure.html image="jhoward-cockade.svg" width="4" placement="right"
+{% include figure.html image="armory/jhoward-cockade.svg" width="4" placement="right"
 cap="Cockade adapted from the liveries of the arms" 
 alt="Cockade adapted from the liveries of the arms" %}
 
-Complementing the coat of arms, I have adopted a distinctive heraldic cockade--a
+Complementing the coat of arms, I have adopted a distinctive heraldic cockade, a
 traditional decorative rosette historically used to symbolize allegiance,
 affiliation, or identity. Often worn on hats or uniforms, cockades have a rich
 tradition in heraldry and carry symbolic significance.
@@ -517,4 +522,3 @@ of heritage, individual values, and an appreciation of intercultural
 connections. By incorporating this cockade alongside my coat of arms, I
 emphasize not only my personal identity but also the timeless unity of
 meaningful symbolism across diverse cultures.
-

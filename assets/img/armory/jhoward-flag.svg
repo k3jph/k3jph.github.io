@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1524mm"
+   height="914.40002mm"
+   viewBox="0 0 1524 914.40002"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="jhoward-flag.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.074335318"
+     inkscape:cx="3551.4747"
+     inkscape:cy="-174.88322"
+     inkscape:window-width="1392"
+     inkscape:window-height="1027"
+     inkscape:window-x="2298"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Flag of James Howard"
+     id="layer1"
+     transform="translate(-30.077005,-1072.9422)">
+    <g
+       id="g1"
+       transform="translate(-4.4866562e-5)">
+      <rect
+         style="fill:#f8f8f8;fill-opacity:1;stroke:#ffffff;stroke-width:6.35001;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="rect1-0"
+         width="1517.65"
+         height="908.04999"
+         x="33.25201"
+         y="1076.1172"
+         rx="0"
+         ry="0"
+         inkscape:label="Field" />
+      <rect
+         style="fill:#0d6793;fill-opacity:1;stroke:#0c5d85;stroke-width:6.35001;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="rect1-5-2"
+         width="1009.65"
+         height="908.04999"
+         x="33.25201"
+         y="1076.1172"
+         rx="0"
+         ry="0" />
+      <rect
+         style="fill:#f3c362;fill-opacity:1;stroke:#daaa49;stroke-width:6.34998;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="rect1-6-4"
+         width="501.64999"
+         height="908.04999"
+         x="33.251995"
+         y="1076.1172"
+         rx="0"
+         ry="0" />
+    </g>
+  </g>
+</svg>
