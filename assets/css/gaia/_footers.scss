@@ -1,6 +1,9 @@
+@use "../jameshoward";
+@use "mixins/transparency";
+
 .footer{
-    background-color: $white-color;
-    line-height: $line-height;
+    background-color: jameshoward.$white-color;
+    line-height: jameshoward.$line-height;
     /*border-top: 1px solid #DDDDDD;*/
 
     nav > ul{
@@ -10,12 +13,12 @@
         font-weight: normal;
 
         a:not(.btn){
-            color: $dark-gray;
+            color: jameshoward.$dark-gray;
             display: block;
             margin-bottom: 3px;
             &:hover,
             &:focus{
-                color: $default-states-color;
+                color: jameshoward.$default-states-color;
             }
         }
     }
@@ -26,31 +29,31 @@
         }
     }
     .social-area > a:not(.btn){
-       color: $dark-gray;
+       color: jameshoward.$dark-gray;
        display: inline-block;
        vertical-align: top;
-       padding: $padding-social-a;
-       font-size: $font-size-large;
+       padding: jameshoward.$padding-social-a;
+       font-size: jameshoward.$font-size-large;
        font-weight: normal;
-       line-height: $line-height;
+       line-height: jameshoward.$line-height;
        text-align: center;
        &:hover,
        &:focus{
-           color: $default-states-color;
+           color: jameshoward.$default-states-color;
        }
     }
     .copyright{
-        color: $default-states-color;
+        color: jameshoward.$default-states-color;
         padding: 10px 15px;
         margin: 15px 3px;
         line-height: 20px;
         text-align: center;
     }
     hr{
-        border-color: $medium-gray;
+        border-color: jameshoward.$medium-gray;
     }
     .title{
-        color: $default-states-color;
+        color: jameshoward.$default-states-color;
     }
 
     overflow: hidden;
@@ -80,38 +83,38 @@
 }
 
 .footer-color-gray{
-    background-color: $smoke-bg;
+    background-color: jameshoward.$smoke-bg;
 }
 
 .footer-color-black,
 .footer-transparent{
-    background-color: $black-bg;
-    color: $medium-gray;
+    background-color: jameshoward.$black-bg;
+    color: jameshoward.$medium-gray;
 
     nav > ul{
         a{
-            color: $white-color;
+            color: jameshoward.$white-color;
             &:hover,
             &:focus{
-                color: $dark-gray;
+                color: jameshoward.$dark-gray;
             }
         }
     }
     .social-area > a:not(.btn){
-        color: $white-color;
+        color: jameshoward.$white-color;
         &:hover,
         &:focus{
-            color: $dark-gray;
+            color: jameshoward.$dark-gray;
         }
     }
     .btn-social{
-        color: $white-color;
+        color: jameshoward.$white-color;
     }
     hr{
-        border-color: $black-hr;
+        border-color: jameshoward.$black-hr;
     }
     .title{
-        color: $medium-gray;
+        color: jameshoward.$medium-gray;
     }
 }
 
@@ -126,7 +129,7 @@
     }
 
     &::after{
-        @include black-filter(.8);
+        @include transparency.black-filter(.8);
     }
 }
 
@@ -168,17 +171,17 @@
         margin-top: 15px;
     }
     .numbers h4{
-        margin: $margin-bottom;
+        margin: jameshoward.$margin-bottom;
     }
 }
 
 .social-line{
-    padding: $padding-large-vertical 0;
-    background-color: $white-color;
+    padding: jameshoward.$padding-large-vertical 0;
+    background-color: jameshoward.$white-color;
     .title{
-        margin: $none;
-        line-height: $height-base;
-        font-size: $font-size-h4;
+        margin: jameshoward.$none;
+        line-height: jameshoward.$height-base;
+        font-size: jameshoward.$font-size-h4;
     }
     .btn{
         width: 100%;
@@ -186,6 +189,6 @@
 }
 
 .social-line-black{
-    background-color: $black-bg;
+    background-color: jameshoward.$black-bg;
     color: #FFFFFF;
 }

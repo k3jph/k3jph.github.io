@@ -1,3 +1,5 @@
+@use "../jameshoward";
+
 
 html{
   font-size: 14px;
@@ -10,16 +12,16 @@ body{
     -webkit-font-smoothing: antialiased;
     font-size: 100%;
 
-    @media (min-width: $ct-med) {
+    @media (min-width: jameshoward.$ct-med) {
       font-size: 100%;
     }
-    @media (min-width: $ct-xlarge) {
+    @media (min-width: jameshoward.$ct-xlarge) {
       font-size: 110%;
     }
-    @media (min-width: $ct-xxlarge) {
+    @media (min-width: jameshoward.$ct-xxlarge) {
       font-size: 115%;
     }
-    @media (min-width: $ct-xxxlarge) {
+    @media (min-width: jameshoward.$ct-xxxlarge) {
       font-size: 120%;
     }
     @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -42,11 +44,11 @@ h6,
 .content-blog p{
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: $serif-font;
+    font-family: jameshoward.$serif-font;
 
     a{
         font-size: inherit;
-        font-family: $serif-font;
+        font-family: jameshoward.$serif-font;
     }
 }
 
@@ -108,16 +110,16 @@ td,
 small,
 .media h5,
 .subtitle{
-    font-family: $sans-serif-font;
+    font-family: jameshoward.$sans-serif-font;
 }
 
 a{
-    color: $dark-gray;
+    color: jameshoward.$dark-gray;
     opacity: .7;
     font-size: 14px;
 
     &:hover{
-        color: $dark-gray;
+        color: jameshoward.$dark-gray;
         opacity: 1;
     }
 }
@@ -127,36 +129,36 @@ a{
     margin-bottom: 50px;
 
     p{
-        color: $dark-gray;
+        color: jameshoward.$dark-gray;
     }
 }
 
 .title-modern{
-    font-family: $sans-serif-font;
+    font-family: jameshoward.$sans-serif-font;
     font-weight: 200;
 }
 
 .text-gray{
-    color: $dark-gray;
+    color: jameshoward.$dark-gray;
 }
 .text-primary{
-    color: $primary-color !important;
+    color: jameshoward.$primary-color !important;
 }
 .text-info{
-    color: $info-color !important;
+    color: jameshoward.$info-color !important;
 }
 .text-success{
-    color: $success-color !important;
+    color: jameshoward.$success-color !important;
 }
 .text-warning{
-    color: $warning-color !important;
+    color: jameshoward.$warning-color !important;
 }
 .text-danger{
-    color: $danger-color !important;
+    color: jameshoward.$danger-color !important;
 }
 .text-gold,
 .title-gold {
-    color: $gold-color;
+    color: jameshoward.$gold-color;
 }
 
 .quotes{
@@ -167,7 +169,7 @@ a{
     position: absolute;
     font-size: 40px;
     font-family: sans-serif;
-    color: $dark-gray;
+    color: jameshoward.$dark-gray;
     line-height: 0;
   }
 
@@ -186,7 +188,7 @@ a{
 }
 
 .separator{
-    color: $primary-color;
+    color: jameshoward.$primary-color;
     margin: 0 auto 20px;
     max-width: 240px;
 
@@ -199,7 +201,7 @@ a{
       width: 40%;
       content: " ";
       margin-top: 10px;
-      border: 1px solid $primary-color;
+      border: 1px solid jameshoward.$primary-color;
     }
 
     &:before{
@@ -214,39 +216,39 @@ a{
 }
 
 .separator-info{
-    color: $info-color;
+    color: jameshoward.$info-color;
 
     &:before,
     &:after{
-        border-color: $info-color;
+        border-color: jameshoward.$info-color;
     }
 }
 .separator-success{
-    color: $success-color;
+    color: jameshoward.$success-color;
 
     &:before,
     &:after{
-        border-color: $success-color;
+        border-color: jameshoward.$success-color;
     }
 }
 .separator-warning{
-    color: $warning-color;
+    color: jameshoward.$warning-color;
 
     &:before,
     &:after{
-        border-color: $warning-color;
+        border-color: jameshoward.$warning-color;
     }
 }
 .separator-danger{
-    color: $danger-color;
+    color: jameshoward.$danger-color;
 
     &:before,
     &:after{
-        border-color: $danger-color;
+        border-color: jameshoward.$danger-color;
     }
 }
 
 p.description{
     font-size: 16px;
-    color: $dark-gray;
+    color: jameshoward.$dark-gray;
 }

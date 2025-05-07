@@ -1,15 +1,17 @@
+@use "../jameshoward";
+
 .label-primary{
-   background-color: $primary-color;
+   background-color: jameshoward.$primary-color;
 }
 .label-info{
-   background-color: $info-color;
+   background-color: jameshoward.$info-color;
 }
 .label-success{
-   background-color: $success-color;
+   background-color: jameshoward.$success-color;
 }
 .label-warning{
-   background-color: $warning-color;
+   background-color: jameshoward.$warning-color;
 }
 .label-danger{
-   background-color: $danger-color;
+   background-color: jameshoward.$danger-color;
 }

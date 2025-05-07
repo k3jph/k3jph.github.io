@@ -1,3 +1,6 @@
+@use "sass:color";
+@use "../jameshoward";
+
 .section{
     padding: 50px 0;
 
@@ -24,7 +27,7 @@
 
         .description{
             font-size: 16px;
-            color: $dark-gray;
+            color: jameshoward.$dark-gray;
         }
   }
 
@@ -40,7 +43,7 @@
         .description,
         .description p{
             font-size: 16px;
-            color: $dark-gray;
+            color: jameshoward.$dark-gray;
         }
     }
 
@@ -68,7 +71,7 @@
     }
     .responsive-background{
         position: relative;
-          background-color: $gold-color;
+          background-color: jameshoward.$gold-color;
           padding: 0;
           z-index: 1;
           background-size: cover;
@@ -143,16 +146,16 @@
 
     .title-area{
         .description{
-            color: $white-color;
+            color: jameshoward.$white-color;
         }
     }
 
     .separator{
-        color: $white-color;
+        color: jameshoward.$white-color;
 
         &:before,
         &:after{
-            border-color: $white-color;
+            border-color: jameshoward.$white-color;
         }
     }
 
@@ -161,15 +164,15 @@
     }
 
     &.filter-color-gold:before{
-        background: darken($gold-color,5);
+        background: color.adjust(jameshoward.$gold-color,$lightness: -5%);
     }
 
     &.filter-color-green:before{
-        background: darken($success-color,10);
+        background: color.adjust(jameshoward.$success-color,$lightness: -10%);
     }
 
     &.filter-color-blue:before{
-         background: darken($info-color,7);
+         background: color.adjust(jameshoward.$info-color,$lightness: -7%);
     }
 
     &.filter-color-purple:before{
@@ -177,7 +180,7 @@
     }
 
     &.filter-color-red:before{
-        background: darken($danger-color,10);
+        background: color.adjust(jameshoward.$danger-color,$lightness: -10%);
     }
 
     &.filter-gradient-black:before{
@@ -246,7 +249,7 @@
         z-index: 2;
         content: "";
         opacity: 0.95;
-        background: $white-color;
+        background: jameshoward.$white-color;
     }
 }
 .section-signup{
@@ -293,7 +296,7 @@
         margin-bottom: 0;
     }
     p{
-        color: $dark-gray;
+        color: jameshoward.$dark-gray;
     }
     .title{
         margin-bottom: 70px;
