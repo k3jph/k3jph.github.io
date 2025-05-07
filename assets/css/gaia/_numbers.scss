@@ -1,3 +1,5 @@
+@use "../jameshoward";
+
 .section-numbers{
 
     .card{
@@ -8,7 +10,7 @@
     }
     .number{
         font-size: 40px;
-        font-family: $sans-serif-font;
+        font-family: jameshoward.$sans-serif-font;
         font-weight: 400;
     }
     .description{

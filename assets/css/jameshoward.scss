@@ -1,3 +1,4 @@
+@use "sass:color";
 //== Buttons
 //
 //## For each of Bootstrap's buttons, define text, background and border color.
@@ -24,7 +25,7 @@ $dark-gray:                  #777777 !default;
 $transparent-bg:             transparent !default;
 
 $gold-color:                 #c5a47e !default;
-$gold-states-color:          darken($gold-color, 4%) !default;
+$gold-states-color:          color.adjust($gold-color, $lightness: -4%) !default;
 
 $default-color:              #888888 !default;
 $default-bg:                 #888888 !default;
@@ -32,26 +33,26 @@ $default-states-color:       #777777 !default;
 
 $primary-color:              $gold-color !default;
 $primary-bg:                 $gold-color !default;
-$primary-states-color:       darken($primary-color, 4%) !default;
+$primary-states-color:       color.adjust($primary-color, $lightness: -4%) !default;
 
 $success-color:              #7accb8 !default;
 $success-bg:                 #7accb8 !default;
-$success-states-color:       darken($success-color, 4%) !default;
+$success-states-color:       color.adjust($success-color, $lightness: -4%) !default;
 
 $info-color:                 #0c6793ff !default;
 $info-bg:                    #0c6793ff !default;
-$info-states-color:          darken($info-color, 4%) !default;
+$info-states-color:          color.adjust($info-color, $lightness: -4%) !default;
 
 $warning-color:              #f5c96fff !default;
 $warning-bg:                 #f5c96fff !default;
-$warning-states-color:       darken($warning-color, 4%) !default;
+$warning-states-color:       color.adjust($warning-color, $lightness: -4%) !default;
 
 $danger-color:               #ea4c89 !default;
 $danger-bg:                  #ea4c89 !default;
-$danger-states-color:        darken($danger-color, 4%) !default;
+$danger-states-color:        color.adjust($danger-color, $lightness: -4%) !default;
 
 $black-color:                $black-medium !default;
-$black-states-color:         darken($black-medium, 4%) !default;
+$black-states-color:         color.adjust($black-medium, $lightness: -4%) !default;
 
 
 $link-disabled-color:        #666666 !default;
@@ -238,11 +239,11 @@ $social-tumblr: 			#35465c;
 $social-behance: 			#1769ff;
 
 
-$filter-blue:         darken($primary-color, 10%);
-$filter-azure:        darken($info-color, 10%);
-$filter-green:        darken($success-color, 10%);
-$filter-orange:       darken($warning-color, 10%);
-$filter-red:          darken($danger-color, 10%);
+$filter-blue:         color.adjust($primary-color, $lightness: -10%);
+$filter-azure:        color.adjust($info-color, $lightness: -10%);
+$filter-green:        color.adjust($success-color, $lightness: -10%);
+$filter-orange:       color.adjust($warning-color, $lightness: -10%);
+$filter-red:          color.adjust($danger-color, $lightness: -10%);
 
 
 $topbar-x:             topbar-x !default;
@@ -265,11 +266,3 @@ $ct-xlarge: 		115em; // 1610px
 $ct-xxlarge: 		125em; // 1750px
 $ct-xxxlarge: 		145em; // 2030px
 
-.text-black {
-    color: $black-color;
-}
-
-*::selection{
-    background: $info-color;
-    color: #FFFFFF;
-}

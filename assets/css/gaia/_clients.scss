@@ -1,3 +1,6 @@
+@use "../jameshoward";
+@use "mixins/vendor-prefixes";
+
 .section-clients-1{
       .logo{
       	  position: relative;
@@ -28,8 +31,8 @@
     >li.active{
 
       a{
-        color: $gold-color !important;
-        border-bottom: 2px solid $gold-color;
+        color: jameshoward.$gold-color !important;
+        border-bottom: 2px solid jameshoward.$gold-color;
 
         img:first-child{
           opacity: 0;
@@ -44,7 +47,7 @@
     min-height: 130px;
 
     p.large{
-        color: $dark-gray;
+        color: jameshoward.$dark-gray;
     }
   }
 }
@@ -64,12 +67,12 @@
     }
 
     &:before{
-      @include logo-gradient($white, $transparent);
+      @include vendor-prefixes.logo-gradient(jameshoward.$white, jameshoward.$transparent);
       left: 0;
     }
 
     &:after{
-      @include logo-gradient($transparent, $white);
+      @include vendor-prefixes.logo-gradient(jameshoward.$transparent, jameshoward.$white);
       right: 0;
     }
 
@@ -91,7 +94,7 @@
 
          &:first-child{
           position: absolute;
-          @include transform-translate-center(-(50%));
+          @include vendor-prefixes.transform-translate-center(-(50%));
           opacity: 1;
           z-index: 2;
 
@@ -120,40 +123,40 @@
 
     .active{
         .client-logo{
-            color: $primary-color;
+            color: jameshoward.$primary-color;
         }
     }
 
     a{
         opacity: 0.9;
-        color: $black-color;
+        color: jameshoward.$black-color;
     }
 }
 .list-logos-info{
     .active{
         .client-logo{
-            color: $info-color;
+            color: jameshoward.$info-color;
         }
     }
 }
 .list-logos-success{
     .active{
         .client-logo{
-            color: $success-color;
+            color: jameshoward.$success-color;
         }
     }
 }
 .list-logos-warning{
     .active{
         .client-logo{
-            color: $warning-color;
+            color: jameshoward.$warning-color;
         }
     }
 }
 .list-logos-danger{
     .active{
         .client-logo{
-            color: $danger-color;
+            color: jameshoward.$danger-color;
         }
     }
 }
@@ -167,6 +170,6 @@
         margin-bottom: 5px;
     }
     h3{
-        font-family: $sans-serif-font;
+        font-family: jameshoward.$sans-serif-font;
     }
 }

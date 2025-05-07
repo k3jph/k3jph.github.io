@@ -1,30 +1,35 @@
+@use "../jameshoward";
+@use "mixins/buttons";
+@use "mixins/transparency";
+@use "mixins/vendor-prefixes";
+
 .btn,
 .navbar .navbar-nav > li > a.btn{
-    border-width: $border-thin;
-    background-color: $transparent-bg;
-    font-weight: $font-weight-bold;
-    border-radius: $border-radius-small;
-    font-size: $font-size-small;
+    border-width: jameshoward.$border-thin;
+    background-color: jameshoward.$transparent-bg;
+    font-weight: jameshoward.$font-weight-bold;
+    border-radius: jameshoward.$border-radius-small;
+    font-size: jameshoward.$font-size-small;
     line-height: 1.6em;
-    @include opacity(.8);
-    padding: $padding-base-vertical $padding-base-horizontal;
-    @include btn-styles($default-color, $default-states-color);
+    @include transparency.opacity(.8);
+    padding: jameshoward.$padding-base-vertical jameshoward.$padding-base-horizontal;
+    @include buttons.btn-styles(jameshoward.$default-color, jameshoward.$default-states-color);
     text-transform: uppercase;
 
     &:hover,
     &:focus{
-        @include opacity(1);
+        @include transparency.opacity(1);
         outline: 0 !important;
     }
     &:active,
     &.active,
     .open > &.dropdown-toggle {
-         @include box-shadow(none);
+         @include vendor-prefixes.box-shadow(none);
          outline: 0 !important;
     }
 
     &.btn-icon{
-        padding: $padding-base-vertical;
+        padding: jameshoward.$padding-base-vertical;
     }
 
 }
@@ -32,47 +37,47 @@
 // Apply the mixin to the buttons
 .btn-primary,
 .navbar .navbar-nav > li > a.btn-primary {
-    @include btn-styles($gold-color, $gold-states-color);
+    @include buttons.btn-styles(jameshoward.$gold-color, jameshoward.$gold-states-color);
 }
 .btn-success,
 .navbar .navbar-nav > li > a.btn-success{
-    @include btn-styles($success-color, $success-states-color);
+    @include buttons.btn-styles(jameshoward.$success-color, jameshoward.$success-states-color);
 }
 .btn-info,
 .navbar .navbar-nav > li > a.btn-info{
-    @include btn-styles($info-color, $info-states-color);
+    @include buttons.btn-styles(jameshoward.$info-color, jameshoward.$info-states-color);
 }
 .btn-warning,
 .navbar .navbar-nav > li > a.btn-warning{
-    @include btn-styles($warning-color, $warning-states-color);
+    @include buttons.btn-styles(jameshoward.$warning-color, jameshoward.$warning-states-color);
 }
 .btn-danger,
 .navbar .navbar-nav > li > a.btn-danger{
-    @include btn-styles($danger-color, $danger-states-color);
+    @include buttons.btn-styles(jameshoward.$danger-color, jameshoward.$danger-states-color);
 }
 .btn-black,
 .navbar .navbar-nav > li > a.btn-black{
-    @include btn-styles($black-color, $black-states-color);
+    @include buttons.btn-styles(jameshoward.$black-color, jameshoward.$black-states-color);
 }
 .btn-white,
 .navbar .navbar-nav > li > a.btn-white{
-    @include btn-styles($white-color, $white-color);
+    @include buttons.btn-styles(jameshoward.$white-color, jameshoward.$white-color);
     opacity: .9;
 
     &:active,
     &.active,
     .open > &.dropdown-toggle{
-         background-color: $white-color;
-         color: $default-color;
+         background-color: jameshoward.$white-color;
+         color: jameshoward.$default-color;
     }
 
     &.btn-fill{
-        color: $default-color;
+        color: jameshoward.$default-color;
         opacity: .9;
 
         &:hover,
         &:focus{
-            color: $default-color;
+            color: jameshoward.$default-color;
             opacity: 1;
         }
     }
@@ -86,35 +91,35 @@
      &:disabled,
      &[disabled],
      &.disabled{
-        @include opacity(.5);
+        @include transparency.opacity(.5);
     }
 }
 .btn-round{
-    border-width: $border-thin;
-    border-radius: $btn-round-radius !important;
-    padding: $padding-round-vertical $padding-round-horizontal;
+    border-width: jameshoward.$border-thin;
+    border-radius: jameshoward.$btn-round-radius !important;
+    padding: jameshoward.$padding-round-vertical jameshoward.$padding-round-horizontal;
 
     &.btn-icon{
-        padding: $padding-round-vertical;
+        padding: jameshoward.$padding-round-vertical;
     }
 }
 .btn-simple{
-    border: $none;
-    font-size: $font-size-base;
-    padding: $padding-base-vertical $padding-base-horizontal;
+    border: jameshoward.$none;
+    font-size: jameshoward.$font-size-base;
+    padding: jameshoward.$padding-base-vertical jameshoward.$padding-base-horizontal;
 
     &.btn-icon{
-        padding: $padding-base-vertical;
+        padding: jameshoward.$padding-base-vertical;
     }
 }
 .btn-lg{
-   @include btn-size($padding-large-vertical, $padding-large-horizontal, $font-size-base, $border-radius-base);
+   @include buttons.btn-size(jameshoward.$padding-large-vertical, jameshoward.$padding-large-horizontal, jameshoward.$font-size-base, jameshoward.$border-radius-base);
 }
 .btn-sm{
-    @include btn-size($padding-small-vertical, $padding-small-horizontal, $font-size-small, $border-radius-small);
+    @include buttons.btn-size(jameshoward.$padding-small-vertical, jameshoward.$padding-small-horizontal, jameshoward.$font-size-small, jameshoward.$border-radius-small);
 }
 .btn-xs {
-    @include btn-size($padding-small-vertical, $padding-small-horizontal, $font-size-small - 2, $border-radius-small);
+    @include buttons.btn-size(jameshoward.$padding-small-vertical, jameshoward.$padding-small-horizontal, jameshoward.$font-size-small - 2, jameshoward.$border-radius-small);
 }
 .btn-wd {
     min-width: 140px;
