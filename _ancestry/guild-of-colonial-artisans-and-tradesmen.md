@@ -150,6 +150,52 @@ activity, underscoring the dual importance of education and faith in early
 Quaker settlements. His sons, Israel and Joseph Taylor, continued his legacy,
 both becoming involved in Pennsylvania's civic and landowning affairs.
 
+## Nathaniel Bonnell--Carpenter
+
+[Nathaniel Bonnell](https://www.wikitree.com/wiki/Bonnell-33) (c. 1630–c. 1696)
+was a carpenter and early settler of Elizabethtown, New Jersey. Originally from
+the New Haven Colony, he was among the signers of the Elizabethtown Associates'
+agreement and established one of the first homes in the area. His house, located
+on East Jersey Street, is believed to be the oldest surviving structure in
+Elizabeth.
+
+Bonnell practiced carpentry during a period when wood-frame construction was
+central to settlement building in the mid-Atlantic colonies. His work likely
+included the construction and maintenance of homes and other wooden structures
+typical of early New England–influenced settlements. The survival of his house
+offers one of the few material links to Elizabethtown's founding generation.
+
+### Early History of Elizabethtown, New Jersey
+
+Elizabethtown, established in 1664, was the first permanent English settlement
+in what would become the Province of New Jersey. Located on the western shore of
+Newark Bay, it was founded by settlers from the New Haven Colony following the
+English seizure of New Netherland from the Dutch. The town was named in honor of
+[Elizabeth Carteret](https://www.pepysdiary.com/encyclopedia/4039/), wife of Sir
+George Carteret, one of the two original proprietors of New Jersey under the
+grant from the Duke of York.
+
+The settlement began with the purchase of land from the
+[Lenape](https://collaborativehistory.gse.upenn.edu/stories/original-people-and-their-land-lenape-pre-history-18th-century),
+formalized by the so-called Elizabethtown Purchase, though the legitimacy and
+fairness of such transactions were often disputed by both Native inhabitants and
+later colonial authorities. The signers of the [Elizabethtown
+Associates'](https://www.encyclopedia.com/history/dictionaries-thesauruses-pictures-and-press-releases/elizabethtown-associates)
+agreement laid out plots, established common lands, and adopted a town-based
+model of governance influenced by New England traditions.
+
+Elizabethtown served as the de facto capital of East Jersey until the
+unification of East and West Jersey in 1702. It was an administrative and legal
+center, home to colonial courts and the provincial governor’s residence for a
+time. The town's early buildings were typically timber-framed, and its economy
+was rooted in small-scale agriculture, trade, and artisanal labor.
+
+Due to its strategic location, Elizabethtown also played a role in later
+military conflicts, including the Revolutionary War, during which it saw
+repeated skirmishes and occupations. The legacy of its founding
+generation, landowners, craftsmen, and civic leadersm remains visible in the
+surviving architectural and documentary record.
+
 ## About the Guild of Colonial Artisans and Tradesmen 1607-1783
 
 The Guild of Colonial Artisans and Tradesmen was founded on May 6, 2004, to
