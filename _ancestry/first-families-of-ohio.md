@@ -1,8 +1,9 @@
 ---
 id: first-families-of-ohio
 title: First Families of Ohio
-subtitle: Member _jure_ Barzilla Bunnell (1807, Ross County) and Sophia Baumgardener (1810, Warren County)
+subtitle: Member _jure_ Barzilla Bunnell (1807, Ross County) and Sophia Baumgardener (1810, Warren County); member no. 4760
 date: 2024-12-20
+member_number: 4760
 qualifying_ancestors: [ "Barzilla Bunnell (1807, Ross County)",
                         "Sophia Baumgardener (1810, Warren County)" ]
 author: James P. Howard, II
