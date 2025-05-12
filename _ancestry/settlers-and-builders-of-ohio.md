@@ -1,8 +1,9 @@
 ---
 id: settlers-and-builders-of-ohio
 title: Settlers and Builders of Ohio
-subtitle: Member _jure_ William Rees (1834) and Eunice Marcella Burch (1855)
+subtitle: Member _jure_ William Rees (1834) and Eunice Marcella Burch (1855); member no. 546
 date: 2024-08-21
+member_number: 546
 qualifying_ancestor: William Rees
 qualifying_ancestors: [ "William Rees (1834)", "Eunice Marcella Burch (1855)" ]
 author: k3jph
