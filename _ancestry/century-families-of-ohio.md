@@ -60,3 +60,11 @@ establishes the family's eligibility for the Century Families of Ohio.
 This membership highlights the continuity of the family's presence in
 the region and their contributions to its community.
 
+*Additional memberships will be added as they are approved.*
+
+{% include figure.html width="12"
+   image="/ancestry/OGS-CFO-Hall.webp" border=true
+   alt="Membership certificate in the Century Families of Ohio"
+   cap="Membership certificate in the Century Families of Ohio" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/OGS-CFO-Hall.pdf).
