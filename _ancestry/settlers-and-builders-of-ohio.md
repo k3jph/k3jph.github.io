@@ -45,3 +45,12 @@ cross-referencing, their correct lineage and Ohio residency were confirmed,
 ensuring that their true legacy is preserved. The meticulous effort required to
 separate these two families highlights the complexities often faced in
 genealogical research.
+
+*Additional memberships will be added as they are approved.*
+
+{% include figure.html width="12"
+   image="/ancestry/OGS-SBO-Rees.webp" border=true
+   alt="Membership certificate in the Settlers and Builders of Ohio"
+   cap="Membership certificate in the Settlers and Builders of Ohio" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/OGS-SBO-Rees.pdf).
