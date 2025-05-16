@@ -26,7 +26,9 @@ Royal Stewart is no older than the British Empire. The "official" clan tartans
 we recognize today are largely creations of the Victorian revival. Many tartans
 were invented in the 20th century. Others are being registered every week:
 tartans for astronauts and archdioceses, tech companies and towns. There is a
-Maryland state tartan. There is one for Yellowstone National Park. Anyone can
+[Maryland state tartan](http://marylandstatetartan.org/). There is one for
+[Yellowstone National
+Park](https://www.tartanregister.gov.uk/tartanDetails?ref=14272). Anyone can
 design one, and people do.
 
 <div class="item col-md-6 px-5 pull-right">
