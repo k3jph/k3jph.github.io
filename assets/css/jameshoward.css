@@ -149,6 +149,13 @@ figure {
   margin: 1em;
 }
 
+.inset {
+  background-color: #a0c7d8;
+  p {
+    margin-bottom: 15px;
+  }
+}
+
 .img-border {
   border-color: #303030;
   border-style: solid;
