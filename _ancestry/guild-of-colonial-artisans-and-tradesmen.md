@@ -11,7 +11,9 @@ layout: page
 guid: guild-of-colonial-artisans-and-tradesmen
 featured_image: /assets/img/ancestry/guild-of-colonial-artisans-and-tradesmen.webp
 permalink: /ancestry/guild-of-colonial-artisans-and-tradesmen
-redirect_from: [ "/ancestry/gcat", "/ancestry/guild-of-colonial-artisans-and-tradesmen-1607-1783" ]
+redirect_from: [ "/ancestry/gcat",
+                 "/ancestry/guild-of-colonial-artisans-and-tradesmen-1607-1783",
+                 "/ancestry/guild-of-colonial-artisans-and-tradesmen" ]
 ---
 
 The [Guild of Colonial Artisans and Tradesmen
