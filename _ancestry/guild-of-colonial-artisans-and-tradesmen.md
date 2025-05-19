@@ -1,10 +1,10 @@
 ---
 id: guild-of-colonial-artisans-and-tradesmen
 title: Guild of Colonial Artisans and Tradesmen
-subtitle: Member _jure_ Jeremiah Cloud (cordwainer) and Christopher Taylor (author); member no. 535
+subtitle: Member _jure_ Jeremiah Cloud (cordwainer), Christopher Taylor (author), and Nathaniel Bunnell (carpenter); member no. 535
 date: 2024-10-22
 founding_date: 2004-05-06
-qualifying_ancestors: [ "Jeremiah Cloud (cordwainer)", "Christopher Taylor (author)" ]
+qualifying_ancestors: [ "Jeremiah Cloud (cordwainer)", "Christopher Taylor (author)", "Nathaniel Bunnell (carpenter)" ]
 member_number: 535
 author: k3jph
 layout: page
