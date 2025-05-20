@@ -72,7 +72,7 @@ and serving on several public and private boards.
   <div class="col-12 col-md-6">
     <h2 id="major-awards">Major Awards</h2>
     <ul>
-      <li>Fellow of the Society of Antiquaries of Scotland, 2025</li>
+      <li>Fellow of the <a href="/assets/docs/jhoward-fsascot.pdf">Society of Antiquaries of Scotland</a>, 2025</li>
       <li>Fellow of the <a href="/assets/docs/JHoward-IMA-FIMA.pdf">Institute of Mathematics and its Applications</a>, 2022</li>
       <li>Fellow of the <a href="/assets/docs/JHoward-FCybS.pdf">Cybernetics Society</a>, 2021</li>
       <li>Senior Member of the <a href="/assets/docs/JHoward-IEEE-SM-2025.pdf">IEEE</a>, 2021</li>
