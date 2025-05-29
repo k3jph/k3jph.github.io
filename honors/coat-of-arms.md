@@ -1,6 +1,6 @@
 ---
-id: grant-of-arms
-title: Grant of Arms
+id: coat-of-arms
+title: Coat of Arms
 author: James Howard
 layout: page
 permalink: /honors/coat-of-arms
