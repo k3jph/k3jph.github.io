@@ -3,7 +3,7 @@ id: grant-of-arms
 title: Grant of Arms
 author: James Howard
 layout: page
-permalink: /honors/grant-of-arms
+permalink: /honors/coat-of-arms
 featured_image: /assets/img/malta.webp
 credits: >-
   These images contain components from Wikimedia users
@@ -16,6 +16,7 @@ redirect_from:
   - /malta/
   - /honors/malta/
   - /honors/maltese-coat-arms
+  - /honors/grant-of-arms
 ---
 
 {% include figure.html image="armory/jhoward-salmeron-960px.webp" placement="right" width="6" border=true
@@ -522,3 +523,38 @@ of heritage, individual values, and an appreciation of intercultural
 connections. By incorporating this cockade alongside my coat of arms, I
 emphasize not only my personal identity but also the timeless unity of
 meaningful symbolism across diverse cultures.
+
+### Tartan
+
+{% include figure.html image="armory/jhoward-tartan.svg" width="4" placement="right"
+cap="Tartan adapted from the liveries"
+alt="Tartan adapted from the liveries" %}
+
+In addition to the arms granted to me by the Chief Herald of Arms of Malta, I
+have registered a personal tartan with the Scottish Register of Tartans.
+Entitled the James Howard & Family (Personal) tartan, it was officially entered
+into the Register on 27 May 2025 under [registration number
+14,834](/2025/05/26/a-new-tartan).
+
+The thread count is:
+
+> DB/36 DY4 Y8 DY4 DB36 B28 LB20 W/8
+
+This tartan draws its palette directly from the heraldic colors of my coat of
+arms. While the colors do not carry individual symbolic meaning, they
+collectively serve to reinforce the visual identity already established in
+armorial form. Rendered in deep blues, golds, and white, the design expresses
+continuity between textile and shield — a wearable complement to the armorial
+tradition.
+
+The aesthetic of the tartan is best described as modern ceremonial: it shares
+affinities with regimental and academic tartans, but is grounded in personal
+heraldry rather than institutional use. Though formally contemporary, its
+composition evokes the balance and dignity of historical patterns. The staff at
+the Register were both courteous and efficient, making the registration process
+an absolute pleasure.
+
+This tartan is reserved for personal and family use. Friends and extended kin
+are welcome to wear it respectfully, particularly in heraldic or ceremonial
+contexts.
+
