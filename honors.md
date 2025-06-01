@@ -38,20 +38,6 @@ tribute to the mentors, colleagues, students, and community members
 who inspire and propel us forward, reminding us that the most
 meaningful accomplishments are those we achieve together.
 
-## A Grant of Arms from Malta
-
-The [coat of arms](/honors/malta) I've been honored with by Malta
-represents a fusion of personal heritage and professional dedication,
-encapsulated within the ancient tradition of heraldry. At its heart,
-the design features a tetrahedron and a sword, symbols of my
-mathematical pursuits and connections to Cincinnati, Ohio, respectively.
-This emblem not only reflects my academic and public service
-contributions but also hints at a storied lineage, potentially
-linked to Thomas Arundell through the inclusion of a martlet, a nod
-to the unproven but cherished ancestral ties. This heraldic achievement
-celebrates a commitment to community, knowledge, and the enduring
-quest for understanding.
-
 ## Royal Order of the Star of Oceania
 
 I was honored as a [Knight Commander of the Royal Order of the Star
