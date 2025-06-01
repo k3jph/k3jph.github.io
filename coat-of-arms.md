@@ -3,7 +3,7 @@ id: coat-of-arms
 title: Coat of Arms
 author: James Howard
 layout: page
-permalink: /honors/coat-of-arms
+permalink: /coat-of-arms
 featured_image: /assets/img/malta.webp
 credits: >-
   These images contain components from Wikimedia users
@@ -11,12 +11,13 @@ credits: >-
   [Sodacan](https://commons.wikimedia.org/wiki/User:Sodacan), and
   [Xavigivax](https://commons.wikimedia.org/wiki/User:Xavigivax).
 redirect_from:
-  - /coa/
-  - /coat-of-arms/
-  - /malta/
-  - /honors/malta/
+  - /coa
+  - /malta
+  - /tartan
+  - /honors/malta
   - /honors/maltese-coat-arms
   - /honors/grant-of-arms
+  - /honors/coat-of-arms
 ---
 
 {% include figure.html image="armory/jhoward-salmeron-960px.webp" placement="right" width="6" border=true
