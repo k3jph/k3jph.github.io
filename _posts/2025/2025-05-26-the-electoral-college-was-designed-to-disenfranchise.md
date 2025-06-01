@@ -10,7 +10,7 @@ categories:
   - Blog
 tags:
   - American history
-  - constitutional law
+  - Constitutional law
   - electoral college
   - slavery
   - public affairs
