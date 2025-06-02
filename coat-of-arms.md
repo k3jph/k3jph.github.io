@@ -277,6 +277,10 @@ alt="Coat of Arms as the armoji style" %}
 {% include figure.html image="armory/jhoward-arms-loggail.webp" placement="left" width="4" border=true
 cap="Coat of Arms as interpreted by Heikki Halkosaari" 
 alt="Coat of Arms as interpreted by Heikki Halkosaari" %}
+
+{% include figure.html image="armory/jhoward-coa-abshier.webp" placement="left" width="4" border=false
+cap="Coat of Arms as interpreted by Brian Abshier" 
+alt="Coat of Arms as interpreted by Brian Abshier" %}
 </div>
 
 ## Related Insignia
