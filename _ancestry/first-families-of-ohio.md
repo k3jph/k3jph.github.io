@@ -69,3 +69,10 @@ Their story is a testament to the enduring impact of Ohio’s first
 families on the state's history and development.
 
 *Additional memberships will be added as they are approved.*
+
+{% include figure.html width="12"
+   image="/ancestry/OGS-FFO-Bunnell.webp" border=true
+   alt="Membership certificate in the First Families of Ohio"
+   cap="Membership certificate in the First Families of Ohio" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/OGS-FFO-Bunnell.pdf).
