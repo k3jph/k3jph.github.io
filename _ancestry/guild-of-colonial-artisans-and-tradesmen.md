@@ -154,7 +154,7 @@ both becoming involved in Pennsylvania's civic and landowning affairs.
 
 ## Nathaniel Bonnell--Carpenter
 
-[Nathaniel Bonnell](https://www.wikitree.com/wiki/Bonnell-33) (c. 1630–c. 1696)
+[Nathaniel Bonnell](https://www.wikitree.com/wiki/Bonnell-33) (c. 1670–c. 1736)
 was a carpenter and early settler of Elizabethtown, New Jersey. Originally from
 the New Haven Colony, he was among the signers of the Elizabethtown Associates'
 agreement and established one of the first homes in the area. His house, located
@@ -164,7 +164,7 @@ Elizabeth.
 Bonnell practiced carpentry during a period when wood-frame construction was
 central to settlement building in the mid-Atlantic colonies. His work likely
 included the construction and maintenance of homes and other wooden structures
-typical of early New England–influenced settlements. The survival of his house
+typical of early New England-influenced settlements. The survival of his house
 offers one of the few material links to Elizabethtown's founding generation.
 
 ### Early History of Elizabethtown, New Jersey
