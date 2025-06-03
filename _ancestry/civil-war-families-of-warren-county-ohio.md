@@ -26,7 +26,7 @@ documentation of lineage and service.
 ## Thomas Wesley Newman
 
 [Thomas Wesley Newman](https://www.wikitree.com/wiki/Newman-16570)
-(1838–1922) was a Civil War soldier from Warren County, Ohio. He served
+(1838-1922) was a Civil War soldier from Warren County, Ohio. He served
 in Company H, 79th Regiment, Ohio Volunteer Infantry, enlisting on
 August 14, 1862, and was medically discharged on November 5, 1862.
 
@@ -50,7 +50,7 @@ In early October 1862, the 79th Ohio marched to Frankfort, Kentucky,
 9](http://www.ohiocivilwar.com/cw79.html).  They remained stationed
 there until October 26, during which time they conducted an expedition
 to Lawrenceburg in pursuit of Confederate forces under General John Hunt
-Morgan from October 10–13. Following this, the regiment marched to
+Morgan from October 10-13. Following this, the regiment marched to
 Bowling Green, Kentucky, from October 26 to November 4, then proceeded
 to Scottsville, eventually reaching Gallatin, Tennessee, on November
 25, 1862. The 79th Ohio remained on duty in Gallatin until December 11,

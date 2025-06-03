@@ -14,7 +14,7 @@ permalink: /ancestry/descendants-of-miners
 redirect_from: [ /ancestry/dom, /ancestry/descendants-of-miners-1607-1907 ]
 ---
 
-The [Descendants of Miners 1607–1907](https://www.descendantsofminers.org/) is a
+The [Descendants of Miners 1607-1907](https://www.descendantsofminers.org/) is a
 hereditary society dedicated to  honoring and preserving the legacy of
 individuals who contributed to the mining industry in the present-day  United
 States between 1607 and 1907. Membership in this society recognizes the
@@ -24,7 +24,7 @@ mercantile economy of mining communities.
 
 ## Alexander C. Snyder
 
-[Alexander C. Snyder](https://www.wikitree.com/wiki/Snyder-19408) (1823–1905)
+[Alexander C. Snyder](https://www.wikitree.com/wiki/Snyder-19408) (1823-1905)
 was a stonecutter who worked in the mining industry during the late 19th
 century. In the 1880 U.S. Census, he is recorded as a stonecutter, a trade that
 played a crucial role in mining operations by providing the expertise necessary
@@ -54,7 +54,7 @@ operations or stonecutting firms where he worked could deepen the historical
 understanding of his contributions.
 
 By recognizing miners and those in supporting roles, the Descendants of Miners
-1607–1907 ensures that the vital role of laborers in the nation's industrial
+1607-1907 ensures that the vital role of laborers in the nation's industrial
 past is preserved for future generations.
 
 *Additional memberships will be added as they are approved.*

@@ -79,9 +79,9 @@ including:
 
 - [Nathaniel Bonnell](/ancestry/guild-of-colonial-artisans-and-tradesmen)
   (1670-1736), carpenter of Elizabeth New Jersey
-- [Barzilla Bunnell](/ancestry/first-families-of-ohio) (1807–1891) of White
+- [Barzilla Bunnell](/ancestry/first-families-of-ohio) (1807-1891) of White
   County, Indiana
-- Rebecca Elizabeth Bunnell (1835–1913), whose line continued through the
+- Rebecca Elizabeth Bunnell (1835-1913), whose line continued through the
   [Williams](ancestry/national-society-descendants-of-american-railroad-workers)
   and Howard families
 

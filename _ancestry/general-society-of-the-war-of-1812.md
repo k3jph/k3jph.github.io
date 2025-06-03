@@ -28,9 +28,9 @@ independence during this pivotal period. Membership is extended to male
 descendants of veterans who served in military or naval forces during the
 conflict, ensuring their sacrifices are not forgotten.
 
-## Private William Ray – 2nd Regiment, Ohio Militia
+## Private William Ray - 2nd Regiment, Ohio Militia
 
-[William Ray](https://www.wikitree.com/wiki/Ray-3368) (1790–1843) served as a
+[William Ray](https://www.wikitree.com/wiki/Ray-3368) (1790-1843) served as a
 private in the 2nd Regiment, [Ohio
 Militia](https://archive.org/details/northernohioduri00west), under Captain
 Peter Bacus during the War of 1812. Born in Fayetteville, North Carolina,

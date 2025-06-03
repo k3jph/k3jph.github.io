@@ -64,9 +64,9 @@ bridle for her freedom. However, the accuracy of this story is debated among
 historians.
 
 Together, Marmaduke and Mary Jane had several children, including:
-- Esther Coate – Married John Pemberton.
-- Moses Coate – Contributed to the establishment of Quaker meetings in Ohio.
-- Henry Coate – Married Eunice Coppock on December 8, 1830, at the Union
+- Esther Coate - Married John Pemberton.
+- Moses Coate - Contributed to the establishment of Quaker meetings in Ohio.
+- Henry Coate - Married Eunice Coppock on December 8, 1830, at the Union
   Monthly Meeting in Ludlow Falls, Miami County, Ohio.
 - Samuel, Sarah, James, William, John, and Jesse Coate.
 

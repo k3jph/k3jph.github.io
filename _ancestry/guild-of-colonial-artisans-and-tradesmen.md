@@ -87,7 +87,7 @@ craft on American history.
 
 ## Christopher Taylor--Author
 
-[Christopher Taylor](https://www.wikitree.com/wiki/Taylor-32362) (c. 1620–1686),
+[Christopher Taylor](https://www.wikitree.com/wiki/Taylor-32362) (c. 1620-1686),
 born in Skipton, Yorkshire, England, was a Quaker intellectual, schoolmaster,
 and civic leader whose influence helped shape the early development of
 Pennsylvania. Renowned for his classical education and deep commitment to Quaker
@@ -154,7 +154,7 @@ both becoming involved in Pennsylvania's civic and landowning affairs.
 
 ## Nathaniel Bonnell--Carpenter
 
-[Nathaniel Bonnell](https://www.wikitree.com/wiki/Bonnell-33) (c. 1670–c. 1736)
+[Nathaniel Bonnell](https://www.wikitree.com/wiki/Bonnell-33) (c. 1670-c. 1736)
 was a carpenter and early settler of Elizabethtown, New Jersey. Originally from
 the New Haven Colony, he was among the signers of the Elizabethtown Associates'
 agreement and established one of the first homes in the area. His house, located
