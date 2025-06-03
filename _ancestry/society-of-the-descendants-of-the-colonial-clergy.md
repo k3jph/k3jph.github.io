@@ -1,11 +1,11 @@
 ---
 id: society-of-the-descendants-of-the-colonial-clergy
 title: Society of the Descendants of the Colonial Clergy
-subtitle: Member _jure_ Rev. Alexander Underwood (1688–1767); member no. 3241
+subtitle: Member _jure_ Rev. Alexander Underwood (1688-1767); member no. 3241
 date: 2025-01-28
 founding_date: 1933-12-31
 member_number: 3241
-qualifying_ancestors: [ "Rev. Alexander Underwood (1688–1767)" ]
+qualifying_ancestors: [ "Rev. Alexander Underwood (1688-1767)" ]
 author: k3jph
 layout: page
 guid: society-of-the-descendants-of-the-colonial-clergy
@@ -25,7 +25,7 @@ colonial clergy.
 ## Rev. Alexander Underwood
 
 [Rev. Alexander Underwood](https://www.wikitree.com/wiki/Underwood-185)
-(1688–1767) was a prominent Quaker minister and a dedicated spiritual
+(1688-1767) was a prominent Quaker minister and a dedicated spiritual
 leader who played a significant role in shaping the early Quaker
 community in Pennsylvania. His deep commitment to faith and religious
 service was evident in his extensive travels, leadership roles, and

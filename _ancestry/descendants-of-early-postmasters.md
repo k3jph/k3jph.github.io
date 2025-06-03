@@ -14,7 +14,7 @@ permalink: /ancestry/descendants-of-early-postmasters
 redirect_from: [ /ancestry/depm, /ancestry/descendants-of-early-postmasters-1607-1900 ]
 ---
 
-The [Descendants of Early Postmasters 1607–1900
+The [Descendants of Early Postmasters 1607-1900
 (DEPM)](https://descendantsofearlypostmasters.weebly.com/) is a
 hereditary society that honors individuals whose ancestors contributed
 to the growth and operation of the American postal system from the
@@ -46,7 +46,7 @@ among its members and the public.  DEPM is proud to support the
 particularly its Fund for Innovation and Excellence, educational
 exhibits, and efforts to conserve historic postal artifacts.
 
-## John Hess Adams – Postmaster of Reynolds, Indiana
+## John Hess Adams - Postmaster of Reynolds, Indiana
 
 {% include figure.html width="6" placement="right"
    image="ancestry/depm/postmaster-whitecounty-1931.webp"
@@ -72,7 +72,7 @@ Reynolds to the broader national economy and mail network.
 
 During [President Grover Cleveland’s first
 administration](https://www.whitehouse.gov/about-the-white-house/presidents/grover-cleveland/)
-(1885–1889), Adams was appointed
+(1885-1889), Adams was appointed
 [postmaster](https://about.usps.com/who-we-are/postal-history/postmasters.htm)
 of Reynolds. In this role, he was responsible for overseeing mail
 delivery, maintaining records, and ensuring communication links across
