@@ -303,26 +303,32 @@ and presence of heraldic identity.
 placement="right" cap="Heraldic banner adapted from the arms"
 alt="Heraldic banner adapted from the arms" %}
 
-The banner, on the other hand, is presented in a square 1:1 proportion,
-adhering to traditional heraldic practices. Banners are often used in
-more formal and static displays, such as indoor environments,
-processions, or when hung vertically from a balcony or a wall. The
-square shape of the banner allows for a different visual emphasis, often
-highlighting the central elements of the coat of arms with greater
-prominence.
+The heraldic banner is a square flag displaying the shield alone, rendered at
+full size and in proper proportions. Unlike a standard, which includes multiple
+armorial components and a tapering shape, the banner reproduces only the
+escutcheon. This makes it the most literal and direct translation of the arms
+into flag form, following longstanding heraldic convention. The banner is
+typically used in static and ceremonial settings, such as processions,
+investitures, academic convocations, or indoor displays, where the design can be
+seen clearly and appreciated up close.
 
-Banners serve as a heraldic standard, providing a more detailed and
-elaborate representation of the arms. In contrast to flags, which are
-meant to be viewed from a distance, banners are typically displayed
-closer to the observer, allowing for a finer appreciation of the
-intricate details and symbolism of the coat of arms. This makes banners
-particularly suitable for ceremonial use, academic settings, or as part
-of an exhibit where the heraldic art can be admired up close.
+The blazon of the banner is:
 
-The banner version of my coat of arms focuses on the shield and crest,
-ensuring that the primary symbols are prominently featured. This format
-is ideal for formal occasions and environments where the banner can be
-displayed as a testament to heritage and honor.
+> A banner of the Arms.
+
+This format omits helm, crest, mantling, and motto, in keeping with the
+convention that banners reflect only the contents of the shield. By excluding
+all external additaments, the banner places visual and symbolic emphasis on the
+core of the armorial identity. In my case, this includes the mathematical symbol
+of the tetrahedron and the golden sword inspired by the civic seal of
+Cincinnati, elements that signify structure, intellect, and heritage.
+
+The banner’s square proportions (1:1) also distinguish it from other heraldic
+flags, such as standards or guidons. It is not meant to be flown from a pole in
+the open air, but rather presented in still environments, hung vertically from a
+balcony, mounted on a wall, or carried in procession. This controlled setting
+allows for a more intimate viewing of the arms and supports their use as a
+formal emblem of identity.
 
 ### English Heraldic Badges
 
@@ -341,33 +347,24 @@ cohesive emblem. The badge is designed to be recognizable and
 straightforward, making it suitable for various applications such as
 seals, stationery, and personal regalia.
 
-The martlet, depicted in a prominent and uncluttered manner, maintains
-its symbolic significance of continuous quest and ambition.
-Traditionally, the martlet is seen as a symbol of perpetual effort and
-aspiration, as it is often shown without feet, suggesting a bird that
-never comes to rest. This aligns with the values of constant endeavor
-and the pursuit of higher goals. Including the sword complements the
-martlet's representation of tireless endeavor. The sword's vertical
-arrangement evokes strength and readiness, highlighting themes of
-nobility and righteousness. Together, these elements create a badge that
-serves as a personal emblem, reflecting the enduring effort towards
-personal and professional goals, and the commitment to uphold principles
-of justice and honor.
+The English heraldic badge I use combines the principal charges of my coat of
+arms into a unified emblem suitable for display in less formal contexts. The
+badge consists of a vertically oriented sword, point downward, with the martlet
+from my crest set in front. This pairing integrates the symbolism of
+steadfastness and inquiry, bringing together the two central motifs of my
+heraldic identity.
 
-The second design, an English-style crest badge, features the martlet
-atop a torse. This simpler arrangement reflects the traditional display
-of a crest in English heraldry, emphasizing the martlet's central role
-as a personal emblem. The torse, the twisted band of fabric that
-supports the crest, signifies the connection to the armorial bearings
-and provides a foundation for the martlet. This version of the badge
-highlights elegance and tradition, offering a versatile option for use
-in less formal settings while still maintaining its heraldic
-significance.
+The blazon is:
 
-Both versions of the English heraldic badge offer flexibility in their
-application, allowing for use across different contexts while preserving
-the integrity of the heraldic symbolism. Together, they provide a
-unified yet diverse representation of my heraldic identity.
+> A sword point downwards Or, hilt and crossguard Azure, overall a martlet
+> Sable.
+
+This badge was not part of the original grant of arms issued by the Chief Herald
+of Arms of Malta, but was adopted subsequently in accordance with heraldic
+custom. It remains faithful to the elements of the granted arms and reflects a
+legitimate extension of their use in badge form. In English heraldry, badges
+have long served as personal devices—distinct from arms or crest—used for
+identification on clothing, possessions, and in architectural ornament.
 
 ### Scottish Crest Badge
 
@@ -441,6 +438,52 @@ aspiration, the legal dignity of armigerous rank, and an inherited
 fidelity to the ideals of Scottish heraldic tradition. It is, in that
 sense, both a personal and cultural declaration, one that honors the
 past even as it presses forward, like the martlet, into the future.
+
+### Standard
+
+{% include figure.html width="4" placement="right"
+image="armory/jhoward-standard.svg"
+cap="The standard"
+alt="The standard" %}
+
+A heraldic standard is a long, tapering flag that serves as a personal or
+familial ensign, especially appropriate for armigers with crests and badges.
+Unlike a banner, which displays the arms alone, a standard integrates multiple
+heraldic elements into a cohesive and ceremonial whole. Its primary purpose is
+to signal identity in a public or military setting, not just through arms, but
+through livery colors, motto, and emblematic devices. Historically, standards
+were used in procession, in battle, and at tournaments, where they marked
+allegiance, presence, and prestige.
+
+My own standard follows this tradition. The hoist bears the arms of Maryland,
+that is, the quartered arms of the Calvert and Crossland families, emblematic of
+the Barons Baltimore and the colonial proprietorship from which Maryland takes
+its name. This placement, known as the hoist of allegiance, declares personal
+loyalty to a geographic or feudal authority, rather than to a royal house. In
+the context of a standard, it traditionally signified the liege lord or
+political body to which the armiger owed allegiance. In my case, it honors both
+historical continuity and my family's deep Maryland roots.
+
+The full blazon of the standard is as follows: 
+
+> A standard, the hoist bearing the arms of Maryland; the fly per fess Argent,
+charged with the Crest between two representations of the Badge, all separated
+by two bends Azure inscribed with the Motto in letters Argent.
+
+The fly of the standard is designed to bring together the principal components
+of my armorial bearings in a dynamic and legible form suited to cloth. The
+Crest, set prominently between two versions of the personal Badge, anchors the
+visual composition. The bends inscribed with the Motto (_Ir-rieda biss tmexxi
+l-qalb_) provide both literal and symbolic connection between these elements. The
+overall design reflects a deliberate balance between personal identity and
+public allegiance, offering a visual statement that is both traditional and
+uniquely mine.
+
+Although not included in the original grant of arms issued by the Chief Herald
+of Arms of Malta, this standard was developed and adopted subsequently in
+accordanc  e with established heraldic practice. It remains consistent with the
+armorial bearings granted under Maltese authority and serves as a lawful and
+appropriate extension of their use in flag form.
 
 ### Kamon
 
