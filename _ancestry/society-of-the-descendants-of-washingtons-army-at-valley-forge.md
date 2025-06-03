@@ -31,7 +31,7 @@ during the [American Revolutionary
 War](https://services.dar.org/Public/DAR_Research/search_adb/?action=full&p_id=A029776).
 He was a member of Captain Laurence Keene's company and is listed in the Valley
 Forge Muster Roll, confirming his presence during the brutal winter encampment
-of 1777–1778. Darby's role as a drummer was not ornamental, he was part of the
+of 1777-1778. Darby's role as a drummer was not ornamental, he was part of the
 Army's essential communications system.
 
 During his extended service from 1777 to 1783, Darby reportedly participated in

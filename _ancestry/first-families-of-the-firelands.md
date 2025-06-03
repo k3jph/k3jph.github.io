@@ -24,7 +24,7 @@ trace their roots to the aftermath of the American Revolutionary War, when the
 state of [Connecticut awarded tracts of land in the far Western
 Reserve](https://case.edu/ech/articles/w/western-reserve) to citizens whose
 homes had been burned by British forces, especially during the coastal raids of
-1779–1781. Known originally as the "Sufferers’ Lands," this area came to be
+1779-1781. Known originally as the "Sufferers’ Lands," this area came to be
 called the Firelands, and it was gradually opened to New England settlers
 seeking new opportunities in the early 19th century.
 
@@ -49,7 +49,7 @@ rural life.
 
 Membership in First Families recognizes ancestors who lived in the Firelands
 prior to 1860 under the categories of First Pioneer (pre-1820), First Settler
-(1820–1860), or Century Ancestor (living 100+ years ago). 
+(1820-1860), or Century Ancestor (living 100+ years ago). 
 
 ## Mina Elizabeth Hall--Century Ancestor
 

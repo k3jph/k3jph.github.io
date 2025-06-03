@@ -1,10 +1,10 @@
 ---
 id: order-of-descendants-of-colonial-physicians-and-chirurgiens
 title: Order of Descendants of Colonial Physicians and Chirurgiens
-subtitle: Member _jure_ Israel Taylor (1660–1725); member no. 686
+subtitle: Member _jure_ Israel Taylor (1660-1725); member no. 686
 date: 2025-01-09
 founding_date: 2022-03-24
-qualifying_ancestors: [ "Israel Taylor (1660–1725)" ]
+qualifying_ancestors: [ "Israel Taylor (1660-1725)" ]
 member_number: 686
 author: k3jph
 layout: page
@@ -15,7 +15,7 @@ redirect_from: [ "/ancestry/odcpc" ]
 ---
 
 The [Order of Descendants of Colonial Physicians and Chirurgiens
-1607–1783](https://ordercolonialpandc.weebly.com/) honors those descended from
+1607-1783](https://ordercolonialpandc.weebly.com/) honors those descended from
 medical professionals who served in the American colonies during the period from
 Jamestown’s founding through the end of the Revolutionary War. These early
 physicians, surgeons, barber-surgeons, and apothecaries served vital roles in a
@@ -25,7 +25,7 @@ genealogical research, and commemoration.
 
 ## Israel Taylor: Quaker Surgeon of Tinicum Island
 
-[Israel Taylor](https://www.wikitree.com/wiki/Taylor-32361) (1660–1725) was born
+[Israel Taylor](https://www.wikitree.com/wiki/Taylor-32361) (1660-1725) was born
 in Knaresborough, Yorkshire, England, and immigrated to Pennsylvania in 1682
 with his father, Christopher Taylor, as part of William Penn's Quaker fleet.
 Within a few short years, he had established himself on [Tinicum
@@ -88,7 +88,7 @@ physical injury was a daily reality.
 ## Honoring a Colonial Healer
 
 Membership in the Order of Descendants of Colonial Physicians and Chirurgiens
-1607–1783 recognizes not only the genealogical connection to Israel Taylor but
+1607-1783 recognizes not only the genealogical connection to Israel Taylor but
 the historical importance of his life and work. As a Quaker, a landholder, a
 father, a public servant, and a surgeon, Israel embodied the diverse
 responsibilities placed upon colonial physicians. His story stands as a reminder
