@@ -24,17 +24,84 @@ growth.
 
 ## Harry Lee Williams
 
-[Harry Lee Williams](https://www.wikitree.com/wiki/Williams-143061), my
-great-grandfather, served as a locomotive engineer for over 30 years.
-While the specific railroad company remains uncertain, it is believed to
-have been either the [Baltimore and Ohio Railroad](https://borhs.org/)
-or the [Louisville and Nashville Railroad](http://www.lnrr.org/), as
-both companies were closely associated with my family. Despite
-challenges in retrieving detailed employment records—due to an empty
-file from the [Railroad Retirement Board]()--the legacy of Harry's work and
-dedication is clear. He worked as an engineer up until his death in
-1950, embodying the spirit of service and dedication that the NSDARW
-aims to preserve.
+Harry Lee Williams was born in August 1885 in Indiana, the eldest child of
+Thornton Robert Williams and Ida May Adams. He spent his early years in
+Reynolds, Honey Creek Township, White County, Indiana, where he appeared in the
+1900 U.S. Census at age 15, living with his parents and siblings. His family
+roots extended through Indiana and Virginia, and by 1900, they were part of a
+rural farming community in northern Indiana.
+
+<div class="item col-md-4 px-4 pull-right">
+    <div class="card">
+        <figure>
+            <div class="row mb-2">
+                <div class="item col-md-12">
+                    <img class="featured-img mx-auto" 
+                         src="/assets/img/ancestry/nsdarw/harry-lee-williams-ww1-draft-card-front.webp" 
+                         alt="Harry Williams World War I draft card (front)" 
+                         data-toggle="modal" data-target="#imageModal" 
+                         data-full="/assets/img/ancestry/nsdarw/harry-lee-williams-ww1-draft-card-front.webp" />
+                </div>
+                <div class="content">
+                    <figcaption class="images-caption">Harry Williams World War I draft card (front)</figcaption>
+                </div>
+            </div>
+        </figure>
+    </div>
+</div>
+
+On November 11, 1907, Harry married Julia McNeal in Covington, Kenton County,
+Kentucky. While the marriage took place across the river, all records show that
+Harry and Julia were residents of Cincinnati, Ohio, and likely chose Covington
+for its simplified marriage laws, a common choice for Ohio couples at the time.
+Kentucky offered fewer bureaucratic hurdles, including no waiting period and
+more relaxed residency requirements, making it a popular destination for quick
+and discreet ceremonies.
+
+Harry and Julia settled permanently in Cincinnati, Hamilton County, Ohio, where
+they raised a growing family. Their children included Helen, Ida, Earl, William,
+and Thornton Robert Williams, born between 1908 and 1916. Census records from
+1910 through 1940 consistently place the family in Cincinnati's Ward 19, a
+working-class neighborhood close to rail and industrial infrastructure.
+
+Harry's professional life was defined by his work as a locomotive engineer, a
+position of responsibility and technical skill. By the time of his World War I
+draft registration in 1917, he was employed by the [Cleveland, Cincinnati,
+Chicago & St. Louis Railway](http://madisonrails.railfan.net/bigfour.html)
+(CCC&StL), commonly known as the Big Four Railroad. This line, which was fully
+absorbed into the [New York Central](https://nycshs.org/) system, maintained a
+major Chicago Division, where Harry was assigned. Although his work may have
+involved travel or temporary duty in Chicago, his home remained in Cincinnati
+throughout his career.  He continued to work in the railroad industry for
+decades, a steady presence in an era of American expansion and
+industrialization. By the time of the 1942 World War II draft registration,
+Harry was still living in Cincinnati and working for the New York Central. 
+
+<div class="item col-md-4 px-4 pull-right">
+    <div class="card">
+        <figure>
+            <div class="row mb-2">
+                <div class="item col-md-12">
+                    <img class="featured-img mx-auto" 
+                         src="/assets/img/ancestry/nsdarw/harry-lee-williams-ww2-draft-card-front.webp" 
+                         alt="Harry Williams World War II draft card (front)" 
+                         data-toggle="modal" data-target="#imageModal" 
+                         data-full="/assets/img/ancestry/nsdarw/harry-lee-williams-ww2-draft-card-front.webp" />
+                </div>
+                <div class="content">
+                    <figcaption class="images-caption">Harry Williams World War II draft card (front)</figcaption>
+                </div>
+            </div>
+        </figure>
+    </div>
+</div>
+
+Harry Lee Williams died in Cincinnati on February 19, 1950, at the age of 64. He
+was buried a few days later, on February 23, in [Spring Grove
+Cemetery](https://www.springgrove.org/), one of the most historic burial grounds
+in Ohio. His life, spanning the Gilded Age, two World Wars, and the golden era
+of American rail, reflects the path of a working man who helped build and move
+the nation, one mile of track at a time.
 
 ## About the Society
 
@@ -48,8 +115,8 @@ genealogical documentation to include educational programming and
 support for historical preservation efforts tied to American railroad
 history.
 
-The motto of the society--*"The journey is just as important as the
-destination"*--reflects the values and spirit of the railroad workers who
+The motto of the society, "The journey is just as important as the
+destination," reflects the values and spirit of the railroad workers who
 connected cities, industries, and people. By preserving and sharing
 these stories, the society ensures that the contributions of railroad
 workers are not forgotten.
@@ -92,3 +159,40 @@ its role in American industry.
    cap="Membership certificate in the National Society Descendants of American Railroad Workers" %}
    
 Or you can [download the PDF here](/assets/docs/ancestry/NSDAR-Williams.pdf).
+
+<!-- Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <img id="modalImage" src="" class="img-responsive" alt="Zoomed Image">
+                <p id="modalCaption" class="mt-3"></p>
+                <a id="modalLink" href="#" target="_blank" class="btn btn-primary mt-2">View Original Source</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Attach click event listeners to all images with data-toggle="modal"
+        document.querySelectorAll('[data-toggle="modal"]').forEach(function (img) {
+            img.addEventListener('click', function () {
+                var fullImage = img.getAttribute('data-full'); // Get the full image URL
+                var modalImage = document.getElementById('modalImage'); // Modal image element
+                var modalCaption = document.getElementById('modalCaption'); // Modal caption element
+                var modalLink = document.getElementById('modalLink'); // Modal link element
+
+                modalImage.setAttribute('src', fullImage); // Set the src of the modal image
+                modalImage.setAttribute('alt', img.getAttribute('alt')); // Set alt text
+                modalCaption.textContent = img.getAttribute('alt'); // Use alt text as caption
+                modalLink.setAttribute('href', fullImage); // Placeholder for the original source
+            });
+        });
+    });
+</script>
