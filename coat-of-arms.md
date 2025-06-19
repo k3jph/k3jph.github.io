@@ -488,31 +488,37 @@ appropriate extension of their use in flag form.
 ### Kamon
 
 {% include figure.html image="armory/jhoward-kamon.svg" width="4" placement="right"
-cap="Kamon adapted from the Crest" alt="Kamon adapted from the Crest" %}
+cap="Kamon adapted from the coat of arms by [Leonardo Barbosa da Silva](https://x.com/dev_cid)" 
+alt="Kamon adapted from the coat of arms by Leonardo Barbosa da Silva" %}
 
-Integrating elements from different heraldic traditions can create a meaningful
-and distinctive personal emblem. In developing my coat of arms, I incorporated
-the concept of Japanese heraldry, known as *kamon*, into my own design. The
-result is a creative fusion that bridges my personal heritage with a
-centuries-old tradition from Japan.
+This kamon (かもん) is a modern creation, inspired by my existing coat
+of arms but developed independently through collaboration with several
+artists and designers familiar with Japanese heraldic tradition. It
+draws from the motif known as けんむすびかりがね (剣結び雁金), a
+combination of stylized wild geese (かりがね, 雁金) and sword knots or
+blades (けん, 剣). The final form includes three birds interwoven with
+blades in a pattern that is both elegant and unprecedented in
+traditional mon (もん) surveys, according to experts I consulted.
 
-*Kamon* emerged in Japan during the Heian period (794-1185) and historically
-served as familial emblems, helping identify lineage and affiliation. Typically,
-these designs exhibit elegant simplicity, emphasizing clean lines and stylized
-forms. Common motifs include animals, plants, and geometric patterns, rendered
-with refined minimalism.
+While kamon (かもん) historically emerged as family identifiers during
+Japan's Heian period, they have always left room for aesthetic
+innovation, especially in modern reinterpretations. This design does not
+reflect any existing Japanese family emblem but is instead a thoughtful,
+respectful fusion of form and meaning, an abstract representation that
+nods toward both martial symbolism and migratory grace.
 
-By applying this aesthetic approach to my own heraldic tradition, I chose the
-image of the martlet, significant to my family's symbolism, and transformed it
-through the lens of Japanese design principles. The result is an emblem that not
-only respects the history of both heraldic cultures but also resonates on a
-deeply personal level. The simplicity and symbolism of the *kamon* complement
-the traditional complexity often found in Western heraldry, creating a visual
-representation that reflects both cultural depth and personal heritage.
+To me, the arrangement of the elements, three geese and three swords,
+each spaced 60 degrees apart, suggests movement, balance, and symbolic
+interplay. The design alternates かりがね (雁金) and けん (剣) in a
+circular configuration, such that a goose sits at the top and a sword
+anchors the bottom. This symmetry creates a sense of poise and quiet
+dynamism. While the symbolism is personal and interpretive, the
+rotational balance and alternating motifs give the かもん (家紋) a
+feeling of motion and intention—expressive without being literal.
 
-This fusion highlights the universal appeal and adaptability of heraldic
-traditions, demonstrating how personal identity and history can be elegantly
-expressed through thoughtful design.
+This kamon (かもん) is not a replacement for my coat of arms, but rather
+a sibling to it, a cross-cultural expression rooted in dialogue, design,
+and a shared appreciation for heraldic language.
 
 ### Flag
 
