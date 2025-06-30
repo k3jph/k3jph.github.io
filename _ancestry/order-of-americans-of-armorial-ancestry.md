@@ -9,6 +9,11 @@ author: k3jph
 layout: page
 guid: order-of-americans-of-armorial-ancestry
 featured_image: /assets/img/ancestry/order-of-americans-of-armorial-ancestry.webp
+credits: >-
+  These images contain components from Wikimedia users
+  [Horemhat](https://commons.wikimedia.org/wiki/User:Horemhat),
+  [Sodacan](https://commons.wikimedia.org/wiki/User:Sodacan), and
+  [Xavigivax](https://commons.wikimedia.org/wiki/User:Xavigivax).
 permalink: /ancestry/order-of-americans-of-armorial-ancestry
 redirect_from: [ /ancestry/oaaa ]
 ---
