@@ -51,7 +51,7 @@ institutions they represented, and how they expressed continuity with the
 cultural and legal frameworks of the Old World while adapting to the challenges
 of the New.
 
-##  John Hoar
+##  John Hoar of Massachusetts
 
 My membership in the Order of Americans of Armorial Ancestry is _jure sanguinis_
 through [John Hoar of Massachusetts](https://www.wikitree.com/wiki/Hoar-9), a
