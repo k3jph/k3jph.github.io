@@ -4,7 +4,7 @@ title: Order of Americans of Armorial Ancestry
 subtitle: Member _jure_ John Hoar
 date: 2024-07-01
 member_number: 
-qualifying_ancestors: [ "John Hoar" ]
+qualifying_ancestors: [ "John Hoar of Massachusetts" ]
 author: k3jph
 layout: page
 guid: order-of-americans-of-armorial-ancestry
