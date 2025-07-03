@@ -127,3 +127,9 @@ enduring rights to the family arms prior to later differencing.
 
 *Additional memberships will be added as they are approved.*
 
+{% include figure.html width="12"
+   image="ancestry/OAAA-JohnHoar.webp" border=true
+   alt="Membership certificate in the Order of Americans of Armorial Ancestry"
+   cap="Membership certificate in the Order of Americans of Armorial Ancestry" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/OAAA-JohnHoar.pdf).
