@@ -57,7 +57,7 @@
   color: #303030;
 }
 
-.danger-icon .icon {
+.icon {
   font-size: 62px;
 }
 
@@ -79,7 +79,7 @@
 }
 
 a {
-  color: #0c6793;
+  color: #154c9eff;
   font-weight: bold;
   font-size: inherit;
   opacity: inherit;
@@ -139,18 +139,13 @@ ul.social-media-menu {
   padding: 11px 0px;
 }
 
-*::selection{
-    background: #0c6793;
-    color: #FFFFFF;
-}
-
 figure {
   padding: 1em;
   margin: 1em;
 }
 
 .inset {
-  background-color: #a0c7d8;
+  background-color: #feefa8ff;
   p {
     margin-bottom: 15px;
   }
@@ -196,7 +191,7 @@ figure {
 }
 
 .jh-copyright a {
-   color: #f2daa6;
+   color: #feefa8ff;
 }
 
 .content-blog p {
@@ -436,6 +431,6 @@ body {
 }
 
 *::selection{
-    background: $info-color;
-    color: #FFFFFF;
+    background: #feefa8ff;
+    color: #202020ff;
 }
