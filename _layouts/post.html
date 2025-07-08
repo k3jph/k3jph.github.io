@@ -15,11 +15,11 @@ layout: base
                 <h3 class="subtitle">{{ page.date | date: "%A %B %d, %Y" }}</h3>
                 <div class="separator separator"><img src="{{ '/assets/img/martlet.svg' | relative_url }}" height="35rem" /></div>
                 <div class="card-blog">
-                    <h6 class="card-category text-danger"><nobr>&bull;&nbsp;
+                    <h6 class="card-category text-warning"><nobr>&bull;&nbsp;
                             {% for tag in page.tags %}
                             {% capture tag_name %}{{ tag }}{% endcapture %}
                             {% assign tag_slug = tag_name | slugify %}
-                            <a href="{{ '/tag/' | append: tag_slug | relative_url }}" class="card-category text-danger" style="display: inline;">{{ tag_name }}</a>&nbsp;&bull;&nbsp;</nobr>
+                            <a href="{{ '/tag/' | append: tag_slug | relative_url }}" class="card-category text-warning" style="display: inline;">{{ tag_name }}</a>&nbsp;&bull;&nbsp;</nobr>
                         {% endfor %}
                     </h6>
                 </div>
@@ -49,7 +49,7 @@ layout: base
                     {{ content }}
                 </div>
                 {% if page.credits %}
-                <div class="separator separator-danger"><img src="{{ '/assets/img/martlet-danger.svg' | relative_url }}" height="35rem" /></div>
+                <div class="separator separator-info"><img src="{{ '/assets/img/martlet-info.svg' | relative_url }}" height="35rem" /></div>
                 <div class="">{{ page.credits | markdownify }}</div>
                 {% endif %}
             </div>
