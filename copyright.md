@@ -18,20 +18,33 @@ of this content without express permission is prohibited.
 
 This website incorporates elements under Creative Commons licenses, requiring
 proper attribution. Below are the details for the specific Creative Commons
-materials used on this site:
+materials used on this sitewide:
 
-1. **Helm and Mantling**
-   - **Source:** [Heaume Hor 2](https://commons.wikimedia.org/wiki/Category:SVG_coat_of_arms_elements_-_mantlings#/media/File:Heaume_Hor_2.svg)
-   - **Author:** User [Sodacan](https://commons.wikimedia.org/wiki/User:Sodacan)
-   - **License:** Creative Commons Attribution-Share Alike 3.0 Unported ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
-   - **Modifications:** The helm and mantling elements have been adapted and incorporated into the coat of arms displayed on this site.
-
-2. **Martlet**
-   - **Source:** [Royal Arms of Edward the Confessor](https://commons.wikimedia.org/wiki/File:Royal_Arms_of_Edward_the_Confessor.svg)
-   - **Author:** User [Fry1989](https://commons.wikimedia.org/wiki/User:Fry1989)
-   - **License:** Creative Commons Attribution-Share Alike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))
-   - **Modifications:** The martlet element has been adapted and incorporated
-     into the coat of arms displayed on this site.
+* Sword
+  - Source: [Paulet](https://wappenwiki.org/index.php/File:Paulet.svg)
+  - Author: WappenWiki user [JSpuller](https://wappenwiki.org/index.php/User:JSpuller)
+  - License: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported ([CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/))
+  - Modifications: The sword has been adapted and incorporated into the coat of arms displayed on this site.
+* Helm
+  - Source: [Helm of a Baronet or Knight in British Heraldry](https://commons.wikimedia.org/wiki/File:Helm_of_a_Baronet_or_Knight_in_British_Heraldry.svg)
+  - Author: Wikimedia Commons user [Sodacan](https://commons.wikimedia.org/wiki/User:Sodacan)
+  - License: Creative Commons Attribution-Share Alike 3.0 Unported ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
+  - Modifications: The helm has been adapted and incorporated into the coat of arms displayed on this site.
+* Mantling
+  - Source: [Coat of Arms of John Hoare](https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_John_Hoare.svg)
+  - Author: Wikimedia Commons user [Glasshouse](https://commons.wikimedia.org/wiki/User:Glasshouse)
+  - License: Creative Commons Attribution-Share Alike 4.0 International  ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/3.0/))
+  - Modifications: The mantling has been adapted and incorporated into the coat of arms displayed on this site.
+* Pendant Ribbon
+  - Source: [Coat of Arms of Martha Lane Fox, Baroness Lane-Fox of Soho, CBE](https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Martha_Lane_Fox,_Baroness_Lane-Fox_of_Soho,_CBE.svg)
+  - Author: Wikimedia Commons user [Sodacan](https://commons.wikimedia.org/wiki/User:Sodacan)
+  - License: Creative Commons Attribution-Share Alike 4.0 International  ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/3.0/))
+  - Modifications: The ribbon has been adapted and incorporated into the coat of arms displayed on this site.
+* Martlet
+  - Source: [Royal Arms of Edward the Confessor](https://commons.wikimedia.org/wiki/File:Royal_Arms_of_Edward_the_Confessor.svg)
+  - Author: Wikimedia Commons user [Fry1989](https://commons.wikimedia.org/wiki/User:Fry1989)
+  - License: Creative Commons Attribution-Share Alike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))
+  - Modifications: The martlet element has been adapted and incorporated into the coat of arms displayed on this site.*
 
 ## Specific Attributions
 
