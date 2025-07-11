@@ -32,7 +32,7 @@ genealogical and historical records of the county.
 
 {% include figure.html width="12"
    image="/ancestry/MCHGS-FFMC-Cavendar.webp" border=true
-   alt="Membership certificate in the Pioneers and Settlers Families of Miami County"
-   cap="Membership certificate in the Pioneers and Settlers Families of Miami County" %}
+   alt="Membership certificate in the First Families of Miami County"
+   cap="Membership certificate in the First Families of Miami County" %}
    
 Or you can [download the PDF here](/assets/docs/ancestry/MCHGS-FFMC-Cavendar.pdf).
