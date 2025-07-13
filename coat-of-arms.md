@@ -88,13 +88,12 @@ acknowledgment of arms granted by recognized foreign authorities.
 
 ## My Grant of Arms
 
-I received a grant of arms from the Office of the Chief Herald of
-Arms of Malta, formalized through Letters Patent numbered G0102,
-issued on May 1, 2024.  The formal notice of
-this grant was published in the _Gazzetta tal-Gvern ta' Malta_, the
-official gazette of the Government of Malta, [in issue number
-21,194, on Feburary 16, 2024](/assets/docs/malta-government-gazette-20240216.pdf). This publication
-serves as the official record, ensuring transparency and public
+I received a grant of arms from the Office of the Chief Herald of Arms of Malta,
+formalized through Letters Patent numbered G0102, issued on May 1, 2024.  The
+formal notice of this grant was published in the _Gazzetta tal-Gvern ta' Malta_,
+the official gazette of the Government of Malta, [in issue number 21,194, on
+Feburary 16, 2024](/assets/docs/malta-government-gazette-20240216.pdf). This
+publication serves as the official record, ensuring transparency and public
 acknowledgment of the newly granted arms.
 
 This coat of arms, now officially recorded and recognized, joins a
@@ -612,3 +611,29 @@ This tartan is reserved for personal and family use. Friends and extended kin
 are welcome to wear it respectfully, particularly in heraldic or ceremonial
 contexts.
 
+
+## Additional Registrations
+
+While the coat of arms is formally granted by the Chief Herald of Arms of Malta, additional recognitions help reinforce its presence and legitimacy across heraldic jurisdictions. These registrations reflect the broader armorial ecosystem in which heraldry operates today.
+
+{% include figure.html width="4" border=true placement="right"
+image="/armory/jhoward-malta-letters-patent-binder.webp"
+link="/assets/docs/jhoward-malta-letters-patent-binder.pdf"
+cap="Cover for letters patent in binder format" 
+alt="Cover for letters patent in binder format" %}
+
+### Duplicate Grant (Alternative Format)
+
+The Chief Herald of Malta also issued a second version of the grant in an
+alternative physical format. While the original is a large-format, A2-sized
+sheet suitable for framing and display, the alternate version is presented as a
+series of standard A4 pages bound in a formal binder. This version is
+heraldically identical in content containing the same blazon, legal language,
+and certification, but differs in its physical presentation and intended use.
+The multi-page format lends itself to archival storage, practical handling, and
+reference use, rather than ceremonial or decorative display. Issuing both a
+display copy and a documentary version reflects the administrative practices of
+the Maltese heraldic office, which accommodates both symbolic and bureaucratic
+functions within its framework.
+
+You may [download the PDF here](/assets/docs/jhoward-malta-letters-patent-binder.pdf).
