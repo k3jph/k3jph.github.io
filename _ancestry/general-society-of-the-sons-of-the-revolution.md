@@ -1,12 +1,13 @@
 ---
 id: general-society-of-the-sons-of-the-revolution
 title: General Society of the Sons of the Revolution
-subtitle: Member _jure_ William Cornett (Virginia Line)
+subtitle: Member _jure_ William Cornett (Virginia Line); member no. 43349, state no. 2119
 date: 2025-05-05
 qualifying_ancestors: [ "William Cornett (Virginia Line)" ]
-member_number: 
+member_number: 43349
 chapters:
   - name: Sons of the Revolution in the Commonwealth of Virginia
+    member_number: 2119
 author: k3jph
 layout: page
 guid: general-society-of-the-sons-of-the-revolution
