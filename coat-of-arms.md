@@ -322,7 +322,7 @@ core of the armorial identity. In my case, this includes the mathematical symbol
 of the tetrahedron and the golden sword inspired by the civic seal of
 Cincinnati, elements that signify structure, intellect, and heritage.
 
-The banner’s square proportions (1:1) also distinguish it from other heraldic
+The banner's square proportions (1:1) also distinguish it from other heraldic
 flags, such as standards or guidons. It is not meant to be flown from a pole in
 the open air, but rather presented in still environments, hung vertically from a
 balcony, mounted on a wall, or carried in procession. This controlled setting
@@ -362,7 +362,7 @@ This badge was not part of the original grant of arms issued by the Chief Herald
 of Arms of Malta, but was adopted subsequently in accordance with heraldic
 custom. It remains faithful to the elements of the granted arms and reflects a
 legitimate extension of their use in badge form. In English heraldry, badges
-have long served as personal devices—distinct from arms or crest—used for
+have long served as personal devices, distinct from arms or crest, used for
 identification on clothing, possessions, and in architectural ornament.
 
 ### Scottish Crest Badge
@@ -513,7 +513,7 @@ circular configuration, such that a goose sits at the top and a sword
 anchors the bottom. This symmetry creates a sense of poise and quiet
 dynamism. While the symbolism is personal and interpretive, the
 rotational balance and alternating motifs give the かもん (家紋) a
-feeling of motion and intention—expressive without being literal.
+feeling of motion and intention, expressive without being literal.
 
 This kamon (かもん) is not a replacement for my coat of arms, but rather
 a sibling to it, a cross-cultural expression rooted in dialogue, design,
@@ -597,7 +597,7 @@ This tartan draws its palette directly from the heraldic colors of my coat of
 arms. While the colors do not carry individual symbolic meaning, they
 collectively serve to reinforce the visual identity already established in
 armorial form. Rendered in deep blues, golds, and white, the design expresses
-continuity between textile and shield — a wearable complement to the armorial
+continuity between textile and shield ,  a wearable complement to the armorial
 tradition.
 
 The aesthetic of the tartan is best described as modern ceremonial: it shares
@@ -611,10 +611,12 @@ This tartan is reserved for personal and family use. Friends and extended kin
 are welcome to wear it respectfully, particularly in heraldic or ceremonial
 contexts.
 
-
 ## Additional Registrations
 
-While the coat of arms is formally granted by the Chief Herald of Arms of Malta, additional recognitions help reinforce its presence and legitimacy across heraldic jurisdictions. These registrations reflect the broader armorial ecosystem in which heraldry operates today.
+While the coat of arms is formally granted by the Chief Herald of Arms of Malta,
+additional recognitions help reinforce its presence and legitimacy across
+heraldic jurisdictions. These registrations reflect the broader armorial
+ecosystem in which heraldry operates today.
 
 {% include figure.html width="4" border=true placement="right"
 image="/armory/jhoward-malta-letters-patent-binder.webp"
@@ -626,14 +628,45 @@ alt="Cover for letters patent in binder format" %}
 
 The Chief Herald of Malta also issued a second version of the grant in an
 alternative physical format. While the original is a large-format, A2-sized
-sheet suitable for framing and display, the alternate version is presented as a
-series of standard A4 pages bound in a formal binder. This version is
-heraldically identical in content containing the same blazon, legal language,
-and certification, but differs in its physical presentation and intended use.
-The multi-page format lends itself to archival storage, practical handling, and
-reference use, rather than ceremonial or decorative display. Issuing both a
-display copy and a documentary version reflects the administrative practices of
-the Maltese heraldic office, which accommodates both symbolic and bureaucratic
-functions within its framework.
+sheet suitable for framing and ceremonial display, the alternate version is
+presented as a series of standard A4 pages, formally bound in a presentation
+binder. This version is heraldically identical in content, containing the same
+blazon, legal language, and official certification, but differs in its physical
+layout, typography, and purpose. The multi-page format lends itself to archival
+storage, practical handling, and reference consultation, rather than ornamental
+display.
+
+This dual-format approach reflects the hybrid character of the Maltese heraldic
+office. As a relatively recent institution within a civil law jurisdiction, the
+Chief Herald of Malta combines symbolic functions inherited from British and
+European heraldic traditions with modern documentary practices more typical of
+notarial or governmental registries. Issuing both a display grant and a
+documentary edition allows for continuity with ceremonial expectations while
+ensuring the grant serves its administrative and legal roles within the state's
+framework.
+
+Comparable systems exist elsewhere, Scotland's Court of the Lord Lyon issues
+both Letters Patent and entries in the Public Register, and the Canadian
+Heraldic Authority often separates artistic rendering from the text of the
+instrument, but Malta's solution is distinctive for integrating both functions
+under one authority with two physically distinct outputs. This reflects an
+appreciation for both the performative and practical roles heraldry plays in a
+modern civic context.
 
 You may [download the PDF here](/assets/docs/jhoward-malta-letters-patent-binder.pdf).
+
+{% include figure.html width="4" border=true placement="right"
+image="/armory/jhoward-american-armigers-registration.webp"
+link="/assets/docs/jhoward-american-armigers-registration.pdf"
+cap="American Armigers registration certificate AA0183" 
+alt="American Armigers registration certificate AA0183" %}
+
+### American Armigers
+
+The arms have also been formally recorded by the [American Armigers Register](https://americanarmigers.us/), a private society dedicated to recognizing and documenting legitimate armorial bearings used by individuals in the United States. The Register provides a public-facing directory of American armigers, affirming their heraldic identity within a domestic cultural context. It does not confer arms, but rather acknowledges existing rights to arms by grant, matriculation, or longstanding use, and promotes responsible heraldic practice in the American tradition.
+
+The record for James P. Howard, II includes the arms granted by the Chief Herald of Arms of Malta, preserving the blazon in English heraldic terminology and listing the crest and motto as well. The motto, _Ir-rieda biss tmexxi l-qalb_ (“Only the will moves the heart”), appears in both the original Maltese and in spirit with the rest of the armorial arrangement.
+
+Although the website has not yet been updated to reflect the new registration, the certificate, issued under Registration Number AA0183 and dated, 20 June 2025, is available below.
+
+You may [download the PDF here](/assets/docs/jhoward-american-armigers-registration.pdf).
