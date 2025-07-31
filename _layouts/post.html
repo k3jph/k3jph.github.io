@@ -13,7 +13,7 @@ layout: base
             <div class="content">
                 <h1>{{ page.title }}</h1>
                 <h3 class="subtitle">{{ page.date | date: "%A %B %d, %Y" }}</h3>
-                <div class="separator separator"><img src="{{ '/assets/img/martlet.svg' | relative_url }}" height="35rem" /></div>
+                <div class="separator separator"><img src="{{ '/assets/img/identity/kamon.svg' | relative_url }}" height="35rem" /></div>
                 <div class="card-blog">
                     <h6 class="card-category text-warning"><nobr>&bull;&nbsp;
                             {% for tag in page.tags %}
@@ -49,7 +49,7 @@ layout: base
                     {{ content }}
                 </div>
                 {% if page.credits %}
-                <div class="separator separator-info"><img src="{{ '/assets/img/martlet-info.svg' | relative_url }}" height="35rem" /></div>
+                <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35rem" /></div>
                 <div class="">{{ page.credits | markdownify }}</div>
                 {% endif %}
             </div>
