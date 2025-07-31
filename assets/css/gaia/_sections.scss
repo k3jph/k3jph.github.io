@@ -159,6 +159,16 @@
         }
     }
 
+    .separator-warning {
+        color: jameshoward.$warning-color;
+
+        &:before,
+        &:after{
+            border-color: jameshoward.$warning-color;
+        }
+    }
+
+
     &.filter-color-black:before{
         background: #333;
     }
