@@ -73,6 +73,8 @@ exclude:
   - .sass-cache/
   - .jekyll-cache/
   - .idea/
+  - _scripts/
+  - _templates/
   - gemfiles/
   - Gemfile
   - Gemfile.lock
