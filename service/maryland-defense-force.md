@@ -251,6 +251,11 @@ service which results in achievement of a specific project, complex
 tasks, or period of sustained service which clearly warrants
 recognition of the individual's achievement.
 
+#### September 9, 2020
+
+> For service, while on State Active Duty, in support of Operation Steadfast
+> Guardian during the period of March 15, 2020, to June 21, 2020.
+
 ### <a id='MDDFHSR' />Maryland Defense Force Humanitarian Service Ribbon
 
 The Maryland Defense Force Humanitarian Service Ribbon is presented to
