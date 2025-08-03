@@ -1,0 +1,36 @@
+{% if include.placement == "right"          %}
+{%   assign pull = "pull-right"             %}
+{% else                                     %}
+{%   assign pull = ""                       %}
+{% endif                                    %}
+
+{% if include.border == true                %}
+{%   assign img_border = "img-border"       %}
+{% else                                     %}
+{%   assign img_border = ""                 %}
+{% endif                                    %}
+
+{% assign w = include.width | to_integer    %}
+{% if w <= 12                               %}
+{%   assign colwidth="col-md-" | append: w  %}
+{% else                                     %}
+{%   if w < 40                              %}
+{%     assign colwidth="col-md-4"           %}
+{%   else                                   %}
+{%     if w < 65                            %}
+{%       assign colwidth="col-md-6"         %}
+{%     else                                 %}
+{%       assign colwidth="col-md-12"        %}
+{%     endif                                %}
+{%   endif                                  %}
+{% endif                                    %}
+
+<div class="item {{ colwidth }} {{ pull }} px-4">
+    <div class="row inset p-4">
+    <h3>{{ include.title }}</h3>
+    <h6>{{ include.subtitle }}</h6>
+    {{ include.text | markdownify }}
+   </div>
+</div>
+
+
