@@ -62,7 +62,7 @@ it is about
 L_{\odot} \approx 3.846 \times 10^{26} \text{ watts}
 \]
 
-That means the Sun emits roughly \( 3.846 \times 10^{26} \) joules of energy
+That means the Sun emits roughly [latex] 3.846 \times 10^{26}[/latex] joules of energy
 every second.
 
 To find out how much mass is converted into energy per second, we rearrange
