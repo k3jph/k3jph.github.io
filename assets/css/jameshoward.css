@@ -281,6 +281,19 @@ figure {
     color: #f8f8f8;
     font-weight: bold;
   }
+
+  .footer .row .info .title {
+    text-align:left !important; ;
+    margin-left: 2em;
+    margin-bottom:10px;
+    font-size:15px;
+    font-weight:bold
+  }
+
+  footer .row .info ul {
+    text-align:left !important; ;
+    margin-left: 2.25em;
+  }
 }
 
 .featured-img {
