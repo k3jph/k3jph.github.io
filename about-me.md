@@ -60,47 +60,38 @@ and serving on several public and private boards.
 
 <div class="row">
   <div class="col-12 col-md-6">
-    <h2 id="professional-titles">Professional Titles</h2>
-    <ul>
-      <li><a href="/assets/docs/JHoward-EURING.pdf">European Engineer</a></li>
-      <li>Chartered Scientist</li> 
-      <li><a href="/assets/docs/JHoward-ECUK-CEng.pdf">Chartered Engineer</a></li>
-    <li>Chartered Mathematician</li>
-      <li><a href="/assets/docs/JHoward-FBCS.pdf">Chartered IT Professional</a></li>
-    </ul>
+  {% include markdown.html contentmd='
+## Professional Titles
+
+*   [European Engineer](/assets/docs/JHoward-EURING.pdf)
+*   Chartered Scientist
+*   [Chartered Engineer](/assets/docs/JHoward-ECUK-CEng.pdf)
+*   Chartered Mathematician
+*   [Chartered IT Professional](/assets/docs/JHoward-FBCS.pdf)
+' %}
   </div>
-  <div class="col-12 col-md-6">
-    <h2 id="major-awards">Major Awards</h2>
-    <ul>
-      <li>Fellow of the <a href="/assets/docs/jhoward-fsascot.pdf">Society of Antiquaries of Scotland</a>, 2025</li>
-      <li>Fellow of the <a href="/assets/docs/JHoward-IMA-FIMA.pdf">Institute of Mathematics and its Applications</a>, 2022</li>
-      <li>Fellow of the <a href="/assets/docs/JHoward-FCybS.pdf">Cybernetics Society</a>, 2021</li>
-      <li>Senior Member of the <a href="/assets/docs/JHoward-IEEE-SM-2025.pdf">IEEE</a>, 2021</li>
-      <li>Fellow of the Royal Society of Arts, 2020</li>
-      <li>Fellow of the <a href="/assets/docs/JHoward-FBCS.pdf">British Computer Society</a>, 2020</li>
-    </ul>
-  </div>
+  <div class="col-12 col-md-6 pr-n5">
+{% include markdown.html contentmd='
+## Certifications
+*   [Project Management Professional](/assets/docs/certifications/JHoward-PMI-PMP.pdf)
+*   [PMI Agile Certified Practitioner](/assets/docs/certifications/JHoward-PMI-ACP.pdf)
+*   [PMI Professional in Business Analysis](/assets/docs/certifications/JHoward-PMI-PBA.pdf)
+*   [Certified Associate in Project Management](/assets/docs/certifications/JHoward-PMI-CAPM.pdf)
+*   [Certified Government Financial Manager](https://www.credly.com/badges/9b7ead19-ed5d-46f0-8aec-6c99d230e049/public_url)
+' %}
+</div>
 </div>
 
-<div class="row">
-  <div class="col-12 col-md-6">
-    <h2 id="certifications">Certifications</h2>
-    <ul>
-      <li><a href="/assets/docs/certifications/JHoward-PMI-PMP.pdf">Project Management Professional</a></li>
-      <li><a href="/assets/docs/certifications/JHoward-PMI-ACP.pdf">PMI Agile Certified Practitioner</a></li>
-      <li><a href="/assets/docs/certifications/JHoward-PMI-PBA.pdf">PMI Professional in Business Analysis</a></li>
-      <li><a href="/assets/docs/certifications/JHoward-PMI-CAPM.pdf">Certified Associate in Project Management</a></li>
-      <li><a href="https://www.credly.com/badges/9b7ead19-ed5d-46f0-8aec-6c99d230e049/public_url">Certified Government Financial Manager</a></li>
+## Professional Awards
+*   Fellow of the [Society of Antiquaries of Scotland](/assets/docs/jhoward-fsascot.pdf), 2025
+*   Fellow of the [Institute of Mathematics and its Applications](/assets/docs/JHoward-IMA-FIMA.pdf), 2022
+*   Fellow of the [Cybernetics Society](/assets/docs/JHoward-FCybS.pdf), 2021
+*   Senior Member of the [IEEE](/assets/docs/JHoward-IEEE-SM-2025.pdf), 2021
+*   Fellow of the Royal Society of Arts, 2020
+*   Fellow of the [British Computer Society](/assets/docs/JHoward-FBCS.pdf), 2020
 
-    </ul>
-  </div>
-  <div class="col-12 col-md-6">
-    <h2 id="other-accomplishments">Other Accomplishments</h2>
-    <ul>
-      <li><a href="/assets/docs/jhoward-iccf-cce.pdf">Correspondence Chess Expert</a></li>
-    </ul>
-  </div>
-</div>
+## Other Accomplishments
+*   [Correspondence Chess Expert](/assets/docs/jhoward-iccf-cce.pdf) 
 
 
 {% include figure.html image="akureyri-shades-420.webp" alt="Me in Akureyri...with solar shades"
