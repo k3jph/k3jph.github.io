@@ -6,7 +6,7 @@ date: 2025-08-13
 qualifying_ancestors: [ "Henry Adams (Founder) via Daniel Adams (Patriot)" ]
 member_number: 6570
 chapters:
-  - name: District of Columbia Chapter
+  - name: District of Columbia Society
     member_number: 413
 author: k3jph
 layout: page
