@@ -91,3 +91,9 @@ shaping American life from Connecticut to the Midwest.
 
 *Additional memberships will be added as they are approved.*
 
+{% include figure.html width="12"
+   image="ancestry/OFFCT-Whitehead.webp" border=true
+   alt="Membership certificate in the Order of the First Families of Connecticut"
+   cap="Membership certificate in the Order of the First Families of Connecticut" %}
+
+Or you can [download the PDF here](/assets/docs/ancestry/OFFCT-Whitehead.pdf).
