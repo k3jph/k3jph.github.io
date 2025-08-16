@@ -461,3 +461,8 @@ body {
     background: #feefa8ff;
     color: #202020ff;
 }
+
+.jh-latex-equation {
+  text-align: center;
+
+}

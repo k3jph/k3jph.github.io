@@ -26,7 +26,7 @@ values, subtract one from the other (in absolute value), and average
 those results. Formally, for a set of values [latex] x_1, x_2, \ldots,
 x_n [/latex], the GMD is given by:
 
-\[ \text{GMD} = \frac{1}{\binom{n}{2}} \sum_{i<j} |x_i - x_j| \]
+{% include eqn.html eqn="\text{GMD} = \frac{1}{\binom{n}{2}} \sum_{i<j} |x_i - x_j|" %}
 
 That is it. No squaring, no dividing by degrees of freedom, no anchoring
 on the mean. Just compare every point to every other point and ask how
