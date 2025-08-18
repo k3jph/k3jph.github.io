@@ -278,7 +278,7 @@ cap="Coat of Arms as interpreted by Heikki Halkosaari"
 alt="Coat of Arms as interpreted by Heikki Halkosaari" %}
 
 {% include figure.html image="armory/jhoward-coa-abshier.webp" placement="left" width="4" border=false
-cap="Coat of Arms as interpreted by Brian Abshier" 
+cap="Coat of Arms as interpreted by [Brian Abshier](http://art.abshier.us/)" 
 alt="Coat of Arms as interpreted by Brian Abshier" %}
 
 {% include figure.html image="armory/jhoward-coa-manuelpais-keepsake.webp" placement="left" width="4" border=false
