@@ -280,6 +280,14 @@ alt="Coat of Arms as interpreted by Heikki Halkosaari" %}
 {% include figure.html image="armory/jhoward-coa-abshier.webp" placement="left" width="4" border=false
 cap="Coat of Arms as interpreted by Brian Abshier" 
 alt="Coat of Arms as interpreted by Brian Abshier" %}
+
+{% include figure.html image="armory/jhoward-coa-manuelpais-keepsake.webp" placement="left" width="4" border=false
+cap="Coat of Arms as interpreted by Manuel Pais in his Keepsake style"
+alt="Coat of Arms as interpreted by Manuel Pais in his Keepsake style" %}
+
+{% include figure.html image="armory/jhoward-coa-manuelpais-cba.webp" placement="left" width="4" border=false
+cap="Coat of Arms as interpreted by Manuel Pais in Carta de Brasão de Armas style" 
+alt="Coat of Arms as interpreted by Manuel Pais in Carta de Brasão de Armas style" %}
 </div>
 
 ## Related Insignia
