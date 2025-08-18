@@ -663,10 +663,24 @@ alt="American Armigers registration certificate AA0183" %}
 
 ### American Armigers
 
-The arms have also been formally recorded by the [American Armigers Register](https://americanarmigers.us/), a private society dedicated to recognizing and documenting legitimate armorial bearings used by individuals in the United States. The Register provides a public-facing directory of American armigers, affirming their heraldic identity within a domestic cultural context. It does not confer arms, but rather acknowledges existing rights to arms by grant, matriculation, or longstanding use, and promotes responsible heraldic practice in the American tradition.
+The arms have also been formally recorded by the [American Armigers
+Register](https://americanarmigers.us/), a private society dedicated to
+recognizing and documenting legitimate armorial bearings used by individuals in
+the United States. The Register provides a public-facing directory of American
+armigers, affirming their heraldic identity within a domestic cultural context.
+It does not confer arms, but rather acknowledges existing rights to arms by
+grant, matriculation, or longstanding use, and promotes responsible heraldic
+practice in the American tradition.
 
-The record for James P. Howard, II includes the arms granted by the Chief Herald of Arms of Malta, preserving the blazon in English heraldic terminology and listing the crest and motto as well. The motto, _Ir-rieda biss tmexxi l-qalb_ (“Only the will moves the heart”), appears in both the original Maltese and in spirit with the rest of the armorial arrangement.
+The record for James P. Howard, II includes the arms granted by the Chief Herald
+of Arms of Malta, preserving the blazon in English heraldic terminology and
+listing the crest and motto as well. The motto, _Ir-rieda biss tmexxi l-qalb_
+(“Only the will moves the heart”), appears in both the original Maltese and in
+spirit with the rest of the armorial arrangement.
 
-Although the website has not yet been updated to reflect the new registration, the certificate, issued under Registration Number AA0183 and dated, 20 June 2025, is available below.
+Although the website has not yet been updated to reflect the new registration,
+the certificate, issued under Registration Number AA0183 and dated, 20 June
+2025, is available below.
 
-You may [download the PDF here](/assets/docs/jhoward-american-armigers-registration.pdf).
+You may [download the PDF
+here](/assets/docs/jhoward-american-armigers-registration.pdf).
