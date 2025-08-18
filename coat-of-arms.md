@@ -304,6 +304,54 @@ English, Maltese, and beyond--these elements share a unifying function:
 to express, in various media and degrees of formality, the continuity
 and presence of heraldic identity.
 
+Crest
+
+{% include figure.html image="armory/jhoward-crest-quentin-peacock.svg" width="4"
+placement="right" cap="Crest in the Fairbairn-style by [Quentin Peacock](http://digitalheraldry.com/)"
+alt="Crest in the Fairbairn-style by Quentin Peacock" %}
+
+The crest occupies its traditional position atop the helm in the full armorial
+achievement and serves as a complementary emblem of personal identity. In this
+case, it is a martlet Sable, rendered footless, in flight, and facing dexter,
+set upon a wreath of the livery colors. Unlike the shield, which often functions
+independently in banners or seals, the crest is more intimate in scale and
+symbolic depth, used most often in formal armorial contexts or engraved devices.
+
+The design shown here was drawn by Quentin Peacock and follows the stylistic
+conventions of Fairbairn's Book of Crests, one of the most influential heraldic
+reference works of the 19th and early 20th centuries. First published in 1859
+and continually expanded thereafter, Fairbairn's compilation became a de facto
+visual standard for how British and colonial crests should be illustrated:
+compact, crisp, and uniform in treatment, with an emphasis on legibility and
+heraldic clarity. The illustrations are often set without background, with
+consistent line work, minimal shading, and a careful focus on the recognizable
+outline of each charge. In this style, the martlet appears as a clean black
+silhouette on a simple torse—a deliberate homage to Fairbairn's aesthetic and
+its influence on modern armorial presentation.
+
+In that spirit of familiarity, the martlet has also been given a name: Eckbert.
+This bit of informal personification arose during the design process between
+Quentin and myself, and while not heraldically required, it reflects the
+personal dimension that crests often hold. They are not just visual identifiers,
+but symbolic avatars as distillations of lineage, values, and character.
+
+The blazon of the crest reads:
+
+> Upon a wreath of the liveries a martlet Sable.
+
+Though spare, this is a classically structured English blazon. The martlet, long
+associated with tireless pursuit, intellectual restlessness, and the role of the
+younger son, is rendered here in black to signify constancy, wisdom, and
+measured reserve. The torse, bearing azure and or (blue and gold), links the
+crest visually and symbolically to the shield, ensuring that the entire
+achievement reads as a coherent whole.
+
+In contemporary use, the crest may appear above the arms on letterheads,
+documents, and regalia, or on its own when the context calls for a simplified
+emblem. In such settings, Eckbert, the sable martlet, serves not only as a visual
+anchor, but as a quiet representative of the ideals behind the arms: learning,
+discipline, and a certain restless precision.
+
 ### Banner
 
 {% include figure.html image="armory/jhoward-banner.svg" width="4"
