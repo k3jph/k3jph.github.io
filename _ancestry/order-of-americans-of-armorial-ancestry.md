@@ -4,7 +4,7 @@ title: Order of Americans of Armorial Ancestry
 subtitle: Member _jure_ John Hoar; member no. 1185
 date: 2024-07-01
 member_number: 1185
-qualifying_ancestors: [ "John Hoar of Massachusetts" ]
+qualifying_ancestors: [ "John Hoar, Esquire, of Massachusetts" ]
 author: k3jph
 layout: page
 guid: order-of-americans-of-armorial-ancestry
@@ -56,10 +56,10 @@ institutions they represented, and how they expressed continuity with the
 cultural and legal frameworks of the Old World while adapting to the challenges
 of the New.
 
-##  John Hoar of Massachusetts
+##  John Hoar, Esquire, of Massachusetts
 
 My membership in the Order of Americans of Armorial Ancestry is _jure sanguinis_
-through [John Hoar of Massachusetts](https://www.wikitree.com/wiki/Hoar-9), a
+through [John Hoar, Esquire, of Massachusetts](https://www.wikitree.com/wiki/Hoar-9), a
 17th-century lawyer, negotiator, and colonial figure of note.  The arms
 attributed to John Hoar are:
 
