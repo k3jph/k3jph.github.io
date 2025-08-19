@@ -1,9 +1,9 @@
 ---
 id: society-of-the-descendants-of-washingtons-army-at-valley-forge
 title: Society of the Descendants of Washington's Army at Valley Forge
-subtitle: Member _jure_ William Darby; member no. 3371
+subtitle: Member _jure_ William Darby (Drummer); member no. 3371
 date: 2025-05-15
-qualifying_ancestors: [ "William Darby (drummer)" ]
+qualifying_ancestors: [ "William Darby (Drummer)" ]
 member_number: 3371
 author: k3jph
 layout: page
