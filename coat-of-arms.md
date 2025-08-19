@@ -210,24 +210,6 @@ the essence of the coat of arms remains consistent across different
 renditions, showcasing the universal language of heraldry that
 transcends individual variations in artistic expression.
 
-I have developed two versions of my coat of arms, utilizing digital
-techniques to craft the heraldic elements. Displayed side by side,
-the version on the left adheres to the traditional English style,
-while the one on the right follows the medieval convention. I have
-used the medieval style in most cases due to its more compact and
-streamlined design, which offers greater versatility for various
-applications.
-
-{% include figure.html placement="left" width="6" 
-image="armory/jhoward-coa-english.svg"
-cap="Coat of Arms in the English style by me" 
-alt="Coat of Arms in the English style by me" %}
-
-{% include figure.html placement="left" width="6"
-image="armory/jhoward-coa-medieval.svg" 
-cap="Coat of Arms in the medieval style by me" 
-alt="Coat of Arms in the medieval style by me" %}
-
 ### Additional Emblazonments
 
 In this section, we showcase various artistic interpretations of my coat of
@@ -252,10 +234,6 @@ alt="Coat of Arms as interpreted by Alexandr Chernushkin" %}
 {% include figure.html image="armory/jhoward-arms-hatched.svg" placement="left" width="4" border=false
 cap="Coat of Arms in the hatched style by me" 
 alt="Coat of Arms in the hatched style by me" %}
-
-{% include figure.html image="armory/jhoward-arms-sodacan-glasshouse.svg" placement="left" width="4" border=false
-cap="Coat of Arms in the [Sodacan](https://commons.wikimedia.org/wiki/User:Sodacan)/[Glasshouse](https://commons.wikimedia.org/wiki/User:Glasshouse) style by me" 
-alt="Coat of Arms in the Sodacan/Glasshouse style by me" %}
 
 {% include figure.html image="armory/jhoward-arms-wappenwiki.svg" placement="left" width="4" border=false
 cap="Coat of Arms in the [WappenWiki](https://wappenwiki.org/) style by me" 
@@ -306,14 +284,14 @@ and presence of heraldic identity.
 
 Crest
 
-{% include figure.html image="armory/jhoward-crest-quentin-peacock.svg" width="4"
-placement="right" cap="Crest in the Fairbairn-style by [Quentin Peacock](http://digitalheraldry.com/)"
-alt="Crest in the Fairbairn-style by Quentin Peacock" %}
+{% include figure.html image="armory/jhoward-crest.svg" width="4"
+placement="right" cap="Crest as it appears in the Letters Patent"
+alt="Crest as it appears in the Letters Patent" %}
 
 The crest occupies its traditional position atop the helm in the full armorial
 achievement and serves as a complementary emblem of personal identity. In this
-case, it is a martlet Sable, rendered footless, in flight, and facing dexter,
-set upon a wreath of the livery colors. Unlike the shield, which often functions
+case, it is a martlet Sable—rendered footless, in flight, and facing dexter—set
+upon a wreath of the livery colors. Unlike the shield, which often functions
 independently in banners or seals, the crest is more intimate in scale and
 symbolic depth, used most often in formal armorial contexts or engraved devices.
 
@@ -333,7 +311,7 @@ In that spirit of familiarity, the martlet has also been given a name: Eckbert.
 This bit of informal personification arose during the design process between
 Quentin and myself, and while not heraldically required, it reflects the
 personal dimension that crests often hold. They are not just visual identifiers,
-but symbolic avatars as distillations of lineage, values, and character.
+but symbolic avatars—distillations of lineage, values, and character.
 
 The blazon of the crest reads:
 
@@ -348,7 +326,7 @@ achievement reads as a coherent whole.
 
 In contemporary use, the crest may appear above the arms on letterheads,
 documents, and regalia, or on its own when the context calls for a simplified
-emblem. In such settings, Eckbert, the sable martlet, serves not only as a visual
+emblem. In such settings, Eckbert—the sable martlet—serves not only as a visual
 anchor, but as a quiet representative of the ideals behind the arms: learning,
 discipline, and a certain restless precision.
 
