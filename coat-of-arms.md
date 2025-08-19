@@ -5,11 +5,6 @@ author: James Howard
 layout: page
 permalink: /coat-of-arms
 featured_image: /assets/img/malta.webp
-credits: >-
-  These images contain components from Wikimedia users
-  [Horemhat](https://commons.wikimedia.org/wiki/User:Horemhat),
-  [Sodacan](https://commons.wikimedia.org/wiki/User:Sodacan), and
-  [Xavigivax](https://commons.wikimedia.org/wiki/User:Xavigivax).
 redirect_from:
   - /coa
   - /malta
