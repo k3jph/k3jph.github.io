@@ -13,11 +13,16 @@ redirect_from:
   - /kcrso
   - /honors/kcrso
 credits: >-
-  The coat of arms of the Kingdom of Hawai'i is [copyright by
-  Sodacan](https://en.wikipedia.org/wiki/File:Royal_Coat_of_Arms_of_Hawaii.svg).
-  Elements used in the medal of a Knight Commander of the Royal Order of the
-  Star of Oceania are also [copyrighted by
-  Sodacan](https://en.wikipedia.org/wiki/Coat_of_arms_of_the_Hawaiian_Kingdom#/media/File:Crown_of_Hawaii_(Heraldic).svg).
+  This page incorporates elements under Creative Commons licenses, requiring
+  proper attribution.
+
+  * Royal Coat of Arms of Hawaii
+    - Source: [Royal Coat of Arms of Hawaii](https://commons.wikimedia.org/wiki/File:Royal_Coat_of_Arms_of_Hawaii.svg)
+    - Author: Wikimedia Commons user [Rs-nourse](https://commons.wikimedia.org/wiki/User:Rs-nourse)
+    - License: Creative Commons Attribution-Share Alike 3.0 Unported ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
+    - Modifications: None. The image is used as-is elsewhere on this site.
+
+  Additional credits are listed on the [copyright page](/copyright).
 ---
 
 {% include figure.html image="honors/Royal_Coat_of_Arms_of_Hawaii.svg" placement="right" width="4"
