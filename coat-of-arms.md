@@ -277,11 +277,11 @@ English, Maltese, and beyond--these elements share a unifying function:
 to express, in various media and degrees of formality, the continuity
 and presence of heraldic identity.
 
-Crest
+### Crest
 
-{% include figure.html image="armory/jhoward-crest.svg" width="4"
-placement="right" cap="Crest as it appears in the Letters Patent"
-alt="Crest as it appears in the Letters Patent" %}
+{% include figure.html image="armory/jhoward-crest-quentin-peacock.svg" width="4"
+placement="right" cap="Crest in the Fairbairn-style by [Quentin Peacock](https://www.digitalheraldry.com/)"
+alt="Crest in the Fairbairn-style by Quentin Peacock" %}
 
 The crest occupies its traditional position atop the helm in the full armorial
 achievement and serves as a complementary emblem of personal identity. In this
@@ -290,17 +290,20 @@ upon a wreath of the livery colors. Unlike the shield, which often functions
 independently in banners or seals, the crest is more intimate in scale and
 symbolic depth, used most often in formal armorial contexts or engraved devices.
 
-The design shown here was drawn by Quentin Peacock and follows the stylistic
-conventions of Fairbairn's Book of Crests, one of the most influential heraldic
-reference works of the 19th and early 20th centuries. First published in 1859
-and continually expanded thereafter, Fairbairn's compilation became a de facto
-visual standard for how British and colonial crests should be illustrated:
-compact, crisp, and uniform in treatment, with an emphasis on legibility and
-heraldic clarity. The illustrations are often set without background, with
-consistent line work, minimal shading, and a careful focus on the recognizable
-outline of each charge. In this style, the martlet appears as a clean black
-silhouette on a simple torse—a deliberate homage to Fairbairn's aesthetic and
-its influence on modern armorial presentation.
+The design shown here was drawn by [Quentin
+Peacock](https://www.digitalheraldry.com/) and follows the stylistic conventions
+of [Fairbairn's Book of
+Crests](https://archive.org/details/fairbairnsbookof01fair/page/n5/mode/2up),
+one of the most influential heraldic reference works of the 19th and early 20th
+centuries. First published in 1859 and continually expanded thereafter,
+Fairbairn's compilation became a de facto visual standard for how British and
+colonial crests should be illustrated: compact, crisp, and uniform in treatment,
+with an emphasis on legibility and heraldic clarity. The illustrations are often
+set without background, with consistent line work, minimal shading, and a
+careful focus on the recognizable outline of each charge. In this style, the
+martlet appears as a clean black silhouette on a simple torse—a deliberate
+homage to Fairbairn's aesthetic and its influence on modern armorial
+presentation.
 
 In that spirit of familiarity, the martlet has also been given a name: Eckbert.
 This bit of informal personification arose during the design process between
