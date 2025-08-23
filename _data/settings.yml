@@ -89,6 +89,9 @@ social_media:
   - icon: mastodon
     name: Mastodon
     url: https://mastodon.social/@k3jph
+  - icon: pinterest
+    name: Pinterest
+    url: https://pinterest.com/k3jph
   - icon: instagram
     name: Instagram
     url: https://www.instagram.com/k3jph/
@@ -107,6 +110,7 @@ social_media:
   - icon: orcid
     name: ORCiD
     url: https://orcid.org/0000-0003-4530-1547
+
 
 footer_settings:
   footer_tagline: A website of the House of Basu-Howard
