@@ -16,8 +16,8 @@ redirect_from:
 ---
 
 {% include figure.html image="armory/jhoward-salmeron-960px.webp" placement="right" width="6" border=true
-cap="Coat of Arms as interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
-alt="Coat of Arms as interpreted by Dr Antonio Salmerón" %}
+cap="Interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
+alt="Interpreted by Dr Antonio Salmerón" %}
 
 At its core, heraldry started as a means of identification, evolving
 over centuries from simple insignias to the complex art of designing,
@@ -219,48 +219,52 @@ lenses.
 
 <div id="masonry-container" class="row">
 {% include figure.html image="armory/jhoward-coa-ratul-960px.webp" placement="left" width="4" border=true
-cap="Coat of Arms as interpreted by [Ratul S](https://www.fiverr.com/ratulsen544)" 
-alt="Coat of Arms as interpreted by Ratul S" %}
+cap="Interpreted by [Ratul S](https://www.fiverr.com/ratulsen544)" 
+alt="Interpreted by Ratul S" %}
 
-{% include figure.html image="armory/jhoward-coa-achernushkin-960px.webp" placement="right" width="4"
-cap="Coat of Arms as interpreted by [Alexandr Chernushkin](https://www.fiverr.com/achernushkin)" 
-alt="Coat of Arms as interpreted by Alexandr Chernushkin" %}
+{% include figure.html image="armory/jhoward-coa-achernushkin-960px.webp" placement="left" width="4"
+cap="Interpreted by [Alexandr Chernushkin](https://www.fiverr.com/achernushkin)" 
+alt="Interpreted by Alexandr Chernushkin" %}
 
 {% include figure.html image="armory/jhoward-arms-hatched.svg" placement="left" width="4" border=false
-cap="Coat of Arms in the hatched style by me" 
-alt="Coat of Arms in the hatched style by me" %}
+cap="The hatched style by me" 
+alt="The hatched style by me" %}
 
 {% include figure.html image="armory/jhoward-arms-wappenwiki.svg" placement="left" width="4" border=false
-cap="Coat of Arms in the [WappenWiki](https://wappenwiki.org/) style by me" 
-alt="Coat of Arms in the WappenWiki style by me" %}
+cap="The [WappenWiki](https://wappenwiki.org/) style by me" 
+alt="The WappenWiki style by me" %}
 
 {% include figure.html image="armory/jhoward-arms-pierra.svg" placement="left" width="4" border=false
-cap="Coat of Arms as interpreted by [Jean-Eudes Pierra](https://www.armorialofthebee.com/board)" 
-alt="Coat of Arms as interpreted by Jean-Eudes Pierra" %}
+cap="Interpreted by [Jean-Eudes Pierra](https://www.armorialofthebee.com/board)" 
+alt="Interpreted by Jean-Eudes Pierra" %}
 
 {% include figure.html image="armory/cowan/howard-james-shield.png" placement="left" width="4" border=false
-cap="Coat of Arms as interpreted by [Steve Cowan](https://www.stevecowan.ca/)" 
-alt="Coat of Arms as interpreted by Steve Cowan" %}
+cap="Interpreted by [Steve Cowan](https://www.stevecowan.ca/)" 
+alt="Interpreted by Steve Cowan" %}
 
 {% include figure.html image="armory/jhoward-armoji.svg" placement="left" width="4" border=false
-cap="Coat of Arms in the armoji style" 
-alt="Coat of Arms as the armoji style" %}
+cap="Armoji style" 
+alt="Armoji style" %}
 
 {% include figure.html image="armory/jhoward-arms-loggail.webp" placement="left" width="4" border=true
-cap="Coat of Arms as interpreted by Heikki Halkosaari" 
-alt="Coat of Arms as interpreted by Heikki Halkosaari" %}
+cap="Interpreted by Heikki Halkosaari" 
+alt="Interpreted by Heikki Halkosaari" %}
 
 {% include figure.html image="armory/jhoward-coa-abshier.webp" placement="left" width="4" border=false
-cap="Coat of Arms as interpreted by [Brian Abshier](http://art.abshier.us/)" 
-alt="Coat of Arms as interpreted by Brian Abshier" %}
+cap="Interpreted by [Brian Abshier](http://art.abshier.us/)" 
+alt="Interpreted by Brian Abshier" %}
 
 {% include figure.html image="armory/jhoward-coa-manuelpais-keepsake.webp" placement="left" width="4" border=false
-cap="Coat of Arms as interpreted by Manuel Pais in his Keepsake style"
-alt="Coat of Arms as interpreted by Manuel Pais in his Keepsake style" %}
+cap="Interpreted by Manuel Pais in his Keepsake style"
+alt="Interpreted by Manuel Pais in his Keepsake style" %}
 
 {% include figure.html image="armory/jhoward-coa-manuelpais-cba.webp" placement="left" width="4" border=false
-cap="Coat of Arms as interpreted by Manuel Pais in Carta de Brasão de Armas style" 
-alt="Coat of Arms as interpreted by Manuel Pais in Carta de Brasão de Armas style" %}
+cap="Interpreted by Manuel Pais in Carta de Brasão de Armas style" 
+alt="Interpreted by Manuel Pais in Carta de Brasão de Armas style" %}
+
+{% include figure.html image="armory/jhoward-coa-fairbairn-color.svg" placement="left" width="4" border=false
+cap="A colored woodcut style by me" 
+alt="A colored woodcut style by me" %}
 </div>
 
 ## Related Insignia
@@ -313,7 +317,7 @@ but symbolic avatars—distillations of lineage, values, and character.
 
 The blazon of the crest reads:
 
-> Upon a wreath of the liveries a martlet Sable.
+> Upon a wreath of the liveries a martlet Sable
 
 Though spare, this is a classically structured English blazon. The martlet, long
 associated with tireless pursuit, intellectual restlessness, and the role of the
@@ -345,7 +349,7 @@ seen clearly and appreciated up close.
 
 The blazon of the banner is:
 
-> A banner of the Arms.
+> A banner of the Arms
 
 This format omits helm, crest, mantling, and motto, in keeping with the
 convention that banners reflect only the contents of the shield. By excluding
@@ -363,39 +367,56 @@ formal emblem of identity.
 
 ### English Heraldic Badges
 
-{% include figure.html width="4" placement="right"
+<div id="masonry-container" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-4 pull-right"> 
+{% include figure.html placement="right" 
 image="armory/jhoward-heraldic-badge.svg" 
-cap="Badge in the form of an English heraldic badge"
-alt="Badge in the form of an English heraldic badge" %}
+cap="Primary heraldic badge" 
+alt="Primary heraldic badge" %}
 
-The English heraldic badge I have adopted features two distinct designs,
-each reflecting different aspects of my armigerous status and personal
-values.  The primary badge incorporates the martlet from my crest,
-depicted in front of the sword from my coat of arms, which is arranged
-vertically.  This design choice adds a layer of complexity and meaning,
-combining two significant elements from my coat of arms into a single,
-cohesive emblem. The badge is designed to be recognizable and
-straightforward, making it suitable for various applications such as
-seals, stationery, and personal regalia.
+{% include figure.html placement="right"
+image="armory/jhoward-heraldic-badge-crossed-swords.svg"
+cap="Secondary heraldic badge variant"
+alt="Secondary heraldic badge variant" %}
+</div>
 
-The English heraldic badge I use combines the principal charges of my coat of
-arms into a unified emblem suitable for display in less formal contexts. The
-badge consists of a vertically oriented sword, point downward, with the martlet
-from my crest set in front. This pairing integrates the symbolism of
-steadfastness and inquiry, bringing together the two central motifs of my
-heraldic identity.
+Two heraldic badges are associated with my armorial bearings, each combining
+core elements from the arms into compact, emblematic forms. These badges follow
+the tradition of English armory, where personal devices were historically used
+for identification in less formal or non-armorial contexts—appearing on
+retainers’ clothing, seals, standards, household plate, and architecture.
 
-The blazon is:
+The primary badge features the martlet from the crest placed in front of a
+vertically oriented sword inverted, drawn directly from the shield. This
+combination merges the symbolic meanings of the arms: the sword represents
+resolve and order; the martlet, constant inquiry and pursuit. In uniting them,
+the badge becomes a singular emblem of philosophical direction under principled
+discipline.
 
-> A sword point downwards Or, hilt and crossguard Azure, overall a martlet
-> Sable.
+The blazon of the primary badge is:
 
-This badge was not part of the original grant of arms issued by the Chief Herald
-of Arms of Malta, but was adopted subsequently in accordance with heraldic
-custom. It remains faithful to the elements of the granted arms and reflects a
-legitimate extension of their use in badge form. In English heraldry, badges
-have long served as personal devices, distinct from arms or crest, used for
-identification on clothing, possessions, and in architectural ornament.
+> A sword inverted Or hilted Azure surmounted by a martlet Sable.
+
+This badge was adopted following the grant of arms issued by the Chief Herald of
+Arms of Malta and remains heraldically consistent with the granted design,
+though not part of the Letters Patent itself. It follows English custom in that
+badges may be assumed or developed alongside armorial bearings, especially when
+drawn exclusively from components already granted.
+
+The secondary badge features a blue tetrahedron—the central geometric figure
+from the shield—surmounted by two golden swords in saltire. This design is more
+assertive and structured, and lends itself well to institutional, martial, or
+ceremonial uses. Where the first badge emphasizes symbolic integration, this
+variant focuses on balance and strength.
+
+The blazon of the secondary badge is:
+
+> A tetrahedron Azure surmounted by two swords in saltire Or, hilted Azure.
+
+Both badges are designed for flexibility and visual clarity. They may be used in
+various heraldic and para-heraldic settings: engraved objects, wax seals,
+digital avatars, or rendered in precious metal for regalia. Though unofficial in
+the legal sense, their derivation from the armorial bearings and adherence to
+heraldic norms establish their legitimacy as extensions of the granted arms.
 
 ### Scottish Crest Badge
 
@@ -499,7 +520,7 @@ The full blazon of the standard is as follows:
 
 > A standard, the hoist bearing the arms of Maryland; the fly per fess Argent,
 charged with the Crest between two representations of the Badge, all separated
-by two bends Azure inscribed with the Motto in letters Argent.
+by two bends Azure inscribed with the Motto in letters Argent
 
 The fly of the standard is designed to bring together the principal components
 of my armorial bearings in a dynamic and legible form suited to cloth. The
