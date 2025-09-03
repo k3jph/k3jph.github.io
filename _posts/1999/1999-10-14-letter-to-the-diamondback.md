@@ -9,8 +9,8 @@ categories:
   - Blog
 tags:
   - computer security
-  - Linux
-  - UNIX
+  - linux
+  - Unix
   - virus
   - University of Maryland
 ---
