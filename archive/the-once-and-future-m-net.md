@@ -9,7 +9,7 @@ categories:
 tags:
   - Arbornet
   - M-Net
-  - UNIX
+  - Unix
   - BBS
   - online communities
 ---
