@@ -9,27 +9,6 @@ author: k3jph
 layout: page
 guid: order-of-americans-of-armorial-ancestry
 featured_image: /assets/img/ancestry/order-of-americans-of-armorial-ancestry.webp
-credits: >-
-  This page incorporates elements under Creative Commons licenses, requiring
-  proper attribution.
-  
-  * Hoar's Eagle's Head
-    - Source: [Imperial Coat of Arms of the Empire of Austria (1815)](https://commons.wikimedia.org/wiki/File:Imperial_Coat_of_Arms_of_the_Empire_of_Austria_(1815).svg)
-    - Author: Wikimedia Commons user [Rs-nourse](https://commons.wikimedia.org/wiki/User:Rs-nourse)
-    - License: Creative Commons Attribution-Share Alike 3.0 Unported ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
-    - Modifications: The eagle’s head was adapted from the imperial eagle and incorporated into the coat of arms displayed on this site.
-  * Hoar's Double-Headed Eagle
-    - Source: [A White Double-headed eagle](https://commons.wikimedia.org/wiki/File:A_White_Double-headed_eagle.svg)
-    - Author: Wikimedia Commons user [Heraldry](https://commons.wikimedia.org/wiki/User:Heraldry)
-    - License: Creative Commons Attribution-Share Alike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))
-    - Modifications: The double-headed eagle was adapted and incorporated into the coat of arms displayed on this site.
-  * Hoar's Eagle's Talons
-    - Source: [Coat of Arms of Balthazar DeWolf](https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Balthazar_DeWolf.svg)
-    - Author: Wikimedia Commons user [Glasshouse](https://commons.wikimedia.org/wiki/User:Glasshouse)
-    - License: Creative Commons Attribution-Share Alike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))
-    - Modifications: The eagle’s talons were adapted from the original arms and incorporated into the coat of arms displayed on this site.
-      
-  Additional credits are listed on the [copyright page](/copyright).
 permalink: /ancestry/order-of-americans-of-armorial-ancestry
 redirect_from: [ /ancestry/oaaa ]
 ---
