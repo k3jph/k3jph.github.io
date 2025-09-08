@@ -59,7 +59,7 @@ through [John Hoar, Esquire, of Massachusetts](https://www.wikitree.com/wiki/Hoa
 attributed to John Hoar are:
 
 {% include figure.html
-    image="ancestry/order-of-americans-of-armorial-ancestry/hoar-arms-full.svg" 
+    image="ancestry/oaaa/hoar-arms-full.svg" 
     placement="right" width="4"
     cap="Arms of John Hoar of Massachusetts"
     alt="Arms of John Hoar of Massachusetts" %}
