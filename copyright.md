@@ -45,11 +45,6 @@ materials used on this sitewide:
   - Author: Wikimedia Commons user [Fry1989](https://commons.wikimedia.org/wiki/User:Fry1989)
   - License: Creative Commons Attribution-Share Alike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))
   - Modifications: The martlet element has been adapted and incorporated into the coat of arms displayed on this site.
-* Cockade
-  - Source: [National Cockade of United States](https://commons.wikimedia.org/wiki/File:National_Cockade_of_United_States.svg)
-  - Author: Wikimedia Commons user [R-41](https://commons.wikimedia.org/wiki/User:R-41)
-  - License: Creative Commons Attribution-Share Alike 3.0 Unported ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
-  - Modifications: The cockade design was adapted to match the colors of the liveries and has been incorporated into the heraldic display on this site.
 * Hawaiian Crown
   - Source: [Royal Coat of Arms of Hawaii](https://commons.wikimedia.org/wiki/File:Royal_Coat_of_Arms_of_Hawaii.svg)
   - Author: Wikimedia Commons user [Rs-nourse](https://commons.wikimedia.org/wiki/User:Rs-nourse)
