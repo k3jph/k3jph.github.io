@@ -45,16 +45,6 @@ materials used on this sitewide:
   - Author: Wikimedia Commons user [Fry1989](https://commons.wikimedia.org/wiki/User:Fry1989)
   - License: Creative Commons Attribution-Share Alike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))
   - Modifications: The martlet element has been adapted and incorporated into the coat of arms displayed on this site.
-* Crest Badge
-  - Source: [Armiger crest badge – (fictional)](https://commons.wikimedia.org/wiki/File:Armiger_crest_badge_-_(fictional).svg)
-  - Author: Wikimedia Commons user [Irblo](https://commons.wikimedia.org/wiki/User:Irblo)
-  - License: Creative Commons Attribution-Share Alike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))
-  - Modifications: The original crest badge design was altered by removing the lion, changing the motto, and adding a martlet, which has been incorporated into the coat of arms displayed on this site.
-* Clan Crest Badge
-  - Source: [Clan member crest badge – Clan X (fictional)](https://commons.wikimedia.org/wiki/File:Clan_member_crest_badge_-_Clan_X_(fictional).svg)
-  - Author: Wikimedia Commons user [Irblo](https://commons.wikimedia.org/wiki/User:Irblo)
-  - License: Creative Commons Attribution-Share Alike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))
-  - Modifications: The original clan crest badge design was altered by replacing the lion with a martlet and changing the motto, which has been incorporated into the coat of arms displayed on this site.
 * Cockade
   - Source: [National Cockade of United States](https://commons.wikimedia.org/wiki/File:National_Cockade_of_United_States.svg)
   - Author: Wikimedia Commons user [R-41](https://commons.wikimedia.org/wiki/User:R-41)
