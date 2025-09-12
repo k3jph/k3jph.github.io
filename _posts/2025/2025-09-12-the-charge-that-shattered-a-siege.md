@@ -38,7 +38,7 @@ sounds like something you would hear in a physics classroom, but it is also a
 way to strip back the legend and see how much raw force was actually in motion.
 To answer him, we have to start not with equations, but with horses.
 
-### The weight of a hussar
+## The weight of a hussar
 
 The base of our calculation is mass. Early modern cavalry horses were not the
 towering draft animals of Hollywood, but neither were they ponies.
@@ -55,7 +55,7 @@ added a few more. Tack and saddle systems could add 9–10 kilograms. Add it all
 together and each hussar was somewhere between 530 and 660 kilograms, horse and
 rider moving as one.
 
-### How fast did they charge?
+## How fast did they charge?
 
 Speed is just as important as mass, because kinetic energy scales with the
 square of velocity. Too slow, and a cavalry charge has no shock. Too fast, and
@@ -76,7 +76,7 @@ sense to calculate for the 3,000 first and then scale up. This way we can
 separate the energy of the elite hussars from the total wall of horseflesh
 behind them.
 
-### The formula
+## The formula
 
 Now we can introduce the math:
 
@@ -152,7 +152,7 @@ possible, shows us the sensitivity to assumptions, and provides clarity where
 legend gives us none. The hussars' charge will always be remembered in song, but
 the estimate reminds us that history can be quantified, even if roughly.
 
-### September 12
+## September 12
 
 And so, on September 12, when we recall the day the hussars arrived, we can
 remember both the legend and the math. It was not the supernatural beating of
