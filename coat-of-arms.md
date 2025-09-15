@@ -367,17 +367,10 @@ formal emblem of identity.
 
 ### English Heraldic Badges
 
-<div id="masonry-container" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-4 pull-right"> 
-{% include figure.html placement="right" 
+{% include figure.html placement="right" width=4
 image="armory/jhoward-heraldic-badge.svg" 
 cap="Primary heraldic badge" 
 alt="Primary heraldic badge" %}
-
-{% include figure.html placement="right"
-image="armory/jhoward-heraldic-badge-crossed-swords.svg"
-cap="Secondary heraldic badge variant"
-alt="Secondary heraldic badge variant" %}
-</div>
 
 Two heraldic badges are associated with my armorial bearings, each combining
 core elements from the arms into compact, emblematic forms. These badges follow
@@ -407,6 +400,11 @@ from the shield—surmounted by two golden swords in saltire. This design is mor
 assertive and structured, and lends itself well to institutional, martial, or
 ceremonial uses. Where the first badge emphasizes symbolic integration, this
 variant focuses on balance and strength.
+
+{% include figure.html placement="right" width=4
+image="armory/jhoward-heraldic-badge-crossed-swords.svg"
+cap="Secondary heraldic badge variant"
+alt="Secondary heraldic badge variant" %}
 
 The blazon of the secondary badge is:
 
