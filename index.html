@@ -3,7 +3,17 @@ layout: base
 title: Home
 subtitle: The website of James Howard, a Mathematician, a Different Kind of Mathematician, and a Statistician
 head_additions: >-
-  <tag/>
+  <!-- Halloween styles -->
+  <link rel="stylesheet" href="/assets/css/halloween.css">
+
+  <!-- Preload seasonal assets to avoid flicker on first paint -->
+  <link rel="preload" href="/assets/img/halloween/jameshoward-arms.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="/assets/img/halloween/spiderweb.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="/assets/img/halloween/lightning.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="/assets/audio/thunder.mp3" as="audio" type="audio/mpeg">
+
+  <!-- Halloween behavior (logo swap + cobweb + bolt + optional thunder) -->
+  <script defer src="/assets/js/halloween.js"></script>
 ---
 
 <div class="section section-header">
@@ -16,7 +26,15 @@ head_additions: >-
                 <!-- Horizontal Layout -->
                 <div class="row mt-5 p-5" style="display: flex; align-items: center;">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ml-5 inline-svg-coa-container">
-                        {% svg '/assets/img/identity/jameshoward-arms.svg' class="img-responsive pl-5" alt="James Howard coat of arms" %}
+                        <img id="logo-default" class="img-responsive pl-5" alt="James Howard coat of arms" width="65%"
+                             data-src="/assets/img/identity/jameshoward-arms.svg" style="display:none" />
+                        <img id="logo-halloween" class="img-responsive pl-5" alt="James Howard coat of arms" width="65%"
+                             data-src="/assets/img/halloween/jameshoward-arms.svg" style="display:none" />
+                        <noscript>
+                            <!-- Fallback: show default logo if JS is off -->
+                            <img id="logo-default" class="img-responsive pl-5" alt="James Howard coat of arms"
+                                 data-src="/assets/img/identity/jameshoward-arms.svg" />
+                        </noscript>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mr-5"
                          style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 20px;">

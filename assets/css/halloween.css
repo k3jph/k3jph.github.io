@@ -1,0 +1,79 @@
+/* ——— Global logo rules (no flash, stable layout) ——— */
+
+/* Reserve the logo area so the header does not jump while JS decides */
+:root {
+  --logo-w: 70vh;   /* adjust to your real intrinsic size */
+  --logo-h: 70vh;
+}
+
+#logo-default,
+#logo-halloween {
+  display: none;                /* both hidden until one is chosen */
+  width: var(--logo-w);
+  height: var(--logo-h);
+}
+
+/* Optional: if your header needs a fixed slot even before reveal */
+.header-logo-slot {
+  width: var(--logo-w);
+  height: var(--logo-h);
+  display: block;
+}
+
+/* ——— Halloween decorations ——— */
+
+/* Cobweb in top-right */
+.halloween-mode .cobweb {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 500px;
+  height: 500px;
+  opacity: 0.8;
+  pointer-events: none;
+  z-index: 500;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+  filter: drop-shadow(0 0 1px rgba(0,0,0,.15));
+}
+
+/* Lightning bolt down the left edge (as an <img>) */
+.halloween-mode .lightning-bolt {
+  position: fixed;
+  left: 0;
+  top: -20vh;                /* start slightly above viewport */
+  width: auto;               /* preserve SVG aspect ratio */
+  height: 180vh;              /* near full-height */
+  opacity: 0;                /* JS toggles during flashes */
+  pointer-events: none;
+  z-index: 9000;
+  filter: drop-shadow(0 0 8px rgba(255,255,255,0.6));
+  transition: opacity 60ms linear;  /* crisp flicker */
+  transform: translateY(0) rotate(-45deg);   /* default bendwise angle */
+  transform-origin: top left;                /* pivot from the “cloud” */
+  will-change: transform, opacity, filter;
+}
+
+/* baseline, subtle presence */
+.lightning-bolt {
+  filter:
+    drop-shadow(0 0 6px rgba(255,255,255,0.25))
+    drop-shadow(0 0 12px rgba(255,255,255,0.15));
+  transition: opacity 60ms linear, filter 90ms ease;
+}
+
+/* on-flash glow (JS toggles this class during “on” frames) */
+.lightning-bolt.glow {
+  filter:
+    brightness(1.15) contrast(1.08)
+    drop-shadow(0 0 10px rgba(255,255,255,0.35))
+    drop-shadow(0 0 22px rgba(163,199,255,0.28))   /* tinted */
+    drop-shadow(0 0 38px rgba(163,199,255,0.20))
+    blur(0.3px);
+}
+
+/* Accessibility: disable motion effects if user requests reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .halloween-mode .lightning-bolt { display: none; }
+}
