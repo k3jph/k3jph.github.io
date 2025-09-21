@@ -154,6 +154,8 @@ In the spring of 2017, I started occasionally teaching in the [Master of Science
 *   **MSA 600 Foundations of Research Methods in Administration** This course covers the basic research process starting with the scientific method, lit reviews, data collection, analysis, through to research writing. Through this course, a student is well-prepared to design and complete a research project in a government or business setting.
     *   [Spring 2017 Syllabus](/assets/docs/MSA600-Syllabus-Spring2017.pdf)
 *   **MSA 607 Program Management in Complex Organizations** This course is a unique course that looks beyond standard project management and looks at the interrelationships of projects inside large and diversified organizations.
+    *   [Spring 2025 Syllabus](/assets/docs/MSA607-Syllabus-Spring2025.pdf)
+    *   [Fall 2024 Syllabus](/assets/docs/MSA607-Syllabus-Fall2024.pdf)
     *   [Spring 2024 Syllabus](/assets/docs/MSA607-Syllabus-Spring2024.pdf)
     *   [Spring 2023 Syllabus](/assets/docs/MSA607-Syllabus-Spring2023.pdf)
     *   [Fall 2022 Syllabus](/assets/docs/MSA607-Syllabus-Fall2022.pdf)
