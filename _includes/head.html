@@ -61,7 +61,7 @@
     <link href="{{ '/assets/css/fonts/pe-icon-7-stroke.css' | relative_url }}" rel="stylesheet">
     <link href="{{ '/assets/css/cookiealert.css' | relative_url }}" rel="stylesheet" />
 
-    {% if page.head_additions %}
-       {{ page.head_additions }}
+    {% if page.head_inject %}
+       {{ page.head_inject }}
     {% endif %}
 </head>
