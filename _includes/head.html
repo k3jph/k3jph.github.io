@@ -1,5 +1,12 @@
 <head>
     <meta charset="utf-8" />
+    {% if page.layout == "redirect" %}
+    <link rel="canonical" href="{{ page.redirect.to }}" />
+    <script>location="{{ page.redirect.to }}"</script>
+    <meta http-equiv="refresh" content="5; url={{ page.redirect.to }}" />
+    <meta name="robots" content="noindex" />
+    {% endif %}
+
     <link rel="icon" type="image/png" sizes="96x96" href="{{ '/assets/img/identity/favicon.svg' | relative_url }}">
 
     {% assign title = page.title %}
@@ -64,4 +71,6 @@
     {% if page.head_inject %}
        {{ page.head_inject }}
     {% endif %}
+
+    {{ page.head_inject }}
 </head>
