@@ -489,6 +489,36 @@ fidelity to the ideals of Scottish heraldic tradition. It is, in that
 sense, both a personal and cultural declaration, one that honors the
 past even as it presses forward, like the martlet, into the future.
 
+### Irish Crest Badge
+
+{% include figure.html width="4" placement="right"
+image="armory/jhoward-crest-badge-irish.svg" 
+cap="Crest in the form of an Irish crest badge" 
+alt="Crest in the form of an Irish crest badge" %}
+
+While Scottish heraldry developed the strap-and-buckle crest badge as a
+formalized declaration of clan loyalty, no such parallel ever existed in
+Ireland. The social structures of Gaelic Ireland centered on kinship and
+territory rather than corporate "clans" in the Scottish sense, and Irish
+heraldry never adopted a codified badge system.
+
+In the modern era, however, an alternative has emerged: the substitution
+of the Claddagh ring, two hands clasping a crowned heart, as the surround
+for a crest badge. This adaptation is a late twentieth- and early
+twenty-first-century invention, designed to provide an "Irish
+equivalent" to the Scottish clan badge. It is most often used in
+diaspora contexts, where Irish identity is celebrated through popular
+symbols.
+
+Though not grounded in historic Irish heraldic law or custom, the
+Claddagh crest badge has gained traction as a para-heraldic emblem. It
+demonstrates both cultural pride and creative continuity, linking
+heraldry with one of the most recognizable motifs of Irish symbolism.
+For that reason, I have included an Irish-style crest badge for my own
+arms, framed within a Claddagh, as an example of how contemporary
+heraldic practice can adapt and expand while acknowledging its invented
+character.
+
 ### Standard
 
 {% include figure.html width="4" placement="right"
