@@ -125,3 +125,10 @@ American history for over two centuries.
    cap="Membership certificate in the Society of the War of 1812 in Maryland" %}
    
 Or you can [download the PDF here](/assets/docs/ancestry/MD1812-Ray.pdf).
+
+{% include figure.html width="12"
+   image="ancestry/GSW1812-Ray.webp" border=true
+   alt="Membership certificate in the General Society of the War of 1812"
+   cap="Membership certificate in the General Society of the War of 1812" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/GSW1812-Ray.pdf).
