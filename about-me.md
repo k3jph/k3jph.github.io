@@ -77,7 +77,7 @@ and serving on several public and private boards.
 *   [PMI Agile Certified Practitioner](/assets/docs/certifications/JHoward-PMI-ACP.pdf)
 *   [PMI Professional in Business Analysis](/assets/docs/certifications/JHoward-PMI-PBA.pdf)
 *   [Certified Associate in Project Management](/assets/docs/certifications/JHoward-PMI-CAPM.pdf)
-*   [Certified Government Financial Manager](https://www.credly.com/badges/9b7ead19-ed5d-46f0-8aec-6c99d230e049/public_url)
+*   [Certified Government Financial Manager](/assets/docs/certifications/JHoward-CGFM.pdf)
 ' %}
 </div>
 </div>
