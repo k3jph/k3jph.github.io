@@ -765,3 +765,17 @@ the certificate, issued under Registration Number AA0183 and dated, 20 June
 
 You may [download the PDF
 here](/assets/docs/jhoward-american-armigers-registration.pdf).
+
+### Heraldry of the World
+
+In addition to formal grant and domestic registration, the arms have also been
+recorded in the [Heraldry of the
+World](https://www.heraldry-wiki.com/wiki/James_Patrick_Howard_II), a widely
+used international reference for civic and personal heraldry. While this listing
+is not a legal registration, it contributes to public visibility and ensures
+that the arms are catalogued in a respected heraldic directory alongside
+municipal, ecclesiastical, and institutional arms from across the globe. No
+certificate is issued for this type of entry, but the listing is maintained and
+accessible as part of the site’s extensive global database.
+
+*Additional registrations will be added as they are approved.*
