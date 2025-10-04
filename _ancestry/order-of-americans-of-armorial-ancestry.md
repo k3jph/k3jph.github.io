@@ -1,10 +1,11 @@
 ---
 id: order-of-americans-of-armorial-ancestry
 title: Order of Americans of Armorial Ancestry
-subtitle: Member _jure_ John Hoar; member no. 1185
+subtitle: Member _jure_ John Hoar and Henry Adams; member no. 1185
 date: 2024-07-01
 member_number: 1185
-qualifying_ancestors: [ "John Hoar, Esquire, of Massachusetts" ]
+qualifying_ancestors: [ "John Hoar, Esquire, of Massachusetts",
+                        "Henry Adams of Massachusetts" ]
 author: k3jph
 layout: page
 guid: order-of-americans-of-armorial-ancestry
@@ -119,6 +120,65 @@ families of the same name.  While no documentary evidence yet links John Hoar
 directly to a specific English branch, the heraldic connection is strong. It
 suggests either a cadet line of the same stock or a collateral relation with
 enduring rights to the family arms prior to later differencing.
+
+## Henry Adams of Massachusetts
+
+My supplemental membership in the Order of Americans of Armorial Ancestry is
+*jure sanguinis* through [Henry Adams of
+Massachusetts](https://www.wikitree.com/wiki/Adams-277), the immigrant progenitor
+of the Adams family of Braintree and the forebear of two American presidents.
+Born in Somersetshire, England, around 1583, [Henry Adams immigrated to the
+Massachusetts Bay Colony in 1638](/ancestry/ofpa), settling first at Mount
+Wollaston, later known as Braintree (now Quincy). His arrival came amid the
+Great Migration, when thousands of English Puritans sought religious freedom and
+opportunity in New England.
+
+The arms attributed to Henry Adams are those borne by his English ancestors of
+Devonshire, as recorded in *Burke's General Armory* and several colonial-era
+sources:
+
+{% include figure.html
+image="ancestry/oaaa/adams-arms-full.svg"
+placement="right" width="4"
+cap="Arms of Henry Adams of Massachusetts"
+alt="Arms of Henry Adams of Massachusetts" %}
+
+> Or, on a cross Gules, five mullets Argent.  Crest--Out of a ducal coronet Or,
+> a lion affrontee Gules.
+
+These arms were used by multiple Adams families in Somerset and Devon and are
+found in heraldic records dating to the Tudor period. Their later use in
+Massachusetts reflects both the persistence of English heraldic identity and the
+continuing social recognition of arms among early New England settlers. The
+symbolism of the cross and mullets aligns with traditional Christian and martial
+themes, often associated with steadfastness, honor, and service.
+
+Henry Adams received a grant of land at Mount Wollaston from the town of
+Braintree in 1639, where he established himself as a farmer and patriarch of a
+large family. His death in 1646 is commemorated by a memorial in Quincy,
+erected in 1823 by his descendants, which records his emigration and influence
+on the early colony. Among his eight sons were Joseph Adams, ancestor of
+President John Adams and President John Quincy Adams, and Samuel Adams, ancestor
+of the patriot and signer of the Articles of Confederation bearing the same
+name.
+
+No contemporary motto is known to have been borne by Henry Adams or his English
+forebears of Somerset and Devon. Neither Burke's General Armory nor Fairbairn's
+Crests associates one with the arms "Or, on a cross Gules, five mullets Argent."
+The 1823 Quincy monument erected by his descendants likewise records no heraldic
+motto. Later generations of the Adams family adopted personal mottoes reflecting
+Enlightenment and republican ideals, most notably "Libertatem amicitiam
+retinebis et fidem" ("You will preserve liberty, friendship, and faith") used by
+President John Adams, and "Alteri seculo" ("For another age") employed by John
+Quincy Adams. These later mottoes, however, were individual adoptions and not
+inherited from the immigrant ancestor.
+
+While no formal record survives of Henry Adams's arms being regranted or
+confirmed in the colonies, their attribution is consistent across several
+authoritative heraldic references and adopted by his descendants in later
+American usage. The enduring association of these arms with the Adams family
+underscores the family's continuing recognition of its English roots and its
+place within the broader narrative of armigerous colonial ancestry.
 
 *Additional memberships will be added as they are approved.*
 
