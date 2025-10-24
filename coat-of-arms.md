@@ -660,9 +660,39 @@ meaningful symbolism across diverse cultures.
 
 ### Tartan
 
-{% include figure.html image="armory/jhoward-tartan.svg" width="4" placement="right"
-cap="Tartan adapted from the liveries"
-alt="Tartan adapted from the liveries" %}
+<div class="item col-md-6 pull-right px-4">
+<div class="card">
+  <figure>
+    <div id="masonry-container" class="row">
+      <div class="item col-md-6 px-0">
+        <figure class="py-0"> 
+            <img class="featured-img mx-auto " src="/assets/img/armory/jhoward-tartan-modern.svg" alt="Tartan in the modern palette" loading="">
+            <div class="content"><figcaption class="images-caption">Modern palette</figcaption></div>
+        </figure>
+      </div>
+      <div class="item col-md-6 px-0">
+        <figure class="py-0"> 
+            <img class="featured-img mx-auto " src="/assets/img/armory/jhoward-tartan-weathered.svg" alt="Tartan in the weathered palette" loading="">
+            <div class="content"><figcaption class="images-caption">Weathered palette</figcaption></div>
+        </figure>
+      </div>
+      <div class="item col-md-6 px-0">
+        <figure class="py-0"> 
+            <img class="featured-img mx-auto " src="/assets/img/armory/jhoward-tartan-muted.svg" alt="Tartan in the muted palette" loading="">
+            <div class="content"><figcaption class="images-caption">Muted palette</figcaption></div>
+        </figure>
+      </div>
+      <div class="item col-md-6 px-0">
+        <figure class="py-0"> 
+            <img class="featured-img mx-auto " src="/assets/img/armory/jhoward-tartan-ancient.svg" alt="Tartan in the ancient palette" loading="">
+            <div class="content"><figcaption class="images-caption">Ancient palette</figcaption></div>
+        </figure>
+      </div>
+    </div>
+    <div class="content mt-0"><figcaption class="images-caption">Tartan adapted from the liveries</figcaption></div>
+  </figure>
+</div>
+</div>
 
 In addition to the arms granted to me by the Chief Herald of Arms of Malta, I
 have registered a personal tartan with the Scottish Register of Tartans.
