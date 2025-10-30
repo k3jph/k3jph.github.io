@@ -1,13 +1,14 @@
 ---
 id: order-of-americans-of-armorial-ancestry
 title: Order of Americans of Armorial Ancestry
-subtitle: Member _jure_ John Hoar, Henry Adams, John Bigelow, and Isaac Stearns; member no. 1185
+subtitle: Member _jure_ John Hoar, Henry Adams, John Bigelow, Isaac Stearns, and William Learned; member no. 1185
 date: 2024-07-01
 member_number: 1185
 qualifying_ancestors: [ "John Hoar, Esquire, of Massachusetts",
                         "Henry Adams of Massachusetts",
                         "John Bigelow of Massachusetts",
-                        "Isaac Stearns of Massachusetts"]
+                        "Isaac Stearns of Massachusetts",
+                        "William Learned of Massachusetts"]
 author: k3jph
 layout: page
 guid: order-of-americans-of-armorial-ancestry
@@ -286,6 +287,61 @@ Stearns/Stearn/Stearne/Sterne do not readily show this exact cross flory pierced
 configuration, which explains why American references are the standard citations
 for OAAA purposes. No contemporary motto is recorded for Isaac Stearns in the
 early American armorials.
+
+
+## William Learned of Massachusetts
+
+My supplemental membership in the Order of Americans of Armorial
+Ancestry is _jure sanguinis_ through [William Learned of Charlestown,
+Massachusetts](https://www.wikitree.com/wiki/Learned-2), who arrived in
+New England by 1632 and was among the earliest settlers of that town.
+Born in England around the end of the sixteenth century, he joined the
+Puritan migration and became an active participant in the civic and
+religious life of early Charlestown and later Woburn. His descendants
+were numerous and distinguished, producing clergy, scholars, and public
+officials throughout New England's colonial and early republican
+periods.
+
+{% include figure.html
+image="ancestry/oaaa/learned-arms-full.svg"
+placement="right" width="4"
+cap="Arms of William Learned of Massachusetts"
+alt="Arms of William Learned of Massachusetts" %}
+
+The arms attributed to William Learned are recorded in several American
+heraldic compilations:
+
+> Azure, a saltire engrailed Or, between four lozenges Argent.  Crest--A
+> griffin rampant.
+
+This is a well-constructed composition in the classic late-medieval
+style, dominated by the saltire engrailed, a form that combines strength
+of line with ornamental grace. The Azure field paired with an Or saltire
+produces one of heraldry's most enduring color pairings—blue and gold
+for loyalty and generosity, while the four lozenges Argent provide
+balance and lightness against the darker field. Together, the charges
+create a clean, geometric harmony typical of the early Stuart period.
+
+The griffin rampant crest introduces a dynamic and martial element. As a
+hybrid of lion and eagle, the griffin has represented vigilance,
+courage, and wisdom since classical antiquity. Its use here, rendered
+Azure, beaked and armed Or to harmonize with the shield, reinforces
+those ideals while visually uniting the blue-and-gold palette across
+both field and crest. In period practice, the absence of a recorded
+tincture would have permitted this kind of harmonious coloring, and it
+reflects good heraldic economy. The overall effect is disciplined yet
+spirited.
+
+The Learned blazon and crest appear in Crozier and Matthews without
+tinctures for the crest or any accompanying motto. No corresponding
+entry has been identified in the English visitations or in Burke's
+_General Armory_, suggesting that the arms were either assumed in the
+colonies or derived from an unrecorded English source. The composition
+fits comfortably within the broader English
+"saltire-plus-quarter-charges" pattern found in contemporary arms such
+as those of Christie of Riddry or other families employing engrailed
+saltires. The arrangement of the four lozenges, one in each quarter, is
+both heraldically orthodox and visually balanced.
 
 *Additional memberships will be added as they are approved.*
 
