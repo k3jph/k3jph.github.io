@@ -1,11 +1,12 @@
 ---
 id: order-of-americans-of-armorial-ancestry
 title: Order of Americans of Armorial Ancestry
-subtitle: Member _jure_ John Hoar and Henry Adams; member no. 1185
+subtitle: Member _jure_ John Hoar, Henry Adams, and Isaac Stearns; member no. 1185
 date: 2024-07-01
 member_number: 1185
 qualifying_ancestors: [ "John Hoar, Esquire, of Massachusetts",
-                        "Henry Adams of Massachusetts" ]
+                        "Henry Adams of Massachusetts",
+                        "Isaac Stearns of Massachusetts"]
 author: k3jph
 layout: page
 guid: order-of-americans-of-armorial-ancestry
@@ -179,6 +180,49 @@ authoritative heraldic references and adopted by his descendants in later
 American usage. The enduring association of these arms with the Adams family
 underscores the family's continuing recognition of its English roots and its
 place within the broader narrative of armigerous colonial ancestry.
+
+## Isaac Stearns of Massachusetts
+
+My supplemental membership in the Order of Americans of Armorial Ancestry is
+*jure sanguinis** through [Isaac Stearns of Watertown,
+Massachusetts](https://www.wikitree.com/wiki/Stearns-36), who arrived in New
+England in 1630 with the [Winthrop
+fleet](https://archive.org/details/winthropfleetof100bank/) and settled at
+Watertown soon after.  A freeman by the early 1630s, he worked his land and
+participated in the civic life of the new town, and his line became one of the
+early New England kin networks.
+
+{% include figure.html
+image="ancestry/oaaa/stearns-arms-full.svg"
+placement="right" width="4"
+cap="Arms of Isaac Stearns of Massachusetts"
+alt="Arms of Isaac Stearns of Massachusetts" %}
+
+> Or, a chevron between three crosses flory pierced Sable.  Crest--A falcon
+rising proper.
+
+This is a compact, high-contrast design in the classic metal-and-color pairing
+of Or and Sable. The chevron anchors the composition against the gold field,
+while the three crosses flory pierced add a late-medieval flavor. A cross flory
+terminates in trefoiled tips; pierced indicates a round void at the center of
+each cross. Emphasizing the piercings in the artwork prevents the black charges
+from reading too heavy and preserves the intended lightness of the design.
+American sources give the blazon in this concise form; in practice, renderers
+usually match the chevron to the crosses in Sable to keep the palette economical
+and coherent.
+
+The crest, a falcon rising proper, invites a naturalistic treatment: the bird
+rising with wings partially elevated and addorsed, head to dexter, legs braced
+as if about to take flight. Proper allows natural falcon coloration, so the
+crest’s restrained browns and grays contrast with the stark geometry of the
+shield while remaining within period norms. 
+
+The Stearns blazon above is the form printed by the early American compilers
+commonly cited for colonial attributions. English visitation entries under
+Stearns/Stearn/Stearne/Sterne do not readily show this exact cross flory pierced
+configuration, which explains why American references are the standard citations
+for OAAA purposes. No contemporary motto is recorded for Isaac Stearns in the
+early American armorials.
 
 *Additional memberships will be added as they are approved.*
 
