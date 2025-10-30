@@ -1,11 +1,12 @@
 ---
 id: order-of-americans-of-armorial-ancestry
 title: Order of Americans of Armorial Ancestry
-subtitle: Member _jure_ John Hoar, Henry Adams, and Isaac Stearns; member no. 1185
+subtitle: Member _jure_ John Hoar, Henry Adams, John Bigelow, and Isaac Stearns; member no. 1185
 date: 2024-07-01
 member_number: 1185
 qualifying_ancestors: [ "John Hoar, Esquire, of Massachusetts",
                         "Henry Adams of Massachusetts",
+                        "John Bigelow of Massachusetts",
                         "Isaac Stearns of Massachusetts"]
 author: k3jph
 layout: page
@@ -180,6 +181,68 @@ authoritative heraldic references and adopted by his descendants in later
 American usage. The enduring association of these arms with the Adams family
 underscores the family's continuing recognition of its English roots and its
 place within the broader narrative of armigerous colonial ancestry.
+
+
+## John Bigelow of Massachusetts
+
+My supplemental membership in the Order of Americans of Armorial
+Ancestry is _jure sanguinis_ through [John Bigelow of Watertown,
+Massachusetts](https://www.wikitree.com/wiki/Bigelow-24), who arrived in
+New England about 1637 and became one of the early settlers of that
+town. He was a skilled blacksmith and civic figure who helped establish
+the social and economic foundations of Watertown during the first
+generation of the Massachusetts Bay Colony. His descendants became
+numerous throughout New England, producing several notable public
+servants and intellectuals in later centuries.
+
+The arms attributed to John Bigelow are recorded in several American
+armorial compilations of the nineteenth and early twentieth centuries:
+
+{% include figure.html
+image="ancestry/oaaa/bigelow-arms-full.svg"
+placement="right" width="4"
+cap="Arms of John Bigelow of Massachusetts"
+alt="Arms of John Bigelow of Massachusetts" %}
+
+> Or, three lozenges Azure. Crest--A ram's head erased Azure, charged
+> with three lozenges, attired Or.
+
+These arms, simple and striking, follow a classic English pattern of
+geometric ordinaries on a plain field. TThe arrangement of three
+lozenges is a recurrent medieval motif. [Victorian handbooks commonly
+gloss the
+lozenge](https://archive.org/details/symbolismsofhera00wadeuoft/symbolismsofhera00wadeuoft/page/94/mode/2up)
+as signifying honesty and constancy, though [more modern
+authorities](https://archive.org/details/completeguidetoh00foxdrich/page/4/mode/2up)
+caution that such fixed meanings are late and not intrinsic to medieval
+practice. The tinctures, Or and Azure, are a conventional pairing
+representing generosity and loyalty. While the blazon does not specify
+disposition, heraldic precedent supports either a 2-and-1 or in-fess
+arrangement, both of which are acceptable in American usage.
+
+The crest, a ram's head erased Azure charged with three lozenges Or and
+attired Or, provides a heraldic echo of the shield through the
+repetition of the lozenge motif. The ram, a traditional emblem of
+strength and perseverance, reinforces themes of fortitude and creative
+energy, qualities that harmonize with both the artisan background of the
+immigrant ancestor and the broader moral associations of the name. The
+erased form, showing the rough line of separation, is characteristic of
+seventeenth-century armorial style, and the limited palette of gold and
+blue preserves both simplicity and elegance.
+
+
+The Bigelow blazon above is the form printed in Crozier's _General
+Armory_ (1904) and repeated in Matthews's _American Armoury and Blue
+Book_ (1907). These two compilers remain the principal authorities for
+colonial American attributions and make no mention of a motto. Later
+family-society versions, especially those published by the Bigelow
+Family Association, introduce a variant field Argent and the Latin motto
+_Finis coronat opus_ ("The end crowns the work"), neither of which is
+attested in the early American armorials. While no specific English
+visitation record has been located under the name Bigelow, the
+lozenge-based pattern is consistent with medieval English heraldic usage
+and fits comfortably within established stylistic traditions.
+
 
 ## Isaac Stearns of Massachusetts
 
