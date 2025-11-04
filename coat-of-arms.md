@@ -808,4 +808,41 @@ municipal, ecclesiastical, and institutional arms from across the globe. No
 certificate is issued for this type of entry, but the listing is maintained and
 accessible as part of the site’s extensive global database.
 
+### NEHGS Committee on Heraldry
+
+{% include figure.html width="4" border=true placement="right"
+image="/armory/jhoward-nehgs-coh-letter.webp"
+link="/assets/docs/jhoward-nehgs-coh-letter.pdf"
+cap="Registration letter from the NEHGS Committee on Heraldry" 
+alt="Registration letter from the NEHGS Committee on Heraldry" %}
+
+The arms have also been formally recorded by the [Committee on Heraldry
+of the New England Historic Genealogical
+Society](https://www.americanancestors.org/committee-heraldry) the
+oldest heraldic body in the United States. At its regular meeting of 28
+October 2025, the Committee accepted the arms granted by the Chief
+Herald of Malta for record in its official registry. This record
+preserves the arms in the Committee's distinctive style, which has been
+in continuous use for over a century. The Committee's blazoning practice
+reflects a streamlined, Americanized approach to heraldic description:
+it uses plain English terminology where possible (e.g., _silver_ instead
+of _argent_), prefers straightforward geometric phrasing over florid or
+continental language, and typically omits external elements such as
+mantling, mottoes, or helm unless historically attested. The blazon as
+entered reads:
+
+> Silver a tetrahedron azure pierced by a sword bendwise gold, hilt and
+> pommel azure. Crest--A martlet sable.
+
+This stylistic simplicity supports the Committee's focus on clarity,
+documentation, and historical legitimacy. The registration confirms the
+armorial bearings as part of the permanent record of arms used in the
+United States. The entry will be published in the Committee's 2025
+annual report. No certificate is issued for this type of registration,
+but the record is maintained by the Committee and publicly accessible
+via the NEHGS archives.
+
+You may [download the PDF
+here](/assets/docs/jhoward-nehgs-coh-letter.pdf).
+
 *Additional registrations will be added as they are approved.*
