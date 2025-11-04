@@ -248,7 +248,7 @@ and fits comfortably within established stylistic traditions.
 ## Isaac Stearns of Massachusetts
 
 My supplemental membership in the Order of Americans of Armorial Ancestry is
-*jure sanguinis** through [Isaac Stearns of Watertown,
+_jure sanguinis_ through [Isaac Stearns of Watertown,
 Massachusetts](https://www.wikitree.com/wiki/Stearns-36), who arrived in New
 England in 1630 with the [Winthrop
 fleet](https://archive.org/details/winthropfleetof100bank/) and settled at
