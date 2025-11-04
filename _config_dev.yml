@@ -1,4 +1,59 @@
-svg:
-  optimize: false
+# ===============================================================
+# Jekyll Development Configuration
+# ===============================================================
+# This file is loaded *in addition to* _config.yml when running:
+#   bundle exec jekyll serve --config _config.yml,_config_dev.yml
+#
+# It overrides or augments production settings for local builds.
 
-future: true
+# ===============================================================
+# General Development Behavior
+# ===============================================================
+future: true              # Show future-dated posts
+incremental: true         # Speeds up rebuilds on save
+livereload: true          # Enable automatic browser reload
+verbose: false            # Reduce console noise
+
+# ===============================================================
+# Asset Handling
+# ===============================================================
+sass:
+  style: expanded         # Easier to read compiled CSS
+  sourcemap: always       # Enables source maps for debugging
+
+svg:
+  optimize: false         # Don’t minify SVGs locally for faster builds
+
+# ===============================================================
+# Minifier / Compression Overrides
+# ===============================================================
+jekyll-minifier:
+  enabled: false          # Disable HTML/CSS/JS minification
+  exclude:
+    - "*.xml"
+
+# ===============================================================
+# Responsive Image Handling
+# ===============================================================
+picture:
+  generate_missing: false  # Don’t generate multiple sizes locally
+  formats:
+    webp:
+      quality: 90
+  widths: [800]            # Single standard preview width
+  suppress_warnings: true
+
+# ===============================================================
+# Environment Flags
+# ===============================================================
+# Identifies local builds to templates or includes
+environment: development
+
+# ===============================================================
+# Notes
+# ===============================================================
+# - Run `bundle exec rake serve` or `rake serve`
+#   to automatically apply this configuration.
+# - This config ensures fast rebuilds and uncompressed output.
+# - Production optimizations (minifier, responsive sizes) are
+#   only applied when JEKYLL_ENV=production.

@@ -1,39 +1,60 @@
-{% if include.placement == "right"          %}
-{%   assign pull = "pull-right"             %}
-{% else                                     %}
-{%   assign pull = ""                       %}
-{% endif                                    %}
+{% if include.placement == "right" %}
+  {% assign pull = "pull-right" %}
+{% else %}
+  {% assign pull = "" %}
+{% endif %}
 
-{% if include.border == true                %}
-{%   assign img_border = "img-border"       %}
-{% else                                     %}
-{%   assign img_border = ""                 %}
-{% endif                                    %}
+{% if include.border == true %}
+  {% assign img_border = "img-border" %}
+{% else %}
+  {% assign img_border = "" %}
+{% endif %}
 
-{% assign w = include.width | to_integer    %}
-{% if w <= 12                               %}
-{%   assign colwidth="col-md-" | append: w  %}
-{% else                                     %}
-{%   if w < 40                              %}
-{%     assign colwidth="col-md-4"           %}
-{%   else                                   %}
-{%     if w < 65                            %}
-{%       assign colwidth="col-md-6"         %}
-{%     else                                 %}
-{%       assign colwidth="col-md-12"        %}
-{%     endif                                %}                        
-{%   endif                                  %}
-{% endif                                    %}
+{% assign w = include.width | to_integer %}
+{% if w <= 12 %}
+  {% assign colwidth = "col-md-" | append: w %}
+{% else %}
+  {% if w < 40 %}
+    {% assign colwidth = "col-md-4" %}
+  {% elsif w < 65 %}
+    {% assign colwidth = "col-md-6" %}
+  {% else %}
+    {% assign colwidth = "col-md-12" %}
+  {% endif %}
+{% endif %}
 
 <div class="item {{ colwidth }} {{ pull }} px-4">
-    <div class="card">
-        <figure>
-            {% if include.link != null %}<a href="{{ include.link | relative_url }}" class="header">{% endif %}
-            <img class="featured-img mx-auto {{ img_border }}" src="{{ '/assets/img/' | append: include.image | relative_url }}" alt="{{ include.alt | default: 'no description' }}" {% if include.load != null %}loading="lazy"{% else %}loading="{{ include.loading }}"{% endif %}/>
-            {% if include.link != null %}</a>{% endif %}
-            <div class="content">
-                {% if include.cap != null %}<figcaption class="images-caption">{{ include.cap | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>{% endif %}
-            </div>
-        </figure>
-   </div>
+  <div class="card">
+    <figure>
+      {% if include.link %}
+        <a href="{{ include.link | relative_url }}" class="header">
+      {% endif %}
+
+      {% assign img_path = include.image %}
+      {% assign alt = include.alt | default: 'no description' %}
+      {% assign cap = include.cap %}
+      {% assign loading = include.loading | default: 'lazy' %}
+
+      {% if img_path contains '.webp' %}
+        {% picture {{ img_path }} alt="{{ alt }}" class="featured-img mx-auto {{ img_border }}" loading="{{ loading }}" %}
+      {% else %}
+        <img class="featured-img mx-auto {{ img_border }}"
+             src="{{ '/assets/img/' | append: img_path | relative_url }}"
+             alt="{{ alt }}"
+             loading="{{ loading }}" />
+      {% endif %}
+
+      {% if include.link %}
+        </a>
+      {% endif %}
+
+      {% if cap %}
+        <div class="content">
+          <figcaption class="images-caption">
+            {{ cap | markdownify | remove: '<p>' | remove: '</p>' }}
+          </figcaption>
+        </div>
+      {% endif %}
+    </figure>
+  </div>
 </div>

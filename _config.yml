@@ -1,37 +1,23 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
+# ===============================================================
+# Site Metadata
+# ===============================================================
 title: James Howard
 email: jh@jameshoward.us
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   This website is a comprehensive showcase of my multifaceted journey
   through public service, scholarship, teaching, and distinguished
   honors. It serves as a portal into the diverse ways I engage with
   the world, aiming to inspire, educate, and make a meaningful impact
   in every endeavor I undertake.
-baseurl: "" # the subpath of your site, e.g. /blog
+
+baseurl: ""                     # e.g., /blog if served from a subpath
 url: "https://jameshoward.us"
 port: 4000
-
 permalink: pretty
 
+# ===============================================================
+# Collections
+# ===============================================================
 collections:
   posts:
     output: true
@@ -42,24 +28,34 @@ collections:
     permalink: /ancestry/:slug
     type: "page"
 
-
+# ===============================================================
+# Author / Social
+# ===============================================================
 twitter_username: k3jph
 github_username:  k3jph
+
+# ===============================================================
+# Sass / Assets
+# ===============================================================
 sass:
   sass_dir: assets/css
   style: compressed
   sourcemap: never
 
+# ===============================================================
+# Pagination / Tagging
+# ===============================================================
 paginate: 10
 paginate_path: "/blog/page/:num/"
-
 tag_page_layout: tag_page
 tag_page_dir: tag
 tag_page_data:
   sitemap: false
   title: "All Posts With Tag"
-  
-# Build settings
+
+# ===============================================================
+# Plugins
+# ===============================================================
 plugins:
   - jekyll-feed
   - jekyll-sass-converter
@@ -68,7 +64,13 @@ plugins:
   - jekyll-paginate
   - jekyll/tagging
   - jekyll-inline-svg
+  - jekyll-toc
+  - jekyll-minifier
+  - jekyll_picture_tag
 
+# ===============================================================
+# Exclusions
+# ===============================================================
 exclude:
   - .sass-cache/
   - .jekyll-cache/
@@ -84,11 +86,58 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
+# ===============================================================
+# SVG Optimization
+# ===============================================================
 svg:
   optimize: true
-  
-# Iframely!
-iframely-key:       176ff6184ababb980170f6037497fb6a
 
+# ===============================================================
+# Iframely (embeds)
+# ===============================================================
+iframely-key: 176ff6184ababb980170f6037497fb6a
+
+# ===============================================================
+# Redirect Settings
+# ===============================================================
 redirect_from:
   json: false
+
+# ===============================================================
+# Plugins: Table of Contents
+# ===============================================================
+toc:
+  min_level: 2
+  max_level: 4
+  ordered_list: false
+  no_toc_section_class: "no-toc"
+  list_class: "toc-list"
+  heading_text: "Contents"
+  heading_level: 2
+
+# ===============================================================
+# Plugins: Minifier
+# ===============================================================
+jekyll-minifier:
+  exclude:
+    - "*.xml"
+  remove_spaces_inside_tags: true
+  remove_multi_spaces: true
+  remove_comments: true
+
+# ===============================================================
+# Responsive Image Handling (WebP only)
+# ===============================================================
+picture:
+  source: "assets/img"
+  output: "assets/generated"
+  markup: "picture"
+  formats:
+    webp:
+      quality: 80
+  widths: [400, 800, 1200, 2000]
+  fallback_width: 800
+  relative_url: true
+  cdn: false
+  generate_missing: false
+  suppress_warnings: true
