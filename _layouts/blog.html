@@ -16,7 +16,11 @@ sitemap:
   <div class="row">
     <div class="col-md-3">
       <a href="{{ post.permalink | relative_url }}" class="header">
-        <img src="{{ post.featured_image | relative_url }}" class="image-header">
+        {% if post.featured_image %}
+          {% picture thumbnail {{ post.featured_image | remove_first: '/assets/img/' }} class="image-header" alt="{{ post.title | escape }}" %}
+        {% else %}
+          <img src="/assets/img/identity/kamon-info.svg" class="image-header" alt="Site symbol" />
+        {% endif %}
       </a>
     </div>
     <div class="col-md-9">

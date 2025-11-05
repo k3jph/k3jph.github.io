@@ -1,0 +1,7 @@
+presets:
+  default:
+    widths: [400, 800, 1200, 1600, 1920]
+  thumbnail:
+    widths: [150, 300, 600]
+  header:
+    widths: [960, 1280, 1920]

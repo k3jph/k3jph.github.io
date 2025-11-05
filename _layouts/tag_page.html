@@ -12,9 +12,11 @@ layout:         page
 <div class="card card-blog card-plain">
   <div class="row">
     <div class="col-md-3">
-      <a href="{{ post.permalink | relative_url }}" class="header">
-        <img src="{{ post.featured_image | relative_url }}" class="image-header">
-      </a>
+      {% if post.featured_image %}
+          {% picture header {{ post.featured_image | remove_first: '/assets/img/' }} class="featured-bg" %}
+      {% else %}
+          {% picture header header-home.webp class="featured-bg" %}
+      {% endif %}
     </div>
     <div class="col-md-9">
       <h6 class="card-date">{{ post.date | date: '%A %B %d, %Y' }}</h6>

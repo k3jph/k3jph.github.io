@@ -8,9 +8,9 @@ redirect: true
 <div class="section section-header-blog">
     <div class="parallax filter filter-color-black">
         {% if page.featured_image %}
-        <div class="image" style="background-image:url({{ page.featured_image | relative_url }})"></div>
+            {% picture header {{ page.featured_image | remove_first: '/assets/img/' }} class="featured-bg" %}
         {% else %}
-        <div class="image" style="background-image:url({{ '/assets/img/header-home.webp' | relative_url }})"></div>
+           {% picture header header-home.webp class="featured-bg" %}
         {% endif %}
         <div class="container">
             <div class="content">

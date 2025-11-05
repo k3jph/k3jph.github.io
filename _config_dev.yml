@@ -27,21 +27,13 @@ svg:
 # ===============================================================
 # Minifier / Compression Overrides
 # ===============================================================
-jekyll-minifier:
-  enabled: false          # Disable HTML/CSS/JS minification
-  exclude:
-    - "*.xml"
+jekyll-minifier: {}  # effectively disables
 
 # ===============================================================
 # Responsive Image Handling
 # ===============================================================
 picture:
-  generate_missing: false  # Don’t generate multiple sizes locally
-  formats:
-    webp:
-      quality: 90
-  widths: [800]            # Single standard preview width
-  suppress_warnings: true
+  enabled: false
 
 # ===============================================================
 # Environment Flags

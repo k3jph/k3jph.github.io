@@ -1,0 +1,11 @@
+{% assign bg = include.image | default: "header-home.webp" %}
+{% assign preset = include.preset | default: "header" %}
+{% assign picture = site.data.jpt_generate[preset][bg] %}
+{% comment %}
+  Fallback if picture tag data isn’t cached yet
+{% endcomment %}
+{% if picture %}
+  <div class="image" style="background-image: url({{ picture.fallback | relative_url }})"></div>
+{% else %}
+  <div class="image" style="background-image: url({{ '/assets/img/' | append: bg | relative_url }})"></div>
+{% endif %}

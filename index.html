@@ -18,9 +18,7 @@ head_inject: >-
 
 <div class="section section-header">
     <div class="parallax filter filter-color-black">
-        <div class="image" style="background-image: url({{ '/assets/img/header-home.webp' | relative_url }})">
-        </div>
-
+        {% include background_header.html image="header-home.webp" preset="header" %}
         <div class="container">
             <div class="content hidden-sm hidden-xs">
                 <!-- Horizontal Layout -->
@@ -220,16 +218,18 @@ head_inject: >-
             <div class="item col-md-4 my-5">
                 <div class="card card-blog">
                     <a href="{{ post.permalink | relative_url }}" class="header" aria-label="{{ post.title }}">
-                        <img src="{{ post.featured_image | relative_url }}" class="image-header" alt="">
+                        {% if post.featured_image %}
+                            {% picture thumbnail {{ post.featured_image | remove_first: '/assets/img/' }} class="image-header" alt="{{ post.title | escape }}" %}
+                        {% else %}
+                          <img src="/assets/img/identity/kamon-info.svg" class="image-header" alt="Site symbol" />
+                        {% endif %}
                     </a>
                     <div class="content">
                         <div class="circle-black">
                             <div class="circle">
                                 <div class="date-wrapper">
-                                    <span class="month">{{ post.date | date:
-                                        '%b' }}</span>
-                                    <span class="date">{{ post.date | date: '%d'
-                                        }}</span>
+                                    <span class="month">{{ post.date | date: '%b' }}</span>
+                                    <span class="date">{{ post.date | date: '%d' }}</span>
                                 </div>
                             </div>
                         </div>
@@ -245,7 +245,7 @@ head_inject: >-
             <div class="item col-md-4 my-5">
                 <div class="card card-blog">
                     <a href="{{ '/blog' | relative_url }}" class="header" aria-label="Blog">
-                        <img src="{{ '/assets/img/blog.webp' | relative_url }}" class="image-header" alt="">
+                        {% picture thumbnail blog.webp class="image-header" alt="More blog posts" %}
                     </a>
                     <div class="content">
                         <a href="{{ '/blog' | relative_url }}"
@@ -260,7 +260,7 @@ head_inject: >-
 
 <div class="section section-cards section-get-started">
     <div class="parallax filter filter-color-black">
-        <div class="image index-fade" style="background-image: url({{ '/assets/img/heading-martlets.webp' | relative_url }})"></div>
+        {% include background_header.html image="heading-martlets.webp" preset="header" %}
         <div class="container">
             <div class="title-area">
                 <h2 class="text-warning">Dive Deeper into My Universe</h2>

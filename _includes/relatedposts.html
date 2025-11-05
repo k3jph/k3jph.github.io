@@ -11,7 +11,11 @@
             <div class="item col-md-4">
                 <div class="card card-blog">
                     <a href="{{ post.permalink | relative_url }}" class="header">
-                        <img src="{{ post.featured_image | relative_url }}" class="image-header">
+                        {% if post.featured_image %}
+                            {% picture thumbnail {{ post.featured_image | remove_first: '/assets/img/' }} class="image-header" alt="{{ post.title | escape }}" %}
+                        {% else %}
+                            <img src="/assets/img/identity/kamon-info.svg" class="image-header" alt="Site symbol" />
+                        {% endif %}
                     </a>
                     <div class="content">
                         <div class="circle-black">
@@ -23,7 +27,7 @@
                             </div>
                         </div>
                         <a href="{{ post.permalink | relative_url }}" class="card-title"><h3>{{ post.title }}</h3></a>
-                        <p class="text-description text-gray">{{ post.content | truncatewords: 25 | strip_html }}</p>
+                        <p class="text-description text-gray">{{ post.content | markdownify | truncatewords: 25 | strip_html }}</p>
                     </div>
                 </div>
             </div>

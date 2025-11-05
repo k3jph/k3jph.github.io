@@ -135,9 +135,10 @@ picture:
   formats:
     webp:
       quality: 80
-  widths: [400, 800, 1200, 2000]
   fallback_width: 800
   relative_url: true
   cdn: false
   generate_missing: false
   suppress_warnings: true
+  exclude:
+    - "**/*.svg"
