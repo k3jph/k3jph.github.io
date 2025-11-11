@@ -186,18 +186,18 @@ place within the broader narrative of armigerous colonial ancestry.
 
 ## John Bigelow of Massachusetts
 
-My supplemental membership in the Order of Americans of Armorial
-Ancestry is _jure sanguinis_ through [John Bigelow of Watertown,
-Massachusetts](https://www.wikitree.com/wiki/Bigelow-24), who arrived in
-New England about 1637 and became one of the early settlers of that
-town. He was a skilled blacksmith and civic figure who helped establish
-the social and economic foundations of Watertown during the first
-generation of the Massachusetts Bay Colony. His descendants became
-numerous throughout New England, producing several notable public
-servants and intellectuals in later centuries.
+My supplemental membership in the Order of Americans of Armorial Ancestry is
+_jure sanguinis_ through [John Bigelow of Watertown,
+Massachusetts](https://www.wikitree.com/wiki/Bigelow-24), who arrived in New
+England about 1637 and became one of the early settlers of that town. He was a
+[skilled blacksmith](/ancestry/gcat) and civic figure who helped establish the
+social and economic foundations of Watertown during the first generation of the
+Massachusetts Bay Colony. His descendants became numerous throughout New
+England, producing several notable public servants and intellectuals in later
+centuries.
 
-The arms attributed to John Bigelow are recorded in several American
-armorial compilations of the nineteenth and early twentieth centuries:
+The arms attributed to John Bigelow are recorded in several American armorial
+compilations of the nineteenth and early twentieth centuries:
 
 {% include figure.html
 image="ancestry/oaaa/bigelow-arms-full.svg"

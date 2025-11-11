@@ -1,10 +1,13 @@
 ---
 id: guild-of-colonial-artisans-and-tradesmen
 title: Guild of Colonial Artisans and Tradesmen
-subtitle: Member _jure_ Jeremiah Cloud (Cordwainer), Christopher Taylor (Author), and Nathaniel Bunnell (Carpenter); member no. 535
+subtitle: Member _jure_ Jeremiah Cloud (Cordwainer), Christopher Taylor (Author), Nathaniel Bunnell (Carpenter), John Bigelow (Smith); member no. 535
 date: 2024-10-22
 founding_date: 2004-05-06
-qualifying_ancestors: [ "Jeremiah Cloud (Cordwainer)", "Christopher Taylor (Author)", "Nathaniel Bunnell (Carpenter)" ]
+qualifying_ancestors: [ "Jeremiah Cloud (Cordwainer)",
+                        "Christopher Taylor (Author)",
+                        "Nathaniel Bunnell (Carpenter)",
+                        "John Bigelow (Smith)" ]
 member_number: 535
 author: k3jph
 layout: page
@@ -12,8 +15,7 @@ guid: guild-of-colonial-artisans-and-tradesmen
 featured_image: /assets/img/ancestry/guild-of-colonial-artisans-and-tradesmen.webp
 permalink: /ancestry/guild-of-colonial-artisans-and-tradesmen
 redirect_from: [ "/ancestry/gcat",
-                 "/ancestry/guild-of-colonial-artisans-and-tradesmen-1607-1783",
-                 "/ancestry/guild-of-colonial-artisans-and-tradesmen" ]
+                 "/ancestry/guild-of-colonial-artisans-and-tradesmen-1607-1783" ]
 ---
 
 The [Guild of Colonial Artisans and Tradesmen
@@ -194,9 +196,72 @@ was rooted in small-scale agriculture, trade, and artisanal labor.
 
 Due to its strategic location, Elizabethtown also played a role in later
 military conflicts, including the Revolutionary War, during which it saw
-repeated skirmishes and occupations. The legacy of its founding
-generation, landowners, craftsmen, and civic leadersm remains visible in the
-surviving architectural and documentary record.
+repeated skirmishes and occupations. The legacy of its founding generation,
+landowners, craftsmen, and civic leaders remains visible in the surviving
+architectural and documentary record.
+
+## John Bigelow--Blacksmith
+
+[John Bigelow](https://www.wikitree.com/wiki/Bigelow-24) (1617–1703), born in
+Wrentham, Suffolk, England, was among the earliest settlers of Watertown,
+Massachusetts Bay Colony. Trained as a blacksmith, Bigelow exemplified the
+practical skill and endurance of New England's founding artisans. His craft not
+only provided essential tools and implements for colonial life but also helped
+establish a foundation for industry and self-sufficiency in early Massachusetts
+society.
+
+### From England to New England
+
+John Bigelow (often spelled _Biglo_ or _Biglow_ in early records) emigrated from
+England before 1642, part of the larger Puritan migration that shaped early
+Massachusetts. He married [Mary
+Warren](https://www.wikitree.com/wiki/Warren-55), daughter of early settler John
+Warren, on August 30, 1642, in Watertown. Together they raised thirteen
+children, several of whom carried on the family's reputation for industriousness
+and civic engagement.
+
+Watertown was one of the colony's earliest inland settlements, and Bigelow's
+trade made him a central figure in the town's development. Blacksmiths like
+Bigelow were indispensable, forging tools, nails, hardware, and weapons that
+sustained both daily life and colonial expansion.
+
+### The Blacksmith's Forge in Colonial Society
+
+In seventeenth-century Massachusetts, blacksmiths occupied a critical position
+within the community. Their forges supplied the agricultural and domestic tools
+that enabled colonial subsistence and growth. Bigelow's workshop likely produced
+plowshares, hinges, latches, and wagon fittings—items vital to farming and
+transportation.
+
+The blacksmith's forge was both a workplace and a gathering point, where
+townspeople exchanged news, commissioned repairs, and bartered goods. Bigelow's
+skills would have required not only technical precision but also physical
+strength and deep knowledge of metallurgy, as he worked iron imported from
+England or smelted from local bog ore. His craftsmanship made him an essential
+figure in a settlement striving toward self-reliance.
+
+### Public Service and Community Standing
+
+Beyond his trade, Bigelow was active in Watertown's civic affairs. He served as
+a selectman, constable, and juror, contributing to the governance and order of
+the growing town. His reliability and status as a master tradesman afforded him
+respect among his peers, and records show that he often appeared in the colony's
+public documents as a property owner and community leader.
+
+Bigelow's English ancestry and documented arms-bearing lineage also qualify him
+as an ancestor for the [Order of Americans of Armorial
+Ancestry](https://jameshoward.us/ancestry/order-of-americans-of-armorial-ancestry#john-bigelow-of-massachusetts),
+further underscoring his family's established heritage and enduring place in
+American genealogical history.
+
+The inventory of his estate, valued at over £600 at his death in 1703, included
+blacksmithing tools, livestock, and real property, attesting to a lifetime of
+industrious labor and prudent management. His will, proved on July 4, 1703,
+provided for his surviving children and reflected the stability he had achieved
+in the New World.
+
+
+
 
 ## About the Guild of Colonial Artisans and Tradesmen 1607-1783
 
@@ -207,7 +272,7 @@ art, craft, or trade in the American Colonies during this formative period. The
 Guild defines qualifying trades as those practiced by skilled workers who
 created goods and services essential to colonial society, including blacksmiths,
 coopers, weavers, and other artisans.
-z
+
 The Guild's mission includes promoting historical research on colonial artisans
 and fostering camaraderie among descendants. Members are encouraged to share
 their lineages and contribute to the collective understanding of colonial
