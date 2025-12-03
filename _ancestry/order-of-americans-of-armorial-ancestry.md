@@ -17,7 +17,7 @@ permalink: /ancestry/order-of-americans-of-armorial-ancestry
 redirect_from: [ /ancestry/oaaa ]
 ---
 
-The [Order of Americans of Armorial Ancestry](https://www.armorialancestry.org/)
+The [Order of Americans of Armorial Ancestry](https://www.armorialorg.com/)
 is a hereditary society that recognizes and honors the descendants of
 individuals who bore a coat of arms and who settled in what is now the United
 States prior to 1783. The Order was organized on September 15, 1903, and
