@@ -73,4 +73,22 @@ task :env do
   puts "Config file: #{CONFIG_FILE}"
 end
 
+desc "Create a post from template using: rake create_post YYYY-MM-DD \"Title of Post\""
+task :create_post do
+  if ARGV.length < 3
+    puts "Usage: rake create_post YYYY-MM-DD \"Title of Post\""
+    exit 1
+  end
+
+  date  = ARGV[1]
+  title = ARGV[2..-1].join(" ")
+
+  ruby_script = File.expand_path("_scripts/create_post.rb")
+  unless File.exist?(ruby_script)
+    raise "Script not found at #{ruby_script}"
+  end
+
+  exec("ruby", ruby_script, date, title)
+end
+
 task default: :build
