@@ -26,7 +26,7 @@ end
 desc "Serve the site locally with drafts (development only)"
 task :serve do
   ENV["JEKYLL_ENV"] = "development"
-  sh_with_env("bundle exec jekyll serve --config _config.yml,_config_dev.yml --drafts --livereload")
+  sh_with_env("bundle exec jekyll serve --config _config_dev.yml,_config.yml --future --drafts --incremental --livereload")
 end
 
 desc "Clean build and cache directories"

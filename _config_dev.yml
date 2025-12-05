@@ -37,6 +37,7 @@ jekyll-minifier:
 # ===============================================================
 picture:
   enabled: false
+  ignore_missing_images: true
 
 # ===============================================================
 # Environment Flags
