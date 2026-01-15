@@ -1,4 +1,5 @@
 ---
+class: certificate
 id: first-pioneers-of-ross-county
 title: First Pioneers of Ross County
 subtitle: Member _jure_ Nathaniel Bunnell (1806) and Barzilla Bunnell (1807); member no. 280

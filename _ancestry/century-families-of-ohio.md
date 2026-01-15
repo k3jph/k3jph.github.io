@@ -1,4 +1,5 @@
 ---
+class: certificate
 id: century-families-of-ohio
 title: Century Families of Ohio
 subtitle:  Member _jure_ Mina Elizabeth Hall (1888, Paulding County), Charles Franklin Cavender (1892, Miami County), Mary Jane Cavender (1918, Montgomery County), and Ralph Everett Rees (1916, Shelby County); member no. 237

@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: guild-of-colonial-artisans-and-tradesmen
 title: Guild of Colonial Artisans and Tradesmen
 subtitle: Member _jure_ Jeremiah Cloud (Cordwainer), Christopher Taylor (Author), Nathaniel Bunnell (Carpenter), John Bigelow (Smith); member no. 535

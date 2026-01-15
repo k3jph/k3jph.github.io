@@ -1,4 +1,5 @@
 ---
+class: certificate
 id: military-order-of-the-daughters-and-sons-of-ohio
 title: Military Order of the Daughters and Sons of Ohio
 subtitle: Member _jure_ Ralph Everett Rees (World War II); member no. 48

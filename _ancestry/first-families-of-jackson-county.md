@@ -1,8 +1,10 @@
 ---
+class: certificate
 id: first-families-of-jackson-county
 title: First Families of Jackson County
-subtitle: Member _jure_ William Ray (1790-1843)
+subtitle: Member _jure_ William Ray (1790-1843); member no. 9
 date: 2025-12-16
+member_number: 9
 qualifying_ancestors: [ "William Ray (1790-1843)" ]
 author: James P. Howard, II
 layout: page

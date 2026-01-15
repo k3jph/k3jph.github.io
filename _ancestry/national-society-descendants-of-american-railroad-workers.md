@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: national-society-descendants-of-american-railroad-workers
 title: National Society Descendants of American Railroad Workers
 subtitle: Member _jure_ Harry Lee Williams (Locomotive Engineer); member no. 120

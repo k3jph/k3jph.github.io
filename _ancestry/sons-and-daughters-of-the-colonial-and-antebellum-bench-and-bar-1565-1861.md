@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: sons-and-daughters-of-the-colonial-and-antebellum-bench-and-bar
 title: Sons and Daughters of the Colonial and Antebellum Bench and Bar
 subtitle: Member _jure_ John Hoar (c1622-1704), member no. 1080

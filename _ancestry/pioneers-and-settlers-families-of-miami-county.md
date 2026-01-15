@@ -1,4 +1,5 @@
 ---
+class: certificate
 id: pioneers-and-settlers-families-of-miami-county
 title: Pioneers and Settlers Families of Miami County
 subtitle: Member _jure_ William Henry Harrison Martin (1841), Vincent Martin (1841), and Mary Stiles (1841)

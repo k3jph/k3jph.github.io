@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: national-society-descendants-of-early-quakers
 title: National Society Descendants of Early Quakers
 subtitle: Member _jure_ Jonathan Newman (1768); member no. 891

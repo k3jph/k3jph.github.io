@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: order-of-the-first-families-of-connecticut
 title: Order of the First Families of Connecticut
 subtitle: Member _jure_ Susanna Whitehead (New Haven); member no. 355

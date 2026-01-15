@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: descendants-of-miners
 title: Descendants of Miners
 subtitle: Member _jure_ Alexander C. Snyder (Stonecutter); member no. 96

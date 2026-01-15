@@ -1,4 +1,5 @@
 ---
+class: certificate
 id: first-families-of-miami-county
 title: First Families of Miami County
 subtitle: Member _jure_ Henry Cavender (1825)

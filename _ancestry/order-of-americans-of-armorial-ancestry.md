@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: order-of-americans-of-armorial-ancestry
 title: Order of Americans of Armorial Ancestry
 subtitle: Member _jure_ John Hoar, Henry Adams, John Bigelow, Isaac Stearns, William Learned, and Jonathan Fairbanks; member no. 1185

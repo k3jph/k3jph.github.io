@@ -1,4 +1,5 @@
 ---
+class: certificate
 id: settlers-and-builders-of-hamilton-county
 title: Settlers and Builders of Hamilton County
 subtitle: Member _jure_ Cordelia Curran (1858); member no. 120

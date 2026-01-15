@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: order-of-descendants-of-colonial-physicians-and-chirurgiens
 title: Order of Descendants of Colonial Physicians and Chirurgiens
 subtitle: Member _jure_ Israel Taylor (1660-1725); member no. 686

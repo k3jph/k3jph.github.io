@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: society-of-indiana-pioneers
 title: Society of Indiana Pioneers
 subtitle: Member _jure_ Thornton Williams (1849)

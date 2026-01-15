@@ -1,4 +1,5 @@
 ---
+class: certificate
 id: first-families-of-the-firelands
 title: First Families of the Firelands
 subtitle:  Member _jure_ Mina Elizabeth Hall (1900, Perkins, Century); member no. 373

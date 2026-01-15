@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: order-of-founders-and-patriots-of-america
 title: Order of Founders and Patriots of America
 subtitle: Member _jure_ Henry Adams (Founder) via Daniel Adams (Patriot); member no. 6570, DC no. 413

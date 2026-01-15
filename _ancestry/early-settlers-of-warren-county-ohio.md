@@ -1,4 +1,5 @@
 ---
+class: certificate
 id: early-settlers-of-warren-county-ohio
 title: Early Settlers of Warren County, Ohio
 subtitle: Member _jure_ Joseph Newman (1829), Benjamin Franklin Newman (1874),<br/>Mary Margaret Pottorf (1874), and Rebecca Pugh (1829)

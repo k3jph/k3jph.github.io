@@ -1,4 +1,5 @@
 ---
+class: certificate
 id: first-families-of-warren-county-ohio
 title: First Families of Warren County, Ohio
 subtitle: Member _jure_ Jonathan Newman (1807, Wayne Twp.) and Joseph Cloud (1807, Wayne Twp.)

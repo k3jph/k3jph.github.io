@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: order-of-the-founders-of-north-america
 title: Order of the Founders of North America
 subtitle: Member _jure_ George Chappell (Wethersfield, Connecticut, 1635); member no. 324

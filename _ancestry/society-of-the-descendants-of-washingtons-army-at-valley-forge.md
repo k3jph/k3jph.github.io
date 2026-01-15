@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: society-of-the-descendants-of-washingtons-army-at-valley-forge
 title: Society of the Descendants of Washington's Army at Valley Forge
 subtitle: Member _jure_ William Darby (Drummer); member no. 3371

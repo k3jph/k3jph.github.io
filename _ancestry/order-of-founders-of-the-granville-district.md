@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: order-of-founders-of-the-granville-district
 title: Order of Founders of the Granville District
 subtitle: Member _jure_ Moses Teague (1718-1799); member no. 44

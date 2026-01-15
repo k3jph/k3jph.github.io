@@ -1,4 +1,5 @@
 ---
+class: certificate
 id: civil-war-families-of-warren-county-ohio
 title: Civil War Families of Warren County, Ohio
 subtitle: Member *jure* Thomas Wesley Newman (79th OVI, Company H)

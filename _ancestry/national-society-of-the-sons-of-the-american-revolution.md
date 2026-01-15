@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: national-society-of-the-sons-of-the-american-revolution
 title: National Society of the Sons of the American Revolution
 subtitle: Member _jure_ Marmaduke Coate; member no. 232899, state no. 5309

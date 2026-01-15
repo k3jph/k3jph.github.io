@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: order-of-descendants-of-the-ancient-and-honorable-artillery-company
 title: Order of Descendants of the Ancient and Honorable Artillery Company
 subtitle: Member _jure_ Robert Sanford (1661); member no. 235L

@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: descendants-of-early-postmasters
 title: Descendants of Early Postmasters
 subtitle: Member _jure_ John Hess Adams (Postmaster); member no. 334

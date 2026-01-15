@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: hereditary-society-of-teachers
 title: Hereditary Society of Teachers
 subtitle: Member _jure_ Mary Jane Cavender (20th Century); member no. 196

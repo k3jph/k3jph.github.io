@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: society-of-the-descendants-of-the-colonial-clergy
 title: Society of the Descendants of the Colonial Clergy
 subtitle: Member _jure_ Rev. Alexander Underwood (1688-1767); member no. 3241

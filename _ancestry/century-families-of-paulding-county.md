@@ -1,4 +1,5 @@
 ---
+class: certificate
 id: century-families-of-paulding-county
 title: Century Families of Paulding County
 subtitle: Member _jure_ Mina Elizabeth Hall (1888); member no. 101

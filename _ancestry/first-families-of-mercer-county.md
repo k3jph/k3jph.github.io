@@ -1,4 +1,5 @@
 ---
+class: certificate
 id: first-families-of-mercer-county
 title: First Families of Mercer County
 subtitle: Member _jure_ Zebulon Burch (1860), Sarah Burch (1860), and Eunice Marcella Burch (1860)

@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: plymouth-hereditary-society
 title: Plymouth Hereditary Society
 subtitle: Member _jure_ Phebe Lovell (Rehoboth); member no. 251

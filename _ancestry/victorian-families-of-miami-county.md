@@ -1,4 +1,5 @@
 ---
+class: certificate
 id: victorian-families-of-miami-county
 title: Victorian Families of Miami County
 subtitle: Member _jure_ Louisa Hearn (1854) and Sarah Jane Rinehart (1862)

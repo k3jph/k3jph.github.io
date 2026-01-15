@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: order-of-the-first-families-of-maryland
 title: Order of the First Families of Maryland
 subtitle: Member _jure_ Edward Teague (1675); member no. 666
