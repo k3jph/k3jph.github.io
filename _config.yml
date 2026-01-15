@@ -65,7 +65,6 @@ plugins:
   - jekyll/tagging
   - jekyll-inline-svg
   - jekyll-toc
-  - jekyll-minifier
   - jekyll_picture_tag
 
 # ===============================================================
@@ -116,16 +115,6 @@ toc:
   heading_level: 2
 
 # ===============================================================
-# Plugins: Minifier
-# ===============================================================
-jekyll-minifier:
-  exclude:
-    - "*.xml"
-  remove_spaces_inside_tags: true
-  remove_multi_spaces: true
-  remove_comments: true
-
-# ===============================================================
 # Responsive Image Handling (WebP only)
 # ===============================================================
 picture:
@@ -137,7 +126,7 @@ picture:
       quality: 80
   fallback_width: 800
   relative_url: true
-  cdn: false
+  cdn: true
   generate_missing: false
   suppress_warnings: true
   exclude:

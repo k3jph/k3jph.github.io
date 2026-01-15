@@ -31,7 +31,6 @@ group :production, :jekyll_plugins do
   gem "stringex"
   gem "jekyll-inline-svg"
   gem "jekyll-toc"          # Table of contents
-  gem "jekyll-minifier"     # Minify HTML/CSS/JS
   gem "jekyll_picture_tag", "~> 2.1"
 end
 
