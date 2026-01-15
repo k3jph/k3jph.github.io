@@ -1,4 +1,5 @@
 ---
+class: lineage
 id: national-society-sons-of-the-american-colonists
 title: National Society, Sons of the American Colonists
 subtitle: Member _jure_ Robert Wilson of West Jersey; member no. 2794
@@ -79,6 +80,11 @@ later in 1709 included the estates of both Robert and Ann, suggesting that she
 died not long after him. My descent continues through their son, Samuel Willson
 I, whose family carried forward the Willson presence along Crosswicks Creek.
 
-*Additional memberships will be added as they are approved.*
+_Additional memberships will be added as they are approved.__
 
-
+{% include figure.html width="12"
+   image="/ancestry/NSSAC-Willson.webp" border=true
+   alt="Membership certificate in the National Society, Sons of the American Colonists"
+   cap="Membership certificate in the National Society, Sons of the American Colonists" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/NSSAC-Willson.pdf).
