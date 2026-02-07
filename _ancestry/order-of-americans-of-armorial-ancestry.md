@@ -407,6 +407,70 @@ moment of the motto's adoption cannot be documented with certainty, its
 long-standing association with the Fairbanks arms in American usage is well
 established.
 
+## Samuel Morse of Massachusetts
+
+My supplemental membership in the Order of Americans of Armorial Ancestry is
+_jure sanguinis_ through [Samuel Morse of Medfield,
+Massachusetts](https://www.wikitree.com/wiki/Morse-1198), who emigrated from
+England to New England in the mid-seventeenth century. Born in 1576 at Boxted,
+Essex, he settled first in Dedham and later in Medfield, where he became a
+substantial landholder and an early participant in the civic life of the
+Massachusetts Bay Colony. Through his daughter Elizabeth Morse, the line
+descends into several prominent New England families, firmly situating him among
+the armigerous founders of the region, including others on this page.
+
+{% include figure.html
+image="ancestry/oaaa/morse-arms-full.svg"
+placement="right" width="4"
+cap="Arms of Samuel Morse of Massachusetts"
+alt="Arms of Samuel Morse of Massachusetts" %}
+
+The arms attributed to Samuel Morse are recorded in American armorial sources
+and form the basis of my claim of eligibility:
+
+> Argent, a battle-axe in pale Proper between three pellets. Crest--Two
+> battle-axes in saltire Proper, banded with a chaplet of roses. Motto--_In Deo
+> non armis fido._
+
+This is a forceful and visually distinctive composition. The battle-axe, placed
+prominently in pale, is an unusually explicit martial charge, balanced by the
+three pellets arranged two and one. The stark contrast between the Argent field
+and the dark roundels gives the shield a severe clarity, while the central axe
+establishes a strong vertical axis. Pellets, traditionally rendered as black
+roundels, often function as marks of difference or visual counterweights rather
+than symbolic statements, and here they frame the principal charge without
+competing for emphasis.
+
+The crest reinforces the shield’s theme through repetition and elaboration. The
+two battle-axes in saltire echo the single axe of the shield, transforming it
+from an individual emblem into a crossed, almost heraldic standard. The axes are
+banded with a chaplet of roses, a detail that softens the otherwise martial
+imagery and introduces a note of balance between force and restraint. The use of
+floral binding in a crest of weapons is uncommon and suggests a deliberate
+effort to temper martial readiness with moral or spiritual symbolism.
+
+The motto _In Deo non armis fido_ ("I trust in God, not in arms") provides the
+interpretive key to the whole achievement. Read together, shield, crest, and
+motto form a coherent statement: martial capability acknowledged, but ultimate
+reliance placed elsewhere. This explicit theological framing aligns closely with
+Puritan sensibilities and distinguishes the Morse arms from purely chivalric or
+aristocratic martial bearings. The motto is well attested in American armorial
+sources and is recorded alongside the arms in Crozier’s _General Armory_.
+
+The Morse arms are recorded in
+[Crozier](https://archive.org/details/croziersgenerala00croz/page/95/mode/1up)
+and have been consistently transmitted in American genealogical and heraldic
+literature. While no definitive English visitation entry has been conclusively
+tied to Samuel Morse, the structure and restraint of the arms are fully
+consistent with late Elizabethan and early Stuart English practice. The explicit
+pairing of martial charges with a pious motto is characteristic of Protestant
+armory in the period immediately preceding and following the English Civil Wars.
+The stability of the blazon, crest, and motto across American sources supports
+their recognition as the established arms of the Morse family in colonial New
+England.
+
+
+
 
 *Additional memberships will be added as they are approved.*
 
