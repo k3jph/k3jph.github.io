@@ -19,83 +19,67 @@ redirect_from:
 cap="Interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
 alt="Interpreted by Dr Antonio Salmerón" %}
 
-At its core, heraldry started as a means of identification, evolving
-over centuries from simple insignias to the complex art of designing,
-displaying, and studying coats of arms. As we recognize it, the
-tradition of heraldry emerged in the early 12th century, primarily
-serving the practical purpose of distinguishing combatants who were
-otherwise anonymized by their armor on the battlefield. This necessity
-gave rise to the role of the herald, individuals who, clad in a
-distinctive tabard, were tasked with conveying messages and issuing
-challenges for their sovereigns or lords. They were shielded from
-harm and armed with extensive knowledge of the armorial symbols
-within their jurisdiction and beyond.
+At its core, heraldry began as a system of identification. Over centuries, it
+evolved from simple insignia into the complex art and science of designing,
+displaying, and regulating coats of arms. As we recognize it today, the heraldic
+tradition emerged in the early twelfth century, primarily serving the practical
+purpose of distinguishing combatants who were otherwise obscured by armor on the
+battlefield. This necessity gave rise to the role of the herald, individuals
+clad in distinctive tabards who conveyed messages and issued challenges on
+behalf of sovereigns or lords. They were protected from harm and charged with
+maintaining detailed knowledge of armorial symbols within and beyond their
+jurisdiction.
 
-Over time, heralds gained the sovereign-backed authority to grant
-coats of arms officially. Although the decline of armor in warfare
-diminished heraldry's original functional role, it had already
-cemented its place within the societal fabric, symbolizing status
-and identity far beyond the battlefield. Coats of arms expanded in
-scope and were awarded to the aristocracy and notable figures in
-society seeking a distinctive form of identification amid widespread
-illiteracy.
+Over time, heralds gained sovereign-backed authority to grant coats of arms
+officially. Although the decline of armor in warfare reduced heraldry’s original
+function, it had already secured a permanent place within the social fabric.
+Coats of arms became symbols of identity, status, and continuity. They were
+granted to the aristocracy and later to notable figures seeking distinctive
+forms of identification in a largely illiterate society.
 
-In the modern era, heraldry has transcended its practical origins
-to become predominantly a symbol of prestige and heritage. While
-some may attempt to adopt self-styled arms, proper legal recognition
-of a coat of arms requires sanctioning by an authoritative body
-acting under a mandate from the state. This ensures that heraldry
-remains a respected tradition grounded in legitimacy and historical
-continuity.
+In the modern era, heraldry has transcended its martial origins and now
+functions primarily as a symbol of prestige, heritage, and legal identity. While
+some may adopt self-styled arms, proper recognition requires authorization by a
+competent heraldic authority acting under a mandate of the state. This preserves
+heraldry as a disciplined and legitimate tradition grounded in continuity and
+law.
 
 ## Heraldry in Malta
 
-The Republic of Malta boasts a rich tapestry of European heraldic
-tradition, adorned with coats of arms that narrate the island's
-history through its [noble
-families](https://santfournier.org/MNINFO/maltesenobilityhistory.html), the
-esteemed [Order of St. John](https://www.orderofmalta.int/), and
-the ecclesiastical heritage. This heraldic legacy extends to various
-institutions, including companies, schools, and corporations, each
-bearing unique armorial symbols that contribute to the cultural
-mosaic of the Maltese Islands.
+The Republic of Malta possesses a rich European heraldic tradition, reflected in
+the arms of its noble families, the historic [Order of St.
+John](https://www.orderofmalta.int/), and numerous ecclesiastical and civic
+institutions. Heraldry in Malta appears on churches, corporate emblems, schools,
+and municipalities, forming part of the visual language of national identity.
 
 {% include figure.html image="Coat-of-Arms-Chief-Herald-Malta.webp"
-placement="right" width="40%" cap="Arms of the Office Of the Chief
-Herald" alt="Arms of the Office Of the Chief Herald" %}
+placement="right" width="40%" cap="Arms of the Office of the Chief Herald"
+alt="Arms of the Office of the Chief Herald" %}
 
-For a long time, the vibrant array of heraldic emblems across Malta
-evolved without the oversight of a central regulatory body. This
-changed with the recent establishment of the [Office of the Chief
-Herald of Arms of Malta](https://maltaheraldry.mt/), located within
-the historic confines of Fort St Elmo in Valletta. [Count Charles
-Gauci](https://maltaheraldry.mt/about-us/)'s appointment as the
-inaugural Chief Herald of Arms in 2019 marked the beginning of a
-new era in Maltese heraldry.
+For many years, heraldic emblems developed locally without centralized
+oversight. This changed with the establishment of the [Office of the Chief
+Herald of Arms of Malta](https://maltaheraldry.mt/) at Fort St Elmo in Valletta.
+The appointment of [Count Charles Gauci](https://maltaheraldry.mt/about-us/) as
+the inaugural Chief Herald of Arms in 2019 marked the beginning of a formalized
+and state-recognized heraldic authority.
 
-Under the auspices of the Chief Herald of Arms, all newly granted
-or registered coats of arms receive official recognition by the
-State, ensuring their protection from unauthorized replication. The
-Chief Herald's office regulates personal and corporate heraldic
-symbols throughout Malta. This includes the creation and grant of
-new arms, the registration of long-standing local arms, and the
-acknowledgment of arms granted by recognized foreign authorities.
+Under the authority of the Chief Herald of Arms of Malta, newly granted or
+registered arms receive official recognition by the State. The office regulates
+personal and corporate heraldic symbols, grants new arms, registers established
+arms, and acknowledges arms granted by recognized foreign authorities.
 
 ## My Grant of Arms
 
 I received a grant of arms from the Office of the Chief Herald of Arms of Malta,
-formalized through Letters Patent numbered G0102, issued on May 1, 2024.  The
+formalized through Letters Patent numbered G0102, issued on May 1, 2024. The
 formal notice of this grant was published in the _Gazzetta tal-Gvern ta' Malta_,
-the official gazette of the Government of Malta, [in issue number 21,194, on
-Feburary 16, 2024](/assets/docs/malta-government-gazette-20240216.pdf). This
-publication serves as the official record, ensuring transparency and public
-acknowledgment of the newly granted arms.
+the official gazette of the Government of Malta, in issue number 21,194 on
+February 16, 2024. This publication serves as the official public record of the
+grant.
 
-This coat of arms, now officially recorded and recognized, joins a
-storied collection of heraldic emblems that reflect the diverse
-heritage and dynamic future of Malta. It stands as a symbol of honor
-and distinction, offering a lasting legacy that will be cherished
-by generations to come.
+This coat of arms, now officially recorded and recognized, joins the broader
+heraldic corpus of Malta. It stands as a lawful instrument of identity and
+distinction, intended to endure as part of my family’s heraldic legacy.
 
 {% include figure.html image="/2024/a-maltese-grant-of-arms.webp" width="12" border=true
 cap="Letters patent for the coat of arms" 
@@ -105,117 +89,61 @@ Or you may [download the PDF here](/assets/docs/jhoward-malta-letters-patent.pdf
 
 ### Blazon
 
-A blazon is the formal language of heraldry, an intricate system
-of symbols and descriptions used for centuries to convey the
-composition of coats of arms. It is a precise and codified language
-that allows heralds and enthusiasts alike to recreate the visual
-splendor of a heraldic shield from textual descriptions alone. Each
-term in a blazon specifies colors, patterns, symbols, and placement,
-ensuring that the coat of arms can be accurately interpreted and
-replicated anywhere in the world.
+A blazon is the formal language of heraldry, a codified descriptive system that
+allows a coat of arms to be reconstructed anywhere in the world from text alone.
+Each term specifies color, form, arrangement, and relationship of elements with
+technical precision.
 
 <div class="row">
   <div class="item col-md-6 col-sm-12">
     <blockquote>
       <p>
-        Argent in pale a tetrahedron Azure pierced in bend by a sword Or with pommel and cross piece of the Second.  Upon a helm befitting his degree with mantling Azure and doubled Or is set for crest, upon a wreath of the liveries a martlet Sable.
+        Argent in pale a tetrahedron Azure pierced in bend by a sword Or with pommel and cross piece of the Second. Upon a helm befitting his degree with mantling Azure and doubled Or is set for crest, upon a wreath of the liveries a martlet Sable.
       </p>
     </blockquote>
   </div>
   <div class="item col-md-6 col-sm-12">
     <blockquote>
       <p>
-        Lewn il-Fidda in Pale tetrahedron lewn Ikħal minfud b'sejf In Bend lewn id-Deheb u bil-maqbad u s-salib tiegħu ta' lewn Ikħal.Fuq elmu li jixraq il-grad tiegħu bid-drappeġġ Ikħal u lewn id-Deheb hemm bħala Kresta fuq girlanda tal-istess ilwien ħuttafa ta' lewn Iswed.
+        Lewn il-Fidda in Pale tetrahedron lewn Ikħal minfud b'sejf In Bend lewn id-Deheb u bil-maqbad u s-salib tiegħu ta' lewn Ikħal. Fuq elmu li jixraq il-grad tiegħu bid-drappeġġ Ikħal u lewn id-Deheb hemm bħala Kresta fuq girlanda tal-istess ilwien ħuttafa ta' lewn Iswed.
       </p>
     </blockquote>
   </div>
 </div>
 
-The blazon presented encapsulates a deeply personal and symbolic
-heraldic identity, reflective of both heritage and individual
-achievement. At its heart, the argent field sets a stage of purity
-and sincerity, upon which a tetrahedron azure is prominently featured.
-This geometric figure is not chosen randomly; it is a deliberate
-nod to the world of mathematics, representing the bearer's role
-within this discipline. The tetrahedron, a solid figure with four
-triangular faces, is foundational in geometric studies and serves
-as a metaphor for stability and intellectual building blocks,
-mirroring the bearer's contributions to and foundations in mathematics.
+The argent field establishes clarity and sincerity. The tetrahedron Azure
+reflects geometry, structure, and intellectual architecture. Piercing it in bend
+is a sword Or, inspired in part by the civic seal of Cincinnati, linking
+personal heraldry to geographic heritage. The Arthurian resonance of the sword
+reinforces themes of legitimacy and responsibility.
 
-Piercing the tetrahedron in bend is a sword, or; the seal of Cincinnati,
-Ohio, directly inspires its design. This choice links the bearer's
-heraldic identity to a significant locale. The imagery of the sword
-also evokes the legendary tale of King Arthur's Excalibur, suggesting
-themes of nobility, valor, and the destined right to leadership.
-The "sword-in-the-stone" allusion enriches the emblem with a narrative
-of overcoming challenges to achieve one's rightful place, much like
-the mythical king.
-
-    
-The crest features a martlet sable, a heraldic charge that holds rich
-symbolism within the realm of heraldry. Suggested by Count Gauci, the
-martlet's inclusion hints at a lineage likely connecting me to [Thomas
-Arundell](https://www.catholic.com/encyclopedia/thomas-arundell), whose
-arms bore six martlets. While the descent remains unproven, the martlet
-is a significant symbol in heraldry, often representing continuous quest
-and ambition.  Traditionally depicted without feet, the martlet is said
-to be in perpetual flight, emblematic of constant endeavor and the
-pursuit of higher aspirations. This imagery aligns with the bearer's
-journey of discovery and excellence in their field. Therefore, the use
-of the martlet is not only a potential nod to ancestral ties but also a
-testament to the bearer's tireless dedication and pursuit of knowledge,
-embodying the spirit of ambition and the relentless pursuit of
-achievement.
-            
-In addition to incorporating the martlet into the crest of the coat of arms,
-I've embraced a unique cross-cultural heraldic approach by creating an image of
-the martlet styled as a Japanese _kamon_. 
-A _kamon_ is a form of Japanese heraldry, symbolizing family crests or
-emblems that date back to the Heian period (794-1185). Traditionally used to
-identify family lineage, _kamon_ designs are elegantly simplistic and highly
-stylized, often representing animals, plants, or abstract symbols. This
-integration of a _kamon_ into the heraldic design not only highlights a blend of
-Eastern and Western heraldic traditions but also reflects a personal connection
-to the aesthetic and cultural significance of Japanese symbolism. 
+The crest features a martlet sable. Suggested by Count Gauci, the martlet
+recalls traditional heraldic symbolism associated with aspiration and ceaseless
+endeavor. Traditionally depicted without feet, the martlet symbolizes continuous
+striving and disciplined pursuit. Whether viewed as a nod to potential
+historical connections or simply as a heraldic emblem of intellectual ambition,
+it expresses constancy and purposeful motion.
 
 ### Motto
 
-For a motto, I chose "_Ir-rieda biss tmexxi l-qalb_", which is
-Maltese for "Only the will leads the heart." This motto underscores
-the importance of determination and willpower in guiding one's
-passions and decisions, suggesting that true leadership and direction
-in life come from inner strength and resolve.
+For a motto, I chose "_Ir-rieda biss tmexxi l-qalb_," Maltese for "Only the will
+leads the heart." The phrase emphasizes discipline over impulse and resolve over
+sentiment, underscoring the guiding principle behind the arms.
 
-As an aside, Count Gauci suggested this was the first Maltese motto
-he had seen in his term of office!
+Count Gauci remarked that this was the first Maltese-language motto he had
+encountered during his term of office.
 
 ### Emblazonment
 
-An emblazonment in heraldry refers to the artistic representation
-of a coat of arms, bringing to life the abstract descriptions of a
-blazon through vivid imagery and design. This process transforms
-the precise and formulaic language of heraldry into a visual symbol
-unique to the bearer, encapsulating their heritage, achievements,
-and values. While there may be multiple emblazonments of the same
-coat of arms, each with its own stylistic nuances and artistic
-interpretations, they are all considered equivalent as long as they
-accurately adhere to the details specified in the original blazon.
-This principle allows for a rich diversity of heraldic art, where
-the essence of the coat of arms remains consistent across different
-renditions, showcasing the universal language of heraldry that
-transcends individual variations in artistic expression.
+An emblazonment is the artistic rendering of a coat of arms from its blazon.
+While the text remains constant, artistic interpretations may vary in style,
+shading, and technique. All are equally valid so long as they conform to the
+blazon. This flexibility permits heraldry to remain both precise and
+artistically vibrant.
 
 ### Additional Emblazonments
 
-In this section, we showcase various artistic interpretations of my coat of
-arms, highlighting the diversity and creativity within heraldic art. Each
-emblazonment, while adhering to the same blazon, brings a unique style and
-perspective, reflecting the individual artistry of the creators. These
-variations enrich the visual representation of the arms, demonstrating how
-heraldry can be both a precise science and a vibrant art form.  By exploring
-different emblazonments, we can appreciate the multifaceted nature of heraldic
-design and its capacity to convey identity and heritage through various artistic
-lenses.
+In this section, various interpretations of the arms are displayed, each adhering to the same blazon while reflecting the individual style of the artist.
 
 <div id="masonry-container" class="row">
 {% include figure.html image="armory/jhoward-coa-ratul-960px.webp" placement="left" width="4" border=true
@@ -265,6 +193,10 @@ alt="Interpreted by Manuel Pais in Carta de Brasão de Armas style" %}
 {% include figure.html image="armory/jhoward-coa-fairbairn-color.svg" placement="left" width="4" border=false
 cap="A colored woodcut style by me" 
 alt="A colored woodcut style by me" %}
+
+{% include figure.html image="armory/jhoward-arms-dprica.webp" placement="left" width="4" border=false
+cap="Interpreted by [Dimitri Prica](http://www.dprica.com/)" 
+alt="Interpreted by Dimitri Prica" %}
 </div>
 
 ## Related Insignia
@@ -289,7 +221,7 @@ alt="Crest in the Fairbairn-style by Quentin Peacock" %}
 
 The crest occupies its traditional position atop the helm in the full armorial
 achievement and serves as a complementary emblem of personal identity. In this
-case, it is a martlet Sable—rendered footless, in flight, and facing dexter—set
+case, it is a martlet Sable, rendered footless, in flight, and facing dexter, set
 upon a wreath of the livery colors. Unlike the shield, which often functions
 independently in banners or seals, the crest is more intimate in scale and
 symbolic depth, used most often in formal armorial contexts or engraved devices.
@@ -305,7 +237,7 @@ colonial crests should be illustrated: compact, crisp, and uniform in treatment,
 with an emphasis on legibility and heraldic clarity. The illustrations are often
 set without background, with consistent line work, minimal shading, and a
 careful focus on the recognizable outline of each charge. In this style, the
-martlet appears as a clean black silhouette on a simple torse—a deliberate
+martlet appears as a clean black silhouette on a simple torse, a deliberate
 homage to Fairbairn's aesthetic and its influence on modern armorial
 presentation.
 
@@ -313,7 +245,7 @@ In that spirit of familiarity, the martlet has also been given a name: Eckbert.
 This bit of informal personification arose during the design process between
 Quentin and myself, and while not heraldically required, it reflects the
 personal dimension that crests often hold. They are not just visual identifiers,
-but symbolic avatars—distillations of lineage, values, and character.
+but symbolic avatars, distillations of lineage, values, and character.
 
 The blazon of the crest reads:
 
@@ -328,7 +260,7 @@ achievement reads as a coherent whole.
 
 In contemporary use, the crest may appear above the arms on letterheads,
 documents, and regalia, or on its own when the context calls for a simplified
-emblem. In such settings, Eckbert—the sable martlet—serves not only as a visual
+emblem. In such settings, Eckbert, the sable martlet, serves not only as a visual
 anchor, but as a quiet representative of the ideals behind the arms: learning,
 discipline, and a certain restless precision.
 
@@ -375,8 +307,8 @@ alt="Primary heraldic badge" %}
 Two heraldic badges are associated with my armorial bearings, each combining
 core elements from the arms into compact, emblematic forms. These badges follow
 the tradition of English armory, where personal devices were historically used
-for identification in less formal or non-armorial contexts—appearing on
-retainers’ clothing, seals, standards, household plate, and architecture.
+for identification in less formal or non-armorial contexts, appearing on
+retainers' clothing, seals, standards, household plate, and architecture.
 
 The primary badge features the martlet from the crest placed in front of a
 vertically oriented sword inverted, drawn directly from the shield. This
@@ -395,8 +327,8 @@ though not part of the Letters Patent itself. It follows English custom in that
 badges may be assumed or developed alongside armorial bearings, especially when
 drawn exclusively from components already granted.
 
-The secondary badge features a blue tetrahedron—the central geometric figure
-from the shield—surmounted by two golden swords in saltire. This design is more
+The secondary badge features a blue tetrahedron, the central geometric figure
+from the shield, surmounted by two golden swords in saltire. This design is more
 assertive and structured, and lends itself well to institutional, martial, or
 ceremonial uses. Where the first badge emphasizes symbolic integration, this
 variant focuses on balance and strength.
@@ -561,7 +493,7 @@ uniquely mine.
 
 Although not included in the original grant of arms issued by the Chief Herald
 of Arms of Malta, this standard was developed and adopted subsequently in
-accordanc  e with established heraldic practice. It remains consistent with the
+accordance with established heraldic practice. It remains consistent with the
 armorial bearings granted under Maltese authority and serves as a lawful and
 appropriate extension of their use in flag form.
 
@@ -844,5 +776,38 @@ via the NEHGS archives.
 
 You may [download the PDF
 here](/assets/docs/jhoward-nehgs-coh-letter.pdf).
+
+### American College of Heraldry
+
+{% include figure.html width="5" border=true placement="right"
+image="/armory/jhoward-ach-registration.webp"
+link="/assets/docs/jhoward-ach-registration.pdf"
+cap="Registration certificate from the American College of Heraldry"
+alt="Registration certificate from the American College of Heraldry" %}
+
+The arms have also been formally registered by the [American College of
+Heraldry](https://americancollegeofheraldry.org/).  The College issued an
+Armorial Registration certificate under number 4855, signed by its Executive
+Director, David Robert Wooten, dated 10 February 2026.  The registration records
+the arms as granted by the Chief Herald of Arms of Malta on 1 May 2024, and
+confirms the arms and crest for use by me and by my descendants, with due and
+proper differences according to heraldic tradition. 
+
+The College's presentation style is deliberately "letters patent" in feel, a
+full illuminated certificate with the arms displayed alongside institutional
+seals and the signatures of the issuing authority. Unlike registries that focus
+on compact blazons and archival minimalism, this format makes the registration
+itself the artifact. It preserves not only the blazon, but also the intended
+visual composition of the achievement as presented at the time of record.
+
+The blazon as entered reads:
+
+> Argent a triangle Azure charged with a fillet pall inverted Argent pierced
+> in bend by a sword Or with pommel and hilt of the second. Crest--A martlet
+> close Sable.
+
+You may [download the PDF
+here](/assets/docs/jhoward-ach-registration.pdf)
+
 
 *Additional registrations will be added as they are approved.*
