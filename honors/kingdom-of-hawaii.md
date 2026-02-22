@@ -87,10 +87,6 @@ forward-thinking approach to international diplomacy and his
 commitment to advocating for the sovereignty and collaboration of
 island nations in the Pacific and Indian Oceans.
 
-{% include figure.html image="honors/KCRSO-pendant-medal.svg" placement="right" width="4"
-cap="The medal of a Knight Commander of the Royal Order of the Star of Oceania"
-alt="The medal of a Knight Commander of the Royal Order of the Star of Oceania" %}
-
 The Royal Order of the Star of Oceania, originally established during the
 Hawaiian Kingdom's monarchy, was abolished following the overthrow of Queen
 Lili'uokalani in 1893. This pivotal event not only marked the decline of the
