@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="4.0666051in"
-   height="5.4389286in"
+   width="4.0666103in"
+   height="5.3428855in"
    version="1.1"
    id="svg1"
    sodipodi:docname="jameshoward-arms.svg"
@@ -20,12 +20,12 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="0.125"
-     inkscape:cx="-1676"
-     inkscape:cy="724"
+     inkscape:zoom="2"
+     inkscape:cx="145.5"
+     inkscape:cy="450.75"
      inkscape:window-width="1920"
      inkscape:window-height="1022"
-     inkscape:window-x="1710"
+     inkscape:window-x="1980"
      inkscape:window-y="30"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg1"
@@ -34,7 +34,7 @@
      inkscape:document-units="in" /><g
      id="g2"
      inkscape:label="Coat of Arms"
-     transform="matrix(0.20907148,0,0,0.20907148,-29.62749,79.19357)"
+     transform="matrix(0.20907148,0,0,0.20907148,-29.625033,79.19357)"
      style="display:inline"><g
        id="g11"
        inkscape:label="Mantling"
@@ -98,7 +98,7 @@
        transform="translate(-3.6166397)"><g
          id="g3"
          inkscape:label="KCRSO"
-         transform="matrix(1.2010054,0,0,1.2010054,-31.04922,-669.63425)"><g
+         transform="matrix(1.0959272,0,0,1.0959272,66.068184,-469.3429)"><g
            id="g2-5"
            transform="matrix(3.1723844,0,0,3.1723844,424.41193,1016.7044)"
            style="display:inline;stroke-width:0.167124;stroke-dasharray:none"
@@ -373,10 +373,10 @@
                transform="skewX(-7.4322039e-4)" /><path
                id="path3"
                style="fill:#f6e7a2;fill-opacity:1;stroke:#806600;stroke-width:14.4;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
-               d="M 376.12009 823.85846 L 436.75116 884.49301 L 706.47141 614.77232 L 626.14025 573.83938 L 376.12009 823.85846 z M 1022.3944 298.84892 L 1360.405 -39.161174 L 1239.1394 -39.164666 L 1016.3558 183.62704 L 1022.3944 298.84892 z " /><path
+               d="m 376.12009,823.85846 60.63107,60.63455 269.72025,-269.72069 -80.33116,-40.93294 z m 646.27431,-525.00954 338.0106,-338.010094 -121.2656,-0.0035 -222.7836,222.791704 z" /><path
                id="rect3"
                style="fill:#f6d84a;fill-opacity:1;stroke:#806600;stroke-width:14.4;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
-               d="M 315.47429 763.21064 L 376.12009 823.85846 L 626.14025 573.83938 L 545.78109 532.90791 L 315.47429 763.21064 z M 1016.3558 183.62704 L 1239.1394 -39.164666 L 1239.1282 -160.44355 L 1010.3151 68.363161 L 1016.3558 183.62704 z " /></g><g
+               d="m 315.47429,763.21064 60.6458,60.64782 250.02016,-250.01908 -80.35916,-40.93147 z m 700.88151,-579.5836 222.7836,-222.791706 -0.011,-121.278884 -228.8131,228.806711 z" /></g><g
              id="g17"
              inkscape:label="Hilt"><path
                style="fill:#0b2f5b;fill-opacity:1;stroke:#0b2f5b;stroke-width:0.297935;stroke-opacity:1"
