@@ -24,7 +24,7 @@ $dark-gray:                  #777777 !default;
 
 $transparent-bg:             transparent !default;
 
-$gold-color:                 #c5a47e !default;
+$gold-color:                 #f6e7a2 !default;
 $gold-states-color:          color.adjust($gold-color, $lightness: -4%) !default;
 
 $default-color:              #888888 !default;
@@ -39,12 +39,12 @@ $success-color:              #2e7d32ff !default;
 $success-bg:                 #2e7d32ff !default;
 $success-states-color:       color.adjust($success-color, $lightness: -4%) !default;
 
-$info-color:                 #154c9eff !default;
-$info-bg:                    #154c9eff !default;
+$info-color:                 #14488aff !default;
+$info-bg:                    #14488aff !default;
 $info-states-color:          color.adjust($info-color, $lightness: -4%) !default;
 
-$warning-color:              #fee46eff !default;
-$warning-bg:                 #fee46eff !default;
+$warning-color:              #f3dd78ff !default;
+$warning-bg:                 #f3dd78ff !default;
 $warning-states-color:       color.adjust($warning-color, $lightness: -4%) !default;
 
 $danger-color:               #c62828ff !default;
