@@ -2,7 +2,7 @@
 class: lineage
 id: order-of-americans-of-armorial-ancestry
 title: Order of Americans of Armorial Ancestry
-subtitle: Member _jure_ John Hoar, Henry Adams, John Bigelow, Isaac Stearns, William Learned, and Jonathan Fairbanks; member no. 1185
+subtitle: Member _jure_ John Hoar, Henry Adams, John Bigelow, Isaac Stearns, William Learned, Jonathan Fairbanks, and Samuel Morse; member no. 1185
 date: 2024-07-01
 member_number: 1185
 qualifying_ancestors: [ "John Hoar, Esquire, of Massachusetts",
@@ -10,7 +10,8 @@ qualifying_ancestors: [ "John Hoar, Esquire, of Massachusetts",
                         "John Bigelow of Massachusetts",
                         "Isaac Stearns of Massachusetts",
                         "William Learned of Massachusetts",
-                        "Jonathan Fairbanks of Massachusetts"]
+                        "Jonathan Fairbanks of Massachusetts",
+                        "Samuel Morse of Massachusetts"]
 author: k3jph
 layout: page
 guid: order-of-americans-of-armorial-ancestry
