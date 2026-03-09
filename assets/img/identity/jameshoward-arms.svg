@@ -228,15 +228,15 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="2.8044108"
-     inkscape:cx="186.49194"
-     inkscape:cy="168.66288"
+     inkscape:zoom="2.522338"
+     inkscape:cx="140.94067"
+     inkscape:cy="150.25742"
      inkscape:window-width="1470"
      inkscape:window-height="923"
-     inkscape:window-x="0"
-     inkscape:window-y="33"
+     inkscape:window-x="2032"
+     inkscape:window-y="80"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g425"
+     inkscape:current-layer="g376"
      showgrid="false"
      showguides="false"
      inkscape:document-units="in" /><g
@@ -1244,16 +1244,7 @@
                d="m 525.34586,819.54982 a 0.5651651,0.63352061 4.9450793e-6 1 0 -0.99111,-0.051 0.5651651,0.63352061 4.9450793e-6 1 0 -10e-6,1.06915 0.5651651,0.63352061 4.9450793e-6 1 0 0.99113,-0.051 h 1.76025 l 10e-6,1.97316 a 0.5651651,0.63352061 4.9450793e-6 1 0 -0.0455,1.11099 0.5651651,0.63352061 4.9450793e-6 1 0 0.95378,0 0.5651651,0.63352061 4.9450793e-6 1 0 -0.0455,-1.11099 l 10e-6,-1.97316 h 1.76025 a 0.5651651,0.63352061 4.9450793e-6 1 0 0.99113,0.051 0.5651651,0.63352061 4.9450793e-6 1 0 -10e-6,-1.06915 0.5651651,0.63352061 4.9450793e-6 1 0 -0.99111,0.051 l -1.76027,-10e-6 10e-6,-1.97315 a 0.5651651,0.63352061 4.9450793e-6 1 0 0.0455,-1.111 0.5651651,0.63352061 4.9450793e-6 1 0 -0.95379,0 0.5651651,0.63352061 4.9450793e-6 1 0 0.0455,1.11099 l 10e-6,1.97316 z"
                id="path1"
                style="display:inline;fill:#250404;fill-opacity:1;stroke:#3a3f46;stroke-width:0.0927084;stroke-dasharray:none;stroke-opacity:1"
-               transform="matrix(1,0,0,1.080863,-3.5250231,-68.885896)" /></g><g
-             id="g27"
-             transform="translate(-0.54876308,1.6192211)"
-             style="display:inline"><path
-               d="m 524.3545,820.70596 -0.342,2.0565 -0.342,-2.0565 v -3.6586 h -1.6842 v 1.1956 h -0.684 v -1.1956 h -0.987 v -0.829 h 0.987 v -1.1956 h 0.684 v 1.1956 h 1.6842 v -2.0405 h -0.987 v -0.829 h 0.987 v -1.1956 h 0.684 v 1.1956 h 0.987 v 0.829 h -0.987 v 2.0405 h 1.6842 v -1.1956 h 0.684 v 1.1956 h 0.987 v 0.829 h -0.987 v 1.1956 h -0.684 v -1.1956 h -1.6842 z"
-               id="path1-3"
-               style="display:inline;fill:#2a0404;fill-opacity:1;stroke:#5a6068;stroke-width:0.289151;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" /><path
-               d="m 524.3545,820.70596 -0.342,2.0565 -0.342,-2.0565 v -3.6586 h -1.6842 v 1.1956 h -0.684 v -1.1956 h -0.987 v -0.829 h 0.987 v -1.1956 h 0.684 v 1.1956 h 1.6842 v -2.0405 h -0.987 v -0.829 h 0.987 v -1.1956 h 0.684 v 1.1956 h 0.987 v 0.829 h -0.987 v 2.0405 h 1.6842 v -1.1956 h 0.684 v 1.1956 h 0.987 v 0.829 h -0.987 v 1.1956 h -0.684 v -1.1956 h -1.6842 z"
-               id="path27"
-               style="display:inline;fill:#250404;fill-opacity:1;stroke:#3a3f46;stroke-width:0.0963839;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" /></g></g><g
+               transform="matrix(1,0,0,1.080863,-3.5250231,-68.885896)" /></g></g><g
            id="g424"
            inkscape:label="Gold Bars"
            transform="matrix(0.16290702,0,0,0.14418842,562.78845,679.27576)"
@@ -1795,7 +1786,7 @@
          inkscape:label="Label"><tspan
            x="-92.162109"
            y="16.238979"
-           id="tspan1">Or</tspan></text></g><g
+           id="tspan27">Or</tspan></text></g><g
        inkscape:label="Gules"
        id="g12-gules"
        transform="translate(12.21402,14.907294)"
@@ -1849,7 +1840,7 @@
          inkscape:label="Label"><tspan
            x="-92.162109"
            y="16.238979"
-           id="tspan2">Gules</tspan></text></g><g
+           id="tspan28">Gules</tspan></text></g><g
        inkscape:label="Azure"
        id="g12-azure"
        transform="translate(12.21402,29.907294)"
@@ -1903,7 +1894,7 @@
          inkscape:label="Label"><tspan
            x="-92.162109"
            y="16.238979"
-           id="tspan3">Azure</tspan></text></g><g
+           id="tspan29">Azure</tspan></text></g><g
        inkscape:label="Vert"
        id="g12-vert"
        transform="translate(12.21402,44.907294)"
@@ -1957,7 +1948,7 @@
          inkscape:label="Label"><tspan
            x="-92.162109"
            y="16.238979"
-           id="tspan4">Vert</tspan></text></g><g
+           id="tspan30">Vert</tspan></text></g><g
        inkscape:label="Purpure"
        id="g12-purpure"
        transform="translate(12.21402,59.907294)"
@@ -2011,7 +2002,7 @@
          inkscape:label="Label"><tspan
            x="-92.162109"
            y="16.238979"
-           id="tspan5">Purpure</tspan></text></g><g
+           id="tspan31">Purpure</tspan></text></g><g
        inkscape:label="Argent"
        id="g12-argent"
        transform="translate(12.21402,74.907294)"
@@ -2065,7 +2056,7 @@
          inkscape:label="Label"><tspan
            x="-92.162109"
            y="16.238979"
-           id="tspan6">Argent</tspan></text></g><g
+           id="tspan32">Argent</tspan></text></g><g
        inkscape:label="Sable"
        id="g12-sable"
        transform="translate(12.21402,89.907294)"
@@ -2119,7 +2110,7 @@
          inkscape:label="Label"><tspan
            x="-92.162109"
            y="16.238979"
-           id="tspan7">Sable</tspan></text></g><g
+           id="tspan33">Sable</tspan></text></g><g
        inkscape:label="Murrey"
        id="g12-murrey"
        transform="translate(12.21402,119.90729)"
@@ -2173,7 +2164,7 @@
          inkscape:label="Label"><tspan
            x="-92.162109"
            y="16.238979"
-           id="tspan8">Murrey</tspan></text></g><g
+           id="tspan34">Murrey</tspan></text></g><g
        inkscape:label="Sanguine"
        id="g12-sanguine"
        transform="translate(12.21402,134.90729)"
@@ -2227,7 +2218,7 @@
          inkscape:label="Label"><tspan
            x="-92.162109"
            y="16.238979"
-           id="tspan9">Sanguine</tspan></text></g><g
+           id="tspan35">Sanguine</tspan></text></g><g
        inkscape:label="Tenné"
        id="g12-tenne"
        transform="translate(12.21402,104.90729)"
@@ -2281,7 +2272,7 @@
          inkscape:label="Label"><tspan
            x="-92.162109"
            y="16.238979"
-           id="tspan10">Tenné</tspan></text></g><g
+           id="tspan36">Tenné</tspan></text></g><g
        inkscape:label="Nonstandard Tinctures"
        id="g12-nonstandard"
        transform="translate(12.21402,149.90729)"
@@ -2331,7 +2322,7 @@
            inkscape:label="Label"><tspan
              x="-92.162109"
              y="16.238979"
-             id="tspan11">Amaranth</tspan></text></g><!-- Bleu Celeste (metal) --><g
+             id="tspan37">Amaranth</tspan></text></g><!-- Bleu Celeste (metal) --><g
          inkscape:label="Bleu Celeste"
          transform="translate(0,15)"
          id="g46"><rect
@@ -2378,12 +2369,12 @@
            inkscape:label="Label"><tspan
              x="-92.162109"
              y="16.238979"
-             id="tspan12">Blue </tspan><tspan
+             id="tspan38">Blue </tspan><tspan
              x="-92.162109"
              y="39.17062"
-             id="tspan14"><tspan
+             id="tspan40"><tspan
                dx="0 8.6835938 7.96875 4.1015625 7.96875 7.1191406 5.4667969"
-               id="tspan13">Celeste</tspan></tspan></text></g><!-- Brunâtre --><g
+               id="tspan39">Celeste</tspan></tspan></text></g><!-- Brunâtre --><g
          inkscape:label="Brunâtre"
          transform="translate(0,30)"
          id="g52"><rect
@@ -2430,7 +2421,7 @@
            inkscape:label="Label"><tspan
              x="-92.162109"
              y="16.238979"
-             id="tspan15">Brunâture</tspan></text></g><!-- Buff --><g
+             id="tspan41">Brunâture</tspan></text></g><!-- Buff --><g
          inkscape:label="Buff"
          transform="translate(0,45)"
          id="g58"><rect
@@ -2477,7 +2468,7 @@
            inkscape:label="Label"><tspan
              x="-92.162109"
              y="16.238979"
-             id="tspan16">Buff</tspan></text></g><!-- Carnation --><g
+             id="tspan42">Buff</tspan></text></g><!-- Carnation --><g
          inkscape:label="Carnation"
          transform="translate(0,60)"
          id="g64"><rect
@@ -2524,7 +2515,7 @@
            inkscape:label="Label"><tspan
              x="-92.162109"
              y="16.238979"
-             id="tspan17">Carnation</tspan></text></g><!-- Cendrée --><g
+             id="tspan43">Carnation</tspan></text></g><!-- Cendrée --><g
          inkscape:label="Cendrée"
          transform="translate(0,75)"
          id="g70"><rect
@@ -2571,7 +2562,7 @@
            inkscape:label="Label"><tspan
              x="-92.162109"
              y="16.238979"
-             id="tspan18">Cendrée</tspan></text></g><!-- Rose --><g
+             id="tspan44">Cendrée</tspan></text></g><!-- Rose --><g
          inkscape:label="Rose"
          transform="translate(0,90)"
          id="g76"><rect
@@ -2624,7 +2615,7 @@
            inkscape:label="Label"><tspan
              x="-92.162109"
              y="16.238979"
-             id="tspan19">Rose</tspan></text></g><!-- Teal --><g
+             id="tspan45">Rose</tspan></text></g><!-- Teal --><g
          inkscape:label="Teal"
          transform="translate(0,105)"
          id="g82"><rect
@@ -2677,7 +2668,7 @@
            inkscape:label="Label"><tspan
              x="-92.162109"
              y="16.238979"
-             id="tspan20">Teal</tspan></text></g><!-- Metals: Copper / Bronze / Steel / Iron / Lead --><!-- These intentionally cluster tonally with Or / Argent / Sable --></g><g
+             id="tspan46">Teal</tspan></text></g><!-- Metals: Copper / Bronze / Steel / Iron / Lead --><!-- These intentionally cluster tonally with Or / Argent / Sable --></g><g
        inkscape:label="Metals"
        id="g119"
        transform="translate(12.611328,150.00029)"><!-- White (Argent synonym) --><g
@@ -2733,7 +2724,7 @@
            inkscape:label="Label"><tspan
              x="-92.162109"
              y="16.238979"
-             id="tspan21">White</tspan></text></g><!-- Copper --><g
+             id="tspan47">White</tspan></text></g><!-- Copper --><g
          inkscape:label="Copper"
          transform="translate(0,135)"
          id="g94"><rect
@@ -2780,7 +2771,7 @@
            inkscape:label="Label"><tspan
              x="-92.162109"
              y="16.238979"
-             id="tspan22">Copper</tspan></text></g><!-- Bronze --><g
+             id="tspan48">Copper</tspan></text></g><!-- Bronze --><g
          inkscape:label="Bronze"
          transform="translate(0,150)"
          id="g100"><rect
@@ -2827,7 +2818,7 @@
            inkscape:label="Label"><tspan
              x="-92.162109"
              y="16.238979"
-             id="tspan23">Bronze</tspan></text></g><!-- Steel --><g
+             id="tspan49">Bronze</tspan></text></g><!-- Steel --><g
          inkscape:label="Steel"
          transform="translate(0,165)"
          id="g106"><rect
@@ -2874,7 +2865,7 @@
            inkscape:label="Label"><tspan
              x="-92.162109"
              y="16.238979"
-             id="tspan24">Steel</tspan></text></g><!-- Iron --><g
+             id="tspan50">Steel</tspan></text></g><!-- Iron --><g
          inkscape:label="Iron"
          transform="translate(0,180)"
          id="g112"><rect
@@ -2921,7 +2912,7 @@
            inkscape:label="Label"><tspan
              x="-92.162109"
              y="16.238979"
-             id="tspan25">Iron</tspan></text></g><!-- Lead (Plumbeum) --><g
+             id="tspan51">Iron</tspan></text></g><!-- Lead (Plumbeum) --><g
          inkscape:label="Lead"
          transform="translate(0,195)"
          id="g118"><rect
@@ -2974,4 +2965,4 @@
            inkscape:label="Label"><tspan
              x="-92.162109"
              y="16.238979"
-             id="tspan26">Lead</tspan></text></g></g></g></svg>
+             id="tspan52">Lead</tspan></text></g></g></g></svg>
