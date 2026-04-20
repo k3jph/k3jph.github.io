@@ -87,24 +87,21 @@ paid by consumers.
 The tariffs in question were broad and applied across categories with very
 different elasticity profiles. Some of that variation is predictable.
 
-**Medications and medical supplies** are highly inelastic. Patients do not stop
+* **Medications and medical supplies** are highly inelastic. Patients do not stop
 taking their prescriptions because the price went up. Importers and distributors
 passed tariff costs through aggressively in this category, and consumers had no
 practical recourse. The same logic applies to medical devices and equipment.
-
-**Staple foods and household necessities** are moderately inelastic. People will
+* **Staple foods and household necessities** are moderately inelastic. People will
 make substitutions at the margin, switching from one brand to another or
 adjusting quantities, but they cannot stop buying food. The burden was shared,
 but consumers bore a significant portion.
-
-**Consumer electronics** present a more complicated picture. Demand for a
+* **Consumer electronics** present a more complicated picture. Demand for a
 specific product can be fairly elastic, as consumers will wait for a sale or
 choose a competing model, but demand for the category is inelastic. You still
 need a phone. Importers in this space absorbed more of the cost than in
 inelastic categories, but the tariff costs still showed up in retail prices over
 time.
-
-**Discretionary goods** with readily available domestic substitutes are the
+* **Discretionary goods** with readily available domestic substitutes are the
 closest to elastic demand. Here, importers absorbed the most and consumers
 escaped relatively lightly.
 
