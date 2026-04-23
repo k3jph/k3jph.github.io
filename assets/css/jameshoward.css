@@ -149,6 +149,10 @@ figure {
   p {
     margin-bottom: 15px;
   }
+  ::selection {
+    background-color: #154c9eff;
+    color: #f8f8f8ff;
+  }
 }
 
 .img-border {
