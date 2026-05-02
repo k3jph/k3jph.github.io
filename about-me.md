@@ -83,6 +83,7 @@ and serving on several public and private boards.
 </div>
 
 ## Professional Awards
+*   Senior Member of the Association for Computing Machinery, 2026
 *   Fellow of the [Society of Antiquaries of Scotland](/assets/docs/jhoward-fsascot.pdf), 2025
 *   Fellow of the [Institute of Mathematics and its Applications](/assets/docs/JHoward-IMA-FIMA.pdf), 2022
 *   Fellow of the [Cybernetics Society](/assets/docs/JHoward-FCybS.pdf), 2021
