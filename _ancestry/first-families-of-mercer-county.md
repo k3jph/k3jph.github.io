@@ -4,6 +4,7 @@ id: first-families-of-mercer-county
 title: First Families of Mercer County
 subtitle: Member _jure_ Zebulon Burch (1860), Sarah Burch (1860), and Eunice Marcella Burch (1860)
 date: 2025-08-09
+member_number: 134
 qualifying_ancestors: [ "Zebulon Burch (1860)",
                         "Sarah Burch (1860)",
                         "Eunice Marcella Burch (1860)" ]
@@ -65,6 +66,13 @@ years. Their story mirrors that of many settlers, migration from older
 states, the establishment of a homestead in Ohio's rural landscape, and
 the raising of a family whose lives became intertwined with the history
 of the county.
+
+{% include figure.html width="12"
+   image="/ancestry/FFMC-Burch.webp" border=true
+   alt="Membership certificate in the First Families of Mercer County"
+   cap="Membership certificate in the First Families of Mercer County" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/FFMC-Burch.pdf).
 
 *Additional memberships will be added as they are approved.*
 
