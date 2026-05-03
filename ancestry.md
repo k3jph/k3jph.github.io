@@ -295,3 +295,89 @@ narrative across generations.
     </table>
   </div>
 </div>
+
+## Military Company Memberships
+
+This section documents membership in historic military companies that remain
+active as continuing institutions. These organizations differ from hereditary
+societies in a fundamental respect: they are not constituted by or for
+descendants, but are living companies with their own governance, ceremonial
+life, and operational identity that predate and exist independently of any
+hereditary membership category. Admission by right of descent is one pathway
+among several, available to lineal descendants of historical members, but the
+institution itself would function with or without that category. The historical
+weight here rests not on the qualifying ancestor alone but on the unbroken
+continuity of the company from its founding to the present.
+
+<div id="societies-table" class="table-responsive">
+  <div>
+    <table class="table align-items-center">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col" width="45%">Organization</th>
+          <th scope="col" width="40%"><span style="font-style: italic;">Jure</span></th>
+          <th scope="col" width="15%" class="text-center">Member Number</th>
+        </tr>
+      </thead>
+      <tbody class="list">
+        {% assign societies = site.ancestry | where: "class", "military" | sort: 'title' %}
+        {% for society in societies %}
+        <tr>
+          <th scope="row">
+            <div class="align-items-center table-element">
+                <span class="name mb-0 text-sm">
+                  <a href="{{ society.permalink | relative_url }}">{{ society.title }}</a>
+                </span>
+            </div>
+          </th>
+          <th scope="row">
+            <div class="align-items-center table-element">
+                <span class="name mb-0 text-sm">
+                  {% if society.qualifying_ancestors %}
+                      {% for ancestor in society.qualifying_ancestors %}
+                        {{ ancestor }}<br/>
+                      {% endfor %}
+                  {% else %}
+                    N/A
+                  {% endif %}
+                </span>
+            </div>
+          </th>
+          <th scope="row">
+            <div class="align-items-center table-element text-center">
+                <span class="date mb-0 text-sm">
+                  {% if society.member_number %}
+                    {{ society.member_number }}
+                  {% else %}
+                    &nbsp;
+                  {% endif %}
+                </span>
+            </div>
+          </th>
+        </tr>
+        {% if society.chapters %}
+          {% assign sorted_chapters = society.chapters | sort: 'name' %}
+          {% for chapter in sorted_chapters %}
+          <tr>
+            <th scope="row" colspan="2" class="pl-5">
+              <div class="align-items-center table-element">
+                <span class="name mb-0 text-sm">
+                  {{ chapter.name }}
+                </span>
+              </div>
+            </th>
+            <th scope="row">
+              <div class="align-items-center table-element text-center">
+                <span class="date mb-0 text-sm">
+                  {{ chapter.member_number }}
+                </span>
+              </div>
+            </th>
+          </tr>
+          {% endfor %}
+        {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
