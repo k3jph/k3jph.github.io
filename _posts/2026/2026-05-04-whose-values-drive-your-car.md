@@ -1,7 +1,7 @@
 ---
 id: whose-values-drive-your-car
 title: "Whose Values Drive Your Car"
-date: 2026-05-04T08:00:00-05:00
+date: 2026-05-04
 author: k3jph
 layout: post
 permalink: /2026/05/04/whose-values-drive-your-car/
