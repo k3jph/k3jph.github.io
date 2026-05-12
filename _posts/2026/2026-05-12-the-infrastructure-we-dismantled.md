@@ -1,7 +1,7 @@
 ---
 id: the-infrastructure-we-dismantled
 title: "The Infrastructure We Dismantled"
-date: 2026-05-12T08:00:00-05:00
+date: 2026-05-12
 author: k3jph
 layout: post
 permalink: /2026/05/12/the-infrastructure-we-dismantled/
