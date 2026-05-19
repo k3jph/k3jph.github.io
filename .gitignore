@@ -7,3 +7,4 @@ _site/
 .bundle/
 .idea/
 Gemfile.lock
+.ruby-version
