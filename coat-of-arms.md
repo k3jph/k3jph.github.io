@@ -534,7 +534,7 @@ and a shared appreciation for heraldic language.
 
 ### Flag
 
-{% include figure.html image="armory/jhoward-flag.svg" width="4" placement="right" border=true
+{% include figure.html image="armory/jhoward-flag.svg" width="4" placement="right" 
 cap="Flag adapted from the liveries of the arms" 
 alt="Flag adapted from the liveries of the arms" %}
 
