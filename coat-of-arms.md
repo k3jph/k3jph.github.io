@@ -146,55 +146,55 @@ artistically vibrant.
 In this section, various interpretations of the arms are displayed, each adhering to the same blazon while reflecting the individual style of the artist.
 
 <div id="masonry-container" class="row">
-{% include figure.html image="armory/jhoward-coa-ratul-960px.webp" placement="left" width="4" border=true
+{% include figure.html image="armory/jhoward-coa-ratul-960px.webp" placement="left" loading="eager" width="4" border=true
 cap="Interpreted by [Ratul S](https://www.fiverr.com/ratulsen544)" 
 alt="Interpreted by Ratul S" %}
 
-{% include figure.html image="armory/jhoward-coa-achernushkin-960px.webp" placement="left" width="4"
+{% include figure.html image="armory/jhoward-coa-achernushkin-960px.webp" placement="left" loading="eager" width="4"
 cap="Interpreted by [Alexandr Chernushkin](https://www.fiverr.com/achernushkin)" 
 alt="Interpreted by Alexandr Chernushkin" %}
 
-{% include figure.html image="armory/jhoward-arms-hatched.svg" placement="left" width="4" border=false
+{% include figure.html image="armory/jhoward-arms-hatched.svg" placement="left" loading="eager" width="4" border=false
 cap="The hatched style by me" 
 alt="The hatched style by me" %}
 
-{% include figure.html image="armory/jhoward-arms-wappenwiki.svg" placement="left" width="4" border=false
+{% include figure.html image="armory/jhoward-arms-wappenwiki.svg" placement="left" loading="eager" width="4" border=false
 cap="The [WappenWiki](https://wappenwiki.org/) style by me" 
 alt="The WappenWiki style by me" %}
 
-{% include figure.html image="armory/jhoward-arms-pierra.svg" placement="left" width="4" border=false
+{% include figure.html image="armory/jhoward-arms-pierra.svg" placement="left" loading="eager" width="4" border=false
 cap="Interpreted by [Jean-Eudes Pierra](https://www.armorialofthebee.com/board)" 
 alt="Interpreted by Jean-Eudes Pierra" %}
 
-{% include figure.html image="armory/cowan/howard-james-shield.png" placement="left" width="4" border=false
+{% include figure.html image="armory/cowan/howard-james-shield.png" placement="left" loading="eager" width="4" border=false
 cap="Interpreted by [Steve Cowan](https://www.stevecowan.ca/)" 
 alt="Interpreted by Steve Cowan" %}
 
-{% include figure.html image="armory/jhoward-armoji.svg" placement="left" width="4" border=false
+{% include figure.html image="armory/jhoward-armoji.svg" placement="left" loading="eager" width="4" border=false
 cap="Armoji style" 
 alt="Armoji style" %}
 
-{% include figure.html image="armory/jhoward-arms-loggail.webp" placement="left" width="4" border=true
+{% include figure.html image="armory/jhoward-arms-loggail.webp" placement="left" loading="eager" width="4" border=true
 cap="Interpreted by Heikki Halkosaari" 
 alt="Interpreted by Heikki Halkosaari" %}
 
-{% include figure.html image="armory/jhoward-coa-abshier.webp" placement="left" width="4" border=false
+{% include figure.html image="armory/jhoward-coa-abshier.webp" placement="left" loading="eager" width="4" border=false
 cap="Interpreted by [Brian Abshier](http://art.abshier.us/)" 
 alt="Interpreted by Brian Abshier" %}
 
-{% include figure.html image="armory/jhoward-coa-manuelpais-keepsake.webp" placement="left" width="4" border=false
+{% include figure.html image="armory/jhoward-coa-manuelpais-keepsake.webp" placement="left" loading="eager" width="4" border=false
 cap="Interpreted by Manuel Pais in his Keepsake style"
 alt="Interpreted by Manuel Pais in his Keepsake style" %}
 
-{% include figure.html image="armory/jhoward-coa-manuelpais-cba.webp" placement="left" width="4" border=false
+{% include figure.html image="armory/jhoward-coa-manuelpais-cba.webp" placement="left" loading="eager" width="4" border=false
 cap="Interpreted by Manuel Pais in Carta de Brasão de Armas style" 
 alt="Interpreted by Manuel Pais in Carta de Brasão de Armas style" %}
 
-{% include figure.html image="armory/jhoward-coa-fairbairn-color.svg" placement="left" width="4" border=false
+{% include figure.html image="armory/jhoward-coa-fairbairn-color.svg" placement="left" loading="eager" width="4" border=false
 cap="A colored woodcut style by me" 
 alt="A colored woodcut style by me" %}
 
-{% include figure.html image="armory/jhoward-arms-dprica.webp" placement="left" width="4" border=false
+{% include figure.html image="armory/jhoward-arms-dprica.webp" placement="left" loading="eager" width="4" border=false
 cap="Interpreted by [Dimitri Prica](http://www.dprica.com/)" 
 alt="Interpreted by Dimitri Prica" %}
 </div>
@@ -595,7 +595,7 @@ meaningful symbolism across diverse cultures.
 <div class="item col-md-6 pull-right px-4">
 <div class="card">
   <figure>
-    <div id="masonry-container" class="row">
+    <div class="row">
       <div class="item col-md-6 px-0">
         <figure class="py-0"> 
             <img class="featured-img mx-auto " src="/assets/img/armory/jhoward-tartan-modern.svg" alt="Tartan in the modern palette" loading="">
