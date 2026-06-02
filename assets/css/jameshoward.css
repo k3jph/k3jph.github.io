@@ -470,3 +470,11 @@ body {
   text-align: center;
 
 }
+
+.section-header-blog h1 {
+    font-size-adjust: 0.35;
+}
+
+.section-header-blog .separator {
+    margin: 1.5em auto !important;
+}
