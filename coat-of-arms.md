@@ -454,9 +454,9 @@ character.
 ### Standard
 
 {% include figure.html width="4" placement="right"
-image="armory/jhoward-standard.svg"
-cap="The standard"
-alt="The standard" %}
+image="armory/jhoward-standard-md.svg"
+cap="The standard with a hoist of Maryland"
+alt="The standard with a hoist of Maryland" %}
 
 A heraldic standard is a long, tapering flag that serves as a personal or
 familial ensign, especially appropriate for armigers with crests and badges.
