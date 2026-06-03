@@ -10,7 +10,8 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 9 * * *'   # nightly build (~4 AM ET)
+    - cron: '00 21 * * *'
+      timezone: "America/New_York"
   workflow_dispatch:
 
 permissions:
