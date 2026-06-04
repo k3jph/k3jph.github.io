@@ -13,7 +13,6 @@ tags:
   - machine learning
   - neural networks
   - expert systems
-  - brief history of AI
 ---
 
 The year is 1987. Symbolics, Inc. is the leading manufacturer of

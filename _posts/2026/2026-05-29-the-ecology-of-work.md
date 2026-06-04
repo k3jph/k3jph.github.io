@@ -14,7 +14,6 @@ tags:
   - labor economics
   - industrial history
   - automation
-  - brief history of ai
 ---
 
 Nobody wanted the job.
