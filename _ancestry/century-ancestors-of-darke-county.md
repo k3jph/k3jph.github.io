@@ -59,3 +59,10 @@ stories and the details of their lives, we ensure that the contributions of our
 ancestors remain a vibrant part of the historical record.
 
 *Additional memberships will be added as they are approved.*
+
+{% include figure.html width="12"
+   image="ancestry/CADC-Hall.webp" border=true
+   alt="Membership certificate in the Century Ancestors of Darke County"
+   cap="Membership certificate in the Century Ancestors of Darke County" %}
+   
+Or you can [download the PDF here](/assets/docs/ancestry/CADC-Hall.pdf).
