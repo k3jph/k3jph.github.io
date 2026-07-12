@@ -2,7 +2,7 @@
 class: lineage
 id: order-of-americans-of-armorial-ancestry
 title: Order of Americans of Armorial Ancestry
-subtitle: Member _jure_ John Hoar, Henry Adams, John Bigelow, Isaac Stearns, William Learned, Jonathan Fairbanks, and Samuel Morse; member no. 1185
+subtitle: Member _jure_ John Hoar, Henry Adams, John Bigelow, Isaac Stearns, William Learned, Jonathan Fairbanks, Samuel Morse, and Lydia Eliot; member no. 1185
 date: 2024-07-01
 member_number: 1185
 qualifying_ancestors: [ "John Hoar, Esquire, of Massachusetts",
@@ -11,7 +11,8 @@ qualifying_ancestors: [ "John Hoar, Esquire, of Massachusetts",
                         "Isaac Stearns of Massachusetts",
                         "William Learned of Massachusetts",
                         "Jonathan Fairbanks of Massachusetts",
-                        "Samuel Morse of Massachusetts"]
+                        "Samuel Morse of Massachusetts",
+                        "Lydia Eliot of Massachusetts" ]
 author: k3jph
 layout: page
 guid: order-of-americans-of-armorial-ancestry
@@ -84,7 +85,7 @@ England and Ireland.
 
 Most notably, these arms were used by the Hoare baronets of Barn Elms, a title
 created in 1786 for Richard Hoare, a descendant of Sir Richard Hoare
-(1648–1719), Lord Mayor of London and founder of the private bank [C. Hoare &
+(1648-1719), Lord Mayor of London and founder of the private bank [C. Hoare &
 Co](https://www.hoaresbank.co.uk/).  [According to _Burke's
 Peerage_](https://archive.org/details/generalarmoryofe00burk/page/494/mode/1up),
 their arms were:
@@ -130,7 +131,7 @@ enduring rights to the family arms prior to later differencing.
 ## Henry Adams of Massachusetts
 
 My supplemental membership in the Order of Americans of Armorial Ancestry is
-*jure sanguinis* through [Henry Adams of
+_jure sanguinis_ through [Henry Adams of
 Massachusetts](https://www.wikitree.com/wiki/Adams-277), the immigrant progenitor
 of the Adams family of Braintree and the forebear of two American presidents.
 Born in Somersetshire, England, around 1583, [Henry Adams immigrated to the
@@ -140,7 +141,7 @@ Great Migration, when thousands of English Puritans sought religious freedom and
 opportunity in New England.
 
 The arms attributed to Henry Adams are those borne by his English ancestors of
-Devonshire, as recorded in *Burke's General Armory* and several colonial-era
+Devonshire, as recorded in _Burke's General Armory_ and several colonial-era
 sources:
 
 {% include figure.html
@@ -212,7 +213,7 @@ alt="Arms of John Bigelow of Massachusetts" %}
 > with three lozenges, attired Or.
 
 These arms, simple and striking, follow a classic English pattern of
-geometric ordinaries on a plain field. TThe arrangement of three
+geometric ordinaries on a plain field. The arrangement of three
 lozenges is a recurrent medieval motif. [Victorian handbooks commonly
 gloss the
 lozenge](https://archive.org/details/symbolismsofhera00wadeuoft/symbolismsofhera00wadeuoft/page/94/mode/2up)
@@ -233,7 +234,6 @@ immigrant ancestor and the broader moral associations of the name. The
 erased form, showing the rough line of separation, is characteristic of
 seventeenth-century armorial style, and the limited palette of gold and
 blue preserves both simplicity and elegance.
-
 
 The Bigelow blazon above is the form printed in Crozier's _General
 Armory_ (1904) and repeated in Matthews's _American Armoury and Blue
@@ -281,7 +281,7 @@ and coherent.
 The crest, a falcon rising proper, invites a naturalistic treatment: the bird
 rising with wings partially elevated and addorsed, head to dexter, legs braced
 as if about to take flight. Proper allows natural falcon coloration, so the
-crest’s restrained browns and grays contrast with the stark geometry of the
+crest's restrained browns and grays contrast with the stark geometry of the
 shield while remaining within period norms. 
 
 The Stearns blazon above is the form printed by the early American compilers
@@ -320,7 +320,7 @@ heraldic compilations:
 This is a well-constructed composition in the classic late-medieval
 style, dominated by the saltire engrailed, a form that combines strength
 of line with ornamental grace. The Azure field paired with an Or saltire
-produces one of heraldry's most enduring color pairings—blue and gold
+produces one of heraldry's most enduring color pairings, blue and gold
 for loyalty and generosity, while the four lozenges Argent provide
 balance and lightness against the darker field. Together, the charges
 create a clean, geometric harmony typical of the early Stuart period.
@@ -348,7 +348,7 @@ both heraldically orthodox and visually balanced.
 
 ## Jonathan Fairbanks of Massachusetts
 
-My fifth supplemental membership in the Order of Americans of Armorial Ancestry
+My supplemental membership in the Order of Americans of Armorial Ancestry
 is _jure sanguinis_ through [Jonathan Fairbanks of Dedham,
 Massachusetts](https://www.wikitree.com/wiki/Fayrbanke-1), who immigrated to New
 England in 1633 and became one of the founding settlers of Dedham. Born in
@@ -381,15 +381,15 @@ composition typical of early modern English armory.
 The crest, three arrows bound together with their points downward, is
 particularly expressive. In heraldic tradition, a bundle of arrows signifies
 unity, concord, and collective strength, conveying the idea that what is fragile
-alone becomes strong when bound together. The arrangement—one in pale and two in
-saltire—is formally precise and visually stable, while the downward orientation
-of the points tempers any overtly aggressive interpretation. The crest reads
-less as a symbol of warfare than of cohesion, resolve, and mutual obligation,
-values well suited to a founding family in a covenant-based Puritan community.
-Contemporary sources do not specify tinctures for the crest; in modern
-renderings, I have therefore chosen to depict the arrows proper, bound with a
-ribbon Or, as a harmonizing and visually restrained solution consistent with
-period practice.
+alone becomes strong when bound together. The arrangement, one in pale and two
+in saltire, is formally precise and visually stable, while the downward
+orientation of the points tempers any overtly aggressive interpretation. The
+crest reads less as a symbol of warfare than of cohesion, resolve, and mutual
+obligation, values well suited to a founding family in a covenant-based Puritan
+community. Contemporary sources do not specify tinctures for the crest; in
+modern renderings, I have therefore chosen to depict the arrows proper, bound
+with a ribbon Or, as a harmonizing and visually restrained solution consistent
+with period practice.
 
 Unlike many colonial attributions that show wide variation, the Fairbanks arms
 appear with notable consistency across American sources, including Crozier and
@@ -442,7 +442,7 @@ roundels, often function as marks of difference or visual counterweights rather
 than symbolic statements, and here they frame the principal charge without
 competing for emphasis.
 
-The crest reinforces the shield’s theme through repetition and elaboration. The
+The crest reinforces the shield's theme through repetition and elaboration. The
 two battle-axes in saltire echo the single axe of the shield, transforming it
 from an individual emblem into a crossed, almost heraldic standard. The axes are
 banded with a chaplet of roses, a detail that softens the otherwise martial
@@ -456,7 +456,7 @@ motto form a coherent statement: martial capability acknowledged, but ultimate
 reliance placed elsewhere. This explicit theological framing aligns closely with
 Puritan sensibilities and distinguishes the Morse arms from purely chivalric or
 aristocratic martial bearings. The motto is well attested in American armorial
-sources and is recorded alongside the arms in Crozier’s _General Armory_.
+sources and is recorded alongside the arms in Crozier's _General Armory_.
 
 The Morse arms are recorded in
 [Crozier](https://archive.org/details/croziersgenerala00croz/page/95/mode/1up)
@@ -470,8 +470,86 @@ The stability of the blazon, crest, and motto across American sources supports
 their recognition as the established arms of the Morse family in colonial New
 England.
 
+## Lydia Eliot of Massachusetts
 
+My supplemental membership in the Order of Americans of Armorial Ancestry is
+_jure sanguinis_ through [Lydia Eliot of Braintree,
+Massachusetts](https://www.wikitree.com/wiki/Eliot-19), baptized at Nazeing,
+Essex, England, on 1 July 1610, a daughter of Bennet Eliot of Widford and
+Nazeing and a sister of the Rev. [John
+Eliot](https://www.wikitree.com/wiki/Eliot-1), the "Apostle to the Indians" and
+translator of the first Bible printed in British North America. She married
+James Penniman at High Laver, Essex, on 26 July 1631, and the couple sailed
+that year on the second voyage of the _Lyon_, settling first at Boston and
+removing to Braintree, where she died in 1676. Her daughter Lydia Penniman
+married Edward Adams of Medfield, a son of Henry Adams of Braintree, joining
+this line to the Adams descent documented above.
 
+{% include figure.html
+image="ancestry/oaaa/eliot-arms-full.svg"
+placement="right" width="4"
+cap="Arms of Lydia Eliot of Massachusetts"
+alt="Arms of Lydia Eliot of Massachusetts" %}
+
+Lydia Eliot is an uncommon figure in the rolls of the Order. Armigerous women
+who immigrated to America in the seventeenth century and whose heraldic claims
+can be documented in their own right are rare. English heraldic records of the
+period overwhelmingly track arms through men, and the surviving colonial
+evidence compounds the imbalance: women appear in church admissions, wills, and
+land records, but seldom in the visitations and confirmations that establish
+armigerous status. Lydia's eligibility rests not on a claim through her
+husband but on her birth into the Eliot family of Nazeing, one of seven
+siblings, four brothers and three sisters, who immigrated to the Massachusetts
+Bay Colony between 1631 and 1637. Her admission accordingly introduces Lydia
+Eliot to the Order as a qualifying ancestor in her own name.
+
+The heraldic record for this family comes from the [Committee on
+Heraldry](https://americanancestors.org/committee-heraldry) of the New England
+Historic Genealogical Society, which registered the arms in July 2023 as Roll
+of Arms no. 976 (provisionally numbered), an entry covering John Eliot and his
+six brothers and sisters collectively. The registration rests on the research
+of William Wyman Fiske, whose study of the family in the _New England
+Historical and Genealogical Register_ in 2007 and 2008 traced the Nazeing
+Eliots to a Hertfordshire and Essex family descending from William Eliot of
+Cottered, Hertfordshire, with confirmations of arms to members of the family
+in the sixteenth century and appearances in the visitations of Essex. Because
+the entry awaits print publication in a forthcoming part of the Roll of Arms,
+the Committee's Registrar, Nathaniel L. Taylor, confirmed in writing in June
+2026 that Lydia Eliot Penniman is encompassed within the registration, and
+that correspondence serves as the documentary authority for this application.
+The Committee registered the arms in its customary vernacular blazon:
+
+> Silver, on a fess gules between four barrulets wavy azure a martlet gold.
+
+In conventional heraldic language, the arms are regularized as:
+
+> Argent, on a fess Gules between four barrulets wavy Azure, a martlet Or.
+
+The wavy barrulets give the shield an unmistakable maritime rhythm, four
+narrow blue waves crossing the silver field, against which the red fess reads
+as a firm horizontal anchor. The single golden martlet on the fess carries
+particular weight in this composition. In the known English confirmations, one
+collateral branch of the family bore a single martlet and another bore three,
+and the Committee concluded that the martlet was understood as a common
+element of the family's arms, distinguishing them from the arms confirmed in
+1492 to two Eliot brothers of no known relation. The martlet, a stylized
+swallow depicted without feet, is among the most evocative charges in English
+heraldry, conventionally associated with younger sons and with those who must
+make their own way in the world, an apt emblem for a family that removed
+itself wholesale to New England. By an accident of history, substantially the
+same arms, undifferenced, were later adopted by the unrelated Massachusetts
+Eliot family of Andrew Eliot of East Coker, whose descendants included Harvard
+president Charles William Eliot and the poet T. S. Eliot, and the design now
+represents [Eliot House](https://eliot.harvard.edu/) at Harvard College.
+
+No crest accompanies these arms. The visitation records show that different
+members of the Hertfordshire and Essex family bore different crests, from
+which the Committee concluded that there was no common crest to which the
+extended family subscribed, and its registration is of the shield alone. The
+absence of a crest here is therefore not a gap in the record but a faithful
+reflection of it, and my rendering of the arms follows the registration in
+displaying the shield without one. No motto is recorded for the family in this
+period.
 
 *Additional memberships will be added as they are approved.*
 
