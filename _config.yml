@@ -131,3 +131,9 @@ picture:
   suppress_warnings: true
   exclude:
     - "**/*.svg"
+
+cookie_consent:
+  ga_id: "G-FSDET4HG4L"
+  cookie_name: "cookieConsent"
+  duration_days: 365
+  policy_version: "1"

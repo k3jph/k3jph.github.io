@@ -21,6 +21,7 @@
                             {% for item in site.data.settings.notices %}
                             <li><a href="{{ item.url }}" target="{{ item.target }}">{{ item.title }}</a></li>
                             {% endfor %}
+			    <li><a href="{{ '/privacy-policy/#cookie-settings' | relative_url }}" data-cookie-preferences>Cookie Settings</a></li>
                         </ul>
                     </nav>
                 </div>
