@@ -14,21 +14,36 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-6">
-                <div class="info">
-                    <h2 class="title">Notices</h2>
-                    <nav>
-                        <ul>
-                            {% for item in site.data.settings.notices %}
-                            <li><a href="{{ item.url }}" target="{{ item.target }}">{{ item.title }}</a></li>
-                            {% endfor %}
-			    <li><a href="{{ '/privacy-policy/#cookie-settings' | relative_url }}" data-cookie-preferences>Cookie Settings</a></li>
-                        </ul>
-                    </nav>
-                </div>
+              <div class="info">
+                <h2 class="title">Notices</h2>
+
+                <nav aria-label="Notices">
+                  <ul>
+                    {% for item in site.data.settings.notices %}
+                    <li>
+                      <a
+                        href="{{ item.url | relative_url | escape }}"
+                        {% if item.target %}
+                        target="{{ item.target | escape }}"
+                        {% endif %}
+                        {% if item.relationship or item.target == "_blank" %}
+                        rel="{% if item.relationship %}{{ item.relationship | escape }}{% endif %}{% if item.relationship and item.target == "_blank" %} {% endif %}{% if item.target == "_blank" %}noopener noreferrer{% endif %}"
+                        {% endif %}
+                        {% for datum in item.data %}
+                        data-{{ datum[0] }}{% if datum[1] != nil %}="{{ datum[1] | escape }}"{% endif %}
+                        {% endfor %}
+                        >
+                        {{ item.title }}
+                      </a>
+                    </li>
+                    {% endfor %}
+                  </ul>
+                </nav>
+              </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
-                <div class="info">
-                    <h2 class="title">Follow me on</h2>
+              <div class="info">
+                <h2 class="title">Follow me on</h2>
                     <nav>
                         <div class="row">
                             <ul class="social-media-menu">

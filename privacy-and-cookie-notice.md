@@ -6,7 +6,6 @@ last_modified_at: 2026-08-01T00:00:00-04:00
 author: James Howard
 layout: page
 guid: privacy-and-cookie-notice
-permalink: /privacy-and-cookie-notice
 redirect_from:
   - /cookies
   - /privacy

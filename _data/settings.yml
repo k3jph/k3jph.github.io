@@ -17,47 +17,6 @@ main_menu_settings:
       url: /contact-me
 
 
-footer_menu_settings:
-  menu_items:
-    - title: Other Websites
-      submenu_items:
-      - title: House of Basu-Howard
-        url: https://basuhoward.org
-        target: _blank
-      - title: The Count of Krigsvold
-        url: https://krigsvold.org
-        target: _blank
-      - title: Manor of Dungeon in Kent
-        url: https://dungeonmanor.uk
-        target: _blank
-    - title: 
-      submenu_items:
-      - title: Grand Duchy of Westarctica
-        url: https://www.westarctica.info
-      - title: Encyclopedia Westarctica
-        url: https://www.westarctica.wiki
-      - title: Westarctica, Inc.
-        url: https://www.westarctica.org
-    - title: Resources
-      submenu_items:
-      - title: NOAA
-        url: https://www.climate.gov
-        target: _blank
-      - title: United Nations
-        url: https://www.un.org/en/climatechange
-        target: _blank
-      - title: EPA
-        url: https://www.epa.gov/climate-change
-        target: _blank
-    - title: Legal
-      submenu_items:
-      - title: Privacy
-        url: /privacy-policy
-      - title: Terms of Use
-        url: /terms-of-use
-      - title: Copyright
-        url: /copyright
-
 other_sites:
   - title: House of Basu-Howard
     url: https://basuhoward.org
@@ -75,7 +34,11 @@ notices:
   - title: Terms of Use
     url: /terms-of-use/
   - title: Privacy Notice
-    url: /privacy-notice/
+    url: /privacy-and-cookie-notice
+  - title: Cookie Settings
+    url: /privacy-and-cookie-notice#cookie-settings
+    data:
+      cookie-preferences:
   - title: Copyright
     url: /copyright/
         
