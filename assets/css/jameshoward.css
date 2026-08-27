@@ -486,7 +486,7 @@ body {
 .section-header-blog .content {
   position: absolute;
   top: auto;
-  bottom: calc(3em + 1vh);
+  bottom: calc(5em);
   left: 0;
   right: 0;
   -webkit-transform: none;
@@ -509,5 +509,5 @@ body {
 
 /* Keep the latest post-body vertical adjustment. */
 .content-blog {
-  margin-top: -3em;
+  margin-top: -5em;
 }
