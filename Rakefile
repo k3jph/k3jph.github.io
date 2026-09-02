@@ -8,14 +8,14 @@ require "fileutils"
 abort("✗ You must run this with Ruby 3.4.2!") unless RUBY_VERSION.start_with?("3.4.2")
 
 JEKYLL_ENV = ENV["JEKYLL_ENV"] || "production"
-CONFIG_FILE = JEKYLL_ENV == "development" ? "_config_dev.yml" : "_config.yml"
+CONFIG_FILE = JEKYLL_ENV == "development" ? "_config.yml,_config_dev.yml" : "_config.yml"
 
 SITE_DIR = "_site"
 CACHE_DIRS = [".jekyll-cache", ".sass-cache"]
 
-def sh_with_env(command)
-  puts "\n==> [#{JEKYLL_ENV}] Running: #{command}\n\n"
-  system({ "JEKYLL_ENV" => JEKYLL_ENV }, command) || abort("\n✗ Command failed: #{command}")
+def sh_with_env(command, environment = JEKYLL_ENV)
+  puts "\n==> [#{environment}] Running: #{command}\n\n"
+  system({ "JEKYLL_ENV" => environment }, command) || abort("\n✗ Command failed: #{command}")
 end
 
 desc "Build the site for the current environment"
@@ -25,8 +25,10 @@ end
 
 desc "Serve the site locally with drafts (development only)"
 task :serve do
-  ENV["JEKYLL_ENV"] = "development"
-  sh_with_env("bundle exec jekyll serve --config _config_dev.yml,_config.yml --future --drafts --incremental --livereload")
+  sh_with_env(
+    "bundle exec jekyll serve --config _config.yml,_config_dev.yml --future --drafts --incremental --livereload",
+    "development"
+  )
 end
 
 desc "Clean build and cache directories"
