@@ -4,6 +4,6 @@ Disallow: /tag
 User-agent: *
 Allow: /
 
-Sitemap: https://www.example.com/sitemap.xml
-Sitemap: https://www.example.com/sitemap-pages.xml
-Sitemap: https://www.example.com/sitemap-ancestry.xml
+Sitemap: https://jameshoward.us/sitemap.xml
+Sitemap: https://jameshoward.us/sitemap-pages.xml
+Sitemap: https://jameshoward.us/sitemap-ancestry.xml
