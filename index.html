@@ -215,7 +215,7 @@ head_inject: >-
 
         <div id="masonry-container" class="row">
             {% for post in site.posts limit: 8 %}
-            <div class="item col-md-4 my-5">
+            <div class="item col-md-4">
                 <div class="card card-blog">
                     <a href="{{ post.permalink | relative_url }}" class="header" aria-label="{{ post.title }}">
                         {% if post.featured_image %}
@@ -242,7 +242,7 @@ head_inject: >-
                 </div>
             </div>
             {% endfor %}
-            <div class="item col-md-4 my-5">
+            <div class="item col-md-4">
                 <div class="card card-blog">
                     <a href="{{ '/blog' | relative_url }}" class="header" aria-label="Blog">
                         {% include cloudflare_image.html image="blog.webp" preset="thumbnail" class="image-header" alt="More blog posts" %}
