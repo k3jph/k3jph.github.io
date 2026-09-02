@@ -50,7 +50,6 @@ Ruby **3.4.2** and Jekyll **4.3.3** are required.
 | ------------------- | -------------------------- | --------------------------------------------- |
 | Full build          | `rake build`               | Builds `_site` using `_config.yml` only.      |
 | Clean + rebuild     | `rake clean && rake build` | Recommended before deployment.                |
-| Ping search engines | `rake ping`                | Notifies Google and Bing of updated sitemaps. |
 
 GitHub Actions automatically runs these steps and deploys to Pages whenever `main` is updated.
 
@@ -122,7 +121,7 @@ This project structure provides:
 
 * Clean separation of development and production environments.
 * Responsive image delivery through Cloudflare Image Transformations.
-* Automatic minification and sitemap pings.
+* Automatic minification.
 * Integrated Rake automation for simple operation.
 
 To start a new post:
