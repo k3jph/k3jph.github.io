@@ -501,7 +501,14 @@ body {
   margin-bottom: 2vh;
 }
 
-/* Keep the latest post-body vertical adjustment. */
-.content-blog {
-  margin-top: -5em;
+/*
+ * Keep the article rhythm consistent with or without an overlapping
+ * featured-image card. The card already supplies its own bottom margin.
+ */
+.article-body {
+  padding-top: 0;
+}
+
+.article-body--after-featured .content-blog {
+  padding-top: 0;
 }
