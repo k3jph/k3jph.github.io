@@ -30,19 +30,13 @@
         <a href="{{ include.link | relative_url }}" class="header">
       {% endif %}
 
-      {% assign img_path = include.image %}
+      {% assign img_path = include.image | strip %}
       {% assign alt = include.alt | default: 'no description' %}
       {% assign cap = include.cap %}
       {% assign loading = include.loading | default: 'lazy' %}
+      {% assign img_class = "featured-img mx-auto " | append: img_border %}
 
-      {% if img_path contains '.webp' %}
-        {% picture {{ img_path }} alt="{{ alt }}" class="featured-img mx-auto {{ img_border }}" loading="{{ loading }}" %}
-      {% else %}
-        <img class="featured-img mx-auto {{ img_border }}"
-             src="{{ '/assets/img/' | append: img_path | relative_url }}"
-             alt="{{ alt }}"
-             loading="{{ loading }}" />
-      {% endif %}
+      {% include cloudflare_image.html image=img_path class=img_class alt=alt loading=loading %}
 
       {% if include.link %}
         </a>

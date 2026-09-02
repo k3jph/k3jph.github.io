@@ -37,12 +37,6 @@ task :clean do
   puts "✓ Clean complete."
 end
 
-desc "Clean generated responsive images"
-task :clean_images do
-  FileUtils.rm_rf("assets/generated")
-  puts "✓ Removed generated responsive images."
-end
-
 desc "Check Jekyll configuration and output directories"
 task :check do
   puts "\nChecking Jekyll configuration..."

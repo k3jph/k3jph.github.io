@@ -53,7 +53,7 @@ revealed itself to be something else entirely.
             <div class="row mb-2">
                 <div class="item col-md-12">
                     <img class="featured-img mx-auto" 
-                         src="/assets/img/ancestry/nsdarw/harry-lee-williams-ww1-draft-card-front.webp" 
+                         src="{{ '/assets/img/ancestry/nsdarw/harry-lee-williams-ww1-draft-card-front.webp' | cloudflare_image_url: 800 }}"
                          alt="Harry Williams World War I draft card (front)" 
                          data-toggle="modal" data-target="#imageModal" 
                          data-full="/assets/img/ancestry/nsdarw/harry-lee-williams-ww1-draft-card-front.webp" />
@@ -116,7 +116,7 @@ format to start asking better questions.
             <div class="row mb-2">
                 <div class="item col-md-12">
                     <img class="featured-img mx-auto" 
-                         src="/assets/img/ancestry/nsdarw/harry-lee-williams-ww2-draft-card-front.webp" 
+                         src="{{ '/assets/img/ancestry/nsdarw/harry-lee-williams-ww2-draft-card-front.webp' | cloudflare_image_url: 800 }}"
                          alt="Harry Williams World War II draft card (front)" 
                          data-toggle="modal" data-target="#imageModal" 
                          data-full="/assets/img/ancestry/nsdarw/harry-lee-williams-ww2-draft-card-front.webp" />

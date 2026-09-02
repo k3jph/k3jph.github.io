@@ -37,7 +37,7 @@ design one, and people do.
     <div class="card">
       <figure>
         <img class="featured-img mx-auto" 
-            src="/assets/img/2025/how-to-design-a-tartan/k100-w100.webp" 
+            src="{{ '/assets/img/2025/how-to-design-a-tartan/k100-w100.webp' | cloudflare_image_url: 800 }}"
              alt="A black and white check" />
         <figcaption class="images-caption">A black and white check</figcaption>
       </figure>
@@ -243,7 +243,7 @@ separate tartans, they are stylistic treatments of the same thread count.
     <div class="card">
       <figure>
         <img class="featured-img mx-auto" 
-            src="/assets/img/2025/how-to-design-a-tartan/prince-charles-edward-stuart-ancient.webp" 
+            src="{{ '/assets/img/2025/how-to-design-a-tartan/prince-charles-edward-stuart-ancient.webp' | cloudflare_image_url: 800 }}"
              alt="Tartan of Prince Charles Edward Stuart in the Ancient palette" />
         <figcaption class="images-caption">Ancient</figcaption>
       </figure>
@@ -253,7 +253,7 @@ separate tartans, they are stylistic treatments of the same thread count.
     <div class="card">
       <figure>
         <img class="featured-img mx-auto" 
-            src="/assets/img/2025/how-to-design-a-tartan/prince-charles-edward-stuart-modern.webp" 
+            src="{{ '/assets/img/2025/how-to-design-a-tartan/prince-charles-edward-stuart-modern.webp' | cloudflare_image_url: 800 }}"
              alt="Tartan of Prince Charles Edward Stuart in the Modern palette" />
         <figcaption class="images-caption">Modern</figcaption>
       </figure>
@@ -263,7 +263,7 @@ separate tartans, they are stylistic treatments of the same thread count.
     <div class="card">
       <figure>
         <img class="featured-img mx-auto" 
-            src="/assets/img/2025/how-to-design-a-tartan/prince-charles-edward-stuart-weathered.webp" 
+            src="{{ '/assets/img/2025/how-to-design-a-tartan/prince-charles-edward-stuart-weathered.webp' | cloudflare_image_url: 800 }}"
              alt="Tartan of Prince Charles Edward Stuart in the Weathered palette" />
         <figcaption class="images-caption">Weathered</figcaption>
       </figure>
@@ -273,7 +273,7 @@ separate tartans, they are stylistic treatments of the same thread count.
     <div class="card">
       <figure>
         <img class="featured-img mx-auto" 
-            src="/assets/img/2025/how-to-design-a-tartan/prince-charles-edward-stuart-muted.webp" 
+            src="{{ '/assets/img/2025/how-to-design-a-tartan/prince-charles-edward-stuart-muted.webp' | cloudflare_image_url: 800 }}"
              alt="Tartan of Prince Charles Edward Stuart in the Muted palette" />
         <figcaption class="images-caption">Muted</figcaption>
       </figure>
@@ -384,7 +384,7 @@ design.
     <div class="card">
       <figure>
         <img class="featured-img mx-auto" 
-            src="/assets/img/2025/how-to-design-a-tartan/basu-howard-tartan.webp" 
+            src="{{ '/assets/img/2025/how-to-design-a-tartan/basu-howard-tartan.webp' | cloudflare_image_url: 800 }}"
              alt="Basu-Howard Family tartan" />
         <figcaption class="images-caption">The Basu-Howard Family tartan</figcaption>
       </figure>

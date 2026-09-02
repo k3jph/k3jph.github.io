@@ -38,7 +38,7 @@ rural farming community in northern Indiana.
             <div class="row mb-2">
                 <div class="item col-md-12">
                     <img class="featured-img mx-auto" 
-                         src="/assets/img/ancestry/nsdarw/harry-lee-williams-ww1-draft-card-front.webp" 
+                         src="{{ '/assets/img/ancestry/nsdarw/harry-lee-williams-ww1-draft-card-front.webp' | cloudflare_image_url: 800 }}"
                          alt="Harry Williams World War I draft card (front)" 
                          data-toggle="modal" data-target="#imageModal" 
                          data-full="/assets/img/ancestry/nsdarw/harry-lee-williams-ww1-draft-card-front.webp" />
@@ -84,7 +84,7 @@ Harry was still living in Cincinnati and working for the New York Central.
             <div class="row mb-2">
                 <div class="item col-md-12">
                     <img class="featured-img mx-auto" 
-                         src="/assets/img/ancestry/nsdarw/harry-lee-williams-ww2-draft-card-front.webp" 
+                         src="{{ '/assets/img/ancestry/nsdarw/harry-lee-williams-ww2-draft-card-front.webp' | cloudflare_image_url: 800 }}"
                          alt="Harry Williams World War II draft card (front)" 
                          data-toggle="modal" data-target="#imageModal" 
                          data-full="/assets/img/ancestry/nsdarw/harry-lee-williams-ww2-draft-card-front.webp" />

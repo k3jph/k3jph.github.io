@@ -1,3 +1,6 @@
+quality: 80
+fallback_width: 800
+
 presets:
   default:
     widths: [400, 800, 1200, 1600, 1920]

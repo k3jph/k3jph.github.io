@@ -13,9 +13,9 @@ layout:         page
   <div class="row">
     <div class="col-md-3">
       {% if post.featured_image %}
-          {% picture header {{ post.featured_image | remove_first: '/assets/img/' }} class="featured-bg" %}
+          {% include cloudflare_image.html image=post.featured_image preset="header" class="featured-bg" alt=post.title %}
       {% else %}
-          {% picture header header-home.webp class="featured-bg" %}
+          {% include cloudflare_image.html image="header-home.webp" preset="header" class="featured-bg" alt="" %}
       {% endif %}
     </div>
     <div class="col-md-9">
@@ -35,4 +35,3 @@ layout:         page
 </div>
 {% endfor %}
 {% endfor %}
-

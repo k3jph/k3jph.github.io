@@ -1,0 +1,17 @@
+{% assign image_source = include.image | image_asset_path %}
+{% assign preset_name = include.preset | default: "default" %}
+{% assign image_config = site.data.cloudflare_images %}
+{% assign preset = image_config.presets[preset_name] | default: image_config.presets.default %}
+{% assign fallback_width = include.fallback_width | default: image_config.fallback_width %}
+{% assign quality = include.quality | default: image_config.quality %}
+{% assign transformable = image_source | cloudflare_transformable_image %}
+<img{% if include.class %} class="{{ include.class }}"{% endif %}
+     alt="{{ include.alt | default: '' | escape }}"
+     {% if jekyll.environment == "production" and transformable %}
+     src="{{ image_source | cloudflare_image_url: fallback_width, quality }}"
+     srcset="{% for width in preset.widths %}{{ image_source | cloudflare_image_url: width, quality }} {{ width }}w{% unless forloop.last %}, {% endunless %}{% endfor %}"
+     {% else %}
+     src="{{ image_source | relative_url }}"
+     {% endif %}
+     {% if include.sizes %}sizes="{{ include.sizes }}"{% endif %}
+     {% if include.loading %}loading="{{ include.loading }}"{% endif %}>

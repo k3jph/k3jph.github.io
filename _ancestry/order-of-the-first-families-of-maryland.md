@@ -102,16 +102,16 @@ descendants to build upon.
         <figure>
             <div class="row mb-2">
                 <div class="item col-md-3">
-                    <img class="featured-img mx-auto" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg1.webp" alt="Original grant of Pembroke, page 1" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg1.webp" />
+                    <img class="featured-img mx-auto" src="{{ '/assets/img/ancestry/offm/pembrooke-teggs-delight-pg1.webp' | cloudflare_image_url: 800 }}" alt="Original grant of Pembroke, page 1" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg1.webp" />
                 </div>
                 <div class="item col-md-3">
-                    <img class="featured-img mx-auto" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg2.webp" alt="Original grant of Pembroke, page 2" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg2.webp" />
+                    <img class="featured-img mx-auto" src="{{ '/assets/img/ancestry/offm/pembrooke-teggs-delight-pg2.webp' | cloudflare_image_url: 800 }}" alt="Original grant of Pembroke, page 2" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg2.webp" />
                 </div>
                 <div class="item col-md-3">
-                    <img class="featured-img mx-auto" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg3.webp" alt="Original grant of Pembroke, page 3" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg3.webp" />
+                    <img class="featured-img mx-auto" src="{{ '/assets/img/ancestry/offm/pembrooke-teggs-delight-pg3.webp' | cloudflare_image_url: 800 }}" alt="Original grant of Pembroke, page 3" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg3.webp" />
                 </div>
                 <div class="item col-md-3">
-                    <img class="featured-img mx-auto" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg4.webp" alt="Original grant of Pembroke, page 4" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg4.webp" />
+                    <img class="featured-img mx-auto" src="{{ '/assets/img/ancestry/offm/pembrooke-teggs-delight-pg4.webp' | cloudflare_image_url: 800 }}" alt="Original grant of Pembroke, page 4" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg4.webp" />
                 </div>
             </div>
             <div class="content">

@@ -9,8 +9,8 @@ It is optimized for both local development and automated deployment to GitHub Pa
 
 | Environment     | Config Files                     | Description                                                                                   |
 | --------------- | -------------------------------- | --------------------------------------------------------------------------------------------- |
-| **Production**  | `_config.yml`                    | Optimized build with minification, responsive WebP images, and all plugins enabled.           |
-| **Development** | `_config.yml`, `_config_dev.yml` | Fast local preview build with incremental regeneration, live reload, and uncompressed assets. |
+| **Production**  | `_config.yml`                    | Optimized build with minification and Cloudflare responsive-image URLs.                        |
+| **Development** | `_config.yml`, `_config_dev.yml` | Fast local preview with original images, live reload, and uncompressed assets.                 |
 
 Ruby **3.4.2** and Jekyll **4.3.3** are required.
 
@@ -58,9 +58,9 @@ GitHub Actions automatically runs these steps and deploys to Pages whenever `mai
 
 ## 🖼️ Media & Images
 
-All site images are stored under `assets/img/`.
+Most site images are stored under `assets/img/`.
 
-The site uses **jekyll-picture-tag** for responsive WebP output.
+Production HTML uses Cloudflare Image Transformations for responsive widths and automatic browser-format selection. Local development serves the original image files directly, so preview builds do not depend on Cloudflare or generate derivatives.
 
 Use the existing `{% include figure.html %}` macro to insert images with captions and layout options.
 
@@ -75,8 +75,9 @@ Example:
    cap="An example figure" %}
 ```
 
-In production, this generates responsive `<picture>` tags automatically.
-In development, only a single preview size is built for speed.
+In production, this generates a responsive `srcset` using the widths in `_data/cloudflare_images.yml`. In development, it emits a single `<img>` pointing to the original asset.
+
+The Cloudflare zone must have **Images → Transformations** enabled. The recommended cache rule for `/assets/img/*` overrides both Edge TTL and Browser TTL to 35 days (`3,024,000` seconds). Changing an image without changing its filename requires purging the original image URL, which also purges its transformed variants.
 
 ---
 
@@ -110,7 +111,6 @@ It:
 
 | Task                               | Command                                |
 | ---------------------------------- | -------------------------------------- |
-| Remove generated responsive images | `rake clean_images`                    |
 | Remove cached gems                 | `rm -rf vendor/ .bundle/ Gemfile.lock` |
 | Reinstall everything clean         | `bundle install --with development`    |
 
@@ -121,7 +121,7 @@ It:
 This project structure provides:
 
 * Clean separation of development and production environments.
-* Responsive image generation with WebP.
+* Responsive image delivery through Cloudflare Image Transformations.
 * Automatic minification and sitemap pings.
 * Integrated Rake automation for simple operation.
 

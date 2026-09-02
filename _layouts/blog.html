@@ -17,7 +17,7 @@ sitemap:
     <div class="col-md-3">
       <a href="{{ post.permalink | relative_url }}" class="header">
         {% if post.featured_image %}
-          {% picture thumbnail {{ post.featured_image | remove_first: '/assets/img/' }} class="image-header" alt="{{ post.title | escape }}" %}
+          {% include cloudflare_image.html image=post.featured_image preset="thumbnail" class="image-header" alt=post.title %}
         {% else %}
           <img src="/assets/img/identity/kamon-info.svg" class="image-header" alt="Site symbol" />
         {% endif %}

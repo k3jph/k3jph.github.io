@@ -5,9 +5,9 @@ layout: base
 <div class="section section-header-blog">
     <div class="parallax filter filter-color-black">
         {% if page.featured_image %}
-            {% picture header {{ page.featured_image | remove_first: '/assets/img/' }} class="featured-bg" widths="test" %}
+            {% include cloudflare_image.html image=page.featured_image preset="header" class="featured-bg" alt=page.title %}
         {% else %}
-            {% picture header header-home.webp class="featured-bg" %}
+            {% include cloudflare_image.html image="header-home.webp" preset="header" class="featured-bg" alt="" %}
         {% endif %}
         <div class="container">
             <div class="content">
@@ -35,7 +35,7 @@ layout: base
     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
       <div class="card">
-        {% picture {{ hero_image | remove_first: '/assets/img/' }} class="image-header" alt="{{ page.title | escape }}" %}
+        {% include cloudflare_image.html image=hero_image class="image-header" alt=page.title %}
       </div>
     </div>
   </div>

@@ -76,16 +76,16 @@ creating a unified estate suitable for farming and resource management.
         <figure>
             <div class="row mb-2">
                 <div class="item col-md-3">
-                    <img class="featured-img mx-auto" src="/assets/img/ancestry/ofgd/granville-grant-teague-1756-11-05.webp" alt="Granville grant for Moses Teague, 1756-11-05" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/ofgd/granville-grant-teague-1756-11-05.webp" />
+                    <img class="featured-img mx-auto" src="{{ '/assets/img/ancestry/ofgd/granville-grant-teague-1756-11-05.webp' | cloudflare_image_url: 800 }}" alt="Granville grant for Moses Teague, 1756-11-05" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/ofgd/granville-grant-teague-1756-11-05.webp" />
                 </div>
                 <div class="item col-md-3">
-                    <img class="featured-img mx-auto" src="/assets/img/ancestry/ofgd/granville-grant-teague-1759-02-22.webp" alt="Granville grant for Moses Teague, 1759-02-22" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/ofgd/granville-grant-teague-1759-02-22.webp" />
+                    <img class="featured-img mx-auto" src="{{ '/assets/img/ancestry/ofgd/granville-grant-teague-1759-02-22.webp' | cloudflare_image_url: 800 }}" alt="Granville grant for Moses Teague, 1759-02-22" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/ofgd/granville-grant-teague-1759-02-22.webp" />
                 </div>
                 <div class="item col-md-3">
-                    <img class="featured-img mx-auto" src="/assets/img/ancestry/ofgd/granville-grant-teague-1759-03-01.webp" alt="Granville grant for Moses Teague, 1759-03-01" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/ofgd/granville-grant-teague-1759-03-01.webp" />
+                    <img class="featured-img mx-auto" src="{{ '/assets/img/ancestry/ofgd/granville-grant-teague-1759-03-01.webp' | cloudflare_image_url: 800 }}" alt="Granville grant for Moses Teague, 1759-03-01" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/ofgd/granville-grant-teague-1759-03-01.webp" />
                 </div>
                 <div class="item col-md-3">
-                    <img class="featured-img mx-auto" src="/assets/img/ancestry/ofgd/granville-grant-teague-1759-03-05.webp" alt="Granville grant for Moses Teague, 1759-03-05" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/ofgd/granville-grant-teague-1759-03-05.webp" />
+                    <img class="featured-img mx-auto" src="{{ '/assets/img/ancestry/ofgd/granville-grant-teague-1759-03-05.webp' | cloudflare_image_url: 800 }}" alt="Granville grant for Moses Teague, 1759-03-05" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/ofgd/granville-grant-teague-1759-03-05.webp" />
                 </div>
             </div>
             <div class="content">

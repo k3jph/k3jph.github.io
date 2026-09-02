@@ -2,7 +2,6 @@
 # GitHub Actions Workflow — Build and Deploy Jekyll Site
 # ===============================================================
 # Builds with Ruby 3.4.2 and deploys automatically to GitHub Pages.
-# Includes libvips for jekyll_picture_tag image processing.
 
 name: Deploy Jekyll site to Pages
 
@@ -40,9 +39,6 @@ jobs:
           ruby-version: '3.4.2'   # matches Gemfile and .ruby-version
           bundler-cache: true
           cache-version: 0
-
-      - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install -y libvips-dev
 
       - name: Setup GitHub Pages
         id: pages

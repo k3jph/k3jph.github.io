@@ -64,7 +64,7 @@ today.
         <div class="item col-md-12">
           <img 
               class="featured-img mx-auto" 
-              src="/assets/img/2025/the-lion-and-the-unicorn/MaryQueenofScotsSeal.webp" 
+              src="{{ '/assets/img/2025/the-lion-and-the-unicorn/MaryQueenofScotsSeal.webp' | cloudflare_image_url: 800 }}"
               alt="The Scottish Lion on first seal of Mary, Queen of Scots" />
             <figcaption class="images-caption">The Scottish Lion on first seal of Mary, Queen of Scots</figcaption>
         </div>

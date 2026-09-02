@@ -219,7 +219,7 @@ head_inject: >-
                 <div class="card card-blog">
                     <a href="{{ post.permalink | relative_url }}" class="header" aria-label="{{ post.title }}">
                         {% if post.featured_image %}
-                            {% picture thumbnail {{ post.featured_image | remove_first: '/assets/img/' }} class="image-header" alt="{{ post.title | escape }}" %}
+                            {% include cloudflare_image.html image=post.featured_image preset="thumbnail" class="image-header" alt=post.title %}
                         {% else %}
                           <img src="/assets/img/identity/kamon-info.svg" class="image-header" alt="Site symbol" />
                         {% endif %}
@@ -245,7 +245,7 @@ head_inject: >-
             <div class="item col-md-4 my-5">
                 <div class="card card-blog">
                     <a href="{{ '/blog' | relative_url }}" class="header" aria-label="Blog">
-                        {% picture thumbnail blog.webp class="image-header" alt="More blog posts" %}
+                        {% include cloudflare_image.html image="blog.webp" preset="thumbnail" class="image-header" alt="More blog posts" %}
                     </a>
                     <div class="content">
                         <a href="{{ '/blog' | relative_url }}"

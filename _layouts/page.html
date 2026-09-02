@@ -12,9 +12,9 @@ layout: base
 <div class="section section-header-blog">
     <div class="parallax filter filter-color-black">
         {% if page.featured_image %}
-            {% picture header {{ page.featured_image | remove_first: '/assets/img/' }} class="featured-bg" %}
+            {% include cloudflare_image.html image=page.featured_image preset="header" class="featured-bg" alt=title %}
         {% else %}
-           {% picture header header-home.webp class="featured-bg" %}
+           {% include cloudflare_image.html image="header-home.webp" preset="header" class="featured-bg" alt="" %}
         {% endif %}
         <div class="container">
             <div class="content">
