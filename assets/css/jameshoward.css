@@ -488,25 +488,6 @@ body {
     font-size-adjust: 0.35;
 }
 
-/*
- * Blog post header positioning.
- *
- * The featured image overlaps the bottom of the 45vh hero by 3em.
- * Anchor the header content 3em + 1vh above the bottom so that
- * there is always approximately 1vh between the tag line and
- * the featured image.
- */
-.section-header-blog .content {
-  position: absolute;
-  top: auto;
-  bottom: calc(5em);
-  left: 0;
-  right: 0;
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-}
-
 .section-header-blog .card-blog,
 .section-header-blog .card-blog h6 {
   margin-bottom: 0;
