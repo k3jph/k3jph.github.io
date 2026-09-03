@@ -1,13 +1,16 @@
 <head>
     <meta charset="utf-8" />
+
+    {% assign canonical_url = page.url | absolute_url %}
     {% if page.layout == "redirect" %}
-    <link rel="canonical" href="{{ page.redirect.to }}" />
+    {% assign canonical_url = page.redirect.to | absolute_url %}
     <script>location="{{ page.redirect.to }}"</script>
     <meta http-equiv="refresh" content="5; url={{ page.redirect.to }}" />
     <meta name="robots" content="noindex" />
     {% endif %}
+    <link rel="canonical" href="{{ canonical_url }}" />
 
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ '/assets/img/identity/favicon.svg' | relative_url }}">
+    <link rel="icon" type="image/svg+xml" sizes="96x96" href="{{ '/assets/img/identity/favicon.svg' | relative_url }}">
 
     {% assign title = page.title %}
     {% if page.tag %}
@@ -17,9 +20,15 @@
     {% assign title_formatted = title | markdownify | strip_html %}
     {% assign title_clean = title_formatted | append: " – " | append: site.title %}
 
-    {% assign featured_image = "/assets/img/header-home.webp" | relative_url %}
+    {% assign featured_image = "/assets/img/header-home.webp" %}
     {% if page.featured_image %}
       {% assign featured_image = page.featured_image %}
+    {% endif %}
+    {% assign social_image_url = featured_image | absolute_url %}
+
+    {% assign og_type = "website" %}
+    {% if page.layout == "post" or page.collection == "posts" %}
+      {% assign og_type = "article" %}
     {% endif %}
 
     {% assign desc = page.content | markdownify | strip_html | truncatewords: 30 %}
@@ -31,19 +40,19 @@
     <title>{{ title_clean }}</title>
 
     <meta name="title" content="{{ title }}" />
-    <meta name="author" content="James" />
+    <meta name="author" content="{{ site.author.name }}" />
     <meta name="description" content="{{ desc }}" />
 
     <meta property="og:title" content="{{ title }}" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:description" content="{{ desc }}" />
-    <meta property="og:url" content="{{ page.url }}" />
+    <meta property="og:url" content="{{ canonical_url }}" />
     <meta property="og:site_name" content="James Howard" />
-    <meta property="og:image" content="{{ featured_image | relative_url }}" />
-    <meta property="og:type" content="article" />
+    <meta property="og:image" content="{{ social_image_url }}" />
+    <meta property="og:type" content="{{ og_type }}" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:image" content="{{ featured_image | relative_url }}" />
+    <meta property="twitter:image" content="{{ social_image_url }}" />
     <meta property="twitter:title" content="{{ title }}" />
     <meta name="twitter:site" content="@k3jph" />
     <meta name="twitter:creator" content="@k3jph" />
@@ -72,6 +81,4 @@
     {% if page.head_inject %}
        {{ page.head_inject }}
     {% endif %}
-
-    {{ page.head_inject }}
 </head>
