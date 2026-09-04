@@ -74,9 +74,9 @@ At its core, the Bradley-Terry model assigns each competitor (or entity)
 a latent skill parameter. The probability that entity A defeats entity B
 is given by:
 
-\[ P(A > B) = \frac{e^{w_A}}{e^{w_A} + e^{w_B}} \]
+\\[ P(A > B) = \frac{e^{w_A}}{e^{w_A} + e^{w_B}} \\]
 
-where $$w_A$$ and $$w_B$$ are the skill parameters for $$A$$ and $$B$$.
+where \\(w_A\\) and \\(w_B\\) are the skill parameters for \\(A\\) and \\(B\\).
 These parameters represent an entity's underlying strength, inferred
 through previous competitions. The greater the difference in skill
 levels, the higher the probability that the stronger entity wins.  These

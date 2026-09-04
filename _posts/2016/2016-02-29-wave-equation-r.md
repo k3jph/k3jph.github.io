@@ -52,7 +52,7 @@ wave <- function(u, alpha, xdelta, tdelta, n) {
 }
 {% endhighlight %}
 
-We can see this at work in the following example. Of interest, we set the initial state in $u$ to be a partial sine wave. The left side, the lower half of the array, is the positive half of a sine wave. The right half is zeroed out, leading to a wave that travels down the string. The process fixes the ends of the string at zero, making them unmoving. The wave will reach the end of the line and bounce back to the start.
+We can see this at work in the following example. Of interest, we set the initial state in \\(u\\) to be a partial sine wave. The left side, the lower half of the array, is the positive half of a sine wave. The right half is zeroed out, leading to a wave that travels down the string. The process fixes the ends of the string at zero, making them unmoving. The wave will reach the end of the line and bounce back to the start.
 
 {% highlight r %}
 speed <- 2

@@ -45,7 +45,7 @@ Based on this analysis, Howard County's five council members each
 represent 57,417 people. The Maryland-wide average is about 33,038
 per county legislature. Not only are Howard County's districts
 unusually large, but the difference is statistically significant
-($p = 0.001942$). Not only this, but the members of the Maryland
+(\\(p = 0.001942\\)). Not only this, but the members of the Maryland
 House of Delegates represent smaller populations. The number of
 people per delegate is about 40,947, though some of those districts
 are larger with multiple delegates.

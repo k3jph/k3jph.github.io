@@ -67,17 +67,17 @@ Even vaccinated individuals in these areas faced higher risks because they were
 simply encountering the virus more often.
 
 Epidemiologists quantify disease spread using the [basic reproduction
-number](https://wwwnc.cdc.gov/eid/article/25/1/17-1901_article), $$R_0$$, which
+number](https://wwwnc.cdc.gov/eid/article/25/1/17-1901_article), \\(R_0\\), which
 represents the average number of new infections caused by a single infected
 person in a fully susceptible population. Some examples:
 
--   Measles: $$R_0 \approx 12−18$$
--   COVID-19 (original strain): $$R_0 \approx2.5−3.5$$
--   Influenza: $$R_0 \approx1.3−1.8$$
+-   Measles: \\(R_0 \approx 12−18\\)
+-   COVID-19 (original strain): \\(R_0 \approx2.5−3.5\\)
+-   Influenza: \\(R_0 \approx1.3−1.8\\)
 
-When $$R_0 > 1$$, a disease spreads. When $$R_0 < 1$$, it dies out. The goal of
+When \\(R_0 > 1\\), a disease spreads. When \\(R_0 < 1\\), it dies out. The goal of
 vaccination is not just to protect individuals, but to reduce
-$$R_{\text{eff}}$$, the _effective_ reproduction number, below 1 so that the
+\\(R_{\text{eff}}\\), the _effective_ reproduction number, below 1 so that the
 disease fades away. The COVID-19 pandemic provided ample real-world evidence of
 this principle: places with higher vaccination rates consistently saw fewer
 infections and deaths, not because vaccines were 100% effective at blocking
@@ -95,30 +95,29 @@ likely.
 ### Mathematical Framework for Vaccine Protection
 
 Suppose an unvaccinated individual has a baseline probability of infection per
-exposure, denoted as $$ P_0 $$. A vaccine with efficacy $$e$$ reduces this
-probability by $$e$$ percent. That means the probability of infection for a
-vaccinated person, $$P_v$$, is:
+exposure, denoted as \\(P_0\\). A vaccine with efficacy \\(e\\) reduces this
+probability by \\(e\\) percent. That means the probability of infection for a
+vaccinated person, \\(P_v\\), is:
 
-\[
+\\[
 P_v = P_0 (1 - e)
-\]
+\\]
 
 where:
-- $$ P_0 $$ is the probability of infection without vaccination,
-- $$ e $$ is the vaccine efficacy (expressed as a decimal, e.g., 90% efficacy
-  $$\rightarrow e = 0.9 $$),
-- $$ P_v $$ is the adjusted probability of infection for a vaccinated
+- \\(P_0\\) is the probability of infection without vaccination,
+- \\(e\\) is the vaccine efficacy (expressed as a decimal, e.g., 90% efficacy
+  \\(\rightarrow e = 0.9\\)),
+- \\(P_v\\) is the adjusted probability of infection for a vaccinated
   individual.
 
 ### Example Calculation
 
-Consider an infection with a 50% probability of transmission per exposure ($$
-P_0 = 0.5 $$), and a vaccine that is 90% effective ($$ e = 0.9 $$). The
+Consider an infection with a 50% probability of transmission per exposure (\\(P_0 = 0.5\\)), and a vaccine that is 90% effective (\\(e = 0.9\\)). The
 probability of infection for a vaccinated person would be:
 
-\[
+\\[
 P_v = 0.5 \times (1 - 0.9) = 0.5 \times 0.1 = 0.05
-\]
+\\]
 
 That is a tenfold reduction in risk per exposure.
 
@@ -137,7 +136,7 @@ compound across multiple interactions:
 
 This is why widespread vaccination remains critical, even for diseases with
 moderate vaccine efficacy. Reducing individual infection probability also
-reduces *community-wide* transmission, helping to push $$ R_{\text{eff}} $$
+reduces *community-wide* transmission, helping to push \\(R_{\text{eff}}\\)
 below 1, ultimately suppressing outbreaks.
 
 ### The Misinterpretation of Breakthrough Infections
@@ -185,47 +184,47 @@ points for respiratory viruses. Mucosal antibodies, such as IgA, act as a first
 line of defense, neutralizing viruses before they can take hold and begin
 replication.
 
-### Impact on $$R_{\text{eff}}$$
+### Impact on \\(R_{\text{eff}}\\)
 
 Since transmission requires exposure to a sufficient infectious dose, a lower
 viral load means fewer viable viruses in circulation. This reduces the
 probability of infection at both the individual and community level, further
-lowering the effective reproduction number $$R_{\text{eff}}$$.
+lowering the effective reproduction number \\(R_{\text{eff}}\\).
 
 Thus, vaccines do not just protect the person receiving them--they also reduce
 onward transmission, helping suppress outbreaks even when vaccines are not 100%
 effective at preventing infection.
 
-## Herd Immunity and Driving $$R_{\text{eff}}$$ Below 1
+## Herd Immunity and Driving \\(R_{\text{eff}}\\) Below 1
 
 More importantly, vaccines help control disease at the population level. The
-effective reproduction number $$R_{\text{eff}}$$ is given by:
+effective reproduction number \\(R_{\text{eff}}\\) is given by:
 
-\[
+\\[
 R_{\text{eff}} = R_0 \times (1 - v\cdot e) 
-\]
+\\]
 
 where:
 
--   $$v$$ is the fraction of the population vaccinated, and
--   $$e$$ is the vaccine efficacy in reducing transmission.
+-   \\(v\\) is the fraction of the population vaccinated, and
+-   \\(e\\) is the vaccine efficacy in reducing transmission.
 
-If $$R_{\text{eff}} < 1$$, each infected person transmits the disease to fewer
+If \\(R_{\text{eff}} < 1\\), each infected person transmits the disease to fewer
 than one other person on average, causing the outbreak to fizzle out.
 
-For example, if measles has $$R_0 = 15$$, and a vaccine is 95% effective, then
-we can easily solve for the required vaccination coverage $$v$$ to ensure
-$$R_{\text{eff}} < 1$$:
+For example, if measles has \\(R_0 = 15\\), and a vaccine is 95% effective, then
+we can easily solve for the required vaccination coverage \\(v\\) to ensure
+\\(R_{\text{eff}} < 1\\):
 
-\[
+\\[
 1 > 15 \times (1 - v \times 0.95)
-\]
+\\]
 
 Rearranging,
 
-\[
+\\[
 v > \frac{1 - (1/15)}{0.95} \approx 0.94
-\]
+\\]
 
 Thus, at least 94% of the population must be vaccinated to prevent measles
 outbreaks.
@@ -291,4 +290,3 @@ evolutionary arms race in our favor by safely introducing immunity without the
 severe risks of infection. 
 
 Simply put, "playing in the dirt" will not stop a pandemic. Science will.
-

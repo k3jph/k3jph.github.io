@@ -76,30 +76,30 @@ To apply McNemar's test, you summarize the results in a 2x2 contingency table:
     <tbody>
       <tr>
         <th scope="row" class="text-center">Old Correct</th>
-        <td class="text-center">$$A$$</td>
-        <td class="text-center">$$B$$</td>
+        <td class="text-center">\(A\)</td>
+        <td class="text-center">\(B\)</td>
       </tr>
       <tr>
         <th scope="row" class="text-center">Old Incorrect</th>
-        <td class="text-center">$$C$$</td>
-        <td class="text-center">$$D$$</td>
+        <td class="text-center">\(C\)</td>
+        <td class="text-center">\(D\)</td>
       </tr>
     </tbody>
   </table>
 </div>
 
 In this table:
-- $$A$$: Cases where both models agree (correct).
-- $$B$$: Cases where the old model is correct, but the new model is incorrect.
-- $$C$$: Cases where the new model is correct, but the old model is incorrect.
-- $$D$$: Cases where both models agree (incorrect).
+- \\(A\\): Cases where both models agree (correct).
+- \\(B\\): Cases where the old model is correct, but the new model is incorrect.
+- \\(C\\): Cases where the new model is correct, but the old model is incorrect.
+- \\(D\\): Cases where both models agree (incorrect).
 
-McNemar's test focuses only on the off-diagonal cells ($$B$$ and $$C$$)
+McNemar's test focuses only on the off-diagonal cells (\\(B\\) and \\(C\\))
 where the two conditions differ. The null hypothesis assumes that the
-counts in $$B$$ and $$C$$ are equal, meaning there is no significant
+counts in \\(B\\) and \\(C\\) are equal, meaning there is no significant
 difference between the two paired outcomes.
 
-If the counts in $$B$$ and $$C$$ differ significantly, McNemar's test
+If the counts in \\(B\\) and \\(C\\) differ significantly, McNemar's test
 rejects the null hypothesis and concludes that the difference in
 performance (or outcomes) is statistically significant.
 
@@ -186,43 +186,43 @@ follows:
     <tbody>
       <tr>
         <th scope="row" class="text-center">Sample 1 Correct</th>
-        <td class="text-center">$$A$$</td>
-        <td class="text-center">$$B$$</td>
+        <td class="text-center">\(A\)</td>
+        <td class="text-center">\(B\)</td>
       </tr>
       <tr>
         <th scope="row" class="text-center">Old Incorrect</th>
-        <td class="text-center">$$C$$</td>
-        <td class="text-center">$$D$$</td>
+        <td class="text-center">\(C\)</td>
+        <td class="text-center">\(D\)</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-- $$B$$: Count of disagreements where Sample 1 is correct, but Sample 2
+- \\(B\\): Count of disagreements where Sample 1 is correct, but Sample 2
   is incorrect.
-- $$C$$: Count of disagreements where Sample 2 is correct, but Sample 1
+- \\(C\\): Count of disagreements where Sample 2 is correct, but Sample 1
   is incorrect.
 
-The diagonal cells $$A$$ and $$D$$ (agreement cases) are ignored because
+The diagonal cells \\(A\\) and \\(D\\) (agreement cases) are ignored because
 McNemar's test focuses solely on disagreements.
 
 ### Step 2: Calculate the Test Statistic
 McNemar's test calculates the test statistic using the formula:
 
-\[
+\\[
 \chi^2 = \frac{(B - C)^2}{B + C}
-\]
+\\]
 
 For small sample sizes, you may apply a continuity correction:
 
-\[
+\\[
 \chi^2 = \frac{(|B - C| - 1)^2}{B + C}
-\]
+\\]
 
-- $$B$$ and $$C$$ are the disagreement counts.
+- \\(B\\) and \\(C\\) are the disagreement counts.
 - The result is a chi-squared statistic with 1 degree of freedom.
 
-### Step 3: Evaluate the $$p$$-Value
+### Step 3: Evaluate the \\(p\\)-Value
 
 Compare the test statistic to the chi-squared distribution:
 - If p-value < 0.05: Reject the null hypothesis and conclude that the
@@ -245,29 +245,28 @@ Imagine two models are evaluated on a dataset, and the results are:
     <tbody>
       <tr>
         <th scope="row" class="text-center">Old Correct</th>
-        <td class="text-center">$$700$$</td>
-        <td class="text-center">$$40$$</td>
+        <td class="text-center">\(700\)</td>
+        <td class="text-center">\(40\)</td>
       </tr>
       <tr>
         <th scope="row" class="text-center">Old Incorrect</th>
-        <td class="text-center">$$100$$</td>
-        <td class="text-center">$$160$$</td>
+        <td class="text-center">\(100\)</td>
+        <td class="text-center">\(160\)</td>
       </tr>
     </tbody>
   </table>
 </div>
 
 Here:
-- $$B = 40$$ and $$C = 100$$
+- \\(B = 40\\) and \\(C = 100\\)
 
 Plugging into the formula:
 
-\[
+\\[
 \chi^2 = \frac{(40 - 100)^2}{40 + 100} = \frac{3600}{140} \approx 25.71
-\]
+\\]
 
-Using a chi-squared table or statistical software, the p-value is $$<
-0.001$$, indicating a statistically  significant difference.
+Using a chi-squared table or statistical software, the p-value is \\(< 0.001\\), indicating a statistically  significant difference.
 
 ## In Code
 
@@ -319,7 +318,7 @@ result <- mcnemar.test(contingency_table)
 print(result)
 ```
 
-This R code computes the McNemar test statistic and $$p$$-value, giving
+This R code computes the McNemar test statistic and \\(p\\)-value, giving
 you a straightforward interpretation of the results.
 
 Whether you use Python or R, these snippets ensure you can integrate
@@ -331,7 +330,7 @@ statistical rigor to your evaluations.
 
 Despite its usefulness, McNemar's test is rarely seen in modern data
 science workflows. Many practitioners default to metrics like accuracy
-or $$F_1$$-score, overlooking the power of statistical tests for paired
+or \\(F_1\\)-score, overlooking the power of statistical tests for paired
 data.  This is particularly true in A/B testing and model comparison
 tasks, where binary outcomes are common.
 

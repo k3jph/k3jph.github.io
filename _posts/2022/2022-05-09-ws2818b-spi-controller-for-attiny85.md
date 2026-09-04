@@ -29,11 +29,11 @@ protocol to deal to talk.  The LEDs are addressable in the sense
 that you can control which LED you're talking to. Basically, it all
 works like this:
 
-1.  Assume you have some fixed number of LEDs.  We'll call that number $$n$$.
+1.  Assume you have some fixed number of LEDs.  We'll call that number \\(n\\).
 2.  For the first LED, you send 24 bits of data to it, representing an [RGB value](https://www.rapidtables.com/web/color/RGB_Color.html).
     1. To send a 1, first raise the WS2818B's data input high for 580 to 1600ns.  Then set the input low for 220 to 420ns.
     2. To send a 0, first raise the WS2818B's data input high for 220 to 380ns.  Then set the input low for 580 to 1600ns.
-    3. Loop this step for each LED up to $$n$$.
+    3. Loop this step for each LED up to \\(n\\).
 3.  To reset and address the first LED again, set the input low for more than 2800ms, then go back to the first step.
 
 
@@ -70,4 +70,3 @@ If you want to learn more about SPI, Ben Eater has a fantastic video
 on SPI here:
 
 {% include youtube.html id="MCi7dCBhVpQ" %}
-

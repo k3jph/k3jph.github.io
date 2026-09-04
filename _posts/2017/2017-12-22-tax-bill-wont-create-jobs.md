@@ -44,17 +44,17 @@ The idea the tax-cutters support is that if there's more money in
 the pockets of business, they will buy more labor.  But, in order
 to buy labor, that labor must be productive.  One of the key ideas
 of classical economics is that in a market, a supplier will supply
-the market $latex Q$ units at $latex P$, the equilibrium quantity
+the market \\(Q\\) units at \\(P\\), the equilibrium quantity
 and price.  But the price is set by the market.  If our business
-provides more than $latex Q$ units, they will have to provide it
-at a price lower than $latex P$ in order to sell it all.  If $latex
-P$ is more than the cost of production, well, we make a nice profit.
-Money is good.  If $latex P$ is less than the cost of production,
+provides more than \\(Q\\) units, they will have to provide it
+at a price lower than \\(P\\) in order to sell it all.  If \\(P\\)
+is more than the cost of production, well, we make a nice profit.
+Money is good.  If \\(P\\) is less than the cost of production,
 well, we are losing money and we are not going to stay in business
 very long.
 
 So how do we know when to stop?  It turns out we stop when the price
-$latex P$ and the marginal cost of the _next_ unit are the same.
+\\(P\\) and the marginal cost of the _next_ unit are the same.
 That is, we keep selling right up until we start losing money!  We
 might not make a lot of money on that last unit, but we are making
 money.  Also, money is good, so we want as much of that as we can

@@ -78,9 +78,9 @@ $$
 V = \sqrt{\frac{\chi^2}{n \cdot \min(r - 1,\ c - 1)}}
 $$
 
-where $$\chi^2$$ is the chi-square statistic from the test of
-independence, $$n$$ is the total sample size, $$r$$ is the number of
-rows, and $$c$$ is the number of columns. The term $$\min(r - 1, c - 1)$$
+where \\(\chi^2\\) is the chi-square statistic from the test of
+independence, \\(n\\) is the total sample size, \\(r\\) is the number of
+rows, and \\(c\\) is the number of columns. The term \\(\min(r - 1, c - 1)\\)
 adjusts for the dimensions of the table so that results are comparable
 across different contingency table sizes.
 
@@ -164,7 +164,7 @@ predictions: 100,000 from Group A and 100,000 from Group B.
 
 Group A is approved at a 71% rate; Group B at 69%. The chi-square test
 produces a statistic of approximately 95.2, which with one degree of
-freedom yields a p-value of approximately $$1.7 \times 10^{-22}$$,
+freedom yields a p-value of approximately \\(1.7 \times 10^{-22}\\),
 statistically significant beyond any conventional threshold.
 
 Now apply the Cramér's V formula:
@@ -215,7 +215,7 @@ print(f"Cramér's V: {cramers_v:.4f}")
 ```
 
 This will output a chi-square of approximately 95.24, a p-value of
-approximately $$1.7 \times 10^{-22}$$, and a Cramér's V of 0.0218.
+approximately \\(1.7 \times 10^{-22}\\), and a Cramér's V of 0.0218.
 
 ### R Example
 
