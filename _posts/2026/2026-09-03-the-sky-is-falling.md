@@ -15,23 +15,99 @@ tags:
 - monetary policy
 ---
 
-
 The BBC published a story this morning about the Netherlands moving part of its national gold reserve from North America to London. [BBC article](https://www.bbc.com/news/articles/cvgy51xlz39o?utm_source=chatgpt.com) Ordinarily, this would not be particularly exciting. Central banks are normally among the world's most staid institutions. This is a profession that gave us [Alan Greenspan](https://commons.wikimedia.org/wiki/File%3AAlan_Greenspan_color_photo_portrait.jpg?utm_source=chatgpt.com), a man who always looked like someone had interrupted him in the middle of reading the Federal Register. Central banks do not generally issue press releases saying the financial equivalent of "Everybody panic."
-
 
 So when a central bank starts using phrases like "increasing geopolitical unrest," "severe crises," and "extreme systemic risks," it is probably worth reading the rest of the press release. Those are the phrases De Nederlandsche Bank, the Dutch central bank usually known as DNB, used yesterday when it announced that it had spent the last six months rearranging the Dutch national gold reserve. It says the changes are intended to improve Dutch "crisis preparedness" and make its gold more readily available during a crisis.
 
-
 The Netherlands has 612.4 tonnes of gold, worth about €72 billion at the end of last year. Before this operation, 30.8 percent was stored domestically at DNB's heavily secured Cash Centre near Zeist, 18.1 percent was in London, 31.3 percent was stored at the Federal Reserve Bank of New York, and 19.7 percent was in Ottawa. Between March and August, DNB moved about 86 tonnes from its combined North American holdings into London. Afterwards, Zeist remained at 30.8 percent, London increased to 32.1 percent, and both New York and Ottawa held exactly 18.5 percent.
-
 
 That description makes this sound like a general rebalancing away from North America. It really was not. The Canadian allocation fell from 19.7 percent to 18.5 percent, which is about 7.3 tonnes. The American allocation fell from 31.3 percent to 18.5 percent, or about 78.4 tonnes. Almost all of the change came from New York.
 
-
 Before going any further, I need to acknowledge something. In April, I wrote an article called ["Gold Is Fiat Currency (And Always Was)"]. [Gold Is Fiat Currency (And Always Was)](https://jameshoward.us/2026/04/16/gold-is-fiat-currency-and-always-was) I argued that, historically, gold had very little intrinsic value. I still think that. That does not mean gold has no *real* value, which is an entirely different thing. A Bored Ape can have real value if enough people agree it does, and cartoon apes have provided a useful, if ridiculous, demonstration of this distinction. Gold has had several thousand years longer to establish the same social convention. Modern gold also has genuine industrial uses that did not exist for most of its monetary history. None of that changes the original point.
-
 
 More importantly, my opinion about gold is completely irrelevant here. Central banks do not agree with me. DNB describes gold as an "anchor of trust" and, in yesterday's announcement, calls it the "ultimate reserve asset" because it can hedge against extreme systemic risks. So, while I may think there is nothing metaphysically special about a yellow metal, the institutions actually responsible for maintaining the international monetary system disagree. For purposes of public policy, their opinion is the one that matters. If central banks treat gold as the thing they expect to remain useful when other things stop working, what they do with that gold tells us something.
 
-
 The first problem is what the move says about the United States. The Netherlands has not abandoned New York. More than 113 tonnes of Dutch gold remain in the Federal Reserve vault in Manhattan. The [New York Fed's gold vault](https://www.newyorkfed.org/aboutthefed/goldvault.htm?utm_source=chatgpt.com) remains the largest known repository of monetary gold in the world and has stored the reserves of foreign governments and central banks for generations. There is no evidence that DNB believes the Federal Reserve is about to fail, seize Dutch property, or lose the ability to safeguard gold. That would be an enormous claim and DNB has made no such claim.
+
+What has changed is simpler and, in some ways, more consequential. New York used to receive a premium. It held 31.3 percent of the Dutch reserve while Ottawa held 19.7 percent. Now both hold exactly 18.5 percent. America is still trusted, but it is no longer being treated as obviously deserving a larger share merely because it is America.
+
+For much of the postwar period, the United States occupied a peculiar position in the international system. Other countries were jurisdictions whose political stability, institutional reliability, financial infrastructure and sovereign behavior had to be evaluated. The United States certainly possessed all of those risks in theory, but allied governments could frequently act as though it did not. Holding an enormous portion of a European country's national reserve in New York required little explanation. The United States was the United States.
+
+That privilege is not disappearing overnight. The dollar remains the world's dominant reserve currency, American financial markets remain extraordinarily deep, and the New York Fed remains one of the most important custodians of sovereign assets anywhere. But privilege is rarely binary. It erodes when institutions begin asking questions they previously did not need to ask. Why is this asset in the United States? Why this much? What happens if access becomes difficult? What is the alternative? How quickly can we use it somewhere else?
+
+Yesterday, DNB supplied one answer. America gets 18.5 percent. Canada gets 18.5 percent.
+
+That would be an important story by itself. Unfortunately, it is not the part of this story that concerns me most.
+
+If DNB merely wanted to reduce the amount of gold it held in New York and increase the amount it held in London, doing so was straightforward. Gold can be sold in one market and purchased in another. DNB did exactly that with approximately 59 tonnes. It sold gold held in New York and purchased replacement gold in London meeting current international trading standards.
+
+But DNB did not stop there. It also physically transported more than 27 tonnes of gold from the United States and Canada to its own vault at Zeist. At the same time, a similar quantity of internationally tradable gold already in Zeist was physically transported to London. DNB describes this as experience with two approaches, meaning market transactions and physical movement. Operationally, however, it demonstrated three different capabilities. It demonstrated that it could eliminate a large New York position through financial transactions and recreate that position in London. It demonstrated that it could physically recover foreign-held gold into direct Dutch sovereign custody. And it demonstrated that it could take gold already under its own physical control and move it into the world's principal market for physical bullion.
+
+The arithmetic lets us say something more about the physical movement. Only about 7.3 tonnes disappeared from the Canadian allocation. Assume, in the most conservative possible case, that every bit of those 7.3 tonnes was physically transported from Ottawa to Zeist. Since DNB says *more than* 27 tonnes came physically from the United States and Canada, that leaves approximately 20 tonnes, at minimum, physically removed from the United States. DNB's American gold was stored at the Federal Reserve Bank of New York. Accordingly, roughly 20 tonnes of Dutch sovereign gold physically left New York.
+
+Twenty tonnes is not a demonstration with a couple of boxes. DNB says the standard gold bars in its own vault weigh about 12.5 kilograms, which means twenty tonnes is on the order of 1,600 bars. The New York Fed describes a tightly controlled process for moving gold. Bars are stored in numbered compartments belonging to individual account holders, movements require a three-person control group, and the Fed records the weight, refiner and purity of deposited bars. Most importantly, gold stored there is not treated as fungible: when an account holder physically withdraws gold, the Fed returns the actual bars that account holder deposited.
+
+This is different from money moving out of New York. Dollars move constantly. Dollars are *supposed* to move. An international financial center can process staggering quantities of money without any particular transaction meaning much beyond the transaction itself. Even physical currency moves across borders routinely.
+
+Sovereign gold is different. Twenty tonnes of a foreign country's monetary reserve physically leaving the vault beneath the New York Fed is an operation.
+
+And this is where the other 59 tonnes become particularly interesting.
+
+The New York Fed specifically allows gold transactions to be accomplished by transferring ownership between compartments. If the Netherlands sells gold already in New York to another eligible account holder, the economic position can leave Dutch ownership without requiring those bars to leave the building. The Netherlands can then purchase equivalent gold in London. The Dutch reserve has moved from New York to London even though the corresponding 59 tonnes of metal did not need to make a conspicuous transatlantic journey.
+
+DNB does not say avoiding observation was the purpose of doing this, and there is no reason to pretend it does. The Fed would know. The counterparties would know. DNB would obviously know. But the operational distinction is still real. A government can eliminate a large New York gold position through markets without arranging the physical withdrawal and international transportation of the corresponding bullion. The Netherlands has now actually done that with roughly 59 tonnes.
+
+It has also demonstrated the alternative by physically recovering roughly another 20 tonnes from New York.
+
+Then DNB explains why the experience matters. According to the central bank, using both financial transactions and physical transportation provides useful experience in case another relocation becomes necessary during a future crisis and, because of circumstances at the time, one of the methods is impossible.
+
+This is not my interpretation of vague language buried in a financial statement. DNB said it in the press release announcing the operation.
+
+That statement becomes considerably more interesting when placed beside what DNB has been doing elsewhere. In February, the bank announced that it had spent 2025 developing a geopolitical resilience program intended to prepare itself for incidents and escalations affecting its core responsibilities. The scenarios examined included cyberattacks, disrupted logistics chains, 72-hour power failures, economic warfare and physical warfare. DNB also identified dependence on non-European technology providers and increasing pressure on international consultation mechanisms as specific vulnerabilities.
+
+The day before that announcement, DNB President Olaf Sleijpen was in Kyiv and said that the postwar international order based on law and free trade was "rapidly disappearing." He explained that DNB was strengthening contingency planning across scenarios ranging from a major power failure to "an all-out military conflict." Normally staid central banks are not known for their breathless rhetoric. When the president of one says his institution is planning for all-out military conflict, we should probably take him at his word.
+
+Six months later, his institution announced that it had physically moved sovereign gold between three countries while also testing a market mechanism for changing the jurisdiction of a much larger position. It explicitly says that experience will be useful if, during a future crisis, one of the methods stops being possible.
+
+There is also an uncomfortable historical context here because the Dutch have confronted this exact category of problem before.
+
+When Germany attacked the Netherlands in May 1940, the Dutch government suddenly had to determine whether it could keep control of its monetary reserves as the country collapsed around it. According to the [Bank of Canada's history of wartime gold transactions](https://www.bankofcanada.ca/wp-content/uploads/2010/07/gold97-4.pdf?utm_source=chatgpt.com), the effort was only partially successful. Some Dutch gold was captured by Germany. Another shipment fell into Axis hands after the ship carrying it became stranded. The rest reached the Bank of England.
+
+Even that was not considered sufficient. With Britain itself under threat, the Dutch government asked whether it could establish a gold account in Ottawa, beyond the immediate European war. By the end of August 1940, only a few months after the invasion, the Netherlands had accumulated 5,732 bars there, containing more than 2.8 million fine ounces of gold. The Dutch subsequently used that reserve during the war and even sent some of it onward to Australia for safekeeping.
+
+The Netherlands was hardly alone. Between 1938 and 1945, foreign central banks deposited 2,586 tonnes of gold in Ottawa. Belgium, France, Norway and Poland joined the Netherlands in using Canada as a wartime refuge for monetary reserves. The Bank of Canada later described safely held gold for occupied countries as the "ultimate guarantee of national survival."
+
+There is a particularly relevant detail in that history. Much of the wartime gold did not have to move physically once it reached Canada. Ownership could instead be transferred on paper between central-bank accounts. In 1942, for instance, Britain transferred ownership of 56 tonnes of gold already sitting in Ottawa to the Swiss central bank in exchange for Swiss francs, without shipping the gold to Switzerland. The distinction between moving gold and moving ownership of gold was not merely an accounting curiosity. Under actual wartime conditions, it mattered.
+
+None of this means DNB expects a replay of May 1940. Nobody is suggesting German tanks are about to cross the Dutch border, and analogies to the Second World War should generally be handled with some restraint. The historical relevance is more straightforward. Dutch institutions have actual experience with a modern, prosperous European state going from ordinary life to catastrophe within days. They have actual experience discovering that the physical location of sovereign reserves matters, that transportation routes can fail, that assets can become inaccessible, and that transferring ownership may remain possible when physically moving the underlying asset does not.
+
+Institutional memory lasts longer than living memory.
+
+This also does not require the Dutch government to possess some secret information unavailable to the rest of us. That explanation would almost be comforting. Perhaps somebody in Amsterdam has seen a classified report telling them exactly what will happen next, while the rest of us remain blissfully ignorant.
+
+Unfortunately, that is not necessary. They know the same thing we know.
+
+DNB is looking at the same international system we are. Its president publicly says the postwar international order is rapidly disappearing. Its resilience planners publicly identify economic warfare, physical warfare, disrupted logistics and failures of international cooperation as scenarios for which they need procedures. The gold announcement itself publicly cites increasing geopolitical unrest. There is no secret hidden inside any of this. The Dutch central bank is telling us what it thinks.
+
+The difference is that DNB has enough institutional responsibility to act on it.
+
+The rest of us can look at some horrible possibility and decide there is only a five-percent chance it happens. We can argue about whether that should really be three percent or seven percent and then go about our day. A central bank cannot do that. Once a failure mode becomes sufficiently plausible, however unlikely it remains, someone has to determine what happens if it occurs. Does the institution still function? Can it communicate? Are the reserves available? Can they be moved? What happens if the market works but transportation does not? What happens if transportation works but a market becomes unavailable? What happens if assets abroad need to be brought home? What happens if assets at home need to become liquid somewhere else?
+
+Eventually someone has to write the procedure.  The Netherlands has gone further. It practiced the procedure.
+
+That is what makes this story different from the endless proclamations that the dollar is about to disappear or that Western civilization will collapse next Tuesday. There is no need for that sort of prediction. The United States remains extremely powerful. New York remains a major financial center. The Dutch still trust the Federal Reserve with more than a hundred tonnes of gold. DNB itself says it expects never to need to use its gold reserves in this way.
+
+But the Netherlands just reduced the privileged position of the United States in its reserve structure. It physically removed roughly 20 tonnes of sovereign gold from New York. It separately demonstrated how to eliminate another 59 tonnes of New York exposure without physically moving those bars across the Atlantic. It demonstrated that it could bring foreign-held gold under direct Dutch control and that it could move domestically held gold back into the world's most liquid bullion market. It did all of this while conducting a wider resilience program that explicitly considers economic warfare and all-out military conflict.
+
+Then it told us that gaining experience with multiple methods might be useful during a future crisis when one of them is no longer possible.
+
+No single one of these facts proves much. Taken together, they are difficult to dismiss.
+
+Declining international privilege does not usually arrive with a ceremony. Nobody rings a bell when a great power becomes a little less trusted than it was yesterday. The change appears in marginal decisions. Governments diversify something they once concentrated. Institutions develop alternatives to systems they once assumed would always be available. Risks that once seemed too remote to justify the expense of planning migrate into continuity exercises. Someone asks why 31 percent of the national gold reserve is in New York and discovers that "because it is the United States" is no longer a complete answer.
+
+Then, eventually, somebody practices getting the gold out.
+
+The sky does not have to fall all at once. In fact, that is probably not how it happens. The more disturbing possibility is that serious institutions notice the weather changing well before everyone else agrees on what to call it.
+
+They do not know something we do not know.  They know the same thing we know, and they have enough institutional responsibility to act on it.  The normally staid central bankers have started moving the gold.
+
