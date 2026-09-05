@@ -59,6 +59,10 @@
 
     <meta name="fediverse:creator" content="@k3jph@mastodon.social">
 
+    {% if page.profile_page %}
+    {% include profile_page_jsonld.html %}
+    {% endif %}
+
     {% if page.sitemap == false %}
     <meta name="robots" content="noindex" />
     {% endif %}

@@ -1,0 +1,65 @@
+{% assign profile = site.data.profile %}
+{% assign homepage_url = "/" | absolute_url %}
+{% assign website_id = homepage_url | append: "#website" %}
+{% assign profile_page_id = homepage_url | append: "#profile" %}
+{% assign person_id = homepage_url | append: "#person" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": {{ website_id | jsonify }},
+      "url": {{ homepage_url | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "publisher": {
+        "@id": {{ person_id | jsonify }}
+      }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": {{ profile_page_id | jsonify }},
+      "url": {{ homepage_url | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ profile.description | jsonify }},
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": {{ website_id | jsonify }}
+      },
+      "mainEntity": {
+        "@id": {{ person_id | jsonify }}
+      },
+      "hasPart": [
+        {% for post in site.posts limit: 8 %}
+        {% assign post_url = post.url | absolute_url %}
+        {% assign post_id = post_url | append: "#article" %}
+        {% assign post_title = post.title | markdownify | strip_html | strip %}
+        {
+          "@type": "BlogPosting",
+          "@id": {{ post_id | jsonify }},
+          "headline": {{ post_title | jsonify }},
+          "url": {{ post_url | jsonify }},
+          "datePublished": {{ post.date | date: "%Y-%m-%d" | jsonify }},
+          "author": {
+            "@id": {{ person_id | jsonify }}
+          }
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": {{ person_id | jsonify }},
+      "name": {{ profile.name | jsonify }},
+      "alternateName": {{ profile.alternate_names | jsonify }},
+      "url": {{ homepage_url | jsonify }},
+      "description": {{ profile.description | jsonify }},
+      "sameAs": [
+        {% for account in site.data.settings.social_media %}
+        {{ account.url | jsonify }}{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }
+  ]
+}
+</script>
