@@ -34,12 +34,14 @@
         {% assign post_url = post.url | absolute_url %}
         {% assign post_id = post_url | append: "#article" %}
         {% assign post_title = post.title | markdownify | strip_html | strip %}
+        {% assign post_image = post.featured_image | absolute_url %}
         {
           "@type": "BlogPosting",
           "@id": {{ post_id | jsonify }},
           "headline": {{ post_title | jsonify }},
           "url": {{ post_url | jsonify }},
-          "datePublished": {{ post.date | date: "%Y-%m-%d" | jsonify }},
+          "datePublished": {{ post.date | date_to_xmlschema | jsonify }},
+          "image": {{ post_image | jsonify }},
           "author": {
             "@id": {{ person_id | jsonify }}
           }
