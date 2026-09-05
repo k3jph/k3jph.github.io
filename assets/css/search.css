@@ -1,0 +1,42 @@
+.main {
+  width: 100%;
+}
+
+#search-input {
+  width: 100%;
+  font-size: 1em;
+  padding: 0.5em;
+}
+
+.section {
+  padding: 0;
+}
+
+.search-results b {
+  background-color: #f2daa6;
+}
+
+.search-preview {
+  display: inline;
+  margin-bottom: 2em;
+  font-size: 110%;
+}
+
+.search-date {
+  margin-bottom: 0;
+  display: inline;
+}
+
+.result-line {
+  margin-bottom: 2em;
+}
+
+.toc-line {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+.single .main a,
+.single .main h2 {
+  border-bottom: none;
+}

@@ -598,30 +598,30 @@ meaningful symbolism across diverse cultures.
     <div class="row">
       <div class="item col-md-6 px-0">
         <figure class="py-0"> 
-            <img class="featured-img mx-auto " src="/assets/img/armory/jhoward-tartan-modern.svg" alt="Tartan in the modern palette" loading="">
-            <div class="content"><figcaption class="images-caption">Modern palette</figcaption></div>
+            <img class="featured-img mx-auto" src="/assets/img/armory/jhoward-tartan-modern.svg" alt="Tartan in the modern palette" loading="lazy">
+            <figcaption class="images-caption"><div class="content">Modern palette</div></figcaption>
         </figure>
       </div>
       <div class="item col-md-6 px-0">
         <figure class="py-0"> 
-            <img class="featured-img mx-auto " src="/assets/img/armory/jhoward-tartan-weathered.svg" alt="Tartan in the weathered palette" loading="">
-            <div class="content"><figcaption class="images-caption">Weathered palette</figcaption></div>
+            <img class="featured-img mx-auto" src="/assets/img/armory/jhoward-tartan-weathered.svg" alt="Tartan in the weathered palette" loading="lazy">
+            <figcaption class="images-caption"><div class="content">Weathered palette</div></figcaption>
         </figure>
       </div>
       <div class="item col-md-6 px-0">
         <figure class="py-0"> 
-            <img class="featured-img mx-auto " src="/assets/img/armory/jhoward-tartan-muted.svg" alt="Tartan in the muted palette" loading="">
-            <div class="content"><figcaption class="images-caption">Muted palette</figcaption></div>
+            <img class="featured-img mx-auto" src="/assets/img/armory/jhoward-tartan-muted.svg" alt="Tartan in the muted palette" loading="lazy">
+            <figcaption class="images-caption"><div class="content">Muted palette</div></figcaption>
         </figure>
       </div>
       <div class="item col-md-6 px-0">
         <figure class="py-0"> 
-            <img class="featured-img mx-auto " src="/assets/img/armory/jhoward-tartan-ancient.svg" alt="Tartan in the ancient palette" loading="">
-            <div class="content"><figcaption class="images-caption">Ancient palette</figcaption></div>
+            <img class="featured-img mx-auto" src="/assets/img/armory/jhoward-tartan-ancient.svg" alt="Tartan in the ancient palette" loading="lazy">
+            <figcaption class="images-caption"><div class="content">Ancient palette</div></figcaption>
         </figure>
       </div>
     </div>
-    <div class="content mt-0"><figcaption class="images-caption">Tartan adapted from the liveries</figcaption></div>
+    <figcaption class="images-caption"><div class="content mt-0">Tartan adapted from the liveries</div></figcaption>
   </figure>
 </div>
 </div>

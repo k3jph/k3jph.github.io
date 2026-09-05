@@ -25,7 +25,7 @@ There's a good article in _Vanity Fair_ about the scandal at Valeant, the pharma
 
 {% include iframely.html url="http://www.vanityfair.com/news/2016/06/the-valeant-meltdown-and-wall-streets-major-drug-problem" %}
 
-The part that has everyone up in arms has to do with their pricing strategy.  The examples given are Syprine and Cuprimine, for treating [Wilson's disease]():
+The part that has everyone up in arms has to do with their pricing strategy.  The examples given are Syprine and Cuprimine, for treating Wilson's disease:
 
 > [F]or years, Merck, the big pharmaceutical giant, owned these drugs and sold them for a dollar a pill. And then Merck sold these two drugs to another firm, who then in turn sold them to Valeant, and Valeant began to hike the price of the drugs. Today one of them, Syprine, is about $300,000 a year. That was sort of Mike Pearson’s argument: Because people need these drugs to live, either the people or the insurance system will pay any amount to keep them alive. Because, ‘Hey, it’s cheaper than liver failure.’
 

@@ -58,9 +58,9 @@ The consent cookie:
 
 Because this cookie is used only to remember the privacy choice you requested, it is treated as necessary and does not require separate consent.
 
-<section id="cookie-settings" markdown="1">
+<section markdown="1">
 
-## Cookie Settings
+## Cookie Settings {#cookie-settings}
 
 Google Analytics is optional. It will not load, contact Google, or set analytics cookies unless you affirmatively select **Accept analytics**.
 

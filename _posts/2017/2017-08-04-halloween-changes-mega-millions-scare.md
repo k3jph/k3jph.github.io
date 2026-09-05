@@ -38,8 +38,8 @@ State Gaming
 Commission](https://www.gaming.ny.gov/pdf/04.24.2017Commission%20Meeting%20Book.pdf).
 Page 34 contains the tables.
 
-<center><iframe width="860" height="415" frameborder="0" scrolling="no"
-src="https://onedrive.live.com/embed?cid=C4DA866F3B02B780&resid=C4DA866F3B02B780%214566&authkey=AAWyhYqh3MqQfiU&em=2&wdAllowInteractivity=False&ActiveCell='Pre-Halloween'!G17&Item='Pre-Halloween'!A1%3AG17&wdDownloadButton=False"></iframe></center>
+<div class="text-center"><iframe width="860" height="415" frameborder="0" scrolling="no"
+src="https://onedrive.live.com/embed?cid=C4DA866F3B02B780&resid=C4DA866F3B02B780%214566&authkey=AAWyhYqh3MqQfiU&em=2&wdAllowInteractivity=False&ActiveCell='Pre-Halloween'!G17&Item='Pre-Halloween'!A1%3AG17&wdDownloadButton=False"></iframe></div>
 
 As we can see, the expected value of a lottery ticket is a loss of
 77 cents.  That means that given a single random Mega Millions
@@ -55,8 +55,8 @@ million and the lower prizes are also reconfigured.  It's not worth
 going into those details here, but we can see the new numbers back
 on page 34.
 
-<center><iframe width="860" height="415" frameborder="0" scrolling="no"
-src="https://onedrive.live.com/embed?cid=C4DA866F3B02B780&resid=C4DA866F3B02B780%214566&authkey=AAWyhYqh3MqQfiU&em=2&wdAllowInteractivity=False&ActiveCell='Post-Halloween'!G17&Item='Post-Halloween'!A1%3AG17&wdDownloadButton=False"></iframe></center>
+<div class="text-center"><iframe width="860" height="415" frameborder="0" scrolling="no"
+src="https://onedrive.live.com/embed?cid=C4DA866F3B02B780&resid=C4DA866F3B02B780%214566&authkey=AAWyhYqh3MqQfiU&em=2&wdAllowInteractivity=False&ActiveCell='Post-Halloween'!G17&Item='Post-Halloween'!A1%3AG17&wdDownloadButton=False"></iframe></div>
 
 As we can see, for every $2 spent, we can expect to lose $1.63.
 That means a loss of 37 cents for every $2.  It's important to

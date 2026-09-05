@@ -152,11 +152,13 @@ Federal Legislation
 
 * Reasonable Time Frames: The law would require local governments
 to process applications for renewable energy projects within a
-specified reasonable period, preventing undue delays.  * Substantial
+specified reasonable period, preventing undue delays.
+* Substantial
 Evidence Requirement: Local decisions to deny green energy projects
 should be required to be based on substantial evidence, documented
 in writing, that directly relates to health, safety, and welfare
-concerns.  * Non-Discrimination: The law should prohibit local
+concerns.
+* Non-Discrimination: The law should prohibit local
 governments from discriminating unreasonably against renewable
 energy projects compared to other land use or energy production
 projects, ensuring a level playing field.

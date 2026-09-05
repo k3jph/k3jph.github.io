@@ -31,20 +31,16 @@
   const rand    = (min, max) => min + Math.random() * (max - min);
   const randInt = (min, max) => Math.floor(rand(min, max));
 
-  // ----- Logo handling (two <img> with data-src; only chosen downloads) -----
+  // ----- Logo handling (create one <img>; only the chosen image downloads) -----
   function showCorrectLogo(isHalloween) {
-    const id = isHalloween ? "logo-halloween" : "logo-default";
-    const logo = document.getElementById(id);
-    if (!logo) return;
-    const src = logo.dataset.src;
-    if (src) logo.src = src;
-    logo.style.display = "block";
-  }
-
-  function hideOtherLogo(isHalloween) {
-    const otherId = isHalloween ? "logo-default" : "logo-halloween";
-    const other = document.getElementById(otherId);
-    if (other) other.style.display = "none";
+    const container = document.getElementById("seasonal-logo");
+    if (!container) return;
+    const logo = document.createElement("img");
+    logo.className = "img-responsive pl-5";
+    logo.alt = "James Howard coat of arms";
+    logo.style.width = isHalloween ? "65%" : "80%";
+    logo.src = isHalloween ? container.dataset.halloweenSrc : container.dataset.defaultSrc;
+    container.appendChild(logo);
   }
 
   // ----- Decorations -----
@@ -187,7 +183,6 @@
 
     // Logo: pick exactly one; only that one downloads
     showCorrectLogo(isHalloween);
-    hideOtherLogo(isHalloween);
 
     if (!isHalloween) return; // no decorations out of season
 

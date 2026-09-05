@@ -22,8 +22,8 @@ tags:
 ---
 Like a boss, right as the [DSN](https://eyes.nasa.gov/dsn/dsn.html) showed a downlink from New Horizons, I tweeted,
 
-<center><blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Signal from New Horizons reads, &quot;+++ATD&quot; <a href="https://twitter.com/hashtag/plutoflyby?src=hash">#plutoflyby</a></p>&mdash; James P. Howard, II (@howardjp) <a href="https://twitter.com/howardjp/status/621120656344748033">July 15, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+<div class="text-center"><blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Signal from New Horizons reads, &quot;+++ATD&quot; <a href="https://twitter.com/hashtag/plutoflyby?src=hash">#plutoflyby</a></p>&mdash; James P. Howard, II (@howardjp) <a href="https://twitter.com/howardjp/status/621120656344748033">July 15, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
 In 2001, I worked for a company called Wavix and we were building ground terminals for uplink/downlink communications with a small satellite constellation we operated.[^small]  It connected to a local PC to provide email services over the spacelink.  This, it turns out, was the coolest job I ever had.
 

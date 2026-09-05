@@ -34,7 +34,7 @@ being a health hazard and how can we help public health officials
 respond faster.
 
 <figure><iframe
-src="//html5-player.libsyn.com/embed/episode/id/12662390/height/90/theme/custom/thumbnail/yes/direction/forward/render-playlist/no/custom-color/000000/" width="100%" allowfullscreen=""></iframe></figure>
+src="//html5-player.libsyn.com/embed/episode/id/12662390/height/90/theme/custom/thumbnail/yes/direction/forward/render-playlist/no/custom-color/000000/" style="width: 100%;" title="OR/MS Today restaurant health hazards interview" allowfullscreen></iframe></figure>
 
 After this, Ashley and I had a long and detailed discussion about
 ducks and [James Veitch](https://www.youtube.com/watch?v=f5d8pVg3Qtg).

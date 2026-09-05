@@ -29,7 +29,6 @@ group :production, :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-tagging"
   gem "stringex"
-  gem "jekyll-inline-svg"
   gem "jekyll-toc"          # Table of contents
 end
 

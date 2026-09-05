@@ -85,7 +85,9 @@ says this:
 tickets. Quick Pick works by giving you combinations of numbers
 automatically so you don't have to fill in the little bubbles.
 Powerball works as a drawing of five balls from a bin of 69 white
-balls and one red ball from a separate bin of 26.  > > The problem
+> balls and one red ball from a separate bin of 26.
+>
+> The problem
 is it's impossible to avoid getting duplicate sets of numbers, which
 don't help at all.
 

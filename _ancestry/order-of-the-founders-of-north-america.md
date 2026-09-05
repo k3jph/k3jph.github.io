@@ -134,7 +134,7 @@ Or you can [download the PDF here](/assets/docs/ancestry/OFNA-Chappell.pdf).
                 </button>
             </div>
             <div class="modal-body text-center">
-                <img id="modalImage" src="" class="img-responsive" alt="Zoomed Image">
+                <img id="modalImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" class="img-responsive" alt="Zoomed Image">
                 <p id="modalCaption" class="mt-3"></p>
                 <a id="modalLink" href="#" target="_blank" class="btn btn-primary mt-2">View Original Source</a>
             </div>

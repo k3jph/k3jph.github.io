@@ -80,7 +80,7 @@ later in 1709 included the estates of both Robert and Ann, suggesting that she
 died not long after him. My descent continues through their son, Samuel Willson
 I, whose family carried forward the Willson presence along Crosswicks Creek.
 
-_Additional memberships will be added as they are approved.__
+_Additional memberships will be added as they are approved._
 
 {% include figure.html width="12"
    image="/ancestry/NSSAC-Willson.webp" border=true

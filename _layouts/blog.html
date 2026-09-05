@@ -9,7 +9,7 @@ sitemap:
 {% for year in years %}
 <div class="title-area">
   <h2>{{ year.name }}</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35rem" /></div>
+  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
 </div>
 {% for post in year.items %}
 <div class="card card-blog card-plain">
@@ -28,11 +28,11 @@ sitemap:
       <a href="{{ post.permalink | relative_url }}" class="card-title">
         <h3>{{ post.title }}</h3>
       </a>
-      <h6 class="card-category text-info"><nobr>&bull;&nbsp;
+      <h6 class="card-category text-info">&bull;&nbsp;
         {% for tag in post.tags %}
         {% capture tag_name %}{{ tag }}{% endcapture %}
         {% assign tag_slug = tag_name | slugify %}
-        <a href="{{ '/tag/' | append: tag_slug | relative_url }}" class="card-category text-info" style="display: inline;">{{ tag_name }}</a>&nbsp;&bull;&nbsp;</nobr>
+        <span class="text-nowrap"><a href="{{ '/tag/' | append: tag_slug | relative_url }}" class="card-category text-info" style="display: inline;">{{ tag_name }}</a>&nbsp;&bull;&nbsp;</span>
         {% endfor %}
       </h6>
     </div>
@@ -41,7 +41,7 @@ sitemap:
 {% endfor %}
 {% endfor %}
 
-<div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35rem" /></div>
+<div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
 
 <div class="row">
   <div class="col-md-4 text-left">
@@ -59,7 +59,7 @@ sitemap:
     <div class="card card-blog card-plain">
     <h6 class="card-category p-3">
       {{ paginator.page }} of {{ paginator.total_pages }}
-    </span>
+    </h6>
 </div>
   </div>
   <div class="col-md-4 text-right">

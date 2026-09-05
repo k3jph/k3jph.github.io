@@ -76,7 +76,7 @@ title; we are joining a collective effort to champion the cause of environmental
 conservation and bring attention to the unique challenges faced by one of the
 Earth's most extraordinary and vulnerable ecosystems.
 
-#### <a id='Krigsvold' /> December 25, 2023
+#### December 25, 2023 {#Krigsvold}
 
 > Created [Count of Krigsvold](https://www.westarctica.wiki/index.php?title=Krigsvold_Nunataks) in the Peerage of Westarctica
 
@@ -84,7 +84,7 @@ Earth's most extraordinary and vulnerable ecosystems.
 cap="Letters Patent for the Count of Krigsvold"
 alt="Letters Patent for the Count of Krigsvold" %}
 
-#### <a id='Matikonis' /> November 29, 2023
+#### November 29, 2023 {#Matikonis}
 
 > Created [Baron of Matikonis](https://www.westarctica.wiki/index.php?title=Matikonis_Peak) in the Peerage of Westarctica
 
@@ -130,7 +130,7 @@ alt="Letters Patent for the Baron of Matikonis" %}
   </div>
 </div>
 
-### <a id='WAKTS' />Knight of the Order of the Snowflake
+### Knight of the Order of the Snowflake {#WAKTS}
 
 The class of Knight is often awarded to foreign diplomats where the class of
 Knight Commander might not be appropriate when that grade was already held by

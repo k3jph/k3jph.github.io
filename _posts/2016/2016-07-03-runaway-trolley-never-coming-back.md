@@ -72,7 +72,7 @@ agent of his own demise.   And many agree with this reasoning, as
 [studies have shown respondents are less likely to push the
 man](http://www.utilitarian.net/singer/by/200510--.pdf).
 
-These dilemmas, which are dilemmas, [unlike the Monty Hall problem](),
+These dilemmas, which are dilemmas, unlike the Monty Hall problem,
 present a different aspect of the challenge of risk assessment, and
 estimating cost.  In each case, due to the problem set up, death
 is certain, so making a decision should be straightforward.  However,

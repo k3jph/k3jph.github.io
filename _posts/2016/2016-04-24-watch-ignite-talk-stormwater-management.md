@@ -28,4 +28,4 @@ On Thursday, I had the joy of speaking at [Ignite](http://www.ignitetalks.io/) a
 
 The Ignite format, 20 slides, autoadvancing every 15 seconds, is quite challenging and it was a lot of fun to do it again.  You can check out more of Ignite Baltimore's speakers over the last few years on YouTube:
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/HVF5YL4NijI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<div class="text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/HVF5YL4NijI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

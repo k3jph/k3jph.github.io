@@ -26,4 +26,4 @@ If [latex]y^\prime = \beta_0^\ast + \beta_1^\ast x_1 + \cdots[/latex], then [lat
 -\frac{m^2\hat{y}^2}{2m^2\hat{\beta_1}} =
 -\frac{\hat{y}^2}{2\hat{\beta_1}} \text{.}" %}
 
-[^wooldridge]: Jeffrey Wooldridge, _Introductory econometrics: A modern approach,_</i> _Cengage Learning, 2012, p. 40.
+[^wooldridge]: Jeffrey Wooldridge, _Introductory econometrics: A modern approach_, Cengage Learning, 2012, p. 40.

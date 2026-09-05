@@ -32,7 +32,9 @@ phenomena and technologies have flooded the realm of public
 consciousness, providing new contexts to practice quantitative
 literacy—a constant flux that can be at once both exhilarating and
 overwhelming for those involved in teaching and creating QL courses.
-Here we seek to capture and acknowledge such flux.  > > From a
+> Here we seek to capture and acknowledge such flux.
+>
+> From a
 thematic standpoint, we have organized this collection around three
 motifs: Vision and (Re)visions, Curricula for Quantitative Literacy,
 and Quantitative Literacy in an Institutional Context. Vision and

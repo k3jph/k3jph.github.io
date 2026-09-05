@@ -65,7 +65,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll/tagging
-  - jekyll-inline-svg
   - jekyll-toc
 
 # ===============================================================

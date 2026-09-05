@@ -62,8 +62,8 @@ $(document).ready(function(){
         content_opacity = 1;
     }
 
-    $navbar = $('.navbar[color-on-scroll]');
-    scroll_distance = $navbar.attr('color-on-scroll') || 500;
+    $navbar = $('.navbar[data-color-on-scroll]');
+    scroll_distance = $navbar.attr('data-color-on-scroll') || 500;
 
     $('.google-map').each(function(){
         var lng = $(this).data('lng');

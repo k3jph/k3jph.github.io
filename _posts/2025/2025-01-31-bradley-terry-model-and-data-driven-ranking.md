@@ -100,6 +100,7 @@ package is available  to make these calculations easy in R, while a
 reimplementation in Python is pretty trivial:
 
 #### **Python Implementation**
+
 ```python
 import pandas as pd
 import numpy as np
@@ -137,6 +138,7 @@ print(ratings)
 ```
 
 #### **R Implementation**
+
 ```r
 library(BradleyTerry2)
 

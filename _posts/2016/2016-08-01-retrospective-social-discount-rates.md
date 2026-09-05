@@ -24,7 +24,7 @@ talk tomorrow.  While this is pure public economics and applicable
 to almost any benefit-cost analysis, this talk grew out of an
 analysis of flood mitigation and recovery evaluation.
 
-<iframe src='https://onedrive.live.com/embed?cid=C4DA866F3B02B780&resid=C4DA866F3B02B780%213691&authkey=AJh2oIeUxbWG8T0&em=2&wdAr=1.7777777777777777' width='610px' height='367px' frameborder='0'>This is an embedded <a target='_blank' href='https://office.com'>Microsoft Office</a> presentation, powered by <a target='_blank' href='https://office.com/webapps'>Office Online</a>.</iframe>
+<iframe src="https://onedrive.live.com/embed?cid=C4DA866F3B02B780&resid=C4DA866F3B02B780%213691&authkey=AJh2oIeUxbWG8T0&em=2&wdAr=1.7777777777777777" width="610" height="367" title="Retrospective Social Discount Rates presentation"></iframe>
 
 It's a speed presentation, meaning I get basically 5 minutes, then
 an electronic poster.  It's my first time doing this style of

@@ -43,11 +43,11 @@
       {% endif %}
 
       {% if cap %}
-        <div class="content">
-          <figcaption class="images-caption">
+        <figcaption class="images-caption">
+          <div class="content">
             {{ cap | markdownify | remove: '<p>' | remove: '</p>' }}
-          </figcaption>
-        </div>
+          </div>
+        </figcaption>
       {% endif %}
     </figure>
   </div>

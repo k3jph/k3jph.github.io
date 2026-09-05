@@ -29,11 +29,11 @@ tags:
   - write
 ---
 
-I have recovered from an old [Iomega Zip disk](http://Iomega%20Zip%20drive) a few more programs I wrote in the 1997-1998 time frame which may be of some interest:
+I have recovered from an old Iomega Zip disk a few more programs I wrote in the 1997-1998 time frame which may be of some interest:
 
 ## [daemon](http://github.com/howardjp/daemon)
 
-Daemon was originally written for FreeBSD to use the 4.4BSD library function, [daemon(3)](http://www.freebsd.org/cgi/man.cgi?query=daemon&apropos=0&sektion=0&manpath=4.4BSD+Lite2&format=html "Daemon manual page") to launch a command after disassociating itself from the controlling TTY.  I originally saw such an application on [M-Net](http://Arbornet%20/%20M-Net "http://www.arbornet.org") which ran BSD/OS 3.1 at the time.  The source was unavailable, but it was easy to reimplement.  Modern Linux implementations now include daemon(3), so it should be usable on Linux today.
+Daemon was originally written for FreeBSD to use the 4.4BSD library function, [daemon(3)](http://www.freebsd.org/cgi/man.cgi?query=daemon&apropos=0&sektion=0&manpath=4.4BSD+Lite2&format=html "Daemon manual page") to launch a command after disassociating itself from the controlling TTY.  I originally saw such an application on [M-Net](http://www.arbornet.org) which ran BSD/OS 3.1 at the time.  The source was unavailable, but it was easy to reimplement.  Modern Linux implementations now include daemon(3), so it should be usable on Linux today.
 
 ## [rpt](http://github.com/howardjp/rpt)
 

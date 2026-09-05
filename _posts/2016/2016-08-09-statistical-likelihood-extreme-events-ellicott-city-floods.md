@@ -66,7 +66,7 @@ it is not correct.  It is, in fact, 1 minus the probability of it
 not happening in the next four years.  That's not terribly intuitive,
 but it is correct.  So that is,
 
-<center>[latex]1 -.99^4 \approx 1 - 0.96059601 = 0.03940399\text{,}[/latex]</center> 
+<div class="text-center">[latex]1 -.99^4 \approx 1 - 0.96059601 = 0.03940399\text{,}[/latex]</div>
 
 which is almost,
 but not quite 0.04.  We'll make the math simpler and call it at 4%
@@ -110,7 +110,7 @@ The probability of two one-hundred year events in five years happening
 in any of these 11 CDPs is, again, one minus the probability of it
 not happening.  So that is
 
-<center> [latex] 1 - .96^{11} \approx 1 - 0.63823933055 = 0.36176066944\text{,}[/latex]</center>
+<div class="text-center"> [latex] 1 - .96^{11} \approx 1 - 0.63823933055 = 0.36176066944\text{,}[/latex]</div>
 
 just about 36%.  There's some round-off error here, and the real number is
 closer to 35%, but that's not a big deal right now.  What we learn

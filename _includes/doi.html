@@ -1,1 +1,1 @@
-<a href="https://dx.doi.org/{{ include.doi }}">{{ include.doi }}</a>
+{% assign doi_value = include.doi | strip | remove_first: 'doi:' %}<a href="https://doi.org/{{ doi_value | escape }}">doi:{{ doi_value }}</a>

@@ -24,5 +24,4 @@ A [fantastic open access](http://iopscience.iop.org/article/10.1088/1748-9326/10
 
 This is part of a growing body of literature on the distributional effects of natural disasters.  With respect to flooding, there's _[Affordability of National Flood Insurance Program Premiums](https://books.google.com/books?id=gelyCgAAQBAJ&pg=PT134&lpg=PT134&dq=%22Benefits+and+Costs+of+the+National+Flood+Insurance+Program%22&source=bl&ots=pIUVq77OKQ&sig=aNR9rBR3hp6KD5hOYY_Tf0PJf0o&hl=en&sa=X&ved=0CDQQ6AEwBGoVChMI-uK5tumSyAIVSjM-Ch1XgwdR#v=onepage&q=%22Benefits%20and%20Costs%20of%20the%20National%20Flood%20Insurance%20Program%22&f=false)_, the Massachusetts study [I blogged about in June](https://jameshoward.us/2015/06/04/wealthier-communities-pay-less-for-flood-insurance/), and my own dissertation, among others.
 
-_Image by [Don Becker / U.S. Geological Survey / Flickr](https://www.flickr.com/photos/usgeologicalsurvey/2593484853")_.
-
+_Image by [Don Becker / U.S. Geological Survey / Flickr](https://www.flickr.com/photos/usgeologicalsurvey/2593484853)._

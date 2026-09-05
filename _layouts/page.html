@@ -19,9 +19,8 @@ layout: base
         <div class="container">
             <div class="content">
                 <h1>{{ title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
-                <div class="separator separator"><img src="{{ '/assets/img/identity/kamon.svg' | relative_url }}" height="35rem" /></div>
-                <span class="card-category section-subtitle">{{ subtitle | markdownify }}</span>
-                </div>
+                <div class="separator separator"><img src="{{ '/assets/img/identity/kamon.svg' | relative_url }}" height="35" alt="" /></div>
+                <div class="card-category section-subtitle">{{ subtitle | markdownify }}</div>
             </div>
         </div>
     </div>
@@ -35,7 +34,7 @@ layout: base
                     {{ content }}
                 </div>
                 {% if page.credits %}
-                <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35rem" /></div>
+                <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
                 <div class="">{{ page.credits | markdownify }}</div>
                 {% endif %}
             </div>

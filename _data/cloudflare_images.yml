@@ -4,7 +4,10 @@ fallback_width: 800
 presets:
   default:
     widths: [400, 800, 1200, 1600, 1920]
+    sizes: "(min-width: 992px) 970px, (min-width: 768px) 750px, 100vw"
   thumbnail:
     widths: [150, 300, 600]
+    sizes: "(min-width: 992px) 33vw, 100vw"
   header:
     widths: [960, 1280, 1920]
+    sizes: "100vw"

@@ -34,10 +34,10 @@ As a root-finding algorithm, bisection takes advantage of the fact
 we _know_ the value crosses 0\. Take, for example, [latex]f(x) =
 x^2 - 1[/latex]:
 
-<center>
+<div class="text-center">
 <figure><iframe src="https://www.desmos.com/calculator/cqxqmqbeml?embed"
-width="500px" height="500px"></iframe></figure>
-</center>
+width="500" height="500" title="Graph of x squared minus one"></iframe></figure>
+</div>
 
 We can _see_ that the function crosses zero. Of course, what we see
 is irrelevant, what is important is the image tells us a story.
@@ -52,10 +52,10 @@ our solution is close enough.
 But there's a problem here. What if there are no negative values
 of the function? Take, for example, [latex]f(x) = (x - 1)^2[/latex]:
 
-<center>
+<div class="text-center">
 <figure><iframe src="https://www.desmos.com/calculator/ayhmgxigem?embed"
-width="500px" height="500px"></iframe></figure>
-</center>
+width="500" height="500" title="Graph of the square of x minus one"></iframe></figure>
+</div>
 
 We can solve this problem with [Newton's
 method](https://www.math.ubc.ca/~anstee/math104/newtonmethod.pdf). Of

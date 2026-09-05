@@ -250,7 +250,7 @@ figure {
 
   .basu-howard-flag {
     display: inline;
-    svg {
+    img {
       vertical-align: middle;
       width: 3rem;
       height: 3rem;
@@ -297,7 +297,7 @@ figure {
 
   .basu-howard-flag {
     display: inline;
-    svg {
+    img {
       vertical-align: middle;
       border: 1px #f8f8f8 solid;
       width: 3rem;

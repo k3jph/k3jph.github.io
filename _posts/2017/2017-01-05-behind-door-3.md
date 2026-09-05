@@ -32,11 +32,8 @@ represents a much more interesting problem than the comic gives it
 credit for.  You can check out my slides here:
 
 <iframe
-src='https://onedrive.live.com/embed?cid=C4DA866F3B02B780&resid=C4DA866F3B02B780%214104&authkey=AHVQNdmERbTQKdE&em=2&wdAr=1.7777777777777777'
-width='610px' height='367px' frameborder='0'>This is an embedded
-<a target='_blank' href='https://office.com'>Microsoft Office</a>
-presentation, powered by <a target='_blank'
-href='https://office.com/webapps'>Office Online</a>.</iframe><br/>
+src="https://onedrive.live.com/embed?cid=C4DA866F3B02B780&resid=C4DA866F3B02B780%214104&authkey=AHVQNdmERbTQKdE&em=2&wdAr=1.7777777777777777"
+width="610" height="367" title="Behind Door 3 presentation"></iframe><br/>
 
 Also, as an aside, this is my first presentation since going to
 work for the [Johns Hopkins University Applied Physics

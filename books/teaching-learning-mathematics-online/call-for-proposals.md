@@ -116,7 +116,7 @@ for this project. This publication is anticipated to be released
 in 2019.
 
 Proposals, chapters, and inquiries should be submitted to James P.
-Howard, II <<james.howard@jhu.edu>>. There is no template for the
+Howard, II [james.howard@jhu.edu](mailto:james.howard@jhu.edu). There is no template for the
 proposals. However, they should clearly describe the topic of the
 chapter, and list the tentative sections alongside a rough estimate
 of their lengths. Proposals should also include authors' information
@@ -157,7 +157,7 @@ authors.
 Inquiries may be forwarded electronically to:
 
 *   James P. Howard, II <[james.howard@jhu.edu](mailto:james.howard@jhu.edu)>
-*   John F. Beyers <[john.beyers@umuc.edu](john.beyers@umuc.edu)>
+*   John F. Beyers <[john.beyers@umuc.edu](mailto:john.beyers@umuc.edu)>
 
 Updates and further information available at
 [https://jameshoward.us/tlmo](https://jameshoward.us/tlmo), or [sign-up to receive

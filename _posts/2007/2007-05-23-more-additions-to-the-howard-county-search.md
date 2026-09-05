@@ -20,7 +20,7 @@ Many new additions to the [Howard County Search Engine](http://jameshoward.us/hc
 * [APL Federal Credit Union](http://aplfcu.org/)
 * [B & O Railroad Museum: Ellicott City Station](http://www.ecborail.org/)
 * [Center for Social Change](http://www.centerforsocialchange.org)
-* [Columbia Amateur Radio Association ](http://www.columbiaara.org/)
+* [Columbia Amateur Radio Association](http://www.columbiaara.org/)
 * [Columbia Business Exchange, Inc.](http://www.columbiabusinessexchange.com/)
 * [Columbia Concert Band](http://www.columbiaband.org/)
 * [Columbia Ski Club](http://www.columbiaskiclub.org)

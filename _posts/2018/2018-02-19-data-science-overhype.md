@@ -27,8 +27,8 @@ on us.
 
 I have an essay in the current issue of [Industrial
 Management](http://industrialmanagement.epubxp.com/i/935826-jan-feb-2018),
-the house journal of the [Institute of Industrial and Systems
-Engineers](), discussing these limits and warning readers of when
+the house journal of the Institute of Industrial and Systems
+Engineers, discussing these limits and warning readers of when
 they can hit them.
 
 There doesn't seem to be an open copy of the essay online.  I will

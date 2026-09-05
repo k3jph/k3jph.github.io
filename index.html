@@ -10,8 +10,6 @@ head_inject: >-
   <link rel="preload" href="/assets/img/halloween/jameshoward-arms.svg" as="image" type="image/svg+xml">
   <link rel="preload" href="/assets/img/halloween/spiderweb.svg" as="image" type="image/svg+xml">
   <link rel="preload" href="/assets/img/halloween/lightning.svg" as="image" type="image/svg+xml">
-  <link rel="preload" href="/assets/audio/thunder.mp3" as="audio" type="audio/mpeg">
-
   <!-- Halloween behavior (logo swap + cobweb + bolt + optional thunder) -->
   <script defer src="/assets/js/halloween.js"></script>
 ---
@@ -24,14 +22,13 @@ head_inject: >-
                 <!-- Horizontal Layout -->
                 <div class="row mt-5 p-5" style="display: flex; align-items: center;">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ml-5 inline-svg-coa-container">
-                        <img id="logo-default" class="img-responsive pl-5" alt="James Howard coat of arms" width="80%"
-                             data-src="/assets/img/identity/jameshoward-arms.svg" style="display:none" />
-                        <img id="logo-halloween" class="img-responsive pl-5" alt="James Howard coat of arms" width="65%"
-                             data-src="/assets/img/halloween/jameshoward-arms.svg" style="display:none" />
+                        <div id="seasonal-logo"
+                             data-default-src="/assets/img/identity/jameshoward-arms.svg"
+                             data-halloween-src="/assets/img/halloween/jameshoward-arms.svg"></div>
                         <noscript>
                             <!-- Fallback: show default logo if JS is off -->
-                            <img id="logo-default" class="img-responsive pl-5" alt="James Howard coat of arms"
-                                 data-src="/assets/img/identity/jameshoward-arms.svg" />
+                            <img class="img-responsive pl-5" alt="James Howard coat of arms"
+                                 src="/assets/img/identity/jameshoward-arms.svg" style="width: 80%;" />
                         </noscript>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mr-5"
@@ -43,7 +40,7 @@ head_inject: >-
                                  alt="James Howard wordmark" />
                             <div class="separator-container">
                                 <div class="separator separator">
-                                    <img src="{{ '/assets/img/identity/kamon.svg' | relative_url }}" height="35rem" alt="Decorative text bullet" />
+                                    <img src="{{ '/assets/img/identity/kamon.svg' | relative_url }}" height="35" alt="" />
                                 </div>
                                 <h5 class="balanced-text sans-serif">A Mathematician, a Different Kind of Mathematician, and a Statistician</h5>
                             </div>
@@ -57,7 +54,7 @@ head_inject: >-
                     <div class="col-12">
                         <div class="row">
                             <img src="/assets/img/identity/jameshoward-arms.svg"
-                                 class="img-responsive mx-auto" width="50%"
+                                 class="img-responsive mx-auto" style="width: 50%;"
                                  alt="James Howard coat of arms" />
                         </div>
                         <div class="row pt-4 mt-3">
@@ -67,7 +64,7 @@ head_inject: >-
                                  alt="James Howard wordmark" />
                             <div class="separator separator-info mt-2 mb-2">
                                 <img src="{{ '/assets/img/identity/kamon.svg' | relative_url
-                                          }}" height="35rem" alt="Decorative text bullet" />
+                                          }}" height="35" alt="" />
                             </div>
                             <h5 style="margin-top: 0px;">A Mathematician, a Different Kind of<br />Mathematician, and a Statistician</h5>
                         </div>
@@ -78,7 +75,7 @@ head_inject: >-
     </div>
 
     <div>
-        <a href="" data-scroll="true" data-id="#firstSection" class="scroll-arrow hidden-xs hidden-sm" aria-label="Read more about James Howard">
+        <a href="#firstSection" data-scroll="true" data-id="#firstSection" class="scroll-arrow hidden-xs hidden-sm" aria-label="Read more about James Howard">
             <div class="icon front-page-arrow">
                 <i class="pe-7s-angle-down-circle"></i>
             </div>
@@ -94,7 +91,7 @@ head_inject: >-
                 <h2 class="text-info">Explore My World</h2>
                 <div class="separator separator-info">
                     <img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url
-                              }}" height="35rem" alt="Decorative text bullet" />
+                              }}" height="35" alt="" />
                 </div>
             </div>
         </div>
@@ -210,7 +207,7 @@ head_inject: >-
     <div class="container">
         <div class="title-area">
             <h2 class="text-info">Most Recent Posts</h2>
-            <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35rem" alt="Decorative text bullet" /></div>
+            <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
         </div>
 
         <div id="masonry-container" class="row">
@@ -236,7 +233,7 @@ head_inject: >-
                         <a href="{{ post.permalink | relative_url }}"
                            class="card-title" aria-label="{{ post.title }}"><h3>{{ post.title }}</h3></a>
                         <p class="text-description text-gray
-                                  card-blog-excerpt">{{ post.content | markdownify | remove: "<p>" | remove: "</p>" | truncatewords: 30
+                                  card-blog-excerpt">{{ post.content | markdownify | strip_html | truncatewords: 30
                         }}</p>
                     </div>
                 </div>
@@ -266,7 +263,7 @@ head_inject: >-
                 <h2 class="text-warning">Dive Deeper into My Universe</h2>
 
                 <div class="separator separator-warning">
-                    <img src="{{ '/assets/img/identity/kamon-warning.svg' | relative_url }}" height="35rem" alt="Decorative text bullet" />
+                    <img src="{{ '/assets/img/identity/kamon-warning.svg' | relative_url }}" height="35" alt="" />
                 </div>
             </div>
             <div class="row">

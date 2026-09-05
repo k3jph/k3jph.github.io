@@ -70,7 +70,7 @@ honors, such as the Royal Order of the Star of Oceania, underlines
 ongoing efforts to celebrate and perpetuate the significance of
 Hawai'i's royal heritage in both local and international contexts.
 
-## <a id='KCRSO' />The Royal Order of the Star of Oceania 
+## The Royal Order of the Star of Oceania {#KCRSO}
 
 The [Royal Order of the Star of
 Oceania](https://uchterhous.org/knights-2/elementor-1149/hawaii/),
@@ -152,4 +152,3 @@ documents.  Below is a translation:
 > character.  In recognition of these attributes, this Diploma was 
 > expediently issued on March 17, 2024, in the district of Hilo in 
 > Hawai'i.
-

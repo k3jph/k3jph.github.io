@@ -65,7 +65,7 @@ The schematics state that the following are labels equivalent:
 * SW2 = USR\_BTN2 = DISP0_DAT17 = GPIO5[11]
 * SW3 = USR\_BTN3 = DISP0_DAT4 = GPIO4[25]
 
-The other buttons are hardwired to reset and on/off so the don't matter much from this perspective.  Of course, those GPIO identifiers are still insufficient to determine what pin number Linux uses to identify the port.  Given an label of the form GPIOm[n], the pin will be internally identified as number (m - 1) * 32 + n.  So, for instance, D1 is GPIO pin (4 - 1) * 32 + 27 = 123.
+The other buttons are hardwired to reset and on/off so the don't matter much from this perspective.  Of course, those GPIO identifiers are still insufficient to determine what pin number Linux uses to identify the port.  Given an label of the form GPIOm[n], the pin will be internally identified as number `(m - 1) * 32 + n`.  So, for instance, D1 is GPIO pin `(4 - 1) * 32 + 27 = 123`.
 
 So, the final mapping is:
 

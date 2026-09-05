@@ -64,7 +64,7 @@ u <- sin(x * pi * 2)
 u[11:21] <- 0
 tdelta <- .02
 n <- 40
-z <- wave(u, speed, xdelta, tdelta, n)</pre>
+z <- wave(u, speed, xdelta, tdelta, n)
 {% endhighlight %}
 
 The image below comes from animating the output.

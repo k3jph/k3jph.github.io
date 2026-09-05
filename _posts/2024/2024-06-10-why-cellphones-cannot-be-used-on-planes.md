@@ -40,7 +40,8 @@ signals remain a concern.
 1. **Range of a Cellular Device:**
    - **Typical Range:** A cell phone typically has a transmission
    range of 1-2 kilometers in urban areas, extending up to 10-15
-   kilometers in rural areas under ideal conditions.  - **Ideal
+   kilometers in rural areas under ideal conditions.
+   - **Ideal
    Conditions:** With line-of-sight and no obstructions, a cell
    phone can potentially transmit up to 30-50 kilometers (18-31
    miles).
@@ -48,7 +49,8 @@ signals remain a concern.
 2. **Range of a Cellular Tower:**
    - **Typical Range:** Cell towers have a range of 1-2 kilometers
    in urban areas, extending up to 30-50 kilometers (18-31 miles)
-   in rural areas.  - **Ideal Conditions:** Under perfect line-of-sight
+   in rural areas.
+   - **Ideal Conditions:** Under perfect line-of-sight
    conditions, cell towers can potentially transmit up to 70-100
    kilometers (43-62 miles).
 
@@ -174,17 +176,19 @@ cellular networks. The regulation, [specifically **47 CFR §
 states:
 
 > **47 CFR § 22.925 - Prohibition on airborne operation of cellular
-telephones** > > Cellular telephones installed in or carried aboard
-airplanes, balloons, or any other type of aircraft must not be
-operated while such aircraft are airborne (not touching the ground).
-When any aircraft leaves the ground, all cellular telephones on
-board that aircraft must be turned off. The following notice must
-be posted on or near each cellular telephone installed in any
-aircraft: > > “The use of cellular telephones while this aircraft
-is airborne is prohibited by FCC rules, and the violation of this
-rule could result in suspension of service and/or a fine. The use
-of cellular telephones while this aircraft is on the ground is
-subject to FAA regulations.”
+> telephones**
+>
+> Cellular telephones installed in or carried aboard airplanes,
+> balloons, or any other type of aircraft must not be operated while
+> such aircraft are airborne (not touching the ground). When any
+> aircraft leaves the ground, all cellular telephones on board that
+> aircraft must be turned off. The following notice must be posted on
+> or near each cellular telephone installed in any aircraft:
+>
+> “The use of cellular telephones while this aircraft is airborne is
+> prohibited by FCC rules, and the violation of this rule could result
+> in suspension of service and/or a fine. The use of cellular telephones
+> while this aircraft is on the ground is subject to FAA regulations.”
 
 This regulation helps ensure that network performance is not
 compromised, a concern that applies to various types of aircraft,

@@ -25,8 +25,8 @@ in the MSA context.  As a result, it should look like a research
 methods course in just about any social science curriculum.
 
 One of the more regrettable things is that I am not taking any big
-risks in this course.  When [teaching public affairs](/teaching
-public affairs), I got to develop some innovative methods and pushed
+risks in this course.  When [teaching public affairs](/teaching), I got
+to develop some innovative methods and pushed
 hard to create an inverted classroom format.  However, the class
 format for MSA 600 is Friday evening followed by a full-day Saturday
 session, every two weeks for five weeks.  I am not sure how to do

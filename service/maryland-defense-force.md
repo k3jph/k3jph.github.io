@@ -122,7 +122,7 @@ presence in times of need.
 </div>
 </div>
 
-### <a id='SMEMS' />Senior Military Emergency Management Specialist
+### Senior Military Emergency Management Specialist {#SMEMS}
 
 Members of the U.S. uniformed services and state guards increasingly
 have been mobilized to respond to natural and man-made disasters
@@ -192,7 +192,7 @@ States](https://sgaus.org/) and are authorized for wear by MDDF members.
   </div>
 </div>
 
-### <a id='TAGSRR' />The Adjutant General's Special Recognition Ribbon
+### The Adjutant General's Special Recognition Ribbon {#TAGSRR}
 
 The Adjutant General's Special Recognition Ribbon is awarded to
 recognize an agency, organization, or entity that is not a numbered
@@ -204,7 +204,7 @@ the mission.
 
 > For outstanding unit performance in support of the COVID-19 response.
 
-### <a id='MDESR' />Maryland Emergency Service Ribbon
+### Maryland Emergency Service Ribbon {#MDESR}
 
 The Maryland Emergency Service Ribbon is awarded for being mobilized
 by the Governor of Maryland to support a declared state emergency,
@@ -215,7 +215,7 @@ crisis such as a natural disaster or civil unrest.
 
 >  Operation Steadfast Guardian--March 15, 2020 to June 21, 2020
 
-### <a id='MDSVCR' />State of Maryland State Service Medal
+### State of Maryland State Service Medal {#MDSVCR}
 
 The State of Maryland State Service Medal is awarded to Maryland
 Military Department service members who have completed five good
@@ -225,7 +225,7 @@ Guard, Maryland Air National Guard, or Maryland Defense Force.
 
 The addition of two bronze botonees is for fifteen years of service.
 
-### <a id='MDDFMSR' />Maryland Defense Force Meritorious Service Ribbon
+### Maryland Defense Force Meritorious Service Ribbon {#MDDFMSR}
 
 The Maryland Defense Force Meritorious Service Ribbon is the highest
 MDDF award and is presented to any active member of the MDDF who
@@ -243,7 +243,7 @@ responsibility.
 > vaccination clinics from January to June 2021 resulted in 8285 shots
 > being given during Operation Steadfast Guardian II.
 
-### <a id='MDDFCR' />Maryland Defense Force Commendation Ribbon
+### Maryland Defense Force Commendation Ribbon {#MDDFCR}
 
 Recognition of outstanding acts of achievement or service that has
 clearly placed the individual far above their peer or superior
@@ -256,7 +256,7 @@ recognition of the individual's achievement.
 > For service, while on State Active Duty, in support of Operation Steadfast
 > Guardian during the period of March 15, 2020, to June 21, 2020.
 
-### <a id='MDDFHSR' />Maryland Defense Force Humanitarian Service Ribbon
+### Maryland Defense Force Humanitarian Service Ribbon {#MDDFHSR}
 
 The Maryland Defense Force Humanitarian Service Ribbon is presented to
 any active member of the MDDF who, while under orders and in the opinion
@@ -269,7 +269,7 @@ Military Department.
 
 > For supporting the MDDF's participation in Operation Steadfast Guardian II.
 
-### <a id='MDDFACAR' />Maryland Defense Force Aid to Civil Authority Ribbon
+### Maryland Defense Force Aid to Civil Authority Ribbon {#MDDFACAR}
 
 The Maryland Defense Force Aid to Civil Authority Ribbon is awarded to MDDF
 members for being mobilized by the Commanding General, MDDF, to support a
@@ -279,7 +279,7 @@ domestic emergency, crisis, or other missions as deemed appropriate.
 
 > For supporting the MDDF's participation in Operation Steadfast Guardian II.
 
-### <a id='MDDFCERTR' />Maryland Defense Force Community Emergency Response Team Ribbon
+### Maryland Defense Force Community Emergency Response Team Ribbon {#MDDFCERTR}
 
 The Maryland Defense Force Community Emergency Response Team Ribbon
 will be awarded upon a MDDF member's successful completion of an
@@ -287,7 +287,7 @@ accredited local, state, or federal government sponsored CERT
 training program. The CERT course or program must also be certified
 by the MDDF-D5/7.
 
-### <a id='MDDFPDR' />Maryland Defense Force Professional Development Ribbon
+### Maryland Defense Force Professional Development Ribbon {#MDDFPDR}
 
 The Maryland Defense Force Professional Development Ribbon is awarded
 to encourage professional growth within the Maryland Defense Force.
@@ -297,7 +297,7 @@ Maryland Defense Force.
 
 I have received this award three times.
 
-### <a id='MDDFBTR' />Maryland Defense Force Basic Training Ribbon
+### Maryland Defense Force Basic Training Ribbon {#MDDFBTR}
 
 The Maryland Defense Force Basic Training Ribbon is awarded to
 recognize the successful completion of the approved MDDF Basic
@@ -310,7 +310,7 @@ entire curriculum was revised into a more involved process called
 "Initial Entry Training" (IET) and this ribbon was superseded with
 one for the new IET process.
 
-### <a id='SGAUSPDA' />State Guard Association of United States Professional Development Award
+### State Guard Association of United States Professional Development Award {#SGAUSPDA}
 
 The State Guard Association of United States Professional Development
 Award is awarded to active SGAUS members who complete certain
@@ -359,7 +359,7 @@ United States and is authorized for wear by MDDF members.
   </div>
 </div>
 
-### <a id='SGAUSSUC' />State Guard Association of United States Superior Unit Citation
+### State Guard Association of United States Superior Unit Citation {#SGAUSSUC}
 
 The Superior Unit Citation may be awarded to SGAUS members in a
 state guard/defense force unit that performed outstanding service
@@ -423,7 +423,7 @@ of the Maryland Defense Force and the Maryland Military Department.
   </div>
 </div>
 
-### <a id='PVSA' />President's Volunteer Service Award
+### President's Volunteer Service Award {#PVSA}
 
 The President's Volunteer Service Award (PVSA) is a notable honor
 that celebrates individuals who have made remarkable contributions
@@ -450,7 +450,7 @@ authorized for wear by MDDF members.
 
 >  For calendar year 2021, bronze
 
-### <a id='CHZTM1' />Schweizerischer Zweitagemarsch
+### Schweizerischer Zweitagemarsch {#CHZTM1}
 
 The [Schweizerischer Zweitagemarsch](https://2tama.ch/), 
 also known as the Swiss Two Day
@@ -474,7 +474,7 @@ I joined up and walked with the event.
 The medal is awarded by Der Verein Schweizerischer Zweitagemarsch 
 and is not authorized for wear by MDDF members.
 
-## <a id='DatesOfRank' />Dates of Rank
+## Dates of Rank {#DatesOfRank}
 
 <table class="table">
   <thead>
@@ -499,7 +499,7 @@ and is not authorized for wear by MDDF members.
   </tbody>
 </table>
 
-## <a id='MyCommission' />My Commission
+## My Commission {#MyCommission}
 
 {% include figure.html width="12"
    image="/service/jhoward-mddf-commission.webp" 

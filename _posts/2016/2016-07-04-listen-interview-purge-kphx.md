@@ -42,4 +42,5 @@ Listen here:
 
 <figure class="wp-block-audio">
 <audio controls="" src="/assets/audio/Breakthrough-Entertainment-2016-07-02-3.mp3"></audio>
-<figcaption>The Ethics of _The Purge_ on KPHX in Phoenix</figcaption>
+<figcaption>The Ethics of <em>The Purge</em> on KPHX in Phoenix</figcaption>
+</figure>

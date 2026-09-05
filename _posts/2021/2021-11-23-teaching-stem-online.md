@@ -23,9 +23,9 @@ teachers not experienced with teaching online, this was a sudden
 and drastic change.  Prof Sedaghatjou brought a bunch of people
 together to host STEM teaching seminars which are still on YouTube:
 
-<center>
+<div class="text-center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL4Bqx8GSZYa6e2MbOM7yB6uW1Ap-mcrRf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+</div>
 
 Based on these experiences, we wrote the article "Teaching STEM
 online at the tertiary level during the COVID-19 pandemic" which

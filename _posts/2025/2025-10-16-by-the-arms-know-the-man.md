@@ -18,7 +18,7 @@ tags:
 
 I am pleased to say that I have recently been accepted into the [Order of
 Americans of Armorial Ancestry
-(OAAA)]([https://armorialorg.com/](https://armorialorg.com/)). For those
+(OAAA)](https://armorialorg.com/). For those
 unfamiliar, this is a lineage society devoted to Americans who can demonstrate
 descent from an ancestor who bore a coat of arms under European heraldic law.
 That may sound niche, and it is, but it is also one of the most intellectually
@@ -50,9 +50,9 @@ waiting to be claimed by anyone who happens to share a last name with the
 original bearer. Heraldic arms are granted to individuals, not lineages, OAAA
 and their use is governed by systems of entitlement. In England, that means a
 grant or confirmation by the [College of
-Arms]([https://www.college-of-arms.gov.uk/](https://www.college-of-arms.gov.uk/));
+Arms](https://www.college-of-arms.gov.uk/);
 in Scotland, a matriculation through the [Court of the Lord
-Lyon]([https://courtofthelordlyon.scot/](https://courtofthelordlyon.scot/));
+Lyon](https://courtofthelordlyon.scot/);
 elsewhere, a host of other national authorities maintain or maintained their own
 rules.
 
@@ -66,7 +66,7 @@ life intersects their own, generation after generation, without a break.
 
 This is more than a theoretical point. My surname is Howard, and the Howard
 arms, most famously those of the [Dukes of
-Norfolk]([https://www.arundelcastle.org/role-of-earl-marshal/](https://www.arundelcastle.org/role-of-earl-marshal/)),
+Norfolk](https://www.arundelcastle.org/role-of-earl-marshal/),
 are among the best-known in English heraldry. But I cannot, as of yet, prove a
 line of descent that would entitle me to bear them. To use those arms without
 that proof would not be a harmless expression of heritage. It would be, in
@@ -111,7 +111,7 @@ symbolically, in honor.
 
 There is a seriousness to it. Applications are vetted, pedigrees scrutinized,
 and heraldic entitlements evaluated with care. This is not [costume drama for
-antiquarians,]([https://www.sca.org/](https://www.sca.org/)) nor is it a club
+antiquarians,](https://www.sca.org/) nor is it a club
 for those content to misread clip art. Many members of the Order are students of
 heraldry in the technical sense: they understand blazon as a formal language,
 recognize the rules of marshalling, and can speak fluently about the
@@ -136,7 +136,7 @@ formidable reputation, a negotiator with Native nations during some of the most
 fraught years of colonial conflict, and a political figure whose legacy is only
 now beginning to receive the attention it deserves. His legal work was grounded
 in principle rather than expediency, and his diplomacy during [King Philip's
-War]([https://dhprojects.bc.edu/s/worldsatwar/page/causes-king-philips-war](https://dhprojects.bc.edu/s/worldsatwar/page/causes-king-philips-war))
+War](https://dhprojects.bc.edu/s/worldsatwar/page/causes-king-philips-war)
 helped secure the release of captives when cooler heads were in short supply. He
 was, by the standards of his age or any other, impressive.
 

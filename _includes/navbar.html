@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
+<nav class="navbar navbar-default navbar-transparent navbar-fixed-top" data-color-on-scroll="200">
     <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
     <div class="container">
         <div class="navbar-header">
@@ -9,7 +9,7 @@
                 <span class="icon-bar bar3"></span>
             </button>
             <a href="{{ site.url | relative_url }}" class="navbar-brand">
-                {% svg '/assets/img/identity/jameshoward-shield.svg' alt="James Howard escutcheon and wordmark" %}
+                <img src="{{ '/assets/img/identity/jameshoward-shield.svg' | relative_url }}" alt="James Howard escutcheon and wordmark">
             </a>
         </div>
         <div class="collapse navbar-collapse">
@@ -32,7 +32,6 @@
                 </li>
                 {% endunless %}
                 {% endfor %}
-                </li>
                 <li class="dropdown">
                     <form action="/search" method="get">
                         <div class="form-group">

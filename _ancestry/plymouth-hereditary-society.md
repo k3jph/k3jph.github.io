@@ -24,7 +24,7 @@ qualifying ancestor, is among the recognized Colony towns.
 
 ## Phebe Lovell
 
-[Phebe Lovell]([[Lowell-272|Phoebe (Lowell) Cook (1666-abt.1717)]]), also found
+[Phebe Lovell](https://www.wikitree.com/wiki/Lowell-272), also found
 in records as Lowell, Lovewell, or Loven, was born on 25 December 1666 in
 Rehoboth, Bristol County, Plymouth Colony. Her birth appears in the published
 _Vital Records of Rehoboth, 1642–1896_, anchoring her identity within one of the

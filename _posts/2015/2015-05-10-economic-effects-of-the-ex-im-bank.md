@@ -63,6 +63,6 @@ The peak value, in 2012, is the Ex-Im Bank at 0.22% of GDP. If GDP shifted by le
 
 From a benefit-cost perspective, other important questions come up.  The Ex-Im Bank does return a profit, and that is good.  That profit goes straight to the Treasury and offsets other government funding sources such as taxes and borrowing.  Also, it is likely the competition Delta worries about is healthier for the economy.
 
-A complete benefit-cost analysis would probably benefit policymakers. [CBO did one](http://www.cbo.gov/sites/default/files/1981\_03\_export.pdf) in 1981, and it could certainly stand an update. I might write this up given the chance.
+A complete benefit-cost analysis would probably benefit policymakers. [CBO did one](http://www.cbo.gov/sites/default/files/1981_03_export.pdf) in 1981, and it could certainly stand an update. I might write this up given the chance.
 
 _Image by [Glyn Lowe](https://www.flickr.com/photos/glynlowe/10039742285/)._

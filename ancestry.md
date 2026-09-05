@@ -65,7 +65,7 @@ substantial genealogical proof, typically reviewed against established
 standards, and situates each lineage within a broader historical and regional
 context.
 
-<div id="societies-table" class="table-responsive">
+<div class="societies-table table-responsive">
   <div>
     <table class="table align-items-center">
       <thead class="thead-light">
@@ -145,7 +145,7 @@ settlement within a defined locality. While they often require rigorous
 genealogical documentation, their purpose is to record and commemorate
 rootedness in a place rather than to constitute a continuing membership society.
 
-<div id="societies-table" class="table-responsive">
+<div class="societies-table table-responsive">
   <div>
     <table class="table align-items-center">
       <thead class="thead-light">
@@ -225,7 +225,7 @@ descendants rather than adjudicating historical qualification. Their value lies
 in the accumulation and sharing of family-specific knowledge, sources, and
 narrative across generations.
 
-<div id="societies-table" class="table-responsive">
+<div class="societies-table table-responsive">
   <div>
     <table class="table align-items-center">
       <thead class="thead-light">
@@ -309,7 +309,7 @@ institution itself would function with or without that category. The historical
 weight here rests not on the qualifying ancestor alone but on the unbroken
 continuity of the company from its founding to the present.
 
-<div id="societies-table" class="table-responsive">
+<div class="societies-table table-responsive">
   <div>
     <table class="table align-items-center">
       <thead class="thead-light">

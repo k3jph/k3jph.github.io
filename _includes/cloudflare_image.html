@@ -10,8 +10,8 @@
      {% if jekyll.environment == "production" and transformable %}
      src="{{ image_source | cloudflare_image_url: fallback_width, quality }}"
      srcset="{% for width in preset.widths %}{{ image_source | cloudflare_image_url: width, quality }} {{ width }}w{% unless forloop.last %}, {% endunless %}{% endfor %}"
+     sizes="{{ include.sizes | default: preset.sizes | default: '100vw' }}"
      {% else %}
      src="{{ image_source | relative_url }}"
      {% endif %}
-     {% if include.sizes %}sizes="{{ include.sizes }}"{% endif %}
      {% if include.loading %}loading="{{ include.loading }}"{% endif %}>

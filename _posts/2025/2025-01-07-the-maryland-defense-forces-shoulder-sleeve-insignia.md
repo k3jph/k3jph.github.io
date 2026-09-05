@@ -19,7 +19,7 @@ The [Maryland Defense Force (MDDF)](https://military.maryland.gov/mddf/)
 has long been a quiet but critical part of Maryland's military heritage.
 As a state defense force, it supports the Maryland National Guard and
 serves the people of Maryland in times of need. Its members wear a
-distinctive [shoulder sleeve insignia (SSI)]() that is both visually
+distinctive shoulder sleeve insignia (SSI) that is both visually
 striking and deeply symbolic.
 
 This insignia raises a fascinating questions about the connection to

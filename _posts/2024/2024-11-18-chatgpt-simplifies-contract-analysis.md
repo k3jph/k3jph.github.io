@@ -184,7 +184,7 @@ it effectively into workflows.
 ### Challenges
 
 ChatGPT excels at identifying patterns and extracting information, but it may
-struggle with [poorly worded or highly ambiguous clauses](). For instance, a vague
+struggle with poorly worded or highly ambiguous clauses. For instance, a vague
 non-compete clause or a convoluted liability section might require deeper
 contextual understanding that goes beyond what the AI can interpret.
 Additionally, ChatGPT relies on the quality of its training data, meaning it may

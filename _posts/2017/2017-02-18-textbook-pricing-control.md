@@ -78,8 +78,9 @@ The kicker, of course, is that I said this again the first night
 of class.  Most students, not noticing the email, had gone ahead
 and paid full freight.
 
-[^textbook]:  There's a credible argument about public finance and health
-care, but that is also still in flux.
+[^text]: There's a credible argument about public finance and health
+    care, but that is also still in flux.
+
 [^costs]: Tuition and fees for three MPA credits in 2015-2016
 
 _Image by [wohnai /

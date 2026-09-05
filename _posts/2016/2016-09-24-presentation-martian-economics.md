@@ -22,4 +22,4 @@ tags:
 ---
 To be delivered this afternoon at the 19th Mars Society Convention!
 
-<iframe src='https://onedrive.live.com/embed?cid=C4DA866F3B02B780&resid=C4DA866F3B02B780%213853&authkey=AGnrmd8SPYntwbo&em=2&wdAr=1.7777777777777777' width='962px' height='565px' frameborder='0'>This is an embedded <a target='_blank' href='https://office.com'>Microsoft Office</a> presentation, powered by <a target='_blank' href='https://office.com/webapps'>Office Online</a>.</iframe>
+<iframe src="https://onedrive.live.com/embed?cid=C4DA866F3B02B780&resid=C4DA866F3B02B780%213853&authkey=AGnrmd8SPYntwbo&em=2&wdAr=1.7777777777777777" width="962" height="565" title="Martian Economics presentation"></iframe>

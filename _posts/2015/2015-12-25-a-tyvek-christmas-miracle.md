@@ -28,10 +28,10 @@ Obviously, I still have the rest of the roll.  We've found it is useful for all 
 
 We've used it to protect the table during massive cookie baking exercises this Christmas:
 
-<center>
+<div class="text-center">
   <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Thanks to Dupont Tyvek for supporting a Christmas baking miracle. <a href="https://twitter.com/DuPont_News">@DuPont_News</a> <a href="https://twitter.com/TyvekProtect">@TyvekProtect</a> <a href="https://t.co/mq4BHZG9ia">pic.twitter.com/mq4BHZG9ia</a></p>&mdash; James P. Howard, II (@howardjp) <a href="https://twitter.com/howardjp/status/676101434409132033">December 13, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</center>
+</div>
 
 Finally, we used it yesterday to protect the floor for painting.  
 

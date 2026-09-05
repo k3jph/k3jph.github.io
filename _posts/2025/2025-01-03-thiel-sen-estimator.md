@@ -137,6 +137,7 @@ then selects the median slope, effectively ignoring the outlier.
 Here is how to implement the Theil-Sen Estimator in both R and Python:
 
 ### Example in R
+
 ```R
 # Load necessary library
 library(mblm)
@@ -153,6 +154,7 @@ summary(result)
 ```
 
 ### Example in Python
+
 ```python
 # Import necessary libraries
 from sklearn.linear_model import TheilSenRegressor

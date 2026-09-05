@@ -94,7 +94,9 @@ writes how traditional home-based crafts led her to electrical
 engineering](https://www.ecnmag.com/blog/2016/04/i-became-engineer-because-sewing-machine):
 
 > We started with hand sewing and graduated to using my mom's sewing
-machine.  > > It was electric when I got to use the machine. Wow!
+> machine.
+>
+> It was electric when I got to use the machine. Wow!
 A device that could reduce the time it took to make a skirt from
 about a week -- after you already messed up and started over about
 five times -- to an hour. The concept that an electric machine that

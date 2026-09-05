@@ -38,5 +38,6 @@ Board, and Board of Appeals.  This would expand citizen involvement
 by making information readily available.
 
 [^carson]: Larry Carson, "8 Losing Gtv Jobs Look Back as They Also
-Look Forward," _The Sun (Baltimore)_, January 23, 2008.
+    Look Forward," _The Sun (Baltimore)_, January 23, 2008.
+
 [^moco]: Montgomery County, Maryland, [County Cable Montgomery](http://www.montgomerycountymd.gov/apps/CABLE/site/index.cfm)

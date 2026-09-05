@@ -79,13 +79,12 @@ the [2019 xR Symposium](https://www.jhuapl.edu/xR19/), hosted at
 APL back in July. Also, I need to say, I just had an idea. The
 development team really made this happen, and they were great:
 
-*   [William C.
-Woodcock](https://53beersontap.typepad.com/forward_maryland/) *
-Arthur O. Tucker, IV *   [Christopher D.
-Stiles](https://www.linkedin.com/in/christopher-stiles-684284114)
-*   James L. Dean *   [Michael P.
-Boyle](https://ep.jhu.edu/about-us/faculty-directory/54-michael-boyle) *
-Stephen A. Bailey
+* [William C. Woodcock](https://53beersontap.typepad.com/forward_maryland/)
+* Arthur O. Tucker, IV
+* [Christopher D. Stiles](https://www.linkedin.com/in/christopher-stiles-684284114)
+* James L. Dean
+* [Michael P. Boyle](https://ep.jhu.edu/about-us/faculty-directory/54-michael-boyle)
+* Stephen A. Bailey
 
 I should get links for all of them! Finally, you can read more about
 the program and the award on APL's website:

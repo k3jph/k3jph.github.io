@@ -20,7 +20,7 @@ zoning, planning, permitting, and all the associated facets of
 trying to build something new. There are many different boards,
 departments, and decision makers in most local governments that
 handle this. For an academic treatment of this, [_Implementation_
-by Jeffrey L. Pressman and Aaron Wildavsky](https://www.amazon.com/dp/0520053311") 
+by Jeffrey L. Pressman and Aaron Wildavsky](https://www.amazon.com/dp/0520053311)
 describes this in detail.
 
 In Howard County, we have several different boards. But the most

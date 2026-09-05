@@ -269,7 +269,7 @@ providing stability to England.
      <div class="row mb-2">
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Crowned_Fleur_de_lys_(Tudor_Crown).svg" alt="Crowned Fleur-de-lys" />
-            <figcaption class="images-caption">Crowned <emph>Fleur-de-lys</emph></figcaption>
+            <figcaption class="images-caption">Crowned <em>Fleur-de-lys</em></figcaption>
         </div>
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Crowned_Harp_(Tudor_Crown).svg" alt="Crowned Harp" />
