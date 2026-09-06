@@ -76,7 +76,7 @@ title; we are joining a collective effort to champion the cause of environmental
 conservation and bring attention to the unique challenges faced by one of the
 Earth's most extraordinary and vulnerable ecosystems.
 
-#### December 25, 2023 {#Krigsvold}
+### December 25, 2023 {#Krigsvold}
 
 > Created [Count of Krigsvold](https://www.westarctica.wiki/index.php?title=Krigsvold_Nunataks) in the Peerage of Westarctica
 

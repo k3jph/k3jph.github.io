@@ -83,7 +83,7 @@ including:
 - [Barzilla Bunnell](/ancestry/first-families-of-ohio) (1807-1891) of White
   County, Indiana
 - Rebecca Elizabeth Bunnell (1835-1913), whose line continued through the
-  [Williams](ancestry/national-society-descendants-of-american-railroad-workers)
+  [Williams](/ancestry/national-society-descendants-of-american-railroad-workers/)
   and Howard families
 
 These descendants carried forward Susanna's legacy, quietly but powerfully

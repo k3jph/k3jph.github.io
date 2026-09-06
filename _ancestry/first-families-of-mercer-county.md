@@ -42,7 +42,7 @@ community.
 Their daughter, [Eunice Marcella Burch
 (1855–1909)](https://www.wikitree.com/wiki/Burch-6263), was born in Mercer
 County, Ohio. She [married William Rees (1834–1886) and together they raised a
-family in nearby Shelby County](/ancestry/ogs/sbo). Eunice remained closely tied
+family in nearby Shelby County](/ancestry/settlers-and-builders-of-ohio/). Eunice remained closely tied
 to her Mercer County roots, with many of her relatives continuing to live in the
 area.
 

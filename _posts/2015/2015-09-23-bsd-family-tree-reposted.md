@@ -21,7 +21,7 @@ tags:
   - software studies
   - systems science
 ---
-I needed to cite (informally, in a Facebook conversation) a footnote I had written 15-16 years ago in DaemonNews, an old publication dedicated to the [BSD family](https://svnweb.freebsd.org/base/head/share/misc/bsd-family-tree) of operating systems.  DN is no longer available, it seems. And that's frustrating, because the article I had written, ["The BSD Family Tree"](/archive/the-bsd-family-tree/) is actually a pretty good resource on how the BSD-derived systems were interrelated.  So I have put a copy up for anyone interested.  
+I needed to cite (informally, in a Facebook conversation) a footnote I had written 15-16 years ago in DaemonNews, an old publication dedicated to the [BSD family](https://svnweb.freebsd.org/base/head/share/misc/bsd-family-tree) of operating systems.  DN is no longer available, it seems. And that's frustrating, because the article I had written, "The BSD Family Tree," is actually a pretty good resource on how the BSD-derived systems were interrelated.  So I have put a copy up for anyone interested.
 
 Also, it turns out the footnote didn't say what I remembered it saying.  So what I needed it to say was,
 

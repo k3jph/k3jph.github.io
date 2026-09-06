@@ -45,6 +45,23 @@ task :check do
   sh_with_env("bundle exec jekyll doctor")
 end
 
+desc "Validate internal links, fragments, and local resources in _site"
+task :validate_links do
+  sh_with_env("bundle exec ruby _scripts/validate_links.rb", "production")
+end
+
+desc "Validate generated HTML conformance in _site"
+task :validate_html do
+  sh_with_env("bundle exec ruby _scripts/validate_html.rb", "production")
+end
+
+desc "Build the production site and run all blocking validation"
+task :validate do
+  sh_with_env("bundle exec jekyll build --config _config.yml", "production")
+  Rake::Task[:validate_links].invoke
+  Rake::Task[:validate_html].invoke
+end
+
 desc "Show Ruby, Bundler, and Jekyll versions"
 task :env do
   puts "\n== Environment Info =="

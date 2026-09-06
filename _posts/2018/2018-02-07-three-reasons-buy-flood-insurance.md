@@ -15,7 +15,7 @@ tags:
   - news
   - press
 ---
-[Holly Johnson of _The Simple Dollar_](three-reasons-buy-flood-insurance)
+[Holly Johnson of _The Simple Dollar_](/2018/02/07/three-reasons-buy-flood-insurance/)
 has an article on why should buy flood insurance:
 
 {% include iframely.html url="https://www.thesimpledollar.com/three-reasons-everyone-should-consider-buying-flood-insurance/" %}
@@ -28,4 +28,3 @@ increased the cost of flood insurance for many along a key corridor.
 Also, I am not sure why, but Johnson says I am an insurance agent.
 I am not; I am not here to sell anything but books.  And this is
 from a month ago and I forgot to post it.
-

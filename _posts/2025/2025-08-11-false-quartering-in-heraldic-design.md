@@ -137,21 +137,21 @@ uses only four.
       <div class="row mb-2">
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-edward-iii.svg" alt="France quartering England" />
-            <figcaption class="images-caption">France quartering England</figcaption>
+            <div class="images-caption">France quartering England</div>
         </div>
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-victoria-england.svg" alt="Modern British arms, outside of Scotland" />
-            <figcaption class="images-caption">Modern British, outside Scotland</figcaption>
+            <div class="images-caption">Modern British, outside Scotland</div>
         </div>
       </div>
      <div class="row mb-2">
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2025/false-quartering-in-heraldic-design/milan-arms.svg" alt="Arms of Louis XII as Duke of Milan" />
-            <figcaption class="images-caption">Arms of Louis XII as Duke of Milan</figcaption>
+            <div class="images-caption">Arms of Louis XII as Duke of Milan</div>
         </div>
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2025/false-quartering-in-heraldic-design/castile-and-leon-arms.svg" alt="Arms of Castile quartering León" />
-            <figcaption class="images-caption">Arms of Castile quartering León</figcaption>
+            <div class="images-caption">Arms of Castile quartering León</div>
         </div>
       </div>
     </figure>

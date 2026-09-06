@@ -43,7 +43,7 @@ design one, and people do.
       </figure>
     </div>
   </div>
-  <h3>The Check</h3>
+  <h2 class="h3">The Check</h2>
 <p>Tartan does not have to be complex. The most stripped-down example is the classic check—a pattern built from just two colors and no symmetry beyond simple repetition.</p>
 <p>Consider this sett: <code>K100 W100</code>. That is 100 threads of black (K for key, the traditional color code for black), followed by 100 threads of white. The same sequence is used in both warp and weft. The result is a bold grid: black squares where black crosses black, white where white crosses white, and soft grey at the intersections.
 </p>

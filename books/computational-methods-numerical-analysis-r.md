@@ -50,7 +50,7 @@ programming, as is required in, for instance, Java.
 
 ## Errata
 
-*   [April 3, 2019](/assets/files/CMNA-Errata-20190403.pdf)
+*   [April 3, 2019](/assets/docs/CMNA-Errata-20190403.pdf)
 
 ## Software
 
@@ -78,4 +78,3 @@ devtools::install_github("k3jph/cmna-pkg", ref = "develop")
 1. James P. Howard, II, _Computational Methods for Numerical Analysis with R_, ser. Numerical Analysis and Scientific Computing. New York: Chapman and Hall/CRC, 2017.
 
 {% include relatedposts.html tag="CMNA" %}
-

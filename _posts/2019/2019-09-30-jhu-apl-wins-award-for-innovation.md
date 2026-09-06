@@ -69,7 +69,7 @@ creating virtual reality (VR) walkthroughs and creating dynamic
 displays of how the internal aspects of the building may be configured.
 You can see a video from "inside" the heads-up display here:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0"><h4><a href="https://youtu.be/41avYFu4j3U">Augmented Reality / B201 Example</a></h4><p>After a disaster, buildings that once stood are gone and nothing more than debris remains. Tornados, floods, explosions, and other mass casualty events leave...</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0"><p class="h4"><a href="https://youtu.be/41avYFu4j3U">Augmented Reality / B201 Example</a></p><p>After a disaster, buildings that once stood are gone and nothing more than debris remains. Tornados, floods, explosions, and other mass casualty events leave...</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 This is really awesome stuff we'll have a forthcoming article in
@@ -89,7 +89,7 @@ development team really made this happen, and they were great:
 I should get links for all of them! Finally, you can read more about
 the program and the award on APL's website:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-type="article-full"><h4><a href="https://www.jhuapl.edu/PressRelease/190927">Johns Hopkins APL Receives 2019 Impact Award from Innovation Leader</a></h4><p>The Johns Hopkins Applied Physics Laboratory (APL) in Laurel, Maryland, has received a 2019 Impact Award from Innovation Leader for an internal initiative called the Ignition Grants HELP Challenge.</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-type="article-full"><p class="h4"><a href="https://www.jhuapl.edu/PressRelease/190927">Johns Hopkins APL Receives 2019 Impact Award from Innovation Leader</a></p><p>The Johns Hopkins Applied Physics Laboratory (APL) in Laurel, Maryland, has received a 2019 Impact Award from Innovation Leader for an internal initiative called the Ignition Grants HELP Challenge.</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 _Image courtesy of the [Johns Hopkins Applied Physics

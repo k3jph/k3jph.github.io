@@ -25,8 +25,7 @@ _before_ the election.  So prospectively, I made some claims about
 how hard it is to hack the election.
 
 And I was right.  Our election integrity is still unmatched, mostly because
-of how screwed up the whole system is.  See the slides at [https://jameshoward.us/informs-2020/](https://jameshoward.us/informs-2020/) or watch the 
-presentation on YouTube:
+of how screwed up the whole system is. Watch the presentation on YouTube:
 
 {% include youtube.html id="CluWQ5bfqgM" %}
 

@@ -22,7 +22,7 @@ tags:
   - test-driven development
   - unit testing
 ---
-Code coverage is not what it's cracked up to be.  As an experiment, I started using [Coveralls](http://coveralls.io) on two of my R projects, [`cmna`](/cmna) and [`phonics`](/software/phonics).  Both projects had unit testing with [testthat](https://github.com/hadley/testthat) included, both use [Travis](travis-ci.org/howardjp/) for continuous integration, and Coveralls supports R.  So this seemed like a logical experiment, and the results tell us something about code coverage.
+Code coverage is not what it's cracked up to be.  As an experiment, I started using [Coveralls](http://coveralls.io) on two of my R projects, [`cmna`](/cmna) and [`phonics`](https://github.com/howardjp/phonics).  Both projects had unit testing with [testthat](https://github.com/hadley/testthat) included, both use [Travis](https://travis-ci.org/howardjp/) for continuous integration, and Coveralls supports R.  So this seemed like a logical experiment, and the results tell us something about code coverage.
 
 First, `cmna` has miserable code coverage.  As of this writing, code coverage is only about 8 percent and I am surprised it is that high.  I basically gave up on writing unit tests while developing the package and the book to save time.  With the book back into editorial, I should add more unit tests, especially since the examples in the book are a good starting point.  However, the tests that are there are solid.
 

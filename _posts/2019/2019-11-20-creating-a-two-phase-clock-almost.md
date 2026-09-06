@@ -16,7 +16,7 @@ tags:
 A [quick update on this](/2019/11/15/6502-based-computer-in-2019/). I
 built the clock described in this video over the weekend:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0"><h4><a href="https://www.youtube.com/watch?v=kRlSFm519Bo">Astable 555 timer - 8-bit computer clock - part 1</a></h4><p>Our computer's clock is built using several 555 timers. The first is configured as an astable oscillator. See https://eater.net/bbcpu8-clock-module for more....</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0"><p class="h4"><a href="https://www.youtube.com/watch?v=kRlSFm519Bo">Astable 555 timer - 8-bit computer clock - part 1</a></p><p>Our computer's clock is built using several 555 timers. The first is configured as an astable oscillator. See https://eater.net/bbcpu8-clock-module for more....</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 This went quite well, and since I have the 6502 kit, I could start
@@ -48,14 +48,14 @@ it does not guarantee that there is no overlap. After all, this
 stuff does not work instantaneously. So I Googled for "two-phase
 clock generator" and got this PDF:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-controls="0"><h4><a href="http://www.doe.carleton.ca/~ngt/4609/2phase.pdf">(null)</a></h4><p>(null)</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-controls="0"><p class="h4"><a href="http://www.doe.carleton.ca/~ngt/4609/2phase.pdf">(null)</a></p><p>(null)</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 Okay, so, yeah, look at the bottom one. It needs 2 ANDs and 5 NOTs.
 I have two gates on the AND free. And I have exactly 5 NOTs on the
 inverter free! So, I wired it up and lo-and-behold:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0"><h4><a href="https://www.youtube.com/watch?v=Xe5qO0UOtk0">Astable 555 timer - 8-bit computer clock - part 1</a></h4><p>Our computer's clock is built using several 555 timers. The first is configured as an astable oscillator. See https://eater.net/bbcpu8-clock-module for more....</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0"><p class="h4"><a href="https://www.youtube.com/watch?v=Xe5qO0UOtk0">Astable 555 timer - 8-bit computer clock - part 1</a></p><p>Our computer's clock is built using several 555 timers. The first is configured as an astable oscillator. See https://eater.net/bbcpu8-clock-module for more....</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 Well, if you watch through to end, you might have seen the thing

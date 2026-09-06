@@ -29,7 +29,7 @@ tags:
   - systems science
   - text analysis
 ---
-I was working on a data merge this weekend with some county-level data.  This has to do with [the NFIP](/research).  But one of the datasets did not include FIPS codes; it was just county names.  Well, there are plenty of rational ways one could deal with this.  But I saw before me a [glorious yak who desperately needed a shave](http://sethgodin.typepad.com/seths_blog/2005/03/dont_shave_that.html).  So I did the obvious thing and decided to [Metaphone](https://en.wikipedia.org/wiki/Metaphone) the county names to ensure normalization.
+I was working on a data merge this weekend with some county-level data.  This has to do with [the NFIP](/scholarship/).  But one of the datasets did not include FIPS codes; it was just county names.  Well, there are plenty of rational ways one could deal with this.  But I saw before me a [glorious yak who desperately needed a shave](http://sethgodin.typepad.com/seths_blog/2005/03/dont_shave_that.html).  So I did the obvious thing and decided to [Metaphone](https://en.wikipedia.org/wiki/Metaphone) the county names to ensure normalization.
 
 This, of course, required writing an implementation of Metaphone in R.  And before that, I had decided on what Metaphone.  First, Metaphone is a family of three algorithms.  First is the original Metaphone, which is widely regarded as flawed and still one of the best options for phonetic spelling.  Second is Double Metaphone which produces two different encodings for the same sound.  Third, is Metaphone3, which is patented and therefore essentially unusable for a few more years.  
 
@@ -37,7 +37,7 @@ I went with the original Metaphone, but this got complicated quickly.  It turns 
 
 There's a test suite of 83 examples taken from the Javascript implementation I use for regression testing.
 
-The package is available for download from [GitHub](https://github.com/howardjp/phonics) and I have set up a [dedicated page here](/software/phonics).
+The package is available for download from [GitHub](https://github.com/howardjp/phonics) and I have set up a [dedicated page here](https://github.com/howardjp/phonics).
 
 Over the next few weeks, I hope to add other phonetic algorithms.  Of course, contributions are welcome.
 

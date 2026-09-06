@@ -36,11 +36,11 @@ showcasing the values and aspirations of the English monarchy.
       <div class="row mb-2">
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-geoffrey-of-anjou.svg" alt="The arms of Geoffrey of Anjou" />
-            <figcaption class="images-caption">The arms of Geoffrey of Anjou</figcaption>
+            <div class="images-caption">The arms of Geoffrey of Anjou</div>
         </div>
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-richard-lionheart.svg" alt="The arms of Richard I" />
-            <figcaption class="images-caption">The arms of Richard I</figcaption>        
+            <div class="images-caption">The arms of Richard I</div>
         </div>
       </div>
     </figure>
@@ -91,7 +91,7 @@ link from the medieval period to the present day.
       <div class="row mb-2">
         <div class="item col-md-12">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-edward-iii.svg" alt="The arms of Edward III" />
-            <figcaption class="images-caption">The arms of Edward III</figcaption>
+            <div class="images-caption">The arms of Edward III</div>
         </div>
       </div>
     </figure>
@@ -136,7 +136,7 @@ lasting symbol of the Plantagenet dynasty's claim to French lands.
     <figure>
       <div class="item">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-richard-ii.svg" alt="The arms of Richard II" />
-            <figcaption class="images-caption">The arms of Richard II</figcaption>
+            <div class="images-caption">The arms of Richard II</div>
       </div>
     </figure>
   </div>
@@ -165,7 +165,7 @@ monarchs.
       <div class="row mb-2">
         <div class="item col-md-12">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-henry-iv.svg" alt="The arms of Henry IV" />
-            <figcaption class="images-caption">The arms of Henry IV</figcaption>
+            <div class="images-caption">The arms of Henry IV</div>
         </div>
       </div>
     </figure>
@@ -203,7 +203,7 @@ impact on English heraldic tradition.
     <figure>
       <div class="item mt-4">
         <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-henry-vi.svg" alt="The arms of Henry VI" />
-          <figcaption class="content images-caption">The arms of Henry VI</figcaption>
+          <div class="content images-caption">The arms of Henry VI</div>
       </div>
     </figure>
   </div>
@@ -251,11 +251,11 @@ weakened.
     <figure>
       <div class="item">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-mary-philip.svg" alt="The arms of Mary I and Philip" />
-            <figcaption class="images-caption">The arms of Mary I and Philip</figcaption>
+            <div class="images-caption">The arms of Mary I and Philip</div>
       </div>
       <div class="item mt-4">
         <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-mary-philip-milan.svg" alt="The arms of Mary I and Philip with Duchy of Milan" />
-          <figcaption class="content images-caption">The arms of Mary I and Philip with Duchy of Milan</figcaption>
+          <div class="content images-caption">The arms of Mary I and Philip with Duchy of Milan</div>
       </div>
     </figure>
   </div>
@@ -361,19 +361,19 @@ During this period, he used his own arms exclusively until his death in
       <div class="row mb-2">
         <div class="item col-md-3">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-james-i.svg" alt="The arms of James I" />
-            <figcaption class="images-caption">The arms of James I</figcaption>
+            <div class="images-caption">The arms of James I</div>
         </div>
         <div class="item col-md-3">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-william-mary.svg" alt="The arms of William and Mary" />
-            <figcaption class="images-caption">The arms of William and Mary</figcaption>
+            <div class="images-caption">The arms of William and Mary</div>
         </div>
         <div class="item col-md-3">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-william.svg" alt="The arms of William" />
-            <figcaption class="images-caption">The arms of William</figcaption>
+            <div class="images-caption">The arms of William</div>
         </div>
         <div class="item col-md-3">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-anne.svg" alt="The arms of Anne" />
-            <figcaption class="images-caption">The arms of Anne</figcaption>
+            <div class="images-caption">The arms of Anne</div>
         </div>
       </div>
     </figure>
@@ -394,11 +394,11 @@ and the first monarch of Great Britain.
       <div class="row mb-2">
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-anne-england.svg" alt="The arms of Anne in England" />
-            <figcaption class="images-caption">The arms of Anne in England</figcaption>
+            <div class="images-caption">The arms of Anne in England</div>
         </div>
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-anne-scotland.svg" alt="The arms of Anne in Scotland" />
-            <figcaption class="images-caption">The arms of Anne in Scotland</figcaption>
+            <div class="images-caption">The arms of Anne in Scotland</div>
         </div>
       </div>
     </figure>
@@ -439,11 +439,11 @@ beginning of the Hanoverian dynasty in Britain.
       <div class="row mb-2">
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-george-england.svg" alt="The arms of George in England" />
-            <figcaption class="images-caption">The arms of George in England</figcaption>
+            <div class="images-caption">The arms of George in England</div>
         </div>
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-george-scotland.svg" alt="The arms of George in Scotland" />
-            <figcaption class="images-caption">The arms of George in Scotland</figcaption>
+            <div class="images-caption">The arms of George in Scotland</div>
         </div>
       </div>
     </figure>
@@ -478,11 +478,11 @@ modifications, throughout the reigns of the Hanoverian monarchs until
       <div class="row mb-2">
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-george-iii-england.svg" alt="The arms of George III in England" />
-            <figcaption class="images-caption">The arms of George III in England</figcaption>
+            <div class="images-caption">The arms of George III in England</div>
         </div>
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-george-iii-scotland.svg" alt="The arms of George III in Scotland" />
-            <figcaption class="images-caption">The arms of George III in Scotland</figcaption>
+            <div class="images-caption">The arms of George III in Scotland</div>
         </div>
       </div>
     </figure>
@@ -522,11 +522,11 @@ of the United Kingdom and the monarch's personal territories.
       <div class="row mb-2">
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-george-iii-with-hanover-england.svg" alt="The arms of George III in England with Kingdom of Hanover" />
-            <figcaption class="images-caption">The arms of George III in England with Kingdom of Hanover</figcaption>
+            <div class="images-caption">The arms of George III in England with Kingdom of Hanover</div>
         </div>
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-george-iii-with-hanover-scotland.svg" alt="The arms of George III in Scotland with Kingdom of Hanover" />
-            <figcaption class="images-caption">The arms of George III in Scotland with Kingdom of Hanover</figcaption>
+            <div class="images-caption">The arms of George III in Scotland with Kingdom of Hanover</div>
         </div>
       </div>
     </figure>
@@ -566,11 +566,11 @@ territories:
       <div class="row mb-2">
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-victoria-england.svg" alt="The arms of Victoria in England" />
-            <figcaption class="images-caption">The arms of Victoria in England</figcaption>
+            <div class="images-caption">The arms of Victoria in England</div>
         </div>
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-victoria-scotland.svg" alt="The arms of Victoria in Scotland" />
-            <figcaption class="images-caption">The arms of Victoria in Scotland</figcaption>
+            <div class="images-caption">The arms of Victoria in Scotland</div>
         </div>
       </div>
     </figure>
@@ -658,4 +658,3 @@ tradition and the ability to adapt to new eras.
 The royal arms are more than just an emblem--they encapsulate centuries
 of English and British identity, evolving in tandem with the monarchy's
 fortunes and ambitions.
-

@@ -26,7 +26,7 @@ disease, scoring an essay, or reviewing the same body camera footage, there is
 the lurking question: are these raters actually consistent, or do they just look
 consistent because they tend to use the same labels.
 
-### What kappa is doing
+## What kappa is doing
 
 The workhorse here is Cohen's kappa, [introduced in
 1960](https://journals.sagepub.com/doi/10.1177/001316446002000104). The basic
@@ -46,7 +46,7 @@ overall distribution of responses. If the raters are agreeing exactly at chance,
 κ = 0. If they are perfectly consistent, κ = 1. Negative values can even occur
 if the raters disagree systematically.
 
-### Why hypothesis testing matters
+## Why hypothesis testing matters
 
 An estimate of kappa is just that, an estimate. In practice, we want to know
 whether our observed κ is large enough to clear some benchmark. In public
@@ -64,7 +64,7 @@ where κ₀ is some minimum threshold (e.g., 0.40 for "fair" agreement). If the
 test statistic exceeds the critical value, we reject the null and conclude the
 raters are genuinely consistent beyond the baseline.
 
-### Power and sample size
+## Power and sample size
 
 The crucial step is design. Too many reliability studies are underpowered. With
 a small number of items, say, twenty patient charts, the variance of κ is high,
@@ -77,7 +77,7 @@ the 5% significance level. At fifty items, power is closer to 50%. This is the
 same lesson we draw in drug trials: if you do not plan for adequate sample size,
 you cannot expect your results to be conclusive.
 
-### Applications across domains
+## Applications across domains
 
 -   **Public health.** Epidemiologists validating whether field surveyors agree
     on case definitions need strong inter-rater reliability before reporting
@@ -96,7 +96,7 @@ you cannot expect your results to be conclusive.
 In each of these cases, the hypothesis test is not academic nitpicking. It is
 the difference between evidence that can be used and evidence that cannot.
 
-### Example code in Python
+## Example code in Python
 
 Here is a minimal example in Python using `scikit-learn` and simulation:
 
@@ -131,7 +131,7 @@ pval = np.mean([b <= 0.4 for b in boots])
 print("Bootstrap p-value for H0: kappa <= 0.4:", pval)  
 {% endhighlight %}
 
-### Example code in R
+## Example code in R
 
 R has the `irr` and `kappaSize` packages that make this easier. Here is a sketch:
 
@@ -156,7 +156,7 @@ kappa0=0.4, kappa1=0.6, alpha=0.05)
 These tools take care of much of the variance computation, so you do not need to
 derive the test statistic by hand.
 
-### Closing thought
+## Closing thought
 
 Hypothesis testing for inter-rater agreement reminds us that agreement is not a
 given. It is something we measure, something we test, and something we can fail

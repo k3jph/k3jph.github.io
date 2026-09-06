@@ -12,19 +12,20 @@ It is optimized for both local development and automated deployment to GitHub Pa
 | **Production**  | `_config.yml`                    | Optimized build with minification and Cloudflare responsive-image URLs.                        |
 | **Development** | `_config.yml`, `_config_dev.yml` | Fast local preview with original images, live reload, and uncompressed assets.                 |
 
-Ruby **3.4.2** and Jekyll **4.3.3** are required.
+Ruby **3.4.2** and Jekyll **4.3.3** are required. Full site validation also requires Java **17 or newer** for the Nu HTML Checker.
 
 ---
 
 ## 🪙 Setup
 
 1. **Install Ruby 3.4.2** (recommended via `rbenv` or `rvm`).
-2. **Install dependencies:**
+2. **Install Java 17 or newer** if you plan to run full generated-site validation.
+3. **Install dependencies:**
 
    ```bash
    bundle install --with development
    ```
-3. **Verify your environment:**
+4. **Verify your environment:**
 
    ```bash
    rake env
@@ -40,7 +41,7 @@ Ruby **3.4.2** and Jekyll **4.3.3** are required.
 | Quick preview              | `rake serve` then open [http://localhost:4000](http://localhost:4000) | Site auto-rebuilds on save.                                                                   |
 | Clean build artifacts      | `rake clean`                                                          | Removes `_site`, `.jekyll-cache`, `.sass-cache`.                                              |
 | Check site health          | `rake check`                                                          | Runs `jekyll doctor` for config sanity.                                                       |
-| Validate output HTML/links | `bundle exec htmlproofer ./_site`                                     | Optional — checks for broken links.                                                           |
+| Validate existing output   | `rake validate_links validate_html`                                   | Checks the current `_site` without rebuilding it.                                             |
 
 ---
 
@@ -50,8 +51,28 @@ Ruby **3.4.2** and Jekyll **4.3.3** are required.
 | ------------------- | -------------------------- | --------------------------------------------- |
 | Full build          | `rake build`               | Builds `_site` using `_config.yml` only.      |
 | Clean + rebuild     | `rake clean && rake build` | Recommended before deployment.                |
+| Build + validate    | `bundle exec rake validate`| Production build plus all blocking checks.    |
 
 GitHub Actions automatically runs these steps and deploys to Pages whenever `main` is updated.
+
+### Generated-site validation
+
+Run the complete local gate with:
+
+```bash
+bundle exec rake validate
+```
+
+Validation operates on the generated production `_site`, not directly on Markdown or Liquid source:
+
+* `validate_links` uses HTML-Proofer to check relative and root-relative links, `jameshoward.us` and `www.jameshoward.us` absolute links, fragments, local images, and local scripts. Cloudflare transformation URLs are mapped back to their original local images.
+* `validate_html` uses a checksum-pinned Nu HTML Checker release to validate every generated HTML file. The validator is downloaded into `.validator-cache/` on first use.
+
+External URLs are not requested and do not block a build. Their availability changes independently of this repository and belongs in a separate periodic audit.
+
+The only markup exclusion is the exact generated file `_site/laserprj.html`, a legacy shortcut that is intentionally not a standalone conforming page. Links pointing to it are still checked by `validate_links`.
+
+When validation fails, use the reported generated page, line, and URL or HTML message to locate the corresponding source page, layout, or include. Fix the source and rerun `bundle exec rake validate`; do not edit `_site` directly.
 
 ---
 
@@ -101,8 +122,10 @@ It:
 
 * Uses Ruby **3.4.2**
 * Builds via `bundle exec rake build`
+* Validates generated links and HTML before artifact upload
+* Runs the same production-equivalent gate on pull requests without deploying
 * Deploys automatically to GitHub Pages on push to `main`
-* Runs nightly (cron: `0 9 * * *`)
+* Runs nightly at 21:00 in `America/New_York` (`00 21 * * *`)
 
 ---
 

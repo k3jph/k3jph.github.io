@@ -43,7 +43,7 @@ married William Henry Harrison Martin in 1862, becoming a part of Miami
 County's history during the Victorian era.  Their marriage, documented
 in local records, places Sarah within the broader lineage of Miami
 County families during this time. William, a qualifying ancestor of the
-[Pioneers and Settlers](/ancestry/psmc) lineage society, further
+[Pioneers and Settlers](/ancestry/pioneers-and-settlers-families-of-miami-county/) lineage society, further
 establishes the family's deep connection to the county. While specific
 details about Sarah’s life are not widely available, her inclusion in
 the genealogical records through her marriage highlights the family's

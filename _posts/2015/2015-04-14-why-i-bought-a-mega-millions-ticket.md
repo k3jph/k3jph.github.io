@@ -19,7 +19,7 @@ tags:
 ---
 [Yesterday's post](/2015/04/13/maryland-lottery-proceeds-dont-pay-for-education/) needed a picture of a Maryland lottery ticket for illustration.  I couldn't find a good one online, so I dropped a dollar and picked one up.  So why did I pick a Mega Millions ticket, rather than Powerball?  Powerball sounds cooler.  What gives?  
 
-Someone's gonna win, and it might as well be me.  If I must purchase a ticket, I want to maximize my potential earnings.  [Here's a spreadsheet showing the expected returns](/wp-content/uploads/2015/04/Lottery-Jackpots.xlsx) from the two major jackpot games in Maryland.  There are three substantial concerns I've left out:
+Someone's gonna win, and it might as well be me.  If I must purchase a ticket, I want to maximize my potential earnings.  [Here's a spreadsheet showing the expected returns](/assets/docs/Lottery-Jackpots.xlsx) from the two major jackpot games in Maryland.  There are three substantial concerns I've left out:
 
 1.  Accepting the lump sum versus the annuity,
 2.  The income reduction due to taxes, and

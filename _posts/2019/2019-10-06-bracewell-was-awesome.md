@@ -19,7 +19,7 @@ aspect to me. Now, that is mostly because I do a lot of statistics!
 But, while thinking about the Laplace Transform, I pulled up the
 Wikipedia page. You can see it here:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article"><h4><a href="https://en.wikipedia.org/wiki/Laplace_transform">Laplace transform</a></h4><p>In mathematics, the Laplace transform is an integral transform named after its inventor Pierre-Simon Laplace (). It transforms a function of a real variable t (often time) to a function of a complex variable s ( complex frequency). The transform has many applications in science and engineering.</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article"><p class="h4"><a href="https://en.wikipedia.org/wiki/Laplace_transform">Laplace transform</a></p><p>In mathematics, the Laplace transform is an integral transform named after its inventor Pierre-Simon Laplace (). It transforms a function of a real variable t (often time) to a function of a complex variable s ( complex frequency). The transform has many applications in science and engineering.</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 But something completely unrelated caught my eye on that page, and

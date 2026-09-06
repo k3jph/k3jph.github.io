@@ -39,7 +39,7 @@ group :development do
   gem "google-protobuf"
   gem "pry"
   gem "rubocop"
-  gem "html-proofer"        # Optional HTML/link validation
+  gem "html-proofer", "5.2.2" # Internal link and local resource validation
 end
 
 # ===============================================================

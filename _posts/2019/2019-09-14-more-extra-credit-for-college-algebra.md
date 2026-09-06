@@ -33,7 +33,7 @@ know, _extra_.
 > And I think I have a good one. Watch this video of 8 amazing fire
 tricks.
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3"><h4><a href="https://www.youtube.com/embed/WbvX4wJqPHg?start=81">8 AMAZING FIRE TRICKS (do not try at home, lithium & boric acid fumes are toxic)</a></h4><p>(null)</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3"><p class="h4"><a href="https://www.youtube.com/embed/WbvX4wJqPHg?start=81">8 AMAZING FIRE TRICKS (do not try at home, lithium & boric acid fumes are toxic)</a></p><p>(null)</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 > If the embed does not work, you can [click

@@ -64,7 +64,7 @@ C:\Netscape Server4\https-admserv\config\admpw
 
 I wrote a simple program called `pwcrypt` to generate encrypted passwords, to make it unnecessary to log in to a Unix system to track down a lost `admin` password. This program uses the DES hash algorithm to encrypt a given password, as described above. The output of this program can be dropped directly into `admpw`.
 
-Listing 1 shows `pwcrypt`. You can also [download it directly](/service/columbia-association/pwcrypt.c).
+Listing 1 shows `pwcrypt`.
 
 ### Listing 1
 

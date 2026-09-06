@@ -89,7 +89,7 @@ creating a unified estate suitable for farming and resource management.
                 </div>
             </div>
             <div class="content">
-                <figcaption class="images-caption">Original Granville grants for Moses Teague</figcaption>
+                <div class="images-caption">Original Granville grants for Moses Teague</div>
             </div>
         </figure>
     </div>
@@ -108,7 +108,7 @@ Moses and Elizabeth's daughter, [Charity
 Teague](https://www.wikitree.com/wiki/Teague-265) married [Thomas
 Ray](https://www.wikitree.com/wiki/Ray-654) and was mother to [William
 Ray](https://www.wikitree.com/wiki/Ray-3368), soldier in the [War of
-1812](/ancestry/gsw1812).
+1812](/ancestry/general-society-of-the-war-of-1812/).
 
 Moses's will, written in **1786** and proved in **1799**, provides
 detailed insight into his wealth, priorities, and family dynamics. It

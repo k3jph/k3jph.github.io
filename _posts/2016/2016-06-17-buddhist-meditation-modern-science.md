@@ -21,7 +21,7 @@ tags:
   - meditation
   - Taoism
 ---
-_I've been taking Robert Wright's Cousera course, "[Buddhism and Modern Psychology](https://www.coursera.org/learn/science-of-meditation/)," mostly because I didn't know anything about either.  As Coursera is [great fodder for blog content](https://jameshoward.us/page/2/?s=coursera), here's my essay response to the questions,_
+_I've been taking Robert Wright's Cousera course, "[Buddhism and Modern Psychology](https://www.coursera.org/learn/science-of-meditation/)," mostly because I didn't know anything about either.  As Coursera is [great fodder for blog content](/search/?q=coursera), here's my essay response to the questions,_
 
 > Does modern science lend support to Buddhist ideas about the human mind?
 > Does modern science lend support to the logic behind Buddhist meditation practice?

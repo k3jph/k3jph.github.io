@@ -195,4 +195,4 @@ because they took the jobs that humans were worst suited for. The
 question that follows, the question this series will keep returning to,
 is what happens when the niches get harder to distinguish.
 
-[tasks]: https://jameshoward.us/2026/05/19/ai-doesnt-take-jobs-it-takes-tasks/
+[tasks]: https://jameshoward.us/2026/05/18/ai-doesnt-take-jobs-it-takes-tasks/

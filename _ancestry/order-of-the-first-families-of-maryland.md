@@ -115,7 +115,7 @@ descendants to build upon.
                 </div>
             </div>
             <div class="content">
-                <figcaption class="images-caption">Original grants for Pembroke and Tegg's Delight</figcaption>
+                <div class="images-caption">Original grants for Pembroke and Tegg's Delight</div>
             </div>
         </figure>
     </div>

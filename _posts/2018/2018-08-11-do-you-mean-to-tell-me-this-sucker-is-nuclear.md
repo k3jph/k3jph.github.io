@@ -34,7 +34,7 @@ to the [latex]\Delta v[/latex] to go [latex]n[/latex] meters farther
 from the Sun.  So a huge rocket is necessary.  _The Atlantic_ has
 a great article about this:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article-full"><h4><a href="https://www.theatlantic.com/science/archive/2018/08/parker-solar-probe-launch-nasa/567197/">It's Easier to Leave the Solar System Than to Reach the Sun</a></h4><p>The Parker team studied its options and settled on Venus. In some ways, the new trajectory works out well. With Jupiter, the probe would have come closer to the sun, but it would have made only two passes. With Venus, the Parker Solar Probe will make 24 passes over its lifetime.</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article-full"><p class="h4"><a href="https://www.theatlantic.com/science/archive/2018/08/parker-solar-probe-launch-nasa/567197/">It's Easier to Leave the Solar System Than to Reach the Sun</a></p><p>The Parker team studied its options and settled on Venus. In some ways, the new trajectory works out well. With Jupiter, the probe would have come closer to the sun, but it would have made only two passes. With Venus, the Parker Solar Probe will make 24 passes over its lifetime.</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 Of this, though, this passage is striking:

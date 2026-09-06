@@ -27,6 +27,6 @@ The radian is the [SI unit](https://en.wikipedia.org/wiki/International_System_o
 
 So how do we end up with [latex] 2\pi[/latex] radians in a circle?  Well, there are two famous formulae for circles.  First is the area, which is [latex] A = \pi r^2[/latex].  That one isn't important right now.  The second is for the circumference, which is [latex] C = d\pi[/latex] where [latex]d[/latex] is the diameter of the circle, something we can measure.  But the diameter is just twice the radius, so the [latex] C = d\pi = 2r\pi[/latex].  So how many times the radius go into the diameter?  Right, [latex] \frac{C}{r} = 2\pi[/latex] and that's why there are [latex] 2\pi[/latex] radians in a circle.
 
-Because the radian is the ratio of two distances, the unit itself is dimensionless, just like the [decibel](https://jameshoward.us/decibels).  So an angle is simply [latex] \frac{\pi}{2}[/latex] (a right angle), but frequently radians or "rad" are added for clarity.  
+Because the radian is the ratio of two distances, the unit itself is dimensionless, just like the [decibel](/2015/06/12/decibels/).  So an angle is simply [latex] \frac{\pi}{2}[/latex] (a right angle), but frequently radians or "rad" are added for clarity.
 
 _Image by [Creativity103 / Flickr](https://www.flickr.com/photos/creative_stock/5158135192/)._

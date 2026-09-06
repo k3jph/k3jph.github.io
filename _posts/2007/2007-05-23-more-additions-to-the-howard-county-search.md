@@ -15,7 +15,7 @@ tags:
   - webservices
 ---
 
-Many new additions to the [Howard County Search Engine](http://jameshoward.us/hcs):
+Many new additions to the Howard County Search Engine:
 
 * [APL Federal Credit Union](http://aplfcu.org/)
 * [B & O Railroad Museum: Ellicott City Station](http://www.ecborail.org/)

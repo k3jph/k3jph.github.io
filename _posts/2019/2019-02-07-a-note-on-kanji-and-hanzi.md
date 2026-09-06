@@ -19,13 +19,13 @@ This is a really fun little narrow bit of amusement I got out of
 this, but it is worth sharing. I was watching a video from LangFocus
 about kanji. I really like the presenter, and this is a neat video:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0"><h4><a href="https://www.youtube.com/embed/SX3h9irApwg">The Complexity of Kanji</a></h4><p>(null)</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0"><p class="h4"><a href="https://www.youtube.com/embed/SX3h9irApwg">The Complexity of Kanji</a></p><p>(null)</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 But never one to watch just one video when one can watch 40, I also
 watched his video on Mandarin versus Cantonese:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0"><h4><a href="https://www.youtube.com/embed/s2km_z4-1T8">How Similar Are Mandarin and Cantonese?</a></h4><p>(null)</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0"><p class="h4"><a href="https://www.youtube.com/embed/s2km_z4-1T8">How Similar Are Mandarin and Cantonese?</a></p><p>(null)</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 About a third of the way through that video the word for hànzì

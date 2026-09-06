@@ -54,7 +54,7 @@ that most vividly defined their reigns.
   <div class="card">
     <figure>
       <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Planta_genista_Badge_of_the_Plantagenets.svg" alt="Planta genista Badge of the Plantagenets" />
-      <figcaption class="images-caption">Planta genista Badge of the Plantagenets</figcaption>
+      <div class="images-caption">Planta genista Badge of the Plantagenets</div>
     </figure>
   </div>
 </div>
@@ -86,11 +86,11 @@ ensuring the badge's significance endured through generations.
       <div class="row mb-2">
         <div class="item col-md-6">
       <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Star_and_Crescent_Badge.svg" alt="Star and Crescent Badge" />
-      <figcaption class="images-caption">Star and Crescent Badge</figcaption>
+      <div class="images-caption">Star and Crescent Badge</div>
         </div>
         <div class="item col-md-6">
       <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Golden_Rose_Badge.svg" alt="The Golden Rose Badge" />
-      <figcaption class="images-caption">The Golden Rose Badge</figcaption>
+      <div class="images-caption">The Golden Rose Badge</div>
         </div>
       </div>
     </figure>
@@ -127,15 +127,15 @@ and beyond.
       <div class="row mb-2">
         <div class="item col-md-4">
           <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Ostrich_Feather_Badge.svg" alt="Ostrich feather of Richard II" />
-            <figcaption class="images-caption">Ostrich feather of Richard II</figcaption>
+            <div class="images-caption">Ostrich feather of Richard II</div>
         </div>
         <div class="item col-md-4">
           <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Ostrich_Feather_Badge_of_Henry_IV.svg" alt="Ostrich feather of Henry IV" />
-            <figcaption class="images-caption">Ostrich feather of Henry IV</figcaption>
+            <div class="images-caption">Ostrich feather of Henry IV</div>
         </div>
         <div class="item col-md-4">
           <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Silver_Feather_Badge.svg" alt="Ostrich feather of Henry V" />
-            <figcaption class="images-caption">Ostrich feather of Henry V</figcaption>
+            <div class="images-caption">Ostrich feather of Henry V</div>
         </div>
       </div>
     </figure>
@@ -181,15 +181,15 @@ for the red rose, however.
       <div class="row mb-2">
         <div class="item col-md-4">
       <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Red_Rose_Badge_of_Lancaster.svg" alt="The red rose of Lancaster" />
-      <figcaption class="images-caption">The red rose of Lancaster</figcaption>
+      <div class="images-caption">The red rose of Lancaster</div>
         </div>
         <div class="item col-md-4">
       <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/White_Rose_Badge_of_York.svg" alt="The white rose of York" />
-      <figcaption class="images-caption">The white rose of York</figcaption>
+      <div class="images-caption">The white rose of York</div>
         </div>
         <div class="item col-md-4">
           <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Tudor_Rose.svg" alt="The Tudor Rose" />
-            <figcaption class="images-caption">The Tudor Rose</figcaption>
+            <div class="images-caption">The Tudor Rose</div>
     </div>
       </div>
     </figure>
@@ -259,21 +259,21 @@ providing stability to England.
       <div class="row mb-2">
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Tudor_Rose_(Tudor_Heraldry).svg" alt="Crowned Tudor Rose" />
-            <figcaption class="images-caption">Crowned Tudor Rose</figcaption>
+            <div class="images-caption">Crowned Tudor Rose</div>
         </div>
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Thistle_Royal_Badge_of_Scotland.svg" alt="Crowned Thistle" />
-            <figcaption class="images-caption">Crowned Thistle</figcaption>
+            <div class="images-caption">Crowned Thistle</div>
         </div>
       </div>
      <div class="row mb-2">
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Crowned_Fleur_de_lys_(Tudor_Crown).svg" alt="Crowned Fleur-de-lys" />
-            <figcaption class="images-caption">Crowned <em>Fleur-de-lys</em></figcaption>
+            <div class="images-caption">Crowned <em>Fleur-de-lys</em></div>
         </div>
         <div class="item col-md-6">
           <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Crowned_Harp_(Tudor_Crown).svg" alt="Crowned Harp" />
-            <figcaption class="images-caption">Crowned Harp</figcaption>
+            <div class="images-caption">Crowned Harp</div>
         </div>
       </div>
     </figure>
@@ -328,7 +328,7 @@ underlying tensions and divisions within the Irish realm.
   <div class="card">
     <figure>
           <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Union_of_the_Crowns_Royal_Badge.svg" alt="Badge of the Union of the Crowns" />
-            <figcaption class="images-caption">Badge of the Union of the Crowns</figcaption>
+            <div class="images-caption">Badge of the Union of the Crowns</div>
     </figure>
   </div>
 </div>
@@ -359,15 +359,15 @@ nature of this early symbol of British integration.
       <div class="row mb-2">
         <div class="item col-md-4">
           <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Royal_Badge_of_Wales_(1953).svg" alt="1801 Badge of Wales with 1953 Augmentation" />
-            <figcaption class="images-caption">1801 Badge of Wales with 1953 Augmentation</figcaption>
+            <div class="images-caption">1801 Badge of Wales with 1953 Augmentation</div>
         </div>
         <div class="item col-md-4">
           <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Royal_Badge_of_Wales.svg" alt="2008 Royal Badge of Wales" />
-            <figcaption class="images-caption">2008 Royal Badge of Wales</figcaption>
+            <div class="images-caption">2008 Royal Badge of Wales</div>
         </div>
         <div class="item col-md-4">
           <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Badge_of_the_House_of_Windsor.svg" alt="Badge of the House of Windsor" />
-            <figcaption class="images-caption">Badge of the House of Windsor</figcaption>
+            <div class="images-caption">Badge of the House of Windsor</div>
         </div>        
       </div>
     </figure>

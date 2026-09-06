@@ -126,7 +126,7 @@ a hero in the Habsburg court.
 {% include inset.html width="6" placement="right"
 title="Imperial Grant to Thomas Arundell"
 text="
-###### Translated from the original Latin
+#### Translated from the original Latin
     
 The remarkable virtues by which you continue to make your noble lineage ever
 more distinguished, both at home and abroad, such as that you first imbued your

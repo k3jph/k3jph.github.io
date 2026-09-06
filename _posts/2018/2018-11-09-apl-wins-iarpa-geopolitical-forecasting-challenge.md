@@ -15,7 +15,7 @@ tags:
 ---
 Bulletin just handed to me!
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article"><h4><a href="https://www.jhuapl.edu/PressRelease/181108">Press Release</a></h4><p>The Johns Hopkins Applied Physics Laboratory (APL) in Laurel, Maryland, earned first place overall and Election Forecaster honors in the Intelligence Advanced Research Projects Activity (IARPA) Geopolitical Forecasting Challenge. IARPA created the challenge as a way for the intelligence community to develop innovative ways to use crowdsourced forecasts and other data to predict potentially disruptive geopolitical events.</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article"><p class="h4"><a href="https://www.jhuapl.edu/PressRelease/181108">Press Release</a></p><p>The Johns Hopkins Applied Physics Laboratory (APL) in Laurel, Maryland, earned first place overall and Election Forecaster honors in the Intelligence Advanced Research Projects Activity (IARPA) Geopolitical Forecasting Challenge. IARPA created the challenge as a way for the intelligence community to develop innovative ways to use crowdsourced forecasts and other data to predict potentially disruptive geopolitical events.</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 Well, I've known about this for like a month.  But yeah, that's

@@ -14,7 +14,7 @@ tags:
   - Howard County Search
   - webservices
 ---
-The following websites have been added to the [Howard County Search Engine](//jameshoward.us/projects/howard-county-search):
+The following websites have been added to the Howard County Search Engine:
 
 * [Coalition for Columbia’s Downtown](http://www.coalitionforcolumbiasdowntown.org/)
 * [ezColumbia](http://www.ezcolumbia.com/)

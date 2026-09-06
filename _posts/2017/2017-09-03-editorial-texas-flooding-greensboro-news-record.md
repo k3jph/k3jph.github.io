@@ -21,7 +21,7 @@ Insurance Program keeps pushing people to make bad decisions and
 the rest of us are left holding the debt.  Read more in the _News
 and Record_:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article-full"><h4><a href="http://www.greensboro.com/opinion/columns/james-p-howard-ii-hurricane-harvey-dramatizes-flood-insurance-problems/article_933c5130-8ffc-59ff-a732-5455e910eabe.html">James P. Howard II: Hurricane Harvey dramatizes flood insurance problems</a></h4><p>Torrential storms coursed through much of Texas in recent days, prompting massive flooding that swept away entire homes and left wakes of devastation. It will be days, if not weeks, before we can calculate the final costs, both in terms of life and property.</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article-full"><p class="h4"><a href="http://www.greensboro.com/opinion/columns/james-p-howard-ii-hurricane-harvey-dramatizes-flood-insurance-problems/article_933c5130-8ffc-59ff-a732-5455e910eabe.html">James P. Howard II: Hurricane Harvey dramatizes flood insurance problems</a></p><p>Torrential storms coursed through much of Texas in recent days, prompting massive flooding that swept away entire homes and left wakes of devastation. It will be days, if not weeks, before we can calculate the final costs, both in terms of life and property.</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 _Image by [79th Quartermaster Company / United States Army

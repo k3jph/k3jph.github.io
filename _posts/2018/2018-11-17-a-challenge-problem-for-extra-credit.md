@@ -15,7 +15,7 @@ tags:
   - mathematics
   - optimization
 ---
-I just gave the following problem to my [MATH 106](/tags/finite-mathematics) students:
+I just gave the following problem to my [MATH 106](/tag/finite-mathematics/) students:
 
 > Hello, everyone.  We're getting to that point in the semester
 when students start asking the question every professor hates:  Can

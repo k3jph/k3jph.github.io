@@ -12,7 +12,7 @@ tags:
   - Howard County Search
   - webservices
 ---
-I have made the [Howard County Search](/hcs) available to anyone with their own website.  Using [Google Gadgets](http://www.google.com/ig/directory?synd=open), it is possible to add the search engine directly to your own website.  For more information and instructions, please see [the configuration page](http://gmodules.com/ig/creator?synd=open&url=http://jameshoward.us/hcs-gadget.xml).  It will look similar to this:
+I have made the Howard County Search available to anyone with their own website.  Using [Google Gadgets](http://www.google.com/ig/directory?synd=open), it is possible to add the search engine directly to your own website.  For more information and instructions, please see [the configuration page](http://gmodules.com/ig/creator?synd=open&url=http://jameshoward.us/hcs-gadget.xml).  It will look similar to this:
 
 <script src="http://gmodules.com/ig/ifr?url=http://jameshoward.us/hcs-gadget.xml&amp;synd=open&amp;w=320&amp;h=75&amp;title=&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script>
 

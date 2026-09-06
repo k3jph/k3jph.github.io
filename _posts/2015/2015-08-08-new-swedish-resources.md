@@ -15,6 +15,6 @@ tags:
   - resources
   - Swedish
 ---
-I have put together a brief [list of Swedish language](/svenska), similar to the [Danish list](/dansk).  Nothing serious yet, but will probably add more as time goes on.
+I have put together a brief [list of Swedish language](/tag/swedish/), similar to the [Danish list](/tag/danish/).  Nothing serious yet, but will probably add more as time goes on.
 
 _Image by [Håkan Dahlström / Flickr](https://www.flickr.com/photos/dahlstroms/6901912395)...hey, it was either this or an Ikea._

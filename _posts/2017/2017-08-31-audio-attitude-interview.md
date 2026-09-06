@@ -18,7 +18,7 @@ tags:
 ---
 So everyone, as promised, here's the audio from this afternoon's
 interview on [The Attitude with Arnie
-Arnesen](www.wnhnfm.org/programs-2/attitude-w-arnie-arnesen/).  I
+Arnesen](https://www.wnhnfm.org/programs-2/attitude-w-arnie-arnesen/).  I
 am in the first half.  I haven't listened to this all the way
 through, so I cannot talk about what's happening in the second half.
 But, you know, listen to it anyway.  I am sure it's fun.

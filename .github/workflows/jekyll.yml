@@ -44,10 +44,27 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Cache Nu HTML Checker
+        uses: actions/cache@v4
+        with:
+          path: .validator-cache/vnu.jar
+          key: vnu-${{ runner.os }}-b37a0a67cde28d6a3b361f4c774cbd80fe3e1fde38824304e295c8d764296756
+
       - name: Build Jekyll site
         run: |
           echo "==> Building Jekyll site in production mode"
           bundle exec rake build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Validate generated site
+        run: bundle exec rake validate_links validate_html
         env:
           JEKYLL_ENV: production
 

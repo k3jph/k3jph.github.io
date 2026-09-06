@@ -30,7 +30,7 @@ what local authorities will be doing, along with proper preparation
 on our own part.  FEMA offers 185 free online courses, some of them
 eligible for college credit, on disaster response and management:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article"><h4><a href="https://training.fema.gov/is/crslist.aspx">Emergency Management Institute - Independent Study (IS) | Course List</a></h4><p>The social media links provided are for reference only. FEMA does not endorse any non-government Web sites, companies or applications. Last Modified: 12/4/2014 Emergency Management Institute 16825 S. Seton Ave., Emmitsburg, MD 21727 Switchboard: (301) 447-1000 Admissions Fax: (301) 447-1658 Independent Study Program Office: (301) 447-1200 Fax: (301) 447-1201</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article"><p class="h4"><a href="https://training.fema.gov/is/crslist.aspx">Emergency Management Institute - Independent Study (IS) | Course List</a></p><p>The social media links provided are for reference only. FEMA does not endorse any non-government Web sites, companies or applications. Last Modified: 12/4/2014 Emergency Management Institute 16825 S. Seton Ave., Emmitsburg, MD 21727 Switchboard: (301) 447-1000 Admissions Fax: (301) 447-1658 Independent Study Program Office: (301) 447-1200 Fax: (301) 447-1201</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 With 185 courses, it is obviously overwhelming to know even which

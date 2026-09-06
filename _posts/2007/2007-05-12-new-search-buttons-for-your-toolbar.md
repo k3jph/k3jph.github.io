@@ -15,7 +15,7 @@ tags:
   - webservices
 ---
 
-I have new buttons for the [Howard County Search Engine](/hcs) for the [Google Toolbar](http://toolbar.google.com).  This does require the latest version.  There is also a new button for the Google Toolbar that allows you to search the [Howard County Library](http://www.hclibrary.org) catalog directly from your browser.
+I have new buttons for the Howard County Search Engine for the [Google Toolbar](http://toolbar.google.com).  This does require the latest version.  There is also a new button for the Google Toolbar that allows you to search the [Howard County Library](http://www.hclibrary.org) catalog directly from your browser.
 
 * [Install the Howard County Search button](http://toolbar.google.com/buttons/add?url=http://ganymede.jameshoward.us/hcs-button.xml)
 * [Install the Howard County Library Search button](http://toolbar.google.com/buttons/add?url=http://ganymede.jameshoward.us/hclib-button.xml)

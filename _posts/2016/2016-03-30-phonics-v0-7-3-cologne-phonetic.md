@@ -23,6 +23,6 @@ tags:
   - R
   - scientific computing
 ---
-Version 0.7.3 of the [Phonics](/software/phonics) software package posted to [CRAN](https://cran.r-project.org/package=phonics) overnight.  This new version includes support for the Cologne (Kölner) phonetic spelling algorithm.  Cologne had been in for about a month, but this is the first release including it.  As always, you can report bugs [via GitHub](https://github.com/howardjp/phonics/issues).
+Version 0.7.3 of the [Phonics](https://github.com/howardjp/phonics) software package posted to [CRAN](https://cran.r-project.org/package=phonics) overnight.  This new version includes support for the Cologne (Kölner) phonetic spelling algorithm.  Cologne had been in for about a month, but this is the first release including it.  As always, you can report bugs [via GitHub](https://github.com/howardjp/phonics/issues).
 
 _Image by [Pixel-mixer / Pixabay](https://pixabay.com/en/yak-beef-highland-beef-mongolia-994643/).  I will eventually run out of free yak photos online.  But not yet!_

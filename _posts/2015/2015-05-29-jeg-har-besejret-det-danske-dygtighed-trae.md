@@ -24,4 +24,4 @@ At this point, it's difficult to say how much I know. I do not feel comfortable 
 
 The biggest hangup is that I am bad at vocabulary. Very bad. So I find I need the dictionary at my side, often. There's a [Memrise](http://www.memrise.com) flashcard deck keyed to the Duolingo vocabulary introduction. It has helped, but I tend to focus on moving forward in Duolingo rather than picking up Memrise review. I should probably do that now.
 
-I have a [Danish language resources](https://jameshoward.us/dansk/) page I created with study and media suitable for Duolingo learners. It has helped me, though I won't assure anyone else of its help.
+I have a [Danish language resources](/tag/danish/) page I created with study and media suitable for Duolingo learners. It has helped me, though I won't assure anyone else of its help.

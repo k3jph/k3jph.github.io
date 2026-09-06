@@ -489,7 +489,7 @@ body {
 }
 
 .section-header-blog .card-blog,
-.section-header-blog .card-blog h6 {
+.section-header-blog .card-blog .card-category {
   margin-bottom: 0;
 }
 

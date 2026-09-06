@@ -13,27 +13,27 @@ menu-label:     Projects
 ## Virtual Bumblebees
 
 {% include figure.html image="bee-bug-bumblebee-close-up-235764.webp"
-   placement="right" link="/software/virtual-bumblebees" width="40%"
+   placement="right" link="/tag/virtual-bumblebees/" width="40%"
    cap="A bumblebee"
    alt="A bumblebee" %}
 
-The [Virtual Bumblbees](/software/virtual-bumblebees) are a simple
+The [Virtual Bumblbees](/tag/virtual-bumblebees/) are a simple
 cellular automata I created by accident.
 
 ## Carme Nearspace Balloon System
 
-The [Carme Nearspace Balloon System](/projects/carme) is my project
+The [Carme Nearspace Balloon System](/tag/carme/) is my project
 to build a standardized system for tracking high-altitude balloons
 for the Coursera Internet of Things capstone course.
 
 ## Danish Language Resources
 
 {% include figure.html image="Codex_Holmiensis_CE_1350.webp"
-   placement="left" link="/dansk" width="40%"
+   placement="left" link="/tag/danish/" width="40%"
    cap="The first page of the Jutlandic Law originally from 1241 in Codex Holmiensis"
    alt="The first page of the Jutlandic Law originally from 1241 in Codex Holmiensis" %}
 
-[_Danish Language Resources_](/danish-language-resources) is an interactive document
+[_Danish Language Resources_](/tag/danish/) is an interactive document
 that collects resources for English speakers who are learning the
 Danish language.  I started learning
 [Danish](http://en.wikipedia.org/wiki/Danish_language) through
@@ -49,11 +49,11 @@ material.
 ## Swedish Language Resources
 
 {% include figure.html image="Västgötalagen_blad_21.webp"
-   placement="right" link="/svenska" width="40%"
+   placement="right" link="/tag/swedish/" width="40%"
    cap="Sheet number 21 from the Early Westrogothic law" 
    alt="Sheet number 21 from the Early Westrogothic law" %}
 
-[_Swedish Language Resources_](/swedish-language-resources) is an interactive document
+[_Swedish Language Resources_](/tag/swedish/) is an interactive document
 that collects resources for English speakers who are learning the
 Swedish language. After I finished the Danish language course on
 Duolingo, I really wanted to keep my streak up.  I've since lost

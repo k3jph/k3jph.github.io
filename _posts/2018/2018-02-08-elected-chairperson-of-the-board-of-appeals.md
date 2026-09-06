@@ -25,6 +25,6 @@ over the role](http://stevehunt4hoco.com/).
 We also elected [Neveen Kurtom](http://www.mymarylandattorney.com/)
 as the vice chairperson.  She's a lawyer and we usually have one
 or two on the Board at any given time.  Also, [we still have an
-opening](/county-council-seeks-new-member-board-appeals), if you
+opening](/2017/11/28/county-council-seeks-new-member-board-appeals/), if you
 are interested and want to know more, [let me know](/contact-me)
 and I can fill you in on all the nitty-gritty details.

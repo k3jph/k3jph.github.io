@@ -22,12 +22,12 @@ cars carrying phosphorus, molten sulfur, tallow, and other fun stuff
 all started to leak into the Bear Creek. You can see a 2-minute
 retrospective from 2012 on Youtube:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0"><h4><a href="https://www.youtube.com/watch?v=rkH9ayBYYt0">Lessons Learned from Miamisburg Train Derailment</a></h4><p>MIAMISBURG -- Twenty-six years ago, a major train derailment in Miamisburg forced 30,000 people from their homes. Cars containing phosphorus overturned and c...</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0"><p class="h4"><a href="https://www.youtube.com/watch?v=rkH9ayBYYt0">Lessons Learned from Miamisburg Train Derailment</a></p><p>MIAMISBURG -- Twenty-six years ago, a major train derailment in Miamisburg forced 30,000 people from their homes. Cars containing phosphorus overturned and c...</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 And here's another:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0"><h4><a href="https://www.youtube.com/watch?v=hHWajTWUusA">Hazmat crews reflect on Miamisburg train derailment</a></h4><p>Hazmat crews reflect on Miamisburg train derailment</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0"><p class="h4"><a href="https://www.youtube.com/watch?v=hHWajTWUusA">Hazmat crews reflect on Miamisburg train derailment</a></p><p>Hazmat crews reflect on Miamisburg train derailment</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 This led to 50,000 people evacuated and many more put on notice of

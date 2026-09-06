@@ -29,6 +29,6 @@ Basically, if there's a flood, everyone in the area gets a payment, regardless o
 
 Then, and only then, I take the money and tell you to shove off.  You get no more payments.  Legally, the bond defaults.  But that's not the point.  The point is, I have money when something bad happened, not when I took a loss.  I may have no property within a thousand miles of St. Louis and not even care if there's an earthquake.  It doesn't matter, the parametric bond pays on the event, not the loss.
 
-At the end of the day, I can't get excited about this proposal from RFF.  While the [NFIP](/tag/NFIP) is a mess, the political environment won't support government funds paying people who happened to be near a water main break.
+At the end of the day, I can't get excited about this proposal from RFF.  While the [NFIP](/tag/nfip/) is a mess, the political environment won't support government funds paying people who happened to be near a water main break.
 
 _Image by [National Archives and Records Administration via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Post-and-Grant-Avenue.-Look.webp).  The 1906 San Fransisco earthquake was one of the largest disasters in the United States._

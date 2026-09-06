@@ -26,6 +26,6 @@ I've talked about it quite a bit, [and even mentioned it here](/2015/07/23/build
 
 At the same time, I am taking the [Internet of Things specialization](https://www.coursera.org/learn/iot) on Coursera.   I decided to make the balloon-based system my capstone project.  Also, I am calling the balloon-based system Carme, after the irregular satellite of Jupiter.  Since balloon-launched satellites are pretty irregular.
 
-The first requirement for the capstone course is to write a [requirements specification](/docs/assets/CNBS-Requirements.pdf) document for the project.  I've kind of exceeded expectations, I think, for this course, but it is a good and solid requirements list.  I'll post the other documents to the [Carme Project page](/projects/carme) as I work through them.
+The first requirement for the capstone course is to write a [requirements specification](/assets/docs/CNBS-Requirements.pdf) document for the project.  I've kind of exceeded expectations, I think, for this course, but it is a good and solid requirements list.  I'll post the other documents to the [Carme Project page](/tag/carme/) as I work through them.
 
 _Image by [Justin Hamel via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Picture_taken_at_aprox._100,000_feet_above_Oregon_by_Justin_Hamel_and_Chris_Thompson.webp)._

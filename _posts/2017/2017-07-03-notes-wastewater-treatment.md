@@ -25,10 +25,10 @@ what happens to the water after it leaves the bathtub.  Well, lucky
 for him, I spent a lot of time growing up in the [LeSourdsville
 Regional Water Reclamation
 Facility](http://des.butlercountyohio.org/html/wastewater/LeSourdsville.cfm).
-[My father](2007/03/09/eulogy-for-james-patrick-howard) had worked
+[My father](/2007/03/09/eulogy-for-james-patrick-howard/) had worked
 in the LeSourdsville Facility for just about 15 years when died.
 He worked second shift, so, especially if I had a [late
-class](2016/08/30/high-school-dropout-stopped-worrying-went-college), I'd
+class](/2016/08/30/high-school-dropout-stopped-worrying-went-college/), I'd
 often run over at night.  We'd even grill in the parking lot.
 
 Of course, it wasn't all fun and games.  At the time, I also worked

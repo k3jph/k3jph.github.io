@@ -17,7 +17,7 @@ menu-label:     Media
 3. Emmet Pierce, "[How El Niño and La Niña Affect the Weather](/assets/docs/elninolaninaweather.pdf)," The Hartford Extra Mile, Jun. 13, 2018.
 4. Holly Johnson, "[Three Reasons Everyone Should Consider Buying Flood Insurance](https://www.thesimpledollar.com/insurance/home/three-reasons-everyone-should-consider-buying-flood-insurance/)," The Simple Dollar, Dec. 27, 2017.
 5. Geoff Williams, "[Help! My Basement Is Flooded](https://money.usnews.com/money/personal-finance/articles/2016-09-23/help-my-basement-is-flooded)," _U.S. News and World Report_, Sep. 23, 2016.
-6. Bill Marcus, "[In the Minds of Machines: Fundamental Change from Deep Analytics](HPE-mindsmachines.pdf)," HPE Insights, Aug. 11, 2016.
+6. Bill Marcus, "[In the Minds of Machines: Fundamental Change from Deep Analytics](/assets/docs/HPE-mindsmachines.pdf)," HPE Insights, Aug. 11, 2016.
 7. Margot Bigg, "[What It's Like to Evacuate for a Tsunami](/2016/07/04/watch-interview-mars-one-candidate-heidi-hecht/)," Oyster.com, Jul. 28, 2016.
 8. Autumn Yates, "[Pokemon Go: From Accidents to Stranger Danger, Tips to Keeping Kids Safe](/assets/docs/pokemon-go-advice-parents.pdf)," HighYa Jul. 16, 2016.
 9. Breakthrough Entertainment with David S. Isaac, "[Pros an Cons of Implementing an Annual Purge](/2016/07/04/listen-interview-purge-kphx/)," 1480 KPHX, Jul. 2, 2016.

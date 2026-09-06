@@ -16,7 +16,7 @@ tags:
 ---
 Oh, Brexit.  This video started making the rounds yesterday:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article-full"><h4><a href="https://twitter.com/brehonisbest/status/1073491717570117634">Paul Larkin on Twitter</a></h4><p>PM of Luxembourg - No deal ? So what? Brexit is your choice not mine ... 👏👏😎 https://t.co/4wqYn4ILTm</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article-full"><p class="h4"><a href="https://twitter.com/brehonisbest/status/1073491717570117634">Paul Larkin on Twitter</a></p><p>PM of Luxembourg - No deal ? So what? Brexit is your choice not mine ... 👏👏😎 https://t.co/4wqYn4ILTm</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 And, yes, it is funny.  But I think there's an important point here.

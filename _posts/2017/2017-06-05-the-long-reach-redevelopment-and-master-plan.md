@@ -20,7 +20,7 @@ Village
 Center](https://www.howardcountymd.gov/Departments/Planning-and-Zoning/Community-Planning/Reimagine-Long-Reach-Village-Center)
 has been submitted to the Howard County Council.  It leads me to
 want to share some of the things we talked a lot about during the
-[Master Plan process](/service/long-reach).  This is based solely
+[Master Plan process](/service/long-reach-community-association/).  This is based solely
 on my recollection and should not be considered official.
 
 ## The Boundary

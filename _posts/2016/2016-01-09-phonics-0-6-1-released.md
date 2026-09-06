@@ -23,7 +23,7 @@ tags:
   - R
   - scientific computing
 ---
-I just posted a new version of [Phonics](/software/phonics) to GitHub and submitted v0.6.1 to CRAN, where it should appear shortly.  This new release includes two new phonetic algorithms.
+I just posted a new version of [Phonics](https://github.com/howardjp/phonics) to GitHub and submitted v0.6.1 to CRAN, where it should appear shortly.  This new release includes two new phonetic algorithms.
 
 First, this release includes the Western Airlines match rating approach (MRA).  The MRA is different from most systems by working in two stages.  In the first stage, a name is reduced to a phonetic version.  In the second, the phonetic versions are compared, with minimum and variable thresholds to exceed for a match to be considered.
 

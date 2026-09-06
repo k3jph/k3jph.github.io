@@ -50,7 +50,7 @@ record from the romance.
     <figure>
       <img class="featured-img mx-auto" src="{{ '/assets/img/2025/the-arundell-howard-legend-exploring-a-genealogical-mystery-from-wardour-to-maryland/baptismal.webp' | cloudflare_image_url: 800 }}" alt="Baptismal record for Matthew Arundell of Wardour" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/2025/the-arundell-howard-legend-exploring-a-genealogical-mystery-from-wardour-to-maryland/baptismal.webp" />
       <div class="content">
-        <figcaption class="images-caption">Baptismal record for Matthew Arundell of Wardour, line 57</figcaption>
+        <div class="images-caption">Baptismal record for Matthew Arundell of Wardour, line 57</div>
       </div>
     </figure>
   </div>
@@ -113,7 +113,7 @@ lineage societies that accepted Edyth Shipley Britons's application.
     <figure>
       <img class="featured-img mx-auto" src="{{ '/assets/img/2025/the-arundell-howard-legend-exploring-a-genealogical-mystery-from-wardour-to-maryland/burial.webp' | cloudflare_image_url: 800 }}" alt="Burial record for Matthew Arundell of Wardour" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/2025/the-arundell-howard-legend-exploring-a-genealogical-mystery-from-wardour-to-maryland/burial.webp" />
       <div class="content">
-        <figcaption class="images-caption">Burial record for Matthew Arundell of Wardour, line 63</figcaption>
+        <div class="images-caption">Burial record for Matthew Arundell of Wardour, line 63</div>
       </div>
     </figure>
   </div>

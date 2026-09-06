@@ -1,0 +1,39 @@
+name: Validate Jekyll site
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4.2'
+          bundler-cache: true
+          cache-version: 0
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Cache Nu HTML Checker
+        uses: actions/cache@v4
+        with:
+          path: .validator-cache/vnu.jar
+          key: vnu-${{ runner.os }}-b37a0a67cde28d6a3b361f4c774cbd80fe3e1fde38824304e295c8d764296756
+
+      - name: Build and validate Jekyll site
+        run: bundle exec rake validate
+        env:
+          JEKYLL_ENV: production

@@ -103,7 +103,7 @@ has not been changed since 2008.
 
 * [Revised Final Report](/assets/docs/pelu-report-rev.pdf), that corrects some formatting errors
 * [Final Report](/assets/docs/pelu-report-rev.pdf)
-* [Charter of the Task Force](/assets/docs/pelu-charter.pdf), Council Resolution 132-2007
+* Charter of the Task Force, Council Resolution 132-2007
 
 ## Related Posts
 

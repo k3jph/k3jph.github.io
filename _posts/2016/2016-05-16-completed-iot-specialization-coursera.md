@@ -25,4 +25,4 @@ tags:
   - systems engineering
   - systems science
 ---
-I completed the [Internet of Things specialization](https://www.coursera.org/learn/iot) from the University of California, Irvine, through Coursera.  [I got my certificate](https://www.coursera.org/account/accomplishments/specialization/CLK88WSXRQVQ), screen shotted above, tonight.  Learn more about my capstone project, a high-altitude balloon system, on the [Carme project page](/projects/carme/).
+I completed the [Internet of Things specialization](https://www.coursera.org/learn/iot) from the University of California, Irvine, through Coursera.  [I got my certificate](https://www.coursera.org/account/accomplishments/specialization/CLK88WSXRQVQ), screen shotted above, tonight.  Learn more about my capstone project, a high-altitude balloon system, on the [Carme project page](/tag/carme/).

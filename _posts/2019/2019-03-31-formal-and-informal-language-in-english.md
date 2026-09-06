@@ -36,7 +36,7 @@ The point is, we split our language in different ways to convey
 meaning in different ways. Here's a delightful video summarizing
 the five key registers:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3"><h4><a href="https://www.youtube.com/watch?v=OBqZTWGxMvc">Language Registers Summary</a></h4><p>(null)</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3"><p class="h4"><a href="https://www.youtube.com/watch?v=OBqZTWGxMvc">Language Registers Summary</a></p><p>(null)</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 Now, this is not quite the same as the concept of [code

@@ -18,7 +18,7 @@ tags:
   - developmental psychology
   - eastern philosophy
 ---
-_I've been taking Robert Wright's Cousera course, "[Buddhism and Modern Psychology](https://www.coursera.org/learn/science-of-meditation/)," mostly because I didn't know anything about either.  As Coursera is [great fodder for blog content](https://jameshoward.us/page/2/?s=coursera), here's my essay response to the question,_
+_I've been taking Robert Wright's Cousera course, "[Buddhism and Modern Psychology](https://www.coursera.org/learn/science-of-meditation/)," mostly because I didn't know anything about either.  As Coursera is [great fodder for blog content](/search/?q=coursera), here's my essay response to the question,_
 >  The Buddha offers a specific diagnosis of the suffering that is part of human existence. Explain the Buddha's diagnosis.
 
 The Buddha offers a specific diagnosis that human suffering is a part of human existence and is caused by a human attachment.  This attachment, directed at impermanent states and things, becomes painful when the the state or thing is no longer there.  This diagnosis of suffering and its cause is outlined in the first two of the Four Noble Truths, where the state of suffering is called _dukkha_.  The cause of this suffering is the craving for things and their impermanence, called _samudaya_.  This craving, or thirst, is driven by desire, but the desire returns after the goal has been met. 

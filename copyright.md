@@ -23,4 +23,4 @@ pages. Please refer to those pages for more details.
 ## Contact Information
 
 For permissions beyond the scope of this license, or for inquiries related to
-the copyright of materials on this website, please [contact me](/contact).
+the copyright of materials on this website, please [contact me](/contact-me/).

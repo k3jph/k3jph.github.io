@@ -38,5 +38,5 @@ to measure the line circumscribing a shape. It also performs the
 calculation. The process is beautiful to watch and you can see an
 example here:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0"><h4><a href="https://www.youtube.com/watch?v=KrAnfwCPbks">Integrating with a planimeter</a></h4><p>You can use a planimeter to graph antiderivatives. Here I do antiderivatives of x, sin x, 1/x, and e^x. This is a bonus episode of my video series about calc...</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0"><p class="h4"><a href="https://www.youtube.com/watch?v=KrAnfwCPbks">Integrating with a planimeter</a></p><p>You can use a planimeter to graph antiderivatives. Here I do antiderivatives of x, sin x, 1/x, and e^x. This is a bonus episode of my video series about calc...</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>

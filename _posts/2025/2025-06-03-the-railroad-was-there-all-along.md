@@ -59,7 +59,7 @@ revealed itself to be something else entirely.
                          data-full="/assets/img/ancestry/nsdarw/harry-lee-williams-ww1-draft-card-front.webp" />
                 </div>
                 <div class="content">
-                    <figcaption class="images-caption">Harry Williams World War I draft card (front)</figcaption>
+                    <div class="images-caption">Harry Williams World War I draft card (front)</div>
                 </div>
             </div>
         </figure>
@@ -122,7 +122,7 @@ format to start asking better questions.
                          data-full="/assets/img/ancestry/nsdarw/harry-lee-williams-ww2-draft-card-front.webp" />
                 </div>
                 <div class="content">
-                    <figcaption class="images-caption">Harry Williams World War II draft card (front)</figcaption>
+                    <div class="images-caption">Harry Williams World War II draft card (front)</div>
                 </div>
             </div>
         </figure>

@@ -32,7 +32,7 @@ currency, embedding itself deeply in the public consciousness.
               class="featured-img mx-auto" 
               src="/assets/img/2025/the-lion-and-the-unicorn/Royal_Arms_of_the_Kingdom_of_Scotland.svg" 
               alt="Royal Arms of the Kingdom of Scotland" />
-            <figcaption class="images-caption">Royal Arms of the Kingdom of Scotland</figcaption>
+            <div class="images-caption">Royal Arms of the Kingdom of Scotland</div>
         </div>
       </div>
     </figure>
@@ -66,7 +66,7 @@ today.
               class="featured-img mx-auto" 
               src="{{ '/assets/img/2025/the-lion-and-the-unicorn/MaryQueenofScotsSeal.webp' | cloudflare_image_url: 800 }}"
               alt="The Scottish Lion on first seal of Mary, Queen of Scots" />
-            <figcaption class="images-caption">The Scottish Lion on first seal of Mary, Queen of Scots</figcaption>
+            <div class="images-caption">The Scottish Lion on first seal of Mary, Queen of Scots</div>
         </div>
       </div>
     </figure>
@@ -111,7 +111,7 @@ significance.
               class="featured-img mx-auto" 
               src="/assets/img/2025/the-lion-and-the-unicorn/Royal_Coat_of_Arms_of_the_Kingdom_of_Scotland_(Variant_1).svg" 
               alt="The arms of the Kingdom of Scotland under James VI" />
-            <figcaption class="images-caption">The arms of the Kingdom of Scotland under James VI</figcaption>
+            <div class="images-caption">The arms of the Kingdom of Scotland under James VI</div>
         </div>
       </div>
     </figure>
@@ -154,14 +154,14 @@ described before](/2024/11/03/the-evolution-of-the-royal-arms).
               class="featured-img mx-auto" 
               src="/assets/img/2025/the-lion-and-the-unicorn/arms-james-i-english.svg" 
               alt="The arms of the Kingdom of England under James I and VI" />
-            <figcaption class="images-caption">The arms of the Kingdom of England under James I and VI</figcaption>
+            <div class="images-caption">The arms of the Kingdom of England under James I and VI</div>
         </div>
         <div class="item col-md-6">
           <img 
               class="featured-img mx-auto" 
               src="/assets/img/2025/the-lion-and-the-unicorn/arms-james-i-scottish.svg" 
               alt="The arms of the Kingdom of Scotland under James I and VI" />
-            <figcaption class="images-caption">The arms of the Kingdom of Scotland under James I and VI</figcaption>
+            <div class="images-caption">The arms of the Kingdom of Scotland under James I and VI</div>
         </div>
       </div>
     </figure>
@@ -283,14 +283,14 @@ adapts to context while preserving the identities of both nations.
               class="featured-img mx-auto" 
               src="/assets/img/2025/the-lion-and-the-unicorn/Coat_of_arms_of_the_United_Kingdom_(2022,_variant_2).svg" 
               alt="The arms of the United Kingdom" />
-            <figcaption class="images-caption">The arms of the United Kingdom</figcaption>
+            <div class="images-caption">The arms of the United Kingdom</div>
         </div>
         <div class="item col-md-6">
           <img 
               class="featured-img mx-auto" 
               src="/assets/img/2025/the-lion-and-the-unicorn/Coat_of_arms_of_the_United_Kingdom_in_Scotland.svg" 
               alt="The arms of the United Kingdom in Scotland" />
-            <figcaption class="images-caption">The arms of the United Kingdom in Scotland</figcaption>
+            <div class="images-caption">The arms of the United Kingdom in Scotland</div>
         </div>
       </div>
     </figure>

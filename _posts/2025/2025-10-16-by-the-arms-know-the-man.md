@@ -97,7 +97,7 @@ call it heraldry, but we instinctively understand what it is for.
 
 The OAAA sits comfortably among is siblings socities: [Sons of the American
 Revolution](/ancestry/sar), the [General Society of the War of
-1812](/ancestry/gsw1812), and the [Order of the Founders and Patriots of
+1812](/ancestry/general-society-of-the-war-of-1812/), and the [Order of the Founders and Patriots of
 America](/ancestry/ofpa), and others of that ilk. All draw their appeal from a
 similar source, a desire to locate oneself in a story larger than individual
 striving. These organizations offer a framework of continuity, a link to people

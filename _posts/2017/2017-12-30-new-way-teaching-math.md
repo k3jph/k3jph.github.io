@@ -20,7 +20,7 @@ Mathematics](https://www.umuc.edu/academic-programs/course-information.cfm?cours
 again this spring. The class is a bit different from other mathematics
 courses. We have a rapid fire approach and attack a lot of different
 practical problems. Because of that, I routinely [advise students
-not to take the class](s2014/07/17/teaching-finite-mathematics/).
+not to take the class](/2014/07/17/teaching-finite-mathematics/).
 
 I have taught MATH 106 many times, but this time is different. We
 will be using the new Enhanced Learning Model (ELM) for this class.

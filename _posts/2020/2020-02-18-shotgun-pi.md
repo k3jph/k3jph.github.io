@@ -39,14 +39,14 @@ features. I think this makes it a good candidate for numerical
 programming. So I ported the R example over to Rust, which required
 a bit of work, but was doable. You can see the result here:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article-full"><h4><a href="https://jameshoward.us/2019/01/03/using-rust-on-the-open-science-grid/">Using Rust on the Open Science Grid</a></h4><p>I will admit that the Rust programming language fascinates me. It's got all the things I want in a programming language, that I normally get from C, and also gives me some measure of protection against really screwing up. Not that I do that much...or even have a use for, anymore.</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article-full"><p class="h4"><a href="https://jameshoward.us/2019/01/03/using-rust-on-the-open-science-grid/">Using Rust on the Open Science Grid</a></p><p>I will admit that the Rust programming language fascinates me. It's got all the things I want in a programming language, that I normally get from C, and also gives me some measure of protection against really screwing up. Not that I do that much...or even have a use for, anymore.</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 Of course, there's nothing quite like a physical analog, and this
 physicist decided to use a shotgun to replicate the Monte Carlo
 approach!
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3"><h4><a href="https://www.youtube.com/watch?v=6bq6GKA7vcU">Calculate Pi with a Shotgun</a></h4><p>Support on Patreon: https://www.patreon.com/profkeester?ty=h Subscribe: https://www.youtube.com/user/ProfKeester Inspired by the Physicsgirl and Veritasium, ...</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3"><p class="h4"><a href="https://www.youtube.com/watch?v=6bq6GKA7vcU">Calculate Pi with a Shotgun</a></p><p>Support on Patreon: https://www.patreon.com/profkeester?ty=h Subscribe: https://www.youtube.com/user/ProfKeester Inspired by the Physicsgirl and Veritasium, ...</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 Do not try this at home.

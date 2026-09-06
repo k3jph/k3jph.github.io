@@ -65,7 +65,7 @@ Though her presence in Erie County was humble and undocumented by family lore
 until recent research, it now stands as part of the historical record. Her life
 reflects the resilience of many young women of the period who found work in
 service households as a means of survival and opportunity. Mina later married
-[Charles Franklin Cavender and continued her life in Ohio](/ogs/ffo), raising a
+[Charles Franklin Cavender and continued her life in Ohio](/ancestry/first-families-of-ohio/), raising a
 family that included my maternal grandmother.
 
 *Additional memberships will be added as they are approved.*

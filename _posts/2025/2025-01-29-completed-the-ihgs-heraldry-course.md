@@ -18,7 +18,7 @@ past months, I have worked through the **Heraldry Course** offered by
 the **Institute of Heraldic and Genealogical Studies (IHGS)**, and as of
 this month, I have officially completed the program.
 
-### The IHGS and Its Heraldry Program
+## The IHGS and Its Heraldry Program
 
 The **[Institute of Heraldic and Genealogical Studies
 (IHGS)](https://www.ihgs.ac.uk)**, based in Canterbury, has long been
@@ -36,7 +36,7 @@ The course provides an in-depth exploration of:
 - **Blazoning and terminology** – The precise language used to describe arms.
 - **Heraldic practice in genealogy** – How heraldry informs and supports historical research.
 
-### Progress Toward the Diploma in Heraldry (DipHS)
+## Progress Toward the Diploma in Heraldry (DipHS)
 
 This certification is more than just a standalone achievement. It is a
 key milestone in my broader goal of earning the **Diploma in Heraldry
@@ -47,7 +47,7 @@ foundation for pursuing that next step, and more information about the
 requirements can be found on [The Heraldry Society’s examination
 page](https://www.theheraldrysociety.com/examinations/).
 
-### The Broader Journey in Heraldic Studies
+## The Broader Journey in Heraldic Studies
 
 Beyond the IHGS program, I am also engaged in **the Royal Heraldry
 Society of Canada’s (RHSC) certification program**. [Last year, I
@@ -60,7 +60,7 @@ study. Those interested in learning more about the RHSC’s program can
 find details on [the RHSC
 website](https://www.heraldry.ca/content/pp_intro.php).
 
-### What Comes Next?
+## What Comes Next?
 
 With the **IHGS course complete**, my focus now shifts toward further
 advancing my heraldic studies. That means preparing for the **DipHS

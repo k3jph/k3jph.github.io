@@ -19,7 +19,7 @@ recently proposed legislation that would give the Howard County
 Council the ability to impose a nominal tax on disposable bags.
 The _Sun_ did a write up on it:
 
-<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article-full"><h4><a href="https://www.baltimoresun.com/news/maryland/howard/ph-ho-cf-bag-tax-1122-story.html">Proposal would allow Howard County to impose a plastic bag tax</a></h4><p>Democrat Terri Hill plans to introduce a bill that would allow Howard County to levy a tax on disposable bags. The law exists in Washington, D.C. and Montgomery county. Baltimore City, Prince Georges county and the state legislature have failed to pass their own initiatives.</p></blockquote>
+<blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article-full"><p class="h4"><a href="https://www.baltimoresun.com/news/maryland/howard/ph-ho-cf-bag-tax-1122-story.html">Proposal would allow Howard County to impose a plastic bag tax</a></p><p>Democrat Terri Hill plans to introduce a bill that would allow Howard County to levy a tax on disposable bags. The law exists in Washington, D.C. and Montgomery county. Baltimore City, Prince Georges county and the state legislature have failed to pass their own initiatives.</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 Predictably, this has rankled some people.  The most vocal opposition,
