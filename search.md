@@ -20,7 +20,6 @@ stylesheet: /assets/css/search.css
                 placeholder="Try a name, topic, title, or phrase"
                 autocomplete="off"
                 enterkeyhint="search"
-                aria-describedby="search-help"
                 aria-controls="search-results"
                 data-index-url="{{ '/data/search.json' | relative_url }}"
                 data-limit="50"
@@ -28,13 +27,10 @@ stylesheet: /assets/css/search.css
                 data-delay="350">
             <button type="reset" id="search-clear" class="search-clear" hidden>Clear</button>
         </div>
-        <div class="search-options">
-            <p id="search-help" class="search-help">Search blog posts, Ancestry research, and the rest of the site.</p>
-            <label class="search-fuzzy-option" for="search-fuzzy">
-                <input type="checkbox" id="search-fuzzy" name="fuzzy" value="1">
-                <span>Fuzzy matching <small>(find close spellings)</small></span>
-            </label>
-        </div>
+        <label class="search-fuzzy-option" for="search-fuzzy">
+            <input type="checkbox" id="search-fuzzy" name="fuzzy" value="1">
+            <span>Fuzzy matching <small>(find close spellings)</small></span>
+        </label>
     </form>
 
     <div class="search-feedback">
