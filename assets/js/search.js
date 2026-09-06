@@ -3,6 +3,7 @@
 
     const form = document.querySelector("#search-form");
     const input = document.querySelector("#search-input");
+    const fuzzyCheckbox = document.querySelector("#search-fuzzy");
     const clearButton = document.querySelector("#search-clear");
     const retryButton = document.querySelector("#search-retry");
     const status = document.querySelector("#search-status");
@@ -11,7 +12,7 @@
     const emptyMessage = document.querySelector("#search-empty");
     const failureMessage = document.querySelector("#search-failure");
 
-    if (!form || !input || !clearButton || !retryButton || !status || !filters || !results || !emptyMessage || !failureMessage) {
+    if (!form || !input || !fuzzyCheckbox || !clearButton || !retryButton || !status || !filters || !results || !emptyMessage || !failureMessage) {
         return;
     }
 
@@ -27,7 +28,8 @@
     });
 
     let searchIndex = [];
-    let fuse;
+    let exactFuse;
+    let fuzzyFuse;
     let currentResults = [];
     let activeType = "All";
     let debounceTimer;
@@ -38,6 +40,7 @@
         results.setAttribute("aria-busy", state === "loading" ? "true" : "false");
         failureMessage.hidden = state !== "failure";
         emptyMessage.hidden = state !== "empty";
+        fuzzyCheckbox.disabled = state === "loading" || state === "failure";
 
         if (state === "failure" || state === "loading" || state === "idle") {
             filters.hidden = true;
@@ -48,7 +51,12 @@
         return new URLSearchParams(window.location.search).get("q") || "";
     }
 
-    function updateUrl(query) {
+    function fuzzyFromUrl() {
+        const value = new URLSearchParams(window.location.search).get("fuzzy");
+        return value === "1" || value === "true";
+    }
+
+    function updateUrl(query, fuzzyEnabled) {
         if (!window.history || !window.history.replaceState) {
             return;
         }
@@ -58,6 +66,11 @@
             url.searchParams.set("q", query);
         } else {
             url.searchParams.delete("q");
+        }
+        if (query && fuzzyEnabled) {
+            url.searchParams.set("fuzzy", "1");
+        } else {
+            url.searchParams.delete("fuzzy");
         }
         window.history.replaceState({}, "", url);
     }
@@ -82,6 +95,50 @@
             }
             return merged;
         }, []);
+    }
+
+    function queryRanges(text, query) {
+        const safeText = text || "";
+        const normalizedText = safeText.toLocaleLowerCase();
+        const seenTerms = new Set();
+        const terms = query
+            .trim()
+            .split(/\s+/)
+            .map((term) => term.replace(/^["'“”]+|["'“”]+$/g, ""))
+            .filter((term) => {
+                const normalizedTerm = term.toLocaleLowerCase();
+                if (!term || seenTerms.has(normalizedTerm)) {
+                    return false;
+                }
+                seenTerms.add(normalizedTerm);
+                return true;
+            });
+        const ranges = [];
+
+        function isWordCharacter(character) {
+            return Boolean(character && /[\p{L}\p{N}_]/u.test(character));
+        }
+
+        terms.forEach((term) => {
+            const normalizedTerm = term.toLocaleLowerCase();
+            let cursor = 0;
+
+            while (cursor < normalizedText.length) {
+                const matchStart = normalizedText.indexOf(normalizedTerm, cursor);
+                if (matchStart === -1) {
+                    break;
+                }
+                const matchEnd = matchStart + term.length;
+                const startsInsideWord = isWordCharacter(normalizedTerm[0]) && isWordCharacter(normalizedText[matchStart - 1]);
+                const endsInsideWord = isWordCharacter(normalizedTerm[normalizedTerm.length - 1]) && isWordCharacter(normalizedText[matchEnd]);
+                if (!startsInsideWord && !endsInsideWord) {
+                    ranges.push([matchStart, matchEnd - 1]);
+                }
+                cursor = matchStart + Math.max(term.length, 1);
+            }
+        });
+
+        return ranges;
     }
 
     function highlightedFragment(text, ranges, start, end) {
@@ -168,7 +225,7 @@
         };
     }
 
-    function createResult(searchResult) {
+    function createResult(searchResult, query) {
         const item = searchResult.item;
         const listItem = document.createElement("li");
         const article = document.createElement("article");
@@ -177,15 +234,16 @@
         const metadata = document.createElement("p");
         const type = document.createElement("span");
         const excerpt = document.createElement("p");
-        const titleRanges = matchingRanges(searchResult, "title");
-        const contentRanges = matchingRanges(searchResult, "content");
-        const bounds = excerptBounds(item.content || "", contentRanges);
+        const contentMatchRanges = matchingRanges(searchResult, "content");
+        const titleHighlightRanges = queryRanges(item.title || "Untitled", query);
+        const contentHighlightRanges = queryRanges(item.content || "", query);
+        const bounds = excerptBounds(item.content || "", contentHighlightRanges.length ? contentHighlightRanges : contentMatchRanges);
 
         listItem.className = "search-result";
         article.className = "search-result-card";
         title.className = "search-result-title";
         link.href = item.uri;
-        link.append(highlightedFragment(item.title || "Untitled", titleRanges, 0, (item.title || "Untitled").length));
+        link.append(highlightedFragment(item.title || "Untitled", titleHighlightRanges, 0, (item.title || "Untitled").length));
         title.append(link);
 
         metadata.className = "search-result-meta";
@@ -208,7 +266,7 @@
         }
 
         excerpt.className = "search-result-excerpt";
-        excerpt.append(highlightedFragment(item.content || "", contentRanges, bounds[0], bounds[1]));
+        excerpt.append(highlightedFragment(item.content || "", contentHighlightRanges, bounds[0], bounds[1]));
 
         article.append(title, metadata, excerpt);
         listItem.append(article);
@@ -249,17 +307,18 @@
             ? currentResults
             : currentResults.filter((result) => result.item.type === activeType);
         const visibleResults = filteredResults.slice(0, resultLimit);
+        const matchMode = fuzzyCheckbox.checked ? "fuzzy " : "exact ";
         const typeContext = activeType === "All" ? "" : `${activeType} `;
         const resultNoun = filteredResults.length === 1 ? "result" : "results";
 
         if (!filteredResults.length) {
-            setInterfaceState("empty", `No ${typeContext}results found for “${query}”.`);
+            setInterfaceState("empty", `No ${matchMode}${typeContext}results found for “${query}”.`);
             filters.hidden = currentResults.length === 0;
             return;
         }
 
         const fragment = document.createDocumentFragment();
-        visibleResults.forEach((result) => fragment.append(createResult(result)));
+        visibleResults.forEach((result) => fragment.append(createResult(result, query)));
         results.append(fragment);
         emptyMessage.hidden = true;
 
@@ -268,7 +327,7 @@
             : "";
         setInterfaceState(
             "results",
-            `${filteredResults.length.toLocaleString("en-US")} ${typeContext}${resultNoun} for “${query}”.${limitContext}`
+            `${filteredResults.length.toLocaleString("en-US")} ${matchMode}${typeContext}${resultNoun} for “${query}”.${limitContext}`
         );
         filters.hidden = false;
     }
@@ -276,13 +335,14 @@
     function runSearch(options) {
         const settings = Object.assign({ updateHistory: true, resetType: true }, options);
         const query = input.value.trim();
+        const fuzzyEnabled = fuzzyCheckbox.checked;
 
         clearButton.hidden = query.length === 0;
         if (settings.updateHistory) {
-            updateUrl(query);
+            updateUrl(query, fuzzyEnabled);
         }
 
-        if (!fuse) {
+        if (!exactFuse || !fuzzyFuse) {
             return;
         }
 
@@ -298,7 +358,7 @@
         if (settings.resetType) {
             activeType = "All";
         }
-        currentResults = fuse.search(query);
+        currentResults = (fuzzyEnabled ? fuzzyFuse : exactFuse).search(query);
         updateFilters(currentResults);
         displayResults(query);
     }
@@ -335,16 +395,20 @@
             if (!searchIndex.length) {
                 throw new Error("Search index contains no usable entries.");
             }
-            fuse = new window.Fuse(searchIndex, {
+            const commonFuseOptions = {
                 keys: [
                     { name: "title", weight: 5 },
                     { name: "content", weight: 1 }
                 ],
-                useExtendedSearch: true,
                 includeMatches: true,
-                ignoreLocation: true,
-                threshold: 0.1
-            });
+                ignoreLocation: true
+            };
+            exactFuse = new window.Fuse(searchIndex, Object.assign({}, commonFuseOptions, {
+                threshold: 0
+            }));
+            fuzzyFuse = new window.Fuse(searchIndex, Object.assign({}, commonFuseOptions, {
+                threshold: 0.15
+            }));
 
             runSearch({ updateHistory: false });
         } catch (error) {
@@ -370,6 +434,11 @@
 
     input.addEventListener("input", scheduleSearch);
 
+    fuzzyCheckbox.addEventListener("change", () => {
+        window.clearTimeout(debounceTimer);
+        runSearch();
+    });
+
     filters.addEventListener("click", (event) => {
         const button = event.target.closest("[data-search-type]");
         if (!button || button.disabled) {
@@ -385,10 +454,12 @@
 
     window.addEventListener("popstate", () => {
         input.value = queryFromUrl();
+        fuzzyCheckbox.checked = fuzzyFromUrl();
         runSearch({ updateHistory: false });
     });
 
     input.value = queryFromUrl();
+    fuzzyCheckbox.checked = fuzzyFromUrl();
     clearButton.hidden = input.value.trim().length === 0;
     loadSearchIndex();
 })(document, window);

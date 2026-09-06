@@ -28,7 +28,13 @@ stylesheet: /assets/css/search.css
                 data-delay="350">
             <button type="reset" id="search-clear" class="search-clear" hidden>Clear</button>
         </div>
-        <p id="search-help" class="search-help">Search blog posts, Ancestry research, and the rest of the site.</p>
+        <div class="search-options">
+            <p id="search-help" class="search-help">Search blog posts, Ancestry research, and the rest of the site.</p>
+            <label class="search-fuzzy-option" for="search-fuzzy">
+                <input type="checkbox" id="search-fuzzy" name="fuzzy" value="1">
+                <span>Fuzzy matching <small>(find close spellings)</small></span>
+            </label>
+        </div>
     </form>
 
     <div class="search-feedback">
