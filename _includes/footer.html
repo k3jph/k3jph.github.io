@@ -4,7 +4,7 @@
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-6">
                 <div class="info">
                     <h2 class="title">Other Sites</h2>
-                    <nav>
+                    <nav aria-label="Other sites">
                         <ul>
                             {% for item in site.data.settings.other_sites %}
                             <li><a href="{{ item.url }}" target="{{ item.target }}">{{ item.title }}</a></li>
@@ -44,7 +44,7 @@
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
               <div class="info">
                 <h2 class="title">Follow me on</h2>
-                    <nav>
+                    <nav aria-label="Social media">
                         <div class="row">
                             <ul class="social-media-menu">
                                 {% for item in site.data.settings.social_media %}

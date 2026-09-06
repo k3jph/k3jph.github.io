@@ -3,9 +3,15 @@ layout: null
 sitemap: false
 ---
 [
+{% comment %}
+The search corpus intentionally includes published blog posts, Ancestry entries,
+and ordinary site pages. Items explicitly marked published: false, sitemap: false,
+or search: false are excluded, which also keeps redirects, generated indexes, and
+search infrastructure out of the index.
+{% endcomment %}
 {% assign first = true %}
 {% for post in site.posts %}
-    {% unless post.published == false or post.sitemap == false %}
+    {% unless post.published == false or post.sitemap == false or post.search == false %}
         {% if first %}
             {% assign first = false %}
         {% else %}
@@ -13,15 +19,33 @@ sitemap: false
         {% endif %}
     {
         "title":   {{ post.title | markdownify | strip_html | normalize_whitespace | jsonify }},
-        "uri":     "{{ post.url }}",
-        "date":    "{{ post.date | date: '%b %d, %Y' }}",
+        "uri":     {{ post.url | jsonify }},
+        "type":    "Blog",
+        "date":    {{ post.date | date: '%Y-%m-%d' | jsonify }},
         "content": {{ post.content | markdownify | strip_html | normalize_whitespace | jsonify }}
     }
     {% endunless %}
 {% endfor %}
 
+{% for entry in site.ancestry %}
+    {% unless entry.published == false or entry.sitemap == false or entry.search == false %}
+        {% if first %}
+            {% assign first = false %}
+        {% else %}
+            ,
+        {% endif %}
+    {
+        "title":   {{ entry.title | markdownify | strip_html | normalize_whitespace | jsonify }},
+        "uri":     {{ entry.url | jsonify }},
+        "type":    "Ancestry",
+        "date":    null,
+        "content": {{ entry.content | markdownify | strip_html | normalize_whitespace | jsonify }}
+    }
+    {% endunless %}
+{% endfor %}
+
 {% for page in site.pages %}
-    {% unless page.published == false or page.sitemap == false %}
+    {% unless page.published == false or page.sitemap == false or page.search == false %}
         {% if first %}
             {% assign first = false %}
         {% else %}
@@ -29,8 +53,9 @@ sitemap: false
         {% endif %}
     {
         "title":   {{ page.title | markdownify | strip_html | normalize_whitespace | jsonify }},
-        "uri":     "{{ page.url }}",
-        "date":    "{{ page.date | date: '%b %d, %Y' }}",
+        "uri":     {{ page.url | jsonify }},
+        "type":    "Page",
+        "date":    null,
         "content": {{ page.content | markdownify | strip_html | normalize_whitespace | jsonify }}
     }
     {% endunless %}

@@ -1,0 +1,25 @@
+---
+layout: base
+---
+
+<header class="section section-header-blog search-hero">
+    <div class="parallax filter filter-color-black">
+        {% include cloudflare_image.html image="header-home.webp" preset="header" class="featured-bg" alt="" %}
+        <div class="container">
+            <div class="content">
+                <h1>{{ page.title }}</h1>
+                <p class="search-hero-subtitle">{{ page.subtitle }}</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="section search-page" id="main-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-12">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</main>
