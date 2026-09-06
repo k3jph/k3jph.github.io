@@ -1,0 +1,48 @@
+.software-introduction {
+  font-size: 1.12em;
+}
+
+.software-project {
+  border-top: 1px solid #d0cdbc;
+  padding: 1.75rem 0 1.4rem;
+}
+
+.software-project h3 {
+  margin: 0 0 0.3rem;
+}
+
+.software-project-meta {
+  color: #555;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  margin: 0 0 0.75rem;
+}
+
+.software-project-status {
+  color: #154c9e;
+  font-weight: 700;
+}
+
+.software-project-links {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.94em;
+  margin-bottom: 0;
+}
+
+.software-archive-note {
+  border-left: 3px solid #f3dd78;
+  color: #555;
+  margin: 2rem 0 0;
+  padding: 0.4rem 0 0.4rem 1rem;
+}
+
+@media (max-width: 767px) {
+  .software-project {
+    padding: 1.35rem 0 1.2rem;
+  }
+
+  .software-project-meta,
+  .software-project-links {
+    line-height: 1.65;
+  }
+}
