@@ -6,29 +6,30 @@ layout: page
 guid: contact-me
 ---
 
-<form action="https://formspree.io/xzbawrpg" method="POST">
+<form action="https://formspree.io/xzbawrpg" method="POST" aria-label="Contact James Howard">
   <div class="row">
     <div class="col-md-4">
       <div class="form-group">
-        <label>Your Full Name</label>
-        <input type="text" name="name" value="" placeholder="John Doe" class="form-control form-control-plain">
+        <label for="contact-name">Your Full Name</label>
+        <input id="contact-name" type="text" name="name" value="" autocomplete="name" placeholder="John Doe" class="form-control form-control-plain">
       </div>
     </div>
     <div class="col-md-4">
       <div class="form-group">
-        <label>Your Email</label>
-        <input type="text" name="email" value="" placeholder="john.doe@example.com" class="form-control form-control-plain">
+        <label for="contact-email">Your Email</label>
+        <input id="contact-email" type="email" name="email" value="" autocomplete="email" placeholder="john.doe@example.com" class="form-control form-control-plain">
       </div>
     </div>
     <div class="col-md-4">
       <div class="form-group">
-        <label>Subject</label>
-        <input type="text" name="subject" value="" placeholder="Say hi to me" class="form-control form-control-plain">
+        <label for="contact-subject">Subject</label>
+        <input id="contact-subject" type="text" name="subject" value="" placeholder="Say hi to me" class="form-control form-control-plain">
       </div>
     </div>
     <div class="col-md-12">
       <div class="form-group">
-        <textarea name="content" class="form-control form-control-plain" placeholder="Here you can write your nice text" rows="8"></textarea>
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" name="content" class="form-control form-control-plain" rows="8"></textarea>
       </div>
       <div>
         <div class="col-md-2 col-md-offset-5">
