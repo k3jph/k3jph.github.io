@@ -7,10 +7,40 @@ permalink: /software
 featured_image: /assets/img/software-banner.webp
 menu-order:     41
 menu-label:     Software
+stylesheet: /assets/css/software.css
 ---
-At [Miami](https://www.miamioh.edu/), I expected to study computer science.  I switched to mathematics after I got to [Maryland](http://www.umd.edu), but I had developed a decent set of software development skills.  I have written many, many programs.  Most of them were one-off and not worth mentioning.  Some of them were awarded a longer life and those I have posted to [GitHub](https://github.com/k3jph/) over the years.  
+<div class="software-introduction">
 
-Generally, I create software in the [Unix](http://www.unix.org/) tradition, this is, do one thing and do it well.  I have been a BSD user since about 1996.  BSD, like Linux, is a free Unix-like system but is constructed as a comprehensive system rather than cobbled together from parts.  This gives the BSD-based systems many advantages, and my platform of choice, these days, is MacOS X on the desktop and FreeBSD on the server.  One of the most interesting software projects I have here is [FreeGrep](https://github.com/howardjp/freegrep), a BSD-licensed implementation of the grep pattern matching suite.
+I have been writing software since Unix boxes were considerably more annoying.
+Some of it solves real problems; some of it exists because I wanted to know
+whether the idea would work. The distinction is often less tidy than it sounds.
 
-Now, most of my code projects support my [data science](/scholarship/) habit. I have written a few packages in R for [record linking](https://github.com/howardjp/phonics) and [financial waterfall charts](https://github.com/howardjp/waterfall).  These all follow the same design principles of doing one thing and doing it well.
+The projects below include applications, research software, developer tools,
+interactive experiments, and a long trail of Unix and BSD work. They are not a
+repository feed. They are the pieces that have earned an explanation: because
+they are current, still useful, published, historically consequential, or just
+too interesting to leave on an old Zip disk.
 
+</div>
+
+## Current Projects
+
+{% include software-projects.html projects=site.data.software.current %}
+
+## Maintained and Stable Research Software
+
+{% include software-projects.html projects=site.data.software.maintained %}
+
+The scholarly citations for `phonics` live in [Selected Work](/scholarship/).
+This page is where the packages themselves live: what they do, where to find
+them, and why they were built.
+
+## From the Archive
+
+{% include software-projects.html projects=site.data.software.archive %}
+
+<p class="software-archive-note">I studied mathematics rather than computer
+science after arriving at Maryland, but I never stopped writing programs. The
+older work reflects a durable preference for small tools with clear jobs, a
+great deal of BSD and Unix influence, and the useful habit of keeping the code
+around after the immediate reason for it has passed.</p>
