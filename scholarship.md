@@ -1,6 +1,6 @@
 ---
 id: 7357
-title: Scholarship Philosophy
+title: Selected Work
 date: 2020-04-02T10:10:16-04:00
 author: James Howard
 layout: page
@@ -11,73 +11,58 @@ menu-label:     Scholarship
 credits: _Image by [Michael D Beckwith / Flickr](https://www.flickr.com/photos/118118485@N05/16468895996)._
 ---
 
-My research philosophy is firmly grounded in the use of statistical
-methods and data analysis to inform decision-making and enhance
-public welfare. I strongly believe that a thorough understanding
-of risk and the ability to predict outcomes are crucial for ensuring
-public safety and national security, particularly in the face of
-complex challenges such as extreme weather events and the far-reaching
-impact of global climate change.
+The work collected here begins with a fairly ordinary question: what is this
+system doing, and what follows if it behaves that way? The systems are not
+ordinary. They have included disease surveillance, flood insurance, satellite
+populations, blockchains, education, military operations, and artificial
+intelligence. The methods change with the problem, but the underlying task is
+usually the same: build a model that is honest about its assumptions, then make
+it useful to someone who has to decide what to do.
 
-Throughout my academic journey, my dissertation research focused
-on investigating the policy, economic, and social implications of
-the National Flood Insurance Program (NFIP) and the Flood Mitigation
-Assistance (FMA) programs. This in-depth exploration underscored
-the significance of applying statistical methods to government
-initiatives and public policy matters. By delving into the complexities
-of the NFIP, a Federal insurance program with a staggering $1
-trillion coverage, which provides flood insurance in regions where
-private alternatives are scarce, my research shed light on the
-inherent challenges and opportunities associated with such programs.
-The findings emphasized the critical importance of effective risk
-management strategies in mitigating the impact of floods.
+That is why the record is broad without being random. A disease model and an
+inspection system both have capacity constraints. A blockchain proposal and a
+flood-insurance program both have governance problems. A piece of numerical
+software and an online mathematics course both fail if the machinery works but
+the person using it cannot tell what it means. The selected work below is a way
+into those recurring questions; the complete record remains below it for anyone
+who needs the citations.
 
-Building upon this foundational research, my work has evolved to
-span multiple disciplines, including science, policy, and technology.
-Guided by the needs of those around me, I actively seek opportunities
-to apply statistical methods in diverse areas to address real-world
-challenges. My expertise has been instrumental in conducting risk
-analyses of flood insurance, developing models to track and forecast
-the population of Earth-orbiting satellites, predicting disruptive
-events, and advancing our understanding of small business cybersecurity.
-In each of these domains, my aim has been to leverage statistical
-training and methodologies to make meaningful contributions towards
-solving complex problems.
+## Selected Work
 
-As a researcher, I embrace agility and adaptability. I firmly believe
-that adopting a multidisciplinary approach enables me to make
-significant contributions across various fields and tackle intricate
-issues from multiple perspectives. By actively collaborating with
-experts from different disciplines, I continually expand my knowledge
-and explore new avenues of inquiry.
+### Forecasting, Artificial Intelligence, and Complex Systems
 
-The value of disseminating research findings to a wide audience is
-deeply ingrained in my work. I am passionate about sharing knowledge
-and fostering interdisciplinary collaboration to advance scientific
-understanding and generate practical solutions for real-world
-problems. My dedication to this principle is evident in my authorship
-of books and edited volumes, which serve to make research accessible
-to diverse audiences. Moreover, I actively seek opportunities to
-engage with fellow researchers, policymakers, and the general public
-to promote dialogue, foster innovation, and drive positive societal
-change.
+**[Crystal Cube: Forecasting Disruptive Events](https://doi.org/10.1080/08839514.2021.2001179)** (2021, with Anna L. Buczak and colleagues), _Applied Artificial Intelligence_.  Crystal Cube treated disruption forecasting as a practical systems problem: combine disparate signals, make the model useful, and confront the difference between a prediction and an operational decision.
 
-In essence, my research philosophy revolves around the application
-of data-driven analysis and critical thinking to support evidence-based
-decision-making and enhance public welfare. Through the application
-of statistical methods to a wide range of issues, I am committed
-to cultivating a comprehensive understanding of the world and making
-a positive impact on society. Whether addressing public health
-concerns, global security challenges, or advancements in space
-science, my unwavering dedication to advancing knowledge and utilizing
-it to effect meaningful change drives me to contribute to a better
-future for all.
+**[Agent-Based Modeling for Evaluation of a Wearable-Sensor-Based Disease Surveillance Network](https://spie.org/defense-commercial-sensing/presentation/Agent-based-modeling-for-evaluation-of-a-wearable-sensor-based/12548-14)** (2023, with Ivan Stanish and colleagues), SPIE Defense + Commercial Sensing.  This work used agent-based modeling to ask whether a disease-surveillance network could detect what it claimed to detect before the system was treated as an answer in search of a problem.
 
-## Publications and Presentations 
+**[Forecasting Artificial Earth Satellite Populations](/2018/07/30/forecasting-artificial-earth-satellite-populations/)** (2018), Joint Statistical Meetings.  Satellite populations are a small example of a larger habit: find the mechanism behind a number that looks simple, then model the mechanism rather than merely extrapolating the number.
+
+### Risk, Policy, and Operational Decisions
+
+**[Socioeconomic Effects of the National Flood Insurance Program](/se-nfip)** (2016).  This book grew from research on the policy, economic, and social consequences of a federal insurance program that exists precisely because risk refuses to stay inside a spreadsheet. It remains the clearest single record of the public-policy side of this work.
+
+**[Handbook of Military and Defense Operations Research](/mdor)** (2nd ed., 2024, co-editor with Natalie M. Scala).  Operations research is what happens when good intentions encounter limited time, limited resources, and a decision that cannot be postponed. This volume brings together work on those problems in defense and security settings.
+
+**[Mixed Reality for Post-Disaster Situational Awareness](https://www.jhuapl.edu/Content/techdigest/pdf/V35-N03/35-03-Howard.pdf)** (2020, with Arthur O. Tucker IV and colleagues), _Johns Hopkins APL Technical Digest_.  A post-disaster system has to make information usable under conditions that are actively hostile to usability. The work joined sensing, visualization, and response rather than treating any one of them as sufficient.
+
+### Mathematics, Statistics, and Scientific Computing
+
+**[Computational Methods for Numerical Analysis with R](/cmna)** (2017).  Numerical analysis becomes much more interesting when the computation is visible. This book uses R not as decorative software around mathematics, but as a way to make approximation, error, and algorithmic choices concrete.
+
+**[Phonetic Spelling Algorithm Implementations for R](https://www.jstatsoft.org/article/view/v095i08)** (2020), _Journal of Statistical Software_.  A scholarly software paper on the `phonics` R package, which implements phonetic algorithms for record linkage and related work. It is a good example of software treated as a method that should be inspectable, reusable, and citable.
+
+**[Phonetic Algorithms in R](/2018/02/14/phonics-joss-version-1-0-0-released/)** (2018), _Journal of Open Source Software_.  The earlier JOSS paper records the same project at the point where the code became a public research object rather than merely something useful on one machine.
+
+### Quantitative Learning and Technical Communication
+
+**[Teaching and Learning Mathematics Online](/tlmo)** (2nd ed., 2025, co-editor with John F. Beyers).  Online mathematics education is not a matter of putting a textbook behind a login screen. The work in this volume concerns what students can actually do, see, test, and explain when the classroom is distributed.
+
+**[Teaching STEM Online at the Tertiary Level During the COVID-19 Pandemic](https://doi.org/10.1080/0020739X.2021.1954251)** (2023, with Mina Sedaghatjou and colleagues), _International Journal of Mathematical Education in Science and Technology_.  The pandemic forced the question in real time: which parts of technical teaching are genuinely portable, and which have to be redesigned when the room disappears?
+
+## Complete Scholarly Record
 
 {% include_relative _includes/pubs.md %}
 
-## Grants and Support
+### Grants and Research Support
 
 {% include_relative _includes/grants.md %}
-
