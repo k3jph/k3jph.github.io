@@ -31,16 +31,12 @@
   const rand    = (min, max) => min + Math.random() * (max - min);
   const randInt = (min, max) => Math.floor(rand(min, max));
 
-  // ----- Logo handling (create one <img>; only the chosen image downloads) -----
+  // ----- Logo handling (swap the existing <img> source) -----
   function showCorrectLogo(isHalloween) {
-    const container = document.getElementById("seasonal-logo");
-    if (!container) return;
-    const logo = document.createElement("img");
-    logo.className = "img-responsive pl-5";
-    logo.alt = "James Howard coat of arms";
+    const logo = document.getElementById("seasonal-logo");
+    if (!logo) return;
     logo.style.width = isHalloween ? "65%" : "80%";
-    logo.src = isHalloween ? container.dataset.halloweenSrc : container.dataset.defaultSrc;
-    container.appendChild(logo);
+    logo.src = isHalloween ? logo.dataset.halloweenSrc : logo.dataset.defaultSrc;
   }
 
   // ----- Decorations -----
@@ -181,7 +177,7 @@
   document.addEventListener("DOMContentLoaded", () => {
     const isHalloween = DATE_WINDOW();
 
-    // Logo: pick exactly one; only that one downloads
+    // Logo: swap the source and preserve the direct flex-child sizing
     showCorrectLogo(isHalloween);
 
     if (!isHalloween) return; // no decorations out of season
