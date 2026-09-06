@@ -160,13 +160,6 @@
   box-shadow: 0 6px 14px rgb(0 0 0 / 28%);
 }
 
-.gdpr-cookie a:focus-visible,
-.gdpr-cookie .gdpr-cookie__button:focus-visible,
-[data-cookie-preferences]:focus-visible {
-  outline: 3px solid var(--gdpr-cookie-focus);
-  outline-offset: 3px;
-}
-
 @media (max-width: 767px) {
   .gdpr-cookie {
     padding: 1rem;

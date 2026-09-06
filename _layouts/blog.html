@@ -15,11 +15,11 @@ sitemap:
 <div class="card card-blog card-plain">
   <div class="row">
     <div class="col-md-3">
-      <a href="{{ post.permalink | relative_url }}" class="header">
+      <a href="{{ post.permalink | relative_url }}" class="header" aria-label="Read {{ post.title | escape }}">
         {% if post.featured_image %}
           {% include cloudflare_image.html image=post.featured_image preset="thumbnail" class="image-header" alt=post.title %}
         {% else %}
-          <img src="/assets/img/identity/kamon-info.svg" class="image-header" alt="Site symbol" />
+          <img src="/assets/img/identity/kamon-info.svg" class="image-header" alt="" />
         {% endif %}
       </a>
     </div>
@@ -46,7 +46,7 @@ sitemap:
 <div class="row">
   <div class="col-md-4 text-left">
     {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">
+    <a href="{{ paginator.previous_page_path }}" class="previous" aria-label="Newer posts">
       <div class="info-icon">
         <div class="icon text-info">
           <i class="pe-7s-left-arrow"></i>
@@ -64,7 +64,7 @@ sitemap:
   </div>
   <div class="col-md-4 text-right">
     {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">
+    <a href="{{ paginator.next_page_path }}" class="next" aria-label="Older posts">
       <div class="info-icon">
         <div class="icon text-info">
           <i class="pe-7s-right-arrow"></i>

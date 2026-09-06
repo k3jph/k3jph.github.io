@@ -10,11 +10,11 @@
             {% for post in posts %}
             <div class="item col-md-4">
                 <div class="card card-blog">
-                    <a href="{{ post.permalink | relative_url }}" class="header">
+                    <a href="{{ post.permalink | relative_url }}" class="header" aria-label="Read {{ post.title | escape }}">
                         {% if post.featured_image %}
                             {% include cloudflare_image.html image=post.featured_image preset="thumbnail" class="image-header" alt=post.title %}
                         {% else %}
-                            <img src="/assets/img/identity/kamon-info.svg" class="image-header" alt="Site symbol" />
+                            <img src="/assets/img/identity/kamon-info.svg" class="image-header" alt="" />
                         {% endif %}
                     </a>
                     <div class="content">

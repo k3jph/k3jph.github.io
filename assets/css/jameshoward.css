@@ -512,3 +512,71 @@ body {
 .article-body--after-featured .content-blog {
   padding-top: 0;
 }
+
+/*
+ * Give keyboard users a consistent, high-contrast focus indicator across
+ * light and dark sections. The gold inner ring and blue outer ring remain
+ * visible when either color matches the surrounding component.
+ */
+:is(
+  a[href],
+  area[href],
+  button:not([disabled]),
+  input:not([disabled]),
+  select:not([disabled]),
+  textarea:not([disabled]),
+  summary,
+  [contenteditable="true"],
+  [tabindex]:not([tabindex="-1"])
+):focus {
+  outline: 3px solid #feefa8 !important;
+  outline-offset: 3px !important;
+  box-shadow: 0 0 0 6px #154c9e !important;
+}
+
+@supports selector(:focus-visible) {
+  :is(
+    a[href],
+    area[href],
+    button:not([disabled]),
+    input:not([disabled]),
+    select:not([disabled]),
+    textarea:not([disabled]),
+    summary,
+    [contenteditable="true"],
+    [tabindex]:not([tabindex="-1"])
+  ):focus:not(:focus-visible) {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.skip-link {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: 10000;
+  padding: 12px 18px;
+  border: 2px solid #feefa8;
+  border-radius: 3px;
+  background: #ffffff;
+  color: #154c9e;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  transform: translate(-50%, -150%);
+  transition: transform 120ms ease-in-out;
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  color: #154c9e;
+  transform: translate(-50%, 12px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skip-link {
+    transition: none;
+  }
+}
