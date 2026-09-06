@@ -580,3 +580,9 @@ body {
     transition: none;
   }
 }
+
+/* Keep contact-form text clear of the field edge and focus indicator. */
+.contact-page-form .form-control-plain {
+  padding-right: 10px;
+  padding-left: 10px;
+}
