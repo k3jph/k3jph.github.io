@@ -33,7 +33,7 @@ who needs the citations.
 
 **[Crystal Cube: Forecasting Disruptive Events](https://doi.org/10.1080/08839514.2021.2001179)** (2021, with Anna L. Buczak and colleagues), _Applied Artificial Intelligence_.  Crystal Cube treated disruption forecasting as a practical systems problem: combine disparate signals, make the model useful, and confront the difference between a prediction and an operational decision.
 
-**[Agent-Based Modeling for Evaluation of a Wearable-Sensor-Based Disease Surveillance Network](https://spie.org/defense-commercial-sensing/presentation/Agent-based-modeling-for-evaluation-of-a-wearable-sensor-based/12548-14)** (2023, with Ivan Stanish and colleagues), SPIE Defense + Commercial Sensing.  This work used agent-based modeling to ask whether a disease-surveillance network could detect what it claimed to detect before the system was treated as an answer in search of a problem.
+**[Agent-Based Modeling for Evaluation of a Wearable-Sensor-Based Disease Surveillance Network](https://spie.org/defense-commercial-sensing/presentation/Agent-based-modeling-for-evaluation-of-a-wearable-sensor-based/12548-14)** (2023, with Ivan Stanish and colleagues), SPIE Defense + Commercial Sensing.  This work used agent-based modeling to ask whether a disease-surveillance network could detect what it claimed to detect under realistic operating assumptions.
 
 **[Forecasting Artificial Earth Satellite Populations](/2018/07/30/forecasting-artificial-earth-satellite-populations/)** (2018), Joint Statistical Meetings.  Satellite populations are a small example of a larger habit: find the mechanism behind a number that looks simple, then model the mechanism rather than merely extrapolating the number.
 
@@ -51,7 +51,7 @@ who needs the citations.
 
 **[Phonetic Spelling Algorithm Implementations for R](https://www.jstatsoft.org/article/view/v095i08)** (2020), _Journal of Statistical Software_.  A scholarly software paper on the `phonics` R package, which implements phonetic algorithms for record linkage and related work. It is a good example of software treated as a method that should be inspectable, reusable, and citable.
 
-**[Phonetic Algorithms in R](/2018/02/14/phonics-joss-version-1-0-0-released/)** (2018), _Journal of Open Source Software_.  The earlier JOSS paper records the same project at the point where the code became a public research object rather than merely something useful on one machine.
+**[Blockchain Compliance with Federal Cryptographic Information Processing Standards](https://ieeexplore.ieee.org/document/8965252)** (2020, with Maria E. Vachino), _IEEE Security & Privacy_.  This paper asks the unglamorous but necessary question behind a technical proposal: whether a blockchain design can satisfy the standards and governance requirements of the system it is supposed to serve.
 
 ### Quantitative Learning and Technical Communication
 
