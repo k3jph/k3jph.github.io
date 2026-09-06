@@ -1,0 +1,14 @@
+{% for project in include.projects %}
+<article class="software-project">
+  <header>
+    <h3>{{ project.name }}</h3>
+    <p class="software-project-meta"><span class="software-project-status">{{ project.status }}</span> · {{ project.period }} · {{ project.technology }}</p>
+  </header>
+  <p>{{ project.summary }}</p>
+  <p class="software-project-links">
+    {% for link in project.links %}
+      <a href="{{ link.url | relative_url }}">{{ link.label }}</a>{% unless forloop.last %}<span aria-hidden="true"> · </span>{% endunless %}
+    {% endfor %}
+  </p>
+</article>
+{% endfor %}
