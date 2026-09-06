@@ -11,40 +11,73 @@ guid: http://localhost/wp-faculty/?page_id=2
    alt="Me at the 2017 Howard County Library Evening in the Stacks"
    cap="Me at the 2017 Howard County Library Evening in the Stacks" %}
 
-I am a data scientist at the [Johns
-Hopkins Applied Physics Laboratory](http://www.jhuapl.edu/).
-Previously, I have been a
-consultant to various government agencies, including the Securities
-and Exchange Commission, the Executive Office of the President, and
-the United States Department of Homeland Security. Before that,
-I served as an internal consultant on scientific computing
-for the Board of Governors of the Federal Reserve System.
+James Howard works on complicated systems: the kind that involve mathematical
+models, software, artificial intelligence, scarce resources, and institutions
+that eventually have to decide what to do. His work moves among mathematics,
+statistics, engineering, computing, and public policy because the problems do
+not respect the boundaries between those fields.
 
-Alongside my professional work, I have a strong passion for teaching
-and have been teaching mathematics and statistics at the University
-of Maryland Global Campus since 2010. I have also taught public
-affairs at several institutions, including the City University of
-New York and the 
-[University of New Mexico](https://jphoward.people.unm.edu/).
+That approach has carried him from infectious-disease modeling and satellite
+population forecasting to government blockchain research, disruption prediction,
+and the operational questions that turn an AI model into a system someone can
+actually use. The recurring question is simple enough to state and usually
+difficult to answer: what is happening, what matters, and what should the
+institution do next?
 
-I consider myself [fortunate to have played a part in many innovative
-projects throughout my career](/scholarship), which include modeling
-the spread of infectious respiratory diseases and Ebolavirus,
-predicting global disruptive events, researching blockchain for
-government services, and designing devices to rescue victims of
-building collapse. I have also authored [two books](/books/) on my
-work and co-edited two more.
+The work is technical, but its point is not technical display. Models need
+assumptions, systems have constraints, and decisions have consequences. Much of
+the job is making those things visible—and explaining them clearly enough that a
+real person can act on them.
 
-In my free time, I'm an active member of my community, having served
-[Howard County, Maryland](/service/howard-county) in various roles
-including as a member of the Board of Appeals and Charter Review
-Commission. I've also volunteered my time providing economic advice
-to the [Columbia Association](http://www.columbiaassociation.com/),
-establishing an alumni association for the [College Park Scholars
-Program](https://www.scholars.umd.edu/) at the University of Maryland,
-and serving on several public and private boards.
+## Professional Work
 
-## Education
+James is a data scientist at the [Johns Hopkins Applied Physics
+Laboratory](http://www.jhuapl.edu/). Previously, he has consulted for government
+agencies including the Securities and Exchange Commission, the Executive Office
+of the President, and the United States Department of Homeland Security. Before
+that, he served as an internal consultant on scientific computing for the Board
+of Governors of the Federal Reserve System.
+
+Those institutions differ, but the work has a familiar shape: research,
+quantitative analysis, and technical systems whose results must survive contact
+with operations, policy, and public consequences. The [Scholarship](/scholarship)
+and [Software](/software) sections document the methods and projects in more
+detail.
+
+## Representative Problems and Projects
+
+Representative work has included models of infectious respiratory disease and
+Ebolavirus; forecasting global disruptive events and the population of
+Earth-orbiting satellites; blockchain research for government services; and
+technology designed to rescue victims of structural collapse. The subjects vary.
+The work underneath them tends to be the same: form a usable model, test it
+against real constraints, and make the result useful to the people who have to
+decide what happens next.
+
+He has written and edited [four books](/books/) on numerical analysis, online
+mathematics education, flood insurance, and military operations research. The
+same interest in making technical work usable runs through the writing: recent
+work on artificial intelligence asks not only what a model can do, but what
+happens when it becomes part of a real institution.
+
+## Teaching and Public Service
+
+Teaching and public service are serious parts of this work, not hobbies added
+around it. James has taught mathematics and statistics at the University of
+Maryland Global Campus since 2010, and has also taught public affairs, including
+at the City University of New York and the [University of New
+Mexico](https://jphoward.people.unm.edu/). Teaching means starting with the
+problem and working backward to the machinery; the [Teaching](/teaching) section
+carries the fuller record.
+
+His [public and institutional service](/service) includes local-government
+boards, professional-society work, the Maryland Defense Force, and long-running
+community and university service. These are places where the method is tested in
+the presence of actual rules, budgets, and constraints.
+
+## Credentials and Recognition
+
+### Education
 
 * PhD, [Public Policy](/assets/docs/UMBC-PHD-POLICY.pdf), University of Maryland Baltimore County
     * CPhil, [Public Policy](/assets/docs/JHoward-UMBC-CPhil.pdf), University of Maryland Graduate School, Baltimore
@@ -61,7 +94,7 @@ and serving on several public and private boards.
 <div class="row">
   <div class="col-12 col-md-6">
   {% include markdown.html contentmd='
-## Professional Titles
+### Professional Titles
 
 *   [European Engineer](/assets/docs/JHoward-EURING.pdf)
 *   Chartered Scientist
@@ -72,7 +105,7 @@ and serving on several public and private boards.
   </div>
   <div class="col-12 col-md-6 pr-n5">
 {% include markdown.html contentmd='
-## Certifications
+### Certifications
 *   [Project Management Professional](/assets/docs/certifications/JHoward-PMI-PMP.pdf)
 *   [PMI Agile Certified Practitioner](/assets/docs/certifications/JHoward-PMI-ACP.pdf)
 *   [PMI Professional in Business Analysis](/assets/docs/certifications/JHoward-PMI-PBA.pdf)
@@ -82,7 +115,7 @@ and serving on several public and private boards.
 </div>
 </div>
 
-## Professional Awards
+### Professional Recognition
 *   Senior Member of the Association for Computing Machinery, 2026
 *   Fellow of the [Society of Antiquaries of Scotland](/assets/docs/jhoward-fsascot.pdf), 2025
 *   Fellow of the [Institute of Mathematics and its Applications](/assets/docs/JHoward-IMA-FIMA.pdf), 2022
@@ -91,7 +124,7 @@ and serving on several public and private boards.
 *   Fellow of the Royal Society of Arts, 2020
 *   Fellow of the [British Computer Society](/assets/docs/JHoward-FBCS.pdf), 2020
 
-## Other Accomplishments
+### Other Accomplishments
 *   [Correspondence Chess Expert](/assets/docs/jhoward-iccf-cce.pdf) 
 
 
