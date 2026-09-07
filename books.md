@@ -20,7 +20,7 @@ but each is an attempt to make a technical problem legible enough to use.
 
 </div>
 
-<section class="section section-gray books-section">
+<section class="section section-gray books-section books-featured-band">
   <div class="container">
     <div class="title-area">
       <h2>Books</h2>
