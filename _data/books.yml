@@ -1,0 +1,112 @@
+published:
+  - slug: teaching-learning-mathematics-online
+    short_route: /tlmo/
+    title: Teaching and Learning Mathematics Online
+    edition: 2nd edition
+    year: 2025
+    role: Co-editor with John F. Beyers
+    publisher: Chapman & Hall/CRC
+    series: ""
+    print_isbn: "9781032504537"
+    ebook_isbn: "9781040337578"
+    publisher_url: https://www.routledge.com/Teaching-and-Learning-Mathematics-Online/HowardII-Beyers/p/book/9781032504537
+    detail_url: /books/teaching-learning-mathematics-online/
+    cover: https://covers.vitalsource.com/vbid/9781040337578/width/640?style=preview
+    cover_alt: "Cover of Teaching and Learning Mathematics Online, second edition"
+    summary: >-
+      This collection is for people teaching mathematics and statistics in online
+      settings: not a manifesto for technology, but a practical account of the
+      choices that make courses work. John Beyers and I brought together
+      instructors and researchers writing about assessment, engagement, access,
+      and the ordinary difficulty of helping people learn abstract material at a
+      distance.
+    prior_editions:
+      - year: 2020
+        edition: 1st edition
+        isbn: "9780815372363"
+
+  - slug: handbook-military-defense-operations-research
+    short_route: /mdor/
+    title: Handbook of Military and Defense Operations Research
+    edition: 2nd edition
+    year: 2024
+    role: Co-editor with Natalie M. Scala
+    publisher: Chapman & Hall/CRC
+    series: Chapman & Hall/CRC Series in Operations Research
+    print_isbn: "9781032497488"
+    ebook_isbn: "9781040047033"
+    publisher_url: https://www.routledge.com/Handbook-of-Military-and-Defense-Operations-Research/Scala-HowardII/p/book/9781032497488
+    detail_url: /books/handbook-military-defense-operations-research/
+    cover: https://covers.vitalsource.com/vbid/9781040047033/width/640?style=preview
+    cover_alt: "Cover of Handbook of Military and Defense Operations Research, second edition"
+    summary: >-
+      Natalie Scala and I edited this handbook around the fact that operations
+      research in security is not confined to a recognizable class of textbook
+      problems. The second edition gathers work on military and defense
+      applications across analysis, data, cyber, decision-making, and the
+      operational contexts that make those tools matter.
+    prior_editions:
+      - year: 2020
+        edition: 1st edition
+        isbn: "9781138607330"
+
+  - slug: computational-methods-numerical-analysis-r
+    short_route: /cmna/
+    title: Computational Methods for Numerical Analysis with R
+    edition: 1st edition
+    year: 2017
+    role: Author
+    publisher: Chapman & Hall/CRC
+    series: Numerical Analysis and Scientific Computing
+    print_isbn: "9781498723633"
+    ebook_isbn: "9781351646505"
+    publisher_url: https://www.routledge.com/Computational-Methods-for-Numerical-Analysis-with-R/HowardII/p/book/9781498723633
+    detail_url: /books/computational-methods-numerical-analysis-r/
+    cover: /assets/img/CMNA-cover-300.webp
+    cover_alt: "Cover of Computational Methods for Numerical Analysis with R"
+    summary: >-
+      A numerical-analysis text written around R as the working environment.
+      It follows the standard sequence—error, linear algebra, interpolation,
+      integration, optimization, and differential equations—while keeping the
+      algorithms close enough to run, inspect, and alter. The companion
+      <code>cmna</code> package carries the examples beyond the printed page.
+    prior_editions: []
+
+  - slug: socioeconomic-effects-national-flood-insurance-program
+    short_route: /se-nfip/
+    title: Socioeconomic Effects of the National Flood Insurance Program
+    edition: 1st edition
+    year: 2016
+    role: Author
+    publisher: Springer International Publishing
+    series: SpringerBriefs in Political Science
+    print_isbn: "9783319290621"
+    ebook_isbn: "9783319290638"
+    doi: 10.1007/978-3-319-29063-8
+    publisher_url: https://link.springer.com/book/10.1007/978-3-319-29063-8
+    detail_url: /books/socioeconomic-effects-national-flood-insurance-program/
+    cover: /assets/img/SE-NFIP-cover.webp
+    cover_alt: "Cover of Socioeconomic Effects of the National Flood Insurance Program"
+    summary: >-
+      This policy study estimates the social value of the National Flood
+      Insurance Program from 1996 through 2010. It considers consumer surplus,
+      flood-mitigation benefits, distributional weighting, public revenue, and
+      sensitivity analysis together, because a program with this many moving
+      parts does not become clearer by pretending it has only one.
+    prior_editions: []
+
+other_book_length_work:
+  - title: "GURPS Disasters: Hurricane"
+    year: 2019
+    role: Author
+    publisher: Steve Jackson Games
+    format: 24-page digital supplement
+    source_url: https://warehouse23.com/products/gurps-disasters-hurricane
+    games_url: /games/gurps-disasters-hurricane/
+    cover: /assets/img/GURPS_Disasters_Hurricane.webp
+    cover_alt: "Cover of GURPS Disasters: Hurricane"
+    summary: >-
+      A concise game supplement about hurricane science, risk, historical
+      storms, and turning a major weather event into a useful campaign problem.
+      It belongs primarily with the site’s Games work; it is listed here as
+      published book-length writing, not as an academic monograph.
