@@ -16,7 +16,7 @@ alt="The Maryland Defense Force's distinctive unit insignia" %}
 
 The [Maryland Defense Force (MDDF)](https://military.maryland.gov/mddf/Pages/default.aspx) is Maryland's volunteer uniformed state military agency. It provides professional, technical, and military support to the Maryland Army National Guard, Maryland Air National Guard, and Maryland Department of Emergency Management.
 
-I have served as a Captain in the MDDF since 2013. This page is the public documentary record of that service: operations, policy work, qualifications, and awards. The institutional history comes later, where it belongs.
+I was commissioned in the MDDF in 2006 and have held the rank of Captain since 2013. This page is the public documentary record of that service: operations, policy work, qualifications, awards, and the institutional context in which they belong.
 
 <nav class="mddf-toc" aria-label="On this page">
   <a href="#my-service">My Service</a>
@@ -29,7 +29,8 @@ I have served as a Captain in the MDDF since 2013. This page is the public docum
 
 ## My Service
 
-**Captain, Maryland Defense Force · 2013–Present**
+**Maryland Defense Force · 2006–Present**  
+**Captain since September 16, 2013**
 
 My MDDF work joins operations with institutional design. I have led operational teams during statewide COVID-19 vaccination activity; written policies governing promotion, hazardous materials, professional writing, training, and operational standards; and worked in the part of public service where a plan has to survive implementation.
 
@@ -94,13 +95,13 @@ The point was not to produce paperwork for its own sake. It was to make expectat
 
 <div class="badgerack">
 <div class="ribbonbar">
-<a href="#smems" class="ribbon ribbon-center">
+<a href="#SMEMS" class="ribbon ribbon-center">
 <img src="/assets/img/ribbons/mddf/SMEMS-Flash.svg"
     alt="Senior Military Emergency Management Specialist flash" /></a>
 </div>
 </div>
 
-### Senior Military Emergency Management Specialist {#smems}
+### Senior Military Emergency Management Specialist {#SMEMS}
 
 I hold the **Senior Military Emergency Management Specialist** qualification from the [State Guard Association of the United States](https://sgaus.org/). It follows the Basic MEMS qualification and recognizes advanced emergency-management preparation for planning and leading increasingly complex incident-response work.
 
@@ -437,11 +438,15 @@ and is not authorized for wear by MDDF members.
 
 ## About the Maryland Defense Force
 
-The modern MDDF is part of Maryland's Military Department and one of its four pillars. Its stated role is to provide supplemental professional, technical, and military support to the Maryland Army National Guard, Maryland Air National Guard, and Maryland Department of Emergency Management.
+Maryland established the Maryland State Guard in 1917 after the Maryland National Guard entered federal service during the First World War. The Guard served the State during that absence and stood down in 1920 after the National Guard returned.
 
-Maryland law establishes the MDDF as a military force within the State's organized militia. It also provides for State Active Duty when the Governor calls the militia in response to a public crisis, disaster, or other legally specified circumstance. Those are the institutional facts relevant to my service record.
+Maryland re-formed the State Guard in 1941 as the United States entered the Second World War. Its members performed in-state security, emergency, and disaster-response work while the National Guard was federally mobilized; the remaining formations stood down in 1947.
 
-The earlier Maryland State Guard and state-defense-force history is real and worth documenting carefully, but the old page's broad chronology and claims about its organization were not sufficiently supported by the sources available for this revision. I have removed them rather than convert them into confident-looking folklore.
+The General Assembly reactivated the state-defense-force authority in 1983. The [Maryland Military Department's official history](https://military.maryland.gov/mddf/Pages/History.aspx) identifies that reactivation as the beginning of the present force; the [Maryland State Archives](https://msa.maryland.gov/msa/mdmanual/25ind/html/51milf.html) records its 1990 reorganization under the Maryland Defense Force name.
+
+After September 11, 2001, the force's role developed around providing supplemental professional and technical support to Maryland military and emergency operations. Its current official mission is to support the Maryland Army National Guard, Maryland Air National Guard, and Maryland Department of Emergency Management.
+
+Maryland law establishes the MDDF as a military force within the State's organized militia and permits State Active Duty when the Governor calls the militia in response to a public crisis, disaster, or other legally specified circumstance. The force is separate and distinct from the Maryland National Guard, though its purpose is to support the State's military and emergency-response institutions.
 
 
 {% include relatedposts.html tag="Maryland Defense Force" %}
