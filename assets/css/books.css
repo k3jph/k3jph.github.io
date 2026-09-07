@@ -16,6 +16,34 @@
   margin-left: calc(50% - 50vw);
 }
 
+.books-other-band {
+  width: 100vw;
+  margin-right: calc(50% - 50vw);
+  margin-left: calc(50% - 50vw);
+  background: #2b3c52;
+  color: #fff;
+}
+
+.books-other-band .other-book {
+  color: #fff;
+}
+
+.books-other-band .book-card-kicker {
+  color: #feefa8;
+}
+
+.books-other-band .book-card-role {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.books-other-band .book-links a {
+  color: #feefa8;
+}
+
+.books-other-band .book-links a:hover {
+  color: #fff;
+}
+
 .books-section .title-area {
   max-width: 52rem;
   margin: 0 auto 2.5rem;
@@ -132,7 +160,6 @@
   gap: 25px;
   align-items: start;
   padding: 25px 0 0;
-  border-top: 1px solid #d8d0bf;
 }
 
 .other-book img {
