@@ -47,25 +47,33 @@ head_inject: >-
                     </div>
                 </div>
             </div>
-            <div class="content hidden-lg hidden-md">
+            <div class="content hidden-lg hidden-md home-mobile-hero">
                 <!-- Vertical Layout -->
                 <div class="row mt-4">
-                    <div class="col-12">
+                    <div class="col-xs-12">
                         <div class="row">
-                            <img src="/assets/img/identity/jameshoward-arms.svg"
-                                 class="img-responsive mx-auto" style="width: 50%;"
-                                 alt="James Howard coat of arms" />
+                            <div class="col-xs-12">
+                                <img src="/assets/img/identity/jameshoward-arms.svg"
+                                     class="img-responsive mx-auto" style="width: 50%;"
+                                     alt="James Howard coat of arms" />
+                            </div>
                         </div>
                         <div class="row pt-4 mt-3">
-                            <img src="/assets/img/identity/jameshoward-wordmark.svg"
-                                 class="img-responsive mx-auto"
-                                 style="width: 50%;"
-                                 alt="James Howard wordmark" />
-                            <div class="separator separator-info mt-2 mb-2">
-                                <img src="{{ '/assets/img/identity/kamon.svg' | relative_url
-                                          }}" height="35" alt="" />
+                            <div class="col-xs-12 text-center">
+                                <img src="/assets/img/identity/jameshoward-wordmark.svg"
+                                     class="img-responsive mx-auto"
+                                     style="width: 50%;"
+                                     alt="James Howard wordmark" />
+                                <div class="separator separator-info mt-2 mb-2">
+                                    <img src="{{ '/assets/img/identity/kamon.svg' | relative_url
+                                              }}" height="35" alt="" />
+                                </div>
+                                <h5 class="home-tagline">
+                                    <span>A Mathematician,</span>
+                                    <span>a Different Kind of Mathematician,</span>
+                                    <span>and a Statistician</span>
+                                </h5>
                             </div>
-                            <h5 style="margin-top: 0px;">A Mathematician, a Different Kind of<br />Mathematician, and a Statistician</h5>
                         </div>
                     </div>
                 </div>
@@ -107,8 +115,7 @@ head_inject: >-
                 <div class="separator separator-info">
                     <img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url
                               }}" height="35" alt="" />
-                </div>
-            </div>
+                </div>            </div>
         </div>
         <div class="row">
             <a href="{{ '/scholarship' | relative_url }}">
@@ -227,8 +234,7 @@ head_inject: >-
         </div>
 
         <div id="masonry-container" class="row">
-            {% for post in site.posts limit: 8 %}
-            <div class="item col-md-4">
+            {% for post in site.posts limit: 8 %}            <div class="item col-md-4">
                 <div class="card card-blog">
                     <a href="{{ post.permalink | relative_url }}" class="header" aria-label="Read {{ post.title | escape }}">
                         {% if post.featured_image %}
