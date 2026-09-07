@@ -5,7 +5,6 @@ date: 2020-02-25T15:08:09-05:00
 author: James Howard
 layout: page
 guid: http://jameshoward.us/?page_id=7290
-featured_image: /assets/img/books.webp
 stylesheet: /assets/css/books.css
 redirect_from:
   - /mdor/
