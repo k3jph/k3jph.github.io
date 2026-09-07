@@ -10,6 +10,12 @@
   padding: 56px 0 64px;
 }
 
+.books-featured-band {
+  width: 100vw;
+  margin-right: calc(50% - 50vw);
+  margin-left: calc(50% - 50vw);
+}
+
 .books-section .title-area {
   max-width: 52rem;
   margin: 0 auto 2.5rem;
