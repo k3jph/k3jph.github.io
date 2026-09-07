@@ -1,0 +1,201 @@
+current:
+  - name: tartan-maker
+    status: Current
+    period: 2026–present
+    technology: Python · command line · SVG
+    image: /assets/img/2025/a-new-tartan.webp
+    summary: >-
+      A package and command-line utility for defining, validating, rendering,
+      and exporting tartans from YAML. It uses one SVG-first rendering model so
+      that the design data, the visible sett, and exported images do not quietly
+      become three different things.
+    links:
+      - label: Project documentation
+        url: https://k3jph.github.io/tartan-maker/
+      - label: Source
+        url: https://github.com/k3jph/tartan-maker
+
+  - name: "Judith & Holofernes: The Fatal Image"
+    status: Current
+    period: 2026–present
+    technology: TypeScript · digital humanities · static web application
+    image: /assets/img/2026/the-fatal-image-is-now-open.webp
+    summary: >-
+      A virtual exhibition that makes an art-historical argument through an
+      explorable corpus rather than a long page of labels. The public exhibition
+      currently connects 58 works across eight centuries, with the supporting
+      research, images, and interface treated as one project.
+    links:
+      - label: Visit the exhibition
+        url: https://judith.jameshoward.us/
+      - label: Source
+        url: https://github.com/k3jph/judith.jameshoward.us
+      - label: Opening note
+        url: /2026/08/11/the-fatal-image-is-now-open/
+
+maintained:
+  - name: Kami
+    status: Stable
+    period: 2021–2023
+    technology: Modern C++ · agent-based modeling
+    summary: >-
+      An agent-based modeling library in modern C++, developed at the Johns
+      Hopkins Applied Physics Laboratory. It provides the pieces for modeling
+      individual actors and their environments when collective behavior cannot
+      be treated as a simple aggregate.
+    links:
+      - label: Source
+        url: https://github.com/JHUAPL/kami
+      - label: Documentation
+        url: https://kami.readthedocs.io/en/main/
+      - label: Release archive
+        url: https://github.com/JHUAPL/kami/releases
+
+  - name: phonics
+    status: Maintained
+    period: 2015–present
+    technology: R · CRAN package
+    summary: >-
+      Phonetic encoders for English, German, and French names, plus comparison
+      methods used in record linkage. It began with a county-data merge that
+      needed more than wishful spelling normalization and became published,
+      citable research software.
+    links:
+      - label: CRAN package
+        url: https://cran.r-project.org/package=phonics
+      - label: Source
+        url: https://github.com/k3jph/phonics-in-r
+      - label: JSS article
+        url: https://doi.org/10.18637/jss.v095.i08
+
+  - name: cmna
+    status: Maintained
+    period: 2016–present
+    technology: R · numerical analysis
+    summary: >-
+      The companion package to Computational Methods for Numerical Analysis with
+      R. It puts the algorithms from the book in runnable, inspectable form so
+      that approximation, error, and numerical choices can be seen rather than
+      merely asserted.
+    links:
+      - label: CRAN package
+        url: https://cran.r-project.org/package=cmna
+      - label: Source
+        url: https://github.com/k3jph/cmna-pkg
+      - label: Book
+        url: /cmna
+
+  - name: waterfall
+    status: Stable
+    period: 2010–2016
+    technology: R · data visualization
+    summary: >-
+      A compact R package for waterfall charts in base and lattice graphics,
+      built to make the strange accounting of public organizations easier to
+      reason about. The work is complete rather than actively expanding.
+    links:
+      - label: CRAN package
+        url: https://cran.r-project.org/package=waterfall
+      - label: Source
+        url: https://github.com/k3jph/waterfall
+      - label: Release note
+        url: /2016/02/15/waterfall-1-0-0-released/
+
+archive:
+  - name: FreeGrep
+    status: Historical
+    period: 1999–2010
+    technology: C · BSD / Unix
+    summary: >-
+      A BSD-licensed implementation of grep, originally written to understand
+      finite-state matching and later adopted into the source trees of both
+      NetBSD and OpenBSD; it subsequently became the standard grep in Minix 3.
+    links:
+      - label: Source archive
+        url: https://github.com/k3jph/freegrep
+      - label: Project history
+        url: /2009/11/25/freegrep-is-now-at-github/
+
+  - name: Virtual Bumblebees
+    status: Historical
+    period: 2015–2017
+    technology: JavaScript · cellular automata
+    summary: >-
+      An artificial-life environment based on a deliberately different reading
+      of Langton’s ant: place bees and dots on the board, then watch a simple
+      rule system produce behavior that is considerably less simple.
+    links:
+      - label: Try it
+        url: https://k3jph.github.io/bumblebees/
+      - label: Source
+        url: https://github.com/k3jph/bumblebees
+      - label: Project note
+        url: /2015/03/14/introducing-my-bumblebees/
+
+  - name: WS2812B SPI Controller for ATtiny85
+    status: Historical
+    period: 2021–2022
+    technology: C · AVR · embedded systems
+    summary: >-
+      Firmware for driving WS2812B LEDs through SPI on an ATtiny85, built around
+      a timing protocol that is simple in the way a bear trap is simple.
+    links:
+      - label: Source
+        url: https://github.com/k3jph/ws2812b-spi-controller
+      - label: Project note
+        url: /2022/05/09/ws2818b-spi-controller-for-attiny85/
+
+  - name: Phonics in Rust
+    status: Historical
+    period: 2019–2020
+    technology: Rust · crates.io
+    summary: >-
+      A partial Rust port of phonics, written as a serious attempt to learn the
+      language by translating a known problem into idiomatic traits, types, and
+      testable components rather than by producing another calculator.
+    links:
+      - label: Source
+        url: https://github.com/k3jph/phonics-in-rust
+      - label: Crate
+        url: https://crates.io/crates/phonics
+
+  - name: LX
+    status: Historical
+    period: 2009
+    technology: PHP · CakePHP · PostgreSQL
+    summary: >-
+      An unfinished custom-domain link shortener released as source when the
+      obvious commercial entrants arrived. It is kept as an honest artifact of a
+      useful idea that did not need to become a product.
+    links:
+      - label: Source archive
+        url: https://github.com/k3jph/lx
+      - label: Project note
+        url: /2009/12/16/source-code-for-lx-a-link-shortener/
+
+  - name: Small Unix utilities
+    status: Historical
+    period: 1997–1998
+    technology: C · BSD / Unix
+    summary: >-
+      daemon, rpt, uwatch, and write are small programs from the era when a
+      utility could be worth having simply because it did one job cleanly. They
+      are preserved as source and as a record of the systems work that preceded
+      the larger projects.
+    links:
+      - label: Archive note
+        url: /2009/12/10/more-old-code-at-github/
+
+  - name: Kivu Ebola analysis
+    status: Historical
+    period: 2019–2020
+    technology: R · epidemiological modeling
+    summary: >-
+      A reproducible analysis repository for the 2018–2019 Kivu Ebola outbreak,
+      retained as a research artifact alongside the resulting Joint Statistical
+      Meetings presentation.
+    links:
+      - label: Source archive
+        url: https://github.com/k3jph/ebola-kivu-2018-19
+      - label: Presentation note
+        url: /2020/08/05/jsm-presentation-on-ebola/

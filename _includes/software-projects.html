@@ -1,0 +1,45 @@
+{% if include.presentation == "featured" %}
+  {% for project in include.projects %}
+  <div class="col-md-6">
+    <article class="card card-blog software-feature-card">
+      <div class="header">
+        {% include cloudflare_image.html image=project.image preset="thumbnail" class="image-header" alt=project.name %}
+      </div>
+      <div class="content">
+        <p class="card-category software-project-status">{{ project.status }} · {{ project.period }}</p>
+        <h3 class="card-title">{{ project.name }}</h3>
+        <p class="software-feature-technology">{{ project.technology }}</p>
+        <p class="text-description text-gray">{{ project.summary }}</p>
+        <p class="software-project-links">
+          {% for link in project.links %}
+            <a href="{{ link.url | relative_url }}" class="btn btn-info btn-round">{{ link.label }}</a>
+          {% endfor %}
+        </p>
+      </div>
+    </article>
+  </div>
+  {% endfor %}
+{% else %}
+  {% for project in include.projects %}
+  <article class="software-project software-project--{{ include.presentation }}">
+    <header class="software-project-header">
+      <div class="software-project-stamp">
+        <span class="software-project-status">{{ project.status }}</span>
+        <span class="software-project-period">{{ project.period }}</span>
+      </div>
+      <div class="software-project-heading">
+        <h3>{{ project.name }}</h3>
+        <p class="software-project-meta">{{ project.technology }}</p>
+      </div>
+    </header>
+    <div class="software-project-body">
+      <p>{{ project.summary }}</p>
+      <p class="software-project-links">
+        {% for link in project.links %}
+          <a href="{{ link.url | relative_url }}">{{ link.label }} <span aria-hidden="true">→</span></a>{% unless forloop.last %}<span class="software-link-divider" aria-hidden="true"> / </span>{% endunless %}
+        {% endfor %}
+      </p>
+    </div>
+  </article>
+  {% endfor %}
+{% endif %}
