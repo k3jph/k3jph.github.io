@@ -14,7 +14,7 @@ stylesheet: /assets/css/service.css
 
 Service is where an institutional idea has to survive contact with procedures, budgets, people, and consequences. My work outside ordinary employment has included formal public adjudication, state emergency operations, nonprofit fiduciary stewardship, board governance, and editorial responsibility. It is not a hobby adjacent to the rest of my work; it is part of how I learn whether a policy, a system, or a scholarly claim can function in the world.
 
-The active record comes first. The fuller history follows: public and civic duty, professional and scholarly stewardship, and the older local and institutional work from which much of it grew.
+The active record comes first. The historical record follows: public and civic duty, professional and scholarly stewardship, and the older local and institutional work from which much of it grew.
 
 </div>
 
@@ -39,47 +39,36 @@ The active record comes first. The fuller history follows: public and civic duty
   </div>
 </section>
 
-{% assign public_roles = site.data.service | where: "section", "public" %}
-<section class="service-record" aria-labelledby="public-civic-service">
-  <h2 id="public-civic-service">Public and Civic Service</h2>
-  <p class="service-record-introduction">Service to Maryland institutions, public bodies, and civic organizations.</p>
-
-  {% for role in public_roles %}
-  <article class="service-entry">
-    <h3>{% if role.detail_page %}<a href="{{ role.detail_page | relative_url }}">{% endif %}{{ role.organization }}{% if role.detail_page %}</a>{% endif %}</h3>
-    <p class="service-role">{{ role.role }}</p>
-    <p class="service-dates">{{ role.dates }}</p>
-    <p class="service-summary">{{ role.summary }}</p>
-  </article>
-  {% endfor %}
-</section>
-
-{% assign professional_roles = site.data.service | where: "section", "professional" %}
-<section class="service-record" aria-labelledby="professional-scholarly-service">
-  <h2 id="professional-scholarly-service">Professional and Scholarly Service</h2>
-  <p class="service-record-introduction">Editorial stewardship, learned-society governance, and specialist institutional work.</p>
-
-  {% for role in professional_roles %}
-  <article class="service-entry">
-    <h3>{{ role.organization }}</h3>
-    <p class="service-role">{{ role.role }}</p>
-    <p class="service-dates">{{ role.dates }}</p>
-    <p class="service-summary">{{ role.summary }}</p>
-  </article>
-  {% endfor %}
-</section>
-
-{% assign past_roles = site.data.service | where: "section", "past" %}
-<section class="service-record" aria-labelledby="past-service">
+{% assign historical_roles = site.data.service | where: "current", false %}
+{% assign public_roles = historical_roles | where: "section", "public" %}
+{% assign professional_roles = historical_roles | where: "section", "professional" %}
+<section class="service-history" aria-labelledby="past-service">
   <h2 id="past-service">Past Service</h2>
-  <p class="service-record-introduction">A compact record of completed public, civic, professional, and university service.</p>
+  <p class="service-history-introduction">A compact record of completed public, civic, professional, and university service.</p>
 
-  {% for role in past_roles %}
-  <article class="service-entry service-entry--compact">
-    <h3>{% if role.detail_page %}<a href="{{ role.detail_page | relative_url }}">{% endif %}{{ role.organization }}{% if role.detail_page %}</a>{% endif %}</h3>
-    <p class="service-role">{{ role.role }}</p>
-    <p class="service-dates">{{ role.dates }}</p>
-    <p class="service-summary">{{ role.summary }}</p>
-  </article>
-  {% endfor %}
+  <section class="service-history-group" aria-labelledby="public-civic-service">
+    <h3 id="public-civic-service">Public and Civic Service</h3>
+    <p class="service-history-group-introduction">County adjudication, local-government design, and community stewardship.</p>
+
+    {% for role in public_roles %}
+    <article class="service-entry">
+      <h4>{% if role.detail_page %}<a href="{{ role.detail_page | relative_url }}">{% endif %}{{ role.organization }}{% if role.detail_page %}</a>{% endif %}</h4>
+      <p class="service-entry-meta"><span class="service-entry-role">{{ role.role }}</span><span aria-hidden="true"> · </span><span>{{ role.dates }}</span></p>
+      <p class="service-summary">{{ role.summary }}</p>
+    </article>
+    {% endfor %}
+  </section>
+
+  <section class="service-history-group" aria-labelledby="professional-scholarly-service">
+    <h3 id="professional-scholarly-service">Professional and Scholarly Service</h3>
+    <p class="service-history-group-introduction">Professional-association, academic, and alumni governance work.</p>
+
+    {% for role in professional_roles %}
+    <article class="service-entry">
+      <h4>{{ role.organization }}</h4>
+      <p class="service-entry-meta"><span class="service-entry-role">{{ role.role }}</span><span aria-hidden="true"> · </span><span>{{ role.dates }}</span></p>
+      <p class="service-summary">{{ role.summary }}</p>
+    </article>
+    {% endfor %}
+  </section>
 </section>
