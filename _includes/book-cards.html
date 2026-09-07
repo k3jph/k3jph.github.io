@@ -1,0 +1,18 @@
+{% for book in site.data.books.published %}
+  <article class="book-card">
+    <a class="book-cover" href="{{ book.detail_url | relative_url }}" aria-label="Read more about {{ book.title }}">
+      <img src="{{ book.cover | relative_url }}" alt="{{ book.cover_alt }}" loading="lazy">
+    </a>
+    <div class="book-card-copy">
+      <p class="book-card-kicker">{{ book.edition }} · {{ book.year }}</p>
+      <h3><a href="{{ book.detail_url | relative_url }}">{{ book.title }}</a></h3>
+      <p class="book-card-role">{{ book.role }}</p>
+      <p class="book-card-publisher">{{ book.publisher }}{% if book.series != "" %} · {{ book.series }}{% endif %}</p>
+      <p>{{ book.summary }}</p>
+      <p class="book-links">
+        <a href="{{ book.detail_url | relative_url }}">Book details <span aria-hidden="true">→</span></a>
+        <a href="{{ book.publisher_url }}" rel="noopener">Publisher <span aria-hidden="true">↗</span></a>
+      </p>
+    </div>
+  </article>
+{% endfor %}
