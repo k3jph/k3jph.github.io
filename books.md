@@ -32,11 +32,11 @@ but each is an attempt to make a technical problem legible enough to use.
   </div>
 </section>
 
-<section class="section books-section">
+<section class="section books-section books-other-band">
   <div class="container">
     <div class="title-area">
-      <h2>Other Book-Length Work</h2>
-      <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+      <h2 class="text-warning">Other Book-Length Work</h2>
+      <div class="separator separator-warning"><img src="{{ '/assets/img/identity/kamon-warning.svg' | relative_url }}" height="35" alt="" /></div>
     </div>
     {% assign hurricane = site.data.books.other_book_length_work | first %}
     <article class="other-book books-other-work">
