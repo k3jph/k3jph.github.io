@@ -1,0 +1,181 @@
+.service-introduction {
+  max-width: 52rem;
+  margin: 0 auto 3rem;
+  font-family: "Spectral", Georgia, serif;
+  font-size: 1.18em;
+  line-height: 1.65;
+}
+
+.service-current {
+  width: 100vw;
+  margin: 0 calc(50% - 50vw) 4rem;
+  padding: 4rem 0;
+  background: #2b3c52;
+  color: #fff;
+}
+
+.service-current-inner {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.service-current .title-area {
+  max-width: 52rem;
+  margin: 0 auto 2.5rem;
+  padding: 0;
+  text-align: center;
+}
+
+.service-current h2,
+.service-current .description {
+  color: #fff;
+}
+
+.service-current .description {
+  font-family: "Spectral", Georgia, serif;
+  font-size: 1.08em;
+  line-height: 1.55;
+}
+
+.service-current .separator,
+.service-current .separator::before,
+.service-current .separator::after {
+  color: #feefa8;
+  border-color: #feefa8;
+}
+
+.service-current-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.service-current-card {
+  min-height: 100%;
+  padding: 1.45rem 1.55rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(16, 28, 44, 0.2);
+}
+
+.service-current-card h3 {
+  margin: 0 0 0.35rem;
+  color: #fff;
+  font-size: 1.25em;
+  line-height: 1.25;
+}
+
+.service-current-card h3 a {
+  color: #fff;
+}
+
+.service-current-card h3 a:hover {
+  color: #feefa8;
+}
+
+.service-role,
+.service-dates {
+  margin: 0;
+}
+
+.service-role {
+  color: #feefa8;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.92em;
+  font-weight: 700;
+}
+
+.service-dates {
+  margin-top: 0.2rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.86em;
+  font-weight: 700;
+}
+
+.service-current-card .service-summary {
+  margin: 0.85rem 0 0;
+  line-height: 1.55;
+}
+
+.service-record {
+  margin: 0 auto 4rem;
+}
+
+.service-record > h2 {
+  margin-bottom: 0.5rem;
+}
+
+.service-record-introduction {
+  max-width: 52rem;
+  margin: 0 0 1.75rem;
+  color: #615d53;
+  font-family: "Spectral", Georgia, serif;
+  font-size: 1.08em;
+  line-height: 1.55;
+}
+
+.service-entry {
+  padding: 1.45rem 0;
+  border-top: 1px solid #d8d0bf;
+}
+
+.service-entry:last-child {
+  border-bottom: 1px solid #d8d0bf;
+}
+
+.service-entry h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.35em;
+}
+
+.service-entry h3 a {
+  color: #2e2c28;
+}
+
+.service-entry h3 a:hover {
+  color: #154c9e;
+}
+
+.service-entry .service-role {
+  color: #786f5f;
+}
+
+.service-entry .service-dates {
+  color: #615d53;
+}
+
+.service-entry .service-summary {
+  max-width: 52rem;
+  margin: 0.8rem 0 0;
+  line-height: 1.58;
+}
+
+.service-entry--compact {
+  padding: 1.15rem 0;
+}
+
+@media (max-width: 991px) {
+  .service-current-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .service-current {
+    margin-bottom: 3rem;
+    padding: 3rem 0;
+  }
+
+  .service-current-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-current-card {
+    padding: 1.25rem;
+  }
+
+  .service-record {
+    margin-bottom: 3rem;
+  }
+}
