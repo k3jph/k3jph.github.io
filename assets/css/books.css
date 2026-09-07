@@ -25,6 +25,8 @@
   width: 100vw;
   margin-right: calc(50% - 50vw);
   margin-left: calc(50% - 50vw);
+  margin-bottom: -32px;
+  padding-bottom: 96px;
   background: #2b3c52;
   color: #fff;
 }
