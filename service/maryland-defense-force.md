@@ -114,7 +114,7 @@ The blue MEMS flash records activation or mobilization for a disaster, declared 
 
 The ribbons below are the documentary index to the record. They remain grouped by the kind of recognition rather than being treated as one undifferentiated rack.
 
-#### Personal Awards
+### Personal Awards
 
 {% assign ribbons = site.data.mddf_ribbons | where: "type","personal" %}
 {% assign remainder = ribbons.size | modulo: 3 %}
@@ -160,7 +160,7 @@ or lettered unit for exceptional service or achievement to the
 Maryland Military Department in support of its Service Members and 
 the mission.
 
-#### October 13, 2020
+**Awarded: October 13, 2020**
 
 > For outstanding unit performance in support of the COVID-19 response.
 
@@ -171,7 +171,7 @@ by the Governor of Maryland to support a declared state emergency,
 or mobilized under Title 32 USC to support a domestic emergency or
 crisis such as a natural disaster or civil unrest.
 
-#### September 12, 2020
+**Awarded: September 12, 2020**
 
 >  Operation Steadfast Guardian--March 15, 2020 to June 21, 2020
 
@@ -195,7 +195,7 @@ the normal call of duty to the Maryland Defense Force, Maryland
 Military Department, or State of Maryland in a duty of great
 responsibility.
 
-#### November 4, 2021
+**Awarded: November 4, 2021**
 
 > For sustained meritorious service in support of the Maryland National
 > Guard Medical Detachment's statewide COVID-19 vaccination efforts to
@@ -211,7 +211,7 @@ service which results in achievement of a specific project, complex
 tasks, or period of sustained service which clearly warrants
 recognition of the individual's achievement.
 
-#### September 9, 2020
+**Awarded: September 9, 2020**
 
 > For service, while on State Active Duty, in support of Operation Steadfast
 > Guardian during the period of March 15, 2020, to June 21, 2020.
@@ -225,7 +225,7 @@ meritorious service in direct participation in any significant military
 act or operation of a humanitarian nature as approved by the Maryland
 Military Department.
 
-#### November 28, 2021
+**Awarded: November 28, 2021**
 
 > For supporting the MDDF's participation in Operation Steadfast Guardian II.
 
@@ -235,7 +235,7 @@ The Maryland Defense Force Aid to Civil Authority Ribbon is awarded to MDDF
 members for being mobilized by the Commanding General, MDDF, to support a
 domestic emergency, crisis, or other missions as deemed appropriate.
 
-#### November 28, 2021
+**Awarded: November 28, 2021**
 
 > For supporting the MDDF's participation in Operation Steadfast Guardian II.
 
@@ -281,7 +281,7 @@ SGAUS Officer Advanced Course.
 This medal is awarded by the State Guard Association of the
 United States and is authorized for wear by MDDF members.
 
-## Unit Awards
+### Unit Awards
 
 {% assign ribbons = site.data.mddf_ribbons | where: "type","unit" %}
 {% assign remainder = ribbons.size | modulo: 3 %}
@@ -333,7 +333,7 @@ of SGAUS and the state guard/defense force.
 The Superior Unit Citation is awarded by the State Guard Association of the
 United States and is authorized for wear by MDDF members.
 
-#### September 15, 2021
+**Awarded: September 15, 2021**
 
 > The soldiers of the Maryland Defense Force have distinguished
 themselves as a force multiplier in support of the Maryland National
@@ -406,7 +406,7 @@ with [Points of Light](https://www.pointsoflight.org/), an organization
 devoted to promoting and acknowledging volunteerism.  It is not
 authorized for wear by MDDF members.
 
-#### April 9, 2022
+**Awarded: April 9, 2022**
 
 >  For calendar year 2021, bronze
 
