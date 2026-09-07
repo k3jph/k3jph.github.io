@@ -1,0 +1,36 @@
+{% assign book = site.data.books.published | where: "slug", include.slug | first %}
+{% assign cover_url = book.cover %}
+{% unless cover_url contains '://' %}{% assign cover_url = cover_url | relative_url %}{% endunless %}
+<article class="book-detail">
+  <div class="book-detail-hero">
+    <div class="book-detail-cover">
+      <img src="{{ cover_url }}" alt="{{ book.cover_alt }}">
+    </div>
+    <div class="book-detail-intro">
+      <p class="book-card-kicker">{{ book.edition }} · {{ book.year }}</p>
+      <p class="book-card-role">{{ book.role }}</p>
+      <p class="book-card-publisher">{{ book.publisher }}{% if book.series != "" %} · {{ book.series }}{% endif %}</p>
+      <p>{{ book.summary }}</p>
+      <p class="book-links">
+        <a href="{{ book.publisher_url }}" rel="noopener">Publisher page <span aria-hidden="true">↗</span></a>
+        <a href="{{ '/books/' | relative_url }}">All books <span aria-hidden="true">→</span></a>
+      </p>
+    </div>
+  </div>
+
+  <section class="book-detail-section">
+    <h2>Edition and bibliographic information</h2>
+    <dl class="book-facts">
+      <div><dt>Current edition</dt><dd>{{ book.edition }}, {{ book.year }}</dd></div>
+      <div><dt>Role</dt><dd>{{ book.role }}</dd></div>
+      <div><dt>Publisher</dt><dd>{{ book.publisher }}</dd></div>
+      {% if book.series != "" %}<div><dt>Series</dt><dd>{{ book.series }}</dd></div>{% endif %}
+      <div><dt>Print ISBN</dt><dd>{{ book.print_isbn }}</dd></div>
+      {% if book.ebook_isbn %}<div><dt>eBook ISBN</dt><dd>{{ book.ebook_isbn }}</dd></div>{% endif %}
+      {% if book.doi %}<div><dt>DOI</dt><dd><a href="https://doi.org/{{ book.doi }}">{{ book.doi }}</a></dd></div>{% endif %}
+    </dl>
+    {% if book.prior_editions.size > 0 %}
+    <p class="book-prior-editions">Earlier editions: {% for edition in book.prior_editions %}{{ edition.edition }} ({{ edition.year }}, ISBN {{ edition.isbn }}){% unless forloop.last %}; {% endunless %}{% endfor %}.</p>
+    {% endif %}
+  </section>
+</article>
