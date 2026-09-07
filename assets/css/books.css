@@ -1,3 +1,7 @@
+.article-body--flush-bottom {
+  padding-bottom: 0;
+}
+
 .books-introduction {
   max-width: 52rem;
   margin: 0 auto 2.5rem;
