@@ -5,7 +5,6 @@ date: 2015-02-25T21:08:38-05:00
 author: James Howard
 layout: page
 guid: https://jameshoward.us/?page_id=1450
-featured_image: /assets/img/books.webp
 stylesheet: /assets/css/books.css
 redirect_from:
   - /cmna/
