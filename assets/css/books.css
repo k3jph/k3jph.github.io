@@ -32,6 +32,10 @@
   color: #feefa8;
 }
 
+.books-other-band .other-book h3 {
+  color: #fff;
+}
+
 .books-other-band .book-card-role {
   color: rgba(255, 255, 255, 0.78);
 }
