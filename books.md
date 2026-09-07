@@ -25,7 +25,6 @@ but each is an attempt to make a technical problem legible enough to use.
     <div class="title-area">
       <h2>Books</h2>
       <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
-      <p class="description">Current editions, publisher records, and the supporting material that belongs with each one.</p>
     </div>
     <div class="book-grid">
       {% include book-cards.html %}
@@ -38,7 +37,6 @@ but each is an attempt to make a technical problem legible enough to use.
     <div class="title-area">
       <h2>Other Book-Length Work</h2>
       <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
-      <p class="description">A published digital supplement that belongs first to the Games work, and is kept here as part of the full record.</p>
     </div>
     {% assign hurricane = site.data.books.other_book_length_work | first %}
     <article class="other-book books-other-work">
