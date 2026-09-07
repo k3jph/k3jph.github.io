@@ -345,7 +345,7 @@ professionalism. Their selfless service and commitment to their
 motto "Ready when called" is indeed keeping with the finest traditions
 of the Maryland Defense Force and the Maryland Military Department.
 
-## Other Awards
+### Other / External Awards
 
 {% assign ribbons = site.data.mddf_ribbons | where: "type","unofficial" %}
 {% assign remainder = ribbons.size | modulo: 3 %}
