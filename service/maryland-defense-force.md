@@ -33,6 +33,43 @@ I have served as a Captain in the MDDF since 2013. This page is the public docum
 
 My MDDF work joins operations with institutional design. I have led operational teams during statewide COVID-19 vaccination activity; written policies governing promotion, hazardous materials, professional writing, training, and operational standards; and worked in the part of public service where a plan has to survive implementation.
 
+
+### Dates of Rank {#DatesOfRank}
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Captain</td>
+      <td>September 16, 2013</td>
+    </tr>
+    <tr>
+      <td>First Lieutenant</td>
+      <td>June 20, 2011</td>
+    </tr>
+    <tr>
+      <td>Second Lieutenant</td>
+      <td>November 21, 2006</td>
+    </tr>
+  </tbody>
+</table>
+
+### My Commission {#MyCommission}
+
+{% include figure.html width="12"
+   image="/service/jhoward-mddf-commission.webp" 
+   alt="Commission in the Maryland Defense Force"
+   cap="Commission in the Maryland Defense Force" %}
+
+Or you can [download the PDF here](/assets/img/service/jhoward-mddf-commission.pdf).
+
+
+
 ## Operations
 
 ### Statewide COVID-19 Vaccination Operations
@@ -397,42 +434,6 @@ I joined up and walked with the event.
 The medal is awarded by Der Verein Schweizerischer Zweitagemarsch 
 and is not authorized for wear by MDDF members.
 
-## Dates of Rank {#DatesOfRank}
-
-<table class="table">
-  <thead>
-    <tr>
-      <th>Rank</th>
-      <th>Date</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Captain</td>
-      <td>September 16, 2013</td>
-    </tr>
-    <tr>
-      <td>First Lieutenant</td>
-      <td>June 20, 2011</td>
-    </tr>
-    <tr>
-      <td>Second Lieutenant</td>
-      <td>November 21, 2006</td>
-    </tr>
-  </tbody>
-</table>
-
-## My Commission {#MyCommission}
-
-{% include figure.html width="12"
-   image="/service/jhoward-mddf-commission.webp" 
-   alt="Commission in the Maryland Defense Force"
-   cap="Commission in the Maryland Defense Force" %}
-
-Or you can [download the PDF here](/assets/img/service/jhoward-mddf-commission.pdf).
-
-{% include relatedposts.html tag="Maryland Defense Force" %}
-
 
 ## About the Maryland Defense Force
 
@@ -441,3 +442,6 @@ The modern MDDF is part of Maryland's Military Department and one of its four pi
 Maryland law establishes the MDDF as a military force within the State's organized militia. It also provides for State Active Duty when the Governor calls the militia in response to a public crisis, disaster, or other legally specified circumstance. Those are the institutional facts relevant to my service record.
 
 The earlier Maryland State Guard and state-defense-force history is real and worth documenting carefully, but the old page's broad chronology and claims about its organization were not sufficiently supported by the sources available for this revision. I have removed them rather than convert them into confident-looking folklore.
+
+
+{% include relatedposts.html tag="Maryland Defense Force" %}
