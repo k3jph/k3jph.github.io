@@ -586,3 +586,52 @@ body {
   padding-right: 10px;
   padding-left: 10px;
 }
+
+
+/*
+ * Mobile homepage: keep the accessibility skip link out of the visual
+ * composition until it is reached by keyboard focus, then give the hero
+ * statement a deliberate, readable three-line measure.
+ */
+.skip-link:not(:focus):not(:focus-visible) {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+  html,
+  body {
+    overflow-x: clip;
+  }
+
+  .home-mobile-hero .home-tagline {
+    width: min(100%, 29rem);
+    margin: 0 auto;
+    padding: 0 0.25rem;
+    color: #f8f8f8;
+    font-family: "Cinzel", "Times New Roman", serif;
+    font-size: clamp(1.25rem, 5.7vw, 1.65rem);
+    font-weight: 600;
+    line-height: 1.45;
+    letter-spacing: 0.025em;
+    text-align: center;
+  }
+
+  .home-mobile-hero .home-tagline span {
+    display: block;
+    white-space: nowrap;
+  }
+
+  /*
+   * The white visible after “What I Do” is the next content section,
+   * not a horizontal-overflow gap. Bring its heading into view sooner
+   * on phones so the transition reads as intentional.
+   */
+  #firstSection {
+    padding-top: 3rem;
+  }
+}
