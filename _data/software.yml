@@ -31,45 +31,24 @@ current:
       - label: Opening note
         url: /2026/08/11/the-fatal-image-is-now-open/
 
-  - name: Interlocks
-    status: Current
-    period: 2026–present
-    technology: JavaScript · web application · policy engine
-    summary: >-
-      A provenance-first system for institutional conflicts. It keeps facts,
-      relationships, evidence, policy questions, mitigations, and human judgment
-      distinct, because a machine can identify a connection without pretending
-      that it has made the professional decision.
-    links:
-      - label: Source
-        url: https://github.com/howardjp/interlocks
-
-  - name: Greystoke
-    status: Experimental
-    period: 2026–present
-    technology: C · operating-systems research
-    summary: >-
-      A capability-oriented microkernel experiment derived from NetBSD. It asks
-      what a modern Mach-like system might look like when portability boundaries,
-      hardware protection, and explicit evidence are treated as design
-      constraints rather than afterthoughts.
-    links:
-      - label: Source
-        url: https://github.com/howardjp/greystoke
-
-  - name: Queen City Yard
-    status: Experimental
-    period: 2026
-    technology: NW.js · arcade game
-    summary: >-
-      A hump-tower arcade game: a deliberately nontraditional software project
-      built around switching, timing, and the satisfying problem of getting a
-      railway yard to do what it is told.
-    links:
-      - label: Source
-        url: https://github.com/howardjp/hump-tower
-
 maintained:
+  - name: Kami
+    status: Stable
+    period: 2021–2023
+    technology: Modern C++ · agent-based modeling
+    summary: >-
+      An agent-based modeling library in modern C++, developed at the Johns
+      Hopkins Applied Physics Laboratory. It provides the pieces for modeling
+      individual actors and their environments when collective behavior cannot
+      be treated as a simple aggregate.
+    links:
+      - label: Source
+        url: https://github.com/JHUAPL/kami
+      - label: Documentation
+        url: https://kami.readthedocs.io/en/main/
+      - label: Release archive
+        url: https://github.com/JHUAPL/kami/releases
+
   - name: phonics
     status: Maintained
     period: 2015–present
