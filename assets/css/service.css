@@ -31,8 +31,8 @@
   color: #fff;
 }
 
-.service-current .description {
-  color: #feefa8;
+.service-current .title-area .description {
+  color: #feefa8 !important;
   font-family: "Spectral", Georgia, serif;
   font-size: 1.08em;
   line-height: 1.55;
