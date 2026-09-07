@@ -618,7 +618,7 @@ body {
   }
 
   .home-mobile-hero__wordmark > .col-xs-12 > img {
-    width: 57% !important;
+    width: 63% !important;
   }
 
   .home-mobile-hero .home-tagline {
@@ -632,7 +632,8 @@ body {
     line-height: 1.28;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-top: 0.5rem !important;
+    margin-top: -1.25rem !important;
+    transform: translateY(-1.25rem);
   }
 
   .home-mobile-hero .home-tagline span {
