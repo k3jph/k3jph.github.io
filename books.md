@@ -8,6 +8,7 @@ guid: https://jameshoward.us/?page_id=2930
 menu-order: 90
 menu-label: Books
 stylesheet: /assets/css/books.css
+flush_bottom: true
 ---
 
 <div class="books-introduction">
