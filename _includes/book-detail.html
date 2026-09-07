@@ -1,8 +1,10 @@
 {% assign book = site.data.books.published | where: "slug", include.slug | first %}
+{% assign cover_url = book.cover %}
+{% unless cover_url contains '://' %}{% assign cover_url = cover_url | relative_url %}{% endunless %}
 <article class="book-detail">
   <div class="book-detail-hero">
     <div class="book-detail-cover">
-      <img src="{{ book.cover | relative_url }}" alt="{{ book.cover_alt }}">
+      <img src="{{ cover_url }}" alt="{{ book.cover_alt }}">
     </div>
     <div class="book-detail-intro">
       <p class="book-card-kicker">{{ book.edition }} · {{ book.year }}</p>
