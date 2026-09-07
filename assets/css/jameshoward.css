@@ -614,11 +614,12 @@ body {
     padding: 0 0.25rem;
     color: #f8f8f8;
     font-family: "Cinzel", "Times New Roman", serif;
-    font-size: clamp(1.25rem, 5.7vw, 1.65rem);
+    font-size: clamp(1.15rem, 5vw, 1.5rem);
     font-weight: 600;
-    line-height: 1.45;
-    letter-spacing: 0.025em;
+    line-height: 1.35;
+    letter-spacing: 0.02em;
     text-align: center;
+    margin-top: 1.25rem !important;
   }
 
   .home-mobile-hero .home-tagline span {
