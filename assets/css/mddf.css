@@ -1,0 +1,81 @@
+.mddf-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1.1rem;
+  max-width: 52rem;
+  margin: 2rem 0 3rem;
+  padding: 1rem 0;
+  border-top: 1px solid #d8d0bf;
+  border-bottom: 1px solid #d8d0bf;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.92em;
+  font-weight: 700;
+}
+
+.mddf-toc a {
+  color: #154c9e;
+  text-decoration: none;
+}
+
+.mddf-toc a:hover,
+.mddf-toc a:focus {
+  color: #6e5b25;
+  text-decoration: underline;
+}
+
+.page-content h2[id],
+.page-content h3[id],
+.page-content h4[id] {
+  scroll-margin-top: 5rem;
+}
+
+.page-content > h2 {
+  margin-top: 3.5rem;
+}
+
+.page-content > h2:first-of-type {
+  margin-top: 0;
+}
+
+.page-content h3 {
+  margin-top: 2.25rem;
+}
+
+.page-content h4 {
+  margin-top: 2rem;
+}
+
+.page-content .ribbonrack {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.page-content blockquote {
+  max-width: 52rem;
+  margin: 1rem 0 1.5rem;
+  padding: 0.9rem 1.2rem;
+  border-left: 3px solid #c5a47e;
+  background: #faf8f3;
+  color: #393631;
+}
+
+.page-content strong {
+  color: #4b432f;
+}
+
+@media (max-width: 600px) {
+  .mddf-toc {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem 1rem;
+  }
+
+  .page-content > h2 {
+    margin-top: 2.75rem;
+  }
+
+  .page-content blockquote {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
