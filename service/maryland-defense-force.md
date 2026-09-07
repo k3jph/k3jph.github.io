@@ -7,136 +7,77 @@ permalink: /service/maryland-defense-force
 redirect_from:
   - /mddf/
   - /service/mddf/
+stylesheet: /assets/css/mddf.css
 ---
 
 {% include figure.html image="ribbons/mddf/MDDF-DUI.svg" placement="right" width="30%"
 cap="The Maryland Defense Force's distinctive unit insignia"
 alt="The Maryland Defense Force's distinctive unit insignia" %}
 
-I have served as a captain in the [Maryland Defense Force
-(MDDF)](https://military.maryland.gov/mddf/Pages/default.aspx) since
-2013. The MDDF is Maryland's volunteer state-defense force, supporting
-the Maryland National Guard and state emergency operations.
+The [Maryland Defense Force (MDDF)](https://military.maryland.gov/mddf/Pages/default.aspx) is Maryland's volunteer uniformed state military agency. It provides professional, technical, and military support to the Maryland Army National Guard, Maryland Air National Guard, and Maryland Department of Emergency Management.
 
-My service has included leading operational teams during statewide
-COVID-19 vaccination activity, which delivered 8,285 shots, and
-authoring policies on promotion, hazardous materials, professional
-writing, training, and operational standards. The work is practical:
-organizing people and procedures when the state needs both to work.
+I have served as a Captain in the MDDF since 2013. This page is the public documentary record of that service: operations, policy work, qualifications, and awards. The institutional history comes later, where it belongs.
 
-The following is a record of my service and of the Maryland Defense
-Force itself.
+<nav class="mddf-toc" aria-label="On this page">
+  <a href="#my-service">My Service</a>
+  <a href="#operations">Operations</a>
+  <a href="#policy-work">Policy Work</a>
+  <a href="#qualifications">Qualifications</a>
+  <a href="#awards-and-decorations">Awards</a>
+  <a href="#about-the-maryland-defense-force">About the MDDF</a>
+</nav>
 
-## History of the Maryland Defense Force
+## My Service
 
-The traces its origins to the early
-20th century, playing a pivotal role in state defense and emergency
-response. Initially established on October 23, 1917, as the Maryland
-State Guard, its creation was a direct response to World War I,
-aimed at assuming the duties of the National Guard when federalized.
-The primary mission of this early incarnation was to provide homeland
-security, protect critical infrastructure, and maintain public order
-during a tumultuous period.
+**Captain, Maryland Defense Force · 2013–Present**
 
-{% include figure.html image="ribbons/mddf/MDDF-SSI.svg" placement="right" width="30%"
-cap="The Maryland Defense Force's shoulder sleeve insignia"
-alt="The Maryland Defense Force's shoulder sleeve insignia" %}
+My MDDF work joins operations with institutional design. I have led operational teams during statewide COVID-19 vaccination activity; written policies governing promotion, hazardous materials, professional writing, training, and operational standards; and worked in the part of public service where a plan has to survive implementation.
 
-Following World War I, the Maryland State Guard was disbanded, but
-the concept of a state defense force persisted. It wasn't until
-World War II that the need for a state-level military force became
-apparent again. Reactivated as the Maryland State Guard Reserve,
-the MDDF's focus shifted to defending the state against potential
-threats and assisting in civil defense efforts. This period saw the
-MDDF involved in a range of activities, from patrolling vital
-infrastructure to providing support during blackouts and other
-wartime emergencies.
+## Operations
 
-Post-World War II, the MDDF underwent several transformations. In
-1983, the Maryland Defense Force was officially reestablished in
-its modern form. This reactivation was part of a broader national
-trend recognizing the importance of state defense forces in
-supplementing the National Guard and providing critical support
-during emergencies. The MDDF was tasked with a broader mandate,
-including disaster response, search and rescue operations, and
-support for public health emergencies.
+### Statewide COVID-19 Vaccination Operations
 
-The MDDF's structure reflects its diverse mission. Organized into
-specialized units such as medical, engineering, and cyber defense,
-the MDDF leverages the professional skills of its volunteer members
-to address specific needs during emergencies. This modular structure
-allows for rapid deployment and effective coordination with other
-state and federal agencies. For example, the MDDF's Medical Unit
-has been crucial in providing medical support during large-scale
-public health crises, while the Engineering Unit has assisted in
-infrastructure assessment and repair following natural disasters.
+During **Operation Steadfast Guardian**—March 15 through June 21, 2020—I served on State Active Duty supporting Maryland's COVID-19 response. The record includes a Maryland Defense Force Commendation Ribbon and Maryland Emergency Service Ribbon for that activation.
 
-One significant milestone in the MDDF's history was its response
-to the September 11, 2001, terrorist attacks. The MDDF was mobilized
-to provide security at critical sites and assist in the overall
-state response to the heightened security threats. This period
-underscored the importance of the MDDF's role in homeland security
-and emergency preparedness.
+In **Operation Steadfast Guardian II**, I supported the Maryland National Guard Medical Detachment's statewide vaccination work, including Task Force Equity. From January through June 2021, MDDF support to those clinics resulted in **8,285 vaccinations**. That is the operation's documented result, not a claim that I personally administered 8,285 shots.
 
-In recent years, the MDDF has been at the forefront of responding
-to natural disasters and public health emergencies. Notably, during
-the COVID-19 pandemic, the MDDF played a crucial role in supporting
-vaccination efforts and other public health initiatives. The force's
-ability to mobilize quickly and work in conjunction with the Maryland
-National Guard and other agencies has been a testament to its
-training, dedication, and organizational efficiency.
+## Policy and Institutional Work {#policy-work}
 
-Today, the Maryland Defense Force remains an integral part of
-Maryland's emergency response framework. Its members, driven by a
-strong sense of duty and community service, continue to uphold the
-MDDF's legacy of readiness and resilience. The force's history is
-marked by a commitment to protecting and serving the citizens of
-Maryland, adapting to new challenges, and maintaining a steadfast
-presence in times of need.
+Much of the durable work is less visible than an activation. I have authored publicly describable MDDF policy in five related areas:
 
-## Skill Badges
+- promotion;
+- hazardous materials;
+- professional writing;
+- training; and
+- operational standards.
+
+The point was not to produce paperwork for its own sake. It was to make expectations, responsibilities, and operating practice intelligible enough to use when the organization needed them.
+
+## Qualifications
 
 <div class="badgerack">
 <div class="ribbonbar">
-<a href="#SMEMS" class="ribbon ribbon-center">
+<a href="#smems" class="ribbon ribbon-center">
 <img src="/assets/img/ribbons/mddf/SMEMS-Flash.svg"
-    alt="Senior Military Emergency Management Specialist" /></a>
+    alt="Senior Military Emergency Management Specialist flash" /></a>
 </div>
 </div>
 
-### Senior Military Emergency Management Specialist {#SMEMS}
+### Senior Military Emergency Management Specialist {#smems}
 
-Members of the U.S. uniformed services and state guards increasingly
-have been mobilized to respond to natural and man-made disasters
-and other emergencies. Military and civilian authorities now see
-an urgent need to provide additional and improved emergency management
-training for personnel deployed during disasters. The MEMS Academy
-continues to fill that need.
+I hold the **Senior Military Emergency Management Specialist** qualification from the [State Guard Association of the United States](https://sgaus.org/). It follows the Basic MEMS qualification and recognizes advanced emergency-management preparation for planning and leading increasingly complex incident-response work.
 
-Individuals with Basic MEMS certificates will have an operational understanding
-of the principles of emergency management, including mitigation, preparedness,
-emergency response and recovery with the knowledge, skills, and abilities needed
-to effectively work within a comprehensive emergency management operation. Those
-with Senior and Master level certificates will be able to lead and plan incident
-response efforts of increasing complexity.  The blue MEMS flash is awarded to
-those who have been activated or mobilized for a disaster, declared emergency,
-or major event requiring the activation of the  [Incident Command
-System](https://training.fema.gov/emiweb/is/icsresource/).
+The blue MEMS flash records activation or mobilization for a disaster, declared emergency, or major event requiring use of the Incident Command System.
 
-The MEMS badges are awarded by the [State Guard Association of the United
-States](https://sgaus.org/) and are authorized for wear by MDDF members.
+**Awarded September 10, 2023:** Senior Military Emergency Management Specialist with MEMS flash.
 
-<!-- Members with the LNO certificate will be able to work within any EOC. -->
+**Awarded March 3, 2021:** Basic Military Emergency Management Specialist.
 
-#### September 10, 2023
+## Awards and Decorations
 
-> Awarded Senior Military Emergency Management Specialist with MEMS flash
+The ribbons below are the documentary index to the record. They remain grouped by the kind of recognition rather than being treated as one undifferentiated rack.
 
-#### March 3, 2021
-
-> Awarded Basic Military Emergency Management Specialist
-
-## Awards
+#### Personal Awards
 
 {% assign ribbons = site.data.mddf_ribbons | where: "type","personal" %}
 {% assign remainder = ribbons.size | modulo: 3 %}
@@ -174,7 +115,7 @@ States](https://sgaus.org/) and are authorized for wear by MDDF members.
   </div>
 </div>
 
-### The Adjutant General's Special Recognition Ribbon {#TAGSRR}
+#### The Adjutant General's Special Recognition Ribbon {#TAGSRR}
 
 The Adjutant General's Special Recognition Ribbon is awarded to
 recognize an agency, organization, or entity that is not a numbered
@@ -186,7 +127,7 @@ the mission.
 
 > For outstanding unit performance in support of the COVID-19 response.
 
-### Maryland Emergency Service Ribbon {#MDESR}
+#### Maryland Emergency Service Ribbon {#MDESR}
 
 The Maryland Emergency Service Ribbon is awarded for being mobilized
 by the Governor of Maryland to support a declared state emergency,
@@ -197,7 +138,7 @@ crisis such as a natural disaster or civil unrest.
 
 >  Operation Steadfast Guardian--March 15, 2020 to June 21, 2020
 
-### State of Maryland State Service Medal {#MDSVCR}
+#### State of Maryland State Service Medal {#MDSVCR}
 
 The State of Maryland State Service Medal is awarded to Maryland
 Military Department service members who have completed five good
@@ -207,7 +148,7 @@ Guard, Maryland Air National Guard, or Maryland Defense Force.
 
 The addition of two bronze botonees is for fifteen years of service.
 
-### Maryland Defense Force Meritorious Service Ribbon {#MDDFMSR}
+#### Maryland Defense Force Meritorious Service Ribbon {#MDDFMSR}
 
 The Maryland Defense Force Meritorious Service Ribbon is the highest
 MDDF award and is presented to any active member of the MDDF who
@@ -225,7 +166,7 @@ responsibility.
 > vaccination clinics from January to June 2021 resulted in 8285 shots
 > being given during Operation Steadfast Guardian II.
 
-### Maryland Defense Force Commendation Ribbon {#MDDFCR}
+#### Maryland Defense Force Commendation Ribbon {#MDDFCR}
 
 Recognition of outstanding acts of achievement or service that has
 clearly placed the individual far above their peer or superior
@@ -238,7 +179,7 @@ recognition of the individual's achievement.
 > For service, while on State Active Duty, in support of Operation Steadfast
 > Guardian during the period of March 15, 2020, to June 21, 2020.
 
-### Maryland Defense Force Humanitarian Service Ribbon {#MDDFHSR}
+#### Maryland Defense Force Humanitarian Service Ribbon {#MDDFHSR}
 
 The Maryland Defense Force Humanitarian Service Ribbon is presented to
 any active member of the MDDF who, while under orders and in the opinion
@@ -251,7 +192,7 @@ Military Department.
 
 > For supporting the MDDF's participation in Operation Steadfast Guardian II.
 
-### Maryland Defense Force Aid to Civil Authority Ribbon {#MDDFACAR}
+#### Maryland Defense Force Aid to Civil Authority Ribbon {#MDDFACAR}
 
 The Maryland Defense Force Aid to Civil Authority Ribbon is awarded to MDDF
 members for being mobilized by the Commanding General, MDDF, to support a
@@ -261,7 +202,7 @@ domestic emergency, crisis, or other missions as deemed appropriate.
 
 > For supporting the MDDF's participation in Operation Steadfast Guardian II.
 
-### Maryland Defense Force Community Emergency Response Team Ribbon {#MDDFCERTR}
+#### Maryland Defense Force Community Emergency Response Team Ribbon {#MDDFCERTR}
 
 The Maryland Defense Force Community Emergency Response Team Ribbon
 will be awarded upon a MDDF member's successful completion of an
@@ -269,7 +210,7 @@ accredited local, state, or federal government sponsored CERT
 training program. The CERT course or program must also be certified
 by the MDDF-D5/7.
 
-### Maryland Defense Force Professional Development Ribbon {#MDDFPDR}
+#### Maryland Defense Force Professional Development Ribbon {#MDDFPDR}
 
 The Maryland Defense Force Professional Development Ribbon is awarded
 to encourage professional growth within the Maryland Defense Force.
@@ -279,7 +220,7 @@ Maryland Defense Force.
 
 I have received this award three times.
 
-### Maryland Defense Force Basic Training Ribbon {#MDDFBTR}
+#### Maryland Defense Force Basic Training Ribbon {#MDDFBTR}
 
 The Maryland Defense Force Basic Training Ribbon is awarded to
 recognize the successful completion of the approved MDDF Basic
@@ -292,7 +233,7 @@ entire curriculum was revised into a more involved process called
 "Initial Entry Training" (IET) and this ribbon was superseded with
 one for the new IET process.
 
-### State Guard Association of United States Professional Development Award {#SGAUSPDA}
+#### State Guard Association of United States Professional Development Award {#SGAUSPDA}
 
 The State Guard Association of United States Professional Development
 Award is awarded to active SGAUS members who complete certain
@@ -341,7 +282,7 @@ United States and is authorized for wear by MDDF members.
   </div>
 </div>
 
-### State Guard Association of United States Superior Unit Citation {#SGAUSSUC}
+#### State Guard Association of United States Superior Unit Citation {#SGAUSSUC}
 
 The Superior Unit Citation may be awarded to SGAUS members in a
 state guard/defense force unit that performed outstanding service
@@ -405,7 +346,7 @@ of the Maryland Defense Force and the Maryland Military Department.
   </div>
 </div>
 
-### President's Volunteer Service Award {#PVSA}
+#### President's Volunteer Service Award {#PVSA}
 
 The President's Volunteer Service Award (PVSA) is a notable honor
 that celebrates individuals who have made remarkable contributions
@@ -432,7 +373,7 @@ authorized for wear by MDDF members.
 
 >  For calendar year 2021, bronze
 
-### Schweizerischer Zweitagemarsch {#CHZTM1}
+#### Schweizerischer Zweitagemarsch {#CHZTM1}
 
 The [Schweizerischer Zweitagemarsch](https://2tama.ch/), 
 also known as the Swiss Two Day
@@ -491,3 +432,12 @@ and is not authorized for wear by MDDF members.
 Or you can [download the PDF here](/assets/img/service/jhoward-mddf-commission.pdf).
 
 {% include relatedposts.html tag="Maryland Defense Force" %}
+
+
+## About the Maryland Defense Force
+
+The modern MDDF is part of Maryland's Military Department and one of its four pillars. Its stated role is to provide supplemental professional, technical, and military support to the Maryland Army National Guard, Maryland Air National Guard, and Maryland Department of Emergency Management.
+
+Maryland law establishes the MDDF as a military force within the State's organized militia. It also provides for State Active Duty when the Governor calls the militia in response to a public crisis, disaster, or other legally specified circumstance. Those are the institutional facts relevant to my service record.
+
+The earlier Maryland State Guard and state-defense-force history is real and worth documenting carefully, but the old page's broad chronology and claims about its organization were not sufficiently supported by the sources available for this revision. I have removed them rather than convert them into confident-looking folklore.
