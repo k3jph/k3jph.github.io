@@ -10,9 +10,12 @@ image: /assets/images/thomas-viaduct.webp
 
 ## Board of Appeals
 
-In 2011, I was appointed to the [Board of
-Appeals](http://cc.howardcountymd.gov/Zoning-Land-Use/Board-of-Appeals) for
-Howard County.  The Board of Appeals has two roles in Howard County.
+I served Howard County from 2011 through 2021 as a member and chair of
+the [Board of Appeals](http://cc.howardcountymd.gov/Zoning-Land-Use/Board-of-Appeals),
+and later on the Charter Review Commission. This is a historical public-service
+record; the appointments concluded in 2021.
+
+In 2011, I was appointed to the Board of Appeals for Howard County.  The Board of Appeals has two roles in Howard County.
 In the first role, cases for [conditional
 uses](https://en.wikipedia.org/wiki/Special-use_permit), sometimes
 called special use permits, are heard by the Board of Appeals Hearing

@@ -1,0 +1,201 @@
+.service-introduction {
+  max-width: 52rem;
+  margin: 0 auto 3rem;
+  font-family: "Spectral", Georgia, serif;
+  font-size: 1.18em;
+  line-height: 1.65;
+}
+
+.service-current {
+  width: 100vw;
+  margin: 0 calc(50% - 50vw) 4rem;
+  padding: 4rem 0;
+  background: #2b3c52;
+  color: #fff;
+}
+
+.service-current-inner {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.service-current .title-area {
+  max-width: 52rem;
+  margin: 0 auto 2.5rem;
+  padding: 0;
+  text-align: center;
+}
+
+.service-current h2 {
+  color: #fff;
+}
+
+.service-current .title-area .description {
+  color: #feefa8 !important;
+  font-family: "Spectral", Georgia, serif;
+  font-size: 1.08em;
+  line-height: 1.55;
+}
+
+.service-current .separator,
+.service-current .separator::before,
+.service-current .separator::after {
+  color: #feefa8;
+  border-color: #feefa8;
+}
+
+.service-current-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.service-current-card {
+  min-height: 100%;
+  padding: 1.45rem 1.55rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(16, 28, 44, 0.2);
+}
+
+.service-current-card h3 {
+  margin: 0 0 0.35rem;
+  color: #fff;
+  font-size: 1.25em;
+  line-height: 1.25;
+}
+
+.service-current-card h3 a {
+  color: #fff;
+}
+
+.service-current-card h3 a:hover {
+  color: #feefa8;
+}
+
+.service-role,
+.service-dates {
+  margin: 0;
+}
+
+.service-role {
+  color: #feefa8;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.92em;
+  font-weight: 700;
+}
+
+.service-dates {
+  margin-top: 0.2rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.86em;
+  font-weight: 700;
+}
+
+.service-current-card .service-summary {
+  margin: 0.85rem 0 0;
+  line-height: 1.55;
+}
+
+.service-history {
+  margin: 0 auto 4rem;
+}
+
+.service-history > h2 {
+  margin-bottom: 0.5rem;
+}
+
+.service-history-introduction {
+  max-width: 52rem;
+  margin: 0 0 2.5rem;
+  color: #615d53;
+  font-family: "Spectral", Georgia, serif;
+  font-size: 1.08em;
+  line-height: 1.55;
+}
+
+.service-history-group {
+  margin: 0 0 3rem;
+}
+
+.service-history-group h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1.45em;
+}
+
+.service-history-group-introduction {
+  margin: 0 0 1.25rem;
+  color: #786f5f;
+  font-family: "Spectral", Georgia, serif;
+  font-size: 1.03em;
+  line-height: 1.55;
+}
+
+.service-entry {
+  padding: 1.2rem 0;
+  border-top: 1px solid #d8d0bf;
+}
+
+.service-history-group .service-entry:last-child {
+  border-bottom: 1px solid #d8d0bf;
+}
+
+.service-entry h4 {
+  margin: 0;
+  color: #2e2c28;
+  font-size: 1.24em;
+  line-height: 1.3;
+}
+
+.service-entry h4 a {
+  color: #2e2c28;
+}
+
+.service-entry h4 a:hover {
+  color: #154c9e;
+}
+
+.service-entry-meta {
+  margin: 0.35rem 0 0;
+  color: #786f5f;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.92em;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.service-entry-role {
+  color: #786f5f;
+}
+
+.service-entry .service-summary {
+  max-width: 52rem;
+  margin: 0.65rem 0 0;
+  line-height: 1.58;
+}
+
+@media (max-width: 991px) {
+  .service-current-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .service-current {
+    margin-bottom: 3rem;
+    padding: 3rem 0;
+  }
+
+  .service-current-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-current-card {
+    padding: 1.25rem;
+  }
+
+  .service-history {
+    margin-bottom: 3rem;
+  }
+}

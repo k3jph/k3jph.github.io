@@ -9,7 +9,7 @@ image: /assets/images/long-reach-community-association.webp
 ---
 ## Master Plan Committee
 
-In 2009, the Howard County Government developed a set of steps each village must go through to complete a redevelopment of its village center.  One of these steps was developing a master plan for the redevelopment and in 2010 and 2011, this task in [Long Reach](http://longreach.org/) fell to a Master Plan Committee.  I sat committee with Columbia Council members Henry Dagenais, Ed Coleman, and Paul Bernard.  We produced a recommendation and the Village Board refined that recommendation into a master plan.  Both are linked to, below.
+In 2009, the Howard County Government developed a set of steps each village must go through to complete a redevelopment of its village center.  One of these steps was developing a master plan for the redevelopment and in 2010 and 2011, this task in [Long Reach](http://longreach.org/) fell to a Master Plan Committee. I served on that committee with Columbia Council members Henry Dagenais, Ed Coleman, and Paul Bernard.  We produced a recommendation and the Village Board refined that recommendation into a master plan.  Both are linked to, below.
 
 ### Documents
 

@@ -13,37 +13,19 @@ redirect_from:
 cap="The Maryland Defense Force's distinctive unit insignia"
 alt="The Maryland Defense Force's distinctive unit insignia" %}
 
-As a captain in the [Maryland Defense Force
-(MDDF)](https://military.maryland.gov/mddf/Pages/default.aspx), I
-am proud to serve as a member of this highly trained and dedicated
-agency. The MDDF is a volunteer military organization that serves
-as a complement to the Maryland National Guard, providing critical
-support to the state's emergency response efforts. With a focus on
-disaster relief and other emergency services, the MDDF is a vital
-part of Maryland's emergency response capabilities.
+I have served as a captain in the [Maryland Defense Force
+(MDDF)](https://military.maryland.gov/mddf/Pages/default.aspx) since
+2013. The MDDF is Maryland's volunteer state-defense force, supporting
+the Maryland National Guard and state emergency operations.
 
-As a member of the MDDF, I have had the opportunity to work alongside
-other highly skilled and motivated individuals from a wide range
-of backgrounds. The MDDF is organized into several units, each with
-its own unique mission and focus. These units include medical and
-engineering, among others, each playing a critical role in supporting
-Maryland's emergency response efforts.
+My service has included leading operational teams during statewide
+COVID-19 vaccination activity, which delivered 8,285 shots, and
+authoring policies on promotion, hazardous materials, professional
+writing, training, and operational standards. The work is practical:
+organizing people and procedures when the state needs both to work.
 
-I have had the opportunity to lead and manage teams of volunteers
-in a variety of settings, from disaster response to training
-exercises. I have gained invaluable experience in coordinating and
-collaborating with other emergency response organizations and
-agencies, including the Maryland National Guard and the Federal
-Emergency Management Agency (FEMA).
-
-Overall, my experience in the MDDF has been incredibly rewarding
-and fulfilling. It has provided me with the opportunity to serve
-my community and my state in a meaningful way, while also developing
-important skills and knowledge that I can apply in both my personal
-and professional life.
-
-The following is a brief overview of my experience and
-accomplishments with the MDDF, as well as the MDDF itself.
+The following is a record of my service and of the Maryland Defense
+Force itself.
 
 ## History of the Maryland Defense Force
 
