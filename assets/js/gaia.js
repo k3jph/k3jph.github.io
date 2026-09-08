@@ -53,8 +53,11 @@ $(document).ready(function(){
         no_touch_screen = true;
     }
 
-    // Init navigation toggle for small screens
+    // Use the compact, off-canvas header through tablet widths.
+    // Bootstrap's desktop navigation begins at 768px, but this site's
+    // complete navigation and search field need the wider 992px breakpoint.
     if(window_width < 992 || burger_menu){
+        $('.navbar').addClass('navbar-burger');
         gaia.initRightMenu();
     }
 
@@ -77,12 +80,15 @@ $(document).ready(function(){
 //activate collapse right menu when the windows is resized
 $(window).resize(function(){
     if($(window).width() < 992){
+        $('.navbar').addClass('navbar-burger');
         gaia.initRightMenu();
         //gaia.checkResponsiveImage();
     }
-    if($(window).width() > 992 && !burger_menu){
-        $('nav[role="navigation"]').removeClass('navbar-burger');
-        gaia.misc.navbar_menu_visible = 1;
+    if($(window).width() >= 992 && !burger_menu){
+        $('.navbar').removeClass('navbar-burger');
+        $('html').removeClass('nav-open');
+        $('#bodyClick').remove();
+        gaia.misc.navbar_menu_visible = 0;
         navbar_initialized = false;
     }
 });
