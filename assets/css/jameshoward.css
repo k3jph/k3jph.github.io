@@ -632,8 +632,7 @@ body {
     line-height: 1.28;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-top: -1.25rem !important;
-    transform: translateY(-1.25rem);
+    margin-top: -0.5rem !important;
   }
 
   .home-mobile-hero .home-tagline span {
