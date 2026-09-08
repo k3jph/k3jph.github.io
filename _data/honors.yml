@@ -1,0 +1,145 @@
+# A categorized record of recognition.  Service offices and professional qualifications
+# deliberately live elsewhere on the site.
+- category: professional
+  title: Senior Member
+  issuer: Association for Computing Machinery
+  issuer_type: Professional society
+  date: "2026"
+  summary: "Senior Member recognition in the international professional association for computing."
+- category: professional
+  title: Fellow
+  issuer: Society of Antiquaries of Scotland
+  issuer_type: Learned society
+  date: "2025"
+  summary: "Elected Fellowship in Scotland’s national learned society for antiquities and heritage."
+  evidence: /assets/docs/jhoward-fsascot.pdf
+- category: professional
+  title: Fellow
+  issuer: Institute of Mathematics and its Applications
+  issuer_type: Professional and learned society
+  date: "2022"
+  summary: "Elected to Fellowship of the professional body for mathematics and its applications."
+  evidence: /assets/docs/JHoward-IMA-FIMA.pdf
+- category: professional
+  title: Fellow
+  issuer: Cybernetics Society
+  issuer_type: Learned society
+  date: "2021"
+  summary: "Elected Fellowship in the society concerned with the study and application of cybernetics."
+  evidence: /assets/docs/JHoward-FCybS.pdf
+- category: professional
+  title: Senior Member
+  issuer: IEEE
+  issuer_type: Professional society
+  date: "2021"
+  summary: "Senior Member recognition in the world’s professional association for electrical and electronic engineering."
+  evidence: /assets/docs/JHoward-IEEE-SM-2025.pdf
+- category: professional
+  title: Fellow
+  issuer: Royal Society of Arts
+  issuer_type: Learned society
+  date: "2020"
+  summary: "Elected Fellowship in the Royal Society for Arts, Manufactures and Commerce."
+- category: professional
+  title: Fellow
+  issuer: British Computer Society
+  issuer_type: Professional society
+  date: "2020"
+  summary: "Elected Fellowship in the chartered institute for IT."
+  evidence: /assets/docs/JHoward-FBCS.pdf
+
+- category: civic
+  title: Kentucky Colonel
+  issuer: Commonwealth of Kentucky
+  issuer_type: Commonwealth civic honor
+  date: "25 March 2024"
+  summary: "Commissioned by Governor Andy Beshear as a Kentucky Colonel."
+  detail_page: /2024/04/02/i-was-appointed-a-kentucky-colonel
+  evidence: /assets/img/2024/i-was-appointed-a-kentucky-colonel/jhoward-kyc.pdf
+- category: civic
+  title: Maryland Defense Force Meritorious Service Ribbon
+  issuer: Maryland Defense Force
+  issuer_type: State military recognition
+  date: "4 November 2021"
+  summary: "The MDDF’s highest award, presented for sustained meritorious support of statewide COVID-19 vaccination operations."
+  detail_page: /service/maryland-defense-force#MDDFMSR
+- category: civic
+  title: Maryland Defense Force Commendation Ribbon
+  issuer: Maryland Defense Force
+  issuer_type: State military recognition
+  date: "9 September 2020"
+  summary: "Awarded for State Active Duty service supporting Operation Steadfast Guardian."
+  detail_page: /service/maryland-defense-force#MDDFCR
+- category: civic
+  title: President’s Volunteer Service Award — Bronze
+  issuer: President’s Council on Service and Civic Participation
+  issuer_type: Civic service recognition
+  date: "Documented award"
+  summary: "Federal recognition for qualifying volunteer service; the Maryland Defense Force record preserves the Bronze award."
+  detail_page: /service/maryland-defense-force#awards-and-decorations
+
+- category: heraldic
+  title: Grant of Arms
+  issuer: Office of the Chief Herald of Arms of Malta
+  issuer_type: Heraldic grant
+  date: "1 May 2024"
+  summary: "Letters Patent G0102 granting and recording personal arms."
+  detail_page: /coat-of-arms
+  evidence: /assets/docs/jhoward-malta-letters-patent.pdf
+
+- category: ceremonial
+  title: Knight Commander
+  issuer: Royal Order of the Star of Oceania
+  issuer_type: Ceremonial order
+  date: "17 March 2024"
+  summary: "Conferred by Princess Owana Kaʻōhelelani."
+  detail_page: /honors/royal-order-of-the-star-of-oceania
+- category: ceremonial
+  title: Knight Companion
+  issuer: Order of the Crancelin
+  issuer_type: Micronational order
+  postnominal: CRA
+  date: "2025"
+  summary: "Single-grade appointment in the Order of the Crancelin."
+- category: ceremonial
+  title: Knight
+  issuer: Order of Mines and Baths
+  issuer_type: Micronational order
+  postnominal: MMT
+  date: "18 February 2026"
+  summary: "Appointed Knight of the Duchy of Marienbourg’s Order of Mines and Baths."
+- category: ceremonial
+  title: Order of the Snowflake
+  issuer: Grand Duchy of Westarctica
+  issuer_type: Micronational order
+  current_grade: Knight Commander
+  previous_grade: "Knight — 25 December 2023"
+  date: "Current grade recorded"
+  summary: "Originally appointed Knight for devotion to Westarctica; subsequently promoted to Knight Commander."
+  detail_page: /honors/grand-duchy-of-westarctica
+
+- category: peerage
+  title: Baron of Matikonis
+  issuer: Grand Duchy of Westarctica
+  issuer_type: Micronational peerage
+  date: "2024"
+  summary: "Created Baron of Matikonis in the Peerage of Westarctica."
+  detail_page: /honors/grand-duchy-of-westarctica#Matikonis
+  evidence: /assets/img/honors/jhoward-matikonis.pdf
+- category: peerage
+  title: Count of Krigsvold
+  issuer: Grand Duchy of Westarctica
+  issuer_type: Micronational peerage
+  date: "2024"
+  summary: "Created Count of Krigsvold in the Peerage of Westarctica."
+  detail_page: /honors/grand-duchy-of-westarctica#Krigsvold
+  evidence: /assets/img/honors/jhoward-krigsvold.pdf
+
+- category: other
+  title: Correspondence Chess Expert
+  issuer: International Correspondence Chess Federation
+  issuer_type: Competitive distinction
+  postnominal: CCE
+  date: "Documented rating"
+  summary: "Awarded the Correspondence Chess Expert title by the International Correspondence Chess Federation."
+  evidence: /assets/docs/jhoward-iccf-cce.pdf
