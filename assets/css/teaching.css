@@ -1,9 +1,10 @@
 /* Teaching page: evidence-led course record */
 .teaching-introduction {
   max-width: 52rem;
-  margin: 0 auto 4rem;
-  font-size: 1.12rem;
-  line-height: 1.75;
+  margin: 0 auto 3rem;
+  font-family: "Spectral", Georgia, serif;
+  font-size: 1.18em;
+  line-height: 1.65;
 }
 
 .teaching-section {
@@ -15,39 +16,75 @@
 }
 
 .teaching-section-intro {
-  max-width: 50rem;
-  color: #746e63;
-  font-size: 1.05rem;
-  line-height: 1.65;
+  max-width: 52rem;
+  color: #615d53;
+  font-family: "Spectral", Georgia, serif;
+  font-size: 1.08em;
+  line-height: 1.55;
   margin: 0 0 2rem;
 }
 
-.teaching-appointment-grid,
-.teaching-course-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.5rem;
+/* The active record uses the same visual language as current service. */
+.teaching-current {
+  width: 100vw;
+  margin: 0 calc(50% - 50vw) 4rem;
+  padding: 4rem 0;
+  background: #2b3c52;
+  color: #fff;
 }
 
-.teaching-appointment {
-  background: #f1f1f1;
-  border-top: 4px solid #22579d;
-  box-shadow: 0 0.45rem 1.2rem rgba(0, 0, 0, 0.08);
-  padding: 1.65rem;
+.teaching-current-inner {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-.teaching-appointment h3,
-.teaching-institution h3,
-.teaching-archive-institution h3 {
+.teaching-current-title-area {
+  max-width: 52rem;
+  margin: 0 auto 2.5rem;
+  text-align: center;
+}
+
+.teaching-current h2 {
+  color: #fff;
+}
+
+.teaching-current-title-area p {
+  color: #feefa8;
+  font-family: "Spectral", Georgia, serif;
+  font-size: 1.08em;
+  line-height: 1.55;
   margin: 0;
 }
 
-.teaching-appointment p {
-  line-height: 1.65;
+.teaching-current-grid,
+.teaching-course-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.teaching-current-card {
+  min-height: 100%;
+  padding: 1.45rem 1.55rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(16, 28, 44, 0.2);
+}
+
+.teaching-current-card h3 {
+  color: #fff;
+  font-size: 1.25em;
+  line-height: 1.25;
+  margin: 0 0 0.35rem;
+}
+
+.teaching-current-card p {
+  line-height: 1.6;
 }
 
 .teaching-meta {
   color: #8d7950;
+  font-family: Lato, sans-serif;
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.035em;
@@ -55,28 +92,40 @@
   text-transform: uppercase;
 }
 
+.teaching-current-card .teaching-meta {
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 0.2rem;
+}
+
 .teaching-current-courses {
-  border-top: 1px solid #d8d1c4;
+  border-top: 1px solid rgba(255, 255, 255, 0.28);
   list-style: none;
   margin: 1.5rem 0 0;
   padding: 0;
 }
 
 .teaching-current-courses li {
-  border-bottom: 1px solid #d8d1c4;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.28);
   line-height: 1.45;
   padding: 0.8rem 0;
 }
 
 .teaching-current-courses a {
+  color: #fff;
   display: block;
   font-weight: 700;
 }
 
+.teaching-current-courses a:hover {
+  color: #feefa8;
+}
+
 .teaching-current-courses span {
-  color: #746e63;
+  color: #feefa8;
   display: block;
-  font-size: 0.88rem;
+  font-family: Lato, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
   margin-top: 0.15rem;
 }
 
@@ -91,10 +140,31 @@
   line-height: 1.7;
 }
 
+/* The full and historical record is intentionally lighter and more documentary. */
+.teaching-history {
+  margin: 0 auto 4rem;
+}
+
+.teaching-history > h2 {
+  margin-bottom: 0.5rem;
+}
+
+.teaching-history-introduction {
+  max-width: 52rem;
+  margin: 0 0 2.5rem;
+  color: #615d53;
+  font-family: "Spectral", Georgia, serif;
+  font-size: 1.08em;
+  line-height: 1.55;
+}
+
+.teaching-history-group {
+  margin: 0 0 3rem;
+}
+
 .teaching-institution {
-  border-top: 1px solid #d8d1c4;
-  margin: 3rem 0 0;
-  padding-top: 2rem;
+  border-top: 1px solid #d8d0bf;
+  padding-top: 1.5rem;
 }
 
 .teaching-institution > header {
@@ -103,6 +173,11 @@
   flex-wrap: wrap;
   gap: 0 1rem;
   margin-bottom: 1.35rem;
+}
+
+.teaching-institution h3 {
+  margin: 0;
+  font-size: 1.45em;
 }
 
 .teaching-institution > header .teaching-meta {
@@ -114,14 +189,14 @@
 }
 
 .teaching-course {
-  border: 1px solid #e1ded7;
-  padding: 1.35rem 1.4rem;
+  padding: 1.2rem 0;
+  border-top: 1px solid #d8d0bf;
 }
 
 .teaching-course h4 {
-  color: #22579d;
+  color: #2e2c28;
   font-family: Lato, sans-serif;
-  font-size: 0.88rem;
+  font-size: 0.92rem;
   font-weight: 700;
   letter-spacing: 0.06em;
   margin: 0;
@@ -143,16 +218,13 @@
   font-weight: 700;
 }
 
-.teaching-history {
-  background: #f1f1f1;
-  border-top: 3px solid #d8c18a;
-  padding: 2.2rem;
+.teaching-past-appointments {
+  border-top: 1px solid #d8d0bf;
+  padding-top: 2.5rem;
 }
 
-.teaching-history p {
-  line-height: 1.7;
-  margin-bottom: 0;
-  max-width: 58rem;
+.teaching-past-appointments p {
+  max-width: 52rem;
 }
 
 .teaching-scholarship-list {
@@ -160,16 +232,17 @@
 }
 
 .teaching-scholarship-list p {
-  border-bottom: 1px solid #d8d1c4;
+  border-bottom: 1px solid #d8d0bf;
   line-height: 1.7;
   margin: 0;
   padding: 1.15rem 0;
 }
 
 .teaching-scholarship-list p:first-child {
-  border-top: 1px solid #d8d1c4;
+  border-top: 1px solid #d8d0bf;
 }
 
+/* The PDFs are a separate reference layer. */
 .teaching-archive {
   background: #283f5c;
   color: #fff;
@@ -195,6 +268,7 @@
 .teaching-archive-institution h3 {
   color: #f0d660;
   font-size: 1.25rem;
+  margin: 0;
 }
 
 .teaching-archive-list {
@@ -286,14 +360,18 @@
     margin: 3.5rem 0;
   }
 
-  .teaching-appointment-grid,
+  .teaching-current {
+    margin-bottom: 3rem;
+    padding: 3rem 0;
+  }
+
+  .teaching-current-grid,
   .teaching-course-grid {
     grid-template-columns: 1fr;
   }
 
-  .teaching-appointment,
-  .teaching-history {
-    padding: 1.35rem;
+  .teaching-current-card {
+    padding: 1.25rem;
   }
 
   .teaching-practice-copy {
