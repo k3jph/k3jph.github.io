@@ -80,7 +80,7 @@ These PDFs are the documentary layer of the teaching record. They preserve cours
 {% if course.syllabi.size > 0 %}
   <ul>
 {% for syllabus in course.syllabi %}
-    <li><a href="{{ syllabus.file | relative_url }}">{{ syllabus.label }} (PDF)</a></li>
+    <li>{% if syllabus.file %}<a href="{{ syllabus.file | relative_url }}">{{ syllabus.label }} (PDF)</a>{% else %}{{ syllabus.label }}{% endif %}</li>
 {% endfor %}
   </ul>
 {% endif %}
