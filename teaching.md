@@ -31,7 +31,7 @@ Much of this teaching has been online. That is not a classroom copied into a bro
     {% assign current_institutions = site.data.teaching.institutions | where: "current", true %}
     <div class="teaching-current-grid">
   {% for institution in current_institutions %}
-    <article class="teaching-appointment">
+    <article class="teaching-current-card">
       <header>
         <h3>{{ institution.name }}</h3>
         <p class="teaching-meta">{{ institution.years }}</p>
