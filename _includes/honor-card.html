@@ -1,0 +1,10 @@
+<article class="honors-card">
+  <h3>{% if include.honor.detail_page %}<a href="{{ include.honor.detail_page | relative_url }}">{% endif %}{{ include.honor.title }}{% if include.honor.current_grade %} — {{ include.honor.current_grade }}{% endif %}{% if include.honor.detail_page %}</a>{% endif %}</h3>
+  <p class="honors-issuer">{{ include.honor.issuer }}</p>
+  <p class="honors-metadata">{{ include.honor.issuer_type }} · {{ include.honor.date }}{% if include.honor.postnominal %} · {{ include.honor.postnominal }}{% endif %}</p>
+  {% if include.honor.previous_grade %}<p class="honors-metadata">Earlier grade: {{ include.honor.previous_grade }}</p>{% endif %}
+  <p class="honors-summary">{{ include.honor.summary }}</p>
+  {% if include.honor.detail_page or include.honor.evidence %}
+  <p class="honors-card-links">{% if include.honor.detail_page %}<a href="{{ include.honor.detail_page | relative_url }}">Details <span aria-hidden="true">→</span></a>{% endif %}{% if include.honor.evidence %}<a href="{{ include.honor.evidence | relative_url }}">Documentation <span class="sr-only">(PDF)</span><span aria-hidden="true">↗</span></a>{% endif %}</p>
+  {% endif %}
+</article>
