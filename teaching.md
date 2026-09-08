@@ -83,10 +83,6 @@ Much of this teaching has been online. That is not a classroom copied into a bro
   {% endfor %}
 </section>
 
-<section class="teaching-history teaching-past-appointments" aria-labelledby="past-appointments">
-  <h2 id="past-appointments">Past Academic Appointments</h2>
-  <p class="teaching-history-introduction">The following appointments are historical rather than current: University of New Mexico, where I taught public-administration research methods from 2022 to 2024; Baruch College's Marxe School of Public and International Affairs; Pennsylvania State University; and the University of Baltimore. Their courses and syllabi remain below because they are part of the record, not because the appointments continue.</p>
-</section>
 
 <section class="teaching-section teaching-scholarship" aria-labelledby="teaching-scholarship">
   <h2 id="teaching-scholarship">Teaching Scholarship</h2>
