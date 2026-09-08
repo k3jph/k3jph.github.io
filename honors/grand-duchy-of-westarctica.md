@@ -76,7 +76,7 @@ title; we are joining a collective effort to champion the cause of environmental
 conservation and bring attention to the unique challenges faced by one of the
 Earth's most extraordinary and vulnerable ecosystems.
 
-### December 25, 2023 {#Krigsvold}
+### December 25, 2024 {#Krigsvold}
 
 > Created [Count of Krigsvold](https://www.westarctica.wiki/index.php?title=Krigsvold_Nunataks) in the Peerage of Westarctica
 
@@ -84,7 +84,7 @@ Earth's most extraordinary and vulnerable ecosystems.
 cap="Letters Patent for the Count of Krigsvold"
 alt="Letters Patent for the Count of Krigsvold" %}
 
-#### November 29, 2023 {#Matikonis}
+#### November 29, 2024 {#Matikonis}
 
 > Created [Baron of Matikonis](https://www.westarctica.wiki/index.php?title=Matikonis_Peak) in the Peerage of Westarctica
 
@@ -130,7 +130,9 @@ alt="Letters Patent for the Baron of Matikonis" %}
   </div>
 </div>
 
-### Knight of the Order of the Snowflake {#WAKTS}
+### Order of the Snowflake {#WAKTS}
+
+I was originally appointed a **Knight of the Order of the Snowflake** on December 25, 2023, and have since been promoted to the current grade of **Knight Commander**. The earlier Knight appointment remains part of the grade history rather than a second current honor.
 
 The class of Knight is often awarded to foreign diplomats where the class of
 Knight Commander might not be appropriate when that grade was already held by
@@ -143,7 +145,7 @@ used for for the grade of Knight Commander, but without the white enamel.
 
 #### December 25, 2023
 
-> For devotion to Westarctica
+> Original appointment as Knight, for devotion to Westarctica
 
 {% include figure.html image="honors/jhoward-kts.webp" width="12" border=true
 cap="Brevet for the Knight of the Snowflake"
