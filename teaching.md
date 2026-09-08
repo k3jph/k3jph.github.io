@@ -21,12 +21,15 @@ Much of this teaching has been online. That is not a classroom copied into a bro
 
 </div>
 
-<section class="teaching-section teaching-current" aria-labelledby="current-teaching">
-  <h2 id="current-teaching">Current Teaching</h2>
-  <p class="teaching-section-intro">Current appointments and the courses I have taught in each.</p>
+<section class="teaching-current" aria-labelledby="current-teaching">
+  <div class="teaching-current-inner">
+    <div class="teaching-current-title-area">
+      <h2 id="current-teaching">Current Teaching</h2>
+      <p>Active appointments and the courses I have taught in each.</p>
+    </div>
 
-  {% assign current_institutions = site.data.teaching.institutions | where: "current", true %}
-  <div class="teaching-appointment-grid">
+    {% assign current_institutions = site.data.teaching.institutions | where: "current", true %}
+    <div class="teaching-current-grid">
   {% for institution in current_institutions %}
     <article class="teaching-appointment">
       <header>
@@ -42,6 +45,7 @@ Much of this teaching has been online. That is not a classroom copied into a bro
       </ul>
     </article>
   {% endfor %}
+    </div>
   </div>
 </section>
 
@@ -55,12 +59,12 @@ Much of this teaching has been online. That is not a classroom copied into a bro
   </div>
 </section>
 
-<section class="teaching-section teaching-record" aria-labelledby="courses-taught">
+<section class="teaching-history teaching-record" aria-labelledby="courses-taught">
   <h2 id="courses-taught">Courses Taught</h2>
-  <p class="teaching-section-intro">The record is organized by institution. A current appointment does not mean that every listed course is currently assigned; it means the course belongs to the documented teaching record at that institution.</p>
+  <p class="teaching-history-introduction">The record is organized by institution. A current appointment does not mean that every listed course is currently assigned; it means the course belongs to the documented teaching record at that institution.</p>
 
   {% for institution in site.data.teaching.institutions %}
-  <section class="teaching-institution" aria-labelledby="{{ institution.id }}-courses">
+  <section class="teaching-history-group teaching-institution" aria-labelledby="{{ institution.id }}-courses">
     <header>
       <h3 id="{{ institution.id }}-courses">{{ institution.name }}</h3>
       <p class="teaching-meta">{{ institution.years }}</p>
@@ -79,9 +83,9 @@ Much of this teaching has been online. That is not a classroom copied into a bro
   {% endfor %}
 </section>
 
-<section class="teaching-section teaching-history" aria-labelledby="past-appointments">
+<section class="teaching-history teaching-past-appointments" aria-labelledby="past-appointments">
   <h2 id="past-appointments">Past Academic Appointments</h2>
-  <p>The following appointments are historical rather than current: University of New Mexico, where I taught public-administration research methods from 2022 to 2024; Baruch College's Marxe School of Public and International Affairs; Pennsylvania State University; and the University of Baltimore. Their courses and syllabi remain below because they are part of the record, not because the appointments continue.</p>
+  <p class="teaching-history-introduction">The following appointments are historical rather than current: University of New Mexico, where I taught public-administration research methods from 2022 to 2024; Baruch College's Marxe School of Public and International Affairs; Pennsylvania State University; and the University of Baltimore. Their courses and syllabi remain below because they are part of the record, not because the appointments continue.</p>
 </section>
 
 <section class="teaching-section teaching-scholarship" aria-labelledby="teaching-scholarship">
