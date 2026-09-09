@@ -109,13 +109,11 @@
   date: "18 February 2026"
   summary: "Appointed Knight of the Duchy of Marienbourg’s Order of Mines and Baths."
 - category: ceremonial
-  title: Order of the Snowflake
-  issuer: Grand Duchy of Westarctica
+  title: Knight Commander
+  issuer: Order of the Snowflake
   issuer_type: Micronational order
-  current_grade: Knight Commander
-  previous_grade: "Knight — 25 December 2023"
-  date: "Current grade recorded"
-  summary: "Originally appointed Knight for devotion to Westarctica; subsequently promoted to Knight Commander."
+  date: "Current grade"
+  summary: "Originally appointed Knight on 25 December 2023 for devotion to Westarctica; subsequently promoted to Knight Commander."
   detail_page: /honors/grand-duchy-of-westarctica
 
 - category: peerage
