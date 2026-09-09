@@ -191,6 +191,17 @@ The diploma is not reproduced here. Its material appointment lines name
 Star of Oceania**, with the date and place *17 Malaki 2024 ma ka moku o Hilo ma
 Hawaiʻi*.
 
+<div class="star-oceania-translation">
+  <h3>English translation</h3>
+  <blockquote>
+    <p>Her Royal Highness Princess Owana Ka’öhelelani, Head of the Royal House of Hawai’i, hereby issues this Charter to affirm and uphold our fundamental values and virtues. It is with a deep commitment to the pursuit of true goodness that I address you,</p>
+    <p><strong>James Patrick Howard II</strong><br>
+    Knight Commander<br>
+    Royal Order of the Star of Oceania</p>
+    <p>In your official capacity and as part of your inclusion, you may wear the honors representing your distinguished merit and noble character. In recognition of these attributes, this Diploma was expediently issued on March 17, 2024, in the district of Hilo in Hawai’i.</p>
+  </blockquote>
+</div>
+
 ## Sources and Further Reading {#sources}
 
 - [ʻIolani Palace, Royal Orders collection](https://www.iolanipalace.org/palace-collections/royal-orders/) and its [Royal Order of the Star of Oceania collection record](https://www.iolanipalace.org/palace-collections/royal-orders/royal-order-star-of-oceania-web/).
