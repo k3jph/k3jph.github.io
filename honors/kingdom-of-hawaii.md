@@ -34,6 +34,8 @@ credits: >-
 
 <section class="star-oceania-appointment" markdown="1">
 
+<div class="container" markdown="1">
+
 ## My Appointment {#my-appointment}
 
 On March 17, 2024, I was appointed **Knight Commander of the Royal Order of
@@ -72,6 +74,8 @@ That records a specific contemporary appointment. It does not, by itself,
 decide every question that can be asked about modern Hawaiian dynastic
 succession or the legal status of a present-day order. Those are separate
 questions, and this page keeps them separate.
+
+</div>
 
 </section>
 
