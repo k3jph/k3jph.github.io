@@ -42,12 +42,12 @@ Princess Owana Kaʻōhelelani, *Head of the Royal House of Hawaiʻi* and Grand
 Master; the appointment was issued in Hilo, Hawaiʻi.
 
 <div class="row mb-4">
-  <div class="col-md-5">
+  <div class="col-md-6">
     {% include figure.html image="honors/KCRSO-medal.webp" width="12"
     cap="Contemporary insignia issued with James Howard's appointment"
     alt="Contemporary insignia of the Royal Order of the Star of Oceania" %}
   </div>
-  <div class="col-md-7">
+  <div class="col-md-6">
     <div class="card h-100">
       <div class="card-body">
         <h3 class="card-title">Appointment record</h3>
@@ -190,15 +190,6 @@ The diploma is not reproduced here. Its material appointment lines name
 **James Patrick Howard II** as **Knight Commander of the Royal Order of the
 Star of Oceania**, with the date and place *17 Malaki 2024 ma ka moku o Hilo ma
 Hawaiʻi*.
-
-<div class="star-oceania-translation">
-  <h3>English translation</h3>
-  <p>The material grant may be rendered in English as:</p>
-  <blockquote>
-    <p>By this charter, I recognize the good character and worthy qualities of James Patrick Howard II, and therefore confer upon him this high honor: Knight Commander of the Royal Order of the Star of Oceania.</p>
-    <p>Given on 17 March 2024, in Hilo, Hawaiʻi.</p>
-  </blockquote>
-</div>
 
 ## Sources and Further Reading {#sources}
 
