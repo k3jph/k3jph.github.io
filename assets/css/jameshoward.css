@@ -190,9 +190,6 @@ figure {
 
 .section-subtitle p {
   text-transform: unset !important;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .footer {
