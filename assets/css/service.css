@@ -1,6 +1,5 @@
 .service-introduction {
-  max-width: 52rem;
-  margin: 0 auto 3rem;
+  margin: 0 0 3rem;
   font-family: "Spectral", Georgia, serif;
   font-size: 1.18em;
   line-height: 1.65;
@@ -14,15 +13,8 @@
   color: #fff;
 }
 
-.service-current-inner {
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 .service-current .title-area {
-  max-width: 52rem;
-  margin: 0 auto 2.5rem;
+  margin: 0 0 2.5rem;
   padding: 0;
   text-align: center;
 }
@@ -107,7 +99,6 @@
 }
 
 .service-history-introduction {
-  max-width: 52rem;
   margin: 0 0 2.5rem;
   color: #615d53;
   font-family: "Spectral", Georgia, serif;
@@ -170,7 +161,6 @@
 }
 
 .service-entry .service-summary {
-  max-width: 52rem;
   margin: 0.65rem 0 0;
   line-height: 1.58;
 }
