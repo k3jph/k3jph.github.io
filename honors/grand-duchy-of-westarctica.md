@@ -39,13 +39,13 @@ redirect_from:
     <p>Named for the Krigsvold Nunataks.</p>
   </article>
   <article class="westarctica-card">
-    <p class="westarctica-card-label">Additional peerage</p>
+    <p class="westarctica-card-label">Subsidiary title</p>
     <h3>Baron of Matikonis</h3>
     <p class="westarctica-card-meta">Westarctican peerage · 29 November 2024</p>
     <p>Named for Matikonis Peak.</p>
   </article>
   <article class="westarctica-card">
-    <p class="westarctica-card-label">Additional peerage</p>
+    <p class="westarctica-card-label">Subsidiary title</p>
     <h3>Count Rubin de la Borbolla</h3>
     <p class="westarctica-card-meta">Westarctican peerage · 7 July 2025</p>
     <p>Named for Mount Rubin de la Borbolla.</p>
@@ -76,7 +76,7 @@ redirect_from:
 
 ## Peerages and Titles {#peerages-and-titles}
 
-The three patents below are separate grants in the Peerage of Westarctica. The documentary record does not itself state an order of precedence among them; this page therefore records the titles without inferring one beyond the current use of Count of Krigsvold as my principal title.
+The three patents below are grants in the Peerage of Westarctica. **Count of Krigsvold** is my principal title; **Baron of Matikonis** and **Count Rubin de la Borbolla** are subsidiary titles.
 
 ### Baron of Matikonis {#Matikonis}
 
