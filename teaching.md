@@ -22,7 +22,7 @@ Much of this teaching has been online. That is not a classroom copied into a bro
 </div>
 
 <section class="teaching-current" aria-labelledby="current-teaching">
-  <div class="teaching-current-inner">
+  <div class="container teaching-current-inner">
     <div class="teaching-current-title-area">
       <h2 id="current-teaching">Current Teaching</h2>
       <p>Active appointments and the courses I have taught in each.</p>
@@ -97,6 +97,7 @@ Much of this teaching has been online. That is not a classroom copied into a bro
 </section>
 
 <section class="teaching-section teaching-archive" aria-labelledby="syllabus-archive">
+  <div class="container">
   <h2 id="syllabus-archive">Syllabus Archive</h2>
   <p class="teaching-section-intro">These PDFs are the documentary layer of the teaching record. They preserve courses, terms, instructional modes, and course design over time. Historical UMUC documents retain their original institutional name and filenames.</p>
 
@@ -119,6 +120,7 @@ Much of this teaching has been online. That is not a classroom copied into a bro
     </div>
   </section>
   {% endfor %}
+  </div>
 </section>
 
 <p class="teaching-image-credit"><em>Image by <a href="https://www.flickr.com/photos/befuddledsenses/9379803665">Luke Jones</a>.</em></p>
