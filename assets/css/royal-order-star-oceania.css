@@ -1,11 +1,11 @@
 /* Royal Order of the Star of Oceania: contemporary appointment and historical record */
 .star-oceania {
-  max-width: 62rem;
+  max-width: 72rem;
   margin: 0 auto;
 }
 
 .star-oceania-introduction {
-  max-width: 48rem;
+  max-width: 60rem;
   margin: 0 auto 1.75rem;
   color: #635e53;
   font-family: "Spectral", Georgia, serif;
@@ -34,7 +34,7 @@
 
 .star-oceania-appointment {
   margin: 0 calc(50% - 50vw) 4rem;
-  padding: 3.5rem max(1.5rem, calc((100vw - 62rem) / 2));
+  padding: 3.5rem max(1.5rem, calc((100vw - 72rem) / 2));
   background: #283f5c;
   color: #fff;
 }
@@ -57,7 +57,7 @@
 }
 
 .star-oceania-appointment > p {
-  max-width: 44rem;
+  max-width: 52rem;
   margin-right: auto;
   margin-left: auto;
   font-family: "Spectral", Georgia, serif;
@@ -68,11 +68,12 @@
 .star-oceania-appointment .row {
   display: flex;
   align-items: center;
-  max-width: 50rem;
+  max-width: 64rem;
   margin: 2.25rem auto;
 }
 
-.star-oceania-appointment figure { margin: 0; }
+.star-oceania-appointment .item { float: none; padding: 0; }
+.star-oceania-appointment figure { max-width: 32rem; margin: 0 auto; }
 .star-oceania-appointment figcaption { color: rgba(255,255,255,.78); }
 
 .star-oceania-appointment .card {
@@ -97,10 +98,10 @@
 }
 
 .star-oceania > h2::after { margin-bottom: 2rem; color: #2457a4; }
-.star-oceania > p { max-width: 48rem; margin-right: auto; margin-left: auto; font-size: 1.04em; line-height: 1.72; }
+.star-oceania > p { max-width: 64rem; margin-right: auto; margin-left: auto; font-size: 1.04em; line-height: 1.72; }
 
 .star-oceania-distinction {
-  max-width: 48rem;
+  max-width: 64rem;
   margin: 2.5rem auto 0;
   padding: 1.25rem 1.5rem;
   border-left: 4px solid #b69955;
@@ -114,7 +115,7 @@
 .star-oceania-distinction strong { color: #2e2c28; }
 
 .star-oceania-translation {
-  max-width: 48rem;
+  max-width: 64rem;
   margin: 2rem auto 0;
   padding: 1.5rem 1.75rem;
   border: 1px solid #d8d0bf;
@@ -122,17 +123,25 @@
 }
 
 .star-oceania-translation h3 {
-  margin: 0 0 .5rem;
+  margin: 0 0 1rem;
   color: #2e2c28;
   font-size: 1.25em;
 }
 
-.star-oceania-translation > p { margin-bottom: .75rem; color: #615d53; }
-.star-oceania-translation blockquote { margin: 0; padding: 0 0 0 1.25rem; border-left: 3px solid #b69955; color: #3f3b34; font-family: "Spectral", Georgia, serif; }
+.star-oceania-translation blockquote {
+  margin: 0;
+  padding: 0 0 0 1.4rem;
+  border-left: 3px solid #b69955;
+  color: #3f3b34;
+  font-family: "Spectral", Georgia, serif;
+  font-size: 1.05em;
+  line-height: 1.65;
+}
+
 .star-oceania-translation blockquote p:last-child { margin-bottom: 0; }
 
 .star-oceania > h2#sources { margin-bottom: 1.75rem; }
-.star-oceania > ul { max-width: 48rem; margin: 0 auto; padding-left: 1.35rem; }
+.star-oceania > ul { max-width: 64rem; margin: 0 auto; padding-left: 1.35rem; }
 .star-oceania > ul li { margin-bottom: .85rem; line-height: 1.55; }
 
 @media (max-width: 767px) {
