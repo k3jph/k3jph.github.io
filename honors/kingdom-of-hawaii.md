@@ -13,36 +13,180 @@ redirect_from:
   - /kcrso
   - /honors/kcrso
 credits: >-
-  This page incorporates elements under Creative Commons licenses, requiring
-  proper attribution.
-
-  * Royal Coat of Arms of Hawaii
-    - Source: [Royal Coat of Arms of Hawaii](https://commons.wikimedia.org/wiki/File:Royal_Coat_of_Arms_of_Hawaii.svg)
-    - Author: Wikimedia Commons user [Rs-nourse](https://commons.wikimedia.org/wiki/User:Rs-nourse)
-    - License: Creative Commons Attribution-Share Alike 3.0 Unported ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
-    - Modifications: None. The image is used as-is elsewhere on this site.
-
-  Additional credits are listed on the [copyright page](/copyright).
+  The diploma scan and contemporary insignia shown on this page are from
+  James Howard's own records. Historical collection links are provided in
+  Sources and Further Reading.
 ---
 
-{% include figure.html image="honors/Royal_Coat_of_Arms_of_Hawaii.svg" placement="right" width="4"
-cap="The coat of arms of the Kingdom of Hawai'i"
-alt="The coat of arms of the Kingdom of Hawai'i" %}
+## My Appointment
 
-## Royal Order of the Star of Oceania {#KCRSO}
+On March 17, 2024, I was appointed **Knight Commander of the Royal Order of
+the Star of Oceania**. My diploma identifies the issuing authority as H.R.H.
+Princess Owana Kaʻōhelelani, *Head of the Royal House of Hawaiʻi* and Grand
+Master; it was issued in Hilo, Hawaiʻi.
 
-On March 17, 2024, Princess Owana Kaʻōhelelani conferred on me the grade of **Knight Commander of the Royal Order of the Star of Oceania**.
+<div class="row mb-4">
+  <div class="col-md-5">
+    {% include figure.html image="honors/KCRSO-medal.webp" width="12"
+    cap="Contemporary insignia issued with James Howard's appointment"
+    alt="Contemporary insignia of the Royal Order of the Star of Oceania" %}
+  </div>
+  <div class="col-md-7">
+    <div class="card h-100">
+      <div class="card-body">
+        <h3 class="card-title">Appointment record</h3>
+        <dl class="mb-0">
+          <dt>Grade</dt>
+          <dd>Knight Commander</dd>
+          <dt>Recipient</dt>
+          <dd>James Patrick Howard II</dd>
+          <dt>Date</dt>
+          <dd>17 March 2024</dd>
+          <dt>Place</dt>
+          <dd>Hilo, Hawaiʻi</dd>
+          <dt>Issuer named on the diploma</dt>
+          <dd>H.R.H. Princess Owana Kaʻōhelelani, Head of the Royal House of Hawaiʻi and Grand Master</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
 
-The order is presented here as the ceremonial honor it is: an appointment made by the Princess through the Royal House of Keōua Nui. The historical Kingdom of Hawaiʻi and the political status of Hawaiʻi are matters with their own history and continuing public debate; this page does not attempt to settle them.
+That records a specific contemporary appointment. It does not, by itself,
+decide every question that can be asked about modern Hawaiian dynastic
+succession or the legal status of a present-day order. Those are separate
+questions, and this page keeps them separate.
 
-{% include figure.html image="honors/KCRSO-medal.webp" width="12"
-cap="Insignia of the Royal Order of the Star of Oceania"
-alt="Insignia of the Royal Order of the Star of Oceania" %}
+## The Historical Royal Order
 
-The diploma records the appointment in Hawaiian. Its operative text identifies:
+King Kalākaua founded the historical Royal Order of the Star of Oceania on
+December 16, 1886. Its Hawaiian name is recorded as *ʻOihana Kea
+Hoʻohanohano Aliʻi o ka Hōkū o Osiania*; surviving examples are held by
+[ʻIolani Palace](https://www.iolanipalace.org/palace-collections/royal-orders/)
+and the [Smithsonian's National Museum of American History](https://americanhistory.si.edu/collections/object/nmah_963062).
 
-> James Patrick Howard II<br/>
-> Knight Commander<br/>
+The 1886 statutes described an order for distinguished service to the sovereign
+or state and for advancing Hawaiʻi's name and influence among Pacific and Indian
+Ocean communities and neighboring regions. The [contemporary statutes are
+catalogued in the University of Hawaiʻi's Ulukau digital
+library](https://www.ulukau.org/ulukau-books/?a=d&d=EBOOK-KINGDOM3.1.350).
+That purpose is unusually specific: this was a Hawaiian state order designed
+for a diplomatic project, not a generic award for good works.
+
+The historical order had five principal grades - Grand Cross, Grand Officer,
+Commander, Officer, and Companion - as well as gold and silver medals. The
+grade on my 2024 instrument, **Knight Commander**, should therefore not be
+read as silently reproducing an 1886 grade. It belongs to the present
+issuer's revised system.
+
+## Kalākaua and the Pacific Confederation
+
+The Order made sense within Kalākaua's wider attempt to increase Hawaiʻi's
+influence and build cooperation among independent Pacific polities at a moment
+when European and American powers were extending colonial control through the
+region. The order was one tool among several: diplomatic missions, treaty
+making, and the use of court honors to mark relationships with chiefs and
+governments.
+
+Hawaiian diplomacy in Sāmoa provides the clearest example. John E. Bush's
+mission reached Apia in 1887, and King Malietoa Laupepa entered into a treaty
+of political confederation with Hawaiʻi. The [Bishop Museum's account of the
+treaty](https://blog.bishopmuseum.org/nupepa/hawaiian-samoan-treaty-of-confederation/)
+places the Order, the treaty, and the voyage of *Kaimiloa* together as parts of
+that effort. The agreement did not produce a lasting confederation. Colonial
+pressure and local politics rapidly constrained the project, but they explain
+why Kalākaua created this particular order when he did.
+
+For a scholarly introduction to the order's relationship to Hawaiian
+international policy, see Lorenz Gonschor's
+[*Ka Hoku o Osiania*](https://www.jstor.org/stable/10.1515/9780824872896-008)
+and Kealani Cook's accessible account of
+[Kalākaua's Polynesian confederacy](https://worldhistoryconnected.press.uillinois.edu/8.3/forum_cook.html).
+
+## Insignia and Grades
+
+Historical pieces in the ʻIolani Palace collection include a Commander example
+of the nineteenth-century order. Scholarly accounts attribute the historical
+insignia design to court artist Isobel Strong. The star, enamel, and central
+maritime device are features of the historical object; the colors and form were
+part of the order's own visual language, not a later attempt to make it look
+antique.
+
+The contemporary insignia shown above is the insignia issued with my
+appointment. It should not be assumed to be an exact reproduction of every
+nineteenth-century grade. The distinction is useful rather than embarrassing:
+the historical order can be documented through museum objects and its statutes,
+while the present instrument documents a contemporary ceremonial appointment.
+
+## 1893 and the End of the Monarchy
+
+Queen Liliʻuokalani was overthrown in January 1893 by the Committee of Safety,
+with the support of United States Minister John L. Stevens and a contingent of
+U.S. Marines from *USS Boston*. The Committee proclaimed a Provisional
+Government; the Republic of Hawaiʻi followed in 1894. The [National Archives'
+account](https://www.archives.gov/education/lessons/hawaii-petition) summarizes
+that sequence, and its record of the [1898 annexation resolution](https://www.archives.gov/milestone-documents/joint-resolution-for-annexing-the-hawaiian-islands)
+marks the subsequent annexation by the United States.
+
+After the overthrow, the Star of Oceania no longer functioned as an order of a
+reigning Hawaiian state. I have not found a primary instrument that supports
+calling it legally “abolished,” so that stronger claim does not appear here.
+
+## The Contemporary Order
+
+The organization headed by Owana Kaʻōhelelani Salazar maintains a contemporary
+order under the historical name. Its [own Order page](https://www.crownofhawaii.com/royal-order-of-the-star-of-oceania)
+says that the order has been reestablished and describes its current activities
+and grades. That is the issuer's account of its institution.
+
+The present website does not provide a reliable date for reestablishment, and
+available secondary references conflict with an older date once used here.
+Rather than repeat an unsupported year, this page says only that the
+contemporary house later reestablished an order under the same name.
+
+The issuer's published list expressly identifies **KCRSO** as the postnominal
+for a male Knight Commander. That verifies its use for the contemporary order;
+the preserved /kcrso redirect remains a compatibility route, not evidence
+that the same abbreviation belonged to the 1886 system.
+
+## The Modern Dynastic Context
+
+Owana Kaʻōhelelani Salazar claims headship of the Royal House of Hawaiʻi through
+the Laʻanui/Keōua Nui line. Her organization's description of the contemporary
+order and her role is properly treated as the issuing house's position. Descent
+from a historical line and a modern claim to headship are different
+propositions; contemporary Hawaiian royal-house succession is not resolved by
+the nineteenth-century materials cited above. This page does not adjudicate
+between competing modern claims.
+
+That caution does not erase my appointment. The diploma is a real contemporary
+instrument issued by the organization that describes itself in those terms.
+
+## Diploma and Insignia
+
+The diploma is reproduced below from my copy. Its material appointment lines
+read:
+
+> James Patrick Howard II  
+> Knight Commander  
 > Royal Order of the Star of Oceania
 
-and states that the diploma was issued on March 17, 2024, in Hilo, Hawaiʻi.
+It also gives the date and place in Hawaiian: *lā 17 Malaki 2024 ma ka moku o
+Hilo ma Hawaiʻi*. The headings and signatures are reproduced as documentary
+text in the scan. I have not supplied an English translation of the surrounding
+Hawaiian prose because no issuer-approved or independently verified translation
+has been provided; a machine rendering would be less useful than an honest
+transcription.
+
+{% include figure.html image="honors/jhoward-kcrso.svg" width="10"
+cap="Diploma appointing James Patrick Howard II Knight Commander of the contemporary Royal Order of the Star of Oceania, issued 17 March 2024 in Hilo, Hawaiʻi."
+alt="Diploma issued to James Patrick Howard II as Knight Commander of the Royal Order of the Star of Oceania" %}
+
+## Sources and Further Reading
+
+- [ʻIolani Palace, Royal Orders collection](https://www.iolanipalace.org/palace-collections/royal-orders/) and its [Royal Order of the Star of Oceania collection record](https://www.iolanipalace.org/palace-collections/royal-orders/royal-order-star-of-oceania-web/).
+- [Smithsonian National Museum of American History, *Royal Order of the Star of Oceania*](https://americanhistory.si.edu/collections/object/nmah_963062).
+- [University of Hawaiʻi Ulukau library: *The Hawaiian Kingdom*, vol. 3](https://www.ulukau.org/ulukau-books/?a=d&d=EBOOK-KINGDOM3.1.350), which catalogs the 1886 statutes.
+- [Bishop Museum: Hawaiian-Samoan Treaty of Confederation](https://blog.bishopmuseum.org/nupepa/hawaiian-samoan-treaty-of-confederation/).
+- [National Archives: the 1897 petition against annexation](https://www.archives.gov/education/lessons/hawaii-petition) and the [1898 annexation resolution](https://www.archives.gov/milestone-documents/joint-resolution-for-annexing-the-hawaiian-islands).
+- [Crown of Hawaiʻi: contemporary Order page](https://www.crownofhawaii.com/royal-order-of-the-star-of-oceania) - used only for the present issuer's own descriptions, modern grades, and postnominals.
