@@ -56,7 +56,7 @@
   line-height: 1.25;
 }
 
-.software-feature-technology {
+.software-feature-card .software-feature-technology {
   color: #555;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.9rem;
@@ -64,7 +64,7 @@
   margin-bottom: 1.25rem;
 }
 
-.software-feature-card .text-description { line-height: 1.7; }
+.software-feature-card .text-description { font-size: 0.9em; line-height: 1.7; }
 
 .software-feature-card .software-project-links {
   margin: auto 0 0;
