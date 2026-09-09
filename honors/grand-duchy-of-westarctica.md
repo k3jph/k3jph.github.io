@@ -29,7 +29,10 @@ redirect_from:
 
 <div class="container" markdown="1">
 
-## My Westarctican Record {#my-westarctican-record}
+<div class="title-area">
+  <h2 id="my-westarctican-record">My Westarctican Record</h2>
+  <div class="separator separator-warning"><img src="{{ '/assets/img/identity/kamon-warning.svg' | relative_url }}" height="35" alt="" /></div>
+</div>
 
 <div class="westarctica-card-grid">
   <article class="westarctica-card westarctica-card-principal">
@@ -74,7 +77,10 @@ redirect_from:
 
 </section>
 
-## Peerages and Titles {#peerages-and-titles}
+<div class="title-area">
+  <h2 id="peerages-and-titles">Peerages and Titles</h2>
+  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+</div>
 
 The three patents below are grants in the Peerage of Westarctica. **Count of Krigsvold** is my principal title; **Baron of Matikonis** and **Count Rubin de la Borbolla** are subsidiary titles.
 
@@ -109,7 +115,10 @@ I was created **Count Rubin de la Borbolla** on 7 July 2025. The patent names Mo
 
 <div class="container" markdown="1">
 
-## Orders and Honors {#orders-and-honors}
+<div class="title-area">
+  <h2 id="orders-and-honors">Orders and Honors</h2>
+  <div class="separator separator-warning"><img src="{{ '/assets/img/identity/kamon-warning.svg' | relative_url }}" height="35" alt="" /></div>
+</div>
 
 ### Order of the Snowflake {#WAKTS}
 
@@ -152,19 +161,28 @@ On 7 July 2025, Grand Duke Travis conferred the honor of **Companion of the Nobl
 
 </section>
 
-## Service and Institutional Roles {#service-and-institutional-roles}
+<div class="title-area">
+  <h2 id="service-and-institutional-roles">Service and Institutional Roles</h2>
+  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+</div>
 
 ### Ellsworth King of Arms
 
 I was appointed **Ellsworth King of Arms** on 9 June 2025. It is an office in the Westarctican College of Arms, not a peerage or a decoration. The King of Arms heads the College’s work on coats of arms for Westarctican peers and knights; it belongs with my heraldic and institutional service record.
 
-## Count of Krigsvold Fellowship {#count-of-krigsvold-fellowship}
+<div class="title-area">
+  <h2 id="count-of-krigsvold-fellowship">Count of Krigsvold Fellowship</h2>
+  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+</div>
 
 The **Count of Krigsvold Fellowship** is not an honor conferred on me. Westarctica records that I pledged $1,000 to increase its annual conservation scholarship and refine its grant requirements; the program was subsequently named the Count of Krigsvold Fellowship. Its first award was made in 2025.
 
 That is program support, not a decoration. The distinction matters: the fellowship is a continuing conservation grant associated with the title, rather than another item in my honors list.
 
-## About Westarctica {#about-westarctica}
+<div class="title-area">
+  <h2 id="about-westarctica">About Westarctica</h2>
+  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+</div>
 
 Westarctica is a micronation whose claimed territory concerns Marie Byrd Land in Antarctica. It is not a recognized sovereign state. Its organization maintains a government, peerage, honors system, and cultural institutions, while its affiliated nonprofit describes a conservation and environmental mission for Western Antarctica.
 
@@ -172,7 +190,10 @@ Westarctica’s own account describes peerages as part of its patron and communi
 
 The [Westarctica official site](https://www.westarctica.info/) and its [Royal Household page](https://www.westarctica.info/household) provide the organization’s current self-description, including the College of Arms and its conservation work.
 
-## Documents and Sources {#documents-and-sources}
+<div class="title-area">
+  <h2 id="documents-and-sources">Documents and Sources</h2>
+  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+</div>
 
 - [Letters Patent: Baron of Matikonis]({{ '/assets/img/honors/jhoward-matikonis.pdf' | relative_url }}).
 - [Letters Patent: Count of Krigsvold]({{ '/assets/img/honors/jhoward-krigsvold.pdf' | relative_url }}).
