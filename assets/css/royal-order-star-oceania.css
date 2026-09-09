@@ -32,21 +32,15 @@
   color: #fff;
 }
 
+.star-oceania-appointment .title-area {
+  margin: 0 auto;
+  padding: 0;
+}
+
 .star-oceania-appointment h2 {
   margin-top: 0;
   color: #f0d660;
   text-align: center;
-}
-
-.star-oceania-appointment h2::after,
-.star-oceania > h2::after {
-  display: block;
-  width: 4rem;
-  height: 2px;
-  margin: .8rem auto 0;
-  background: currentColor;
-  content: "";
-  opacity: .7;
 }
 
 .star-oceania-appointment .container > p {
@@ -78,14 +72,15 @@
 .star-oceania-appointment dd { margin: 0 0 .95rem; line-height: 1.45; }
 .star-oceania-appointment dd:last-child { margin-bottom: 0; }
 
-.star-oceania > h2 {
-  margin: 4.25rem 0 1.5rem;
-  color: #2e2c28;
-  font-size: 1.85em;
-  text-align: center;
+.star-oceania > .title-area {
+  margin: 4.25rem auto 2rem;
+  padding: 0;
 }
 
-.star-oceania > h2::after { margin-bottom: 2rem; color: #2457a4; }
+.star-oceania > .title-area h2 {
+  color: #2e2c28;
+  text-align: center;
+}
 .star-oceania > p { line-height: 1.72; }
 
 .star-oceania-distinction {
@@ -124,7 +119,6 @@
 
 .star-oceania-translation blockquote p:last-child { margin-bottom: 0; }
 
-.star-oceania > h2#sources { margin-bottom: 1.75rem; }
 .star-oceania > ul { padding-left: 1.35rem; }
 .star-oceania > ul li { margin-bottom: .85rem; line-height: 1.55; }
 
@@ -134,7 +128,7 @@
   .star-oceania-appointment { margin-bottom: 3rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
   .star-oceania-appointment .row { display: block; margin: 1.75rem auto; }
   .star-oceania-appointment .col-md-6 { margin-bottom: 1.75rem; }
-  .star-oceania > h2 { margin-top: 3.25rem; font-size: 1.6em; }
+  .star-oceania > .title-area { margin-top: 3.25rem; }
   .star-oceania-distinction { padding: 1.1rem 1.2rem; }
   .star-oceania-translation { padding: 1.25rem; }
 }
