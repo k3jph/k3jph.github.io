@@ -76,6 +76,12 @@ title; we are joining a collective effort to champion the cause of environmental
 conservation and bring attention to the unique challenges faced by one of the
 Earth's most extraordinary and vulnerable ecosystems.
 
+### July 7, 2025 {#Rubin-de-la-Borbolla}
+
+> Created Count Rubin de la Borbolla in the Peerage of Westarctica
+
+[Letters Patent (PDF)](/assets/docs/JHoward-Westarctica-Rubin-de-la-Borbolla.pdf)
+
 ### December 25, 2024 {#Krigsvold}
 
 > Created [Count of Krigsvold](https://www.westarctica.wiki/index.php?title=Krigsvold_Nunataks) in the Peerage of Westarctica

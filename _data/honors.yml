@@ -95,6 +95,20 @@
   summary: "Conferred by Princess Owana Kaʻōhelelani."
   detail_page: /honors/royal-order-of-the-star-of-oceania
 - category: ceremonial
+  title: Knight
+  issuer: Fraternal Order of the Golden Owl
+  issuer_type: Ceremonial order
+  date: "21 December 2024"
+  summary: "Appointed Knight of the Fraternal Order of the Golden Owl."
+  evidence: /assets/docs/JHoward-Order-of-the-Golden-Owl.pdf
+- category: ceremonial
+  title: Fellow Member
+  issuer: Order of the Golden Bee
+  issuer_type: Ceremonial and armorial order
+  date: "1 January 2025"
+  summary: "Appointed Fellow Member of the Order of the Golden Bee and its armorial."
+  evidence: /assets/docs/JHoward-FOGB.pdf
+- category: ceremonial
   title: Knight Companion
   issuer: Order of the Crancelin
   issuer_type: Micronational order
@@ -116,6 +130,14 @@
   summary: "Originally appointed Knight on 25 December 2023 for devotion to Westarctica; subsequently promoted to Knight Commander."
   detail_page: /honors/grand-duchy-of-westarctica
 
+- category: peerage
+  title: Count Rubin de la Borbolla
+  issuer: Grand Duchy of Westarctica
+  issuer_type: Micronational peerage
+  date: "7 July 2025"
+  summary: "Created Count Rubin de la Borbolla in the Peerage of Westarctica."
+  detail_page: /honors/grand-duchy-of-westarctica#Rubin-de-la-Borbolla
+  evidence: /assets/docs/JHoward-Westarctica-Rubin-de-la-Borbolla.pdf
 - category: peerage
   title: Baron of Matikonis
   issuer: Grand Duchy of Westarctica
