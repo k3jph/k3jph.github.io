@@ -7,21 +7,10 @@
   top: 58%;
 }
 
-.search-hero .subtitle {
-  max-width: 680px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .search-page {
   min-height: 48vh;
   padding: 54px 0 72px;
   background: #f8f8f6;
-}
-
-.search-panel {
-  max-width: 920px;
-  margin: 0 auto;
 }
 
 .search-form {
@@ -322,8 +311,7 @@
 }
 
 .search-message p {
-  max-width: 560px;
-  margin: 0 auto;
+  margin: 0;
   color: #5d5d5d;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
@@ -342,10 +330,6 @@
 
   .search-hero.section-header-blog .content {
     top: 62%;
-  }
-
-  .search-hero .subtitle {
-    width: min(90%, 34em);
   }
 
   .search-page {

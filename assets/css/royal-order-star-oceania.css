@@ -1,0 +1,134 @@
+/* Royal Order of the Star of Oceania: contemporary appointment and historical record */
+.star-oceania-introduction {
+  margin: 0 0 1.75rem;
+  color: #635e53;
+  font-family: "Spectral", Georgia, serif;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.star-oceania-toc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .35rem 1.25rem;
+  margin: 0 auto 3.25rem;
+  padding: .85rem 1rem;
+  border-top: 1px solid #d8d0bf;
+  border-bottom: 1px solid #d8d0bf;
+  font-family: Lato, sans-serif;
+  font-size: .84em;
+  font-weight: 700;
+  letter-spacing: .025em;
+  text-transform: uppercase;
+}
+
+.star-oceania-toc a { color: #2457a4; }
+
+.star-oceania-appointment {
+  margin: 0 calc(50% - 50vw) 4rem;
+  padding: 3.5rem 0;
+  background: #283f5c;
+  color: #fff;
+}
+
+.star-oceania-appointment .title-area {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.star-oceania-appointment h2 {
+  margin-top: 0;
+  color: #f0d660;
+  text-align: center;
+}
+
+.star-oceania-appointment .container > p {
+  font-family: "Spectral", Georgia, serif;
+  line-height: 1.65;
+}
+
+.star-oceania-appointment .row {
+  display: flex;
+  align-items: center;
+  margin: 2.25rem 0;
+}
+
+.star-oceania-appointment .item { float: none; padding: 0; }
+.star-oceania-appointment figure { margin: 0; }
+.star-oceania-appointment figcaption { color: rgba(255,255,255,.78); }
+
+.star-oceania-appointment .card {
+  margin: 0;
+  border: 1px solid rgba(255,255,255,.28);
+  border-radius: 0;
+  background: rgba(13,30,49,.32);
+  box-shadow: none;
+}
+
+.star-oceania-appointment .card-body { padding: 1.5rem 1.75rem; }
+.star-oceania-appointment .card-title { margin: 0 0 1rem; color: #f0d660; font-family: "Cambo", Georgia, serif; }
+.star-oceania-appointment dt { color: #f0d660; font-family: Lato, sans-serif; font-size: .77em; letter-spacing: .04em; text-transform: uppercase; }
+.star-oceania-appointment dd { margin: 0 0 .95rem; line-height: 1.45; }
+.star-oceania-appointment dd:last-child { margin-bottom: 0; }
+
+.star-oceania > .title-area {
+  margin: 4.25rem auto 2rem;
+  padding: 0;
+}
+
+.star-oceania > .title-area h2 {
+  color: #2e2c28;
+  text-align: center;
+}
+.star-oceania > p { line-height: 1.72; }
+
+.star-oceania-distinction {
+  margin: 2.5rem 0 0;
+  padding: 1.25rem 1.5rem;
+  border-left: 4px solid #b69955;
+  background: #f3f0e9;
+  color: #4d4a43;
+  font-family: "Spectral", Georgia, serif;
+  line-height: 1.6;
+}
+
+.star-oceania-distinction strong { color: #2e2c28; }
+
+.star-oceania-translation {
+  margin: 2rem 0 0;
+  padding: 1.5rem 1.75rem;
+  border: 1px solid #d8d0bf;
+  background: #faf9f6;
+}
+
+.star-oceania-translation h3 {
+  margin: 0 0 1rem;
+  color: #2e2c28;
+}
+
+.star-oceania-translation blockquote {
+  margin: 0;
+  padding: 0 0 0 1.4rem;
+  border-left: 3px solid #b69955;
+  color: #3f3b34;
+  font-family: "Spectral", Georgia, serif;
+  font-size: 1.05em;
+  line-height: 1.65;
+}
+
+.star-oceania-translation blockquote p:last-child { margin-bottom: 0; }
+
+.star-oceania > ul { padding-left: 1.35rem; }
+.star-oceania > ul li { margin-bottom: .85rem; line-height: 1.55; }
+
+@media (max-width: 767px) {
+  .star-oceania-introduction { text-align: left; }
+  .star-oceania-toc { justify-content: flex-start; margin-bottom: 2.5rem; }
+  .star-oceania-appointment { margin-bottom: 3rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
+  .star-oceania-appointment .row { display: block; margin: 1.75rem auto; }
+  .star-oceania-appointment .col-md-6 { margin-bottom: 1.75rem; }
+  .star-oceania > .title-area { margin-top: 3.25rem; }
+  .star-oceania-distinction { padding: 1.1rem 1.2rem; }
+  .star-oceania-translation { padding: 1.25rem; }
+}
