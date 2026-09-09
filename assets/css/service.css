@@ -1,7 +1,6 @@
 .service-introduction {
   margin: 0 0 3rem;
   font-family: "Spectral", Georgia, serif;
-  font-size: 1.18em;
   line-height: 1.65;
 }
 
@@ -26,7 +25,6 @@
 .service-current .title-area .description {
   color: #feefa8 !important;
   font-family: "Spectral", Georgia, serif;
-  font-size: 1.08em;
   line-height: 1.55;
 }
 
@@ -102,7 +100,6 @@
   margin: 0 0 2.5rem;
   color: #615d53;
   font-family: "Spectral", Georgia, serif;
-  font-size: 1.08em;
   line-height: 1.55;
 }
 
@@ -112,14 +109,12 @@
 
 .service-history-group h3 {
   margin: 0 0 0.45rem;
-  font-size: 1.45em;
 }
 
 .service-history-group-introduction {
   margin: 0 0 1.25rem;
   color: #786f5f;
   font-family: "Spectral", Georgia, serif;
-  font-size: 1.03em;
   line-height: 1.55;
 }
 
@@ -135,7 +130,6 @@
 .service-entry h4 {
   margin: 0;
   color: #2e2c28;
-  font-size: 1.24em;
   line-height: 1.3;
 }
 
