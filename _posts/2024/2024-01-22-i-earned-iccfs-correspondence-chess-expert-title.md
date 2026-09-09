@@ -14,54 +14,57 @@ tags:
 - awards
 ---
 
-As a lover of chess and an avid participant in the realm of
-international correspondence chess, I'm thrilled to share I've beeg
-awarded the prestigious first title of Correspondence Chess Expert.
+The International Correspondence Chess Federation has awarded me the title
+of **Correspondence Chess Expert**. The certificate says CCE, which is both
+more compact and rather more useful on a tournament table.
 
 {% include figure.html width="6" link="/assets/docs/jhoward-iccf-cce.pdf"
    image="/2024/i-earned-iccfs-correspondence-chess-expert-title/jhoward-iccf-cce.webp"
    alt="My Correspondence Chess Expert certificate" 
    cap="My Correspondence Chess Expert certificate" %}
 
-The road to this achievement has been both challenging and rewarding.
-Correspondence chess, for those unfamiliar, differs from traditional
-chess in that players have days, sometimes even weeks, to make a
-single move. This format requires a deep strategic understanding,
-patience, and an analytical mindset that challenges even the most
-seasoned players.
+## Correspondence Chess, Now With More Computers
 
-Earning a norm in correspondence chess is no small feat. It involves
-competing in high-level tournaments and achieving results that
-surpass standard expectations against other skilled players from
-around the world. To earn the title of Correspondence Chess Expert,
-[a player must accumulate multiple such norms, demonstrating
-consistent performance across several
-events](https://www.welshccf.org.uk/article/174).
+Modern correspondence chess is not over-the-board chess conducted very
+slowly. Games are played on a server with long time controls, which gives both
+players time to maintain several candidate lines, compare earlier games, test
+assumptions, and return to a position after the machine has been running for a
+while.
 
-My journey involved countless hours of studying chess openings,
-middlegame tactics, and endgame strategies. But beyond the technical
-skills, correspondence chess has taught me the art of patience and
-the importance of meticulous planning. Each move is a decision that
-could take weeks of consideration, relying heavily on thorough
-analysis and future forecasting.
+The [ICCF rules](https://webfiles.iccf.com/rules/2024/2024%20ICCF%20Rules%20%20-%20final%2031-12-23.pdf)
+expressly permit players to consult public sources, including books, game
+databases, and chess engines. The player must still decide the move.
 
-The use of chess engines is permitted in correspondence chess, but
-this adds an extra layer of strategy rather than detracting from
-the skill of the game. Players must not only understand the best
-theoretical moves but also need to move deeper into understanding
-why each move is considered strong, and how to counteract sophisticated
-computer-generated strategies.
+That last sentence does considerable work. If both players have strong
+engines, “let the engine play” is not much of a strategy. The useful work is
+searching the position, deciding which candidate lines deserve time, comparing
+conflicting evaluations, recognizing where a numerical score conceals a
+strategic problem, and choosing the line whose consequences one is prepared to
+defend several moves later. Computer assistance does not remove the human
+problem. It changes the human problem into management of a small, opinionated
+analytical department.
 
-With the title of Correspondence Chess Expert now under my belt,
-my sights are set on further achievements. The next goal is achieving
-the title of Correspondence Chess Master. Knowing the hard work and
-dedication it takes to reach even this point, I am more motivated
-than ever to continue my growth and contribute to this beautiful,
-intellectual sport.
+I had been thinking about that problem since I began ICCF play in 2014. My
+earlier note on [chess engines and online play]({{ '/2014/06/13/chess-engines-and-playing-online/' | relative_url }})
+described the basic arrangement; earning the title required getting rather
+better at living with it.
 
-For anyone inspired to try correspondence chess, I encourage you
-to [dive in](https://www.iccf.com/). It's a world that tests your
-limits, expands your horizons, and connects you deeply with others
-who share your passion for the game.
+## What the CCE Title Requires
 
-Here's to many more moves, matches, and milestones!
+CCE is the first of ICCF’s international player titles. Under the rules in
+force when this title was awarded, the usual route required at least two CCE
+results in international title tournaments covering at least 24 games. A
+sufficiently high overscore could reduce the number of games. The underlying
+norm standard required a performance rating of 2150 against opposition with
+an average rating of at least 1950.
+
+My certificate confirms that ICCF conferred the title in 2024. The public
+materials preserved with this post do not identify the individual qualifying
+tournaments, so I am not going to reconstruct them from memory and call that a
+record. The certificate is the documentary fact.
+
+When I first wrote this announcement, I described Correspondence Chess Master
+as the next goal. That was a statement of intent in 2024, not a prediction
+smuggled into the future. CCE remains a pleasantly odd achievement: a chess
+title earned in a form of the game where access to better calculation makes
+judgment more important, not less.

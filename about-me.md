@@ -116,16 +116,15 @@ the presence of actual rules, budgets, and constraints.
 </div>
 
 ### Professional Recognition
-*   Senior Member of the Association for Computing Machinery, 2026
-*   Fellow of the [Society of Antiquaries of Scotland](/assets/docs/jhoward-fsascot.pdf), 2025
-*   Fellow of the [Institute of Mathematics and its Applications](/assets/docs/JHoward-IMA-FIMA.pdf), 2022
-*   Fellow of the [Cybernetics Society](/assets/docs/JHoward-FCybS.pdf), 2021
-*   Senior Member of the [IEEE](/assets/docs/JHoward-IEEE-SM-2025.pdf), 2021
-*   Fellow of the Royal Society of Arts, 2020
-*   Fellow of the [British Computer Society](/assets/docs/JHoward-FBCS.pdf), 2020
+{% assign professional_recognition = site.data.honors | where: "category", "professional" %}
+<ul>
+{% for honor in professional_recognition %}
+  <li>{{ honor.title }} of the {% if honor.evidence %}<a href="{{ honor.evidence | relative_url }}">{{ honor.issuer }}</a>{% else %}{{ honor.issuer }}{% endif %}, {{ honor.date }}</li>
+{% endfor %}
+</ul>
 
 ### Other Accomplishments
-*   [Correspondence Chess Expert](/assets/docs/jhoward-iccf-cce.pdf) 
+*   [Correspondence Chess Expert]({{ '/2024/01/22/i-earned-iccfs-correspondence-chess-expert-title' | relative_url }})
 
 
 {% include figure.html image="akureyri-shades-420.webp" alt="Me in Akureyri...with solar shades"

@@ -56,7 +56,7 @@ redirect_from:
   <article class="westarctica-card">
     <p class="westarctica-card-label">Current order grade</p>
     <h3>Knight Commander, Order of the Snowflake</h3>
-    <p class="westarctica-card-meta">Westarctican order · 2 November 2025</p>
+    <p class="westarctica-card-meta">Westarctican order · 2 November 2025 · KCS</p>
     <p>Promoted from Knight, appointed 25 December 2023.</p>
   </article>
   <article class="westarctica-card">
@@ -146,7 +146,7 @@ The **Order of the Snowflake** is a Westarctican order. My appointment history i
   </div>
 </div>
 
-The current instrument does not state a postnominal. I have therefore not assigned one here.
+The current instrument does not print a postnominal. The current grade is recorded as **KCS** in the consolidated Honors record.
 
 ### Noble Order of Westarctica
 
