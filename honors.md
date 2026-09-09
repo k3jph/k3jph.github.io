@@ -19,14 +19,16 @@ The record then continues into a different part of life: heraldry, private and c
 
 {% assign professional = site.data.honors | where: "category", "professional" %}
 <section class="honors-section honors-professional" aria-labelledby="professional-recognition">
-  <div class="honors-section-header">
-    <h2 id="professional-recognition">Professional Recognition</h2>
-    <p>Recognition from professional and learned societies.</p>
-  </div>
-  <div class="honors-card-grid">
-  {% for honor in professional %}
-    {% include honor-card.html honor=honor %}
-  {% endfor %}
+  <div class="container">
+    <div class="honors-section-header">
+      <h2 id="professional-recognition">Professional Recognition</h2>
+      <p>Recognition from professional and learned societies.</p>
+    </div>
+    <div class="honors-card-grid">
+    {% for honor in professional %}
+      {% include honor-card.html honor=honor %}
+    {% endfor %}
+    </div>
   </div>
 </section>
 
@@ -58,14 +60,16 @@ The record then continues into a different part of life: heraldry, private and c
 
 {% assign ceremonial = site.data.honors | where: "category", "ceremonial" %}
 <section class="honors-section honors-ceremonial" aria-labelledby="orders-ceremonial-honors">
-  <div class="honors-section-header">
-    <h2 id="orders-ceremonial-honors">Orders and Ceremonial Honors</h2>
-    <p>Orders conferred by private, ceremonial, and micronational institutions, identified by issuer and type.</p>
-  </div>
-  <div class="honors-card-grid">
-  {% for honor in ceremonial %}
-    {% include honor-card.html honor=honor %}
-  {% endfor %}
+  <div class="container">
+    <div class="honors-section-header">
+      <h2 id="orders-ceremonial-honors">Orders and Ceremonial Honors</h2>
+      <p>Orders conferred by private, ceremonial, and micronational institutions, identified by issuer and type.</p>
+    </div>
+    <div class="honors-card-grid">
+    {% for honor in ceremonial %}
+      {% include honor-card.html honor=honor %}
+    {% endfor %}
+    </div>
   </div>
 </section>
 
