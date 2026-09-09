@@ -10,6 +10,7 @@
   title: Fellow
   issuer: Society of Antiquaries of Scotland
   issuer_type: Learned society
+  postnominal: FSA Scot
   date: "2025"
   summary: "Elected Fellowship in Scotland’s national learned society for antiquities and heritage."
   evidence: /assets/docs/jhoward-fsascot.pdf
@@ -17,6 +18,7 @@
   title: Fellow
   issuer: Institute of Mathematics and its Applications
   issuer_type: Professional and learned society
+  postnominal: FIMA
   date: "2022"
   summary: "Elected to Fellowship of the professional body for mathematics and its applications."
   evidence: /assets/docs/JHoward-IMA-FIMA.pdf
@@ -24,6 +26,7 @@
   title: Fellow
   issuer: Cybernetics Society
   issuer_type: Learned society
+  postnominal: FCybS
   date: "2021"
   summary: "Elected Fellowship in the society concerned with the study and application of cybernetics."
   evidence: /assets/docs/JHoward-FCybS.pdf
@@ -31,6 +34,7 @@
   title: Senior Member
   issuer: IEEE
   issuer_type: Professional society
+  postnominal: SMIEEE
   date: "2021"
   summary: "Senior Member recognition in the world’s professional association for electrical and electronic engineering."
   evidence: /assets/docs/JHoward-IEEE-SM-2025.pdf
@@ -38,12 +42,14 @@
   title: Fellow
   issuer: Royal Society of Arts
   issuer_type: Learned society
+  postnominal: FRSA
   date: "2020"
   summary: "Elected Fellowship in the Royal Society for Arts, Manufactures and Commerce."
 - category: professional
   title: Fellow
   issuer: British Computer Society
   issuer_type: Professional society
+  postnominal: FBCS
   date: "2020"
   summary: "Elected Fellowship in the chartered institute for IT."
   evidence: /assets/docs/JHoward-FBCS.pdf
@@ -91,6 +97,7 @@
   title: Knight Commander
   issuer: Royal Order of the Star of Oceania
   issuer_type: Contemporary Hawaiian royal-house order
+  postnominal: KCRSO
   date: "17 March 2024"
   summary: "Appointment as Knight Commander in the contemporary order maintained by the issuing royal-house organization."
   detail_page: /honors/royal-order-of-the-star-of-oceania
@@ -130,6 +137,7 @@
   title: Knight Commander
   issuer: Order of the Snowflake
   issuer_type: Micronational order
+  postnominal: KCS
   date: "2 November 2025"
   summary: "Current grade in the Westarctican order; originally appointed Knight on 25 December 2023 for devotion to Westarctica."
   detail_page: /honors/grand-duchy-of-westarctica
