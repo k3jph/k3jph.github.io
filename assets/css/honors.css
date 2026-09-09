@@ -8,7 +8,7 @@
 .honors-section { margin: 4rem 0; }
 .honors-section-header { margin: 0 0 2rem; }
 .honors-section-header h2 { margin: 0 0 .5rem; }
-.honors-section-header p { color: #615d53; font-family: "Spectral", Georgia, serif; font-size: 1.08em; line-height: 1.55; margin: 0; }
+.honors-section-header p { color: #615d53; font-family: "Spectral", Georgia, serif; line-height: 1.55; margin: 0; }
 .honors-professional { background: #2b3c52; color: #fff; margin: 0 calc(50% - 50vw) 4rem; padding: 4rem 0; }
 .honors-professional .honors-section-header { margin-left: auto; margin-right: auto; text-align: center; }
 .honors-professional h2 { color:#fff; }
