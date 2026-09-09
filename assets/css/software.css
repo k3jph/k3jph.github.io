@@ -1,8 +1,7 @@
 .software-introduction {
   font-size: 1.125rem;
   line-height: 1.7;
-  margin: 0 auto;
-  max-width: 48rem;
+  margin: 0;
   padding: 1.5rem 0 2.5rem;
 }
 
@@ -79,11 +78,6 @@
   margin: 0.4rem 0.35rem 0 0;
 }
 
-.software-project-list {
-  margin: 0 auto;
-  max-width: 58rem;
-}
-
 .software-project {
   border-top: 1px solid #d0cdbc;
   padding: 2rem 0;
@@ -136,7 +130,6 @@
 
 .software-project-body {
   margin-left: 11.25rem;
-  max-width: 43rem;
 }
 
 .software-project-body > p:first-child {
@@ -164,8 +157,7 @@
 .software-scholarship-note {
   font-size: 0.96rem;
   line-height: 1.65;
-  margin: 3rem auto 0;
-  max-width: 58rem;
+  margin: 3rem 0 0;
 }
 
 .software-archive-note {
@@ -173,8 +165,7 @@
   color: #555;
   font-size: 1rem;
   line-height: 1.7;
-  margin: 3rem auto 0;
-  max-width: 58rem;
+  margin: 3rem 0 0;
   padding: 0.45rem 0 0.45rem 1rem;
 }
 
