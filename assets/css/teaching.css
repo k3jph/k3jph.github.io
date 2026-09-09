@@ -59,6 +59,9 @@
   background: rgba(16, 28, 44, 0.2);
 }
 
+.teaching-current-card > header > p { margin: 0; }
+.teaching-current-card > header > p:not(.teaching-meta) { font-size: 0.9em; }
+
 .teaching-current-card h3 {
   color: #fff;
   font-size: 1.25em;
@@ -70,7 +73,7 @@
   line-height: 1.6;
 }
 
-.teaching-meta {
+.content-blog .teaching-meta {
   color: #8d7950;
   font-family: Lato, sans-serif;
   font-size: 0.9rem;
@@ -95,6 +98,7 @@
 .teaching-current-courses li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.28);
   line-height: 1.45;
+  font-size: 0.9em;
   padding: 0.8rem 0;
 }
 
