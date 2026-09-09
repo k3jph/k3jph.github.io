@@ -24,25 +24,15 @@
 
 .golden-honor-toc a { color: #2457a4; }
 
-.golden-honor > h2 {
-  margin: 4.25rem 0 1.5rem;
+.golden-honor > .title-area {
+  margin: 4.25rem auto 2rem;
+  padding: 0;
+}
+
+.golden-honor > .title-area h2 {
   color: #2e2c28;
-  font-size: 1.85em;
   text-align: center;
 }
-
-.golden-honor > h2::after,
-.golden-honor-record h2::after {
-  display: block;
-  width: 4rem;
-  height: 2px;
-  margin: .8rem auto 0;
-  background: currentColor;
-  content: "";
-  opacity: .7;
-}
-
-.golden-honor > h2::after { margin-bottom: 2rem; color: #b69955; }
 .golden-honor > p { line-height: 1.72; }
 
 .golden-honor-record {
@@ -50,6 +40,11 @@
   padding: 3.5rem 0;
   background: #283f5c;
   color: #fff;
+}
+
+.golden-honor-record .title-area {
+  margin: 0 auto;
+  padding: 0;
 }
 
 .golden-honor-record h2 {
@@ -74,13 +69,12 @@
 .golden-honor-facts dd:last-child { margin-bottom: 0; }
 .golden-honor-record .container > p { font-family: "Spectral", Georgia, serif; line-height: 1.65; }
 
-.golden-honor > h2#sources { margin-bottom: 1.75rem; }
 .golden-honor > ul { padding-left: 1.35rem; }
 .golden-honor > ul li { margin-bottom: .85rem; line-height: 1.55; }
 
 @media (max-width: 767px) {
   .golden-honor-toc { justify-content: flex-start; margin-bottom: 2.5rem; }
-  .golden-honor > h2 { margin-top: 3.25rem; font-size: 1.6em; }
+  .golden-honor > .title-area { margin-top: 3.25rem; }
   .golden-honor-record { margin-top: 3rem; margin-bottom: 3rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
   .golden-honor-record .row { margin: 1.75rem auto; }
   .golden-honor-record .col-md-6 + .col-md-6 { margin-top: 1.75rem; }
