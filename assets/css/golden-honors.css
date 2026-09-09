@@ -3,7 +3,6 @@
   margin: 0 0 1.75rem;
   color: #635e53;
   font-family: "Spectral", Georgia, serif;
-  font-size: 1.16em;
   line-height: 1.65;
 }
 
@@ -44,7 +43,7 @@
 }
 
 .golden-honor > h2::after { margin-bottom: 2rem; color: #b69955; }
-.golden-honor > p { font-size: 1.04em; line-height: 1.72; }
+.golden-honor > p { line-height: 1.72; }
 
 .golden-honor-record {
   margin: 4rem calc(50% - 50vw);
@@ -73,14 +72,13 @@
 .golden-honor-facts dt { color: #f0d660; font-family: Lato, sans-serif; font-size: .77em; letter-spacing: .04em; text-transform: uppercase; }
 .golden-honor-facts dd { margin: 0 0 1rem; line-height: 1.45; }
 .golden-honor-facts dd:last-child { margin-bottom: 0; }
-.golden-honor-record .container > p { font-family: "Spectral", Georgia, serif; font-size: 1.08em; line-height: 1.65; }
+.golden-honor-record .container > p { font-family: "Spectral", Georgia, serif; line-height: 1.65; }
 
 .golden-honor > h2#sources { margin-bottom: 1.75rem; }
 .golden-honor > ul { padding-left: 1.35rem; }
 .golden-honor > ul li { margin-bottom: .85rem; line-height: 1.55; }
 
 @media (max-width: 767px) {
-  .golden-honor-introduction { font-size: 1.08em; }
   .golden-honor-toc { justify-content: flex-start; margin-bottom: 2.5rem; }
   .golden-honor > h2 { margin-top: 3.25rem; font-size: 1.6em; }
   .golden-honor-record { margin-top: 3rem; margin-bottom: 3rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
