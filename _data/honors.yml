@@ -126,9 +126,19 @@
   title: Knight Commander
   issuer: Order of the Snowflake
   issuer_type: Micronational order
-  date: "Current grade"
-  summary: "Originally appointed Knight on 25 December 2023 for devotion to Westarctica; subsequently promoted to Knight Commander."
+  date: "2 November 2025"
+  summary: "Current grade in the Westarctican order; originally appointed Knight on 25 December 2023 for devotion to Westarctica."
   detail_page: /honors/grand-duchy-of-westarctica
+  evidence: /assets/docs/JHoward-Westarctica-Order-of-the-Snowflake-KCS.pdf
+- category: ceremonial
+  title: Companion
+  issuer: Noble Order of Westarctica
+  issuer_type: Micronational order
+  postnominal: CW
+  date: "7 July 2025"
+  summary: "Appointed Companion of the Westarctican order for peers."
+  detail_page: /honors/grand-duchy-of-westarctica#orders-and-honors
+  evidence: /assets/docs/JHoward-Westarctica-Noble-Order-Companion.pdf
 
 - category: peerage
   title: Count Rubin de la Borbolla
