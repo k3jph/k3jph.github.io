@@ -1,7 +1,6 @@
 /* Teaching page: evidence-led course record */
 .teaching-introduction {
-  max-width: 52rem;
-  margin: 0 auto 3rem;
+  margin: 0 0 3rem;
   font-family: "Spectral", Georgia, serif;
   font-size: 1.18em;
   line-height: 1.65;
@@ -16,7 +15,6 @@
 }
 
 .teaching-section-intro {
-  max-width: 52rem;
   color: #615d53;
   font-family: "Spectral", Georgia, serif;
   font-size: 1.08em;
@@ -33,15 +31,8 @@
   color: #fff;
 }
 
-.teaching-current-inner {
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 .teaching-current-title-area {
-  max-width: 52rem;
-  margin: 0 auto 2.5rem;
+  margin: 0 0 2.5rem;
   text-align: center;
 }
 
@@ -131,7 +122,6 @@
 
 .teaching-practice-copy {
   border-left: 4px solid #e8ca5a;
-  max-width: 54rem;
   padding: 0.3rem 0 0.3rem 1.5rem;
 }
 
@@ -150,7 +140,6 @@
 }
 
 .teaching-history-introduction {
-  max-width: 52rem;
   margin: 0 0 2.5rem;
   color: #615d53;
   font-family: "Spectral", Georgia, serif;
@@ -223,14 +212,6 @@
   padding-top: 2.5rem;
 }
 
-.teaching-past-appointments p {
-  max-width: 52rem;
-}
-
-.teaching-scholarship-list {
-  max-width: 56rem;
-}
-
 .teaching-scholarship-list p {
   border-bottom: 1px solid #d8d0bf;
   line-height: 1.7;
@@ -248,10 +229,10 @@
   color: #fff;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-  padding: 4rem max(1.5rem, calc((100vw - 72rem) / 2));
+  padding: 4rem 0;
 }
 
-.teaching-archive > h2 {
+.teaching-archive h2 {
   color: #f0d660;
 }
 
