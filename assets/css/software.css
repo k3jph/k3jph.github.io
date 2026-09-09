@@ -1,5 +1,4 @@
 .software-introduction {
-  font-size: 1.125rem;
   line-height: 1.7;
   margin: 0;
   padding: 1.5rem 0 2.5rem;
@@ -65,10 +64,7 @@
   margin-bottom: 1.25rem;
 }
 
-.software-feature-card .text-description {
-  font-size: 1rem;
-  line-height: 1.7;
-}
+.software-feature-card .text-description { line-height: 1.7; }
 
 .software-feature-card .software-project-links {
   margin: auto 0 0;
@@ -110,7 +106,6 @@
 }
 
 .software-project h3 {
-  font-size: 1.35rem;
   line-height: 1.25;
   margin: 0 0 0.4rem;
 }
@@ -133,7 +128,6 @@
 }
 
 .software-project-body > p:first-child {
-  font-size: 1rem;
   line-height: 1.7;
   margin: 1.15rem 0 1rem;
 }
@@ -155,7 +149,6 @@
 }
 
 .software-scholarship-note {
-  font-size: 0.96rem;
   line-height: 1.65;
   margin: 3rem 0 0;
 }
@@ -163,17 +156,13 @@
 .software-archive-note {
   border-left: 3px solid #f3dd78;
   color: #555;
-  font-size: 1rem;
   line-height: 1.7;
   margin: 3rem 0 0;
   padding: 0.45rem 0 0.45rem 1rem;
 }
 
 @media (max-width: 767px) {
-  .software-introduction {
-    font-size: 1.05rem;
-    padding-bottom: 1.5rem;
-  }
+  .software-introduction { padding-bottom: 1.5rem; }
 
   .software-section {
     padding: 3rem 0;
