@@ -20,7 +20,7 @@ The active record comes first. The historical record follows: public and civic d
 
 {% assign current_roles = site.data.service | where: "current", true %}
 <section class="service-current">
-  <div class="service-current-inner">
+  <div class="container service-current-inner">
     <div class="title-area">
       <h2>Current Service</h2>
       <p class="description">Active appointments in public service, nonprofit governance, and professional stewardship.</p>
