@@ -1,0 +1,90 @@
+/* Detail pages for private heraldic and fraternal recognitions. */
+.golden-honor-introduction {
+  margin: 0 0 1.75rem;
+  color: #635e53;
+  font-family: "Spectral", Georgia, serif;
+  font-size: 1.16em;
+  line-height: 1.65;
+}
+
+.golden-honor-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem 1.25rem;
+  justify-content: center;
+  margin: 0 auto 3.25rem;
+  padding: .85rem 1rem;
+  border-top: 1px solid #d8d0bf;
+  border-bottom: 1px solid #d8d0bf;
+  font-family: Lato, sans-serif;
+  font-size: .84em;
+  font-weight: 700;
+  letter-spacing: .025em;
+  text-transform: uppercase;
+}
+
+.golden-honor-toc a { color: #2457a4; }
+
+.golden-honor > h2 {
+  margin: 4.25rem 0 1.5rem;
+  color: #2e2c28;
+  font-size: 1.85em;
+  text-align: center;
+}
+
+.golden-honor > h2::after,
+.golden-honor-record h2::after {
+  display: block;
+  width: 4rem;
+  height: 2px;
+  margin: .8rem auto 0;
+  background: currentColor;
+  content: "";
+  opacity: .7;
+}
+
+.golden-honor > h2::after { margin-bottom: 2rem; color: #b69955; }
+.golden-honor > p { font-size: 1.04em; line-height: 1.72; }
+
+.golden-honor-record {
+  margin: 4rem calc(50% - 50vw);
+  padding: 3.5rem 0;
+  background: #283f5c;
+  color: #fff;
+}
+
+.golden-honor-record h2 {
+  margin-top: 0;
+  color: #f0d660;
+  text-align: center;
+}
+
+.golden-honor-record .row { margin: 2.25rem 0; }
+.golden-honor-record .golden-honor-document { display: block; color: #feefa8; font-family: Lato, sans-serif; font-size: .9em; font-weight: 700; text-align: center; }
+.golden-honor-document img { display: block; width: 100%; margin: 0 0 1rem; border: 1px solid rgba(255,255,255,.3); }
+.golden-honor-document:hover img { border-color: #feefa8; }
+
+.golden-honor-facts {
+  margin: 0;
+  padding: 1.5rem 1.75rem;
+  border: 1px solid rgba(255,255,255,.28);
+  background: rgba(13,30,49,.32);
+}
+.golden-honor-facts dt { color: #f0d660; font-family: Lato, sans-serif; font-size: .77em; letter-spacing: .04em; text-transform: uppercase; }
+.golden-honor-facts dd { margin: 0 0 1rem; line-height: 1.45; }
+.golden-honor-facts dd:last-child { margin-bottom: 0; }
+.golden-honor-record .container > p { font-family: "Spectral", Georgia, serif; font-size: 1.08em; line-height: 1.65; }
+
+.golden-honor > h2#sources { margin-bottom: 1.75rem; }
+.golden-honor > ul { padding-left: 1.35rem; }
+.golden-honor > ul li { margin-bottom: .85rem; line-height: 1.55; }
+
+@media (max-width: 767px) {
+  .golden-honor-introduction { font-size: 1.08em; }
+  .golden-honor-toc { justify-content: flex-start; margin-bottom: 2.5rem; }
+  .golden-honor > h2 { margin-top: 3.25rem; font-size: 1.6em; }
+  .golden-honor-record { margin-top: 3rem; margin-bottom: 3rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
+  .golden-honor-record .row { margin: 1.75rem auto; }
+  .golden-honor-record .col-md-6 + .col-md-6 { margin-top: 1.75rem; }
+  .golden-honor-facts { padding: 1.25rem; }
+}

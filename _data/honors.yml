@@ -97,16 +97,20 @@
 - category: ceremonial
   title: Knight
   issuer: Fraternal Order of the Golden Owl
-  issuer_type: Ceremonial order
+  issuer_type: Private fraternal order
   date: "21 December 2024"
-  summary: "Appointed Knight of the Fraternal Order of the Golden Owl."
+  summary: "Appointed Knight in a contemporary private fraternal organization."
+  detail_page: /honors/golden-owl
   evidence: /assets/docs/JHoward-Order-of-the-Golden-Owl.pdf
 - category: ceremonial
-  title: Fellow Member
-  issuer: Order of the Golden Bee
-  issuer_type: Ceremonial and armorial order
-  date: "1 January 2025"
-  summary: "Appointed Fellow Member of the Order of the Golden Bee and its armorial."
+  title: Fellow Officer
+  issuer: Fellowship of the Golden Bee
+  issuer_type: Private associative order
+  postnominal: FOGB
+  date: "1 January 2026"
+  previous_grade: "Fellow Member, 1 January 2025"
+  summary: "Current Fellowship grade in the Armorial of the Bee's associated heraldic order."
+  detail_page: /honors/golden-bee
   evidence: /assets/docs/JHoward-FOGB.pdf
 - category: ceremonial
   title: Knight Companion
