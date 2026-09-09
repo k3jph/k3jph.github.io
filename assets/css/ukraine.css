@@ -46,6 +46,26 @@
     pointer-events: none;
 }
 
+/*
+ * At phone and narrow-tablet widths, a right-anchored banner can land over
+ * content in narrow screenshots. Keep the callout inside the viewport and
+ * center it along the bottom edge instead.
+ */
+@media (max-width: 767px) {
+    .ukb {
+        box-sizing: border-box;
+        max-width: calc(100vw - 20px);
+        text-align: center;
+    }
+
+    .ukb-bottom-right,
+    .ukb-bottom-left {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
     .ukb {
         transition: none;
