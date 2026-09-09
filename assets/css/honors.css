@@ -23,7 +23,9 @@
 .honors-professional .honors-card h3 a:hover { color:#feefa8; }
 .honors-issuer { color:#8d7950; font-family:Lato,sans-serif; font-size:.94em; font-weight:700; margin:0; }
 .honors-professional .honors-issuer { color:#feefa8; }
-.honors-metadata { color:#746e63; font-family:Lato,sans-serif; font-size:.72em; font-weight:700; letter-spacing:.035em; line-height:1.45; margin:.35rem 0 .8rem; text-transform:uppercase; }
+.honors-metadata { color:#746e63; font-family:Lato,sans-serif; font-size:.72em; font-weight:700; letter-spacing:.035em; line-height:1.45; margin:0; text-transform:uppercase; }
+.honors-type { margin-top:.35rem; }
+.honors-designation { margin-bottom:.8rem; }
 .honors-professional .honors-metadata { color:rgba(255,255,255,.8); }
 .honors-summary { line-height:1.58; margin:.85rem 0 0; }
 .honors-card-links { font-family:Lato,sans-serif; font-size:.9em; font-weight:700; margin:1rem 0 0; }
