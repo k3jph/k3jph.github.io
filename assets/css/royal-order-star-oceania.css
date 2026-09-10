@@ -95,30 +95,6 @@
 
 .star-oceania-distinction strong { color: #2e2c28; }
 
-.star-oceania-translation {
-  margin: 2rem 0 0;
-  padding: 1.5rem 1.75rem;
-  border: 1px solid #d8d0bf;
-  background: #faf9f6;
-}
-
-.star-oceania-translation h3 {
-  margin: 0 0 1rem;
-  color: #2e2c28;
-}
-
-.star-oceania-translation blockquote {
-  margin: 0;
-  padding: 0 0 0 1.4rem;
-  border-left: 3px solid #b69955;
-  color: #3f3b34;
-  font-family: "Spectral", Georgia, serif;
-  font-size: 1.05em;
-  line-height: 1.65;
-}
-
-.star-oceania-translation blockquote p:last-child { margin-bottom: 0; }
-
 .star-oceania > ul { padding-left: 1.35rem; }
 .star-oceania > ul li { margin-bottom: .85rem; line-height: 1.55; }
 
@@ -130,5 +106,4 @@
   .star-oceania-appointment .col-md-6 { margin-bottom: 1.75rem; }
   .star-oceania > .title-area { margin-top: 3.25rem; }
   .star-oceania-distinction { padding: 1.1rem 1.2rem; }
-  .star-oceania-translation { padding: 1.25rem; }
 }

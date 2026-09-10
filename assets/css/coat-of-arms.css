@@ -233,14 +233,6 @@
   height: 0;
 }
 
-.coat-of-arms-blazons h4 {
-  margin: 0 0 0.5rem;
-}
-
-.coat-of-arms-blazons blockquote {
-  margin-bottom: 1.5rem;
-}
-
 .coat-of-arms-gallery {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

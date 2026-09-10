@@ -219,7 +219,7 @@ The diploma is not reproduced here. Its material appointment lines name
 Star of Oceania**, with the date and place *17 Malaki 2024 ma ka moku o Hilo ma
 Hawaiʻi*.
 
-<div class="star-oceania-translation">
+<div class="formal-text">
   <h3>English translation</h3>
   <blockquote>
     <p>Her Royal Highness Princess Owana Ka’öhelelani, Head of the Royal House of Hawai’i, hereby issues this Charter to affirm and uphold our fundamental values and virtues. It is with a deep commitment to the pursuit of true goodness that I address you,</p>

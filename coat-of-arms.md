@@ -264,8 +264,12 @@ continental language, and typically omits external elements such as
 mantling, mottoes, or helm unless historically attested. The blazon as
 entered reads:
 
+<div class="formal-text" markdown="1">
+
 > Silver a tetrahedron azure pierced by a sword bendwise gold, hilt and
 > pommel azure. Crest--A martlet sable.
+
+</div>
 
 This stylistic simplicity supports the Committee's focus on clarity,
 documentation, and historical legitimacy. The registration confirms the
@@ -303,9 +307,13 @@ visual composition of the achievement as presented at the time of record.
 
 The blazon as entered reads:
 
+<div class="formal-text" markdown="1">
+
 > Argent a triangle Azure charged with a fillet pall inverted Argent pierced
 > in bend by a sword Or with pommel and hilt of the second. Crest--A martlet
 > close Sable.
+
+</div>
 
 You may [download the PDF
 here](/assets/docs/jhoward-ach-registration.pdf).
@@ -331,8 +339,8 @@ allows a coat of arms to be reconstructed anywhere in the world from text alone.
 Each term specifies color, form, arrangement, and relationship of elements with
 technical precision.
 
-<div class="row coat-of-arms-blazons">
-  <div class="item col-md-6 col-sm-12">
+<div class="formal-text-grid">
+  <div class="formal-text">
     <h4>English</h4>
     <blockquote lang="en">
       <p>
@@ -340,7 +348,7 @@ technical precision.
       </p>
     </blockquote>
   </div>
-  <div class="item col-md-6 col-sm-12">
+  <div class="formal-text">
     <h4>Maltese</h4>
     <blockquote lang="mt">
       <p>
@@ -521,7 +529,11 @@ but symbolic avatars, distillations of lineage, values, and character.
 
 The blazon of the crest reads:
 
+<div class="formal-text" markdown="1">
+
 > Upon a wreath of the liveries a martlet Sable
+
+</div>
 
 Though spare, this is a classically structured English blazon. The martlet, long
 associated with tireless pursuit, intellectual restlessness, and the role of the
@@ -553,7 +565,11 @@ seen clearly and appreciated up close.
 
 The blazon of the banner is:
 
+<div class="formal-text" markdown="1">
+
 > A banner of the Arms
+
+</div>
 
 This format omits helm, crest, mantling, and motto, in keeping with the
 convention that banners reflect only the contents of the shield. By excluding
@@ -593,7 +609,11 @@ discipline.
 
 The blazon of the primary badge is:
 
+<div class="formal-text" markdown="1">
+
 > A sword inverted Or hilted Azure surmounted by a martlet Sable.
+
+</div>
 
 This badge was adopted following the grant of arms issued by the Chief Herald of
 Arms of Malta and remains heraldically consistent with the granted design,
@@ -614,7 +634,11 @@ alt="Secondary heraldic badge variant" %}
 
 The blazon of the secondary badge is:
 
+<div class="formal-text" markdown="1">
+
 > A tetrahedron Azure surmounted by two swords in saltire Or, hilted Azure.
+
+</div>
 
 Both badges are designed for flexibility and visual clarity. They may be used in
 various heraldic and para-heraldic settings: engraved objects, wax seals,
@@ -752,9 +776,13 @@ historical continuity and my family's deep Maryland roots.
 
 The full blazon of the standard is as follows: 
 
+<div class="formal-text" markdown="1">
+
 > A standard, the hoist bearing the arms of Maryland; the fly per fess Argent,
-charged with the Crest between two representations of the Badge, all separated
-by two bends Azure inscribed with the Motto in letters Argent
+> charged with the Crest between two representations of the Badge, all separated
+> by two bends Azure inscribed with the Motto in letters Argent
+
+</div>
 
 The fly of the standard is designed to bring together the principal components
 of my armorial bearings in a dynamic and legible form suited to cloth. The
