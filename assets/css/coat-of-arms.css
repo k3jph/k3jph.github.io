@@ -141,6 +141,16 @@
   padding-top: 0;
 }
 
+.coat-of-arms-band--navy {
+  background: #283f5c;
+  box-shadow: 0 0 0 100vmax #283f5c;
+  color: #fff;
+}
+
+.coat-of-arms-band--navy a {
+  color: #feefa8;
+}
+
 .coat-of-arms-band--soft {
   background: #f5f2ea;
   box-shadow: 0 0 0 100vmax #f5f2ea;
