@@ -44,13 +44,16 @@
 <script>hljs.highlightAll();</script>
 
 <script>
-  imagesLoaded( document.querySelector('#masonry-container'), function( instance ) {
-      var msnry = new Masonry('#masonry-container', {
+  var masonryContainer = document.querySelector('#masonry-container');
+  if (masonryContainer && masonryContainer.dataset.layout !== 'css-grid') {
+    imagesLoaded(masonryContainer, function() {
+      new Masonry(masonryContainer, {
           itemSelector: '.item',
           columnWidth: '.item',
           percentPosition: true
       });
-  });
+    });
+  }
 </script>
 
 <script src="{{ '/assets/js/ukraine.js' | relative_url }}" defer></script>

@@ -1,0 +1,337 @@
+.coat-of-arms [id] {
+  scroll-margin-top: 6rem;
+}
+
+.coat-of-arms-overview {
+  margin: 0 0 4rem;
+}
+
+.coat-of-arms-overview-grid {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.9fr) minmax(320px, 1.1fr);
+  gap: 42px;
+  align-items: center;
+}
+
+.coat-of-arms-principal .item {
+  float: none;
+  width: 100%;
+  padding: 0 !important;
+}
+
+.coat-of-arms-principal figure {
+  margin: 0;
+  padding: 0;
+}
+
+.coat-of-arms-principal .card {
+  margin: 0;
+}
+
+.coat-of-arms-summary {
+  padding: 1.75rem 2rem;
+  border: 1px solid #d8d0bf;
+  background: #fff;
+}
+
+.coat-of-arms-eyebrow {
+  margin: 0 0 0.4rem;
+  color: #897b55;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.coat-of-arms-summary > .title-area {
+  margin: 0 0 1.25rem;
+  padding: 0;
+}
+
+.coat-of-arms-summary > .title-area h2 {
+  margin: 0;
+}
+
+.coat-of-arms-facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+}
+
+.coat-of-arms-facts div {
+  padding: 0.85rem 1rem 0.85rem 0;
+  border-top: 1px solid #d8d0bf;
+}
+
+.coat-of-arms-facts dt {
+  color: #746e63;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.74em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.coat-of-arms-facts dd {
+  margin: 0.2rem 0 0;
+  line-height: 1.4;
+}
+
+.coat-of-arms-summary-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin: 1.25rem 0 0;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+}
+
+.coat-of-arms-directory,
+.coat-of-arms-band {
+  width: 100vw;
+  margin-right: calc(50% - 50vw);
+  margin-left: calc(50% - 50vw);
+}
+
+.coat-of-arms-directory {
+  margin-bottom: 4rem;
+  padding: 4rem 0;
+  background: #2b3c52;
+  color: #fff;
+}
+
+.coat-of-arms-directory .title-area,
+.coat-of-arms-section .title-area,
+.coat-of-arms-band .title-area {
+  margin-bottom: 2.5rem;
+  padding: 0;
+}
+
+.coat-of-arms-directory .title-area h2 {
+  color: #fff;
+}
+
+.coat-of-arms-directory .title-area .description {
+  color: #feefa8;
+  font-family: "Spectral", Georgia, serif;
+  line-height: 1.55;
+}
+
+.coat-of-arms-directory .separator,
+.coat-of-arms-directory .separator::before,
+.coat-of-arms-directory .separator::after {
+  color: #feefa8;
+  border-color: #feefa8;
+}
+
+.coat-of-arms-directory-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.coat-of-arms-directory-grid a {
+  display: block;
+  min-height: 100%;
+  padding: 1.35rem 1.45rem;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(16, 28, 44, 0.2);
+  color: #fff;
+  text-decoration: none;
+}
+
+.coat-of-arms-directory-grid a:hover,
+.coat-of-arms-directory-grid a:focus {
+  border-color: #feefa8;
+  color: #fff;
+}
+
+.coat-of-arms-directory-grid strong,
+.coat-of-arms-directory-grid span {
+  display: block;
+}
+
+.coat-of-arms-directory-grid strong {
+  color: #feefa8;
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 1.12em;
+  line-height: 1.25;
+}
+
+.coat-of-arms-directory-grid span {
+  margin-top: 0.45rem;
+  font-family: "Spectral", Georgia, serif;
+  font-weight: 400;
+  line-height: 1.48;
+}
+
+.coat-of-arms-section,
+.coat-of-arms-band {
+  margin-bottom: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.coat-of-arms-section {
+  padding-top: 0;
+}
+
+.coat-of-arms-band--soft {
+  background: #f5f2ea;
+}
+
+.coat-of-arms-band--slate {
+  background: #edf1f5;
+}
+
+.coat-of-arms-local-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: center;
+  margin: -0.75rem 0 2.75rem;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.88em;
+}
+
+.coat-of-arms-local-nav a {
+  padding: 0.35rem 0.75rem;
+  border-right: 1px solid #b9b2a4;
+}
+
+.coat-of-arms-local-nav a:last-child {
+  border-right: 0;
+}
+
+.coat-of-arms-fragment-target {
+  display: block;
+  height: 0;
+}
+
+.coat-of-arms-blazons h4 {
+  margin: 0 0 0.5rem;
+}
+
+.coat-of-arms-blazons blockquote {
+  margin-bottom: 1.5rem;
+}
+
+.coat-of-arms-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  margin: 2rem 0 0;
+}
+
+.coat-of-arms-gallery > .item {
+  float: none;
+  width: auto;
+  padding: 0 !important;
+}
+
+.coat-of-arms-gallery .card,
+.coat-of-arms-gallery figure {
+  height: 100%;
+  margin: 0;
+}
+
+.coat-of-arms-gallery figure {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid #d8d0bf;
+  background: #fff;
+}
+
+.coat-of-arms-gallery .featured-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+}
+
+.coat-of-arms-gallery .images-caption {
+  margin-top: auto;
+  padding-top: 0.75rem;
+}
+
+.coat-of-arms-back {
+  clear: both;
+  margin: 2.5rem 0 0;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.88em;
+  text-align: right;
+}
+
+.coat-of-arms-tartan > .item {
+  margin-bottom: 1.5rem;
+}
+
+.coat-of-arms-tartan > .item figure {
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .coat-of-arms-overview-grid {
+    grid-template-columns: minmax(230px, 0.8fr) minmax(300px, 1.2fr);
+    gap: 28px;
+  }
+
+  .coat-of-arms-directory-grid,
+  .coat-of-arms-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .coat-of-arms-overview {
+    margin-bottom: 3rem;
+  }
+
+  .coat-of-arms-overview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .coat-of-arms-principal {
+    max-width: 34rem;
+    margin: 0 auto;
+  }
+
+  .coat-of-arms-summary {
+    padding: 1.4rem;
+  }
+
+  .coat-of-arms-directory,
+  .coat-of-arms-section,
+  .coat-of-arms-band {
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .coat-of-arms-section {
+    padding-top: 0;
+  }
+
+  .coat-of-arms-local-nav {
+    justify-content: flex-start;
+  }
+
+  .coat-of-arms-tartan > .item {
+    float: none !important;
+    width: 100%;
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .coat-of-arms-facts,
+  .coat-of-arms-directory-grid,
+  .coat-of-arms-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .coat-of-arms-directory-grid a {
+    padding: 1.15rem 1.25rem;
+  }
+}

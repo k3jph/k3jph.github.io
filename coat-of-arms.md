@@ -5,19 +5,68 @@ author: James Howard
 layout: page
 permalink: /coat-of-arms
 featured_image: /assets/img/malta.webp
+stylesheet: /assets/css/coat-of-arms.css
 redirect_from:
   - /coa
   - /malta
-  - /tartan
   - /honors/malta
   - /honors/maltese-coat-arms
   - /honors/grant-of-arms
   - /honors/coat-of-arms
 ---
 
-{% include figure.html image="armory/jhoward-salmeron-960px.webp" placement="right" width="6" border=true
-cap="Interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
-alt="Interpreted by Dr Antonio Salmerón" %}
+<div class="coat-of-arms" markdown="1">
+
+<section class="coat-of-arms-overview" aria-labelledby="armorial-summary" markdown="1">
+
+<div class="coat-of-arms-overview-grid">
+  <div class="coat-of-arms-principal">
+    {% include figure.html image="armory/jhoward-salmeron-960px.webp" loading="eager" width="12" border=true
+    cap="Interpreted by [Dr Antonio Salmerón](http://blason.es/)"
+    alt="Full heraldic achievement of James Patrick Howard II, interpreted by Dr Antonio Salmerón" %}
+  </div>
+  <div class="coat-of-arms-summary">
+    <p class="coat-of-arms-eyebrow">Personal armorial record</p>
+    <div class="title-area">
+      <h2 id="armorial-summary">The Arms at a Glance</h2>
+      <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+    </div>
+    <dl class="coat-of-arms-facts">
+      <div><dt>Granting authority</dt><dd>Office of the Chief Herald of Arms of Malta</dd></div>
+      <div><dt>Letters Patent</dt><dd>G0102</dd></div>
+      <div><dt>Date</dt><dd>1 May 2024</dd></div>
+      <div><dt>Motto</dt><dd><em>Ir-rieda biss tmexxi l-qalb</em></dd></div>
+    </dl>
+    <p class="coat-of-arms-summary-links"><a href="#blazon">Read the blazon <span aria-hidden="true">↓</span></a><a href="{{ '/assets/docs/jhoward-malta-letters-patent.pdf' | relative_url }}">View Letters Patent <span class="sr-only">(PDF)</span><span aria-hidden="true">↗</span></a></p>
+  </div>
+</div>
+
+</section>
+
+<section class="coat-of-arms-directory">
+  <div class="container">
+    <div class="title-area">
+      <h2 id="contents">Explore the Arms</h2>
+      <div class="separator separator-warning"><img src="{{ '/assets/img/identity/kamon-warning.svg' | relative_url }}" height="35" alt="" /></div>
+      <p class="description">The complete record is arranged as six related rooms.</p>
+    </div>
+    <nav class="coat-of-arms-directory-grid" aria-label="Coat of Arms page sections">
+      <a href="#heraldry-context"><strong>Heraldry</strong><span>Origins, practice, and Maltese context</span></a>
+      <a href="#the-grant"><strong>The Grant</strong><span>Letters Patent, authority, and the formal record</span></a>
+      <a href="#the-arms"><strong>The Arms</strong><span>Blazon, design, symbolism, and motto</span></a>
+      <a href="#emblazonments"><strong>Emblazonments</strong><span>Different artists, one blazon</span></a>
+      <a href="#insignia"><strong>Insignia</strong><span>Crest, banner, badges, and flags</span></a>
+      <a href="#tartan"><strong>Tartan</strong><span>The woven extension of the heraldic palette</span></a>
+    </nav>
+  </div>
+</section>
+
+<section class="coat-of-arms-section" aria-labelledby="heraldry-context" markdown="1">
+
+<div class="title-area">
+  <h2 id="heraldry-context">Heraldry</h2>
+  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+</div>
 
 At its core, heraldry began as a system of identification. Over centuries, it
 evolved from simple insignia into the complex art and science of designing,
@@ -44,7 +93,25 @@ competent heraldic authority acting under a mandate of the state. This preserves
 heraldry as a disciplined and legitimate tradition grounded in continuity and
 law.
 
-## Heraldry in Malta
+</section>
+
+<section class="coat-of-arms-band coat-of-arms-band--soft coat-of-arms-grant" aria-labelledby="the-grant" markdown="1">
+<div class="container" markdown="1">
+
+<div class="title-area">
+  <h2 id="the-grant">The Grant</h2>
+  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <p class="description">The Maltese authority, Letters Patent, and documentary record.</p>
+</div>
+
+<nav class="coat-of-arms-local-nav" aria-label="The Grant sections">
+  <a href="#heraldry-in-malta">Maltese context</a>
+  <a href="#my-grant-of-arms">My grant</a>
+  <a href="#letters-patent">Letters Patent</a>
+  <a href="#additional-registrations">Additional registrations</a>
+</nav>
+
+### Heraldry in Malta {#heraldry-in-malta}
 
 The Republic of Malta possesses a rich European heraldic tradition, reflected in
 the arms of its noble families, the historic [Order of St.
@@ -68,7 +135,7 @@ registered arms receive official recognition by the State. The office regulates
 personal and corporate heraldic symbols, grants new arms, registers established
 arms, and acknowledges arms granted by recognized foreign authorities.
 
-## My Grant of Arms
+### My Grant of Arms {#my-grant-of-arms}
 
 I received a grant of arms from the Office of the Chief Herald of Arms of Malta,
 formalized through Letters Patent numbered G0102, issued on May 1, 2024. The
@@ -81,35 +148,210 @@ This coat of arms, now officially recorded and recognized, joins the broader
 heraldic corpus of Malta. It stands as a lawful instrument of identity and
 distinction, intended to endure as part of my family’s heraldic legacy.
 
+<span id="letters-patent" class="coat-of-arms-fragment-target" aria-hidden="true"></span>
+
 {% include figure.html image="/2024/a-maltese-grant-of-arms.webp" width="12" border=true
 cap="Letters patent for the coat of arms" 
 alt="Letters patent for the coat of arms" %}
 
 Or you may [download the PDF here](/assets/docs/jhoward-malta-letters-patent.pdf).
 
-### Blazon
+### Additional Registrations {#additional-registrations}
+
+While the coat of arms is formally granted by the Chief Herald of Arms of Malta,
+additional recognitions help reinforce its presence and legitimacy across
+heraldic jurisdictions. These registrations reflect the broader armorial
+ecosystem in which heraldry operates today.
+
+{% include figure.html width="4" border=true placement="right"
+image="/armory/jhoward-malta-letters-patent-binder.webp"
+link="/assets/docs/jhoward-malta-letters-patent-binder.pdf"
+cap="Cover for letters patent in binder format"
+alt="Cover for letters patent in binder format" %}
+
+#### Duplicate Grant (Alternative Format) {#duplicate-grant-alternative-format}
+
+The Chief Herald of Malta also issued a second version of the grant in an
+alternative physical format. While the original is a large-format, A2-sized
+sheet suitable for framing and ceremonial display, the alternate version is
+presented as a series of standard A4 pages, formally bound in a presentation
+binder. This version is heraldically identical in content, containing the same
+blazon, legal language, and official certification, but differs in its physical
+layout, typography, and purpose. The multi-page format lends itself to archival
+storage, practical handling, and reference consultation, rather than ornamental
+display.
+
+This dual-format approach reflects the hybrid character of the Maltese heraldic
+office. As a relatively recent institution within a civil law jurisdiction, the
+Chief Herald of Malta combines symbolic functions inherited from British and
+European heraldic traditions with modern documentary practices more typical of
+notarial or governmental registries. Issuing both a display grant and a
+documentary edition allows for continuity with ceremonial expectations while
+ensuring the grant serves its administrative and legal roles within the state's
+framework.
+
+Comparable systems exist elsewhere, Scotland's Court of the Lord Lyon issues
+both Letters Patent and entries in the Public Register, and the Canadian
+Heraldic Authority often separates artistic rendering from the text of the
+instrument, but Malta's solution is distinctive for integrating both functions
+under one authority with two physically distinct outputs. This reflects an
+appreciation for both the performative and practical roles heraldry plays in a
+modern civic context.
+
+You may [download the PDF here](/assets/docs/jhoward-malta-letters-patent-binder.pdf).
+
+{% include figure.html width="4" border=true placement="right"
+image="/armory/jhoward-american-armigers-registration.webp"
+link="/assets/docs/jhoward-american-armigers-registration.pdf"
+cap="American Armigers registration certificate AA0183"
+alt="American Armigers registration certificate AA0183" %}
+
+#### American Armigers {#american-armigers}
+
+The arms have also been formally recorded by the [American Armigers
+Register](https://americanarmigers.us/), a private society dedicated to
+recognizing and documenting legitimate armorial bearings used by individuals in
+the United States. The Register provides a public-facing directory of American
+armigers, affirming their heraldic identity within a domestic cultural context.
+It does not confer arms, but rather acknowledges existing rights to arms by
+grant, matriculation, or longstanding use, and promotes responsible heraldic
+practice in the American tradition.
+
+The record for James P. Howard, II includes the arms granted by the Chief Herald
+of Arms of Malta, preserving the blazon in English heraldic terminology and
+listing the crest and motto as well. The motto, _Ir-rieda biss tmexxi l-qalb_
+(“Only the will moves the heart”), appears in both the original Maltese and in
+spirit with the rest of the armorial arrangement.
+
+Although the website has not yet been updated to reflect the new registration,
+the certificate, issued under Registration Number AA0183 and dated, 20 June
+2025, is available below.
+
+You may [download the PDF
+here](/assets/docs/jhoward-american-armigers-registration.pdf).
+
+#### Heraldry of the World {#heraldry-of-the-world}
+
+In addition to formal grant and domestic registration, the arms have also been
+recorded in the [Heraldry of the
+World](https://www.heraldry-wiki.com/wiki/James_Patrick_Howard_II), a widely
+used international reference for civic and personal heraldry. While this listing
+is not a legal registration, it contributes to public visibility and ensures
+that the arms are catalogued in a respected heraldic directory alongside
+municipal, ecclesiastical, and institutional arms from across the globe. No
+certificate is issued for this type of entry, but the listing is maintained and
+accessible as part of the site’s extensive global database.
+
+#### NEHGS Committee on Heraldry {#nehgs-committee-on-heraldry}
+
+{% include figure.html width="4" border=true placement="right"
+image="/armory/jhoward-nehgs-coh-letter.webp"
+link="/assets/docs/jhoward-nehgs-coh-letter.pdf"
+cap="Registration letter from the NEHGS Committee on Heraldry"
+alt="Registration letter from the NEHGS Committee on Heraldry" %}
+
+The arms have also been formally recorded by the [Committee on Heraldry
+of the New England Historic Genealogical
+Society](https://www.americanancestors.org/committee-heraldry) the
+oldest heraldic body in the United States. At its regular meeting of 28
+October 2025, the Committee accepted the arms granted by the Chief
+Herald of Malta for record in its official registry. This record
+preserves the arms in the Committee's distinctive style, which has been
+in continuous use for over a century. The Committee's blazoning practice
+reflects a streamlined, Americanized approach to heraldic description:
+it uses plain English terminology where possible (e.g., _silver_ instead
+of _argent_), prefers straightforward geometric phrasing over florid or
+continental language, and typically omits external elements such as
+mantling, mottoes, or helm unless historically attested. The blazon as
+entered reads:
+
+> Silver a tetrahedron azure pierced by a sword bendwise gold, hilt and
+> pommel azure. Crest--A martlet sable.
+
+This stylistic simplicity supports the Committee's focus on clarity,
+documentation, and historical legitimacy. The registration confirms the
+armorial bearings as part of the permanent record of arms used in the
+United States. The entry will be published in the Committee's 2025
+annual report. No certificate is issued for this type of registration,
+but the record is maintained by the Committee and publicly accessible
+via the NEHGS archives.
+
+You may [download the PDF
+here](/assets/docs/jhoward-nehgs-coh-letter.pdf).
+
+#### American College of Heraldry {#american-college-of-heraldry}
+
+{% include figure.html width="5" border=true placement="right"
+image="/armory/jhoward-ach-registration.webp"
+link="/assets/docs/jhoward-ach-registration.pdf"
+cap="Registration certificate from the American College of Heraldry"
+alt="Registration certificate from the American College of Heraldry" %}
+
+The arms have also been formally registered by the [American College of
+Heraldry](https://americancollegeofheraldry.org/).  The College issued an
+Armorial Registration certificate under number 4855, signed by its Executive
+Director, David Robert Wooten, dated 10 February 2026.  The registration records
+the arms as granted by the Chief Herald of Arms of Malta on 1 May 2024, and
+confirms the arms and crest for use by me and by my descendants, with due and
+proper differences according to heraldic tradition.
+
+The College's presentation style is deliberately "letters patent" in feel, a
+full illuminated certificate with the arms displayed alongside institutional
+seals and the signatures of the issuing authority. Unlike registries that focus
+on compact blazons and archival minimalism, this format makes the registration
+itself the artifact. It preserves not only the blazon, but also the intended
+visual composition of the achievement as presented at the time of record.
+
+The blazon as entered reads:
+
+> Argent a triangle Azure charged with a fillet pall inverted Argent pierced
+> in bend by a sword Or with pommel and hilt of the second. Crest--A martlet
+> close Sable.
+
+You may [download the PDF
+here](/assets/docs/jhoward-ach-registration.pdf)
+
+
+*Additional registrations will be added as they are approved.*
+
+</div>
+</section>
+
+<section class="coat-of-arms-section coat-of-arms-arms" aria-labelledby="the-arms" markdown="1">
+
+<div class="title-area">
+  <h2 id="the-arms">The Arms</h2>
+  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <p class="description">The formal blazon, its design and symbolism, and the motto.</p>
+</div>
+
+### Blazon {#blazon}
 
 A blazon is the formal language of heraldry, a codified descriptive system that
 allows a coat of arms to be reconstructed anywhere in the world from text alone.
 Each term specifies color, form, arrangement, and relationship of elements with
 technical precision.
 
-<div class="row">
+<div class="row coat-of-arms-blazons">
   <div class="item col-md-6 col-sm-12">
-    <blockquote>
+    <h4>English</h4>
+    <blockquote lang="en">
       <p>
         Argent in pale a tetrahedron Azure pierced in bend by a sword Or with pommel and cross piece of the Second. Upon a helm befitting his degree with mantling Azure and doubled Or is set for crest, upon a wreath of the liveries a martlet Sable.
       </p>
     </blockquote>
   </div>
   <div class="item col-md-6 col-sm-12">
-    <blockquote>
+    <h4>Maltese</h4>
+    <blockquote lang="mt">
       <p>
         Lewn il-Fidda in Pale tetrahedron lewn Ikħal minfud b'sejf In Bend lewn id-Deheb u bil-maqbad u s-salib tiegħu ta' lewn Ikħal. Fuq elmu li jixraq il-grad tiegħu bid-drappeġġ Ikħal u lewn id-Deheb hemm bħala Kresta fuq girlanda tal-istess ilwien ħuttafa ta' lewn Iswed.
       </p>
     </blockquote>
   </div>
 </div>
+
+### Design and Symbolism {#design-and-symbolism}
 
 The argent field establishes clarity and sincerity. The tetrahedron Azure
 reflects geometry, structure, and intellectual architecture. Piercing it in bend
@@ -124,7 +366,7 @@ striving and disciplined pursuit. Whether viewed as a nod to potential
 historical connections or simply as a heraldic emblem of intellectual ambition,
 it expresses constancy and purposeful motion.
 
-### Motto
+### Motto {#motto}
 
 For a motto, I chose "_Ir-rieda biss tmexxi l-qalb_," Maltese for "Only the will
 leads the heart." The phrase emphasizes discipline over impulse and resolve over
@@ -133,7 +375,17 @@ sentiment, underscoring the guiding principle behind the arms.
 Count Gauci remarked that this was the first Maltese-language motto he had
 encountered during his term of office.
 
-### Emblazonment
+</section>
+
+<section class="coat-of-arms-section coat-of-arms-emblazonments" aria-labelledby="emblazonments" markdown="1">
+
+<div class="title-area">
+  <h2 id="emblazonments">Emblazonments</h2>
+  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <p class="description">Different artists, one formal blazon.</p>
+</div>
+
+### Emblazonment {#emblazonment}
 
 An emblazonment is the artistic rendering of a coat of arms from its blazon.
 While the text remains constant, artistic interpretations may vary in style,
@@ -141,65 +393,86 @@ shading, and technique. All are equally valid so long as they conform to the
 blazon. This flexibility permits heraldry to remain both precise and
 artistically vibrant.
 
-### Additional Emblazonments
+### Additional Emblazonments {#additional-emblazonments}
 
 In this section, various interpretations of the arms are displayed, each adhering to the same blazon while reflecting the individual style of the artist.
 
-<div id="masonry-container" class="row">
-{% include figure.html image="armory/jhoward-coa-ratul-960px.webp" placement="left" loading="eager" width="4" border=true
+<div id="masonry-container" class="coat-of-arms-gallery" data-layout="css-grid">
+{% include figure.html image="armory/jhoward-coa-ratul-960px.webp" placement="left" loading="lazy" width="4" border=true
 cap="Interpreted by [Ratul S](https://www.fiverr.com/ratulsen544)" 
 alt="Interpreted by Ratul S" %}
 
-{% include figure.html image="armory/jhoward-coa-achernushkin-960px.webp" placement="left" loading="eager" width="4"
+{% include figure.html image="armory/jhoward-coa-achernushkin-960px.webp" placement="left" loading="lazy" width="4"
 cap="Interpreted by [Alexandr Chernushkin](https://www.fiverr.com/achernushkin)" 
 alt="Interpreted by Alexandr Chernushkin" %}
 
-{% include figure.html image="armory/jhoward-arms-hatched.svg" placement="left" loading="eager" width="4" border=false
+{% include figure.html image="armory/jhoward-arms-hatched.svg" placement="left" loading="lazy" width="4" border=false
 cap="The hatched style by me" 
 alt="The hatched style by me" %}
 
-{% include figure.html image="armory/jhoward-arms-wappenwiki.svg" placement="left" loading="eager" width="4" border=false
+{% include figure.html image="armory/jhoward-arms-wappenwiki.svg" placement="left" loading="lazy" width="4" border=false
 cap="The [WappenWiki](https://wappenwiki.org/) style by me" 
 alt="The WappenWiki style by me" %}
 
-{% include figure.html image="armory/jhoward-arms-pierra.svg" placement="left" loading="eager" width="4" border=false
+{% include figure.html image="armory/jhoward-arms-pierra.svg" placement="left" loading="lazy" width="4" border=false
 cap="Interpreted by [Jean-Eudes Pierra](https://www.armorialofthebee.com/board)" 
 alt="Interpreted by Jean-Eudes Pierra" %}
 
-{% include figure.html image="armory/cowan/howard-james-shield.png" placement="left" loading="eager" width="4" border=false
+{% include figure.html image="armory/cowan/howard-james-shield.png" placement="left" loading="lazy" width="4" border=false
 cap="Interpreted by [Steve Cowan](https://www.stevecowan.ca/)" 
 alt="Interpreted by Steve Cowan" %}
 
-{% include figure.html image="armory/jhoward-armoji.svg" placement="left" loading="eager" width="4" border=false
+{% include figure.html image="armory/jhoward-armoji.svg" placement="left" loading="lazy" width="4" border=false
 cap="Armoji style" 
 alt="Armoji style" %}
 
-{% include figure.html image="armory/jhoward-arms-loggail.webp" placement="left" loading="eager" width="4" border=true
+{% include figure.html image="armory/jhoward-arms-loggail.webp" placement="left" loading="lazy" width="4" border=true
 cap="Interpreted by Heikki Halkosaari" 
 alt="Interpreted by Heikki Halkosaari" %}
 
-{% include figure.html image="armory/jhoward-coa-abshier.webp" placement="left" loading="eager" width="4" border=false
+{% include figure.html image="armory/jhoward-coa-abshier.webp" placement="left" loading="lazy" width="4" border=false
 cap="Interpreted by [Brian Abshier](http://art.abshier.us/)" 
 alt="Interpreted by Brian Abshier" %}
 
-{% include figure.html image="armory/jhoward-coa-manuelpais-keepsake.webp" placement="left" loading="eager" width="4" border=false
+{% include figure.html image="armory/jhoward-coa-manuelpais-keepsake.webp" placement="left" loading="lazy" width="4" border=false
 cap="Interpreted by Manuel Pais in his Keepsake style"
 alt="Interpreted by Manuel Pais in his Keepsake style" %}
 
-{% include figure.html image="armory/jhoward-coa-manuelpais-cba.webp" placement="left" loading="eager" width="4" border=false
+{% include figure.html image="armory/jhoward-coa-manuelpais-cba.webp" placement="left" loading="lazy" width="4" border=false
 cap="Interpreted by Manuel Pais in Carta de Brasão de Armas style" 
 alt="Interpreted by Manuel Pais in Carta de Brasão de Armas style" %}
 
-{% include figure.html image="armory/jhoward-coa-fairbairn-color.svg" placement="left" loading="eager" width="4" border=false
+{% include figure.html image="armory/jhoward-coa-fairbairn-color.svg" placement="left" loading="lazy" width="4" border=false
 cap="A colored woodcut style by me" 
 alt="A colored woodcut style by me" %}
 
-{% include figure.html image="armory/jhoward-arms-dprica.webp" placement="left" loading="eager" width="4" border=false
+{% include figure.html image="armory/jhoward-arms-dprica.webp" placement="left" loading="lazy" width="4" border=false
 cap="Interpreted by [Dimitri Prica](http://www.dprica.com/)" 
 alt="Interpreted by Dimitri Prica" %}
 </div>
 
-## Related Insignia
+<p class="coat-of-arms-back"><a href="#contents">Back to contents <span aria-hidden="true">↑</span></a></p>
+
+</section>
+
+<span id="related-insignia" class="coat-of-arms-fragment-target" aria-hidden="true"></span>
+<section class="coat-of-arms-band coat-of-arms-band--slate coat-of-arms-insignia" aria-labelledby="insignia" markdown="1">
+<div class="container" markdown="1">
+
+<div class="title-area">
+  <h2 id="insignia">Flags, Badges, and Related Insignia</h2>
+  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <p class="description">The related devices that extend the arms into other forms.</p>
+</div>
+
+<nav class="coat-of-arms-local-nav" aria-label="Insignia sections">
+  <a href="#crest">Crest</a>
+  <a href="#banner">Banner</a>
+  <a href="#badge">Badges</a>
+  <a href="#standard">Standard</a>
+  <a href="#flag">Livery flag</a>
+  <a href="#cockade">Cockade</a>
+</nav>
 
 Together, the crest, badge, and livery flag form a complete set of
 external insignia associated with my armorial bearings. Each serves a
@@ -213,7 +486,7 @@ English, Maltese, and beyond--these elements share a unifying function:
 to express, in various media and degrees of formality, the continuity
 and presence of heraldic identity.
 
-### Crest
+### Crest {#crest}
 
 {% include figure.html image="armory/jhoward-crest-quentin-peacock.svg" width="4"
 placement="right" cap="Crest in the Fairbairn-style by [Quentin Peacock](https://www.digitalheraldry.com/)"
@@ -264,7 +537,7 @@ emblem. In such settings, Eckbert, the sable martlet, serves not only as a visua
 anchor, but as a quiet representative of the ideals behind the arms: learning,
 discipline, and a certain restless precision.
 
-### Banner
+### Banner {#banner}
 
 {% include figure.html image="armory/jhoward-banner.svg" width="4"
 placement="right" cap="Heraldic banner adapted from the arms"
@@ -297,7 +570,9 @@ balcony, mounted on a wall, or carried in procession. This controlled setting
 allows for a more intimate viewing of the arms and supports their use as a
 formal emblem of identity.
 
-### English Heraldic Badges
+<span id="badge" class="coat-of-arms-fragment-target" aria-hidden="true"></span>
+
+### English Heraldic Badges {#english-heraldic-badges}
 
 {% include figure.html placement="right" width=4
 image="armory/jhoward-heraldic-badge.svg" 
@@ -348,7 +623,7 @@ digital avatars, or rendered in precious metal for regalia. Though unofficial in
 the legal sense, their derivation from the armorial bearings and adherence to
 heraldic norms establish their legitimacy as extensions of the granted arms.
 
-### Scottish Crest Badge
+### Scottish Crest Badge {#scottish-crest-badge}
 
 {% include figure.html width="4" placement="right"
 image="armory/jhoward-crest-badge-member.svg" 
@@ -421,7 +696,7 @@ fidelity to the ideals of Scottish heraldic tradition. It is, in that
 sense, both a personal and cultural declaration, one that honors the
 past even as it presses forward, like the martlet, into the future.
 
-### Irish Crest Badge
+### Irish Crest Badge {#irish-crest-badge}
 
 {% include figure.html width="4" placement="right"
 image="armory/jhoward-crest-badge-irish.svg" 
@@ -451,7 +726,7 @@ arms, framed within a Claddagh, as an example of how contemporary
 heraldic practice can adapt and expand while acknowledging its invented
 character.
 
-### Standard
+### Standard {#standard}
 
 {% include figure.html width="4" placement="right"
 image="armory/jhoward-standard-md.svg"
@@ -497,7 +772,7 @@ accordance with established heraldic practice. It remains consistent with the
 armorial bearings granted under Maltese authority and serves as a lawful and
 appropriate extension of their use in flag form.
 
-### Kamon
+### Kamon {#kamon}
 
 {% include figure.html image="armory/jhoward-kamon.svg" width="4" placement="right"
 cap="Kamon adapted from the coat of arms by [Leonardo Barbosa da Silva](https://x.com/dev_cid)" 
@@ -532,7 +807,7 @@ This kamon (かもん) is not a replacement for my coat of arms, but rather
 a sibling to it, a cross-cultural expression rooted in dialogue, design,
 and a shared appreciation for heraldic language.
 
-### Flag
+### Flag {#flag}
 
 {% include figure.html image="armory/jhoward-flag.svg" width="4" placement="right" 
 cap="Flag adapted from the liveries of the arms" 
@@ -567,7 +842,7 @@ identity through color and proportion. It is a modern continuation of
 livery tradition, designed for clarity, defined by lineage, and carried
 forward with fidelity.
 
-### Cockade
+### Cockade {#cockade}
 
 {% include figure.html image="armory/jhoward-cockade.svg" width="4" placement="right"
 cap="Cockade adapted from the liveries of the arms" 
@@ -590,7 +865,18 @@ connections. By incorporating this cockade alongside my coat of arms, I
 emphasize not only my personal identity but also the timeless unity of
 meaningful symbolism across diverse cultures.
 
-### Tartan
+<p class="coat-of-arms-back"><a href="#contents">Back to contents <span aria-hidden="true">↑</span></a></p>
+
+</div>
+</section>
+
+<section class="coat-of-arms-section coat-of-arms-tartan" aria-labelledby="tartan" markdown="1">
+
+<div class="title-area">
+  <h2 id="tartan">Tartan</h2>
+  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <p class="description">The personal tartan and four conventional color treatments of its sett.</p>
+</div>
 
 <div class="item col-md-6 pull-right px-4">
 <div class="card">
@@ -654,160 +940,14 @@ This tartan is reserved for personal and family use. Friends and extended kin
 are welcome to wear it respectfully, particularly in heraldic or ceremonial
 contexts.
 
-## Additional Registrations
+### Related Writing
 
-While the coat of arms is formally granted by the Chief Herald of Arms of Malta,
-additional recognitions help reinforce its presence and legitimacy across
-heraldic jurisdictions. These registrations reflect the broader armorial
-ecosystem in which heraldry operates today.
+- [A New Tartan](/2025/05/26/a-new-tartan)
+- [How to Design a Tartan](/2025/05/15/how-to-design-a-tartan)
+- [Tartans as Woven Heraldry in Scotland](/2024/01/14/tartans-as-woven-heraldry-in-scotland)
 
-{% include figure.html width="4" border=true placement="right"
-image="/armory/jhoward-malta-letters-patent-binder.webp"
-link="/assets/docs/jhoward-malta-letters-patent-binder.pdf"
-cap="Cover for letters patent in binder format" 
-alt="Cover for letters patent in binder format" %}
+<p class="coat-of-arms-back"><a href="#contents">Back to contents <span aria-hidden="true">↑</span></a></p>
 
-### Duplicate Grant (Alternative Format)
+</section>
 
-The Chief Herald of Malta also issued a second version of the grant in an
-alternative physical format. While the original is a large-format, A2-sized
-sheet suitable for framing and ceremonial display, the alternate version is
-presented as a series of standard A4 pages, formally bound in a presentation
-binder. This version is heraldically identical in content, containing the same
-blazon, legal language, and official certification, but differs in its physical
-layout, typography, and purpose. The multi-page format lends itself to archival
-storage, practical handling, and reference consultation, rather than ornamental
-display.
-
-This dual-format approach reflects the hybrid character of the Maltese heraldic
-office. As a relatively recent institution within a civil law jurisdiction, the
-Chief Herald of Malta combines symbolic functions inherited from British and
-European heraldic traditions with modern documentary practices more typical of
-notarial or governmental registries. Issuing both a display grant and a
-documentary edition allows for continuity with ceremonial expectations while
-ensuring the grant serves its administrative and legal roles within the state's
-framework.
-
-Comparable systems exist elsewhere, Scotland's Court of the Lord Lyon issues
-both Letters Patent and entries in the Public Register, and the Canadian
-Heraldic Authority often separates artistic rendering from the text of the
-instrument, but Malta's solution is distinctive for integrating both functions
-under one authority with two physically distinct outputs. This reflects an
-appreciation for both the performative and practical roles heraldry plays in a
-modern civic context.
-
-You may [download the PDF here](/assets/docs/jhoward-malta-letters-patent-binder.pdf).
-
-{% include figure.html width="4" border=true placement="right"
-image="/armory/jhoward-american-armigers-registration.webp"
-link="/assets/docs/jhoward-american-armigers-registration.pdf"
-cap="American Armigers registration certificate AA0183" 
-alt="American Armigers registration certificate AA0183" %}
-
-### American Armigers
-
-The arms have also been formally recorded by the [American Armigers
-Register](https://americanarmigers.us/), a private society dedicated to
-recognizing and documenting legitimate armorial bearings used by individuals in
-the United States. The Register provides a public-facing directory of American
-armigers, affirming their heraldic identity within a domestic cultural context.
-It does not confer arms, but rather acknowledges existing rights to arms by
-grant, matriculation, or longstanding use, and promotes responsible heraldic
-practice in the American tradition.
-
-The record for James P. Howard, II includes the arms granted by the Chief Herald
-of Arms of Malta, preserving the blazon in English heraldic terminology and
-listing the crest and motto as well. The motto, _Ir-rieda biss tmexxi l-qalb_
-(“Only the will moves the heart”), appears in both the original Maltese and in
-spirit with the rest of the armorial arrangement.
-
-Although the website has not yet been updated to reflect the new registration,
-the certificate, issued under Registration Number AA0183 and dated, 20 June
-2025, is available below.
-
-You may [download the PDF
-here](/assets/docs/jhoward-american-armigers-registration.pdf).
-
-### Heraldry of the World
-
-In addition to formal grant and domestic registration, the arms have also been
-recorded in the [Heraldry of the
-World](https://www.heraldry-wiki.com/wiki/James_Patrick_Howard_II), a widely
-used international reference for civic and personal heraldry. While this listing
-is not a legal registration, it contributes to public visibility and ensures
-that the arms are catalogued in a respected heraldic directory alongside
-municipal, ecclesiastical, and institutional arms from across the globe. No
-certificate is issued for this type of entry, but the listing is maintained and
-accessible as part of the site’s extensive global database.
-
-### NEHGS Committee on Heraldry
-
-{% include figure.html width="4" border=true placement="right"
-image="/armory/jhoward-nehgs-coh-letter.webp"
-link="/assets/docs/jhoward-nehgs-coh-letter.pdf"
-cap="Registration letter from the NEHGS Committee on Heraldry" 
-alt="Registration letter from the NEHGS Committee on Heraldry" %}
-
-The arms have also been formally recorded by the [Committee on Heraldry
-of the New England Historic Genealogical
-Society](https://www.americanancestors.org/committee-heraldry) the
-oldest heraldic body in the United States. At its regular meeting of 28
-October 2025, the Committee accepted the arms granted by the Chief
-Herald of Malta for record in its official registry. This record
-preserves the arms in the Committee's distinctive style, which has been
-in continuous use for over a century. The Committee's blazoning practice
-reflects a streamlined, Americanized approach to heraldic description:
-it uses plain English terminology where possible (e.g., _silver_ instead
-of _argent_), prefers straightforward geometric phrasing over florid or
-continental language, and typically omits external elements such as
-mantling, mottoes, or helm unless historically attested. The blazon as
-entered reads:
-
-> Silver a tetrahedron azure pierced by a sword bendwise gold, hilt and
-> pommel azure. Crest--A martlet sable.
-
-This stylistic simplicity supports the Committee's focus on clarity,
-documentation, and historical legitimacy. The registration confirms the
-armorial bearings as part of the permanent record of arms used in the
-United States. The entry will be published in the Committee's 2025
-annual report. No certificate is issued for this type of registration,
-but the record is maintained by the Committee and publicly accessible
-via the NEHGS archives.
-
-You may [download the PDF
-here](/assets/docs/jhoward-nehgs-coh-letter.pdf).
-
-### American College of Heraldry
-
-{% include figure.html width="5" border=true placement="right"
-image="/armory/jhoward-ach-registration.webp"
-link="/assets/docs/jhoward-ach-registration.pdf"
-cap="Registration certificate from the American College of Heraldry"
-alt="Registration certificate from the American College of Heraldry" %}
-
-The arms have also been formally registered by the [American College of
-Heraldry](https://americancollegeofheraldry.org/).  The College issued an
-Armorial Registration certificate under number 4855, signed by its Executive
-Director, David Robert Wooten, dated 10 February 2026.  The registration records
-the arms as granted by the Chief Herald of Arms of Malta on 1 May 2024, and
-confirms the arms and crest for use by me and by my descendants, with due and
-proper differences according to heraldic tradition. 
-
-The College's presentation style is deliberately "letters patent" in feel, a
-full illuminated certificate with the arms displayed alongside institutional
-seals and the signatures of the issuing authority. Unlike registries that focus
-on compact blazons and archival minimalism, this format makes the registration
-itself the artifact. It preserves not only the blazon, but also the intended
-visual composition of the achievement as presented at the time of record.
-
-The blazon as entered reads:
-
-> Argent a triangle Azure charged with a fillet pall inverted Argent pierced
-> in bend by a sword Or with pommel and hilt of the second. Crest--A martlet
-> close Sable.
-
-You may [download the PDF
-here](/assets/docs/jhoward-ach-registration.pdf)
-
-
-*Additional registrations will be added as they are approved.*
+</div>
