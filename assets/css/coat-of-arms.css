@@ -245,7 +245,8 @@
 }
 
 .coat-of-arms-gallery,
-.coat-of-arms-seals {
+.coat-of-arms-seals,
+.coat-of-arms-badge-gallery {
   display: grid;
   gap: 20px;
   margin: 2rem 0 0;
@@ -257,10 +258,17 @@
 
 .coat-of-arms-seals {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-bottom: 2.5rem;
+}
+
+.coat-of-arms-badge-gallery {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 2.5rem;
 }
 
 .coat-of-arms-gallery > .item,
-.coat-of-arms-seals > .item {
+.coat-of-arms-seals > .item,
+.coat-of-arms-badge-gallery > .item {
   float: none;
   width: auto;
   padding: 0 !important;
@@ -269,13 +277,16 @@
 .coat-of-arms-gallery .card,
 .coat-of-arms-gallery figure,
 .coat-of-arms-seals .card,
-.coat-of-arms-seals figure {
+.coat-of-arms-seals figure,
+.coat-of-arms-badge-gallery .card,
+.coat-of-arms-badge-gallery figure {
   height: 100%;
   margin: 0;
 }
 
 .coat-of-arms-gallery figure,
-.coat-of-arms-seals figure {
+.coat-of-arms-seals figure,
+.coat-of-arms-badge-gallery figure {
   display: flex;
   flex-direction: column;
   padding: 1rem;
@@ -284,14 +295,16 @@
 }
 
 .coat-of-arms-gallery .featured-img,
-.coat-of-arms-seals .featured-img {
+.coat-of-arms-seals .featured-img,
+.coat-of-arms-badge-gallery .featured-img {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: contain;
 }
 
 .coat-of-arms-gallery .images-caption,
-.coat-of-arms-seals .images-caption {
+.coat-of-arms-seals .images-caption,
+.coat-of-arms-badge-gallery .images-caption {
   margin-top: auto;
   padding-top: 0.75rem;
 }
@@ -369,7 +382,8 @@
   .coat-of-arms-facts,
   .coat-of-arms-directory-grid,
   .coat-of-arms-gallery,
-  .coat-of-arms-seals {
+  .coat-of-arms-seals,
+  .coat-of-arms-badge-gallery {
     grid-template-columns: 1fr;
   }
 

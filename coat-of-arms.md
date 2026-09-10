@@ -512,11 +512,6 @@ the Maltese authority.
 
 ### Scottish-Style Crest Badges {#scottish-crest-badge}
 
-{% include figure.html width="4" placement="right"
-image="armory/jhoward-crest-badge-member.svg" 
-cap="Scottish-style crest badge in strap-and-buckle form"
-alt="Scottish-style crest badge placing the martlet and motto within a strap and buckle" %}
-
 [Guidance from the Court of the Lord Lyon](https://www.courtofthelordlyon.scot/crests.htm)
 distinguishes several forms of Scottish crest display. A clan member may wear
 the chief's crest and motto inside a strap and buckle. A Scottish armiger whose
@@ -529,22 +524,12 @@ Register. The two pieces shown here are therefore Scottish-inspired adaptations,
 not evidence of Scottish armigerous status, entitlement to regulated Scottish
 insignia, or recognition by the Lord Lyon.
 
-{% include figure.html width="4" placement="right"
-image="armory/jhoward-crest-badge-armiger.svg"
-cap="Scottish-inspired armiger-style crest badge"
-alt="Scottish-inspired crest badge placing the martlet, motto, and one feather within a circlet" %}
-
 The strap-and-buckle version adapts the crest and motto to the visual form
 associated with Scottish clan badges. The feathered version explores the
 armiger-style convention. Both are preserved here as comparative personal
 designs rather than as regulated Scottish insignia.
 
 ### Irish Crest Badge {#irish-crest-badge}
-
-{% include figure.html width="4" placement="right"
-image="armory/jhoward-crest-badge-irish.svg" 
-cap="Crest in the form of an Irish crest badge" 
-alt="Crest in the form of an Irish crest badge" %}
 
 While Scottish heraldry developed the strap-and-buckle crest badge as a
 formalized declaration of clan loyalty, no such parallel ever existed in
@@ -565,6 +550,21 @@ crest badge is sometimes used as a modern para-heraldic emblem. I have included
 an Irish-style crest badge for my own arms, framed within a Claddagh, while
 recognizing that it is neither an official Irish heraldic category nor a form
 of legal recognition.
+
+<div class="coat-of-arms-badge-gallery">
+  {% include figure.html width="12"
+  image="armory/jhoward-crest-badge-member.svg"
+  cap="Scottish-style crest badge in strap-and-buckle form"
+  alt="Scottish-style crest badge placing the martlet and motto within a strap and buckle" %}
+  {% include figure.html width="12"
+  image="armory/jhoward-crest-badge-armiger.svg"
+  cap="Scottish-inspired armiger-style crest badge"
+  alt="Scottish-inspired crest badge placing the martlet, motto, and one feather within a circlet" %}
+  {% include figure.html width="12"
+  image="armory/jhoward-crest-badge-irish.svg"
+  cap="Irish-style crest badge in Claddagh form"
+  alt="Irish-style crest badge placing the martlet and motto within a Claddagh" %}
+</div>
 
 ### Standard {#standard}
 
