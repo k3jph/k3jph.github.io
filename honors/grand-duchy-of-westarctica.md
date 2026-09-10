@@ -15,7 +15,7 @@ redirect_from:
 
 <p class="westarctica-introduction">This is the documentary record of my peerages, orders, service, and program support in Westarctica. They are related, but they are not the same kind of thing.</p>
 
-<nav class="westarctica-toc" aria-label="On this page">
+<nav class="page-toc" aria-label="On this page">
   <a href="#my-westarctican-record">My Record</a>
   <a href="#peerages-and-titles">Peerages</a>
   <a href="#orders-and-honors">Orders</a>

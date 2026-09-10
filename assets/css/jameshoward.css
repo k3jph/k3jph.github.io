@@ -510,6 +510,80 @@ body {
   padding-top: 0;
 }
 
+/* Shared in-page table of contents for long-form reference pages. */
+.page-toc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.35rem 1.25rem;
+  margin: 0 auto 3.25rem;
+  padding: 0.85rem 1rem;
+  border-top: 1px solid #d8d0bf;
+  border-bottom: 1px solid #d8d0bf;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.84em;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+}
+
+.page-toc a {
+  color: #2457a4;
+}
+
+/*
+ * Formal documentary language: grants, translations, blazons, and other
+ * transcribed record text. Keep this opt-in so ordinary quotations retain
+ * the site's default blockquote treatment.
+ */
+.formal-text {
+  margin: 1.5rem 0;
+  padding: 1.5rem 1.75rem;
+  border: 1px solid #d8d0bf;
+  background: #faf9f6;
+}
+
+.formal-text > :first-child {
+  margin-top: 0;
+}
+
+.formal-text > :last-child {
+  margin-bottom: 0;
+}
+
+.formal-text h3,
+.formal-text h4 {
+  margin: 0 0 1rem;
+  color: #2e2c28;
+}
+
+.formal-text blockquote {
+  margin: 0;
+  padding: 0 0 0 1.4rem;
+  border-left: 3px solid #b69955;
+  color: #3f3b34;
+  font-family: "Spectral", Georgia, serif;
+  font-size: 1.05em;
+  line-height: 1.65;
+}
+
+.formal-text blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.formal-text-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.formal-text-grid .formal-text {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /*
  * Give keyboard users a consistent, high-contrast focus indicator across
  * light and dark sections. The gold inner ring and blue outer ring remain
@@ -603,6 +677,19 @@ body {
   html,
   body {
     overflow-x: clip;
+  }
+
+  .page-toc {
+    justify-content: flex-start;
+    margin-bottom: 2.5rem;
+  }
+
+  .formal-text {
+    padding: 1.25rem;
+  }
+
+  .formal-text-grid {
+    grid-template-columns: 1fr;
   }
 
   .home-mobile-hero__arms img {
