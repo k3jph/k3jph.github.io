@@ -1,7 +1,5 @@
 /* Westarctica: documentary personal record */
 .westarctica-introduction { color:#635e53; font-family:"Spectral",Georgia,serif; line-height:1.6; margin:0 0 1.75rem; text-align:center; }
-.westarctica-toc { border-bottom:1px solid #d8d0bf; border-top:1px solid #d8d0bf; display:flex; flex-wrap:wrap; font-family:Lato,sans-serif; font-size:.84em; font-weight:700; gap:.35rem 1.25rem; justify-content:center; letter-spacing:.025em; margin:0 auto 3.25rem; padding:.85rem 1rem; text-transform:uppercase; }
-.westarctica-toc a { color:#2457a4; }
 .westarctica-summary,.westarctica-orders { background:#283f5c; color:#fff; margin-left:calc(50% - 50vw); margin-right:calc(50% - 50vw); padding:3.5rem 0; }
 .westarctica-summary { margin-bottom:4.25rem; }
 .westarctica-summary .title-area,.westarctica-orders .title-area { margin:0 auto; padding:0; }
@@ -35,5 +33,5 @@
 .westarctica-record > ul { padding-left:1.35rem; }
 .westarctica-record > ul li { line-height:1.55; margin-bottom:.85rem; }
 @media (max-width:991px) { .westarctica-card-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
-@media (max-width:767px) { .westarctica-introduction { text-align:left; } .westarctica-toc { justify-content:flex-start; margin-bottom:2.5rem; } .westarctica-summary,.westarctica-orders { padding-bottom:2.75rem; padding-top:2.75rem; } .westarctica-summary { margin-bottom:3rem; } .westarctica-record > .title-area { margin-top:3.25rem; } .westarctica-order-documents { display:block; } }
+@media (max-width:767px) { .westarctica-introduction { text-align:left; } .westarctica-summary,.westarctica-orders { padding-bottom:2.75rem; padding-top:2.75rem; } .westarctica-summary { margin-bottom:3rem; } .westarctica-record > .title-area { margin-top:3.25rem; } .westarctica-order-documents { display:block; } }
 @media (max-width:600px) { .westarctica-card-grid { grid-template-columns:1fr; } .westarctica-card { padding:1.25rem; } .westarctica-document { margin-bottom:2.5rem; margin-top:1.5rem; } }

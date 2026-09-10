@@ -7,24 +7,6 @@
   text-align: center;
 }
 
-.star-oceania-toc {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: .35rem 1.25rem;
-  margin: 0 auto 3.25rem;
-  padding: .85rem 1rem;
-  border-top: 1px solid #d8d0bf;
-  border-bottom: 1px solid #d8d0bf;
-  font-family: Lato, sans-serif;
-  font-size: .84em;
-  font-weight: 700;
-  letter-spacing: .025em;
-  text-transform: uppercase;
-}
-
-.star-oceania-toc a { color: #2457a4; }
-
 .star-oceania-appointment {
   margin: 0 calc(50% - 50vw) 4rem;
   padding: 3.5rem 0;
@@ -100,7 +82,6 @@
 
 @media (max-width: 767px) {
   .star-oceania-introduction { text-align: left; }
-  .star-oceania-toc { justify-content: flex-start; margin-bottom: 2.5rem; }
   .star-oceania-appointment { margin-bottom: 3rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
   .star-oceania-appointment .row { display: block; margin: 1.75rem auto; }
   .star-oceania-appointment .col-md-6 { margin-bottom: 1.75rem; }

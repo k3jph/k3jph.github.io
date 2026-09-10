@@ -13,7 +13,7 @@ featured_image: /assets/img/honors.webp
 
 <p class="golden-honor-introduction">I became interested in the Golden Bee because Jean-Eudes Pierra had chosen an admirably specific research problem: heraldic bees. Not bee symbolism in the abstract, but the patient work of finding the arms, recording them, and making the evidence usable. The fellowship came afterward.</p>
 
-<nav class="golden-honor-toc" aria-label="On this page">
+<nav class="page-toc" aria-label="On this page">
   <a href="#why-the-bee">Why the Bee?</a>
   <a href="#armorial">Armorial</a>
   <a href="#fellowship">Fellowship</a>

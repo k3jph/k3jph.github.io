@@ -13,7 +13,7 @@ featured_image: /assets/img/honors.webp
 
 <p class="golden-honor-introduction">I encountered the Order of the Golden Owl and wanted to know what a twenty-first-century private chivalric fraternity looked like from the inside. There was a remarkably direct way to answer that question. So I did it.</p>
 
-<nav class="golden-honor-toc" aria-label="On this page">
+<nav class="page-toc" aria-label="On this page">
   <a href="#what-is-it">What Is It?</a>
   <a href="#squire-academy">Squire Academy</a>
   <a href="#knight">Knight</a>

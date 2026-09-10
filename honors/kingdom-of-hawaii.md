@@ -23,7 +23,7 @@ credits: >-
 
 <p class="star-oceania-introduction">A contemporary appointment in an order whose nineteenth-century history is documented separately below. The record is strongest when those two things are not blurred together.</p>
 
-<nav class="star-oceania-toc" aria-label="On this page">
+<nav class="page-toc" aria-label="On this page">
   <a href="#my-appointment">My Appointment</a>
   <a href="#historical-order">Historical Order</a>
   <a href="#pacific-confederation">Pacific Confederation</a>

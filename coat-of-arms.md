@@ -43,24 +43,15 @@ redirect_from:
 
 </section>
 
-<section class="coat-of-arms-directory">
-  <div class="container">
-    <div class="title-area">
-      <h2 id="contents">Explore the Arms</h2>
-      <div class="separator separator-warning"><img src="{{ '/assets/img/identity/kamon-warning.svg' | relative_url }}" height="35" alt="" /></div>
-      <p class="description">The complete record is arranged as seven related rooms.</p>
-    </div>
-    <nav class="coat-of-arms-directory-grid" aria-label="Coat of Arms page sections">
-      <a href="#heraldry-context"><strong>Heraldry</strong><span>Origins, practice, and Maltese context</span></a>
-      <a href="#the-grant"><strong>The Grant</strong><span>Letters Patent, authority, and the formal record</span></a>
-      <a href="#the-arms"><strong>The Arms</strong><span>Blazon, design origins, and motto</span></a>
-      <a href="#emblazonments"><strong>Emblazonments</strong><span>Different artists, one blazon</span></a>
-      <a href="#insignia"><strong>Derived Devices</strong><span>Crest, banner, seal, badges, and flags</span></a>
-      <a href="#tartan"><strong>Tartan</strong><span>The woven extension of the heraldic palette</span></a>
-      <a href="#other-records"><strong>Other Records</strong><span>Later records and registrations by other bodies</span></a>
-    </nav>
-  </div>
-</section>
+<nav id="contents" class="page-toc" aria-label="On this page">
+  <a href="#heraldry-context">Heraldry</a>
+  <a href="#the-grant">The Grant</a>
+  <a href="#the-arms">The Arms</a>
+  <a href="#emblazonments">Emblazonments</a>
+  <a href="#insignia">Derived Devices</a>
+  <a href="#tartan">Tartan</a>
+  <a href="#other-records">Other Records</a>
+</nav>
 
 <section class="coat-of-arms-section" aria-labelledby="heraldry-context" markdown="1">
 

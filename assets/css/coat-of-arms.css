@@ -3,7 +3,7 @@
 }
 
 .coat-of-arms-overview {
-  margin: 0 0 4rem;
+  margin: 0 0 2rem;
 }
 
 .coat-of-arms-overview-grid {
@@ -111,7 +111,6 @@
   font-size: 0.9em;
 }
 
-.coat-of-arms-directory,
 .coat-of-arms-band {
   width: auto;
   margin-right: 0;
@@ -119,84 +118,16 @@
   clip-path: inset(0 -100vmax);
 }
 
-.coat-of-arms-directory > .container,
 .coat-of-arms-band > .container {
   width: 100%;
   padding-right: 0;
   padding-left: 0;
 }
 
-.coat-of-arms-directory {
-  margin-bottom: 4rem;
-  padding: 4rem 0;
-  background: #2b3c52;
-  box-shadow: 0 0 0 100vmax #2b3c52;
-  color: #fff;
-}
-
-.coat-of-arms-directory .title-area,
 .coat-of-arms-section .title-area,
 .coat-of-arms-band .title-area {
   margin-bottom: 2.5rem;
   padding: 0;
-}
-
-.coat-of-arms-directory .title-area h2 {
-  color: #fff;
-}
-
-.coat-of-arms-directory .title-area .description {
-  color: #feefa8;
-  font-family: "Spectral", Georgia, serif;
-  line-height: 1.55;
-}
-
-.coat-of-arms-directory .separator,
-.coat-of-arms-directory .separator::before,
-.coat-of-arms-directory .separator::after {
-  color: #feefa8;
-  border-color: #feefa8;
-}
-
-.coat-of-arms-directory-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 20px;
-}
-
-.coat-of-arms-directory-grid a {
-  display: block;
-  min-height: 100%;
-  padding: 1.35rem 1.45rem;
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  background: rgba(16, 28, 44, 0.2);
-  color: #fff;
-  text-decoration: none;
-}
-
-.coat-of-arms-directory-grid a:hover,
-.coat-of-arms-directory-grid a:focus {
-  border-color: #feefa8;
-  color: #fff;
-}
-
-.coat-of-arms-directory-grid strong,
-.coat-of-arms-directory-grid span {
-  display: block;
-}
-
-.coat-of-arms-directory-grid strong {
-  color: #feefa8;
-  font-family: "Cinzel", Georgia, serif;
-  font-size: 1.12em;
-  line-height: 1.25;
-}
-
-.coat-of-arms-directory-grid span {
-  margin-top: 0.45rem;
-  font-family: "Spectral", Georgia, serif;
-  font-weight: 400;
-  line-height: 1.48;
 }
 
 .coat-of-arms-section,
@@ -329,17 +260,12 @@
     gap: 28px;
   }
 
-  .coat-of-arms-directory-grid,
   .coat-of-arms-gallery {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 767px) {
-  .coat-of-arms-overview {
-    margin-bottom: 3rem;
-  }
-
   .coat-of-arms-overview-grid {
     grid-template-columns: 1fr;
   }
@@ -353,7 +279,6 @@
     padding: 1.4rem;
   }
 
-  .coat-of-arms-directory,
   .coat-of-arms-section,
   .coat-of-arms-band {
     margin-bottom: 3rem;
@@ -378,14 +303,9 @@
 
 @media (max-width: 600px) {
   .coat-of-arms-facts,
-  .coat-of-arms-directory-grid,
   .coat-of-arms-gallery,
   .coat-of-arms-seals,
   .coat-of-arms-badge-gallery {
     grid-template-columns: 1fr;
-  }
-
-  .coat-of-arms-directory-grid a {
-    padding: 1.15rem 1.25rem;
   }
 }
