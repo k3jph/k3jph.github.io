@@ -48,15 +48,16 @@ redirect_from:
     <div class="title-area">
       <h2 id="contents">Explore the Arms</h2>
       <div class="separator separator-warning"><img src="{{ '/assets/img/identity/kamon-warning.svg' | relative_url }}" height="35" alt="" /></div>
-      <p class="description">The complete record is arranged as six related rooms.</p>
+      <p class="description">The complete record is arranged as seven related rooms.</p>
     </div>
     <nav class="coat-of-arms-directory-grid" aria-label="Coat of Arms page sections">
       <a href="#heraldry-context"><strong>Heraldry</strong><span>Origins, practice, and Maltese context</span></a>
       <a href="#the-grant"><strong>The Grant</strong><span>Letters Patent, authority, and the formal record</span></a>
-      <a href="#the-arms"><strong>The Arms</strong><span>Blazon, design, symbolism, and motto</span></a>
+      <a href="#the-arms"><strong>The Arms</strong><span>Blazon, design origins, and motto</span></a>
       <a href="#emblazonments"><strong>Emblazonments</strong><span>Different artists, one blazon</span></a>
-      <a href="#insignia"><strong>Insignia</strong><span>Crest, banner, seal, badges, and flags</span></a>
+      <a href="#insignia"><strong>Derived Devices</strong><span>Crest, banner, seal, badges, and flags</span></a>
       <a href="#tartan"><strong>Tartan</strong><span>The woven extension of the heraldic palette</span></a>
+      <a href="#other-records"><strong>Other Records</strong><span>Later records and registrations by other bodies</span></a>
     </nav>
   </div>
 </section>
@@ -86,12 +87,13 @@ Coats of arms became symbols of identity, status, and continuity. They were
 granted to the aristocracy and later to notable figures seeking distinctive
 forms of identification in a largely illiterate society.
 
-In the modern era, heraldry has transcended its martial origins and now
-functions primarily as a symbol of prestige, heritage, and legal identity. While
-some may adopt self-styled arms, proper recognition requires authorization by a
-competent heraldic authority acting under a mandate of the state. This preserves
-heraldry as a disciplined and legitimate tradition grounded in continuity and
-law.
+In the modern era, heraldry has transcended its martial origins and now serves
+as a form of personal, familial, civic, and institutional identity. Its status
+varies by jurisdiction. Some countries maintain public heraldic authorities
+that grant or regulate arms; in others, including the United States, original
+arms may be assumed under customary practice; and elsewhere heraldry operates
+principally through custom and private record. The Maltese grant described on
+this page belongs to the first category.
 
 </section>
 
@@ -108,7 +110,8 @@ law.
   <a href="#heraldry-in-malta">Maltese context</a>
   <a href="#my-grant-of-arms">My grant</a>
   <a href="#letters-patent">Letters Patent</a>
-  <a href="#additional-registrations">Additional registrations</a>
+  <a href="#gazette-notice">Gazette notice</a>
+  <a href="#bound-letters-patent">Bound copy</a>
 </nav>
 
 ### Heraldry in Malta {#heraldry-in-malta}
@@ -127,28 +130,32 @@ For many years, heraldic emblems developed locally without centralized
 oversight. This changed with the establishment of the [Office of the Chief
 Herald of Arms of Malta](https://maltaheraldry.mt/) at Fort St Elmo in Valletta.
 The appointment of [Count Charles Gauci](https://maltaheraldry.mt/about-us/) as
-the inaugural Chief Herald of Arms in 2019 marked the beginning of a formalized
-and state-recognized heraldic authority.
+the inaugural Chief Herald of Arms in 2019 marked the beginning of the
+centralized office.
 
-Under the authority of the Chief Herald of Arms of Malta, newly granted or
-registered arms receive official recognition by the State. The office regulates
-personal and corporate heraldic symbols, grants new arms, registers established
-arms, and acknowledges arms granted by recognized foreign authorities.
+[Heritage Malta describes the
+Office](https://heritagemalta.mt/subsidiaries/heraldry/) as the body that
+regulates new heraldic emblems in Malta, devises and grants personal and
+corporate arms, and registers arms already used locally or granted by
+appropriate foreign authorities. That formal Maltese framework controls the
+status of G0102; it is not presented here as a universal model for every
+heraldic jurisdiction.
 
 ### My Grant of Arms {#my-grant-of-arms}
 
 I received a grant of arms from the Office of the Chief Herald of Arms of Malta,
 formalized through Letters Patent numbered G0102, issued on May 1, 2024. The
-formal notice of this grant was published in the _Gazzetta tal-Gvern ta' Malta_,
-the official gazette of the Government of Malta, in issue number 21,194 on
-February 16, 2024. This publication serves as the official public record of the
-grant.
+Letters Patent grant the shield, the helm and mantling, the martlet crest upon
+its wreath, and the motto upon an escroll. They authorize the arms to be borne
+in shield or banner or otherwise by me and my descendants, with due and proper
+differences, and record the bearings in the Archives of the Office under
+G0102/2024.
 
-This coat of arms, now officially recorded and recognized, joins the broader
-heraldic corpus of Malta. It stands as a lawful instrument of identity and
-distinction, intended to endure as part of my family’s heraldic legacy.
+The banner rendering and the other devices shown later on this page were
+developed from the arms after the grant. They should not be confused with the
+elements expressly granted in the Letters Patent.
 
-<span id="letters-patent" class="coat-of-arms-fragment-target" aria-hidden="true"></span>
+### Letters Patent {#letters-patent}
 
 {% include figure.html image="/2024/a-maltese-grant-of-arms.webp" width="12" border=true
 cap="Letters patent for the coat of arms" 
@@ -156,12 +163,23 @@ alt="Letters patent for the coat of arms" %}
 
 Or you may [download the PDF here](/assets/docs/jhoward-malta-letters-patent.pdf).
 
-### Additional Registrations {#additional-registrations}
+### Gazette Notice {#gazette-notice}
 
-While the coat of arms is formally granted by the Chief Herald of Arms of Malta,
-additional recognitions help reinforce its presence and legitimacy across
-heraldic jurisdictions. These registrations reflect the broader armorial
-ecosystem in which heraldry operates today.
+The earlier publication in the _Gazzetta tal-Gvern ta' Malta_ was not notice of
+an already completed grant. Notice No. 231 in issue 21,194, dated February 16,
+2024, states that the listed persons had applied for the provision or
+registration of heraldic arms. Issued under article 9(2) of the Heraldry and
+Genealogy Regulations 2021 (S.L. 445.07), it opened a 21-day period for valid
+and cogent representations for or against the application. The documentary
+sequence was therefore: publication of the application, the period for
+representations, and then the issue of Letters Patent G0102 on May 1, 2024.
+
+The notice is available in the [official Government Gazette
+repository](https://www.gov.mt/en/Government/DOI/Government%20Gazette/Pages/Government-Gazzette-Repository.aspx)
+and in this site's [archived copy of the complete February 16, 2024
+issue](/assets/docs/malta-government-gazette-20240216.pdf).
+
+### Bound Letters Patent {#bound-letters-patent}
 
 {% include figure.html width="4" border=true placement="right"
 image="/armory/jhoward-malta-letters-patent-binder.webp"
@@ -169,157 +187,13 @@ link="/assets/docs/jhoward-malta-letters-patent-binder.pdf"
 cap="Cover for letters patent in binder format"
 alt="Cover for letters patent in binder format" %}
 
-#### Duplicate Grant (Alternative Format) {#duplicate-grant-alternative-format}
-
-The Chief Herald of Malta also issued a second version of the grant in an
-alternative physical format. While the original is a large-format, A2-sized
-sheet suitable for framing and ceremonial display, the alternate version is
-presented as a series of standard A4 pages, formally bound in a presentation
-binder. This version is heraldically identical in content, containing the same
-blazon, legal language, and official certification, but differs in its physical
-layout, typography, and purpose. The multi-page format lends itself to archival
-storage, practical handling, and reference consultation, rather than ornamental
-display.
-
-This dual-format approach reflects the hybrid character of the Maltese heraldic
-office. As a relatively recent institution within a civil law jurisdiction, the
-Chief Herald of Malta combines symbolic functions inherited from British and
-European heraldic traditions with modern documentary practices more typical of
-notarial or governmental registries. Issuing both a display grant and a
-documentary edition allows for continuity with ceremonial expectations while
-ensuring the grant serves its administrative and legal roles within the state's
-framework.
-
-Comparable systems exist elsewhere, Scotland's Court of the Lord Lyon issues
-both Letters Patent and entries in the Public Register, and the Canadian
-Heraldic Authority often separates artistic rendering from the text of the
-instrument, but Malta's solution is distinctive for integrating both functions
-under one authority with two physically distinct outputs. This reflects an
-appreciation for both the performative and practical roles heraldry plays in a
-modern civic context.
+The Office also supplied a bound A4 presentation of the same Letters Patent.
+It contains the same petition, grant, blazon, motto, signatures, and archive
+registration as the single-sheet A2 instrument, rearranged across nine pages
+for handling and reference. It is an alternative documentary presentation of
+G0102, not a second grant or another registration.
 
 You may [download the PDF here](/assets/docs/jhoward-malta-letters-patent-binder.pdf).
-
-{% include figure.html width="4" border=true placement="right"
-image="/armory/jhoward-american-armigers-registration.webp"
-link="/assets/docs/jhoward-american-armigers-registration.pdf"
-cap="American Armigers registration certificate AA0183"
-alt="American Armigers registration certificate AA0183" %}
-
-#### American Armigers {#american-armigers}
-
-The arms have also been formally recorded by the [American Armigers
-Register](https://americanarmigers.us/), a private society dedicated to
-recognizing and documenting legitimate armorial bearings used by individuals in
-the United States. The Register provides a public-facing directory of American
-armigers, affirming their heraldic identity within a domestic cultural context.
-It does not confer arms, but rather acknowledges existing rights to arms by
-grant, matriculation, or longstanding use, and promotes responsible heraldic
-practice in the American tradition.
-
-The record for James P. Howard, II includes the arms granted by the Chief Herald
-of Arms of Malta, preserving the blazon in English heraldic terminology and
-listing the crest and motto as well. The motto, _Ir-rieda biss tmexxi l-qalb_
-(“Only the will moves the heart”), appears in both the original Maltese and in
-spirit with the rest of the armorial arrangement.
-
-The certificate, issued under Registration Number AA0183 and dated 20 June
-2025, is available below.
-
-You may [download the PDF
-here](/assets/docs/jhoward-american-armigers-registration.pdf).
-
-#### Heraldry of the World {#heraldry-of-the-world}
-
-In addition to formal grant and domestic registration, the arms have also been
-recorded in the [Heraldry of the
-World](https://www.heraldry-wiki.com/wiki/James_Patrick_Howard_II), a widely
-used international reference for civic and personal heraldry. While this listing
-is not a legal registration, it contributes to public visibility and ensures
-that the arms are catalogued in a respected heraldic directory alongside
-municipal, ecclesiastical, and institutional arms from across the globe. No
-certificate is issued for this type of entry, but the listing is maintained and
-accessible as part of the site’s extensive global database.
-
-#### NEHGS Committee on Heraldry {#nehgs-committee-on-heraldry}
-
-{% include figure.html width="4" border=true placement="right"
-image="/armory/jhoward-nehgs-coh-letter.webp"
-link="/assets/docs/jhoward-nehgs-coh-letter.pdf"
-cap="Registration letter from the NEHGS Committee on Heraldry"
-alt="Registration letter from the NEHGS Committee on Heraldry" %}
-
-The arms have also been formally recorded by the [Committee on Heraldry
-of the New England Historic Genealogical
-Society](https://www.americanancestors.org/committee-heraldry), the
-oldest heraldic body in the United States. At its regular meeting of 28
-October 2025, the Committee accepted the arms granted by the Chief
-Herald of Malta for record in its official registry. This record
-preserves the arms in the Committee's distinctive style, which has been
-in continuous use for over a century. The Committee's blazoning practice
-reflects a streamlined, Americanized approach to heraldic description:
-it uses plain English terminology where possible (e.g., _silver_ instead
-of _argent_), prefers straightforward geometric phrasing over florid or
-continental language, and typically omits external elements such as
-mantling, mottoes, or helm unless historically attested. The blazon as
-entered reads:
-
-<div class="formal-text" markdown="1">
-
-> Silver a tetrahedron azure pierced by a sword bendwise gold, hilt and
-> pommel azure. Crest--A martlet sable.
-
-</div>
-
-This stylistic simplicity supports the Committee's focus on clarity,
-documentation, and historical legitimacy. The registration confirms the
-armorial bearings as part of the permanent record of arms used in the
-United States. The entry will be published in the Committee's 2025
-annual report. No certificate is issued for this type of registration,
-but the record is maintained by the Committee and publicly accessible
-via the NEHGS archives.
-
-You may [download the PDF
-here](/assets/docs/jhoward-nehgs-coh-letter.pdf).
-
-#### American College of Heraldry {#american-college-of-heraldry}
-
-{% include figure.html width="5" border=true placement="right"
-image="/armory/jhoward-ach-registration.webp"
-link="/assets/docs/jhoward-ach-registration.pdf"
-cap="Registration certificate from the American College of Heraldry"
-alt="Registration certificate from the American College of Heraldry" %}
-
-The arms have also been formally registered by the [American College of
-Heraldry](https://americancollegeofheraldry.org/).  The College issued an
-Armorial Registration certificate under number 4855, signed by its Executive
-Director, David Robert Wooten, dated 10 February 2026.  The registration records
-the arms as granted by the Chief Herald of Arms of Malta on 1 May 2024, and
-confirms the arms and crest for use by me and by my descendants, with due and
-proper differences according to heraldic tradition.
-
-The College's presentation style is deliberately "letters patent" in feel, a
-full illuminated certificate with the arms displayed alongside institutional
-seals and the signatures of the issuing authority. Unlike registries that focus
-on compact blazons and archival minimalism, this format makes the registration
-itself the artifact. It preserves not only the blazon, but also the intended
-visual composition of the achievement as presented at the time of record.
-
-The blazon as entered reads:
-
-<div class="formal-text" markdown="1">
-
-> Argent a triangle Azure charged with a fillet pall inverted Argent pierced
-> in bend by a sword Or with pommel and hilt of the second. Crest--A martlet
-> close Sable.
-
-</div>
-
-You may [download the PDF
-here](/assets/docs/jhoward-ach-registration.pdf).
-
-
-*Additional registrations will be added as they are approved.*
 
 </div>
 </section>
@@ -329,7 +203,7 @@ here](/assets/docs/jhoward-ach-registration.pdf).
 <div class="title-area">
   <h2 id="the-arms">The Arms</h2>
   <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
-  <p class="description">The formal blazon, its design and symbolism, and the motto.</p>
+  <p class="description">The controlling blazon, the design's personal origins, and the motto.</p>
 </div>
 
 ### Blazon {#blazon}
@@ -358,26 +232,25 @@ technical precision.
   </div>
 </div>
 
-### Design and Symbolism {#design-and-symbolism}
+### Design Origins {#design-and-symbolism}
 
-The argent field establishes clarity and sincerity. The tetrahedron Azure
-reflects geometry, structure, and intellectual architecture. Piercing it in bend
-is a sword Or, inspired in part by the civic seal of Cincinnati, linking
-personal heraldry to geographic heritage. The Arthurian resonance of the sword
-reinforces themes of legitimacy and responsibility.
+Three central design elements have specific personal origins. The tetrahedron
+represents my career as a mathematician. The sword is drawn from the seal of the
+City of Cincinnati. The martlet is an allusion to a legendary descent from
+Thomas Arundell of Wardour, whose arms were _Sable, six martlets Argent_. The
+Letters Patent themselves carefully describe that descent as alleged but not
+firmly proven; the martlet is an allusion to the tradition, not evidence that
+establishes it.
 
-The crest features a martlet sable. Suggested by Count Gauci, the martlet
-recalls traditional heraldic symbolism associated with aspiration and ceaseless
-endeavor. Traditionally depicted without feet, the martlet symbolizes continuous
-striving and disciplined pursuit. Whether viewed as a nod to potential
-historical connections or simply as a heraldic emblem of intellectual ambition,
-it expresses constancy and purposeful motion.
+I do not assign a separate symbolic program to the tinctures. I chose the
+silver, blue, gold, and black color scheme because I liked it.
 
 ### Motto {#motto}
 
-For a motto, I chose "_Ir-rieda biss tmexxi l-qalb_," Maltese for "Only the will
-leads the heart." The phrase emphasizes discipline over impulse and resolve over
-sentiment, underscoring the guiding principle behind the arms.
+For a motto, I chose "_Ir-rieda biss tmexxi l-qalb_," rendered here consistently
+as "Only the will leads the heart." The phrase emphasizes discipline over
+impulse and resolve over sentiment, underscoring the guiding principle behind
+the arms.
 
 Count Gauci remarked that this was the first Maltese-language motto he had
 encountered during his term of office.
@@ -467,9 +340,9 @@ alt="Interpreted by Dimitri Prica" %}
 <div class="container" markdown="1">
 
 <div class="title-area">
-  <h2 id="insignia">Flags, Badges, and Related Insignia</h2>
+  <h2 id="insignia">Derived Devices and Insignia</h2>
   <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
-  <p class="description">The related devices that extend the arms into other forms.</p>
+  <p class="description">Later devices developed from the granted arms.</p>
 </div>
 
 <nav class="coat-of-arms-local-nav" aria-label="Insignia sections">
@@ -482,18 +355,12 @@ alt="Interpreted by Dimitri Prica" %}
   <a href="#cockade">Cockade</a>
 </nav>
 
-Together, the crest, seal, badge, and livery flag form a complete set of
-external insignia associated with my armorial bearings. Each serves a
-distinct purpose within the broader heraldic tradition: the crest,
-placed atop the helm, completes the full achievement; the seal adapts the
-shield, crest, name, and motto to a circular documentary device; the badges
-condense elements of the arms into separate personal emblems; and the flag, a
-vertical tricolor of gold, blue, and white, displays the livery colors in a
-form suited for public and ceremonial use. Though governed by differing
-conventions—Scottish, English, Maltese, and beyond—these elements share a
-unifying function:
-to express, in various media and degrees of formality, the continuity
-and presence of heraldic identity.
+The martlet crest is part of the formal grant and is repeated here because it
+can also be displayed on its own. The Letters Patent permit the arms to be
+borne in banner form, although the specific banner artwork shown below was
+prepared later. The seal, badges, standard, kamon, livery flag, and cockade are
+later personal designs derived from or associated with the arms. None was
+separately granted by the Maltese authority.
 
 ### Crest {#crest}
 
@@ -501,12 +368,10 @@ and presence of heraldic identity.
 placement="right" cap="Crest in the Fairbairn-style by [Quentin Peacock](https://www.digitalheraldry.com/)"
 alt="Crest in the Fairbairn-style by Quentin Peacock" %}
 
-The crest occupies its traditional position atop the helm in the full armorial
-achievement and serves as a complementary emblem of personal identity. In this
-case, it is a martlet Sable, rendered footless, in flight, and facing dexter, set
-upon a wreath of the livery colors. Unlike the shield, which often functions
-independently in banners or seals, the crest is more intimate in scale and
-symbolic depth, used most often in formal armorial contexts or engraved devices.
+The Letters Patent expressly grant a martlet Sable upon a wreath of the livery
+colors as the crest. The martlet alludes to the legendary descent from Thomas
+Arundell of Wardour described above; the grant itself notes that the descent is
+alleged but not firmly proven.
 
 The design shown here was drawn by [Quentin
 Peacock](https://www.digitalheraldry.com/) and follows the stylistic conventions
@@ -523,11 +388,8 @@ martlet appears as a clean black silhouette on a simple torse, a deliberate
 homage to Fairbairn's aesthetic and its influence on modern armorial
 presentation.
 
-In that spirit of familiarity, the martlet has also been given a name: Eckbert.
-This bit of informal personification arose during the design process between
-Quentin and myself, and while not heraldically required, it reflects the
-personal dimension that crests often hold. They are not just visual identifiers,
-but symbolic avatars, distillations of lineage, values, and character.
+During the design process, Quentin and I informally named the martlet Eckbert.
+That nickname is personal and is not part of the blazon.
 
 The blazon of the crest reads:
 
@@ -537,18 +399,8 @@ The blazon of the crest reads:
 
 </div>
 
-Though spare, this is a classically structured English blazon. The martlet, long
-associated with tireless pursuit, intellectual restlessness, and the role of the
-younger son, is rendered here in black to signify constancy, wisdom, and
-measured reserve. The torse, bearing azure and or (blue and gold), links the
-crest visually and symbolically to the shield, ensuring that the entire
-achievement reads as a coherent whole.
-
-In contemporary use, the crest may appear above the arms on letterheads,
-documents, and regalia, or on its own when the context calls for a simplified
-emblem. In such settings, Eckbert, the sable martlet, serves not only as a visual
-anchor, but as a quiet representative of the ideals behind the arms: learning,
-discipline, and a certain restless precision.
+The torse repeats the blue and gold liveries. The crest may appear with the full
+achievement or on its own when a compact personal emblem is useful.
 
 ### Banner {#banner}
 
@@ -556,14 +408,9 @@ discipline, and a certain restless precision.
 placement="right" cap="Heraldic banner adapted from the arms"
 alt="Heraldic banner adapted from the arms" %}
 
-The heraldic banner is a square flag displaying the shield alone, rendered at
-full size and in proper proportions. Unlike a standard, which includes multiple
-armorial components and a tapering shape, the banner reproduces only the
-escutcheon. This makes it the most literal and direct translation of the arms
-into flag form, following longstanding heraldic convention. The banner is
-typically used in static and ceremonial settings, such as processions,
-investitures, academic convocations, or indoor displays, where the design can be
-seen clearly and appreciated up close.
+The heraldic banner is a square flag displaying the shield alone. Unlike a
+standard, which combines several armorial components in a longer format, the
+banner reproduces only the escutcheon.
 
 The blazon of the banner is:
 
@@ -573,19 +420,11 @@ The blazon of the banner is:
 
 </div>
 
-This format omits helm, crest, mantling, and motto, in keeping with the
-convention that banners reflect only the contents of the shield. By excluding
-all external additaments, the banner places visual and symbolic emphasis on the
-core of the armorial identity. In my case, this includes the mathematical symbol
-of the tetrahedron and the golden sword inspired by the civic seal of
-Cincinnati, elements that signify structure, intellect, and heritage.
-
-The banner's square proportions (1:1) also distinguish it from other heraldic
-flags, such as standards or guidons. It is not meant to be flown from a pole in
-the open air, but rather presented in still environments, hung vertically from a
-balcony, mounted on a wall, or carried in procession. This controlled setting
-allows for a more intimate viewing of the arms and supports their use as a
-formal emblem of identity.
+This format omits the helm, crest, mantling, and motto. The Letters Patent
+expressly allow the arms to be borne in banner form; this particular square
+rendering was prepared after the grant and was not separately granted. Its 1:1
+proportions distinguish it from the longer standard and from the gold, blue,
+and white livery flag shown below.
 
 ### Seal {#seal}
 
@@ -620,6 +459,7 @@ impression or reproduction on documents. These additional commissioned
 renderings are by [Quentin Peacock](https://www.digitalheraldry.com/), a
 professional digital heraldic artist and Craft Member of the Society of
 Heraldic Arts whose work also includes the Fairbairn-style crest shown above.
+The seal is a later personal design and is not part of Letters Patent G0102.
 
 <span id="badge" class="coat-of-arms-fragment-target" aria-hidden="true"></span>
 
@@ -636,12 +476,8 @@ the tradition of English armory, where personal devices were historically used
 for identification in less formal or non-armorial contexts, appearing on
 retainers' clothing, seals, standards, household plate, and architecture.
 
-The primary badge features the martlet from the crest placed in front of a
-vertically oriented sword inverted, drawn directly from the shield. This
-combination merges the symbolic meanings of the arms: the sword represents
-resolve and order; the martlet, constant inquiry and pursuit. In uniting them,
-the badge becomes a singular emblem of philosophical direction under principled
-discipline.
+The primary badge places the martlet from the crest before an inverted sword
+drawn from the shield.
 
 The blazon of the primary badge is:
 
@@ -651,17 +487,11 @@ The blazon of the primary badge is:
 
 </div>
 
-This badge was adopted following the grant of arms issued by the Chief Herald of
-Arms of Malta and remains heraldically consistent with the granted design,
-though not part of the Letters Patent itself. It follows English custom in that
-badges may be assumed or developed alongside armorial bearings, especially when
-drawn exclusively from components already granted.
+This badge was adopted after the Maltese grant. It is derived from granted
+components but is not itself included in the Letters Patent.
 
-The secondary badge features a blue tetrahedron, the central geometric figure
-from the shield, surmounted by two golden swords in saltire. This design is more
-assertive and structured, and lends itself well to institutional, martial, or
-ceremonial uses. Where the first badge emphasizes symbolic integration, this
-variant focuses on balance and strength.
+The secondary badge places the blue tetrahedron from the shield beneath two
+golden swords in saltire.
 
 {% include figure.html placement="right" width=4
 image="armory/jhoward-heraldic-badge-crossed-swords.svg"
@@ -676,84 +506,38 @@ The blazon of the secondary badge is:
 
 </div>
 
-Both badges are designed for flexibility and visual clarity. They may be used in
-various heraldic and para-heraldic settings: engraved objects, wax seals,
-digital avatars, or rendered in precious metal for regalia. Though unofficial in
-the legal sense, their derivation from the armorial bearings and adherence to
-heraldic norms establish their legitimacy as extensions of the granted arms.
+Both badges are later personal devices. They may be used in heraldic or
+para-heraldic settings, but neither was independently granted or registered by
+the Maltese authority.
 
-### Scottish Crest Badge {#scottish-crest-badge}
+### Scottish-Style Crest Badges {#scottish-crest-badge}
 
 {% include figure.html width="4" placement="right"
 image="armory/jhoward-crest-badge-member.svg" 
-cap="Crest in the form of a crest badge" 
-alt="Crest in the form of a crest badge" %}
+cap="Scottish-style crest badge in strap-and-buckle form"
+alt="Scottish-style crest badge placing the martlet and motto within a strap and buckle" %}
 
-The Scottish crest badge, traditionally worn as a cap badge,
-incorporates elements from my personal crest within a strap and buckle
-design, an emblematic format that communicates loyalty and fidelity.
-This design is not merely decorative; it is steeped in the legal and
-symbolic framework of Scottish heraldry. In its classic form, the
-strap-and-buckle encircles the crest of a clan chief and bears the
-chief's motto, signifying allegiance from the wearer to that chief. In
-more recent times, armigers, those granted arms in their own right, have
-adapted this form to display their own crests, thereby signifying
-personal armigerous status and independent heraldic authority.
+[Guidance from the Court of the Lord Lyon](https://www.courtofthelordlyon.scot/crests.htm)
+distinguishes several forms of Scottish crest display. A clan member may wear
+the chief's crest and motto inside a strap and buckle. A Scottish armiger whose
+arms are recorded in the Lyon Register, or inherited under Scots heraldic law,
+may display the armiger's own crest upon its wreath, coronet, or chapeau, or
+within a plain circlet, and may add one silver eagle feather.
 
-The origins of the crest badge lie in the clan system of the Scottish
-Highlands, where the chief's crest and motto functioned as visual
-shorthand for the collective identity of the clan. Members of the clan,
-though not necessarily armigers themselves, would wear the chief's crest
-within a belt and buckle to declare their loyalty. This practice was
-codified by the Court of the Lord Lyon, Scotland's heraldic authority,
-which regulates not only the grant and use of arms but also their
-display. It is thus not only a cultural tradition, but a practice
-grounded in heraldic law. For armigers, the adaptation of the badge to
-include their own crest represents a proud assertion of personal
-identity within the broader heraldic community.
-
-The central element of my own Scottish crest badge is the martlet,
-depicted without feet, which traditionally symbolizes ceaseless effort
-and the pursuit of higher goals. The martlet's perpetual motion, never
-able to land, embodies the idea of continual striving, a reflection of
-personal ambition and moral resilience. Encircling the martlet is a belt
-bearing the motto "_Ir-rieda biss tmexxi l-qalb_," which in Maltese
-means "The will must guide the heart." This phrase, personal in origin
-and meaning, pairs naturally with the image of the martlet, both
-emphasizing inward resolve and the search for ethical direction.
+My arms were granted in Malta and have not been matriculated in the Lyon
+Register. The two pieces shown here are therefore Scottish-inspired adaptations,
+not evidence of Scottish armigerous status, entitlement to regulated Scottish
+insignia, or recognition by the Lord Lyon.
 
 {% include figure.html width="4" placement="right"
 image="armory/jhoward-crest-badge-armiger.svg"
-cap="Crest in the form of an armiger's crest badge"
-alt="Crest in the form of an armiger's crest badge" %}
+cap="Scottish-inspired armiger-style crest badge"
+alt="Scottish-inspired crest badge placing the martlet, motto, and one feather within a circlet" %}
 
-My badge also includes a feather, a distinctive mark in Scottish
-heraldry that denotes the bearer as an armiger. This usage has evolved
-from the tradition by which clan members without arms might wear a
-single feather behind their badge when attending in support of their
-chief. An armiger, however, may bear a single feather in their badge
-design to signify independent armigerous status, visually setting them
-apart from clansmen who are not entitled to arms. In this context, the
-feather functions as both a heraldic and social indicator, affirming
-that the wearer has been formally recognized by the Lord Lyon as bearing
-arms in their own right.
-
-The belt and buckle motif is not arbitrary. Its circular form denotes
-unity and continuity, while the buckle represents security,
-steadfastness, and the binding nature of oaths. When this design is worn
-around the crest of another, such as a clan chief, it marks deference
-and fealty. When worn with one's own crest, it marks a complete and
-lawful identity within the heraldic tradition. The shape and symbolism
-thus reinforce the meaning of the badge: a unity of personal arms with
-traditional loyalty, enclosed and secured by the emblems of honor.
-
-In my own badge, the strap-and-buckle format not only frames the
-martlet, feather, and motto, it draws them together into a unified
-visual language. The result is an emblem that expresses individual
-aspiration, the legal dignity of armigerous rank, and an inherited
-fidelity to the ideals of Scottish heraldic tradition. It is, in that
-sense, both a personal and cultural declaration, one that honors the
-past even as it presses forward, like the martlet, into the future.
+The strap-and-buckle version adapts the crest and motto to the visual form
+associated with Scottish clan badges. The feathered version explores the
+armiger-style convention. Both are preserved here as comparative personal
+designs rather than as regulated Scottish insignia.
 
 ### Irish Crest Badge {#irish-crest-badge}
 
@@ -776,14 +560,11 @@ equivalent" to the Scottish clan badge. It is most often used in
 diaspora contexts, where Irish identity is celebrated through popular
 symbols.
 
-Though not grounded in historic Irish heraldic law or custom, the
-Claddagh crest badge has gained traction as a para-heraldic emblem. It
-demonstrates both cultural pride and creative continuity, linking
-heraldry with one of the most recognizable motifs of Irish symbolism.
-For that reason, I have included an Irish-style crest badge for my own
-arms, framed within a Claddagh, as an example of how contemporary
-heraldic practice can adapt and expand while acknowledging its invented
-character.
+Though not grounded in historic Irish heraldic law or custom, the Claddagh
+crest badge is sometimes used as a modern para-heraldic emblem. I have included
+an Irish-style crest badge for my own arms, framed within a Claddagh, while
+recognizing that it is neither an official Irish heraldic category nor a form
+of legal recognition.
 
 ### Standard {#standard}
 
@@ -792,23 +573,15 @@ image="armory/jhoward-standard-md.svg"
 cap="The standard with a hoist of Maryland"
 alt="The standard with a hoist of Maryland" %}
 
-A heraldic standard is a long, tapering flag that serves as a personal or
-familial ensign, especially appropriate for armigers with crests and badges.
-Unlike a banner, which displays the arms alone, a standard integrates multiple
-heraldic elements into a cohesive and ceremonial whole. Its primary purpose is
-to signal identity in a public or military setting, not just through arms, but
-through livery colors, motto, and emblematic devices. Historically, standards
-were used in procession, in battle, and at tournaments, where they marked
-allegiance, presence, and prestige.
+A heraldic standard is a long, tapering flag that combines several elements,
+often including a badge, crest, motto, and livery colors. It differs from a
+banner of arms, which reproduces the shield as a flag.
 
-My own standard follows this tradition. The hoist bears the arms of Maryland,
-that is, the quartered arms of the Calvert and Crossland families, emblematic of
-the Barons Baltimore and the colonial proprietorship from which Maryland takes
-its name. This placement, known as the hoist of allegiance, declares personal
-loyalty to a geographic or feudal authority, rather than to a royal house. In
-the context of a standard, it traditionally signified the liege lord or
-political body to which the armiger owed allegiance. In my case, it honors both
-historical continuity and my family's deep Maryland roots.
+This is a modern personal standard inspired by historical standard formats. I
+placed the quartered Calvert and Crossland design used by Maryland at the hoist
+as a personal reference to the state and my family's Maryland roots. That
+choice should not be read as a claim of feudal allegiance or as a separately
+granted heraldic element.
 
 The full blazon of the standard is as follows: 
 
@@ -820,20 +593,9 @@ The full blazon of the standard is as follows:
 
 </div>
 
-The fly of the standard is designed to bring together the principal components
-of my armorial bearings in a dynamic and legible form suited to cloth. The
-Crest, set prominently between two versions of the personal Badge, anchors the
-visual composition. The bends inscribed with the Motto (_Ir-rieda biss tmexxi
-l-qalb_) provide both literal and symbolic connection between these elements. The
-overall design reflects a deliberate balance between personal identity and
-public allegiance, offering a visual statement that is both traditional and
-uniquely mine.
-
-Although not included in the original grant of arms issued by the Chief Herald
-of Arms of Malta, this standard was developed and adopted subsequently in
-accordance with established heraldic practice. It remains consistent with the
-armorial bearings granted under Maltese authority and serves as a lawful and
-appropriate extension of their use in flag form.
+The fly combines the crest, two representations of the badge, and the motto
+_Ir-rieda biss tmexxi l-qalb_. The standard was designed and adopted after the
+Maltese grant; it is a personal derivative work and is not part of G0102.
 
 ### Kamon {#kamon}
 
@@ -868,7 +630,9 @@ feeling of motion and intention, expressive without being literal.
 
 This kamon (かもん) is not a replacement for my coat of arms, but rather
 a sibling to it, a cross-cultural expression rooted in dialogue, design,
-and a shared appreciation for heraldic language.
+and a shared appreciation for heraldic language. It is a modern personal
+adaptation, not a historical Japanese family emblem, an official Japanese
+heraldic category, or a form of recognition by a Japanese authority.
 
 ### Flag {#flag}
 
@@ -899,11 +663,8 @@ recognizable. When rendered in cloth or drawn in miniature, the
 gold–blue–white tricolor serves as a quiet but unmistakable extension of
 heraldic presence.
 
-In this way, the flag complements the crest, badge, and full
-achievement: not by repeating their form, but by reinforcing their
-identity through color and proportion. It is a modern continuation of
-livery tradition, designed for clarity, defined by lineage, and carried
-forward with fidelity.
+The livery flag was adopted after the grant. It is a modern personal design,
+not a banner of the arms and not part of Letters Patent G0102.
 
 ### Cockade {#cockade}
 
@@ -911,22 +672,11 @@ forward with fidelity.
 cap="Cockade adapted from the liveries of the arms" 
 alt="Cockade adapted from the liveries of the arms" %}
 
-Complementing the coat of arms, I have adopted a distinctive heraldic cockade, a
-traditional decorative rosette historically used to symbolize allegiance,
-affiliation, or identity. Often worn on hats or uniforms, cockades have a rich
-tradition in heraldry and carry symbolic significance.
-
-My personal heraldic cockade consists of three concentric circles in white,
-blue, and gold, arranged from the outside to the center. These colors mirror
-those prominently featured in my coat of arms. Together, the cockade and coat of
-arms visually reinforce my personal and heraldic identity, bridging symbolism
-from both tradition and personal heritage.
-
-Together, the harmonious arrangement of these colors reinforces a balanced blend
-of heritage, individual values, and an appreciation of intercultural
-connections. By incorporating this cockade alongside my coat of arms, I
-emphasize not only my personal identity but also the timeless unity of
-meaningful symbolism across diverse cultures.
+A cockade is a decorative rosette historically used to show allegiance,
+affiliation, or identity. This personal para-heraldic version consists of three
+concentric circles in white, blue, and gold, arranged from the outside inward.
+It was adopted after the Maltese grant and has no separate institutional or
+legal status.
 
 <p class="coat-of-arms-back"><a href="#contents">Back to contents <span aria-hidden="true">↑</span></a></p>
 
@@ -975,8 +725,8 @@ meaningful symbolism across diverse cultures.
 </div>
 </div>
 
-In addition to the arms granted to me by the Chief Herald of Arms of Malta, I
-have registered a personal tartan with the Scottish Register of Tartans.
+Separate from Letters Patent G0102, I registered a personal tartan with the
+Scottish Register of Tartans.
 Entitled the James Howard & Family (Personal) tartan, it was officially entered
 into the Register on 27 May 2025 under [registration number
 14,834](/2025/05/26/a-new-tartan).
@@ -1011,6 +761,108 @@ contexts.
 
 <p class="coat-of-arms-back"><a href="#contents">Back to contents <span aria-hidden="true">↑</span></a></p>
 
+</section>
+
+<section class="coat-of-arms-band coat-of-arms-band--soft coat-of-arms-records" aria-labelledby="other-records" markdown="1">
+<div class="container" markdown="1">
+
+<div class="title-area">
+  <h2 id="other-records">Other Records and Registrations</h2>
+  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <p class="description">Later records of the arms maintained by private and non-governmental bodies.</p>
+</div>
+
+<nav class="coat-of-arms-local-nav" aria-label="Other records and registrations">
+  <a href="#american-armigers">American Armigers</a>
+  <a href="#heraldry-of-the-world">Heraldry of the World</a>
+  <a href="#nehgs-committee-on-heraldry">Committee on Heraldry</a>
+  <a href="#american-college-of-heraldry">American College of Heraldry</a>
+</nav>
+
+These organizations later recorded or described the arms already granted in
+Malta. Their roles differ, and none replaces, amends, or supplies the authority
+for Letters Patent G0102. Where a later body uses a different blazoning style,
+the original Maltese Letters Patent remain the controlling grant.
+
+### American Armigers {#american-armigers}
+
+{% include figure.html width="4" border=true placement="right"
+image="/armory/jhoward-american-armigers-registration.webp"
+link="/assets/docs/jhoward-american-armigers-registration.pdf"
+cap="American Armigers registration certificate AA0183"
+alt="American Armigers registration certificate AA0183" %}
+
+The [American Armigers Register](https://americanarmigers.us/) is a private
+registry for arms used in the United States. It recorded my Maltese grant under
+number AA0183 on 20 June 2025, including the arms, crest, and motto. This record
+documents existing arms; it is not itself a grant from a public heraldic
+authority.
+
+You may [download the registration certificate
+here](/assets/docs/jhoward-american-armigers-registration.pdf).
+
+### Heraldry of the World {#heraldry-of-the-world}
+
+The arms also appear in [Heraldry of the
+World](https://www.heraldry-wiki.com/wiki/James_Patrick_Howard_II), a public
+reference database of civic, institutional, and personal heraldry. The listing
+improves discoverability but is neither a legal registration nor a grant of
+arms.
+
+### NEHGS Committee on Heraldry {#nehgs-committee-on-heraldry}
+
+{% include figure.html width="4" border=true placement="right"
+image="/armory/jhoward-nehgs-coh-letter.webp"
+link="/assets/docs/jhoward-nehgs-coh-letter.pdf"
+cap="Record letter from the NEHGS Committee on Heraldry"
+alt="Record letter from the NEHGS Committee on Heraldry" %}
+
+The [Committee on Heraldry of American Ancestors, formerly the New England
+Historic Genealogical
+Society](https://www.americanancestors.org/committee-heraldry), is a
+non-governmental scholarly and genealogical body. At its meeting of 28 October
+2025, it accepted the Maltese grant for its record of modern arms. Its plain-
+English descriptive conventions produce a shorter alternate blazon:
+
+<div class="formal-text" markdown="1">
+
+> Silver a tetrahedron azure pierced by a sword bendwise gold, hilt and
+> pommel azure. Crest--A martlet sable.
+
+</div>
+
+That wording is the Committee's record of the arms, not a replacement for the
+Maltese text. You may [download the Committee's
+letter](/assets/docs/jhoward-nehgs-coh-letter.pdf).
+
+### American College of Heraldry {#american-college-of-heraldry}
+
+{% include figure.html width="5" border=true placement="right"
+image="/armory/jhoward-ach-registration.webp"
+link="/assets/docs/jhoward-ach-registration.pdf"
+cap="Registration certificate from the American College of Heraldry"
+alt="Registration certificate from the American College of Heraldry" %}
+
+The [American College of
+Heraldry](https://americancollegeofheraldry.org/) is a private heraldic
+organization. It registered the existing Maltese arms under number 4855 on 10
+February 2026. Its certificate uses another descriptive convention:
+
+<div class="formal-text" markdown="1">
+
+> Argent a triangle Azure charged with a fillet pall inverted Argent pierced
+> in bend by a sword Or with pommel and hilt of the second. Crest--A martlet
+> close Sable.
+
+</div>
+
+This registration documents the existing grant and does not create or
+reconfirm its legal authority. You may [download the registration
+certificate](/assets/docs/jhoward-ach-registration.pdf).
+
+<p class="coat-of-arms-back"><a href="#contents">Back to contents <span aria-hidden="true">↑</span></a></p>
+
+</div>
 </section>
 
 </div>

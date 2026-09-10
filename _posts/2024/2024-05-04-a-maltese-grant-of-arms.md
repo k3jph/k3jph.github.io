@@ -50,7 +50,7 @@ oneself.
 ### The Motto
 
 The motto accompanying the arms, "Ir-rieda biss tmexxi l-qalb,"
-which translates as "Only will leads the heart," is a guiding
+which translates as "Only the will leads the heart," is a guiding
 principle for personal and professional endeavors, encapsulating a
 philosophy of determination and leadership.
 

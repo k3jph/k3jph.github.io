@@ -113,15 +113,24 @@
 
 .coat-of-arms-directory,
 .coat-of-arms-band {
-  width: 100vw;
-  margin-right: calc(50% - 50vw);
-  margin-left: calc(50% - 50vw);
+  width: auto;
+  margin-right: 0;
+  margin-left: 0;
+  clip-path: inset(0 -100vmax);
+}
+
+.coat-of-arms-directory > .container,
+.coat-of-arms-band > .container {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .coat-of-arms-directory {
   margin-bottom: 4rem;
   padding: 4rem 0;
   background: #2b3c52;
+  box-shadow: 0 0 0 100vmax #2b3c52;
   color: #fff;
 }
 
@@ -203,10 +212,12 @@
 
 .coat-of-arms-band--soft {
   background: #f5f2ea;
+  box-shadow: 0 0 0 100vmax #f5f2ea;
 }
 
 .coat-of-arms-band--slate {
   background: #edf1f5;
+  box-shadow: 0 0 0 100vmax #edf1f5;
 }
 
 .coat-of-arms-local-nav {
