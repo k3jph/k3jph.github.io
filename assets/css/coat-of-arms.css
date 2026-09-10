@@ -249,7 +249,7 @@
 .coat-of-arms-badge-gallery {
   display: grid;
   gap: 20px;
-  margin: 2rem 0 0;
+  margin: 2rem 0 2.5rem;
 }
 
 .coat-of-arms-gallery {
@@ -258,12 +258,10 @@
 
 .coat-of-arms-seals {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin-bottom: 2.5rem;
 }
 
 .coat-of-arms-badge-gallery {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  margin-bottom: 2.5rem;
 }
 
 .coat-of-arms-gallery > .item,

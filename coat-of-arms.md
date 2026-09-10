@@ -784,13 +784,25 @@ Malta. Their roles differ, and none replaces, amends, or supplies the authority
 for Letters Patent G0102. Where a later body uses a different blazoning style,
 the original Maltese Letters Patent remain the controlling grant.
 
-### American Armigers {#american-armigers}
+<div class="coat-of-arms-gallery">
+  {% include figure.html width="12" border=true
+  image="/armory/jhoward-american-armigers-registration.webp"
+  link="/assets/docs/jhoward-american-armigers-registration.pdf"
+  cap="American Armigers registration certificate AA0183"
+  alt="American Armigers registration certificate AA0183" %}
+  {% include figure.html width="12" border=true
+  image="/armory/jhoward-nehgs-coh-letter.webp"
+  link="/assets/docs/jhoward-nehgs-coh-letter.pdf"
+  cap="Record letter from the NEHGS Committee on Heraldry"
+  alt="Record letter from the NEHGS Committee on Heraldry" %}
+  {% include figure.html width="12" border=true
+  image="/armory/jhoward-ach-registration.webp"
+  link="/assets/docs/jhoward-ach-registration.pdf"
+  cap="Registration certificate from the American College of Heraldry"
+  alt="Registration certificate from the American College of Heraldry" %}
+</div>
 
-{% include figure.html width="4" border=true placement="right"
-image="/armory/jhoward-american-armigers-registration.webp"
-link="/assets/docs/jhoward-american-armigers-registration.pdf"
-cap="American Armigers registration certificate AA0183"
-alt="American Armigers registration certificate AA0183" %}
+### American Armigers {#american-armigers}
 
 The [American Armigers Register](https://americanarmigers.us/) is a private
 registry for arms used in the United States. It recorded my Maltese grant under
@@ -811,12 +823,6 @@ arms.
 
 ### NEHGS Committee on Heraldry {#nehgs-committee-on-heraldry}
 
-{% include figure.html width="4" border=true placement="right"
-image="/armory/jhoward-nehgs-coh-letter.webp"
-link="/assets/docs/jhoward-nehgs-coh-letter.pdf"
-cap="Record letter from the NEHGS Committee on Heraldry"
-alt="Record letter from the NEHGS Committee on Heraldry" %}
-
 The [Committee on Heraldry of American Ancestors, formerly the New England
 Historic Genealogical
 Society](https://www.americanancestors.org/committee-heraldry), is a
@@ -836,12 +842,6 @@ Maltese text. You may [download the Committee's
 letter](/assets/docs/jhoward-nehgs-coh-letter.pdf).
 
 ### American College of Heraldry {#american-college-of-heraldry}
-
-{% include figure.html width="5" border=true placement="right"
-image="/armory/jhoward-ach-registration.webp"
-link="/assets/docs/jhoward-ach-registration.pdf"
-cap="Registration certificate from the American College of Heraldry"
-alt="Registration certificate from the American College of Heraldry" %}
 
 The [American College of
 Heraldry](https://americancollegeofheraldry.org/) is a private heraldic
