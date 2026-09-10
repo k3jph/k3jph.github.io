@@ -55,7 +55,7 @@ redirect_from:
       <a href="#the-grant"><strong>The Grant</strong><span>Letters Patent, authority, and the formal record</span></a>
       <a href="#the-arms"><strong>The Arms</strong><span>Blazon, design, symbolism, and motto</span></a>
       <a href="#emblazonments"><strong>Emblazonments</strong><span>Different artists, one blazon</span></a>
-      <a href="#insignia"><strong>Insignia</strong><span>Crest, banner, badges, and flags</span></a>
+      <a href="#insignia"><strong>Insignia</strong><span>Crest, banner, seal, badges, and flags</span></a>
       <a href="#tartan"><strong>Tartan</strong><span>The woven extension of the heraldic palette</span></a>
     </nav>
   </div>
@@ -475,21 +475,23 @@ alt="Interpreted by Dimitri Prica" %}
 <nav class="coat-of-arms-local-nav" aria-label="Insignia sections">
   <a href="#crest">Crest</a>
   <a href="#banner">Banner</a>
+  <a href="#seal">Seal</a>
   <a href="#badge">Badges</a>
   <a href="#standard">Standard</a>
   <a href="#flag">Livery flag</a>
   <a href="#cockade">Cockade</a>
 </nav>
 
-Together, the crest, badge, and livery flag form a complete set of
+Together, the crest, seal, badge, and livery flag form a complete set of
 external insignia associated with my armorial bearings. Each serves a
 distinct purpose within the broader heraldic tradition: the crest,
-placed atop the helm, completes the full achievement; the badge,
-rendered in the Scottish strap-and-buckle form, marks personal identity
-and armigerous status; and the flag, a vertical tricolor of gold, blue,
-and white, displays the livery colors in a form suited for public and
-ceremonial use. Though governed by differing conventions—Scottish,
-English, Maltese, and beyond--these elements share a unifying function:
+placed atop the helm, completes the full achievement; the seal adapts the
+shield, crest, name, and motto to a circular documentary device; the badges
+condense elements of the arms into separate personal emblems; and the flag, a
+vertical tricolor of gold, blue, and white, displays the livery colors in a
+form suited for public and ceremonial use. Though governed by differing
+conventions—Scottish, English, Maltese, and beyond—these elements share a
+unifying function:
 to express, in various media and degrees of formality, the continuity
 and presence of heraldic identity.
 
@@ -584,6 +586,40 @@ the open air, but rather presented in still environments, hung vertically from a
 balcony, mounted on a wall, or carried in procession. This controlled setting
 allows for a more intimate viewing of the arms and supports their use as a
 formal emblem of identity.
+
+### Seal {#seal}
+
+Historically, personal seals provided a reproducible device for authenticating
+documents and identifying the person responsible for them. Armorial seals
+naturally incorporated heraldic devices because the arms already served as a
+formal visual identity. A modern private seal continues that tradition as a
+personal mark for documents and correspondence, although its armorial character
+does not by itself give it legal authentication powers.
+
+These two monochrome renderings place the shield and martlet crest within a
+circular design. The surrounding legend gives a Latinized form of my name,
+James Patrick Howard II, and repeats the Maltese motto *Ir-rieda biss tmexxi
+l-qalb*. Both versions are recognizably derived from the same armorial identity:
+the tetrahedron pierced by a sword appears on the shield, the martlet stands
+above it on the wreath, and the motto encircles the composition. One version
+uses dense heraldic hatching and engraved texture; the simplified version
+reduces that treatment for clearer reproduction at smaller sizes.
+
+<div class="coat-of-arms-seals">
+  {% include figure.html image="armory/jhoward-seal.svg" link="/assets/img/armory/jhoward-seal.svg" width="12"
+  cap="Detailed hatched rendering of the personal heraldic seal by [Quentin Peacock](https://www.digitalheraldry.com/)"
+  alt="Detailed monochrome personal seal showing the arms, martlet crest, circular legend, and heraldic hatching" %}
+  {% include figure.html image="armory/jhoward-seal-simplified.svg" link="/assets/img/armory/jhoward-seal-simplified.svg" width="12"
+  cap="Simplified line rendering of the personal heraldic seal by [Quentin Peacock](https://www.digitalheraldry.com/)"
+  alt="Simplified monochrome personal seal showing the shield, martlet crest, and circular legend" %}
+</div>
+
+The arms are the heraldic design defined by the blazon; a badge is a separate
+personal emblem; and a seal is an application of personal identity designed for
+impression or reproduction on documents. These additional commissioned
+renderings are by [Quentin Peacock](https://www.digitalheraldry.com/), a
+professional digital heraldic artist and Craft Member of the Society of
+Heraldic Arts whose work also includes the Fairbairn-style crest shown above.
 
 <span id="badge" class="coat-of-arms-fragment-target" aria-hidden="true"></span>
 
