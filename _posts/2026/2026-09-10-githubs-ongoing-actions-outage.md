@@ -16,148 +16,82 @@ tags:
   - software reliability
 ---
 
-For the past couple of weeks, I have been conducting an unintended experiment in the reliability of GitHub Actions.
+I have two little production systems running in GitHub Actions. One, Krigsbot, wakes up every morning, looks for environmental and polar news, makes some editorial decisions, and queues a day's worth of posts. The other, JHBot, does roughly the same thing with AI and technology news twice a day. They are exactly the sort of applications for which GitHub Actions ought to be ideal: the code is already in GitHub, the state is in GitHub, they need no persistent server, and once the job finishes they disappear until the next scheduled run.
 
-I have two small production systems that are almost offensively well suited to GitHub Actions. They are self-contained. They live in GitHub. Their state lives in GitHub. They do not need persistent servers. They wake up on a schedule, do some work, write their state back, and go away.
+At least, that was the theory.
 
-One runs once each morning. The other runs twice a day.
+Beginning in late August, the schedules started drifting. Not by a few minutes, which I would not have thought much about. GitHub has always been quite clear that scheduled Actions are best-effort, and its documentation specifically warns that they can be delayed when the service is busy. My jobs were already scheduled away from the top of the hour, which is GitHub's principal recommendation for avoiding that problem. A 6:30 job turning up at 6:47 is annoying but unsurprising. A 6:30 job turning up at 4:37 in the afternoon is something else.
 
-Or at least they are supposed to.
+That happened to Krigsbot on August 27. It was supposed to run at 6:30 AM Eastern. Instead, the actual newsroom process started at about 4:37 PM, roughly ten hours late. By that point most of the deterministic publication schedule it had calculated for the day was already in the past. The bot did the right thing and refused to silently move those posts into the evening, but it was a useful demonstration that something rather more interesting than ordinary queue congestion was happening.
 
-Beginning around August 26, GitHub Actions scheduled workflows started behaving as though the cron expressions were gentle suggestions. A job scheduled for 6:30 in the morning might appear before lunch. Or late in the afternoon. Or, sometimes, not at all.
+JHBot began doing the same thing. Its jobs are scheduled for 10:30 AM and 3:30 PM Eastern. They had previously been arriving within tens of minutes of those times. Then the morning and afternoon jobs started appearing hours late. Eventually some scheduled runs did not appear at all. The workflows themselves remained healthy; firing the same workflows through `workflow_dispatch` worked promptly.
 
-I eventually gave up and moved the clock outside GitHub. ChatGPT Work now wakes up at the appointed times, logs into GitHub, and invokes the exact same workflows manually through `workflow_dispatch`.
+At first I assumed I had screwed something up. That is generally the correct first assumption when one's software begins behaving strangely. I checked the cron expressions. I checked the default branches. I checked concurrency. I checked whether the workflows had been disabled. I checked the timezone declarations. GitHub added official IANA timezone support for scheduled workflows in March 2026, and the syntax I was using, `timezone: "America/New_York"`, is the syntax GitHub itself documents. [GitHub's March 2026 timezone announcement](https://github.blog/changelog/2026-03-19-github-actions-late-march-2026-updates/?utm_source=chatgpt.com)
 
-That works.
-
-Which is useful operationally, but architecturally ridiculous. GitHub Actions already has a scheduler. This should be self-contained.
-
-And so there are three questions I would very much like GitHub to answer.
+The code was fine.  Then I went looking to see whether anyone else was seeing it.  They were.
 
 ## What is going wrong?
 
-There is now quite a lot of evidence that this is not ordinary runner congestion.
+The most useful report I found was filed on August 27. The user had two daily cron schedules that had been working normally, with the usual 15-to-40-minute GitHub lateness. Then, on August 26, one run appeared 39 minutes late. The next appeared 3 hours and 27 minutes late. The following one appeared 10 hours and 41 minutes late. After that, scheduled runs simply stopped being created. Manual `workflow_dispatch` runs of the same workflow continued to start within seconds. [Scheduled cron workflows stopped firing since August 26, GitHub Community discussion #206019](https://github.com/orgs/community/discussions/206019?utm_source=chatgpt.com)
 
-My own systems show the progression clearly.
+That progression got my attention because it is almost comically close to what I had just watched happen to my own two repositories.
 
-Krigsbot is supposed to start at 6:30 AM Eastern. Before the trouble, its runs were imperfect but recognizable: 6:47, 6:54, 6:59. That is irritating, but it is within the world GitHub documents as best-effort scheduling.
+More reports followed. Another user reported multiple repositories affected at once, with schedules at minutes 15, 23, 38, and 47. That is useful because it makes the usual "everybody runs jobs at the top of the hour" explanation considerably less persuasive. These were already scattered across the hour, and yet the scheduled runs stopped materializing while manual dispatch continued to work. [Multiple repositories affected by missing scheduled runs, discussion #206134](https://github.com/orgs/community/discussions/206134?utm_source=chatgpt.com)
 
-Then things changed.
+A particularly interesting report appeared on August 31 because the user looked at the GitHub API timestamps instead of just the Actions page. For affected runs, `created_at` and `run_started_at` were effectively identical. Once GitHub created the workflow run, the runner began executing it immediately. The missing time was before the run existed. In other words, this did not look like a job sitting in a runner queue for several hours. It looked like the scheduler had failed to create the scheduled event at the scheduled time. [Scheduler timing drift after August 26–27, discussion #206287](https://github.com/orgs/community/discussions/206287?utm_source=chatgpt.com)
 
-On August 27, the 6:30 AM workflow did not actually begin its work until about **4:37 PM**, more than ten hours late. On August 29 it arrived around **11:10 AM**. On August 30, around **10:54 AM**.
+That distinction is fairly important. If a run exists at 6:30 and sits queued until noon, I know where to look. There is a run. There is a queue. There is potentially a runner-capacity problem. If nothing exists at 6:30, and then at 4:37 GitHub suddenly creates the run and starts it immediately, the problem is somewhere earlier in the control plane. The runner cannot be responsible for a workflow run that GitHub has not yet created.
 
-JHBot showed the same deterioration independently. It is scheduled for 10:30 AM and 3:30 PM. On August 26 those runs appeared at roughly noon and 6:25 PM. Subsequent scheduled executions wandered even further.
+The reports have also continued well after the August incidents were supposedly resolved. On September 6, another user reported an enabled scheduled workflow on the default branch, with Actions enabled and unused Actions minutes available, for which no scheduled workflow runs were being created. [Scheduled workflow enabled but no runs created, discussion #206984](https://github.com/orgs/community/discussions/206984?utm_source=chatgpt.com)
 
-Nothing important had changed in either bot. Manual workflow dispatches still worked.
+On September 8, somebody reported an hourly job scheduled at minute 17 that missed five consecutive runs at 1:17, 2:17, 3:17, 4:17, and 5:17 PM. There were no failed runs, no queued runs, no cancelled runs and no skipped runs. There were simply no runs. The user manually invoked the same workflow at 12:33 PM and it completed successfully. [Hourly scheduled workflow skipping consecutive triggers, discussion #207247](https://github.com/orgs/community/discussions/207247?utm_source=chatgpt.com)
 
-And other GitHub users began reporting almost precisely the same thing.
+So whatever this is, it is not just me, it is not just one repository, it is not just one cron expression, and it did not end on August 27.
 
-One particularly useful report documents a scheduled workflow going from **39 minutes late**, to **3 hours 27 minutes late**, to **10 hours 41 minutes late**, and then to scheduled events that simply never produced a workflow run at all. Manual `workflow_dispatch` continued to create runs immediately.
+There is another piece of evidence that may or may not be related, but it is difficult to ignore. GitHub had a significant Actions incident on August 26. In its own postmortem, GitHub said that Actions jobs failed to start between 15:02 and 15:45 UTC and that delayed load continued to affect the service until 17:40 UTC. More interestingly, GitHub identified the trigger as saturation of writes to "the database primary used by the service processing triggers for Actions workflows," together with an upstream problem in GitHub's event-processing infrastructure. [GitHub Status incident report for August 26](https://www.githubstatus.com/?utm_source=chatgpt.com)
 
-Another report covers multiple repositories using cron minutes 15, 23, 38, and 47. The scheduled runs disappeared while manual dispatch still worked. That matters because it substantially weakens the familiar explanation that everybody schedules jobs at the top of the hour and overloads the system.
+Later that day GitHub had a second Actions incident. That one involved pull-request-triggered workflows, and GitHub reported that some runs were delayed and up to four percent failed to trigger. I am not claiming that either incident caused the continuing cron problem; I have no access to GitHub's internal architecture, and correlation is not a root-cause analysis. What I am saying is that a cluster of users began reporting delayed and missing scheduled triggers at almost exactly the same time GitHub acknowledged serious problems in the machinery that processes Actions workflow triggers.
 
-A third report is especially revealing because the user compared GitHub's API timestamps. For the strangely timed scheduled runs, `created_at` and `run_started_at` were effectively identical.
+That seems worth asking about.
 
-In other words, once GitHub created the workflow run, it started immediately.
-
-The hours of delay happened before the run object existed.
-
-That points upstream of runner allocation, toward the machinery responsible for materializing scheduled events in the first place.
-
-And the reports have not stopped.
-
-On September 6, another user reported an active workflow on the default branch, Actions enabled, unused Actions minutes available, and scheduled events producing no workflow runs.
-
-On September 8, a user reported an hourly workflow missing five consecutive scheduled executions at 1:17, 2:17, 3:17, 4:17, and 5:17 PM. Again, manual `workflow_dispatch` worked. Again, there were no failed or queued scheduled runs.
-
-The run objects simply did not exist.
-
-There is also a rather interesting historical clue.
-
-GitHub had a serious Actions incident on August 26. In its own postmortem, GitHub said the incident was triggered by saturation of writes to **the database primary used by the service processing triggers for Actions workflows**, compounded by an upstream event-processing problem. Jobs initially failed to start and delayed queues persisted for hours afterward.
-
-Later that same day, GitHub reported another Actions incident in which some workflows failed to trigger at all. That incident was described specifically in connection with pull-request-triggered workflows, so it would be irresponsible to claim it directly caused the cron problem.
-
-But the timing and the affected layer are difficult to ignore.
-
-That leaves us with a fairly strong working hypothesis:
-
-**Something in GitHub's scheduled-event materialization or trigger-processing infrastructure appears to have become unreliable around the August 26 Actions incidents.**
-
-That is an inference, not a confirmed GitHub root cause.
-
-But "your runners are busy" does not explain workflow runs that do not exist.
+My working hypothesis, based on the evidence we can actually see, is that there is or was a failure somewhere in scheduled-event registration or materialization. I would be quite happy to be told that hypothesis is wrong. In fact, that is the first question I would like GitHub to answer: what the hell is actually going wrong?
 
 ## When will it be fixed?
 
-Nobody outside GitHub appears to know.
+This question is much easier to answer.  I have no idea.  Neither, apparently, does anyone in the GitHub Community threads.
 
-As of September 10, GitHub Status says:
+The reports are mostly still marked unanswered. The response users receive is generally the GitHub Actions bot thanking them for their "invaluable" product feedback and explaining that GitHub may or may not get back to them. That is pleasant enough, but it is not an incident acknowledgement, a diagnosis, a workaround or an estimated repair date.
 
-**All Systems Operational.**
+Meanwhile, GitHub's own status page currently says "All Systems Operational." Actions is specifically shown as operational. As of September 10, GitHub reports no Actions incident on September 5, 6, 7, 8, 9 or 10. [GitHub Status](https://www.githubstatus.com/?utm_source=chatgpt.com)
 
-Actions is specifically marked operational. September 9 shows no incident. September 10 shows no incident.
+That leaves users in a slightly absurd position. There is a current September 8 bug report showing five consecutive scheduled events failing to produce workflow runs. There are several earlier reports with the same symptoms across multiple repositories. There is no public indication that GitHub regards this as an active problem, and therefore no public indication of when it expects the problem to be fixed.
 
-GitHub's September 3 Actions changelog discusses new runner deprecation APIs, a new `GITHUB_TOKEN` permission, and reusable-workflow context properties. There is no mention of a scheduled-workflow incident, cron regression, mitigation, or forthcoming scheduler repair.
+I can build around that. I already have. But "we have no ETA because officially there is no incident" is not especially satisfying.
 
-The relevant Community threads remain largely unanswered. Several have received the automated GitHub bot response thanking users for their "invaluable" feedback, but there is no public diagnosis and no ETA.
+##  Why are they telling us nothing is wrong?
 
-So the answer today is simply:
+This is actually the more interesting question.
 
-**There is no public ETA because GitHub has not publicly acknowledged this as an ongoing incident.**
+GitHub's documentation gives itself quite a lot of room on scheduled workflows. It says that scheduled events can be delayed during periods of high Actions load, particularly at the start of the hour, and that under sufficiently high load some queued jobs may be dropped. It recommends choosing a different minute of the hour to reduce the chance of delay. [GitHub's documentation on scheduled-workflow delays](https://docs.github.com/en/actions/how-tos/troubleshoot-workflows?utm_source=chatgpt.com)
 
-That is a problem in itself.
+I have no objection to that contract. GitHub Actions is not a hard-real-time operating system, and nobody sensible expects a hosted CI scheduler to offer atomic-clock precision. If I schedule something for 6:30 and GitHub starts it at 6:42, life will continue.  But that does not adequately describe what users are reporting.
 
-## Why are they telling us nothing is wrong?
+A run that begins ten hours late is not meaningfully "delayed" for many scheduled applications. A scheduled event that never results in a workflow run is not a runner waiting in a busy queue. And when users can invoke the exact same workflow manually and have it start immediately, telling them to move their cron expression away from the top of the hour is not much of an explanation.  This is where the status page becomes part of the problem.
 
-This is the question that interests me most.
+Status pages are not merely scoreboards. They are diagnostic tools. When a service I depend upon behaves strangely, one of the first things I do is check the provider's status page. If GitHub tells me Actions is healthy, I quite reasonably assume that the problem is probably mine. I then spend my time checking configuration, permissions, branches, account limits, cron expressions, concurrency rules and whatever else I may have managed to break.
 
-GitHub's documentation does warn that scheduled workflows can be delayed under high Actions load. It even says that, under sufficiently high load, some queued jobs may be dropped. GitHub recommends avoiding heavily contested times such as the beginning of the hour.
+That is exactly what a number of people in these Community threads did. The result of their troubleshooting is remarkably consistent: the workflow is enabled, the workflow is on the default branch, the cron expression is valid, Actions is available, and `workflow_dispatch` works. What does not work reliably is the scheduled trigger.
 
-Fair enough.
+The charitable explanation is that the affected population is small enough that it does not cross GitHub's threshold for declaring an incident. It is also possible that GitHub's public Actions status aggregates several internal services and does not separately measure the health of scheduled-event processing. Either of those could produce a green status page while a subset of scheduled workflows are failing.  If that is the explanation, GitHub should say so.
 
-But there is a meaningful difference between:
+At the moment, though, users have a collection of reproducible reports, a very suspicious start date, evidence that the delay occurs before workflow-run creation, continued failures into September, and an official status page that says Actions is operational.
 
-"Your 6:30 job may run at 6:42."
+Those facts do not fit together particularly well.
 
-and:
+I ultimately worked around the problem by doing something I should not have needed to do. I disabled the production effect of GitHub's native cron triggers and moved the clock outside GitHub. At 6:30 in the morning, and again at the two times required by the second bot, an external scheduler invokes the existing GitHub workflows through `workflow_dispatch`. Nothing else changed. Same repositories, same workflows, same GitHub-hosted runners, same Actions infrastructure.  Those runs start when they are told to.
 
-"Your 6:30 job may run at 4:37 PM, or tomorrow, or never produce a workflow run at all."
+So, yes, I have a workaround. I would still prefer to remove it. These applications belong entirely inside GitHub Actions, and there is no architectural reason for them to depend on another service merely to tell GitHub that 6:30 AM has occurred.
 
-The latter is not scheduler jitter in any useful engineering sense.
+For now I have three fairly simple questions.  What is going wrong with scheduled GitHub Actions?  When will it be fixed?  And why, while users continue to document delayed and completely missing scheduled runs, does GitHub's status page continue to tell us that Actions is operational?
 
-Nor can this particular case be dismissed as an obsolete timezone configuration. GitHub added official IANA timezone support to scheduled workflows in March 2026, explicitly documenting syntax such as `timezone: "America/New_York"`.
-
-The charitable explanation is that GitHub Status measures broad service health and this failure mode affects too small a slice of Actions traffic to cross whatever threshold creates an incident. It may also be that the scheduled-event subsystem is not separately represented in GitHub's public status model.
-
-That would explain the green light.
-
-It would not make the green light particularly useful to someone whose scheduled workflows have stopped scheduling.
-
-And that is really the issue.
-
-A status page is not merely a historical accounting system for major outages. It is part of the operational interface between a service provider and people attempting to determine whether they should debug their own systems.
-
-When GitHub tells me Actions is operational, I naturally start looking at my YAML, my branch configuration, my concurrency policy, my credentials, my account limits, and my code.
-
-So did everyone else reporting this problem.
-
-They changed cron minutes. They re-enabled workflows. They made trivial commits. They checked the default branch. They checked their remaining Actions minutes. They manually dispatched the same workflow.
-
-And eventually they discovered the same strange fact:
-
-**The workflow works. GitHub just isn't waking it up.**
-
-That distinction matters.
-
-We can work around a broken scheduler. We did. But before we build compensating infrastructure around a platform failure, it would be nice to know three things:
-
-**What is broken?**
-
-**When will it be fixed?**
-
-**And why, while users continue reporting the same reproducible failure, does GitHub continue telling us that nothing is wrong?**
-
-Until then, my scheduled workflows will continue running on an external clock.
-
-GitHub Actions, apparently, is operating on Microsoft Standard Time.
+Until somebody answers those, I suppose we are all on Microsoft Standard Time.
