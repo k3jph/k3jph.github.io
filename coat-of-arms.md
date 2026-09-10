@@ -223,8 +223,7 @@ listing the crest and motto as well. The motto, _Ir-rieda biss tmexxi l-qalb_
 (“Only the will moves the heart”), appears in both the original Maltese and in
 spirit with the rest of the armorial arrangement.
 
-Although the website has not yet been updated to reflect the new registration,
-the certificate, issued under Registration Number AA0183 and dated, 20 June
+The certificate, issued under Registration Number AA0183 and dated 20 June
 2025, is available below.
 
 You may [download the PDF
@@ -252,7 +251,7 @@ alt="Registration letter from the NEHGS Committee on Heraldry" %}
 
 The arms have also been formally recorded by the [Committee on Heraldry
 of the New England Historic Genealogical
-Society](https://www.americanancestors.org/committee-heraldry) the
+Society](https://www.americanancestors.org/committee-heraldry), the
 oldest heraldic body in the United States. At its regular meeting of 28
 October 2025, the Committee accepted the arms granted by the Chief
 Herald of Malta for record in its official registry. This record
@@ -309,7 +308,7 @@ The blazon as entered reads:
 > close Sable.
 
 You may [download the PDF
-here](/assets/docs/jhoward-ach-registration.pdf)
+here](/assets/docs/jhoward-ach-registration.pdf).
 
 
 *Additional registrations will be added as they are approved.*
@@ -415,7 +414,7 @@ cap="The [WappenWiki](https://wappenwiki.org/) style by me"
 alt="The WappenWiki style by me" %}
 
 {% include figure.html image="armory/jhoward-arms-pierra.svg" placement="left" loading="lazy" width="4" border=false
-cap="Interpreted by [Jean-Eudes Pierra](https://www.armorialofthebee.com/board)" 
+cap="Interpreted by [Jean-Eudes Pierra](https://www.armorialofthebee.com/)"
 alt="Interpreted by Jean-Eudes Pierra" %}
 
 {% include figure.html image="armory/cowan/howard-james-shield.png" placement="left" loading="lazy" width="4" border=false
@@ -481,7 +480,7 @@ placed atop the helm, completes the full achievement; the badge,
 rendered in the Scottish strap-and-buckle form, marks personal identity
 and armigerous status; and the flag, a vertical tricolor of gold, blue,
 and white, displays the livery colors in a form suited for public and
-ceremonial use. Though governed by differing conventions--Scottish,
+ceremonial use. Though governed by differing conventions—Scottish,
 English, Maltese, and beyond--these elements share a unifying function:
 to express, in various media and degrees of formality, the continuity
 and presence of heraldic identity.
@@ -926,7 +925,7 @@ This tartan draws its palette directly from the heraldic colors of my coat of
 arms. While the colors do not carry individual symbolic meaning, they
 collectively serve to reinforce the visual identity already established in
 armorial form. Rendered in deep blues, golds, and white, the design expresses
-continuity between textile and shield ,  a wearable complement to the armorial
+continuity between textile and shield—a wearable complement to the armorial
 tradition.
 
 The aesthetic of the tartan is best described as modern ceremonial: it shares
