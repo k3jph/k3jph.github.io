@@ -53,11 +53,12 @@ redirect_from:
   <a href="#other-records">Other Records</a>
 </nav>
 
-<section class="coat-of-arms-section" aria-labelledby="heraldry-context" markdown="1">
+<section class="coat-of-arms-band coat-of-arms-band--navy coat-of-arms-heraldry" aria-labelledby="heraldry-context" markdown="1">
+<div class="container" markdown="1">
 
 <div class="title-area">
-  <h2 id="heraldry-context">Heraldry</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <h2 id="heraldry-context" class="text-warning">Heraldry</h2>
+  <div class="separator separator-warning"><img src="{{ '/assets/img/identity/kamon-warning.svg' | relative_url }}" height="35" alt="" /></div>
 </div>
 
 At its core, heraldry began as a system of identification. Over centuries, it
@@ -86,6 +87,7 @@ arms may be assumed under customary practice; and elsewhere heraldry operates
 principally through custom and private record. The Maltese grant described on
 this page belongs to the first category.
 
+</div>
 </section>
 
 <section class="coat-of-arms-band coat-of-arms-band--soft coat-of-arms-grant" aria-labelledby="the-grant" markdown="1">
