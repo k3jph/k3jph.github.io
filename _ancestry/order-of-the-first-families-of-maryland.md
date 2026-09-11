@@ -6,6 +6,9 @@ subtitle: Member _jure_ Edward Teague (1675); member no. 666
 date: 2024-10-10
 founding_date: 1999-04-17
 qualifying_ancestors: [ "Edward Teague (1675)" ]
+ancestor_names: ["Edward Teague"]
+places: ["Maryland", "North Carolina"]
+topics: ["Colonial settlement", "Migration and settlement"]
 member_number: 666
 author: k3jph
 layout: page

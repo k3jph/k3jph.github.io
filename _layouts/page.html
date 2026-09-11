@@ -31,7 +31,13 @@ layout: base
         <div class="row">
             <div class="col-md-12">
                 <div class="content-blog">
+                    {% if page.collection == "ancestry" %}
+                    {% include ancestry-detail-nav.html %}
+                    {% endif %}
                     {{ content }}
+                    {% if page.collection == "ancestry" %}
+                    {% include ancestry-related.html %}
+                    {% endif %}
                 </div>
                 {% if page.credits %}
                 <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>

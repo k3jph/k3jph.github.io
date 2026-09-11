@@ -5,6 +5,9 @@ title: Civil War Families of Warren County, Ohio
 subtitle: Member *jure* Thomas Wesley Newman (79th OVI, Company H)
 date: 2025-02-11
 qualifying_ancestors: [ "Thomas Wesley Newman (79th OVI, Company H)" ]
+ancestor_names: ["Thomas Wesley Newman"]
+places: ["Ohio"]
+topics: ["Civil War", "Military service"]
 author: k3jph
 layout: page
 guid: civil-war-families-of-warren-county-ohio

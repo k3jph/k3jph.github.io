@@ -7,6 +7,9 @@ date: 2024-08-16
 author: k3jph
 founding_date: 2011-12-31
 qualifying_ancestors: [ "Julia McNeal (1907)", "Harry Lee Williams (1907)", "Helen Williams (1908)" ]
+ancestor_names: ["Julia McNeal", "Harry Lee Williams", "Helen Williams"]
+places: ["Indiana", "Ohio"]
+topics: ["Local history"]
 member_number: 77
 layout: page
 guid: century-families-of-hamilton-county

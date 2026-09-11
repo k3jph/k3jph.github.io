@@ -9,6 +9,9 @@ qualifying_ancestors: [ "Jeremiah Cloud (Cordwainer)",
                         "Christopher Taylor (Author)",
                         "Nathaniel Bunnell (Carpenter)",
                         "John Bigelow (Smith)" ]
+ancestor_names: ["Jeremiah Cloud", "Christopher Taylor", "Nathaniel Bunnell", "John Bigelow"]
+places: ["England", "Massachusetts", "New Jersey", "Pennsylvania"]
+topics: ["Artisans and trades", "Colonial settlement", "Quakers"]
 member_number: 535
 author: k3jph
 layout: page

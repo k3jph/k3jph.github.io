@@ -5,6 +5,9 @@ title: Ancient and Honorable Artillery Company of Massachusetts
 subtitle: Member by Right of Descent _jure_ Robert Sanford (1661)
 date: 2025-08-15
 qualifying_ancestors: [ "Robert Sanford (1661)" ]
+ancestor_names: ["Robert Sanford"]
+places: ["England", "Massachusetts"]
+topics: ["Colonial settlement", "King Philip's War", "Military service"]
 author: k3jph
 layout: page
 guid: ancient-and-honorable-artillery-company-of-massachusetts

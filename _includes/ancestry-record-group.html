@@ -1,0 +1,70 @@
+{% assign records = site.ancestry | where: "class", include.class | sort: "title" %}
+<section class="ancestry-record-group" id="{{ include.id }}" data-ancestry-group aria-labelledby="{{ include.id }}-heading">
+  <header class="ancestry-record-group-header">
+    <div>
+      <p class="ancestry-record-group-kicker">{{ include.kicker }}</p>
+      <h3 id="{{ include.id }}-heading">{{ include.heading }}</h3>
+    </div>
+    <span class="ancestry-record-group-count">{{ records | size }} records</span>
+  </header>
+
+  <div class="ancestry-record-list">
+    {% for record in records %}
+      {% capture record_search %}
+        {{ record.title }} {{ record.subtitle | strip_html }}
+        {% for ancestor in record.qualifying_ancestors %} {{ ancestor }}{% endfor %}
+        {% for ancestor_name in record.ancestor_names %} {{ ancestor_name }}{% endfor %}
+        {% for chapter in record.chapters %} {{ chapter.name }} {{ chapter.member_number }}{% endfor %}
+        {% for place in record.places %} {{ place }}{% endfor %}
+        {% for topic in record.topics %} {{ topic }}{% endfor %}
+        {{ record.member_number }}
+      {% endcapture %}
+      <article class="ancestry-record" data-ancestry-record
+        data-record-type="{{ record.class | escape }}"
+        data-record-places="{{ record.places | join: '|' | escape }}"
+        data-record-topics="{{ record.topics | join: '|' | escape }}"
+        data-record-search="{{ record_search | normalize_whitespace | escape }}">
+        <div class="ancestry-record-primary">
+          <p class="ancestry-record-type">{{ include.singular }}</p>
+          <h4><a href="{{ record.url | relative_url }}">{{ record.title }}</a></h4>
+          {% if record.chapters %}
+            <ul class="ancestry-record-chapters" aria-label="Chapter memberships">
+              {% assign sorted_chapters = record.chapters | sort: "name" %}
+              {% for chapter in sorted_chapters %}
+                <li>
+                  {{ chapter.name }}{% if chapter.member_number %}
+                    <span>Member No. {{ chapter.member_number }}</span>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+
+        <div class="ancestry-record-ancestors">
+          <p class="ancestry-record-label">Qualifying Ancestor{% if record.qualifying_ancestors.size != 1 %}s{% endif %}</p>
+          <ul>
+            {% for ancestor in record.qualifying_ancestors %}
+              <li>{{ ancestor }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="ancestry-record-context">
+          {% if record.places %}
+            <p><span>Place{% if record.places.size != 1 %}s{% endif %}</span> {{ record.places | join: ", " }}</p>
+          {% endif %}
+          {% if record.topics %}
+            <p><span>Context</span> {{ record.topics | join: ", " }}</p>
+          {% endif %}
+          {% if record.member_number %}
+            <p class="ancestry-record-number">
+              <span>{% if record.class == "certificate" %}Certificate{% else %}Member{% endif %} No.</span>
+              {{ record.member_number }}
+            </p>
+          {% endif %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>

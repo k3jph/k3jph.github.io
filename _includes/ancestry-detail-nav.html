@@ -1,0 +1,24 @@
+{% case page.class %}
+  {% when "lineage" %}
+    {% assign ancestry_type = "Hereditary Society" %}
+    {% assign ancestry_type_plural = "Hereditary Societies" %}
+  {% when "certificate" %}
+    {% assign ancestry_type = "Heritage Certificate" %}
+    {% assign ancestry_type_plural = "Heritage Certificates" %}
+  {% when "family" %}
+    {% assign ancestry_type = "Family Association" %}
+    {% assign ancestry_type_plural = "Family Associations" %}
+  {% when "military" %}
+    {% assign ancestry_type = "Historic Military Company" %}
+    {% assign ancestry_type_plural = "Historic Military Companies" %}
+{% endcase %}
+
+<div class="ancestry-detail-context">
+  <nav class="ancestry-breadcrumb" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="{{ '/ancestry/' | relative_url }}">Ancestry</a></li>
+      <li aria-current="page">{{ ancestry_type_plural }}</li>
+    </ol>
+  </nav>
+  <p class="ancestry-detail-type">{{ ancestry_type }}</p>
+</div>

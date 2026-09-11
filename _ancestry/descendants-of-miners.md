@@ -6,6 +6,8 @@ subtitle: Member _jure_ Alexander C. Snyder (Stonecutter); member no. 96
 date: 2025-02-03
 founding_date: 2019-12-01
 qualifying_ancestors: [ "Alexander C. Snyder (Stonecutter)" ]
+ancestor_names: ["Alexander C. Snyder"]
+topics: ["Artisans and trades"]
 member_number: 96
 author: k3jph
 layout: page

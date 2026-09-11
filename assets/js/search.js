@@ -221,6 +221,7 @@
             uri,
             type,
             date: typeof item.date === "string" && item.date ? item.date : null,
+            metadata: typeof item.metadata === "string" ? item.metadata : "",
             content: typeof item.content === "string" ? item.content : ""
         };
     }
@@ -235,9 +236,16 @@
         const type = document.createElement("span");
         const excerpt = document.createElement("p");
         const contentMatchRanges = matchingRanges(searchResult, "content");
+        const metadataMatchRanges = matchingRanges(searchResult, "metadata");
         const titleHighlightRanges = queryRanges(item.title || "Untitled", query);
         const contentHighlightRanges = queryRanges(item.content || "", query);
-        const bounds = excerptBounds(item.content || "", contentHighlightRanges.length ? contentHighlightRanges : contentMatchRanges);
+        const metadataHighlightRanges = queryRanges(item.metadata || "", query);
+        const useMetadata = metadataHighlightRanges.length > 0 || (metadataMatchRanges.length > 0 && contentMatchRanges.length === 0);
+        const excerptText = useMetadata ? item.metadata : item.content;
+        const excerptRanges = useMetadata
+            ? (metadataHighlightRanges.length ? metadataHighlightRanges : metadataMatchRanges)
+            : (contentHighlightRanges.length ? contentHighlightRanges : contentMatchRanges);
+        const bounds = excerptBounds(excerptText || "", excerptRanges);
 
         listItem.className = "search-result";
         article.className = "search-result-card";
@@ -266,7 +274,7 @@
         }
 
         excerpt.className = "search-result-excerpt";
-        excerpt.append(highlightedFragment(item.content || "", contentHighlightRanges, bounds[0], bounds[1]));
+        excerpt.append(highlightedFragment(excerptText || "", excerptRanges, bounds[0], bounds[1]));
 
         article.append(title, metadata, excerpt);
         listItem.append(article);
@@ -398,6 +406,7 @@
             const commonFuseOptions = {
                 keys: [
                     { name: "title", weight: 5 },
+                    { name: "metadata", weight: 3 },
                     { name: "content", weight: 1 }
                 ],
                 includeMatches: true,

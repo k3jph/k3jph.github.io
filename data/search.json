@@ -39,6 +39,15 @@ search infrastructure out of the index.
         "uri":     {{ entry.url | jsonify }},
         "type":    "Ancestry",
         "date":    null,
+        "metadata": {% capture ancestry_metadata %}
+          {{ entry.subtitle | strip_html }}
+          {% for ancestor in entry.qualifying_ancestors %} {{ ancestor }}{% endfor %}
+          {% for ancestor_name in entry.ancestor_names %} {{ ancestor_name }}{% endfor %}
+          {% for chapter in entry.chapters %} {{ chapter.name }} {{ chapter.member_number }}{% endfor %}
+          {% for place in entry.places %} {{ place }}{% endfor %}
+          {% for topic in entry.topics %} {{ topic }}{% endfor %}
+          {{ entry.member_number }}
+        {% endcapture %}{{ ancestry_metadata | normalize_whitespace | jsonify }},
         "content": {{ entry.content | markdownify | strip_html | normalize_whitespace | jsonify }}
     }
     {% endunless %}

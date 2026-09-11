@@ -6,6 +6,9 @@ subtitle: Member _jure_ George Chappell (Wethersfield, Connecticut, 1635); membe
 date: 2025-01-15
 founding_date: 2012-07-08
 qualifying_ancestors: [ "George Chappell (Wethersfield, Connecticut, 1635)" ]
+ancestor_names: ["George Chappell"]
+places: ["Connecticut", "England", "Massachusetts"]
+topics: ["Colonial settlement", "Great Migration"]
 member_number: 324
 author: k3jph
 layout: page

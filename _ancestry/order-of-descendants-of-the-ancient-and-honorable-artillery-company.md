@@ -6,6 +6,9 @@ subtitle: Member _jure_ Robert Sanford (1661); member no. 235L
 date: 2024-06-18
 member_number: 235L
 qualifying_ancestors: [ "Robert Sanford (1661)" ]
+ancestor_names: ["Robert Sanford"]
+places: ["England", "Massachusetts"]
+topics: ["Colonial settlement", "King Philip's War", "Military service"]
 author: k3jph
 layout: page
 guid: order-of-descendants-of-the-ancient-and-honorable-artillery-company

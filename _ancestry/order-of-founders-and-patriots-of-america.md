@@ -5,6 +5,9 @@ title: Order of Founders and Patriots of America
 subtitle: Member _jure_ Henry Adams (Founder) via Daniel Adams (Patriot); member no. 6570, DC no. 413
 date: 2025-08-13
 qualifying_ancestors: [ "Henry Adams (Founder) via Daniel Adams (Patriot)" ]
+ancestor_names: ["Henry Adams", "Daniel Adams"]
+places: ["England", "Massachusetts"]
+topics: ["American Revolution", "Colonial settlement", "Military service"]
 member_number: 6570
 chapters:
   - name: District of Columbia Society

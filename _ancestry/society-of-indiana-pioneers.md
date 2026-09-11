@@ -7,6 +7,9 @@ date: 2024-08-22
 founding_date: 1916-12-31
 qualifying_ancestor: Thornton Williams
 qualifying_ancestors: [ "Thornton Williams (1849)" ]
+ancestor_names: ["Thornton Williams"]
+places: ["Indiana"]
+topics: ["Early settlement"]
 author: k3jph
 layout: page
 guid: society-of-indiana-pioneers

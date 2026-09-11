@@ -7,6 +7,9 @@ date: 2024-01-15
 founding_date: 1984-01-11
 qualifying_ancestors: [ "Jonathan Newman (1807, Wayne Twp.)",
                         "Joseph Cloud (1807, Wayne Twp.)"]
+ancestor_names: ["Jonathan Newman", "Joseph Cloud"]
+places: ["North Carolina", "Ohio", "Pennsylvania"]
+topics: ["Early settlement", "Migration and settlement", "Quakers"]
 author: k3jph
 layout: page
 guid: first-families-of-warren-county

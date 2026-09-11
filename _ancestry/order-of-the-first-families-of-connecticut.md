@@ -7,6 +7,9 @@ date: 2024-04-27
 member_number: 355
 qualifying_ancestor: William Rees
 qualifying_ancestors: [ "Susanna Whitehead (New Haven)" ]
+ancestor_names: ["Susanna Whitehead"]
+places: ["Connecticut", "New Jersey"]
+topics: ["Colonial settlement", "Migration and settlement"]
 author: k3jph
 layout: page
 guid: order-of-the-first-families-of-connecticut

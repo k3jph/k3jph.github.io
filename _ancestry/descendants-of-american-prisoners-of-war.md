@@ -6,6 +6,9 @@ subtitle: Member _jure_ Pfc Ralph Everett Rees; member no. 48
 date: 2026-01-10
 founding_date: 2021-12-31
 qualifying_ancestors: [ "Pfc Ralph Everett Rees" ]
+ancestor_names: ["Ralph Everett Rees"]
+places: ["Kentucky", "Ohio"]
+topics: ["Military service", "World War II"]
 member_number: 238
 author: k3jph
 layout: page

@@ -7,6 +7,9 @@ date: 2024-08-21
 member_number: 546
 qualifying_ancestor: William Rees
 qualifying_ancestors: [ "William Rees (1834)", "Eunice Marcella Burch (1855)" ]
+ancestor_names: ["William Rees", "Eunice Marcella Burch"]
+places: ["Ohio"]
+topics: ["Early settlement"]
 author: k3jph
 layout: page
 guid: settlers-and-builders-of-ohio

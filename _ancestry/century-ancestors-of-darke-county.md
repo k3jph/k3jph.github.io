@@ -6,6 +6,9 @@ subtitle: Member _jure_ Samuel R. Hall (1869) and Nancy Jane Coate (1860)
 date: 2024-10-02
 author: k3jph
 qualifying_ancestors: [ "Nancy Jane Coate (1860)", "Samuel R. Hall (1869)" ]
+ancestor_names: ["Nancy Jane Coate", "Samuel R. Hall"]
+places: ["Ohio"]
+topics: ["Local history"]
 layout: page
 guid: century-ancestors-of-darke-county
 featured_image: /assets/img/ancestry/century-ancestors-of-darke-county.webp
