@@ -12,9 +12,8 @@
   color: #fff;
 }
 
-.service-current .title-area {
+.service-current-title-area {
   margin: 0 0 2.5rem;
-  padding: 0;
   text-align: center;
 }
 
@@ -22,8 +21,9 @@
   color: #fff;
 }
 
-.service-current .title-area .description {
-  color: #feefa8 !important;
+.service-current-title-area p {
+  margin: 0;
+  color: #feefa8;
   font-family: "Spectral", Georgia, serif;
   line-height: 1.55;
 }
@@ -35,9 +35,10 @@
   border-color: #feefa8;
 }
 
-.service-current-grid {
+.service-current-grid,
+.service-history-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
 }
 
@@ -109,6 +110,8 @@
 
 .service-history-group {
   margin: 0 0 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #d8d0bf;
 }
 
 .service-history-group h3 {
@@ -125,10 +128,6 @@
 .service-entry {
   padding: 1.2rem 0;
   border-top: 1px solid #d8d0bf;
-}
-
-.service-history-group .service-entry:last-child {
-  border-bottom: 1px solid #d8d0bf;
 }
 
 .service-entry h4 {
@@ -163,19 +162,14 @@
   line-height: 1.58;
 }
 
-@media (max-width: 991px) {
-  .service-current-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .service-current {
     margin-bottom: 3rem;
     padding: 3rem 0;
   }
 
-  .service-current-grid {
+  .service-current-grid,
+  .service-history-grid {
     grid-template-columns: 1fr;
   }
 

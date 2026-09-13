@@ -19,11 +19,11 @@ The active record comes first. The historical record follows: public and civic d
 </div>
 
 {% assign current_roles = site.data.service | where: "current", true %}
-<section class="service-current">
+<section class="service-current" aria-labelledby="current-service">
   <div class="container service-current-inner">
-    <div class="title-area">
-      <h2>Current Service</h2>
-      <p class="description">Active appointments in public service, nonprofit governance, and professional stewardship.</p>
+    <div class="service-current-title-area">
+      <h2 id="current-service">Current Service</h2>
+      <p>Active appointments in public service, nonprofit governance, and professional stewardship.</p>
     </div>
 
     <div class="service-current-grid">
@@ -50,6 +50,7 @@ The active record comes first. The historical record follows: public and civic d
     <h3 id="public-civic-service">Public and Civic Service</h3>
     <p class="service-history-group-introduction">County adjudication, local-government design, and community stewardship.</p>
 
+    <div class="service-history-grid">
     {% for role in public_roles %}
     <article class="service-entry">
       <h4>{% if role.detail_page %}<a href="{{ role.detail_page | relative_url }}">{% endif %}{{ role.organization }}{% if role.detail_page %}</a>{% endif %}</h4>
@@ -57,12 +58,14 @@ The active record comes first. The historical record follows: public and civic d
       <p class="service-summary">{{ role.summary }}</p>
     </article>
     {% endfor %}
+    </div>
   </section>
 
   <section class="service-history-group" aria-labelledby="professional-scholarly-service">
     <h3 id="professional-scholarly-service">Professional and Scholarly Service</h3>
     <p class="service-history-group-introduction">Professional-association, academic, and alumni governance work.</p>
 
+    <div class="service-history-grid">
     {% for role in professional_roles %}
     <article class="service-entry">
       <h4>{{ role.organization }}</h4>
@@ -70,5 +73,6 @@ The active record comes first. The historical record follows: public and civic d
       <p class="service-summary">{{ role.summary }}</p>
     </article>
     {% endfor %}
+    </div>
   </section>
 </section>
