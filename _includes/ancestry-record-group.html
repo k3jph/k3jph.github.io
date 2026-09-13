@@ -1,11 +1,11 @@
 {% assign records = site.ancestry | where: "class", include.class | sort: "title" %}
 <section class="ancestry-record-group" id="{{ include.id }}" data-ancestry-group aria-labelledby="{{ include.id }}-heading">
   <header class="ancestry-record-group-header">
-    <div>
+    <h3 id="{{ include.id }}-heading">{{ include.heading }}</h3>
+    <div class="ancestry-record-group-meta">
       <p class="ancestry-record-group-kicker">{{ include.kicker }}</p>
-      <h3 id="{{ include.id }}-heading">{{ include.heading }}</h3>
+      <span class="ancestry-record-group-count">{{ records | size }} {% if records.size == 1 %}record{% else %}records{% endif %}</span>
     </div>
-    <span class="ancestry-record-group-count">{{ records | size }} records</span>
   </header>
 
   <div class="ancestry-record-list" role="table" aria-label="{{ include.heading }}">

@@ -248,30 +248,36 @@
 }
 
 .ancestry-record-group-header {
-  display: flex;
-  gap: 1.5rem;
-  align-items: center;
-  justify-content: space-between;
   margin: 0;
-  padding: 1rem 1.15rem;
+  padding: 1.05rem 1.15rem 1rem;
   background: #283f5c;
   color: #fff;
 }
 
 .ancestry-record-group-header h3 {
-  margin: 0;
+  margin: 0 0 0.6rem;
   color: #fff;
   font-size: 1.28em;
 }
 
+.ancestry-record-group-meta {
+  display: flex;
+  gap: 1.5rem;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
 .ancestry-record-group-header .ancestry-record-group-kicker {
+  margin: 0;
   color: #feefa8;
+  font-size: 0.875rem;
 }
 
 .ancestry-record-group-count {
+  flex: 0 0 auto;
   color: #fff;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.82em;
+  font-size: 0.82rem;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -590,13 +596,11 @@
   }
 
   .ancestry-archive-header,
-  .ancestry-record-group-header,
   .ancestry-detail-context {
     display: block;
   }
 
   .ancestry-result-count,
-  .ancestry-record-group-count,
   .ancestry-detail-type {
     display: block;
     margin-top: 0.85rem;
