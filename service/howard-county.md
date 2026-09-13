@@ -111,10 +111,6 @@ has not been changed since 2008.
 * [Final Report](/assets/docs/pelu-report-rev.pdf)
 * Charter of the Task Force, Council Resolution 132-2007
 
-## Related Posts
-
-
-
 ::related-posts{tag="Howard County"}
 
 

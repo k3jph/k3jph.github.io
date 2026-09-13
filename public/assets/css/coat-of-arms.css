@@ -67,12 +67,12 @@
   text-transform: uppercase;
 }
 
-.coat-of-arms-summary > .title-area {
+.coat-of-arms-summary > .section-heading {
   margin: 0 0 1.25rem;
   padding: 0;
 }
 
-.coat-of-arms-summary > .title-area h2 {
+.coat-of-arms-summary > .section-heading h2 {
   margin: 0;
 }
 
@@ -124,8 +124,8 @@
   padding-left: 0;
 }
 
-.coat-of-arms-section .title-area,
-.coat-of-arms-band .title-area {
+.coat-of-arms-section .section-heading,
+.coat-of-arms-band .section-heading {
   margin-bottom: 2.5rem;
   padding: 0;
 }

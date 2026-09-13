@@ -9,7 +9,7 @@ guid: http://localhost/wp-faculty/?page_id=2
 
 
 
-:::figure{src="/assets/img/jhoward-greenglow.webp" alt="Me at the 2017 Howard County Library Evening in the Stacks" align="right" width="4"}
+:::figure{src="/assets/img/jhoward-greenglow.webp" alt="Me at the 2017 Howard County Library Evening in the Stacks" align="right" width="4" role="portrait"}
 Me at the 2017 Howard County Library Evening in the Stacks
 :::
 

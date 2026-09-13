@@ -28,13 +28,6 @@
   line-height: 1.55;
 }
 
-.service-current .separator,
-.service-current .separator::before,
-.service-current .separator::after {
-  color: #feefa8;
-  border-color: #feefa8;
-}
-
 .service-current-grid,
 .service-history-grid {
   display: grid;

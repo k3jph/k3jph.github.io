@@ -2,7 +2,7 @@
 .westarctica-introduction { color:#635e53; font-family:"Spectral",Georgia,serif; line-height:1.6; margin:0 0 1.75rem; text-align:center; }
 .westarctica-summary,.westarctica-orders { background:#283f5c; color:#fff; margin-left:calc(50% - 50vw); margin-right:calc(50% - 50vw); padding:3.5rem 0; }
 .westarctica-summary { margin-bottom:4.25rem; }
-.westarctica-summary .title-area,.westarctica-orders .title-area { margin:0 auto; padding:0; }
+.westarctica-summary .section-heading,.westarctica-orders .section-heading { margin:0 auto; padding:0; }
 .westarctica-summary h2,.westarctica-orders h2 { color:#f0d660; margin-top:0; text-align:center; }
 .westarctica-card-grid { display:grid; gap:20px; grid-template-columns:repeat(3,minmax(0,1fr)); margin-top:2.25rem; }
 .westarctica-card { background:rgba(16,28,44,.2); border:1px solid rgba(255,255,255,.25); min-height:100%; padding:1.4rem 1.5rem; }
@@ -12,8 +12,8 @@
 .westarctica-card-label { color:#f0d660; margin-bottom:.45rem; }
 .westarctica-card h3 { color:#fff; font-size:1.25em; line-height:1.25; margin:0 0 .5rem; }
 .westarctica-card p:last-child { font-size:.9em; line-height:1.55; margin:.85rem 0 0; }
-.westarctica-record > .title-area { margin:4.25rem auto 2rem; padding:0; }
-.westarctica-record > .title-area h2 { color:#2e2c28; text-align:center; }
+.westarctica-record > .section-heading { margin:4.25rem auto 2rem; padding:0; }
+.westarctica-record > .section-heading h2 { color:#2e2c28; text-align:center; }
 .westarctica-record > h3 { color:#2e2c28; margin:2.6rem 0 1rem; }
 .westarctica-record > p { line-height:1.72; }
 .westarctica-document { margin:2rem 0 3.25rem; }
@@ -33,5 +33,5 @@
 .westarctica-record > ul { padding-left:1.35rem; }
 .westarctica-record > ul li { line-height:1.55; margin-bottom:.85rem; }
 @media (max-width:991px) { .westarctica-card-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
-@media (max-width:767px) { .westarctica-introduction { text-align:left; } .westarctica-summary,.westarctica-orders { padding-bottom:2.75rem; padding-top:2.75rem; } .westarctica-summary { margin-bottom:3rem; } .westarctica-record > .title-area { margin-top:3.25rem; } .westarctica-order-documents { display:block; } }
+@media (max-width:767px) { .westarctica-introduction { text-align:left; } .westarctica-summary,.westarctica-orders { padding-bottom:2.75rem; padding-top:2.75rem; } .westarctica-summary { margin-bottom:3rem; } .westarctica-record > .section-heading { margin-top:3.25rem; } .westarctica-order-documents { display:block; } }
 @media (max-width:600px) { .westarctica-card-grid { grid-template-columns:1fr; } .westarctica-card { padding:1.25rem; } .westarctica-document { margin-bottom:2.5rem; margin-top:1.5rem; } }

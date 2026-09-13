@@ -1,5 +1,6 @@
 ---
+import JHCard from './JHCard.astro';
 import { sitePath } from '../lib/site';
-const { item, heading='h3' }=Astro.props;const H=heading;const rawHref=item.detail_page||item.detail_url||item.url||item.publisher_url;const href=rawHref?sitePath(rawHref):undefined;
+const { item, heading='h3', variant='default' }=Astro.props;const H=heading;const rawHref=item.detail_page||item.detail_url||item.url||item.publisher_url;const href=rawHref?sitePath(rawHref):undefined;
 ---
-<article class="record-card">{item.category&&<p class="eyebrow">{item.category}</p>}<H>{href?<a href={href}>{item.title||item.name||item.organization}</a>:item.title||item.name||item.organization}</H>{(item.role||item.issuer)&&<p class="metadata">{item.role||item.issuer}{item.date||item.dates?` · ${item.date||item.dates}`:''}</p>}{item.summary&&<p set:html={item.summary}/>}</article>
+<JHCard variant={variant}>{item.category&&<p class="eyebrow">{item.category}</p>}<H>{href?<a href={href}>{item.title||item.name||item.organization}</a>:item.title||item.name||item.organization}</H>{(item.role||item.issuer)&&<p class="metadata">{item.role||item.issuer}{item.date||item.dates?` · ${item.date||item.dates}`:''}</p>}{item.summary&&<p set:html={item.summary}/>}</JHCard>

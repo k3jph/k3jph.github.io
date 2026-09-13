@@ -21,19 +21,13 @@ featured_image: /assets/img/honors.webp
   <a href="#sources">Sources</a>
 </nav>
 
-<div class="title-area">
-  <h2 id="what-is-it">So What Is It?</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-</div>
+::section-heading{title="So What Is It?" id="what-is-it"}
 
 The [Order of the Golden Owl](https://goldowl.org/about) describes itself as a private, lay, international, fraternal order of a chivalric nature, founded in 2020 by Clifford Brunetti. It says that it operates independently of governmental and religious institutions, makes no claim to noble titles, and does not require a monarch, prince, or other font of honor to validate the fraternity.
 
 Those distinctions matter. The Golden Owl is not presented here as a historic state order, a dynastic order, or an extension of another honors system. It is a contemporary voluntary association with a deliberately chivalric vocabulary and format.
 
-<div class="title-area">
-  <h2 id="squire-academy">The Squire Academy</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-</div>
+::section-heading{title="The Squire Academy" id="squire-academy"}
 
 The public path begins with admission as a Squire, followed by the Squire Academy and its lessons and exercises. The Order describes completion of the training as the step before a ceremonial knighting and entry into its fellowship. It also makes heraldry part of its public identity, including member arms and the use of heraldic display.
 
@@ -43,10 +37,7 @@ That combination—curriculum, ceremony, badges, heraldic interest, and a privat
 
 <div class="content-section" markdown="1">
 
-<div class="title-area">
-  <h2>Knight of the Fraternal Order of the Golden Owl</h2>
-  <div class="separator separator-warning"><img src="/assets/img/identity/kamon-warning.svg" height="35" alt="" /></div>
-</div>
+::section-heading{title="Knight of the Fraternal Order of the Golden Owl" variant="gold"}
 
 <div class="content-grid content-grid--center">
   <div class="content-grid__item content-grid__item--half">
@@ -75,19 +66,13 @@ The brevet declares James P. Howard, PhD a Knight of the Fraternal Order of the 
 
 </section>
 
-<div class="title-area">
-  <h2 id="modern-chivalry">Modern Chivalry as an Experiment</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-</div>
+::section-heading{title="Modern Chivalry as an Experiment" id="modern-chivalry"}
 
 Modern chivalric organizations are not all the same thing. Some are state honors; some are dynastic or historic institutions; some are private fraternities built around ceremony, fellowship, and particular ideas of service or personal conduct. The Golden Owl belongs to the last category by its own description.
 
 That category is worth understanding on its own terms, especially where heraldry, education, and ritual are used to make a community feel legible to its members. I was curious about the mechanism. I wanted to know how it worked. Now I do.
 
-<div class="title-area">
-  <h2 id="sources">Documents and Sources</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-</div>
+::section-heading{title="Documents and Sources" id="sources"}
 
 - [Knight’s brevet](/assets/docs/JHoward-Order-of-the-Golden-Owl.pdf).
 - [Order of the Golden Owl: About the Order](https://goldowl.org/about).

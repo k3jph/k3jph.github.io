@@ -7,7 +7,7 @@ const groups = {
   pages: await fg(['*.{md,html}', 'archive/**/*.{md,html}', 'books/**/*.{md,html}', 'games/**/*.{md,html}', 'honors/**/*.{md,html}', 'service/**/*.{md,html}', 'content/fragments/*.md'], { ignore: ['README.md'] }),
 };
 const bootstrap = /^(?:row|container-fluid|col-(?:xs|sm|md|lg|xl)-\d+|btn(?:-[a-z]+)?|pull-(?:left|right)|m[trblxy]?-[n]?\d+|p[trblxy]?-[n]?\d+)$/;
-const allowedDirectives = new Set(['book-detail', 'callout', 'credential-grid', 'document', 'embed', 'figure', 'fragment', 'professional-recognition', 'related-posts', 'ribbon-rack', 'youtube']);
+const allowedDirectives = new Set(['book-detail', 'callout', 'credential-grid', 'document', 'embed', 'figure', 'fragment', 'professional-recognition', 'related-posts', 'ribbon-rack', 'section-heading', 'youtube']);
 const errors = [];
 const report = {};
 
@@ -38,6 +38,8 @@ for (const [name, files] of Object.entries(groups)) {
     if (bootstrapClasses) errors.push(`${file}: ${bootstrapClasses} Bootstrap class(es)`);
     if (inlineStyles) errors.push(`${file}: ${inlineStyles} inline style(s)`);
     if (contentScripts) errors.push(`${file}: ${contentScripts} content script(s)`);
+    if (/\b(?:title-area|separator-(?:info|warning)|card-body|card-title|h-100)\b/.test(source)) errors.push(`${file}: legacy presentation class`);
+    if (/class=["']breadcrumbs?["']/.test(source)) errors.push(`${file}: content breadcrumb`);
     for (const iframe of source.matchAll(/<iframe\b([^>]*)>/gi)) if (!/\btitle\s*=/.test(iframe[1])) errors.push(`${file}: iframe without a title`);
   }
   report[name] = totals;

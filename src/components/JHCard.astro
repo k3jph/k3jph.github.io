@@ -1,0 +1,22 @@
+---
+interface Props {
+  as?: 'article' | 'section' | 'li';
+  variant?: 'default' | 'compact' | 'featured' | 'dark';
+  class?: string;
+  [key: string]: unknown;
+}
+
+const {
+  as = 'article',
+  variant = 'default',
+  class: className,
+  ...attributes
+} = Astro.props as Props;
+const Tag = as;
+const hasMedia = Astro.slots.has('media');
+---
+
+<Tag class:list={['jh-card', `jh-card--${variant}`, className]} {...attributes}>
+  {hasMedia && <div class="jh-card__media"><slot name="media"/></div>}
+  <div class="jh-card__body"><slot/></div>
+</Tag>

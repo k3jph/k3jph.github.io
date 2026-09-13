@@ -32,13 +32,30 @@ function walk(node) {
     // value was <= 12. Preserve that meaning without retaining the grid.
     const width = Math.max(10, Math.min(100, Math.round(rawWidth <= 12 ? rawWidth / 12 * 100 : rawWidth)));
     const align = ['left', 'right', 'center'].includes(attributes.align) ? attributes.align : 'center';
-    const classes = ['content-figure', `content-figure--${align}`, `content-figure--w-${width}`];
-    const image = { type: 'image', url: assetPath(attributes.src), alt: attributes.alt ?? '', title: null, data: { hProperties: { loading: attributes.loading ?? 'lazy', className: attributes.border === 'true' ? ['image-border'] : [] } } };
+    const allowedRoles = ['primary', 'documentary', 'supporting', 'emblem', 'portrait', 'gallery'];
+    const inferredRole = attributes.role ?? (width <= 33 ? (align === 'center' ? 'emblem' : 'supporting') : width >= 75 ? (attributes.border === 'true' ? 'documentary' : 'primary') : 'documentary');
+    const role = allowedRoles.includes(inferredRole) ? inferredRole : 'documentary';
+    const classes = ['content-figure', `content-figure--${align}`, `content-figure--w-${width}`, `content-figure--${role}`];
+    const source = assetPath(attributes.src);
+    const image = { type: 'image', url: source, alt: attributes.alt ?? '', title: null, data: { hProperties: { loading: attributes.loading ?? 'lazy', className: attributes.border === 'true' ? ['image-border'] : [], ...(role === 'gallery' ? { 'data-gallery-src': source } : {}) } } };
     const media = attributes.link ? { type: 'link', url: attributes.link, children: [image] } : image;
     const caption = node.children ?? [];
     if (caption[0]?.type === 'paragraph') caption[0].data = { ...(caption[0].data ?? {}), hName: 'figcaption' };
     node.data = { hName: 'figure', hProperties: { className: classes } };
     node.children = [media, ...caption];
+    return;
+  }
+
+  if (node.name === 'section-heading') {
+    const title = escapeHtml(attributes.title);
+    const id = attributes.id ? ` id="${escapeHtml(attributes.id)}"` : '';
+    const level = attributes.level === 'h3' ? 'h3' : 'h2';
+    const variant = ['navy', 'gold', 'light'].includes(attributes.variant) ? attributes.variant : 'navy';
+    const description = attributes.description ? `<p class="section-heading__description">${escapeHtml(attributes.description)}</p>` : '';
+    const image = variant === 'navy' ? '/assets/img/identity/kamon-info.svg' : '/assets/img/identity/kamon-warning.svg';
+    node.type = 'html';
+    node.value = `<header class="section-heading section-heading--${variant}"><${level}${id}>${title}</${level}><div class="heading-divider heading-divider--${variant}" aria-hidden="true"><span class="heading-divider__rule"></span><img src="${image}" alt="" width="32" height="32"><span class="heading-divider__rule"></span></div>${description}</header>`;
+    delete node.children;
     return;
   }
 

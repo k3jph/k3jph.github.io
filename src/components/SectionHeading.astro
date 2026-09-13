@@ -1,0 +1,32 @@
+---
+import HeadingDivider from './HeadingDivider.astro';
+
+interface Props {
+  title: string;
+  id?: string;
+  eyebrow?: string;
+  description?: string;
+  level?: 'h2' | 'h3';
+  variant?: 'navy' | 'gold' | 'light';
+  align?: 'center' | 'left';
+}
+
+const {
+  title,
+  id,
+  eyebrow,
+  description,
+  level = 'h2',
+  variant = 'navy',
+  align = 'center',
+} = Astro.props;
+const Heading = level;
+---
+
+<header class:list={['section-heading', `section-heading--${variant}`, `section-heading--${align}`]}>
+  {eyebrow && <p class="eyebrow">{eyebrow}</p>}
+  <Heading id={id}>{title}</Heading>
+  <HeadingDivider variant={variant}/>
+  {description && <p class="section-heading__description">{description}</p>}
+  <slot/>
+</header>

@@ -36,10 +36,7 @@ credits: >-
 
 <div class="content-section" markdown="1">
 
-<div class="title-area">
-  <h2 id="my-appointment">My Appointment</h2>
-  <div class="separator separator-warning"><img src="/assets/img/identity/kamon-warning.svg" height="35" alt="" /></div>
-</div>
+::section-heading{title="My Appointment" id="my-appointment" variant="gold"}
 
 On March 17, 2024, I was appointed **Knight Commander of the Royal Order of
 the Star of Oceania**. The appointment record identifies the issuing authority as H.R.H.
@@ -57,10 +54,10 @@ Contemporary insignia issued with James Howard's appointment
 
   </div>
   <div class="content-grid__item content-grid__item--half">
-    <div class="card h-100">
-      <div class="card-body">
-        <h3 class="card-title">Appointment record</h3>
-        <dl class="">
+    <div class="jh-card jh-card--featured">
+      <div class="jh-card__body">
+        <h3>Appointment record</h3>
+        <dl>
           <dt>Grade</dt>
           <dd>Knight Commander</dd>
           <dt>Recipient</dt>
@@ -86,10 +83,7 @@ questions, and this page keeps them separate.
 
 </section>
 
-<div class="title-area">
-  <h2 id="historical-order">The Historical Royal Order</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-</div>
+::section-heading{title="The Historical Royal Order" id="historical-order"}
 
 King Kalākaua founded the historical Royal Order of the Star of Oceania on
 December 16, 1886. Its Hawaiian name is recorded as *ʻOihana Kea
@@ -115,10 +109,7 @@ issuer's revised system.
   <strong>One name, two records.</strong> The nineteenth-century order is documented through its statutes and surviving museum objects. My appointment records a present-day ceremonial honor under the same historical name.
 </aside>
 
-<div class="title-area">
-  <h2 id="pacific-confederation">Kalākaua and the Pacific Confederation</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-</div>
+::section-heading{title="Kalākaua and the Pacific Confederation" id="pacific-confederation"}
 
 The Order made sense within Kalākaua's wider attempt to increase Hawaiʻi's
 influence and build cooperation among independent Pacific polities at a moment
@@ -142,10 +133,7 @@ international policy, see Lorenz Gonschor's
 and Kealani Cook's accessible account of
 [Kalākaua's Polynesian confederacy](https://worldhistoryconnected.press.uillinois.edu/8.3/forum_cook.html).
 
-<div class="title-area">
-  <h2 id="insignia-and-grades">Insignia and Grades</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-</div>
+::section-heading{title="Insignia and Grades" id="insignia-and-grades"}
 
 Historical pieces in the ʻIolani Palace collection include a Commander example
 of the nineteenth-century order. Scholarly accounts attribute the historical
@@ -160,10 +148,7 @@ nineteenth-century grade. The distinction is useful rather than embarrassing:
 the historical order can be documented through museum objects and its statutes,
 while the present instrument documents a contemporary ceremonial appointment.
 
-<div class="title-area">
-  <h2 id="end-of-monarchy">1893 and the End of the Monarchy</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-</div>
+::section-heading{title="1893 and the End of the Monarchy" id="end-of-monarchy"}
 
 Queen Liliʻuokalani was overthrown in January 1893 by the Committee of Safety,
 with the support of United States Minister John L. Stevens and a contingent of
@@ -177,10 +162,7 @@ After the overthrow, the Star of Oceania no longer functioned as an order of a
 reigning Hawaiian state. I have not found a primary instrument that supports
 calling it legally “abolished,” so that stronger claim does not appear here.
 
-<div class="title-area">
-  <h2 id="contemporary-order">The Contemporary Order</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-</div>
+::section-heading{title="The Contemporary Order" id="contemporary-order"}
 
 The organization headed by Owana Kaʻōhelelani Salazar maintains a contemporary
 order under the historical name. Its [own Order page](https://www.crownofhawaii.com/royal-order-of-the-star-of-oceania)
@@ -197,10 +179,7 @@ for a male Knight Commander. That verifies its use for the contemporary order;
 the preserved /kcrso redirect remains a compatibility route, not evidence
 that the same abbreviation belonged to the 1886 system.
 
-<div class="title-area">
-  <h2 id="modern-dynastic-context">The Modern Dynastic Context</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-</div>
+::section-heading{title="The Modern Dynastic Context" id="modern-dynastic-context"}
 
 Owana Kaʻōhelelani Salazar claims headship of the Royal House of Hawaiʻi through
 the Laʻanui/Keōua Nui line. Her organization's description of the contemporary
@@ -213,10 +192,7 @@ between competing modern claims.
 That caution does not erase my appointment. It is a real contemporary honor
 issued by the organization that describes itself in those terms.
 
-<div class="title-area">
-  <h2 id="diploma-and-insignia">Diploma and Insignia</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-</div>
+::section-heading{title="Diploma and Insignia" id="diploma-and-insignia"}
 
 The diploma is not reproduced here. Its material appointment lines name
 **James Patrick Howard II** as **Knight Commander of the Royal Order of the
@@ -234,10 +210,7 @@ Hawaiʻi*.
   </blockquote>
 </div>
 
-<div class="title-area">
-  <h2 id="sources">Sources and Further Reading</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-</div>
+::section-heading{title="Sources and Further Reading" id="sources"}
 
 - [ʻIolani Palace, Royal Orders collection](https://www.iolanipalace.org/palace-collections/royal-orders/) and its [Royal Order of the Star of Oceania collection record](https://www.iolanipalace.org/palace-collections/royal-orders/royal-order-star-of-oceania-web/).
 - [Smithsonian National Museum of American History, *Royal Order of the Star of Oceania*](https://americanhistory.si.edu/collections/object/nmah_963062).

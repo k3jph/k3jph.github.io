@@ -23,7 +23,7 @@ redirect_from:
   <div class="coat-of-arms-principal">
 
 
-:::figure{src="/assets/img/armory/jhoward-salmeron-960px.webp" alt="Full heraldic achievement of James Patrick Howard II, interpreted by Dr Antonio Salmerón" align="center" width="12" border="true" loading="eager"}
+:::figure{src="/assets/img/armory/jhoward-salmeron-960px.webp" alt="Full heraldic achievement of James Patrick Howard II, interpreted by Dr Antonio Salmerón" align="center" width="12" border="true" loading="eager" role="primary"}
 Interpreted by [Dr Antonio Salmerón](http://blason.es/)
 :::
 
@@ -31,10 +31,7 @@ Interpreted by [Dr Antonio Salmerón](http://blason.es/)
   </div>
   <div class="coat-of-arms-summary">
     <p class="coat-of-arms-eyebrow">Personal armorial record</p>
-    <div class="title-area">
-      <h2 id="armorial-summary">The Arms at a Glance</h2>
-      <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-    </div>
+    ::section-heading{title="The Arms at a Glance" id="armorial-summary"}
     <dl class="coat-of-arms-facts">
       <div><dt>Granting authority</dt><dd>Office of the Chief Herald of Arms of Malta</dd></div>
       <div><dt>Letters Patent</dt><dd>G0102</dd></div>
@@ -60,10 +57,7 @@ Interpreted by [Dr Antonio Salmerón](http://blason.es/)
 <section class="coat-of-arms-band coat-of-arms-band--navy coat-of-arms-heraldry" aria-labelledby="heraldry-context" markdown="1">
 <div class="content-section" markdown="1">
 
-<div class="title-area">
-  <h2 id="heraldry-context" class="text-warning">Heraldry</h2>
-  <div class="separator separator-warning"><img src="/assets/img/identity/kamon-warning.svg" height="35" alt="" /></div>
-</div>
+::section-heading{title="Heraldry" id="heraldry-context" variant="light"}
 
 At its core, heraldry began as a system of identification. Over centuries, it
 evolved from simple insignia into the complex art and science of designing,
@@ -97,11 +91,7 @@ this page belongs to the first category.
 <section class="coat-of-arms-band coat-of-arms-band--soft coat-of-arms-grant" aria-labelledby="the-grant" markdown="1">
 <div class="content-section" markdown="1">
 
-<div class="title-area">
-  <h2 id="the-grant">The Grant</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-  <p class="description">The Maltese authority, Letters Patent, and documentary record.</p>
-</div>
+::section-heading{title="The Grant" id="the-grant" description="The Maltese authority, Letters Patent, and documentary record."}
 
 <nav class="coat-of-arms-local-nav" aria-label="The Grant sections">
   <a href="#heraldry-in-malta">Maltese context</a>
@@ -121,7 +111,7 @@ and municipalities, forming part of the visual language of national identity.
 
 
 
-:::figure{src="/assets/img/Coat-of-Arms-Chief-Herald-Malta.webp" alt="Arms of the Office of the Chief Herald" align="right" width="40%"}
+:::figure{src="/assets/img/Coat-of-Arms-Chief-Herald-Malta.webp" alt="Arms of the Office of the Chief Herald" align="right" width="40%" role="supporting"}
 Arms of the Office of the Chief Herald
 :::
 
@@ -160,7 +150,7 @@ elements expressly granted in the Letters Patent.
 
 
 
-:::figure{src="/2024/a-maltese-grant-of-arms.webp" alt="Letters patent for the coat of arms" align="center" width="12" border="true"}
+:::figure{src="/2024/a-maltese-grant-of-arms.webp" alt="Letters patent for the coat of arms" align="center" width="12" border="true" role="documentary"}
 Letters patent for the coat of arms
 :::
 
@@ -188,7 +178,7 @@ issue](/assets/docs/malta-government-gazette-20240216.pdf).
 
 
 
-:::figure{src="/armory/jhoward-malta-letters-patent-binder.webp" alt="Cover for letters patent in binder format" align="right" width="4" border="true" link="/assets/docs/jhoward-malta-letters-patent-binder.pdf"}
+:::figure{src="/armory/jhoward-malta-letters-patent-binder.webp" alt="Cover for letters patent in binder format" align="right" width="4" border="true" link="/assets/docs/jhoward-malta-letters-patent-binder.pdf" role="documentary"}
 Cover for letters patent in binder format
 :::
 
@@ -207,11 +197,7 @@ You may [download the PDF here](/assets/docs/jhoward-malta-letters-patent-binder
 
 <section class="coat-of-arms-section coat-of-arms-arms" aria-labelledby="the-arms" markdown="1">
 
-<div class="title-area">
-  <h2 id="the-arms">The Arms</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-  <p class="description">The controlling blazon, the design's personal origins, and the motto.</p>
-</div>
+::section-heading{title="The Arms" id="the-arms" description="The controlling blazon, the design's personal origins, and the motto."}
 
 ### Blazon {#blazon}
 
@@ -266,11 +252,7 @@ encountered during his term of office.
 
 <section class="coat-of-arms-section coat-of-arms-emblazonments" aria-labelledby="emblazonments" markdown="1">
 
-<div class="title-area">
-  <h2 id="emblazonments">Emblazonments</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-  <p class="description">Different artists, one formal blazon.</p>
-</div>
+::section-heading{title="Emblazonments" id="emblazonments" description="Different artists, one formal blazon."}
 
 ### Emblazonment {#emblazonment}
 
@@ -287,7 +269,7 @@ In this section, various interpretations of the arms are displayed, each adherin
 <div id="masonry-container" class="coat-of-arms-gallery" data-layout="css-grid">
 
 
-:::figure{src="/assets/img/armory/jhoward-coa-ratul-960px.webp" alt="Interpreted by Ratul S" align="left" width="4" border="true" loading="lazy"}
+:::figure{src="/assets/img/armory/jhoward-coa-ratul-960px.webp" alt="Interpreted by Ratul S" align="left" width="4" border="true" loading="lazy" role="gallery"}
 Interpreted by [Ratul S](https://www.fiverr.com/ratulsen544)
 :::
 
@@ -295,7 +277,7 @@ Interpreted by [Ratul S](https://www.fiverr.com/ratulsen544)
 
 
 
-:::figure{src="/assets/img/armory/jhoward-coa-achernushkin-960px.webp" alt="Interpreted by Alexandr Chernushkin" align="left" width="4" loading="lazy"}
+:::figure{src="/assets/img/armory/jhoward-coa-achernushkin-960px.webp" alt="Interpreted by Alexandr Chernushkin" align="left" width="4" loading="lazy" role="gallery"}
 Interpreted by [Alexandr Chernushkin](https://www.fiverr.com/achernushkin)
 :::
 
@@ -303,7 +285,7 @@ Interpreted by [Alexandr Chernushkin](https://www.fiverr.com/achernushkin)
 
 
 
-:::figure{src="/assets/img/armory/jhoward-arms-hatched.svg" alt="The hatched style by me" align="left" width="4" border="false" loading="lazy"}
+:::figure{src="/assets/img/armory/jhoward-arms-hatched.svg" alt="The hatched style by me" align="left" width="4" border="false" loading="lazy" role="gallery"}
 The hatched style by me
 :::
 
@@ -311,7 +293,7 @@ The hatched style by me
 
 
 
-:::figure{src="/assets/img/armory/jhoward-arms-wappenwiki.svg" alt="The WappenWiki style by me" align="left" width="4" border="false" loading="lazy"}
+:::figure{src="/assets/img/armory/jhoward-arms-wappenwiki.svg" alt="The WappenWiki style by me" align="left" width="4" border="false" loading="lazy" role="gallery"}
 The [WappenWiki](https://wappenwiki.org/) style by me
 :::
 
@@ -319,7 +301,7 @@ The [WappenWiki](https://wappenwiki.org/) style by me
 
 
 
-:::figure{src="/assets/img/armory/jhoward-arms-pierra.svg" alt="Interpreted by Jean-Eudes Pierra" align="left" width="4" border="false" loading="lazy"}
+:::figure{src="/assets/img/armory/jhoward-arms-pierra.svg" alt="Interpreted by Jean-Eudes Pierra" align="left" width="4" border="false" loading="lazy" role="gallery"}
 Interpreted by [Jean-Eudes Pierra](https://www.armorialofthebee.com/)
 :::
 
@@ -327,7 +309,7 @@ Interpreted by [Jean-Eudes Pierra](https://www.armorialofthebee.com/)
 
 
 
-:::figure{src="/assets/img/armory/cowan/howard-james-shield.png" alt="Interpreted by Steve Cowan" align="left" width="4" border="false" loading="lazy"}
+:::figure{src="/assets/img/armory/cowan/howard-james-shield.png" alt="Interpreted by Steve Cowan" align="left" width="4" border="false" loading="lazy" role="gallery"}
 Interpreted by [Steve Cowan](https://www.stevecowan.ca/)
 :::
 
@@ -335,7 +317,7 @@ Interpreted by [Steve Cowan](https://www.stevecowan.ca/)
 
 
 
-:::figure{src="/assets/img/armory/jhoward-armoji.svg" alt="Armoji style" align="left" width="4" border="false" loading="lazy"}
+:::figure{src="/assets/img/armory/jhoward-armoji.svg" alt="Armoji style" align="left" width="4" border="false" loading="lazy" role="gallery"}
 Armoji style
 :::
 
@@ -343,7 +325,7 @@ Armoji style
 
 
 
-:::figure{src="/assets/img/armory/jhoward-arms-loggail.webp" alt="Interpreted by Heikki Halkosaari" align="left" width="4" border="true" loading="lazy"}
+:::figure{src="/assets/img/armory/jhoward-arms-loggail.webp" alt="Interpreted by Heikki Halkosaari" align="left" width="4" border="true" loading="lazy" role="gallery"}
 Interpreted by Heikki Halkosaari
 :::
 
@@ -351,7 +333,7 @@ Interpreted by Heikki Halkosaari
 
 
 
-:::figure{src="/assets/img/armory/jhoward-coa-abshier.webp" alt="Interpreted by Brian Abshier" align="left" width="4" border="false" loading="lazy"}
+:::figure{src="/assets/img/armory/jhoward-coa-abshier.webp" alt="Interpreted by Brian Abshier" align="left" width="4" border="false" loading="lazy" role="gallery"}
 Interpreted by [Brian Abshier](http://art.abshier.us/)
 :::
 
@@ -359,7 +341,7 @@ Interpreted by [Brian Abshier](http://art.abshier.us/)
 
 
 
-:::figure{src="/assets/img/armory/jhoward-coa-manuelpais-keepsake.webp" alt="Interpreted by Manuel Pais in his Keepsake style" align="left" width="4" border="false" loading="lazy"}
+:::figure{src="/assets/img/armory/jhoward-coa-manuelpais-keepsake.webp" alt="Interpreted by Manuel Pais in his Keepsake style" align="left" width="4" border="false" loading="lazy" role="gallery"}
 Interpreted by Manuel Pais in his Keepsake style
 :::
 
@@ -367,7 +349,7 @@ Interpreted by Manuel Pais in his Keepsake style
 
 
 
-:::figure{src="/assets/img/armory/jhoward-coa-manuelpais-cba.webp" alt="Interpreted by Manuel Pais in Carta de Brasão de Armas style" align="left" width="4" border="false" loading="lazy"}
+:::figure{src="/assets/img/armory/jhoward-coa-manuelpais-cba.webp" alt="Interpreted by Manuel Pais in Carta de Brasão de Armas style" align="left" width="4" border="false" loading="lazy" role="gallery"}
 Interpreted by Manuel Pais in Carta de Brasão de Armas style
 :::
 
@@ -375,7 +357,7 @@ Interpreted by Manuel Pais in Carta de Brasão de Armas style
 
 
 
-:::figure{src="/assets/img/armory/jhoward-coa-fairbairn-color.svg" alt="A colored woodcut style by me" align="left" width="4" border="false" loading="lazy"}
+:::figure{src="/assets/img/armory/jhoward-coa-fairbairn-color.svg" alt="A colored woodcut style by me" align="left" width="4" border="false" loading="lazy" role="gallery"}
 A colored woodcut style by me
 :::
 
@@ -383,7 +365,7 @@ A colored woodcut style by me
 
 
 
-:::figure{src="/assets/img/armory/jhoward-arms-dprica.webp" alt="Interpreted by Dimitri Prica" align="left" width="4" border="false" loading="lazy"}
+:::figure{src="/assets/img/armory/jhoward-arms-dprica.webp" alt="Interpreted by Dimitri Prica" align="left" width="4" border="false" loading="lazy" role="gallery"}
 Interpreted by [Dimitri Prica](http://www.dprica.com/)
 :::
 
@@ -398,11 +380,7 @@ Interpreted by [Dimitri Prica](http://www.dprica.com/)
 <section class="coat-of-arms-band coat-of-arms-band--slate coat-of-arms-insignia" aria-labelledby="insignia" markdown="1">
 <div class="content-section" markdown="1">
 
-<div class="title-area">
-  <h2 id="insignia">Derived Devices and Insignia</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-  <p class="description">Later devices developed from the granted arms.</p>
-</div>
+::section-heading{title="Derived Devices and Insignia" id="insignia" description="Later devices developed from the granted arms."}
 
 <nav class="coat-of-arms-local-nav" aria-label="Insignia sections">
   <a href="#crest">Crest</a>
@@ -790,11 +768,7 @@ legal status.
 
 <section class="coat-of-arms-section coat-of-arms-tartan" aria-labelledby="tartan" markdown="1">
 
-<div class="title-area">
-  <h2 id="tartan">Tartan</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-  <p class="description">The personal tartan and four conventional color treatments of its sett.</p>
-</div>
+::section-heading{title="Tartan" id="tartan" description="The personal tartan and four conventional color treatments of its sett."}
 
 <div class="item content-float-right content-grid__item content-grid__item--half">
 <div class="card">
@@ -871,11 +845,7 @@ contexts.
 <section class="coat-of-arms-band coat-of-arms-band--soft coat-of-arms-records" aria-labelledby="other-records" markdown="1">
 <div class="content-section" markdown="1">
 
-<div class="title-area">
-  <h2 id="other-records">Other Records and Registrations</h2>
-  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
-  <p class="description">Later records of the arms maintained by private and non-governmental bodies.</p>
-</div>
+::section-heading{title="Other Records and Registrations" id="other-records" description="Later records of the arms maintained by private and non-governmental bodies."}
 
 <nav class="coat-of-arms-local-nav" aria-label="Other records and registrations">
   <a href="#american-armigers">American Armigers</a>
@@ -892,21 +862,21 @@ the original Maltese Letters Patent remain the controlling grant.
 <div class="coat-of-arms-gallery">
 
 
-:::figure{src="/armory/jhoward-american-armigers-registration.webp" alt="American Armigers registration certificate AA0183" align="center" width="12" border="true" link="/assets/docs/jhoward-american-armigers-registration.pdf"}
+:::figure{src="/armory/jhoward-american-armigers-registration.webp" alt="American Armigers registration certificate AA0183" align="center" width="12" border="true" link="/assets/docs/jhoward-american-armigers-registration.pdf" role="documentary"}
 American Armigers registration certificate AA0183
 :::
 
 
 
 
-:::figure{src="/armory/jhoward-nehgs-coh-letter.webp" alt="Record letter from the NEHGS Committee on Heraldry" align="center" width="12" border="true" link="/assets/docs/jhoward-nehgs-coh-letter.pdf"}
+:::figure{src="/armory/jhoward-nehgs-coh-letter.webp" alt="Record letter from the NEHGS Committee on Heraldry" align="center" width="12" border="true" link="/assets/docs/jhoward-nehgs-coh-letter.pdf" role="documentary"}
 Record letter from the NEHGS Committee on Heraldry
 :::
 
 
 
 
-:::figure{src="/armory/jhoward-ach-registration.webp" alt="Registration certificate from the American College of Heraldry" align="center" width="12" border="true" link="/assets/docs/jhoward-ach-registration.pdf"}
+:::figure{src="/armory/jhoward-ach-registration.webp" alt="Registration certificate from the American College of Heraldry" align="center" width="12" border="true" link="/assets/docs/jhoward-ach-registration.pdf" role="documentary"}
 Registration certificate from the American College of Heraldry
 :::
 

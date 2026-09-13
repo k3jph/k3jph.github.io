@@ -10,11 +10,11 @@
   padding: 4.5rem 0;
 }
 
-.software-section .title-area {
+.software-section .section-heading {
   margin-bottom: 3rem;
 }
 
-.software-section .title-area .description {
+.software-section .section-heading .section-heading__description {
   line-height: 1.65;
 }
 
@@ -51,7 +51,7 @@
   margin: 0 0 0.75rem;
 }
 
-.software-feature-card .card-title {
+.software-feature-card h3 {
   font-size: 1.65rem;
   line-height: 1.25;
 }
@@ -168,7 +168,7 @@
     padding: 3rem 0;
   }
 
-  .software-section .title-area {
+  .software-section .section-heading {
     margin-bottom: 2rem;
   }
 

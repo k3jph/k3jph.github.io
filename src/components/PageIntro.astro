@@ -1,10 +1,11 @@
 ---
-interface Props { title: string; subtitle?: string; image?: string; compact?: boolean }
-const { title, subtitle, image='/assets/img/header-home.webp', compact=false } = Astro.props;
+import HeadingDivider from './HeadingDivider.astro';
+interface Props { title: string; subtitle?: string; image?: string; compact?: boolean; focal?: string }
+const { title, subtitle, image='/assets/img/header-home.webp', compact=false, focal='center' } = Astro.props;
 ---
-<header class:list={['page-intro', {'page-intro--compact':compact}]} style={`--hero-image:url('${image}')`}>
-  <div class="page-intro__shade"><div class="container page-intro__content"><p class="eyebrow">JamesHoward.us</p><h1>{title}</h1>{subtitle && <p>{subtitle}</p>}<div class="hero-mark"><img src="/assets/img/identity/kamon.svg" alt=""></div></div></div>
+<header class:list={['page-intro', {'page-intro--compact':compact}]} style={`--hero-image:url('${image}');--hero-focal:${focal}`}>
+  <div class="page-intro__shade"><div class="container page-intro__content"><p class="eyebrow">JamesHoward.us</p><h1>{title}</h1>{subtitle && <p>{subtitle}</p>}<HeadingDivider variant="light" /></div></div>
 </header>
 <style>
-  .page-intro{background-color:var(--color-navy-800);background-image:var(--hero-image);background-position:center;background-size:cover}.page-intro__shade{display:grid;min-height:clamp(22rem,52vw,37rem);place-items:center;padding:4rem 0;background:linear-gradient(100deg,rgb(8 24 43/.92),rgb(8 24 43/.55))}.page-intro--compact .page-intro__shade{min-height:clamp(16rem,35vw,25rem)}.page-intro__content{color:#fff;text-align:center}.page-intro h1{max-width:65rem;margin:.25rem auto;color:#fff}.page-intro p:not(.eyebrow){max-width:50rem;margin:1rem auto;font-size:1.25rem}.hero-mark{display:flex;align-items:center;gap:1rem;width:min(18rem,60%);margin:1.5rem auto 0}.hero-mark:before,.hero-mark:after{content:'';flex:1;height:1px;background:#fff}.hero-mark img{width:2.2rem;filter:brightness(0) invert(1)}
+  .page-intro{background-color:#303030;background-image:var(--hero-image);background-position:var(--hero-focal);background-size:cover}.page-intro__shade{display:grid;min-height:clamp(22rem,52vw,37rem);place-items:center;padding:7rem 0 4rem;background:linear-gradient(105deg,rgb(48 48 48/.9),rgb(48 48 48/.48)),linear-gradient(to bottom,transparent 72%,rgb(48 48 48/.35))}.page-intro--compact .page-intro__shade{min-height:clamp(18rem,35vw,26rem)}.page-intro__content{color:#fff;text-align:center}.page-intro .eyebrow{color:var(--color-gold-300)}.page-intro h1{max-width:65rem;margin:.25rem auto;color:#fff;text-shadow:0 2px 18px rgb(0 0 0/.34)}.page-intro p:not(.eyebrow){max-width:50rem;margin:1rem auto;font-size:clamp(1.08rem,2vw,1.28rem)}
 </style>

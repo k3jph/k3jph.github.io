@@ -186,38 +186,29 @@ mitigate its effects and keep your conversations productive. By adapting
 your approach, you can maintain coherence and maximize the utility of
 LLMs.
 
-<div class="content-float-right item content-grid__item content-grid__item--narrow">
-  <div class="content-grid">
-    <!-- Card 0: Summarize Key Points -->
-    <div class="col-12">
-      <div class="card h-100">
-        <div class="card-body">
-          <h3 class="card-title text-center">Managing CDS</h3>
-          <p class="card-text">
+<aside class="content-float-right content-callout inset">
+          <h3 class="text-center">Managing CDS</h3>
+          <p>
             <i class="fa-regular fa-square-check"></i>&nbsp;<strong>Summarize Key Points</strong><br/>
             Periodically condense key details to help the LLM retain critical context
           </p>
-          <p class="card-text">
+          <p>
             <i class="fa-regular fa-square-check"></i>&nbsp;<strong>Use External Notes</strong><br/>
             Keep a separate document for critical information and refer to it as needed
           </p>
-          <p class="card-text">
+          <p>
             <i class="fa-regular fa-square-check"></i>&nbsp;<strong>Start Fresh Threads</strong><br/>
             Break long conversations into focused segments for better clarity
           </p>
-          <p class="card-text">
+          <p>
             <i class="fa-regular fa-square-check"></i>&nbsp;<strong>Choose the Right Model</strong><br/>
             Select LLMs optimized for long contexts to reduce the effects of CDS
           </p>
-          <p class="card-text">
+          <p>
             <i class="fa-regular fa-square-check"></i>&nbsp;<strong>Be Precise</strong><br/>
             Use clear, targeted prompts to reduce ambiguity and focus the model
           </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+</aside>
 
 ### Summarize and Refresh
 

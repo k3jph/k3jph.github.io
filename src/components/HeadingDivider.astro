@@ -1,0 +1,20 @@
+---
+interface Props {
+  variant?: 'navy' | 'gold' | 'light';
+  compact?: boolean;
+}
+
+const { variant = 'navy', compact = false } = Astro.props;
+const image = variant === 'navy'
+  ? '/assets/img/identity/kamon-info.svg'
+  : '/assets/img/identity/kamon-warning.svg';
+---
+
+<div
+  class:list={['heading-divider', `heading-divider--${variant}`, { 'heading-divider--compact': compact }]}
+  aria-hidden="true"
+>
+  <span class="heading-divider__rule"></span>
+  <img src={image} alt="" width="32" height="32">
+  <span class="heading-divider__rule"></span>
+</div>
