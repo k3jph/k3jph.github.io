@@ -16,7 +16,7 @@ tags:
   - folklore
   - Internet
 ---
-<iframe style="width: 100%;" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/223160005&color=ff5500"></iframe>
+<iframe title="Embedded media" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/223160005&color=ff5500"></iframe>
 
 On last week's [Reply All](https://gimletmedia.com/show/reply-all/), they allude to the [Berenstain Bears conspiracy theory](http://www.avclub.com/article/how-you-spell-berenstain-bears-could-be-proof-para-223615).  The gist of the theory is that everyone remembers Berenstain spelled Berenstein and at some point, history got rewritten on everyone.  Anyway, during the show, someone asks if anyone actually remembers it as Berenstain.
 
@@ -24,6 +24,10 @@ I do.  And I seem to be the only one.  Somewhere around the first grade (1986-19
 
 So there ya go.  But I should add, I never liked the stories.  Here, enjoy this crazy person talking about it all.
 
-{% include youtube.html id="1DZnPZ2iXtk" %}
+
+
+::youtube{video="1DZnPZ2iXtk"}
+
+
 
 _Image by [The A.V. Club](http://www.avclub.com/article/how-you-spell-berenstain-bears-could-be-proof-para-223615)._

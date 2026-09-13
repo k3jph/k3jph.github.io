@@ -28,7 +28,11 @@ asked some very insightful questions about [my analysis of flooding
 in Ellicott
 City](/2016/08/09/statistical-likelihood-extreme-events-ellicott-city-floods):
 
-{% include fbembed.html url="https://www.facebook.com/howardjp/posts/601279356432" %}
+
+
+::embed{href="https://www.facebook.com/howardjp/posts/601279356432"}
+
+
 
 These questions are worth going into some detail, so let me now
 discuss what it means that the data is changing.  Data is considered

@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/03/02/spatial-reasoning-insights-from-hunt-the-wumpus-and-chatgpt
 featured_image: /assets/img/2024/spatial-reasoning-insights-from-hunt-the-wumpus-and-chatgpt.webp
 categories:
-- Blog 
+- Blog
 tags:
 - emergent behavior
 - artificial intelligence
@@ -145,7 +145,7 @@ They highlight both the potential utility of AI in complex
 decision-making scenarios and the crucial areas where human oversight
 and intervention remain indispensable.
 
-# Discussion
+## Discussion
 
 In the experiment with "Hunt the Wumpus," ChatGPT demonstrated a
 type of spatial reasoning. Still, it is essential to note that it
@@ -217,73 +217,73 @@ in AI design and functionality.
 
 ## Game Transcript: Hunt the Wumpus Experiment
 
-**User:**  
+**User:**
 Would you like to play a game?
 
-**ChatGPT:**  
+**ChatGPT:**
 Of course! I'm here to help and entertain. What game would you like
 to play or should I suggest one?
 
-**User:**  
-WELCOME TO 'HUNT THE WUMPUS'  
-THE WUMPUS LIVES IN A CAVE OF 20 ROOMS. EACH ROOM  
-HAS 3 TUNNELS LEADING TO OTHER ROOMS. (LOOK AT A  
-DODECAHEDRON TO SEE HOW THIS WORKS-IF YOU DON'T KNOW  
+**User:**
+WELCOME TO 'HUNT THE WUMPUS'
+THE WUMPUS LIVES IN A CAVE OF 20 ROOMS. EACH ROOM
+HAS 3 TUNNELS LEADING TO OTHER ROOMS. (LOOK AT A
+DODECAHEDRON TO SEE HOW THIS WORKS-IF YOU DON'T KNOW
 WHAT A DODECAHEDRON IS, ASK SOMEONE)
 
-   HAZARDS:  
-BOTTOMLESS PITS - TWO ROOMS HAVE BOTTOMLESS PITS IN THEM  
-IF YOU GO THERE, YOU FALL INTO THE PIT (& LOSE!)  
-SUPER BATS - TWO OTHER ROOMS HAVE SUPER BATS. IF YOU  
-GO THERE, A BAT GRABS YOU AND TAKES YOU TO SOME OTHER  
+   HAZARDS:
+BOTTOMLESS PITS - TWO ROOMS HAVE BOTTOMLESS PITS IN THEM
+IF YOU GO THERE, YOU FALL INTO THE PIT (& LOSE!)
+SUPER BATS - TWO OTHER ROOMS HAVE SUPER BATS. IF YOU
+GO THERE, A BAT GRABS YOU AND TAKES YOU TO SOME OTHER
 ROOM AT RANDOM. (WHICH MAY BE TROUBLESOME)
 
-   WUMPUS:  
-THE WUMPUS IS NOT BOTHERED BY HAZARDS (HE HAS SUCKER  
-FEET AND IS TOO BIG FOR A BAT TO LIFT). USUALLY  
-HE IS ASLEEP. TWO THINGS WAKE HIM UP: YOU SHOOTING AN  
-ARROW OR YOU ENTERING HIS ROOM.  
-IF THE WUMPUS WAKES HE MOVES (P=.75) ONE ROOM  
-OR STAYS STILL (P=.25). AFTER THAT, IF HE IS WHERE YOU  
+   WUMPUS:
+THE WUMPUS IS NOT BOTHERED BY HAZARDS (HE HAS SUCKER
+FEET AND IS TOO BIG FOR A BAT TO LIFT). USUALLY
+HE IS ASLEEP. TWO THINGS WAKE HIM UP: YOU SHOOTING AN
+ARROW OR YOU ENTERING HIS ROOM.
+IF THE WUMPUS WAKES HE MOVES (P=.75) ONE ROOM
+OR STAYS STILL (P=.25). AFTER THAT, IF HE IS WHERE YOU
 ARE, HE EATS YOU UP AND YOU LOSE!
 
-   YOU:  
-EACH TURN YOU MAY MOVE OR SHOOT A CROOKED ARROW  
-MOVING: YOU CAN MOVE ONE ROOM (THRU ONE TUNNEL)  
-ARROWS: YOU HAVE 5 ARROWS. YOU LOSE WHEN YOU RUN OUT  
-EACH ARROW CAN GO FROM 1 TO 5 ROOMS. YOU AIM BY TELLING  
-THE COMPUTER THE ROOM#S YOU WANT THE ARROW TO GO TO.  
-IF THE ARROW CAN'T GO THAT WAY (IF NO TUNNEL) IT MOVES  
-AT RANDOM TO THE NEXT ROOM.  
-IF THE ARROW HITS THE WUMPUS, YOU WIN.  
+   YOU:
+EACH TURN YOU MAY MOVE OR SHOOT A CROOKED ARROW
+MOVING: YOU CAN MOVE ONE ROOM (THRU ONE TUNNEL)
+ARROWS: YOU HAVE 5 ARROWS. YOU LOSE WHEN YOU RUN OUT
+EACH ARROW CAN GO FROM 1 TO 5 ROOMS. YOU AIM BY TELLING
+THE COMPUTER THE ROOM#S YOU WANT THE ARROW TO GO TO.
+IF THE ARROW CAN'T GO THAT WAY (IF NO TUNNEL) IT MOVES
+AT RANDOM TO THE NEXT ROOM.
+IF THE ARROW HITS THE WUMPUS, YOU WIN.
 IF THE ARROW HITS YOU, YOU LOSE.
 
-   WARNINGS:  
-WHEN YOU ARE ONE ROOM AWAY FROM A WUMPUS OR HAZARD,  
-THE COMPUTER SAYS:  
-WUMPUS:  'I SMELL A WUMPUS'  
-BAT   :  'BATS NEARBY'  
+   WARNINGS:
+WHEN YOU ARE ONE ROOM AWAY FROM A WUMPUS OR HAZARD,
+THE COMPUTER SAYS:
+WUMPUS:  'I SMELL A WUMPUS'
+BAT   :  'BATS NEARBY'
 PIT   :  'I FEEL A DRAFT'
 
 HUNT THE WUMPUS
 
-BATS NEARBY!  
-YOU ARE IN ROOM 14  
-TUNNELS LEAD TO 4 13 15  
+BATS NEARBY!
+YOU ARE IN ROOM 14
+TUNNELS LEAD TO 4 13 15
 
 SHOOT OR MOVE (S-M)
 
-**ChatGPT:**  
+**ChatGPT:**
 Alright, it looks like we're in the midst of a classic text-based game of "Hunt the Wumpus". You're in room 14 and there are bats nearby. You have tunnels leading to rooms 4, 13, and 15.
 
 Given the warning of "BATS NEARBY!", it means one of the adjacent rooms (4, 13, or 15) contains bats.
 
 What would you like to do? Shoot an arrow or move to another room? If you decide to shoot, please specify the room numbers you're aiming for, and if you want to move, let me know which room you'd like to head to.
 
-**User:**  
+**User:**
 You make the decision. I will tell you what happens next.
 
-**ChatGPT:**  
+**ChatGPT:**
 Alright, given the current information:
 
    There's a risk if we move into a room with bats, we might be carried to another room, which could be dangerous.
@@ -295,15 +295,15 @@ Decision: Move to room 13.
 
 Now, please let me know what happens next.
 
-**User:**  
+**User:**
 ZAP--SUPER BAT SNATCH! ELSEWHEREVILLE FOR YOU!
 
-YOU ARE IN ROOM 8  
-TUNNELS LEAD TO 1 7 9  
+YOU ARE IN ROOM 8
+TUNNELS LEAD TO 1 7 9
 
 SHOOT OR MOVE (S-M)
 
-**ChatGPT:**  
+**ChatGPT:**
 It seems we've been moved by the bats to room 8.
 
 Given that we're in room 8 with tunnels leading to rooms 1, 7, and 9, and no warnings have been given, it would be a safe bet to explore another room.
@@ -312,14 +312,14 @@ Decision: Move to room 7.
 
 Please let me know what happens next.
 
-**User:**  
-I FEEL A DRAFT  
-YOU ARE IN ROOM 7  
-TUNNELS LEAD TO 6 8 17  
+**User:**
+I FEEL A DRAFT
+YOU ARE IN ROOM 7
+TUNNELS LEAD TO 6 8 17
 
 SHOOT OR MOVE (S-M)
 
-**ChatGPT:**  
+**ChatGPT:**
 The warning "I FEEL A DRAFT" indicates there's a bottomless pit in one of the adjacent rooms. We should be cautious.
 
 Given that we're in room 7 and we just came from room 8 (which we know doesn't have the pit), the pit could be in room 6 or room 17.
@@ -330,27 +330,27 @@ Decision: Move back to room 8.
 
 Please let me know what happens next.
 
-**User:**  
-YOU ARE IN ROOM 8  
-TUNNELS LEAD TO 1 7 9  
+**User:**
+YOU ARE IN ROOM 8
+TUNNELS LEAD TO 1 7 9
 
 SHOOT OR MOVE (S-M)
 
-**ChatGPT:**  
+**ChatGPT:**
 Alright, we're back in room 8. Since we haven't explored room 1 or room 9 yet, and room 7 has a potential hazard nearby, I'll opt to explore one of the other rooms.
 
 Decision: Move to room 9.
 
 Please inform me of the next events.
 
-**User:**  
-I SMELL A WUMPUS!  
-YOU ARE IN ROOM 9  
-TUNNELS LEAD TO 8 10 18  
+**User:**
+I SMELL A WUMPUS!
+YOU ARE IN ROOM 9
+TUNNELS LEAD TO 8 10 18
 
 SHOOT OR MOVE (S-M)
 
-**ChatGPT:**  
+**ChatGPT:**
 Ah, the excitement begins! "I SMELL A WUMPUS!" indicates that the Wumpus is in one of the adjacent rooms to room 9. The possible rooms are 8 (which we just came from and know the Wumpus wasn't there), 10, and 18.
 
 Given this information, the Wumpus is likely in room 10 or 18. We have 5 arrows, so we can take a shot here.
@@ -359,10 +359,9 @@ Decision: Shoot the arrow towards room 10 and then room 18 (in sequence).
 
 Now, let's see if we get lucky! Please let me know the outcome.
 
-**User:**  
-AHA! YOU GOT THE WUMPUS!  
+**User:**
+AHA! YOU GOT THE WUMPUS!
 HEE HEE HEE - THE WUMPUS'LL GET YOU NEXT TIME!!
 
-**ChatGPT:**  
+**ChatGPT:**
 Yay! We got the Wumpus! Well played. "Hunt the Wumpus" is always a fun and challenging game. Thanks for sharing this experience with me. Would you like to play again or is there anything else I can assist you with?
-

@@ -38,6 +38,10 @@ Games](http://www.suzannecollinsbooks.com/the_hunger_games_69765.htm)_.
 Tune in to find out more and I will post an MP3 a few days after
 the show or listen to the live stream here:
 
-{% include iframely.html url="http://www.1480kphx.com/" %}
+
+
+::embed{href="http://www.1480kphx.com/"}
+
+
 
 _Image by [robertescu / Pixabay](https://pixabay.com/en/radio-mixer-audio-studio-media-1203736/)._

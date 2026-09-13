@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/05/04/a-maltese-grant-of-arms
 featured_image: /assets/img/2024/a-maltese-grant-of-arms.webp
 categories:
-- Blog 
+- Blog
 tags:
 - honors
 - Malta
@@ -76,6 +76,8 @@ reinforces my commitment to uphold the values it signifies and to
 carry forth the legacy of service and excellence that the arms
 represent.
 
-{% include figure.html image="armory/jhoward-salmeron-960px.webp" width="12" border=true
-cap="Coat of Arms for James P. Howard, II, as interpreted by [Dr Antonio Salmerón](http://blason.es/)" 
-alt="Coat of Arms for James P. Howard, II, as interpreted by Dr Antonio Salmerón" %}
+
+
+:::figure{src="/assets/img/armory/jhoward-salmeron-960px.webp" alt="Coat of Arms for James P. Howard, II, as interpreted by Dr Antonio Salmerón" align="center" width="12" border="true"}
+Coat of Arms for James P. Howard, II, as interpreted by [Dr Antonio Salmerón](http://blason.es/)
+:::

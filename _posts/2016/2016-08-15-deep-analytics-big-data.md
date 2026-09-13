@@ -29,6 +29,10 @@ doing high-frequency trading, all you're doing is machine learning."
 
 Read more in the _HPE Insights_ article:
 
-{% include pdfembed.html pdf="In the minds of machines- Fundamental change from deep analytics – Bill Marcus.pdf" width="100%" %}
+
+
+::document{src="/assets/docs/In the minds of machines- Fundamental change from deep analytics – Bill Marcus.pdf" label="Open the PDF document" embed="true"}
+
+
 
 _Image lifted from HPE._

@@ -18,7 +18,7 @@ tags:
   - public finance
   - University of Baltimore
 ---
-As part of my [public finance course](/teaching) course for public administrators, we have been looking at the problem of food deserts in Baltimore.  There was an interesting [story on Marketplace on Tuesday](http://www.marketplace.org/topics/economy/dayton-taking-fresh-food-bus-stop) about how Dayton is building a farmer's market at a bus stop in order to reach more people.  
+As part of my [public finance course](/teaching) course for public administrators, we have been looking at the problem of food deserts in Baltimore.  There was an interesting [story on Marketplace on Tuesday](http://www.marketplace.org/topics/economy/dayton-taking-fresh-food-bus-stop) about how Dayton is building a farmer's market at a bus stop in order to reach more people.
 
 Recent research has shown that even if people have access to higher quality food, they won't necessarily purchase it.  Dayton is expanding on the idea by bringing courses on cooking into these neighborhoods.  I am not sure that will work, but I wish them luck.
 

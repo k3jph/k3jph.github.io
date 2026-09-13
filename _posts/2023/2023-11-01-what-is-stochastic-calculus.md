@@ -7,7 +7,7 @@ layout: post
 permalink: /2023/11/01/what-is-stochastic-calculus
 featured_image: /assets/img/news/what-is-stochastic-calculus.webp
 categories:
-- Blog 
+- Blog
 tags:
 - mathematics
 - statistics
@@ -22,12 +22,20 @@ natural world. It provides the tools for analyzing and understanding change,
 motion, and growth. From engineering and physics to economics and biology, the
 impact of calculus is profound and pervasive.
 
-{% include figure.html image="news/Newton.webp" placement="left" width="50%"
-cap="This guy had beef with the guy on the other side"
-alt="Painting of Isaac Newton" %}
-{% include figure.html image="news/Leibniz.webp" placement="right" width="50%"
-cap="This guy thought the other guy was off his rocker"
-alt="Painting of Gottfried Leibniz" %}
+
+
+:::figure{src="/assets/img/news/Newton.webp" alt="Painting of Isaac Newton" align="left" width="50%"}
+This guy had beef with the guy on the other side
+:::
+
+
+
+
+:::figure{src="/assets/img/news/Leibniz.webp" alt="Painting of Gottfried Leibniz" align="right" width="50%"}
+This guy thought the other guy was off his rocker
+:::
+
+
 
 However, classical calculus is primarily deterministic, offering exact solutions
 and predictable outcomes. It excels when dealing with well-defined, smooth
@@ -57,9 +65,13 @@ $$
 dX_t = a(X_t, t) dt + b(X_t, t) dW_t
 $$
 
-{% include figure.html image="news/Einstein_1921.webp" placement="right" width="40%"
-cap="This guy had a lot to say about Brownian motion"
-alt="Picture of Albert Einstein from 1921 in front of a chalkboard" %}
+
+
+:::figure{src="/assets/img/news/Einstein_1921.webp" alt="Picture of Albert Einstein from 1921 in front of a chalkboard" align="right" width="40%"}
+This guy had a lot to say about Brownian motion
+:::
+
+
 
 Here, [latex]dX_t[/latex] represents the infinitesimal change in the stochastic
 process [latex]X_t[/latex], [latex]a[/latex] and [latex]b[/latex] are functions
@@ -125,4 +137,3 @@ for further study, including stochastic partial differential equations, jump
 processes, and applications in machine learning. As data-driven decision-making
 becomes increasingly prevalent, the role of stochastic calculus is poised to
 become even more vital across various disciplines.
-

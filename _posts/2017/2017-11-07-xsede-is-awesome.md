@@ -26,7 +26,11 @@ for, but we knew NASA and [Lawrence Livermore](https://www.llnl.gov/)
 had them.  They must be cool.  Of course, there was one in
 [Wargames](http://www.imdb.com/title/tt0086567/):
 
-{% include youtube.html id="NHWjlCaIrQo" %}
+
+
+::youtube{video="NHWjlCaIrQo"}
+
+
 
 Around the mid 1990, some guys at Goddard figured out a way to link
 a network of workstations into a [high throughput
@@ -81,9 +85,13 @@ validity, as the abstract verified, is that I acknowledge my use
 of XSEDE's resources when I talk about my project.  That's kind of
 awesome.  I can even monitor the whole thing from my phone.
 
-{% include figure.html image="news/Screenshot_20171107-214118.webp"
-  alt="XSEDE Android Application"
-  cap="The textmetrics job running on Comet" %}
+
+
+:::figure{src="/assets/img/news/Screenshot_20171107-214118.webp" alt="XSEDE Android Application" align="center" width="100"}
+The textmetrics job running on Comet
+:::
+
+
 
 Just for reference, there are currently 644 jobs running on Comet
 and I am 100 of them, taking up 2400 cores.

@@ -47,7 +47,11 @@ If you’re interested and want to know more before applying, let me
 know and we’ll set up a time to talk about the Board of Appeals.
 If you want to apply, read the Council's announcement below!
 
-{% include pdfembed.html pdf="2019BOARequest.pdf" width="100%" height="100%" %}
+
+
+::document{src="/assets/docs/2019BOARequest.pdf" label="Open the PDF document" embed="true"}
+
+
 
 _An inch of snow in the image by [Karol Olson /
 Flickr](https://www.flickr.com/photos/olorak/3212013822)._

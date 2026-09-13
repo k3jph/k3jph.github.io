@@ -138,11 +138,14 @@ William in the Valley throughout the Revolutionary period, though the precise
 nature of his service or loyalty documentation in the DAR file has not been
 independently reviewed.
 
-{% include figure.html width="12"
-   image="/ancestry/FSSV-Saffer.webp" border=true
-   alt="Membership certificate in the First Settlers of the Shenandoah Valley"
-   cap="Membership certificate in the First Settlers of the Shenandoah Valley" %}
-   
+
+
+:::figure{src="/ancestry/FSSV-Saffer.webp" alt="Membership certificate in the First Settlers of the Shenandoah Valley" align="center" width="12" border="true"}
+Membership certificate in the First Settlers of the Shenandoah Valley
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/FSSV-Saffer.pdf).
 
 *Additional memberships will be added as they are approved.*

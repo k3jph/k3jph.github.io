@@ -11,7 +11,7 @@ redirect_from:
   - /books/cmna/
 ---
 
-{% include book-detail.html slug="computational-methods-numerical-analysis-r" %}
+::book-detail{slug="computational-methods-numerical-analysis-r"}
 
 ## Errata
 
@@ -24,8 +24,14 @@ algorithms from the book and several related implementations. The current
 release is available from [CRAN](https://cran.r-project.org/package=cmna); its
 source and development history are at [GitHub](https://github.com/k3jph/cmna-pkg).
 
-{% highlight r %}
-install.packages("cmna")
-{% endhighlight %}
 
-{% include relatedposts.html tag="CMNA" %}
+
+```r
+install.packages("cmna")
+```
+
+
+
+
+
+::related-posts{tag="CMNA"}

@@ -32,7 +32,7 @@ was a stonecutter who worked in the mining industry during the late 19th
 century. In the 1880 U.S. Census, he is recorded as a stonecutter, a trade that
 played a crucial role in mining operations by providing the expertise necessary
 for processing quarried materials and shaping stone for industrial and
-construction use. 
+construction use.
 
 Earlier in his life, Alexander worked as a farmer, demonstrating the
 adaptability and resilience characteristic of many early American laborers. By
@@ -46,7 +46,7 @@ essential to the mining and resource extraction economy of 19th-century America.
 Membership in the Descendants of Miners commemorates Alexander C. Snyder's
 contributions to the labor history of the United States. His documented work in
 the mining industry ensures that his role in shaping the industrial economy is
-remembered and honored. 
+remembered and honored.
 
 Further research into census records, land deeds, and local industrial histories
 may provide additional insights into Alexander's career and personal life, as
@@ -62,10 +62,12 @@ past is preserved for future generations.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="/ancestry/DOM-AlexanderSynder.webp" border=true
-   alt="Membership certificate in the Descendants of Miners"
-   cap="Membership certificate in the Descendants of Miners" %}
-   
-Or you can [download the PDF here](/assets/docs/ancestry/DOM-AlexanderSynder.pdf).
 
+
+:::figure{src="/ancestry/DOM-AlexanderSynder.webp" alt="Membership certificate in the Descendants of Miners" align="center" width="12" border="true"}
+Membership certificate in the Descendants of Miners
+:::
+
+
+
+Or you can [download the PDF here](/assets/docs/ancestry/DOM-AlexanderSynder.pdf).

@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/04/08/solar-eclipse-mathematics
 featured_image: /assets/img/2024/solar-eclipse-mathematics.webp
 categories:
-- Blog 
+- Blog
 tags:
 - mathematics
 - orbital dynamics
@@ -41,10 +41,14 @@ Here, the synodic month is about 29.53 days, the draconic month (the time it tak
 
 ## Geometry of Shadows
 
-{% include figure.html width="6" placement="right"
-   image="/2024/solar-eclipse-mathematics/solar-eclipse-diagram.svg" 
-   alt="Diagram of a solar eclipse" cap="Relative positions of the sun, moon, and Earth during a solar eclipse" %}
-   
+
+
+:::figure{src="/2024/solar-eclipse-mathematics/solar-eclipse-diagram.svg" alt="Diagram of a solar eclipse" align="right" width="6"}
+Relative positions of the sun, moon, and Earth during a solar eclipse
+:::
+
+
+
 The shadows cast during a solar eclipse are central to what type is observed—be it total, partial, or annular. The geometry of these shadows is governed by the laws of optics and celestial mechanics, and can be understood through a series of geometric and trigonometric principles.
 
 ### Umbra and Penumbra

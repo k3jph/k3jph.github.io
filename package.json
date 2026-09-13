@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=24" },
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "prepare": "node scripts/prepare-content.mjs",
     "dev": "npm run prepare && astro dev",
     "build": "npm run prepare && node scripts/prepare-build.mjs && astro build --silent && node scripts/finalize-build.mjs",
     "preview": "astro preview",
     "check": "npm run prepare && astro check",
-    "validate": "npm run check && npm run build && node scripts/validate-build.mjs"
+    "audit": "node scripts/audit-native-content.mjs",
+    "validate": "npm run audit && npm run check && npm run build && node scripts/validate-build.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "7.3.1",
@@ -20,8 +23,8 @@
     "fuse.js": "7.5.0",
     "gray-matter": "4.0.3",
     "katex": "0.18.7",
-    "marked": "18.0.13",
     "rehype-katex": "7.0.1",
+    "remark-directive": "4.0.0",
     "remark-gfm": "4.0.1",
     "remark-math": "6.0.0",
     "yaml": "2.9.1"

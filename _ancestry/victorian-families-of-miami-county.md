@@ -37,9 +37,9 @@ definitively establish Louisa Hearn as the mother of Charles Wesley
 Cavender. Furthermore, a discrepancy in the spelling of her name--whether
 "Hearn" or "Hearon"--raises questions about whether these are variant
 spellings of the same individual or if they refer to two distinct
-people. 
+people.
 
-## Sarah Jane Rinehart 
+## Sarah Jane Rinehart
 
 [Sarah Jane Rinehart](https://www.wikitree.com/wiki/Rhinehart-727)
 married William Henry Harrison Martin in 1862, becoming a part of Miami
@@ -57,9 +57,12 @@ This membership celebrates the lives of individuals like Louisa, who contributed
 to the county's history during the Victorian era, and helps preserve their
 stories for future generations.
 
-{% include figure.html width="12"
-   image="/ancestry/MCHGS-VFMC-Hearn.webp" border=true
-   alt="Membership certificate in the Victorian Families of Miami County"
-   cap="Membership certificate in the Victorian Families of Miami County" %}
-   
+
+
+:::figure{src="/ancestry/MCHGS-VFMC-Hearn.webp" alt="Membership certificate in the Victorian Families of Miami County" align="center" width="12" border="true"}
+Membership certificate in the Victorian Families of Miami County
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/MCHGS-VFMC-Hearn.pdf).

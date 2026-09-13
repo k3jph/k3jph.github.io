@@ -382,4 +382,3 @@ centers do today, and learned, over decades, to do it better.
 The water cycle is not broken. In some places, we are asking it
 to do more than local conditions support. That is a real problem.
 It is also a much more tractable one than "AI is thirsty" suggests.
-

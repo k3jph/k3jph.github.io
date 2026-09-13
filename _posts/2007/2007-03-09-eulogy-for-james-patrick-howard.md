@@ -19,7 +19,7 @@ I want to thank everyone for coming today and last night.  The number of people 
 
 I want to also tell a quick story about Dad.  One winter break, I was home from college and was packing my bag to head back.  Mom was taking me to the airport and Dad was getting ready for work.  I had purchased a pack of new socks and Dad asked if he could have a pair and said he would mail them back to me.
 
-I threw him a pair and Mom and I left.  That night, the wastewater treatment plant flooded and 60,000 gallons of raw sewage leaked into one building.  Dad waded through knee-deep untreated wastewater to hit the shut-off valve, saving the plant.  
+I threw him a pair and Mom and I left.  That night, the wastewater treatment plant flooded and 60,000 gallons of raw sewage leaked into one building.  Dad waded through knee-deep untreated wastewater to hit the shut-off valve, saving the plant.
 
 Dad called me in Maryland afterwards to say what happened and at the end of the story asked me, "Should I wash the socks before I send them back?"
 

@@ -29,4 +29,6 @@ earholes through a series of tubes!
 
 You can watch it here starting at 7pm on December 11th:
 
-{% include youtube.html id="zBtncTzffFo" %}
+
+
+::youtube{video="zBtncTzffFo"}

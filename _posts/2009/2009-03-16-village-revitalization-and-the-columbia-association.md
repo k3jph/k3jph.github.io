@@ -18,6 +18,6 @@ tags:
 
 I received this question recently, from a Long Reach resident:
 
-> What are your views on village revitalization and the role that CA should play. 
+> What are your views on village revitalization and the role that CA should play.
 
 Village revitalization is important to both the villages and CA. However, it needs to be a village-centered process with the villages boards taking the lead role. The CA should be available to provide technical or other assistance if needed, but ought not dictate policy and procedures.

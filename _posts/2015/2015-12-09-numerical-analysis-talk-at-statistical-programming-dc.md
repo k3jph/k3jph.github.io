@@ -23,16 +23,22 @@ tags:
   - talks
   - videos
 ---
-I gave my talk tonight on numerical analysis in R and the talk is already up on YouTube.  
+I gave my talk tonight on numerical analysis in R and the talk is already up on YouTube.
 
-{% include youtube.html id="BmH9iZ-w4PQ" %}
+
+
+::youtube{video="BmH9iZ-w4PQ"}
+
+
 
 There's an interesting set of questions at the end about resources for introducing new users to R.  The slides are not terribly visible, so you can see them here:
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/3LbvZGBzptYZJm" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/jameshoward/numerical-analysis-in-r-55960098" title="Numerical Analysis in R" target="_blank">Numerical Analysis in R</a> </strong> from <strong><a href="https://www.slideshare.net/jameshoward" target="_blank">James Howard</a></strong> </div>
+<iframe title="Embedded media" src="//www.slideshare.net/slideshow/embed_code/key/3LbvZGBzptYZJm" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe> <div> <strong> <a href="//www.slideshare.net/jameshoward/numerical-analysis-in-r-55960098" title="Numerical Analysis in R" target="_blank">Numerical Analysis in R</a> </strong> from <strong><a href="https://www.slideshare.net/jameshoward" target="_blank">James Howard</a></strong> </div>
 And this is the R script used for demonstrations:
 
-{% highlight r %}
+
+
+```r
 ## Example of vector arithmetic
 u <- c(1, 2, 3); v <- c(8, 4, 2); x <- 7
 u + x
@@ -55,14 +61,14 @@ diag(B)
 ## Matrix multiplication
 A %*% B
 
-## Cross product 
+## Cross product
 crossprod(A, B)
 
 ## Outer product
 outer(u, v)
 
 ## dot product
-u %*% u 
+u %*% u
 
 ## Matrix solution / RREF
 (A <- matrix(c(2, 3, 1, 1, 2, -5, -1, -2, 4), 3))
@@ -96,7 +102,7 @@ plot(linfun, -10, 10, col = &quot;green&quot;)
 polyinterp <- function(x, y) {
   if(length(x) != length(y))
     stop(&quot;Length of x and y vectors must be the same&quot;)
-  
+
   n <- length(x) - 1
   vandermonde <- rep(1, length(x))
   for(i in 1:n) {
@@ -104,7 +110,7 @@ polyinterp <- function(x, y) {
     vandermonde <- cbind(xi, vandermonde)
   }
   beta <- solve(vandermonde, y)
-  
+
   names(beta) <- NULL
   return(rev(beta))
 }
@@ -121,9 +127,9 @@ integrate(flog, 2, 6)
 
 ## Root Finding
 ## x^2 + x - 6
-f <- function(x) { (x + 3) * (x - 2) }             
+f <- function(x) { (x + 3) * (x - 2) }
 plot(f, -5, 5, col = &quot;blue&quot;)
-abline(h = 0, v = 0, col = &quot;black&quot;, lty = &quot;dotted&quot;) 
+abline(h = 0, v = 0, col = &quot;black&quot;, lty = &quot;dotted&quot;)
 uniroot(f, c(-5, 0))
 
 z <- c(-6, 1, 1)
@@ -136,14 +142,16 @@ polyroot(z)
 ## Horner's method
 rhorner <- function(x, betas) {
   n <- length(betas)
-  
+
   if(n == 1)
     return(betas)
-  
+
   return(betas[1] + x * rhorner(x, betas[2:n]))
 }
 
 rhorner(z, 5)
-{% endhighlight %}
+```
+
+
 
 Many thanks to [Marck Vaisman](https://about.me/marckvaisman) for putting this together and [Casey Patrick Driscoll](https://caseypatrickdriscoll.com/) for putting it on YouTube!

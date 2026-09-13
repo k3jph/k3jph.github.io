@@ -21,11 +21,13 @@ permalink: /ancestry/century-families-of-ohio
 redirect_from: [/ancestry/cfo, /ancestry/ogs/cfo]
 ---
 
-{% include figure.html image="ancestry/ogs-cfo.svg" 
-    placement="right" width="3"
-    link="https://www.ogs.org/about/lineage/cfo"
-    cap="Logo of the Century Families of Ohio"
-    alt="Logo of the Century Families of Ohio" %}
+
+
+:::figure{src="/assets/img/ancestry/ogs-cfo.svg" alt="Logo of the Century Families of Ohio" align="right" width="3" link="https://www.ogs.org/about/lineage/cfo"}
+Logo of the Century Families of Ohio
+:::
+
+
 
 The [Century Families of Ohio
 (CFO)](https://www.ogs.org/about/lineage/cfo/) is a lineage society
@@ -66,9 +68,12 @@ the region and their contributions to its community.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="/ancestry/OGS-CFO-Hall.webp" border=true
-   alt="Membership certificate in the Century Families of Ohio"
-   cap="Membership certificate in the Century Families of Ohio" %}
-   
+
+
+:::figure{src="/ancestry/OGS-CFO-Hall.webp" alt="Membership certificate in the Century Families of Ohio" align="center" width="12" border="true"}
+Membership certificate in the Century Families of Ohio
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/OGS-CFO-Hall.pdf).

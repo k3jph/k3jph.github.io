@@ -39,20 +39,30 @@ does not. Fortunately, we have a large quota and the standard
 Rust](https://www.rust-lang.org/tools/install) work just fine, if
 taking a few minutes.
 
-{% highlight shell %}
+
+
+```shell
 curl https://sh.rustup.rs -sSf | sh
-{% endhighlight %}
+```
+
+
 
 Once I installed Rust, I used Cargo to create a new project.
 
-{% highlight shell %}
-cargo new mcpi --binary
-{% endhighlight %}
 
-Then I did a straight port of the R Monte Carlo code, and got 
+
+```shell
+cargo new mcpi --binary
+```
+
+
+
+Then I did a straight port of the R Monte Carlo code, and got
 this for `main.rs`:
 
-{% highlight rust %}
+
+
+```rust
 extern crate rand;
 
 use rand::Rng;
@@ -80,7 +90,9 @@ fn main() {
 
     println!("[1] {pi}", pi = pi_est);
 }
-{% endhighlight %}
+```
+
+
 
 Now, this Rust code is probably overspecified. But I was in a mood
 and wanted to make sure I didn't really mess this up. This was good,
@@ -93,7 +105,9 @@ code.
 
 Next up is the Condor submission file:
 
-{% highlight shell %}
+
+
+```shell
 universe = vanilla
 log = log/mcpi.log.$(Cluster).$(Process)
 error = log/mcpi.err.$(Cluster).$(Process)
@@ -103,7 +117,9 @@ executable = mcpi/target/release/mcpi
 
 requirements = OSGVO_OS_STRING == "RHEL 7" && Arch == "X86_64"
 queue 100
-{% endhighlight %}
+```
+
+
 
 As you can see, this code just calls the executable right out of
 the Cargo build space and runs it 100 times. All over the world.
@@ -111,12 +127,16 @@ Or perhaps in my backyard. I don't know and I don't even have to
 care! Using the averager function from the R tutorial, this is what
 we get:
 
-{% highlight shell %}
-[howardjp@login03 tutorial-rust]$ grep "[1]" log/mcpi.out.* | 
+
+
+```shell
+[howardjp@login03 tutorial-rust]$ grep "[1]" log/mcpi.out.* |
 > awk '{sum += $2} END { print "Average =", sum/NR}'
 Average = 3.1417
 [howardjp@login03 tutorial-rust]$
-{% endhighlight %}
+```
+
+
 
 All-in-all, this is a pretty trivial exercise. But that's ultimately
 the point of this post. Kicking Rust into action on the OSG should

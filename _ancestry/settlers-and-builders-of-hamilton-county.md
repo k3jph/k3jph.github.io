@@ -40,9 +40,12 @@ process of genealogical research, it has been confirmed that Cordelia
 resided in Hamilton County during the crucial period of settlement and
 growth.
 
-{% include figure.html width="12"
-   image="/ancestry/HCGS-SHBC-Curran.webp" border=true
-   alt="Membership certificate in the Settlers and Builders of Hamilton County"
-   cap="Membership certificate in the Settlers and Builders of Hamilton County" %}
-   
+
+
+:::figure{src="/ancestry/HCGS-SHBC-Curran.webp" alt="Membership certificate in the Settlers and Builders of Hamilton County" align="center" width="12" border="true"}
+Membership certificate in the Settlers and Builders of Hamilton County
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/HCGS-SHBC-Curran.pdf).

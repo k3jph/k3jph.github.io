@@ -285,9 +285,12 @@ foundational role in the establishment of American communities.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="/ancestry/GCAT-JeremiahCloud.webp" border=true
-   alt="Membership certificate in the Guild of Colonial Artisans and Tradesmen 1607-1783"
-   cap="Membership certificate in the Guild of Colonial Artisans and Tradesmen 1607-1783" %}
-   
+
+
+:::figure{src="/ancestry/GCAT-JeremiahCloud.webp" alt="Membership certificate in the Guild of Colonial Artisans and Tradesmen 1607-1783" align="center" width="12" border="true"}
+Membership certificate in the Guild of Colonial Artisans and Tradesmen 1607-1783
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/GCAT-JeremiahCloud.pdf).

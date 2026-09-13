@@ -38,7 +38,7 @@ road from me at the Johns Hopkins [Applied Physics
 Laboratory](http://www.jhuapl.edu/) and comprises just over 30
 satellites in orbit.  These satellites know essentially two things:
 
-1. Where they are, and 
+1. Where they are, and
 2. What time they think it is.
 
 The time is controlled via very precise [atomic
@@ -62,7 +62,7 @@ goods](/2014/12/02/public-goods-often-arent/) before, but two
 characteristics define a public good:
 
 1. The good is nonexcludable.  This means you can't close the door
-or stop someone from using it.  
+or stop someone from using it.
 2. The good is nonrivalrous.  This
 means your enjoyment of the good doesn't interfere with anyone
 else's.

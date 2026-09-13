@@ -7,7 +7,7 @@ layout: post
 permalink: /2023/01/30/case-risc-v
 featured_image: /assets/img/news/case-risc-v.webp
 categories:
-- Blog 
+- Blog
 tags:
 - RISC-V
 - electrical engineering
@@ -283,4 +283,3 @@ said, there are still issues with interoperability as software,
 especially operating systems, will not necessarily be uniform.
 Regardless, this is a substantial step toward a universal computing
 platform.
-

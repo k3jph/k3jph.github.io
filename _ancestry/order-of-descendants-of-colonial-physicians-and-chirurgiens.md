@@ -100,9 +100,12 @@ of the humanity and resolve that shaped early America.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="ancestry/ODCPC-Taylor.webp" border=true
-   alt="Membership certificate in the Order of Descendants of Colonial Physicians and Chirurgiens"
-   cap="Membership certificate in the Order of Descendants of Colonial Physicians and Chirurgiens" %}
-   
+
+
+:::figure{src="/assets/img/ancestry/ODCPC-Taylor.webp" alt="Membership certificate in the Order of Descendants of Colonial Physicians and Chirurgiens" align="center" width="12" border="true"}
+Membership certificate in the Order of Descendants of Colonial Physicians and Chirurgiens
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/ODCPC-Taylor.pdf).

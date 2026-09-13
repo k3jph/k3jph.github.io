@@ -14,7 +14,7 @@ tags:
   - international law
   - public affairs
   - space economics
-  - space policy 
+  - space policy
 ---
 
 I've talked before about the [Outer Space

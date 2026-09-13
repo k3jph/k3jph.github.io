@@ -26,4 +26,6 @@ from the 19th Mars Society Convention, including my talk on the
 economics of Martian infrastructure.  It's about half an hour, but
 watch it if you get a chance.
 
-{% include youtube.html id="UJHCcXgpWGc" %}
+
+
+::youtube{video="UJHCcXgpWGc"}

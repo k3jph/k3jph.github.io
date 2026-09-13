@@ -10,9 +10,13 @@ redirect_from:
 stylesheet: /assets/css/mddf.css
 ---
 
-{% include figure.html image="ribbons/mddf/MDDF-DUI.svg" placement="right" width="30%"
-cap="The Maryland Defense Force's distinctive unit insignia"
-alt="The Maryland Defense Force's distinctive unit insignia" %}
+
+
+:::figure{src="/assets/img/ribbons/mddf/MDDF-DUI.svg" alt="The Maryland Defense Force's distinctive unit insignia" align="right" width="30%"}
+The Maryland Defense Force's distinctive unit insignia
+:::
+
+
 
 The [Maryland Defense Force (MDDF)](https://military.maryland.gov/mddf/Pages/default.aspx) is Maryland's volunteer uniformed state military agency. It provides professional, technical, and military support to the Maryland Army National Guard, Maryland Air National Guard, and Maryland Department of Emergency Management.
 
@@ -29,7 +33,7 @@ I was commissioned in the MDDF in 2006 and have held the rank of Captain since 2
 
 ## My Service
 
-**Maryland Defense Force · 2006–Present**  
+**Maryland Defense Force · 2006–Present**
 **Captain since September 16, 2013**
 
 My MDDF work joins operations with institutional design. I have led operational teams during statewide COVID-19 vaccination activity; written policies governing promotion, hazardous materials, professional writing, training, and operational standards; and worked in the part of public service where a plan has to survive implementation.
@@ -62,10 +66,13 @@ My MDDF work joins operations with institutional design. I have led operational 
 
 ### My Commission {#MyCommission}
 
-{% include figure.html width="12"
-   image="/service/jhoward-mddf-commission.webp" 
-   alt="Commission in the Maryland Defense Force"
-   cap="Commission in the Maryland Defense Force" %}
+
+
+:::figure{src="/service/jhoward-mddf-commission.webp" alt="Commission in the Maryland Defense Force" align="center" width="12"}
+Commission in the Maryland Defense Force
+:::
+
+
 
 Or you can [download the PDF here](/assets/img/service/jhoward-mddf-commission.pdf).
 
@@ -117,48 +124,14 @@ The ribbons below are the documentary index to the record. They remain grouped b
 
 ### Personal Awards
 
-{% assign ribbons = site.data.mddf_ribbons | where: "type","personal" %}
-{% assign remainder = ribbons.size | modulo: 3 %}
-<div class="ribbonrack container mt-3 mb-4">
-  {% if remainder != 0 %}
-    <div class="row">
-      <div class="col-md-12">
-        <div class="row" style="display: flex; justify-content: center;">
-          {% for ribbon in ribbons limit: remainder %}
-          <div class="col-md-4 col-sm-4 col-xs-4 p-1px m-0 text-center" style="line-height: 0px;">
-            <a href="{% if ribbon.url %}{{ ribbon.url | relative_url }}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon">
-              <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" title="{{ ribbon.alt }}" />
-            </a>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  {% endif %}
-
-  <div class="row">
-    {% assign counter = 0 %}
-    {% for ribbon in ribbons offset: remainder %}
-          <div class="col-md-4 col-sm-4 col-xs-4 p-1px m-0 text-center" style="line-height: 0px;">
-            <a href="{% if ribbon.url %}{{ ribbon.url | relative_url }}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon">
-              <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" title="{{ ribbon.alt }}" />
-            </a>
-          </div>
-      {% assign counter = counter | plus: 1 %}
-      {% if counter == 3 %}
-        </div><div class="row">
-        {% assign counter = 0 %}
-      {% endif %}
-    {% endfor %}
-  </div>
-</div>
+::ribbon-rack{type="personal"}
 
 #### The Adjutant General's Special Recognition Ribbon {#TAGSRR}
 
 The Adjutant General's Special Recognition Ribbon is awarded to
 recognize an agency, organization, or entity that is not a numbered
 or lettered unit for exceptional service or achievement to the
-Maryland Military Department in support of its Service Members and 
+Maryland Military Department in support of its Service Members and
 the mission.
 
 **Awarded: October 13, 2020**
@@ -284,41 +257,7 @@ United States and is authorized for wear by MDDF members.
 
 ### Unit Awards
 
-{% assign ribbons = site.data.mddf_ribbons | where: "type","unit" %}
-{% assign remainder = ribbons.size | modulo: 3 %}
-<div class="ribbonrack container mt-3 mb-4">
-  {% if remainder != 0 %}
-    <div class="row">
-      <div class="col-md-12">
-        <div class="row" style="display: flex; justify-content: center;">
-          {% for ribbon in ribbons limit: remainder %}
-          <div class="col-md-4 col-sm-4 col-xs-4 p-1px m-0 text-center" style="line-height: 0px;">
-            <a href="{% if ribbon.url %}{{ ribbon.url | relative_url }}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon">
-              <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" title="{{ ribbon.alt }}" />
-            </a>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  {% endif %}
-
-  <div class="row">
-    {% assign counter = 0 %}
-    {% for ribbon in ribbons offset: remainder %}
-          <div class="col-md-4 col-sm-4 col-xs-4 p-1px m-0 text-center" style="line-height: 0px;">
-            <a href="{% if ribbon.url %}{{ ribbon.url | relative_url }}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon">
-              <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" title="{{ ribbon.alt }}" />
-            </a>
-          </div>
-      {% assign counter = counter | plus: 1 %}
-      {% if counter == 3 %}
-        </div><div class="row">
-        {% assign counter = 0 %}
-      {% endif %}
-    {% endfor %}
-  </div>
-</div>
+::ribbon-rack{type="unit"}
 
 #### State Guard Association of United States Superior Unit Citation {#SGAUSSUC}
 
@@ -348,41 +287,7 @@ of the Maryland Defense Force and the Maryland Military Department.
 
 ### Other / External Awards
 
-{% assign ribbons = site.data.mddf_ribbons | where: "type","unofficial" %}
-{% assign remainder = ribbons.size | modulo: 3 %}
-<div class="ribbonrack container mt-3 mb-4">
-  {% if remainder != 0 %}
-    <div class="row">
-      <div class="col-md-12">
-        <div class="row" style="display: flex; justify-content: center;">
-          {% for ribbon in ribbons limit: remainder %}
-          <div class="col-md-4 col-sm-4 col-xs-4 p-1px m-0 text-center" style="line-height: 0px;">
-            <a href="{% if ribbon.url %}{{ ribbon.url | relative_url }}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon">
-              <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" title="{{ ribbon.alt }}" />
-            </a>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  {% endif %}
-
-  <div class="row">
-    {% assign counter = 0 %}
-    {% for ribbon in ribbons offset: remainder %}
-          <div class="col-md-4 col-sm-4 col-xs-4 p-1px m-0 text-center" style="line-height: 0px;">
-            <a href="{% if ribbon.url %}{{ ribbon.url | relative_url }}{% else %}#{{ ribbon.id }}{% endif %}" class="ribbon">
-              <img src="{{ ribbon.img }}" alt="{{ ribbon.alt }}" title="{{ ribbon.alt }}" />
-            </a>
-          </div>
-      {% assign counter = counter | plus: 1 %}
-      {% if counter == 3 %}
-        </div><div class="row">
-        {% assign counter = 0 %}
-      {% endif %}
-    {% endfor %}
-  </div>
-</div>
+::ribbon-rack{type="unofficial"}
 
 #### President's Volunteer Service Award {#PVSA}
 
@@ -413,7 +318,7 @@ authorized for wear by MDDF members.
 
 #### Schweizerischer Zweitagemarsch {#CHZTM1}
 
-The [Schweizerischer Zweitagemarsch](https://2tama.ch/), 
+The [Schweizerischer Zweitagemarsch](https://2tama.ch/),
 also known as the Swiss Two Day
 March, is a renowned non-competitive walking event held annually
 in Switzerland. This event, taking place over two days, invites
@@ -432,7 +337,7 @@ The Schweizerischer Zweitagemarsch Medal is awarded for particpating,
 with a silver helmet for the first award.  In 2023, Chase, Ducky, and
 I joined up and walked with the event.
 
-The medal is awarded by Der Verein Schweizerischer Zweitagemarsch 
+The medal is awarded by Der Verein Schweizerischer Zweitagemarsch
 and is not authorized for wear by MDDF members.
 
 
@@ -449,4 +354,6 @@ After September 11, 2001, the force's role developed around providing supplement
 Maryland law establishes the MDDF as a military force within the State's organized militia and permits State Active Duty when the Governor calls the militia in response to a public crisis, disaster, or other legally specified circumstance. The force is separate and distinct from the Maryland National Guard, though its purpose is to support the State's military and emergency-response institutions.
 
 
-{% include relatedposts.html tag="Maryland Defense Force" %}
+
+
+::related-posts{tag="Maryland Defense Force"}

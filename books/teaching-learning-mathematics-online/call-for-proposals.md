@@ -11,7 +11,7 @@ redirect_from:
 ---
 
 * Proposal Submission Deadline: September 30, 2017
-* Editors: 
+* Editors:
     * James P. Howard, II
     * John F. Beyers
 

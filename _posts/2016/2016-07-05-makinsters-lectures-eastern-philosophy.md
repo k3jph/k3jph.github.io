@@ -27,7 +27,7 @@ recently taught his course, Philosophy 110: Eastern Religions,
 online and the entire video collection is available on YouTube, for
 free.
 
-<iframe width="560" height="315"
+<iframe title="Embedded media" width="560" height="315"
 src="https://www.youtube.com/embed/videoseries?list=PLaXdpa7hHYZrv1aPbypz3vt5aSBRPZo6P"
 frameborder="0" allow="accelerometer; autoplay; encrypted-media;
 gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -41,4 +41,3 @@ learn more about eastern philosophy, it's worth watching the videos.
 
 _Image by [antoinese0 /
 Pixabay](https://pixabay.com/en/offering-buddhism-religion-petition-1210605/)._
-

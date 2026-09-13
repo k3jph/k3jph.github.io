@@ -35,16 +35,14 @@ Reynolds, Honey Creek Township, White County, Indiana, where he appeared in the
 roots extended through Indiana and Virginia, and by 1900, they were part of a
 rural farming community in northern Indiana.
 
-<div class="item col-md-4 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--third">
     <div class="card">
         <figure>
-            <div class="row mb-2">
-                <div class="item col-md-12">
-                    <img class="featured-img mx-auto" 
-                         src="{{ '/assets/img/ancestry/nsdarw/harry-lee-williams-ww1-draft-card-front.webp' | cloudflare_image_url: 800 }}"
-                         alt="Harry Williams World War I draft card (front)" 
-                         data-toggle="modal" data-target="#imageModal" 
-                         data-full="/assets/img/ancestry/nsdarw/harry-lee-williams-ww1-draft-card-front.webp" />
+            <div class="content-grid">
+                <div class="item content-grid__item content-grid__item--full">
+                    <img class="featured-img"
+                         src="/assets/img/ancestry/nsdarw/harry-lee-williams-ww1-draft-card-front.webp"
+                         alt="Harry Williams World War I draft card (front)" data-gallery-src="/assets/img/ancestry/nsdarw/harry-lee-williams-ww1-draft-card-front.webp" />
                 </div>
                 <div class="content">
                     <div class="images-caption">Harry Williams World War I draft card (front)</div>
@@ -79,18 +77,16 @@ involved travel or temporary duty in Chicago, his home remained in Cincinnati
 throughout his career.  He continued to work in the railroad industry for
 decades, a steady presence in an era of American expansion and
 industrialization. By the time of the 1942 World War II draft registration,
-Harry was still living in Cincinnati and working for the New York Central. 
+Harry was still living in Cincinnati and working for the New York Central.
 
-<div class="item col-md-4 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--third">
     <div class="card">
         <figure>
-            <div class="row mb-2">
-                <div class="item col-md-12">
-                    <img class="featured-img mx-auto" 
-                         src="{{ '/assets/img/ancestry/nsdarw/harry-lee-williams-ww2-draft-card-front.webp' | cloudflare_image_url: 800 }}"
-                         alt="Harry Williams World War II draft card (front)" 
-                         data-toggle="modal" data-target="#imageModal" 
-                         data-full="/assets/img/ancestry/nsdarw/harry-lee-williams-ww2-draft-card-front.webp" />
+            <div class="content-grid">
+                <div class="item content-grid__item content-grid__item--full">
+                    <img class="featured-img"
+                         src="/assets/img/ancestry/nsdarw/harry-lee-williams-ww2-draft-card-front.webp"
+                         alt="Harry Williams World War II draft card (front)" data-gallery-src="/assets/img/ancestry/nsdarw/harry-lee-williams-ww2-draft-card-front.webp" />
                 </div>
                 <div class="content">
                     <div class="images-caption">Harry Williams World War II draft card (front)</div>
@@ -157,46 +153,12 @@ its role in American industry.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="/ancestry/NSDAR-Williams.webp" border=true
-   alt="Membership certificate in the National Society Descendants of American Railroad Workers"
-   cap="Membership certificate in the National Society Descendants of American Railroad Workers" %}
-   
+
+
+:::figure{src="/ancestry/NSDAR-Williams.webp" alt="Membership certificate in the National Society Descendants of American Railroad Workers" align="center" width="12" border="true"}
+Membership certificate in the National Society Descendants of American Railroad Workers
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/NSDAR-Williams.pdf).
-
-<!-- Modal -->
-<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body text-center">
-                <img id="modalImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" class="img-responsive" alt="Zoomed Image">
-                <p id="modalCaption" class="mt-3"></p>
-                <a id="modalLink" href="#" target="_blank" class="btn btn-primary mt-2">View Original Source</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // Attach click event listeners to all images with data-toggle="modal"
-        document.querySelectorAll('[data-toggle="modal"]').forEach(function (img) {
-            img.addEventListener('click', function () {
-                var fullImage = img.getAttribute('data-full'); // Get the full image URL
-                var modalImage = document.getElementById('modalImage'); // Modal image element
-                var modalCaption = document.getElementById('modalCaption'); // Modal caption element
-                var modalLink = document.getElementById('modalLink'); // Modal link element
-
-                modalImage.setAttribute('src', fullImage); // Set the src of the modal image
-                modalImage.setAttribute('alt', img.getAttribute('alt')); // Set alt text
-                modalCaption.textContent = img.getAttribute('alt'); // Use alt text as caption
-                modalLink.setAttribute('href', fullImage); // Placeholder for the original source
-            });
-        });
-    });
-</script>

@@ -20,7 +20,7 @@ But, while thinking about the Laplace Transform, I pulled up the
 Wikipedia page. You can see it here:
 
 <blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article"><p class="h4"><a href="https://en.wikipedia.org/wiki/Laplace_transform">Laplace transform</a></p><p>In mathematics, the Laplace transform is an integral transform named after its inventor Pierre-Simon Laplace (). It transforms a function of a real variable t (often time) to a function of a complex variable s ( complex frequency). The transform has many applications in science and engineering.</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
 
 But something completely unrelated caught my eye on that page, and
 we are about to go down a completely irrelevant road, but it is
@@ -40,8 +40,13 @@ C. Clarke book, _Rendezvous with Rama_. It's also interesting because
 all of the sudden, we've had two visitors from outside the solar
 system, lately.
 
-{% include figure.html image="news/aliens.webp" placement="right" width="40%"
-    alt="I'm not saying it was aliens, but it was aliens" %}
+
+
+:::figure{src="/assets/img/news/aliens.webp" alt="I'm not saying it was aliens, but it was aliens" align="right" width="40%"}
+
+:::
+
+
 
 First, in 2018, an interstellar object
 ['Oumuamua](https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/oumuamua/in-depth/)

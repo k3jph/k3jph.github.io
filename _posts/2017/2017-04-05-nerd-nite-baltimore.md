@@ -34,10 +34,18 @@ of these ethical dilemmas to self-driving cars and public policymaking.
 
 Get more information from Facebook:
 
-{% include fbembed.html url="https://www.facebook.com/events/335149926883028/" %}
+
+
+::embed{href="https://www.facebook.com/events/335149926883028/"}
+
+
 
 And you can buy tickets through EventBrite:
 
-{% include iframely.html url="https://www.eventbrite.com/e/nerd-nite-baltimore-8-registration-33459147210" %}
+
+
+::embed{href="https://www.eventbrite.com/e/nerd-nite-baltimore-8-registration-33459147210"}
+
+
 
 _Image via Paramount._

@@ -18,7 +18,11 @@ tags:
 [Holly Johnson of _The Simple Dollar_](/2018/02/07/three-reasons-buy-flood-insurance/)
 has an article on why should buy flood insurance:
 
-{% include iframely.html url="https://www.thesimpledollar.com/three-reasons-everyone-should-consider-buying-flood-insurance/" %}
+
+
+::embed{href="https://www.thesimpledollar.com/three-reasons-everyone-should-consider-buying-flood-insurance/"}
+
+
 
 In this article, I tell the story of how [Hamilton, Ohio experienced
 severe flooding only a month](/2016/06/02/femas-flood-maps-not-scam/)

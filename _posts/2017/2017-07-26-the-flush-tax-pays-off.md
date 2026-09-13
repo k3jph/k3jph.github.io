@@ -47,8 +47,13 @@ eventually will, the nutrient balance is kept close to normal.  This
 will keep the Bay clear of harmful algae blooms, keeping everything
 else in the Bay alive.  So we can enjoy crab this summer.
 
-{% include figure.html image="news/maryland-1277097_640.webp" alt="Maryland crabs"
-   cap="Maryland crabs" width="50%" placement="right" %}
+
+
+:::figure{src="/assets/img/news/maryland-1277097_640.webp" alt="Maryland crabs" align="right" width="50%"}
+Maryland crabs
+:::
+
+
 
 Of course, the Chesapeake Bay Restoration Fund became much derided
 as "[The Flush
@@ -79,4 +84,6 @@ was enacted, we now have evidence that is working.  WJZ did a story
 about two weeks ago calling it "money well spent" as the results
 are clear:
 
-{% include youtube.html id="NMwIQpr4iLo" %}
+
+
+::youtube{video="NMwIQpr4iLo"}

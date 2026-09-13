@@ -21,4 +21,4 @@ tags:
 ---
 I am giving the lesson on tax incremental financing this morning at the [University of Baltimore](http://www.ubalt.edu). I no longer teach from slides, but here is the slidedeck I used last year.
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/mXWGtUwgBALY4H" height="410" style="border: 1px solid #CCC; margin-bottom: 5px; width: 100%; max-width: 100%;" title="Tax incremental financing lesson" allowfullscreen></iframe>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/mXWGtUwgBALY4H" height="410" title="Tax incremental financing lesson" allowfullscreen></iframe>

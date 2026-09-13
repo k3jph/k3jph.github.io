@@ -20,9 +20,13 @@ language like
 we would use something like this to define a two-dimensional array
 for a 2x2 matrix:
 
-{% highlight c %}
+
+
+```c
 float matrix[2][2];
-{% endhighlight %}
+```
+
+
 
 Now, there's a lot of different ways to represent this, so let's
 say this is without loss of generality. This would give us four

@@ -81,9 +81,12 @@ monument erected in Bell Cemetery by his descendants in 1915.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="/ancestry/DVF-Darby.webp" border=true
-   alt="Membership certificate in the Society of the Descendants of Washington's Army at Valley Forge"
-   cap="Membership certificate in the Society of the Descendants of Washington's Army at Valley Forge" %}
-   
+
+
+:::figure{src="/ancestry/DVF-Darby.webp" alt="Membership certificate in the Society of the Descendants of Washington's Army at Valley Forge" align="center" width="12" border="true"}
+Membership certificate in the Society of the Descendants of Washington's Army at Valley Forge
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/DVF-Darby.pdf).

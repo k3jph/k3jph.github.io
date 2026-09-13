@@ -22,7 +22,11 @@ tags:
 
 Read more [at Roomi Connect](http://roomiconnect.com/4-must-know-tornado-safety-tips-for-renters/):
 
-{% include pdfembed.html pdf="4 Must-Know Tornado Safety Tips for Renters | Roomi Connect.pdf" width="100%" %}
+
+
+::document{src="/assets/docs/4 Must-Know Tornado Safety Tips for Renters | Roomi Connect.pdf" label="Open the PDF document" embed="true"}
+
+
 
 While targeted at renters, this tornado advice applies to pretty much everyone.  This is the second time Roomi Connect has [interviewed me about disaster preparation](/2016/01/28/flood-preparation-tips-renters-via-roomi-connect/).
 

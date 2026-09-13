@@ -16,7 +16,7 @@ tags:
   - Prague
   - the Golem
 ---
-* Ivana Pecháčková, _The Legend of the Golem_, trans. Klára Tvarůžková, Second, The Legends of Prague (Prague, ČR: Meander, 2004). 
+* Ivana Pecháčková, _The Legend of the Golem_, trans. Klára Tvarůžková, Second, The Legends of Prague (Prague, ČR: Meander, 2004).
 
 Pecháčková retells the story of the [Golem of Prague](http://en.wikipedia.org/wiki/Golem) from the perspective of a Heidelberg student, Johan, who is obsessed with finding the Golem and using it for his own ends. Johan’s story takes him with a traveling theater company, into Emperor Rudolph court, and ultimately to the [Old New Synagogue](http://en.wikipedia.org/wiki/Old_New_Synagogue).
 

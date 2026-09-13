@@ -29,4 +29,3 @@ Suzuki, Jeff,  [The self-limiting partisan gerrymander: an optimization approach
 Jeff Suzuki also wrote _Constititional Calculus_, which I [also reviewed for MR](/2015/08/01/review-of-constitutional-calculus-by-jeff-suzuki/), last month.
 
 _Image by the [Columbia Tribune](http://www.columbiatribune.com/news/local/college-student-would-be-sole-voter-in-cid-sales-tax/article_6702c44b-0243-51f8-861c-1df0b462cd92.html)._
-

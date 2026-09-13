@@ -16,7 +16,7 @@ tags:
   - public affairs
   - space economics
   - space policy
---- 
+---
 The [Outer Space Treaty was adopted in
 1967](http://heinonline.org/HOL/Page?handle=hein.journals/flr37&div=25&g_sent=1)
 to establish a baseline of rules governing the acts and behavior

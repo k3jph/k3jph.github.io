@@ -32,9 +32,13 @@ but [166,534 square
 kilometers](https://en.wikipedia.org/wiki/Chesapeake_Bay) over seven
 states. We can see them both here.
 
-{% include figure.html image="news/baltic-watershed.webp" placement="left" width="50%"
-   cap="The Baltic Sea watershed (Sansculotte / Wikimedia Commons)"
-   alt="The Baltic Sea watershed (Sansculotte / Wikimedia Commons) "%}
+
+
+:::figure{src="/assets/img/news/baltic-watershed.webp" alt="The Baltic Sea watershed (Sansculotte / Wikimedia Commons) " align="left" width="50%"}
+The Baltic Sea watershed (Sansculotte / Wikimedia Commons)
+:::
+
+
 
 Both the Baltic Sea and the Chesapeake Bay are afflicted by
 eutrophication, a strange kind of dead zone in the water. Eutrophication
@@ -54,10 +58,14 @@ Erie](http://www.motherjones.com/food/2015/08/giant-toxic-algae-bloom-haunts-tol
 in 2005. So limiting eutrophy in major bodies of water is critical
 for safety.
 
-{% include figure.html image="news/435px-Chesapeakewatershedmap.webp" placement="left" width="50%"
-   cap="The Chesapeake Bay watershed (Kmusser / Wikimedia Commons)"
-   alt="The Chesapeake Bay watershed (Kmusser / Wikimedia Commons) "%} 
-   
+
+
+:::figure{src="/assets/img/news/435px-Chesapeakewatershedmap.webp" alt="The Chesapeake Bay watershed (Kmusser / Wikimedia Commons) " align="left" width="50%"}
+The Chesapeake Bay watershed (Kmusser / Wikimedia Commons)
+:::
+
+
+
 Under current conditions, the nutrients build up all along the
 watershed until they dump into the central body of water. There,
 they peak and have the worst effects. Tributary-based total maximum

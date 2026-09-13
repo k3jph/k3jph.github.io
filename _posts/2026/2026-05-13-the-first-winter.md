@@ -206,7 +206,7 @@ development was not precluded by anything in *Perceptrons*. The mathematical
 critique was of a specific architecture. The practical consequence was the
 near-abandonment of an entire research paradigm.
 
-Rosenblatt did not live to see the vindication of his approach. He died 
+Rosenblatt did not live to see the vindication of his approach. He died
 in 1971. The researchers who eventually revived and extended his work, Hinton,
 LeCun, Bengio, would not produce results that shifted the field's consensus
 until the 1980s and would not produce results that ended the argument entirely

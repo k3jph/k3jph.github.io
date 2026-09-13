@@ -22,7 +22,7 @@ tags:
   - RF engineering
   - space robots
 ---
-I've talked about it quite a bit, [and even mentioned it here](/2015/07/23/building-an-fm-beacon/), but the kids and I are planning to build a space robot. We've wanted to do this for several years, and have slowly gotten closer to our goal.  We began by constructing the "Ground Robot" that is a simple FM beacon described in the link above.  Our next goal is to do a tethered balloon flight followed by a free flying balloon flight.  
+I've talked about it quite a bit, [and even mentioned it here](/2015/07/23/building-an-fm-beacon/), but the kids and I are planning to build a space robot. We've wanted to do this for several years, and have slowly gotten closer to our goal.  We began by constructing the "Ground Robot" that is a simple FM beacon described in the link above.  Our next goal is to do a tethered balloon flight followed by a free flying balloon flight.
 
 At the same time, I am taking the [Internet of Things specialization](https://www.coursera.org/learn/iot) on Coursera.   I decided to make the balloon-based system my capstone project.  Also, I am calling the balloon-based system Carme, after the irregular satellite of Jupiter.  Since balloon-launched satellites are pretty irregular.
 

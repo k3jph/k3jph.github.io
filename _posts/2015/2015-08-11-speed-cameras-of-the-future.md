@@ -19,7 +19,11 @@ When I was a kid, there was a moderately okay to eventually very bad TV show cal
 
 On Monday, I watched someone working on a speed camera near home.  The speed camera, despite what you may think of it, is a fairly remarkable device.  It can, automatically, determine if you're breaking the law, and is even sometimes correct.  More remarkably, the first patent on a speed camera was [granted in England in 1905](https://books.google.com/books?id=Dt4DAAAAMBAJ&pg=PA926&hl=en#v=onepage&q&f=false).  But I first saw such a device on seaQuest.  In this scene, from the second season opener, Scheider's character is driving a motorcycle and scanned by a laser, which reads a license plate on a barcode.  Then, a human contacts him in real time to announce they have already deducted the fine from his account.  I am not sure why the notice could not be automated, too, but whatever:
 
-{% include youtube.html id="CL7N9YxZSCs" %}
+
+
+::youtube{video="CL7N9YxZSCs"}
+
+
 
 As bad as speed cameras are, and especially as irritating, since they [do not improve safety](http://iowawatch.org/2014/03/20/contradicting-studies-on-traffic-camera-safety-impact-make-regulation-a-judgment-call/)...let's just hope we don't get to automatic fine deduction.
 

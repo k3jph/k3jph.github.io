@@ -21,15 +21,19 @@ redirect_from:
 
 <div class="coat-of-arms-overview-grid">
   <div class="coat-of-arms-principal">
-    {% include figure.html image="armory/jhoward-salmeron-960px.webp" loading="eager" width="12" border=true
-    cap="Interpreted by [Dr Antonio Salmerón](http://blason.es/)"
-    alt="Full heraldic achievement of James Patrick Howard II, interpreted by Dr Antonio Salmerón" %}
+
+
+:::figure{src="/assets/img/armory/jhoward-salmeron-960px.webp" alt="Full heraldic achievement of James Patrick Howard II, interpreted by Dr Antonio Salmerón" align="center" width="12" border="true" loading="eager"}
+Interpreted by [Dr Antonio Salmerón](http://blason.es/)
+:::
+
+
   </div>
   <div class="coat-of-arms-summary">
     <p class="coat-of-arms-eyebrow">Personal armorial record</p>
     <div class="title-area">
       <h2 id="armorial-summary">The Arms at a Glance</h2>
-      <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+      <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
     </div>
     <dl class="coat-of-arms-facts">
       <div><dt>Granting authority</dt><dd>Office of the Chief Herald of Arms of Malta</dd></div>
@@ -37,7 +41,7 @@ redirect_from:
       <div><dt>Date</dt><dd>1 May 2024</dd></div>
       <div><dt>Motto</dt><dd><em>Ir-rieda biss tmexxi l-qalb</em></dd></div>
     </dl>
-    <p class="coat-of-arms-summary-links"><a href="#blazon">Read the blazon <span aria-hidden="true">↓</span></a><a href="{{ '/assets/docs/jhoward-malta-letters-patent.pdf' | relative_url }}">View Letters Patent <span class="sr-only">(PDF)</span><span aria-hidden="true">↗</span></a></p>
+    <p class="coat-of-arms-summary-links"><a href="#blazon">Read the blazon <span aria-hidden="true">↓</span></a><a href="/assets/docs/jhoward-malta-letters-patent.pdf">View Letters Patent <span class="sr-only">(PDF)</span><span aria-hidden="true">↗</span></a></p>
   </div>
 </div>
 
@@ -54,11 +58,11 @@ redirect_from:
 </nav>
 
 <section class="coat-of-arms-band coat-of-arms-band--navy coat-of-arms-heraldry" aria-labelledby="heraldry-context" markdown="1">
-<div class="container" markdown="1">
+<div class="content-section" markdown="1">
 
 <div class="title-area">
   <h2 id="heraldry-context" class="text-warning">Heraldry</h2>
-  <div class="separator separator-warning"><img src="{{ '/assets/img/identity/kamon-warning.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-warning"><img src="/assets/img/identity/kamon-warning.svg" height="35" alt="" /></div>
 </div>
 
 At its core, heraldry began as a system of identification. Over centuries, it
@@ -91,11 +95,11 @@ this page belongs to the first category.
 </section>
 
 <section class="coat-of-arms-band coat-of-arms-band--soft coat-of-arms-grant" aria-labelledby="the-grant" markdown="1">
-<div class="container" markdown="1">
+<div class="content-section" markdown="1">
 
 <div class="title-area">
   <h2 id="the-grant">The Grant</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
   <p class="description">The Maltese authority, Letters Patent, and documentary record.</p>
 </div>
 
@@ -115,9 +119,13 @@ John](https://www.orderofmalta.int/), and numerous ecclesiastical and civic
 institutions. Heraldry in Malta appears on churches, corporate emblems, schools,
 and municipalities, forming part of the visual language of national identity.
 
-{% include figure.html image="Coat-of-Arms-Chief-Herald-Malta.webp"
-placement="right" width="40%" cap="Arms of the Office of the Chief Herald"
-alt="Arms of the Office of the Chief Herald" %}
+
+
+:::figure{src="/assets/img/Coat-of-Arms-Chief-Herald-Malta.webp" alt="Arms of the Office of the Chief Herald" align="right" width="40%"}
+Arms of the Office of the Chief Herald
+:::
+
+
 
 For many years, heraldic emblems developed locally without centralized
 oversight. This changed with the establishment of the [Office of the Chief
@@ -150,9 +158,13 @@ elements expressly granted in the Letters Patent.
 
 ### Letters Patent {#letters-patent}
 
-{% include figure.html image="/2024/a-maltese-grant-of-arms.webp" width="12" border=true
-cap="Letters patent for the coat of arms" 
-alt="Letters patent for the coat of arms" %}
+
+
+:::figure{src="/2024/a-maltese-grant-of-arms.webp" alt="Letters patent for the coat of arms" align="center" width="12" border="true"}
+Letters patent for the coat of arms
+:::
+
+
 
 Or you may [download the PDF here](/assets/docs/jhoward-malta-letters-patent.pdf).
 
@@ -174,11 +186,13 @@ issue](/assets/docs/malta-government-gazette-20240216.pdf).
 
 ### Bound Letters Patent {#bound-letters-patent}
 
-{% include figure.html width="4" border=true placement="right"
-image="/armory/jhoward-malta-letters-patent-binder.webp"
-link="/assets/docs/jhoward-malta-letters-patent-binder.pdf"
-cap="Cover for letters patent in binder format"
-alt="Cover for letters patent in binder format" %}
+
+
+:::figure{src="/armory/jhoward-malta-letters-patent-binder.webp" alt="Cover for letters patent in binder format" align="right" width="4" border="true" link="/assets/docs/jhoward-malta-letters-patent-binder.pdf"}
+Cover for letters patent in binder format
+:::
+
+
 
 The Office also supplied a bound A4 presentation of the same Letters Patent.
 It contains the same petition, grant, blazon, motto, signatures, and archive
@@ -195,7 +209,7 @@ You may [download the PDF here](/assets/docs/jhoward-malta-letters-patent-binder
 
 <div class="title-area">
   <h2 id="the-arms">The Arms</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
   <p class="description">The controlling blazon, the design's personal origins, and the motto.</p>
 </div>
 
@@ -254,7 +268,7 @@ encountered during his term of office.
 
 <div class="title-area">
   <h2 id="emblazonments">Emblazonments</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
   <p class="description">Different artists, one formal blazon.</p>
 </div>
 
@@ -271,57 +285,109 @@ artistically vibrant.
 In this section, various interpretations of the arms are displayed, each adhering to the same blazon while reflecting the individual style of the artist.
 
 <div id="masonry-container" class="coat-of-arms-gallery" data-layout="css-grid">
-{% include figure.html image="armory/jhoward-coa-ratul-960px.webp" placement="left" loading="lazy" width="4" border=true
-cap="Interpreted by [Ratul S](https://www.fiverr.com/ratulsen544)" 
-alt="Interpreted by Ratul S" %}
 
-{% include figure.html image="armory/jhoward-coa-achernushkin-960px.webp" placement="left" loading="lazy" width="4"
-cap="Interpreted by [Alexandr Chernushkin](https://www.fiverr.com/achernushkin)" 
-alt="Interpreted by Alexandr Chernushkin" %}
 
-{% include figure.html image="armory/jhoward-arms-hatched.svg" placement="left" loading="lazy" width="4" border=false
-cap="The hatched style by me" 
-alt="The hatched style by me" %}
+:::figure{src="/assets/img/armory/jhoward-coa-ratul-960px.webp" alt="Interpreted by Ratul S" align="left" width="4" border="true" loading="lazy"}
+Interpreted by [Ratul S](https://www.fiverr.com/ratulsen544)
+:::
 
-{% include figure.html image="armory/jhoward-arms-wappenwiki.svg" placement="left" loading="lazy" width="4" border=false
-cap="The [WappenWiki](https://wappenwiki.org/) style by me" 
-alt="The WappenWiki style by me" %}
 
-{% include figure.html image="armory/jhoward-arms-pierra.svg" placement="left" loading="lazy" width="4" border=false
-cap="Interpreted by [Jean-Eudes Pierra](https://www.armorialofthebee.com/)"
-alt="Interpreted by Jean-Eudes Pierra" %}
 
-{% include figure.html image="armory/cowan/howard-james-shield.png" placement="left" loading="lazy" width="4" border=false
-cap="Interpreted by [Steve Cowan](https://www.stevecowan.ca/)" 
-alt="Interpreted by Steve Cowan" %}
 
-{% include figure.html image="armory/jhoward-armoji.svg" placement="left" loading="lazy" width="4" border=false
-cap="Armoji style" 
-alt="Armoji style" %}
 
-{% include figure.html image="armory/jhoward-arms-loggail.webp" placement="left" loading="lazy" width="4" border=true
-cap="Interpreted by Heikki Halkosaari" 
-alt="Interpreted by Heikki Halkosaari" %}
+:::figure{src="/assets/img/armory/jhoward-coa-achernushkin-960px.webp" alt="Interpreted by Alexandr Chernushkin" align="left" width="4" loading="lazy"}
+Interpreted by [Alexandr Chernushkin](https://www.fiverr.com/achernushkin)
+:::
 
-{% include figure.html image="armory/jhoward-coa-abshier.webp" placement="left" loading="lazy" width="4" border=false
-cap="Interpreted by [Brian Abshier](http://art.abshier.us/)" 
-alt="Interpreted by Brian Abshier" %}
 
-{% include figure.html image="armory/jhoward-coa-manuelpais-keepsake.webp" placement="left" loading="lazy" width="4" border=false
-cap="Interpreted by Manuel Pais in his Keepsake style"
-alt="Interpreted by Manuel Pais in his Keepsake style" %}
 
-{% include figure.html image="armory/jhoward-coa-manuelpais-cba.webp" placement="left" loading="lazy" width="4" border=false
-cap="Interpreted by Manuel Pais in Carta de Brasão de Armas style" 
-alt="Interpreted by Manuel Pais in Carta de Brasão de Armas style" %}
 
-{% include figure.html image="armory/jhoward-coa-fairbairn-color.svg" placement="left" loading="lazy" width="4" border=false
-cap="A colored woodcut style by me" 
-alt="A colored woodcut style by me" %}
 
-{% include figure.html image="armory/jhoward-arms-dprica.webp" placement="left" loading="lazy" width="4" border=false
-cap="Interpreted by [Dimitri Prica](http://www.dprica.com/)" 
-alt="Interpreted by Dimitri Prica" %}
+:::figure{src="/assets/img/armory/jhoward-arms-hatched.svg" alt="The hatched style by me" align="left" width="4" border="false" loading="lazy"}
+The hatched style by me
+:::
+
+
+
+
+
+:::figure{src="/assets/img/armory/jhoward-arms-wappenwiki.svg" alt="The WappenWiki style by me" align="left" width="4" border="false" loading="lazy"}
+The [WappenWiki](https://wappenwiki.org/) style by me
+:::
+
+
+
+
+
+:::figure{src="/assets/img/armory/jhoward-arms-pierra.svg" alt="Interpreted by Jean-Eudes Pierra" align="left" width="4" border="false" loading="lazy"}
+Interpreted by [Jean-Eudes Pierra](https://www.armorialofthebee.com/)
+:::
+
+
+
+
+
+:::figure{src="/assets/img/armory/cowan/howard-james-shield.png" alt="Interpreted by Steve Cowan" align="left" width="4" border="false" loading="lazy"}
+Interpreted by [Steve Cowan](https://www.stevecowan.ca/)
+:::
+
+
+
+
+
+:::figure{src="/assets/img/armory/jhoward-armoji.svg" alt="Armoji style" align="left" width="4" border="false" loading="lazy"}
+Armoji style
+:::
+
+
+
+
+
+:::figure{src="/assets/img/armory/jhoward-arms-loggail.webp" alt="Interpreted by Heikki Halkosaari" align="left" width="4" border="true" loading="lazy"}
+Interpreted by Heikki Halkosaari
+:::
+
+
+
+
+
+:::figure{src="/assets/img/armory/jhoward-coa-abshier.webp" alt="Interpreted by Brian Abshier" align="left" width="4" border="false" loading="lazy"}
+Interpreted by [Brian Abshier](http://art.abshier.us/)
+:::
+
+
+
+
+
+:::figure{src="/assets/img/armory/jhoward-coa-manuelpais-keepsake.webp" alt="Interpreted by Manuel Pais in his Keepsake style" align="left" width="4" border="false" loading="lazy"}
+Interpreted by Manuel Pais in his Keepsake style
+:::
+
+
+
+
+
+:::figure{src="/assets/img/armory/jhoward-coa-manuelpais-cba.webp" alt="Interpreted by Manuel Pais in Carta de Brasão de Armas style" align="left" width="4" border="false" loading="lazy"}
+Interpreted by Manuel Pais in Carta de Brasão de Armas style
+:::
+
+
+
+
+
+:::figure{src="/assets/img/armory/jhoward-coa-fairbairn-color.svg" alt="A colored woodcut style by me" align="left" width="4" border="false" loading="lazy"}
+A colored woodcut style by me
+:::
+
+
+
+
+
+:::figure{src="/assets/img/armory/jhoward-arms-dprica.webp" alt="Interpreted by Dimitri Prica" align="left" width="4" border="false" loading="lazy"}
+Interpreted by [Dimitri Prica](http://www.dprica.com/)
+:::
+
+
 </div>
 
 <p class="coat-of-arms-back"><a href="#contents">Back to contents <span aria-hidden="true">↑</span></a></p>
@@ -330,11 +396,11 @@ alt="Interpreted by Dimitri Prica" %}
 
 <span id="related-insignia" class="coat-of-arms-fragment-target" aria-hidden="true"></span>
 <section class="coat-of-arms-band coat-of-arms-band--slate coat-of-arms-insignia" aria-labelledby="insignia" markdown="1">
-<div class="container" markdown="1">
+<div class="content-section" markdown="1">
 
 <div class="title-area">
   <h2 id="insignia">Derived Devices and Insignia</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
   <p class="description">Later devices developed from the granted arms.</p>
 </div>
 
@@ -357,9 +423,13 @@ separately granted by the Maltese authority.
 
 ### Crest {#crest}
 
-{% include figure.html image="armory/jhoward-crest-quentin-peacock.svg" width="4"
-placement="right" cap="Crest in the Fairbairn-style by [Quentin Peacock](https://www.digitalheraldry.com/)"
-alt="Crest in the Fairbairn-style by Quentin Peacock" %}
+
+
+:::figure{src="/assets/img/armory/jhoward-crest-quentin-peacock.svg" alt="Crest in the Fairbairn-style by Quentin Peacock" align="right" width="4"}
+Crest in the Fairbairn-style by [Quentin Peacock](https://www.digitalheraldry.com/)
+:::
+
+
 
 The Letters Patent expressly grant a martlet Sable upon a wreath of the livery
 colors as the crest. The martlet alludes to the legendary descent from Thomas
@@ -397,9 +467,13 @@ achievement or on its own when a compact personal emblem is useful.
 
 ### Banner {#banner}
 
-{% include figure.html image="armory/jhoward-banner.svg" width="4"
-placement="right" cap="Heraldic banner adapted from the arms"
-alt="Heraldic banner adapted from the arms" %}
+
+
+:::figure{src="/assets/img/armory/jhoward-banner.svg" alt="Heraldic banner adapted from the arms" align="right" width="4"}
+Heraldic banner adapted from the arms
+:::
+
+
 
 The heraldic banner is a square flag displaying the shield alone. Unlike a
 standard, which combines several armorial components in a longer format, the
@@ -438,12 +512,20 @@ uses dense heraldic hatching and engraved texture; the simplified version
 reduces that treatment for clearer reproduction at smaller sizes.
 
 <div class="coat-of-arms-seals">
-  {% include figure.html image="armory/jhoward-seal.svg" link="/assets/img/armory/jhoward-seal.svg" width="12"
-  cap="Detailed hatched rendering of the personal heraldic seal by [Quentin Peacock](https://www.digitalheraldry.com/)"
-  alt="Detailed monochrome personal seal showing the arms, martlet crest, circular legend, and heraldic hatching" %}
-  {% include figure.html image="armory/jhoward-seal-simplified.svg" link="/assets/img/armory/jhoward-seal-simplified.svg" width="12"
-  cap="Simplified line rendering of the personal heraldic seal by [Quentin Peacock](https://www.digitalheraldry.com/)"
-  alt="Simplified monochrome personal seal showing the shield, martlet crest, and circular legend" %}
+
+
+:::figure{src="/assets/img/armory/jhoward-seal.svg" alt="Detailed monochrome personal seal showing the arms, martlet crest, circular legend, and heraldic hatching" align="center" width="12" link="/assets/img/armory/jhoward-seal.svg"}
+Detailed hatched rendering of the personal heraldic seal by [Quentin Peacock](https://www.digitalheraldry.com/)
+:::
+
+
+
+
+:::figure{src="/assets/img/armory/jhoward-seal-simplified.svg" alt="Simplified monochrome personal seal showing the shield, martlet crest, and circular legend" align="center" width="12" link="/assets/img/armory/jhoward-seal-simplified.svg"}
+Simplified line rendering of the personal heraldic seal by [Quentin Peacock](https://www.digitalheraldry.com/)
+:::
+
+
 </div>
 
 The arms are the heraldic design defined by the blazon; a badge is a separate
@@ -458,10 +540,13 @@ The seal is a later personal design and is not part of Letters Patent G0102.
 
 ### English Heraldic Badges {#english-heraldic-badges}
 
-{% include figure.html placement="right" width=4
-image="armory/jhoward-heraldic-badge.svg" 
-cap="Primary heraldic badge" 
-alt="Primary heraldic badge" %}
+
+
+:::figure{src="/assets/img/armory/jhoward-heraldic-badge.svg" alt="Primary heraldic badge" align="right" width="4"}
+Primary heraldic badge
+:::
+
+
 
 Two heraldic badges are associated with my armorial bearings, each combining
 core elements from the arms into compact, emblematic forms. These badges follow
@@ -486,10 +571,13 @@ components but is not itself included in the Letters Patent.
 The secondary badge places the blue tetrahedron from the shield beneath two
 golden swords in saltire.
 
-{% include figure.html placement="right" width=4
-image="armory/jhoward-heraldic-badge-crossed-swords.svg"
-cap="Secondary heraldic badge variant"
-alt="Secondary heraldic badge variant" %}
+
+
+:::figure{src="/assets/img/armory/jhoward-heraldic-badge-crossed-swords.svg" alt="Secondary heraldic badge variant" align="right" width="4"}
+Secondary heraldic badge variant
+:::
+
+
 
 The blazon of the secondary badge is:
 
@@ -545,26 +633,38 @@ recognizing that it is neither an official Irish heraldic category nor a form
 of legal recognition.
 
 <div class="coat-of-arms-badge-gallery">
-  {% include figure.html width="12"
-  image="armory/jhoward-crest-badge-member.svg"
-  cap="Scottish-style crest badge in strap-and-buckle form"
-  alt="Scottish-style crest badge placing the martlet and motto within a strap and buckle" %}
-  {% include figure.html width="12"
-  image="armory/jhoward-crest-badge-armiger.svg"
-  cap="Scottish-inspired armiger-style crest badge"
-  alt="Scottish-inspired crest badge placing the martlet, motto, and one feather within a circlet" %}
-  {% include figure.html width="12"
-  image="armory/jhoward-crest-badge-irish.svg"
-  cap="Irish-style crest badge in Claddagh form"
-  alt="Irish-style crest badge placing the martlet and motto within a Claddagh" %}
+
+
+:::figure{src="/assets/img/armory/jhoward-crest-badge-member.svg" alt="Scottish-style crest badge placing the martlet and motto within a strap and buckle" align="center" width="12"}
+Scottish-style crest badge in strap-and-buckle form
+:::
+
+
+
+
+:::figure{src="/assets/img/armory/jhoward-crest-badge-armiger.svg" alt="Scottish-inspired crest badge placing the martlet, motto, and one feather within a circlet" align="center" width="12"}
+Scottish-inspired armiger-style crest badge
+:::
+
+
+
+
+:::figure{src="/assets/img/armory/jhoward-crest-badge-irish.svg" alt="Irish-style crest badge placing the martlet and motto within a Claddagh" align="center" width="12"}
+Irish-style crest badge in Claddagh form
+:::
+
+
 </div>
 
 ### Standard {#standard}
 
-{% include figure.html width="4" placement="right"
-image="armory/jhoward-standard-md.svg"
-cap="The standard with a hoist of Maryland"
-alt="The standard with a hoist of Maryland" %}
+
+
+:::figure{src="/assets/img/armory/jhoward-standard-md.svg" alt="The standard with a hoist of Maryland" align="right" width="4"}
+The standard with a hoist of Maryland
+:::
+
+
 
 A heraldic standard is a long, tapering flag that combines several elements,
 often including a badge, crest, motto, and livery colors. It differs from a
@@ -576,7 +676,7 @@ as a personal reference to the state and my family's Maryland roots. That
 choice should not be read as a claim of feudal allegiance or as a separately
 granted heraldic element.
 
-The full blazon of the standard is as follows: 
+The full blazon of the standard is as follows:
 
 <div class="formal-text" markdown="1">
 
@@ -592,9 +692,13 @@ Maltese grant; it is a personal derivative work and is not part of G0102.
 
 ### Kamon {#kamon}
 
-{% include figure.html image="armory/jhoward-kamon.svg" width="4" placement="right"
-cap="Kamon adapted from the coat of arms by [Leonardo Barbosa da Silva](https://x.com/dev_cid)" 
-alt="Kamon adapted from the coat of arms by Leonardo Barbosa da Silva" %}
+
+
+:::figure{src="/assets/img/armory/jhoward-kamon.svg" alt="Kamon adapted from the coat of arms by Leonardo Barbosa da Silva" align="right" width="4"}
+Kamon adapted from the coat of arms by [Leonardo Barbosa da Silva](https://x.com/dev_cid)
+:::
+
+
 
 This kamon (かもん) is a modern creation, inspired by my existing coat
 of arms but developed independently through collaboration with several
@@ -629,9 +733,13 @@ heraldic category, or a form of recognition by a Japanese authority.
 
 ### Flag {#flag}
 
-{% include figure.html image="armory/jhoward-flag.svg" width="4" placement="right" 
-cap="Flag adapted from the liveries of the arms" 
-alt="Flag adapted from the liveries of the arms" %}
+
+
+:::figure{src="/assets/img/armory/jhoward-flag.svg" alt="Flag adapted from the liveries of the arms" align="right" width="4"}
+Flag adapted from the liveries of the arms
+:::
+
+
 
 The flag of my liveries is composed of three vertical stripes of equal
 width, arranged from hoist to fly in the order gold, blue, and white.
@@ -661,9 +769,13 @@ not a banner of the arms and not part of Letters Patent G0102.
 
 ### Cockade {#cockade}
 
-{% include figure.html image="armory/jhoward-cockade.svg" width="4" placement="right"
-cap="Cockade adapted from the liveries of the arms" 
-alt="Cockade adapted from the liveries of the arms" %}
+
+
+:::figure{src="/assets/img/armory/jhoward-cockade.svg" alt="Cockade adapted from the liveries of the arms" align="right" width="4"}
+Cockade adapted from the liveries of the arms
+:::
+
+
 
 A cockade is a decorative rosette historically used to show allegiance,
 affiliation, or identity. This personal para-heraldic version consists of three
@@ -680,40 +792,40 @@ legal status.
 
 <div class="title-area">
   <h2 id="tartan">Tartan</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
   <p class="description">The personal tartan and four conventional color treatments of its sett.</p>
 </div>
 
-<div class="item col-md-6 pull-right px-4">
+<div class="item content-float-right content-grid__item content-grid__item--half">
 <div class="card">
   <figure>
-    <div class="row">
-      <div class="item col-md-6 px-0">
-        <figure class="py-0"> 
-            <img class="featured-img mx-auto" src="/assets/img/armory/jhoward-tartan-modern.svg" alt="Tartan in the modern palette" loading="lazy">
+    <div class="content-grid">
+      <div class="item content-grid__item content-grid__item--half">
+        <figure class="">
+            <img class="featured-img" src="/assets/img/armory/jhoward-tartan-modern.svg" alt="Tartan in the modern palette" loading="lazy">
             <figcaption class="images-caption"><div class="content">Modern palette</div></figcaption>
         </figure>
       </div>
-      <div class="item col-md-6 px-0">
-        <figure class="py-0"> 
-            <img class="featured-img mx-auto" src="/assets/img/armory/jhoward-tartan-weathered.svg" alt="Tartan in the weathered palette" loading="lazy">
+      <div class="item content-grid__item content-grid__item--half">
+        <figure class="">
+            <img class="featured-img" src="/assets/img/armory/jhoward-tartan-weathered.svg" alt="Tartan in the weathered palette" loading="lazy">
             <figcaption class="images-caption"><div class="content">Weathered palette</div></figcaption>
         </figure>
       </div>
-      <div class="item col-md-6 px-0">
-        <figure class="py-0"> 
-            <img class="featured-img mx-auto" src="/assets/img/armory/jhoward-tartan-muted.svg" alt="Tartan in the muted palette" loading="lazy">
+      <div class="item content-grid__item content-grid__item--half">
+        <figure class="">
+            <img class="featured-img" src="/assets/img/armory/jhoward-tartan-muted.svg" alt="Tartan in the muted palette" loading="lazy">
             <figcaption class="images-caption"><div class="content">Muted palette</div></figcaption>
         </figure>
       </div>
-      <div class="item col-md-6 px-0">
-        <figure class="py-0"> 
-            <img class="featured-img mx-auto" src="/assets/img/armory/jhoward-tartan-ancient.svg" alt="Tartan in the ancient palette" loading="lazy">
+      <div class="item content-grid__item content-grid__item--half">
+        <figure class="">
+            <img class="featured-img" src="/assets/img/armory/jhoward-tartan-ancient.svg" alt="Tartan in the ancient palette" loading="lazy">
             <figcaption class="images-caption"><div class="content">Ancient palette</div></figcaption>
         </figure>
       </div>
     </div>
-    <figcaption class="images-caption"><div class="content mt-0">Tartan adapted from the liveries</div></figcaption>
+    <figcaption class="images-caption"><div class="content">Tartan adapted from the liveries</div></figcaption>
   </figure>
 </div>
 </div>
@@ -757,11 +869,11 @@ contexts.
 </section>
 
 <section class="coat-of-arms-band coat-of-arms-band--soft coat-of-arms-records" aria-labelledby="other-records" markdown="1">
-<div class="container" markdown="1">
+<div class="content-section" markdown="1">
 
 <div class="title-area">
   <h2 id="other-records">Other Records and Registrations</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
   <p class="description">Later records of the arms maintained by private and non-governmental bodies.</p>
 </div>
 
@@ -778,21 +890,27 @@ for Letters Patent G0102. Where a later body uses a different blazoning style,
 the original Maltese Letters Patent remain the controlling grant.
 
 <div class="coat-of-arms-gallery">
-  {% include figure.html width="12" border=true
-  image="/armory/jhoward-american-armigers-registration.webp"
-  link="/assets/docs/jhoward-american-armigers-registration.pdf"
-  cap="American Armigers registration certificate AA0183"
-  alt="American Armigers registration certificate AA0183" %}
-  {% include figure.html width="12" border=true
-  image="/armory/jhoward-nehgs-coh-letter.webp"
-  link="/assets/docs/jhoward-nehgs-coh-letter.pdf"
-  cap="Record letter from the NEHGS Committee on Heraldry"
-  alt="Record letter from the NEHGS Committee on Heraldry" %}
-  {% include figure.html width="12" border=true
-  image="/armory/jhoward-ach-registration.webp"
-  link="/assets/docs/jhoward-ach-registration.pdf"
-  cap="Registration certificate from the American College of Heraldry"
-  alt="Registration certificate from the American College of Heraldry" %}
+
+
+:::figure{src="/armory/jhoward-american-armigers-registration.webp" alt="American Armigers registration certificate AA0183" align="center" width="12" border="true" link="/assets/docs/jhoward-american-armigers-registration.pdf"}
+American Armigers registration certificate AA0183
+:::
+
+
+
+
+:::figure{src="/armory/jhoward-nehgs-coh-letter.webp" alt="Record letter from the NEHGS Committee on Heraldry" align="center" width="12" border="true" link="/assets/docs/jhoward-nehgs-coh-letter.pdf"}
+Record letter from the NEHGS Committee on Heraldry
+:::
+
+
+
+
+:::figure{src="/armory/jhoward-ach-registration.webp" alt="Registration certificate from the American College of Heraldry" align="center" width="12" border="true" link="/assets/docs/jhoward-ach-registration.pdf"}
+Registration certificate from the American College of Heraldry
+:::
+
+
 </div>
 
 ### American Armigers {#american-armigers}

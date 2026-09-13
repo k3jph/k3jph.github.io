@@ -25,15 +25,23 @@ tags:
 ---
 At this moment, thirty years ago, the Chernobyl Nuclear Power Plant, near Pripyat, Ukraine, suffered a ["catastrophic power increase,"](https://en.wikipedia.org/wiki/Chernobyl_disaster) commonly called a meltdown, that killed 31 people.  This post is not to retell the story of Chernobyl.  A magnificant 2006 documentary, [_The Battle of Chernobyl_](http://www.imdb.com/title/tt1832484/) tells the story well enough and it has been uploaded to YouTube numerous times:
 
-{% include youtube.html id="H1tj4nruBZg" %}
+
+
+::youtube{video="H1tj4nruBZg"}
+
+
 
 One part of the story that still amazes me is the story of the Chernobyl Liquidators.  The initial explosion shot radioactive debris for miles.  An area known as the ["Zone of Alienation"](https://en.wikipedia.org/wiki/Chernobyl_Exclusion_Zone) is contaminated, the area will be access controlled for centuries, at least.  The area closest to reactor 4, within a few hundred meters, were covered radioactive material.  The worse area was the roof of reactor 3, covered in radioactive graphite.  Rather responsibly, Soviet authorities recognized the danger and tried to use remote controlled vehicles to clean the immediate area.  But the radioactivity was so severe, the devices kept breaking down.
 
 The Soviets were desperate to clean up, and organized 500,000 troops over the next year to do the job.  These people became known as the Chernobyl Liquidators, or more sarcastically, as biorobots.  You can see an image of them here:
 
-{% include figure.html image="news/2hqlevj41b_85mq1yq2rn_file.webp"
-   cap="Chernobyl's liquidators cleaning up (Soviet Army)"
-   alt="Chernobyl's liquidators cleaning up (Soviet Army)" %}
+
+
+:::figure{src="/assets/img/news/2hqlevj41b_85mq1yq2rn_file.webp" alt="Chernobyl's liquidators cleaning up (Soviet Army)" align="center" width="100"}
+Chernobyl's liquidators cleaning up (Soviet Army)
+:::
+
+
 
 In this image, the white stripes at the bottom are from the radiation striking the film.  The stripe patten is due to minor blocking provided by the spools on the camera.  There were not enough hazardous materials suits available, so soldiers were instructed to build their own with leather, lead plates, and gas masks.  The entire suit weighed between 60 and 70 pounds.  Even with protection, soldiers were permitted on the roof for only two to three minutes at a time, sometimes less.  They had to shovel up as much as possible, tossing it into the exposed core of reactor 4.  Some individuals went to the roof as many as five times.
 

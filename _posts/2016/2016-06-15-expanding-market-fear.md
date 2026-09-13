@@ -23,7 +23,11 @@ tags:
 ---
 There's a good article in _Vanity Fair_ about the scandal at Valeant, the pharmaceuticals maker.  [NPR has also covered this for those not interested in reading](http://www.marketplace.org/2016/06/10/health-care/valeant-pharmaceuticals-and-dark-side-capitalism).
 
-{% include iframely.html url="http://www.vanityfair.com/news/2016/06/the-valeant-meltdown-and-wall-streets-major-drug-problem" %}
+
+
+::embed{href="http://www.vanityfair.com/news/2016/06/the-valeant-meltdown-and-wall-streets-major-drug-problem"}
+
+
 
 The part that has everyone up in arms has to do with their pricing strategy.  The examples given are Syprine and Cuprimine, for treating Wilson's disease:
 

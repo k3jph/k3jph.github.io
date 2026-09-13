@@ -11,9 +11,13 @@ menu-label:     Games
 ---
 ## GURPS Disasters: Hurricane
 
-{% include figure.html image="GURPS_Disasters_Hurricane.webp" cap="" width="25%" 
-   placement="right" link="/gurps-hurricane"
-   alt="GURPS Disasters: Hurricane gamebook cover" %}
+
+
+:::figure{src="/assets/img/GURPS_Disasters_Hurricane.webp" alt="GURPS Disasters: Hurricane gamebook cover" align="right" width="25%" link="/gurps-hurricane"}
+
+:::
+
+
 
 _You've had a couple of days' warning, but it's never enough. You
 have half the plywood you need, and don't know how high the water
@@ -55,4 +59,3 @@ depth and realism. **GURPS Disasters: Hurricane** doesn’t just tell
 you about the storm; it immerses you in the eye of the storm,
 ensuring that when you tell your story, it truly embodies the essence
 of being "stormy."
-

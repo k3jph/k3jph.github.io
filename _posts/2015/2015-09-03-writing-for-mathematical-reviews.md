@@ -18,7 +18,7 @@ tags:
 ---
 Yesterday, I wrote about writing for [Mathematical Reviews](http://www.ams.org/mr-database) (MR).  MR is a database of reviews of existing mathematical literature.  This is different from the peer review process, and happens post publication.  The service, run by the [American Mathematical Society](http://www.ams.org), has a stable of reviewers who receive a few articles and books a year and are asked to write reviews of them.
 
-But these are not traditional reviews.  The reviewed in MR are much closer to an abstract.  For articles, I try to keep mine to a single paragraph that describes the problem and the result.  For books, I limit the review to a page, describing the goals and focus of the text.  Some write more.  Some write less.  The purpose is to allow other mathematicians to determine if the article they have located is relevant to their interests.  
+But these are not traditional reviews.  The reviewed in MR are much closer to an abstract.  For articles, I try to keep mine to a single paragraph that describes the problem and the result.  For books, I limit the review to a page, describing the goals and focus of the text.  Some write more.  Some write less.  The purpose is to allow other mathematicians to determine if the article they have located is relevant to their interests.
 
 Math is kind of unique in this field to have this service.  There's a similar service in Germany called zbMATH, formerly known as Zentralblatt MATH.  zbMATH was founded in 1931 and MR was founded in 1940 for [entirely predictable reasons](https://en.wikipedia.org/wiki/The_Holocaust).  I became a reviewer for MR after inquiring in 2012, and have written 10 since then.[^this] (zbMATH has not replied to multiple inquiries.)
 

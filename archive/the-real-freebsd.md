@@ -58,10 +58,14 @@ FreeBSD continues in the tradition of the Berkeley by offering a simple, stable,
 
 This is not true either. FreeBSD has developed the most advanced third-party application system in the world, the [Ports System](http://www.freebsd.org/ports) with over 2,500 applications. The Ports System is organized by application type and permits any of these applications to be installed with just a few short command lines. The ports system also manages package dependencies as well. To install the latest version of bash is as simple as:
 
-{% highlight shell %}
+
+
+```shell
 root@byzantine:~# cd /usr/ports/shells/bash2
 root@byzantine:/usr/ports/shells/bash2# make install
-{% endhighlight %}
+```
+
+
 
 And if this is not enough applications for you or an application you need does not exist in `/usr/ports`, Linux binaries run without modification. Many have commented that performance improved using Linux binaries under FreeBSD as opposed to under Linux.
 
@@ -89,5 +93,5 @@ The myriad of misinformation surrounding FreeBSD leaves many users with a bad im
 
 Most negative talk about FreeBSD is baseless and intended to destroy, scare, or subvert potential users. Those in the Linux community who trash talk FreeBSD merely imitate the Microsoft they hate so much.
 
-> Howard, James. "The Real FreeBSD." _DaemonNews_, September 1, 1999.  
+> Howard, James. "The Real FreeBSD." _DaemonNews_, September 1, 1999.
 > [http://www.daemonnews.org/199909/freebsd.html](http://www.daemonnews.org/199909/freebsd.html?utm_source=chatgpt.com)

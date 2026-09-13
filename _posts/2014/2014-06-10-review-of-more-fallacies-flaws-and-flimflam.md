@@ -15,9 +15,13 @@ tags:
   - reviews
   - teaching
 ---
-{% include figure.html image="news/415gCIcGsvL.webp" placement="right" width="50%"
-   cap="Cover of More Fallacies, Flaws and Flimflam"
-   alt="Cover of More Fallacies, Flaws and Flimflam" %}
+
+
+:::figure{src="/assets/img/news/415gCIcGsvL.webp" alt="Cover of More Fallacies, Flaws and Flimflam" align="right" width="50%"}
+Cover of More Fallacies, Flaws and Flimflam
+:::
+
+
 
 My review of [_More Fallacies, Flaws and Flimflam_ by Edward J. Barbeau](http://www.maa.org/publications/books/more-fallacies-flaws-and-flimflam "More Fallacies, Flaws and Flimflam at the Mathematical Association of America"):
 

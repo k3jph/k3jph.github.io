@@ -18,8 +18,10 @@ tags:
   - barcamp
   - IRC
 ---
-{% highlight text %}
-	need more folks
+
+
+```text
+need more folks
 -->|	bryanl has joined #bcbmore
 -->|	avdi has joined #bcbmore
 	and now more folks
@@ -41,4 +43,4 @@ tags:
 =-=	YOU (howardjp) have been booted from #bcbmore by vees (for the memories)
 -->|	YOU (howardjp) have joined #bcbmore
 	now its been since 2009
-{% endhighlight %}
+```

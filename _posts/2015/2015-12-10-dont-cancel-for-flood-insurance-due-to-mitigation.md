@@ -20,7 +20,11 @@ tags:
 ---
 The owner of an auto repair shop, whose shop sits on the Mill Creek floodplain in Delaware, has been flooded 32 times since 1989.  Following completion of a flood abatement project by the Army Corps of Engineers, which will not eliminate, but lessen flooding, the owner cancelled his flood insurance policy.  Here's a video of the story:
 
-{% include youtube.html id="Y9FqhDVJdIQ" %}
+
+
+::youtube{video="Y9FqhDVJdIQ"}
+
+
 
 While we can question of the wisdom of staying after being flooded out 32 times in 26 years, dropping flood insurance is almost certainly a bad idea.  And one we could see coming.  People are [less likely to purchase flood insurance](http://ascelibrary.org/doi/abs/10.1061/(ASCE)NH.1527-6996.0000025) if they believe the property is protected by a flood mitigation system, regardless of actual risk.  That's a real problem for people who are still on the floodplain and may not realize it.  In addition to risk of mitigation failing, as it did in New Orleans, following Katrina, the purpose of flood mitigation is to mitigate damages, not eliminate them.
 

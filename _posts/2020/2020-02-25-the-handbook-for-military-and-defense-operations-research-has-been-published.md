@@ -34,10 +34,9 @@ chains, and strategic simulation, while enabling superior decision-making
 for Allied forces. OR has grown to include analytics and many
 applications, including artificial intelligence, cybersecurity, and
 big data, and is the cornerstone of management science in manufacturing,
-marketing, telecommunications, and many other fields. 
+marketing, telecommunications, and many other fields.
 
 > The Handbook of Military and Defense Operations Research presents the
 voices leading OR and analytics to new heights in security through
 research, practical applications, case studies, and lessons learned
 in the field.
-

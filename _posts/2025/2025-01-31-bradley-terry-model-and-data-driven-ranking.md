@@ -83,7 +83,7 @@ levels, the higher the probability that the stronger entity wins.  These
 parameters are typically estimated using [maximum likelihood estimation
 (MLE)](https://towardsdatascience.com/probability-concepts-explained-maximum-likelihood-estimation-c7b4342fdbb1),
 a statistical approach that finds the parameter values maximizing the
-likelihood of the observed pairwise comparisons. 
+likelihood of the observed pairwise comparisons.
 
 To enhance interpretability, the model can also be extended to include
 additional covariates, such as home-field advantage, player fatigue, or

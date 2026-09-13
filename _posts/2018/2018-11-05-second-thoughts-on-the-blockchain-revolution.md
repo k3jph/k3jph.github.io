@@ -27,4 +27,4 @@ here's all you need to know:
 
 Check out the slides below!
 
-<iframe src="https://drive.google.com/file/d/1qcluwBl3bKqEHNydmOlhSk3JrLFJStW5/preview" width="640" height="480"></iframe>
+<iframe title="Embedded media" src="https://drive.google.com/file/d/1qcluwBl3bKqEHNydmOlhSk3JrLFJStW5/preview" width="640" height="480"></iframe>

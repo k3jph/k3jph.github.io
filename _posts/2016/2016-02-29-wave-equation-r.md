@@ -25,7 +25,9 @@ For our purposes, we will look at a one-dimensional light wave using a second-or
 
 This process is implemented in `wave`, shown in a moment. We take an approach here that instead of generating a first second step using the simpler method, we actually take a step backwards and create a ``zeroth'' step, as shown in the function. This helps with bookkeeping, rather than forcing a recording of both the first and second steps, before entering the loop, we record the first and continue into the loop for [latex]n[/latex] steps. Inside the loop, the step is broken down into three distinct parts and the next [latex]u[/latex] iteration is assembled from those parts. Then it is recorded in the output array and both the previous and current iterations are incremented.
 
-{% highlight r %}
+
+
+```r
 wave <- function(u, alpha, xdelta, tdelta, n) {
     m <- length(u)
     uarray <- matrix(u, nrow = 1)
@@ -50,11 +52,15 @@ wave <- function(u, alpha, xdelta, tdelta, n) {
 
     return(uarray)
 }
-{% endhighlight %}
+```
+
+
 
 We can see this at work in the following example. Of interest, we set the initial state in \\(u\\) to be a partial sine wave. The left side, the lower half of the array, is the positive half of a sine wave. The right half is zeroed out, leading to a wave that travels down the string. The process fixes the ends of the string at zero, making them unmoving. The wave will reach the end of the line and bounce back to the start.
 
-{% highlight r %}
+
+
+```r
 speed <- 2
 x0 <- 0
 xdelta <- .05
@@ -65,10 +71,18 @@ u[11:21] <- 0
 tdelta <- .02
 n <- 40
 z <- wave(u, speed, xdelta, tdelta, n)
-{% endhighlight %}
+```
+
+
 
 The image below comes from animating the output.
 
-{% include figure.html image="news/output_pwVyzg.gif" alt="Wave on a String" cap="Wave on a String" %}
+
+
+:::figure{src="/assets/img/news/output_pwVyzg.gif" alt="Wave on a String" align="center" width="100"}
+Wave on a String
+:::
+
+
 
 _Cover image by [Wills16 / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ruthin_School_Uploads_19.webp)._

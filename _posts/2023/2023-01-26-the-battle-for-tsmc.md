@@ -7,7 +7,7 @@ layout: post
 permalink: /2023/01/26/the-battle-for-tsmc
 featured_image: /assets/img/news/the-battle-for-tsmc.webp
 categories:
-- Blog 
+- Blog
 tags:
 - supply chain
 - Asian politics

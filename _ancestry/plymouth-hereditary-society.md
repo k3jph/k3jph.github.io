@@ -85,12 +85,15 @@ the Plymouth Colony timeframe and the continuation of the line forward through
 New England and the Midwest. This page consolidates the core records that frame
 Phebe's identity, family, and chronology within the late seventeenth and early
 eighteenth centuries.
- 
+
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="ancestry/PHS-Lovell.webp" border=true
-   alt="Membership certificate in the Plymouth Hereditary Society"
-   cap="Membership certificate in the Plymouth Hereditary Society" %}
+
+
+:::figure{src="/assets/img/ancestry/PHS-Lovell.webp" alt="Membership certificate in the Plymouth Hereditary Society" align="center" width="12" border="true"}
+Membership certificate in the Plymouth Hereditary Society
+:::
+
+
 
 Or you can [download the PDF here](/assets/docs/ancestry/PHS-Lovell.pdf).

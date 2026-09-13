@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/02/27/intersection-ethics-technology-autonomous-vehicle-legislation
 featured_image: /assets/img/2024/intersection-ethics-technology-autonomous-vehicle-legislation.webp
 categories:
-- Blog 
+- Blog
 tags:
 - artifical intelligence
 - autonomous vehicles
@@ -20,10 +20,13 @@ Arizona](https://www.ntsb.gov/investigations/accidentreports/reports/har1903.pdf
 This incident underscored the urgent need for comprehensive
 legislation in the era of autonomous vehicles.
 
-{% include figure.html width="4" placement="right"
-   image="2024/intersection-ethics-technology-autonomous-vehicle-legislation/arizona-collision.webp"
-   alt="Scene of the Autonomous Vehicle Incident in Arizona" 
-   cap="Scene of the Autonomous Vehicle Incident in Arizona" %}
+
+
+:::figure{src="/assets/img/2024/intersection-ethics-technology-autonomous-vehicle-legislation/arizona-collision.webp" alt="Scene of the Autonomous Vehicle Incident in Arizona" align="right" width="4"}
+Scene of the Autonomous Vehicle Incident in Arizona
+:::
+
+
 
 Autonomous vehicles, once a futuristic fantasy, are rapidly becoming
 a reality with profound implications for society. Companies like
@@ -50,9 +53,13 @@ pedestrians? This dilemma highlights the profound ethical implications
 of decision-making algorithms that must be programmed to handle
 potential life-and-death scenarios.
 
-{% include figure.html width="6" placement="left" 
-   image="2024/intersection-ethics-technology-autonomous-vehicle-legislation/trolley-problem.webp" 
-   alt="Illustration of the Trolley Problem" cap="Illustration of the Trolley Problem" %}
+
+
+:::figure{src="/assets/img/2024/intersection-ethics-technology-autonomous-vehicle-legislation/trolley-problem.webp" alt="Illustration of the Trolley Problem" align="left" width="6"}
+Illustration of the Trolley Problem
+:::
+
+
 
 Moreover, these vehicles operate as data hubs, continuously collecting
 detailed information about their environment and their passengers.
@@ -87,10 +94,13 @@ safely navigated a complex urban environment during peak traffic
 hours without any human intervention, showcasing the potential of
 autonomous technology to improve road safety.
 
-{% include figure.html width="4" placement="right"
-   image="2024/intersection-ethics-technology-autonomous-vehicle-legislation/waymo-safety.webp"
-   alt="Waymo Vehicles in an Urban Environment" 
-   cap="Waymo Vehicles in an Urban Environment (_Photo by Anna Squires, NREL_)" %}
+
+
+:::figure{src="/assets/img/2024/intersection-ethics-technology-autonomous-vehicle-legislation/waymo-safety.webp" alt="Waymo Vehicles in an Urban Environment" align="right" width="4"}
+Waymo Vehicles in an Urban Environment (_Photo by Anna Squires, NREL_)
+:::
+
+
 
 ### Negative Case Study
 
@@ -131,4 +141,3 @@ As we stand on the brink of a transportation revolution, one must
 ask: Are we ready to accept the responsibility that comes with
 handing the wheel over to machines, and can we trust them to decide
 who gets to walk away from an accident?
-

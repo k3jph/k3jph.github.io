@@ -20,7 +20,11 @@ tags:
 For an article on Oyster.com, Margot Bigg writes about how to respond
 in an earthquake or a tsunami.  Learn my recommendations there:
 
-{% include iframely.html url="https://www.oyster.com/articles/54469-what-its-like-to-evacuate-for-a-tsunami/" %}
+
+
+::embed{href="https://www.oyster.com/articles/54469-what-its-like-to-evacuate-for-a-tsunami/"}
+
+
 
 Remember, especially in an earthquake, the folk wisdom of moving
 to a doorway is counterproductive!

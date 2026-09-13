@@ -8,7 +8,7 @@ permalink: /2024/01/20/fourier-transforms-in-communication
 featured_image: /assets/img/2024/fourier-transforms-in-communication.webp
 credits:  Image via [NASA](https://www.nasa.gov/news-release/nasa-industry-to-collaborate-on-space-communications-by-2025/).
 categories:
-- Blog 
+- Blog
 tags:
 - information theory
 - Fourier analysis
@@ -48,7 +48,7 @@ given by the formula:
 $$ F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-j \omega t} \, dt $$
 
 This integral transforms a time-domain signal [latex]f(t)[/latex] into its
-frequency-domain representation [latex]F(\omega)[/latex]. The variable 
+frequency-domain representation [latex]F(\omega)[/latex]. The variable
 [latex]\omega[/latex] represents angular frequency, and [latex]e^{-j \omega t}[/latex]
 is the complex exponential component that oscillates at frequency
 [latex]\omega[/latex]. Each frequency component in [latex]F(\omega)[/latex] tells us
@@ -67,10 +67,13 @@ media.
 
 ## Historical Context and Development
 
-{% include figure.html width="4" placement="right"
-   image="2024/fourier-transforms-in-communication/joseph-fourier.webp"
-   alt="Portrait of Jean-Baptiste Joseph Fourier" 
-   cap="Portrait of Jean-Baptiste Joseph Fourier" %}
+
+
+:::figure{src="/assets/img/2024/fourier-transforms-in-communication/joseph-fourier.webp" alt="Portrait of Jean-Baptiste Joseph Fourier" align="right" width="4"}
+Portrait of Jean-Baptiste Joseph Fourier
+:::
+
+
 
 The Fourier Transform, named after the French mathematician
 Jean-Baptiste Joseph Fourier, was developed in the early 19th
@@ -104,10 +107,13 @@ and compression. This is essential for enhancing signal clarity,
 reducing bandwidth usage, and adjusting signal properties to match
 the transmission channel's requirements.
 
-{% include figure.html width="12"
-   image="2024/fourier-transforms-in-communication/signal-processing.svg"
-   alt="Diagram illustrating signal processing using Fourier Transforms"
-   cap="Diagram illustrating signal processing using Fourier Transforms" %}
+
+
+:::figure{src="/assets/img/2024/fourier-transforms-in-communication/signal-processing.svg" alt="Diagram illustrating signal processing using Fourier Transforms" align="center" width="12"}
+Diagram illustrating signal processing using Fourier Transforms
+:::
+
+
 
 Fourier Transforms are indispensable in the field of data transmission,
 particularly in the process known as multiplexing. Multiplexing is
@@ -125,10 +131,13 @@ decode the complex mixed signal back into distinct signals. This
 ability to encode and decode signals accurately is fundamental to
 maintaining the integrity and quality of communication.
 
-{% include figure.html width="6" placement="right"
-   image="2024/fourier-transforms-in-communication/multiplexing.svg"
-   alt="An example of multiplexing using Fourier Transforms" 
-   cap="An example of multiplexing using Fourier Transforms" %}
+
+
+:::figure{src="/assets/img/2024/fourier-transforms-in-communication/multiplexing.svg" alt="An example of multiplexing using Fourier Transforms" align="right" width="6"}
+An example of multiplexing using Fourier Transforms
+:::
+
+
 
 The practical applications of Fourier Transforms in communication
 are vast and varied. In FM radio broadcasting, for example, Fourier
@@ -170,10 +179,13 @@ optical fibers. By applying Fourier Transforms, the original signal
 can be altered to efficiently utilize the bandwidth and adapt to
 the physical characteristics of the channel.
 
-{% include figure.html width="12"
-   image="2024/fourier-transforms-in-communication/modulation-process.svg"
-   alt="Diagram showing the modulation process using Fourier Transforms"
-   cap="Diagram showing the modulation process using Fourier Transforms" %}
+
+
+:::figure{src="/assets/img/2024/fourier-transforms-in-communication/modulation-process.svg" alt="Diagram showing the modulation process using Fourier Transforms" align="center" width="12"}
+Diagram showing the modulation process using Fourier Transforms
+:::
+
+
 
 Upon reaching their destination, these signals must undergo
 demodulation, which is essentially the reverse of modulation. This
@@ -182,10 +194,13 @@ frequency-domain signal back into its original time-domain form.
 This critical process ensures that the transmitted data can be
 accurately reconstructed and understood.
 
-{% include figure.html width="12"
-   image="2024/fourier-transforms-in-communication/demodulation-process.svg"
-   alt="Diagram showing the demodulation process using Fourier Transforms"
-   cap="Diagram showing the demodulation process using Fourier Transforms" %}
+
+
+:::figure{src="/assets/img/2024/fourier-transforms-in-communication/demodulation-process.svg" alt="Diagram showing the demodulation process using Fourier Transforms" align="center" width="12"}
+Diagram showing the demodulation process using Fourier Transforms
+:::
+
+
 
 ## Challenges and Limitations
 

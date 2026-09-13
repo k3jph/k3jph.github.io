@@ -31,13 +31,13 @@ tartans for astronauts and archdioceses, tech companies and towns. There is a
 Park](https://www.tartanregister.gov.uk/tartanDetails?ref=14272). Anyone can
 design one, and people do.
 
-<div class="item col-md-6 px-5 pull-right">
-  <div class="row inset p-4">
-    <div class="item col-md-6 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--half">
+  <div class="content-grid inset">
+    <div class="item content-float-right content-grid__item content-grid__item--half">
     <div class="card">
       <figure>
-        <img class="featured-img mx-auto" 
-            src="{{ '/assets/img/2025/how-to-design-a-tartan/k100-w100.webp' | cloudflare_image_url: 800 }}"
+        <img class="featured-img"
+            src="/assets/img/2025/how-to-design-a-tartan/k100-w100.webp"
              alt="A black and white check" />
         <figcaption class="images-caption">A black and white check</figcaption>
       </figure>
@@ -47,7 +47,7 @@ design one, and people do.
 <p>Tartan does not have to be complex. The most stripped-down example is the classic check—a pattern built from just two colors and no symmetry beyond simple repetition.</p>
 <p>Consider this sett: <code>K100 W100</code>. That is 100 threads of black (K for key, the traditional color code for black), followed by 100 threads of white. The same sequence is used in both warp and weft. The result is a bold grid: black squares where black crosses black, white where white crosses white, and soft grey at the intersections.
 </p>
-<p class="mb-0">
+<p class="">
 This basic pattern is often called the Check. It is instantly recognizable, structurally perfect, and a reminder that tartan is not about ornament. Add a red pinstripe, and you are halfway to something iconic. But even alone, it stands.
 </p></div>
 </div>
@@ -128,10 +128,13 @@ description of the sequence of colors and the number of threads assigned to
 each. This is the language in which tartans are created, recognized, and
 reproduced.
 
-{% include figure.html width="4" placement="right"
-   image="2025/how-to-design-a-tartan/g24-b4-g24-r6-g24-b4-g24.webp"
-   alt="A simple tartan defined by G24 B4 G24 R6 G24 B4 G24"
-   cap="A simple tartan defined by G24 B4 G24 R6 G24 B4 G24" %}
+
+
+:::figure{src="/assets/img/2025/how-to-design-a-tartan/g24-b4-g24-r6-g24-b4-g24.webp" alt="A simple tartan defined by G24 B4 G24 R6 G24 B4 G24" align="right" width="4"}
+A simple tartan defined by G24 B4 G24 R6 G24 B4 G24
+:::
+
+
 
 A typical thread count notation might look like this:
 
@@ -152,11 +155,14 @@ symmetrical design, in which the pattern reflects itself horizontally and
 vertically. Such symmetry is the default assumption for most tartans unless
 stated otherwise.
 
-{% include figure.html width="4" placement="right"
-   image="2025/how-to-design-a-tartan/r-40-g-80-b-40.webp"
-   alt="A simple tartan defined by R/4 G/8 B/4"
-   cap="A simple tartan defined by R/4 G/8 B/4" %}
-   
+
+
+:::figure{src="/assets/img/2025/how-to-design-a-tartan/r-40-g-80-b-40.webp" alt="A simple tartan defined by R/4 G/8 B/4" align="right" width="4"}
+A simple tartan defined by R/4 G/8 B/4
+:::
+
+
+
 Because symmetry is so common, many tartans are written in symmetrical
 shorthand, also known as _center-to-selvedge notation_. In this format, only
 half of the sett is written, with a slash (`/`) indicating that the sequence
@@ -183,11 +189,14 @@ and visual center. Placing the pivot at a stripe of high contrast or narrow
 width draws the eye and helps orient the sett. Good design tends to build
 outward from this point, using rhythm and repetition to create coherence.
 
-{% include figure.html width="4" placement="right"
-   image="2025/how-to-design-a-tartan/r100-g100-b25.webp"
-   alt="An asymmetric tartan defined by R100 G100 B25"
-   cap="An asymmetric tartan defined by R100 G100 B25" %}
-   
+
+
+:::figure{src="/assets/img/2025/how-to-design-a-tartan/r100-g100-b25.webp" alt="An asymmetric tartan defined by R100 G100 B25" align="right" width="4"}
+An asymmetric tartan defined by R100 G100 B25
+:::
+
+
+
 Some tartans, however, reject symmetry altogether. These are known as asymmetric
 tartans, and their setts repeat continuously without reversal. Instead of
 mirroring, the pattern simply cycles forward: `A B C D A B C D`, and so on. The
@@ -236,44 +245,44 @@ separate tartans, they are stylistic treatments of the same thread count.
     not as radically shifted as weathered. This variant is often used for
     military or hunting tartans, where reduced visibility in the landscape was
     desirable.
-    
-<div class="item col-md-12 px-5 mb-4">
-  <div class="row inset p-4">
-    <div class="item col-md-3">
+
+<div class="item content-grid__item content-grid__item--full">
+  <div class="content-grid inset">
+    <div class="item content-grid__item content-grid__item--quarter">
     <div class="card">
       <figure>
-        <img class="featured-img mx-auto" 
-            src="{{ '/assets/img/2025/how-to-design-a-tartan/prince-charles-edward-stuart-ancient.webp' | cloudflare_image_url: 800 }}"
+        <img class="featured-img"
+            src="/assets/img/2025/how-to-design-a-tartan/prince-charles-edward-stuart-ancient.webp"
              alt="Tartan of Prince Charles Edward Stuart in the Ancient palette" />
         <figcaption class="images-caption">Ancient</figcaption>
       </figure>
     </div>
   </div>
-    <div class="item col-md-3">
+    <div class="item content-grid__item content-grid__item--quarter">
     <div class="card">
       <figure>
-        <img class="featured-img mx-auto" 
-            src="{{ '/assets/img/2025/how-to-design-a-tartan/prince-charles-edward-stuart-modern.webp' | cloudflare_image_url: 800 }}"
+        <img class="featured-img"
+            src="/assets/img/2025/how-to-design-a-tartan/prince-charles-edward-stuart-modern.webp"
              alt="Tartan of Prince Charles Edward Stuart in the Modern palette" />
         <figcaption class="images-caption">Modern</figcaption>
       </figure>
     </div>
   </div>
-    <div class="item col-md-3">
+    <div class="item content-grid__item content-grid__item--quarter">
     <div class="card">
       <figure>
-        <img class="featured-img mx-auto" 
-            src="{{ '/assets/img/2025/how-to-design-a-tartan/prince-charles-edward-stuart-weathered.webp' | cloudflare_image_url: 800 }}"
+        <img class="featured-img"
+            src="/assets/img/2025/how-to-design-a-tartan/prince-charles-edward-stuart-weathered.webp"
              alt="Tartan of Prince Charles Edward Stuart in the Weathered palette" />
         <figcaption class="images-caption">Weathered</figcaption>
       </figure>
     </div>
   </div>
-    <div class="item col-md-3">
+    <div class="item content-grid__item content-grid__item--quarter">
     <div class="card">
       <figure>
-        <img class="featured-img mx-auto" 
-            src="{{ '/assets/img/2025/how-to-design-a-tartan/prince-charles-edward-stuart-muted.webp' | cloudflare_image_url: 800 }}"
+        <img class="featured-img"
+            src="/assets/img/2025/how-to-design-a-tartan/prince-charles-edward-stuart-muted.webp"
              alt="Tartan of Prince Charles Edward Stuart in the Muted palette" />
         <figcaption class="images-caption">Muted</figcaption>
       </figure>
@@ -282,9 +291,9 @@ separate tartans, they are stylistic treatments of the same thread count.
 <h3>Prince Charlie in Four Palettes</h3>
 <p>The <a href="https://www.tartanregister.gov.uk/tartanDetails?ref=3991">tartan of Prince Charles Edward Stuart</a> offers a perfect study in how color variants reshape perception without touching structure. The sett remains constant—red dominant, with green and black overchecks and fine white accents—but each treatment tells a different story.</p>
 <p>In <em>modern colors</em>, the tartan is bright, proud, and martial. The red is vivid, the green deep, the white stark. It is the tartan of pageantry—cut for formal kilts and royal receptions. You can practically hear the pipes.  In <em>ancient colors</em>, the red softens to coral and the green leans toward lichen. The boldness is tempered. This version feels worn-in, not worn-out—like a remembered past, not a preserved relic. It looks less like a prince in exile, more like a rebel in the field. In <em>weathered</em>, the transformation is dramatic. Red becomes rust, green becomes slate, and black becomes stone. It looks not just faded but unearthed. This is the Bonnie Prince of myth—tattered, hunted, and gone. In <em>muted</em>, the tartan becomes contemplative. The red is wine-dark, the green is olive, and the whole pattern feels grounded and reserved. This is a tartan for quiet loyalty, not loud allegiance.</p>
-<p class="mb-0">Same sett. Same thread count. Four moods. A single prince refracted through color and time.</p></div>
+<p class="">Same sett. Same thread count. Four moods. A single prince refracted through color and time.</p></div>
 </div>
- 
+
 Critically, these are _presentation styles_, not changes to the sett. The
 underlying thread count and pattern remain the same; it is only the color
 rendering that changes. For example, the Black Watch tartan, one of the most
@@ -344,7 +353,7 @@ difficult to balance. A good palette includes:
 -   One or two midtones, which act as bridges between extremes and give the
     pattern cohesion.
 -   An accent color, used sparingly, to create rhythm or draw the eye.
-    
+
 Color choice may be symbolic (red for courage, green for nature), geographic
 (matching a state or municipal flag), heraldic (using tinctures from a coat of
 arms), or emotional. Tartan design tolerates meaning well.
@@ -367,7 +376,7 @@ Think in terms of visual weight:
 -   What is subtle?
 -   What recedes?
 -   What pulses?
-    
+
 Use alternating dark and light stripes to preserve clarity and movement. Too
 many midtones will turn the sett to visual mush. You want the grid to breathe.
 
@@ -378,20 +387,20 @@ structure give the pattern a sense of order, intentionality, and stability.
 Unless you have a specific reason to do otherwise, begin with a symmetrical
 design.
 
-<div class="item col-md-6 px-5 pull-right">
-  <div class="row inset p-4">
-    <div class="item col-md-12 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--half">
+  <div class="content-grid inset">
+    <div class="item content-float-right content-grid__item content-grid__item--full">
     <div class="card">
       <figure>
-        <img class="featured-img mx-auto" 
-            src="{{ '/assets/img/2025/how-to-design-a-tartan/basu-howard-tartan.webp' | cloudflare_image_url: 800 }}"
+        <img class="featured-img"
+            src="/assets/img/2025/how-to-design-a-tartan/basu-howard-tartan.webp"
              alt="Basu-Howard Family tartan" />
         <figcaption class="images-caption">The Basu-Howard Family tartan</figcaption>
       </figure>
     </div>
   </div>
   <h3>Asymmetric in Practice</h3>
-<p class="mb-0">Consider the sett <code>G4 R32 G4 R8 K128 N8 K8 N32 K32 R8</code>. This is a textbook example of an <strong>asymmetric tartan</strong>. There is no central pivot, no mirroring point—just a continuous sequence of stripes flowing from one to the next. The pattern moves forward rather than balancing inward. The long run of black (<code>K128</code>) dominates the visual rhythm, while the lighter neutral and red elements provide contrast and punctuation. The lack of symmetry gives the tartan a directional quality, more kinetic than centered. It does not settle; it progresses.</p>
+<p class="">Consider the sett <code>G4 R32 G4 R8 K128 N8 K8 N32 K32 R8</code>. This is a textbook example of an <strong>asymmetric tartan</strong>. There is no central pivot, no mirroring point—just a continuous sequence of stripes flowing from one to the next. The pattern moves forward rather than balancing inward. The long run of black (<code>K128</code>) dominates the visual rhythm, while the lighter neutral and red elements provide contrast and punctuation. The lack of symmetry gives the tartan a directional quality, more kinetic than centered. It does not settle; it progresses.</p>
 </div>
 </div>
 
@@ -474,7 +483,7 @@ Two web-based tools stand out:
     interface is dated, but the functionality remains useful. House of Tartan
     also supports commercial weaving, should you decide to commission fabric
     later.
-    
+
 For higher-fidelity mockups or print-ready versions, consider:
 
 -   Adobe Illustrator or Inkscape: Both allow you to create a vector-based grid,
@@ -482,7 +491,7 @@ For higher-fidelity mockups or print-ready versions, consider:
     mathematical precision. This approach is especially useful if you plan to
     use your tartan in branding, packaging, or digital applications. It also
     gives you full control over stripe alignment and spacing.
- 
+
 With any of these tools, remember to preview the sett not just as a stripe
 sequence, but as a tiled grid. A tartan only comes to life when repeated.
 
@@ -524,7 +533,7 @@ Even well-intentioned tartans can stumble. Here are a few traps to watch for:
 -   Neglecting visual rhythm: Tartan is not just about color placement, it is
     about pacing. A good sett alternates moments of tension and rest, large and
     small, dark and light. If your pattern feels flat, rework the rhythm.
-    
+
 ### Reality Check: Fabric Scale
 
 Lastly, translate your digital sett to real-world proportions. Most tartan is
@@ -584,7 +593,7 @@ memory bank, a public ledger of design and meaning. Long after the fabric fades
 or the designer passes, the tartan remains, visible, referenced, and remembered.
 It joins the collective pattern of the Scottish diaspora, of commemorative
 design, and of the ever-expanding symbolic vocabulary of cloth.
- 
+
 ### How to Register
 
 To register your tartan, visit the [Scottish Register of
@@ -592,7 +601,7 @@ Tartans](https://www.tartanregister.gov.uk/) and begin an application.
 
 You will need to provide:
 -   The name of the tartan.
--   A complete thread count, in either full or symmetrical shorthand.   
+-   A complete thread count, in either full or symmetrical shorthand.
 -   A color key, using standardized colors, typically drawn from the British
     Colour Council or an approved weaving palette.
 -   A short statement of purpose: What does the tartan commemorate or represent?
@@ -620,12 +629,12 @@ purpose. Here are some typical forms:
 -   Corporate or institutional names: If you are registering on behalf of an
     organization, use its proper name, _Eastport Fire Company_ or _Harrison
     College_.
- 
+
 Avoid overly generic names like _Pride_, _Victory_, or _Tradition_. These are
 likely to be rejected or require additional justification. The goal is clarity
 and distinctiveness. You want your tartan to be identifiable in a list, not lost
 among dozens with similar names.
- 
+
 ## Final Thoughts
 
 Tartan design is not fashion. It is not ornament. It is form, proportion, and

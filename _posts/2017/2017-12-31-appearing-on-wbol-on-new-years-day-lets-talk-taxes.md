@@ -24,7 +24,11 @@ People_](https://wolbbaltimore.com/schedule/patrick-hendersons-meet-the-people/)
 from 11:30 to 1:00pm EST on [WBOL](https://wolbbaltimore.com/).
 You can listen to the broadcast live on their website:
 
-{% include iframely.html url="https://wolbbaltimore.com/schedule/patrick-hendersons-meet-the-people/" %}
+
+
+::embed{href="https://wolbbaltimore.com/schedule/patrick-hendersons-meet-the-people/"}
+
+
 
 This tax bill is going to have many effects broadly across the
 economy.  We will see impacts in lower income communities as funds

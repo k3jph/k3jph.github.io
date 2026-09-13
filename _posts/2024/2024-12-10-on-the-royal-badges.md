@@ -50,10 +50,10 @@ that most vividly defined their reigns.
 
 ### The Plantagenets and the Planta genista
 
-<div class="item col-md-3 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--quarter">
   <div class="card">
     <figure>
-      <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Planta_genista_Badge_of_the_Plantagenets.svg" alt="Planta genista Badge of the Plantagenets" />
+      <img class="featured-img" src="/assets/img/2024/on-the-royal-badges/Planta_genista_Badge_of_the_Plantagenets.svg" alt="Planta genista Badge of the Plantagenets" />
       <div class="images-caption">Planta genista Badge of the Plantagenets</div>
     </figure>
   </div>
@@ -80,16 +80,16 @@ ensuring the badge's significance endured through generations.
 
 ### Other Plantagenet Badges
 
-<div class="item col-md-6 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--half">
   <div class="card">
     <figure>
-      <div class="row mb-2">
-        <div class="item col-md-6">
-      <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Star_and_Crescent_Badge.svg" alt="Star and Crescent Badge" />
+      <div class="content-grid">
+        <div class="item content-grid__item content-grid__item--half">
+      <img class="featured-img" src="/assets/img/2024/on-the-royal-badges/Star_and_Crescent_Badge.svg" alt="Star and Crescent Badge" />
       <div class="images-caption">Star and Crescent Badge</div>
         </div>
-        <div class="item col-md-6">
-      <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Golden_Rose_Badge.svg" alt="The Golden Rose Badge" />
+        <div class="item content-grid__item content-grid__item--half">
+      <img class="featured-img" src="/assets/img/2024/on-the-royal-badges/Golden_Rose_Badge.svg" alt="The Golden Rose Badge" />
       <div class="images-caption">The Golden Rose Badge</div>
         </div>
       </div>
@@ -121,20 +121,20 @@ and beyond.
 
 ### The Ostrich Feather and Its Long Legacy
 
-<div class="item col-md-6 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--half">
   <div class="card">
     <figure>
-      <div class="row mb-2">
-        <div class="item col-md-4">
-          <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Ostrich_Feather_Badge.svg" alt="Ostrich feather of Richard II" />
+      <div class="content-grid">
+        <div class="item content-grid__item content-grid__item--third">
+          <img class="featured-img" src="/assets/img/2024/on-the-royal-badges/Ostrich_Feather_Badge.svg" alt="Ostrich feather of Richard II" />
             <div class="images-caption">Ostrich feather of Richard II</div>
         </div>
-        <div class="item col-md-4">
-          <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Ostrich_Feather_Badge_of_Henry_IV.svg" alt="Ostrich feather of Henry IV" />
+        <div class="item content-grid__item content-grid__item--third">
+          <img class="featured-img" src="/assets/img/2024/on-the-royal-badges/Ostrich_Feather_Badge_of_Henry_IV.svg" alt="Ostrich feather of Henry IV" />
             <div class="images-caption">Ostrich feather of Henry IV</div>
         </div>
-        <div class="item col-md-4">
-          <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Silver_Feather_Badge.svg" alt="Ostrich feather of Henry V" />
+        <div class="item content-grid__item content-grid__item--third">
+          <img class="featured-img" src="/assets/img/2024/on-the-royal-badges/Silver_Feather_Badge.svg" alt="Ostrich feather of Henry V" />
             <div class="images-caption">Ostrich feather of Henry V</div>
         </div>
       </div>
@@ -175,20 +175,20 @@ through noble inheritance, while also highlighting the chivalric ideals
 that defined both monarchs' reigns.  The Lancasters may be best known
 for the red rose, however.
 
-<div class="item col-md-6 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--half">
   <div class="card">
     <figure>
-      <div class="row mb-2">
-        <div class="item col-md-4">
-      <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Red_Rose_Badge_of_Lancaster.svg" alt="The red rose of Lancaster" />
+      <div class="content-grid">
+        <div class="item content-grid__item content-grid__item--third">
+      <img class="featured-img" src="/assets/img/2024/on-the-royal-badges/Red_Rose_Badge_of_Lancaster.svg" alt="The red rose of Lancaster" />
       <div class="images-caption">The red rose of Lancaster</div>
         </div>
-        <div class="item col-md-4">
-      <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/White_Rose_Badge_of_York.svg" alt="The white rose of York" />
+        <div class="item content-grid__item content-grid__item--third">
+      <img class="featured-img" src="/assets/img/2024/on-the-royal-badges/White_Rose_Badge_of_York.svg" alt="The white rose of York" />
       <div class="images-caption">The white rose of York</div>
         </div>
-        <div class="item col-md-4">
-          <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Tudor_Rose.svg" alt="The Tudor Rose" />
+        <div class="item content-grid__item content-grid__item--third">
+          <img class="featured-img" src="/assets/img/2024/on-the-royal-badges/Tudor_Rose.svg" alt="The Tudor Rose" />
             <div class="images-caption">The Tudor Rose</div>
     </div>
       </div>
@@ -253,26 +253,26 @@ providing stability to England.
 
 ### The House of Stuart: Representing a United Kingdom
 
-<div class="item col-md-6 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--half">
   <div class="card">
     <figure>
-      <div class="row mb-2">
-        <div class="item col-md-6">
-          <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Tudor_Rose_(Tudor_Heraldry).svg" alt="Crowned Tudor Rose" />
+      <div class="content-grid">
+        <div class="item content-grid__item content-grid__item--half">
+          <img class="featured-img" src="/assets/img/2024/on-the-royal-badges/Tudor_Rose_(Tudor_Heraldry).svg" alt="Crowned Tudor Rose" />
             <div class="images-caption">Crowned Tudor Rose</div>
         </div>
-        <div class="item col-md-6">
-          <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Thistle_Royal_Badge_of_Scotland.svg" alt="Crowned Thistle" />
+        <div class="item content-grid__item content-grid__item--half">
+          <img class="featured-img" src="/assets/img/2024/on-the-royal-badges/Thistle_Royal_Badge_of_Scotland.svg" alt="Crowned Thistle" />
             <div class="images-caption">Crowned Thistle</div>
         </div>
       </div>
-     <div class="row mb-2">
-        <div class="item col-md-6">
-          <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Crowned_Fleur_de_lys_(Tudor_Crown).svg" alt="Crowned Fleur-de-lys" />
+     <div class="content-grid">
+        <div class="item content-grid__item content-grid__item--half">
+          <img class="featured-img" src="/assets/img/2024/on-the-royal-badges/Crowned_Fleur_de_lys_(Tudor_Crown).svg" alt="Crowned Fleur-de-lys" />
             <div class="images-caption">Crowned <em>Fleur-de-lys</em></div>
         </div>
-        <div class="item col-md-6">
-          <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Crowned_Harp_(Tudor_Crown).svg" alt="Crowned Harp" />
+        <div class="item content-grid__item content-grid__item--half">
+          <img class="featured-img" src="/assets/img/2024/on-the-royal-badges/Crowned_Harp_(Tudor_Crown).svg" alt="Crowned Harp" />
             <div class="images-caption">Crowned Harp</div>
         </div>
       </div>
@@ -314,7 +314,7 @@ this right in 1340. Although the claim was largely symbolic by the
 Stuart period, the fleur-de-lis remained an integral part of royal
 heraldry, reflecting the historic ambitions of English monarchs on the
 European stage. Its inclusion in the Stuart badges signaled a continued,
-if nominal, assertion of England's influence abroad. 
+if nominal, assertion of England's influence abroad.
 
 The harp (Or, stringed Argent, and crowned) represented Ireland, a badge
 steeped in both cultural and political significance. As a long-standing
@@ -322,12 +322,12 @@ symbol of Irish identity, the harp conveyed the monarchy's role as the
 sovereign authority over Ireland, though Stuart rule in Ireland faced
 persistent challenges. The harp's royal crown reinforced the notion of
 Ireland's integration into the composite monarchy, despite the
-underlying tensions and divisions within the Irish realm. 
+underlying tensions and divisions within the Irish realm.
 
-<div class="item col-md-3 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--quarter">
   <div class="card">
     <figure>
-          <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Union_of_the_Crowns_Royal_Badge.svg" alt="Badge of the Union of the Crowns" />
+          <img class="featured-img" src="/assets/img/2024/on-the-royal-badges/Union_of_the_Crowns_Royal_Badge.svg" alt="Badge of the Union of the Crowns" />
             <div class="images-caption">Badge of the Union of the Crowns</div>
     </figure>
   </div>
@@ -353,22 +353,22 @@ nature of this early symbol of British integration.
 
 ### George I to Elizabeth II
 
-<div class="item col-md-6 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--half">
   <div class="card">
     <figure>
-      <div class="row mb-2">
-        <div class="item col-md-4">
-          <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Royal_Badge_of_Wales_(1953).svg" alt="1801 Badge of Wales with 1953 Augmentation" />
+      <div class="content-grid">
+        <div class="item content-grid__item content-grid__item--third">
+          <img class="featured-img" src="/assets/img/2024/on-the-royal-badges/Royal_Badge_of_Wales_(1953).svg" alt="1801 Badge of Wales with 1953 Augmentation" />
             <div class="images-caption">1801 Badge of Wales with 1953 Augmentation</div>
         </div>
-        <div class="item col-md-4">
-          <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Royal_Badge_of_Wales.svg" alt="2008 Royal Badge of Wales" />
+        <div class="item content-grid__item content-grid__item--third">
+          <img class="featured-img" src="/assets/img/2024/on-the-royal-badges/Royal_Badge_of_Wales.svg" alt="2008 Royal Badge of Wales" />
             <div class="images-caption">2008 Royal Badge of Wales</div>
         </div>
-        <div class="item col-md-4">
-          <img class="featured-img mx-auto" src="/assets/img/2024/on-the-royal-badges/Badge_of_the_House_of_Windsor.svg" alt="Badge of the House of Windsor" />
+        <div class="item content-grid__item content-grid__item--third">
+          <img class="featured-img" src="/assets/img/2024/on-the-royal-badges/Badge_of_the_House_of_Windsor.svg" alt="Badge of the House of Windsor" />
             <div class="images-caption">Badge of the House of Windsor</div>
-        </div>        
+        </div>
       </div>
     </figure>
   </div>

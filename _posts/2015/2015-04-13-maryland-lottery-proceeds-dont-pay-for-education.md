@@ -21,7 +21,11 @@ tags:
 ---
 This morning, I watched an episode of [Last Week Tonight](https://www.youtube.com/user/LastWeekTonight) from last November.[^tense] [^treadmill]  This episode, investigating state lotteries, explained how lotteries are sold to the public by showing how they fund schools.  It's long, but watch it if you haven't:
 
-{% include youtube.html id="9PK-netuhHA" %}
+
+
+::youtube{video="9PK-netuhHA"}
+
+
 
 But we live in Maryland, and we cannot be so altruistic.  Last term, in [Public Administration and Public Finance](/teaching), I asked my students where the money from the Maryland Lottery went.  After paying winners, that is.  All responded to pay for education.  I told them it went to the [Maryland Stadium Authority](http://www.mdstad.com/).  To looks of shock, I said, "It's printed right on the ticket but at least you're not buying them."  They all reached into their bags and wallets and looked.[^gone]
 

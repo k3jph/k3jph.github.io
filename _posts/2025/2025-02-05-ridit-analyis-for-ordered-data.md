@@ -159,12 +159,12 @@ library(dplyr)
 ridit_analysis <- function(data, group_col, score_col, ref_group) {
   # Ensure dplyr is loaded
   require(dplyr)
-  
+
   # Compute reference group cumulative proportions
   ref_data <- filter(data, !!sym(group_col) == ref_group)
   sorted_ref <- sort(ref_data[[score_col]])
   ridit_values <- sapply(data[[score_col]], function(x) mean(sorted_ref <= x))
-  
+
   # Attach Ridit scores to the dataset
   data <- mutate(data, Ridit_Score = ridit_values)
   return(data)
@@ -277,4 +277,3 @@ researchers and analysts become more aware of its benefits, Ridit
 analysis has the potential to become an essential technique in diverse
 fields ranging from health sciences to consumer behavior and public
 policy.
-

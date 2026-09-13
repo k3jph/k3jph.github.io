@@ -16,14 +16,20 @@ tags:
   - science policy
   - statistics
 ---
-{% include figure.html image="news/SunAroundEarth.webp"
-   cap="Respondents Agreeing the Sun Revolves Around the Earth"
-   alt="Respondents Agreeing the Sun Revolves Around the Earth" %}
+
+
+:::figure{src="/assets/img/news/SunAroundEarth.webp" alt="Respondents Agreeing the Sun Revolves Around the Earth" align="center" width="100"}
+Respondents Agreeing the Sun Revolves Around the Earth
+:::
+
+
 
 Back in February, [much was made of an NSF study](http://www.npr.org/blogs/thetwo-way/2014/02/14/277058739/1-in-4-americans-think-the-sun-goes-around-the-earth-survey-says) showing roughly a quarter of Americans believe the Sun revolves around the Earth. The well-educated know this was dispensed with by [Nicolaus Copernicus nearly 500 years ago](http://en.wikipedia.org/wiki/Copernican_heliocentrism).
 
 Remarkably, this survey is conducted every few years and the graph above shows two things.  First, the percentage of respondents who think the Sun revolves around the Earth is consistently around 25.  Second, it's an improvement over 2005 when 29 percent of respondents believed in a geocentric model.  This also better than the percentage of Americans who believe all radiation is caused by humans, below.
 
-{% include figure.html image="news/RadiationManMade.webp"
-   cap="Percent of Respondents Who Believe All Radiation is Man-Made"
-   alt="Percent of Respondents Who Believe All Radiation is Man-Made" %}
+
+
+:::figure{src="/assets/img/news/RadiationManMade.webp" alt="Percent of Respondents Who Believe All Radiation is Man-Made" align="center" width="100"}
+Percent of Respondents Who Believe All Radiation is Man-Made
+:::

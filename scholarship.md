@@ -61,8 +61,14 @@ who needs the citations.
 
 ## Complete Scholarly Record
 
-{% include_relative _includes/pubs.md %}
+
+
+::fragment{name="pubs"}
+
+
 
 ### Grants and Research Support
 
-{% include_relative _includes/grants.md %}
+
+
+::fragment{name="grants"}

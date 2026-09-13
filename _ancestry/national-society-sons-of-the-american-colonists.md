@@ -62,7 +62,7 @@ printed](https://www.swarthmore.edu/friends-historical-library) in 1606 and
 in the volume, providing a rare personal link between their English and
 American lives.
 
-Robert was active in the newly formed Chesterfield Monthly Meeting beginning 
+Robert was active in the newly formed Chesterfield Monthly Meeting beginning
 in 1684. He was appointed to help settle disputes among Friends, served as a
 trustee of the burial ground at Crosswicks, and represented the meeting at
 Quarterly Meeting. His name appears frequently in the Chesterfield minutes,
@@ -85,9 +85,12 @@ I, whose family carried forward the Willson presence along Crosswicks Creek.
 
 _Additional memberships will be added as they are approved._
 
-{% include figure.html width="12"
-   image="/ancestry/NSSAC-Willson.webp" border=true
-   alt="Membership certificate in the National Society, Sons of the American Colonists"
-   cap="Membership certificate in the National Society, Sons of the American Colonists" %}
-   
+
+
+:::figure{src="/ancestry/NSSAC-Willson.webp" alt="Membership certificate in the National Society, Sons of the American Colonists" align="center" width="12" border="true"}
+Membership certificate in the National Society, Sons of the American Colonists
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/NSSAC-Willson.pdf).

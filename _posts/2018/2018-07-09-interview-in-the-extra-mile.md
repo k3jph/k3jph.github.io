@@ -21,6 +21,10 @@ news site focuses more or less on insurance and I was there to talk
 about insurance.  The article back in June, but I just found it
 today:
 
-{% include iframely.html url="https://extramile.thehartford.com/home/el-nino-and-la-nina/" %}
+
+
+::embed{href="https://extramile.thehartford.com/home/el-nino-and-la-nina/"}
+
+
 
 Click to read more!

@@ -19,16 +19,24 @@ tags:
 
 I've made a sample board, using [Star Trek: Deep Space Nine](http://www.startrek.com/page/star-trek-deep-space-nine) as the premise:
 
-{% include figure.html image="news/Status-Board-Trello.webp"
-   cap="What's going on on Upper Pylon 2, anyway? (Trello)" 
-   alt="What's going on on Upper Pylon 2, anyway? (Trello)" %}
+
+
+:::figure{src="/assets/img/news/Status-Board-Trello.webp" alt="What's going on on Upper Pylon 2, anyway? (Trello)" align="center" width="100"}
+What's going on on Upper Pylon 2, anyway? (Trello)
+:::
+
+
 
 You can see the [actual board here](https://trello.com/b/zkYNhmMf/status-board).  And with Worf and Dax spending that much time together, it's not wonder they got married.
 
 In addition, many offices have calendars showing where people will be day-to-day.  It will have future statuses for vacation and teleworking. I've created a sample 5-day telework schedule using Deep Space Nine as the background, again:
 
-{% include figure.html image="news/Telework-Schedule-Trello.webp"
-   cap="Worf sure is phoning it in (Trello)" 
-   alt="Worf sure is phoning it in (Trello)" %}
+
+
+:::figure{src="/assets/img/news/Telework-Schedule-Trello.webp" alt="Worf sure is phoning it in (Trello)" align="center" width="100"}
+Worf sure is phoning it in (Trello)
+:::
+
+
 
 [The live board is also accessible.](https://trello.com/b/xjebC08U/telework-schedule) In both cases, the schedule can be easily updated and changed when ground-level circumstances change.  Neither is perfect, but for small organizations, this can really meet the need, and it takes only a few minutes to set it up.

@@ -21,6 +21,10 @@ tags:
 ---
 My talk on government accounting, "Why this Hammer Costs $435," at [Ignite Howard County](http://ignitehowardcounty.com/) is now available on YouTube.
 
-{% include youtube.html id="tmIIwYu8w1g" %}
+
+
+::youtube{video="tmIIwYu8w1g"}
+
+
 
 You can read more about this [in this blog post](/2015/01/31/hammer/).

@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/01/14/tartans-as-woven-heraldry-in-scotland
 featured_image: /assets/img/2024/tartans-as-woven-heraldry-in-scotland.webp
 categories:
-- Blog 
+- Blog
 tags:
 - heraldry
 - Scotland
@@ -24,10 +24,13 @@ with its coats of arms and crests, has been a traditional form of
 identity across Europe, deeply rooted in the chivalric and cultural
 practices of the Middle Ages.
 
-{% include figure.html width="4" alt="The Black Watch Tartan"
-image="/2024/tartans-as-woven-heraldry-in-scotland/black-watch.webp"
-cap="The Black Watch tartan, one of Scotland's most famous tartans"
-%}
+
+
+:::figure{src="/2024/tartans-as-woven-heraldry-in-scotland/black-watch.webp" alt="The Black Watch Tartan" align="center" width="4"}
+The Black Watch tartan, one of Scotland's most famous tartans
+:::
+
+
 
 Tartans, characterized by their intersecting horizontal and vertical
 bands in multiple colors, have historically denoted clan affiliations
@@ -51,10 +54,13 @@ and regulation.
 
 ## Understanding Tartans
 
-{% include figure.html width="4" alt="The Royal Stewart Tartan"
-image="/2024/tartans-as-woven-heraldry-in-scotland/royal-stewart.webp"
-cap="The Royal Stewart tartan, another famous tartan" placement="right"
-%}
+
+
+:::figure{src="/2024/tartans-as-woven-heraldry-in-scotland/royal-stewart.webp" alt="The Royal Stewart Tartan" align="right" width="4"}
+The Royal Stewart tartan, another famous tartan
+:::
+
+
 
 Imagine walking through the Scottish Highlands centuries ago, where
 each person you meet wears a unique pattern of colors woven into
@@ -97,9 +103,13 @@ bearings, commonly known as coats of arms. These symbols were not
 merely decorative but served critical roles in identification,
 communication, and social hierarchy.
 
-{% include figure.html width="4"
-image="/2024/tartans-as-woven-heraldry-in-scotland/scotland-arms.svg "
-alt="Coat of Arms of Scotland" cap="Coat of Arms of Scotland" %}
+
+
+:::figure{src="/2024/tartans-as-woven-heraldry-in-scotland/scotland-arms.svg " alt="Coat of Arms of Scotland" align="center" width="4"}
+Coat of Arms of Scotland
+:::
+
+
 
 Each element of a heraldic design has a specific meaning: colors,
 shapes, and symbols convey information about the bearer's identity,
@@ -192,7 +202,7 @@ The formal recognition of tartans further solidifies their status
 as heraldic symbols. The [Scottish Register of
 Tartans](https://www.tartanregister.gov.uk/index), established by
 an act of the Scottish Parliament in 2008, serves a purpose similar
-to that of heraldic authorities such as the [College of 
+to that of heraldic authorities such as the [College of
 Arms](https://www.college-of-arms.gov.uk/) in
 England. This registry maintains records of all officially recognized
 tartan patterns, ensuring that each design is uniquely associated
@@ -269,9 +279,13 @@ identifying combatants and their allegiances.
 
 ### Modern Example: The Scottish Police Tartan
 
-{% include figure.html width="4" alt="Scottish Police Federation Tartan"
-image="/2024/tartans-as-woven-heraldry-in-scotland/scottish-police-tartan.webp"
-cap="Scottish Police Federation Tartan" placement="right" %}
+
+
+:::figure{src="/2024/tartans-as-woven-heraldry-in-scotland/scottish-police-tartan.webp" alt="Scottish Police Federation Tartan" align="right" width="4"}
+Scottish Police Federation Tartan
+:::
+
+
 
 In contemporary Scotland, tartans continue to embody roles typically
 associated with heraldry. The Scottish Police Federation Tartan,

@@ -39,8 +39,13 @@ I](https://svs.gsfc.nasa.gov/4444) on the Moon, produced by [NASA
 as a part of the Apollo 8
 mission](https://history.nasa.gov/SP-362/ch1.htm).
 
-{% include figure.html image="news/Rima-Prinz-I-Contour-Map.webp" alt="Map of Rima Prinz I" 
-   cap="Map of Rima Prinz I" width="100%" %}
+
+
+:::figure{src="/assets/img/news/Rima-Prinz-I-Contour-Map.webp" alt="Map of Rima Prinz I" align="center" width="100%"}
+Map of Rima Prinz I
+:::
+
+
 
 There are other examples, too. If we take all of the individual
 gradients and place them in the points where they exist, you get a
@@ -50,9 +55,13 @@ show the evolution of [the May 24, 2017 tornado
 outbreak](https://www.weather.gov/cae/may_24_2017_event_review.html) from
 the National Weather Service.
 
-{% include figure.html image="news/20170524-Tornados.gif" width="100%"
-   alt="Evolution of the May 24, 2017 tornado outbreak"
-   cap="Evolution of the May 24, 2017 tornado outbreak" %}
+
+
+:::figure{src="/assets/img/news/20170524-Tornados.gif" alt="Evolution of the May 24, 2017 tornado outbreak" align="center" width="100%"}
+Evolution of the May 24, 2017 tornado outbreak
+:::
+
+
 
 This is just a small part of the great things we can do with scalar
 fields and vector fields. It turns out, they are essential for

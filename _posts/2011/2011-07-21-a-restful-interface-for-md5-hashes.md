@@ -28,7 +28,9 @@ Or not quite.  I had a need to generate MD5 hashes inside a Google Spreadsheet, 
 
 I installed Ruby on Rails and created a very simple controller for hashes:
 
-{% highlight ruby %}
+
+
+```ruby
 class HashController &lt; ApplicationController
     def md5
     result = { }
@@ -40,6 +42,8 @@ class HashController &lt; ApplicationController
         format.xml { render :xml => result }
     end
 end
-{% endhighlight %}
+```
+
+
 
 Which is now accessible via [](http://api.jameshoward.us/hash/md5/foo.json)[http://api.jameshoward.us/hash/md5/foo.json](http://api.jameshoward.us/hash/md5/foo.json) or [foo.xml](http://api.jameshoward.us/hash/md5/foo.xml) as appropriate. In addition, there is an sha1 method available. It's all running on a minimal instance with [Heroku](http://www.heroku.com), so please use it to your heart's content.

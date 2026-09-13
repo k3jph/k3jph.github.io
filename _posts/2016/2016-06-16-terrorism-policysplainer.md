@@ -24,13 +24,17 @@ As part of the ongoing national discussion about the events in Orlando, I noted 
 
 Almost 15 years after September 11th, it's really hard for Americans to understand what is terrorism and what isn't.  The distinction is not so important in the aftermath, since terrorism and non-terrorism mass shootings are usually addressed the same way.  Neutralize the perpetrator(s) and seek medical attention for the victims.  We also address natural disasters in the same way.  Generally, the response to all these events falls into the domain of "homeland security," but that's about the response, not about the cause.  This is where the confusion begins, but the distinction is important because terrorist and non-terrorist events have different policy prescriptions, and this week has shown why it matters.
 
-Terrorism has several different definitions, but they all focus on the motivation, not the act.  In a narrow definition, terrorism is a crime of violence against the public to convince the government to make a policy change.  That's a bit too narrow, however, and leaves out critical subcases.  A better definition of terrorism is violence against third parties to convince a second party to change something.  That definition is more illuminating than other definitions.  Under both, the events of September 11th, [Oklahoma City](https://en.wikipedia.org/wiki/Oklahoma_City_bombing), and [San Bernadino](https://en.wikipedia.org/wiki/2015_San_Bernardino_attack) were all terrorism.  
+Terrorism has several different definitions, but they all focus on the motivation, not the act.  In a narrow definition, terrorism is a crime of violence against the public to convince the government to make a policy change.  That's a bit too narrow, however, and leaves out critical subcases.  A better definition of terrorism is violence against third parties to convince a second party to change something.  That definition is more illuminating than other definitions.  Under both, the events of September 11th, [Oklahoma City](https://en.wikipedia.org/wiki/Oklahoma_City_bombing), and [San Bernadino](https://en.wikipedia.org/wiki/2015_San_Bernardino_attack) were all terrorism.
 
-Also, it's necessary to recognize that acts of war committed by nation-states in open and declared armed conflict are not terrorism.  Accordingly, the bombings of London, Dresden, Hiroshima, and Nagasaki, are not terrorism, no matter who is injured.  
+Also, it's necessary to recognize that acts of war committed by nation-states in open and declared armed conflict are not terrorism.  Accordingly, the bombings of London, Dresden, Hiroshima, and Nagasaki, are not terrorism, no matter who is injured.
 
 But hate crimes generally are terrorism.  This leads a question asked by this article:
 
-{% include iframely.html url="http://fusion.net/story/313760/omar-mateen-orlando-dylann-roof-terror/" %}
+
+
+::embed{href="http://fusion.net/story/313760/omar-mateen-orlando-dylann-roof-terror/"}
+
+
 
 In brief, the article asks why is Orlando terrorism and [Charleston](https://en.wikipedia.org/wiki/Charleston_church_shooting) is not.  The answer given by the article is racism, and I completely agree with that assessment:  The Charleston church shooting was terrorism.  In Charleston, the shooter was [motivated and hoped to ignite a race war](https://gma.yahoo.com/charleston-shooting-closer-look-alleged-gunman-dylann-roof-203816813--abc-news-topstories.html) between blacks and whites in the United States.  I am not sure what the shooter expected the remaining 25 percent of the country to do, but rationality does not seem to have been a primary concern.  Regardless, this is violence against a third party to instigate some sort of action by others.  That's terrorism, even if the shooter is white.
 

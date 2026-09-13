@@ -16,7 +16,7 @@ tags:
   - public health
   - Zika virus
 ---
-We keep hearing about Zika virus, and in pregnant women, [can cause microcephalic births](http://www.nejm.org/doi/full/10.1056/NEJMoa1600651).  That's pretty scary, but as a man who is not planning on having any children any time, I am not sure what this means to me.  And Zika has been been [confirmed in Maryland](http://www.baltimoresun.com/health/blog/bs-hs-zika-cases-real-20160211-story.html), so it's getting closer.  So I wanted to know what the symptoms are and, if you're not pregnant, what the risks are.  
+We keep hearing about Zika virus, and in pregnant women, [can cause microcephalic births](http://www.nejm.org/doi/full/10.1056/NEJMoa1600651).  That's pretty scary, but as a man who is not planning on having any children any time, I am not sure what this means to me.  And Zika has been been [confirmed in Maryland](http://www.baltimoresun.com/health/blog/bs-hs-zika-cases-real-20160211-story.html), so it's getting closer.  So I wanted to know what the symptoms are and, if you're not pregnant, what the risks are.
 
 The [Centers for Disease Control and Prevention (CDC)](http://www.cdc.gov/zika/) has a great website about Zika with a ton of information.  But here's the key details, the symptoms are generally influenza-like.  And that means the real influenza, not what is common called the "24-hour stomach bug", which is usually [gastroenteritis](http://health.syr.edu/education/stomach-bug.html).  This means with Zika, you're looking at:
 

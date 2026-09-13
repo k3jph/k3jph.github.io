@@ -25,11 +25,14 @@ colonization of America. In this post we explore the life of this colorful
 figure: his heritage, his military career, his steadfast Catholicism amid
 persecution, and the enduring connections his family forged with the New World.
 
-{% include figure.html width="4" placement="right"
-   image="2025/thomas-arundell-of-wardour-hero-of-the-empire/arundell-arms.svg"
-   alt="The ancient arms of the Arundell family (adapted from King Edward the Confessor on Wikimedia Commons)"
-   cap="The ancient arms of the Arundell family (adapted from [King Edward the Confessor on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Royal_Arms_of_Edward_the_Confessor.svg))" %}
-   
+
+
+:::figure{src="/assets/img/2025/thomas-arundell-of-wardour-hero-of-the-empire/arundell-arms.svg" alt="The ancient arms of the Arundell family (adapted from King Edward the Confessor on Wikimedia Commons)" align="right" width="4"}
+The ancient arms of the Arundell family (adapted from [King Edward the Confessor on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Royal_Arms_of_Edward_the_Confessor.svg))
+:::
+
+
+
 ## An Ancient Lineage and Early Life
 
 Thomas Arundell was born around 1560 to Sir Matthew Arundell of Wardour Castle
@@ -64,11 +67,14 @@ resilience of noble status. The Arundells' financial sacrifices for
 architectural projects also underscored their commitment to leaving a lasting
 legacy for future generations.
 
-{% include figure.html width="4" placement="right"
-   image="2025/thomas-arundell-of-wardour-hero-of-the-empire/1stBaronArundellOfWardour.webp"
-   alt="Thomas Arundell, 1st Baron Arundell of Wardour by Henry Meyer (via the National Portrait Gallery)"
-   cap="Thomas Arundell, 1st Baron Arundell of Wardour by Henry Meyer (via the [National Portrait Gallery](https://www.npg.org.uk/collections/search/portrait/mw35116/Thomas-Arundell-1st-Baron-Arundell-of-Wardour))" %}
-   
+
+
+:::figure{src="/assets/img/2025/thomas-arundell-of-wardour-hero-of-the-empire/1stBaronArundellOfWardour.webp" alt="Thomas Arundell, 1st Baron Arundell of Wardour by Henry Meyer (via the National Portrait Gallery)" align="right" width="4"}
+Thomas Arundell, 1st Baron Arundell of Wardour by Henry Meyer (via the [National Portrait Gallery](https://www.npg.org.uk/collections/search/portrait/mw35116/Thomas-Arundell-1st-Baron-Arundell-of-Wardour))
+:::
+
+
+
 ## Family and Marriage
 
 Arundell's family life was as full of consequence as his public career. His
@@ -123,11 +129,12 @@ place](https://www.catholic.com/encyclopedia/thomas-arundell). The act made him
 a hero in the Habsburg court.
 
 
-{% include inset.html width="6" placement="right"
-title="Imperial Grant to Thomas Arundell"
-text="
+
+
+:::callout{title="Imperial Grant to Thomas Arundell"}
+
 #### Translated from the original Latin
-    
+
 The remarkable virtues by which you continue to make your noble lineage ever
 more distinguished, both at home and abroad, such as that you first imbued your
 heart with a liberal education, then visited foreign provinces, observed the
@@ -145,7 +152,7 @@ Esztergom, when you wrested a banner from the Turks with your own hand and
 presented yourself as one to be seen at the very beginning of the battle,
 because of all this, we did not wish to omit the opportunity to honor you and
 your lawful descendants graciously with some notable mark of our favor.
-        
+
 Therefore, by our own initiative, from certain knowledge, with deliberate mind
 and sound counsel, and by the full authority and power of our Imperial
 prerogative, we have created, made, and named you, the aforesaid Thomas
@@ -155,7 +162,7 @@ and issue of both sexes, born and to be born in perpetuity, as true Counts and
 Countesses of the Holy Roman Empire. We have augmented and ennobled you with the
 title, honor, and dignity of Imperial Count, just as by the present decree we
 create, make, name, augment, and ennoble you.
-        
+
 And we will, and by this our present Imperial Edict, to remain valid forever, we
 firmly and expressly decree that you, the aforesaid Thomas Arundell, together
 with all your legitimate posterity, male and female, shall henceforth and
@@ -166,14 +173,14 @@ affairs, and shall freely and without any impediment enjoy, use, and possess all
 and each of the honors, ornaments, dignities, graces, liberties, privileges,
 rights, indulgences, customs, preeminences, and prerogatives which other Counts
 of our Holy Empire enjoy, use, and possess by right or custom.
-        
+
 Notwithstanding any matters to the contrary, even if such should be specifically
 and expressly mentioned herein, which by these presents we knowingly override
 and declare to be sufficiently abrogated by our Imperial authority.  Yet always
 saving and reserving the rights and superiority of the Most Serene Princess and
 Lady Elizabeth, Queen of England, France, and Ireland, our most beloved sister
 and cousin.
-        
+
 Let no one whatsoever, of any rank, status, order, condition, or dignity,
 however eminent, dare to infringe this page of our confirmation, ratification,
 approval, corroboration, creation, authority, will, grace, and decree, or to act
@@ -182,10 +189,10 @@ very act he incurs our gravest displeasure and that of the Holy Roman Empire,
 and the penalty of one hundred marks of pure gold (half to be paid to our
 imperial treasury and the other half to be paid and applied to the use of those
 who suffer the injury), without any hope of pardon or remission.
-        
+
 In witness of which, these letters have been signed by our own hand and
 fortified with the affixing of our Imperial Seal.
-        
+
 Given at our Royal Castle in Prague, on the fourteenth day of December in the
 year of our Lord fifteen hundred and ninety-five, the twenty-first year of our
 reign over the Romans, the twenty-fourth over Hungary, and likewise the
@@ -193,7 +200,10 @@ twenty-first over Bohemia.
 
 Rudolphus
 
-By the command of His Sacred Imperial Majesty himself, Jo. Barvitius" %}
+By the command of His Sacred Imperial Majesty himself, Jo. Barvitius
+:::
+
+
 
 
 In recognition of his valor, Emperor Rudolf II conferred upon him the hereditary
@@ -242,7 +252,7 @@ considerable time to managing his lands in Wiltshire and Somerset, overseeing
 the completion of the new Wardour Castle and the Banqueting House at Ansty, and
 ensuring his younger children were settled. His accounts show that he patronised
 musicians, masons and glaziers, reflecting a genuine interest in Renaissance
-culture and architecture. 
+culture and architecture.
 
 Arundell's household at Wardour Castle was known for its extravagant
 hospitality, a fitting reflection of his status and Renaissance courtly ideals.
@@ -293,14 +303,15 @@ English and imperial nobility. For students of religious history, his steadfast
 Catholicism, fines for recusancy and open defiance of anti‑Catholic laws
 illustrate the precarious position of Catholic nobles in post‑Reformation
 England. His daughters marriage to Cecil Calvert ties him to the founding of
-Maryland, linking the English aristocracy with colonial America. 
+Maryland, linking the English aristocracy with colonial America.
 
 Thomas Arundells life is thus a microcosm of the complexities of early modern
 England, encompassing courtly politics, foreign wars, religious strife and
 colonial aspirations. His story continues to resonate with anyone interested in
 the interplay between European nobility and the formation of America.
 
-{% include figure.html width="12" placement="center"
-   image="2025/thomas-arundell-of-wardour-hero-of-the-empire/esztergom-ostroma-1595.webp"
-   alt="The Battle of Esztergom, 1595"
-   cap="The Battle of Esztergom, 1595" %}
+
+
+:::figure{src="/assets/img/2025/thomas-arundell-of-wardour-hero-of-the-empire/esztergom-ostroma-1595.webp" alt="The Battle of Esztergom, 1595" align="center" width="12"}
+The Battle of Esztergom, 1595
+:::

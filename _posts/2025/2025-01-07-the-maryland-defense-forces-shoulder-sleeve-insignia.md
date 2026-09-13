@@ -28,9 +28,13 @@ uncover the answers, we must look beyond the present and trace the
 threads of military tradition, reconciliation, and commemoration that
 have shaped its story.
 
-{% include figure.html image="ribbons/mddf/MDDF-SSI.svg" placement="right" width="3"
-cap="The Maryland Defense Force's shoulder sleeve insignia"
-alt="The Maryland Defense Force's shoulder sleeve insignia" %}
+
+
+:::figure{src="/assets/img/ribbons/mddf/MDDF-SSI.svg" alt="The Maryland Defense Force's shoulder sleeve insignia" align="right" width="3"}
+The Maryland Defense Force's shoulder sleeve insignia
+:::
+
+
 
 The MDDF shoulder sleeve insignia is a marriage of modern design with
 historical resonance:
@@ -51,12 +55,16 @@ The [29th Infantry Division](https://va.ng.mil/Army-Guard/29th-ID/)
 holds a unique place in American military history, and its shoulder
 sleeve insignia,
 
-{% include figure.html image="2025/the-maryland-defense-forces-shoulder-sleeve-insignia/29thDiv-SSI.svg" placement="right" width="3"
-cap="The 29th Division's shoulder sleeve insignia"
-alt="The 29th Division's shoulder sleeve insignia" %}
+
+
+:::figure{src="/assets/img/2025/the-maryland-defense-forces-shoulder-sleeve-insignia/29thDiv-SSI.svg" alt="The 29th Division's shoulder sleeve insignia" align="right" width="3"}
+The 29th Division's shoulder sleeve insignia
+:::
+
+
 
 > _Taegeuk_ per pale Azure and
-> [Cendrée](https://en.wikipedia.org/wiki/Cendr%C3%A9e), 
+> [Cendrée](https://en.wikipedia.org/wiki/Cendr%C3%A9e),
 
 symbolizes reconciliation and unity. The blue and gray colors reflect
 the Union and Confederate armies, acknowledging the division's origins

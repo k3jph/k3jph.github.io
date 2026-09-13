@@ -17,7 +17,7 @@ tags:
   - international trade
   - public affairs
 ---
-* Jonathan Beaty and S.C. Gwynne, _The Outlaw Bank: A Wild Ride into the Secret Heart of BCCI_ (New York: Random House, 1993). 
+* Jonathan Beaty and S.C. Gwynne, _The Outlaw Bank: A Wild Ride into the Secret Heart of BCCI_ (New York: Random House, 1993).
 
 The authors are _Time_ magazine reporters who followed and broke the [Bank of Credit and Commerce International](http://en.wikipedia.org/wiki/Bank_of_Credit_and_Commerce_International) (BCCI)  scandal in the early 1990s.  The book tells the story from their perspective, provides extensive and well researched background.  At the same time, they present the scandal as they uncovered bits of it and give a chronology of their work reporting the BCCI story.
 

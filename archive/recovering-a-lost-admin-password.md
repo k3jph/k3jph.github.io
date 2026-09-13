@@ -22,15 +22,23 @@ Note that the technique I describe here will not allow just anyone to figure out
 
 With the help of a friend who knew something about such things, I found the file named:
 
-{% highlight text %}
+
+
+```text
 C:\Netscape\Suite Spot\admin-serv\config\admpw
-{% endhighlight %}
+```
+
+
 
 which pairs user names with encrypted passwords. I opened this file in Notepad and saw the following line in it:
 
-{% highlight text %}
+
+
+```text
 admin:JpTkjP7IX2ZWA
-{% endhighlight %}
+```
+
+
 
 Next, I went to `http://localhost:3054` and was able to log in as `admin` with the password `netscape`.
 
@@ -38,17 +46,25 @@ Next, I went to `http://localhost:3054` and was able to log in as `admin` with t
 
 By default on Windows NT systems, Netscape Enterprise Server and Netscape FastTrack Server both store administration information in the directory `server-root/admin-serv/config`. On my system (and again, by default) `server-root` is:
 
-{% highlight text %}
+
+
+```text
 C:\Netscape\Suite Spot\
-{% endhighlight %}
+```
+
+
 
 User name and password information is stored in the file `admpw` in that directory. The format of each entry in this file is basically `u:p`, where `u` is the user name and `p` is the encrypted password.
 
 For example, on a new installation of Netscape Enterprise Server 3.6, where the `admin` password is set to `netscape`, `admpw` consists of this line:
 
-{% highlight text %}
+
+
+```text
 admin:{SHA}aluWfd0LYY9ImsJb3h2afrI4Xk=
-{% endhighlight %}
+```
+
+
 
 This password entry varies slightly from the basic `u:p` format; here, the password is prefaced with `{SHA}`, which signals that the password has been encrypted with the Secure Hash Algorithm. A hash algorithm is a one-way function that produces a digital "fingerprint" for the data being hashed (one-way in that it should be impossible to find the data that matches a specific hash value except by exhaustive search). RSA's MD5 is another such algorithm.
 
@@ -56,9 +72,13 @@ When it became obvious that this was the way passwords were stored, it seemed lo
 
 **Note:** This technique can also be used with Netscape Enterprise Server 4.0. A beta release handled administration information exactly like Netscape Enterprise Server 3.6 except for one detail: the default location of the password information is:
 
-{% highlight text %}
+
+
+```text
 C:\Netscape Server4\https-admserv\config\admpw
-{% endhighlight %}
+```
+
+
 
 ## Generating Encrypted Passwords
 
@@ -68,7 +88,9 @@ Listing 1 shows `pwcrypt`.
 
 ### Listing 1
 
-{% highlight c %}
+
+
+```c
 #include <pwd.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -111,39 +133,57 @@ void help() {
    fprintf(stderr, "%s: %s [-s salt] [password ...]", __progname, __progname);
    exit(1);
 }
-{% endhighlight %}
+```
+
+
 
 `pwcrypt` supports an option (`-s xx`) to set the "salt" used by the C function `crypt()`. The salt consists of two characters appended to the plain-text password. These two characters combine to form a 12-bit number whose purpose is to perturb the output of `crypt()`, making it more difficult for someone trying to break into a system to do dictionary searches against encrypted passwords. The salt appears again as the first two characters of the encrypted password. The default salt provided by `pwcrypt` is `xx`.
 
 You can compile `pwcrypt` under Solaris 2.6 and Digital Unix 4.0 with the following command:
 
-{% highlight sh %}
+
+
+```sh
 cc -o pwcrypt pwcrypt.c
-{% endhighlight %}
+```
+
+
 
 Under FreeBSD 3.2, `pwcrypt` must be compiled with this command:
 
-{% highlight sh %}
+
+
+```sh
 cc -o pwcrypt pwcrypt.c -lcrypt
-{% endhighlight %}
+```
+
+
 
 After compiling the program, you can simply pass it the password you want to encrypt:
 
-{% highlight sh %}
+
+
+```sh
 ./pwcrypt password
-{% endhighlight %}
+```
+
+
 
 Or, if someone might be looking over your shoulder, invoke `pwcrypt` without a password and it will prompt for one.
 
 Below is a sample session (with typed input shown in bold) to generate an encrypted netscape password. We know the salt used is `Yi` because earlier it appeared as the first two letters of the encrypted password, so we set the salt to `Yi`.
 
-{% highlight sh %}
+
+
+```sh
 $ ./pwcrypt -s Yi netscape
 YigNs8zY3WzuY
 $ ./pwcrypt -s Yi
 Password:
 YigNs8zY3WzuY
-{% endhighlight %}
+```
+
+
 
 In the second invocation, `pwcrypt` prompts for the password because we did not supply one on the command line.
 
@@ -162,5 +202,5 @@ Armed with this knowledge and with `pwcrypt`, you should not feel a need to pres
 
 _Many thanks to Michelle Wyner and Caroline Rose for their assistance in writing this article._
 
-> Howard, James. “Recovering a Lost Admin Password on NES and FastTrack Server.” *View Source*, August 15, 1999.  
+> Howard, James. “Recovering a Lost Admin Password on NES and FastTrack Server.” *View Source*, August 15, 1999.
 > [http://developer.netscape.com/viewsource/index_frame.html?content=howard_lostpwd/howard_lostpwd.html](http://developer.netscape.com/viewsource/index_frame.html?content=howard_lostpwd/howard_lostpwd.html)

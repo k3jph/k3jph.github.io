@@ -7,7 +7,7 @@ layout: post
 permalink: /2022/09/18/value-mathematical-knowledge
 featured_image: /assets/img/news/value-mathematical-knowledge.webp
 categories:
-- Blog 
+- Blog
 tags:
 - mathematics
 - education

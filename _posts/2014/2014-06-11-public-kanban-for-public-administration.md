@@ -18,9 +18,13 @@ tags:
   - public affairs education
   - public management
 ---
-{% include figure.html image="news/philly-trello.webp"
-   cap="A public Trello snapshot for the City of Philadelphia (City of Philadelphia)"
-   alt="A public Trello snapshot for the City of Philadelphia (City of Philadelphia)" %}
+
+
+:::figure{src="/assets/img/news/philly-trello.webp" alt="A public Trello snapshot for the City of Philadelphia (City of Philadelphia)" align="center" width="100"}
+A public Trello snapshot for the City of Philadelphia (City of Philadelphia)
+:::
+
+
 
 Public agencies have difficulties communicating with the public. The standard [hearing format](http://en.wikipedia.org/wiki/Hearing_(law) "Wikipedia article on legal hearings") provides for adversarial proceedings, especially when it is the public against the agency. But there are few ways for agencies to work collaboratively with the public toward shared goals. Some have used social media successfully, but those are one-on-one interactions.
 

@@ -63,12 +63,15 @@ times, acquire princely powers. The vidame, by contrast, was more often urban
 and more tightly bound--at least initially--to the bishop's personal
 jurisdiction.
 
-{% include figure.html width="6" placement="right"
-   image="2025/the-history-of-the-vidames/vidame-coronet-encyclopedia-americana.svg"
-   alt="Diagram of a vidame's coronet according to the 1918 Encyclopedia Americana"
-   cap="Diagram of a vidame's coronet according to the [1918 Encyclopedia Americana](https://www.google.com/books/edition/France/81gO8DZ248kC)" %}
-   
-   
+
+
+:::figure{src="/assets/img/2025/the-history-of-the-vidames/vidame-coronet-encyclopedia-americana.svg" alt="Diagram of a vidame's coronet according to the 1918 Encyclopedia Americana" align="right" width="6"}
+Diagram of a vidame's coronet according to the [1918 Encyclopedia Americana](https://www.google.com/books/edition/France/81gO8DZ248kC)
+:::
+
+
+
+
 This arrangement suited everyone at first. The Church [avoided direct
 entanglement with
 bloodshed](https://www.google.com/books/edition/Mediaeval_Feudalism/DoRxep7E2jwC?hl=en&gbpv=1&dq=vidame&pg=PA60&printsec=frontcover),

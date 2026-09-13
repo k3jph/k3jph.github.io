@@ -115,9 +115,12 @@ generations, and that their values remain part of our collective heritage.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="/ancestry/NSDEQ-JonathanNewman.webp" 
-   alt="Membership certificate in the National Society Descendants of Early Quakers"
-   cap="Membership certificate in the National Society Descendants of Early Quakers" %}
-   
+
+
+:::figure{src="/ancestry/NSDEQ-JonathanNewman.webp" alt="Membership certificate in the National Society Descendants of Early Quakers" align="center" width="12"}
+Membership certificate in the National Society Descendants of Early Quakers
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/NSDEQ-JonathanNewman.pdf).

@@ -120,11 +120,13 @@ issues insignia, and occupies a corner of American genealogical life where
 ceremonial decorum still matters. Ribbons are worn correctly. Medals are
 displayed according to precedence. The symbolism is not ironic. It is earned.
 
-{% include figure.html
-    image="ancestry/oaaa/hoar-arms-full.svg" 
-    placement="right" width="4"
-    cap="Arms of John Hoar of Massachusetts"
-    alt="Arms of John Hoar of Massachusetts" %}
+
+
+:::figure{src="/assets/img/ancestry/oaaa/hoar-arms-full.svg" alt="Arms of John Hoar of Massachusetts" align="right" width="4"}
+Arms of John Hoar of Massachusetts
+:::
+
+
 
 Why, then, do Americans do this? What compels the citizen of a nation founded in
 rebellion against crowns and quarterings to seek connection to a forebear
@@ -159,11 +161,13 @@ intention. It reflects the American habit of assembling identity from fragments,
 by choice, by effort, and, in this case, by affidavit. It is heraldry in the key
 of democracy: self-affirmed, painstakingly documented, and voluntarily upheld.
 
-{% include figure.html
-  image="ancestry/oaaa/adams-arms-full.svg"
-  placement="right" width="4"
-  cap="Arms of Henry Adams of Massachusetts"
-  alt="Arms of Henry Adams of Massachusetts" %}
+
+
+:::figure{src="/assets/img/ancestry/oaaa/adams-arms-full.svg" alt="Arms of Henry Adams of Massachusetts" align="right" width="4"}
+Arms of Henry Adams of Massachusetts
+:::
+
+
 
 We remain, as ever, a nation that claims to scorn titles while founding clubs to
 celebrate them. The OAAA is less a contradiction than a reflection, not of

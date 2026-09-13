@@ -67,7 +67,11 @@ makes.  It means not only is the Sun younger on the inside, it is
 an excuse for not losing weight.  You can also watch this cool video
 about it here:
 
-{% include youtube.html id="EXHebyV2TNM" %}
+
+
+::youtube{video="EXHebyV2TNM"}
+
+
 
 ## Speaking of the Sun, Light is Old
 

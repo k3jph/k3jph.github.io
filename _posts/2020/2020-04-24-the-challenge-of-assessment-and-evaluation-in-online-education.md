@@ -12,7 +12,7 @@ tags:
   - COVID-19
   - online education
   - mathematics education
-  - statistics 
+  - statistics
   - mathematics
 ---
 The COVID-19 pandemic has impacted everyone in unforeseeable ways.
@@ -43,4 +43,6 @@ first one focusing on the challenges of assessment and evaluation
 in the online classroom, especially in mathematics.  You can view it
 on YouTube, below:
 
-{% include youtube.html id="mxTW4YlNfFU" %}
+
+
+::youtube{video="mxTW4YlNfFU"}

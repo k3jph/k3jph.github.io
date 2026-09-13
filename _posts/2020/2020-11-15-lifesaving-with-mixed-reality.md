@@ -20,7 +20,7 @@ is unrecognizable. The ability to understand the way things were
 is critical for those working in the response, rescue, and recovery
 phases of disaster management, from first responders to insurance
 claims agents. A team at the [Johns Hopkins University Applied Physics
-Laboratory (APL)](https://www.jhuapl.edu) is developing a system that 
+Laboratory (APL)](https://www.jhuapl.edu) is developing a system that
 uses 3-D modeling data
 and precise positioning data from GPS to display an image of
 structures “in place” using a mixed reality head-mounted display
@@ -32,8 +32,10 @@ have applications in other areas that require real-time data
 presentation, such as battlefield situational awareness.
 
 I am pleased to have led this team so far and we are quite happy with
-our earliest results.  You can read about them in the _[Johns Hopkins 
+our earliest results.  You can read about them in the _[Johns Hopkins
 APL Technical Digest](https://www.jhuapl.edu/Content/techdigest/pdf/V35-N03/35-03-Howard.pdf)_ or check out a brief video of live
 results we recorded on campus last year:
 
-{% include youtube.html id="41avYFu4j3U" %}
+
+
+::youtube{video="41avYFu4j3U"}

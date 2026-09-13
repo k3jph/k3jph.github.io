@@ -27,15 +27,19 @@ Because nobody associated with the transaction bears more than a _de minimis_ am
 
 The obviously solution here is to tax something, but the obvious answer isn't guns, but rather ammunition.  Guns are not perishable.  They can be reused many times, over many lifetimes.  Ammunition cannot, generally.  You get one shot per round, as it were.  So let's tax that.  The first blush approach to taxation is to impose the full cost of the externality on the entire market.  I can't find the amount of ammunition sold in the United States, but I do know there's about [12 billion rounds](https://www.oxfam.org/en/pressroom/pressreleases/2012-05-30/ammunition-trade-tops-4-billion-yet-little-regulation-control-and) produced each year, worldwide.  So let's just assume these all come to the United States.[^lower]
 
-There's already, in the United States, [an 11 percent tax on ammunition collected by the ATF](http://www.forbes.com/sites/danielfisher/2013/04/09/the-bullet-bubble-is-ammo-the-next-bitcoin-or-gold-in-the-1970s/).  That is not much at all, though it is greater than sales tax.  Dividing $111 billion by 12 billion leads to an even $9.25 per round.  
+There's already, in the United States, [an 11 percent tax on ammunition collected by the ATF](http://www.forbes.com/sites/danielfisher/2013/04/09/the-bullet-bubble-is-ammo-the-next-bitcoin-or-gold-in-the-1970s/).  That is not much at all, though it is greater than sales tax.  Dividing $111 billion by 12 billion leads to an even $9.25 per round.
 
-[This is a box of 50 rounds of .32 ACP ammunition.](http://www.sportsmansguide.com/product/index/50-rds-geco-32-auto-73-grain-fmj-ammo?a=1701212).  It's not particularly interesting but if you don't know anything about weapons, this would be a round [James Bond would use in his Walther PPK](http://jamesbond.wikia.com/wiki/Walther_PPK).  Small, cheap, and common.  It's $16.14 for 50 rounds (you are a member of the Buyer's Club, right?).  With the full externality imposed, that would be 50 times 9.25 plus 16.14 = $478.64 for a box of 50.  
+[This is a box of 50 rounds of .32 ACP ammunition.](http://www.sportsmansguide.com/product/index/50-rds-geco-32-auto-73-grain-fmj-ammo?a=1701212).  It's not particularly interesting but if you don't know anything about weapons, this would be a round [James Bond would use in his Walther PPK](http://jamesbond.wikia.com/wiki/Walther_PPK).  Small, cheap, and common.  It's $16.14 for 50 rounds (you are a member of the Buyer's Club, right?).  With the full externality imposed, that would be 50 times 9.25 plus 16.14 = $478.64 for a box of 50.
 
-As high as this number is, several analytical decisions here push this number down.  First, that's global ammunition production.  That goes to other countries and the military.  If we only had U.S. civilian sales figures, the estimated tax would be substantially higher.  While this isn't even a good first blush estimate, it does give the scale of the problem.  
+As high as this number is, several analytical decisions here push this number down.  First, that's global ammunition production.  That goes to other countries and the military.  If we only had U.S. civilian sales figures, the estimated tax would be substantially higher.  While this isn't even a good first blush estimate, it does give the scale of the problem.
 
-Of course, this is hardly an original idea.  
+Of course, this is hardly an original idea.
 
-{% include youtube.html id="OuX-nFmL0II" %}
+
+
+::youtube{video="OuX-nFmL0II"}
+
+
 
 [^lower]: This has the effect of lowering the estimated tax.
 

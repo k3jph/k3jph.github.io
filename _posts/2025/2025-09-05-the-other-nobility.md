@@ -16,7 +16,7 @@ tags:
   - historical institutions
 ---
 
-> "The Thane of Cawdor lives: why do you dress me in borrowed robes?"  
+> "The Thane of Cawdor lives: why do you dress me in borrowed robes?"
 > -- _Macbeth_, Act I, Scene 3
 
 We remember

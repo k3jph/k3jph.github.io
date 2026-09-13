@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/05/23/a-note-on-the-final-digit-of-pi
 featured_image: /assets/img/2024/a-note-on-the-final-digit-of-pi.webp
 categories:
-- Blog 
+- Blog
 tags:
 - mathematics
 - number theory

@@ -12,7 +12,7 @@ tags:
   - m4
   - macro programming
   - text processing
-  - research 
+  - research
 ---
 
 I recently ran into a problem where I needed to generate a lot of
@@ -21,7 +21,7 @@ This was all being fed into a simulation so we could test different
 values of each parameter in the simulation.  The details are not
 important.  I needed a way to generate 297 configuration files.
 
-I ended up settling on [the m4 macro language](https://en.wikipedia.org/wiki/M4_(computer_language)) 
+I ended up settling on [the m4 macro language](https://en.wikipedia.org/wiki/M4_(computer_language))
 to generate these files.  It was about three lines of m4 in a base
 file and looping over it in a shell script with the parameters
 occupying environmental variables.  The details here are not what's
@@ -40,12 +40,20 @@ other mainstream use of m4.  So I went on a bit of a hunt.
 I found a pair of videos on YouTube introducing m4.  The first looks
 to be a talk given to a meetup in Portland:
 
-{% include youtube.html id="ULZxHSPWn98" %}
+
+
+::youtube{video="ULZxHSPWn98"}
+
+
 
 And the second is from the Australian GovHack conference, showing
 a variety of neat ways m4 was being used in the Australian government:
 
-{% include youtube.html id="yrurIUEGo1c" %}
+
+
+::youtube{video="yrurIUEGo1c"}
+
+
 
 If you can find a copy of it, the m4 documentation is only like
 five pages.  There's a copy in [this PDF, starting on page 85](https://plan9.io/7thEdMan/v7vol2b.pdf).
@@ -54,7 +62,7 @@ The last few resources of merit I found are:
 
 * "[Using m4 Macros in Your Programs](https://www3.physnet.uni-hamburg.de/physnet/Tru64-Unix/HTML/APS32DTE/M4XXXXXX.HTM)", which seems to be part of the [Tru64](https://www.stromasys.com/tru64/) documentation
 * "[Macro Magic: M4 Complete Guide](https://www.linuxtoday.com/blog/macro-m4-guide/)", by Jerry Peek in [LinuxToday](https://www.linuxtoday.com/)
-* "[Notes on the m4 Macro Language](https://mbreen.com/m4.html)" by Michael Breen 
+* "[Notes on the m4 Macro Language](https://mbreen.com/m4.html)" by Michael Breen
 
 After this, sources start to get thin on the ground.  As rare as a
 good use of m4 is, it was absolutely the best choice for what I was

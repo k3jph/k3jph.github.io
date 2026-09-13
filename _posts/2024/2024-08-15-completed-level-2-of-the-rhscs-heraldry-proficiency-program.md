@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/08/16/completed-level-2-of-the-rhscs-heraldry-proficiency-program
 featured_image: /assets/img/2024/completed-level-2-of-the-rhscs-heraldry-proficiency-program.webp
 categories:
-- Blog 
+- Blog
 tags:
   - education
   - heraldry

@@ -113,9 +113,12 @@ Order’s dedication to preserving and honoring the nation’s formative history
 
 _Additional memberships will be added as they are approved._
 
-{% include figure.html width="12"
-   image="/ancestry/OFPA-Adams.webp" border=true
-   alt="Membership certificate in the Order of Founders and Patriots of America"
-   cap="Membership certificate in the Order of Founders and Patriots of America" %}
-   
+
+
+:::figure{src="/ancestry/OFPA-Adams.webp" alt="Membership certificate in the Order of Founders and Patriots of America" align="center" width="12" border="true"}
+Membership certificate in the Order of Founders and Patriots of America
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/OFPA-Adams.pdf).

@@ -22,7 +22,7 @@ tags:
   - teaching
   - University of Baltimore
 ---
-This morning, #ChaseKBH and I are going down to the [18th Mars Society Convention](http://www.marssociety.org/conventions/18th-annual-international-mars-society-convention).  But back here on Earth, I have classes to prepare and problems to solve.  I have posted the [syllabus for PUAD 701 Public Administration and Public Finance](/teaching).  
+This morning, #ChaseKBH and I are going down to the [18th Mars Society Convention](http://www.marssociety.org/conventions/18th-annual-international-mars-society-convention).  But back here on Earth, I have classes to prepare and problems to solve.  I have posted the [syllabus for PUAD 701 Public Administration and Public Finance](/teaching).
 
 The course has two major distinguishing features.  First, I moved to an almost fully [flipped classroom](https://net.educause.edu/ir/library/pdf/eli7081.pdf).  The flipped classroom has become a huge experimental success in high schools, but there's not a lot of talk about it in higher education.  In fact, I found almost no talk at the graduate level when I searched a few months ago.  But my classroom has been slowly flipping, anyway.  Over the last three terms, I've gone from pure lecture, to a minimal homework review, to a pretty strong focus on collective problem solving.  But it was the students driving those changes, not me.  I was just along for the ride.  So why not embrace it.  It will be interesting to see how this goes.
 

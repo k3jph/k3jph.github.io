@@ -88,7 +88,7 @@ the AI Act. That is the algorithmic sovereignty principle
 applied, at least partially, in practice.
 
 Where the AI Act falls short is in its framing of risk. The
-Act categorizes AI systems by their potential for harm, 
+Act categorizes AI systems by their potential for harm,
 unacceptable risk, high risk, limited risk, minimal risk,
 and applies regulatory requirements accordingly. This is a
 sensible starting point. But the risk categories are defined

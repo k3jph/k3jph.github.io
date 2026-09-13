@@ -25,6 +25,10 @@ Meghan Larsen at [Roomi](http://roomiapp.com/), a website for apartment renters,
 
 You an read the full article here:
 
-{% include pdfembed.html pdf="The 6 Critical Steps of a Flood Safety Plan | Roomi | blog.pdf" width="100%" %}
+
+
+::document{src="/assets/docs/The 6 Critical Steps of a Flood Safety Plan | Roomi | blog.pdf" label="Open the PDF document" embed="true"}
+
+
 
 _Image by [Jccohen / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hurricane_Isabel_flood_damage_Maryland.webp)._

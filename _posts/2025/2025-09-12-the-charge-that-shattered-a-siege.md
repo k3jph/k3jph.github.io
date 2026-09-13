@@ -165,4 +165,3 @@ focused on a single hillside outside Vienna.
 Sabaton may put it to music. Chase may put it as a question. But the answer is
 that the winged hussars arrived not only with courage and faith, but with the
 unstoppable arithmetic of kinetic energy.
-

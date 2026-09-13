@@ -16,7 +16,7 @@ tags:
   - space policy
   - space shuttle
 ---
-Thirty years ago this morning, the space shuttle _Challenger_ exploded 73 seconds after lift-off.  I was in kindergarten at [Horace Mann](http://www.spr.k12.oh.us/Mann.cfm).  My teacher was Mrs. Mitman, and I hope I spelled that correctly.  She loved the space program and had volunteered for the [Teachers in Space](http://teachers-in-space.com/) program.  
+Thirty years ago this morning, the space shuttle _Challenger_ exploded 73 seconds after lift-off.  I was in kindergarten at [Horace Mann](http://www.spr.k12.oh.us/Mann.cfm).  My teacher was Mrs. Mitman, and I hope I spelled that correctly.  She loved the space program and had volunteered for the [Teachers in Space](http://teachers-in-space.com/) program.
 
 After _Challenger_, she designed a curriculum for us, age appropriate, where she used masking tape to mark off a space in the classroom.  We had a mockup of the shuttle orbiter, again age appropriate.  But it was sized correctly.  And every day for two weeks we would have tasks to accomplish in the shuttle as part of our activities.
 

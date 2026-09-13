@@ -45,22 +45,38 @@ Center at the University of Maryland, College Park, during the summer of
 The Terrapin Scholar was returned to College Park on March 24, 2006.
 Below are pictures of the finalized sculpture.
 
-<div class="row">
-{% include figure.html image="archive/terrapin-scholar/terrapin-scholar-front-done.webp" 
-   alt="Terrapin Scholar's plastron"
-   cap="Terrapin Scholar's plastron" width="6" %}
-{% include figure.html image="archive/terrapin-scholar/terrapin-scholar-back-done.webp" 
-   alt="Terrapin Scholar's carapace"
-   cap="Terrapin Scholar's carapace" width="6" %}
+<div class="content-grid">
+
+
+:::figure{src="/assets/img/archive/terrapin-scholar/terrapin-scholar-front-done.webp" alt="Terrapin Scholar's plastron" align="center" width="6"}
+Terrapin Scholar's plastron
+:::
+
+
+
+
+:::figure{src="/assets/img/archive/terrapin-scholar/terrapin-scholar-back-done.webp" alt="Terrapin Scholar's carapace" align="center" width="6"}
+Terrapin Scholar's carapace
+:::
+
+
 </div>
 
-<div class="row">
-{% include figure.html image="archive/terrapin-scholar/terrapin-scholar-signatures.webp" 
-   alt="Terrapin Scholar's base with signatures"
-   cap="Terrapin Scholar's base with signatures" width="6" %}
-{% include figure.html image="archive/terrapin-scholar/terrapin-mummy.webp" 
-   alt="Terrapin Scholar wrapped for delivery"
-   cap="Terrapin Scholar wrapped for delivery" width="6" %}
+<div class="content-grid">
+
+
+:::figure{src="/assets/img/archive/terrapin-scholar/terrapin-scholar-signatures.webp" alt="Terrapin Scholar's base with signatures" align="center" width="6"}
+Terrapin Scholar's base with signatures
+:::
+
+
+
+
+:::figure{src="/assets/img/archive/terrapin-scholar/terrapin-mummy.webp" alt="Terrapin Scholar wrapped for delivery" align="center" width="6"}
+Terrapin Scholar wrapped for delivery
+:::
+
+
 </div>
 
 ## Body Complete
@@ -70,16 +86,28 @@ quadrants, a task that Joe assisted with. He took on the bulk of the
 spray painting, ensuring that every detail was carefully applied.
 Interestingly, the turtle turned out to be nearly as tall as Nina!
 
-<div class="row">
-{% include figure.html image="archive/terrapin-scholar/the-artist-at-work.webp" 
-   alt="Joe spraying the base paint layer"
-   cap="Joe spraying the base paint layer" width="4" %}
-{% include figure.html image="archive/terrapin-scholar/nina-is-taller-than-the-turtle.webp" 
-   alt="Evidence Nina is taller than the turtle"
-   cap="Evidence Nina is taller than the turtle" width="4" %}
-{% include figure.html image="archive/terrapin-scholar/joe-and-jamie-with-the-checkerboard.webp" 
-   alt="Terrapin Scholar's quadrants taped"
-   cap="Terrapin Scholar's quadrants taped" width="4" %}
+<div class="content-grid">
+
+
+:::figure{src="/assets/img/archive/terrapin-scholar/the-artist-at-work.webp" alt="Joe spraying the base paint layer" align="center" width="4"}
+Joe spraying the base paint layer
+:::
+
+
+
+
+:::figure{src="/assets/img/archive/terrapin-scholar/nina-is-taller-than-the-turtle.webp" alt="Evidence Nina is taller than the turtle" align="center" width="4"}
+Evidence Nina is taller than the turtle
+:::
+
+
+
+
+:::figure{src="/assets/img/archive/terrapin-scholar/joe-and-jamie-with-the-checkerboard.webp" alt="Terrapin Scholar's quadrants taped" align="center" width="4"}
+Terrapin Scholar's quadrants taped
+:::
+
+
 </div>
 
 ## Preparations
@@ -89,13 +117,21 @@ rough spots to create a smooth surface. We also addressed a few
 scratches that had occurred during transportation. In the midst of this
 process, Nina was busy capturing the moments with her camera.
 
-<div class="row">
-{% include figure.html image="archive/terrapin-scholar/prepping-the-turtle.webp" 
-   alt="Prepping the turtle for painting"
-   cap="Prepping the turtle for painting" width="6" %}
-{% include figure.html image="archive/terrapin-scholar/the-howard-brothers-and-their-pet.webp" 
-   alt="The Howard brothers with Aggie"
-   cap="The Howard brothers with Aggie" width="6" %}
+<div class="content-grid">
+
+
+:::figure{src="/assets/img/archive/terrapin-scholar/prepping-the-turtle.webp" alt="Prepping the turtle for painting" align="center" width="6"}
+Prepping the turtle for painting
+:::
+
+
+
+
+:::figure{src="/assets/img/archive/terrapin-scholar/the-howard-brothers-and-their-pet.webp" alt="The Howard brothers with Aggie" align="center" width="6"}
+The Howard brothers with Aggie
+:::
+
+
 </div>
 
 ## Ready for the Holidays
@@ -104,13 +140,21 @@ What else could we possibly have him wear but a festive Santa hat? It
 perfectly complements his cheerful demeanor and adds a whimsical touch
 to the sculpture, making him a true holiday mascot!
 
-<div class="row">
-{% include figure.html image="archive/terrapin-scholar/terrapin-scholar-santa.webp" 
-   alt="The turtle thinks he is Santa"
-   cap="The turtle thinks he is Santa" width="6" %}
-{% include figure.html image="archive/terrapin-scholar/santa-full-body.webp" 
-   alt="The original unfinished turtle"
-   cap="The original unfinished turtle" width="6" %}
+<div class="content-grid">
+
+
+:::figure{src="/assets/img/archive/terrapin-scholar/terrapin-scholar-santa.webp" alt="The turtle thinks he is Santa" align="center" width="6"}
+The turtle thinks he is Santa
+:::
+
+
+
+
+:::figure{src="/assets/img/archive/terrapin-scholar/santa-full-body.webp" alt="The original unfinished turtle" align="center" width="6"}
+The original unfinished turtle
+:::
+
+
 </div>
 
 ## Original Design Images
@@ -119,11 +163,19 @@ Below are the original design images that illustrate the creative
 process behind the Terrapin Scholar sculpture. These visuals capture the
 initial concepts and details that inspired the final piece:
 
-<div class="row">
-{% include figure.html image="archive/terrapin-scholar/terrapin-scholar-front.webp"
-   alt="The plastron design images"
-   cap="The plastron design images" width="6" %}
-{% include figure.html image="archive/terrapin-scholar/terrapin-scholar-back.webp"
-   alt="The carapace design images"
-   cap="The carapace design images" width="6" %}
+<div class="content-grid">
+
+
+:::figure{src="/assets/img/archive/terrapin-scholar/terrapin-scholar-front.webp" alt="The plastron design images" align="center" width="6"}
+The plastron design images
+:::
+
+
+
+
+:::figure{src="/assets/img/archive/terrapin-scholar/terrapin-scholar-back.webp" alt="The carapace design images" align="center" width="6"}
+The carapace design images
+:::
+
+
 </div>

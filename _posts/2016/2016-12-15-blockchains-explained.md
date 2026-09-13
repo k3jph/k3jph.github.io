@@ -23,7 +23,11 @@ I found a really neat demonstration of how
 [blockchain](https://en.wikipedia.org/wiki/Blockchain_(database))
 works.  The video, created by Anders Brownworth, is on YouTube:
 
-{% include youtube.html id="_160oMzblY8" %}
+
+
+::youtube{video="_160oMzblY8"}
+
+
 
 It provides a walkthrough that takes us from cryptographic hashing,
 to blocks, to blockchains, to distributed blockchains, to distributed

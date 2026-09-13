@@ -11,4 +11,4 @@ tags:
   - University of Baltimore
 ---
 
-I graduated from the University of Baltimore today.  Actually, I graduated in May of 2008, but went through the ceremony today.  It is a master of public administration in public policy and administration.  
+I graduated from the University of Baltimore today.  Actually, I graduated in May of 2008, but went through the ceremony today.  It is a master of public administration in public policy and administration.

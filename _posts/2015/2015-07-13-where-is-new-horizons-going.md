@@ -28,7 +28,7 @@ Chase asked how long [New Horizons](https://en.wikipedia.org/wiki/New_Horizons) 
 
 Well, that's all good, but where is it really going?  Where can we find it in 1000 years?  Will it bump into [V'ger](http://en.memory-alpha.wikia.com/wiki/V'ger)?
 
-So if the RTG on New Horizons functions as expected, it will run out of power in 2026, and that will be the end of that.  By 2038, it will be 100 AU (100 times the distance from the Earth to the Sun) in 2038.  But we really don't know yet where it will end up.  
+So if the RTG on New Horizons functions as expected, it will run out of power in 2026, and that will be the end of that.  By 2038, it will be 100 AU (100 times the distance from the Earth to the Sun) in 2038.  But we really don't know yet where it will end up.
 
 This goes back to the steering question.  New Horizons does not have a lot of fuel, but it has enough to change its final destination by a lot.  So when NASA's operators figure how where they go after Pluto, then we will know which direction New Horizons is heading.  However, we know where [four other interstellar probes are going](http://spectrum.ieee.org/aerospace/robotic-exploration/plotting-the-destinations-of-4-interstellar-probes).
 

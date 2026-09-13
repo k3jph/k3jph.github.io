@@ -26,9 +26,13 @@ tags:
 
 MacOS X provides a commnad line tool to open applications and files. MacOS X applications are actually collections of files residing within one directory with a name ending in _.app_. I usually use `open` at the command line to start most applications, leaving the Dock clear of applications not running:
 
-{% highlight shell %}
+
+
+```shell
 howardjp@thermopylae:~$ open /Applications/Safari.app
-{% endhighlight %}
+```
+
+
 
 is enough to start Safari and if the browser is already running, it will open a new window.
 
@@ -38,9 +42,13 @@ The `open` command provides a number of useful options. The option _t_ treats th
 
 It is also possible to override the default application with other types of files using the option _a_. But it is important to remember the full path to the application must be given:
 
-{% highlight shell %}
+
+
+```shell
 open -a /Applications/Adobe Reader 9/Adobe Reader.app/ foo.pdf
-{% endhighlight %}
+```
+
+
 
 This form is quite cumbersome, but it may be appropriate in some circumstances. One last option worth mentioning is _R_ which find the references file in Finder, instead of opening the file itself. Of course, `open` supports other options as well and reveiwing the man page is advised.
 

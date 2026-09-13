@@ -24,9 +24,13 @@ and included Chinese, Korean, and other forces, previously subjugated
 by Kahn. Starting with 600 ships and 40,000 men, Khan tried to take
 Japan.
 
-{% include figure.html image="news/478px-MokoShurai.webp" placement="left" width="50%"
-    cap="The kamikaze winds take on the Mongolians in 1281"
-    alt="The kamikaze winds take on the Mongolians in 1281" %}
+
+
+:::figure{src="/assets/img/news/478px-MokoShurai.webp" alt="The kamikaze winds take on the Mongolians in 1281" align="left" width="50%"}
+The kamikaze winds take on the Mongolians in 1281
+:::
+
+
 
 The problem here, though, was one of nature. The fleets were sunk
 by a Pacific typhoon. Even more interesting, Khan decided to try

@@ -41,8 +41,13 @@ out of people, similar to Larry King with wives. This is the secret
 to understanding the ["flatten the curve"
 plot](https://healthblog.uofmhealth.org/wellness-prevention/flattening-curve-for-covid-19-what-does-it-mean-and-how-can-you-help).
 
-{% include figure.html image="news/flattening-the-curve-mod.webp" alt="Flattening the curve (via CDC)" 
-   cap="Flattening the curve (via CDC)" width="100%" %}
+
+
+:::figure{src="/assets/img/news/flattening-the-curve-mod.webp" alt="Flattening the curve (via CDC)" align="center" width="100%"}
+Flattening the curve (via CDC)
+:::
+
+
 
 Using the picture above, I have labeled 2 points, [latex]t_{\alpha}[/latex]
 and [latex]t_{\beta}[/latex], as the two points where the unmitigated

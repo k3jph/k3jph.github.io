@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/02/16/count-of-krigsvold
 featured_image: /assets/img/2024/count-of-krigsvold.webp
 categories:
-- Blog 
+- Blog
 tags:
 - honors
 - Westarctica
@@ -16,7 +16,7 @@ tags:
 
 > **Editorial note:** This post’s original publication date predates the
 > corrected creation date now recorded for the title. It remains here as an
-> archival announcement. The [current Westarctica record]({{ '/honors/grand-duchy-of-westarctica' | relative_url }})
+> archival announcement. The [current Westarctica record](/honors/grand-duchy-of-westarctica)
 > controls the dates, hierarchy, and documentary details.
 
 The **Count of Krigsvold** is my principal title in the Peerage of the Grand
@@ -29,7 +29,7 @@ for their utility. “Count of Krigsvold” is not one of them. It is specific,
 memorable, and sufficiently unusual to justify a domain name.
 
 That domain became [krigsvold.org](https://krigsvold.org). The permanent
-[Westarctica page]({{ '/honors/grand-duchy-of-westarctica' | relative_url }})
+[Westarctica page](/honors/grand-duchy-of-westarctica)
 now carries the letters patent, corrected creation date, related peerages, and
 the later orders and institutional roles. This post preserves the announcement;
 that page preserves the record.

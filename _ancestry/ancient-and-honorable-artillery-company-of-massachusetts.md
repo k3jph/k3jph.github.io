@@ -112,9 +112,12 @@ continuity that stretches back to Governor Winthrop's charter.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="ancestry/AHAC-Sanford.webp" border=true
-   alt="Membership certificate in the Ancient and Honorable Artillery Company of Massachusetts"
-   cap="Membership certificate in the Ancient and Honorable Artillery Company of Massachusetts" %}
+
+
+:::figure{src="/assets/img/ancestry/AHAC-Sanford.webp" alt="Membership certificate in the Ancient and Honorable Artillery Company of Massachusetts" align="center" width="12" border="true"}
+Membership certificate in the Ancient and Honorable Artillery Company of Massachusetts
+:::
+
+
 
 Or you can [download the PDF here](/assets/docs/ancestry/AHAC-Sanford.pdf).

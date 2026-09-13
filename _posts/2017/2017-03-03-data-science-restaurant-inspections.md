@@ -35,6 +35,10 @@ we used in the three different cities, along with discussion of how
 we applied the Chicago work.  More information is available from
 our GitHub page:
 
-{% include iframely.html url="https://github.com/iscoe/restaurant_inspections" %}
+
+
+::embed{href="https://github.com/iscoe/restaurant_inspections"}
+
+
 
 _Image by [Wonderval / Pixabay](https://pixabay.com/en/kitchen-chef-restaurant-1310290/)._

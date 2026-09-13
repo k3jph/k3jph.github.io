@@ -26,7 +26,7 @@ at how blockchain would work in government programs given the
 you can read them here:
 
 <blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article-full"><p class="h4"><a href="https://ieeexplore.ieee.org/document/8965252">Blockchain Compliance With Federal Cryptographic Information-Processing Standards - IEEE Journals & Magazine</a></p><p>Under current Federal Information Security Management Act of 2002 (FISMA) requirements, all new federal IT programs and modernization efforts using blockch</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
 
 The short version is, the Federal government cannot use blockchain
 until an implementation comes along that is FIPS-compliant. However,

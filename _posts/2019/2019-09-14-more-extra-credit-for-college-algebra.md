@@ -34,7 +34,7 @@ know, _extra_.
 tricks.
 
 <blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3"><p class="h4"><a href="https://www.youtube.com/embed/WbvX4wJqPHg?start=81">8 AMAZING FIRE TRICKS (do not try at home, lithium & boric acid fumes are toxic)</a></p><p>(null)</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
 
 > If the embed does not work, you can [click
 here](https://www.youtube.com/watch?v=WbvX4wJqPHg) for the entire
@@ -49,9 +49,9 @@ water level under the class rises!
 > There's a lot of assumptions we need to make to figure this out.
 I am going to kick off some off right here:
 
-> 1.  Assume the glass is a perfect cylinder.  
+> 1.  Assume the glass is a perfect cylinder.
 > 2.  The mouth of
-the glass has a diameter of 10 centimeters.  
+the glass has a diameter of 10 centimeters.
 > 3.  The height of
 the glass from the water-level to the top of the glass (which, since
 it is upside down, is really the bottom) is 30 centimeters.

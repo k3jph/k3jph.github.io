@@ -17,4 +17,6 @@ tags:
 
 Below is the video of the Public Engagement in Land Use Planning Task Force public hearing from April 10, 2008.  I'd like to thank [Bill Taylor](http://www.nocondos.org) for providing the video.
 
-{% include youtube.html id="W3HYy8_9KHc" %}
+
+
+::youtube{video="W3HYy8_9KHc"}

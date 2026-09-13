@@ -74,21 +74,21 @@ creating a unified estate suitable for farming and resource management.
 4. 1759-03-01: 437 acres
 5. 1759-03-05: 436 acres
 
-<div class="item col-md-12 px-4">
+<div class="item content-grid__item content-grid__item--full">
     <div class="card">
         <figure>
-            <div class="row mb-2">
-                <div class="item col-md-3">
-                    <img class="featured-img mx-auto" src="{{ '/assets/img/ancestry/ofgd/granville-grant-teague-1756-11-05.webp' | cloudflare_image_url: 800 }}" alt="Granville grant for Moses Teague, 1756-11-05" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/ofgd/granville-grant-teague-1756-11-05.webp" />
+            <div class="content-grid">
+                <div class="item content-grid__item content-grid__item--quarter">
+                    <img class="featured-img" src="/assets/img/ancestry/ofgd/granville-grant-teague-1756-11-05.webp" alt="Granville grant for Moses Teague, 1756-11-05" data-gallery-src="/assets/img/ancestry/ofgd/granville-grant-teague-1756-11-05.webp" />
                 </div>
-                <div class="item col-md-3">
-                    <img class="featured-img mx-auto" src="{{ '/assets/img/ancestry/ofgd/granville-grant-teague-1759-02-22.webp' | cloudflare_image_url: 800 }}" alt="Granville grant for Moses Teague, 1759-02-22" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/ofgd/granville-grant-teague-1759-02-22.webp" />
+                <div class="item content-grid__item content-grid__item--quarter">
+                    <img class="featured-img" src="/assets/img/ancestry/ofgd/granville-grant-teague-1759-02-22.webp" alt="Granville grant for Moses Teague, 1759-02-22" data-gallery-src="/assets/img/ancestry/ofgd/granville-grant-teague-1759-02-22.webp" />
                 </div>
-                <div class="item col-md-3">
-                    <img class="featured-img mx-auto" src="{{ '/assets/img/ancestry/ofgd/granville-grant-teague-1759-03-01.webp' | cloudflare_image_url: 800 }}" alt="Granville grant for Moses Teague, 1759-03-01" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/ofgd/granville-grant-teague-1759-03-01.webp" />
+                <div class="item content-grid__item content-grid__item--quarter">
+                    <img class="featured-img" src="/assets/img/ancestry/ofgd/granville-grant-teague-1759-03-01.webp" alt="Granville grant for Moses Teague, 1759-03-01" data-gallery-src="/assets/img/ancestry/ofgd/granville-grant-teague-1759-03-01.webp" />
                 </div>
-                <div class="item col-md-3">
-                    <img class="featured-img mx-auto" src="{{ '/assets/img/ancestry/ofgd/granville-grant-teague-1759-03-05.webp' | cloudflare_image_url: 800 }}" alt="Granville grant for Moses Teague, 1759-03-05" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/ofgd/granville-grant-teague-1759-03-05.webp" />
+                <div class="item content-grid__item content-grid__item--quarter">
+                    <img class="featured-img" src="/assets/img/ancestry/ofgd/granville-grant-teague-1759-03-05.webp" alt="Granville grant for Moses Teague, 1759-03-05" data-gallery-src="/assets/img/ancestry/ofgd/granville-grant-teague-1759-03-05.webp" />
                 </div>
             </div>
             <div class="content">
@@ -154,46 +154,12 @@ preserving this unique chapter of colonial America.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="ancestry/OFGD-Teague.webp" border=true
-   alt="Membership certificate in the Order of Founders of the Granville District"
-   cap="Membership certificate in the Order of Founders of the Granville District" %}
-   
+
+
+:::figure{src="/assets/img/ancestry/OFGD-Teague.webp" alt="Membership certificate in the Order of Founders of the Granville District" align="center" width="12" border="true"}
+Membership certificate in the Order of Founders of the Granville District
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/OFGD-Teague.pdf).
-
-<!-- Modal -->
-<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body text-center">
-                <img id="modalImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" class="img-responsive" alt="Zoomed Image">
-                <p id="modalCaption" class="mt-3"></p>
-                <a id="modalLink" href="#" target="_blank" class="btn btn-primary mt-2">View Original Source</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // Attach click event listeners to all images with data-toggle="modal"
-        document.querySelectorAll('[data-toggle="modal"]').forEach(function (img) {
-            img.addEventListener('click', function () {
-                var fullImage = img.getAttribute('data-full'); // Get the full image URL
-                var modalImage = document.getElementById('modalImage'); // Modal image element
-                var modalCaption = document.getElementById('modalCaption'); // Modal caption element
-                var modalLink = document.getElementById('modalLink'); // Modal link element
-
-                modalImage.setAttribute('src', fullImage); // Set the src of the modal image
-                modalImage.setAttribute('alt', img.getAttribute('alt')); // Set alt text
-                modalCaption.textContent = img.getAttribute('alt'); // Use alt text as caption
-                modalLink.setAttribute('href', fullImage); // Placeholder for the original source
-            });
-        });
-    });
-</script>

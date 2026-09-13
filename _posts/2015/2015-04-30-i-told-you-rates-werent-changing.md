@@ -19,9 +19,9 @@ tags:
 ---
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Stop trying to frontrun the Fed. There will be no rate change this week.</p>&mdash; James P. Howard, II (@howardjp) <a href="https://twitter.com/howardjp/status/592797408532267011">April 27, 2015</a></blockquote>
 
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-[See, I told you so.](http://www.federalreserve.gov/newsevents/press/monetary/20150429a.htm) 
+
+[See, I told you so.](http://www.federalreserve.gov/newsevents/press/monetary/20150429a.htm)
 
 Now, reading Federal Reserve press releases is practically its own subfield of [Kremlinology](http://en.wikipedia.org/wiki/Kremlinology). ([Also, read this.](http://dealbreaker.com/2007/06/dealbreaking-kremlinology-for-the-land-of-the-free/)) Now, due to the [complications of executing monetary policy at the zero lower bound](http://www.federalreserve.gov/pubs/feds/2004/200448/200448pap.pdf), the Fed got deeply involved in a lot of markets where they kinda never been before. Commercial paper, repos, even MBS. Cash was crack and the Fed was dealing.
 

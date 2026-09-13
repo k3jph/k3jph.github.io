@@ -94,16 +94,16 @@ external standard.  All of the following CDPs are located at least
 partially in Howard County:
 
 
-* Columbia 
-* Elkridge 
-* Ellicott City 
-* Fulton 
-* Highland 
-* Ilchester 
-* Jessup 
+* Columbia
+* Elkridge
+* Ellicott City
+* Fulton
+* Highland
+* Ilchester
+* Jessup
 * Mount Airy
-* North Laurel 
-* Savage 
+* North Laurel
+* Savage
 * Scaggsville
 
 The probability of two one-hundred year events in five years happening

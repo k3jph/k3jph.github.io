@@ -21,8 +21,8 @@ tags:
 I am very happy to say my new article, ["Phonetic Spelling Algorithm
 Implementations for R," was published in the _Journal of Statistical
 Software_](https://www.jstatsoft.org/article/view/v095i08), this morning.
-This article is the culmination of a few years of work, off-and-on, 
-working with phonetic spellign algorithms for 
+This article is the culmination of a few years of work, off-and-on,
+working with phonetic spellign algorithms for
 [record linkage](https://hdsr.mitpress.mit.edu/pub/8fm8lo1e/release/2).
 The package supports a wide variety of historical and current phonetic
 spelling algorithms:

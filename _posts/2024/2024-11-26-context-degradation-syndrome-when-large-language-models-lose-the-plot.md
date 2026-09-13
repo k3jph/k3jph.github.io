@@ -65,7 +65,7 @@ window is measured in tokens--units of text that include both words and
 punctuation. For example, GPT-4 supports a context window of
 approximately 8,000 to 32,000 tokens, depending on the version, while
 Claude can manage up to 100,000 tokens. However, no current model
-supports indefinite memory. 
+supports indefinite memory.
 
 Once a conversation exceeds the token limit, earlier exchanges are
 dropped. Crucially, this does not discriminate between trivia and
@@ -74,18 +74,14 @@ discussion. Imagine having a detailed conversation with someone, only
 for them to forget everything you said earlier once you reached a word
 limit--it can be disorienting and frustrating.
 
-{% include figure.html width="12" placement="center"
-   image="/2024/context-degradation-syndrome-when-large-language-models-lose-the-plot/context-window-sequence-diagram.webp"
-   alt="A sequence diagram illustrating the concept of a context window
-   in large language models. It shows four participants: 'Older Context'
-   (representing forgotten information), 'Active Context Window' (the
-   part currently processed, with a limit of tokens), 'New Context'
-   (recent parts of the conversation entering the window), and 'LLM
-   Processing' (the model generating responses). The diagram highlights
-   the flow of tokens, where older tokens are pushed out as new tokens
-   enter, emphasizing how the active window shifts and forgotten
-   information becomes inaccessible."  cap="Visualization of Context
-   Windows" %} 
+
+
+:::figure{src="/2024/context-degradation-syndrome-when-large-language-models-lose-the-plot/context-window-sequence-diagram.webp" alt="A sequence diagram illustrating the concept of a context window    in large language models. It shows four participants: 'Older Context'    (representing forgotten information), 'Active Context Window' (the    part currently processed, with a limit of tokens), 'New Context'    (recent parts of the conversation entering the window), and 'LLM    Processing' (the model generating responses). The diagram highlights    the flow of tokens, where older tokens are pushed out as new tokens    enter, emphasizing how the active window shifts and forgotten    information becomes inaccessible." align="center" width="12"}
+Visualization of Context
+   Windows
+:::
+
+
 
 ### Accumulation of Noise
 
@@ -107,7 +103,7 @@ back when faced with complexity, LLMs process text sequentially and in
 isolation. They rely entirely on the information within their context
 window to generate each response. This makes them highly efficient at
 handling discrete, short tasks but leaves them vulnerable in long,
-intricate conversations where coherence across exchanges is crucial. 
+intricate conversations where coherence across exchanges is crucial.
 
 The lack of an overarching "big picture" understanding means that
 logical errors or contradictions can creep in as the conversation
@@ -137,18 +133,13 @@ The effects of CDS are not abstract; they manifest in specific,
 recognizable ways during long interactions with LLMs.
 Below are some common symptoms that users encounter:
 
-{% include figure.html width="6" placement="right"
-   image="/2024/context-degradation-syndrome-when-large-language-models-lose-the-plot/steps-in-cds.webp"
-   alt="A flowchart illustrating how Context Degradation Syndrome (CDS)
-   progresses in large language models during extended conversations.
-   The flowchart includes four stages: Stage 1, represented in green,
-   shows 'Detailed, Coherent Responses'; Stage 2, in yellow, indicates
-   'Repetition and Minor Errors'; Stage 3, in red, highlights
-   'Forgetting Key Details' and resulting 'Inconsistencies and
-   Contradictions'; and Stage 4, in gray, depicts 'Over-Simplified or
-   Vague Responses.' The transitions between stages represent the
-   gradual degradation of conversational quality as the dialogue
-   continues." cap="Steps in Context Degradation Syndrome" %}
+
+
+:::figure{src="/2024/context-degradation-syndrome-when-large-language-models-lose-the-plot/steps-in-cds.webp" alt="A flowchart illustrating how Context Degradation Syndrome (CDS)    progresses in large language models during extended conversations.    The flowchart includes four stages: Stage 1, represented in green,    shows 'Detailed, Coherent Responses'; Stage 2, in yellow, indicates    'Repetition and Minor Errors'; Stage 3, in red, highlights    'Forgetting Key Details' and resulting 'Inconsistencies and    Contradictions'; and Stage 4, in gray, depicts 'Over-Simplified or    Vague Responses.' The transitions between stages represent the    gradual degradation of conversational quality as the dialogue    continues." align="right" width="6"}
+Steps in Context Degradation Syndrome
+:::
+
+
 
 ### Repetitive Responses
 
@@ -195,30 +186,30 @@ mitigate its effects and keep your conversations productive. By adapting
 your approach, you can maintain coherence and maximize the utility of
 LLMs.
 
-<div class="col-md-5 p-5 pull-right item">
-  <div class="row">
+<div class="content-float-right item content-grid__item content-grid__item--narrow">
+  <div class="content-grid">
     <!-- Card 0: Summarize Key Points -->
     <div class="col-12">
-      <div class="card h-100 p-4 m-2" style="background-color: #FFFDD0;">
+      <div class="card h-100">
         <div class="card-body">
           <h3 class="card-title text-center">Managing CDS</h3>
-          <p class="card-text m-2">
+          <p class="card-text">
             <i class="fa-regular fa-square-check"></i>&nbsp;<strong>Summarize Key Points</strong><br/>
             Periodically condense key details to help the LLM retain critical context
           </p>
-          <p class="card-text m-2">
+          <p class="card-text">
             <i class="fa-regular fa-square-check"></i>&nbsp;<strong>Use External Notes</strong><br/>
             Keep a separate document for critical information and refer to it as needed
           </p>
-          <p class="card-text m-2">
+          <p class="card-text">
             <i class="fa-regular fa-square-check"></i>&nbsp;<strong>Start Fresh Threads</strong><br/>
             Break long conversations into focused segments for better clarity
           </p>
-          <p class="card-text m-2">
+          <p class="card-text">
             <i class="fa-regular fa-square-check"></i>&nbsp;<strong>Choose the Right Model</strong><br/>
             Select LLMs optimized for long contexts to reduce the effects of CDS
           </p>
-          <p class="card-text m-2">
+          <p class="card-text">
             <i class="fa-regular fa-square-check"></i>&nbsp;<strong>Be Precise</strong><br/>
             Use clear, targeted prompts to reduce ambiguity and focus the model
           </p>
@@ -345,7 +336,7 @@ of development include:
 
 These advancements could transform how LLMs handle extended
 interactions, making them more adaptable and effective for tasks that
-require sustained focus and continuity. 
+require sustained focus and continuity.
 
 Until these innovations are widely implemented, understanding and
 adapting to the quirks of CDS remains critical. By employing strategies

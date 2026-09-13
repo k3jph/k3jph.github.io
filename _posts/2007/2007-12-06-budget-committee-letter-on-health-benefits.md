@@ -29,6 +29,6 @@ Given the recently completed agreement on health benefits for employees of Colum
 
 The Budget Committee welcomes any questions or concerns you may have regarding this matter. On behalf of the Committee, and with great esteem and regard,
 
-Yours respectfully,  
-**James P. Howard, II**  
+Yours respectfully,
+**James P. Howard, II**
 Chair, Budget Committee

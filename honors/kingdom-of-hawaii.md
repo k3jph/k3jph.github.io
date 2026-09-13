@@ -34,11 +34,11 @@ credits: >-
 
 <section class="star-oceania-appointment" markdown="1">
 
-<div class="container" markdown="1">
+<div class="content-section" markdown="1">
 
 <div class="title-area">
   <h2 id="my-appointment">My Appointment</h2>
-  <div class="separator separator-warning"><img src="{{ '/assets/img/identity/kamon-warning.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-warning"><img src="/assets/img/identity/kamon-warning.svg" height="35" alt="" /></div>
 </div>
 
 On March 17, 2024, I was appointed **Knight Commander of the Royal Order of
@@ -46,17 +46,21 @@ the Star of Oceania**. The appointment record identifies the issuing authority a
 Princess Owana Kaʻōhelelani, *Head of the Royal House of Hawaiʻi* and Grand
 Master; the appointment was issued in Hilo, Hawaiʻi.
 
-<div class="row mb-4">
-  <div class="col-md-6">
-    {% include figure.html image="honors/KCRSO-medal.webp" width="12"
-    cap="Contemporary insignia issued with James Howard's appointment"
-    alt="Contemporary insignia of the Royal Order of the Star of Oceania" %}
+<div class="content-grid">
+  <div class="content-grid__item content-grid__item--half">
+
+
+:::figure{src="/assets/img/honors/KCRSO-medal.webp" alt="Contemporary insignia of the Royal Order of the Star of Oceania" align="center" width="12"}
+Contemporary insignia issued with James Howard's appointment
+:::
+
+
   </div>
-  <div class="col-md-6">
+  <div class="content-grid__item content-grid__item--half">
     <div class="card h-100">
       <div class="card-body">
         <h3 class="card-title">Appointment record</h3>
-        <dl class="mb-0">
+        <dl class="">
           <dt>Grade</dt>
           <dd>Knight Commander</dd>
           <dt>Recipient</dt>
@@ -84,7 +88,7 @@ questions, and this page keeps them separate.
 
 <div class="title-area">
   <h2 id="historical-order">The Historical Royal Order</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
 </div>
 
 King Kalākaua founded the historical Royal Order of the Star of Oceania on
@@ -113,7 +117,7 @@ issuer's revised system.
 
 <div class="title-area">
   <h2 id="pacific-confederation">Kalākaua and the Pacific Confederation</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
 </div>
 
 The Order made sense within Kalākaua's wider attempt to increase Hawaiʻi's
@@ -140,7 +144,7 @@ and Kealani Cook's accessible account of
 
 <div class="title-area">
   <h2 id="insignia-and-grades">Insignia and Grades</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
 </div>
 
 Historical pieces in the ʻIolani Palace collection include a Commander example
@@ -158,7 +162,7 @@ while the present instrument documents a contemporary ceremonial appointment.
 
 <div class="title-area">
   <h2 id="end-of-monarchy">1893 and the End of the Monarchy</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
 </div>
 
 Queen Liliʻuokalani was overthrown in January 1893 by the Committee of Safety,
@@ -175,7 +179,7 @@ calling it legally “abolished,” so that stronger claim does not appear here.
 
 <div class="title-area">
   <h2 id="contemporary-order">The Contemporary Order</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
 </div>
 
 The organization headed by Owana Kaʻōhelelani Salazar maintains a contemporary
@@ -195,7 +199,7 @@ that the same abbreviation belonged to the 1886 system.
 
 <div class="title-area">
   <h2 id="modern-dynastic-context">The Modern Dynastic Context</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
 </div>
 
 Owana Kaʻōhelelani Salazar claims headship of the Royal House of Hawaiʻi through
@@ -211,7 +215,7 @@ issued by the organization that describes itself in those terms.
 
 <div class="title-area">
   <h2 id="diploma-and-insignia">Diploma and Insignia</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
 </div>
 
 The diploma is not reproduced here. Its material appointment lines name
@@ -232,7 +236,7 @@ Hawaiʻi*.
 
 <div class="title-area">
   <h2 id="sources">Sources and Further Reading</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
 </div>
 
 - [ʻIolani Palace, Royal Orders collection](https://www.iolanipalace.org/palace-collections/royal-orders/) and its [Royal Order of the Star of Oceania collection record](https://www.iolanipalace.org/palace-collections/royal-orders/royal-order-star-of-oceania-web/).

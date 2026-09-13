@@ -37,11 +37,11 @@ Daemon was originally written for FreeBSD to use the 4.4BSD library function, [d
 
 ## [rpt](http://github.com/howardjp/rpt)
 
-Rpt was based upon the source from daemon, above but instead of disassociating from the controlling terminal, rpt reruns the command at a specified interval.  This allows the user to monitor the output of a program over time.  
+Rpt was based upon the source from daemon, above but instead of disassociating from the controlling terminal, rpt reruns the command at a specified interval.  This allows the user to monitor the output of a program over time.
 
 ## [uwatch](http://github.com/howardjp/uwatch)
 
-Uwatch was also born of M-Net.  M-Net is an interactive BBS system dating back to 1983, which has always allowed users to communicate directly in real time.  As a result, someone once developed a program to notify users when their friends logged in or out.  However, it was always spotty at best, especially during a long session.  I worked extensively on it back in 1997 to solve some memory management issues.  This is what remains of that effort.  
+Uwatch was also born of M-Net.  M-Net is an interactive BBS system dating back to 1983, which has always allowed users to communicate directly in real time.  As a result, someone once developed a program to notify users when their friends logged in or out.  However, it was always spotty at best, especially during a long session.  I worked extensively on it back in 1997 to solve some memory management issues.  This is what remains of that effort.
 
 ## [write](http://github.com/howardjp/write)
 

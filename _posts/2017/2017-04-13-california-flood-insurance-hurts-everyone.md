@@ -20,7 +20,11 @@ tags:
 California is considering adopting its own flood insurance scheme,
 according to this news report:
 
-{% include iframely.html url="http://sacramento.cbslocal.com/2017/03/30/california-flood-insurance-change/" %}
+
+
+::embed{href="http://sacramento.cbslocal.com/2017/03/30/california-flood-insurance-change/"}
+
+
 
 Apparently, California residents have paid more than $3B more into
 the program than those residents have received since the NFIP

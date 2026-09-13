@@ -75,9 +75,12 @@ interested in structured study, the **IHGS Heraldry Course** is an
 excellent place to start, whether as a standalone achievement or as part
 of a longer journey toward formal heraldic qualifications.
 
-{% include figure.html width="12"
-   image="2025/completed-the-ihgs-heraldry-course/JHoward-IHGS-Heraldry-Cert.webp" border=true
-   alt="Certificate from the Institute of Heraldic and Genealogical Studies awarded to Dr. James Patrick Howard, II for completing the Heraldry Course in 2025"
-   cap="Completion certificate from the IHGS, certifying successful completion of the Heraldry Course in 2025" %}
-   
+
+
+:::figure{src="/assets/img/2025/completed-the-ihgs-heraldry-course/JHoward-IHGS-Heraldry-Cert.webp" alt="Certificate from the Institute of Heraldic and Genealogical Studies awarded to Dr. James Patrick Howard, II for completing the Heraldry Course in 2025" align="center" width="12" border="true"}
+Completion certificate from the IHGS, certifying successful completion of the Heraldry Course in 2025
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/JHoward-IHGS-Heraldry-Cert.pdf)

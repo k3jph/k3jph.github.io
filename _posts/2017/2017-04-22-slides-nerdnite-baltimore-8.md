@@ -20,7 +20,7 @@ tags:
   - public economics
   - Star Trek
 ---
-I've posted the slides from my talk at NerdNite.  Unfortunately, there's no video or audio.  
+I've posted the slides from my talk at NerdNite.  Unfortunately, there's no video or audio.
 
-<iframe src="https://onedrive.live.com/embed?cid=C4DA866F3B02B780&resid=C4DA866F3B02B780%214228&authkey=AOSnnFsZ4npgKvk&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
+<iframe title="Embedded media" src="https://onedrive.live.com/embed?cid=C4DA866F3B02B780&resid=C4DA866F3B02B780%214228&authkey=AOSnnFsZ4npgKvk&em=2" width="402" height="327" frameborder="0" scrolling="no"></iframe>
 <br/>

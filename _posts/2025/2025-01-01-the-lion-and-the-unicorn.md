@@ -7,9 +7,9 @@ layout: post
 permalink: /2025/01/01/the-lion-and-the-unicorn
 featured_image: /assets/img/2025/the-lion-and-the-unicorn.webp
 categories:
- - Blog 
+ - Blog
 tags:
- - heraldry 
+ - heraldry
  - England
  - Scotland
  - Great Britain
@@ -23,14 +23,14 @@ visual shorthand for governance, sovereignty, and tradition. Over the centuries,
 it has adorned everything from official documents to courtrooms and even
 currency, embedding itself deeply in the public consciousness.
 
-<div class="item col-md-4 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--third">
   <div class="card">
     <figure>
-      <div class="row mb-2">
-        <div class="item col-md-12">
-          <img 
-              class="featured-img mx-auto" 
-              src="/assets/img/2025/the-lion-and-the-unicorn/Royal_Arms_of_the_Kingdom_of_Scotland.svg" 
+      <div class="content-grid">
+        <div class="item content-grid__item content-grid__item--full">
+          <img
+              class="featured-img"
+              src="/assets/img/2025/the-lion-and-the-unicorn/Royal_Arms_of_the_Kingdom_of_Scotland.svg"
               alt="Royal Arms of the Kingdom of Scotland" />
             <div class="images-caption">Royal Arms of the Kingdom of Scotland</div>
         </div>
@@ -57,14 +57,14 @@ today.
 
 ## The Heraldry of Scotland
 
-<div class="item col-md-4 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--third">
   <div class="card">
     <figure>
-      <div class="row mb-2">
-        <div class="item col-md-12">
-          <img 
-              class="featured-img mx-auto" 
-              src="{{ '/assets/img/2025/the-lion-and-the-unicorn/MaryQueenofScotsSeal.webp' | cloudflare_image_url: 800 }}"
+      <div class="content-grid">
+        <div class="item content-grid__item content-grid__item--full">
+          <img
+              class="featured-img"
+              src="/assets/img/2025/the-lion-and-the-unicorn/MaryQueenofScotsSeal.webp"
               alt="The Scottish Lion on first seal of Mary, Queen of Scots" />
             <div class="images-caption">The Scottish Lion on first seal of Mary, Queen of Scots</div>
         </div>
@@ -102,14 +102,14 @@ significance.
 
 ### The Union of the Crowns (1603)
 
-<div class="item col-md-4 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--third">
   <div class="card">
     <figure>
-      <div class="row mb-2">
-        <div class="item col-md-12">
-          <img 
-              class="featured-img mx-auto" 
-              src="/assets/img/2025/the-lion-and-the-unicorn/Royal_Coat_of_Arms_of_the_Kingdom_of_Scotland_(Variant_1).svg" 
+      <div class="content-grid">
+        <div class="item content-grid__item content-grid__item--full">
+          <img
+              class="featured-img"
+              src="/assets/img/2025/the-lion-and-the-unicorn/Royal_Coat_of_Arms_of_the_Kingdom_of_Scotland_(Variant_1).svg"
               alt="The arms of the Kingdom of Scotland under James VI" />
             <div class="images-caption">The arms of the Kingdom of Scotland under James VI</div>
         </div>
@@ -145,21 +145,21 @@ with no single kingdom given absolute primacy.  From this point on, the arms of
 Scotland, and later the United Kingdom in Scotland, [followed the pattern
 described before](/2024/11/03/the-evolution-of-the-royal-arms).
 
-<div class="item col-md-6 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--half">
   <div class="card">
     <figure>
-      <div class="row mb-2">
-        <div class="item col-md-6">
-          <img 
-              class="featured-img mx-auto" 
-              src="/assets/img/2025/the-lion-and-the-unicorn/arms-james-i-english.svg" 
+      <div class="content-grid">
+        <div class="item content-grid__item content-grid__item--half">
+          <img
+              class="featured-img"
+              src="/assets/img/2025/the-lion-and-the-unicorn/arms-james-i-english.svg"
               alt="The arms of the Kingdom of England under James I and VI" />
             <div class="images-caption">The arms of the Kingdom of England under James I and VI</div>
         </div>
-        <div class="item col-md-6">
-          <img 
-              class="featured-img mx-auto" 
-              src="/assets/img/2025/the-lion-and-the-unicorn/arms-james-i-scottish.svg" 
+        <div class="item content-grid__item content-grid__item--half">
+          <img
+              class="featured-img"
+              src="/assets/img/2025/the-lion-and-the-unicorn/arms-james-i-scottish.svg"
               alt="The arms of the Kingdom of Scotland under James I and VI" />
             <div class="images-caption">The arms of the Kingdom of Scotland under James I and VI</div>
         </div>
@@ -194,7 +194,7 @@ symbols and the use of the Scottish Crown in Scotland reinforced this cultural
 duality, ensuring that each kingdom's identity remained visible despite the
 political merger.
 
-## Heraldic Differences 
+## Heraldic Differences
 
 ### The Shield
 
@@ -239,7 +239,7 @@ differences in visual presentation exemplify how heraldry adapted to reflect the
 dual identities within the union, ensuring that both nations saw themselves
 represented within the Royal Coat of Arms.
 
-### Supporters 
+### Supporters
 
 The supporters of the Royal Coat of Arms are among its most visually striking
 elements, and their arrangement underscores the cultural and heraldic
@@ -274,21 +274,21 @@ unity and individuality within the Royal Coat of Arms, showcasing how heraldry
 adapts to context while preserving the identities of both nations.
 
 
-<div class="item col-md-12 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--full">
   <div class="card">
     <figure>
-      <div class="row mb-2">
-        <div class="item col-md-6">
-          <img 
-              class="featured-img mx-auto" 
-              src="/assets/img/2025/the-lion-and-the-unicorn/Coat_of_arms_of_the_United_Kingdom_(2022,_variant_2).svg" 
+      <div class="content-grid">
+        <div class="item content-grid__item content-grid__item--half">
+          <img
+              class="featured-img"
+              src="/assets/img/2025/the-lion-and-the-unicorn/Coat_of_arms_of_the_United_Kingdom_(2022,_variant_2).svg"
               alt="The arms of the United Kingdom" />
             <div class="images-caption">The arms of the United Kingdom</div>
         </div>
-        <div class="item col-md-6">
-          <img 
-              class="featured-img mx-auto" 
-              src="/assets/img/2025/the-lion-and-the-unicorn/Coat_of_arms_of_the_United_Kingdom_in_Scotland.svg" 
+        <div class="item content-grid__item content-grid__item--half">
+          <img
+              class="featured-img"
+              src="/assets/img/2025/the-lion-and-the-unicorn/Coat_of_arms_of_the_United_Kingdom_in_Scotland.svg"
               alt="The arms of the United Kingdom in Scotland" />
             <div class="images-caption">The arms of the United Kingdom in Scotland</div>
         </div>
@@ -297,7 +297,7 @@ adapts to context while preserving the identities of both nations.
   </div>
 </div>
 
-### The Crown 
+### The Crown
 
 The crown depicted in the Royal Coat of Arms serves as a powerful visual
 reminder of the monarchy's authority, and its variation between the English and
@@ -387,10 +387,13 @@ distinct heraldic traditions, the monarchy acknowledged the importance of local
 pride and history, ensuring the arms would resonate with people on both sides of
 the border.
 
-{% include figure.html width="6" placement="right"
-   image="/2025/the-lion-and-the-unicorn/jenners-royal-warrant.webp"
-   alt="The Royal Warrant outside Jenners in Edinburgh showcasing the use of the Scottish version of the Royal Arms (via Tagishsimon/Wikimedia Commons)"
-   cap="The Royal Warrant outside [Jenners in Edinburgh](https://www.jennersedinburgh.com/) showcasing the use of the Scottish version of the Royal Arms (via [Tagishsimon/Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Royal_Warrant_-_Jenners_in_Edinburgh_-_2004-10-22.jpg))" %} 
+
+
+:::figure{src="/2025/the-lion-and-the-unicorn/jenners-royal-warrant.webp" alt="The Royal Warrant outside Jenners in Edinburgh showcasing the use of the Scottish version of the Royal Arms (via Tagishsimon/Wikimedia Commons)" align="right" width="6"}
+The Royal Warrant outside [Jenners in Edinburgh](https://www.jennersedinburgh.com/) showcasing the use of the Scottish version of the Royal Arms (via [Tagishsimon/Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Royal_Warrant_-_Jenners_in_Edinburgh_-_2004-10-22.jpg))
+:::
+
+
 
 The quartered shield is perhaps the clearest example of this balance. Its
 alternating arrangement of England's three lions and Scotland's lion rampant
@@ -455,10 +458,13 @@ central authority of the English monarchy within the union. These distinctions
 are not merely symbolic but serve to affirm the shared yet diverse nature of the
 United Kingdom.
 
-{% include figure.html width="12" placement="center"
-   image="/2025/the-lion-and-the-unicorn/great-seal-of-scotland.webp"
-   alt="The Great Seal of Scotland at the Court of Session (via the Scottish Government/Wikimedia Commons)"
-   cap="The Great Seal of Scotland at the [Court of Session](https://www.scotcourts.gov.uk/courts-and-tribunals/the-supreme-courts/the-court-of-session/) (via the [Scottish Government/Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Court_of_Session_%2853707367184%29.jpg))" %} 
+
+
+:::figure{src="/2025/the-lion-and-the-unicorn/great-seal-of-scotland.webp" alt="The Great Seal of Scotland at the Court of Session (via the Scottish Government/Wikimedia Commons)" align="center" width="12"}
+The Great Seal of Scotland at the [Court of Session](https://www.scotcourts.gov.uk/courts-and-tribunals/the-supreme-courts/the-court-of-session/) (via the [Scottish Government/Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Court_of_Session_%2853707367184%29.jpg))
+:::
+
+
 
 
 Even in less formal contexts, such as the signage on government offices or the
@@ -467,7 +473,7 @@ chosen to reflect the locale and function. This meticulous attention to detail
 ensures that the Royal Coat of Arms remains not just a symbol of monarchy but a
 living emblem of the nuanced relationship between unity and regional identity.
 
-## Broader Themes 
+## Broader Themes
 
 Heraldry occupies a unique space at the intersection of culture, governance, and
 history. As both art and authority, the Royal Coat of Arms offers a visual

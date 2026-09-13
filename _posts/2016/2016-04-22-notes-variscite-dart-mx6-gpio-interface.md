@@ -30,30 +30,34 @@ Variscite provides images running both [Yocto](https://www.yoctoproject.org/) an
 
 The DART-MX6 provides a crazy number of GPIO pins.  The kernel reports 224:
 
-{% highlight shell %}
-root@var-som-mx6:~# cat /sys/kernel/debug/gpio 
+
+
+```shell
+root@var-som-mx6:~# cat /sys/kernel/debug/gpio
 GPIOs 0-31, platform/209c000.gpio, 209c000.gpio:
-  gpio-6   (2194000.usdhc cd    ) in  lo    
-  gpio-25  (phy-reset           ) out lo    
-  gpio-28  (usb_h1_vbus         ) out lo    
+  gpio-6   (2194000.usdhc cd    ) in  lo
+  gpio-25  (phy-reset           ) out lo
+  gpio-28  (usb_h1_vbus         ) out lo
 
 GPIOs 32-63, platform/20a0000.gpio, 20a0000.gpio:
 
 GPIOs 64-95, platform/20a4000.gpio, 20a4000.gpio:
 
 GPIOs 96-127, platform/20a8000.gpio, 20a8000.gpio:
-  gpio-101 (tlv320aic3x reset   ) out lo    
-  gpio-111 (usb_otg_vbus        ) out lo    
+  gpio-101 (tlv320aic3x reset   ) out lo
+  gpio-111 (usb_otg_vbus        ) out lo
 
 GPIOs 128-159, platform/20ac000.gpio, 20ac000.gpio:
 
 GPIOs 160-191, platform/20b0000.gpio, 20b0000.gpio:
-  gpio-178 (sysfs               ) out lo    
+  gpio-178 (sysfs               ) out lo
 
 GPIOs 192-223, platform/20b4000.gpio, 20b4000.gpio:
-  gpio-200 (wlan-en-regulator   ) out lo    
+  gpio-200 (wlan-en-regulator   ) out lo
 root@var-som-mx6:~#
-{% endhighlight %}
+```
+
+
 
 In particular, the documentation states there are two LEDs (D1 and D2) and three physical buttons on the evaluation board that can be read and set via GPIO.  However, figuring out which button is which GPIO pin is kind of opaque.  The [schematics provided by Variscite](http://www.variscite.com/images/stories/DataSheets/DART-MX6/VAR-DT6CUSTOMBOARD_SCH_V1_1_Doc_V1_3.pdf) provide some insight, but not enough.
 

@@ -157,7 +157,7 @@ Constitution is also clear that the old Senate is the legitimate
 Senate, just the opposite of the analysis in the case of the House
 of Representatives.
 
-This all takes us to the election of the President and 
+This all takes us to the election of the President and
 Vice-President.[^vptitle] Any states organizing a presidential
 election and holding a meeting of electors would presumably publish
 results. Electors' meetings for each state are held within the state

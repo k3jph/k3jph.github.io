@@ -27,7 +27,11 @@ several bidders, all did a lot of work to pull this off.  The plan
 is beautiful and hopeful in a place that's needed some for a long
 time.  You can read more about it in the Baltimore Sun:
 
-{% include iframely.html url="http://www.baltimoresun.com/news/maryland/howard/ph-ho-cf-rfp-long-reach-0504-20170503-story.html" %}
+
+
+::embed{href="http://www.baltimoresun.com/news/maryland/howard/ph-ho-cf-rfp-long-reach-0504-20170503-story.html"}
+
+
 
 Howard County's Planning and Zoning has a [page about reimagining
 Long

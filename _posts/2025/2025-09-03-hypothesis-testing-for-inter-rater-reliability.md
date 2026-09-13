@@ -91,7 +91,7 @@ you cannot expect your results to be conclusive.
     incidents from body camera footage, κ is the line between defensible
     consistency and potentially arbitrary judgments that can be challenged in
     court.
-    
+
 
 In each of these cases, the hypothesis test is not academic nitpicking. It is
 the difference between evidence that can be used and evidence that cannot.
@@ -100,21 +100,23 @@ the difference between evidence that can be used and evidence that cannot.
 
 Here is a minimal example in Python using `scikit-learn` and simulation:
 
-{% highlight python %}  
-import numpy as np  
-from sklearn.metrics import cohen_kappa_score  
+
+
+```python
+import numpy as np
+from sklearn.metrics import cohen_kappa_score
 from statsmodels.stats.power import NormalIndPower
 
 # Simulate two raters on 100 items, 3 categories
 
-np.random.seed(123)  
+np.random.seed(123)
 rater1 = np.random.choice([0,1,2], size=100, p=[0.5,0.3,0.2])
 
 # Rater2 agrees 70% of time, otherwise random
 
 rater2 = [r if np.random.rand() < 0.7 else np.random.choice([0,1,2]) for r in rater1]
 
-kappa = cohen_kappa_score(rater1, rater2)  
+kappa = cohen_kappa_score(rater1, rater2)
 print("Estimated kappa:", kappa)
 
 # Approximate hypothesis test: H0 kappa=0.4 vs H1>0.4
@@ -123,35 +125,41 @@ print("Estimated kappa:", kappa)
 
 # Simple bootstrap:
 
-boots = []  
-for _ in range(1000):  
-idx = np.random.choice(range(100), size=100, replace=True)  
-boots.append(cohen_kappa_score(np.array(rater1)[idx], np.array(rater2)[idx]))  
-pval = np.mean([b <= 0.4 for b in boots])  
-print("Bootstrap p-value for H0: kappa <= 0.4:", pval)  
-{% endhighlight %}
+boots = []
+for _ in range(1000):
+idx = np.random.choice(range(100), size=100, replace=True)
+boots.append(cohen_kappa_score(np.array(rater1)[idx], np.array(rater2)[idx]))
+pval = np.mean([b <= 0.4 for b in boots])
+print("Bootstrap p-value for H0: kappa <= 0.4:", pval)
+```
+
+
 
 ## Example code in R
 
 R has the `irr` and `kappaSize` packages that make this easier. Here is a sketch:
 
-{% highlight r %}  
-library(irr)  
+
+
+```r
+library(irr)
 library(kappaSize)
 
 # Example: two raters, 100 subjects, 3 categories
 
-set.seed(123)  
-rater1 <- sample(c(1,2,3), size=100, replace=TRUE, prob=c(0.5,0.3,0.2))  
+set.seed(123)
+rater1 <- sample(c(1,2,3), size=100, replace=TRUE, prob=c(0.5,0.3,0.2))
 rater2 <- ifelse(runif(100) < 0.7, rater1, sample(c(1,2,3), 100, replace=TRUE))
 
 kappa2(cbind(rater1, rater2))
 
 # Power calculation: detect kappa = 0.6 vs null 0.4, 3 categories
 
-power.kappa(nsubjects=100, nraters=2, prop=c(0.5,0.3,0.2),  
-kappa0=0.4, kappa1=0.6, alpha=0.05)  
-{% endhighlight %}
+power.kappa(nsubjects=100, nraters=2, prop=c(0.5,0.3,0.2),
+kappa0=0.4, kappa1=0.6, alpha=0.05)
+```
+
+
 
 These tools take care of much of the variance computation, so you do not need to
 derive the test statistic by hand.

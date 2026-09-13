@@ -41,9 +41,12 @@ area.
 This membership highlights the pioneering spirit of families like the Martins,
 who lived in the county during its formative years.
 
-{% include figure.html width="12"
-   image="/ancestry/MCHGS-PSFMC-Martin.webp" border=true
-   alt="Membership certificate in the Pioneers and Settlers Families of Miami County"
-   cap="Membership certificate in the Pioneers and Settlers Families of Miami County" %}
-   
+
+
+:::figure{src="/ancestry/MCHGS-PSFMC-Martin.webp" alt="Membership certificate in the Pioneers and Settlers Families of Miami County" align="center" width="12" border="true"}
+Membership certificate in the Pioneers and Settlers Families of Miami County
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/MCHGS-PSFMC-Martin.pdf).

@@ -201,7 +201,7 @@ More importantly, vaccines help control disease at the population level. The
 effective reproduction number \\(R_{\text{eff}}\\) is given by:
 
 \\[
-R_{\text{eff}} = R_0 \times (1 - v\cdot e) 
+R_{\text{eff}} = R_0 \times (1 - v\cdot e)
 \\]
 
 where:
@@ -287,6 +287,6 @@ is not just incorrect--it is actively dangerous.
 Mother Nature is indifferent to human survival. Pathogens do not exist to make
 us stronger; they exist to reproduce, often at our expense. Vaccines turn this
 evolutionary arms race in our favor by safely introducing immunity without the
-severe risks of infection. 
+severe risks of infection.
 
 Simply put, "playing in the dirt" will not stop a pandemic. Science will.

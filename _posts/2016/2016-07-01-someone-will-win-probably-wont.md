@@ -26,7 +26,11 @@ getting larger.  That's because they are.  Robert McGarvey interviewed,
 among others, me about this several months ago and the article has
 just been published:
 
-{% include iframely.html url="https://www.thestreet.com/story/13624257/1/so-you-want-to-be-a-billionaire-buy-lottery-tickets-maybe.html" %}
+
+
+::embed{href="https://www.thestreet.com/story/13624257/1/so-you-want-to-be-a-billionaire-buy-lottery-tickets-maybe.html"}
+
+
 
 The short version is, games are getting more difficult, statistically
 speaking, with the odds reduced and winning tickets becoming less

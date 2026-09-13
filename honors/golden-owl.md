@@ -23,7 +23,7 @@ featured_image: /assets/img/honors.webp
 
 <div class="title-area">
   <h2 id="what-is-it">So What Is It?</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
 </div>
 
 The [Order of the Golden Owl](https://goldowl.org/about) describes itself as a private, lay, international, fraternal order of a chivalric nature, founded in 2020 by Clifford Brunetti. It says that it operates independently of governmental and religious institutions, makes no claim to noble titles, and does not require a monarch, prince, or other font of honor to validate the fraternity.
@@ -32,7 +32,7 @@ Those distinctions matter. The Golden Owl is not presented here as a historic st
 
 <div class="title-area">
   <h2 id="squire-academy">The Squire Academy</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
 </div>
 
 The public path begins with admission as a Squire, followed by the Squire Academy and its lessons and exercises. The Order describes completion of the training as the step before a ceremonial knighting and entry into its fellowship. It also makes heraldry part of its public identity, including member arms and the use of heraldic display.
@@ -41,21 +41,21 @@ That combination—curriculum, ceremony, badges, heraldic interest, and a privat
 
 <section class="golden-honor-record" id="knight" markdown="1">
 
-<div class="container" markdown="1">
+<div class="content-section" markdown="1">
 
 <div class="title-area">
   <h2>Knight of the Fraternal Order of the Golden Owl</h2>
-  <div class="separator separator-warning"><img src="{{ '/assets/img/identity/kamon-warning.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-warning"><img src="/assets/img/identity/kamon-warning.svg" height="35" alt="" /></div>
 </div>
 
-<div class="row align-items-center">
-  <div class="col-md-6">
-    <a class="golden-honor-document" href="{{ '/assets/docs/JHoward-Order-of-the-Golden-Owl.pdf' | relative_url }}">
-      <img src="{{ '/assets/img/honors/jhoward-golden-owl-brevet.webp' | relative_url }}" alt="Brevet declaring James P. Howard, PhD a Knight of the Fraternal Order of the Golden Owl, dated 21 December 2024">
+<div class="content-grid content-grid--center">
+  <div class="content-grid__item content-grid__item--half">
+    <a class="golden-honor-document" href="/assets/docs/JHoward-Order-of-the-Golden-Owl.pdf">
+      <img src="/assets/img/honors/jhoward-golden-owl-brevet.webp" alt="Brevet declaring James P. Howard, PhD a Knight of the Fraternal Order of the Golden Owl, dated 21 December 2024">
       <span>View the knight's brevet (PDF)</span>
     </a>
   </div>
-  <div class="col-md-6">
+  <div class="content-grid__item content-grid__item--half">
     <dl class="golden-honor-facts">
       <dt>Grade</dt>
       <dd>Knight</dd>
@@ -77,7 +77,7 @@ The brevet declares James P. Howard, PhD a Knight of the Fraternal Order of the 
 
 <div class="title-area">
   <h2 id="modern-chivalry">Modern Chivalry as an Experiment</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
 </div>
 
 Modern chivalric organizations are not all the same thing. Some are state honors; some are dynastic or historic institutions; some are private fraternities built around ceremony, fellowship, and particular ideas of service or personal conduct. The Golden Owl belongs to the last category by its own description.
@@ -86,12 +86,12 @@ That category is worth understanding on its own terms, especially where heraldry
 
 <div class="title-area">
   <h2 id="sources">Documents and Sources</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
 </div>
 
-- [Knight’s brevet]({{ '/assets/docs/JHoward-Order-of-the-Golden-Owl.pdf' | relative_url }}).
+- [Knight’s brevet](/assets/docs/JHoward-Order-of-the-Golden-Owl.pdf).
 - [Order of the Golden Owl: About the Order](https://goldowl.org/about).
 - [Order of the Golden Owl: public candidate and Squire Academy information](https://goldowl.org/application).
-- [Return to the Honors record]({{ '/honors' | relative_url }}).
+- [Return to the Honors record](/honors).
 
 </div>

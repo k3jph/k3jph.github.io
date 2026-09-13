@@ -23,7 +23,11 @@ nerd,[^statsgram] [I've
 talked about the lottery before](/tag/lottery/).  So when I got
 this on my Facebook page, I was all into it:
 
-{% include fbembed.html url="https://www.facebook.com/howardjp/posts/618380485632" %}
+
+
+::embed{href="https://www.facebook.com/howardjp/posts/618380485632"}
+
+
 
 First, we need to take a look at the current game configuration.
 Right now, tickets cost a dollar and the jackpot starts at $15
@@ -38,7 +42,7 @@ State Gaming
 Commission](https://www.gaming.ny.gov/pdf/04.24.2017Commission%20Meeting%20Book.pdf).
 Page 34 contains the tables.
 
-<div class="text-center"><iframe width="860" height="415" frameborder="0" scrolling="no"
+<div class="text-center"><iframe title="Embedded media" width="860" height="415" frameborder="0" scrolling="no"
 src="https://onedrive.live.com/embed?cid=C4DA866F3B02B780&resid=C4DA866F3B02B780%214566&authkey=AAWyhYqh3MqQfiU&em=2&wdAllowInteractivity=False&ActiveCell='Pre-Halloween'!G17&Item='Pre-Halloween'!A1%3AG17&wdDownloadButton=False"></iframe></div>
 
 As we can see, the expected value of a lottery ticket is a loss of
@@ -55,7 +59,7 @@ million and the lower prizes are also reconfigured.  It's not worth
 going into those details here, but we can see the new numbers back
 on page 34.
 
-<div class="text-center"><iframe width="860" height="415" frameborder="0" scrolling="no"
+<div class="text-center"><iframe title="Embedded media" width="860" height="415" frameborder="0" scrolling="no"
 src="https://onedrive.live.com/embed?cid=C4DA866F3B02B780&resid=C4DA866F3B02B780%214566&authkey=AAWyhYqh3MqQfiU&em=2&wdAllowInteractivity=False&ActiveCell='Post-Halloween'!G17&Item='Post-Halloween'!A1%3AG17&wdDownloadButton=False"></iframe></div>
 
 As we can see, for every $2 spent, we can expect to lose $1.63.

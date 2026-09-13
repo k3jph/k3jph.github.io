@@ -21,12 +21,12 @@ The [First Pioneers of Ross County](https://rcgsohio.org/cpage.php?pt=3) is a
 lineage society established to honor and preserve the memory of those early
 settlers who arrived in Ross County, Ohio, prior to 1821. Membership is open to
 descendants who can demonstrate a direct line of ancestry to one or more
-individuals who lived in the county during that formative period. 
+individuals who lived in the county during that formative period.
 
 Membership in the First Pioneers of Ross County requires thorough genealogical
 documentation and is administered through the Ross County Chapter of the [Ohio
 Genealogical Society](https://www.ogs.org/). Information about applications and
-qualifying ancestors can be found on their official page. 
+qualifying ancestors can be found on their official page.
 
 ## Nathaniel Bunnell
 
@@ -40,7 +40,7 @@ Northwest Territory following patterns of post-Revolutionary settlement, part of
 a broader movement that helped establish permanent communities across southern
 Ohio. By 1805, Nathaniel appears on the tax rolls for Ross County, and he he
 moved, with other family members, to White County, Indiana, where he died
-in 1850. 
+in 1850.
 
 His son, [Barzilla Bunnell (1807–1891)](/ancestry/ogs/ffo), born in Ross County,
 would go on to represent the next generation of Ohio-born Bunnells and is
@@ -50,9 +50,12 @@ and beyond makes the Bunnell line a representative example of Ohio's settler
 legacy, one that links the colonial mid-Atlantic to the western frontier of the
 early republic.
 
-{% include figure.html width="12"
-   image="/ancestry/RCGS-FPRC-Bunnell.webp" border=true
-   alt="Membership certificate in the First Pioneers of Ross County"
-   cap="Membership certificate in the First Pioneers of Ross County" %}
-   
+
+
+:::figure{src="/ancestry/RCGS-FPRC-Bunnell.webp" alt="Membership certificate in the First Pioneers of Ross County" align="center" width="12" border="true"}
+Membership certificate in the First Pioneers of Ross County
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/RCGS-FPRC-Bunnell.pdf).

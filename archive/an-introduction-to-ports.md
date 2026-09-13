@@ -18,10 +18,14 @@ These 3200 programs are listed using a special directory tree under ``/usr/ports
 
 However, the most important feature of the Ports Collection is its ease of use. To install a port, you simply change to the directory the port lives in and type ``make install``. For an example, we will use a system utility called UWATCH. The following commands will install the port:
 
-{% highlight shell %}
+
+
+```shell
 cd /usr/ports/sysutils/uwatch
 make install
-{% endhighlight %}
+```
+
+
 
 Since the programs in the Ports Collection are often very large, the program data is not a part of the port. This is where the magic happens. The Ports Collection knows to look on the CD for the source tarball if a CD is in the system. If it cannot find the source code on the CD, it also knows several locations on the Internet where it could be. Therefore, if your system is connected to the Internet, the port's source code will be automatically downloaded as part of the installation process.
 
@@ -31,7 +35,9 @@ The Ports Collection ease of use comes from another solved problem: port interde
 
 A basic port has a very simple structure. For an example, we'll look at a port called UWATCH. This is considered a system utility, therefore the port information is located in ``/usr/ports/sysutils/uwatch``. The port itself has the following structure:
 
-{% highlight text %}
+
+
+```text
 Makefile
 files
 files/md5
@@ -41,7 +47,9 @@ pkg/DESCR
 pkg/PLIST
 patches
 patches/patch-aa
-{% endhighlight %}
+```
+
+
 
 Each of these files contains information essential to a port. The following is a breakdown of the information contained in each file.
 
@@ -49,50 +57,74 @@ Each of these files contains information essential to a port. The following is a
 
 This is the file read in by the ``make install`` command. It contains the port's name, location, creator, and what other ports it depends on. The ``Makefile`` from UWATCH is very simple:
 
-{% highlight makefile %}
+
+
+```makefile
 # New ports collection makefile for: uwatch
 # Date created: 3 November 1999
 # Whom: James Howard <howardjp@wam.umd.edu>
 
 #
 # $FreeBSD: ports/sysutils/uwatch/Makefile,v 1.3 2000/04/22 10:13:31 mharo Exp $
-{% endhighlight %}
+```
+
+
 
 This preamble lists the name of the port, the date it was created, and the creator.
 This is meant to be human readable. The information contained between dollar
 signs ("``$``") is version control information from CVS and tells the last
 time the file was modified and who modified it.
 
-{% highlight makefile %}
+
+
+```makefile
 PORTNAME=    uwatch
 PORTVERSION= 1.0
 CATEGORIES=  sysutils
-{% endhighlight %}
+```
+
+
 
 These two variables set the name of the port and the most recently available
 version. The ``CATEGORIES`` variable lists all the possible categories this port
 belongs in.
 
-{% highlight makefile %}
+
+
+```makefile
 MASTER_SITES= ftp://ftp.wam.umd.edu/pub/howardjp/software/uwatch/
               http://www.wam.umd.edu/howardjp/software/uwatch/
               ftp://dragon.ham.muohio.edu/pub/howardjp/software/uwatch/
-{% endhighlight %}
+```
+
+
 
 This variable lists a number of URLs where the port can be downloaded from if
 it is not already on the system.
-{% highlight makefile %}
+
+
+```makefile
 MAINTAINER= howardjp@wam.umd.edu
-{% endhighlight %}
+```
+
+
 This lists the email address of the creator of the port. In this case, my email address is listed.
-{% highlight makefile %}
+
+
+```makefile
 MAN1=          uwatch.1
 MANCOMPRESSED= yes
-{% endhighlight %}
+```
+
+
 This is information for the online documentation set, usually called the manpages.
-{% highlight makefile %}
+
+
+```makefile
 .include <bsd.port.mk>
-{% endhighlight %}
+```
+
+
 This is the last line of every port's ``Makefile`` and it instructs make
 to call the system-wide Ports ``Makefile`` which does the heavy lifting.
 
@@ -119,26 +151,38 @@ The Ports Collection has a twin known as the Packages Collection. The Packages C
 ### *pkg/COMMENT*
 
 This is a one sentence description of the package. In this example, the description is:
-{% highlight text %}
+
+
+```text
 Monitor user logins and logouts
-{% endhighlight %}
+```
+
+
 
 ### *pkg/DESCR*
 
 This is a longer description of the package and may be several paragraphs long. Since UWATCH is a simple program, this description is still relatively short.
-{% highlight text %}
+
+
+```text
 Uwatch gives notifications when all, or selected users login and logout of
 the system. It can also give the time, port, and calling host of the
 login.
-{% endhighlight %}
+```
+
+
 
 ### *pkg/PLIST*
 
 This final file lists all the other files installed. In this case, only one
 other file is installed, the actual program. This list is used when deleting a package from the system.
-{% highlight text %}
+
+
+```text
 bin/uwatch
-{% endhighlight %}
+```
+
+
 
 Later, if you want to uninstall this port, those files listed in ``pkg/PLIST`` will be removed.
 
@@ -147,7 +191,9 @@ Later, if you want to uninstall this port, those files listed in ``pkg/PLIST`` w
 Now, installing this program is a simple process as shown "above":
 
 The steps listed above will yield this output:
-{% highlight shell %}
+
+
+```shell
 root@byzantine:# cd /usr/ports/sysutils/uwatch/
 root@byzantine:/usr/ports/sysutils/uwatch# make install
 >> uwatch-1.0.tar.gz doesn't seem to exist on this system.
@@ -171,14 +217,20 @@ install -c -o root -g wheel -m 444 uwatch.1.gz /usr/local/man/man1
 ===> Generating temporary packing list
 ===> Registering installation for uwatch-1.0
 root@byzantine:/usr/ports/sysutils/uwatch#
-{% endhighlight %}
+```
+
+
 
 At this point, the application is ready to be run. If we wish to remove the application, we simply run ``make deinstall``.
-{% highlight shell %}
+
+
+```shell
 root@byzantine:/usr/ports/sysutils/uwatch# make deinstall
 ===> Deinstalling for uwatch-1.0
 root@byzantine:/usr/ports/sysutils/uwatch#
-{% endhighlight %}
+```
+
+
 And the application has been removed.
 
 Using the Ports Collection simplifies the work required to install and maintain third-party applications and greatly reduces the time required by the system administrator to install and configure software. This makes the Ports Collection one of the most attractive reasons to use FreeBSD.

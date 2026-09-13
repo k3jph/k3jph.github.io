@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/10/30/strategic-planning-and-program-management
 featured_image: /assets/img/2024/strategic-planning-and-program-management.webp
 categories:
-- Blog 
+- Blog
 tags:
 - project management
 - strategic planning
@@ -133,10 +133,13 @@ and projects. Key responsibilities include:
 - **Achieving Program Objectives**: Focusing on the integration of outputs from
   various projects to achieve higher-level outcomes.
 
-{% include figure.html width="12" placement="center"
-   image="/2024/strategic-planning-and-program-management/program-lifecycle-diagram.svg" 
-   alt="Sequence diagram outlining the life cycle of a program management process. The diagram includes phases such as Initiation, Planning, Execution, Monitoring, and Closure. Also depicted are alternative paths for the program including transitions to OnHold, Termination, and a Review phase, illustrating potential deviations such as pausing, prematurely ending due to constraints, or concluding with a final assessment."
-   cap="Program Life Cycle Sequence Diagram" %} 
+
+
+:::figure{src="/2024/strategic-planning-and-program-management/program-lifecycle-diagram.svg" alt="Sequence diagram outlining the life cycle of a program management process. The diagram includes phases such as Initiation, Planning, Execution, Monitoring, and Closure. Also depicted are alternative paths for the program including transitions to OnHold, Termination, and a Review phase, illustrating potential deviations such as pausing, prematurely ending due to constraints, or concluding with a final assessment." align="center" width="12"}
+Program Life Cycle Sequence Diagram
+:::
+
+
 
 ### Key Processes in Program Management
 
@@ -177,10 +180,13 @@ lofty long-term goals into actionable projects with tangible outcomes. This
 synergy ensures that the organization’s strategic objectives are systematically
 translated into effective programs.
 
-{% include figure.html width="12" placement="center"
-   image="/2024/strategic-planning-and-program-management/strategic-planning-program-management-process-diagram.svg" 
-   alt="Sequence diagram showing the interaction between strategic planning and program management. The diagram includes various stages such as defining organizational vision and mission by the Board of Directors, strategic objectives proposal and approval, communication of strategic objectives to program managers, and the subsequent initiation, planning, execution, monitoring, and closure phases of program management. Feedback from program management to strategic planners and decision-making enhancements are also depicted."
-   cap="Interaction Flowchart between Strategic Planning and Program Management" %} 
+
+
+:::figure{src="/2024/strategic-planning-and-program-management/strategic-planning-program-management-process-diagram.svg" alt="Sequence diagram showing the interaction between strategic planning and program management. The diagram includes various stages such as defining organizational vision and mission by the Board of Directors, strategic objectives proposal and approval, communication of strategic objectives to program managers, and the subsequent initiation, planning, execution, monitoring, and closure phases of program management. Feedback from program management to strategic planners and decision-making enhancements are also depicted." align="center" width="12"}
+Interaction Flowchart between Strategic Planning and Program Management
+:::
+
+
 
 ### Integration Points
 

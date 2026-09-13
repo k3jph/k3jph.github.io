@@ -23,6 +23,10 @@ Over the weekend, I watched "The KGB, the Computer, and Me," a [NOVA](http://www
 
 Someone put the NOVA episode on YouTube, so take an hour and watch it.
 
-{% include youtube.html id="EcKxaq1FTac" %}
+
+
+::youtube{video="EcKxaq1FTac"}
+
+
 
 _Image by Doubleday, via the [National Library of Medicine](http://www.nlm.nih.gov/archive/20120104/onceandfutureweb/database/secb/case5-artifacts/photo10.html)._

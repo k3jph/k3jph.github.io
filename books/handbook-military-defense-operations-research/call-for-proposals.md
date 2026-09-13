@@ -12,8 +12,8 @@ redirect_from:
 
 *   Proposal Submission Deadline: March 15, 2018
 *   Editors:
-    *   Natalie M. Scala 
-    *   James P. Howard, II 
+    *   Natalie M. Scala
+    *   James P. Howard, II
 
 ## Introduction
 

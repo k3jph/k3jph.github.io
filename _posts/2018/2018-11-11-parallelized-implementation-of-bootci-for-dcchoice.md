@@ -36,7 +36,7 @@ is below and you have to have both `doMC` and `foreach` loaded.
 There's a new option `threads` that allows you to set the number
 of threads to use.
 
-<script src="https://gist.github.com/howardjp/4e3ebf467f5bce5d944561315f022a90.js"></script>
+<p class="embed-link"><a href="https://gist.github.com/howardjp/4e3ebf467f5bce5d944561315f022a90">View source on GitHub Gist</a></p>
 
 _This work used SciServer, a collaborative research environment for
 large-scale data-driven science. It is developed at, and administered

@@ -7,7 +7,7 @@ layout: post
 permalink: /2022/07/22/origami-wabi-sabi-paper
 featured_image: /assets/img/news/origami-wabi-sabi-paper.webp
 categories:
-- Blog 
+- Blog
 tags:
 - Buddhism
 - Japan

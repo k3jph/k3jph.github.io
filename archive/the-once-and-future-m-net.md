@@ -58,5 +58,5 @@ However, it should be noted that M-Net is not entirely about insults and injury.
 
 M-Net's history has seen the passing of several eras and milestones in the history of computing. It was there before the Internet was big. It was there long before the advent of the World Wide Web. M-Net for a time hosted *Byte Magazine*'s online presence. The M-Net style and toolkit made the WELL, Chinet, Grex, and many others possible.
 
-> Howard, James. “The Once and Future M-Net.” *RootPrompt*, March 14, 2000.  
+> Howard, James. “The Once and Future M-Net.” *RootPrompt*, March 14, 2000.
 > [http://www.rootprompt.org/article.php3?article=170](http://www.rootprompt.org/article.php3?article=170)

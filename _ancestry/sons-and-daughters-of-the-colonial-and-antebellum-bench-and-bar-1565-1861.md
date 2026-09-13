@@ -42,7 +42,7 @@ War](https://www.americanhistorycentral.com/entries/king-philips-war-1675/),
 to offer shelter to John Eliot's "Praying Indians," an act that helped establish
 his reputation as an intermediary, even though his neighbors thwarted the
 attempt and the forced removal to Deer Island proved catastrophic for many of
-those confined there. 
+those confined there.
 
 Hoar's most famous public act came in the crisis surrounding [Mary Rowlandson's
 captivity](https://www.masshist.org/beehiveblog/2013/02/mary-rowlandsons-dolefullest-day/).
@@ -62,12 +62,12 @@ Historical Society account notes that [U.S. Senator George F.
 Hoar](https://bioguide.congress.gov/search/bio/H000654), identified as a
 descendant of John Hoar, purchased Redemption Rock and adjacent land in 1879 and
 caused an inscription to be cut into the stone recording the May 2, 1676
-agreement for Rowlandson's ransom. 
+agreement for Rowlandson's ransom.
 
 Hoar died in Concord on April 2, 1704. He is also remembered locally as the
 first inhabitant of the house later known as [Orchard House, later associated
 with Louisa May Alcott](https://louisamayalcott.org/), which is an appropriately
 odd footnote for a man whose life already reads like a stitched-together
-anthology of colonial New England. 
+anthology of colonial New England.
 
 *Additional memberships will be added as they are approved.*

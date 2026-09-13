@@ -7,12 +7,12 @@ layout: post
 permalink: /2022/12/21/abolish-debt-ceiling
 featured_image: /assets/img/news/abolish-debt-ceiling.webp
 categories:
-- Blog 
+- Blog
 tags:
 - macroeconomics
 - fiscal policy
 - government finance
-- public finance 
+- public finance
 ChatGPT:
 - true
 ---

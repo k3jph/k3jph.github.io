@@ -27,7 +27,7 @@ commenters](http://affinitymagazine.us/2018/01/05/why-yahoos-comment-sections-ar
 Last week the paper ran a story on climate change:
 
 <blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article-full"><p class="h4"><a href="https://www.journal-news.com/news/national/trump-steadily-undoing-efforts-curbing-climate-change-amid-dire-warnings/EoVQhDCKcgJHff9tGRUY3H/">Trump steadily undoing US efforts at curbing climate change amid dire warnings</a></p><p>Read more trending news In addition to gutting regulations on oil, coal and gas emissions over the past two years, Trump moved to pull the U.S. out of the Paris Climate Agreement and even said outright that he didn't believe the conclusions of a major report on the critical consequences of climate change issued Friday by 13 government agencies from his own administration.</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
 
 Needless to say, the [comments on
 Facebook](https://www.facebook.com/journalnews/posts/10160954275195408)
@@ -44,7 +44,13 @@ from the plot below ([data from
 NOAA](https://www.ncdc.noaa.gov/cag/global/time-series/globe/land_ocean/ytd/12/1979-2018)),
 the mean global temperature is increasing.
 
-{% include figure.html image="news/global-temperature-anomaly-C.webp" alt="The mean global temperature is increasing" width="100%" %}
+
+
+:::figure{src="/assets/img/news/global-temperature-anomaly-C.webp" alt="The mean global temperature is increasing" align="center" width="100%"}
+
+:::
+
+
 
 And it is increasing due to the greenhouse effect. I used 1979 as
 the starting year since that is the year I was born. Conveniently,
@@ -54,7 +60,13 @@ cycles since 1979 and we take an initial look at the mean daily
 sunspot count per year, to see where they are going ([data from
 SILSO](http://sidc.oma.be/silso/datafiles)).
 
-{% include figure.html image="news/sunspots-mean.webp" alt="Sunspot activity is highly cyclical " width="100%" %}
+
+
+:::figure{src="/assets/img/news/sunspots-mean.webp" alt="Sunspot activity is highly cyclical " align="center" width="100%"}
+
+:::
+
+
 
 As we can see, sunspot activity is highly cyclical and there's no
 similar cyclical pattern to the global temperature anomaly. And it
@@ -64,7 +76,13 @@ to understand how much the Sun heats the Earth.
 
 The Stefan-Boltzmann law states,
 
-{% include eqn.html eqn="T_e = [\frac{S(1 - \alpha)}{4\sigma}]^{1/4}s" %}
+
+
+$$
+T_e = [\frac{S(1 - \alpha)}{4\sigma}]^{1/4}s
+$$
+
+
 
 giving the effective [blackbody
 temperature](http://astronomy.swin.edu.au/cosmos/b/blackbody+radiation) of

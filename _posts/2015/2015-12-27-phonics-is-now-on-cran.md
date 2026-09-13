@@ -22,9 +22,13 @@ tags:
 ---
 You can now download [phonics on CRAN](https://cran.r-project.org/web/packages/phonics/index.html).  Or just do this:
 
-{% highlight r %}
+
+
+```r
 install.packages("phonics")
-{% endhighlight %}
+```
+
+
 
 You will have to compile it.
 

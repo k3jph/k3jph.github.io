@@ -28,6 +28,8 @@ be will can help service providers better understand demand.
 You can see a copy of my poster below. In a few weeks, I should have a
 draft paper ready.
 
-{% include figure.html image="news/JSM-2018-Forecasting-Artificial-Earth-Satellite-Populations.webp"
-   link="/assets/docs/JSM-2018-Forecasting-Artificial-Earth-Satellite-Populations.pdf"
-   alt="Forecasting Artificial Earth Satellite Populations poster" %}
+
+
+:::figure{src="/assets/img/news/JSM-2018-Forecasting-Artificial-Earth-Satellite-Populations.webp" alt="Forecasting Artificial Earth Satellite Populations poster" align="center" width="100" link="/assets/docs/JSM-2018-Forecasting-Artificial-Earth-Satellite-Populations.pdf"}
+
+:::

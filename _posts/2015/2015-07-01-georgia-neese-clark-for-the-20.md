@@ -30,11 +30,10 @@ A lot of people think of money as portraits of presidents.  But a third of these
 
 Even on the more obscure bills, this is pattern holds fairly well.  Woodrow Wilson, face of the $100,000 bill, lead the establishment of the Federal Reserve System.  Salmon P. Chase, on the $10,000 bill wrote the National Banking Act, favored by Lincoln.  James Madison, looking out from the $5000 bill, lead the establishment of the Second Bank of the United States (though he killed the First).  Presidents are important, even to the economy, but none has had as radical a role since Franklin D. Roosevelt pushed to separate the Federal Reserve from the Treasury.
 
-But we need a woman for our money.  And, by this standard, we need a woman important to the economy.  [Alice Rivlin](http://www.brookings.edu/experts/rivlina), [Janet Yellen](http://www.federalreserve.gov/aboutthefed/bios/board/yellen.htm), and [Christina Romer](http://eml.berkeley.edu//~cromer/) have all done amazing work.  But there's more for them to do and all have had a less concrete effect.  
+But we need a woman for our money.  And, by this standard, we need a woman important to the economy.  [Alice Rivlin](http://www.brookings.edu/experts/rivlina), [Janet Yellen](http://www.federalreserve.gov/aboutthefed/bios/board/yellen.htm), and [Christina Romer](http://eml.berkeley.edu//~cromer/) have all done amazing work.  But there's more for them to do and all have had a less concrete effect.
 
 But back in 1949, Truman was getting pressure to name a woman to an important position.  He settled on naming Kansas-based banker [Georgia Neese Clark](https://en.wikipedia.org/wiki/Georgia_Neese_Clark) to Treasurer of the United States.  The Treasurer is not the same as the Secretary of the Treasury, but the role is within the Department.  The Treasurer is also the oldest office of the United States, established even before independence.  The office dates to 1775 and is currently charged with overseeing the Mint and Printing and Engraving.
 
 Clark's term was just under four years, but then something interesting happened.  Every Treasurer since then has been a woman.  Every single one.  For more than 60 years.  Clark led an important transformation at low-profile but critical office in the Treasury Department.  And because of this, she should be selected as the new face of the $20 bill.
 
 _Image from the [Library of Congress](http://loc.gov/pictures/resource/cph.3f05813/) via [Wikipedia](https://commons.wikimedia.org/wiki/File:Georgia_Neese_Clark_cph.3f05813.webp)._
-

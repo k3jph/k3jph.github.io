@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/04/23/kamon-as-japanese-heraldry
 featured_image: /assets/img/2024/kamon-as-japanese-heraldry.webp
 categories:
-- Blog 
+- Blog
 tags:
 - heraldry
 - Japanese history
@@ -37,11 +37,14 @@ and familial pride. This distinct approach makes Japanese _kamon_
 a fascinating subject within the broader field of heraldry, emphasizing
 their unique place in the global history of heraldic tradition.
 
-{% include figure.html width="6" placement="right"
-   image="/2024/kamon-as-japanese-heraldry/kirimon-rooftile.webp" 
-   alt="The Kirimon on a roof tile"
-   cap="The Kirimon on a roof tile" %} 
-   
+
+
+:::figure{src="/2024/kamon-as-japanese-heraldry/kirimon-rooftile.webp" alt="The Kirimon on a roof tile" align="right" width="6"}
+The Kirimon on a roof tile
+:::
+
+
+
 Kamon first emerged in Japan during the [Heian period (794–1185
 AD)](https://www.japan-experience.com/plan-your-trip/to-know/japanese-history/heian-period),
 initially serving as ornate symbols marked on the carriages of the
@@ -96,11 +99,14 @@ branding that communicated craftsmanship and trustworthiness.
 Similarly, families adopted distinct _kamon_ to assert their lineage
 and heritage, solidifying familial bonds and community connections.
 
-{% include figure.html width="3"
-   image="/2024/kamon-as-japanese-heraldry/tokugawa.svg" 
-   alt="Kamon of the Tokugawa clan (_by [百楽兎](https://commons.wikimedia.org/wiki/File:Mitsubaaoi.svg)_)" 
-   cap="Kamon of the Tokugawa clan (_by [百楽兎](https://commons.wikimedia.org/wiki/File:Mitsubaaoi.svg)_)" %}
-   
+
+
+:::figure{src="/2024/kamon-as-japanese-heraldry/tokugawa.svg" alt="Kamon of the Tokugawa clan (_by [百楽兎](https://commons.wikimedia.org/wiki/File:Mitsubaaoi.svg)_)" align="center" width="3"}
+Kamon of the Tokugawa clan (_by [百楽兎](https://commons.wikimedia.org/wiki/File:Mitsubaaoi.svg)_)
+:::
+
+
+
 The Tokugawa family’s _kamon_, the Aoi-mon, a stylized representation
 of the hollyhock leaf, exemplifies the dual role of these crests
 in both the political and cultural realms. As the shogunate's emblem,
@@ -115,7 +121,7 @@ This integration of _kamon_ into daily life and public consciousness
 during the Edo period illustrates their pivotal role not just as
 identifiers but as powerful symbols that shaped and reflected the
 social hierarchies and cultural values of the time.
-   
+
 The design principles of _kamon_ are deeply ingrained in a philosophy
 that values simplicity and meaningful symbolism, often incorporating
 elements from nature, various animals, or abstract geometric patterns.
@@ -124,11 +130,14 @@ distilled representation of a family's identity, heritage, and
 values, eloquently communicated through minimalistic yet powerful
 symbols.
 
-{% include figure.html width="3" placement="right"
-   image="/2024/kamon-as-japanese-heraldry/kirimon.svg" 
-   alt="The Kirimon" 
-   cap="The Kirimon" %} 
-  
+
+
+:::figure{src="/2024/kamon-as-japanese-heraldry/kirimon.svg" alt="The Kirimon" align="right" width="3"}
+The Kirimon
+:::
+
+
+
 One prominent example is the Kirimon, which features a stylized
 depiction of the Paulownia tree. This crest is aesthetically pleasing
 and rich in symbolism, representing respect and good fortune.
@@ -147,11 +156,14 @@ the philosophical and cultural underpinnings that define different
 strata within Japanese society, highlighting their enduring importance
 in both a historical and modern context.
 
-{% include figure.html width="3" placement="right"
-   image="/2024/kamon-as-japanese-heraldry/kikumon.svg" 
-   alt="The Imperial Kikumon" 
-   cap="The Imperial Kikumon" %}
-   
+
+
+:::figure{src="/2024/kamon-as-japanese-heraldry/kikumon.svg" alt="The Imperial Kikumon" align="right" width="3"}
+The Imperial Kikumon
+:::
+
+
+
 The aesthetic appeal of _kamon_ is characterized by their striking,
 clean lines and the intentional absence of color, emphasizing form
 and meaning over ornamental extravagance. This minimalist approach
@@ -208,11 +220,14 @@ Similarly, the French fleur-de-lis, associated with the French
 monarchy, symbolizes purity and the Virgin Mary and has historically
 been used to convey the divine right to rule.
 
-{% include figure.html width="3" placement="left"
-   image="/2024/kamon-as-japanese-heraldry/tokugawa-banner.webp" 
-   alt="The Tokugawa kamon on a banner" 
-   cap="The Tokugawa kamon on a banner" %} 
-   
+
+
+:::figure{src="/2024/kamon-as-japanese-heraldry/tokugawa-banner.webp" alt="The Tokugawa kamon on a banner" align="left" width="3"}
+The Tokugawa kamon on a banner
+:::
+
+
+
 These European symbols serve purposes analogous to Japanese _kamon_
 despite the stark differences in their stylistic presentations.
 Just as _kamon_ is a marker of identity and familial heritage in

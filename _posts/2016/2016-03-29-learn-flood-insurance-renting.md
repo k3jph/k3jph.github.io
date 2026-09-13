@@ -28,7 +28,11 @@ Kayda Norman with [QuoteWizard](http://quotewizard.com/), the insurance purchasi
 
 Read more at QuoteWizard:
 
-{% include iframely.html url="http://quotewizard.com/renters-insurance/flood-insurance-for-renters" %}
+
+
+::embed{href="http://quotewizard.com/renters-insurance/flood-insurance-for-renters"}
+
+
 
 While this article is targeted renters, everyone should consider buying flood insurance.
 

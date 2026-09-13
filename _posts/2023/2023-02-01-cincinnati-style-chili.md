@@ -7,7 +7,7 @@ layout: post
 permalink: /2023/02/01/cincinnati-style-chili
 featured_image: /assets/img/news/cincinnati-style-chili.webp
 categories:
-- Blog 
+- Blog
 tags:
 - food
 - Cincinnati
@@ -105,9 +105,13 @@ up and broke open.  So while you're waiting for the chili, you drop
 some Tabasco inside the cracker and pop it.  The kids call it cracker
 bomb, but it's just hot sauce for the sake of hot sauce.
 
-{% include figure.html image="news/cincinnati-style-chili-coneys.webp" placement="left" width="50%"
-cap="Cincinnati-style chili on a coney hotdog"
-alt="Cincinnati-style chili on a coney hotdog" %}
+
+
+:::figure{src="/assets/img/news/cincinnati-style-chili-coneys.webp" alt="Cincinnati-style chili on a coney hotdog" align="left" width="50%"}
+Cincinnati-style chili on a coney hotdog
+:::
+
+
 
 You can usually get a coney.  It's a short hotdog on a short bun.
 The hotdog, like everything else, has been cooking all day and will

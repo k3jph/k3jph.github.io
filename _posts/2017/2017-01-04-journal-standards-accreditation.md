@@ -21,7 +21,11 @@ conferences market and swings through the predatory academic journals
 market.  You can read the full article here, and it is well worth
 reading:
 
-{% include iframely.html url="http://www.nytimes.com/2016/12/29/upshot/fake-academe-looking-much-like-the-real-thing.html" %}
+
+
+::embed{href="http://www.nytimes.com/2016/12/29/upshot/fake-academe-looking-much-like-the-real-thing.html"}
+
+
 
 But this opens up some interesting questions about how the academic
 market can effectively self-regulate.  In the market for education

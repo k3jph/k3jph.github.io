@@ -28,11 +28,14 @@ oxygen-deprived "dead zones" wiped out fish stocks. Even the [Cuyahoga River
 caught fire in 1969](https://clevelandhistorical.org/items/show/63), a symbol of
 how bad things had become.
 
-{% include figure.html width="6" placement="right"
-   image="2025/when-zebra-mussels-made-the-great-lakes-clean/cuyahoga-river-fire-1936.webp" border=false
-   alt="The Cuyahoga River catches on fire all the time; this was 1936"
-   cap="The Cuyahoga River catches on fire all the time; this was 1936" %}
-   
+
+
+:::figure{src="/assets/img/2025/when-zebra-mussels-made-the-great-lakes-clean/cuyahoga-river-fire-1936.webp" alt="The Cuyahoga River catches on fire all the time; this was 1936" align="right" width="6" border="false"}
+The Cuyahoga River catches on fire all the time; this was 1936
+:::
+
+
+
 Then, in the late 1980s, something remarkable happened: the water in the Great
 Lakes suddenly looked clear. Tourists noticed they could see farther into the
 water than they ever remembered. Beaches looked cleaner. The press picked up on
@@ -78,10 +81,13 @@ bottom. But that apparent cleanliness was deceptive.
 
 ## Ecological sleight of hand
 
-{% include figure.html width="6" placement="right"
-   image="2025/when-zebra-mussels-made-the-great-lakes-clean/zebra-mussel.webp" border=false
-   alt="Image of zebra mussel"
-   cap="A zebra mussel" %}
+
+
+:::figure{src="/assets/img/2025/when-zebra-mussels-made-the-great-lakes-clean/zebra-mussel.webp" alt="Image of zebra mussel" align="right" width="6" border="false"}
+A zebra mussel
+:::
+
+
 
 What zebra mussels really did was restructure the lakes' ecosystems. By
 filtering out plankton, they starved the base of the food web. Native fish
@@ -141,10 +147,13 @@ cleanings.
 
 ## Quagga mussels join the party
 
-{% include figure.html width="6" placement="right"
-   image="2025/when-zebra-mussels-made-the-great-lakes-clean/quagga-mussel.webp" border=false
-   alt="Image of quagga mussel with ruler"
-   cap="The closely related quagga mussel" %}
+
+
+:::figure{src="/assets/img/2025/when-zebra-mussels-made-the-great-lakes-clean/quagga-mussel.webp" alt="Image of quagga mussel with ruler" align="right" width="6" border="false"}
+The closely related quagga mussel
+:::
+
+
 
 As if zebra mussels were not enough, their cousin, the quagga mussel
 (*[Dreissena rostriformis

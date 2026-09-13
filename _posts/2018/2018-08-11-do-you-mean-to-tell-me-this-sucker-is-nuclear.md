@@ -35,7 +35,7 @@ from the Sun.  So a huge rocket is necessary.  _The Atlantic_ has
 a great article about this:
 
 <blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article-full"><p class="h4"><a href="https://www.theatlantic.com/science/archive/2018/08/parker-solar-probe-launch-nasa/567197/">It's Easier to Leave the Solar System Than to Reach the Sun</a></p><p>The Parker team studied its options and settled on Venus. In some ways, the new trajectory works out well. With Jupiter, the probe would have come closer to the sun, but it would have made only two passes. With Venus, the Parker Solar Probe will make 24 passes over its lifetime.</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
 
 Of this, though, this passage is striking:
 
@@ -54,8 +54,13 @@ this](https://en.wikipedia.org/wiki/Radioisotope_thermoelectric_generator).
 Our typical radioactivity source is plutonium-238.  That's where
 this gets messy.
 
-{% include figure.html image="news/IMG_20180811_033026.webp" alt="Ducky becomes a monster at oh-dark-thirty"
-   cap="Ducky becomes a monster at oh-dark-thirty" placement="left" width="50%" %}
+
+
+:::figure{src="/assets/img/news/IMG_20180811_033026.webp" alt="Ducky becomes a monster at oh-dark-thirty" align="left" width="50%"}
+Ducky becomes a monster at oh-dark-thirty
+:::
+
+
 
 Plutonium-238 is not a typical nuclear waste product and has to be
 specifically generated.  And the United States did not produce any

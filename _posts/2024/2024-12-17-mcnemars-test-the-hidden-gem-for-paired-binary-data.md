@@ -36,7 +36,7 @@ McNemar's test is a statistical method for determining whether there is
 a significant difference in binary outcomes between two related samples.
 It is specifically designed for paired nominal data where each subject
 or observation is measured twice--such as before and after an
-intervention, or by two different models applied to the same dataset. 
+intervention, or by two different models applied to the same dataset.
 
 Unlike aggregate metrics (e.g., accuracy), McNemar's test focuses on the
 cases where the two samples disagree. These disagreements reveal where
@@ -65,7 +65,7 @@ or disagreements between two scenarios.
 To apply McNemar's test, you summarize the results in a 2x2 contingency table:
 
 <div>
-  <table class="table align-items-center">
+  <table class="table content-grid--center">
     <thead class="thead-light">
       <tr>
         <th scope="col"></th>
@@ -175,7 +175,7 @@ To begin, organize your paired data into a 2x2 contingency table as
 follows:
 
 <div>
-  <table class="table align-items-center">
+  <table class="table content-grid--center">
     <thead class="thead-light">
       <tr>
         <th scope="col"></th>
@@ -234,7 +234,7 @@ Compare the test statistic to the chi-squared distribution:
 Imagine two models are evaluated on a dataset, and the results are:
 
 <div>
-  <table class="table align-items-center">
+  <table class="table content-grid--center">
     <thead class="thead-light">
       <tr>
         <th scope="col"></th>
@@ -306,7 +306,7 @@ In R, McNemar's test is built into the `mcnemar.test` function in the
 base `stats` library. Simply input a 2x2 contingency table to obtain the
 results.
 
-```R
+```r
 # Define the contingency table
 # Rows: Old Model | Columns: New Model
 contingency_table <- matrix(c(700, 40, 100, 160), nrow = 2, byrow = TRUE)

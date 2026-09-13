@@ -29,7 +29,7 @@ the answer to that is no, not really.  Never.
 something above and beyond the course material.  When it is something
 that truly expands on what you are doing.  When it's something, you
 know, extra.
-> 
+>
 > And I think I have a good one.  I've never used this problem before,
 so we're going to see together whether or not it works.  Right now,
 you're working on a problem for Homer's Donuts.  This is a business

@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/10/03/what-makes-a-quaker-a-quaker
 featured_image: /assets/img/2024/what-makes-a-quaker-a-quaker.webp
 categories:
-- Blog 
+- Blog
 tags:
 - genealogy
 - religion
@@ -203,10 +203,12 @@ equality and peace. Understanding these connections has deepened my
 respect for my ancestors and inspired me to carry their values forward
 in a world that needs them now more than ever.
 
-{% include figure.html width="12"
-   image="/ancestry/NSDEQ-JonathanNewman.webp" 
-   alt="Membership certificate in the National Society Descendants of Early Quakers"
-   cap="Membership certificate in the National Society Descendants of Early Quakers" %}
-   
-Or you can [download the PDF here](/assets/docs/ancestry/NSDEQ-JonathanNewman.pdf).
 
+
+:::figure{src="/ancestry/NSDEQ-JonathanNewman.webp" alt="Membership certificate in the National Society Descendants of Early Quakers" align="center" width="12"}
+Membership certificate in the National Society Descendants of Early Quakers
+:::
+
+
+
+Or you can [download the PDF here](/assets/docs/ancestry/NSDEQ-JonathanNewman.pdf).

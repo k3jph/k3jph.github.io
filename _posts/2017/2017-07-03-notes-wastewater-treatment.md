@@ -50,7 +50,11 @@ seems like a promotional video for a tax increase for the local
 jurisdiction, especially the first 10 minutes, but the second half
 is a really good description of the process:
 
-{% include youtube.html id="pRaptzcp9G4" %}
+
+
+::youtube{video="pRaptzcp9G4"}
+
+
 
 It's also called "Flush to Finish," which is kind of funny.  The
 part Chase never really believed was when I told him about the water

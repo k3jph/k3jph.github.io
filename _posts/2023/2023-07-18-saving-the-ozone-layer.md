@@ -7,7 +7,7 @@ layout: post
 permalink: /2023/07/18/saving-the-ozone-layer
 featured_image: /assets/img/news/saving-the-ozone-layer.webp
 categories:
-- Blog 
+- Blog
 tags:
 - environmental policy
 - public policy
@@ -84,9 +84,13 @@ of severe consequences such as increased cancer rates and environmental
 damage, which they argue have not been realized to the predicted
 extent.
 
-{% include figure.html image="news/wonka.webp" placement="left" width="50%"
-cap="Misinformation meme about the Ozone Layer (found online)"
-alt="Misinformation meme about the Ozone Layer (found online)" %}
+
+
+:::figure{src="/assets/img/news/wonka.webp" alt="Misinformation meme about the Ozone Layer (found online)" align="left" width="50%"}
+Misinformation meme about the Ozone Layer (found online)
+:::
+
+
 
 To fully comprehend these misconceptions, it's necessary to delve
 into the scientific process that led to the early warnings about
@@ -113,10 +117,14 @@ However, the direst predictions didn't materialize as projected,
 not because they were fundamentally flawed, but primarily because
 the world took them seriously and acted.
 
-{% include figure.html image="news/ozone-2021.webp" placement="right"
-width="50%" cap="Southern Hemisphere ozone levels (October 7, 2021),
-via NOAA" alt="Southern Hemisphere ozone levels (October 7, 2021),
-via NOAA" %}
+
+
+:::figure{src="/assets/img/news/ozone-2021.webp" alt="Southern Hemisphere ozone levels (October 7, 2021), via NOAA" align="right" width="50%"}
+Southern Hemisphere ozone levels (October 7, 2021),
+via NOAA
+:::
+
+
 
 The [Montreal
 Protocol](https://www.unep.org/ozonaction/who-we-are/about-montreal-protocol),
@@ -249,11 +257,14 @@ industry for cleaning circuit boards. Methyl chloroform was used
 as an industrial solvent for cleaning and degreasing, as well as
 in some aerosol products.
 
-{% include figure.html image="news/drycleaner.webp" placement="center"
-width="100%" cap="Carbon tetrachloride and methyl chloroform have
-been widely-used in drycleaning (via PXhere)" alt="Carbon tetrachloride
-and methyl chloroform have been widely-used in drycleaning (via
-PXhere)" %}
+
+
+:::figure{src="/assets/img/news/drycleaner.webp" alt="Carbon tetrachloride and methyl chloroform have been widely-used in drycleaning (via PXhere)" align="center" width="100%"}
+Carbon tetrachloride and methyl chloroform have
+been widely-used in drycleaning (via PXhere)
+:::
+
+
 
 Halons, another group of ODS, were primarily used in fire extinguishers,
 especially for high-risk environments like [airplanes and data

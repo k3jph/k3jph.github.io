@@ -134,9 +134,13 @@ Todd, Dorsey, Worthington, Worthington-adjacent, and other families, the Howards
 extended their network across central Maryland. Within a generation, they had
 ties to the assembly, to parish vestries, and to merchant ventures in Annapolis.
 
-{% include figure.html image="2025/matthew-howard-of-virginia-and-maryland/john-howard-will.webp" width="4" placement="right"
-  alt="Sketch of the seal on John Howard's will from Anne Arundel Gentry by Henry Wright Newman, 1933"
-  cap="Sketch of the seal on John Howard's will from [Anne Arundel Gentry by Henry Wright Newman, 1933](https://archive.org/details/annearundelgentr00newm_0/page/n7/mode/2up)" %}
+
+
+:::figure{src="/assets/img/2025/matthew-howard-of-virginia-and-maryland/john-howard-will.webp" alt="Sketch of the seal on John Howard's will from Anne Arundel Gentry by Henry Wright Newman, 1933" align="right" width="4"}
+Sketch of the seal on John Howard's will from [Anne Arundel Gentry by Henry Wright Newman, 1933](https://archive.org/details/annearundelgentr00newm_0/page/n7/mode/2up)
+:::
+
+
 
 One artifact has drawn perennial interest: the seal on John Howard's 1695 will.
 [Fredric Z. Saunders](https://fzsaunders.com/howard.html) notes that the wax
@@ -144,7 +148,7 @@ shows the Howard arms, "gules, a bend between six cross-crosslets fitchée
 argent," without the Flodden augmentation later borne by the ducal line.
 Colonial gentlemen sometimes adopted prestigious arms without legal right, so
 the seal does not prove descent. It does, however, show how identity and
-aspiration were expressed in the colony. 
+aspiration were expressed in the colony.
 
 Matthew Howard's appeal lies less in conjectured ancestry than in the record of
 what he and his children did. He arrived in Virginia with enough resources to

@@ -78,11 +78,14 @@ management, and other stakeholders can provide insights into what benefits are
 most valued and how they might best be realized, thus enhancing the overall
 success of the project.
 
-{% include figure.html width="12" placement="center"
-   image="/2024/understanding-benefits-realization-management/brm-process-flowchart.webp" 
-   alt="Flowchart of the BRM process from identifying benefits to optimizing future projects"
-   cap="Flowchart of the BRM process from identifying benefits to optimizing future projects" %} 
-   
+
+
+:::figure{src="/2024/understanding-benefits-realization-management/brm-process-flowchart.webp" alt="Flowchart of the BRM process from identifying benefits to optimizing future projects" align="center" width="12"}
+Flowchart of the BRM process from identifying benefits to optimizing future projects
+:::
+
+
+
 ### Planning for Benefits
 
 Once the benefits of a project or program have been identified, the next
@@ -118,10 +121,13 @@ timeframes. For instance, if a new software implementation is expected to
 improve processing speed, the timeline might specify stages for software
 customization, testing, deployment, and full utilization.
 
-{% include figure.html width="6" placement="right"
-   image="/2024/understanding-benefits-realization-management/risk-management-matrix.webp" 
-   alt="Matrix showing risks categorized by likelihood and impact to prioritize management actions"
-   cap="Matrix showing risks categorized by likelihood and impact to prioritize management actions" %} 
+
+
+:::figure{src="/2024/understanding-benefits-realization-management/risk-management-matrix.webp" alt="Matrix showing risks categorized by likelihood and impact to prioritize management actions" align="right" width="6"}
+Matrix showing risks categorized by likelihood and impact to prioritize management actions
+:::
+
+
 
 **Risk Management**: Identifying potential risks that could impede the
 realization of benefits is a crucial part of the planning process. Risk
@@ -177,11 +183,14 @@ should be in place to evaluate the impact of any proposed changes on the
 project's benefits. This process should involve reassessment of benefits,
 realignment of resources, and adjustment of timelines as necessary.
 
-{% include figure.html width="6" placement="right"
-   image="/2024/understanding-benefits-realization-management/stakeholder-engagement-map.webp" 
-   alt="Map categorizing stakeholders by their influence and interest to guide engagement strategies"
-   cap="Map categorizing stakeholders by their influence and interest to guide engagement strategies" %} 
-   
+
+
+:::figure{src="/2024/understanding-benefits-realization-management/stakeholder-engagement-map.webp" alt="Map categorizing stakeholders by their influence and interest to guide engagement strategies" align="right" width="6"}
+Map categorizing stakeholders by their influence and interest to guide engagement strategies
+:::
+
+
+
 **Stakeholder Engagement and Communication**: Keeping all stakeholders informed
 and engaged throughout the project execution is vital for the success of BRM.
 Regular updates, meetings, and reports should be used to communicate progress,

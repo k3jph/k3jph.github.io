@@ -12,10 +12,13 @@ menu-label:     Projects
 
 ## Virtual Bumblebees
 
-{% include figure.html image="bee-bug-bumblebee-close-up-235764.webp"
-   placement="right" link="/tag/virtual-bumblebees/" width="40%"
-   cap="A bumblebee"
-   alt="A bumblebee" %}
+
+
+:::figure{src="/assets/img/bee-bug-bumblebee-close-up-235764.webp" alt="A bumblebee" align="right" width="40%" link="/tag/virtual-bumblebees/"}
+A bumblebee
+:::
+
+
 
 The [Virtual Bumblbees](/tag/virtual-bumblebees/) are a simple
 cellular automata I created by accident.
@@ -28,10 +31,13 @@ for the Coursera Internet of Things capstone course.
 
 ## Danish Language Resources
 
-{% include figure.html image="Codex_Holmiensis_CE_1350.webp"
-   placement="left" link="/tag/danish/" width="40%"
-   cap="The first page of the Jutlandic Law originally from 1241 in Codex Holmiensis"
-   alt="The first page of the Jutlandic Law originally from 1241 in Codex Holmiensis" %}
+
+
+:::figure{src="/assets/img/Codex_Holmiensis_CE_1350.webp" alt="The first page of the Jutlandic Law originally from 1241 in Codex Holmiensis" align="left" width="40%" link="/tag/danish/"}
+The first page of the Jutlandic Law originally from 1241 in Codex Holmiensis
+:::
+
+
 
 [_Danish Language Resources_](/tag/danish/) is an interactive document
 that collects resources for English speakers who are learning the
@@ -48,10 +54,13 @@ material.
 
 ## Swedish Language Resources
 
-{% include figure.html image="Västgötalagen_blad_21.webp"
-   placement="right" link="/tag/swedish/" width="40%"
-   cap="Sheet number 21 from the Early Westrogothic law" 
-   alt="Sheet number 21 from the Early Westrogothic law" %}
+
+
+:::figure{src="/assets/img/Västgötalagen_blad_21.webp" alt="Sheet number 21 from the Early Westrogothic law" align="right" width="40%" link="/tag/swedish/"}
+Sheet number 21 from the Early Westrogothic law
+:::
+
+
 
 [_Swedish Language Resources_](/tag/swedish/) is an interactive document
 that collects resources for English speakers who are learning the

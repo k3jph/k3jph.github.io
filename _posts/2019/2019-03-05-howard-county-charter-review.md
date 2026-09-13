@@ -22,8 +22,8 @@ membership. I am fortunate to be appointed and I look forward to
 continuing good work for the county.
 
 The nice thing about Charter Review is that unlike [the Board of
-Appeals](/service), there is no requirement to avoid _ex parte_ 
-communications. I can talk to anyone about Charter Review, listen 
-to anyone, write about it here, and anywhere else. If anyone 
-wants to talk about the Charter, feel free to hit me up. I'll 
+Appeals](/service), there is no requirement to avoid _ex parte_
+communications. I can talk to anyone about Charter Review, listen
+to anyone, write about it here, and anywhere else. If anyone
+wants to talk about the Charter, feel free to hit me up. I'll
 buy the coffee.

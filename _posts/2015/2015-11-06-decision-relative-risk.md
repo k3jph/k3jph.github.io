@@ -22,7 +22,11 @@ Cracked has a bit listicle on [things Hollywood thinks are more dangerous](http:
 
 Apparently finding a [scorpion in the shower](http://awesomearachnids.tumblr.com/post/122624216845/sir-p-audax-shaebay-scorpling-in-the) is a [thing that happens](http://historysafariexpress.airstreamlife.com/2011/10/09/agua-caliente-contemplations/).  But this nails the risk.  While something joining you in the shower, suddenly, may scare the hell out of you,
 
-{% include youtube.html id="atjhOhH-V3E" %}
+
+
+::youtube{video="atjhOhH-V3E"}
+
+
 
 You are probably more likely to injure yourself reacting than from the original source of a problem.  This sort of risk analysis needs to be conducted more frequently.  Risks from cybersecurity, terrorism, and petty crime terrify a great many people.  But overall, the relative risk is low and the cost of fighting it excessively high.
 

@@ -7,7 +7,7 @@ layout: post
 permalink: /2021/11/18/seeing-the-future-predicting-irregular-leadership-changes
 featured_image: /assets/img/news/seeing-the-future-predicting-irregular-leadership-changes.webp
 categories:
-- Blog 
+- Blog
 tags:
 - data science
 - international affairs
@@ -42,6 +42,8 @@ play with it, you can see our most recent predictions [live on the
 Crystal Cub website hosted by
 JHU/APL](http://iaa-ccube-dmz.outer.jhuapl.edu/).
 
-{% include figure.html image="news/aai-cc-frontpage.webp" width="100%"
-alt="Front page of article"
-cap="Front page of article" %}
+
+
+:::figure{src="/assets/img/news/aai-cc-frontpage.webp" alt="Front page of article" align="center" width="100%"}
+Front page of article
+:::

@@ -18,6 +18,10 @@ tags:
 ---
 Pennsylvania has set up a new website, similar to the health care exchanges, that provides access to private flood insurance.  Florida also has such a system and it is something we can expect to see more of going forward.  Pennsylvania's site is here:
 
-{% include iframely.html url="http://www.insurance.pa.gov/Coverage/Pages/Flood.aspx#.VrzQIUgrKsx" %}
+
+
+::embed{href="http://www.insurance.pa.gov/Coverage/Pages/Flood.aspx#.VrzQIUgrKsx"}
+
+
 
 _Image by [Branhower / DeviantArt](http://branhower.deviantart.com/art/Flood-Insurance-Anybody-82463448)._

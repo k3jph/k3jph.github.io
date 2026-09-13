@@ -30,4 +30,3 @@ Find out more about the Commission and its work at the official
 website:
 
 <blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-image="news/https://cc.howardcountymd.gov/Portals/0/Images/SideBanners/testify-hands.webp" data-card-type="article"><p class="h4"><a href="https://cc.howardcountymd.gov/About-Us/Commissions-Task-Forces-and-Special-Reports/Charter-Review-Commission-2019-2020">Charter Review Commission 2019-2020</a></p><p>Public Hearings Persons needing accommodations to fully participate in the public hearing, please contact the Council Office, 410-313-2001. There will be signup sheets available for members of the public to use when they arrive at a public hearing. If possible, please bring 20 copies of written testimony for distribution at the public hearing.</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>

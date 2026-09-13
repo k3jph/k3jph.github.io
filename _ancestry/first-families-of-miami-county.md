@@ -34,9 +34,12 @@ which verifies his birth date and location. This membership acknowledges
 the contributions of early settlers like Henry and helps preserve the
 genealogical and historical records of the county.
 
-{% include figure.html width="12"
-   image="/ancestry/MCHGS-FFMC-Cavendar.webp" border=true
-   alt="Membership certificate in the First Families of Miami County"
-   cap="Membership certificate in the First Families of Miami County" %}
-   
+
+
+:::figure{src="/ancestry/MCHGS-FFMC-Cavendar.webp" alt="Membership certificate in the First Families of Miami County" align="center" width="12" border="true"}
+Membership certificate in the First Families of Miami County
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/MCHGS-FFMC-Cavendar.pdf).

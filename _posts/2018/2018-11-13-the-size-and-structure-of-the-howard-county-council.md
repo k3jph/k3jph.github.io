@@ -62,7 +62,7 @@ The numbers don't tell us the best thing to do. But they do suggest
 the forthcoming Charter Review Commission needs to seriously consider
 the question.
 
-<script src="https://gist.github.com/howardjp/5c1750568a526611c51dc8d83c3f7876.js"></script>
+<p class="embed-link"><a href="https://gist.github.com/howardjp/5c1750568a526611c51dc8d83c3f7876">View source on GitHub Gist</a></p>
 
 _This work used SciServer, a collaborative research environment for
 large-scale data-driven science. It is developed at, and administered

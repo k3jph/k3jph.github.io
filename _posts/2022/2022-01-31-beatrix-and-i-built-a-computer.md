@@ -7,7 +7,7 @@ layout: post
 permalink: /2022/01/31/beatrix-and-i-built-a-computer
 featured_image: /assets/img/news/beatrix-and-i-built-a-computer.webp
 categories:
-- Blog 
+- Blog
 tags:
 - electrical engineering
 - STD bus
@@ -19,7 +19,7 @@ me if we could build a computer together.  A normal parent would
 probably swing by Amazon and buy a keyboard, mouse, monitor, case,
 motherboard, and so on.  That's now how we roll, however.  We were
 going to start from bare wires.  And this was not a good idea,
-because neither of us have any idea what we were doing.  Also, she was 
+because neither of us have any idea what we were doing.  Also, she was
 six when we started!
 
 Ultimately, we ended up designing a custom motherboard.  Obviously,
@@ -43,8 +43,8 @@ exist for a reason and soon we identified the
 an almost perfect choice.  We ended up designing a custom passive
 backplane for the STD Bus and since we like standards, we built it
 with ATX power coming in and in a [Mini-ITX](https://www.mini-itx.com/)
-footprint.  The Mini-ITX and ATX power are common enough these are 
-available at commodity prices.  We had the motherboards printed by 
+footprint.  The Mini-ITX and ATX power are common enough these are
+available at commodity prices.  We had the motherboards printed by
 [JLCPCB](https://jlcpcb.com) and shipped in.
 
 But we had to go further, we needed to get something on them.  After
@@ -61,9 +61,13 @@ The backplane provides connections for the ATX standard power button,
 reset button, and indicator lights. The backplane provides seven
 STD Bus card slots starting with slot 0.
 
-{% include figure.html image="news/pcb-backplane.webp" width="100%"
-alt="Schematic of STD Bus backplane"
-cap="Schematic of STD Bus backplane" %}
+
+
+:::figure{src="/assets/img/news/pcb-backplane.webp" alt="Schematic of STD Bus backplane" align="center" width="100%"}
+Schematic of STD Bus backplane
+:::
+
+
 
 The Mini-ITX standard specifies an area for external connectors,
 but not the organization nor layout.  Accordingly, this is left at
@@ -98,9 +102,13 @@ defined by the STD Bus standard and we build the prototyping card
 as a four-layer PCB.  Layers 1 (top) and 4 (bottom) are signal
 layers.  Layer 2 is a ground plane and layer 3 is a power plane.
 
-{% include figure.html image="news/pcb-protocard.webp" width="100%"
-alt="Schematic of STD Bus prototyping card"
-cap="Schematic of STD Bus prototyping card" %}
+
+
+:::figure{src="/assets/img/news/pcb-protocard.webp" alt="Schematic of STD Bus prototyping card" align="center" width="100%"}
+Schematic of STD Bus prototyping card
+:::
+
+
 
 The card connects to the card slot via 56 contact fingers.  Above
 the fingers are access points for each of the pins on the STD Bus

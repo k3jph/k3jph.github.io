@@ -21,16 +21,24 @@ tags:
 I usually write longer explainers, but it's not even necessary this
 time, because that's how wrong the Baltimore _Sun_ is this time.
 
-{% include iframely.html url="http://www.baltimoresun.com/features/baltimore-insider-blog/bs-fe-maryland-flag-confederate-20170803-story.html" %}
+
+
+::embed{href="http://www.baltimoresun.com/features/baltimore-insider-blog/bs-fe-maryland-flag-confederate-20170803-story.html"}
+
+
 
 The flag comes from the arms of the [Cecil Calvert, 2nd Baron
 Baltimore](https://en.wikipedia.org/wiki/Cecil_Calvert,_2nd_Baron_Baltimore).
 Here, these the arms granted by the College of Arms no later than
 1675:
 
-{% include figure.html image="news/Coat_of_Arms_of_Cecil_Calvert_Baron_Baltimore.svg_.webp"
-   cap="The Arms of Cecil Calvert, Baron Baltimore, showing the Crossland shield"
-   alt="The Arms of Cecil Calvert, Baron Baltimore, showing the Crossland shield" %}
+
+
+:::figure{src="/assets/img/news/Coat_of_Arms_of_Cecil_Calvert_Baron_Baltimore.svg_.webp" alt="The Arms of Cecil Calvert, Baron Baltimore, showing the Crossland shield" align="center" width="100"}
+The Arms of Cecil Calvert, Baron Baltimore, showing the Crossland shield
+:::
+
+
 
 Yes, the Crossland banner was adopted by secessionists in Maryland,
 but they co-opted a symbol of the State of Maryland.  Suggesting

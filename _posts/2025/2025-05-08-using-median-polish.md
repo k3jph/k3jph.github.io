@@ -100,7 +100,7 @@ Following the median polish approach:
 
 1.  Compute the median of each row: for Prod A, the median is 20; for
     Prod B, it is 25; for Prod C, it is 22.
-    
+
 2.  Subtract these medians from each row.
 
 3.  Compute the median of each column (all now centered around zero) and
@@ -112,7 +112,7 @@ Following the median polish approach:
 | Prod B | -10     |  0      | 10      |
 | Prod C | -10     |  0      | 10      |
 {:.table}
-    
+
 This simple example highlights how median polish systematically
 eliminates row and column effects while retaining any underlying
 patterns. The remaining residuals capture any unique variations that do
@@ -187,7 +187,7 @@ riddled with outliers, structured along two dimensions, or exhibit
 complex patterns that resist linear modeling. Its robustness and
 simplicity make it a practical choice in the following scenarios:
 
-* When the data contain outliers:  
+* When the data contain outliers:
 Outliers can skew results dramatically when using mean-based methods,
 pulling trend lines and average values toward extreme ends and masking
 genuine patterns. Median polish, by contrast, relies on medians at every
@@ -197,7 +197,7 @@ fields like environmental science, where readings may spike due to
 equipment glitches or rare events. Median polish allows analysts to
 extract systematic trends without being derailed by a few extreme
 points.
-* When you need robust trend analysis across rows and columns:  
+* When you need robust trend analysis across rows and columns:
 Structured datasets, those that naturally align into rows and columns,
 like time by region or treatment by outcome, often have patterns that
 span both dimensions. Traditional methods may fit a linear model or
@@ -207,7 +207,7 @@ iteratively isolates the central tendency of rows and columns, stripping
 away systematic effects and leaving residuals that highlight local
 deviations. This helps identify whether observed variation is consistent
 across time, across categories, or truly random.
-* When analyzing spatial or temporal grids:  
+* When analyzing spatial or temporal grids:
 In climatology, epidemiology, and other fields that deal with spatial or
 time-series data laid out in grids, it is common to see patterns
 embedded within noisy observations. Temperature readings by location

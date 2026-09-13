@@ -31,8 +31,14 @@ In 1987, that was a crazy idea.  By 2012, [it is routine](http://www.wired.com/2
 
 There's a qualitative difference between Amazon's algorithms showing me a bad pick on the next purchase and law enforcement misreading a dataset.  If Amazon messes up, they just lose revenue.  If law enforcement messes up, someone's life is about to get a lot worse.  And if that were not enough, the incentives are such that only Amazon will move to fix a bad algorithm.  The use of predictive analytics for legal purposes must be as an augmentation tool, and not as an automated tool that proceeds without supervision by someone capable of exercising reasoned judgement.  Copyright enforcement has made that exceptionally clear in the last five years.
 
-{% include figure.html image="news/7proxies.webp" cap="Also, seven Boxxys" placement="right" width="40%" %}
+
+
+:::figure{src="/assets/img/news/7proxies.webp" align="right" width="40%"}
+Also, seven Boxxys
+:::
+
+
 
 _Image by Orion Pictures, and [criticism constitutes fair use](http://copyright.gov/fair-use/), so the robots can suck it.  Also, if you want to come at me, bro, this._
 
-<div style="clear: both;"></div>
+<div></div>

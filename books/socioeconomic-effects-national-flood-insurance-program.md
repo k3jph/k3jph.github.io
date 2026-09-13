@@ -11,6 +11,8 @@ redirect_from:
   - /books/se-nfip/
 ---
 
-{% include book-detail.html slug="socioeconomic-effects-national-flood-insurance-program" %}
+::book-detail{slug="socioeconomic-effects-national-flood-insurance-program"}
 
-{% include relatedposts.html tag="NFIP" %}
+
+
+::related-posts{tag="NFIP"}

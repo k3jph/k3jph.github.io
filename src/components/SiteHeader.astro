@@ -1,13 +1,14 @@
 ---
 import siteData from '../../.generated/data/site.json';
-const current = Astro.url.pathname;
+import { sitePath } from '../lib/site';
+const current = sitePath(Astro.url.pathname);
 ---
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="/" aria-label="James Howard home"><img src="/assets/img/identity/kamon.svg" alt="" width="38" height="38"><span>James Howard</span></a>
+    <a class="brand" href="/" aria-label="James Howard home"><img src="/assets/img/identity/jameshoward-shield.svg" alt="" width="38" height="38"><span>James Howard</span></a>
     <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
     <nav id="site-nav" aria-label="Primary navigation">
-      <ul>{siteData.settings.main_menu_settings.menu_items.map((item: any) => <li><a href={item.url} aria-current={current.startsWith(item.url) ? 'page' : undefined}>{item.title}</a></li>)}<li><a href="/search/" aria-label="Search">Search</a></li></ul>
+      <ul>{siteData.settings.main_menu_settings.menu_items.map((item: any) => <li><a href={sitePath(item.url)} aria-current={current.startsWith(sitePath(item.url)) ? 'page' : undefined}>{item.title}</a></li>)}<li><a href="/search/" aria-label="Search">Search</a></li></ul>
     </nav>
   </div>
 </header>
@@ -15,5 +16,5 @@ const current = Astro.url.pathname;
   document.querySelector('.menu-button')?.addEventListener('click', event => { const button = event.currentTarget; const open = button.getAttribute('aria-expanded') === 'true'; button.setAttribute('aria-expanded', String(!open)); document.querySelector('#site-nav')?.classList.toggle('is-open', !open); });
 </script>
 <style>
-  .site-header{position:sticky;z-index:50;top:0;border-bottom:1px solid rgb(255 255 255/.14);background:var(--color-navy-950);font-family:var(--font-sans)}.header-inner{display:flex;min-height:4.6rem;align-items:center;justify-content:space-between;gap:1.5rem}.brand{display:flex;align-items:center;gap:.7rem;color:#fff;font-family:var(--font-display);font-size:1.15rem;font-weight:700;text-decoration:none}.brand img{filter:brightness(0) invert(1)}nav ul{display:flex;align-items:center;gap:1.25rem;margin:0;padding:0;list-style:none}nav a{color:#fff;font-size:.88rem;font-weight:700;text-decoration:none}nav a[aria-current=page],nav a:hover{color:var(--color-gold-300)}.menu-button{display:none;padding:.5rem .75rem;border:1px solid rgb(255 255 255/.45);border-radius:.25rem;color:#fff;background:transparent;font:700 .9rem var(--font-sans)}@media(max-width:52rem){.menu-button{display:block}nav{display:none;position:absolute;top:100%;right:0;left:0;padding:1rem;background:var(--color-navy-950)}nav.is-open{display:block}nav ul{align-items:stretch;flex-direction:column}nav a{display:block;padding:.35rem}}
+  .site-header{position:sticky;z-index:50;top:0;border-bottom:1px solid rgb(255 255 255/.14);background:var(--color-navy-950);font-family:var(--font-sans)}.header-inner{display:flex;min-height:4.6rem;align-items:center;justify-content:space-between;gap:1.5rem}.brand{display:flex;align-items:center;gap:.7rem;color:#fff;font-family:var(--font-display);font-size:1.15rem;font-weight:700;text-decoration:none}.brand img{height:2.65rem;width:auto}nav ul{display:flex;align-items:center;gap:1.25rem;margin:0;padding:0;list-style:none}nav a{color:#fff;font-size:.88rem;font-weight:700;text-decoration:none}nav a[aria-current=page],nav a:hover{color:var(--color-gold-300)}.menu-button{display:none;padding:.5rem .75rem;border:1px solid rgb(255 255 255/.45);border-radius:.25rem;color:#fff;background:transparent;font:700 .9rem var(--font-sans)}@media(max-width:52rem){.menu-button{display:block}nav{display:none;position:absolute;top:100%;right:0;left:0;padding:1rem;background:var(--color-navy-950)}nav.is-open{display:block}nav ul{align-items:stretch;flex-direction:column}nav a{display:block;padding:.35rem}}
 </style>

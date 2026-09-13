@@ -19,7 +19,7 @@ tags:
   - public affairs
   - public health
 ---
-Here's [another article on the environmental justice effects](http://www.mdpi.com/1660-4601/12/12/14994/htm) of climate change.  From right here in Maryland, researchers used survey data to show that vulnerable populations believe their health is at risk from climate change.  
+Here's [another article on the environmental justice effects](http://www.mdpi.com/1660-4601/12/12/14994/htm) of climate change.  From right here in Maryland, researchers used survey data to show that vulnerable populations believe their health is at risk from climate change.
 
 This held up regardless of actual risk.  And that's important, because it can lead vulnerable populations to place themselves at greater real risk to do a small perceived difference in risk.  [See my post from this summer about how wealthier areas pay less for flood insurance for similar discussion.](https://jameshoward.us/2015/06/04/wealthier-communities-pay-less-for-flood-insurance/)
 

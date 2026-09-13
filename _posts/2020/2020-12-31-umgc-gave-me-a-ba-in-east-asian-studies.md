@@ -39,7 +39,11 @@ all of that, it was fairly easy to look at things and realize that
 I was three courses and a capstone from finishing a second bachelors
 degree in East Asian studies.  And that's how I got this:
 
-{% include pdfembed.html pdf="UMGC-BA-EAS.pdf" width="100%" height="600px" %}
+
+
+::document{src="/assets/docs/UMGC-BA-EAS.pdf" label="Open the PDF document" embed="true"}
+
+
 
 But now, I need to clean up that capstone project and prepare it
 for publication!  Happy new year to all.

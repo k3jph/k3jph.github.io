@@ -7,7 +7,7 @@ layout: post
 permalink: /2022/06/18/introducing-london-frog
 featured_image: /assets/img/news/introducing-london-frog.webp
 categories:
-- Blog 
+- Blog
 tags:
 - tea
 - mint

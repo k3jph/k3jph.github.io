@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/05/13/lessons-from-the-tca-for-green-energy-siting
 featured_image: /assets/img/2024/lessons-from-the-tca-for-green-energy-siting.webp
 categories:
-- Blog 
+- Blog
 tags:
 - environmental policy
 - Federal policy

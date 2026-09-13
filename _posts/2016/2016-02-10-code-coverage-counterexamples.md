@@ -28,13 +28,15 @@ First, `cmna` has miserable code coverage.  As of this writing, code coverage is
 
 Second `phonics` has excellent code coverage.  When I first added Coveralls, I was at [97.05 percent](https://coveralls.io/builds/5012557), with complete coverage for most of the functions.  In fact, I have complete coverage for all of the functions written in R and those functions in C++ are less than perfect, though still 89 percent or better.  So what makes R and C++ different?  It's an implementation detail.  Those functions that are written in pure R code are those that are mostly implemented via regular expressions.
 
-Unit testing is supposed to provide some basic tests to a function and determine if the function produces the correct, predetermined, output.  If not, something is wrong.  It's probably the function, though it could be the test.  You should check some primary cases and some edge cases.  
+Unit testing is supposed to provide some basic tests to a function and determine if the function produces the correct, predetermined, output.  If not, something is wrong.  It's probably the function, though it could be the test.  You should check some primary cases and some edge cases.
 
-Code coverage estimates work by evaluating how thoroughly the code is checked.  It works on the presumption that every branch, basically if-then-else statements, follow all possible paths at least once.  It's important to realize, this does not mean all possible combinations within a functions are reached.  That's a combinatorial problem at scale.  But each branch must be reached.  
+Code coverage estimates work by evaluating how thoroughly the code is checked.  It works on the presumption that every branch, basically if-then-else statements, follow all possible paths at least once.  It's important to realize, this does not mean all possible combinations within a functions are reached.  That's a combinatorial problem at scale.  But each branch must be reached.
 
 When the functions written in R use regular expressions, there is essentially no branching.  Take this implementation of the `statcan` function (with comments removed):
 
-{% highlight r %}
+
+
+```r
 statcan <- function(word, maxCodeLen = 4) {
 
     word <- gsub("[^[:alpha:]]*", "", word)
@@ -49,14 +51,18 @@ statcan <- function(word, maxCodeLen = 4) {
 
     return(word)
 }
-{% endhighlight %}
+```
+
+
 
 Not a single branch.  Any input will hit everyone line.  The code coverage tool is very happy here.  But it's stupid.
 
 This doesn't happen with the C++ based functions, where branching is normal and logic more interesting.  Consistently between the C++ functions, `soundex` and `metaphone`, the coverage holes were the same.  All of them contain, more or less, this code block:
 
-{% highlight r %}
-    if(x.length() == 0)
+
+
+```r
+if(x.length() == 0)
         return("");
     if(x.length() == 1)
         return(x);
@@ -64,11 +70,13 @@ This doesn't happen with the C++ based functions, where branching is normal and 
     for(i = x.begin(); i != x.end() && !isalpha(*i); i++);
     if(i == x.end())
         return "";
-{% endhighlight %}
+```
+
+
 
 I failed to test the `NULL` string, single letter strings, and strings with a single letter followed by nonalphabetical characters.  I added each of the three classes to the test suites.
 
-Cases 1 and 2 passed with flying colors, increasing code coverage to [98.23 percent](https://coveralls.io/builds/5012991).  But the third, well, it didn't pass.  There's a bug where if any of the C++ functions get a string started by a letter and with trailing nonalphabetical characters, it crashes.  I would have never caught this without better testing.  And better testing was driven by code coverage checks.  
+Cases 1 and 2 passed with flying colors, increasing code coverage to [98.23 percent](https://coveralls.io/builds/5012991).  But the third, well, it didn't pass.  There's a bug where if any of the C++ functions get a string started by a letter and with trailing nonalphabetical characters, it crashes.  I would have never caught this without better testing.  And better testing was driven by code coverage checks.
 
 It's become a staple for programmers to ask how much code coverage is enough.  Here's a brief list of links:
 

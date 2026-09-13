@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/08/12/diploma-from-columbia
 featured_image: /assets/img/2024/diploma-from-columbia.webp
 categories:
-- Blog 
+- Blog
 tags:
   - education
   - engineering

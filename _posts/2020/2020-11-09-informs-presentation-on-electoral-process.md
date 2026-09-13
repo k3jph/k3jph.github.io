@@ -27,7 +27,11 @@ how hard it is to hack the election.
 And I was right.  Our election integrity is still unmatched, mostly because
 of how screwed up the whole system is. Watch the presentation on YouTube:
 
-{% include youtube.html id="CluWQ5bfqgM" %}
+
+
+::youtube{video="CluWQ5bfqgM"}
+
+
 
 This includes a review of how we elect presidents in the United States, since
 it is quite complicated and has a lot of moving parts.  Then it goes on to

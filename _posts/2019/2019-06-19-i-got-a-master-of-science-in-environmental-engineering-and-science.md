@@ -15,7 +15,11 @@ tags:
 ---
 Apparently, these things come as PDFs now!
 
-{% include pdfembed.html pdf="JHU-MS-EES.pdf" width="100%" height="600px" %}
+
+
+::document{src="/assets/docs/JHU-MS-EES.pdf" label="Open the PDF document" embed="true"}
+
+
 
 Anyway, for the last couple of years, I've taken a few classes here
 and there at the [Johns Hopkins School of

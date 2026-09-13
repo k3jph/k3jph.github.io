@@ -29,8 +29,12 @@ tags:
 ---
 It is often hard to wrap your head around the finances of organizations and the unusual accounting rules of public organizations make that even more difficult. When I read [The McKinsey Way](http://books.google.com/books?id=UtNZZU6JLiQC&lpg=PP1&dq=mckinsey%20way&pg=PP1#v=onepage&q&f=false) several years ago, I saw the value in using waterfall charts to analyze and understand the finances of public organizations. So I created functions for plotting waterfall charts using both traditional and grid graphics in [R](http://www.r-project.org/). Here’s an example using the sample data from _The McKinsey Way_:
 
-{% include figure.html image="news/tumblr_l2tyqg9LdU1qzy7qe.webp"
-   alt="Raisel's waterfall plot example"
-   cap="Raisel's waterfall plot example" %}
+
+
+:::figure{src="/assets/img/news/tumblr_l2tyqg9LdU1qzy7qe.webp" alt="Raisel's waterfall plot example" align="center" width="100"}
+Raisel's waterfall plot example
+:::
+
+
 
 More advanced examples are available in the package demo. I had intended to write the documentation and submit it as a code snippet to the [Journal of Statistical Software](http://www.jstatsoft.org/). However, I have yet to actually write the documentation and it is probably not appropriate for JSS, anyway. Otherwise, the package is complete and is [now available from CRAN](http://cran.r-project.org/web/packages/waterfall/index.html). The source code [is available from Bitbucket](http://bitbucket.org/howardjp/waterfall). The code repository contains the outline of an [Eclipse](http://www.eclipse.org/) project using [StatET](http://www.walware.de/goto/statet), which I recommend for working with this and all other R packages.

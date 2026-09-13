@@ -24,7 +24,7 @@ I asked the committee to produced a revised policy subjecting advisory committee
 > 13 November 2007
 >
 > Madam Chair & Members of the Committee:
-> 
+>
 > At the September 11, 2007 meeting of the Performance Oversight Committee, I presented a letter outlining a number of objections to the proposed Non-Disclosure Agreement for Resident Members Of Columbia Association Board of Directors Committees[1].  The minutes of that meeting state that "[b]y unanimous consent the Committee directed the CA staff to re-draft a less restrictive non-disclosure agreement[2]."
 >
 > Tonight's meeting will reconsider the issue. However, the draft proposal submitted to the Performance Oversight Committee is substantially the same as the proposal of two months ago, which was summarily rejected. Specifically, the proposal imposes a chilling requirement on the active discourse of advisory committee members with the community at large. The revised proposal also still requires advisory committee members to submit their personal notes and documents to the Columbia Association, upon demand. These two requirements are untenable and will only serve to stifle the broader involvement of the community and create unnecessary conflicts between the corporation and its invited advisers regarding the ownership of personal effects.

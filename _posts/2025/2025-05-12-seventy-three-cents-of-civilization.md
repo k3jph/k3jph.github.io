@@ -28,10 +28,13 @@ no subscription, no surcharge, and no questions asked.
 
 We treat this as normal. It should not be.
 
-{% include figure.html width="6" placement="right"
-   image="2025/seventy-three-cents-of-civilization/mule-train.webp"
-   alt="Image of the mule train carrying mail to Supai, Arizona"
-   cap="The mule train carrying mail to Supai, Arizona" %}
+
+
+:::figure{src="/assets/img/2025/seventy-three-cents-of-civilization/mule-train.webp" alt="Image of the mule train carrying mail to Supai, Arizona" align="right" width="6"}
+The mule train carrying mail to Supai, Arizona
+:::
+
+
 
 We live in a world where private delivery companies often charge fifteen
 dollars to ship a toothbrush across town. In contrast, the Postal
@@ -87,11 +90,14 @@ magazines to small parcels, election ballots, and prescription
 medications. It is one of the largest physical delivery operations in
 the world, and it does not take weekends off.
 
-{% include figure.html width="6" placement="left"
-   image="2025/seventy-three-cents-of-civilization/automated-sorting.webp"
-   alt="Image of automated sorting at USPS"
-   cap="Automated sorting machine at USPS" %}
-   
+
+
+:::figure{src="/assets/img/2025/seventy-three-cents-of-civilization/automated-sorting.webp" alt="Image of automated sorting at USPS" align="left" width="6"}
+Automated sorting machine at USPS
+:::
+
+
+
 No private carrier comes close to this scale. FedEx handled about 6.3
 million packages per day in the U.S. in 2023, and UPS reported just over
 18 million. Both companies focus on profitable, high-volume areas and
@@ -101,7 +107,7 @@ delivery in locations they do not serve directly. When the other
 carriers say they offer nationwide delivery, they often mean they let
 the Postal Service finish the job.
 
- 
+
 That handoff works because USPS has built a vast and deeply integrated
 infrastructure. Mail is routed through a network of more than 200
 processing facilities using [automated sorting
@@ -117,7 +123,7 @@ It is easy to assume that such a large system must be wasteful or
 outdated. In fact, the opposite is true. The Postal Service delivers
 more mail, to more places, with fewer errors than any other carrier in
 the country. It just happens quietly.
-    
+
 ## It Does All This Without Taxpayer Money
 
 One of the most persistent myths about the Postal Service is that it is
@@ -127,10 +133,13 @@ services](https://about.usps.com/who/profile/). It receives no tax
 dollars for its operating expenses. The letter that shows up in your
 mailbox was paid for by the person who sent it.
 
-{% include figure.html width="6" placement="right"
-   image="2025/seventy-three-cents-of-civilization/rural-carrier.webp"
-   alt="Image of a rural carrier in 1908"
-   cap="A rural carrier delivering mail in 1908" %}
+
+
+:::figure{src="/assets/img/2025/seventy-three-cents-of-civilization/rural-carrier.webp" alt="Image of a rural carrier in 1908" align="right" width="6"}
+A rural carrier delivering mail in 1908
+:::
+
+
 
 Despite that independence, Congress still has a heavy hand on the
 agency's balance sheet. In 2006, Congress passed the [Postal
@@ -152,7 +161,7 @@ trust.
 Despite those constraints, the system continues to function,
 efficiently, affordably, and at a scale no private firm would attempt.
 It is not failing. It is being sabotaged.
-   
+
 ## It Is Under Political Attack Because It Works
 
 The Postal Service has long been a political punching bag. It is large,
@@ -179,11 +188,14 @@ But the private sector has never been interested in serving unprofitable
 regions, and never will be. The Postal Service exists precisely because
 the market does not solve this problem on its own.
 
-{% include figure.html width="6" placement="right"
-   image="ancestry/depm/postmaster-whitecounty-1931.webp"
-   alt="The appointment of John Hess Adams, my fourth great-grandfather, as postmaster for Reynolds, Indiana, in 1881"
-   cap="The appointment of [John Hess Adams, my fourth great-grandfather](/ancestry/depm), as postmaster for Reynolds, Indiana, in 1881" %}
-   
+
+
+:::figure{src="/assets/img/ancestry/depm/postmaster-whitecounty-1931.webp" alt="The appointment of John Hess Adams, my fourth great-grandfather, as postmaster for Reynolds, Indiana, in 1881" align="right" width="6"}
+The appointment of [John Hess Adams, my fourth great-grandfather](/ancestry/depm), as postmaster for Reynolds, Indiana, in 1881
+:::
+
+
+
 That is what makes it a target. USPS does something no one else will do.
 It delivers millions of pieces of mail a day, on time, to every address
 in the country, without pricing discrimination. It connects rural
@@ -231,7 +243,7 @@ value of a publicly operated postal system that prioritizes universal
 service and community needs.
 
 ## We Will Miss It When It's Gone
- 
+
 The greatest danger to the Postal Service is not failure. It is
 familiarity. It works so well, and so quietly, that most Americans have
 forgotten what bad actually looks like. A friend once remarked that the

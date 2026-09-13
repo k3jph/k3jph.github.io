@@ -7,11 +7,11 @@ layout: post
 permalink: /2024/04/19/what-is-a-martlet
 featured_image: /assets/img/2024/what-is-a-martlet.webp
 categories:
-- Blog 
+- Blog
 tags:
 - heraldry
 - mythology
-- history 
+- history
 ---
 
 In the intricate and symbolic world of heraldry, the martlet occupies
@@ -70,10 +70,13 @@ the period's artistic and philosophical output.
 
 ## Symbolic Significance in Heraldry
 
-{% include figure.html width="4" placement="right"
-   image="/2024/what-is-a-martlet/martlet-sable.svg"
-   alt="A heraldic martlet Sable" 
-   cap="A heraldic martlet Sable (by [Lobsterthermidor](https://commons.wikimedia.org/wiki/File:MartletSable_(English).svg))" %}
+
+
+:::figure{src="/2024/what-is-a-martlet/martlet-sable.svg" alt="A heraldic martlet Sable" align="right" width="4"}
+A heraldic martlet Sable (by [Lobsterthermidor](https://commons.wikimedia.org/wiki/File:MartletSable_(English).svg))
+:::
+
+
 
 In the realm of heraldry, the martlet is a potent symbol of unceasing
 endeavor and aspiration toward high ideals. The distinctive feature
@@ -105,10 +108,13 @@ of the time.
 
 ## Conclusion
 
-{% include figure.html width="4" placement="right"
-   image="/2024/what-is-a-martlet/martlet-kamon.svg"
-   alt="A martlet as a _kamon_" 
-   cap="A martlet as a _kamon_" %}
+
+
+:::figure{src="/2024/what-is-a-martlet/martlet-kamon.svg" alt="A martlet as a _kamon_" align="right" width="4"}
+A martlet as a _kamon_
+:::
+
+
 
 The martlet, a seemingly simple yet profoundly symbolic creature
 within the heraldic tradition, encapsulates the enduring human

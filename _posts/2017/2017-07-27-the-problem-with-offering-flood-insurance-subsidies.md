@@ -59,9 +59,9 @@ qualifies for funding from the Federal Emergency Management Agency.
 >
 > James P. Howard II
 >
-> Columbia 
+> Columbia
 >
-> The writer is author of the book "Socioeconomic Effects of the 
+> The writer is author of the book "Socioeconomic Effects of the
 National Flood Insurance Program"
 
 _Image by [Preservation Maryland / Wikimedia

@@ -44,7 +44,7 @@ This debate over a really obscure agency prompted PBS to produce a story called 
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">.<a href="https://twitter.com/SpeakerBoehner">@SpeakerBoehner</a> said American jobs will &quot;disappear quickly&quot; if <a href="https://twitter.com/hashtag/ExIm?src=hash">#ExIm</a> goes away. US workers deserve a vote <a href="http://t.co/TIrIMTB4i4">http://t.co/TIrIMTB4i4</a> <a href="https://twitter.com/hashtag/ExIm4Jobs?src=hash">#ExIm4Jobs</a></p>&mdash; Exporters for Ex-Im (@Exporters4ExIm) <a href="https://twitter.com/Exporters4ExIm/status/595279494073720833">May 4, 2015</a></blockquote>
 
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 So how many American jobs are we talking about?  In 2014, the Ex-Im bank made about $20B in loans (supporting about $27B in exports).  Billions of dollars sounds like a lot, but some context is important.  In 2014, the United States's GDP was $17.4T.  Trillion...with a T.  Had the Ex-Im Bank not made those loans, it is unknown how much exports would be reduced by.  Let's assume the full amount of the loan value, which is reasonable enough for benefit-cost purposes.  A $20B hit in the overall economy is negligible and probably not noticeable.  This is true for each year since 2006, the first year for which loan data is available from Ex-Im through their data service:
 

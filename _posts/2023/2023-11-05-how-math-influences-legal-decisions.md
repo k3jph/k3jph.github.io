@@ -1,5 +1,5 @@
 ---
-id: how-math-influences-legal-decisions 
+id: how-math-influences-legal-decisions
 title: How Math Influences Legal Decisions
 date: 2023-11-05T18:12:58-04:00
 author: k3jph
@@ -7,7 +7,7 @@ layout: post
 permalink: /2023/11/05/how-math-influences-legal-decisions
 featured_image: /assets/img/news/how-math-influences-legal-decisions.webp
 categories:
-- Blog 
+- Blog
 tags:
 - statistics
 - forensics

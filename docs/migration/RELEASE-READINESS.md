@@ -9,6 +9,8 @@
 - [x] Scheduled-post filtering is enforced at collection consumption points.
 - [x] Astro diagnostics pass without errors.
 - [x] The production build and internal-reference audit pass.
+- [x] Active content contains no Liquid, Bootstrap classes, inline styles, or embedded scripts.
+- [x] Representative figures, books, ribbons, math, code, and footnote backlinks are asserted during validation.
 - [ ] Review representative pages in a browser and compare against production.
 - [ ] Merge `rebuild/astro` only after stakeholder review.
 

@@ -11,10 +11,12 @@ redirect_from:
   - /books/mdor/
 ---
 
-{% include book-detail.html slug="handbook-military-defense-operations-research" %}
+::book-detail{slug="handbook-military-defense-operations-research"}
 
 ## Background material
 
 * [Call for proposals](/books/handbook-military-defense-operations-research/call-for-proposals/)
 
-{% include relatedposts.html tag="MDOR" %}
+
+
+::related-posts{tag="MDOR"}

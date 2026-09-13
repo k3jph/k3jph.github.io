@@ -7,7 +7,7 @@ layout: post
 permalink: /2021/11/23/teaching-stem-online
 featured_image: /assets/img/news/teaching-stem-online.webp
 categories:
-- Blog 
+- Blog
 tags:
 - STEM
 - mathematics education
@@ -51,6 +51,8 @@ as the area of least concern for teaching STEM online.
 Education in Science and Technology_/Taylor & Francis
 website.](https://www.tandfonline.com/doi/full/10.1080/0020739X.2021.1954251)
 
-{% include figure.html image="news/teaching-stem-cover.webp" width="100%"
-alt="Front page of article"
-cap="Front page of article" %}
+
+
+:::figure{src="/assets/img/news/teaching-stem-cover.webp" alt="Front page of article" align="center" width="100%"}
+Front page of article
+:::

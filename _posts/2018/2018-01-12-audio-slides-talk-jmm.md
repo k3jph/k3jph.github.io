@@ -48,4 +48,6 @@ on the presentation, which you can now [watch on
 YouTube](https://www.youtube.com/watch?v=r56kpdTuG_Q), or click
 below.  Unfortunately, I stopped recording before the questions.
 
-{% include youtube.html id="r56kpdTuG_Q" %}
+
+
+::youtube{video="r56kpdTuG_Q"}

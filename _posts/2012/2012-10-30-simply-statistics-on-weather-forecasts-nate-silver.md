@@ -31,7 +31,9 @@ tags:
 
 I've revised your code for efficiency:
 
-{% highlight r %}
+
+
+```r
 # Set initial parameters
 percentObama = 0.505
 sdObama = 0.01
@@ -43,4 +45,4 @@ simulatedPercentObama = rnorm(n,mean=percentObama,sd=sdObama)
 # Calculate the percent of times Obama wins
 percentObamaWin = mean(simulatedPercentObama > 0.5)
 percentObamaWin
-{% endhighlight %}
+```

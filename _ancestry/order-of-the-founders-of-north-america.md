@@ -120,46 +120,12 @@ forgotten.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="ancestry/OFNA-Chappell.webp" border=true
-   alt="Membership certificate in the Order of the Founders of North America"
-   cap="Membership certificate in the Order of the Founders of North America" %}
+
+
+:::figure{src="/assets/img/ancestry/OFNA-Chappell.webp" alt="Membership certificate in the Order of the Founders of North America" align="center" width="12" border="true"}
+Membership certificate in the Order of the Founders of North America
+:::
+
+
 
 Or you can [download the PDF here](/assets/docs/ancestry/OFNA-Chappell.pdf).
-
-<!-- Modal -->
-<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body text-center">
-                <img id="modalImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" class="img-responsive" alt="Zoomed Image">
-                <p id="modalCaption" class="mt-3"></p>
-                <a id="modalLink" href="#" target="_blank" class="btn btn-primary mt-2">View Original Source</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // Attach click event listeners to all images with data-toggle="modal"
-        document.querySelectorAll('[data-toggle="modal"]').forEach(function (img) {
-            img.addEventListener('click', function () {
-                var fullImage = img.getAttribute('data-full'); // Get the full image URL
-                var modalImage = document.getElementById('modalImage'); // Modal image element
-                var modalCaption = document.getElementById('modalCaption'); // Modal caption element
-                var modalLink = document.getElementById('modalLink'); // Modal link element
-
-                modalImage.setAttribute('src', fullImage); // Set the src of the modal image
-                modalImage.setAttribute('alt', img.getAttribute('alt')); // Set alt text
-                modalCaption.textContent = img.getAttribute('alt'); // Use alt text as caption
-                modalLink.setAttribute('href', fullImage); // Placeholder for the original source
-            });
-        });
-    });
-</script>

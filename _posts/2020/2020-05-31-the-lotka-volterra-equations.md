@@ -20,12 +20,16 @@ My favorite set of differential equations are the Lotka-Volterra
 equations.  These equations describe predator-prey relationships.
 What impresses me the most about them are their complete simplicity:
 
-{% include eqn.html 
- eqn="\begin{align}
+
+
+$$
+\begin{align}
   \frac{dx}{dt} &= \alpha x - \beta x \text{, and} \\
   \frac{dy}{dt} &= \delta x y - \gamma y
-  \end{align}"
- %}
+  \end{align}
+$$
+
+
 
 In these equations, [latex]x[/latex] and [latex]y[/latex] are the
 population counts of some prey species and some predator species.
@@ -43,4 +47,6 @@ system that models the Lotka-Volterra equations in a different way,
 but show the relationship through a population of sheep and wolves.
 Here's a video of a typical run:
 
-{% include youtube.html id="FcbG8LM7Y-g" %}
+
+
+::youtube{video="FcbG8LM7Y-g"}

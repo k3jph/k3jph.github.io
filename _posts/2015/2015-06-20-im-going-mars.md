@@ -24,6 +24,12 @@ tags:
 
 Slides will be posted when they are ready.
 
-{% include figure.html image="news/marsociety2015poster.webp" %}
+
+
+:::figure{src="/assets/img/news/marsociety2015poster.webp" align="center" width="100"}
+
+:::
+
+
 
 _Images by [NASA](http://www.nasa.gov/centers/ames/news/releases/2004/mars/mars.html) and the [Mars Society](http://www.marssociety.org)._

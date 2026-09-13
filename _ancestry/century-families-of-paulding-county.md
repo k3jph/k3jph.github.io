@@ -43,9 +43,12 @@ those of other ancestors, is preserved for future generations. Her documented
 presence and contributions exemplify the legacy of families who have shaped the
 county’s history and continue to influence its identity today.
 
-{% include figure.html width="12"
-   image="/ancestry/CFPC-MinaElizabethHall.webp" 
-   alt="Membership certificate in the Century Families of Paulding County"
-   cap="Membership certificate in the Century Families of Paulding County" %}
-   
+
+
+:::figure{src="/ancestry/CFPC-MinaElizabethHall.webp" alt="Membership certificate in the Century Families of Paulding County" align="center" width="12"}
+Membership certificate in the Century Families of Paulding County
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/CFPC-MinaElizabethHall.pdf).

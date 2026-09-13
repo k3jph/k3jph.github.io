@@ -74,9 +74,12 @@ families on the state's history and development.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="/ancestry/OGS-FFO-Bunnell.webp" border=true
-   alt="Membership certificate in the First Families of Ohio"
-   cap="Membership certificate in the First Families of Ohio" %}
-   
+
+
+:::figure{src="/ancestry/OGS-FFO-Bunnell.webp" alt="Membership certificate in the First Families of Ohio" align="center" width="12" border="true"}
+Membership certificate in the First Families of Ohio
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/OGS-FFO-Bunnell.pdf).

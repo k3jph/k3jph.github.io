@@ -21,7 +21,7 @@ tags:
 ---
 [NewHumanist](https://newhumanist.org.uk) has a great article on the [difference between hazard and risk](https://newhumanist.org.uk/articles/5046/does-everything-cause-cancer).
 
-Basically, the gist of the article is the hazard is what can go wrong.  The risk is how likely it is to go wrong.  There's another important metric they neglected to include is the expected value of the loss (or gain, in other contexts).  The expected value is the value of the hazard times the likelihood of it happening.  
+Basically, the gist of the article is the hazard is what can go wrong.  The risk is how likely it is to go wrong.  There's another important metric they neglected to include is the expected value of the loss (or gain, in other contexts).  The expected value is the value of the hazard times the likelihood of it happening.
 
 For instance, I have a tendency to loose my headphones.  I go through several pairs per year.  So the hazard is losing the headphones and the risk, on any given day, is 1 / 50, assuming I loose a pair every fifty days or so.    In this case, assuming I can buy a new pair for $10, my expected loss on any given day is $0.20.  That means my expected losses over the year is about $73.  That's for a low-hazard / high-risk scenario.
 

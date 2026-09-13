@@ -28,4 +28,3 @@ The problem is Kahn is only partially correct.  As [I wrote last summer](/2015/0
 In the context of global climate change, we can expect the same.  Those who can afford it will participate in out-migration.  Those who cannot will experience the increased risk and reduced economic opportunity that comes with it.  [Wikipedia, as always, has an excellent catalog of the expected effects.](https://en.wikipedia.org/wiki/Climate_change_and_poverty)
 
 _Image by [ItzaFineDay / Flickr](https://www.flickr.com/photos/itzafineday/2095961797)._
-

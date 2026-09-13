@@ -53,7 +53,7 @@ rural life.
 
 Membership in First Families recognizes ancestors who lived in the Firelands
 prior to 1860 under the categories of First Pioneer (pre-1820), First Settler
-(1820-1860), or Century Ancestor (living 100+ years ago). 
+(1820-1860), or Century Ancestor (living 100+ years ago).
 
 ## Mina Elizabeth Hall--Century Ancestor
 
@@ -73,9 +73,12 @@ family that included my maternal grandmother.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="/ancestry/FFF-Hall.webp" border=true
-   alt="Membership certificate in the First Families of the Firelands"
-   cap="Membership certificate in the First Families of the Firelands" %}
-   
+
+
+:::figure{src="/ancestry/FFF-Hall.webp" alt="Membership certificate in the First Families of the Firelands" align="center" width="12" border="true"}
+Membership certificate in the First Families of the Firelands
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/FFF-Hall.pdf).

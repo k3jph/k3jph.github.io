@@ -45,10 +45,10 @@ papers, printed genealogies, and the occasional lineage-society application.
 Given the enthusiasm with which the legend is repeated, it is worth sorting the
 record from the romance.
 
-<div class="item col-md-6 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--half">
   <div class="card">
     <figure>
-      <img class="featured-img mx-auto" src="{{ '/assets/img/2025/the-arundell-howard-legend-exploring-a-genealogical-mystery-from-wardour-to-maryland/baptismal.webp' | cloudflare_image_url: 800 }}" alt="Baptismal record for Matthew Arundell of Wardour" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/2025/the-arundell-howard-legend-exploring-a-genealogical-mystery-from-wardour-to-maryland/baptismal.webp" />
+      <img class="featured-img" src="/assets/img/2025/the-arundell-howard-legend-exploring-a-genealogical-mystery-from-wardour-to-maryland/baptismal.webp" alt="Baptismal record for Matthew Arundell of Wardour" data-gallery-src="/assets/img/2025/the-arundell-howard-legend-exploring-a-genealogical-mystery-from-wardour-to-maryland/baptismal.webp" />
       <div class="content">
         <div class="images-caption">Baptismal record for Matthew Arundell of Wardour, line 57</div>
       </div>
@@ -108,10 +108,10 @@ consistent with gentry origin. The fifth is the use of undifferenced Howard arms
 on the seal of John Howard's 1695 will. The sixth is the endorsement of early
 lineage societies that accepted Edyth Shipley Britons's application.
 
-<div class="item col-md-6 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--half">
   <div class="card">
     <figure>
-      <img class="featured-img mx-auto" src="{{ '/assets/img/2025/the-arundell-howard-legend-exploring-a-genealogical-mystery-from-wardour-to-maryland/burial.webp' | cloudflare_image_url: 800 }}" alt="Burial record for Matthew Arundell of Wardour" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/2025/the-arundell-howard-legend-exploring-a-genealogical-mystery-from-wardour-to-maryland/burial.webp" />
+      <img class="featured-img" src="/assets/img/2025/the-arundell-howard-legend-exploring-a-genealogical-mystery-from-wardour-to-maryland/burial.webp" alt="Burial record for Matthew Arundell of Wardour" data-gallery-src="/assets/img/2025/the-arundell-howard-legend-exploring-a-genealogical-mystery-from-wardour-to-maryland/burial.webp" />
       <div class="content">
         <div class="images-caption">Burial record for Matthew Arundell of Wardour, line 63</div>
       </div>
@@ -165,7 +165,7 @@ were Catholics who appeared in recusancy records, paid fines, and maintained
 Catholic practice. There is no evidence that Matthew Howard or his known
 descendants were Catholic, and his close association with Puritan neighbors
 suggests the opposite. It is difficult to imagine a Catholic child from an
-aristocratic family being raised among Puritans as a means of protection. 
+aristocratic family being raised among Puritans as a means of protection.
 
 Finally, the endorsement by lineage societies reflects the documentation
 standards of the early twentieth century. Many societies accepted printed
@@ -202,40 +202,3 @@ the work of genealogy is learning where the record ends and imagination begins.
 And this is why my [Starbucks
 name](https://www.economist.com/johnson/2013/01/04/my-starbucks-name) is "The
 Count."
-
-<!-- Modal -->
-<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body text-center">
-                <img id="modalImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" class="img-responsive" alt="Zoomed Image">
-                <p id="modalCaption" class="mt-3"></p>
-                <a id="modalLink" href="#" target="_blank" class="btn btn-primary mt-2">View Original Source</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // Attach click event listeners to all images with data-toggle="modal"
-        document.querySelectorAll('[data-toggle="modal"]').forEach(function (img) {
-            img.addEventListener('click', function () {
-                var fullImage = img.getAttribute('data-full'); // Get the full image URL
-                var modalImage = document.getElementById('modalImage'); // Modal image element
-                var modalCaption = document.getElementById('modalCaption'); // Modal caption element
-                var modalLink = document.getElementById('modalLink'); // Modal link element
-
-                modalImage.setAttribute('src', fullImage); // Set the src of the modal image
-                modalImage.setAttribute('alt', img.getAttribute('alt')); // Set alt text
-                modalCaption.textContent = img.getAttribute('alt'); // Use alt text as caption
-                modalLink.setAttribute('href', fullImage); // Placeholder for the original source
-            });
-        });
-    });
-</script>

@@ -24,7 +24,7 @@ So rather than giving what passes for a lecture in my classroom, I asked everyon
 
 Generally, there's an expectation of transitivity in voting outcomes.  That is, if voters prefer B to C, and prefer A to B, we expect them to prefer A to C.  This isn't necessarily the case and it is known as [Condorcet's paradox](https://en.wikipedia.org/wiki/Voting_paradox).  Because of this phenomenon, a majority rule system is not guaranteed to produce the most efficient allocation of governmental resources.
 
-So we started counting the ballots and something neat happened.  First, vanilla beat chocolate, 10 to 6.  Then vanilla beat strawberry, 10 to 6.  And then strawberry beat chocolate, 9 to 7.  So mathematically, [latex]v > c[/latex], [latex]v > s[/latex], and [latex]s > c[/latex].  Also, we expect [latex]v > s > c[/latex], and that does not contradict our results.  Well, so much for the class experiment.  
+So we started counting the ballots and something neat happened.  First, vanilla beat chocolate, 10 to 6.  Then vanilla beat strawberry, 10 to 6.  And then strawberry beat chocolate, 9 to 7.  So mathematically, [latex]v > c[/latex], [latex]v > s[/latex], and [latex]s > c[/latex].  Also, we expect [latex]v > s > c[/latex], and that does not contradict our results.  Well, so much for the class experiment.
 
 But then we counted the fourth ballot.  Here, vanilla received 9 notes, chocolate received 6, and strawberry received 1.  So now the rank ordering is [latex]v > c > s[/latex].  That's a different result.
 

@@ -1,13 +1,13 @@
 ---
 id: article-state-defense-forces
-title: New Article on State Defense Forces 
+title: New Article on State Defense Forces
 date: 2023-09-06
 author: k3jph
 layout: post
 permalink: /2023/09/06/article-state-defense-forces
 featured_image: /assets/img/news/article-state-defense-forces.webp
 categories:
-- Blog 
+- Blog
 tags:
 - emergency management
 - volunteerism

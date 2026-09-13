@@ -18,11 +18,13 @@ permalink: /ancestry/military-order-of-the-daughters-and-sons-of-ohio
 redirect_from: [/ancestry/modso, /ancestry/ogs/modso]
 ---
 
-{% include figure.html image="ancestry/ogs-modso.svg" 
-    placement="right" width="3"
-    link="https://www.ogs.org/about/lineage/modso"
-    cap="Logo of the Military Order of the Daughters and Sons of Ohio"
-    alt="Logo of the Military Order of the Daughters and Sons of Ohio" %}
+
+
+:::figure{src="/assets/img/ancestry/ogs-modso.svg" alt="Logo of the Military Order of the Daughters and Sons of Ohio" align="right" width="3" link="https://www.ogs.org/about/lineage/modso"}
+Logo of the Military Order of the Daughters and Sons of Ohio
+:::
+
+
 
 The [Military Order of the Daughters and Sons of Ohio
 (MODSO)](https://www.ogs.org/about/lineage/modso) is a lineage society
@@ -62,9 +64,12 @@ sacrifices have shaped our nation's history.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="/ancestry/OGS-MODSO-Rees.webp" border=true
-   alt="Membership certificate in the Military Order of the Daughters and Sons of Ohio"
-   cap="Membership certificate in the Military Order of the Daughters and Sons of Ohio" %}
-   
+
+
+:::figure{src="/ancestry/OGS-MODSO-Rees.webp" alt="Membership certificate in the Military Order of the Daughters and Sons of Ohio" align="center" width="12" border="true"}
+Membership certificate in the Military Order of the Daughters and Sons of Ohio
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/OGS-MODSO-Rees.pdf).

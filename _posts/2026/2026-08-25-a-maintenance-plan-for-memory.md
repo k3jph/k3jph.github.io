@@ -6,17 +6,20 @@ permalink: /2026/08/25/a-maintenance-plan-for-memory
 tags: [Maryland, baltimore, coast guard, war of 1812, francis scott key, memorials, heraldry]
 featured_image: /assets/img/2026/a-maintenance-plan-for-memory/a-maintenance-plan-for-memory.webp
 ---
-    
+
 The United States maintains thousands of buoys. They are numbered, charted,
 lit, and serviced on a schedule. Every one of them says some version of the
 same thing, which is that the channel is here and you are there. Exactly one
 buoy in American waters says something else. On the last Tuesday of July, I
 watched the Coast Guard put it in the water for the forty-sixth time.
 
-{% include figure.html image="2026/a-maintenance-plan-for-memory/fsk-ssb-1812.webp" 
-    placement="right" width="40%"
-    cap="Close up of the buoy's labeling"
-    alt="Close up of the buoy's labeling" %}
+
+
+:::figure{src="/assets/img/2026/a-maintenance-plan-for-memory/fsk-ssb-1812.webp" alt="Close up of the buoy's labeling" align="right" width="40%"}
+Close up of the buoy's labeling
+:::
+
+
 
 The Francis Scott Key Memorial Buoy marks the spot in the Patapsco River
 where an American truce ship lay at anchor during the bombardment of Fort
@@ -38,11 +41,14 @@ moored in a shipping channel must be charted whether or not it means
 anything. But it marks no shoal and guards no channel. Every other buoy in
 the Patapsco says steer here. This one says remember.
 
-{% include figure.html image="2026/a-maintenance-plan-for-memory/rankin-crest.webp" 
-    placement="right" width="40%"
-    cap="USCGC James Rankin's tower designation"
-    alt="USCGC James Rankin's tower designation" %}
-    
+
+
+:::figure{src="/assets/img/2026/a-maintenance-plan-for-memory/rankin-crest.webp" alt="USCGC James Rankin's tower designation" align="right" width="40%"}
+USCGC James Rankin's tower designation
+:::
+
+
+
 Only July 28th, I rode down from the Coast Guard Yard aboard USCGC James Rankin, the
 Baltimore-based buoy tender whose crew performs the commissioning each year.
 The Rankin wears its assignment openly. The ship's crest shows a Maryland

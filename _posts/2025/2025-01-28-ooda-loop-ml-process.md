@@ -50,11 +50,14 @@ through the OODA Loop repeatedly. Each iteration helps refine the
 approach, adapting to observations about the data and model performance.
 Let us break it down.
 
-{% include figure.html width="12" placement="center"
-   image="2025/ooda-loop-ml-process/ooda-loop-ml-flowchart.svg"
-   alt="A diagram of the OODA Loop process showing four interconnected steps: Observe, Orient, Decide, and Act, arranged in a circular flow to represent the iterative nature of decision-making."
-   cap="The cycle of observing, orienting, deciding, and acting emphasizes iteration and adaptability, essential for success in dynamic environments like machine learning" %}
-   
+
+
+:::figure{src="/assets/img/2025/ooda-loop-ml-process/ooda-loop-ml-flowchart.svg" alt="A diagram of the OODA Loop process showing four interconnected steps: Observe, Orient, Decide, and Act, arranged in a circular flow to represent the iterative nature of decision-making." align="center" width="12"}
+The cycle of observing, orienting, deciding, and acting emphasizes iteration and adaptability, essential for success in dynamic environments like machine learning
+:::
+
+
+
 ## Observe: Understanding the Data
 The first step in the OODA Loop is to observe. In machine learning, this
 means collecting, exploring, and deeply understanding the data you have
@@ -129,16 +132,19 @@ Ultimately, the goal of the orientation phase is to bridge the gap
 between the raw data and actionable hypotheses, setting the stage for
 the decision-making process that follows.
 
-{% include figure.html width="4" placement="right"
-   image="2025/ooda-loop-ml-process/ooda-feedback-loop.svg"
-   alt="A feedback-driven loop illustrating the connection between the four steps of the OODA Loop: Observe, Orient, Decide, and Act, highlighting how actions provide insights for new observations."
-   cap="The feedback loop in the OODA process ensures continuous improvement by linking actions back to observations, enabling iterative refinement of decisions" %}
+
+
+:::figure{src="/assets/img/2025/ooda-loop-ml-process/ooda-feedback-loop.svg" alt="A feedback-driven loop illustrating the connection between the four steps of the OODA Loop: Observe, Orient, Decide, and Act, highlighting how actions provide insights for new observations." align="right" width="4"}
+The feedback loop in the OODA process ensures continuous improvement by linking actions back to observations, enabling iterative refinement of decisions
+:::
+
+
 
 ## Decide: Choosing a Model
 The decision phase is where you narrow down potential algorithms and
 make informed choices on what to test first. This stage is as much about
 strategy as it is about experimentation, with each decision shaped by
-the insights gained in the previous steps. 
+the insights gained in the previous steps.
 
 - **Start simple**: Begin with interpretable, lightweight models like
   [linear

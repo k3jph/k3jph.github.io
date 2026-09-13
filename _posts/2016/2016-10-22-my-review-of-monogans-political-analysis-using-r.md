@@ -23,11 +23,13 @@ tags:
   - statistics
 ---
 The _Journal of Statistical Software_ has published another review
-I wrote, this time of Monogan's [_Political Analysis Using 
+I wrote, this time of Monogan's [_Political Analysis Using
 R_](https://www.jstatsoft.org/article/view/v074b01).
 The book is a solid choice for a primary or supplementary text in
 a political or policy methodology class, at the level of advanced
 undergraduate or first-year graduate student.  You can get more
 information from Springer's website:
 
-{% include iframely.html url="http://www.springer.com/us/book/9783319234458" %}
+
+
+::embed{href="http://www.springer.com/us/book/9783319234458"}

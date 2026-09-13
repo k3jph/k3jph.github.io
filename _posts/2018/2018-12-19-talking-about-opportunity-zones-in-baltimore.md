@@ -23,7 +23,7 @@ and how it affects the city. You can watch the video from the studio
 on YouTube:
 
 <blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0"><p class="h4"><a href="https://www.youtube.com/watch?v=UdrnOFHt_MI">DMVDaily Radio Show Live 12-18-2018 Tell The Truth Tuesday</a></p><p>It's another Tell The Truth Tuesday on the DMVDaily Radio Show. We start the show off by talking about President Trumps Opportunity Zones and what it means t...</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
 
 The first half of the show has [Anirban
 Basu](https://www.sagepolicy.com/who-we-are/) and then I spend the

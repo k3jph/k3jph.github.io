@@ -20,7 +20,7 @@ This morning, [Confessions of a Community College Dean](http://suburbdad.blogspo
 
 > Most of us in higher education would give vital organs to never again hear a student say "I'm just not a math person." Nobody is.  Math is a set of skills and a way of thinking, and it can be developed through sustained practice.  But that means accepting the possibility of having to work hard to get it.  It means having faith that not getting it the first time doesn’t mean that you never will.
 
-This is part of a broader context about the portrayal of smart people in media.  They work hard and fail a lot.  In other words, like everything else, it takes a lot of hard work to make it look this easy.  
+This is part of a broader context about the portrayal of smart people in media.  They work hard and fail a lot.  In other words, like everything else, it takes a lot of hard work to make it look this easy.
 
 Simultaneously, psychology graduate student David Miller writes about the affect believing can have on STEM education.  Students provided encouragement tend to do better overall, even in complicated technical fields.  This should not be a surprise to anyone.
 

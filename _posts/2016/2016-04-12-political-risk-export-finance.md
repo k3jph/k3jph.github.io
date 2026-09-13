@@ -28,6 +28,10 @@ Here's a great article on export credit.  Following the fight over the Export-Im
 
 Predictably, I make an appearance discussing political risk.  You can get the full article on _Global Trade_'s website:
 
-{% include iframely.html url="http://www.globaltrademag.com/banking-on-global-trade/export-credit-agencies-abide" %}
+
+
+::embed{href="http://www.globaltrademag.com/banking-on-global-trade/export-credit-agencies-abide"}
+
+
 
 _Image of the Boeing Everett Factory via [Jetstar Airways and Wikimedia](https://en.wikipedia.org/wiki/File:Jetstar%27s_first_787_on_the_production_line_(9132370198).webp).  Boeing is a beneficiary of Ex-Im Bank's financing options, creating jobs throughout the United States._

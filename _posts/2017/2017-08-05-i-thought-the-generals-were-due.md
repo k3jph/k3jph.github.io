@@ -106,6 +106,10 @@ or your picked numbers, but I think the best option is always a
 machine-generated random ticket.  Whatever you do, never bet against
 the Harlem Globetrotters:
 
-{% include youtube.html id="s4GAj2v4BIE" %}
+
+
+::youtube{video="s4GAj2v4BIE"}
+
+
 
 [^clumsy]:  Yes, I know that's clumsy, but it keeps it simple for the next step.

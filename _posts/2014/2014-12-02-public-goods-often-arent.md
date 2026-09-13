@@ -19,9 +19,9 @@ tags:
   - public policy
   - taxes
 ---
-It's that time of the year, as it always is, where we need a lesson on public goods.  Public goods are a concept of economics defined by goods that are [nonrivalrous](http://en.wikipedia.org/wiki/Rivalry_(economics)) and [nonexcludable](http://en.wikipedia.org/wiki/Excludability).  
+It's that time of the year, as it always is, where we need a lesson on public goods.  Public goods are a concept of economics defined by goods that are [nonrivalrous](http://en.wikipedia.org/wiki/Rivalry_(economics)) and [nonexcludable](http://en.wikipedia.org/wiki/Excludability).
 
-Rivalrous goods are those which cannot be used more than once.  For instance, after I eat a cheeseburger, nobody else can eat it.  It's not a thing.  But other goods can be reused again and again.  One such good is a movie.  After I watch it, you can watch it without any loss of utility.  
+Rivalrous goods are those which cannot be used more than once.  For instance, after I eat a cheeseburger, nobody else can eat it.  It's not a thing.  But other goods can be reused again and again.  One such good is a movie.  After I watch it, you can watch it without any loss of utility.
 
 Excludability is different.  Excludability is the ability to keep someone from using something.  Can a fence be put around it.  For instance, a toll bridge is excludable.  The bridge troll can keep you from passing.  But national security is not excludable.  If you live in the United States, and enjoy the protection of the United States Army, you cannot stop me from also being protected.
 

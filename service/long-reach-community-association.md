@@ -18,6 +18,10 @@ In 2009, the Howard County Government developed a set of steps each village must
 
 ### Related Posts
 
-{% include relatedposts.html tag="Long Reach" %}
+
+
+::related-posts{tag="Long Reach"}
+
+
 
 _Image by [Orchard Development Corporation](http://orcharddevelopment.com/)._

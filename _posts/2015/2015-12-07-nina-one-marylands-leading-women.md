@@ -15,6 +15,10 @@ tags:
 ---
 This evening, I am at the Maryland Daily Record's banquet for their [2015 Leading Women Awards](http://thedailyrecord.com/leading-women/).  I am here to see Nina Basu honored:
 
-{% include iframely.html url="http://thedailyrecord.com/leading-women/nina-basu/" %}
+
+
+::embed{href="http://thedailyrecord.com/leading-women/nina-basu/"}
+
+
 
 Because she's awesome.

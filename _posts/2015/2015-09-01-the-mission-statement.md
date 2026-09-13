@@ -26,7 +26,7 @@ Its elegance is striking.  Of course, the [rule of threes](https://en.wikipedia.
 
 >  The Coffee Machine provides great coffee, delicious food, and amazing community for our neighbors.
 
-We also added some adjectives, but you get the idea.  A critical aspect of the mission statement is that it is written in the present tense.  It's what we are doing today.  In the case of the startup, it is what I imagine we are doing on day 1.  It is also active, beyond the active voice.  We don't say "The Coffee Machine exists to..." because the language is sterile, and we certainly don't say "Great coffee is provided by the Coffee Machine."  
+We also added some adjectives, but you get the idea.  A critical aspect of the mission statement is that it is written in the present tense.  It's what we are doing today.  In the case of the startup, it is what I imagine we are doing on day 1.  It is also active, beyond the active voice.  We don't say "The Coffee Machine exists to..." because the language is sterile, and we certainly don't say "Great coffee is provided by the Coffee Machine."
 
 The statement, though, answers three critical questions.  First, we answer who is doing something.  That is probably always us, but that's okay.  Second, we say what we are doing.  We provide great coffee, delicious food, and amazing community.  Third, we say for whom we are doing it.  It's not just our customers.  It goes beyond that.  The mission statement is an opportunity to define the customer base broadly.  Sitting here in Maryland, I am not providing coffee to Seattle.[^victrola]  But I am for "our neighbors," which not only defines a geographic scope, but uses a positive appellation for the customer base.  It creates a connection we can build upon later.
 

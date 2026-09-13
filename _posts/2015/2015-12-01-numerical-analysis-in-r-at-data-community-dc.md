@@ -26,4 +26,6 @@ A week from tonight, I'll be talking to [Statistical Programming DC](https://www
 
 Find out more and register at the Meetup page:
 
-{% include iframely.html url="http://www.meetup.com/stats-prog-dc/events/227114848/" %}
+
+
+::embed{href="http://www.meetup.com/stats-prog-dc/events/227114848/"}

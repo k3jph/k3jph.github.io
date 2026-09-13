@@ -3,6 +3,8 @@ import { unified } from '@astrojs/markdown-remark';
 import rehypeKatex from 'rehype-katex';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
+import remarkDirective from 'remark-directive';
+import remarkSitePrimitives from './src/plugins/remark-site-primitives.mjs';
 
 function remarkExplicitHeadingIds() {
   return (tree) => {
@@ -26,11 +28,13 @@ function remarkExplicitHeadingIds() {
 export default defineConfig({
   site: 'https://jameshoward.us',
   output: 'static',
-  trailingSlash: 'always',
+  // Accept both historical slashless URLs and directory-style URLs in dev.
+  // The static build remains directory-formatted for GitHub Pages.
+  trailingSlash: 'ignore',
   build: { format: 'directory' },
   compressHTML: true,
   markdown: {
-    processor: unified({ gfm: true, remarkPlugins: [remarkGfm, remarkMath, remarkExplicitHeadingIds], rehypePlugins: [rehypeKatex] }),
+    processor: unified({ gfm: true, remarkPlugins: [remarkGfm, remarkMath, remarkDirective, remarkSitePrimitives, remarkExplicitHeadingIds], rehypePlugins: [rehypeKatex] }),
     shikiConfig: { theme: 'github-dark', wrap: true },
   },
 });

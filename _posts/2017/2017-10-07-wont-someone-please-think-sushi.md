@@ -56,4 +56,3 @@ harvested](http://www.latimes.com/science/la-me-fish-toxins-20160208-story.html)
 This is good news for the fish, since they don't want to be poisoned
 any more than I do.  And it means I can keep giving sushi to the
 kids.
-

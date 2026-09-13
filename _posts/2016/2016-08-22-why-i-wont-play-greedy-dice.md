@@ -28,7 +28,7 @@ Siege](http://xy11.pokemontcgxy.com/en-us/index.php), for us.  He
 got two and I got two and we each pulled Greedy Dice:
 
 <blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article"><p class="h4"><a href="http://shop.tcgplayer.com/pokemon/xy-steam-siege/greedy-dice">Greedy Dice</a></p><p>Our marketplace is open, support your local gaming stores. More Details Card Number / Rarity: 102 / Uncommon Card Type: Item / / Card Text: You can play this card only if you took it as a face-down Prize card, before you put it into your hand. Flip a coin.</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
 
 He asked me if I was going to add it to my deck, and the answer is
 no, and of course, he wants to know why.  Let's look at how you
@@ -48,7 +48,7 @@ your opponent) some insight into your prize cards and allow for
 more selective draws.
 
 <blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article"><p class="h4"><a href="http://shop.tcgplayer.com/pokemon/xy-breakthrough/town-map">Town Map</a></p><p>Our marketplace is open, support your local gaming stores. More Details Card Number / Rarity: 150 / Uncommon Card Type: Item / / Card Text: Turn all of your Prize cards face up. (Those Prize cards remain face up for the rest of the game.) Want to become a pricing pro?</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
 
 There's a counterargument that if Greedy Dice lands in your hand
 via a draw, it still has use as discard fodder, for a card like

@@ -29,7 +29,7 @@ As you read through the article, the logic is essentially, Bitcoin cannot be a c
 2. It is a store of value, and
 3. It provides a unit of account.
 
-I am not sure which property O'Brien thinks Bitcoin fails to satisfy, because his argument is grounded in pop psychology, rather than economics.  Then things get weird.  
+I am not sure which property O'Brien thinks Bitcoin fails to satisfy, because his argument is grounded in pop psychology, rather than economics.  Then things get weird.
 
 O'Brien claims the energy necessary to manage the Bitcoin network generates pollution and that's a public problem.  I am not sure if he is aware of the energy necessary to maintain other transaction systems.  Banks run large computers and tills everywhere require electricity.  And the paper for printing bills, receipts, and money itself doesn't grow on trees.
 

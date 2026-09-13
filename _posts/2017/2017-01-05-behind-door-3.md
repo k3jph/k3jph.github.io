@@ -24,7 +24,11 @@ tags:
 I am in Atlanta right now and tomorrow morning I am giving a talk
 on the SMBC cartoon, "An Ethical Trilemma":
 
-{% include iframely.html url="http://smbc-comics.com/index.php?id=4132" %}
+
+
+::embed{href="http://smbc-comics.com/index.php?id=4132"}
+
+
 
 Despite the punchline, "So far, no ethicists are impressed with the
 Monty Hall Trolley Problem," I am impressed with the problem.  It

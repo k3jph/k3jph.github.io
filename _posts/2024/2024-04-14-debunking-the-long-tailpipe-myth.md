@@ -1,13 +1,13 @@
 ---
 id: debunking-the-long-tailpipe-myth
-title: 'Debunking the "Long Tailpipe" Myth' 
+title: 'Debunking the "Long Tailpipe" Myth'
 date: 2024-04-14
 author: k3jph
 layout: post
-permalink: /2024/04/14/debunking-the-long-tailpipe-myth 
+permalink: /2024/04/14/debunking-the-long-tailpipe-myth
 featured_image: /assets/img/2024/debunking-the-long-tailpipe-myth.webp
 categories:
-- Blog 
+- Blog
 tags:
 - environment
 - futurism
@@ -158,4 +158,3 @@ energy, efficient technologies, and sustainable practices. This
 support will be vital in realizing the full potential of electric
 vehicles and ensuring that this technology contributes positively
 to our planet and its people.
-

@@ -30,7 +30,7 @@ Buddhist philosophy presents the idea that [discontentment is a fundamental part
 
 6. Right effort,
 7. Right mindfulness, and
-8. Right concentration.  
+8. Right concentration.
 
 These aspects confine and define the meditation practice, making it somewhat different from the meditation practices of other traditions, including the closely related [Hindu](http://www.hinduwebsite.com/hinduism/essays/meditation.asp) and [Taoist](http://www.huffingtonpost.com/sat-hon/a-field-guide-to-taoist-m_b_875634.html) meditation practices.  In this regard, Buddhism is more a philosophical approach and study than it is a religion, though it has inherited religious aspects from different folk and cultural traditions throughout southern and eastern Asia.
 

@@ -95,7 +95,7 @@ This solution had three key features:
     allow the public to vote for electors.
 -   It insulated the process from direct influence by Congress and, at least in
     theory, from foreign interference or mass manipulation.
-    
+
 Madison summarized the tradeoffs succinctly:
 
 > The election of the president is pretty well guarded. I venture somewhat
@@ -109,8 +109,8 @@ and were deeply suspicious of too much democracy. What emerged was a compromise
 that gave states significant power over the process, while layering in enough
 complexity to keep any one faction from dominating.
 
-It was also, crucially, a system that made room for slavery. 
-        
+It was also, crucially, a system that made room for slavery.
+
 ##  What Hamilton Claimed It Did
 
 When it came time to explain the Constitution to the public, Alexander Hamilton
@@ -122,7 +122,7 @@ Philadelphia.
 
 He begins by noting the stakes:
 
-> The mode of appointment of the Chief Magistrate of the United States is almost the only part of the system, of any consequence, which has escaped without severe censure  
+> The mode of appointment of the Chief Magistrate of the United States is almost the only part of the system, of any consequence, which has escaped without severe censure
 > — _Federalist No. 68_
 
 Hamilton's goal is to frame the Electoral College as a stroke of constitutional

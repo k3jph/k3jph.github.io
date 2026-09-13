@@ -21,7 +21,7 @@ tags:
   - free stuff
   - Fukushima
 ---
-For those of you who don't know, Springer will be publishing my new book on flood insurance pretty much any minute now.  In fact, it is already on [SpringerLink](http://link.springer.com/book/10.1007/978-3-319-29063-8).  And that's kind of cool.  
+For those of you who don't know, Springer will be publishing my new book on flood insurance pretty much any minute now.  In fact, it is already on [SpringerLink](http://link.springer.com/book/10.1007/978-3-319-29063-8).  And that's kind of cool.
 
 To commemorate the March 11, 2011 Earthquake, Springer has made an extensive series of articles, books, and chapters available for free under the heading [Coping with Disaster](http://www.springer.com/gp/marketing/coping-with-disaster).  The collection provides information on individuals, PTSD, business response, environmental effects, and a lot more.  If you've done some work on any of these things, there's something here for you.
 

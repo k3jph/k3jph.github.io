@@ -17,7 +17,7 @@ tags:
 ---
 Everyone has been posting their first day of school pictures this
 week and I am reminded of a different first day of school.  Twenty
-years ago, I took a dive into the deep end.  It was 
+years ago, I took a dive into the deep end.  It was
 August 27th, 1996. And it was the day I dropped out of high school.
 
 In May of 1996, I had completed the tenth grade.  Like all normal

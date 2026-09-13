@@ -25,7 +25,7 @@ He's right, but wrong at the same time.  First of all, there is no shortage of s
 
 For any given textbook, searching for the title and the word syllabus in Google should get you some solid hits.  It's probably a bit easier to hit in the hard sciences, where entire departments tend to put theirs online.  But there are enough professors out there sharing it shouldn't be a problem.
 
-For many textbooks, today, part of the instructors materials include a sample syllabus, in addition to sample slides and exam questions.  And the reasonably new _[Syllabus](http://www.syllabusjournal.org/syllabus)_ journal publishes peer-reviewed syllabi and other course materials.  
+For many textbooks, today, part of the instructors materials include a sample syllabus, in addition to sample slides and exam questions.  And the reasonably new _[Syllabus](http://www.syllabusjournal.org/syllabus)_ journal publishes peer-reviewed syllabi and other course materials.
 
 The stuff is out there, you just have to know where to look.
 

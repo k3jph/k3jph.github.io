@@ -21,7 +21,11 @@ that the confluence of unusual events confirms the simulation
 hypothesis.  Specifically, the results from the Oscars, the Super
 Bowl, and 2016 Election confirm a "glitch in the matrix" has occurred:
 
-{% include iframely.html url="http://www.newyorker.com/culture/cultural-comment/did-the-oscars-just-prove-that-we-are-living-in-a-computer-simulation" %}
+
+
+::embed{href="http://www.newyorker.com/culture/cultural-comment/did-the-oscars-just-prove-that-we-are-living-in-a-computer-simulation"}
+
+
 
 The simulation hypothesis was first given by Hans Moravec and was
 expanded by philosophy nerd [Nick

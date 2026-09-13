@@ -52,9 +52,12 @@ genealogical research.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="/ancestry/OGS-SBO-Rees.webp" border=true
-   alt="Membership certificate in the Settlers and Builders of Ohio"
-   cap="Membership certificate in the Settlers and Builders of Ohio" %}
-   
+
+
+:::figure{src="/ancestry/OGS-SBO-Rees.webp" alt="Membership certificate in the Settlers and Builders of Ohio" align="center" width="12" border="true"}
+Membership certificate in the Settlers and Builders of Ohio
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/OGS-SBO-Rees.pdf).

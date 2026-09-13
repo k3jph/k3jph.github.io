@@ -1,5 +1,5 @@
 ---
-id:   
+id:
 title: Teaching and Learning Mathematics Online is Published
 date: 2020-05-12T12:08:00-04:00
 author: k3jph
@@ -33,8 +33,13 @@ related to math anxiety, conceptual understanding of mathematical
 ideas, communicating mathematically, and the appropriate use of
 technology.
 
-{% include figure.html image="news/tlmo-cover-300px.webp" placement="right" width="40%"
-   alt="Teaching and Learning Mathematics Online book cover" %}
+
+
+:::figure{src="/assets/img/news/tlmo-cover-300px.webp" alt="Teaching and Learning Mathematics Online book cover" align="right" width="40%"}
+
+:::
+
+
 
 _TLMO_ bridges these issues by presenting meaningful and practical
 solutions for teaching mathematics and statistics online. It focuses
@@ -61,7 +66,9 @@ happen.  Most importantly, though, I want to call out [Mina
 Sedaghatjou](https://www.sedaghatjou.com/).  She's taken the lead
 in a global presentation series on improving STEM education online
 in the wake of COVID-19.  I was fortunate to [give the first talk
-in the series](/2020/04/24/the-challenge-of-assessment-and-evaluation-in-online-education/).  
+in the series](/2020/04/24/the-challenge-of-assessment-and-evaluation-in-online-education/).
 You can see the rest of them here on YouTube:
 
-{% include iframely.html url="https://www.youtube.com/channel/UChpmx0PHVjZvnkF0i901t0g/" %}
+
+
+::embed{href="https://www.youtube.com/channel/UChpmx0PHVjZvnkF0i901t0g/"}

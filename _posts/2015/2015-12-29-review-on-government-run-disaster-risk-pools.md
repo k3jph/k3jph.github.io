@@ -26,8 +26,8 @@ There's a great review article in the _International Journal of Disaster Risk Re
 * Pricing reflective of risk signals peril to market participants, and
 * Financial risk reduction is not real risk reduction.
 
-All of this applies to the NFIP.  Pricing is out of step with real risk and that's the primary reason the program is in debt.  Further, pricing subsidies do not expose purchasers to real risk and they do not understand how much risk there is.  
+All of this applies to the NFIP.  Pricing is out of step with real risk and that's the primary reason the program is in debt.  Further, pricing subsidies do not expose purchasers to real risk and they do not understand how much risk there is.
 
-Finally, and this is really important, better land use can reduce net flood risk.  Local government should discourage or prohibit development of higher risk areas.  This will have a two-fold effect.  First, by taking people out of the disaster path, they are less likely to be affect.  Second, preservation of higher risk areas allow them to absorb more flood damage without extending beyond the area.  
+Finally, and this is really important, better land use can reduce net flood risk.  Local government should discourage or prohibit development of higher risk areas.  This will have a two-fold effect.  First, by taking people out of the disaster path, they are less likely to be affect.  Second, preservation of higher risk areas allow them to absorb more flood damage without extending beyond the area.
 
 _It's not a flood.  Image by [Sparkle Motion via Flickr](https://www.flickr.com/photos/54125007@N08/14937433228)._

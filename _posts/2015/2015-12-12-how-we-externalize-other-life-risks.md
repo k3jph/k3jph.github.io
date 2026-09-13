@@ -29,9 +29,8 @@ In my [estimate of the costs of gun violence](/2015/12/05/gun-related-violence-r
 
 That's a great example, and one really worth unpacking.  I replied with the less obvious piece, noting that with respect to automobiles, the are large both intrinsic and extrinsic benefits associated with automobiles. But there are large external costs, as well, and that's why we have similar taxes on gas, toxic fluid disposal, and tire recycling, and others associated with vehicles.  These externalize and offset the costs of producing roads, safely disposing of motor oil, and ensuring tires do not get landfilled, where they take up enormous amounts of space and are a fire hazard.
 
-None of this offsets the risk to human life from accidents, but there's a solution for that, too.  The government, at least in the United States, requires you to carry automobile insurance just to drive.  This is an enforced requirement, and not having insurance effectively makes you ineligible to drive, even with an otherwise valid license.  Different states have different requirements, but here in Maryland, the [minimum insurance requirements](https://www.geico.com/information/states/md/) are much lower than the externalized costs.  Many plans substantially exceed the minimum, for just that reason.  
+None of this offsets the risk to human life from accidents, but there's a solution for that, too.  The government, at least in the United States, requires you to carry automobile insurance just to drive.  This is an enforced requirement, and not having insurance effectively makes you ineligible to drive, even with an otherwise valid license.  Different states have different requirements, but here in Maryland, the [minimum insurance requirements](https://www.geico.com/information/states/md/) are much lower than the externalized costs.  Many plans substantially exceed the minimum, for just that reason.
 
 So yes, the comment is right, it would be like applying such a fee to car parts or miles driven, which is why that is exactly what we already do.
 
 _Image by [Torsodog / Wikimedia](https://commons.wikimedia.org/wiki/File:Japanese_car_accident_blur.webp)._
-

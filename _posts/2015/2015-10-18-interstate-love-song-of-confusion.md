@@ -15,10 +15,16 @@ tags:
   - Maryland
   - transportation policy
 ---
-Going northbound on [U.S. Route 29](https://en.wikipedia.org/wiki/U.S._Route_29_in_Maryland), there are two three exits for [Interstate 70](https://en.wikipedia.org/wiki/Interstate_70_in_Maryland).  The first right-exit goes to eastbound I-70.  The second right-exit goes through a cloverleaf to westbound I-70.  Immediately after the second right-exit is a left-exit that also leads westbound I-70.  
+Going northbound on [U.S. Route 29](https://en.wikipedia.org/wiki/U.S._Route_29_in_Maryland), there are two three exits for [Interstate 70](https://en.wikipedia.org/wiki/Interstate_70_in_Maryland).  The first right-exit goes to eastbound I-70.  The second right-exit goes through a cloverleaf to westbound I-70.  Immediately after the second right-exit is a left-exit that also leads westbound I-70.
 
 I don't get it, but I bet it makes this guy happy.
 
-{% include figure.html image="news/scarecrow.webp" alt="This guy would like this (MGM)" cap="This guy would like this (MGM)" %}
+
+
+:::figure{src="/assets/img/news/scarecrow.webp" alt="This guy would like this (MGM)" align="center" width="100"}
+This guy would like this (MGM)
+:::
+
+
 
 _Image stolen from [Google Maps](https://www.google.com/maps/@39.2961111,-76.8252186,15z)._

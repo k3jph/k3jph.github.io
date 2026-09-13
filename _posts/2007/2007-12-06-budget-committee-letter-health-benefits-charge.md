@@ -22,7 +22,7 @@ The Budget Committee has issued a letter to the Planning and Strategy Committee 
 > 6 December 2007
 >
 > Dear Ms. Broida,
-> 
+>
 > Given the recently completed agreement on health benefits for employees of Columbia's ten villages, the Budget Committee finds any analysis of the current plan would be obsolete. Therefore, the Budget Committee requests the following words be stricken from the FY2008 Budget Committee charge:
 >
 >> And 4) Analyze CA Team Member medical insurance benefits and costs and those provided by the village community associations for their employees to determine best options to maximize coverage, achieve parity, and minimize costs.

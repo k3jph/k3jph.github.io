@@ -29,7 +29,11 @@ this leads to stupid comments online.
 This post from the _Journal-News_, a hometown newspaper, includes
 many:
 
-{% include fbembed.html url="https://www.facebook.com/journalnews/posts/10161541194175408" %}
+
+
+::embed{href="https://www.facebook.com/journalnews/posts/10161541194175408"}
+
+
 
 Here are a few samples:
 

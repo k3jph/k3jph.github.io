@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/03/12/lord-baltimores-influence-on-marylands-heraldry
 featured_image: /assets/img/2024/lord-baltimores-influence-on-marylands-heraldry.webp
 categories:
-- Blog 
+- Blog
 tags:
 - nobility
 - Maryland
@@ -23,7 +23,7 @@ United States.  But I also live in Maryland...
 
 Living in Maryland, far from the shores of England, one might not expect to
 encounter much English tradition.  But Maryland  sometimes has trouble
-distancing itself from some of the ancient  English traditions. 
+distancing itself from some of the ancient  English traditions.
 
 Our state flag, derived from the arms of [Cecil Calvert, 2nd Baron
 Baltimore](https://en.wikipedia.org/wiki/Cecil_Calvert,_2nd_Baron_Baltimore),
@@ -32,16 +32,28 @@ states, Maryland goes a step further by consistently incorporating coats of arms
 into the seals of its institutions, blending old-world symbolism with modern
 identity.
 
-<div class="row">
-{% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/maryland-flag.webp" 
-   alt="The Flag of Maryland" cap="The Flag of Maryland" %}
-{% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/baron-baltimore-arms.webp" 
-   alt="The Arms of Cecil Calvert, 2nd Baron Baltimore" cap="The Arms of Cecil Calvert, 2nd Baron Baltimore" %}
-{% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/maryland-seal.webp" 
-   alt="The Seal of Maryland" cap="The Seal of Maryland" %}
+<div class="content-grid">
+
+
+:::figure{src="/2024/lord-baltimores-influence-on-marylands-heraldry/maryland-flag.webp" alt="The Flag of Maryland" align="center" width="4"}
+The Flag of Maryland
+:::
+
+
+
+
+:::figure{src="/2024/lord-baltimores-influence-on-marylands-heraldry/baron-baltimore-arms.webp" alt="The Arms of Cecil Calvert, 2nd Baron Baltimore" align="center" width="4"}
+The Arms of Cecil Calvert, 2nd Baron Baltimore
+:::
+
+
+
+
+:::figure{src="/2024/lord-baltimores-influence-on-marylands-heraldry/maryland-seal.webp" alt="The Seal of Maryland" align="center" width="4"}
+The Seal of Maryland
+:::
+
+
 </div>
 
 This is all to say that as Marylanders, we will happily die on any hill over our
@@ -60,16 +72,28 @@ distinct from its official seal:
 > Quarterly, per fess embattled: 1st and 4th, Azure, a fleur-de-lis Or; 2nd and
 > 3rd, Gules, a ring Or, stoned Azure.
 
-<div class="row">
-{% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/moco-arms.webp" 
-   alt="The Arms of Montgomery County" cap="The Arms of Montgomery County" %}
-{% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/richard-montgomery-arms.webp" 
-   alt="The Arms of Richard Montgomery" cap="The Arms of Richard Montgomery" %}
-{% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/moco-seal.webp" 
-   alt="The Seal of Montgomery County" cap="The Seal of Montgomery County" %}
+<div class="content-grid">
+
+
+:::figure{src="/2024/lord-baltimores-influence-on-marylands-heraldry/moco-arms.webp" alt="The Arms of Montgomery County" align="center" width="4"}
+The Arms of Montgomery County
+:::
+
+
+
+
+:::figure{src="/2024/lord-baltimores-influence-on-marylands-heraldry/richard-montgomery-arms.webp" alt="The Arms of Richard Montgomery" align="center" width="4"}
+The Arms of Richard Montgomery
+:::
+
+
+
+
+:::figure{src="/2024/lord-baltimores-influence-on-marylands-heraldry/moco-seal.webp" alt="The Seal of Montgomery County" align="center" width="4"}
+The Seal of Montgomery County
+:::
+
+
 </div>
 
 Montgomery County was named for Richard Montgomery.  Accordingly, the arms are a
@@ -93,18 +117,26 @@ public symbolism.
 heraldic traditions into its identity, linking itself both to the
 state and to its educational mission:
 
-> Quarterly: 1st and 4th, Paly Or and Sable, a bend counterchanged; 2nd and 3rd, 
-> quarterly argent and gules, a cross bottony counterchanged; over all an armillary 
+> Quarterly: 1st and 4th, Paly Or and Sable, a bend counterchanged; 2nd and 3rd,
+> quarterly argent and gules, a cross bottony counterchanged; over all an armillary
 > sphere Or between two books Argent on a chief Azure.
 
-<div class="row">
-<div class="item col-md-2">&nbsp;</div>
-{% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/jhu-seal.webp" 
-   alt="The Seal of the Johns Hopkins University" cap="The Seal of the Johns Hopkins University" %}
-{% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/jhu-logo.webp" 
-   alt="The Logo of the Johns Hopkins University" cap="The Logo of the Johns Hopkins University" %}
+<div class="content-grid">
+<div class="item content-grid__item content-grid__item--narrow">&nbsp;</div>
+
+
+:::figure{src="/2024/lord-baltimores-influence-on-marylands-heraldry/jhu-seal.webp" alt="The Seal of the Johns Hopkins University" align="center" width="4"}
+The Seal of the Johns Hopkins University
+:::
+
+
+
+
+:::figure{src="/2024/lord-baltimores-influence-on-marylands-heraldry/jhu-logo.webp" alt="The Logo of the Johns Hopkins University" align="center" width="4"}
+The Logo of the Johns Hopkins University
+:::
+
+
 </div>
 
 The university's seal features the Lord Baltimore's arms, untouched, but adds
@@ -119,17 +151,25 @@ The [Roman Catholic Archdiocese of Baltimore](https://www.archbalt.org/)'s  arms
 offer a distinct interpretation of heraldic traditions, reflecting its  position
 within the ecclesiastical hierarchy of the United States:
 
-> Quarterly, Azure and Argent, in dexter chief a star of the Second, a cross 
+> Quarterly, Azure and Argent, in dexter chief a star of the Second, a cross
 > botonny quarterly, Second and Gules.
 
-<div class="row">
-<div class="item col-md-2">&nbsp;</div>
-{% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/baltimore-archdiocese-arms.webp" 
-   alt="The Arms of the Archdiocese of Baltimore" cap="The Arms of the Archdiocese of Baltimore" %}
-{% include figure.html width="4"
-   image="/2024/lord-baltimores-influence-on-marylands-heraldry/crossland-arms.webp" 
-   alt="The Arms of Crossland" cap="The Arms of Crossland" %}
+<div class="content-grid">
+<div class="item content-grid__item content-grid__item--narrow">&nbsp;</div>
+
+
+:::figure{src="/2024/lord-baltimores-influence-on-marylands-heraldry/baltimore-archdiocese-arms.webp" alt="The Arms of the Archdiocese of Baltimore" align="center" width="4"}
+The Arms of the Archdiocese of Baltimore
+:::
+
+
+
+
+:::figure{src="/2024/lord-baltimores-influence-on-marylands-heraldry/crossland-arms.webp" alt="The Arms of Crossland" align="center" width="4"}
+The Arms of Crossland
+:::
+
+
 </div>
 
 By adopting a variation of the Crossland arms and incorporating a singular star,

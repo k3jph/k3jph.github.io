@@ -99,9 +99,12 @@ family's presence in the region.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="ancestry/NSSAR-Coates.webp" border=true
-   alt="Membership certificate in the National Society of the Sons of the American Revolution"
-   cap="Membership certificate in the National Society of the Sons of the American Revolution" %}
-   
+
+
+:::figure{src="/assets/img/ancestry/NSSAR-Coates.webp" alt="Membership certificate in the National Society of the Sons of the American Revolution" align="center" width="12" border="true"}
+Membership certificate in the National Society of the Sons of the American Revolution
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/NSSAR-Coates.pdf).

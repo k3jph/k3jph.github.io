@@ -25,7 +25,7 @@ Yesterday's post referred to "benefit-cost analysis" which is the same as what a
 But he told it like this, during class.  "Benefit-cost analysis" puts the fundamental equation of benefit-cost analysis right into the title.  "Cost-benefit" gets it backwards.  The field itself is pretty well split on the matter.  The leading textbook, _[Cost-Benefit Analysis](http://www.amazon.com/Cost-Benefit-Analysis-4th-Pearson-Economics/dp/0137002696/ref=sr_1_3?ie=UTF8&qid=1440590305&sr=8-3&keywords=boardman&pebp=1440590308776&perid=158WJDE5NFVBMEWPZCR8)_ by Boardman, Greenberg, Vining, and Weimer uses one version of the name.  But the main society for the field, [Society of Benefit-Cost Analysis](http://benefitcostanalysis.org/).
 
 And the history of Google searches shows that most prefer "cost-benefit analysis" at around 8 to 1:
-<script type="text/javascript" src="//www.google.com/trends/embed.js?hl=en-US&q=%22benefit-cost%22,+%22cost-benefit%22&cmpt=q&tz=Etc/GMT%2B4&tz=Etc/GMT%2B4&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=500&h=330"></script>
+<p class="embed-link"><a href="https://trends.google.com/trends/explore?q=benefit-cost,cost-benefit">View the comparison in Google Trends</a></p>
 
 But I learned one way in grad school and like a lot of people who get into habits in grad school, I never left this one behind.
 

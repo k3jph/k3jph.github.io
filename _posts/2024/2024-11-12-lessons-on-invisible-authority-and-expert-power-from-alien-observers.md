@@ -21,7 +21,7 @@ generals, blue is for captains, green for lieutenants, and so on. To
 Captain Kleck, this system is as logical as it gets. But then he sees
 something that makes his antennae twitch. A human doctor with no visible
 insignia or rank walks onto the scene and starts ordering around
-high-ranking officers. And they listen. 
+high-ranking officers. And they listen.
 
 This science fiction story about Kleck and "Doc" (Dr. Chen) offers a
 surprisingly relatable look at real-world power structures. It's funny
@@ -38,7 +38,11 @@ it's invisible in the organizational chart. Buckle up, because it turns
 out that Captain Kleck's bewilderment with human authority structures
 has a lot to teach us.
 
-{% include youtube.html id="4OsZ7wuId0I" %}
+
+
+::youtube{video="4OsZ7wuId0I"}
+
+
 
 ## The Alien View: Formal vs. Informal Power Structures
 
@@ -71,7 +75,7 @@ which comes from knowledge, skill, or even personality. Formal
 structures are easier to spot--like the Zexians' color-coded ranks--while
 informal structures are often invisible but just as real. In a medical
 emergency, Dr. Chen's informal authority takes precedence over formal
-ranks because her expertise is what the situation demands. 
+ranks because her expertise is what the situation demands.
 
 In human organizations, especially dynamic ones, these two types of
 power can overlap, clash, or complement each other, depending on the
@@ -92,19 +96,14 @@ setting: **legitimate**, **reward**, **coercive**, **referent**, and
 Dr. Chen's unexpected command over high-ranking military officers in the
 story is a perfect case study.
 
-{% include figure.html width="12" placement="center"
-   image="/2024/lessons-on-invisible-authority-and-expert-power-from-alien-observers/french-and-ravens-bases-of-power.webp"
-   alt="Mindmap diagram showing French and Raven's Bases of Power with
-   five branches: Legitimate Power, Reward Power, Coercive Power,
-   Referent Power, and Expert Power. Legitimate Power is based on formal
-   roles, with the example of military authority. Reward Power relates
-   to control over rewards, with examples like bonuses. Coercive Power
-   involves enforcement or punishment, with an example of mandatory
-   screenings. Referent Power is based on respect or admiration,
-   exemplified by Dr. Chen’s respected role. Expert Power is based on
-   specialized knowledge, represented by Dr. Chen’s medical expertise."
-   cap="French and Raven's bases of power" %} 
-   
+
+
+:::figure{src="/2024/lessons-on-invisible-authority-and-expert-power-from-alien-observers/french-and-ravens-bases-of-power.webp" alt="Mindmap diagram showing French and Raven's Bases of Power with    five branches: Legitimate Power, Reward Power, Coercive Power,    Referent Power, and Expert Power. Legitimate Power is based on formal    roles, with the example of military authority. Reward Power relates    to control over rewards, with examples like bonuses. Coercive Power    involves enforcement or punishment, with an example of mandatory    screenings. Referent Power is based on respect or admiration,    exemplified by Dr. Chen’s respected role. Expert Power is based on    specialized knowledge, represented by Dr. Chen’s medical expertise." align="center" width="12"}
+French and Raven's bases of power
+:::
+
+
+
 ### Legitimate Power
 
 This is the most familiar kind of power--it's what we recognize in formal
@@ -205,15 +204,13 @@ crisis hits, it doesn't matter that she's not a military officer; Dr.
 Chen becomes the de facto leader because her skills are exactly what the
 situation demands.
 
-{% include figure.html width="12" placement="center"
-   image="/2024/lessons-on-invisible-authority-and-expert-power-from-alien-observers/rank-in-person-versus-rank-in-position.webp"
-   alt="Venn diagram showing Rank in Position on the left, Rank in
-   Person on the right, and Situational Authority as the overlap. Rank
-   in Position attributes include formal titles and structured
-   authority, while Rank in Person emphasizes expertise-based influence.
-   Situational Authority combines both, allowing the most qualified
-   person to lead based on situational needs."
-   cap="Rank in position versus rank in person" %} 
+
+
+:::figure{src="/2024/lessons-on-invisible-authority-and-expert-power-from-alien-observers/rank-in-person-versus-rank-in-position.webp" alt="Venn diagram showing Rank in Position on the left, Rank in    Person on the right, and Situational Authority as the overlap. Rank    in Position attributes include formal titles and structured    authority, while Rank in Person emphasizes expertise-based influence.    Situational Authority combines both, allowing the most qualified    person to lead based on situational needs." align="center" width="12"}
+Rank in position versus rank in person
+:::
+
+
 
 This clash between "rank in position" and "rank in person" is a key
 tension in many organizations, especially dynamic ones. Rank in position
@@ -265,17 +262,14 @@ culture, rank is absolute. Yet on the human base, Dr. Chen's knowledge
 and quick judgment are what the moment demands, and even the general
 knows that her expertise supersedes his title in this crisis.
 
-{% include figure.html width="6" placement="right"
-   image="/2024/lessons-on-invisible-authority-and-expert-power-from-alien-observers/situational-authority-flowchart.webp"
-   alt="Flowchart for determining authority in different scenarios. The
-   first decision point asks, 'Is this a standard procedure?' If yes, it
-   follows the formal chain of command. If no, it asks, 'Does it require
-   specialized expertise?' If yes, authority shifts to an expert. If no,
-   it asks, 'Is the situation urgent?' If yes, authority is given to the
-   most knowledgeable team member. If no, it returns to the formal chain
-   of command." 
-   cap="Flowchart illustrating how authority shifts" %} 
-   
+
+
+:::figure{src="/2024/lessons-on-invisible-authority-and-expert-power-from-alien-observers/situational-authority-flowchart.webp" alt="Flowchart for determining authority in different scenarios. The    first decision point asks, 'Is this a standard procedure?' If yes, it    follows the formal chain of command. If no, it asks, 'Does it require    specialized expertise?' If yes, authority shifts to an expert. If no,    it asks, 'Is the situation urgent?' If yes, authority is given to the    most knowledgeable team member. If no, it returns to the formal chain    of command." align="right" width="6"}
+Flowchart illustrating how authority shifts
+:::
+
+
+
 This concept, known as **situational authority**, allows the most
 qualified individual to lead, regardless of where they sit in the
 official chain of command. [Situational authority is common in fields
@@ -306,7 +300,7 @@ accepted not because she demands it but because the others recognize her
 knowledge and skill. This trust is essential for situational authority
 to work. Without it, individuals in crisis might hesitate or
 second-guess directives, undermining the swift action needed in
-high-stakes scenarios. 
+high-stakes scenarios.
 
 In dynamic organizations, situational authority provides a flexible
 framework for responding to fast-changing environments. Tech companies

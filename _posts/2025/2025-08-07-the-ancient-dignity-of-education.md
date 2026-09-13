@@ -135,4 +135,3 @@ bureaucracy and aristocratic theater. But the first lines of his grant
 carry a lesson that still matters. Education, serious, sustained,
 liberal education, is not a badge of arrogance. It is the labor of
 becoming more fully human. And there is nothing more noble than that.
-

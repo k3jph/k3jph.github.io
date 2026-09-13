@@ -21,4 +21,6 @@ Hecht](http://ablogaboutnothinginparticular.com/).  We mostly
 discussed the economics of interplanetary trade and the applications
 of Bitcoin and other cryptocurrencies in lagged trading environments.
 
-{% include youtube.html id="xKb9h87snUM" %}
+
+
+::youtube{video="xKb9h87snUM"}

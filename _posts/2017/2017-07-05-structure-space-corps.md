@@ -33,7 +33,11 @@ Really, I could go on for a while, but you get the idea.  But the
 most interesting of the pieces was this one in the _National
 Interest_:
 
-{% include iframely.html url="http://nationalinterest.org/blog/the-buzz/against-air-force-space-corps-space-belongs-the-navy-21350" %}
+
+
+::embed{href="http://nationalinterest.org/blog/the-buzz/against-air-force-space-corps-space-belongs-the-navy-21350"}
+
+
 
 The quick summary is that the Navy should own space.  And if you
 think about this the way most people would, that makes sense.  In

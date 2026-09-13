@@ -35,6 +35,12 @@ This August, I will be speaking about my [Virtual Bumblebees](http://bumblebees.
 
 Slides will be posted when they are available.
 
-{% include figure.html image="news/16664672781_0457bd30d6_k.webp" %}
+
+
+:::figure{src="/assets/img/news/16664672781_0457bd30d6_k.webp" align="center" width="100"}
+
+:::
+
+
 
 _Images by the [Mathematical Association of America](http://www.maa.org)._

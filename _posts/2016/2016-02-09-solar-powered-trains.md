@@ -30,6 +30,6 @@ Let's walk through the easier case of a [WMATA rail](http://www.wmata.com/rail/)
 
 For comparison, the lowest power-MARC engine delivers [5.1 megawatts](https://en.wikipedia.org/wiki/EMD_AEM-7).  One could panel the tracks themselves, similar to [solar cells embedded in the road](http://thinkprogress.org/climate/2015/05/11/3657220/solaroad-producing-energy/) that are turning up in Europe.  Panels at grade are possible, but above the tracks, above the catenary, would be better.
 
-But it wouldn't make a difference.  MARC is getting rid of its electric locomotives and [replacing them with diesel](http://www.railwaygazette.com/news/traction-rolling-stock/single-view/view/more-siemens-charger-diesel-locomotives-ordered.html).  
+But it wouldn't make a difference.  MARC is getting rid of its electric locomotives and [replacing them with diesel](http://www.railwaygazette.com/news/traction-rolling-stock/single-view/view/more-siemens-charger-diesel-locomotives-ordered.html).
 
 _Image by [Ryan Stavely / Flickr](https://www.flickr.com/photos/39194430@N08/8207777575)._

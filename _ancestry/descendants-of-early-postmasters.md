@@ -52,11 +52,14 @@ exhibits, and efforts to conserve historic postal artifacts.
 
 ## John Hess Adams - Postmaster of Reynolds, Indiana
 
-{% include figure.html width="6" placement="right"
-   image="ancestry/depm/postmaster-whitecounty-1931.webp"
-   alt="Image of Postmaster Appointments for White County, Indiana, from the National Archives"
-   cap="Image of Postmaster Appointments for White County, Indiana, from the [National Archives](https://catalog.archives.gov/id/78738925)" %}
-  
+
+
+:::figure{src="/assets/img/ancestry/depm/postmaster-whitecounty-1931.webp" alt="Image of Postmaster Appointments for White County, Indiana, from the National Archives" align="right" width="6"}
+Image of Postmaster Appointments for White County, Indiana, from the [National Archives](https://catalog.archives.gov/id/78738925)
+:::
+
+
+
 [John Hess Adams](https://www.wikitree.com/wiki/Adams-72496) was a
 respected civic leader and skilled tradesman in Reynolds, White County,
 Indiana. Born near Norwalk, Ohio, he relocated several times with his
@@ -100,9 +103,12 @@ buried in [Bunnell
 Cemetery](https://www.findagrave.com/cemetery/84171/bunnell-cemetery)
 near the town he helped build.
 
-{% include figure.html width="12"
-   image="ancestry/DEP-Adams.webp" border=true
-   alt="Membership certificate in the Descendants of Early Postmasters"
-   cap="Membership certificate in the Descendants of Early Postmasters" %}
-   
+
+
+:::figure{src="/assets/img/ancestry/DEP-Adams.webp" alt="Membership certificate in the Descendants of Early Postmasters" align="center" width="12" border="true"}
+Membership certificate in the Descendants of Early Postmasters
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/DEP-Adams.pdf).

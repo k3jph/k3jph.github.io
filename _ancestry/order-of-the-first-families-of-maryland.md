@@ -18,11 +18,13 @@ permalink: /ancestry/order-of-the-first-families-of-maryland
 redirect_from: [ "/ancestry/offm" ]
 ---
 
-{% include figure.html image="ancestry/medals/offm.svg" 
-    placement="right" width="4"
-    link="https://firstfamiliesofmaryland.com/"
-    cap="Insignia of the Order of the First Families of Maryland"
-    alt="Insignia of the Order of the First Families of Maryland" %}
+
+
+:::figure{src="/assets/img/ancestry/medals/offm.svg" alt="Insignia of the Order of the First Families of Maryland" align="right" width="4" link="https://firstfamiliesofmaryland.com/"}
+Insignia of the Order of the First Families of Maryland
+:::
+
+
 
 The [Order of the First Families of
 Maryland](https://firstfamiliesofmaryland.com/) is an hereditary society
@@ -100,21 +102,21 @@ These land patents solidified Edward's standing as a landowner and
 frontiersman in early Maryland, providing the foundation for his
 descendants to build upon.
 
-<div class="item col-md-12 px-4">
+<div class="item content-grid__item content-grid__item--full">
     <div class="card">
         <figure>
-            <div class="row mb-2">
-                <div class="item col-md-3">
-                    <img class="featured-img mx-auto" src="{{ '/assets/img/ancestry/offm/pembrooke-teggs-delight-pg1.webp' | cloudflare_image_url: 800 }}" alt="Original grant of Pembroke, page 1" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg1.webp" />
+            <div class="content-grid">
+                <div class="item content-grid__item content-grid__item--quarter">
+                    <img class="featured-img" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg1.webp" alt="Original grant of Pembroke, page 1" data-gallery-src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg1.webp" />
                 </div>
-                <div class="item col-md-3">
-                    <img class="featured-img mx-auto" src="{{ '/assets/img/ancestry/offm/pembrooke-teggs-delight-pg2.webp' | cloudflare_image_url: 800 }}" alt="Original grant of Pembroke, page 2" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg2.webp" />
+                <div class="item content-grid__item content-grid__item--quarter">
+                    <img class="featured-img" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg2.webp" alt="Original grant of Pembroke, page 2" data-gallery-src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg2.webp" />
                 </div>
-                <div class="item col-md-3">
-                    <img class="featured-img mx-auto" src="{{ '/assets/img/ancestry/offm/pembrooke-teggs-delight-pg3.webp' | cloudflare_image_url: 800 }}" alt="Original grant of Pembroke, page 3" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg3.webp" />
+                <div class="item content-grid__item content-grid__item--quarter">
+                    <img class="featured-img" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg3.webp" alt="Original grant of Pembroke, page 3" data-gallery-src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg3.webp" />
                 </div>
-                <div class="item col-md-3">
-                    <img class="featured-img mx-auto" src="{{ '/assets/img/ancestry/offm/pembrooke-teggs-delight-pg4.webp' | cloudflare_image_url: 800 }}" alt="Original grant of Pembroke, page 4" data-toggle="modal" data-target="#imageModal" data-full="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg4.webp" />
+                <div class="item content-grid__item content-grid__item--quarter">
+                    <img class="featured-img" src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg4.webp" alt="Original grant of Pembroke, page 4" data-gallery-src="/assets/img/ancestry/offm/pembrooke-teggs-delight-pg4.webp" />
                 </div>
             </div>
             <div class="content">
@@ -210,46 +212,12 @@ and the pursuit of opportunity in the New World.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="ancestry/OFFM-Teague.webp" border=true
-   alt="Membership certificate in the Order of the First Families of Maryland"
-   cap="Membership certificate in the Order of the First Families of Maryland" %}
-   
+
+
+:::figure{src="/assets/img/ancestry/OFFM-Teague.webp" alt="Membership certificate in the Order of the First Families of Maryland" align="center" width="12" border="true"}
+Membership certificate in the Order of the First Families of Maryland
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/OFFM-Teague.pdf).
-
-<!-- Modal -->
-<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body text-center">
-                <img id="modalImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" class="img-responsive" alt="Zoomed Image">
-                <p id="modalCaption" class="mt-3"></p>
-                <a id="modalLink" href="#" target="_blank" class="btn btn-primary mt-2">View Original Source</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // Attach click event listeners to all images with data-toggle="modal"
-        document.querySelectorAll('[data-toggle="modal"]').forEach(function (img) {
-            img.addEventListener('click', function () {
-                var fullImage = img.getAttribute('data-full'); // Get the full image URL
-                var modalImage = document.getElementById('modalImage'); // Modal image element
-                var modalCaption = document.getElementById('modalCaption'); // Modal caption element
-                var modalLink = document.getElementById('modalLink'); // Modal link element
-
-                modalImage.setAttribute('src', fullImage); // Set the src of the modal image
-                modalImage.setAttribute('alt', img.getAttribute('alt')); // Set alt text
-                modalCaption.textContent = img.getAttribute('alt'); // Use alt text as caption
-                modalLink.setAttribute('href', fullImage); // Placeholder for the original source
-            });
-        });
-    });
-</script>

@@ -80,7 +80,7 @@ Here is how you can implement Cochran's Q test in both R and Python:
 
 **R Example:**
 
-```R
+```r
 # Install necessary package if not already installed
 if (!require("coin")) install.packages("coin")
 

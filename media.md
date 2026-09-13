@@ -42,7 +42,7 @@ menu-label:     Media
 3. DMVDaily Radio Show, "[Tell the Truth Tuesday: Opportunity Zones in Baltimore](/2018/12/19/talking-about-opportunity-zones-in-baltimore/)," WOLB-FM Baltimore, Dec. 18, 2018.
 4. The Attitude with Arnie Arnesen, "[Interview with James Howard](/2017/08/31/audio-attitude-interview/)," WNHN-FM Concord and podcast, Aug. 31, 2017
 5. Breakthrough Entertainment, "[The Ethics of _The Purge_](/2016/07/04/listen-interview-purge-kphx/)," KPHX-AM Phoenix, Jul. 4, 2016.
-6. IMI TechTalk with Tom D’Auria, "[Artificial Intelligence is a Go](/2016/04/13/listen-talk-data-science-kfnx/)," 1100 KFNX and podcast, Apr. 10, 2016. 
+6. IMI TechTalk with Tom D’Auria, "[Artificial Intelligence is a Go](/2016/04/13/listen-talk-data-science-kfnx/)," 1100 KFNX and podcast, Apr. 10, 2016.
 
 ## TV/Video
 1. Patrick Henderson's Meet the People, "[Economics and the New Tax Laws](/2018/01/01/video-patrick-hendersons-meet-people/)," WOLB-FM Baltimore, Jan. 1, 2018.

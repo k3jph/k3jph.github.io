@@ -243,4 +243,3 @@ feasible and revealing at global scale.
 The trolley problem has a nationality. The sooner we acknowledge
 that, the sooner we can have an honest conversation about whose
 values we want driving our cars.
-

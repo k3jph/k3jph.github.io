@@ -24,6 +24,6 @@ tags:
   - NFIP
   - UMBC
 ---
-I defended and passed my [dissertation proposal](/assets/docs/proposal.pdf) yesterday. One of the more challenging aspects the [public policy](http://www.umbc.edu/pubpol/) program at UMBC is the amount of information going into the proposal. Where some programs and schools have relatively short proposals, glorified abstracts, and an informal approval process, the public policy program requires the bulk of the literature review, fully developed methodology, and justifications for the study. As a result of this, our proposals run long. 
+I defended and passed my [dissertation proposal](/assets/docs/proposal.pdf) yesterday. One of the more challenging aspects the [public policy](http://www.umbc.edu/pubpol/) program at UMBC is the amount of information going into the proposal. Where some programs and schools have relatively short proposals, glorified abstracts, and an informal approval process, the public policy program requires the bulk of the literature review, fully developed methodology, and justifications for the study. As a result of this, our proposals run long.
 
 Mine is 114 pages. The benefit in this work is today, a day after my proposal defense, a rough draft of my dissertation’s first three chapters is done.

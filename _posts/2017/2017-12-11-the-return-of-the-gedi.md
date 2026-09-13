@@ -24,8 +24,13 @@ with the [GEDI mission](https://science.nasa.gov/missions/gedi).
 So, first of all, it is pronounced like _Jedi_, and you just have
 to get used to it.
 
-{% include figure.html image="news/GEDI-package.webp" alt="The main GEDI package"
-   cap="The main GEDI package" %}
+
+
+:::figure{src="/assets/img/news/GEDI-package.webp" alt="The main GEDI package" align="center" width="100"}
+The main GEDI package
+:::
+
+
 
 The GEDI mission will be shooting a different laser at the ground,
 which unlike ICESat-2's, will not be visible.  But it will shoot.
@@ -46,9 +51,13 @@ refrigerator-sized box that will be sent to the [International Space
 Station](https://www.nasa.gov/mission_pages/station/main/index.html)
 (ISS).
 
-{% include figure.html image="news/GEDI-on-ISS.webp"
-   alt="The GEDI placement on the International Space Station"
-   cap="The GEDI placement on the International Space Station" %}
+
+
+:::figure{src="/assets/img/news/GEDI-on-ISS.webp" alt="The GEDI placement on the International Space Station" align="center" width="100"}
+The GEDI placement on the International Space Station
+:::
+
+
 
 The ISS has a number of instrument bays which allow for experiments
 and tools to be swapped out.  GEDI will take its place and measure

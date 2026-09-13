@@ -36,15 +36,14 @@ contract reviews, flag potential risks, or scale your team's capabilities,
 ChatGPT offers a powerful assistant to help manage the growing complexity of
 modern contracts.
 
-{% include figure.html width="6" placement="right"
-   image="/2024/chatgpt-simplifies-contract-analysis/contract-analysis-workflows.webp"
-   alt="A flowchart comparing manual contract review with AI-powered contract
-   analysis. The manual workflow involves reading the document, extracting
-   terms, flagging risks, and generating a summary, which is slow and
-   error-prone. The AI-powered workflow simplifies the process by automating
-   text analysis, term extraction, risk flagging, and summary generation, making
-   it fast and consistent." cap="A comparison of manual vs. AI-powered contract
-   analysis workflows" %} 
+
+
+:::figure{src="/2024/chatgpt-simplifies-contract-analysis/contract-analysis-workflows.webp" alt="A flowchart comparing manual contract review with AI-powered contract    analysis. The manual workflow involves reading the document, extracting    terms, flagging risks, and generating a summary, which is slow and    error-prone. The AI-powered workflow simplifies the process by automating    text analysis, term extraction, risk flagging, and summary generation, making    it fast and consistent." align="right" width="6"}
+A comparison of manual vs. AI-powered contract
+   analysis workflows
+:::
+
+
 
 ## The Problem with Manual Contract Analysis
 
@@ -90,15 +89,14 @@ categorized lists of obligations and deliverables. This flexibility allows teams
 to streamline analysis without requiring major changes to their existing
 workflows.
 
-{% include figure.html width="6" placement="right"
-   image="/2024/chatgpt-simplifies-contract-analysis/chatgpt-process.webp"
-   alt="A schematic diagram showing ChatGPT's contract analysis process. The
-   input is contract text in PDF or plain text format. The process includes
-   natural language processing, key term extraction, and risk analysis. Outputs
-   are a structured summary, flagged clauses, and actionable recommendations,
-   with flagged clauses highlighted in red and positive results in green."
-   cap="Schematic representation of ChatGPT's contract analysis process" %} 
-   
+
+
+:::figure{src="/2024/chatgpt-simplifies-contract-analysis/chatgpt-process.webp" alt="A schematic diagram showing ChatGPT's contract analysis process. The    input is contract text in PDF or plain text format. The process includes    natural language processing, key term extraction, and risk analysis. Outputs    are a structured summary, flagged clauses, and actionable recommendations,    with flagged clauses highlighted in red and positive results in green." align="right" width="6"}
+Schematic representation of ChatGPT's contract analysis process
+:::
+
+
+
 Seamless integration into workflows is another significant advantage. ChatGPT
 can be used to analyze incoming contracts attached to emails, assist with bulk
 reviews for contract repositories, or work alongside [contract lifecycle

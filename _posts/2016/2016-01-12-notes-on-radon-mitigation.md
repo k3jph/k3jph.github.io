@@ -25,6 +25,6 @@ I heard an advertisement for radon kits while driving.  I remember when I was ab
 
 So like a good little nerd, I Googled it and learned this is also part of the granite thing.  As uranium decays, it goes through a cycle of elements in each of something stable.  It lands somewhere along the line on radon.  Since radon is a gas, it travels well and seeps into houses built on formerly granite rock.  There's a lot of neat info on [Wikipedia](https://en.wikipedia.org/wiki/Radon).
 
-The really interesting thing was the connect to being 5 or 6.  So apparently radon was not known in homes before 1985 (I turned five at the end of 1984), when a worker at a nuclear plant kept setting off radiation detectors before the plant been fueled.  After an investigation found the source of radioactivity was radon in his house, the EPA started recommending radon testing for all homes.  
+The really interesting thing was the connect to being 5 or 6.  So apparently radon was not known in homes before 1985 (I turned five at the end of 1984), when a worker at a nuclear plant kept setting off radiation detectors before the plant been fueled.  After an investigation found the source of radioactivity was radon in his house, the EPA started recommending radon testing for all homes.
 
 _Image by [Unknown Photographer via the National Cancer Institute](https://visualsonline.cancer.gov/details.cfm?imageid=2344)._

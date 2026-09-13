@@ -18,11 +18,13 @@ permalink: /ancestry/society-of-indiana-pioneers
 redirect_from: [/ancestry/sip]
 ---
 
-{% include figure.html image="ancestry/sip.svg" 
-    placement="right" width="3"
-    link="https://indianapioneers.org/"
-    cap="Logo of the Society of Indiana Pioneers"
-    alt="Logo of the Society of Indiana Pioneers" %}
+
+
+:::figure{src="/assets/img/ancestry/sip.svg" alt="Logo of the Society of Indiana Pioneers" align="right" width="3" link="https://indianapioneers.org/"}
+Logo of the Society of Indiana Pioneers
+:::
+
+
 
 The [Society of Indiana Pioneers](https://indianapioneers.org/) is dedicated to
 preserving and honoring the legacy of the early settlers who played a crucial
@@ -50,4 +52,3 @@ Rinker](https://www.wikitree.com/wiki/Rinker-641) has been identified as another
 potential Pioneer ancestor, offering an opportunity to further explore and
 document the family's deep roots in Indiana. Should this line be pursued, it
 would contribute further to the preservation of Indiana's historical records.
-

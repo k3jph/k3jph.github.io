@@ -30,7 +30,11 @@ the series.  It's the origin of the famous "I, for one, welcome our
 new insect overlords" quote, which has since snowcloned into an
 avalanche.  You can see that clip here:
 
-{% include youtube.html id="8lcUHQYhPTE" %}
+
+
+::youtube{video="8lcUHQYhPTE"}
+
+
 
 But at the start of the episode, Homer and Bart are nearly forced
 to watch "another boring space launch" when the batteries fall out
@@ -47,7 +51,11 @@ a different kind of mathematician and a statistician.
 
 You can see the clip here.
 
-{% include youtube.html id="c1cpA4M0Hgo" %}
+
+
+::youtube{video="c1cpA4M0Hgo"}
+
+
 
 [^linkedin]:  Also, you should note "Simpsons Quotes" is a skill
 listed on my LinkedIn profile.

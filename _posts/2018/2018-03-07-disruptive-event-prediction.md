@@ -44,7 +44,7 @@ religious violence, or international crises with some measure of
 notice, and take preemptive action to mitigate risks associated
 with the event.  More details are in the paper.
 
-Monthly predictions for most countries are available from the 
+Monthly predictions for most countries are available from the
 [Crystal Cube website at JHU/APL](http://iaa-ccube-dmz.outer.jhuapl.edu/).
 
 _Image by [Tiomono / English

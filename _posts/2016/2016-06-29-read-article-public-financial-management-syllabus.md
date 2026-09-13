@@ -38,7 +38,11 @@ let me know, as I'd like to hear more.
 In the mean time, you can get the original article, for free, from
 _Syllabus_:
 
-{% include iframely.html url="http://www.syllabusjournal.org/syllabus/article/download/194/Howard%2C%20James" %}
+
+
+::embed{href="http://www.syllabusjournal.org/syllabus/article/download/194/Howard%2C%20James"}
+
+
 
 _Image by [jackmac34 /
 Pixabay](https://pixabay.com/en/magazines-reading-journals-1108801/)._

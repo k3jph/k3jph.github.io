@@ -88,7 +88,7 @@ The resulting value is always between 0 and 1. For a 2x2 table, Cohen's
 conventions provide a useful starting rubric:
 
 <div>
-  <table class="table align-items-center">
+  <table class="table content-grid--center">
     <thead class="thead-light">
       <tr>
         <th scope="col">Effect Size</th>
@@ -130,7 +130,7 @@ Return to the loan model audit. The dataset contains 200,000
 predictions: 100,000 from Group A and 100,000 from Group B.
 
 <div>
-  <table class="table align-items-center">
+  <table class="table content-grid--center">
     <thead class="thead-light">
       <tr>
         <th scope="col"></th>
@@ -219,7 +219,7 @@ approximately \\(1.7 \times 10^{-22}\\), and a Cramér's V of 0.0218.
 
 ### R Example
 
-```R
+```r
 # Observed contingency table
 table <- matrix(c(71000, 29000, 69000, 31000), nrow = 2, byrow = TRUE)
 

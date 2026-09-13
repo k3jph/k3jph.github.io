@@ -32,7 +32,7 @@ World War I and World War II drafts. He died there in February 1950 and was
 [buried in Spring Grove Cemetery](https://www.springgrove.org/). There was no
 question about where he lived, worked, and raised his family. But one question
 persisted: what railroad did he actually work for.
-  
+
 Family lore offered two candidates. On one side, the [Baltimore and Ohio
 (B&O)](https://www.borail.org/) had long been part of family conversations. On
 the other, the [Louisville and Nashville (L&N)](http://www.lnrr.org/) came up
@@ -47,16 +47,14 @@ revealed itself to be something else entirely.
 
 ## The Draft Card and the Guesswork
 
-<div class="item col-md-4 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--third">
     <div class="card">
         <figure>
-            <div class="row mb-2">
-                <div class="item col-md-12">
-                    <img class="featured-img mx-auto" 
-                         src="{{ '/assets/img/ancestry/nsdarw/harry-lee-williams-ww1-draft-card-front.webp' | cloudflare_image_url: 800 }}"
-                         alt="Harry Williams World War I draft card (front)" 
-                         data-toggle="modal" data-target="#imageModal" 
-                         data-full="/assets/img/ancestry/nsdarw/harry-lee-williams-ww1-draft-card-front.webp" />
+            <div class="content-grid">
+                <div class="item content-grid__item content-grid__item--full">
+                    <img class="featured-img"
+                         src="/assets/img/ancestry/nsdarw/harry-lee-williams-ww1-draft-card-front.webp"
+                         alt="Harry Williams World War I draft card (front)" data-gallery-src="/assets/img/ancestry/nsdarw/harry-lee-williams-ww1-draft-card-front.webp" />
                 </div>
                 <div class="content">
                     <div class="images-caption">Harry Williams World War I draft card (front)</div>
@@ -110,16 +108,14 @@ format to start asking better questions.
 
 ## Solving It Together
 
-<div class="item col-md-4 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--third">
     <div class="card">
         <figure>
-            <div class="row mb-2">
-                <div class="item col-md-12">
-                    <img class="featured-img mx-auto" 
-                         src="{{ '/assets/img/ancestry/nsdarw/harry-lee-williams-ww2-draft-card-front.webp' | cloudflare_image_url: 800 }}"
-                         alt="Harry Williams World War II draft card (front)" 
-                         data-toggle="modal" data-target="#imageModal" 
-                         data-full="/assets/img/ancestry/nsdarw/harry-lee-williams-ww2-draft-card-front.webp" />
+            <div class="content-grid">
+                <div class="item content-grid__item content-grid__item--full">
+                    <img class="featured-img"
+                         src="/assets/img/ancestry/nsdarw/harry-lee-williams-ww2-draft-card-front.webp"
+                         alt="Harry Williams World War II draft card (front)" data-gallery-src="/assets/img/ancestry/nsdarw/harry-lee-williams-ww2-draft-card-front.webp" />
                 </div>
                 <div class="content">
                     <div class="images-caption">Harry Williams World War II draft card (front)</div>
@@ -172,40 +168,3 @@ digital tools each had a part to play. What began as a family question, "Which
 railroad did he really work for?" ended with a shared sense of discovery, where
 AI did not replace the researcher, but stood beside them. Together, we chased a
 name through time, and found the tracks it left behind.
-
-<!-- Modal -->
-<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body text-center">
-                <img id="modalImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" class="img-responsive" alt="Zoomed Image">
-                <p id="modalCaption" class="mt-3"></p>
-                <a id="modalLink" href="#" target="_blank" class="btn btn-primary mt-2">View Original Source</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // Attach click event listeners to all images with data-toggle="modal"
-        document.querySelectorAll('[data-toggle="modal"]').forEach(function (img) {
-            img.addEventListener('click', function () {
-                var fullImage = img.getAttribute('data-full'); // Get the full image URL
-                var modalImage = document.getElementById('modalImage'); // Modal image element
-                var modalCaption = document.getElementById('modalCaption'); // Modal caption element
-                var modalLink = document.getElementById('modalLink'); // Modal link element
-
-                modalImage.setAttribute('src', fullImage); // Set the src of the modal image
-                modalImage.setAttribute('alt', img.getAttribute('alt')); // Set alt text
-                modalCaption.textContent = img.getAttribute('alt'); // Use alt text as caption
-                modalLink.setAttribute('href', fullImage); // Placeholder for the original source
-            });
-        });
-    });
-</script>

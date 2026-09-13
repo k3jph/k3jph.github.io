@@ -38,7 +38,11 @@ what parents need to know about Pokémon GO.  While there's a focus
 on risks, I told the story of how my children and I play the game
 together.  Read more from Highya:
 
-{% include pdfembed.html pdf="Pokemon Go_ From Accidents to Stranger Danger, Tips to Keeping Kids Safe.pdf" width="100%" %}
+
+
+::document{src="/assets/docs/Pokemon Go_ From Accidents to Stranger Danger, Tips to Keeping Kids Safe.pdf" label="Open the PDF document" embed="true"}
+
+
 
 _Image by [Robert Couse-Baker /
 Flickr](https://www.flickr.com/photos/29233640@N07/27579849653/)._

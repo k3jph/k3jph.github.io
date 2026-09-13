@@ -73,15 +73,18 @@ We produced three major documents.
 ### Documents
 
 * [Synopsis of Recommendations](/assets/docs/HowardCounty-CRC2019-Synopsis.pdf), February 28, 2020
-* [Preliminary Report](/assets/docs/HowardCounty-CRC2019-PreliminaryReport.pdf), March 16, 2020 
+* [Preliminary Report](/assets/docs/HowardCounty-CRC2019-PreliminaryReport.pdf), March 16, 2020
 * [Final Report](/assets/docs/HowardCounty-CRC2019-FinalReport.pdf), April 30, 2020
 
 ### A Resolution {#AResolution}
 
-{% include figure.html width="12" border=true
-   image="/service/jhoward-hoco-crcres.webp"
-   alt="Honorary Resolution for the Charter Review Commission Members"
-   cap="Honorary Resolution for the Charter Review Commission Members" %}
+
+
+:::figure{src="/service/jhoward-hoco-crcres.webp" alt="Honorary Resolution for the Charter Review Commission Members" align="center" width="12" border="true"}
+Honorary Resolution for the Charter Review Commission Members
+:::
+
+
 
 ## Public Engagement in Land Use Planning Task Force
 
@@ -110,6 +113,10 @@ has not been changed since 2008.
 
 ## Related Posts
 
-{% include relatedposts.html tag="Howard County" %}
+
+
+::related-posts{tag="Howard County"}
+
+
 
 _Image by [Jim Kuhn via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Thomas_Viaduct_Inside_Curve_(Relay,_MD).webp).  The Thomas Viaduct was built by the Baltimore and Ohio Railroad in the 1830s to provide rail access to Howard County, Maryland._

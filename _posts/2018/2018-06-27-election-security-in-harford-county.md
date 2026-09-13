@@ -19,7 +19,11 @@ As I engage in a radical return to normalcy, I have neglected some
 posting here.  I return to the blogging world with this first
 announcement of a story from Towson University's media office:
 
-{% include iframely.html url="https://www.towson.edu/news/2018/meganprice.html" %}
+
+
+::embed{href="https://www.towson.edu/news/2018/meganprice.html"}
+
+
 
 Megan Price was one of [Natalie Scala's](https://www.drnataliescala.com/)
 students and I worked with them, along with [COL Paul
@@ -42,4 +46,8 @@ The point of this question is to show the complexity of even "simple"
 tasks.  The flowchart shows how complicated the voting process is
 and exposes some of the places an adversary can attack it.
 
-{% include figure.html image="news/Megan-Price-Protecting-Marylands-Voting-Process.webp" alt="Megan Price's Poster" %}
+
+
+:::figure{src="/assets/img/news/Megan-Price-Protecting-Marylands-Voting-Process.webp" alt="Megan Price's Poster" align="center" width="100"}
+
+:::

@@ -22,7 +22,7 @@ tags:
   - systems science
   - technology
 ---
-Across the United States, [new credit card readers](http://www.wsj.com/articles/why-new-credit-cards-may-fall-short-on-fraud-control-1420423917) are popping up in stores and restaurants.  These readers include an embedded chip reader and a keypad.  And you're probably getting new credit cards in the mail.  My new American Express arrived while I was on vacation last week (3782-822463-10005) with an embedded chip.  And this is a huge waste.  
+Across the United States, [new credit card readers](http://www.wsj.com/articles/why-new-credit-cards-may-fall-short-on-fraud-control-1420423917) are popping up in stores and restaurants.  These readers include an embedded chip reader and a keypad.  And you're probably getting new credit cards in the mail.  My new American Express arrived while I was on vacation last week (3782-822463-10005) with an embedded chip.  And this is a huge waste.
 
 On our trip to [Iceland](http://en.wikipedia.org/wiki/Iceland), most payment terminals accept the [chip and PIN](http://en.wikipedia.org/wiki/Chip_and_PIN) card.  You have to type in a PIN after inserting your card to make a payment.  These terminals in the United States are [chip and signature](http://en.wikipedia.org/wiki/Chip_and_signature).  After inserting the card, the card data is read from the chip (rather than the magnetic stripe), but a receipt is still printed and you sign that.  The reason for this is supposedly security, but from an authentication standpoint, it is still [1-factor authentication](http://en.wikipedia.org/wiki/Multi-factor_authentication) (something you have).  Adding a PIN adds a second factor (something you know), but we're not doing that here.
 

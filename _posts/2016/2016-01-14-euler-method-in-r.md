@@ -24,7 +24,9 @@ During differentiation, the value of whatever vertical shift is present is lost 
 
 For ordinary differential equations, them there is no convenient cancellation, leading to the initial value problem.  The initial value problem provides a value of [latex]f(x_0)[/latex], where [latex]x_0[/latex] is normally 0, but is not required to be.  This initial value provides sufficient information to complete the solution and find the actual value of [latex]f(x)[/latex] for some value of [latex]x[/latex].  Below is an implementation of the Euler method in R.
 
-{% highlight r %}
+
+
+```r
 euler <- function(f, x0, y0, h, n) {
     x <- x0
     y <- y0
@@ -35,9 +37,11 @@ euler <- function(f, x0, y0, h, n) {
         x <- c(x, x0)
         y <- c(y, y0)
     }
-    
+
     return(data.frame(x = x, y = y))
 }
-{% endhighlight %}
+```
+
+
 
 _Image by [Oleg Alexandrov via Wikipedia Commons](https://commons.wikimedia.org/wiki/File:Euler_method.svg)._

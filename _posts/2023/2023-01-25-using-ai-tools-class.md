@@ -7,7 +7,7 @@ layout: post
 permalink: /2023/01/25/using-ai-tools-class
 featured_image: /assets/img/news/using-ai-tools-class.webp
 categories:
-- Blog 
+- Blog
 tags:
 - teaching
 - futurism

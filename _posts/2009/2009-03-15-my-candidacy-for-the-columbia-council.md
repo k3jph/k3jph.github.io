@@ -16,4 +16,4 @@ tags:
   - Long Reach
 ---
 
-I am running for the Columbia Council Representative for Long Reach position.  
+I am running for the Columbia Council Representative for Long Reach position.

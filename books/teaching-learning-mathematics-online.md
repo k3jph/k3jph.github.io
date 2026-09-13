@@ -11,11 +11,13 @@ redirect_from:
   - /books/tlmo/
 ---
 
-{% include book-detail.html slug="teaching-learning-mathematics-online" %}
+::book-detail{slug="teaching-learning-mathematics-online"}
 
 ## Background material
 
 * [Second-edition call for proposals](/teaching-learning-mathematics-online/second-edition-call-for-proposals/)
 * [First-edition call for proposals](/books/teaching-learning-mathematics-online/call-for-proposals/)
 
-{% include relatedposts.html tag="TLMO" %}
+
+
+::related-posts{tag="TLMO"}

@@ -7,7 +7,7 @@ layout: post
 permalink: /2023/01/28/time-come-incorporate-columbia
 featured_image: /assets/img/news/time-come-incorporate-columbia.webp
 categories:
-- Blog 
+- Blog
 tags:
 - governance
 - Columbia

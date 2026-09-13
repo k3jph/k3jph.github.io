@@ -24,9 +24,9 @@ tags:
 
 When [I wrote my text on flood insurance](/se-nfip), I was unable to disaggregate profit numbers.  Also, some of the figures given in the NPR report are simply incorrect.  For instance, they show that 1/3 of premiums go to insurances companies.  Insurance companies receive 15% to manage record keeping, sales, and claims processing.  In addition, companies that sell well get up to 2% more, capping the amount insurance companies are paid at half of the 1/3rd given by NPR.  Contrary to report's tone, this is not free money.  Insurance companies do quite a bit to work for it.
 
-When I asked NPR on Twitter how they how they got the $400M number several days ago, I received no response.  
+When I asked NPR on Twitter how they how they got the $400M number several days ago, I received no response.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just heard this on radio. How did you calculate $400M?</p>&mdash; Dr. James Howard (@k3jph) <a href="https://twitter.com/k3jph/status/735214956212322304?ref_src=twsrc%5Etfw">May 24, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just heard this on radio. How did you calculate $400M?</p>&mdash; Dr. James Howard (@k3jph) <a href="https://twitter.com/k3jph/status/735214956212322304?ref_src=twsrc%5Etfw">May 24, 2016</a></blockquote>
 
 Absent substantial data and explanation, $400M is a little hard to swallow.
 

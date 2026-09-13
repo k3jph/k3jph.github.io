@@ -24,8 +24,8 @@ In a statement of blistering stupidity, [Leslie Stellman](http://pklaw.com/pk-la
 
 > The county's fiscal authority through an agency such as this creation would erode your immunity as a state agency.
 
-This is obviously incorrect, since the the County Council is responsible for approving the budget of the school system, per [Maryland Education Article § 5-102](http://web.lexisnexis.com/research/xlink?app=00075&view=full&interface=1&docinfo=off&searchtype=get&search=Md.+EDUCATION+Code+Ann.+%A7+5-102).  The Board of Education has no immunity as a state agency to begin with, as sole fiscal responsibility for the school system lies with the Howard County Council.  There's a lot of beef to be had with the committee structure, but if the Council wishes to constitute an advisory board to support the exercise of its state-mandated duties, that is both the responsibility and prerogative of the Council.  
+This is obviously incorrect, since the the County Council is responsible for approving the budget of the school system, per [Maryland Education Article § 5-102](http://web.lexisnexis.com/research/xlink?app=00075&view=full&interface=1&docinfo=off&searchtype=get&search=Md.+EDUCATION+Code+Ann.+%A7+5-102).  The Board of Education has no immunity as a state agency to begin with, as sole fiscal responsibility for the school system lies with the Howard County Council.  There's a lot of beef to be had with the committee structure, but if the Council wishes to constitute an advisory board to support the exercise of its state-mandated duties, that is both the responsibility and prerogative of the Council.
 
-The School Board's objections to the bill are groundless and fundamentally antithetical to the democratic process. 
+The School Board's objections to the bill are groundless and fundamentally antithetical to the democratic process.
 
 _Image by [FlugKerl2 / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lake_Elkhorn_Middle_School_-_Cradlerock_Elementary_School.JPG)._

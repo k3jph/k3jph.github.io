@@ -44,7 +44,7 @@ The Century Ancestors of Darke County lineage society honors individuals whose
 ancestors have resided in Darke County for a period extending back 100 years or
 more from the present day. This recognition celebrates the long-standing
 presence of families who have played a role in the county’s history and
-development. 
+development.
 
 Membership in this society is open to individuals who can prove direct descent
 from ancestors who lived in Darke County during the eligible period. The Century
@@ -63,9 +63,12 @@ ancestors remain a vibrant part of the historical record.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="ancestry/CADC-Hall.webp" border=true
-   alt="Membership certificate in the Century Ancestors of Darke County"
-   cap="Membership certificate in the Century Ancestors of Darke County" %}
-   
+
+
+:::figure{src="/assets/img/ancestry/CADC-Hall.webp" alt="Membership certificate in the Century Ancestors of Darke County" align="center" width="12" border="true"}
+Membership certificate in the Century Ancestors of Darke County
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/CADC-Hall.pdf).

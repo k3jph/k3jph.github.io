@@ -20,7 +20,9 @@ tags:
 ---
 A couple of weeks ago, the [Remember the Milk](http://www.rememberthemilk.com) blog posted about [adding tasks at the command line](http://blog.rememberthemilk.com/2010/03/tips-tricks-tuesday-two-quick-ways-to-add-tasks-to-remember-the-milk-unix-command-line-automator-service-in-snow-leopard/). A simple way to handle task generation, but a bit too complex for even your average Unix hacker. This script makes it easy and gives you an option to add a note! Just set RTMADDR and PROG to be your Remember the Milk email address and your local script name, _i.o._:
 
-{% highlight shell %}
+
+
+```shell
 #!/bin/sh
 
 RTMADDR='user+NNN@rmilk.com'
@@ -42,12 +44,18 @@ if [ x$NOTE == 'x' ]; then
 else
     mailx -s "$1" $RTMADDR
 fi
-{% endhighlight %}
+```
+
+
 
 From RTM's example,
 
-{% highlight shell %}
+
+
+```shell
 rtm "Test code changes committed by Bart. ^tom @ 9a !1 #Testing #na @Work"
-{% endhighlight %}
+```
+
+
 
 And use `-n` if you'd like it to ask for a note.

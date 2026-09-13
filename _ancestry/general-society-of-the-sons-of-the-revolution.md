@@ -128,4 +128,4 @@ mark on the region. The town of Cornettsville stands for his contributions, and
 his story continues to inspire those who value the pioneering spirit and
 dedication to community development.
 
-*Additional memberships will be added as they are approved.*  
+*Additional memberships will be added as they are approved.*

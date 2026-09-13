@@ -70,9 +70,13 @@ have complete data for 175 countries in the Worldometer dataset.
 So we can find the comparable number, we'll call the `deathrate`
 for these countries.  This gives us this histogram:
 
-{% include figure.html image="news/likelihood-of-death-from-covid-19-following-positive-diagnosis.webp"
-   alt="Density Plot of Likelihood of Death from COVID-19 After Diagnosis per Country"
-   cap="Density Plot of Likelihood of Death from COVID-19 After Diagnosis per Country" %}
+
+
+:::figure{src="/assets/img/news/likelihood-of-death-from-covid-19-following-positive-diagnosis.webp" alt="Density Plot of Likelihood of Death from COVID-19 After Diagnosis per Country" align="center" width="100"}
+Density Plot of Likelihood of Death from COVID-19 After Diagnosis per Country
+:::
+
+
 
 Working with that, we can see there's quite a long tail on this
 distribution.  We can, somewhat naïvely still, find the mean of the

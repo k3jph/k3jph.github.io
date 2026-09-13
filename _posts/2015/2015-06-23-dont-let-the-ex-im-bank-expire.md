@@ -22,7 +22,7 @@ tags:
 ---
 From my latest piece in The Conversation, why we should not let the charter for the Export-Import Bank of the United States Expire:
 
-> Almost 90% of its loans support small businesses, which generated $10.7 billion in exports from these companies last year, according to the bank. That’s helped it support 1.3 million private sector jobs since 2009. 
+> Almost 90% of its loans support small businesses, which generated $10.7 billion in exports from these companies last year, according to the bank. That’s helped it support 1.3 million private sector jobs since 2009.
 >
 > Without this support, many small businesses wouldn’t be able to compete with foreign competitors in overseas markets. Governments in many countries subsidize local businesses, while potential US customers often have a hard time securing financing to buy American products.
 

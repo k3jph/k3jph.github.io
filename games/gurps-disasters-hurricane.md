@@ -11,8 +11,13 @@ redirect_from:
   - /games/gurps-hurricane/
 ---
 
-{% include figure.html image="GURPS_Disasters_Hurricane.webp" cap="" width="25%" 
-   placement="right" alt="GURPS Disasters: Hurricane gamebook cover" %}
+
+
+:::figure{src="/assets/img/GURPS_Disasters_Hurricane.webp" alt="GURPS Disasters: Hurricane gamebook cover" align="right" width="25%"}
+
+:::
+
+
 
 _You've had a couple of days' warning, but it's never enough. You
 have half the plywood you need, and don't know how high the water
@@ -68,4 +73,6 @@ the echo of the tempest.
 
 1. James P. Howard, II, _Hurricane_ ser. Gurps Disasters, Steve Jackson Games, Austin, Texas, 37-1711, 2019.
 
-{% include relatedposts.html tag="gdh" %}
+
+
+::related-posts{tag="gdh"}

@@ -36,21 +36,29 @@ Some calculations that lead to `NaN`, other than [latex]0 / 0[/latex],
 are attempting to take a square root of a negative number, or perform
 calculations with infinities that lead to undefined results:
 
-{% highlight r %}
+
+
+```r
 > sqrt(-1)
 [1] NaN
 Warning message:
 In sqrt(-1) : NaNs produced
 > Inf - Inf
 [1] NaN
-{% endhighlight %}
+```
+
+
 
 However, adding two infinities produces infinity:
 
-{% highlight r %}
+
+
+```r
 > Inf + Inf
 [1] Inf
-{% endhighlight %}
+```
+
+
 
 `NA` is different from `NaN` in that `NA` is not a part of the IEEE
 standard for floating point numbers. `NA` is a construction of R
@@ -58,7 +66,9 @@ used to represent a value that is not known, as a placeholder.  `NA`
 says no result was available or the result is missing.  It can be
 used in a matrix to fill in a value of a vector:
 
-{% highlight r %}
+
+
+```r
 > c(1, 2, 3, 4, NA, 5, 6)
 [1]  1  2  3  4 NA  5  6
 > matrix(c(1, 2, NA, 4, NA, 6, NA, 8, 9), 3)
@@ -66,18 +76,24 @@ used in a matrix to fill in a value of a vector:
 [1,]    1    4   NA
 [2,]    2   NA    8
 [3,]   NA    6    9
-{% endhighlight %}
+```
+
+
 
 Any operation with `NA` results in `NA`:
 
-{% highlight r %}
+
+
+```r
 > 1 + NA
 [1] NA
 > sqrt(NA)
 [1] NA
 > NA + NaN
 [1] NA
-{% endhighlight %}
+```
+
+
 
 **Update:** David Smith at Microsoft covered NAs [in a blog post today, too](http://blog.revolutionanalytics.com/2016/07/understanding-na-in-r.html).
 

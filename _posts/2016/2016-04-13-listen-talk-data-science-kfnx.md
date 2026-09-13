@@ -22,10 +22,20 @@ tags:
   - teaching
 ---
 
-{% include figure.html image="news/IMITTLogoL.webp" link="https://imitechtalk.wordpress.com/" alt="TechTalk logo" placement="right" %}
+
+
+:::figure{src="/assets/img/news/IMITTLogoL.webp" alt="TechTalk logo" align="right" width="100" link="https://imitechtalk.wordpress.com/"}
+
+:::
+
+
 
 I was the guest on Tom D’Auria TechTalk on [KFNX in Phoenix](http://www.1100kfnx.com/index.php?/blog/article/imi_tech_talk_sunday_3pm/) on Sunday afternoon, where I talked about how data science is bringing artificial intelligence into the business and home today.  It was a great talk about where AI and data science are today, who's doing it, and where it's going.  You can catch the answer on the [IMI Tech Talk podcast](https://imitechtalk.wordpress.com/)!
 
-{% include iframely.html url="https://soundcloud.com/k3jph/imi-techtalk-041016" %}
+
+
+::embed{href="https://soundcloud.com/k3jph/imi-techtalk-041016"}
+
+
 
 _Image by [Zdjęcie autorskie / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Studio_rmf_classic.webp)._

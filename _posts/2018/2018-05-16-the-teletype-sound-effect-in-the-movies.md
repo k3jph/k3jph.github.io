@@ -48,7 +48,7 @@ teletype in [_The Hunt for Red
 October_](https://www.rottentomatoes.com/m/hunt_for_red_october/)."  The
 show continued...
 
-> CORNISH: So where did your investigation lead you?  
+> CORNISH: So where did your investigation lead you?
 >
 > WICKMAN:
 Yeah, I went back to some of the movies that you played in the intro
@@ -64,7 +64,11 @@ Red October," a classic, but also involves submarines, right
 I was quite saddened that nobody was there to witness my awesomeness
 at calling it.  You can listen to the full interview from NPR here:
 
-{% include iframely.html url="https://www.npr.org/player/embed/448980982/448980983" %}
+
+
+::embed{href="https://www.npr.org/player/embed/448980982/448980983"}
+
+
 
 This is probably where this story might have ended.  But last night,
 through some convoluted logic,[^aliennation] I recalled a
@@ -88,12 +92,22 @@ showing an entrance sign.  Nothing unusual about that.  Here's the
 first, where the location is explained as the "Fort Jericho Disposal
 Site," and the sign makes that plain as day...even in the night.
 
-{% include figure.html image="news/fort-jericho-disposal-site.webp" alt="Still from The War of the Words" %} 
+
+
+:::figure{src="/assets/img/news/fort-jericho-disposal-site.webp" alt="Still from The War of the Words" align="center" width="100"}
+
+:::
+
+
 
 But in the second half of the episode, things change.  We start
 using the teletype method.  Here's the first, I think:
 
-{% include youtube.html id="8GwZejrp1cY?start=3725&end=3728" %}
+
+
+::youtube{video="8GwZejrp1cY?start=3725&amp;end=3728"}
+
+
 
 Okay, but only a moment later I thought to myself, "Doesn't this
 predate _The Hunt for Red October_?"  It does!  _The Hunt for Red

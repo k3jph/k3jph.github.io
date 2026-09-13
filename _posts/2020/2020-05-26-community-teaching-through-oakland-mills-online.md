@@ -34,7 +34,11 @@ Zoom, for an hour or so.  It's awesome, so [sign up if you have
 something](https://www.oaklandmillsonline.com/presenter-sign-up.html) to
 offer.
 
-{% include youtube.html id="VzXpO9Fr-jo" %}
+
+
+::youtube{video="VzXpO9Fr-jo"}
+
+
 
 And may the Force be with you, always.
 

@@ -19,7 +19,7 @@ Like a lot of people, I've been watching the [HBO](https://www.hbo.com/)
 miniseries, _Chernobyl_:
 
 <blockquote class="embedly-card" data-card-key="66f8489580e04fc4a88a724eb5058bb3" data-card-branding="0" data-card-type="article-full"><p class="h4"><a href="https://www.hbo.com/chernobyl">Chernobyl: Official Website for the Miniseries | HBO</a></p><p>The official website for Chernobyl, the Emmy and Golden Globe winning miniseries on HBO. Discover schedule information, behind the scenes exclusives, podcast information and more.</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
 
 In fact, I subscribed to HBO for this, rather than _Game of Thrones_,
 which I still have not seen. Anyway, the miniseries is remarkable
@@ -55,8 +55,13 @@ etc.). When we say someone has been exposed to radiation, there are
 two things this might mean and they are very different from both a
 treatment and contamination perspective.
 
-{% include figure.html image="news/glow-stick-578604_1280.webp" alt="Glow sticks"
-   cap="Please do not eat the glowsticks, no matter what this post says" placement="right" width="50%" %}
+
+
+:::figure{src="/assets/img/news/glow-stick-578604_1280.webp" alt="Glow sticks" align="right" width="50%"}
+Please do not eat the glowsticks, no matter what this post says
+:::
+
+
 
 So, as I said, there are two types of "exposure" to radiation. In
 the first, we can say someone has actually just been exposed to

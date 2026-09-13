@@ -30,10 +30,13 @@ understanding its meaning. The result is false quartering: designs that
 look like quartered arms but lack any genealogical, legal, or historical
 basis.
 
-{% include figure.html placement="right" width="6" 
-image="2025/false-quartering-in-heraldic-design/false-quartering.svg" 
-cap="A tragic false quartering via [Reddit](https://www.reddit.com/r/heraldry/comments/1155p0d/a_coat_of_arms_i_made_a_few_weeks_ago_i_dont_know/)" 
-alt="A tragic false quartering via Reddit" %}
+
+
+:::figure{src="/assets/img/2025/false-quartering-in-heraldic-design/false-quartering.svg" alt="A tragic false quartering via Reddit" align="right" width="6"}
+A tragic false quartering via [Reddit](https://www.reddit.com/r/heraldry/comments/1155p0d/a_coat_of_arms_i_made_a_few_weeks_ago_i_dont_know/)
+:::
+
+
 
 This post examines what quartering actually is, why it appears on the
 arms of kings and dukes, and how modern designers frequently fall into
@@ -66,10 +69,13 @@ _superimposition_ places one coat in an inescutcheon over another.
 Quartering became popular because it allows a shield to display multiple
 ancestries at once while keeping each coat intact.
 
-{% include figure.html placement="right" width="6"
-image="2025/false-quartering-in-heraldic-design/quartering-demo.svg" 
-cap="Quartering demonstration (via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Quartering_demo.svg))" 
-alt="Quartering demonstration" %}
+
+
+:::figure{src="/assets/img/2025/false-quartering-in-heraldic-design/quartering-demo.svg" alt="Quartering demonstration" align="right" width="6"}
+Quartering demonstration (via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Quartering_demo.svg))
+:::
+
+
 
 ### Origins in inheritance
 
@@ -100,10 +106,13 @@ legitimate inheritance.
 
 ### Genealogical record, not a decorative choice
 
-{% include figure.html placement="right" width="6" 
-image="2025/false-quartering-in-heraldic-design/stowe-armorial.svg"
-cap="719 quarterings of the Stowe Armorial (via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stowe_Armorial.svg))" 
-alt="719 quarterings of the Stowe Armorial" %}
+
+
+:::figure{src="/assets/img/2025/false-quartering-in-heraldic-design/stowe-armorial.svg" alt="719 quarterings of the Stowe Armorial" align="right" width="6"}
+719 quarterings of the Stowe Armorial (via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stowe_Armorial.svg))
+:::
+
+
 
 Because quartering records ancestry, there are strict rules about the
 order and number of quarterings. The first quarter must always display
@@ -131,26 +140,26 @@ uses only four.
 
 ## The Allure of the Quartered Shield
 
-<div class="item col-md-6 px-4 pull-right">
+<div class="item content-float-right content-grid__item content-grid__item--half">
   <div class="card">
     <figure>
-      <div class="row mb-2">
-        <div class="item col-md-6">
-          <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-edward-iii.svg" alt="France quartering England" />
+      <div class="content-grid">
+        <div class="item content-grid__item content-grid__item--half">
+          <img class="featured-img" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-edward-iii.svg" alt="France quartering England" />
             <div class="images-caption">France quartering England</div>
         </div>
-        <div class="item col-md-6">
-          <img class="featured-img mx-auto" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-victoria-england.svg" alt="Modern British arms, outside of Scotland" />
+        <div class="item content-grid__item content-grid__item--half">
+          <img class="featured-img" src="/assets/img/2024/the-evolution-of-the-royal-arms/arms-victoria-england.svg" alt="Modern British arms, outside of Scotland" />
             <div class="images-caption">Modern British, outside Scotland</div>
         </div>
       </div>
-     <div class="row mb-2">
-        <div class="item col-md-6">
-          <img class="featured-img mx-auto" src="/assets/img/2025/false-quartering-in-heraldic-design/milan-arms.svg" alt="Arms of Louis XII as Duke of Milan" />
+     <div class="content-grid">
+        <div class="item content-grid__item content-grid__item--half">
+          <img class="featured-img" src="/assets/img/2025/false-quartering-in-heraldic-design/milan-arms.svg" alt="Arms of Louis XII as Duke of Milan" />
             <div class="images-caption">Arms of Louis XII as Duke of Milan</div>
         </div>
-        <div class="item col-md-6">
-          <img class="featured-img mx-auto" src="/assets/img/2025/false-quartering-in-heraldic-design/castile-and-leon-arms.svg" alt="Arms of Castile quartering León" />
+        <div class="item content-grid__item content-grid__item--half">
+          <img class="featured-img" src="/assets/img/2025/false-quartering-in-heraldic-design/castile-and-leon-arms.svg" alt="Arms of Castile quartering León" />
             <div class="images-caption">Arms of Castile quartering León</div>
         </div>
       </div>
@@ -243,7 +252,7 @@ The consequences of false quartering are both aesthetic and ethical:
     the marriages to heiresses, the titles and lands inherited, is
     replaced by arbitrary symbols. Heraldry becomes a pastiche rather
     than a record.
-    
+
 ## Designing Coherent Modern Arms
 
 Modern institutions can draw on heraldic tradition without falling into
@@ -293,7 +302,7 @@ Designers can avoid false quartering by following a few principles:
     letterheads, websites and merchandise. Complex quarterings may
     become illegible. Simplicity aids recognition and honours heraldic
     tradition.
-    
+
 ## Conclusion
 
 Quartering is one of heraldry's most striking devices, but its beauty

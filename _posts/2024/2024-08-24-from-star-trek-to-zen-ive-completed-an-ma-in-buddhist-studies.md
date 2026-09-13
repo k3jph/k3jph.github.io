@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/08/24/from-star-trek-to-zen-ive-completed-an-ma-in-buddhist-studies
 featured_image: /assets/img/2024/from-star-trek-to-zen-ive-completed-an-ma-in-buddhist-studies.webp
 categories:
-- Blog 
+- Blog
 tags:
   - education
   - Buddhism

@@ -9,9 +9,9 @@ featured_image: /assets/img/2024/understanding-a-good-death-in-hinduism.webp
 credits: >-
    Image of the *Ramayana* via [Suyash Dwivedi](https://commons.wikimedia.org/wiki/File:Ramayan_Aapravasi_Ghat_Museum,_Mauritius_%2837%29.jpg)
    and used under the Creative Commons Attribution-Share Alike 4.0
-   International license.  
+   International license.
 categories:
-- Blog 
+- Blog
 tags:
 - religion
 - eastern philosophy
@@ -49,11 +49,14 @@ longer journey.
 
 ## The Key Elements of a Good Death in Hinduism
 
-{% include figure.html width="4" placement="right"
-   image="/2024/understanding-a-good-death-in-hinduism/meditation-beads.webp" 
-   alt="Meditation beads"
-   cap="Meditation beads" %} 
-   
+
+
+:::figure{src="/2024/understanding-a-good-death-in-hinduism/meditation-beads.webp" alt="Meditation beads" align="right" width="4"}
+Meditation beads
+:::
+
+
+
 ### Spiritual Preparation: Mindset and Practices
 
 Preparation for death in Hinduism is not a matter for the last few
@@ -62,7 +65,7 @@ there is a focus on intensifying spiritual practices. Chanting sacred
 mantras, such as the *Maha Mantra* or simply the word *Om*, is a common
 practice. These mantras are believed to purify the mind and focus it on
 the divine, helping the soul leave the body in a peaceful and auspicious
-state. 
+state.
 
 Family members often play a role by reciting from sacred texts like the
 *Bhagavad Gita* or the *Ramayana*, creating an environment of spiritual
@@ -108,10 +111,13 @@ Shiva. Likewise, dying during *Brahma Muhurta* (the pre-dawn period) is
 considered auspicious. These beliefs reflect the idea that the
 environment around death can impact the soul's transition.
 
-{% include figure.html width="12" placement="center"
-   image="/2024/understanding-a-good-death-in-hinduism/ramayana.webp" 
-   alt="The Ramayana at the Aapravasi Ghat Museum, Mauritius"
-   cap="The Ramayana at the Aapravasi Ghat Museum, Mauritius" %} 
+
+
+:::figure{src="/2024/understanding-a-good-death-in-hinduism/ramayana.webp" alt="The Ramayana at the Aapravasi Ghat Museum, Mauritius" align="center" width="12"}
+The Ramayana at the Aapravasi Ghat Museum, Mauritius
+:::
+
+
 
 ## The Role of Rituals and Last Rites (*Antyesti*)
 
@@ -147,4 +153,3 @@ for whatever comes next—whether that is another life or the attainment
 of liberation. By focusing on spiritual readiness, the support of loved
 ones, and meaningful rituals, Hindu practices around death provide a
 path toward a serene and significant conclusion to life's journey.
-

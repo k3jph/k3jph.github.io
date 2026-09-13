@@ -7,7 +7,7 @@ layout: post
 permalink: /2022/05/09/ws2818b-spi-controller-for-attiny85
 featured_image: /assets/img/news/ws2818b-spi-controller-for-attiny85.webp
 categories:
-- Blog 
+- Blog
 tags:
 - electrical engineering
 - WS2818B
@@ -69,4 +69,6 @@ ATmega328P that is the primary controller.
 If you want to learn more about SPI, Ben Eater has a fantastic video
 on SPI here:
 
-{% include youtube.html id="MCi7dCBhVpQ" %}
+
+
+::youtube{video="MCi7dCBhVpQ"}

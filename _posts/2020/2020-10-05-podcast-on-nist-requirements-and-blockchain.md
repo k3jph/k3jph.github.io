@@ -28,6 +28,6 @@ when developing new IT projects or modernizing old ones.
 John called me up and interviewed me for the second episode of the
 new podcast and you can listen to it here on Sticher!
 
-<iframe style="border: solid 1px #dedede;"
+<iframe title="Embedded media"
 src="https://app.stitcher.com/splayer/f/576186/78321677" width="220"
 height="150" frameborder="0" scrolling="no"></iframe>

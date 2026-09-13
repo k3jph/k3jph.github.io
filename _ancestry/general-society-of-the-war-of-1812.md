@@ -10,7 +10,7 @@ places: ["North Carolina", "Ohio"]
 topics: ["Military service", "War of 1812"]
 member_number: 8537
 chapters:
-  - name: Society of the War of 1812 in the State of Maryland 
+  - name: Society of the War of 1812 in the State of Maryland
     member_number: 1076
 service_ids: ["maryland-war-of-1812"]
 author: k3jph
@@ -70,7 +70,7 @@ multigenerational commitment to defending and shaping the United States
 highlights a legacy of service and dedication that William upheld during the War
 of 1812.
 
-## About the Society of the War of 1812 in Maryland 
+## About the Society of the War of 1812 in Maryland
 
 The Society of the War of 1812 in Maryland originated from the "Defenders of
 Baltimore," a group formed by veterans who repelled British forces during the
@@ -124,16 +124,22 @@ American history for over two centuries.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="ancestry/MD1812-Ray.webp" border=true
-   alt="Membership certificate in the Society of the War of 1812 in Maryland"
-   cap="Membership certificate in the Society of the War of 1812 in Maryland" %}
-   
+
+
+:::figure{src="/assets/img/ancestry/MD1812-Ray.webp" alt="Membership certificate in the Society of the War of 1812 in Maryland" align="center" width="12" border="true"}
+Membership certificate in the Society of the War of 1812 in Maryland
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/MD1812-Ray.pdf).
 
-{% include figure.html width="12"
-   image="ancestry/GSW1812-Ray.webp" border=true
-   alt="Membership certificate in the General Society of the War of 1812"
-   cap="Membership certificate in the General Society of the War of 1812" %}
-   
+
+
+:::figure{src="/assets/img/ancestry/GSW1812-Ray.webp" alt="Membership certificate in the General Society of the War of 1812" align="center" width="12" border="true"}
+Membership certificate in the General Society of the War of 1812
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/GSW1812-Ray.pdf).

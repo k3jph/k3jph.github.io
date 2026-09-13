@@ -17,11 +17,13 @@ permalink: /ancestry/society-of-civil-war-families-of-ohio
 redirect_from: [/ancestry/scwfo, /ancestry/ogs/scwfo]
 ---
 
-{% include figure.html image="ancestry/ogs-scwfo.webp" 
-    placement="right" width="3"
-    link="https://www.ogs.org/about/lineage/scwfo/"
-    cap="Logo of the Society of Civil War Families of Ohio"
-    alt="Logo of the Society of Civil War Families of Ohio" %}
+
+
+:::figure{src="/assets/img/ancestry/ogs-scwfo.webp" alt="Logo of the Society of Civil War Families of Ohio" align="right" width="3" link="https://www.ogs.org/about/lineage/scwfo/"}
+Logo of the Society of Civil War Families of Ohio
+:::
+
+
 
 The [Society of Civil War Families of
 Ohio](https://www.ogs.org/about/lineage/scwfo/) (SCWFO) is a lineage society
@@ -46,9 +48,12 @@ American history.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="/ancestry/OGS-SCWFO-Newman.webp" border=true
-   alt="Membership certificate in the Society of Civil War Families of Ohio"
-   cap="Membership certificate in the Society of Civil War Families of Ohio" %}
-   
+
+
+:::figure{src="/ancestry/OGS-SCWFO-Newman.webp" alt="Membership certificate in the Society of Civil War Families of Ohio" align="center" width="12" border="true"}
+Membership certificate in the Society of Civil War Families of Ohio
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/OGS-SCWFO-Newman.pdf).

@@ -87,7 +87,7 @@ analysis's needs, and each technique has strengths and weaknesses:
 ## The Mechanics of Hot Deck Imputation
 
 There are two main types of hot deck imputation: random hot deck and
-deterministic hot deck. 
+deterministic hot deck.
 
 - **Random Hot Deck Imputation**: In this approach, the "donor" record
   is chosen randomly from a pool of similar records. For example, if you

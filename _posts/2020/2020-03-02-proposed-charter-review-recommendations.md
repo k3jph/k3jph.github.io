@@ -16,4 +16,6 @@ Below is the synopsis of the proposed recommendations from the
 Charter Review Commission.  Please come by our hearing tomorrow
 night to discuss these with us.
 
-{% include pdfembed.html pdf="One-Paragraph-Summaries.pdf" width="100%" height="100%" %}
+
+
+::document{src="/assets/docs/One-Paragraph-Summaries.pdf" label="Open the PDF document" embed="true"}

@@ -19,4 +19,6 @@ tags:
 ---
 My [talk at the Mars Society Convention](https://jameshoward.us/2015/06/20/im-going-mars/) on Martian governance is now available via YouTube.
 
-{% include youtube.html id="kCwOKDQ02SI" %}
+
+
+::youtube{video="kCwOKDQ02SI"}

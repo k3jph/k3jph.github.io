@@ -7,17 +7,17 @@ layout: page
 guid: https://jameshoward.us/?page_id=2880
 ---
 
-# Introduction
+## Introduction
 
 BSD users are often asked, "what are the differences between FreeBSD, NetBSD, and OpenBSD?" To Linux users and those familiar with Solaris or other Unix platforms, the differences may seem quite small. Despite sharing a common ancestry, the BSD family of operating systems provides a number of complete operating systems packages to meet every need.
 
-# Ancient History
+## Ancient History
 
 During a sabbatical in the mid-1970s, Ken Thompson introduced UNIX to the University of California at Berkeley. By 1978, the students at Berkeley had begun cutting custom Unix releases. Throughout the 1980s, Berkeley handled a Department of Defense contract to incorporate TCP/IP into BSD and produce a standard operating system for Defense Department computers. With the release of the 4.3BSD and Berkeley Networking Release 2 tapes (commonly called, "Net/2"), Berkeley had nearly created a complete operating system free of AT&T code.
 
 William Jolitz began porting BSD to the 386, writing a series of articles in the process for Dr. Dobb's journal. Simply enough, he called his software "386BSD." By 1993, though, Jolitz had decided to halt work on an improved versions of 386BSD. This is the birth of modern BSDs.
 
-# FreeBSD
+## FreeBSD
 
 In 1992 and 1993, Jordan K. Hubbard, Rod Grimes, and Nate Williams had been working on 386BSD and releasing a set of changes known as the "Unofficial 386BSD Patchkit." Maintaining the patchkit had grown cumbersome and a new mechanism was needed. The three authors began working on a new project called "386BSD 0.5" which would contain all of the fixes and function as a real operating system. However, Jolitz removed his official approval of the project in early 1993. David Greenman, then at Walnut Creek, proposed a new operating system based on the patchkit with a new name: "FreeBSD."
 
@@ -33,7 +33,7 @@ FreeBSD's development model is similar to both NetBSD and OpenBSD, but radically
 
 FreeBSD governance and development model lead to a very stable and easy to use system. As one of the most reliable operating systems for the x86 platform, FreeBSD's mark lies in sustaining an air of simplicity and stability.
 
-# NetBSD
+## NetBSD
 
 While Jolitz and others were focusing on 386BSD, others were frustrated at the pace of work and began a parallel development effort. Additionally, others at Virginia Tech took the introductory work on 386BSD and the just released Net/2 and started porting BSD to the Macintosh. The development effort soon expanded to the Atari ST, Amiga, and PC platforms. As NetBSD grew, it soon became obvious that FreeBSD's niche would be the i386 and up Intel systems and NetBSD would provide BSD for any other platform desired.
 
@@ -47,7 +47,7 @@ The NetBSD developers have provided a stable and simple environment which makes 
 
 NetBSD's omnipresence on computer equipment is a testament to a well-designed and well-organized operating system. By leading the industry in portability, NetBSD has paved the way for Darwin, MacOS X, Linux, as well as FreeBSD and OpenBSD. It has also given birth to new technology through systems research.
 
-# OpenBSD
+## OpenBSD
 
 In the early 1990s, Theo de Raadt had been responsible for the SPARC port of NetBSD as well as sundry other pieces of the NetBSD system. However, after a disagreement between Theo and the NetBSD core team concerning the direction of NetBSD's development, Theo struck out on his own and founded OpenBSD.
 
@@ -59,7 +59,7 @@ OpenBSD's mantra of "secure-by-default" has produced one of the most robust oper
 
 OpenBSD is also a highly portable operating system. This is mainly the influence of its NetBSD lineage. While it runs stably and well on only a small fraction of the systems supported by NetBSD, it is still usable on over half a dozen architectures, including the ubiquitous Intel-based PC platform, Motorola 68k-based Macintoshes, and some VME boards.
 
-# Apple's MacOS X and Darwin
+## Apple's MacOS X and Darwin
 
 After leaving Apple Computer in the 1980s, Steve Jobs founded a new computer company, with a new mind set: NeXT.[^spelling]NeXT's operating system, NeXTStep, was an object-oriented operating system based on Carnegie-Mellon's Mach microkernel architecture, which was in turn based on the 4.2BSD release from the University of California. On top of Mach, NeXT implemented a Unix-like operating system called NeXTStep and replaced MIT's X Windows System with a new graphical interface called Display Postscript. Display Postscript allowed for very fine control of the desktop and graphical environment, however it never caught on outside of NeXT systems.
 
@@ -71,7 +71,7 @@ Apple also gave back to the community. By open sourcing the base operating syste
 
 MacOS X's greatest triumph will be in bringing BSD and Unix to the mass market. Apple computer has long held a niche among the least computer-literate in the marketplace. Presenting the user with an overwhelming and complicated system would seem like the worst possible solution. Apple's care and time spent ensuring compatibility with existing applications promises no current users will be left behind. The effort spent developing a friendly Apple interface for BSD ensures existing users will understand and follow the new system paradigm with minimal effort.
 
-# A BSD for Everyone
+## A BSD for Everyone
 
 Indeed, there are a wide range of BSD versions. As we have seen, each implementation focuses on a specific market but still borrows concepts and idea from their brethren. The results have lead to a family of operating systems designed for every need imaginable.
 

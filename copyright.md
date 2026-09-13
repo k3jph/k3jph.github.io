@@ -6,7 +6,7 @@ layout: page
 guid: copyright
 ---
 
-Copyright &copy; 1997-{{ 'now' | date: "%Y" }} James P. Howard, II. All rights reserved.
+Copyright &copy; 1997–:current-year James P. Howard, II. All rights reserved.
 
 ## General Content
 

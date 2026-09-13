@@ -12,6 +12,6 @@ tags:
   - UMD
 ---
 
-On Thursday, June 7, 2007, the Board of Directors of the [College Park Scholars Alumni Association, Inc.](/service) voted to expand the Board to up to nineteen members and lengthened the term of members of the Alumni Council from one year to two years.  The changes to the corporation's bylaws are available.  
+On Thursday, June 7, 2007, the Board of Directors of the [College Park Scholars Alumni Association, Inc.](/service) voted to expand the Board to up to nineteen members and lengthened the term of members of the Alumni Council from one year to two years.  The changes to the corporation's bylaws are available.
 
 The Board of Directors is considering further enhancements to the bylaws to reflect the growth of the organization from a fledgling non-profit start up to a fully operational and fully staffed organization actively supporting the [College Park Scholars](http://www.scholars.umd.edu) program and the alumni.

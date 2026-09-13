@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/11/03/the-multi-faceted-role-of-a-program-manager
 featured_image: /assets/img/2024/the-multi-faceted-role-of-a-program-manager.webp
 categories:
-- Blog 
+- Blog
 tags:
 - project management
 - strategic planning
@@ -196,7 +196,7 @@ unique contours of their organization's structure and culture.
 Imagine you're a program manager tasked with the rollout of a cutting-edge
 software platform for a major tech corporation. This isn't just any project—it's
 a massive, global initiative that spans three continents and involves managing a
-multimillion-dollar budget. 
+multimillion-dollar budget.
 
 ### The Challenge:
 Your challenge is to coordinate teams in North America, Europe, and Asia. Each
@@ -252,59 +252,3 @@ So, if you're up for the challenge, embracing these skills can set you on a path
 to not just participate in the business ecosystem but to drive it. Program
 managers are the visionaries of today's corporate world, and their role is ever
 more crucial as businesses navigate the complexities of the modern age.
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
-<script>
-    var s = Snap("#infographic-1");
-
-    // Define some styles
-    var boxHeight = 100;
-    var boxWidth = 600;
-    var startY = 20;
-    var marginY = 120;
-
-    var competencies = [
-        { title: "Technical Skills", details: "Proficient in Gantt charts, Agile methodologies, and PRINCE2." },
-        { title: "Leadership Skills", details: "Experienced in team leadership, conflict resolution, and motivational practices." },
-        { title: "Communication Skills", details: "Skilled in stakeholder updates, team briefings, and negotiation tactics." },
-        { title: "Problem-Solving Skills", details: "Expert in strategic decision-making and complex problem resolution." }
-    ];
-
-    competencies.forEach(function(comp, index) {
-        var y = startY + index * (boxHeight + marginY);
-
-        // Draw the background rectangle
-        var rect = s.rect(100, y, boxWidth, boxHeight, 10).attr({
-            fill: "#f8f8f8",
-            stroke: "#333",
-            strokeWidth: 2
-        });
-
-        // Add title text
-        var title = s.text(120, y + 30, comp.title).attr({
-            fontFamily: 'Arial, Helvetica, sans-serif',
-            fontSize: '20px',
-            fontWeight: 'bold',
-            fill: "#333"
-        });
-
-        // Add details text
-        var details = s.text(120, y + 70, comp.details).attr({
-            fontFamily: 'Arial, Helvetica, sans-serif',
-            fontSize: '16px',
-            fill: "#666"
-        });
-
-        // Simple interaction example
-        rect.hover(function() {
-            this.attr({ fill: "#e0e0e0" });  // change color on hover
-        }, function() {
-            this.attr({ fill: "#f8f8f8" });  // revert color on mouse out
-        });
-
-        rect.click(function() {
-            alert('More about ' + comp.title + ': ' + comp.details);
-        });
-    });
-</script>
-

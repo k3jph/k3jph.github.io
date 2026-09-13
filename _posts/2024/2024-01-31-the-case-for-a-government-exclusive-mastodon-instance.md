@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/01/31/the-case-for-a-government-exclusive-mastodon-instance
 featured_image: /assets/img/2024/the-case-for-a-government-exclusive-mastodon-instance.webp
 categories:
-- Blog 
+- Blog
 tags:
 - information security
 - misinformation

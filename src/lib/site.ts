@@ -17,3 +17,14 @@ export function formatDate(value: Date | string, style: 'long' | 'short' = 'long
 export function slugifyTag(value: string) { return value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''); }
 export function isPublished(data: { published?: boolean; date?: Date }, now = new Date()) { return data.published !== false && (!data.date || data.date.getTime() <= now.getTime()); }
 export function routeParam(route: string) { return route.replace(/^\/+|\/+$/g, ''); }
+/** Canonical internal-link form. File routes keep their extension; pages use a trailing slash. */
+export function sitePath(value: string) {
+  if (!value || value === '/') return '/';
+  if (/^(?:[a-z]+:)?\/\//i.test(value) || value.startsWith('#') || value.startsWith('mailto:')) return value;
+  const match = value.match(/^([^?#]*)([?#].*)?$/);
+  const pathname = match?.[1] ?? value;
+  const suffix = match?.[2] ?? '';
+  const rooted = pathname.startsWith('/') ? pathname : `/${pathname}`;
+  if (rooted.endsWith('/') || /\.[a-z0-9]+$/i.test(rooted)) return `${rooted}${suffix}`;
+  return `${rooted}/${suffix}`;
+}

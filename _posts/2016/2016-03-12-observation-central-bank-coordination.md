@@ -19,7 +19,11 @@ tags:
 ---
 There's an interesting story about a typo and an electronic robbery from the [Bangladesh Bank](https://www.bb.org.bd/).  Basically, a bunch of hackers issued fake transfer orders for the Bangladesh Bank account at the [New York Fed](https://www.newyorkfed.org/).  We'll toss it to Reuters for the details:
 
-{% include iframely.html url="http://www.reuters.com/article/us-usa-fed-bangladesh-typo-insight-idUSKCN0WC0TC" %}
+
+
+::embed{href="http://www.reuters.com/article/us-usa-fed-bangladesh-typo-insight-idUSKCN0WC0TC"}
+
+
 
 One detail in this story sticks out:
 

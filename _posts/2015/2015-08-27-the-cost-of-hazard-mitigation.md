@@ -28,7 +28,7 @@ From [San Francisco Chronicle](http://www.sfchronicle.com/bayarea/article/Coasta
 
 I think half of those are the same thing, but the point stands.  San Francisco sits on the San Francisco Bay, sits on a major fault line, and was the site of one of America's worst city-wide fire disasters.  When planning for resilience, the plan must take into account the disasters one is likely to expect.  This is covered quite well in the [FEMA Independent Study](https://training.fema.gov/is/crslist.aspx) courses.
 
-For instance, rising sea levels and coastal are not a concern in Wyoming.  For planning, that is.  But riverine flooding, when inland bodies of water flood, is a problem almost everywhere.  Similarly, there is little risk of earthquake in Florida.  Of course, there are many different types of disaster we can broadly classify into natural and man-made.  
+For instance, rising sea levels and coastal are not a concern in Wyoming.  For planning, that is.  But riverine flooding, when inland bodies of water flood, is a problem almost everywhere.  Similarly, there is little risk of earthquake in Florida.  Of course, there are many different types of disaster we can broadly classify into natural and man-made.
 
 Many of them have the same basic response requirements.  Injured persons need first aid. Damaged buildings need to be razed or restored.  And displaced persons need water, food, and shelter.  Especially in the mitigation phase, though, the preparations are different.  Raising buildings above flood stage is a critical step to reduce flood damage.  On the other hand, strengthening structures is necessary to prepare for earthquakes.
 

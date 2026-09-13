@@ -30,4 +30,6 @@ Anyway, the video was livestreamed on Facebook and you can watch
 it below.  If I had known there would be video, I would have dressed
 better!
 
-{% include fbembed.html url="https://www.facebook.com/patrickinbmore/videos/10155909792427970" %}
+
+
+::embed{href="https://www.facebook.com/patrickinbmore/videos/10155909792427970"}

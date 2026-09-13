@@ -30,7 +30,7 @@ When I taught [public finance for the University of
 Baltimore](/teaching/), I reviewed four or five
 textbooks and one was [head-and-shoulders above the
 rest](http://edu.cengage.co.uk/catalogue/product.aspx?isbn=1285173953).  Of
-course, it was also the most expensive.  It clocked in at $330 in 2015. 
+course, it was also the most expensive.  It clocked in at $330 in 2015.
 And that's untenable, so I sent this email, or a version of
 it, to the list of registered students once a month for four months
 before the class began:

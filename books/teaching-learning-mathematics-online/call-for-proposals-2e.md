@@ -11,10 +11,10 @@ redirect_from:
   - /books/tlmo/cfp2e/
 ---
 
-* Proposal Submission Deadline: March 31, 2023 
+* Proposal Submission Deadline: March 31, 2023
 * Editors:
   * James P. Howard, II
-  * John F. Beyers 
+  * John F. Beyers
 
 ## Introduction
 
@@ -98,11 +98,11 @@ please visit their website at
 
 ### Important Dates
 
-* March 31, 2023: Chapter proposals due 
-* April 18, 2023: Contributors will be notified and selected authors 
-  invited to participate 
-* August 4, 2023: First submission of chapters 
-* September 15, 2023: Initial chapter review and authors asked to 
+* March 31, 2023: Chapter proposals due
+* April 18, 2023: Contributors will be notified and selected authors
+  invited to participate
+* August 4, 2023: First submission of chapters
+* September 15, 2023: Initial chapter review and authors asked to
   revise if appropriate
 * December 1, 2023: Final chapter submission
 * Mid-2024: Publication of the Second Edition
@@ -113,7 +113,7 @@ A chapter is recommended to be approximately 30 double-spaced 8.5x11
 or A4 pages with one-inch margins.  Longer or shorter chapters are
 fine. Chapters should be proofread, polished, and formatted according
 to the publisher's instructions before submission.  Submissions
-should be made using Microsoft Word or LaTeX.  Author's guidelines 
+should be made using Microsoft Word or LaTeX.  Author's guidelines
 and chapter template will be available to accepted authors.
 
 ## For More Information

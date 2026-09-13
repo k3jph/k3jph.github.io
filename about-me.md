@@ -7,9 +7,13 @@ layout: page
 guid: http://localhost/wp-faculty/?page_id=2
 ---
 
-{% include figure.html image="jhoward-greenglow.webp" width="4" placement="right"
-   alt="Me at the 2017 Howard County Library Evening in the Stacks"
-   cap="Me at the 2017 Howard County Library Evening in the Stacks" %}
+
+
+:::figure{src="/assets/img/jhoward-greenglow.webp" alt="Me at the 2017 Howard County Library Evening in the Stacks" align="right" width="4"}
+Me at the 2017 Howard County Library Evening in the Stacks
+:::
+
+
 
 James Howard works on complicated systems: the kind that involve mathematical
 models, software, artificial intelligence, scarce resources, and institutions
@@ -91,45 +95,48 @@ the presence of actual rules, budgets, and constraints.
     * College Park Scholars Citation, [International Studies](/assets/docs/JHoward-UMD-CPS.pdf)
 * Post Secondary Educational Options Program, Miami University
 
-<div class="row">
-  <div class="col-12 col-md-6">
-  {% include markdown.html contentmd='
+:::credential-grid
 ### Professional Titles
 
-*   [European Engineer](/assets/docs/JHoward-EURING.pdf)
-*   Chartered Scientist
-*   [Chartered Engineer](/assets/docs/JHoward-ECUK-CEng.pdf)
-*   Chartered Mathematician
-*   [Chartered IT Professional](/assets/docs/JHoward-FBCS.pdf)
-' %}
-  </div>
-  <div class="col-12 col-md-6 pr-n5">
-{% include markdown.html contentmd='
+* [European Engineer](/assets/docs/JHoward-EURING.pdf)
+* Chartered Scientist
+* [Chartered Engineer](/assets/docs/JHoward-ECUK-CEng.pdf)
+* Chartered Mathematician
+* [Chartered IT Professional](/assets/docs/JHoward-FBCS.pdf)
+
 ### Certifications
-*   [Project Management Professional](/assets/docs/certifications/JHoward-PMI-PMP.pdf)
-*   [PMI Agile Certified Practitioner](/assets/docs/certifications/JHoward-PMI-ACP.pdf)
-*   [PMI Professional in Business Analysis](/assets/docs/certifications/JHoward-PMI-PBA.pdf)
-*   [Certified Associate in Project Management](/assets/docs/certifications/JHoward-PMI-CAPM.pdf)
-*   [Certified Government Financial Manager](/assets/docs/certifications/JHoward-CGFM.pdf)
-' %}
-</div>
-</div>
+
+* [Project Management Professional](/assets/docs/certifications/JHoward-PMI-PMP.pdf)
+* [PMI Agile Certified Practitioner](/assets/docs/certifications/JHoward-PMI-ACP.pdf)
+* [PMI Professional in Business Analysis](/assets/docs/certifications/JHoward-PMI-PBA.pdf)
+* [Certified Associate in Project Management](/assets/docs/certifications/JHoward-PMI-CAPM.pdf)
+* [Certified Government Financial Manager](/assets/docs/certifications/JHoward-CGFM.pdf)
+:::
 
 ### Professional Recognition
-{% assign professional_recognition = site.data.honors | where: "category", "professional" %}
-<ul>
-{% for honor in professional_recognition %}
-  <li>{{ honor.title }} of the {% if honor.evidence %}<a href="{{ honor.evidence | relative_url }}">{{ honor.issuer }}</a>{% else %}{{ honor.issuer }}{% endif %}, {{ honor.date }}</li>
-{% endfor %}
-</ul>
+
+::professional-recognition
 
 ### Other Accomplishments
-*   [Correspondence Chess Expert]({{ '/2024/01/22/i-earned-iccfs-correspondence-chess-expert-title' | relative_url }})
+*   [Correspondence Chess Expert](/2024/01/22/i-earned-iccfs-correspondence-chess-expert-title)
 
 
-{% include figure.html image="akureyri-shades-420.webp" alt="Me in Akureyri...with solar shades"
-   cap="Me in Akureyri...with solar shades" width="4" %}
-{% include figure.html image="knoxville-shades-420.webp" alt="Me in Knoxville...with solar shades"
-   cap="Me in Knoxville...with solar shades" width="4" %}
-{% include figure.html image="warren-shades-420.webp" alt="Me in Warren...with solar shades"
-   cap="Me in Warren...with solar shades" width="4" %}
+
+
+:::figure{src="/assets/img/akureyri-shades-420.webp" alt="Me in Akureyri...with solar shades" align="center" width="4"}
+Me in Akureyri...with solar shades
+:::
+
+
+
+
+:::figure{src="/assets/img/knoxville-shades-420.webp" alt="Me in Knoxville...with solar shades" align="center" width="4"}
+Me in Knoxville...with solar shades
+:::
+
+
+
+
+:::figure{src="/assets/img/warren-shades-420.webp" alt="Me in Warren...with solar shades" align="center" width="4"}
+Me in Warren...with solar shades
+:::

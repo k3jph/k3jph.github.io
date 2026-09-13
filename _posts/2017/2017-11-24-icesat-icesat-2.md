@@ -28,7 +28,11 @@ measures how long it takes for the light the come back.  ICESat and
 ICESat-2 work the same way, they just shoot the laser from space.
 NASA has a cute animation showing it:
 
-{% include youtube.html id="aYRqkdYJRr0" %}
+
+
+::youtube{video="aYRqkdYJRr0"}
+
+
 
 ICESat-2 will follow up on this and is scheduled to launch in 2018.
 It will have a better resolution and provide more accurate measurements
@@ -36,8 +40,13 @@ than ICESat did.  Also, we learned it will have a green laser,
 visible to the eye.  If you look up when it happens above you, you
 should be able to see a green flash from space from ICESat-2.
 
-{% include figure.html image="news/ICESat2PosterBiomes2_print.webp" 
-   alt="ICESat-2 Poster" cap="ICESat-2 Poster" %}
+
+
+:::figure{src="/assets/img/news/ICESat2PosterBiomes2_print.webp" alt="ICESat-2 Poster" align="center" width="100"}
+ICESat-2 Poster
+:::
+
+
 
 Now, it is important to understand why this is important.  As global
 warming continues, we will see more polar ice losses.  The ICESat
@@ -49,5 +58,3 @@ how fast.
 NASA has a [website dedicated to the ICESat
 missions](https://icesat.gsfc.nasa.gov/) including the data for
 download.
-
-

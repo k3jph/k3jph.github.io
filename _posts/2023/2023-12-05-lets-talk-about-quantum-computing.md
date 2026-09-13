@@ -7,7 +7,7 @@ layout: post
 permalink: /2023/12/05/lets-talk-about-quantum-computing
 featured_image: /assets/img/news/lets-talk-about-quantum-computing.webp
 categories:
-- Blog 
+- Blog
 tags:
 - quantum computing
 - futurism

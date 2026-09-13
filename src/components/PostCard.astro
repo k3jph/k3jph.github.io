@@ -1,5 +1,5 @@
 ---
-import { formatDate, normalizeAssetPath } from '../lib/site';
+import { formatDate, normalizeAssetPath, sitePath } from '../lib/site';
 const { post } = Astro.props;
 ---
-<article class="card post-card"><a class="card-media" href={post.data.route}><img src={normalizeAssetPath(post.data.featured_image)} alt="" loading="lazy"></a><div class="card-body"><p class="eyebrow">{formatDate(post.data.date,'short')}</p><h3><a href={post.data.route}>{post.data.title}</a></h3>{post.data.excerpt && <p>{post.data.excerpt}</p>}</div></article>
+<article class="card post-card"><a class="card-media" href={sitePath(post.data.route)}><img src={normalizeAssetPath(post.data.featured_image)} alt="" loading="lazy"></a><div class="card-body"><p class="eyebrow">{formatDate(post.data.date,'short')}</p><h3><a href={sitePath(post.data.route)}>{post.data.title}</a></h3>{post.data.excerpt && <p>{post.data.excerpt}</p>}</div></article>

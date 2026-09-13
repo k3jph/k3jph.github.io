@@ -69,11 +69,13 @@ through [John Hoar, Esquire, of Massachusetts](https://www.wikitree.com/wiki/Hoa
 17th-century lawyer, negotiator, and colonial figure of note.  The arms
 attributed to John Hoar are:
 
-{% include figure.html
-    image="ancestry/oaaa/hoar-arms-full.svg" 
-    placement="right" width="4"
-    cap="Arms of John Hoar of Massachusetts"
-    alt="Arms of John Hoar of Massachusetts" %}
+
+
+:::figure{src="/assets/img/ancestry/oaaa/hoar-arms-full.svg" alt="Arms of John Hoar of Massachusetts" align="right" width="4"}
+Arms of John Hoar of Massachusetts
+:::
+
+
 
 > Sable, a double-headed eagle displayed within a bordure engrailed Argent.
 > Crest--An eagle's head erased Sable, gorged with a bar gemelle Or.  Motto--_In
@@ -147,11 +149,13 @@ The arms attributed to Henry Adams are those borne by his English ancestors of
 Devonshire, as recorded in _Burke's General Armory_ and several colonial-era
 sources:
 
-{% include figure.html
-image="ancestry/oaaa/adams-arms-full.svg"
-placement="right" width="4"
-cap="Arms of Henry Adams of Massachusetts"
-alt="Arms of Henry Adams of Massachusetts" %}
+
+
+:::figure{src="/assets/img/ancestry/oaaa/adams-arms-full.svg" alt="Arms of Henry Adams of Massachusetts" align="right" width="4"}
+Arms of Henry Adams of Massachusetts
+:::
+
+
 
 > Or, on a cross Gules, five mullets Argent.  Crest--Out of a ducal coronet Or,
 > a lion affrontee Gules.
@@ -206,11 +210,13 @@ centuries.
 The arms attributed to John Bigelow are recorded in several American armorial
 compilations of the nineteenth and early twentieth centuries:
 
-{% include figure.html
-image="ancestry/oaaa/bigelow-arms-full.svg"
-placement="right" width="4"
-cap="Arms of John Bigelow of Massachusetts"
-alt="Arms of John Bigelow of Massachusetts" %}
+
+
+:::figure{src="/assets/img/ancestry/oaaa/bigelow-arms-full.svg" alt="Arms of John Bigelow of Massachusetts" align="right" width="4"}
+Arms of John Bigelow of Massachusetts
+:::
+
+
 
 > Or, three lozenges Azure. Crest--A ram's head erased Azure, charged
 > with three lozenges, attired Or.
@@ -262,11 +268,13 @@ Watertown soon after.  A freeman by the early 1630s, he worked his land and
 participated in the civic life of the new town, and his line became one of the
 early New England kin networks.
 
-{% include figure.html
-image="ancestry/oaaa/stearns-arms-full.svg"
-placement="right" width="4"
-cap="Arms of Isaac Stearns of Massachusetts"
-alt="Arms of Isaac Stearns of Massachusetts" %}
+
+
+:::figure{src="/assets/img/ancestry/oaaa/stearns-arms-full.svg" alt="Arms of Isaac Stearns of Massachusetts" align="right" width="4"}
+Arms of Isaac Stearns of Massachusetts
+:::
+
+
 
 > Or, a chevron between three crosses flory pierced Sable.  Crest--A falcon
 rising proper.
@@ -285,7 +293,7 @@ The crest, a falcon rising proper, invites a naturalistic treatment: the bird
 rising with wings partially elevated and addorsed, head to dexter, legs braced
 as if about to take flight. Proper allows natural falcon coloration, so the
 crest's restrained browns and grays contrast with the stark geometry of the
-shield while remaining within period norms. 
+shield while remaining within period norms.
 
 The Stearns blazon above is the form printed by the early American compilers
 commonly cited for colonial attributions. English visitation entries under
@@ -308,11 +316,13 @@ were numerous and distinguished, producing clergy, scholars, and public
 officials throughout New England's colonial and early republican
 periods.
 
-{% include figure.html
-image="ancestry/oaaa/learned-arms-full.svg"
-placement="right" width="4"
-cap="Arms of William Learned of Massachusetts"
-alt="Arms of William Learned of Massachusetts" %}
+
+
+:::figure{src="/assets/img/ancestry/oaaa/learned-arms-full.svg" alt="Arms of William Learned of Massachusetts" align="right" width="4"}
+Arms of William Learned of Massachusetts
+:::
+
+
 
 The arms attributed to William Learned are recorded in several American
 heraldic compilations:
@@ -361,11 +371,13 @@ in New England for generations, and the Fairbanks House in Dedham, built by his
 son in 1637, is widely recognized as the oldest surviving timber-frame house in
 North America.
 
-{% include figure.html
-image="ancestry/oaaa/fairbanks-arms-full.svg"
-placement="right" width="4"
-cap="Arms of Jonathan Fairbanks of Massachusetts"
-alt="Arms of Jonathan Fairbanks of Massachusetts" %}
+
+
+:::figure{src="/assets/img/ancestry/oaaa/fairbanks-arms-full.svg" alt="Arms of Jonathan Fairbanks of Massachusetts" align="right" width="4"}
+Arms of Jonathan Fairbanks of Massachusetts
+:::
+
+
 
 The arms attributed to Jonathan Fairbanks are consistently recorded in early
 American heraldic compilations and family armorial traditions:
@@ -423,11 +435,13 @@ Massachusetts Bay Colony. Through his daughter Elizabeth Morse, the line
 descends into several prominent New England families, firmly situating him among
 the armigerous founders of the region, including others on this page.
 
-{% include figure.html
-image="ancestry/oaaa/morse-arms-full.svg"
-placement="right" width="4"
-cap="Arms of Samuel Morse of Massachusetts"
-alt="Arms of Samuel Morse of Massachusetts" %}
+
+
+:::figure{src="/assets/img/ancestry/oaaa/morse-arms-full.svg" alt="Arms of Samuel Morse of Massachusetts" align="right" width="4"}
+Arms of Samuel Morse of Massachusetts
+:::
+
+
 
 The arms attributed to Samuel Morse are recorded in American armorial sources
 and form the basis of my claim of eligibility:
@@ -488,11 +502,13 @@ removing to Braintree, where she died in 1676. Her daughter Lydia Penniman
 married Edward Adams of Medfield, a son of Henry Adams of Braintree, joining
 this line to the Adams descent documented above.
 
-{% include figure.html
-image="ancestry/oaaa/eliot-arms-full.svg"
-placement="right" width="4"
-cap="Arms of Lydia Eliot of Massachusetts"
-alt="Arms of Lydia Eliot of Massachusetts" %}
+
+
+:::figure{src="/assets/img/ancestry/oaaa/eliot-arms-full.svg" alt="Arms of Lydia Eliot of Massachusetts" align="right" width="4"}
+Arms of Lydia Eliot of Massachusetts
+:::
+
+
 
 Lydia Eliot is an uncommon figure in the rolls of the Order. Armigerous women
 who immigrated to America in the seventeenth century and whose heraldic claims
@@ -556,9 +572,12 @@ period.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="ancestry/OAAA-JohnHoar.webp" border=true
-   alt="Membership certificate in the Order of Americans of Armorial Ancestry"
-   cap="Membership certificate in the Order of Americans of Armorial Ancestry" %}
-   
+
+
+:::figure{src="/assets/img/ancestry/OAAA-JohnHoar.webp" alt="Membership certificate in the Order of Americans of Armorial Ancestry" align="center" width="12" border="true"}
+Membership certificate in the Order of Americans of Armorial Ancestry
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/OAAA-JohnHoar.pdf).

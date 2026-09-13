@@ -32,8 +32,10 @@ tags:
 
 Read more about what I and other industry leaders say about organizational approaches to analytics:
 
-{% include iframely.html url="http://www.informationweek.com/big-data/big-data-analytics/agile-analytics-11-ways-to-get-there/d/d-id/1325252" %}
+
+
+::embed{href="http://www.informationweek.com/big-data/big-data-analytics/agile-analytics-11-ways-to-get-there/d/d-id/1325252"}
+
+
 
 _Image by [geralt / Pixabay](https://pixabay.com/en/head-woman-transparent-empty-1137275/)._
-
-

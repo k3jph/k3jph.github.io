@@ -18,6 +18,6 @@ tags:
   - nonprofit
   - traffic
 ---
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/DZ1m3Nvlg1AETN" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/jameshoward/policy-entrepreneurship-at-the-dorr-foundation" title="Policy Entrepreneurship at the Dorr Foundation" target="_blank">Policy Entrepreneurship at the Dorr Foundation</a> </strong> from <strong><a href="https://www.slideshare.net/jameshoward" target="_blank">James Howard</a></strong> </div>
+<iframe title="Embedded media" src="//www.slideshare.net/slideshow/embed_code/key/DZ1m3Nvlg1AETN" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe> <div> <strong> <a href="//www.slideshare.net/jameshoward/policy-entrepreneurship-at-the-dorr-foundation" title="Policy Entrepreneurship at the Dorr Foundation" target="_blank">Policy Entrepreneurship at the Dorr Foundation</a> </strong> from <strong><a href="https://www.slideshare.net/jameshoward" target="_blank">James Howard</a></strong> </div>
 
 In 2008, I gave this presentation to the University of Baltimore course on nonprofit management about how the Dorr Foundation's research led to the outside lines on highways in the United States.

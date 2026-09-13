@@ -19,4 +19,6 @@ This study reviews the 2018-2020 Ebolavirus outbreak in the Democratic Republic 
 
 Watch the presentation on YouTube:
 
-{% include youtube.html id="WVXQMHFHbqI" %}
+
+
+::youtube{video="WVXQMHFHbqI"}

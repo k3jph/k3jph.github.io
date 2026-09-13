@@ -36,8 +36,14 @@ band into four-space.  Anyway, he has a hidden warehouse in his
 home full of thousands of glass Klein bottles and it is the craziest
 thing I've seen in some time:
 
-{% include youtube.html id="-k3mVnRlQLU" %}
+
+
+::youtube{video="-k3mVnRlQLU"}
+
+
 
 After you watch that, this will make so much more sense:
 
-{% include youtube.html id="Gj8IA6xOpSk" %}
+
+
+::youtube{video="Gj8IA6xOpSk"}

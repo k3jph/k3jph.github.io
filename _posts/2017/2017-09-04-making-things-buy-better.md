@@ -32,7 +32,7 @@ neuropathy](https://www.cdc.gov/niosh/docs/2011-139/pdfs/2011-139.pdf).
 The exact mechanism of ACR on neurological systems is unknown, but
 some have suggested that ACR interferes with certain neurotransmitters.
 In other words, it blocks the signal from the brain to muscular
-control. 
+control.
 [LoPachin, et al,](https://academic.oup.com/toxsci/article/95/1/136/1690176/Structure-Toxicity-Analysis-of-Type-2-Alkenes-In)
 investigated how this interference may occur because ACR has many
 beneficial uses and better understanding may lead to the development

@@ -22,7 +22,7 @@ taught cursive handwriting or there has been some sort of failure
 in their education.  In fact, here's a New York _Times_ article on
 the topic, posted after I had written this.
 
-<iframe src="https://www.nytimes.com/svc/oembed/html/?url=https%3A%2F%2Fwell.blogs.nytimes.com%2F2016%2F06%2F20%2Fwhy-handwriting-is-still-essential-in-the-keyboard-age%2F" scrolling="no" frameborder="0" allowtransparency="true" title="Why Handwriting Is Still Essential in the Keyboard Age" style="border:none;max-width:500px;min-width:300px;min-height:550px;display:block;width:100%;"></iframe>
+<iframe src="https://www.nytimes.com/svc/oembed/html/?url=https%3A%2F%2Fwell.blogs.nytimes.com%2F2016%2F06%2F20%2Fwhy-handwriting-is-still-essential-in-the-keyboard-age%2F" scrolling="no" frameborder="0" allowtransparency="true" title="Why Handwriting Is Still Essential in the Keyboard Age"></iframe>
 
 I am, here, drawing a distinction between cursive and other handwriting
 forms.  I firmly believe children must learn to write, by hand, but

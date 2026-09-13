@@ -23,7 +23,11 @@ tags:
 ---
 The New York _Times_ is wrong.  Don't take the annuity.
 
-{% include iframely.html url="http://www.nytimes.com/2016/01/13/upshot/dear-powerball-winner-take-our-advice-and-take-the-annuity.html" %}
+
+
+::embed{href="http://www.nytimes.com/2016/01/13/upshot/dear-powerball-winner-take-our-advice-and-take-the-annuity.html"}
+
+
 
 There are several gaping flaws in the logic here.  If you win the Powerball, don't take the annuity.  There are several reasons.  First, as the _Times_ correctly notes, if you take the cash option, you pay tax on that now, and then on future returns, whereas if you take the annuity, you only pay on future returns.  The problem here is that if tax brackets do not change, those are economically equivalent.  And in the worse case, there's no reason to believe tax policy won't change.  Despite some protestations to the contrary, marginal tax rates on the highest brackets will go up over the next decade and if you've taken the annuity, you're stuck paying a higher marginal tax rate and a higher real tax rate.
 

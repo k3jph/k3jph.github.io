@@ -70,11 +70,14 @@ states, the establishment of a homestead in Ohio's rural landscape, and
 the raising of a family whose lives became intertwined with the history
 of the county.
 
-{% include figure.html width="12"
-   image="/ancestry/FFMC-Burch.webp" border=true
-   alt="Membership certificate in the First Families of Mercer County"
-   cap="Membership certificate in the First Families of Mercer County" %}
-   
+
+
+:::figure{src="/ancestry/FFMC-Burch.webp" alt="Membership certificate in the First Families of Mercer County" align="center" width="12" border="true"}
+Membership certificate in the First Families of Mercer County
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/FFMC-Burch.pdf).
 
 *Additional memberships will be added as they are approved.*

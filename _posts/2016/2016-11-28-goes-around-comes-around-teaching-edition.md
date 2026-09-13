@@ -68,4 +68,3 @@ I will post the syllabus when it's ready.
 
 _Image by [tpsdave /
 Pixabay](https://pixabay.com/en/language-lab-college-university-181083/)._
-

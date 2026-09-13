@@ -138,7 +138,7 @@ Here is how to implement the Theil-Sen Estimator in both R and Python:
 
 ### Example in R
 
-```R
+```r
 # Load necessary library
 library(mblm)
 

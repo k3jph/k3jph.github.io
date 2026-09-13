@@ -25,7 +25,7 @@ Last summer, when I spoke at the [Mars Society Convention](https://jameshoward.u
 
 Those are important, and I acknowledged those reasons, though Mars is far less hospitable than Iceland.  Still, the results are interesting, including this:
 
-> Delegates also agree that the “right to leave” should be included in the new constitution. 
+> Delegates also agree that the “right to leave” should be included in the new constitution.
 
 Because of how impractical that is at Mars, vis-a-vis, for instance, the Moon, my research has split the governance strategies depending on whether getting back to Earth is easy (Moon and LEO), hard (Mars), or impossible (a generation ship).
 

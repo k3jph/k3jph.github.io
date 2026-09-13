@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/06/10/why-cellphones-cannot-be-used-on-planes
 featured_image: /assets/img/2024/why-cellphones-cannot-be-used-on-planes.webp
 categories:
-- Blog 
+- Blog
 tags:
 - public policy
 - electrical engineering
@@ -88,10 +88,13 @@ such issues.
 
 ## Actual Concerns with Analog Phones
 
-{% include figure.html width="4" placement="right"
-   image="/2024/why-cellphones-cannot-be-used-on-planes/zack-morris-phone.webp"
-   alt="Zack Morris and his phone, via Peter Engel Productions" cap="Zack Morris and his phone, via [Peter Engel Productions](https://www.imdb.com/name/nm0257137/)"
-   %}
+
+
+:::figure{src="/2024/why-cellphones-cannot-be-used-on-planes/zack-morris-phone.webp" alt="Zack Morris and his phone, via Peter Engel Productions" align="right" width="4"}
+Zack Morris and his phone, via [Peter Engel Productions](https://www.imdb.com/name/nm0257137/)
+:::
+
+
 
 [Analog cell phones](http://osmocom-analog.eversberg.eu/docs/amps.html),
 such as the old-style bag phones or the famous "Zack Morris phone,"

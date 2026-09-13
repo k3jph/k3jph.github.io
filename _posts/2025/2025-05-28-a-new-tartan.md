@@ -41,20 +41,23 @@ kind of cross-medium design.
 You can view the official registration at the [Scottish Register of
 Tartans](https://www.tartanregister.gov.uk/tartanDetails?ref=14834).
 
-{% include figure.html width="6" placement="right"
-   image="armory/jhoward-tartan.svg"
-   alt="A modern tartan rooted in heraldry"
-   cap="A modern tartan rooted in heraldry" %}
-   
+
+
+:::figure{src="/assets/img/armory/jhoward-tartan.svg" alt="A modern tartan rooted in heraldry" align="right" width="6"}
+A modern tartan rooted in heraldry
+:::
+
+
+
 Here are the colors used in the preferred palette:
 
-* <i class="fas fa-square" style="color: #FFFFFF;"></i> White – #FFFFFF
-* <i class="fas fa-square" style="color: #1959B9;"></i> Light Blue – #1959B9
-* <i class="fas fa-square" style="color: #154C9E;"></i> Medium Blue – #154C9E
-* <i class="fas fa-square" style="color: #103A79;"></i> Dark Blue – #103A79
-* <i class="fas fa-square" style="color: #FEE46E;"></i> Gold – #FEE46E
-* <i class="fas fa-square" style="color: #AC8800;"></i> Dark Gold – #AC8800
-* <i class="fas fa-square" style="color: #FFF1A1;"></i> Light Yellow – #FFF1A1
+* <span class="color-swatch color-swatch--white" aria-hidden="true"></span> White – #FFFFFF
+* <span class="color-swatch color-swatch--light-blue" aria-hidden="true"></span> Light Blue – #1959B9
+* <span class="color-swatch color-swatch--medium-blue" aria-hidden="true"></span> Medium Blue – #154C9E
+* <span class="color-swatch color-swatch--dark-blue" aria-hidden="true"></span> Dark Blue – #103A79
+* <span class="color-swatch color-swatch--gold" aria-hidden="true"></span> Gold – #FEE46E
+* <span class="color-swatch color-swatch--dark-gold" aria-hidden="true"></span> Dark Gold – #AC8800
+* <span class="color-swatch color-swatch--light-yellow" aria-hidden="true"></span> Light Yellow – #FFF1A1
 
 These colors place the tartan in aesthetic kinship with several other
 traditions. Though modern in execution, it avoids the digital glare of
@@ -87,9 +90,12 @@ You can view the official registration at the [Scottish Register of
 Tartans](https://www.tartanregister.gov.uk/tartanDetails?ref=14834), or see it
 below.
 
-{% include figure.html width="12"
-   image="/2025/a-new-tartan/jhoward-srt-certificate-14834.webp"
-   alt="Registration certificate for tartan 14,834"
-   cap="Registration certificate for tartan 14,834" %}
-   
+
+
+:::figure{src="/2025/a-new-tartan/jhoward-srt-certificate-14834.webp" alt="Registration certificate for tartan 14,834" align="center" width="12"}
+Registration certificate for tartan 14,834
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/jhoward-srt-certificate-14834.pdf).

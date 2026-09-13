@@ -18,7 +18,7 @@ tags:
   - Howard County
   - water resources policy
 ---
-Local Howard County blogger [Duane St. Clair](http://hococonnect.blogspot.com) went on the stormwater management hike.  There are no natural lakes in Maryland and when Columbia was built in the 1960s, three very small streams were damned up to create three artificial lakes.  There are several smaller ponds created the same way.  Before 1963, this area was mostly farmland.  
+Local Howard County blogger [Duane St. Clair](http://hococonnect.blogspot.com) went on the stormwater management hike.  There are no natural lakes in Maryland and when Columbia was built in the 1960s, three very small streams were damned up to create three artificial lakes.  There are several smaller ponds created the same way.  Before 1963, this area was mostly farmland.
 
 Nationally, at the same time, was the push to provide better flood protection resulting in the [National Flood Insurance Program](/scholarship).  Columbia reacted to this push
 [^groundswell] by directing groundwater flow into these central pools then prohibiting any building within the resultant 100-year floodplain.  There's not even much on the 500 year floodplain.  This sort of basic resilience is easy when building a planned community from the ground up.  Retrofitting resilience into an existing community is much more difficult, because stuff is already in the way.  And buying land in developed communities is expensive.

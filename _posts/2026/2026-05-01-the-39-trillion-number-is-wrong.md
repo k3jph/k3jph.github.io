@@ -56,7 +56,7 @@ government itself.
 The second is intragovernmental debt. This is Treasury
 securities held by federal government trust funds and accounts.
 The gross national debt figure of $39 trillion includes both.
-The intragovernmental portion, roughly $7.7 trillion, 
+The intragovernmental portion, roughly $7.7 trillion,
 is sometimes dismissed as the government owing itself, which
 is partially correct but substantially misleading, because not
 all intragovernmental debt is the same thing.

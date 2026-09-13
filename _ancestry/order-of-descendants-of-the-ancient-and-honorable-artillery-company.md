@@ -99,9 +99,12 @@ leadership in times of trial.
 
 *Additional memberships will be added as they are approved.*
 
-{% include figure.html width="12"
-   image="ancestry/ODAHAC-Sanford.webp" border=true
-   alt="Membership certificate in the Order of Descendants of the Ancient and Honorable Artillery Company"
-   cap="Membership certificate in the Order of Descendants of the Ancient and Honorable Artillery Company" %}
-   
+
+
+:::figure{src="/assets/img/ancestry/ODAHAC-Sanford.webp" alt="Membership certificate in the Order of Descendants of the Ancient and Honorable Artillery Company" align="center" width="12" border="true"}
+Membership certificate in the Order of Descendants of the Ancient and Honorable Artillery Company
+:::
+
+
+
 Or you can [download the PDF here](/assets/docs/ancestry/ODAHAC-Sanford.pdf).

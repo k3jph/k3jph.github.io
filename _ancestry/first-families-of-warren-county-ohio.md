@@ -78,7 +78,7 @@ The First Families of Warren County, Ohio, was established to honor the
 county's earliest settlers. Applicants must demonstrate direct descent
 from an ancestor who resided in the county before January 1, 1821, and
 provide documentation proving their ancestor's settlement and the line
-of descent. 
+of descent.
 
 Inductees are recognized annually and receive a certificate
 acknowledging their ancestor's historical significance within the

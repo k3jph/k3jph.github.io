@@ -36,9 +36,13 @@ the supply curves meet, just like any other good or service.  We
 call this equilibrium and looks like this rather vanilla supple and
 demand chart:
 
-{% include figure.html image="news/768px-Supply-demand-equilibrium.svg_.webp" 
-   alt="Supply and demand at equilibrium (SilverStar / Wikimedia Commons)"
-   cap="Supply and demand at equilibrium (SilverStar / Wikimedia Commons)" %}
+
+
+:::figure{src="/assets/img/news/768px-Supply-demand-equilibrium.svg_.webp" alt="Supply and demand at equilibrium (SilverStar / Wikimedia Commons)" align="center" width="100"}
+Supply and demand at equilibrium (SilverStar / Wikimedia Commons)
+:::
+
+
 
 The idea the tax-cutters support is that if there's more money in
 the pockets of business, they will buy more labor.  But, in order
@@ -61,9 +65,13 @@ money.  Also, money is good, so we want as much of that as we can
 get.  Here's a chart showing the relationship between marginal cost,
 price, and revenue, which we typically call the "cost curve":
 
-{% include figure.html image="news/800px-Costcurve_-_Combined.svg_.webp" 
-   alt="The cost curve for a good or service (Jarry1250 / Wikimedia Commons)"
-   cap="The cost curve for a good or service (Jarry1250 / Wikimedia Commons)" %}
+
+
+:::figure{src="/assets/img/news/800px-Costcurve_-_Combined.svg_.webp" alt="The cost curve for a good or service (Jarry1250 / Wikimedia Commons)" align="center" width="100"}
+The cost curve for a good or service (Jarry1250 / Wikimedia Commons)
+:::
+
+
 
 So, what does this have to do with the tax bill?  Well, a business
 has already "bought" all the labor it needs to keep producing.  Any
@@ -151,7 +159,11 @@ to that service provision.
 
 But that would require someone stopping and thinking it through.
 
-{% include youtube.html id="RpkQEq75y18" %}
+
+
+::youtube{video="RpkQEq75y18"}
+
+
 
 _Image by [Images Money /
 Flickr](https://www.flickr.com/photos/59937401@N07/5856708903)._

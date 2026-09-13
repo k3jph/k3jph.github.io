@@ -23,7 +23,11 @@ tags:
 Last year, Chase asked me about solar-powered trains, and we did
 the analysis.  Like a good little nerd, I posted the analysis here:
 
-{% include iframely.html url="https://jameshoward.us/2016/02/09/solar-powered-trains/" %}
+
+
+::embed{href="https://jameshoward.us/2016/02/09/solar-powered-trains/"}
+
+
 
 It turns out, Indian Railways has been working on the same problem.
 Now, my analysis was predicated on the assumption that all of the

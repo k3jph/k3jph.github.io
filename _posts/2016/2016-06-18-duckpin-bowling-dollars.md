@@ -28,8 +28,7 @@ bowling on my Facebook page and challenged me to a throw down.
 <iframe
 src="https://www.nytimes.com/svc/oembed/html/?url=https%3A%2F%2Fwww.nytimes.com%2F2016%2F05%2F29%2Fsports%2Fduckpin-bowling.html"
 scrolling="no" frameborder="0" allowtransparency="true" title="The
-Lost Art of Duckpin Bowling"
-style="border:none;max-width:500px;min-width:300px;min-height:550px;display:block;width:100%;"></iframe>
+Lost Art of Duckpin Bowling"></iframe>
 
 Little did Bill know, I was at [the AMF in
 Timonium](https://www.amf.com/location/amf-timonium-lanes) when he
@@ -49,6 +48,6 @@ I promise, yet again, Long Reach shall crush them.
 
 For more information, Facebook it!
 
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.facebook.com/events/d41d8cd9/duckpin-throwdown-i-woodcock-vs-howard/292479114419845/" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Fwww.facebook.com%2Fevents%2F292479114419845%2F&key=176ff6184ababb980170f6037497fb6a"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+<div class="iframely-embed"><div class="iframely-responsive"><a href="https://www.facebook.com/events/d41d8cd9/duckpin-throwdown-i-woodcock-vs-howard/292479114419845/" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Fwww.facebook.com%2Fevents%2F292479114419845%2F&key=176ff6184ababb980170f6037497fb6a"></a></div></div>
 
 _Image by [Valerie Everett / Wikimedia](https://commons.wikimedia.org/wiki/File:Duckpins_closeup.webp)._

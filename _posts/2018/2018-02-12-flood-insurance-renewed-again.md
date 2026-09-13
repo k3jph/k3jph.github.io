@@ -19,7 +19,11 @@ So there's good news and bad news here.  First, the [National Flood
 Insurance Program](https://www.fema.gov/national-flood-insurance-program)
 (NFIP) has been extended as part of Friday's budget deal:
 
-{% include iframely.html url="https://www.houstonpublicmedia.org/articles/news/2018/02/09/266882/budget-deal-extends-flood-insurance-program-again/" %}
+
+
+::embed{href="https://www.houstonpublicmedia.org/articles/news/2018/02/09/266882/budget-deal-extends-flood-insurance-program-again/"}
+
+
 
 The bad news here is that the program is still a mess.  The incentives
 are all out of whack and the program continues to slowly drill a

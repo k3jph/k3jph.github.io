@@ -61,4 +61,3 @@ bill will provide us all.
 
 _Images, as always, via [Wikimedia
 Commons](https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Land_of_Cockaigne.JPG)._
-

@@ -27,11 +27,11 @@ redirect_from:
 
 <section class="westarctica-summary" markdown="1">
 
-<div class="container" markdown="1">
+<div class="content-section" markdown="1">
 
 <div class="title-area">
   <h2 id="my-westarctican-record">My Westarctican Record</h2>
-  <div class="separator separator-warning"><img src="{{ '/assets/img/identity/kamon-warning.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-warning"><img src="/assets/img/identity/kamon-warning.svg" height="35" alt="" /></div>
 </div>
 
 <div class="westarctica-card-grid">
@@ -79,7 +79,7 @@ redirect_from:
 
 <div class="title-area">
   <h2 id="peerages-and-titles">Peerages and Titles</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
 </div>
 
 The three patents below are grants in the Peerage of Westarctica. **Count of Krigsvold** is my principal title; **Baron of Matikonis** and **Count Rubin de la Borbolla** are subsidiary titles.
@@ -89,8 +89,8 @@ The three patents below are grants in the Peerage of Westarctica. **Count of Kri
 I was created **Baron of Matikonis** on 29 November 2024. The title refers to Matikonis Peak in Antarctica and remains part of my Westarctican peerage record.
 
 <figure class="westarctica-document">
-  <a href="{{ '/assets/img/honors/jhoward-matikonis.pdf' | relative_url }}"><img src="{{ '/assets/img/honors/jhoward-matikonis.webp' | relative_url }}" alt="Letters Patent creating James Patrick Howard II Baron of Matikonis"></a>
-  <figcaption>Letters Patent for the Baron of Matikonis · <a href="{{ '/assets/img/honors/jhoward-matikonis.pdf' | relative_url }}">View the PDF</a></figcaption>
+  <a href="/assets/img/honors/jhoward-matikonis.pdf"><img src="/assets/img/honors/jhoward-matikonis.webp" alt="Letters Patent creating James Patrick Howard II Baron of Matikonis"></a>
+  <figcaption>Letters Patent for the Baron of Matikonis · <a href="/assets/img/honors/jhoward-matikonis.pdf">View the PDF</a></figcaption>
 </figure>
 
 ### Count of Krigsvold {#Krigsvold}
@@ -98,8 +98,8 @@ I was created **Baron of Matikonis** on 29 November 2024. The title refers to Ma
 I was created **Count of Krigsvold** on 25 December 2024. The title takes its name from the [Krigsvold Nunataks](https://krigsvold.org); the title is a Westarctican peerage, not a claim to legal nobility outside Westarctica.
 
 <figure class="westarctica-document">
-  <a href="{{ '/assets/img/honors/jhoward-krigsvold.pdf' | relative_url }}"><img src="{{ '/assets/img/honors/jhoward-krigsvold.webp' | relative_url }}" alt="Letters Patent creating James Patrick Howard II Count of Krigsvold"></a>
-  <figcaption>Letters Patent for the Count of Krigsvold · <a href="{{ '/assets/img/honors/jhoward-krigsvold.pdf' | relative_url }}">View the PDF</a></figcaption>
+  <a href="/assets/img/honors/jhoward-krigsvold.pdf"><img src="/assets/img/honors/jhoward-krigsvold.webp" alt="Letters Patent creating James Patrick Howard II Count of Krigsvold"></a>
+  <figcaption>Letters Patent for the Count of Krigsvold · <a href="/assets/img/honors/jhoward-krigsvold.pdf">View the PDF</a></figcaption>
 </figure>
 
 ### Count Rubin de la Borbolla {#Rubin-de-la-Borbolla}
@@ -107,17 +107,17 @@ I was created **Count of Krigsvold** on 25 December 2024. The title takes its na
 I was created **Count Rubin de la Borbolla** on 7 July 2025. The patent names Mount Rubin de la Borbolla as the title’s territorial referent and records the grant as a peerage of Westarctica.
 
 <figure class="westarctica-document">
-  <a href="{{ '/assets/docs/JHoward-Westarctica-Rubin-de-la-Borbolla.pdf' | relative_url }}"><img src="{{ '/assets/img/honors/jhoward-rubin-de-la-borbolla.webp' | relative_url }}" alt="Letters Patent creating James Patrick Howard II Count Rubin de la Borbolla"></a>
-  <figcaption>Letters Patent for Count Rubin de la Borbolla · <a href="{{ '/assets/docs/JHoward-Westarctica-Rubin-de-la-Borbolla.pdf' | relative_url }}">View the PDF</a></figcaption>
+  <a href="/assets/docs/JHoward-Westarctica-Rubin-de-la-Borbolla.pdf"><img src="/assets/img/honors/jhoward-rubin-de-la-borbolla.webp" alt="Letters Patent creating James Patrick Howard II Count Rubin de la Borbolla"></a>
+  <figcaption>Letters Patent for Count Rubin de la Borbolla · <a href="/assets/docs/JHoward-Westarctica-Rubin-de-la-Borbolla.pdf">View the PDF</a></figcaption>
 </figure>
 
 <section class="westarctica-orders" markdown="1">
 
-<div class="container" markdown="1">
+<div class="content-section" markdown="1">
 
 <div class="title-area">
   <h2 id="orders-and-honors">Orders and Honors</h2>
-  <div class="separator separator-warning"><img src="{{ '/assets/img/identity/kamon-warning.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-warning"><img src="/assets/img/identity/kamon-warning.svg" height="35" alt="" /></div>
 </div>
 
 ### Order of the Snowflake {#WAKTS}
@@ -131,17 +131,17 @@ The **Order of the Snowflake** is a Westarctican order. My appointment history i
   <dd><strong>2 November 2025.</strong> Promoted to the current grade by Grand Duke Travis, in recognition of faithful support of Westarctica’s mission, aims, and goals.</dd>
 </dl>
 
-<div class="row westarctica-order-documents">
-  <div class="col-md-4">
+<div class="content-grid westarctica-order-documents">
+  <div class="content-grid__item content-grid__item--third">
     <figure class="westarctica-document westarctica-document-compact">
-      <img src="{{ '/assets/img/honors/jhoward-kts.webp' | relative_url }}" alt="Brevet for James Howard's appointment as Knight of the Order of the Snowflake">
+      <img src="/assets/img/honors/jhoward-kts.webp" alt="Brevet for James Howard's appointment as Knight of the Order of the Snowflake">
       <figcaption>Original Knight brevet · 25 December 2023</figcaption>
     </figure>
   </div>
-  <div class="col-md-8">
+  <div class="content-grid__item content-grid__item--wide">
     <figure class="westarctica-document">
-      <a href="{{ '/assets/docs/JHoward-Westarctica-Order-of-the-Snowflake-KCS.pdf' | relative_url }}"><img src="{{ '/assets/img/honors/jhoward-order-snowflake-kcs.webp' | relative_url }}" alt="Instrument appointing James Patrick Howard II Knight Commander of the Order of the Snowflake"></a>
-      <figcaption>Knight Commander instrument · 2 November 2025 · <a href="{{ '/assets/docs/JHoward-Westarctica-Order-of-the-Snowflake-KCS.pdf' | relative_url }}">View the PDF</a></figcaption>
+      <a href="/assets/docs/JHoward-Westarctica-Order-of-the-Snowflake-KCS.pdf"><img src="/assets/img/honors/jhoward-order-snowflake-kcs.webp" alt="Instrument appointing James Patrick Howard II Knight Commander of the Order of the Snowflake"></a>
+      <figcaption>Knight Commander instrument · 2 November 2025 · <a href="/assets/docs/JHoward-Westarctica-Order-of-the-Snowflake-KCS.pdf">View the PDF</a></figcaption>
     </figure>
   </div>
 </div>
@@ -153,8 +153,8 @@ The current instrument does not print a postnominal. The current grade is record
 On 7 July 2025, Grand Duke Travis conferred the honor of **Companion of the Noble Order of Westarctica** upon me. The instrument records the citation: “In recognition of good deeds, outstanding character, noble honor, and pious spirit.” The order’s companion grade is used for peers; the associated postnominal is **CW**.
 
 <figure class="westarctica-document westarctica-document-centered">
-  <a href="{{ '/assets/docs/JHoward-Westarctica-Noble-Order-Companion.pdf' | relative_url }}"><img src="{{ '/assets/img/honors/jhoward-noble-order-companion.webp' | relative_url }}" alt="Certificate appointing James Patrick Howard Companion of the Noble Order of Westarctica"></a>
-  <figcaption>Companion certificate · 7 July 2025 · <a href="{{ '/assets/docs/JHoward-Westarctica-Noble-Order-Companion.pdf' | relative_url }}">View the PDF</a></figcaption>
+  <a href="/assets/docs/JHoward-Westarctica-Noble-Order-Companion.pdf"><img src="/assets/img/honors/jhoward-noble-order-companion.webp" alt="Certificate appointing James Patrick Howard Companion of the Noble Order of Westarctica"></a>
+  <figcaption>Companion certificate · 7 July 2025 · <a href="/assets/docs/JHoward-Westarctica-Noble-Order-Companion.pdf">View the PDF</a></figcaption>
 </figure>
 
 </div>
@@ -163,7 +163,7 @@ On 7 July 2025, Grand Duke Travis conferred the honor of **Companion of the Nobl
 
 <div class="title-area">
   <h2 id="service-and-institutional-roles">Service and Institutional Roles</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
 </div>
 
 ### Ellsworth King of Arms
@@ -172,7 +172,7 @@ I was appointed **Ellsworth King of Arms** on 9 June 2025. It is an office in th
 
 <div class="title-area">
   <h2 id="count-of-krigsvold-fellowship">Count of Krigsvold Fellowship</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
 </div>
 
 The **Count of Krigsvold Fellowship** is not an honor conferred on me. Westarctica records that I pledged $1,000 to increase its annual conservation scholarship and refine its grant requirements; the program was subsequently named the Count of Krigsvold Fellowship. Its first award was made in 2025.
@@ -181,7 +181,7 @@ That is program support, not a decoration. The distinction matters: the fellowsh
 
 <div class="title-area">
   <h2 id="about-westarctica">About Westarctica</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
 </div>
 
 Westarctica is a micronation whose claimed territory concerns Marie Byrd Land in Antarctica. It is not a recognized sovereign state. Its organization maintains a government, peerage, honors system, and cultural institutions, while its affiliated nonprofit describes a conservation and environmental mission for Western Antarctica.
@@ -192,18 +192,22 @@ The [Westarctica official site](https://www.westarctica.info/) and its [Royal Ho
 
 <div class="title-area">
   <h2 id="documents-and-sources">Documents and Sources</h2>
-  <div class="separator separator-info"><img src="{{ '/assets/img/identity/kamon-info.svg' | relative_url }}" height="35" alt="" /></div>
+  <div class="separator separator-info"><img src="/assets/img/identity/kamon-info.svg" height="35" alt="" /></div>
 </div>
 
-- [Letters Patent: Baron of Matikonis]({{ '/assets/img/honors/jhoward-matikonis.pdf' | relative_url }}).
-- [Letters Patent: Count of Krigsvold]({{ '/assets/img/honors/jhoward-krigsvold.pdf' | relative_url }}).
-- [Letters Patent: Count Rubin de la Borbolla]({{ '/assets/docs/JHoward-Westarctica-Rubin-de-la-Borbolla.pdf' | relative_url }}).
-- [Instrument: Knight Commander, Order of the Snowflake]({{ '/assets/docs/JHoward-Westarctica-Order-of-the-Snowflake-KCS.pdf' | relative_url }}).
-- [Certificate: Companion, Noble Order of Westarctica]({{ '/assets/docs/JHoward-Westarctica-Noble-Order-Companion.pdf' | relative_url }}).
+- [Letters Patent: Baron of Matikonis](/assets/img/honors/jhoward-matikonis.pdf).
+- [Letters Patent: Count of Krigsvold](/assets/img/honors/jhoward-krigsvold.pdf).
+- [Letters Patent: Count Rubin de la Borbolla](/assets/docs/JHoward-Westarctica-Rubin-de-la-Borbolla.pdf).
+- [Instrument: Knight Commander, Order of the Snowflake](/assets/docs/JHoward-Westarctica-Order-of-the-Snowflake-KCS.pdf).
+- [Certificate: Companion, Noble Order of Westarctica](/assets/docs/JHoward-Westarctica-Noble-Order-Companion.pdf).
 - [Westarctica official site](https://www.westarctica.info/) and [Royal Household](https://www.westarctica.info/household), used for current institutional context.
 
 &nbsp;
 
-{% include relatedposts.html tag="Westarctica" %}
+
+
+::related-posts{tag="Westarctica"}
+
+
 
 </div>

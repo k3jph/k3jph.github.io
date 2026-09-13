@@ -19,9 +19,13 @@ tags:
 ---
 There's a story from Manville, New Jersey, about flooding and cost-benefit analysis, and that's my bag, baby.  Here's the story:
 
-{% include iframely.html url="http://www.mycentraljersey.com/story/news/local/the-flood-zone/2016/03/24/army-corps-manville-flooding-youre-your-own/82206640/" %}
 
-Long story short, The Army Corps of Engineers said no to flood protections for this small town because they don't pass a cost-benefit test.  Cost-benefit analysis was spearheaded in Federal decisionmaking with the 1936 Flood Control Act, which required the Corps to use cost-benefit on potential flood mitigations.  So if anyone knows how to do cost-benefit on flood control, it's the Corps.  
+
+::embed{href="http://www.mycentraljersey.com/story/news/local/the-flood-zone/2016/03/24/army-corps-manville-flooding-youre-your-own/82206640/"}
+
+
+
+Long story short, The Army Corps of Engineers said no to flood protections for this small town because they don't pass a cost-benefit test.  Cost-benefit analysis was spearheaded in Federal decisionmaking with the 1936 Flood Control Act, which required the Corps to use cost-benefit on potential flood mitigations.  So if anyone knows how to do cost-benefit on flood control, it's the Corps.
 
 Needless to say, the community is up in arms, and there's a litany of complaints that sound familiar.  But here's a new one.
 

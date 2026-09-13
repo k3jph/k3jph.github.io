@@ -7,7 +7,7 @@ layout: post
 permalink: /2024/01/22/i-earned-iccfs-correspondence-chess-expert-title
 featured_image: /assets/img/2024/i-earned-iccfs-correspondence-chess-expert-title.webp
 categories:
-- Blog 
+- Blog
 tags:
 - chess
 - correspondence chess
@@ -18,10 +18,13 @@ The International Correspondence Chess Federation has awarded me the title
 of **Correspondence Chess Expert**. The certificate says CCE, which is both
 more compact and rather more useful on a tournament table.
 
-{% include figure.html width="6" link="/assets/docs/jhoward-iccf-cce.pdf"
-   image="/2024/i-earned-iccfs-correspondence-chess-expert-title/jhoward-iccf-cce.webp"
-   alt="My Correspondence Chess Expert certificate" 
-   cap="My Correspondence Chess Expert certificate" %}
+
+
+:::figure{src="/2024/i-earned-iccfs-correspondence-chess-expert-title/jhoward-iccf-cce.webp" alt="My Correspondence Chess Expert certificate" align="center" width="6" link="/assets/docs/jhoward-iccf-cce.pdf"}
+My Correspondence Chess Expert certificate
+:::
+
+
 
 ## Correspondence Chess, Now With More Computers
 
@@ -45,7 +48,7 @@ problem. It changes the human problem into management of a small, opinionated
 analytical department.
 
 I had been thinking about that problem since I began ICCF play in 2014. My
-earlier note on [chess engines and online play]({{ '/2014/06/13/chess-engines-and-playing-online/' | relative_url }})
+earlier note on [chess engines and online play](/2014/06/13/chess-engines-and-playing-online/)
 described the basic arrangement; earning the title required getting rather
 better at living with it.
 
