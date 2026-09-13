@@ -1,9 +1,0 @@
-{% assign iframely_key = include.key | default: site.iframely-key %}
-<div class="iframely-embed">
-    <div class="iframely-responsive" style="padding-bottom: 66.6667%; padding-top: 120px;"><a
-            href="{{ include.url | escape }}"
-            data-iframely-url="//cdn.iframe.ly/api/iframe?url={{ include.url | cgi_escape }}&amp;key={{ iframely_key | escape }}"></a>
-    </div>
-</div>
-<script defer async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
-<br/>

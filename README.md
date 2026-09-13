@@ -1,161 +1,37 @@
-# JamesHoward.us — Developer Guide
+# JamesHoward.us
 
-This repository powers **[jameshoward.us](https://jameshoward.us)** using [Jekyll](https://jekyllrb.com/) and a modern Ruby-based build system.
-It is optimized for both local development and automated deployment to GitHub Pages.
+The source for [jameshoward.us](https://jameshoward.us), built as a static Astro site. It contains a long-running blog plus scholarship, teaching, software, public-service, book, heraldry, and ancestry archives.
 
----
+## Local development
 
-## 🚀 Environment Overview
-
-| Environment     | Config Files                     | Description                                                                                   |
-| --------------- | -------------------------------- | --------------------------------------------------------------------------------------------- |
-| **Production**  | `_config.yml`                    | Optimized build with minification and Cloudflare responsive-image URLs.                        |
-| **Development** | `_config.yml`, `_config_dev.yml` | Fast local preview with original images, live reload, and uncompressed assets.                 |
-
-Ruby **3.4.2** and Jekyll **4.3.3** are required. Full site validation also requires Java **17 or newer** for the Nu HTML Checker.
-
----
-
-## 🪙 Setup
-
-1. **Install Ruby 3.4.2** (recommended via `rbenv` or `rvm`).
-2. **Install Java 17 or newer** if you plan to run full generated-site validation.
-3. **Install dependencies:**
-
-   ```bash
-   bundle install --with development
-   ```
-4. **Verify your environment:**
-
-   ```bash
-   rake env
-   ```
-
----
-
-## 🧪 Development Workflow
-
-| Task                       | Command                                                               | Notes                                                                                         |
-| -------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| Serve locally              | `rake serve`                                                          | Uses `_config.yml` + `_config_dev.yml`. Includes drafts, incremental builds, and live reload. |
-| Quick preview              | `rake serve` then open [http://localhost:4000](http://localhost:4000) | Site auto-rebuilds on save.                                                                   |
-| Clean build artifacts      | `rake clean`                                                          | Removes `_site`, `.jekyll-cache`, `.sass-cache`.                                              |
-| Check site health          | `rake check`                                                          | Runs `jekyll doctor` for config sanity.                                                       |
-| Validate existing output   | `rake validate_links validate_html`                                   | Checks the current `_site` without rebuilding it.                                             |
-
----
-
-## 🎗️ Production Build
-
-| Task                | Command                    | Notes                                         |
-| ------------------- | -------------------------- | --------------------------------------------- |
-| Full build          | `rake build`               | Builds `_site` using `_config.yml` only.      |
-| Clean + rebuild     | `rake clean && rake build` | Recommended before deployment.                |
-| Build + validate    | `bundle exec rake validate`| Production build plus all blocking checks.    |
-
-GitHub Actions automatically runs these steps and deploys to Pages whenever `main` is updated.
-
-### Generated-site validation
-
-Run the complete local gate with:
+Node.js 24 is the supported runtime.
 
 ```bash
-bundle exec rake validate
+npm install
+npm run dev
 ```
 
-Validation operates on the generated production `_site`, not directly on Markdown or Liquid source:
+Astro’s local server prints its preview URL. Changes to Markdown source are translated into disposable content collections before each run.
 
-* `validate_links` uses HTML-Proofer to check relative and root-relative links, `jameshoward.us` and `www.jameshoward.us` absolute links, fragments, local images, and local scripts. Cloudflare transformation URLs are mapped back to their original local images.
-* `validate_html` uses a checksum-pinned Nu HTML Checker release to validate every generated HTML file. The validator is downloaded into `.validator-cache/` on first use.
+## Commands
 
-External URLs are not requested and do not block a build. Their availability changes independently of this repository and belongs in a separate periodic audit.
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Prepare content and start the development server |
+| `npm run check` | Validate Astro and TypeScript |
+| `npm run build` | Create the production site in `dist/` |
+| `npm run validate` | Run the complete diagnostics, build, route, and local-link gate |
 
-The only markup exclusion is the exact generated file `_site/laserprj.html`, a legacy shortcut that is intentionally not a standalone conforming page. Links pointing to it are still checked by `validate_links`.
+## Content
 
-When validation fails, use the reported generated page, line, and URL or HTML message to locate the corresponding source page, layout, or include. Fix the source and rerun `bundle exec rake validate`; do not edit `_site` directly.
+- Blog posts: `_posts/YYYY/`
+- Ancestry records: `_ancestry/`
+- Structured records: `_data/`
+- Permanent Markdown pages: repository root and topic directories
+- Static assets: `public/assets/`
 
----
+Legacy Liquid in the source corpus is translated by `scripts/prepare-content.mjs`; generated files under `.generated/` must not be edited. Existing `permalink` and `redirect_from` values are part of the public URL contract.
 
-## 🖼️ Media & Images
+GitHub Actions validates pull requests. The deployment workflow builds and publishes `main` to GitHub Pages on pushes, manual dispatch, and the nightly scheduled-post check.
 
-Most site images are stored under `assets/img/`.
-
-Production HTML uses Cloudflare Image Transformations for responsive widths and automatic browser-format selection. Local development serves the original image files directly, so preview builds do not depend on Cloudflare or generate derivatives.
-
-Use the existing `{% include figure.html %}` macro to insert images with captions and layout options.
-
-Example:
-
-```liquid
-{% include figure.html
-   image="news/example.webp"
-   placement="right"
-   width="50"
-   alt="Example alt text"
-   cap="An example figure" %}
-```
-
-In production, this generates a responsive `srcset` using the widths in `_data/cloudflare_images.yml`. In development, it emits a single `<img>` pointing to the original asset.
-
-The Cloudflare zone must have **Images → Transformations** enabled. The recommended cache rule for `/assets/img/*` overrides both Edge TTL and Browser TTL to 35 days (`3,024,000` seconds). Changing an image without changing its filename requires purging the original image URL, which also purges its transformed variants.
-
----
-
-## ✨ Table of Contents & Minifier
-
-**jekyll-toc** automatically generates in-page TOCs.
-Add `{% toc %}` or `{{ content | toc }}` in your layouts or posts.
-
-**jekyll-minifier** compresses HTML, CSS, and JS in production builds.
-
----
-
-## 🔧 GitHub Actions
-
-The workflow file is located at:
-
-```
-.github/workflows/jekyll.yml
-```
-
-It:
-
-* Uses Ruby **3.4.2**
-* Builds via `bundle exec rake build`
-* Validates generated links and HTML before artifact upload
-* Runs the same production-equivalent gate on pull requests without deploying
-* Deploys automatically to GitHub Pages on push to `main`
-* Runs nightly at 21:00 in `America/New_York` (`00 21 * * *`)
-
----
-
-## 🪟 Housekeeping
-
-| Task                               | Command                                |
-| ---------------------------------- | -------------------------------------- |
-| Remove cached gems                 | `rm -rf vendor/ .bundle/ Gemfile.lock` |
-| Reinstall everything clean         | `bundle install --with development`    |
-
----
-
-## 🏁 Summary
-
-This project structure provides:
-
-* Clean separation of development and production environments.
-* Responsive image delivery through Cloudflare Image Transformations.
-* Automatic minification.
-* Integrated Rake automation for simple operation.
-
-To start a new post:
-
-```bash
-rake post:new["My New Article"]
-```
-
-Then edit `_posts/YYYY-MM-DD-my-new-article.md`.
-
----
-
-**Author:** James P. Howard II, PhD
-**Website:** [https://jameshoward.us](https://jameshoward.us)
+See [the architecture notes](docs/migration/ARCHITECTURE.md) and [release checklist](docs/migration/RELEASE-READINESS.md) for migration details.

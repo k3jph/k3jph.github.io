@@ -6,6 +6,9 @@ subtitle: Member _jure_ John Hess Adams (Postmaster); member no. 334
 date: 2025-04-25
 founding_date: 2019-12-01
 qualifying_ancestors: [ "John Hess Adams (Postmaster)" ]
+ancestor_names: ["John Hess Adams"]
+places: ["Indiana", "Ohio"]
+topics: ["Artisans and trades", "Postal history", "Railroads"]
 member_number: 334
 author: k3jph
 layout: page

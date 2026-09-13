@@ -1,0 +1,15 @@
+---
+import 'katex/dist/katex.min.css';
+import '../styles/global.css';
+import '../styles/content.css';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import CookieConsent from '../components/CookieConsent.astro';
+import { SITE, absoluteUrl, normalizeAssetPath } from '../lib/site';
+interface Props { title?: string; description?: string; image?: string; canonical?: string; type?: string; noindex?: boolean; stylesheet?: string; script?: string; profilePage?: boolean }
+const { title=SITE.title, description=SITE.description, image=SITE.socialImage, canonical=Astro.url.pathname, type='website', noindex=false, stylesheet, script, profilePage=false }=Astro.props;
+const fullTitle=title==='Home'||title===SITE.title?SITE.title:`${title} | ${SITE.title}`;
+const canonicalUrl=absoluteUrl(canonical);
+const socialImage=absoluteUrl(normalizeAssetPath(image));
+---
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>{fullTitle}</title><meta name="description" content={description}><link rel="canonical" href={canonicalUrl}><link rel="icon" href="/assets/img/identity/favicon.svg"><link rel="alternate" type="application/rss+xml" title="James Howard" href="/feed.xml"><meta property="og:type" content={type}><meta property="og:title" content={fullTitle}><meta property="og:description" content={description}><meta property="og:url" content={canonicalUrl}><meta property="og:image" content={socialImage}><meta name="twitter:card" content="summary_large_image">{noindex&&<meta name="robots" content="noindex">}{stylesheet&&<link rel="stylesheet" href={stylesheet}>}<slot name="head" />{profilePage&&<script is:inline type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@type':'Person',name:SITE.name,url:SITE.url})}/>}</head><body><a class="skip-link" href="#main-content">Skip to content</a><SiteHeader/><main id="main-content"><slot/></main><SiteFooter/><CookieConsent/>{script&&<script is:inline src={script} defer></script>}<slot name="scripts" /></body></html>

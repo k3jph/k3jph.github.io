@@ -6,6 +6,9 @@ subtitle: Member _jure_ Jonathan Newman (1768); member no. 891
 date: 2024-09-28
 founding_date: 1980-09-10
 qualifying_ancestors: [ "Jonathan Newman (1768)" ]
+ancestor_names: ["Jonathan Newman"]
+places: ["North Carolina", "Ohio"]
+topics: ["Migration and settlement", "Quakers"]
 member_number: 891
 author: k3jph
 layout: page

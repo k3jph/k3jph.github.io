@@ -22,7 +22,6 @@ tags:
   - press
   - radio
   - thought experiments
-TODO: Fix audio enclosures
 ---
 <!-- wp:paragraph -->
 On Saturday, I discussed the ethics of [_The
@@ -38,9 +37,5 @@ Archons"](http://memory-alpha.wikia.com/wiki/The_Return_of_the_Archons_(episode)
 ["The Lottery"](https://en.wikipedia.org/wiki/The_Lottery), and
 _[The Hunger
 Games](http://www.suzannecollinsbooks.com/the_hunger_games_69765.htm)_.
-Listen here:
-
-<figure class="wp-block-audio">
-<audio controls="" src="/assets/audio/Breakthrough-Entertainment-2016-07-02-3.mp3"></audio>
-<figcaption>The Ethics of <em>The Purge</em> on KPHX in Phoenix</figcaption>
-</figure>
+_Archive note: the station audio file embedded in the original post is no
+longer available._

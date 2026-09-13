@@ -1,0 +1,5 @@
+---
+import { getCollection } from 'astro:content'; import BaseLayout from '../../layouts/BaseLayout.astro'; import PageIntro from '../../components/PageIntro.astro'; import BlogArchive from '../../components/BlogArchive.astro'; import {isPublished} from '../../lib/site';
+const all=(await getCollection('blog')).filter(p=>isPublished(p.data)).sort((a,b)=>+b.data.date-+a.data.date); const posts=all.slice(0,10); const pages=Math.ceil(all.length/10);
+---
+<BaseLayout title="Blog" description="Essays, notes, and project updates from James Howard." image="/assets/img/blog.webp"><PageIntro title="Blog" subtitle="Essays, notes, and project updates." image="/assets/img/blog.webp"/><section class="section"><div class="container"><BlogArchive posts={posts}/>{pages>1&&<nav class="pagination" aria-label="Blog pages"><span>Page 1 of {pages}</span><a class="button" href="/blog/page/2/">Older posts →</a></nav>}</div></section></BaseLayout>

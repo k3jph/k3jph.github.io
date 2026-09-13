@@ -40,7 +40,8 @@ I asked the committee to produced a revised policy subjecting advisory committee
 > James P. Howard, II
 >
 > 1. James Howard to Performance Oversight Committee, "Regarding Non-Disclosure Agreements with Advisory
-Committee Members," September 11, 2007, http://jameshoward.us/CA.
+Committee Members," September 11, 2007. The cited legacy `jameshoward.us/CA`
+resource is no longer available in the archive.
 >
 > 2. Columbia Association, Inc., Minutes of Performance Oversight Committee Meeting (Columbia, Maryland, September 11, 2007).
 >

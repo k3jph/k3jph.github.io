@@ -7,6 +7,9 @@ date: 2024-08-04
 founding_date: 2004-12-31
 qualifying_ancestor: Cordelia Curran
 qualifying_ancestors: [ "Cordelia Curran (1858)" ]
+ancestor_names: ["Cordelia Curran"]
+places: ["Ohio"]
+topics: ["Early settlement"]
 member_number: 120
 author: k3jph
 layout: page

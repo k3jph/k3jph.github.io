@@ -1,0 +1,23 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro'; import PageIntro from '../components/PageIntro.astro'; import TableOfContents from '../components/TableOfContents.astro';
+import siteData from '../../.generated/data/site.json'; import {formatDate,isPublished,normalizeAssetPath,routeParam,slugifyTag} from '../lib/site';
+export async function getStaticPaths(){
+  const blog=(await getCollection('blog')).filter(p=>isPublished(p.data));const ancestry=await getCollection('ancestry');const pages=await getCollection('pages');const entries=[...blog.map(e=>({entry:e,kind:'blog'})),...ancestry.map(e=>({entry:e,kind:'ancestry'})),...pages.map(e=>({entry:e,kind:'page'}))];
+  const native=['/','/blog/','/ancestry/','/books/','/honors/','/service/','/software/','/teaching/','/search/','/404.html','/contact-me.html','/feed.xml','/atom.xml','/sitemap.xml'];const occupied=new Set([...native,...entries.map(x=>x.entry.data.route)]);
+  const paths:any[]=entries.map(x=>({params:{route:routeParam(x.entry.data.route)},props:x}));
+  for(const item of siteData.redirects){if(!occupied.has(item.from)){occupied.add(item.from);paths.push({params:{route:routeParam(item.from)},props:{kind:'redirect',to:item.to}});}}
+  return paths;
+}
+const {entry,kind}=Astro.props as any;
+if(kind==='redirect') return Astro.redirect((Astro.props as any).to,301);
+const {Content,headings}=await render(entry);const data:any=entry.data;const image=normalizeAssetPath(data.featured_image);const ancestryServices=(data.service_ids??[]).map((id:string)=>siteData.service.find((r:any)=>r.id===id)).filter((r:any)=>r?.ancestry);
+const description=data.description??data.excerpt??data.subtitle;
+---
+<BaseLayout title={data.title} description={description} image={image} canonical={data.route} type={kind==='blog'?'article':'website'} stylesheet={data.stylesheet} script={data.script} noindex={data.sitemap===false}>
+  <PageIntro title={data.title} subtitle={kind==='blog'?formatDate(data.date!):data.subtitle} image={image} compact={kind!=='blog'}/>
+  {kind==='blog'&&data.tags?.length>0&&<div class="post-tags"><div class="container"><ul class="pill-list">{data.tags.map((tag:string)=><li><a href={`/tag/${slugifyTag(tag)}/`}>{tag}</a></li>)}</ul></div></div>}
+  <article class="article-shell"><div class="reading-container">{kind==='ancestry'&&<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/ancestry/">Ancestry</a><span> / </span><span>{data.title}</span></nav>}<TableOfContents headings={headings}/><div class="content"><Content/></div>{ancestryServices.map((role:any,i:number)=><section class="ancestry-service" aria-labelledby={`ancestry-service-${i+1}`}><p class="eyebrow">Society service and leadership</p><h2 id={`ancestry-service-${i+1}`}>{role.ancestry.heading}</h2><p>{role.ancestry.summary}</p><a href="/service/">View the broader service record →</a></section>)}{data.credits&&<footer class="credits"><div class="mark-divider"><img src="/assets/img/identity/kamon-info.svg" alt=""></div><p set:html={data.credits}/></footer>}</div></article>
+  {kind==='blog'&&<nav class="reading-container post-nav" aria-label="Blog navigation"><a href="/blog/">← Back to the blog archive</a></nav>}
+</BaseLayout>
+<style>.post-tags{padding:.8rem 0;color:#fff;background:var(--color-navy-700)}.post-tags .pill-list{justify-content:center;margin:0}.breadcrumbs{margin-bottom:2rem;color:var(--color-slate-700);font-family:var(--font-sans);font-size:.9rem}.ancestry-service{margin-top:3rem;padding:1.5rem;border-top:3px solid var(--color-gold-500);background:var(--color-slate-075)}.ancestry-service h2{margin-top:0}.credits{margin-top:3rem;color:var(--color-slate-700);font-size:.9rem}.post-nav{padding-bottom:4rem;font-family:var(--font-sans)}</style>

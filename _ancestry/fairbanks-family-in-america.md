@@ -8,6 +8,9 @@ founding_date: 1916-12-31
 member_number: 3090
 qualifying_ancestor: Thornton Williams
 qualifying_ancestors: [ "Jonathan Fairbanks" ]
+ancestor_names: ["Jonathan Fairbanks"]
+places: ["England", "Massachusetts"]
+topics: ["Colonial settlement", "Great Migration", "Historic preservation"]
 author: k3jph
 layout: page
 guid: fairbanks-family-in-america

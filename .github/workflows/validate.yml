@@ -1,4 +1,4 @@
-name: Validate Jekyll site
+name: Validate Astro site
 
 on:
   pull_request:
@@ -11,29 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          ruby-version: '3.4.2'
-          bundler-cache: true
-          cache-version: 0
-
-      - name: Setup Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: '17'
-
-      - name: Cache Nu HTML Checker
-        uses: actions/cache@v4
-        with:
-          path: .validator-cache/vnu.jar
-          key: vnu-${{ runner.os }}-b37a0a67cde28d6a3b361f4c774cbd80fe3e1fde38824304e295c8d764296756
-
-      - name: Build and validate Jekyll site
-        run: bundle exec rake validate
-        env:
-          JEKYLL_ENV: production
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run validate

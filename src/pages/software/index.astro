@@ -1,0 +1,4 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';import PageIntro from '../../components/PageIntro.astro';import DataCard from '../../components/DataCard.astro';import siteData from '../../../.generated/data/site.json';const groups=Object.entries(siteData.software).filter(([,v])=>Array.isArray(v));
+---
+<BaseLayout title="Software" image="/assets/img/software-banner.webp" stylesheet="/assets/css/software.css"><PageIntro title="Software" subtitle="Open-source packages, research tools, and small useful machines." image="/assets/img/software-banner.webp"/><section class="section"><div class="container">{groups.map(([name,items]:any)=><section><h2>{name.replaceAll('_',' ').replace(/\b\w/g,(c:string)=>c.toUpperCase())}</h2><div class="record-grid">{items.map((x:any)=><DataCard item={x}/>)}</div></section>)}</div></section></BaseLayout>

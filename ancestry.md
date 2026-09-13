@@ -5,379 +5,141 @@ author: James Howard
 layout: page
 featured_image: /assets/img/ancestry.webp
 guid: ancestry
+stylesheet: /assets/css/ancestry.css
+script: /assets/js/ancestry.js
 redirect_from:
   - /hereditary-societies
   - /hs
   - /family
 ---
 
-## Introduction
+{% assign ancestry_total = site.ancestry | size %}
+{% assign lineage_records = site.ancestry | where: "class", "lineage" %}
+{% assign certificate_records = site.ancestry | where: "class", "certificate" %}
+{% assign family_records = site.ancestry | where: "class", "family" %}
+{% assign military_records = site.ancestry | where: "class", "military" %}
+{% assign all_places = "" | split: "" %}
+{% assign all_topics = "" | split: "" %}
+{% for record in site.ancestry %}
+  {% if record.places %}{% assign all_places = all_places | concat: record.places %}{% endif %}
+  {% if record.topics %}{% assign all_topics = all_topics | concat: record.topics %}{% endif %}
+{% endfor %}
+{% assign all_places = all_places | uniq | sort %}
+{% assign all_topics = all_topics | uniq | sort %}
 
-When the final history of the English language is written, the name Howard will
-stand out as one of the most storied and enduring. It appears not only in
-politics, literature, and law, but repeatedly in the documentary record of
-Britain and early English America alike, attached to families whose lives were
-recorded in court rolls, parish registers, town books, church records, and land
-patents on both sides of the Atlantic.
+<div class="ancestry-introduction">
+  <p>Genealogy is mostly an exercise in refusing to believe family stories until the paperwork shows up. This section collects my work in historical genealogy: not a complete family tree, but a series of case studies in documented descent, each centered on an ancestor, a place, or a historical circumstance.</p>
 
-This section documents my work in historical genealogy, with a particular focus
-on lineages that can be demonstrated through primary and well-established
-secondary sources. The pages collected here are not intended as a comprehensive
-family tree, but as case studies in documented descent, each centered on a
-specific ancestor, place, or historical context.
+  <p>The records draw on primary sources and strong secondary evidence: land and probate files, church records, military service, migration, occupations, and family relationships. Ambiguity stays visible. A tidy story is not a substitute for a defensible one.</p>
 
-The material spans several major colonial regions and settlement systems.
-Britain, New England towns, the Chesapeake colonies, Pennsylvania and the
-Delaware Valley, and the Carolinas all appear repeatedly, often connected
-through migration rather than treated as isolated origins. Massachusetts,
-Maryland, Pennsylvania, and North Carolina surface here for the same reason:
-each produced unusually strong documentary records that allow individual lives
-to be traced across generations and across regions.
-
-Most entries are organized around membership in hereditary or lineage societies,
-not as an end in themselves, but because those applications require a
-disciplined evidentiary standard. As a result, each page brings together land
-records, probate materials, church or meeting records, migration patterns, and
-family relationships in a way that reflects how these individuals actually
-appear in the historical record, including ambiguity and uncertainty where it
-exists.
-
-Taken together, these profiles trace a multi-generational movement within the
-English-speaking world, from British origins through colonial settlements and
-into interior frontiers and later states. They highlight ordinary lives lived in
-extraordinary circumstances, settlement, craft, landholding, migration, military
-service, and, at times, moral contradiction. Where possible, original documents
-are reproduced or cited directly, allowing the reader to see the same evidence
-on which the conclusions rest.
-
-This is an ongoing project. New material is added as research is completed and
-memberships are approved, and existing pages may be revised as better sources
-come to light. The aim throughout is clarity, transparency, and fidelity to the
-historical record, rather than genealogical mythmaking or ornamental narrative.
-
-## Hereditary Society Memberships
-
-This section lists my memberships in lineage and hereditary societies that
-recognize documented descent from individuals who meet defined historical
-criteria. These organizations are structured as continuing membership bodies,
-with formal governance and an ongoing institutional life. Admission requires
-substantial genealogical proof, typically reviewed against established
-standards, and situates each lineage within a broader historical and regional
-context.
-
-<div class="societies-table table-responsive">
-  <div>
-    <table class="table align-items-center">
-      <thead class="thead-light">
-        <tr>
-          <th scope="col" width="45%">Society</th>
-          <th scope="col" width="40%"><span style="font-style: italic;">Jure</span></th>
-          <th scope="col" width="15%" class="text-center">Member Number</th>
-        </tr>
-      </thead>
-      <tbody class="list">
-        {% assign societies = site.ancestry | where: "class", "lineage" | sort: 'title' %}
-        {% for society in societies %}
-        <tr>
-          <th scope="row">
-            <div class="align-items-center table-element">
-                <span class="name mb-0 text-sm">
-                  <a href="{{ society.permalink | relative_url }}">{{ society.title }}</a>
-                </span>
-            </div>
-          </th>
-          <th scope="row">
-            <div class="align-items-center table-element">
-                <span class="name mb-0 text-sm">
-                  {% if society.qualifying_ancestors %}
-                      {% for ancestor in society.qualifying_ancestors %}
-                        {{ ancestor }}<br/>
-                      {% endfor %}
-                  {% else %}
-                    N/A
-                  {% endif %}
-                </span>
-            </div>
-          </th>
-          <th scope="row">
-            <div class="align-items-center table-element text-center">
-                <span class="date mb-0 text-sm">
-                  {% if society.member_number %}
-                    {{ society.member_number }}
-                  {% endif %}
-                </span>
-            </div>
-          </th>
-        </tr>
-        {% if society.chapters %}
-          {% assign sorted_chapters = society.chapters | sort: 'name' %}
-          {% for chapter in sorted_chapters %}
-          <tr>
-            <th scope="row" colspan="2" class="pl-5">
-              <div class="align-items-center table-element">
-                <span class="name mb-0 text-sm">
-                  {{ chapter.name }}
-                </span>
-              </div>
-            </th>
-            <th scope="row">
-              <div class="align-items-center table-element text-center">
-                <span class="date mb-0 text-sm">
-                  {{ chapter.member_number }}
-                </span>
-              </div>
-            </th>
-          </tr>
-          {% endfor %}
-        {% endif %}
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
+  <p>Societies and certificate programs provide the organizing structure because their applications force lineages into a documented, reviewable form. The ancestors and their lives remain the subject. This is ongoing research, revised when better evidence appears, with clarity, transparency, and fidelity to the historical record taking precedence over genealogical mythmaking.</p>
 </div>
 
-## Heritage Certificate Programs
+<section class="ancestry-finder-band" id="find-a-record" aria-labelledby="find-a-record-heading">
+  <div class="ancestry-band-inner">
+    <header class="ancestry-section-header">
+      <p class="ancestry-section-kicker">Search the collection</p>
+      <h2 id="find-a-record-heading">Find a Record</h2>
+      <p>Search names, organizations, chapters, places, historical contexts, and member or certificate numbers.</p>
+    </header>
 
-This section includes place-based programs that acknowledge proven descent from
-early residents of a particular town, county, or region. These recognitions are
-typically certificate-based and focus on documenting long-term presence or early
-settlement within a defined locality. While they often require rigorous
-genealogical documentation, their purpose is to record and commemorate
-rootedness in a place rather than to constitute a continuing membership society.
+    <form class="ancestry-finder" id="ancestry-finder" role="search" action="{{ '/ancestry/' | relative_url }}" method="get" hidden>
+      <div class="ancestry-search-field">
+        <label for="ancestry-query">Search the ancestry archive</label>
+        <div class="ancestry-search-control">
+          <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          <input type="search" id="ancestry-query" name="q" placeholder="Try Hoar, Ohio, Quakers, or 1185" autocomplete="off" enterkeyhint="search">
+        </div>
+      </div>
 
-<div class="societies-table table-responsive">
-  <div>
-    <table class="table align-items-center">
-      <thead class="thead-light">
-        <tr>
-          <th scope="col" width="45%">Society</th>
-          <th scope="col" width="40%"><span style="font-style: italic;">Jure</span></th>
-          <th scope="col" width="15%" class="text-center">Member Number</th>
-        </tr>
-      </thead>
-      <tbody class="list">
-        {% assign societies = site.ancestry | where: "class", "certificate" | sort: 'title' %}
-        {% for society in societies %}
-        <tr>
-          <th scope="row">
-            <div class="align-items-center table-element">
-                <span class="name mb-0 text-sm">
-                  <a href="{{ society.permalink | relative_url }}">{{ society.title }}</a>
-                </span>
-            </div>
-          </th>
-          <th scope="row">
-            <div class="align-items-center table-element">
-                <span class="name mb-0 text-sm">
-                  {% if society.qualifying_ancestors %}
-                      {% for ancestor in society.qualifying_ancestors %}
-                        {{ ancestor }}<br/>
-                      {% endfor %}
-                  {% else %}
-                    N/A
-                  {% endif %}
-                </span>
-            </div>
-          </th>
-          <th scope="row">
-            <div class="align-items-center table-element text-center">
-                <span class="date mb-0 text-sm">
-                  {% if society.member_number %}
-                    {{ society.member_number }}
-                  {% endif %}
-                </span>
-            </div>
-          </th>
-        </tr>
-        {% if society.chapters %}
-          {% assign sorted_chapters = society.chapters | sort: 'name' %}
-          {% for chapter in sorted_chapters %}
-          <tr>
-            <th scope="row" colspan="2" class="pl-5">
-              <div class="align-items-center table-element">
-                <span class="name mb-0 text-sm">
-                  {{ chapter.name }}
-                </span>
-              </div>
-            </th>
-            <th scope="row">
-              <div class="align-items-center table-element text-center">
-                <span class="date mb-0 text-sm">
-                  {{ chapter.member_number }}
-                </span>
-              </div>
-            </th>
-          </tr>
-          {% endfor %}
-        {% endif %}
-        {% endfor %}
-      </tbody>
-    </table>
+      <div class="ancestry-filter-grid">
+        <div>
+          <label for="ancestry-type">Type</label>
+          <select id="ancestry-type" name="type">
+            <option value="">All record types</option>
+            <option value="lineage">Hereditary Society</option>
+            <option value="certificate">Heritage Certificate</option>
+            <option value="family">Family Association</option>
+            <option value="military">Military Company</option>
+          </select>
+        </div>
+        <div>
+          <label for="ancestry-place">Place</label>
+          <select id="ancestry-place" name="place">
+            <option value="">All places</option>
+            {% for place in all_places %}<option value="{{ place | escape }}">{{ place }}</option>{% endfor %}
+          </select>
+        </div>
+        <div>
+          <label for="ancestry-topic">Historical context</label>
+          <select id="ancestry-topic" name="topic">
+            <option value="">All contexts</option>
+            {% for topic in all_topics %}<option value="{{ topic | escape }}">{{ topic }}</option>{% endfor %}
+          </select>
+        </div>
+        <div class="ancestry-reset-wrap">
+          <button type="reset" id="ancestry-reset">Reset filters</button>
+        </div>
+      </div>
+    </form>
+
+    <noscript>
+      <p class="ancestry-noscript">The finder needs JavaScript, but the complete archive remains available below, organized by record type.</p>
+    </noscript>
   </div>
-</div>
+</section>
 
-## Family Association Memberships
+<section class="ancestry-explore" aria-labelledby="browse-by-record-type">
+  <header class="ancestry-section-header">
+    <p class="ancestry-section-kicker">{{ ancestry_total }} documented records</p>
+    <h2 id="browse-by-record-type">Browse by Record Type</h2>
+    <p>These four kinds of record organize the archive. They overlap in method, but they do not mean the same thing.</p>
+  </header>
 
-This section documents participation in family associations organized around a
-shared progenitor or surname. Unlike lineage societies, these groups are
-centered on collective research, preservation, and collaboration among
-descendants rather than adjudicating historical qualification. Their value lies
-in the accumulation and sharing of family-specific knowledge, sources, and
-narrative across generations.
-
-<div class="societies-table table-responsive">
-  <div>
-    <table class="table align-items-center">
-      <thead class="thead-light">
-        <tr>
-          <th scope="col" width="45%">Society</th>
-          <th scope="col" width="40%"><span style="font-style: italic;">Jure</span></th>
-          <th scope="col" width="15%" class="text-center">Member Number</th>
-        </tr>
-      </thead>
-      <tbody class="list">
-        {% assign societies = site.ancestry | where: "class", "family" | sort: 'title' %}
-        {% for society in societies %}
-        <tr>
-          <th scope="row">
-            <div class="align-items-center table-element">
-                <span class="name mb-0 text-sm">
-                  <a href="{{ society.permalink | relative_url }}">{{ society.title }}</a>
-                </span>
-            </div>
-          </th>
-          <th scope="row">
-            <div class="align-items-center table-element">
-                <span class="name mb-0 text-sm">
-                  {% if society.qualifying_ancestors %}
-                      {% for ancestor in society.qualifying_ancestors %}
-                        {{ ancestor }}<br/>
-                      {% endfor %}
-                  {% else %}
-                    N/A
-                  {% endif %}
-                </span>
-            </div>
-          </th>
-          <th scope="row">
-            <div class="align-items-center table-element text-center">
-                <span class="date mb-0 text-sm">
-                  {% if society.member_number %}
-                    {{ society.member_number }}
-                  {% endif %}
-                </span>
-            </div>
-          </th>
-        </tr>
-        {% if society.chapters %}
-          {% assign sorted_chapters = society.chapters | sort: 'name' %}
-          {% for chapter in sorted_chapters %}
-          <tr>
-            <th scope="row" colspan="2" class="pl-5">
-              <div class="align-items-center table-element">
-                <span class="name mb-0 text-sm">
-                  {{ chapter.name }}
-                </span>
-              </div>
-            </th>
-            <th scope="row">
-              <div class="align-items-center table-element text-center">
-                <span class="date mb-0 text-sm">
-                  {{ chapter.member_number }}
-                </span>
-              </div>
-            </th>
-          </tr>
-          {% endfor %}
-        {% endif %}
-        {% endfor %}
-      </tbody>
-    </table>
+  <div class="ancestry-category-grid">
+    <a class="ancestry-category-card" href="#hereditary-societies" data-ancestry-type-link="lineage">
+      <span class="ancestry-category-count">{{ lineage_records | size }}</span>
+      <h3>Hereditary Societies</h3>
+      <p>Formal organizations requiring documented descent from a qualifying person.</p>
+    </a>
+    <a class="ancestry-category-card" href="#heritage-certificates" data-ancestry-type-link="certificate">
+      <span class="ancestry-category-count">{{ certificate_records | size }}</span>
+      <h3>Heritage Certificates</h3>
+      <p>Place-based programs documenting early settlement or long residence.</p>
+    </a>
+    <a class="ancestry-category-card" href="#family-associations" data-ancestry-type-link="family">
+      <span class="ancestry-category-count">{{ family_records | size }}</span>
+      <h3>Family Associations</h3>
+      <p>Research and preservation centered on a progenitor or surname.</p>
+    </a>
+    <a class="ancestry-category-card" href="#historic-military-companies" data-ancestry-type-link="military">
+      <span class="ancestry-category-count">{{ military_records | size }}</span>
+      <h3>Historic Military Companies</h3>
+      <p>Continuing institutions in which descent is one path to membership.</p>
+    </a>
   </div>
-</div>
+</section>
 
-## Military Company Memberships
+<section class="ancestry-archive" id="research-index" aria-labelledby="research-index-heading">
+  <header class="ancestry-section-header ancestry-archive-header">
+    <div>
+      <p class="ancestry-section-kicker">The complete documentary index</p>
+      <h2 id="research-index-heading">Research Index</h2>
+      <p>Every ancestry record appears below. Chapters remain with their parent organizations.</p>
+    </div>
+    <p id="ancestry-result-count" class="ancestry-result-count" role="status" aria-live="polite" aria-atomic="true">Showing all {{ ancestry_total }} records.</p>
+  </header>
 
-This section documents membership in historic military companies that remain
-active as continuing institutions. These organizations differ from hereditary
-societies in a fundamental respect: they are not constituted by or for
-descendants, but are living companies with their own governance, ceremonial
-life, and operational identity that predate and exist independently of any
-hereditary membership category. Admission by right of descent is one pathway
-among several, available to lineal descendants of historical members, but the
-institution itself would function with or without that category. The historical
-weight here rests not on the qualifying ancestor alone but on the unbroken
-continuity of the company from its founding to the present.
-
-<div class="societies-table table-responsive">
-  <div>
-    <table class="table align-items-center">
-      <thead class="thead-light">
-        <tr>
-          <th scope="col" width="45%">Organization</th>
-          <th scope="col" width="40%"><span style="font-style: italic;">Jure</span></th>
-          <th scope="col" width="15%" class="text-center">Member Number</th>
-        </tr>
-      </thead>
-      <tbody class="list">
-        {% assign societies = site.ancestry | where: "class", "military" | sort: 'title' %}
-        {% for society in societies %}
-        <tr>
-          <th scope="row">
-            <div class="align-items-center table-element">
-                <span class="name mb-0 text-sm">
-                  <a href="{{ society.permalink | relative_url }}">{{ society.title }}</a>
-                </span>
-            </div>
-          </th>
-          <th scope="row">
-            <div class="align-items-center table-element">
-                <span class="name mb-0 text-sm">
-                  {% if society.qualifying_ancestors %}
-                      {% for ancestor in society.qualifying_ancestors %}
-                        {{ ancestor }}<br/>
-                      {% endfor %}
-                  {% else %}
-                    N/A
-                  {% endif %}
-                </span>
-            </div>
-          </th>
-          <th scope="row">
-            <div class="align-items-center table-element text-center">
-                <span class="date mb-0 text-sm">
-                  {% if society.member_number %}
-                    {{ society.member_number }}
-                  {% else %}
-                    &nbsp;
-                  {% endif %}
-                </span>
-            </div>
-          </th>
-        </tr>
-        {% if society.chapters %}
-          {% assign sorted_chapters = society.chapters | sort: 'name' %}
-          {% for chapter in sorted_chapters %}
-          <tr>
-            <th scope="row" colspan="2" class="pl-5">
-              <div class="align-items-center table-element">
-                <span class="name mb-0 text-sm">
-                  {{ chapter.name }}
-                </span>
-              </div>
-            </th>
-            <th scope="row">
-              <div class="align-items-center table-element text-center">
-                <span class="date mb-0 text-sm">
-                  {{ chapter.member_number }}
-                </span>
-              </div>
-            </th>
-          </tr>
-          {% endfor %}
-        {% endif %}
-        {% endfor %}
-      </tbody>
-    </table>
+  <div id="ancestry-empty" class="ancestry-empty" hidden>
+    <h3>No ancestry records match those filters.</h3>
+    <p>Try a broader search or clear the filters.</p>
+    <button type="button" id="ancestry-empty-reset">Reset filters</button>
   </div>
-</div>
+
+  <div id="ancestry-results">
+    {% include ancestry-record-group.html class="lineage" id="hereditary-societies" kicker="Lineage organizations" heading="Hereditary Societies" %}
+    {% include ancestry-record-group.html class="certificate" id="heritage-certificates" kicker="Place-based programs" heading="Heritage Certificates" %}
+    {% include ancestry-record-group.html class="family" id="family-associations" kicker="Shared research and preservation" heading="Family Associations" %}
+    {% include ancestry-record-group.html class="military" id="historic-military-companies" kicker="Continuing institutions" heading="Historic Military Companies" %}
+  </div>
+</section>

@@ -6,6 +6,9 @@ subtitle: Member _jure_ William Ray (1790-1843); member no. 9
 date: 2025-12-16
 member_number: 9
 qualifying_ancestors: [ "William Ray (1790-1843)" ]
+ancestor_names: ["William Ray"]
+places: ["North Carolina", "Ohio"]
+topics: ["Early settlement", "Military service", "War of 1812"]
 author: James P. Howard, II
 layout: page
 guid: first-families-of-jackson-county

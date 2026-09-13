@@ -5,6 +5,9 @@ title: First Settlers of the Shenandoah Valley
 subtitle: Member _jure_ William Saffer (1757); member no. 228
 date: 2025-11-10
 qualifying_ancestors: [ "William Saffer (1757)" ]
+ancestor_names: ["William Saffer"]
+places: ["Virginia"]
+topics: ["Colonial settlement"]
 member_number: 228
 author: k3jph
 layout: page

@@ -1,0 +1,6 @@
+---
+import { getCollection } from 'astro:content'; import BaseLayout from '../../../layouts/BaseLayout.astro'; import PageIntro from '../../../components/PageIntro.astro'; import BlogArchive from '../../../components/BlogArchive.astro'; import {isPublished} from '../../../lib/site';
+export async function getStaticPaths(){const all=(await getCollection('blog')).filter(p=>isPublished(p.data)).sort((a,b)=>+b.data.date-+a.data.date);const count=Math.ceil(all.length/10);return Array.from({length:Math.max(0,count-1)},(_,i)=>({params:{page:String(i+2)},props:{all}}));}
+const {all}=Astro.props;const page=Number(Astro.params.page);const pages=Math.ceil(all.length/10);const posts=all.slice((page-1)*10,page*10);
+---
+<BaseLayout title={`Blog — Page ${page}`} noindex><PageIntro title="Blog" subtitle={`Archive page ${page} of ${pages}`} image="/assets/img/blog.webp" compact/><section class="section"><div class="container"><BlogArchive posts={posts}/><nav class="pagination" aria-label="Blog pages"><a class="button" href={page===2?'/blog/':`/blog/page/${page-1}/`}>← Newer posts</a><span>Page {page} of {pages}</span>{page < pages && <a class="button" href={`/blog/page/${page+1}/`}>Older posts →</a>}</nav></div></section></BaseLayout>

@@ -7,18 +7,36 @@
   detail_page: /service/maryland-defense-force/
 
 - organization: Society of the War of 1812 in Maryland
+  id: maryland-war-of-1812
   role: Treasurer · Member, Board of Managers
   dates: 2025–Present
+  start: 2025-01
   current: true
   section: public
   summary: "Hold fiduciary and governance responsibility for a 212-year-old Maryland charitable organization, including stewardship of approximately $700,000 in assets."
+  ancestry:
+    page: /ancestry/general-society-of-the-war-of-1812
+    heading: Service in the Maryland Society
+    summary: >-
+      In addition to membership through William Ray, I have served on the Board
+      of Managers of the Society of the War of 1812 in the State of Maryland
+      since January 2025. I also serve as Treasurer.
 
 - organization: Maryland Society, Sons of the American Revolution
+  id: maryland-sar
   role: Vice President, Charles Carroll of Carrollton Chapter
   dates: 2026–Present
+  start: 2026-01
   current: true
   section: public
   summary: "Serve in elected chapter leadership for the Maryland Society, Sons of the American Revolution."
+  ancestry:
+    page: /ancestry/national-society-of-the-sons-of-the-american-revolution
+    heading: Service in the Maryland SAR
+    summary: >-
+      Since January 2026, I have served as Vice-President of the Charles Carroll
+      of Carrollton Chapter of the Maryland Society, Sons of the American
+      Revolution.
 
 - organization: The Augustan Society
   role: Member, Board of Directors · Vice-Justiciar for Maltese Heraldry

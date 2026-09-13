@@ -7,6 +7,9 @@ date: 2024-12-20
 member_number: 4760
 qualifying_ancestors: [ "Barzilla Bunnell (1807, Ross County)",
                         "Sophia Baumgardener (1810, Warren County)" ]
+ancestor_names: ["Barzilla Bunnell", "Sophia Baumgardener"]
+places: ["Ohio"]
+topics: ["Early settlement"]
 author: James P. Howard, II
 layout: page
 guid: first-families-of-ohio

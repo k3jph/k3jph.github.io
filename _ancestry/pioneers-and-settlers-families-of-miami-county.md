@@ -6,6 +6,9 @@ subtitle: Member _jure_ William Henry Harrison Martin (1841), Vincent Martin (18
 date: 2024-10-10
 qualifying_ancestor: William Henry Harrison Martin
 qualifying_ancestors: ["Vincent Martin (1841)", "Mary Stiles (1841)", "William Henry Harrison Martin (1841)" ]
+ancestor_names: ["Vincent Martin", "Mary Stiles", "William Henry Harrison Martin"]
+places: ["Ohio"]
+topics: ["Early settlement"]
 author: James P. Howard, II
 layout: page
 guid: pioneers-and-settlers-families-of-miami-county

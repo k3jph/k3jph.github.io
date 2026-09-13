@@ -5,6 +5,9 @@ title: First Pioneers of Ross County
 subtitle: Member _jure_ Nathaniel Bunnell (1806) and Barzilla Bunnell (1807); member no. 280
 date: 2025-06-17
 qualifying_ancestors: [ "Nathaniel Bunnell (1806)", "Barzilla Bunnell (1807)" ]
+ancestor_names: ["Nathaniel Bunnell", "Barzilla Bunnell"]
+places: ["New Jersey", "Ohio"]
+topics: ["Artisans and trades", "Early settlement"]
 member_number: 280
 author: James P. Howard, II
 layout: page

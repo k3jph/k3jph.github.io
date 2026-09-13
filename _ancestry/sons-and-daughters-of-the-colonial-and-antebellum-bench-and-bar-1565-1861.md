@@ -5,6 +5,9 @@ title: Sons and Daughters of the Colonial and Antebellum Bench and Bar
 subtitle: Member _jure_ John Hoar (c1622-1704), member no. 1080
 date: 2025-12-15
 qualifying_ancestors: [ "John Hoar (c1622-1704)" ]
+ancestor_names: ["John Hoar"]
+places: ["England", "Massachusetts"]
+topics: ["Colonial settlement", "King Philip's War", "Law"]
 member_number: 1080
 author: k3jph
 layout: page

@@ -10,6 +10,9 @@ qualifying_ancestors: [ "Mina Elizabeth Hall (1888, Paulding County)",
                         "Charles Franklin Cavender (1892, Miami County)",
                         "Ralph Everett Rees (1916, Shelby County)",
                         "Mary Jane Cavender (1918, Montgomery County)" ]
+ancestor_names: ["Mina Elizabeth Hall", "Charles Franklin Cavender", "Ralph Everett Rees", "Mary Jane Cavender"]
+places: ["Ohio"]
+topics: ["Local history"]
 author: k3jph
 layout: page
 guid: century-families-of-ohio

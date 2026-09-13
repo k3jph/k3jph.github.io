@@ -1,0 +1,8 @@
+:root {
+  --color-navy-950:#07111f;--color-navy-900:#0b1c33;--color-navy-800:#132b49;--color-navy-700:#1b3d64;
+  --color-blue-600:#255f91;--color-gold-600:#9a6b15;--color-gold-500:#c7952f;
+  --color-slate-900:#202a35;--color-slate-700:#566270;--color-slate-400:#9aa5b1;--color-slate-300:#c9d0d7;--color-slate-150:#e4e8ec;--color-slate-075:#f5f7f8;--color-white:#fff;--color-ink:#222a33;--color-danger:#a3392e;
+  --font-display:'Cinzel',Georgia,serif;--font-serif:'Cambo',Georgia,serif;--font-sans:'Lato','Helvetica Neue',Arial,sans-serif;
+  --space-2:.5rem;--space-3:1rem;--space-4:1.5rem;--space-5:2.5rem;--space-6:4rem;--space-7:6rem;
+  --content-width:78rem;--reading-width:48rem;--radius-sm:.25rem;--radius-md:.55rem;--shadow-sm:0 2px 12px rgb(7 17 31 / 10%);--shadow-lg:0 18px 50px rgb(7 17 31 / 22%);
+}

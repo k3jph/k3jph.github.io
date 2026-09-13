@@ -14,7 +14,7 @@ main_menu_settings:
     - title: Blog
       url: /blog
     - title: Contact Me
-      url: /contact-me
+      url: /contact-me.html
 
 
 other_sites:

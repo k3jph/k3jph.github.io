@@ -5,6 +5,9 @@ title: General Society of the Sons of the Revolution
 subtitle: Member _jure_ William Cornett (Virginia Line); member no. 43349, state no. 2119
 date: 2025-05-05
 qualifying_ancestors: [ "William Cornett (Virginia Line)" ]
+ancestor_names: ["William Cornett"]
+places: ["Kentucky", "Virginia"]
+topics: ["American Revolution", "Migration and settlement", "Military service"]
 member_number: 43349
 chapters:
   - name: Sons of the Revolution in the Commonwealth of Virginia

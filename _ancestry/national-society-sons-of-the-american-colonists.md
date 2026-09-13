@@ -5,6 +5,9 @@ title: National Society, Sons of the American Colonists
 subtitle: Member _jure_ Robert Wilson of West Jersey; member no. 2794
 date: 2025-11-28
 qualifying_ancestors: [ "Robert Wilson of West Jersey" ]
+ancestor_names: ["Robert Wilson"]
+places: ["England", "New Jersey", "Pennsylvania"]
+topics: ["Colonial settlement", "Migration and settlement", "Quakers"]
 member_number: 2794
 author: k3jph
 layout: page

@@ -7,6 +7,9 @@ date: 2025-01-28
 founding_date: 1933-12-31
 member_number: 3241
 qualifying_ancestors: [ "Rev. Alexander Underwood (1688-1767)" ]
+ancestor_names: ["Alexander Underwood"]
+places: ["Maryland", "North Carolina", "Pennsylvania"]
+topics: ["Clergy", "Colonial settlement", "Quakers"]
 author: k3jph
 layout: page
 guid: society-of-the-descendants-of-the-colonial-clergy

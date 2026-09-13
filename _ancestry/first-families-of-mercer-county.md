@@ -8,12 +8,15 @@ member_number: 134
 qualifying_ancestors: [ "Zebulon Burch (1860)",
                         "Sarah Burch (1860)",
                         "Eunice Marcella Burch (1860)" ]
+ancestor_names: ["Zebulon Burch", "Sarah Burch", "Eunice Marcella Burch"]
+places: ["Ohio"]
+topics: ["Early settlement"]
 author: k3jph
 layout: page
 guid: first-families-of-mercer-county
 featured_image: /assets/img/ancestry/first-families-of-mercer-county.webp
 permalink: /ancestry/first-families-of-mercer-county
-redirect_from: [ "/ancestry/ffmc" ]
+redirect_from: [ "/ancestry/ffmercerc" ]
 ---
 
 The [First Families of Mercer County](https://mercercountyohio.org/)
@@ -75,4 +78,3 @@ of the county.
 Or you can [download the PDF here](/assets/docs/ancestry/FFMC-Burch.pdf).
 
 *Additional memberships will be added as they are approved.*
-

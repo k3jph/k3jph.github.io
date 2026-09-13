@@ -6,6 +6,9 @@ subtitle: Member _jure_ Mary Jane Cavender (20th Century); member no. 196
 date: 2024-09-29
 founding_date: 2010-09-30
 qualifying_ancestors: [ "Mary Jane Cavender (20th Century)" ]
+ancestor_names: ["Mary Jane Cavender"]
+places: ["Ohio"]
+topics: ["Education"]
 member_number: 196
 author: k3jph
 layout: page

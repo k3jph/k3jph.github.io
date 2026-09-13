@@ -5,10 +5,14 @@ title: National Society of the Sons of the American Revolution
 subtitle: Member _jure_ Marmaduke Coate; member no. 232899, state no. 5309
 date: 2025-03-14
 qualifying_ancestors: [ "Marmaduke Coate (Patriotic Service)" ]
+ancestor_names: ["Marmaduke Coate"]
+places: ["New Jersey", "Ohio", "South Carolina"]
+topics: ["American Revolution", "Migration and settlement", "Quakers"]
 member_number: 232899
 chapters:
   - name: Maryland Society of the Sons of the American Revolution
     member_number: 5309
+service_ids: ["maryland-sar"]
 author: k3jph
 layout: page
 guid: general-society-of-the-war-of-1812

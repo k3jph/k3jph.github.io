@@ -5,10 +5,14 @@ title: General Society of the War of 1812
 subtitle: Member _jure_ Private William Ray<br/>(2nd Regiment, Ohio Militia); member no. 8537, state no. 1076
 date: 2024-11-23
 qualifying_ancestors: [ "William Ray (2nd Regiment, Ohio Militia)" ]
+ancestor_names: ["William Ray"]
+places: ["North Carolina", "Ohio"]
+topics: ["Military service", "War of 1812"]
 member_number: 8537
 chapters:
   - name: Society of the War of 1812 in the State of Maryland 
     member_number: 1076
+service_ids: ["maryland-war-of-1812"]
 author: k3jph
 layout: page
 guid: general-society-of-the-war-of-1812

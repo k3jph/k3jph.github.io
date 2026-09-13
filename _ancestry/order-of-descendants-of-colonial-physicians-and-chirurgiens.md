@@ -6,6 +6,9 @@ subtitle: Member _jure_ Israel Taylor (1660-1725); member no. 686
 date: 2025-01-09
 founding_date: 2022-03-24
 qualifying_ancestors: [ "Israel Taylor (1660-1725)" ]
+ancestor_names: ["Israel Taylor"]
+places: ["England", "Pennsylvania"]
+topics: ["Colonial settlement", "Medicine", "Quakers"]
 member_number: 686
 author: k3jph
 layout: page

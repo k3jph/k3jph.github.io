@@ -6,6 +6,9 @@ subtitle: Member _jure_ Harry Lee Williams (Locomotive Engineer); member no. 120
 date: 2024-10-02
 founding_date: 2021-02-28
 qualifying_ancestors: [ "Harry Lee Williams (Locomotive Engineer)" ]
+ancestor_names: ["Harry Lee Williams"]
+places: ["Indiana", "Kentucky", "Ohio"]
+topics: ["Artisans and trades", "Railroads"]
 member_number: 120
 author: k3jph
 layout: page

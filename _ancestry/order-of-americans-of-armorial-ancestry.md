@@ -13,6 +13,9 @@ qualifying_ancestors: [ "John Hoar, Esquire, of Massachusetts",
                         "Jonathan Fairbanks of Massachusetts",
                         "Samuel Morse of Massachusetts",
                         "Lydia Eliot of Massachusetts" ]
+ancestor_names: ["John Hoar", "Henry Adams", "John Bigelow", "Isaac Stearns", "William Learned", "Jonathan Fairbanks", "Samuel Morse", "Lydia Eliot"]
+places: ["England", "Massachusetts"]
+topics: ["Colonial settlement", "Heraldry"]
 author: k3jph
 layout: page
 guid: order-of-americans-of-armorial-ancestry

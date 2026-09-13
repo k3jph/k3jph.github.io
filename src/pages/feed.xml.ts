@@ -1,0 +1,2 @@
+import rss from '@astrojs/rss';import {getCollection} from 'astro:content';import {isPublished,SITE} from '../lib/site';
+export async function GET(context:any){const posts=(await getCollection('blog')).filter(p=>isPublished(p.data)).sort((a,b)=>+b.data.date-+a.data.date).slice(0,30);return rss({title:SITE.title,description:SITE.description,site:context.site,items:posts.map(p=>({title:p.data.title,pubDate:p.data.date,description:p.data.excerpt,link:p.data.route,customData:`<author>${SITE.authorEmail} (${SITE.name})</author>`}))});}
