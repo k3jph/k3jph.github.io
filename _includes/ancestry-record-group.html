@@ -25,7 +25,7 @@
         {% for topic in record.topics %} {{ topic }}{% endfor %}
         {{ record.member_number }}
       {% endcapture %}
-      <article class="ancestry-record" role="row" data-ancestry-record
+      <div class="ancestry-record" role="row" data-ancestry-record
         data-record-type="{{ record.class | escape }}"
         data-record-places="{{ record.places | join: '|' | escape }}"
         data-record-topics="{{ record.topics | join: '|' | escape }}"
@@ -65,12 +65,12 @@
 
         <div class="ancestry-record-number" role="cell">
           {% if record.member_number %}
-            <p aria-label="{% if record.class == "certificate" %}Certificate{% else %}Member{% endif %} number {{ record.member_number }}">No. {{ record.member_number }}</p>
+            <p><span class="sr-only">{% if record.class == "certificate" %}Certificate{% else %}Member{% endif %} number </span><span aria-hidden="true">No. </span>{{ record.member_number }}</p>
           {% else %}
-            <span class="ancestry-record-number-empty" aria-label="No number recorded">—</span>
+            <span class="sr-only">No number recorded</span><span class="ancestry-record-number-empty" aria-hidden="true">—</span>
           {% endif %}
         </div>
-      </article>
+      </div>
     {% endfor %}
   </div>
 </section>
