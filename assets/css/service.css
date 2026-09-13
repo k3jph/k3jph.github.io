@@ -92,6 +92,22 @@
   line-height: 1.55;
 }
 
+.service-current-card .service-context-link {
+  margin-top: 0.8rem;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.86em;
+  font-weight: 700;
+}
+
+.service-current-card .service-context-link a {
+  color: #feefa8;
+}
+
+.service-current-card .service-context-link a:hover,
+.service-current-card .service-context-link a:focus {
+  color: #fff;
+}
+
 .service-history {
   margin: 0 auto 4rem;
 }
@@ -161,6 +177,13 @@
 .service-entry .service-summary {
   margin: 0.65rem 0 0;
   line-height: 1.58;
+}
+
+.service-entry .service-context-link {
+  margin: 0.55rem 0 0;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  font-weight: 700;
 }
 
 @media (max-width: 991px) {

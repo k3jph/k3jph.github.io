@@ -1,0 +1,13 @@
+{% if page.service_ids %}
+  {% for service_id in page.service_ids %}
+    {% assign service_record = site.data.service | where: "id", service_id | first %}
+    {% if service_record and service_record.ancestry %}
+      <section class="ancestry-service" aria-labelledby="ancestry-service-{{ forloop.index }}">
+        <p class="ancestry-service-label">Society service and leadership</p>
+        <h2 id="ancestry-service-{{ forloop.index }}">{{ service_record.ancestry.heading }}</h2>
+        <p class="ancestry-service-summary">{{ service_record.ancestry.summary }}</p>
+        <p class="ancestry-service-link"><a href="{{ '/service/' | relative_url }}">View the broader service record <span aria-hidden="true">→</span></a></p>
+      </section>
+    {% endif %}
+  {% endfor %}
+{% endif %}

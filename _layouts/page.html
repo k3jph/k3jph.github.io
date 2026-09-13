@@ -36,6 +36,7 @@ layout: base
                     {% endif %}
                     {{ content }}
                     {% if page.collection == "ancestry" %}
+                    {% include ancestry-service.html %}
                     {% include ancestry-related.html %}
                     {% endif %}
                 </div>

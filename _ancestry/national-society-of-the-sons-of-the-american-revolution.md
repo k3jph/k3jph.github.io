@@ -12,6 +12,7 @@ member_number: 232899
 chapters:
   - name: Maryland Society of the Sons of the American Revolution
     member_number: 5309
+service_ids: ["maryland-sar"]
 author: k3jph
 layout: page
 guid: general-society-of-the-war-of-1812

@@ -462,6 +462,45 @@
   text-transform: uppercase;
 }
 
+.ancestry-service {
+  clear: both;
+  margin: 4rem 0 0;
+  padding: 1.5rem 1.75rem;
+  border-left: 4px solid #d3aa27;
+  background: #f8f6f1;
+}
+
+.ancestry-service-label {
+  margin: 0 0 0.35rem;
+  color: #796b43;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+}
+
+.ancestry-service h2 {
+  margin: 0 0 0.55rem;
+  font-size: 1.45em;
+}
+
+.ancestry-service-summary {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.ancestry-service-link {
+  margin: 0.75rem 0 0;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  font-weight: 700;
+}
+
+.ancestry-service + .ancestry-related {
+  margin-top: 2rem;
+}
+
 .ancestry-related {
   clear: both;
   margin: 4rem 0 0;
