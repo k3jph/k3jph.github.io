@@ -30,7 +30,7 @@ documentation of lineage and service.
 ## Thomas Wesley Newman
 
 [Thomas Wesley Newman](https://www.wikitree.com/wiki/Newman-16570)
-(1838-1922) was a Civil War soldier from Warren County, Ohio. He served
+(1838-1866) was a Civil War soldier from Warren County, Ohio. He served
 in Company H, 79th Regiment, Ohio Volunteer Infantry, enlisting on
 August 14, 1862, and was medically discharged on November 5, 1862.
 

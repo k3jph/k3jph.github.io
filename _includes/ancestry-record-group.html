@@ -8,7 +8,13 @@
     <span class="ancestry-record-group-count">{{ records | size }} records</span>
   </header>
 
-  <div class="ancestry-record-list">
+  <div class="ancestry-record-list" role="table" aria-label="{{ include.heading }}">
+    <div class="ancestry-record-columns" role="row">
+      <span role="columnheader">Record</span>
+      <span role="columnheader">Qualifying ancestor(s)</span>
+      <span role="columnheader">Place and context</span>
+      <span role="columnheader">Number</span>
+    </div>
     {% for record in records %}
       {% capture record_search %}
         {{ record.title }} {{ record.subtitle | strip_html }}
@@ -19,13 +25,12 @@
         {% for topic in record.topics %} {{ topic }}{% endfor %}
         {{ record.member_number }}
       {% endcapture %}
-      <article class="ancestry-record" data-ancestry-record
+      <article class="ancestry-record" role="row" data-ancestry-record
         data-record-type="{{ record.class | escape }}"
         data-record-places="{{ record.places | join: '|' | escape }}"
         data-record-topics="{{ record.topics | join: '|' | escape }}"
         data-record-search="{{ record_search | normalize_whitespace | escape }}">
-        <div class="ancestry-record-primary">
-          <p class="ancestry-record-type">{{ include.singular }}</p>
+        <div class="ancestry-record-primary" role="cell">
           <h4><a href="{{ record.url | relative_url }}">{{ record.title }}</a></h4>
           {% if record.chapters %}
             <ul class="ancestry-record-chapters" aria-label="Chapter memberships">
@@ -41,8 +46,7 @@
           {% endif %}
         </div>
 
-        <div class="ancestry-record-ancestors">
-          <p class="ancestry-record-label">Qualifying Ancestor{% if record.qualifying_ancestors.size != 1 %}s{% endif %}</p>
+        <div class="ancestry-record-ancestors" role="cell">
           <ul>
             {% for ancestor in record.qualifying_ancestors %}
               <li>{{ ancestor }}</li>
@@ -50,18 +54,20 @@
           </ul>
         </div>
 
-        <div class="ancestry-record-context">
+        <div class="ancestry-record-context" role="cell">
           {% if record.places %}
-            <p><span>Place{% if record.places.size != 1 %}s{% endif %}</span> {{ record.places | join: ", " }}</p>
+            <p class="ancestry-record-places">{{ record.places | join: ", " }}</p>
           {% endif %}
           {% if record.topics %}
-            <p><span>Context</span> {{ record.topics | join: ", " }}</p>
+            <p class="ancestry-record-topics">{{ record.topics | join: ", " }}</p>
           {% endif %}
+        </div>
+
+        <div class="ancestry-record-number" role="cell">
           {% if record.member_number %}
-            <p class="ancestry-record-number">
-              <span>{% if record.class == "certificate" %}Certificate{% else %}Member{% endif %} No.</span>
-              {{ record.member_number }}
-            </p>
+            <p aria-label="{% if record.class == "certificate" %}Certificate{% else %}Member{% endif %} number {{ record.member_number }}">No. {{ record.member_number }}</p>
+          {% else %}
+            <span class="ancestry-record-number-empty" aria-label="No number recorded">—</span>
           {% endif %}
         </div>
       </article>

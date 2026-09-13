@@ -154,7 +154,7 @@
             topicSelect.value = "";
             queryInput.value = "";
             updateResults();
-            document.querySelector("#find-a-record").scrollIntoView({ behavior: "smooth", block: "start" });
+            document.querySelector("#research-index").scrollIntoView({ behavior: "smooth", block: "start" });
         });
     });
 

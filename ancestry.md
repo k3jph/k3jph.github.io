@@ -30,47 +30,10 @@ redirect_from:
 <div class="ancestry-introduction">
   <p>Genealogy is mostly an exercise in refusing to believe family stories until the paperwork shows up. This section collects my work in historical genealogy: not a complete family tree, but a series of case studies in documented descent, each centered on an ancestor, a place, or a historical circumstance.</p>
 
-  <p>The records draw on primary sources and strong secondary evidence: land and probate files, church and meeting records, military service, migration, occupations, and family relationships. Ambiguity stays visible where the evidence is ambiguous. A tidy story is not a substitute for a defensible one.</p>
+  <p>The records draw on primary sources and strong secondary evidence: land and probate files, church records, military service, migration, occupations, and family relationships. Ambiguity stays visible. A tidy story is not a substitute for a defensible one.</p>
 
-  <p>Many entries begin with an application to a hereditary society or heritage-certificate program. Those institutions matter because an application forces the lineage into a documented, reviewable form. The society or certificate is therefore the organizing record; the ancestors and their lives are the subject.</p>
-
-  <p>This is ongoing research. Pages change when better evidence appears, and new records arrive as the paperwork catches up. The aim throughout is clarity, transparency, and fidelity to the historical record rather than genealogical mythmaking.</p>
+  <p>Societies and certificate programs provide the organizing structure because their applications force lineages into a documented, reviewable form. The ancestors and their lives remain the subject. This is ongoing research, revised when better evidence appears, with clarity, transparency, and fidelity to the historical record taking precedence over genealogical mythmaking.</p>
 </div>
-
-<section class="ancestry-explore" aria-labelledby="explore-the-research">
-  <header class="ancestry-section-header">
-    <p class="ancestry-section-kicker">{{ ancestry_total }} documented records</p>
-    <h2 id="explore-the-research">Explore the Research</h2>
-    <p>Four kinds of institutional record organize the archive. They overlap in method, but they do not mean the same thing.</p>
-  </header>
-
-  <div class="ancestry-category-grid">
-    <a class="ancestry-category-card" href="#hereditary-societies" data-ancestry-type-link="lineage">
-      <span class="ancestry-category-count">{{ lineage_records | size }}</span>
-      <h3>Hereditary Societies</h3>
-      <p>Formal lineage organizations requiring documented descent from a historically qualifying person.</p>
-      <span class="ancestry-category-link">Browse society records</span>
-    </a>
-    <a class="ancestry-category-card" href="#heritage-certificates" data-ancestry-type-link="certificate">
-      <span class="ancestry-category-count">{{ certificate_records | size }}</span>
-      <h3>Heritage Certificates</h3>
-      <p>Place-based programs documenting early settlement or long residence in a town, county, or state.</p>
-      <span class="ancestry-category-link">Browse certificate records</span>
-    </a>
-    <a class="ancestry-category-card" href="#family-associations" data-ancestry-type-link="family">
-      <span class="ancestry-category-count">{{ family_records | size }}</span>
-      <h3>Family Associations</h3>
-      <p>Research and preservation organizations centered on a shared progenitor or surname.</p>
-      <span class="ancestry-category-link">Browse family records</span>
-    </a>
-    <a class="ancestry-category-card" href="#historic-military-companies" data-ancestry-type-link="military">
-      <span class="ancestry-category-count">{{ military_records | size }}</span>
-      <h3>Historic Military Companies</h3>
-      <p>Continuing institutions in which documented descent is one path to membership.</p>
-      <span class="ancestry-category-link">Browse company records</span>
-    </a>
-  </div>
-</section>
 
 <section class="ancestry-finder-band" id="find-a-record" aria-labelledby="find-a-record-heading">
   <div class="ancestry-band-inner">
@@ -126,39 +89,43 @@ redirect_from:
   </div>
 </section>
 
-<section class="ancestry-discovery" aria-labelledby="browse-historical-record">
+<section class="ancestry-explore" aria-labelledby="browse-by-record-type">
   <header class="ancestry-section-header">
-    <p class="ancestry-section-kicker">Across institutions</p>
-    <h2 id="browse-historical-record">Browse the Historical Record</h2>
-    <p>These terms come from the documented lives and contexts in the collection, not merely from the names of the organizations.</p>
+    <p class="ancestry-section-kicker">{{ ancestry_total }} documented records</p>
+    <h2 id="browse-by-record-type">Browse by Record Type</h2>
+    <p>These four kinds of record organize the archive. They overlap in method, but they do not mean the same thing.</p>
   </header>
 
-  <div class="ancestry-discovery-grid">
-    <div>
-      <h3>Place</h3>
-      <ul class="ancestry-chip-list">
-        {% for place in all_places %}
-          <li><a href="{{ '/ancestry/' | relative_url }}?place={{ place | url_encode }}#find-a-record">{{ place }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div>
-      <h3>Historical context</h3>
-      <ul class="ancestry-chip-list">
-        {% for topic in all_topics %}
-          <li><a href="{{ '/ancestry/' | relative_url }}?topic={{ topic | url_encode }}#find-a-record">{{ topic }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
+  <div class="ancestry-category-grid">
+    <a class="ancestry-category-card" href="#hereditary-societies" data-ancestry-type-link="lineage">
+      <span class="ancestry-category-count">{{ lineage_records | size }}</span>
+      <h3>Hereditary Societies</h3>
+      <p>Formal organizations requiring documented descent from a qualifying person.</p>
+    </a>
+    <a class="ancestry-category-card" href="#heritage-certificates" data-ancestry-type-link="certificate">
+      <span class="ancestry-category-count">{{ certificate_records | size }}</span>
+      <h3>Heritage Certificates</h3>
+      <p>Place-based programs documenting early settlement or long residence.</p>
+    </a>
+    <a class="ancestry-category-card" href="#family-associations" data-ancestry-type-link="family">
+      <span class="ancestry-category-count">{{ family_records | size }}</span>
+      <h3>Family Associations</h3>
+      <p>Research and preservation centered on a progenitor or surname.</p>
+    </a>
+    <a class="ancestry-category-card" href="#historic-military-companies" data-ancestry-type-link="military">
+      <span class="ancestry-category-count">{{ military_records | size }}</span>
+      <h3>Historic Military Companies</h3>
+      <p>Continuing institutions in which descent is one path to membership.</p>
+    </a>
   </div>
 </section>
 
-<section class="ancestry-archive" aria-labelledby="browse-by-type">
+<section class="ancestry-archive" id="research-index" aria-labelledby="research-index-heading">
   <header class="ancestry-section-header ancestry-archive-header">
     <div>
       <p class="ancestry-section-kicker">The complete documentary index</p>
-      <h2 id="browse-by-type">Browse by Type</h2>
-      <p>Every ancestry record remains in the page. Chapters appear beneath their parent organizations rather than as separate records.</p>
+      <h2 id="research-index-heading">Research Index</h2>
+      <p>Every ancestry record appears below. Chapters remain with their parent organizations.</p>
     </div>
     <p id="ancestry-result-count" class="ancestry-result-count" role="status" aria-live="polite" aria-atomic="true">Showing all {{ ancestry_total }} records.</p>
   </header>
@@ -170,9 +137,9 @@ redirect_from:
   </div>
 
   <div id="ancestry-results">
-    {% include ancestry-record-group.html class="lineage" id="hereditary-societies" kicker="Lineage organizations" heading="Hereditary Societies" singular="Hereditary Society" %}
-    {% include ancestry-record-group.html class="certificate" id="heritage-certificates" kicker="Place-based programs" heading="Heritage Certificates" singular="Heritage Certificate" %}
-    {% include ancestry-record-group.html class="family" id="family-associations" kicker="Shared research and preservation" heading="Family Associations" singular="Family Association" %}
-    {% include ancestry-record-group.html class="military" id="historic-military-companies" kicker="Continuing institutions" heading="Historic Military Companies" singular="Historic Military Company" %}
+    {% include ancestry-record-group.html class="lineage" id="hereditary-societies" kicker="Lineage organizations" heading="Hereditary Societies" %}
+    {% include ancestry-record-group.html class="certificate" id="heritage-certificates" kicker="Place-based programs" heading="Heritage Certificates" %}
+    {% include ancestry-record-group.html class="family" id="family-associations" kicker="Shared research and preservation" heading="Family Associations" %}
+    {% include ancestry-record-group.html class="military" id="historic-military-companies" kicker="Continuing institutions" heading="Historic Military Companies" %}
   </div>
 </section>

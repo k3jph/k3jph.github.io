@@ -2,7 +2,7 @@
 class: lineage
 id: descendants-of-american-prisoners-of-war
 title: Descendants of American Prisoners of War
-subtitle: Member _jure_ Pfc Ralph Everett Rees; member no. 48
+subtitle: Member _jure_ Pfc Ralph Everett Rees; member no. 238
 date: 2026-01-10
 founding_date: 2021-12-31
 qualifying_ancestors: [ "Pfc Ralph Everett Rees" ]
