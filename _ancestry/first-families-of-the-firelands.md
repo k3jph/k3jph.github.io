@@ -7,6 +7,9 @@ date: 2024-12-31
 founding_date: 2010-12-31
 member_number: 373
 qualifying_ancestors: [ "Mina Elizabeth Hall (1900, Perkins, Century)" ]
+ancestor_names: ["Mina Elizabeth Hall"]
+places: ["Connecticut", "Ohio"]
+topics: ["Early settlement", "Migration and settlement"]
 author: k3jph
 layout: page
 guid: first-families-of-the-firelands

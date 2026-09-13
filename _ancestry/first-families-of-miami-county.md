@@ -5,6 +5,9 @@ title: First Families of Miami County
 subtitle: Member _jure_ Henry Cavender (1825)
 date: 2024-10-10
 qualifying_ancestors: [ "Henry Cavender (1825)" ]
+ancestor_names: ["Henry Cavender"]
+places: ["Ohio"]
+topics: ["Early settlement"]
 author: James P. Howard, II
 layout: page
 guid: first-families-of-miami-county

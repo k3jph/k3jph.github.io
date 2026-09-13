@@ -33,6 +33,7 @@ The active record comes first. The historical record follows: public and civic d
         <p class="service-role">{{ role.role }}</p>
         <p class="service-dates">{{ role.dates }}</p>
         <p class="service-summary">{{ role.summary }}</p>
+        {% if role.ancestry %}<p class="service-context-link"><a href="{{ role.ancestry.page | relative_url }}">Genealogical background <span aria-hidden="true">→</span></a></p>{% endif %}
       </article>
       {% endfor %}
     </div>
@@ -55,6 +56,7 @@ The active record comes first. The historical record follows: public and civic d
       <h4>{% if role.detail_page %}<a href="{{ role.detail_page | relative_url }}">{% endif %}{{ role.organization }}{% if role.detail_page %}</a>{% endif %}</h4>
       <p class="service-entry-meta"><span class="service-entry-role">{{ role.role }}</span><span aria-hidden="true"> · </span><span>{{ role.dates }}</span></p>
       <p class="service-summary">{{ role.summary }}</p>
+      {% if role.ancestry %}<p class="service-context-link"><a href="{{ role.ancestry.page | relative_url }}">Genealogical background <span aria-hidden="true">→</span></a></p>{% endif %}
     </article>
     {% endfor %}
   </section>
@@ -68,6 +70,7 @@ The active record comes first. The historical record follows: public and civic d
       <h4>{{ role.organization }}</h4>
       <p class="service-entry-meta"><span class="service-entry-role">{{ role.role }}</span><span aria-hidden="true"> · </span><span>{{ role.dates }}</span></p>
       <p class="service-summary">{{ role.summary }}</p>
+      {% if role.ancestry %}<p class="service-context-link"><a href="{{ role.ancestry.page | relative_url }}">Genealogical background <span aria-hidden="true">→</span></a></p>{% endif %}
     </article>
     {% endfor %}
   </section>

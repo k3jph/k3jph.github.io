@@ -1,0 +1,28 @@
+{% assign related_count = 0 %}
+{% capture related_records %}
+  {% for candidate in site.ancestry %}
+    {% unless candidate.url == page.url %}
+      {% assign shares_ancestor = false %}
+      {% for ancestor_name in page.ancestor_names %}
+        {% if candidate.ancestor_names contains ancestor_name %}
+          {% assign shares_ancestor = true %}
+        {% endif %}
+      {% endfor %}
+      {% if shares_ancestor and related_count < 6 %}
+        {% assign related_count = related_count | plus: 1 %}
+        <li>
+          <a href="{{ candidate.url | relative_url }}">{{ candidate.title }}</a>
+          <span>{{ candidate.qualifying_ancestors | join: "; " }}</span>
+        </li>
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+{% endcapture %}
+
+{% if related_count > 0 %}
+<aside class="ancestry-related" aria-labelledby="related-ancestry-records">
+  <h2 id="related-ancestry-records">Related ancestry records</h2>
+  <p>Other records documenting one or more of the same qualifying ancestors.</p>
+  <ul>{{ related_records }}</ul>
+</aside>
+{% endif %}

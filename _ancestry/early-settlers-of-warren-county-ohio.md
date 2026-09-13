@@ -6,6 +6,9 @@ subtitle: Member _jure_ Joseph Newman (1829), Benjamin Franklin Newman (1874),<b
 date: 2025-02-11
 founding_date: unknown
 qualifying_ancestors: [ "Joseph Newman (1829)", "Benjamin Franklin Newman (1874)", "Mary Margaret Pottorf (1874)", "Rebecca Pugh (1829)" ]
+ancestor_names: ["Joseph Newman", "Benjamin Franklin Newman", "Mary Margaret Pottorf", "Rebecca Pugh"]
+places: ["Ohio"]
+topics: ["Early settlement", "Quakers"]
 author: k3jph
 layout: page
 guid: early-settlers-of-warren-county-ohio

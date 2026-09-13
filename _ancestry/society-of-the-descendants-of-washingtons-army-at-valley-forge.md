@@ -5,6 +5,9 @@ title: Society of the Descendants of Washington's Army at Valley Forge
 subtitle: Member _jure_ William Darby (Drummer); member no. 3371
 date: 2025-05-15
 qualifying_ancestors: [ "William Darby (Drummer)" ]
+ancestor_names: ["William Darby"]
+places: ["Ohio", "Pennsylvania"]
+topics: ["American Revolution", "Military service"]
 member_number: 3371
 author: k3jph
 layout: page

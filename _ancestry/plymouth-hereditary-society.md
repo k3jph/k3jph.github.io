@@ -6,6 +6,9 @@ subtitle: Member _jure_ Phebe Lovell (Rehoboth); member no. 251
 date: 2024-07-25
 member_number: 251
 qualifying_ancestors: [ "Phebe Lovell (Rehoboth)" ]
+ancestor_names: ["Phebe Lovell"]
+places: ["Massachusetts"]
+topics: ["Colonial settlement"]
 author: k3jph
 layout: page
 guid: plymouth-hereditary-society
