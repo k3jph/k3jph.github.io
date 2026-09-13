@@ -20,6 +20,7 @@
   --color-white: #fff;
   --color-ink: #222a33;
   --color-danger: #a3392e;
+  --hero-filter: linear-gradient(105deg, rgb(48 48 48 / 90%), rgb(48 48 48 / 78%));
   --font-display: 'Cinzel', Georgia, serif;
   --font-serif: 'Cambo', Georgia, serif;
   --font-sans: 'Lato', 'Helvetica Neue', Arial, sans-serif;
