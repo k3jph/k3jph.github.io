@@ -20,17 +20,16 @@ const media = siteData.media as any[];
     compact
   />
 
-  <section class="section section--soft">
+  <MediaArchive items={media}/>
+
+  <nav class="section section--soft" aria-label="Current work and contact">
     <div class="reading-container">
-      <p class="lead">Every so often somebody asks me to explain something on television, radio, in a podcast, or in print. This is the archive of those occasions.</p>
-      <p>This is an archive rather than evidence of a thriving career in punditry, which is probably for the best.</p>
       <p class="link-row">
+        <span>Current work:</span>
         <a href="/scholarship/">Scholarship</a>
         <a href="/blog/">Blog</a>
         <a href="/contact-me/">Contact Me</a>
       </p>
     </div>
-  </section>
-
-  <MediaArchive items={media}/>
+  </nav>
 </BaseLayout>
