@@ -4,7 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro'; import PageIntro from '../
 import siteData from '../../.generated/data/site.json'; import {formatDate,isPublished,normalizeAssetPath,routeParam,slugifyTag} from '../lib/site';
 export async function getStaticPaths(){
   const blog=(await getCollection('blog')).filter(p=>isPublished(p.data));const ancestry=await getCollection('ancestry');const pages=await getCollection('pages');const entries=[...blog.map(e=>({entry:e,kind:'blog'})),...ancestry.map(e=>({entry:e,kind:'ancestry'})),...pages.map(e=>({entry:e,kind:'page'}))];
-  const native=['/','/blog/','/ancestry/','/books/','/honors/','/service/','/software/','/teaching/','/search/','/404.html','/contact-me/','/contact-me.html','/feed.xml','/atom.xml','/sitemap.xml'];const occupied=new Set([...native,...entries.map(x=>x.entry.data.route)]);
+  const native=['/','/blog/','/ancestry/','/books/','/honors/','/media/','/service/','/software/','/teaching/','/search/','/404.html','/contact-me/','/contact-me.html','/feed.xml','/atom.xml','/sitemap.xml'];const occupied=new Set([...native,...entries.map(x=>x.entry.data.route)]);
   const paths:any[]=entries.map(x=>({params:{route:routeParam(x.entry.data.route)},props:x}));
   for(const item of siteData.redirects){if(!occupied.has(item.from)){occupied.add(item.from);paths.push({params:{route:routeParam(item.from)},props:{kind:'redirect',to:item.to}});}}
   return paths;

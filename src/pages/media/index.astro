@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import MediaArchive from '../../components/MediaArchive.astro';
+import siteData from '../../../.generated/data/site.json';
+
+const media = siteData.media as any[];
+---
+
+<BaseLayout
+  title="Media Archive"
+  description="Interviews, quotations, profiles, and media appearances collected over the years."
+  canonical="/media/"
+  image="/assets/img/news/media.webp"
+>
+  <PageIntro
+    title="Media Archive"
+    subtitle="Interviews, quotations, profiles, and media appearances collected over the years."
+    image="/assets/img/news/media.webp"
+    compact
+  />
+
+  <section class="section section--soft">
+    <div class="reading-container">
+      <p class="lead">Every so often somebody asks me to explain something on television, radio, in a podcast, or in print. This is the archive of those occasions.</p>
+      <p>This is an archive rather than evidence of a thriving career in punditry, which is probably for the best.</p>
+      <p class="link-row">
+        <a href="/scholarship/">Current scholarship</a>
+        <a href="/blog/">The blog</a>
+        <a href="/contact-me/">Media inquiries</a>
+      </p>
+    </div>
+  </section>
+
+  <MediaArchive items={media}/>
+</BaseLayout>

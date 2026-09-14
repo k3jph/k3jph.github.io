@@ -57,7 +57,7 @@ for (const file of htmlFiles) {
 const required = [
   '/index.html', '/blog/index.html', '/ancestry/index.html', '/books/index.html',
   '/about-me/index.html',
-  '/honors/index.html', '/service/index.html', '/software/index.html', '/teaching/index.html',
+  '/honors/index.html', '/media/index.html', '/service/index.html', '/software/index.html', '/teaching/index.html',
   '/search/index.html', '/contact-me/index.html', '/contact-me.html', '/404.html', '/feed.xml', '/atom.xml',
   '/coat-of-arms/index.html', '/coat-of-arms/arms/index.html', '/coat-of-arms/emblazonments/index.html',
   '/coat-of-arms/insignia/index.html', '/coat-of-arms/tartan/index.html', '/coat-of-arms/records/index.html',
@@ -73,6 +73,10 @@ for (const file of required) if (!relativeFiles.has(file)) failures.push(`missin
 const representativeChecks = [
   ['/index.html', '/teaching/'],
   ['/about-me/index.html', 'class="recognition-list"'],
+  ['/media/index.html', '<h1>Media Archive</h1>'],
+  ['/media/index.html', 'id="interviews_appearances"'],
+  ['/media/index.html', 'id="quoted_consulted"'],
+  ['/media/index.html', 'id="profiles_coverage"'],
   ['/books/computational-methods-numerical-analysis-r/index.html', 'class="book-detail"'],
   ['/service/maryland-defense-force/index.html', 'data-ribbon-type="personal"'],
   ['/coat-of-arms/index.html', 'class="content-preface"'],
@@ -139,7 +143,17 @@ const heroTokens = await readFile(path.join(root, 'src/styles/tokens.css'), 'utf
 if (!heroTokens.includes('--hero-overlay: rgb(48 48 48 / 90%)')) failures.push('hero: uniform charcoal overlay token changed');
 
 const routeLedger = JSON.parse(await readFile(path.join(root, '.generated/data/route-ledger.json'), 'utf8'));
-for (const route of ['/contact-me', '/contact-me/', '/contact-me.html']) if (!routeLedger.routes.some((item) => item.route === route)) failures.push(`route ledger: missing ${route}`);
+for (const route of ['/contact-me', '/contact-me/', '/contact-me.html', '/media', '/media/']) if (!routeLedger.routes.some((item) => item.route === route)) failures.push(`route ledger: missing ${route}`);
+
+const generatedSite = JSON.parse(await readFile(path.join(root, '.generated/data/site.json'), 'utf8'));
+const mediaRecords = generatedSite.media ?? [];
+if (mediaRecords.length !== 26) failures.push(`media archive: expected 26 distinct records, found ${mediaRecords.length}`);
+if (new Set(mediaRecords.map((item) => item.id)).size !== mediaRecords.length) failures.push('media archive: duplicate record IDs');
+for (const [category, expected] of Object.entries({ interviews_appearances: 8, quoted_consulted: 15, profiles_coverage: 3 })) {
+  const found = mediaRecords.filter((item) => item.category === category).length;
+  if (found !== expected) failures.push(`media archive: expected ${expected} ${category} records, found ${found}`);
+}
+for (const item of mediaRecords) for (const field of ['id', 'date', 'title', 'outlet', 'category']) if (!item[field]) failures.push(`media archive: ${item.id ?? 'unknown'} missing ${field}`);
 
 const unique = [...new Set(failures)];
 console.log(JSON.stringify({ html_routes: htmlFiles.length, redirect_routes: redirectRoutes, static_files: files.length, local_references: references, errors: unique.length, warnings: warnings.length }, null, 2));

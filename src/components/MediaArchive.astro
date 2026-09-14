@@ -1,0 +1,149 @@
+---
+import SectionHeading from './SectionHeading.astro';
+
+interface MediaRecord {
+  id: string;
+  date: string;
+  title: string;
+  outlet: string;
+  category: string;
+  format?: string;
+  author?: string;
+  host?: string;
+  context?: string;
+  external_url?: string;
+  external_status?: 'live' | 'redirected' | 'unverified' | 'unavailable' | 'replaced';
+  local_copy?: string;
+  local_label?: string;
+  related_post?: string;
+  availability_note?: string;
+}
+
+const { items } = Astro.props as { items: MediaRecord[] };
+const groups = [
+  { key: 'interviews_appearances', title: 'Interviews & Appearances', className: 'section' },
+  { key: 'quoted_consulted', title: 'Quoted & Consulted', className: 'section section--soft' },
+  { key: 'profiles_coverage', title: 'Profiles & Coverage', className: 'section section--cream' },
+];
+const sections = groups.map((group) => ({
+  ...group,
+  records: items
+    .filter((item) => item.category === group.key)
+    .sort((a, b) => b.date.localeCompare(a.date)),
+}));
+const displayDate = (value: string) => {
+  if (/^\d{4}$/.test(value)) return value;
+  const date = new Date(value + 'T00:00:00Z');
+  return new Intl.DateTimeFormat('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+    timeZone: 'UTC',
+  }).format(date);
+};
+const linkedExternal = new Set(['live', 'redirected', 'unverified']);
+const externalLabel = (status?: string) => status === 'redirected' ? 'Current source' : 'Original';
+---
+
+<div class="media-archive">
+  {sections.map((section) => (
+    <section class={section.className} aria-labelledby={section.key}>
+      <div class="archive-container">
+        <SectionHeading title={section.title} id={section.key}/>
+        <ol class="media-archive__list">
+          {section.records.map((item) => (
+            <li>
+              <article class="media-record">
+                <p class="media-record__meta">
+                  <strong>{item.outlet}</strong>
+                  <span aria-hidden="true">·</span>
+                  <time datetime={item.date}>{displayDate(item.date)}</time>
+                  {item.format && <><span aria-hidden="true">·</span><span>{item.format}</span></>}
+                </p>
+                <h3>{item.title}</h3>
+                {item.author && <p class="media-record__credit">By {item.author}</p>}
+                {item.host && <p class="media-record__credit">Hosted by {item.host}</p>}
+                {item.context && <p class="media-record__context">{item.context}</p>}
+                <p class="link-row media-record__links">
+                  {item.external_url && linkedExternal.has(item.external_status ?? '') && <a href={item.external_url}>{externalLabel(item.external_status)}</a>}
+                  {item.local_copy && <a href={item.local_copy}>{item.local_label ?? 'Archived copy'}</a>}
+                  {item.related_post && <a href={item.related_post}>Related post</a>}
+                  {item.external_status === 'unavailable' && <span class="media-record__status">Original unavailable</span>}
+                  {item.external_status === 'replaced' && <span class="media-record__status">Original replaced by publisher</span>}
+                </p>
+                {item.availability_note && <p class="media-record__note">{item.availability_note}</p>}
+              </article>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  ))}
+</div>
+
+<style>
+  .media-archive__list {
+    width: min(100%, 58rem);
+    margin: 0 auto;
+    padding: 0;
+    border-top: 1px solid var(--color-slate-300);
+    list-style: none;
+  }
+  .media-archive__list > li {
+    border-bottom: 1px solid var(--color-slate-300);
+  }
+  .media-record {
+    padding-block: clamp(1.5rem, 3vw, 2.25rem);
+  }
+  .media-record__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .2rem .55rem;
+    margin: 0 0 var(--space-2);
+    color: var(--color-slate-700);
+    font: .88rem/1.5 var(--font-sans);
+  }
+  .media-record__meta strong {
+    color: var(--color-navy-900);
+    letter-spacing: .02em;
+  }
+  .media-record h3 {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: clamp(1.25rem, 2.2vw, 1.55rem);
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+  .media-record__credit,
+  .media-record__context,
+  .media-record__note {
+    margin: var(--space-2) 0 0;
+  }
+  .media-record__credit {
+    color: var(--color-slate-700);
+    font: .86rem/1.45 var(--font-sans);
+  }
+  .media-record__context {
+    max-width: 46rem;
+  }
+  .media-record__links {
+    margin: var(--space-3) 0 0;
+  }
+  .media-record__status {
+    color: var(--color-slate-700);
+    font-weight: 600;
+  }
+  .media-record__note {
+    color: var(--color-slate-700);
+    font: .82rem/1.5 var(--font-sans);
+  }
+  @media (max-width: 36rem) {
+    .media-record__meta {
+      gap: .15rem .45rem;
+    }
+    .media-record__links {
+      gap: .35rem .8rem;
+    }
+  }
+</style>

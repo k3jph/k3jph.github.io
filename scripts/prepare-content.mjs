@@ -47,8 +47,8 @@ async function loadYaml(file) {
   return YAML.parse(await readFile(path.join(root, file), 'utf8'));
 }
 
-const [books, honors, service, software, teaching, settings, profile, mddfRibbons] = await Promise.all([
-  '_data/books.yml', '_data/honors.yml', '_data/service.yml', '_data/software.yml',
+const [books, honors, media, service, software, teaching, settings, profile, mddfRibbons] = await Promise.all([
+  '_data/books.yml', '_data/honors.yml', '_data/media.yml', '_data/service.yml', '_data/software.yml',
   '_data/teaching.yml', '_data/settings.yml', '_data/profile.yml', '_data/mddf_ribbons.yaml',
 ].map(loadYaml));
 
@@ -58,6 +58,8 @@ const routeLedger = [
   { source: 'src/pages/contact-me/index.astro', route: '/contact-me', type: 'native-alias' },
   { source: 'src/pages/contact-me/index.astro', route: '/contact-me/', type: 'native' },
   { source: 'scripts/finalize-build.mjs', route: '/contact-me.html', type: 'historical-alias' },
+  { source: 'src/pages/media/index.astro', route: '/media', type: 'native-alias' },
+  { source: 'src/pages/media/index.astro', route: '/media/', type: 'native' },
 ];
 
 async function writeEntry(collection, file, data, body, url) {
@@ -88,7 +90,7 @@ const pagePatterns = ['*.{md,html}', 'archive/**/*.{md,html}', 'books/**/*.{md,h
 const pageFiles = (await fg(pagePatterns, { cwd: root })).filter((file) => !['README.md', '_templates/post.md', 'laserprj.html'].includes(file)).sort();
 for (const file of pageFiles) {
   const parsed = parse(await readFile(path.join(root, file), 'utf8'));
-  if (file === 'coat-of-arms.md') continue;
+  if (file === 'coat-of-arms.md' || file === 'media.md') continue;
   const url = route(parsed.data.permalink, file);
   routeLedger.push({ source: file, route: url, type: 'page' });
   await writeEntry('pages', file, { ...parsed.data, title: parsed.data.title ?? path.basename(file), source_path: file }, parsed.content, url);
@@ -155,7 +157,7 @@ for (const item of redirects) {
 }
 const uniqueRedirects = [...redirectMap.values()];
 
-await writeFile(path.join(generated, 'data', 'site.json'), `${JSON.stringify({ siteUrl: 'https://jameshoward.us', books, honors, service, software, teaching, settings, profile, mddfRibbons, redirects: uniqueRedirects }, null, 2)}\n`);
+await writeFile(path.join(generated, 'data', 'site.json'), `${JSON.stringify({ siteUrl: 'https://jameshoward.us', books, honors, media, service, software, teaching, settings, profile, mddfRibbons, redirects: uniqueRedirects }, null, 2)}\n`);
 await writeFile(path.join(generated, 'data', 'posts.json'), `${JSON.stringify(posts.map((post) => ({ ...post.data, route: post.route, source_path: post.file, excerpt: excerpt(post.body) })), null, 2)}\n`);
 await writeFile(path.join(generated, 'data', 'route-ledger.json'), `${JSON.stringify({ generated_at: new Date().toISOString(), routes: routeLedger, redirects: uniqueRedirects }, null, 2)}\n`);
 console.log(`Prepared ${posts.length} posts, ${ancestryFiles.length} ancestry records, ${pageFiles.length} pages, and ${uniqueRedirects.length} redirects.`);
