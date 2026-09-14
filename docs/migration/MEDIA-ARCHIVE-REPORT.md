@@ -88,4 +88,5 @@ links.
 - Canonical route: `/media/`
 - Compatibility: `/media` continues to resolve to the same directory route.
 - No `/media/archive/` route was created.
+- The native archive is included explicitly in site search and both XML sitemaps.
 - No homepage destination or Writing architecture was changed.
