@@ -69,6 +69,12 @@ const required = [
   '/data/search.json', '/CNAME', '/robots.txt',
 ];
 for (const file of required) if (!relativeFiles.has(file)) failures.push(`missing required output ${file}`);
+const searchIndex = await readFile(path.join(dist, 'data/search.json'), 'utf8');
+if (!searchIndex.includes('"title":"Media Archive"') || !searchIndex.includes('"url":"/media/"')) failures.push('search index: missing Media Archive');
+const pagesSitemap = await readFile(path.join(dist, 'sitemap-pages.xml'), 'utf8');
+if (!pagesSitemap.includes('<loc>https://jameshoward.us/media/</loc>')) failures.push('pages sitemap: missing /media/');
+const mainSitemap = await readFile(path.join(dist, 'sitemap.xml'), 'utf8');
+if (!mainSitemap.includes('<loc>https://jameshoward.us/media/</loc>')) failures.push('main sitemap: missing /media/');
 
 const representativeChecks = [
   ['/index.html', '/teaching/'],
