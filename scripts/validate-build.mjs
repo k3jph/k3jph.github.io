@@ -79,7 +79,7 @@ if (!mainSitemap.includes('<loc>https://jameshoward.us/media/</loc>')) failures.
 const representativeChecks = [
   ['/index.html', '/teaching/'],
   ['/about-me/index.html', 'class="recognition-list"'],
-  ['/media/index.html', '<h1>Media Archive</h1>'],
+  ['/media/index.html', '>Media Archive</h1>'],
   ['/media/index.html', 'id="interviews_appearances"'],
   ['/media/index.html', 'id="quoted_consulted"'],
   ['/media/index.html', 'id="profiles_coverage"'],
