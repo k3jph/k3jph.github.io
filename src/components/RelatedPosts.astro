@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import BlogArchive from './BlogArchive.astro';
+import SectionHeading from './SectionHeading.astro';
+import { isPublished, slugifyTag } from '../lib/site';
+
+interface Props {
+  tag: string;
+  currentRoute?: string;
+  limit?: number;
+}
+
+const { tag, currentRoute, limit = 3 } = Astro.props as Props;
+const posts = (await getCollection('blog'))
+  .filter((post:any) => isPublished(post.data) && post.data.tags?.includes(tag) && post.data.route !== currentRoute)
+  .sort((a:any, b:any) => +b.data.date - +a.data.date)
+  .slice(0, limit);
+const headingId = `related-posts-${slugifyTag(tag)}`;
+---
+<section class="section section--soft related-posts-section" aria-labelledby={headingId}>
+  <div class="container">
+    <SectionHeading title="Related posts" id={headingId} />
+    {posts.length > 0 && <BlogArchive posts={posts} />}
+    <p class="related-posts-more"><a href={`/tag/${slugifyTag(tag)}/`}>Browse more posts tagged {tag}</a></p>
+  </div>
+</section>
+
+<style>
+  .related-posts-section { margin-top: var(--space-7); }
+  .related-posts-more { margin: var(--space-5) 0 0; text-align: center; font-family: var(--font-sans); font-weight: 700; }
+</style>
+<style is:global>
+  .content .related-posts { display: none; }
+</style>

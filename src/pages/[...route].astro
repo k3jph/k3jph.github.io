@@ -1,6 +1,6 @@
 ---
 import { getCollection, render } from 'astro:content';
-import BaseLayout from '../layouts/BaseLayout.astro'; import PageIntro from '../components/PageIntro.astro'; import TableOfContents from '../components/TableOfContents.astro'; import HeadingDivider from '../components/HeadingDivider.astro'; import ArmoryNav from '../components/ArmoryNav.astro';
+import BaseLayout from '../layouts/BaseLayout.astro'; import PageIntro from '../components/PageIntro.astro'; import TableOfContents from '../components/TableOfContents.astro'; import HeadingDivider from '../components/HeadingDivider.astro'; import ArmoryNav from '../components/ArmoryNav.astro'; import RelatedPosts from '../components/RelatedPosts.astro';
 import siteData from '../../.generated/data/site.json'; import {formatDate,isPublished,normalizeAssetPath,routeParam,slugifyTag} from '../lib/site';
 export async function getStaticPaths(){
   const blog=(await getCollection('blog')).filter(p=>isPublished(p.data));const ancestry=await getCollection('ancestry');const pages=await getCollection('pages');const entries=[...blog.map(e=>({entry:e,kind:'blog'})),...ancestry.map(e=>({entry:e,kind:'ancestry'})),...pages.map(e=>({entry:e,kind:'page'}))];
@@ -11,7 +11,7 @@ export async function getStaticPaths(){
 }
 const {entry,kind}=Astro.props as any;
 if(kind==='redirect') return Astro.redirect((Astro.props as any).to,301);
-const {Content,headings}=await render(entry);const data:any=entry.data;const image=normalizeAssetPath(data.featured_image);const ancestryServices=(data.service_ids??[]).map((id:string)=>siteData.service.find((r:any)=>r.id===id)).filter((r:any)=>r?.ancestry);const hasManualToc=entry.body?.includes('class="page-toc"');const hasInlineToc=hasManualToc||entry.body?.includes('aria-label="On this page"');const isArmory=Boolean(data.armory_section);const wideContent=kind==='ancestry'||hasManualToc||isArmory;
+const {Content,headings}=await render(entry);const data:any=entry.data;const image=normalizeAssetPath(data.featured_image);const ancestryServices=(data.service_ids??[]).map((id:string)=>siteData.service.find((r:any)=>r.id===id)).filter((r:any)=>r?.ancestry);const hasManualToc=entry.body?.includes('class="page-toc"');const hasInlineToc=hasManualToc||entry.body?.includes('aria-label="On this page"');const isArmory=Boolean(data.armory_section);const wideContent=kind==='ancestry'||hasManualToc||isArmory;const relatedTags=[...new Set([...String(entry.body??'').matchAll(/::related-posts\{[^}]*tag=(["'])(.*?)\1[^}]*\}/g)].map((match:any)=>match[2]))];
 const description=data.description??data.excerpt??data.subtitle;const escapeHtml=(value:string)=>value.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');const creditsHtml=data.credits?escapeHtml(String(data.credits)).replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,'<a href="$2">$1</a>').replace(/^_(.*)_$/s,'<em>$1</em>'):undefined;
 ---
 <BaseLayout title={data.title} description={description} image={image} canonical={data.route} type={kind==='blog'?'article':'website'} stylesheet={data.stylesheet} script={data.script} noindex={data.sitemap===false}>
@@ -19,6 +19,7 @@ const description=data.description??data.excerpt??data.subtitle;const escapeHtml
   {isArmory&&<ArmoryNav current={data.armory_section}/>}
   {kind==='blog'&&data.tags?.length>0&&<div class="post-tags"><div class="container"><ul class="pill-list">{data.tags.map((tag:string)=><li><a href={`/tag/${slugifyTag(tag)}/`}>{tag}</a></li>)}</ul></div></div>}
   <article class:list={['article-shell',{'article-shell--wide':wideContent}]}><div class={wideContent?'container':'reading-container'}>{!hasInlineToc&&!isArmory&&<TableOfContents headings={headings}/>}<div class="content"><Content/></div>{ancestryServices.map((role:any,i:number)=><section class="ancestry-service" aria-labelledby={`ancestry-service-${i+1}`}><p class="eyebrow">Society service and leadership</p><h2 id={`ancestry-service-${i+1}`}>{role.ancestry.heading}</h2><p>{role.ancestry.summary}</p><a href="/service/">View the broader service record →</a></section>)}{creditsHtml&&<footer class="credits"><HeadingDivider compact/><p set:html={creditsHtml}/></footer>}</div></article>
+  {relatedTags.map((tag:string)=><RelatedPosts tag={tag} currentRoute={data.route} />)}
   {kind==='blog'&&<nav class="reading-container post-nav" aria-label="Blog navigation"><a href="/blog/">← Back to the blog archive</a></nav>}
   {wideContent&&<script is:inline src="/assets/js/content-gallery.js"></script>}
 </BaseLayout>
