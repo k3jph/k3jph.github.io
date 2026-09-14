@@ -98,23 +98,23 @@ for (const file of pageFiles) {
 // architectural chapters. This keeps the substantive record together while
 // giving each chapter a stable, focused route.
 const armorySource = parse(await readFile(path.join(root, 'coat-of-arms.md'), 'utf8'));
-const armorySection = (className) => {
-  const escaped = className.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const match = armorySource.content.match(new RegExp(`<section class="[^"]*\\b${escaped}\\b[^"]*"[\\s\\S]*?<\\/section>`));
-  if (!match) throw new Error(`coat-of-arms.md: missing section ${className}`);
+const armorySection = (sectionName) => {
+  const escaped = sectionName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const match = armorySource.content.match(new RegExp(`<section[^>]*data-armory-section="${escaped}"[^>]*>[\\s\\S]*?<\\/section>`));
+  if (!match) throw new Error(`coat-of-arms.md: missing armory section ${sectionName}`);
   return match[0];
 };
 const armoryChapters = [
-  { key: 'grant', title: 'The Grant', route: '/coat-of-arms/', sections: ['coat-of-arms-overview', 'coat-of-arms-heraldry', 'coat-of-arms-grant'] },
-  { key: 'arms', title: 'The Arms', route: '/coat-of-arms/arms/', sections: ['coat-of-arms-arms'] },
-  { key: 'emblazonments', title: 'Emblazonments', route: '/coat-of-arms/emblazonments/', sections: ['coat-of-arms-emblazonments'] },
-  { key: 'insignia', title: 'Derived Devices & Insignia', route: '/coat-of-arms/insignia/', sections: ['coat-of-arms-insignia'] },
-  { key: 'tartan', title: 'Tartan', route: '/coat-of-arms/tartan/', sections: ['coat-of-arms-tartan'] },
-  { key: 'records', title: 'Other Records & Registrations', route: '/coat-of-arms/records/', sections: ['coat-of-arms-records'] },
+  { key: 'grant', title: 'The Grant', route: '/coat-of-arms/', sections: ['overview', 'heraldry', 'grant'] },
+  { key: 'arms', title: 'The Arms', route: '/coat-of-arms/arms/', sections: ['arms'] },
+  { key: 'emblazonments', title: 'Emblazonments', route: '/coat-of-arms/emblazonments/', sections: ['emblazonments'] },
+  { key: 'insignia', title: 'Derived Devices & Insignia', route: '/coat-of-arms/insignia/', sections: ['insignia'] },
+  { key: 'tartan', title: 'Tartan', route: '/coat-of-arms/tartan/', sections: ['tartan'] },
+  { key: 'records', title: 'Other Records & Registrations', route: '/coat-of-arms/records/', sections: ['records'] },
 ];
 for (const chapter of armoryChapters) {
   let body = chapter.sections.map(armorySection).join('\n\n')
-    .replace(/<p class="coat-of-arms-back">[\s\S]*?<\/p>/g, '')
+    .replace(/<p class="back-link">[\s\S]*?<\/p>/g, '')
     .replace('href="#blazon"', 'href="/coat-of-arms/arms/#blazon"')
     .replace('href="#tartan"', 'href="/coat-of-arms/tartan/#tartan"');
   // Each extracted chapter now has its own page hero. Remove the former
@@ -125,7 +125,7 @@ for (const chapter of armoryChapters) {
     .replace(/^### /gm, '## ');
   const formerHeadingIds = { grant: 'the-grant', arms: 'the-arms', emblazonments: 'emblazonments', insignia: 'insignia', tartan: 'tartan', records: 'other-records' };
   body = body.replace(`aria-labelledby="${formerHeadingIds[chapter.key]}"`, `id="${formerHeadingIds[chapter.key]}" aria-label="${chapter.title}"`);
-  body = `<div class="coat-of-arms" markdown="1">\n${body}\n</div>`;
+  body = `<div class="content-flow" markdown="1">\n${body}\n</div>`;
   const file = chapter.key === 'grant' ? 'coat-of-arms/index.md' : `coat-of-arms/${chapter.key}.md`;
   const data = { ...armorySource.data, id: `coat-of-arms-${chapter.key}`, title: chapter.title, permalink: chapter.route, armory_section: chapter.key, source_path: 'coat-of-arms.md', redirect_from: chapter.key === 'grant' ? armorySource.data.redirect_from : [] };
   routeLedger.push({ source: 'coat-of-arms.md', route: chapter.route, type: 'page', chapter: chapter.key });

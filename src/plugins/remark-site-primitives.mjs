@@ -88,10 +88,11 @@ function walk(node) {
   }
 
   if (node.name === 'related-posts') {
-    const tag = escapeHtml(attributes.tag);
-    const slug = tag.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    // The page shell reads this directive from the source and renders the
+    // canonical RelatedPosts component outside the article. Leave no second
+    // inline rendering behind in the document flow.
     node.type = 'html';
-    node.value = `<aside class="related-posts"><h2>Related posts</h2><p><a href="/tag/${slug}/">Browse more posts tagged ${tag}</a></p></aside>`;
+    node.value = '';
     delete node.children;
     return;
   }

@@ -75,7 +75,7 @@ const representativeChecks = [
   ['/about-me/index.html', 'class="recognition-list"'],
   ['/books/computational-methods-numerical-analysis-r/index.html', 'class="book-detail"'],
   ['/service/maryland-defense-force/index.html', 'data-ribbon-type="personal"'],
-  ['/coat-of-arms/index.html', 'class="coat-of-arms-overview"'],
+  ['/coat-of-arms/index.html', 'class="content-preface"'],
   ['/coat-of-arms/arms/index.html', 'id="blazon"'],
   ['/coat-of-arms/arms/index.html', 'id="canonical-emblazonment"'],
   ['/coat-of-arms/arms/index.html', 'Eckbert'],

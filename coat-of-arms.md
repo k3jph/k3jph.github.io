@@ -5,7 +5,6 @@ author: James Howard
 layout: page
 permalink: /coat-of-arms
 featured_image: /assets/img/malta.webp
-stylesheet: /assets/css/coat-of-arms.css
 redirect_from:
   - /coa
   - /malta
@@ -15,12 +14,12 @@ redirect_from:
   - /honors/coat-of-arms
 ---
 
-<div class="coat-of-arms" markdown="1">
+<div class="content-flow" markdown="1">
 
-<section class="coat-of-arms-overview" aria-labelledby="armorial-summary" markdown="1">
+<section class="content-preface" data-armory-section="overview" aria-labelledby="armorial-summary" markdown="1">
 
-<div class="coat-of-arms-overview-grid">
-  <div class="coat-of-arms-principal">
+<div class="media-fact-grid">
+  <div class="media-fact-grid__media">
 
 
 :::figure{src="/assets/img/armory/jhoward-salmeron-960px.webp" alt="Full heraldic achievement of James Patrick Howard II, interpreted by Dr Antonio Salmerón" align="center" width="12" border="true" loading="eager" role="primary"}
@@ -29,22 +28,22 @@ Interpreted by [Dr Antonio Salmerón](http://blason.es/)
 
 
   </div>
-  <div class="coat-of-arms-summary">
-    <p class="coat-of-arms-eyebrow">Personal armorial record</p>
-    <h2 class="coat-of-arms-summary-title" id="armorial-summary">Arms at a Glance</h2>
-    <dl class="coat-of-arms-facts">
+  <div class="fact-panel">
+    <p class="eyebrow">Personal armorial record</p>
+    <h2 id="armorial-summary">Arms at a Glance</h2>
+    <dl class="details-list details-list--grid">
       <div><dt>Granting authority</dt><dd>Office of the Chief Herald of Arms of Malta</dd></div>
       <div><dt>Letters Patent</dt><dd>G0102</dd></div>
       <div><dt>Date</dt><dd>1 May 2024</dd></div>
       <div><dt>Motto</dt><dd><em>Ir-rieda biss tmexxi l-qalb</em></dd></div>
     </dl>
-    <p class="coat-of-arms-summary-links"><a href="#blazon">Read the blazon <span aria-hidden="true">↓</span></a><a href="/assets/docs/jhoward-malta-letters-patent.pdf">View Letters Patent <span class="sr-only">(PDF)</span><span aria-hidden="true">↗</span></a></p>
+    <p class="link-row"><a href="#blazon">Read the blazon <span aria-hidden="true">↓</span></a><a href="/assets/docs/jhoward-malta-letters-patent.pdf">View Letters Patent <span class="visually-hidden">(PDF)</span><span aria-hidden="true">↗</span></a></p>
   </div>
 </div>
 
 </section>
 
-<nav id="contents" class="page-toc" aria-label="On this page">
+<nav id="contents" class="page-toc page-toc--inline" aria-label="On this page">
   <a href="#heraldry-context">Heraldry</a>
   <a href="#the-grant">The Grant</a>
   <a href="#the-arms">The Arms</a>
@@ -54,7 +53,7 @@ Interpreted by [Dr Antonio Salmerón](http://blason.es/)
   <a href="#other-records">Other Records</a>
 </nav>
 
-<section class="coat-of-arms-band coat-of-arms-band--navy coat-of-arms-heraldry" aria-labelledby="heraldry-context" markdown="1">
+<section class="content-band content-band--navy" data-armory-section="heraldry" aria-labelledby="heraldry-context" markdown="1">
 <div class="content-section" markdown="1">
 
 ::section-heading{title="Heraldry" id="heraldry-context" variant="light"}
@@ -88,12 +87,12 @@ this page belongs to the first category.
 </div>
 </section>
 
-<section class="coat-of-arms-band coat-of-arms-band--soft coat-of-arms-grant" aria-labelledby="the-grant" markdown="1">
+<section class="content-band content-band--cream" data-armory-section="grant" aria-labelledby="the-grant" markdown="1">
 <div class="content-section" markdown="1">
 
 ::section-heading{title="The Grant" id="the-grant" description="The Maltese authority, Letters Patent, and documentary record."}
 
-<nav class="coat-of-arms-local-nav" aria-label="The Grant sections">
+<nav class="page-toc page-toc--inline" aria-label="The Grant sections">
   <a href="#heraldry-in-malta">Maltese context</a>
   <a href="#my-grant-of-arms">My grant</a>
   <a href="#letters-patent">Letters Patent</a>
@@ -195,7 +194,7 @@ You may [download the PDF here](/assets/docs/jhoward-malta-letters-patent-binder
 </div>
 </section>
 
-<section class="coat-of-arms-section coat-of-arms-arms" aria-labelledby="the-arms" markdown="1">
+<section class="content-chapter" data-armory-section="arms" aria-labelledby="the-arms" markdown="1">
 
 ::section-heading{title="The Arms" id="the-arms" description="The controlling blazon, the design's personal origins, and the motto."}
 
@@ -296,11 +295,9 @@ achievement or on its own when a compact personal emblem is useful.
 
 </section>
 
-<section class="coat-of-arms-section coat-of-arms-emblazonments" aria-labelledby="emblazonments" markdown="1">
+<section class="content-chapter" data-armory-section="emblazonments" aria-labelledby="emblazonments" markdown="1">
 
 ::section-heading{title="Emblazonments" id="emblazonments" description="Different artists, one formal blazon."}
-
-### Emblazonment {#emblazonment}
 
 An emblazonment is the artistic rendering of a coat of arms from its blazon.
 While the text remains constant, artistic interpretations may vary in style,
@@ -312,7 +309,7 @@ artistically vibrant.
 
 In this section, various interpretations of the arms are displayed, each adhering to the same blazon while reflecting the individual style of the artist.
 
-<div id="masonry-container" class="coat-of-arms-gallery" data-layout="css-grid">
+<div id="masonry-container" class="figure-group figure-group--three figure-group--framed figure-group--uniform" data-layout="css-grid">
 
 
 :::figure{src="/assets/img/armory/jhoward-coa-ratul-960px.webp" alt="Interpreted by Ratul S" align="left" width="4" border="true" loading="lazy" role="gallery"}
@@ -418,17 +415,17 @@ Interpreted by [Dimitri Prica](http://www.dprica.com/)
 
 </div>
 
-<p class="coat-of-arms-back"><a href="#contents">Back to contents <span aria-hidden="true">↑</span></a></p>
+<p class="back-link"><a href="#contents">Back to contents <span aria-hidden="true">↑</span></a></p>
 
 </section>
 
-<span id="related-insignia" class="coat-of-arms-fragment-target" aria-hidden="true"></span>
-<section class="coat-of-arms-band coat-of-arms-band--slate coat-of-arms-insignia" aria-labelledby="insignia" markdown="1">
+<span id="related-insignia" class="fragment-target" aria-hidden="true"></span>
+<section class="content-band content-band--soft" data-armory-section="insignia" aria-labelledby="insignia" markdown="1">
 <div class="content-section" markdown="1">
 
 ::section-heading{title="Derived Devices and Insignia" id="insignia" description="Later devices developed from the granted arms."}
 
-<nav class="coat-of-arms-local-nav" aria-label="Insignia sections">
+<nav class="page-toc page-toc--inline" aria-label="Insignia sections">
   <a href="#banner">Banner</a>
   <a href="#seal">Seal</a>
   <a href="#badge">Badges</a>
@@ -490,17 +487,17 @@ above it on the wreath, and the motto encircles the composition. One version
 uses dense heraldic hatching and engraved texture; the simplified version
 reduces that treatment for clearer reproduction at smaller sizes.
 
-<div class="coat-of-arms-seals">
+<div class="figure-group figure-group--two figure-group--framed figure-group--uniform">
 
 
-:::figure{src="/assets/img/armory/jhoward-seal.svg" alt="Detailed monochrome personal seal showing the arms, martlet crest, circular legend, and heraldic hatching" align="center" width="12" link="/assets/img/armory/jhoward-seal.svg"}
+:::figure{src="/assets/img/armory/jhoward-seal.svg" alt="Detailed monochrome personal seal showing the arms, martlet crest, circular legend, and heraldic hatching" align="center" width="12" link="/assets/img/armory/jhoward-seal.svg" role="gallery"}
 Detailed hatched rendering of the personal heraldic seal by [Quentin Peacock](https://www.digitalheraldry.com/)
 :::
 
 
 
 
-:::figure{src="/assets/img/armory/jhoward-seal-simplified.svg" alt="Simplified monochrome personal seal showing the shield, martlet crest, and circular legend" align="center" width="12" link="/assets/img/armory/jhoward-seal-simplified.svg"}
+:::figure{src="/assets/img/armory/jhoward-seal-simplified.svg" alt="Simplified monochrome personal seal showing the shield, martlet crest, and circular legend" align="center" width="12" link="/assets/img/armory/jhoward-seal-simplified.svg" role="gallery"}
 Simplified line rendering of the personal heraldic seal by [Quentin Peacock](https://www.digitalheraldry.com/)
 :::
 
@@ -515,7 +512,7 @@ professional digital heraldic artist and Craft Member of the Society of
 Heraldic Arts whose work also includes the Fairbairn-style crest shown above.
 The seal is a later personal design and is not part of Letters Patent G0102.
 
-<span id="badge" class="coat-of-arms-fragment-target" aria-hidden="true"></span>
+<span id="badge" class="fragment-target" aria-hidden="true"></span>
 
 ### English Heraldic Badges {#english-heraldic-badges}
 
@@ -611,24 +608,24 @@ an Irish-style crest badge for my own arms, framed within a Claddagh, while
 recognizing that it is neither an official Irish heraldic category nor a form
 of legal recognition.
 
-<div class="coat-of-arms-badge-gallery">
+<div class="figure-group figure-group--three figure-group--framed figure-group--uniform">
 
 
-:::figure{src="/assets/img/armory/jhoward-crest-badge-member.svg" alt="Scottish-style crest badge placing the martlet and motto within a strap and buckle" align="center" width="12"}
+:::figure{src="/assets/img/armory/jhoward-crest-badge-member.svg" alt="Scottish-style crest badge placing the martlet and motto within a strap and buckle" align="center" width="12" role="gallery"}
 Scottish-style crest badge in strap-and-buckle form
 :::
 
 
 
 
-:::figure{src="/assets/img/armory/jhoward-crest-badge-armiger.svg" alt="Scottish-inspired crest badge placing the martlet, motto, and one feather within a circlet" align="center" width="12"}
+:::figure{src="/assets/img/armory/jhoward-crest-badge-armiger.svg" alt="Scottish-inspired crest badge placing the martlet, motto, and one feather within a circlet" align="center" width="12" role="gallery"}
 Scottish-inspired armiger-style crest badge
 :::
 
 
 
 
-:::figure{src="/assets/img/armory/jhoward-crest-badge-irish.svg" alt="Irish-style crest badge placing the martlet and motto within a Claddagh" align="center" width="12"}
+:::figure{src="/assets/img/armory/jhoward-crest-badge-irish.svg" alt="Irish-style crest badge placing the martlet and motto within a Claddagh" align="center" width="12" role="gallery"}
 Irish-style crest badge in Claddagh form
 :::
 
@@ -762,12 +759,12 @@ concentric circles in white, blue, and gold, arranged from the outside inward.
 It was adopted after the Maltese grant and has no separate institutional or
 legal status.
 
-<p class="coat-of-arms-back"><a href="#contents">Back to contents <span aria-hidden="true">↑</span></a></p>
+<p class="back-link"><a href="#contents">Back to contents <span aria-hidden="true">↑</span></a></p>
 
 </div>
 </section>
 
-<section class="coat-of-arms-section coat-of-arms-tartan" aria-labelledby="tartan" markdown="1">
+<section class="content-chapter" data-armory-section="tartan" aria-labelledby="tartan" markdown="1">
 
 ::section-heading{title="Tartan" id="tartan" description="The personal tartan and four conventional color treatments of its sett."}
 
@@ -839,16 +836,16 @@ contexts.
 - [How to Design a Tartan](/2025/05/15/how-to-design-a-tartan)
 - [Tartans as Woven Heraldry in Scotland](/2024/01/14/tartans-as-woven-heraldry-in-scotland)
 
-<p class="coat-of-arms-back"><a href="#contents">Back to contents <span aria-hidden="true">↑</span></a></p>
+<p class="back-link"><a href="#contents">Back to contents <span aria-hidden="true">↑</span></a></p>
 
 </section>
 
-<section class="coat-of-arms-band coat-of-arms-band--soft coat-of-arms-records" aria-labelledby="other-records" markdown="1">
+<section class="content-band content-band--cream" data-armory-section="records" aria-labelledby="other-records" markdown="1">
 <div class="content-section" markdown="1">
 
 ::section-heading{title="Other Records and Registrations" id="other-records" description="Later records of the arms maintained by private and non-governmental bodies."}
 
-<nav class="coat-of-arms-local-nav" aria-label="Other records and registrations">
+<nav class="page-toc page-toc--inline" aria-label="Other records and registrations">
   <a href="#american-armigers">American Armigers</a>
   <a href="#heraldry-of-the-world">Heraldry of the World</a>
   <a href="#nehgs-committee-on-heraldry">Committee on Heraldry</a>
@@ -860,7 +857,7 @@ Malta. Their roles differ, and none replaces, amends, or supplies the authority
 for Letters Patent G0102. Where a later body uses a different blazoning style,
 the original Maltese Letters Patent remain the controlling grant.
 
-<div class="coat-of-arms-gallery">
+<div class="figure-group figure-group--three figure-group--framed figure-group--landscape">
 
 
 :::figure{src="/armory/jhoward-american-armigers-registration.webp" alt="American Armigers registration certificate AA0183" align="center" width="12" border="true" link="/assets/docs/jhoward-american-armigers-registration.pdf" role="documentary"}
@@ -942,7 +939,7 @@ This registration documents the existing grant and does not create or
 reconfirm its legal authority. You may [download the registration
 certificate](/assets/docs/jhoward-ach-registration.pdf).
 
-<p class="coat-of-arms-back"><a href="#contents">Back to contents <span aria-hidden="true">↑</span></a></p>
+<p class="back-link"><a href="#contents">Back to contents <span aria-hidden="true">↑</span></a></p>
 
 </div>
 </section>

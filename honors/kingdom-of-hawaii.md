@@ -4,7 +4,6 @@ title: Royal Order of the Star of Oceania
 author: James Howard
 date: 2024-03-17
 layout: page
-stylesheet: /assets/css/royal-order-star-oceania.css
 permalink: /honors/royal-order-of-the-star-of-oceania
 featured_image: /assets/img/kingdom-of-hawaii.webp
 redirect_from:
@@ -19,13 +18,13 @@ credits: >-
   Reading.
 ---
 
-<div class="star-oceania" markdown="1">
+<div class="content-flow" markdown="1">
 
-<section class="star-oceania-preface" markdown="1">
+<section class="content-preface" markdown="1">
 
-<p class="star-oceania-introduction">A contemporary appointment in an order whose nineteenth-century history is documented separately below. The record is strongest when those two things are not blurred together.</p>
+<p class="content-lead">A contemporary appointment in an order whose nineteenth-century history is documented separately below. The record is strongest when those two things are not blurred together.</p>
 
-<nav class="page-toc" aria-label="On this page">
+<nav class="page-toc page-toc--inline" aria-label="On this page">
   <a href="#my-appointment">My Appointment</a>
   <a href="#historical-order">Historical Order</a>
   <a href="#pacific-confederation">Pacific Confederation</a>
@@ -36,7 +35,7 @@ credits: >-
 
 </section>
 
-<section class="star-oceania-appointment" markdown="1">
+<section class="content-band content-band--navy" markdown="1">
 
 <div class="content-section" markdown="1">
 
@@ -47,8 +46,8 @@ the Star of Oceania**. The appointment record identifies the issuing authority a
 Princess Owana Kaʻōhelelani, *Head of the Royal House of Hawaiʻi* and Grand
 Master; the appointment was issued in Hilo, Hawaiʻi.
 
-<div class="content-grid">
-  <div class="content-grid__item content-grid__item--half">
+<div class="media-fact-grid">
+  <div class="media-fact-grid__media">
 
 
 :::figure{src="/assets/img/honors/KCRSO-medal.webp" alt="Contemporary insignia of the Royal Order of the Star of Oceania" align="center" width="12"}
@@ -57,7 +56,7 @@ Contemporary insignia issued with James Howard's appointment
 
 
   </div>
-  <div class="content-grid__item content-grid__item--half">
+  <div>
     <div class="jh-card jh-card--featured">
       <div class="jh-card__body">
         <h3>Appointment record</h3>
@@ -87,7 +86,7 @@ questions, and this page keeps them separate.
 
 </section>
 
-<section class="star-oceania-chapter star-oceania-history" aria-labelledby="historical-order" markdown="1">
+<section class="content-chapter" aria-labelledby="historical-order" markdown="1">
 
 <div class="content-section" markdown="1">
 
@@ -113,7 +112,7 @@ grade of my 2024 appointment, **Knight Commander**, should therefore not be
 read as silently reproducing an 1886 grade. It belongs to the present
 issuer's revised system.
 
-<aside class="star-oceania-distinction">
+<aside class="content-callout">
   <strong>One name, two records.</strong> The nineteenth-century order is documented through its statutes and surviving museum objects. My appointment records a present-day ceremonial honor under the same historical name.
 </aside>
 
@@ -174,7 +173,7 @@ calling it legally “abolished,” so that stronger claim does not appear here.
 
 </section>
 
-<section class="star-oceania-chapter star-oceania-contemporary" aria-labelledby="contemporary-order" markdown="1">
+<section class="content-band content-band--cream" aria-labelledby="contemporary-order" markdown="1">
 
 <div class="content-section" markdown="1">
 
