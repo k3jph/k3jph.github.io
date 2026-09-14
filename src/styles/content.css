@@ -21,6 +21,7 @@
 .content .section-heading { clear: both; max-width: 56rem; margin: var(--space-7) auto var(--space-5); padding-top: 0; }
 .content .section-heading h2, .content .section-heading h3 { margin: 0; padding: 0; }
 .content .section-heading h2::after { display: none; }
+.content .jh-card h3 { margin-top: 0; }
 
 .content .content-figure { width: min(var(--figure-width, 100%), 100%); margin: var(--space-5) auto; }
 .content .content-figure--left { float: left; margin: .4rem var(--space-4) var(--space-3) 0; }
@@ -119,6 +120,7 @@
 .page-toc--inline li { margin: 0; }
 .media-fact-grid { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); align-items: stretch; gap: var(--space-5); }
 .media-fact-grid__media { display: flex; min-width: 0; align-items: center; justify-content: center; }
+.media-fact-grid__facts { min-width: 0; align-self: center; }
 .media-fact-grid__media > figure { width: 100%; margin: 0; }
 .content .media-fact-grid__media > .content-figure { width: 100%; margin: 0; }
 .fact-panel { display: flex; min-width: 0; padding: clamp(1.5rem, 3vw, 2.5rem); border: 1px solid var(--color-slate-300); background: #fff; flex-direction: column; }
@@ -136,7 +138,6 @@
 .document-grid, .content-columns { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-5); }
 .content-stack { display: grid; width: min(100%, var(--reading-width)); gap: var(--space-6); margin-inline: auto; }
 .content-stack > section { min-width: 0; }
-.content-stack > section + section { padding-top: var(--space-5); border-top: 1px solid var(--color-slate-300); }
 .content-stack > section > h3:first-child { margin-top: 0; }
 .document-record { display: flex; min-width: 0; flex-direction: column; }
 .document-record h3 { margin-top: 0; }

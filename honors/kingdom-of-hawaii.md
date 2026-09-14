@@ -56,21 +56,16 @@ Contemporary insignia issued with James Howard's appointment
 
 
   </div>
-  <div>
+  <div class="media-fact-grid__facts">
     <div class="jh-card jh-card--featured">
       <div class="jh-card__body">
         <h3>Appointment record</h3>
-        <dl>
-          <dt>Grade</dt>
-          <dd>Knight Commander</dd>
-          <dt>Recipient</dt>
-          <dd>James Patrick Howard II</dd>
-          <dt>Date</dt>
-          <dd>17 March 2024</dd>
-          <dt>Place</dt>
-          <dd>Hilo, Hawaiʻi</dd>
-          <dt>Issuer named on the appointment record</dt>
-          <dd>H.R.H. Princess Owana Kaʻōhelelani, Head of the Royal House of Hawaiʻi and Grand Master</dd>
+        <dl class="details-list">
+          <div><dt>Grade</dt><dd>Knight Commander</dd></div>
+          <div><dt>Recipient</dt><dd>James Patrick Howard II</dd></div>
+          <div><dt>Date</dt><dd>17 March 2024</dd></div>
+          <div><dt>Place</dt><dd>Hilo, Hawaiʻi</dd></div>
+          <div><dt>Issuer named on the appointment record</dt><dd>H.R.H. Princess Owana Kaʻōhelelani, Head of the Royal House of Hawaiʻi and Grand Master</dd></div>
         </dl>
       </div>
     </div>
