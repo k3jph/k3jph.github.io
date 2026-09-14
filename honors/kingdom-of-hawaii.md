@@ -41,36 +41,15 @@ credits: >-
 
 ::section-heading{title="My Appointment" id="my-appointment" variant="gold"}
 
-On March 17, 2024, I was appointed **Knight Commander of the Royal Order of
-the Star of Oceania**. The appointment record identifies the issuing authority as H.R.H.
-Princess Owana Kaʻōhelelani, *Head of the Royal House of Hawaiʻi* and Grand
-Master; the appointment was issued in Hilo, Hawaiʻi.
-
-<div class="media-fact-grid">
-  <div class="media-fact-grid__media">
+The appointment record states that H.R.H. Princess Owana Kaʻōhelelani, *Head
+of the Royal House of Hawaiʻi* and Grand Master, appointed James Patrick Howard
+II **Knight Commander of the Royal Order of the Star of Oceania** in Hilo,
+Hawaiʻi, on 17 March 2024.
 
 
 :::figure{src="/assets/img/honors/KCRSO-medal.webp" alt="Contemporary insignia of the Royal Order of the Star of Oceania" align="center" width="12"}
 Contemporary insignia issued with James Howard's appointment
 :::
-
-
-  </div>
-  <div class="media-fact-grid__facts">
-    <div class="jh-card jh-card--featured">
-      <div class="jh-card__body">
-        <h3>Appointment record</h3>
-        <dl class="details-list">
-          <div><dt>Grade</dt><dd>Knight Commander</dd></div>
-          <div><dt>Recipient</dt><dd>James Patrick Howard II</dd></div>
-          <div><dt>Date</dt><dd>17 March 2024</dd></div>
-          <div><dt>Place</dt><dd>Hilo, Hawaiʻi</dd></div>
-          <div><dt>Issuer named on the appointment record</dt><dd>H.R.H. Princess Owana Kaʻōhelelani, Head of the Royal House of Hawaiʻi and Grand Master</dd></div>
-        </dl>
-      </div>
-    </div>
-  </div>
-</div>
 
 That records a specific contemporary appointment. It does not, by itself,
 decide every question that can be asked about modern Hawaiian dynastic
