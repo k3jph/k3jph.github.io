@@ -181,7 +181,7 @@ On 7 July 2025, Grand Duke Travis conferred the honor of **Companion of the Nobl
 
 ::section-heading{title="Service and Institutional Context" id="service-and-institutional-roles"}
 
-<div class="content-columns">
+<div class="content-stack">
 <section markdown="1">
 
 ### Ellsworth King of Arms
