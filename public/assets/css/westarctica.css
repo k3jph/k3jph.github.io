@@ -20,6 +20,9 @@
 .westarctica-document img { border:1px solid #d8d0bf; display:block; height:auto; margin:0 auto; max-width:100%; }
 .westarctica-document figcaption { color:#615d53; font-family:Lato,sans-serif; font-size:.9em; line-height:1.45; margin:.75rem auto 0; text-align:center; }
 .westarctica-document-centered { margin-left:auto; margin-right:auto; }
+.westarctica-peerage-documents { align-items:start; }
+.westarctica-peerage-documents .westarctica-document { margin:0; }
+.westarctica-peerage-documents img { width:100%; aspect-ratio:3/4; object-fit:contain; background:#f5f2ea; }
 .westarctica-orders { margin-top:4.25rem; padding-bottom:4rem; padding-top:4rem; }
 .westarctica-orders h3 { color:#fff; margin:2.75rem 0 1rem; }
 .westarctica-timeline { border-left:3px solid #f0d660; margin:1.75rem 0 2.25rem; padding-left:1.35rem; }

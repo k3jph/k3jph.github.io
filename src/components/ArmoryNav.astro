@@ -1,0 +1,24 @@
+---
+import { sitePath } from '../lib/site';
+const { current } = Astro.props;
+const items = [
+  ['grant', 'The Grant', '/coat-of-arms/'],
+  ['arms', 'The Arms', '/coat-of-arms/arms/'],
+  ['emblazonments', 'Emblazonments', '/coat-of-arms/emblazonments/'],
+  ['insignia', 'Insignia', '/coat-of-arms/insignia/'],
+  ['tartan', 'Tartan', '/coat-of-arms/tartan/'],
+  ['records', 'Records', '/coat-of-arms/records/'],
+];
+---
+<nav class="armory-nav" aria-label="Coat of Arms sections">
+  <div class="container">
+    <ul>{items.map(([key, label, url]) => <li><a href={sitePath(url)} aria-current={key === current ? 'page' : undefined}>{label}</a></li>)}</ul>
+  </div>
+</nav>
+<style>
+  .armory-nav{border-block:1px solid var(--color-slate-150);background:var(--color-slate-075);font-family:var(--font-sans)}
+  .armory-nav ul{display:flex;justify-content:center;gap:.25rem 1.6rem;margin:0;padding:.85rem 0;list-style:none}
+  .armory-nav a{display:block;padding:.35rem 0;color:var(--color-navy-800);font-size:.88rem;font-weight:700;text-decoration:none}
+  .armory-nav a:hover,.armory-nav a:focus-visible,.armory-nav a[aria-current=page]{color:var(--color-gold-700);text-decoration:underline;text-decoration-thickness:.1em;text-underline-offset:.35em}
+  @media(max-width:48rem){.armory-nav{overflow-x:auto}.armory-nav .container{width:max-content;min-width:100%;padding-inline:1rem}.armory-nav ul{justify-content:flex-start;gap:1.2rem;white-space:nowrap}}
+</style>

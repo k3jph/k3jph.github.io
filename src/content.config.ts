@@ -12,7 +12,7 @@ const shared = {
 
 const blog = defineCollection({
   loader: glob({ pattern: '**/*.{md,markdown}', base: './.generated/content/blog' }),
-  schema: z.looseObject({ ...shared, date: z.coerce.date(), tags: z.array(z.string()).default([]), categories: z.array(z.string()).default([]), excerpt: z.string().optional() }),
+  schema: z.looseObject({ ...shared, date: z.coerce.date(), calendar_date: z.string(), tags: z.array(z.string()).default([]), categories: z.array(z.string()).default([]), excerpt: z.string().optional() }),
 });
 const ancestry = defineCollection({
   loader: glob({ pattern: '**/*.{md,markdown}', base: './.generated/content/ancestry' }),

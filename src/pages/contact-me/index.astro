@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+---
+<BaseLayout title="Contact Me" canonical="/contact-me/" image="/assets/img/heading-martlets.webp">
+  <PageIntro title="Contact Me" subtitle="Send a note." image="/assets/img/heading-martlets.webp" compact/>
+  <section class="section section--soft">
+    <div class="reading-container">
+      <form class="contact-page-form" action="https://formspree.io/xzbawrpg" method="POST" aria-label="Contact James Howard">
+        <label for="contact-name">Your Full Name</label>
+        <input id="contact-name" type="text" name="name" autocomplete="name">
+        <label for="contact-email">Your Email</label>
+        <input id="contact-email" type="email" name="email" autocomplete="email" required>
+        <label for="contact-subject">Subject</label>
+        <input id="contact-subject" type="text" name="subject">
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" name="content" rows="8" required></textarea>
+        <button class="button" type="submit">Contact Me</button>
+      </form>
+    </div>
+  </section>
+</BaseLayout>
+<style>.contact-page-form{display:grid;gap:.6rem;padding:var(--space-5);border-top:3px solid var(--color-gold-500);background:#fff;box-shadow:var(--shadow-sm)}.contact-page-form button{margin-top:1rem}</style>

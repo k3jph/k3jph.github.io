@@ -12,8 +12,9 @@ export function normalizeAssetPath(value?: string) {
 }
 export const absoluteUrl = (value: string) => new URL(value, SITE.url).toString();
 export function formatDate(value: Date | string, style: 'long' | 'short' = 'long') {
-  const date = value instanceof Date ? value : new Date(value);
-  return new Intl.DateTimeFormat('en-US', style === 'long' ? { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/New_York' } : { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'America/New_York' }).format(date);
+  const calendarDate = typeof value === 'string' && /^D\d{4}-\d{2}-\d{2}$/.test(value);
+  const date = value instanceof Date ? value : new Date(calendarDate ? `${value.slice(1)}T00:00:00Z` : value);
+  return new Intl.DateTimeFormat('en-US', style === 'long' ? { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: calendarDate ? 'UTC' : 'America/New_York' } : { month: 'short', day: 'numeric', year: 'numeric', timeZone: calendarDate ? 'UTC' : 'America/New_York' }).format(date);
 }
 export function slugifyTag(value: string) { return value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''); }
 export function isPublished(data: { published?: boolean; date?: Date }, now = new Date()) { return data.published !== false && (!data.date || data.date.getTime() <= now.getTime()); }

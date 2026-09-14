@@ -12,7 +12,7 @@ const errors = [];
 const report = {};
 
 for (const [name, files] of Object.entries(groups)) {
-  const totals = { files: files.length, liquid: 0, bootstrap_classes: 0, inline_styles: 0, content_scripts: 0, raw_divs: 0, figures: 0, directives: 0 };
+  const totals = { files: files.length, liquid: 0, bootstrap_classes: 0, inline_styles: 0, content_scripts: 0, raw_divs: 0, figures: 0, directives: 0, legacy_media_patterns: 0, legacy_media_files: 0 };
   for (const file of files) {
     const source = await readFile(file, 'utf8');
     const liquid = [...source.matchAll(/\{%|\{\{/g)].length;
@@ -20,6 +20,7 @@ for (const [name, files] of Object.entries(groups)) {
     const contentScripts = [...source.matchAll(/<script\b/gi)].length;
     const rawDivs = [...source.matchAll(/<div\b/gi)].length;
     const figures = [...source.matchAll(/(?:<figure\b|:::figure\b)/gi)].length;
+    const legacyMediaPatterns = [...source.matchAll(/\b(?:content-float-(?:left|right)|content-grid__item--(?:wide|half|third|quarter|narrow))\b/g)].length;
     let bootstrapClasses = 0;
     for (const match of source.matchAll(/class=["']([^"']+)["']/gi)) bootstrapClasses += match[1].split(/\s+/).filter((token) => bootstrap.test(token)).length;
     for (const match of source.matchAll(/^:{2,3}([a-z][\w-]*)/gm)) {
@@ -33,6 +34,8 @@ for (const [name, files] of Object.entries(groups)) {
       content_scripts: totals.content_scripts + contentScripts,
       raw_divs: totals.raw_divs + rawDivs,
       figures: totals.figures + figures,
+      legacy_media_patterns: totals.legacy_media_patterns + legacyMediaPatterns,
+      legacy_media_files: totals.legacy_media_files + Number(legacyMediaPatterns > 0),
     });
     if (liquid) errors.push(`${file}: ${liquid} Liquid construct(s)`);
     if (bootstrapClasses) errors.push(`${file}: ${bootstrapClasses} Bootstrap class(es)`);

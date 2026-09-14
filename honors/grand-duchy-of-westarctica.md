@@ -82,28 +82,28 @@ The three patents below are grants in the Peerage of Westarctica. **Count of Kri
 
 I was created **Baron of Matikonis** on 29 November 2024. The title refers to Matikonis Peak in Antarctica and remains part of my Westarctican peerage record.
 
-<figure class="westarctica-document">
-  <a href="/assets/img/honors/jhoward-matikonis.pdf"><img src="/assets/img/honors/jhoward-matikonis.webp" alt="Letters Patent creating James Patrick Howard II Baron of Matikonis"></a>
-  <figcaption>Letters Patent for the Baron of Matikonis · <a href="/assets/img/honors/jhoward-matikonis.pdf">View the PDF</a></figcaption>
-</figure>
-
 ### Count of Krigsvold {#Krigsvold}
 
 I was created **Count of Krigsvold** on 25 December 2024. The title takes its name from the [Krigsvold Nunataks](https://krigsvold.org); the title is a Westarctican peerage, not a claim to legal nobility outside Westarctica.
-
-<figure class="westarctica-document">
-  <a href="/assets/img/honors/jhoward-krigsvold.pdf"><img src="/assets/img/honors/jhoward-krigsvold.webp" alt="Letters Patent creating James Patrick Howard II Count of Krigsvold"></a>
-  <figcaption>Letters Patent for the Count of Krigsvold · <a href="/assets/img/honors/jhoward-krigsvold.pdf">View the PDF</a></figcaption>
-</figure>
 
 ### Count Rubin de la Borbolla {#Rubin-de-la-Borbolla}
 
 I was created **Count Rubin de la Borbolla** on 7 July 2025. The patent names Mount Rubin de la Borbolla as the title’s territorial referent and records the grant as a peerage of Westarctica.
 
-<figure class="westarctica-document">
-  <a href="/assets/docs/JHoward-Westarctica-Rubin-de-la-Borbolla.pdf"><img src="/assets/img/honors/jhoward-rubin-de-la-borbolla.webp" alt="Letters Patent creating James Patrick Howard II Count Rubin de la Borbolla"></a>
-  <figcaption>Letters Patent for Count Rubin de la Borbolla · <a href="/assets/docs/JHoward-Westarctica-Rubin-de-la-Borbolla.pdf">View the PDF</a></figcaption>
-</figure>
+<div class="figure-group figure-group--three westarctica-peerage-documents">
+  <figure class="westarctica-document">
+    <a href="/assets/img/honors/jhoward-matikonis.pdf"><img src="/assets/img/honors/jhoward-matikonis.webp" alt="Letters Patent creating James Patrick Howard II Baron of Matikonis"></a>
+    <figcaption>Baron of Matikonis · <a href="/assets/img/honors/jhoward-matikonis.pdf">View PDF</a></figcaption>
+  </figure>
+  <figure class="westarctica-document">
+    <a href="/assets/img/honors/jhoward-krigsvold.pdf"><img src="/assets/img/honors/jhoward-krigsvold.webp" alt="Letters Patent creating James Patrick Howard II Count of Krigsvold"></a>
+    <figcaption>Count of Krigsvold · <a href="/assets/img/honors/jhoward-krigsvold.pdf">View PDF</a></figcaption>
+  </figure>
+  <figure class="westarctica-document">
+    <a href="/assets/docs/JHoward-Westarctica-Rubin-de-la-Borbolla.pdf"><img src="/assets/img/honors/jhoward-rubin-de-la-borbolla.webp" alt="Letters Patent creating James Patrick Howard II Count Rubin de la Borbolla"></a>
+    <figcaption>Count Rubin de la Borbolla · <a href="/assets/docs/JHoward-Westarctica-Rubin-de-la-Borbolla.pdf">View PDF</a></figcaption>
+  </figure>
+</div>
 
 <section class="westarctica-orders" markdown="1">
 
@@ -152,19 +152,19 @@ On 7 July 2025, Grand Duke Travis conferred the honor of **Companion of the Nobl
 
 </section>
 
-::section-heading{title="Service and Institutional Roles" id="service-and-institutional-roles"}
+::section-heading{title="Service and Institutional Context" id="service-and-institutional-roles"}
 
 ### Ellsworth King of Arms
 
 I was appointed **Ellsworth King of Arms** on 9 June 2025. It is an office in the Westarctican College of Arms, not a peerage or a decoration. The King of Arms heads the College’s work on coats of arms for Westarctican peers and knights; it belongs with my heraldic and institutional service record.
 
-::section-heading{title="Count of Krigsvold Fellowship" id="count-of-krigsvold-fellowship"}
+### Count of Krigsvold Fellowship {#count-of-krigsvold-fellowship}
 
 The **Count of Krigsvold Fellowship** is not an honor conferred on me. Westarctica records that I pledged $1,000 to increase its annual conservation scholarship and refine its grant requirements; the program was subsequently named the Count of Krigsvold Fellowship. Its first award was made in 2025.
 
 That is program support, not a decoration. The distinction matters: the fellowship is a continuing conservation grant associated with the title, rather than another item in my honors list.
 
-::section-heading{title="About Westarctica" id="about-westarctica"}
+### About Westarctica {#about-westarctica}
 
 Westarctica is a micronation whose claimed territory concerns Marie Byrd Land in Antarctica. It is not a recognized sovereign state. Its organization maintains a government, peerage, honors system, and cultural institutions, while its affiliated nonprofit describes a conservation and environmental mission for Western Antarctica.
 
@@ -172,7 +172,7 @@ Westarctica’s own account describes peerages as part of its patron and communi
 
 The [Westarctica official site](https://www.westarctica.info/) and its [Royal Household page](https://www.westarctica.info/household) provide the organization’s current self-description, including the College of Arms and its conservation work.
 
-::section-heading{title="Documents and Sources" id="documents-and-sources"}
+### Documents and Sources {#documents-and-sources}
 
 - [Letters Patent: Baron of Matikonis](/assets/img/honors/jhoward-matikonis.pdf).
 - [Letters Patent: Count of Krigsvold](/assets/img/honors/jhoward-krigsvold.pdf).

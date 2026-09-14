@@ -3,4 +3,4 @@ import JHCard from './JHCard.astro';
 import { formatDate, normalizeAssetPath, sitePath } from '../lib/site';
 const { post } = Astro.props;
 ---
-<JHCard class="post-card"><a slot="media" class="card-media" href={sitePath(post.data.route)}><img src={normalizeAssetPath(post.data.featured_image)} alt="" loading="lazy"></a><p class="eyebrow">{formatDate(post.data.date,'short')}</p><h3><a href={sitePath(post.data.route)}>{post.data.title}</a></h3>{post.data.excerpt && <p>{post.data.excerpt}</p>}</JHCard>
+<JHCard class="post-card"><a slot="media" class="card-media" href={sitePath(post.data.route)}><img src={normalizeAssetPath(post.data.featured_image)} alt="" loading="lazy"></a><p class="eyebrow">{formatDate(post.data.calendar_date,'short')}</p><h3><a href={sitePath(post.data.route)}>{post.data.title}</a></h3>{post.data.excerpt && <p>{post.data.excerpt}</p>}</JHCard>

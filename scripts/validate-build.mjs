@@ -55,8 +55,15 @@ for (const file of htmlFiles) {
 
 const required = [
   '/index.html', '/blog/index.html', '/ancestry/index.html', '/books/index.html',
+  '/about-me/index.html',
   '/honors/index.html', '/service/index.html', '/software/index.html', '/teaching/index.html',
-  '/search/index.html', '/contact-me.html', '/404.html', '/feed.xml', '/atom.xml',
+  '/search/index.html', '/contact-me/index.html', '/contact-me.html', '/404.html', '/feed.xml', '/atom.xml',
+  '/coat-of-arms/index.html', '/coat-of-arms/arms/index.html', '/coat-of-arms/emblazonments/index.html',
+  '/coat-of-arms/insignia/index.html', '/coat-of-arms/tartan/index.html', '/coat-of-arms/records/index.html',
+  '/honors/grand-duchy-of-westarctica/index.html', '/honors/royal-order-of-the-star-of-oceania/index.html',
+  '/2026/09/10/githubs-ongoing-actions-outage/index.html',
+  '/2024/11/03/the-evolution-of-the-royal-arms/index.html', '/2024/12/10/on-the-royal-badges/index.html',
+  '/2016/07/03/runaway-trolley-never-coming-back/index.html',
   '/feed/atom.xml', '/sitemap.xml', '/sitemap-pages.xml', '/sitemap-ancestry.xml',
   '/data/search.json', '/CNAME', '/robots.txt',
 ];
@@ -67,14 +74,56 @@ const representativeChecks = [
   ['/about-me/index.html', 'class="recognition-list"'],
   ['/books/computational-methods-numerical-analysis-r/index.html', 'class="book-detail"'],
   ['/service/maryland-defense-force/index.html', 'data-ribbon-type="personal"'],
-  ['/coat-of-arms/index.html', 'id="tartan"'],
+  ['/coat-of-arms/index.html', 'class="coat-of-arms-overview"'],
+  ['/coat-of-arms/arms/index.html', 'id="blazon"'],
+  ['/coat-of-arms/arms/index.html', 'id="canonical-emblazonment"'],
+  ['/coat-of-arms/arms/index.html', 'Eckbert'],
+  ['/coat-of-arms/emblazonments/index.html', 'id="additional-emblazonments"'],
+  ['/coat-of-arms/insignia/index.html', 'id="english-heraldic-badges"'],
+  ['/coat-of-arms/tartan/index.html', 'id="tartan"'],
+  ['/coat-of-arms/records/index.html', 'id="american-armigers"'],
   ['/2020/05/31/the-lotka-volterra-equations/index.html', 'class="katex-display"'],
   ['/2026/06/25/neurons-all-the-way-down/index.html', 'data-footnote-backref'],
+  ['/2026/09/10/githubs-ongoing-actions-outage/index.html', '<code>workflow_dispatch</code>'],
+  ['/2026/09/10/githubs-ongoing-actions-outage/index.html', 'Thursday, September 10, 2026'],
 ];
 for (const [file, pattern] of representativeChecks) {
   const html = await readFile(path.join(dist, file), 'utf8');
   if (!html.includes(pattern)) failures.push(`${file}: missing representative rendering ${pattern}`);
 }
+
+const contactAlias = await readFile(path.join(dist, 'contact-me.html'), 'utf8');
+if (!contactAlias.includes('url=/contact-me/')) failures.push('/contact-me.html: does not redirect to /contact-me/');
+if (relativeFiles.has('/contact-source/index.html')) failures.push('/contact-source/: accidental route remains');
+
+for (const alias of ['/coa/index.html', '/malta/index.html', '/honors/grant-of-arms/index.html']) {
+  const html = await readFile(path.join(dist, alias), 'utf8');
+  if (!html.includes('url=/coat-of-arms/')) failures.push(`${alias}: does not redirect to the grant`);
+}
+const tartanAlias = await readFile(path.join(dist, 'tartan/index.html'), 'utf8');
+if (!tartanAlias.includes('url=/coat-of-arms/tartan/')) failures.push('/tartan/: does not redirect to the tartan chapter');
+
+for (const [alias, target] of [
+  ['/westarctica/index.html', '/honors/grand-duchy-of-westarctica/'],
+  ['/honors/westarctica/index.html', '/honors/grand-duchy-of-westarctica/'],
+  ['/hawaii/index.html', '/honors/royal-order-of-the-star-of-oceania/'],
+  ['/honors/hawaii/index.html', '/honors/royal-order-of-the-star-of-oceania/'],
+  ['/honors/kingdom-of-hawaii/index.html', '/honors/royal-order-of-the-star-of-oceania/'],
+]) {
+  const html = await readFile(path.join(dist, alias), 'utf8');
+  if (!html.includes(`url=${target}`)) failures.push(`${alias}: does not redirect to ${target}`);
+}
+
+const headerSource = await readFile(path.join(root, 'src/components/SiteHeader.astro'), 'utf8');
+for (const pattern of ['Math.min(260, Math.max(160, window.innerHeight * .25))', 'background:#303030', 'background-color .5s', 'border-color .5s', 'box-shadow .5s', "addEventListener('pageshow'", '@media(prefers-reduced-motion:reduce)']) {
+  if (!headerSource.includes(pattern)) failures.push(`SiteHeader: missing behavior contract ${pattern}`);
+}
+if (/transition\s*:\s*all\b/.test(headerSource)) failures.push('SiteHeader: uses transition: all');
+const heroTokens = await readFile(path.join(root, 'src/styles/tokens.css'), 'utf8');
+if (!heroTokens.includes('--hero-overlay: rgb(48 48 48 / 90%)')) failures.push('hero: uniform charcoal overlay token changed');
+
+const routeLedger = JSON.parse(await readFile(path.join(root, '.generated/data/route-ledger.json'), 'utf8'));
+for (const route of ['/contact-me', '/contact-me/', '/contact-me.html']) if (!routeLedger.routes.some((item) => item.route === route)) failures.push(`route ledger: missing ${route}`);
 
 const unique = [...new Set(failures)];
 console.log(JSON.stringify({ html_routes: htmlFiles.length, redirect_routes: redirectRoutes, static_files: files.length, local_references: references, errors: unique.length, warnings: warnings.length }, null, 2));

@@ -39,9 +39,11 @@ const isCurrent = (url: string) => {
       updateHeader();
       requestAnimationFrame(() => header.classList.add('is-ready'));
     };
-    addEventListener('pageshow', finishInitialState, { once: true });
+    // pageshow also fires when a page returns from the back-forward cache, so
+    // keep this listener for the lifetime of the document.
+    addEventListener('pageshow', finishInitialState);
     addEventListener('load', finishInitialState, { once: true });
-    addEventListener('hashchange', updateHeader);
+    addEventListener('hashchange', () => requestAnimationFrame(updateHeader));
 
     button.addEventListener('click', () => {
       const open = button.getAttribute('aria-expanded') === 'true';

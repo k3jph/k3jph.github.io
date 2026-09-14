@@ -117,11 +117,10 @@ the presence of actual rules, budgets, and constraints.
 
 ::professional-recognition
 
-### Other Accomplishments
+## Other Accomplishments
 *   [Correspondence Chess Expert](/2024/01/22/i-earned-iccfs-correspondence-chess-expert-title)
 
-
-
+<div class="figure-group figure-group--three" markdown="1">
 
 :::figure{src="/assets/img/akureyri-shades-420.webp" alt="Me in Akureyri...with solar shades" align="center" width="4"}
 Me in Akureyri...with solar shades
@@ -140,3 +139,5 @@ Me in Knoxville...with solar shades
 :::figure{src="/assets/img/warren-shades-420.webp" alt="Me in Warren...with solar shades" align="center" width="4"}
 Me in Warren...with solar shades
 :::
+
+</div>

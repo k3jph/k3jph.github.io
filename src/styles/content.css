@@ -9,6 +9,7 @@
 .content::after { content: ''; display: table; clear: both; }
 .content table { display: block; overflow-x: auto; }
 .content hr { width: min(12rem, 40%); margin: var(--space-6) auto; border: 0; border-top: 1px solid var(--color-gold-500); }
+.content :not(pre) > code { padding: .08em .3em; border: 1px solid var(--color-slate-150); border-radius: .2rem; background: var(--color-slate-075); font-size: .88em; overflow-wrap: anywhere; white-space: break-spaces; }
 
 .toc, .page-toc { margin: 0 auto var(--space-6); padding: var(--space-4); border-top: 3px solid var(--color-gold-500); background: var(--color-slate-075); font-family: var(--font-sans); }
 .toc h2, .page-toc h2 { margin: 0 0 var(--space-2); font-size: 1rem; letter-spacing: .06em; text-transform: uppercase; }
@@ -74,6 +75,20 @@
 .content-grid__item--quarter { flex: 1 1 calc(25% - var(--space-3)); }
 .content-grid__item--narrow { flex: 1 1 calc(16.667% - var(--space-3)); }
 .content-float-right { float: right; margin: 0 0 var(--space-4) var(--space-4); }
+.content-float-left { float: left; margin: 0 var(--space-4) var(--space-4) 0; }
+/* Widths must survive when migrated column blocks are floated outside a content-grid. */
+.content-float-right.content-grid__item--wide, .content-float-left.content-grid__item--wide { width: min(66.667%, 38rem); }
+.content-float-right.content-grid__item--half, .content-float-left.content-grid__item--half { width: min(50%, 30rem); }
+.content-float-right.content-grid__item--third, .content-float-left.content-grid__item--third { width: min(33.333%, 22rem); }
+.content-float-right.content-grid__item--quarter, .content-float-left.content-grid__item--quarter { width: min(25%, 16rem); }
+.content-float-right.content-grid__item--narrow, .content-float-left.content-grid__item--narrow { width: min(16.667%, 12rem); }
+.figure-group { display: grid; clear: both; gap: var(--space-4); margin-block: var(--space-5); }
+.figure-group--one { grid-template-columns: minmax(0, 1fr); }
+.figure-group--two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.figure-group--three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.figure-group > figure, .figure-group > .content-figure { width: 100%; max-width: none; margin: 0; }
+.supporting-figure { width: min(40%, 24rem); }
+.documentary-figure { padding: var(--space-3); border: 1px solid var(--color-slate-150); background: var(--color-slate-075); box-shadow: var(--shadow-sm); }
 .content-center { margin-inline: auto; }
 .content-image { display: block; max-width: 100%; }
 .credential-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-5); }
@@ -103,10 +118,11 @@
 .katex-display { overflow-x: auto; overflow-y: hidden; padding-block: var(--space-2); }
 
 @media (max-width: 48rem) {
-  .content .content-figure--left, .content .content-figure--right, .inset, .content-float-right { float: none; width: 100%; margin: var(--space-5) 0; }
+  .content .content-figure--left, .content .content-figure--right, .inset, .content-float-right, .content-float-left { float: none; width: 100%; margin: var(--space-5) 0; }
   .content .content-figure--gallery { display: block; width: 100%; margin: var(--space-4) 0; }
   .toc ol, .page-toc ol, .page-toc ul { columns: 1; }
   .book-detail-hero, .facts, .credential-grid { grid-template-columns: 1fr; }
   .content-grid__item { flex-basis: 100%; }
+  .figure-group--two, .figure-group--three { grid-template-columns: 1fr; }
   .ribbon-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }

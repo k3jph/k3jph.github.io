@@ -1,10 +1,10 @@
 ---
 import HeadingDivider from './HeadingDivider.astro';
-interface Props { title: string; subtitle?: string; image?: string; compact?: boolean; focal?: string }
-const { title, subtitle, image='/assets/img/header-home.webp', compact=false, focal='center' } = Astro.props;
+interface Props { title: string; subtitle?: string; image?: string; compact?: boolean; focal?: string; eyebrow?: string }
+const { title, subtitle, image='/assets/img/header-home.webp', compact=false, focal='center', eyebrow } = Astro.props;
 ---
 <header class:list={['page-intro', {'page-intro--compact':compact}]} style={`--hero-image:url('${image}');--hero-focal:${focal}`}>
-  <div class="page-intro__shade"><div class="container page-intro__content"><p class="eyebrow">JamesHoward.us</p><h1>{title}</h1>{subtitle && <p>{subtitle}</p>}<HeadingDivider variant="light" /></div></div>
+  <div class="page-intro__shade"><div class="container page-intro__content">{eyebrow && <p class="eyebrow">{eyebrow}</p>}<h1>{title}</h1>{subtitle && <p>{subtitle}</p>}<HeadingDivider variant="light" /></div></div>
 </header>
 <style>
   .page-intro{background-color:#303030;background-image:var(--hero-image);background-position:var(--hero-focal);background-size:cover}.page-intro__shade{display:grid;min-height:clamp(22rem,52vw,37rem);place-items:center;padding:7rem 0 4rem;background:var(--hero-overlay)}.page-intro--compact .page-intro__shade{min-height:clamp(18rem,35vw,26rem)}.page-intro__content{color:#fff;text-align:center}.page-intro .eyebrow{color:var(--color-gold-300)}.page-intro h1{max-width:65rem;margin:.25rem auto;color:#fff;text-shadow:0 2px 18px rgb(0 0 0/.34)}.page-intro p:not(.eyebrow){max-width:50rem;margin:1rem auto;font-size:clamp(1.08rem,2vw,1.28rem)}

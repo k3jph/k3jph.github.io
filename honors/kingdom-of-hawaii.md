@@ -109,7 +109,7 @@ issuer's revised system.
   <strong>One name, two records.</strong> The nineteenth-century order is documented through its statutes and surviving museum objects. My appointment records a present-day ceremonial honor under the same historical name.
 </aside>
 
-::section-heading{title="Kalākaua and the Pacific Confederation" id="pacific-confederation"}
+### Kalākaua and the Pacific Confederation {#pacific-confederation}
 
 The Order made sense within Kalākaua's wider attempt to increase Hawaiʻi's
 influence and build cooperation among independent Pacific polities at a moment
@@ -133,7 +133,7 @@ international policy, see Lorenz Gonschor's
 and Kealani Cook's accessible account of
 [Kalākaua's Polynesian confederacy](https://worldhistoryconnected.press.uillinois.edu/8.3/forum_cook.html).
 
-::section-heading{title="Insignia and Grades" id="insignia-and-grades"}
+### Insignia and Grades {#insignia-and-grades}
 
 Historical pieces in the ʻIolani Palace collection include a Commander example
 of the nineteenth-century order. Scholarly accounts attribute the historical
@@ -148,7 +148,7 @@ nineteenth-century grade. The distinction is useful rather than embarrassing:
 the historical order can be documented through museum objects and its statutes,
 while the present instrument documents a contemporary ceremonial appointment.
 
-::section-heading{title="1893 and the End of the Monarchy" id="end-of-monarchy"}
+### 1893 and the End of the Monarchy {#end-of-monarchy}
 
 Queen Liliʻuokalani was overthrown in January 1893 by the Committee of Safety,
 with the support of United States Minister John L. Stevens and a contingent of
@@ -179,7 +179,7 @@ for a male Knight Commander. That verifies its use for the contemporary order;
 the preserved /kcrso redirect remains a compatibility route, not evidence
 that the same abbreviation belonged to the 1886 system.
 
-::section-heading{title="The Modern Dynastic Context" id="modern-dynastic-context"}
+### The Modern Dynastic Context {#modern-dynastic-context}
 
 Owana Kaʻōhelelani Salazar claims headship of the Royal House of Hawaiʻi through
 the Laʻanui/Keōua Nui line. Her organization's description of the contemporary
@@ -192,7 +192,7 @@ between competing modern claims.
 That caution does not erase my appointment. It is a real contemporary honor
 issued by the organization that describes itself in those terms.
 
-::section-heading{title="Diploma and Insignia" id="diploma-and-insignia"}
+### Diploma and Insignia {#diploma-and-insignia}
 
 The diploma is not reproduced here. Its material appointment lines name
 **James Patrick Howard II** as **Knight Commander of the Royal Order of the
@@ -210,7 +210,7 @@ Hawaiʻi*.
   </blockquote>
 </div>
 
-::section-heading{title="Sources and Further Reading" id="sources"}
+### Sources and Further Reading {#sources}
 
 - [ʻIolani Palace, Royal Orders collection](https://www.iolanipalace.org/palace-collections/royal-orders/) and its [Royal Order of the Star of Oceania collection record](https://www.iolanipalace.org/palace-collections/royal-orders/royal-order-star-of-oceania-web/).
 - [Smithsonian National Museum of American History, *Royal Order of the Star of Oceania*](https://americanhistory.si.edu/collections/object/nmah_963062).

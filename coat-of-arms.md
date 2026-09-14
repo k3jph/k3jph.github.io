@@ -248,6 +248,52 @@ the arms.
 Count Gauci remarked that this was the first Maltese-language motto he had
 encountered during his term of office.
 
+### Canonical Emblazonment {#canonical-emblazonment}
+
+:::figure{src="/assets/img/armory/jhoward-salmeron-960px.webp" alt="Full heraldic achievement of James Patrick Howard II, interpreted by Dr Antonio Salmerón" align="center" width="12" border="true" loading="eager" role="primary"}
+Interpreted by [Dr Antonio Salmerón](http://blason.es/)
+:::
+
+### Crest {#crest}
+
+:::figure{src="/assets/img/armory/jhoward-crest-quentin-peacock.svg" alt="Crest in the Fairbairn-style by Quentin Peacock" align="right" width="4"}
+Crest in the Fairbairn-style by [Quentin Peacock](https://www.digitalheraldry.com/)
+:::
+
+The Letters Patent expressly grant a martlet Sable upon a wreath of the livery
+colors as the crest. The martlet alludes to the legendary descent from Thomas
+Arundell of Wardour described above; the grant itself notes that the descent is
+alleged but not firmly proven.
+
+The design shown here was drawn by [Quentin
+Peacock](https://www.digitalheraldry.com/) and follows the stylistic conventions
+of [Fairbairn's Book of
+Crests](https://archive.org/details/fairbairnsbookof01fair/page/n5/mode/2up),
+one of the most influential heraldic reference works of the 19th and early 20th
+centuries. First published in 1859 and continually expanded thereafter,
+Fairbairn's compilation became a de facto visual standard for how British and
+colonial crests should be illustrated: compact, crisp, and uniform in treatment,
+with an emphasis on legibility and heraldic clarity. The illustrations are often
+set without background, with consistent line work, minimal shading, and a
+careful focus on the recognizable outline of each charge. In this style, the
+martlet appears as a clean black silhouette on a simple torse, a deliberate
+homage to Fairbairn's aesthetic and its influence on modern armorial
+presentation.
+
+During the design process, Quentin and I informally named the martlet Eckbert.
+That nickname is personal and is not part of the blazon.
+
+The blazon of the crest reads:
+
+<div class="formal-text" markdown="1">
+
+> Upon a wreath of the liveries a martlet Sable
+
+</div>
+
+The torse repeats the blue and gold liveries. The crest may appear with the full
+achievement or on its own when a compact personal emblem is useful.
+
 </section>
 
 <section class="coat-of-arms-section coat-of-arms-emblazonments" aria-labelledby="emblazonments" markdown="1">
@@ -383,7 +429,6 @@ Interpreted by [Dimitri Prica](http://www.dprica.com/)
 ::section-heading{title="Derived Devices and Insignia" id="insignia" description="Later devices developed from the granted arms."}
 
 <nav class="coat-of-arms-local-nav" aria-label="Insignia sections">
-  <a href="#crest">Crest</a>
   <a href="#banner">Banner</a>
   <a href="#seal">Seal</a>
   <a href="#badge">Badges</a>
@@ -392,56 +437,11 @@ Interpreted by [Dimitri Prica](http://www.dprica.com/)
   <a href="#cockade">Cockade</a>
 </nav>
 
-The martlet crest is part of the formal grant and is repeated here because it
-can also be displayed on its own. The Letters Patent permit the arms to be
-borne in banner form, although the specific banner artwork shown below was
-prepared later. The seal, badges, standard, kamon, livery flag, and cockade are
-later personal designs derived from or associated with the arms. None was
-separately granted by the Maltese authority.
-
-### Crest {#crest}
-
-
-
-:::figure{src="/assets/img/armory/jhoward-crest-quentin-peacock.svg" alt="Crest in the Fairbairn-style by Quentin Peacock" align="right" width="4"}
-Crest in the Fairbairn-style by [Quentin Peacock](https://www.digitalheraldry.com/)
-:::
-
-
-
-The Letters Patent expressly grant a martlet Sable upon a wreath of the livery
-colors as the crest. The martlet alludes to the legendary descent from Thomas
-Arundell of Wardour described above; the grant itself notes that the descent is
-alleged but not firmly proven.
-
-The design shown here was drawn by [Quentin
-Peacock](https://www.digitalheraldry.com/) and follows the stylistic conventions
-of [Fairbairn's Book of
-Crests](https://archive.org/details/fairbairnsbookof01fair/page/n5/mode/2up),
-one of the most influential heraldic reference works of the 19th and early 20th
-centuries. First published in 1859 and continually expanded thereafter,
-Fairbairn's compilation became a de facto visual standard for how British and
-colonial crests should be illustrated: compact, crisp, and uniform in treatment,
-with an emphasis on legibility and heraldic clarity. The illustrations are often
-set without background, with consistent line work, minimal shading, and a
-careful focus on the recognizable outline of each charge. In this style, the
-martlet appears as a clean black silhouette on a simple torse, a deliberate
-homage to Fairbairn's aesthetic and its influence on modern armorial
-presentation.
-
-During the design process, Quentin and I informally named the martlet Eckbert.
-That nickname is personal and is not part of the blazon.
-
-The blazon of the crest reads:
-
-<div class="formal-text" markdown="1">
-
-> Upon a wreath of the liveries a martlet Sable
-
-</div>
-
-The torse repeats the blue and gold liveries. The crest may appear with the full
-achievement or on its own when a compact personal emblem is useful.
+The Letters Patent permit the arms to be borne in banner form, although the
+specific banner artwork shown below was prepared later. The seal, badges,
+standard, kamon, livery flag, and cockade are later personal designs derived
+from or associated with the arms. None was separately granted by the Maltese
+authority.
 
 ### Banner {#banner}
 

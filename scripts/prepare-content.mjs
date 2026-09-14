@@ -54,7 +54,11 @@ const [books, honors, service, software, teaching, settings, profile, mddfRibbon
 
 const postFiles = (await fg('_posts/**/*.{md,markdown}', { cwd: root })).sort();
 const posts = [];
-const routeLedger = [];
+const routeLedger = [
+  { source: 'src/pages/contact-me/index.astro', route: '/contact-me', type: 'native-alias' },
+  { source: 'src/pages/contact-me/index.astro', route: '/contact-me/', type: 'native' },
+  { source: 'scripts/finalize-build.mjs', route: '/contact-me.html', type: 'historical-alias' },
+];
 
 async function writeEntry(collection, file, data, body, url) {
   const destination = path.join(generated, 'content', collection, file.replace(/\.(?:html|markdown)$/i, '.md'));
@@ -69,7 +73,7 @@ for (const file of postFiles) {
   const item = { file, data: parsed.data, body: parsed.content, route: url };
   posts.push(item);
   routeLedger.push({ source: file, route: url, type: 'blog' });
-  await writeEntry('blog', file.replace(/^_posts\//, ''), { ...parsed.data, excerpt: excerpt(parsed.content), source_path: file }, parsed.content, url);
+  await writeEntry('blog', file.replace(/^_posts\//, ''), { ...parsed.data, calendar_date: `D${String(parsed.data.date).slice(0, 10)}`, excerpt: excerpt(parsed.content), source_path: file }, parsed.content, url);
 }
 
 const ancestryFiles = (await fg('_ancestry/**/*.{md,markdown}', { cwd: root })).sort();
@@ -84,17 +88,48 @@ const pagePatterns = ['*.{md,html}', 'archive/**/*.{md,html}', 'books/**/*.{md,h
 const pageFiles = (await fg(pagePatterns, { cwd: root })).filter((file) => !['README.md', '_templates/post.md', 'laserprj.html'].includes(file)).sort();
 for (const file of pageFiles) {
   const parsed = parse(await readFile(path.join(root, file), 'utf8'));
+  if (file === 'coat-of-arms.md') continue;
   const url = route(parsed.data.permalink, file);
   routeLedger.push({ source: file, route: url, type: 'page' });
   await writeEntry('pages', file, { ...parsed.data, title: parsed.data.title ?? path.basename(file), source_path: file }, parsed.content, url);
+}
+
+// The armorial record is authored as one documentary source but published as six
+// architectural chapters. This keeps the substantive record together while
+// giving each chapter a stable, focused route.
+const armorySource = parse(await readFile(path.join(root, 'coat-of-arms.md'), 'utf8'));
+const armorySection = (className) => {
+  const escaped = className.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const match = armorySource.content.match(new RegExp(`<section class="[^"]*\\b${escaped}\\b[^"]*"[\\s\\S]*?<\\/section>`));
+  if (!match) throw new Error(`coat-of-arms.md: missing section ${className}`);
+  return match[0];
+};
+const armoryChapters = [
+  { key: 'grant', title: 'The Grant', route: '/coat-of-arms/', sections: ['coat-of-arms-overview', 'coat-of-arms-heraldry', 'coat-of-arms-grant'] },
+  { key: 'arms', title: 'The Arms', route: '/coat-of-arms/arms/', sections: ['coat-of-arms-arms'] },
+  { key: 'emblazonments', title: 'Emblazonments', route: '/coat-of-arms/emblazonments/', sections: ['coat-of-arms-emblazonments'] },
+  { key: 'insignia', title: 'Derived Devices & Insignia', route: '/coat-of-arms/insignia/', sections: ['coat-of-arms-insignia'] },
+  { key: 'tartan', title: 'Tartan', route: '/coat-of-arms/tartan/', sections: ['coat-of-arms-tartan'] },
+  { key: 'records', title: 'Other Records & Registrations', route: '/coat-of-arms/records/', sections: ['coat-of-arms-records'] },
+];
+for (const chapter of armoryChapters) {
+  let body = chapter.sections.map(armorySection).join('\n\n')
+    .replace(/<p class="coat-of-arms-back">[\s\S]*?<\/p>/g, '')
+    .replace('href="#blazon"', 'href="/coat-of-arms/arms/#blazon"')
+    .replace('href="#tartan"', 'href="/coat-of-arms/tartan/#tartan"');
+  body = `<div class="coat-of-arms" markdown="1">\n${body}\n</div>`;
+  const file = chapter.key === 'grant' ? 'coat-of-arms/index.md' : `coat-of-arms/${chapter.key}.md`;
+  const data = { ...armorySource.data, id: `coat-of-arms-${chapter.key}`, title: chapter.title, permalink: chapter.route, armory_section: chapter.key, source_path: 'coat-of-arms.md', redirect_from: chapter.key === 'grant' ? armorySource.data.redirect_from : [] };
+  routeLedger.push({ source: 'coat-of-arms.md', route: chapter.route, type: 'page', chapter: chapter.key });
+  await writeEntry('pages', file, data, body, chapter.route);
 }
 
 const redirects = [
   { from: '/hereditary-societies/', to: '/ancestry/', source: 'native-route-policy' },
   { from: '/hs/', to: '/ancestry/', source: 'native-route-policy' },
   { from: '/family/', to: '/ancestry/', source: 'native-route-policy' },
-  { from: '/tartan/', to: '/coat-of-arms/#tartan', source: 'native-route-policy' },
-  { from: '/contact-me/', to: '/contact-me.html', source: 'native-route-policy' },
+  { from: '/tartan/', to: '/coat-of-arms/tartan/', source: 'native-route-policy' },
+  { from: '/contact-me.html', to: '/contact-me/', source: 'native-route-policy' },
 ];
 for (const item of posts) for (const from of array(item.data.redirect_from)) redirects.push({ from: route(from, ''), to: item.route, source: item.file });
 for (const file of [...ancestryFiles, ...pageFiles]) {
