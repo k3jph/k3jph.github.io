@@ -5,7 +5,7 @@ author: James Howard
 date: 2024-03-17
 layout: page
 permalink: /honors/royal-order-of-the-star-of-oceania
-featured_image: /assets/img/kingdom-of-hawaii.webp
+featured_image: /assets/img/kingdom-of-hawaii-medal-hero.webp
 redirect_from:
   - /hawaii/
   - /honors/hawaii
