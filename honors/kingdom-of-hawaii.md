@@ -21,6 +21,8 @@ credits: >-
 
 <div class="star-oceania" markdown="1">
 
+<section class="star-oceania-preface" markdown="1">
+
 <p class="star-oceania-introduction">A contemporary appointment in an order whose nineteenth-century history is documented separately below. The record is strongest when those two things are not blurred together.</p>
 
 <nav class="page-toc" aria-label="On this page">
@@ -31,6 +33,8 @@ credits: >-
   <a href="#contemporary-order">Contemporary Order</a>
   <a href="#sources">Sources</a>
 </nav>
+
+</section>
 
 <section class="star-oceania-appointment" markdown="1">
 
@@ -82,6 +86,10 @@ questions, and this page keeps them separate.
 </div>
 
 </section>
+
+<section class="star-oceania-chapter star-oceania-history" aria-labelledby="historical-order" markdown="1">
+
+<div class="content-section" markdown="1">
 
 ::section-heading{title="The Historical Royal Order" id="historical-order"}
 
@@ -162,6 +170,14 @@ After the overthrow, the Star of Oceania no longer functioned as an order of a
 reigning Hawaiian state. I have not found a primary instrument that supports
 calling it legally “abolished,” so that stronger claim does not appear here.
 
+</div>
+
+</section>
+
+<section class="star-oceania-chapter star-oceania-contemporary" aria-labelledby="contemporary-order" markdown="1">
+
+<div class="content-section" markdown="1">
+
 ::section-heading{title="The Contemporary Order" id="contemporary-order"}
 
 The organization headed by Owana Kaʻōhelelani Salazar maintains a contemporary
@@ -218,5 +234,9 @@ Hawaiʻi*.
 - [Bishop Museum: Hawaiian-Samoan Treaty of Confederation](https://blog.bishopmuseum.org/nupepa/hawaiian-samoan-treaty-of-confederation/).
 - [National Archives: the 1897 petition against annexation](https://www.archives.gov/education/lessons/hawaii-petition) and the [1898 annexation resolution](https://www.archives.gov/milestone-documents/joint-resolution-for-annexing-the-hawaiian-islands).
 - [Crown of Hawaiʻi: contemporary Order page](https://www.crownofhawaii.com/royal-order-of-the-star-of-oceania) - used only for the present issuer's own descriptions, modern grades, and postnominals.
+
+</div>
+
+</section>
 
 </div>

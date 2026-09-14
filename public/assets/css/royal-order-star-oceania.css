@@ -1,71 +1,166 @@
 /* Royal Order of the Star of Oceania: contemporary appointment and historical record */
+.article-shell:has(.star-oceania) {
+  padding-block: 0;
+}
+
+.star-oceania [id] {
+  scroll-margin-top: 6rem;
+}
+
+.star-oceania-preface,
+.star-oceania-appointment,
+.star-oceania-chapter {
+  padding-block: clamp(3.25rem, 6vw, 5rem);
+}
+
 .star-oceania-introduction {
-  margin: 0 0 1.75rem;
+  max-width: 48rem;
+  margin: 0 auto 2rem;
   color: #635e53;
   font-family: "Spectral", Georgia, serif;
-  line-height: 1.6;
+  font-size: clamp(1.05rem, 1.6vw, 1.2rem);
+  line-height: 1.65;
   text-align: center;
+  text-wrap: balance;
+}
+
+.star-oceania-preface .page-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.star-oceania-preface .page-toc a {
+  padding: .3rem .7rem;
+  border-right: 1px solid #b9b2a4;
+}
+
+.star-oceania-preface .page-toc a:last-child {
+  border-right: 0;
+}
+
+.star-oceania-appointment,
+.star-oceania-contemporary {
+  margin: 0;
+  clip-path: inset(0 -100vmax);
 }
 
 .star-oceania-appointment {
-  margin: 0 calc(50% - 50vw) 4rem;
-  padding: 3.5rem 0;
   background: #283f5c;
+  box-shadow: 0 0 0 100vmax #283f5c;
   color: #fff;
 }
 
-.star-oceania-appointment .section-heading {
-  margin: 0 auto;
+.star-oceania-contemporary {
+  background: #f5f2ea;
+  box-shadow: 0 0 0 100vmax #f5f2ea;
+}
+
+.star-oceania-appointment .content-section,
+.star-oceania-chapter .content-section {
+  margin: 0;
+}
+
+.star-oceania-appointment .section-heading,
+.star-oceania-chapter > .content-section > .section-heading {
+  margin: 0 auto 2.5rem;
   padding: 0;
 }
 
-.star-oceania-appointment h2 {
-  margin-top: 0;
+.star-oceania-appointment .section-heading h2 {
   color: #f0d660;
-  text-align: center;
 }
 
-.star-oceania-appointment .container > p {
+.star-oceania-appointment .content-section > p {
   font-family: "Spectral", Georgia, serif;
-  line-height: 1.65;
+  line-height: 1.68;
 }
 
 .star-oceania-appointment .content-grid {
-  display: flex;
-  align-items: center;
-  margin: 2.25rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: stretch;
+  margin: 2.5rem 0;
 }
 
-.star-oceania-appointment figure { margin: 0; }
-.star-oceania-appointment figcaption { color: rgba(255,255,255,.78); }
+.star-oceania-appointment .content-grid__item {
+  display: flex;
+}
+
+.content .star-oceania-appointment .content-figure {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.content .star-oceania-appointment .content-figure img {
+  width: 100%;
+  min-height: 0;
+  flex: 1 1 auto;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+}
+
+.star-oceania-appointment figcaption {
+  color: rgb(255 255 255 / 78%);
+}
 
 .star-oceania-appointment .jh-card {
+  width: 100%;
+  min-height: 100%;
   margin: 0;
-  border: 1px solid rgba(255,255,255,.28);
+  border: 1px solid rgb(255 255 255 / 28%);
   border-radius: 0;
-  background: rgba(13,30,49,.32);
+  background: rgb(13 30 49 / 32%);
   box-shadow: none;
 }
 
-.star-oceania-appointment .jh-card__body { padding: 1.5rem 1.75rem; }
-.star-oceania-appointment .jh-card h3 { margin: 0 0 1rem; color: #f0d660; font-family: "Cambo", Georgia, serif; }
-.star-oceania-appointment dt { color: #f0d660; font-family: Lato, sans-serif; font-size: .77em; letter-spacing: .04em; text-transform: uppercase; }
-.star-oceania-appointment dd { margin: 0 0 .95rem; line-height: 1.45; }
-.star-oceania-appointment dd:last-child { margin-bottom: 0; }
-
-.star-oceania > .section-heading {
-  margin: 4.25rem auto 2rem;
-  padding: 0;
+.star-oceania-appointment .jh-card__body {
+  padding: clamp(1.4rem, 3vw, 2rem);
 }
 
-.star-oceania > .section-heading h2 {
-  color: #2e2c28;
-  text-align: center;
+.star-oceania-appointment .jh-card h3 {
+  margin: 0 0 1rem;
+  color: #f0d660;
+  font-family: "Cambo", Georgia, serif;
 }
-.star-oceania > p { line-height: 1.72; }
+
+.star-oceania-appointment dt {
+  color: #f0d660;
+  font-family: "Lato", sans-serif;
+  font-size: .77em;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.star-oceania-appointment dd {
+  margin: 0 0 .95rem;
+  line-height: 1.45;
+}
+
+.star-oceania-appointment dd:last-child {
+  margin-bottom: 0;
+}
+
+.star-oceania-history > .content-section > p,
+.star-oceania-contemporary > .content-section > p {
+  line-height: 1.72;
+}
+
+.star-oceania-history > .content-section > h3,
+.star-oceania-contemporary > .content-section > h3 {
+  margin-top: clamp(2.75rem, 5vw, 4rem);
+  padding-top: 1.5rem;
+  border-top: 1px solid #d8d0bf;
+}
 
 .star-oceania-distinction {
-  margin: 2.5rem 0 0;
+  margin: 2.5rem 0;
   padding: 1.25rem 1.5rem;
   border-left: 4px solid #b69955;
   background: #f3f0e9;
@@ -74,16 +169,46 @@
   line-height: 1.6;
 }
 
-.star-oceania-distinction strong { color: #2e2c28; }
+.star-oceania-distinction strong {
+  color: #2e2c28;
+}
 
-.star-oceania > ul { padding-left: 1.35rem; }
-.star-oceania > ul li { margin-bottom: .85rem; line-height: 1.55; }
+.star-oceania-contemporary .formal-text {
+  margin-block: 2rem 3rem;
+}
+
+.star-oceania-contemporary > .content-section > ul {
+  columns: 2 24rem;
+  padding-left: 1.25rem;
+}
+
+.star-oceania-contemporary > .content-section > ul li {
+  margin-bottom: .85rem;
+  break-inside: avoid;
+  line-height: 1.55;
+}
 
 @media (max-width: 767px) {
-  .star-oceania-introduction { text-align: left; }
-  .star-oceania-appointment { margin-bottom: 3rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
-  .star-oceania-appointment .content-grid { display: block; margin: 1.75rem auto; }
-  .star-oceania-appointment .content-grid__item { margin-bottom: 1.75rem; }
-  .star-oceania > .section-heading { margin-top: 3.25rem; }
-  .star-oceania-distinction { padding: 1.1rem 1.2rem; }
+  .star-oceania-preface,
+  .star-oceania-appointment,
+  .star-oceania-chapter {
+    padding-block: 2.75rem;
+  }
+
+  .star-oceania-introduction {
+    text-align: left;
+  }
+
+  .star-oceania-preface .page-toc {
+    justify-content: flex-start;
+  }
+
+  .star-oceania-appointment .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .content .star-oceania-appointment .content-figure {
+    max-width: 25rem;
+    margin-inline: auto;
+  }
 }
