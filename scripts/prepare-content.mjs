@@ -117,6 +117,14 @@ for (const chapter of armoryChapters) {
     .replace(/<p class="coat-of-arms-back">[\s\S]*?<\/p>/g, '')
     .replace('href="#blazon"', 'href="/coat-of-arms/arms/#blazon"')
     .replace('href="#tartan"', 'href="/coat-of-arms/tartan/#tartan"');
+  // Each extracted chapter now has its own page hero. Remove the former
+  // monolithic-page chapter heading and promote its child topics so the page
+  // does not repeat its title and the heading outline remains correct.
+  body = body
+    .replace(/^::section-heading\{title="(?:The Grant|The Arms|Emblazonments|Derived Devices and Insignia|Tartan|Other Records and Registrations)"[^\n]*\}\n?/m, '')
+    .replace(/^### /gm, '## ');
+  const formerHeadingIds = { grant: 'the-grant', arms: 'the-arms', emblazonments: 'emblazonments', insignia: 'insignia', tartan: 'tartan', records: 'other-records' };
+  body = body.replace(`aria-labelledby="${formerHeadingIds[chapter.key]}"`, `id="${formerHeadingIds[chapter.key]}" aria-label="${chapter.title}"`);
   body = `<div class="coat-of-arms" markdown="1">\n${body}\n</div>`;
   const file = chapter.key === 'grant' ? 'coat-of-arms/index.md' : `coat-of-arms/${chapter.key}.md`;
   const data = { ...armorySource.data, id: `coat-of-arms-${chapter.key}`, title: chapter.title, permalink: chapter.route, armory_section: chapter.key, source_path: 'coat-of-arms.md', redirect_from: chapter.key === 'grant' ? armorySource.data.redirect_from : [] };

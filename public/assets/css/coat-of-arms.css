@@ -67,13 +67,15 @@
   text-transform: uppercase;
 }
 
-.coat-of-arms-summary > .section-heading {
+.coat-of-arms-summary-title {
   margin: 0 0 1.25rem;
   padding: 0;
+  font-size: clamp(1.55rem, 2.5vw, 2.15rem);
 }
 
-.coat-of-arms-summary > .section-heading h2 {
-  margin: 0;
+.content .coat-of-arms-summary-title::after {
+  width: 2.5rem;
+  margin-top: 0.55rem;
 }
 
 .coat-of-arms-facts {
@@ -130,6 +132,13 @@
   padding: 0;
 }
 
+.content .coat-of-arms-band .section-heading--light {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  background: transparent;
+}
+
 .coat-of-arms-section,
 .coat-of-arms-band {
   margin-bottom: 4rem;
@@ -166,7 +175,7 @@
   flex-wrap: wrap;
   gap: 0;
   justify-content: center;
-  margin: -0.75rem 0 2.75rem;
+  margin: 0 0 2.75rem;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.88em;
 }
@@ -207,9 +216,15 @@
 
 .coat-of-arms-gallery > .item,
 .coat-of-arms-seals > .item,
-.coat-of-arms-badge-gallery > .item {
+.coat-of-arms-badge-gallery > .item,
+.coat-of-arms-gallery > .content-figure,
+.coat-of-arms-seals > .content-figure,
+.coat-of-arms-badge-gallery > .content-figure {
+  clear: none;
   float: none;
-  width: auto;
+  width: 100%;
+  max-width: none;
+  margin: 0;
   padding: 0 !important;
 }
 
@@ -235,7 +250,10 @@
 
 .coat-of-arms-gallery .featured-img,
 .coat-of-arms-seals .featured-img,
-.coat-of-arms-badge-gallery .featured-img {
+.coat-of-arms-badge-gallery .featured-img,
+.coat-of-arms-gallery .content-figure img,
+.coat-of-arms-seals .content-figure img,
+.coat-of-arms-badge-gallery .content-figure img {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: contain;
@@ -243,9 +261,28 @@
 
 .coat-of-arms-gallery .images-caption,
 .coat-of-arms-seals .images-caption,
-.coat-of-arms-badge-gallery .images-caption {
+.coat-of-arms-badge-gallery .images-caption,
+.coat-of-arms-gallery .content-figure figcaption,
+.coat-of-arms-seals .content-figure figcaption,
+.coat-of-arms-badge-gallery .content-figure figcaption {
   margin-top: auto;
   padding-top: 0.75rem;
+}
+
+.coat-of-arms-seals + p,
+.coat-of-arms-badge-gallery + h2 {
+  clear: both;
+  margin-top: 3.5rem;
+}
+
+.coat-of-arms-grant .content-figure--w-100 img {
+  aspect-ratio: 3507 / 2480;
+  object-fit: contain;
+}
+
+.coat-of-arms-grant .content-figure--right img {
+  aspect-ratio: 2480 / 3507;
+  object-fit: contain;
 }
 
 .coat-of-arms-back {

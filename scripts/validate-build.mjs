@@ -34,6 +34,7 @@ for (const file of htmlFiles) {
   if (redirect) redirectRoutes++;
 
   if (/\{%|\{\{/.test(html)) failures.push(`${route}: unresolved Liquid`);
+  if (/::section-heading\{/.test(html)) failures.push(`${route}: unresolved section-heading directive`);
   if (!/<title>[^<]+<\/title>/i.test(html)) failures.push(`${route}: missing title`);
   if (route !== '/laserprj.html' && !/<link rel="canonical" href="https:\/\/jameshoward\.us\//i.test(html)) failures.push(`${route}: missing canonical`);
 
@@ -90,6 +91,21 @@ const representativeChecks = [
 for (const [file, pattern] of representativeChecks) {
   const html = await readFile(path.join(dist, file), 'utf8');
   if (!html.includes(pattern)) failures.push(`${file}: missing representative rendering ${pattern}`);
+}
+
+for (const [file, title] of [
+  ['/coat-of-arms/index.html', 'The Grant'],
+  ['/coat-of-arms/arms/index.html', 'The Arms'],
+  ['/coat-of-arms/emblazonments/index.html', 'Emblazonments'],
+  ['/coat-of-arms/insignia/index.html', 'Derived Devices & Insignia'],
+  ['/coat-of-arms/tartan/index.html', 'Tartan'],
+  ['/coat-of-arms/records/index.html', 'Other Records & Registrations'],
+]) {
+  const html = await readFile(path.join(dist, file), 'utf8');
+  const encodedTitle = title.replaceAll('&', '&amp;');
+  const escaped = encodedTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const headings = [...html.matchAll(new RegExp(`<h[12][^>]*>${escaped}<\\/h[12]>`, 'g'))].length;
+  if (headings !== 1) failures.push(`${file}: expected page title once across h1/h2, found ${headings}`);
 }
 
 const contactAlias = await readFile(path.join(dist, 'contact-me.html'), 'utf8');

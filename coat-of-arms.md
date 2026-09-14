@@ -31,7 +31,7 @@ Interpreted by [Dr Antonio Salmerón](http://blason.es/)
   </div>
   <div class="coat-of-arms-summary">
     <p class="coat-of-arms-eyebrow">Personal armorial record</p>
-    ::section-heading{title="The Arms at a Glance" id="armorial-summary"}
+    <h2 class="coat-of-arms-summary-title" id="armorial-summary">Arms at a Glance</h2>
     <dl class="coat-of-arms-facts">
       <div><dt>Granting authority</dt><dd>Office of the Chief Herald of Arms of Malta</dd></div>
       <div><dt>Letters Patent</dt><dd>G0102</dd></div>
@@ -150,7 +150,7 @@ elements expressly granted in the Letters Patent.
 
 
 
-:::figure{src="/2024/a-maltese-grant-of-arms.webp" alt="Letters patent for the coat of arms" align="center" width="12" border="true" role="documentary"}
+:::figure{src="/2024/a-maltese-grant-of-arms.webp" alt="Letters patent for the coat of arms" align="center" width="12" border="true" loading="eager" role="documentary"}
 Letters patent for the coat of arms
 :::
 
@@ -178,7 +178,7 @@ issue](/assets/docs/malta-government-gazette-20240216.pdf).
 
 
 
-:::figure{src="/armory/jhoward-malta-letters-patent-binder.webp" alt="Cover for letters patent in binder format" align="right" width="4" border="true" link="/assets/docs/jhoward-malta-letters-patent-binder.pdf" role="documentary"}
+:::figure{src="/armory/jhoward-malta-letters-patent-binder.webp" alt="Cover for letters patent in binder format" align="right" width="4" border="true" loading="eager" link="/assets/docs/jhoward-malta-letters-patent-binder.pdf" role="documentary"}
 Cover for letters patent in binder format
 :::
 
@@ -467,7 +467,8 @@ The blazon of the banner is:
 
 This format omits the helm, crest, mantling, and motto. The Letters Patent
 expressly allow the arms to be borne in banner form; this particular square
-rendering was prepared after the grant and was not separately granted. Its 1:1
+rendering was prepared after the grant and was not separately granted. Its
+one-to-one
 proportions distinguish it from the longer standard and from the gold, blue,
 and white livery flag shown below.
 
