@@ -12,10 +12,6 @@ redirect_from:
   - /honors/kingdom-of-hawaii
   - /kcrso
   - /honors/kcrso
-credits: >-
-  The contemporary insignia shown on this page is from James Howard's own
-  records. Historical collection links are provided in Sources and Further
-  Reading.
 ---
 
 <div class="content-flow" markdown="1">
