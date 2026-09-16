@@ -8,10 +8,6 @@ permalink: /2015/08/18/criticize-mars-one-but-dont-stand-in-their-way/
 dsq_thread_id:
   - "4045817413"
 featured_image: /assets/img/news/roadmap2023.webp
-historical_status:
-  type: discontinued
-  reviewed: '2026-09-16'
-  note: Mars One later ceased operating without carrying out its proposed settlement mission. This essay is preserved in its original contemporary context.
 categories:
   - Blog
 tags:

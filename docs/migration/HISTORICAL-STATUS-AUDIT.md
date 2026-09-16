@@ -11,11 +11,11 @@ This audit reviewed the complete active blog corpus for material time-sensitive 
 | Active blog posts scanned | 794 |
 | Mechanical candidates | 227 |
 | Candidates manually reviewed | 227 |
-| Notices added | 23 |
+| Notices added | 21 |
 | Historical | 7 |
 | Superseded | 3 |
 | Resolved | 1 |
-| Discontinued | 12 |
+| Discontinued | 10 |
 
 The mechanical discovery pass is reproducible with `node scripts/audit-historical-candidates.mjs`. Its output is intentionally broad. No status is assigned by that script.
 
@@ -31,6 +31,10 @@ Candidate discovery searched titles, tags, and bodies for four broad classes of 
 It also looked for temporal phrases when they appeared with action-oriented language. Every result was then read editorially. A notice was added only when a reader arriving without surrounding context could mistake a material claim, instruction, condition, or operating project for a current one.
 
 The review deliberately did not use publication age, topic alone, or the presence of a word such as “currently” as an assignment rule.
+
+A subject's later failure, closure, or discontinuation does not by itself make an old post misleading. A notice is warranted only when the post itself could reasonably be mistaken for current operational information, guidance, availability, or status. The system contextualizes posts, not the subsequent fate of everything mentioned in them.
+
+Accordingly, `discontinued` generally identifies a service, tool, project, venture, API, bot, or program that a reader might otherwise reasonably believe remains available or active from the post itself. It is not assigned merely because the third-party subject of an essay, interview, or historical account later ceased operating.
 
 ## Notices added
 
@@ -73,9 +77,7 @@ The review deliberately did not use publication age, topic alone, or the presenc
 | [OPM DC Operating Status via Twitter](/2011/02/23/opm-dc-operating-status-via-twitter/) | Announces a public-information bot that no longer operates. |
 | [A RESTful interface for MD5 hashes](/2011/07/21/a-restful-interface-for-md5-hashes/) | Presents an experimental API endpoint that is no longer available. |
 | [Hello Assent, or My Startup](/2015/07/18/hello-assent-or-my-startup/) | Presents Assent Systems as an active venture; it is no longer operating. |
-| [Criticize Mars One, but Don't Stand in Their Way](/2015/08/18/criticize-mars-one-but-dont-stand-in-their-way/) | Discusses Mars One as an active future project; it later ceased operating. |
 | [My Robot, or Announcing DC Closings](/2016/01/24/my-robot-or-announcing-dc-closings/) | Announces an automated service that no longer operates. |
-| [Watch My Interview With Mars One Candidate Heidi Hecht](/2016/07/04/watch-interview-mars-one-candidate-heidi-hecht/) | The interview remains historically true, but its active-program framing now needs the project's outcome. |
 
 ## Representative candidates left unchanged
 
@@ -89,11 +91,12 @@ The review deliberately did not use publication age, topic alone, or the presenc
 | [The Nonprofit Project Takes Off](/2015/03/02/the-nonprofit-project-takes-off/) | Clearly presents a dated course project rather than an apparently current public program. |
 | [Confucianism in the Time of Coronavirus](/2020/03/27/confucianism-in-the-time-of-coronavirus/) | A contemporary philosophical reflection without operational or medical guidance. |
 | [Runaway Trolley, Never Coming Back](/2016/07/03/runaway-trolley-never-coming-back/) | A timeless thought-experiment essay despite its age. |
+| [Criticize Mars One, but Don't Stand in Their Way](/2015/08/18/criticize-mars-one-but-dont-stand-in-their-way/) | A valid contemporaneous argument rather than current operational guidance; Mars One's later failure does not make the post misleading. |
+| [Watch My Interview With Mars One Candidate Heidi Hecht](/2016/07/04/watch-interview-mars-one-candidate-heidi-hecht/) | A documentary record of an interview and a real candidacy at the time; the subject's later closure does not require retrospective annotation. |
 
 ## Boundary and ambiguous cases
 
 - **GitHub's Ongoing Actions Outage** (September 10, 2026) describes a recent incident that had not been conclusively resolved at the review date. Assigning `resolved` would be premature; it should be reconsidered when a reliable resolution is known.
-- **Watch My Interview With Mars One Candidate Heidi Hecht** records a real interview and would not need a notice merely because it is old. A concise `discontinued` notice was nevertheless applied because its title and introduction present Mars One candidacy as an active program.
 - **Flubola** is brief and visibly dated. A restrained `historical` notice was applied because the central comparison depends specifically on the 2014 outbreak environment.
 
 ## Intentionally excluded classes
@@ -108,7 +111,7 @@ The review generally left these classes untouched unless a post contained a sepa
 
 ## Preservation and architecture
 
-The 23 canonical posts were edited only in frontmatter. Their Markdown bodies, publication dates, permalinks, tags, and categories remain unchanged.
+The 21 canonical posts with notices were edited only in frontmatter. Their Markdown bodies, publication dates, permalinks, tags, and categories remain unchanged. The two Mars One posts retain their original content and metadata other than removal of the unnecessary `historical_status` object.
 
 `historical_status` is a strict optional nested object in the blog collection schema. `HistoricalStatus.astro` owns the four labels, presentation, review date, optional successor link, and accessible landmark. The shared dynamic blog route renders it after the hero and tags and before the article body. Posts without the object produce no notice markup.
 

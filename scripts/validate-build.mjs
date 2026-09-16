@@ -79,7 +79,7 @@ const mainSitemap = await readFile(path.join(dist, 'sitemap.xml'), 'utf8');
 if (!mainSitemap.includes('<loc>https://jameshoward.us/media/</loc>')) failures.push('main sitemap: missing /media/');
 const generatedPosts = JSON.parse(await readFile(path.join(root, '.generated/data/posts.json'), 'utf8'));
 const historicalPosts = generatedPosts.filter((post) => post.historical_status);
-const historicalLabels = { historical: 'Historical context', superseded: 'Superseded information', resolved: 'Resolved event', discontinued: 'Discontinued program' };
+const historicalLabels = { historical: 'Historical context', superseded: 'Superseded information', resolved: 'Resolved event', discontinued: 'Discontinued' };
 for (const post of historicalPosts) {
   const route = post.route.endsWith('/') ? post.route : `${post.route}/`;
   const output = path.join(dist, route.replace(/^\//, ''), 'index.html');
@@ -92,7 +92,12 @@ for (const post of historicalPosts) {
   if (!searchRoutes.has(post.route)) failures.push(`${post.route}: historical post missing from search index`);
   if (!mainSitemap.includes(`<loc>https://jameshoward.us${post.route}</loc>`)) failures.push(`${post.route}: historical post missing from sitemap`);
 }
-for (const route of ['/2018/01/02/get-flu-shot/', '/2026/09/10/githubs-ongoing-actions-outage/']) {
+for (const route of [
+  '/2015/08/18/criticize-mars-one-but-dont-stand-in-their-way/',
+  '/2016/07/04/watch-interview-mars-one-candidate-heidi-hecht/',
+  '/2018/01/02/get-flu-shot/',
+  '/2026/09/10/githubs-ongoing-actions-outage/',
+]) {
   const html = await readFile(path.join(dist, route.replace(/^\//, ''), 'index.html'), 'utf8');
   if (html.includes('<aside class="historical-status"')) failures.push(`${route}: unmarked post rendered a historical-status notice`);
 }

@@ -8,10 +8,6 @@ permalink: /2016/07/04/watch-interview-mars-one-candidate-heidi-hecht/
 dsq_thread_id:
   - "4960885083"
 featured_image: /assets/img/news/mars-interview.webp
-historical_status:
-  type: discontinued
-  reviewed: '2026-09-16'
-  note: The interview remains part of the historical record, but Mars One later ceased operating without carrying out its proposed settlement mission.
 categories:
   - News
 tags:
