@@ -7,9 +7,9 @@ Branch: `rebuild/astro`
 
 This pass establishes a small, consistent internal-navigation grammar without changing the site's major information architecture. It adds persistent family navigation to Writing and the Blog archive, low-chrome return links to detail pages, and reverse Subject links derived from the curated Subject data. Existing authored related-post lists, series context, tables of contents, and the Coat of Arms family navigation remain intact.
 
-A same-day follow-on also resurrected `/consulting/` as a current page and gave it deliberate inbound paths from the homepage, About, and Contact without adding it to the primary navbar or flattening it into the destination directory.
+Two same-day follow-ons resolved the remaining live architectural ambiguities. `/consulting/` was resurrected as a current page with deliberate inbound paths from the homepage, About, and Contact. The obsolete `/projects/` catch-all is no longer a canonical destination: its source remains in the repository for historical recovery, while the public route redirects to `/subjects/`, which now performs the discovery job the old page was trying to do.
 
-The current generated-site graph contains 2,114 canonical HTML routes and 36,911 unique internal route edges. Every one of the 878 expected collection/detail relationships is covered. Six routes remain without inbound links: the 404 document, four recovered archive pages awaiting reintegration during the broader resurrection work, and the legacy `/projects/` concept awaiting an editorial decision.
+The last fully executed graph validation, immediately before the Projects redirect, contained 2,114 canonical HTML routes and 36,911 unique internal route edges with 878 of 878 expected collection/detail relationships covered. The Projects change is expected to reduce the canonical graph by one route, add one redirect, and leave five zero-inbound canonical exceptions: the 404 document and four recovered archive pages awaiting reintegration. A full build remains required to record the exact post-change totals.
 
 ## 1. Initial graph audit
 
@@ -52,6 +52,7 @@ Collection discoverability was already fundamentally sound. Blog pagination expo
 - Curated Subjects pointed outward to resources, but those resources did not identify the Subjects that included them.
 - Tags were numerous and useful as metadata, but were too broad and mechanical to function as the primary editorial navigation system.
 - `/consulting/` was preserved but stranded inside the old information architecture even though its underlying purpose still made sense.
+- `/projects/` survived as an old catch-all destination even though its discovery role had been superseded by Software, Writing, Subjects, and the ongoing archive-resurrection work.
 
 ## 3. Navigation grammar
 
@@ -67,6 +68,8 @@ The resulting grammar uses four distinct patterns:
 The Coat of Arms retains its existing six-part `ArmoryNav`. A second navigation system was not added there.
 
 Consulting is treated as an active permanent destination but not as a new navigation family. It receives ordinary contextual links from pages where a reader might reasonably need it.
+
+The former Projects destination is not replaced with another catch-all. `/projects/` now redirects to `/subjects/`, preserving the historical URL while sending readers into the site's intentional idea-oriented discovery layer.
 
 ## 4. Writing and Blog family
 
@@ -104,7 +107,7 @@ The new `ParentNav.astro` component provides the same quiet return treatment for
 
 Nested book material returns to the owning book rather than skipping directly to the complete Books index. Coat of Arms sections use their richer family navigation instead of a parent link.
 
-The generated-site validator checks 878 expected collection/detail relationships. Blog posts count as covered when they are discoverable through Blog archive pagination; other detail records require their exact parent relationship. Coverage remains 878 of 878.
+The generated-site validator checks 878 expected collection/detail relationships. Blog posts count as covered when they are discoverable through Blog archive pagination; other detail records require their exact parent relationship. Coverage remains 878 of 878 in the last executed validation.
 
 ## 6. Reverse Subject navigation
 
@@ -127,6 +130,8 @@ Existing authored Related Posts remain unchanged and are not replaced by automat
 
 ## 8. Routes intentionally left without inbound links
 
+After the Projects disposition, the intended exception set is:
+
 | Route | Classification | Rationale |
 | --- | --- | --- |
 | `/404.html` | Acceptable utility exception | Error document, not an ordinary destination |
@@ -134,13 +139,16 @@ Existing authored Related Posts remain unchanged and are not replaced by automat
 | `/archive/terrapin-scholar/` | Recovered archive — reintegration pending | Resurrected historical material retained while the broader archive-recovery work determines its best contextual home |
 | `/archive/the-once-and-future-m-net/` | Recovered archive — reintegration pending | Resurrected historical material retained while the broader archive-recovery work determines its best contextual home |
 | `/archive/the-real-freebsd/` | Recovered archive — reintegration pending | Resurrected historical material retained while the broader archive-recovery work determines its best contextual home |
-| `/projects/` | Legacy concept requiring an editorial decision | Preserved for now, but its old catch-all purpose overlaps newer Software, Writing, Subject, and archive structures |
 
 The four `/archive/` exceptions are not declarations that those pages should remain isolated. They are an explicit reintegration queue for the ongoing historical-material resurrection campaign. The validator will warn when any gains a legitimate inbound link so its exception can be removed.
 
-## 9. Current graph
+`/projects/` is no longer part of this exception set because it is no longer a canonical content route. Its historical source remains in `projects.md`, but `redirect_to: /subjects/`, `search: false`, and `sitemap: false` make its public role unambiguous.
 
-| Measure | Current result |
+## 9. Graph status
+
+The last executed graph before the Projects redirect reported:
+
+| Measure | Last executed result |
 | --- | ---: |
 | Canonical HTML routes | 2,114 |
 | Redirect routes | 125 |
@@ -151,7 +159,9 @@ The four `/archive/` exceptions are not declarations that those pages should rem
 | Reverse-Subject relationships | 48 |
 | Routes with no inbound links | 6 |
 
-`/subjects/`, `/games/`, and `/consulting/` are no longer orphans. The Games index links directly to its canonical detail route, and the detail record returns to Games. Consulting is reachable directly from the homepage and contextually from About and Contact.
+The post-change expectation is one fewer canonical route, one additional redirect, and five zero-inbound canonical routes. Exact route-edge and local-reference totals are deliberately not guessed; they must come from the next full generated-site validation.
+
+`/subjects/`, `/games/`, and `/consulting/` are active reachable destinations. `/projects/` now preserves its historical URL solely as a redirect to `/subjects/`.
 
 The validator confirms that the following major destinations are reachable from the homepage graph: Writing, Scholarship, Books, Software, Teaching, Service, Consulting, Subjects, Ancestry, Honors, Coat of Arms, and Media.
 
@@ -176,9 +186,12 @@ The normal generated-site validator checks:
 - reverse Subject links derived from curated data;
 - absence of automatic Subjects on an unassigned control post;
 - absence of redirect targets in the new navigation components;
-- Consulting output, search/sitemap inclusion, homepage reachability, and contextual links from About and Contact.
+- Consulting output, search/sitemap inclusion, homepage reachability, and contextual links from About and Contact;
+- `/projects/` output redirecting to `/subjects/`;
+- `/projects/` being absent from search and canonical sitemaps;
+- the route ledger containing the Projects redirect.
 
-With the Consulting follow-on, the expected generated-site totals are 2,239 HTML routes and 4,034 static files with 71,392 local references. The full validation remains required to confirm those totals and preserve the zero-error, zero-warning gate.
+The Consulting follow-on expected 2,239 HTML routes and 4,034 static files with 71,392 local references before the Projects disposition. The next full validation must establish the new exact totals and preserve the zero-error, zero-warning gate.
 
 ## 11. Accessibility and responsive behavior
 
@@ -190,12 +203,15 @@ With the Consulting follow-on, the expected generated-site totals are 2,239 HTML
 - Mobile Writing navigation remains available without JavaScript.
 - Resource connections stack naturally at narrow widths and do not rely on hover.
 - Consulting adds only ordinary text links and no new interactive navigation mechanism.
+- Projects introduces no new interface: its old URL redirects directly to the Subjects index.
 
 ## 12. Homepage re-evaluation
 
 The homepage hierarchy remains unchanged: Hero → What I Do → Explore by Subject → Browse the Work → Elsewhere on the Site → From the Blog.
 
 Consulting was resurrected without adding a seventh peer to the destination directory. A single low-chrome line beneath Browse the Work now offers `Consulting →` to readers who have a problem of their own. This preserves the distinction between destinations that document bodies of work and Consulting as a way to engage that work.
+
+Retiring Projects as a destination reinforces the same architecture. The homepage does not need a Projects link because the material formerly grouped there now belongs in more precise discovery systems, principally Subjects, Software, Writing, and the historical-material recovery work.
 
 Media remains secondary rather than being restored to the primary work destinations.
 
@@ -210,9 +226,8 @@ This pass deliberately did not:
 - generate related posts algorithmically;
 - add a universal “back” button;
 - add navigation cards to every page;
-- change historical permalinks or redirects;
 - merge or alter `main`;
 - force recovered archive material into premature destinations;
-- decide the future editorial status of `/projects/`.
+- invent a replacement Projects taxonomy.
 
-The production build and static DOM were checked at the component and generated-markup levels, including the responsive rules for the navigation system. A browser binary was not available in the refreshed workspace, so final human desktop, intermediate-width, and mobile visual inspection remains a release gate rather than being represented here as completed browser QA.
+The production build and static DOM were checked at the component and generated-markup levels before the Projects follow-on. A browser binary was not available in the refreshed workspace, so final human desktop, intermediate-width, and mobile visual inspection remains a release gate. The Projects redirect itself also awaits the next full build/validator run in an environment with the project dependencies available.

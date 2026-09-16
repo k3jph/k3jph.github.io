@@ -60,7 +60,7 @@ for (const file of htmlFiles) {
 
 const required = [
   '/index.html', '/blog/index.html', '/ancestry/index.html', '/books/index.html',
-  '/about-me/index.html', '/consulting/index.html',
+  '/about-me/index.html', '/consulting/index.html', '/projects/index.html',
   '/honors/index.html', '/media/index.html', '/service/index.html', '/software/index.html', '/teaching/index.html',
   ...generatedWriting.routes.map((route) => `/${route.replace(/^\/+|\/+$/g, '')}/index.html`),
   ...generatedSubjects.routes.map((route) => `/${route.replace(/^\/+|\/+$/g, '')}/index.html`),
@@ -158,6 +158,12 @@ if (!contactPage.includes('href="/consulting/"')) failures.push('/contact-me/: m
 if (!searchRoutes.has('/consulting/')) failures.push('search index: missing /consulting/');
 if (!pagesSitemap.includes('<loc>https://jameshoward.us/consulting/</loc>')) failures.push('pages sitemap: missing /consulting/');
 if (!mainSitemap.includes('<loc>https://jameshoward.us/consulting/</loc>')) failures.push('main sitemap: missing /consulting/');
+
+const projectsAlias = await readFile(path.join(dist, 'projects/index.html'), 'utf8');
+if (!projectsAlias.includes('url=/subjects/')) failures.push('/projects/: does not redirect to /subjects/');
+if (searchRoutes.has('/projects/')) failures.push('search index: redirect /projects/ remains indexed');
+if (pagesSitemap.includes('<loc>https://jameshoward.us/projects/</loc>')) failures.push('pages sitemap: redirect /projects/ remains canonical');
+if (mainSitemap.includes('<loc>https://jameshoward.us/projects/</loc>')) failures.push('main sitemap: redirect /projects/ remains canonical');
 
 const aiSeries = generatedWriting.series.find((series) => series.slug === 'history-of-artificial-intelligence');
 if (!aiSeries || aiSeries.part_count !== 11) failures.push('Writing data: AI-history series must contain 11 ordered parts');
@@ -270,6 +276,7 @@ const routeLedger = JSON.parse(await readFile(path.join(root, '.generated/data/r
 for (const route of ['/contact-me', '/contact-me/', '/contact-me.html', '/media', '/media/']) if (!routeLedger.routes.some((item) => item.route === route)) failures.push(`route ledger: missing ${route}`);
 for (const route of generatedWriting.routes) if (!routeLedger.routes.some((item) => item.route === route && item.source === '_data/writing.yml')) failures.push(`route ledger: missing Writing route ${route}`);
 for (const route of generatedSubjects.routes) if (!routeLedger.routes.some((item) => item.route === route && item.source === '_data/subjects.yml')) failures.push(`route ledger: missing Subject route ${route}`);
+if (!routeLedger.redirects.some((item) => item.from === '/projects/' && item.to === '/subjects/')) failures.push('route ledger: missing /projects/ → /subjects/ redirect');
 
 const generatedSite = JSON.parse(await readFile(path.join(root, '.generated/data/site.json'), 'utf8'));
 const mediaRecords = generatedSite.media ?? [];
@@ -290,7 +297,6 @@ const allowedZeroInbound = new Set([
   '/archive/terrapin-scholar/',
   '/archive/the-once-and-future-m-net/',
   '/archive/the-real-freebsd/',
-  '/projects/',
 ]);
 for (const route of navigationGraph.zeroInbound) if (!allowedZeroInbound.has(route)) failures.push(`navigation graph: unexplained zero-inbound route ${route}`);
 for (const route of allowedZeroInbound) if (!navigationGraph.zeroInbound.includes(route)) warnings.push(`navigation graph: documented zero-inbound exception is now linked and should be reclassified: ${route}`);
