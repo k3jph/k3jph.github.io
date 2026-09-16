@@ -8,6 +8,12 @@ permalink: /2015/12/23/drone-hobbyists-need-to-calm-down-about-registration/
 dsq_thread_id:
   - "4428453719"
 featured_image: /assets/img/news/dronemoon.webp
+historical_status:
+  type: superseded
+  reviewed: '2026-09-16'
+  note: This commentary describes the federal recreational-drone registration framework introduced in 2015. Registration rules and procedures have since changed.
+  current_url: https://www.faa.gov/uas/getting_started/register_drone
+  current_label: Current FAA registration guidance
 categories:
   - Blog
 tags:

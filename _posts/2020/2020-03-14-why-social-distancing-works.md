@@ -6,6 +6,12 @@ author: k3jph
 layout: post
 permalink: /2020/03/14/why-social-distancing-works/
 featured_image: /assets/img/news/why-social-distancing-works.webp
+historical_status:
+  type: historical
+  reviewed: '2026-09-16'
+  note: Written at the outset of the COVID-19 pandemic, this post predates vaccination, later variants, and subsequent evidence and guidance about transmission and masking.
+  current_url: https://www.cdc.gov/covid/
+  current_label: Current CDC COVID-19 information
 categories:
   - Blog
 tags:

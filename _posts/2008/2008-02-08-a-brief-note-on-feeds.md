@@ -10,6 +10,12 @@ categories:
 tags:
   - meta
   - webservices
+historical_status:
+  type: superseded
+  reviewed: '2026-09-16'
+  note: The Textpattern, FeedBurner, and Yahoo Pipes feed arrangement described here has been replaced by the site's current RSS feed.
+  current_url: /feed.xml
+  current_label: Current RSS feed
 ---
 As you may have noticed, there are a number of feeds available on the right hand sidebar of this page.  These feeds come from several sources.  The [Blog](http://feeds.jameshoward.us/jameshoward) feed is generated internally by [Textpattern](http://www.textpattern.org) on this website.  But the rest live more interesting lives.
 

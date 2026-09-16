@@ -1,5 +1,11 @@
 import { readFile } from 'node:fs/promises';
 import fg from 'fast-glob';
+import matter from 'gray-matter';
+import YAML from 'yaml';
+
+const parse = (source) => matter(source, { engines: { yaml: (text) => YAML.parse(text) ?? {} } });
+const historicalTypes = new Set(['historical', 'superseded', 'resolved', 'discontinued']);
+const historicalFields = new Set(['type', 'reviewed', 'note', 'current_url', 'current_label']);
 
 const groups = {
   blog: await fg('_posts/**/*.{md,markdown}'),
@@ -12,9 +18,28 @@ const errors = [];
 const report = {};
 
 for (const [name, files] of Object.entries(groups)) {
-  const totals = { files: files.length, liquid: 0, bootstrap_classes: 0, inline_styles: 0, content_scripts: 0, raw_divs: 0, figures: 0, directives: 0, legacy_media_patterns: 0, legacy_media_files: 0 };
+  const totals = { files: files.length, liquid: 0, bootstrap_classes: 0, inline_styles: 0, content_scripts: 0, raw_divs: 0, figures: 0, directives: 0, legacy_media_patterns: 0, legacy_media_files: 0, historical_statuses: 0 };
   for (const file of files) {
     const source = await readFile(file, 'utf8');
+    if (name === 'blog') {
+      const status = parse(source).data.historical_status;
+      if (status != null) {
+        totals.historical_statuses++;
+        if (!status || typeof status !== 'object' || Array.isArray(status)) {
+          errors.push(`${file}: historical_status must be an object`);
+        } else {
+          for (const field of Object.keys(status)) if (!historicalFields.has(field)) errors.push(`${file}: unsupported historical_status field ${field}`);
+          if (!historicalTypes.has(status.type)) errors.push(`${file}: unsupported historical_status.type ${status.type}`);
+          const reviewed = status.reviewed instanceof Date ? status.reviewed.toISOString().slice(0, 10) : String(status.reviewed ?? '');
+          const parsedReview = new Date(`${reviewed}T00:00:00Z`);
+          if (!/^\d{4}-\d{2}-\d{2}$/.test(reviewed) || Number.isNaN(parsedReview.valueOf()) || parsedReview.toISOString().slice(0, 10) !== reviewed) errors.push(`${file}: invalid historical_status.reviewed`);
+          if (typeof status.note !== 'string' || !status.note.trim()) errors.push(`${file}: historical_status.note is required`);
+          if (status.current_label && !status.current_url) errors.push(`${file}: historical_status.current_label requires current_url`);
+          if (status.current_url && typeof status.current_url !== 'string') errors.push(`${file}: historical_status.current_url must be a string`);
+          if (typeof status.current_url === 'string' && !((status.current_url.startsWith('/') && !status.current_url.startsWith('//')) || /^https?:\/\/[^\s]+$/i.test(status.current_url))) errors.push(`${file}: invalid historical_status.current_url`);
+        }
+      }
+    }
     const liquid = [...source.matchAll(/\{%|\{\{/g)].length;
     const inlineStyles = [...source.matchAll(/\sstyle\s*=/gi)].length;
     const contentScripts = [...source.matchAll(/<script\b/gi)].length;

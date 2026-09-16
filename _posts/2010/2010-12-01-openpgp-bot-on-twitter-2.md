@@ -17,6 +17,10 @@ tags:
   - encryption
   - PGP
   - security
+historical_status:
+  type: discontinued
+  reviewed: '2026-09-16'
+  note: The automated Twitter account described in this post is no longer operating. The post is retained as a record of the experiment.
 ---
 [openpgpblog](http://openpgpblog.tumblr.com/post/2052108473/openpgp-bot-on-twitter):
 

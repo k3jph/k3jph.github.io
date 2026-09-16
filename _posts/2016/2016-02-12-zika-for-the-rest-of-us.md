@@ -8,6 +8,12 @@ permalink: /2016/02/12/zika-for-the-rest-of-us/
 dsq_thread_id:
   - "4574686551"
 featured_image: /assets/img/news/mosquito.webp
+historical_status:
+  type: historical
+  reviewed: '2026-09-16'
+  note: This explainer was written during the 2015–2016 Zika outbreak and reflects the local case reports, projections, and guidance available then.
+  current_url: https://www.cdc.gov/zika/
+  current_label: Current CDC Zika information
 categories:
   - Blog
 tags:

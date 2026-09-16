@@ -1,6 +1,6 @@
 ---
 import { getCollection, render } from 'astro:content';
-import BaseLayout from '../layouts/BaseLayout.astro'; import PageIntro from '../components/PageIntro.astro'; import TableOfContents from '../components/TableOfContents.astro'; import HeadingDivider from '../components/HeadingDivider.astro'; import ArmoryNav from '../components/ArmoryNav.astro'; import RelatedPosts from '../components/RelatedPosts.astro';
+import BaseLayout from '../layouts/BaseLayout.astro'; import PageIntro from '../components/PageIntro.astro'; import TableOfContents from '../components/TableOfContents.astro'; import HeadingDivider from '../components/HeadingDivider.astro'; import ArmoryNav from '../components/ArmoryNav.astro'; import RelatedPosts from '../components/RelatedPosts.astro'; import HistoricalStatus from '../components/HistoricalStatus.astro';
 import siteData from '../../.generated/data/site.json'; import {formatDate,isPublished,normalizeAssetPath,routeParam,slugifyTag} from '../lib/site';
 export async function getStaticPaths(){
   const blog=(await getCollection('blog')).filter(p=>isPublished(p.data));const ancestry=await getCollection('ancestry');const pages=await getCollection('pages');const entries=[...blog.map(e=>({entry:e,kind:'blog'})),...ancestry.map(e=>({entry:e,kind:'ancestry'})),...pages.map(e=>({entry:e,kind:'page'}))];
@@ -18,7 +18,15 @@ const description=data.description??data.excerpt??data.subtitle;const escapeHtml
   <PageIntro title={data.title} subtitle={kind==='blog'?formatDate(data.calendar_date):data.subtitle} image={image} compact={kind!=='blog'}/>
   {isArmory&&<ArmoryNav current={data.armory_section}/>}
   {kind==='blog'&&data.tags?.length>0&&<div class="post-tags"><div class="container"><ul class="pill-list">{data.tags.map((tag:string)=><li><a href={`/tag/${slugifyTag(tag)}/`}>{tag}</a></li>)}</ul></div></div>}
-  <article class:list={['article-shell',{'article-shell--wide':wideContent,'article-shell--flush':hasContentFlow}]}><div class={wideContent?'container':'reading-container'}>{!hasInlineToc&&!isArmory&&<TableOfContents headings={headings}/>}<div class="content"><Content/></div>{ancestryServices.map((role:any,i:number)=><section class="ancestry-service" aria-labelledby={`ancestry-service-${i+1}`}><p class="eyebrow">Society service and leadership</p><h2 id={`ancestry-service-${i+1}`}>{role.ancestry.heading}</h2><p>{role.ancestry.summary}</p><a href="/service/">View the broader service record →</a></section>)}{creditsHtml&&<footer class="credits"><HeadingDivider compact/><p set:html={creditsHtml}/></footer>}</div></article>
+  <article class:list={['article-shell',{'article-shell--wide':wideContent,'article-shell--flush':hasContentFlow}]}>
+    <div class={wideContent?'container':'reading-container'}>
+      {kind==='blog'&&data.historical_status&&<HistoricalStatus status={data.historical_status}/>}
+      {!hasInlineToc&&!isArmory&&<TableOfContents headings={headings}/>}
+      <div class="content"><Content/></div>
+      {ancestryServices.map((role:any,i:number)=><section class="ancestry-service" aria-labelledby={`ancestry-service-${i+1}`}><p class="eyebrow">Society service and leadership</p><h2 id={`ancestry-service-${i+1}`}>{role.ancestry.heading}</h2><p>{role.ancestry.summary}</p><a href="/service/">View the broader service record →</a></section>)}
+      {creditsHtml&&<footer class="credits"><HeadingDivider compact/><p set:html={creditsHtml}/></footer>}
+    </div>
+  </article>
   {relatedTags.map((tag:string)=><RelatedPosts tag={tag} currentRoute={data.route} />)}
   {kind==='blog'&&<nav class="reading-container post-nav" aria-label="Blog navigation"><a href="/blog/">← Back to the blog archive</a></nav>}
   {wideContent&&<script is:inline src="/assets/js/content-gallery.js"></script>}

@@ -1,0 +1,65 @@
+---
+interface HistoricalStatusData {
+  type: 'historical' | 'superseded' | 'resolved' | 'discontinued';
+  reviewed: string;
+  note: string;
+  current_url?: string;
+  current_label?: string;
+}
+
+const { status } = Astro.props as { status: HistoricalStatusData };
+const labels = {
+  historical: 'Historical context',
+  superseded: 'Superseded information',
+  resolved: 'Resolved event',
+  discontinued: 'Discontinued program',
+};
+const reviewed = new Intl.DateTimeFormat('en-US', {
+  month: 'long',
+  day: 'numeric',
+  year: 'numeric',
+  timeZone: 'UTC',
+}).format(new Date(`${status.reviewed}T00:00:00Z`));
+---
+
+<aside class="historical-status" aria-label={labels[status.type]}>
+  <p class="historical-status__label">{labels[status.type]}</p>
+  <p>{status.note}</p>
+  <p class="historical-status__meta">
+    <span>Reviewed {reviewed}</span>
+    {status.current_url && <a href={status.current_url}>{status.current_label ?? 'Current information'} →</a>}
+  </p>
+</aside>
+
+<style>
+  .historical-status {
+    box-sizing: border-box;
+    width: min(100%, var(--reading-width));
+    margin: 0 auto var(--space-5);
+    padding: var(--space-4);
+    border-left: 4px solid var(--color-gold-500);
+    background: var(--color-cream);
+    color: var(--color-navy-900);
+  }
+  .historical-status > p { margin: 0; }
+  .historical-status > .historical-status__label {
+    margin-bottom: var(--space-2);
+    color: var(--color-gold-700);
+    font: 700 .78rem/1.4 var(--font-sans);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  .historical-status > .historical-status__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2) var(--space-4);
+    margin-top: var(--space-3);
+    color: var(--color-slate-700);
+    font: .86rem/1.45 var(--font-sans);
+  }
+  .historical-status__meta a { font-weight: 700; }
+  @media (max-width: 36rem) {
+    .historical-status { padding: var(--space-3); }
+    .historical-status__meta { display: grid; gap: var(--space-2); }
+  }
+</style>

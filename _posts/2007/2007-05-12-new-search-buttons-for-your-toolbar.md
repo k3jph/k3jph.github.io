@@ -13,6 +13,10 @@ tags:
   - Howard County
   - Howard County Search
   - webservices
+historical_status:
+  type: discontinued
+  reviewed: '2026-09-16'
+  note: These browser-toolbar search buttons belonged to the former Howard County Search service and are no longer available.
 ---
 
 I have new buttons for the Howard County Search Engine for the [Google Toolbar](http://toolbar.google.com).  This does require the latest version.  There is also a new button for the Google Toolbar that allows you to search the [Howard County Library](http://www.hclibrary.org) catalog directly from your browser.

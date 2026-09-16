@@ -13,6 +13,10 @@ tags:
   - Howard County
   - Howard County Search
   - webservices
+historical_status:
+  type: discontinued
+  reviewed: '2026-09-16'
+  note: The Howard County Search service described here no longer operates. This update is preserved as part of the project's history.
 ---
 
 Many new additions to the Howard County Search Engine:

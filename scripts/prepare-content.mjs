@@ -13,6 +13,18 @@ await mkdir(path.join(generated, 'data'), { recursive: true });
 const parse = (source) => matter(source, { engines: { yaml: (text) => YAML.parse(text) ?? {} } });
 const array = (value) => value == null || value === false ? [] : Array.isArray(value) ? value : [value];
 
+function normalizeHistoricalStatus(data) {
+  if (!data.historical_status) return data;
+  const reviewed = data.historical_status.reviewed;
+  return {
+    ...data,
+    historical_status: {
+      ...data.historical_status,
+      reviewed: reviewed instanceof Date ? reviewed.toISOString().slice(0, 10) : String(reviewed),
+    },
+  };
+}
+
 function route(value, file) {
   if (value) {
     const text = String(value).trim();
@@ -71,11 +83,12 @@ async function writeEntry(collection, file, data, body, url) {
 
 for (const file of postFiles) {
   const parsed = parse(await readFile(path.join(root, file), 'utf8'));
-  const url = route(parsed.data.permalink, file);
-  const item = { file, data: parsed.data, body: parsed.content, route: url };
+  const data = normalizeHistoricalStatus(parsed.data);
+  const url = route(data.permalink, file);
+  const item = { file, data, body: parsed.content, route: url };
   posts.push(item);
   routeLedger.push({ source: file, route: url, type: 'blog' });
-  await writeEntry('blog', file.replace(/^_posts\//, ''), { ...parsed.data, calendar_date: `D${String(parsed.data.date).slice(0, 10)}`, excerpt: excerpt(parsed.content), source_path: file }, parsed.content, url);
+  await writeEntry('blog', file.replace(/^_posts\//, ''), { ...data, calendar_date: `D${String(data.date).slice(0, 10)}`, excerpt: excerpt(parsed.content), source_path: file }, parsed.content, url);
 }
 
 const ancestryFiles = (await fg('_ancestry/**/*.{md,markdown}', { cwd: root })).sort();

@@ -6,6 +6,10 @@ author: k3jph
 layout: post
 permalink: /2018/09/09/prepare-for-hurricane-florence-like-a-professional/
 featured_image: /assets/img/news/prepare-for-hurricane-florence-like-a-professional.webp
+historical_status:
+  type: resolved
+  reviewed: '2026-09-16'
+  note: Hurricane Florence made landfall in September 2018. The forecast and preparation timeline in this post describe that concluded event, not a current emergency.
 categories:
   - Blog
 tags:

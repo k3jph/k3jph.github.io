@@ -6,6 +6,10 @@ author: k3jph
 layout: post
 permalink: /2016/01/24/my-robot-or-announcing-dc-closings/
 featured_image: /assets/img/news/snowcapitol.webp
+historical_status:
+  type: discontinued
+  reviewed: '2026-09-16'
+  note: The automated DC Closings service described here no longer operates. The post is retained as a record of the project.
 categories:
   - Blog
 tags:

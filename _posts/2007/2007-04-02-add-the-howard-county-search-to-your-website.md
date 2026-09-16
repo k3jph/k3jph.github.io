@@ -11,6 +11,10 @@ tags:
   - Howard County
   - Howard County Search
   - webservices
+historical_status:
+  type: discontinued
+  reviewed: '2026-09-16'
+  note: The Howard County Search service and installation tools described here no longer operate. The post remains as part of the project's record.
 ---
 I have made the Howard County Search available to anyone with their own website.  Using [Google Gadgets](http://www.google.com/ig/directory?synd=open), it is possible to add the search engine directly to your own website.  For more information and instructions, please see [the configuration page](http://gmodules.com/ig/creator?synd=open&url=http://jameshoward.us/hcs-gadget.xml).  It will look similar to this:
 

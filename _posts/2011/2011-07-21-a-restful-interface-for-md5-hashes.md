@@ -23,6 +23,10 @@ tags:
   - systems science
   - web
   - webservices
+historical_status:
+  type: discontinued
+  reviewed: '2026-09-16'
+  note: The experimental API endpoint described here is no longer available. The post is retained as a record of the project, not as current security guidance.
 ---
 Or not quite.  I had a need to generate MD5 hashes inside a Google Spreadsheet, but Google does not include an MD5 function (and neither does OpenOffice.org).  Google does, however, support a function to get XML data and process it with Xpath.  So assuming someone had created an MD5 generator on the web that was accessible via XML, I set to work.  It turns out, nobody has ever needed this before.  But that's okay, I am a Real Programmer.
 

@@ -6,6 +6,12 @@ author: k3jph
 layout: post
 permalink: /2020/09/18/how-do-we-know-a-covid-19-vaccine-will-work
 featured_image: /assets/img/news/how-do-we-know-a-covid-19-vaccine-will-work.webp
+historical_status:
+  type: historical
+  reviewed: '2026-09-16'
+  note: This preauthorization forecast predates real-world vaccine data and later variants. Subsequent effectiveness varied by outcome, time since vaccination, and circulating variant.
+  current_url: https://www.cdc.gov/covid/
+  current_label: Current CDC COVID-19 information
 categories:
   - Blog
 tags:

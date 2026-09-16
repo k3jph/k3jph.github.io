@@ -8,6 +8,12 @@ permalink: /2015/07/13/where-is-new-horizons-going/
 dsq_thread_id:
   - "3931610174"
 featured_image: /assets/img/news/nh-pluto.webp
+historical_status:
+  type: historical
+  reviewed: '2026-09-16'
+  note: This post was written before New Horizons completed its Pluto flyby and before its later Kuiper Belt target and results were known.
+  current_url: https://science.nasa.gov/mission/new-horizons/
+  current_label: Current NASA mission information
 categories:
   - Blog
 tags:

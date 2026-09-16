@@ -71,10 +71,35 @@ const required = [
 for (const file of required) if (!relativeFiles.has(file)) failures.push(`missing required output ${file}`);
 const searchIndex = await readFile(path.join(dist, 'data/search.json'), 'utf8');
 if (!searchIndex.includes('"title":"Media Archive"') || !searchIndex.includes('"url":"/media/"')) failures.push('search index: missing Media Archive');
+const searchRecords = JSON.parse(searchIndex);
+const searchRoutes = new Set(searchRecords.map((item) => item.url));
 const pagesSitemap = await readFile(path.join(dist, 'sitemap-pages.xml'), 'utf8');
 if (!pagesSitemap.includes('<loc>https://jameshoward.us/media/</loc>')) failures.push('pages sitemap: missing /media/');
 const mainSitemap = await readFile(path.join(dist, 'sitemap.xml'), 'utf8');
 if (!mainSitemap.includes('<loc>https://jameshoward.us/media/</loc>')) failures.push('main sitemap: missing /media/');
+const generatedPosts = JSON.parse(await readFile(path.join(root, '.generated/data/posts.json'), 'utf8'));
+const historicalPosts = generatedPosts.filter((post) => post.historical_status);
+const historicalLabels = { historical: 'Historical context', superseded: 'Superseded information', resolved: 'Resolved event', discontinued: 'Discontinued program' };
+for (const post of historicalPosts) {
+  const route = post.route.endsWith('/') ? post.route : `${post.route}/`;
+  const output = path.join(dist, route.replace(/^\//, ''), 'index.html');
+  const html = await readFile(output, 'utf8');
+  const notice = html.indexOf('<aside class="historical-status"');
+  const content = html.indexOf('<div class="content"');
+  if (notice < 0) failures.push(`${post.route}: missing historical-status notice`);
+  if (notice >= 0 && content >= 0 && notice > content) failures.push(`${post.route}: historical-status notice follows article body`);
+  if (!html.includes(`>${historicalLabels[post.historical_status.type]}</p>`)) failures.push(`${post.route}: missing historical-status label`);
+  if (!searchRoutes.has(post.route)) failures.push(`${post.route}: historical post missing from search index`);
+  if (!mainSitemap.includes(`<loc>https://jameshoward.us${post.route}</loc>`)) failures.push(`${post.route}: historical post missing from sitemap`);
+}
+for (const route of ['/2018/01/02/get-flu-shot/', '/2026/09/10/githubs-ongoing-actions-outage/']) {
+  const html = await readFile(path.join(dist, route.replace(/^\//, ''), 'index.html'), 'utf8');
+  if (html.includes('<aside class="historical-status"')) failures.push(`${route}: unmarked post rendered a historical-status notice`);
+}
+const rss = await readFile(path.join(dist, 'feed.xml'), 'utf8');
+const atom = await readFile(path.join(dist, 'atom.xml'), 'utf8');
+if (!rss.includes('<rss') || !rss.includes('<item>')) failures.push('feed.xml: invalid or empty RSS output');
+if (!atom.includes('<rss') || !atom.includes('<item>')) failures.push('atom.xml: invalid or empty compatibility feed output');
 
 const representativeChecks = [
   ['/index.html', '/teaching/'],

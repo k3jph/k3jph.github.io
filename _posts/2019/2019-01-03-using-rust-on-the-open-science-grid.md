@@ -6,6 +6,12 @@ author: k3jph
 layout: post
 permalink: /2019/01/03/using-rust-on-the-open-science-grid/
 featured_image: /assets/img/news/using-rust-on-the-open-science-grid.webp
+historical_status:
+  type: superseded
+  reviewed: '2026-09-16'
+  note: These installation and job-submission instructions describe the 2019 OSG Connect environment and should not be treated as current operational guidance.
+  current_url: https://portal.osg-htc.org/documentation/
+  current_label: Current OSPool documentation
 categories:
   - Blog
 tags:

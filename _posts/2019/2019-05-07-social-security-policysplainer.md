@@ -6,6 +6,12 @@ author: k3jph
 layout: post
 permalink: /2019/05/07/social-security-policysplainer/
 featured_image: /assets/img/news/social-security-policysplainer.webp
+historical_status:
+  type: historical
+  reviewed: '2026-09-16'
+  note: The contribution limits, revenue figures, and solvency projections in this explainer are from 2019. The policy discussion is preserved unchanged.
+  current_url: https://www.ssa.gov/oact/TR/
+  current_label: Current Social Security Trustees reports
 categories:
   - Blog
 tags:

@@ -18,6 +18,10 @@ tags:
   - public management
   - social media
   - Twitter
+historical_status:
+  type: discontinued
+  reviewed: '2026-09-16'
+  note: The automated Twitter service described here no longer operates. The post remains as a record of an early public-information bot.
 ---
 
 A few months ago, I created a [Twitter](http://twitter.com) to automatically announce the DC operating status maintained by the [Office of Personnel Management](http://www.opm.gov) (OPM). This status announces whether or not the Federal government is open or restricted during an emergency. It is most often used to announce snow-related closings and some non-governmental employers rely on this for notifying their employees of weather-related emergencies.. This provides an advantage over other delivery methods provided by OPM in that Twitter can deliver selected user's tweets via a text message.

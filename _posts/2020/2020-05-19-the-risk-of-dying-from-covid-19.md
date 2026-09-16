@@ -6,6 +6,12 @@ author: k3jph
 layout: post
 permalink: /2020/05/19/the-risk-of-dying-from-covid-19
 featured_image: /assets/img/news/the-risk-of-dying-from-covid-19.webp
+historical_status:
+  type: historical
+  reviewed: '2026-09-16'
+  note: This estimate used May 2020 case counts and the limited clinical evidence then available. It is preserved as an early-pandemic analysis, not a current mortality estimate.
+  current_url: https://www.cdc.gov/covid/
+  current_label: Current CDC COVID-19 information
 categories:
   - Blog
 tags:

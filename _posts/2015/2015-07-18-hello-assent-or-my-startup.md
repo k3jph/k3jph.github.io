@@ -10,6 +10,10 @@ dsq_thread_id:
 instant_articles_submission_id:
   - "1702473683332573"
 featured_image: /assets/img/news/AssentWordmark.webp
+historical_status:
+  type: discontinued
+  reviewed: '2026-09-16'
+  note: Assent Systems is no longer an active venture. This announcement is preserved as part of the project's record.
 categories:
   - Blog
 tags:
