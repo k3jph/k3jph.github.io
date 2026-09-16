@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import SectionHeading from '../../components/SectionHeading.astro';
+import PostCard from '../../components/PostCard.astro';
+import EditorialPostList from '../../components/EditorialPostList.astro';
+import WritingDirectory from '../../components/WritingDirectory.astro';
+import writing from '../../../.generated/data/writing.json';
+
+const featured = writing.selected.filter((post) => post.featured);
+const compact = writing.selected.filter((post) => !post.featured);
+const description = 'Essays, explanations, arguments, and occasional excursions collected over more than twenty years.';
+---
+
+<BaseLayout title="Writing" description={description} image="/assets/img/blog.webp" canonical="/writing/">
+  <PageIntro title="Writing" subtitle={description} image="/assets/img/blog.webp"/>
+
+  <section class="section">
+    <div class="reading-container">
+      <p class="content-lead">The Blog is the complete chronological record. Writing is the edited shelf: work that still rewards the time it takes to read.</p>
+    </div>
+    <div class="container">
+      <SectionHeading title="Selected Writing" description="A deliberately uneven selection of essays, explanations, and arguments from across the archive."/>
+      <div class="record-grid">{featured.map((post) => <PostCard post={{ data: post }}/>)}</div>
+      <div class="reading-container selected-writing-list"><EditorialPostList posts={compact} label="More selected writing"/></div>
+    </div>
+  </section>
+
+  <section class="section section--navy">
+    <div class="container">
+      <SectionHeading title="Subjects" variant="light" description="Editorial paths through durable bodies of work—not a renamed tag cloud."/>
+      <WritingDirectory entries={writing.subjects} kind="subject"/>
+      <p class="text-center section-action"><a class="button" href="/writing/subjects/">Explore all Writing Subjects →</a></p>
+    </div>
+  </section>
+
+  <section class="section section--soft">
+    <div class="container">
+      <SectionHeading title="Series" description="Connected essays with a real sequence and a reason to be read together."/>
+      <WritingDirectory entries={writing.series} kind="series"/>
+      <p class="text-center section-action"><a class="button" href="/writing/series/">View all series →</a></p>
+    </div>
+  </section>
+
+  <section class="section section--cream">
+    <div class="reading-container text-center">
+      <SectionHeading title="Complete Blog Archive" description="Every post remains where it was, in chronological order, including the oddities, announcements, experiments, and things that seemed important at the time."/>
+      <a class="button" href="/blog/">Browse the complete Blog Archive →</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .selected-writing-list { margin-top: var(--space-6); }
+  .section-action { margin: var(--space-5) 0 0; }
+  .section--navy .button { border-color: var(--color-gold-300); color: var(--color-navy-950); background: var(--color-gold-300); }
+  .section--navy .button:hover { border-color: #fff; color: var(--color-navy-950); background: #fff; }
+</style>

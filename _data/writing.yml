@@ -1,0 +1,276 @@
+selected:
+  - route: /2026/06/29/the-model-is-not-the-system/
+    featured: true
+    note: Why a sound model can still fail when it meets an actual institution.
+  - route: /2025/05/12/seventy-three-cents-of-civilization/
+    featured: true
+    note: A small postal charge and the enormous system hiding behind it.
+  - route: /2023/07/18/saving-the-ozone-layer/
+    featured: true
+    note: The rare environmental story in which the world recognized a problem and fixed it.
+  - route: /2022/07/22/origami-wabi-sabi-paper/
+    featured: true
+    note: Mathematics, imperfection, and what a folded sheet of paper can become.
+  - route: /2014/12/02/public-goods-often-arent/
+    note: A useful economic category that is invoked much more often than it is understood.
+  - route: /2015/08/10/bitcoin-mining-pools-and-income-smoothing/
+    note: Why a cryptocurrency mining pool behaves rather like an insurance arrangement.
+  - route: /2015/10/17/applying-bayes-to-kic-8462852/
+    note: What probability can—and cannot—say about a star that appeared to be behaving strangely.
+  - route: /2016/07/03/runaway-trolley-never-coming-back/
+    note: The trolley problem, Star Trek, and the danger of treating a thought experiment as a complete moral theory.
+  - route: /2016/08/09/statistical-likelihood-extreme-events-ellicott-city-floods/
+    note: What a rare storm means after it has happened twice.
+  - route: /2018/02/02/postponing-american-elections-doesnt-work/
+    note: Why the structure of American election law resists a superficially simple authoritarian move.
+  - route: /2019/05/07/social-security-policysplainer/
+    note: How Social Security is funded, what the trust funds do, and what the long-range projections actually say.
+  - route: /2019/06/15/understanding-radioactive-exposure/
+    note: Radiation units, exposure, and why the frightening numbers in Chernobyl need context.
+  - route: /2021/01/20/why-is-mrna-in-my-vaccine/
+    note: A plain-language trip from DNA to proteins to an mRNA vaccine.
+  - route: /2023/01/30/case-risc-v/
+    note: The technical and strategic case for an open instruction-set architecture.
+  - route: /2023/11/05/how-math-influences-legal-decisions/
+    note: What happens when statistical evidence enters a courtroom without enough statistical understanding.
+  - route: /2024/03/02/spatial-reasoning-insights-from-hunt-the-wumpus-and-chatgpt/
+    note: What a very old cave reveals about the reasoning limits of a modern language model.
+  - route: /2024/11/12/lessons-on-invisible-authority-and-expert-power-from-alien-observers/
+    note: Organizational authority explained by an alien who keeps saluting the wrong human.
+  - route: /2025/05/26/the-electoral-college-was-designed-to-disenfranchise/
+    note: The Electoral College as a mechanism for preserving power, not a misunderstood civics exercise.
+
+subjects:
+  - slug: artificial-intelligence
+    title: Artificial Intelligence
+    description: How machines came to choose, learn, speak, and acquire consequences their builders did not entirely anticipate.
+    posts:
+      - /2026/07/30/effective-challenge-is-now-optional/
+      - /2026/07/22/what-we-do-now/
+      - /2026/07/16/the-naming-problem/
+      - /2026/07/01/attention-is-all-you-need/
+      - /2026/06/29/the-model-is-not-the-system/
+      - /2026/06/25/neurons-all-the-way-down/
+      - /2026/06/25/let-the-data-decide/
+      - /2026/06/10/simple-rules-surprising-worlds/
+      - /2026/06/04/the-second-winter/
+      - /2026/05/29/the-ecology-of-work/
+      - /2026/05/20/the-rule-based-interregnum/
+      - /2026/05/18/ai-doesnt-take-jobs-it-takes-tasks/
+      - /2026/05/13/the-first-winter/
+      - /2026/05/11/who-makes-the-rules-for-the-machine/
+      - /2026/05/08/the-data-center-water-crisis-that-isnt/
+      - /2026/05/06/when-the-theory-ran-ahead-of-the-world/
+      - /2026/05/04/whose-values-drive-your-car/
+      - /2026/04/29/when-machines-learned-to-choose/
+      - /2024/11/26/context-degradation-syndrome-when-large-language-models-lose-the-plot/
+      - /2024/03/02/spatial-reasoning-insights-from-hunt-the-wumpus-and-chatgpt/
+      - /2015/03/14/introducing-my-bumblebees/
+
+  - slug: mathematics-and-statistics
+    title: Mathematics & Statistics
+    description: Probability, evidence, numerical methods, and the recurring gap between a number and what the number means.
+    posts:
+      - /2026/07/03/cramers-v-and-the-missing-half-of-chi-square/
+      - /2026/06/02/proving-something-is-true-is-not-the-same-as-proving-it-matters/
+      - /2025/08/04/the-gini-mean-difference/
+      - /2025/05/08/using-median-polish/
+      - /2025/02/06/ridit-analyis-for-ordered-data/
+      - /2024/12/17/mcnemars-test-the-hidden-gem-for-paired-binary-data/
+      - /2024/04/08/solar-eclipse-mathematics/
+      - /2023/11/05/how-math-influences-legal-decisions/
+      - /2023/11/01/what-is-stochastic-calculus/
+      - /2022/09/18/value-mathematical-knowledge/
+      - /2020/05/19/the-risk-of-dying-from-covid-19/
+      - /2017/08/05/i-thought-the-generals-were-due/
+      - /2016/09/02/100-year-flood/
+      - /2016/08/09/statistical-likelihood-extreme-events-ellicott-city-floods/
+      - /2016/07/02/thoughts-monty-hall/
+      - /2015/09/09/how-many-floating-point-numbers-are-there/
+      - /2010/05/23/waterfall-charts-in-r/
+
+  - slug: risk-and-uncertainty
+    title: Risk & Uncertainty
+    description: Rare events, bad denominators, public fear, and the difficult business of deciding before the outcome is known.
+    posts:
+      - /2026/07/30/effective-challenge-is-now-optional/
+      - /2026/07/27/when-every-banks-ai-fails-together/
+      - /2026/05/12/the-infrastructure-we-dismantled/
+      - /2026/05/08/the-data-center-water-crisis-that-isnt/
+      - /2025/03/08/vaccines-do-work/
+      - /2021/01/20/why-is-mrna-in-my-vaccine/
+      - /2020/09/18/how-do-we-know-a-covid-19-vaccine-will-work/
+      - /2020/05/19/the-risk-of-dying-from-covid-19/
+      - /2019/06/15/understanding-radioactive-exposure/
+      - /2018/01/02/get-flu-shot/
+      - /2016/09/02/100-year-flood/
+      - /2016/08/09/statistical-likelihood-extreme-events-ellicott-city-floods/
+      - /2016/06/16/terrorism-policysplainer/
+      - /2015/10/27/probability-at-scale-and-kic-8462852/
+      - /2015/10/17/applying-bayes-to-kic-8462852/
+      - /2015/08/10/bitcoin-mining-pools-and-income-smoothing/
+
+  - slug: public-policy-and-institutions
+    title: Public Policy & Institutions
+    description: Government, public money, institutional design, and the machinery that turns collective choices into consequences.
+    posts:
+      - /2026/09/03/the-sky-is-falling/
+      - /2026/07/30/effective-challenge-is-now-optional/
+      - /2026/07/27/when-every-banks-ai-fails-together/
+      - /2026/05/12/the-infrastructure-we-dismantled/
+      - /2026/05/08/the-data-center-water-crisis-that-isnt/
+      - /2026/05/01/the-39-trillion-number-is-wrong/
+      - /2026/04/20/the-tariff-refund-is-not-going-to-you/
+      - /2025/05/26/the-electoral-college-was-designed-to-disenfranchise/
+      - /2025/05/12/seventy-three-cents-of-civilization/
+      - /2023/07/18/saving-the-ozone-layer/
+      - /2022/12/21/abolish-debt-ceiling/
+      - /2019/05/07/social-security-policysplainer/
+      - /2018/02/02/postponing-american-elections-doesnt-work/
+      - /2017/12/22/tax-bill-wont-create-jobs/
+      - /2017/08/24/confederate-soldiers-not-united-states-veterans/
+      - /2016/07/28/tax-incremental-financing-downtown-columbia/
+      - /2016/06/16/terrorism-policysplainer/
+      - /2015/07/01/georgia-neese-clark-for-the-20/
+      - /2014/12/02/public-goods-often-arent/
+      - /2009/04/18/who-is-a-stakeholder/
+
+  - slug: software-computing-and-the-internet
+    title: Software, Computing & the Internet
+    description: Programs, protocols, hardware, open systems, and the peculiar institutions people build around machines.
+    posts:
+      - /2026/09/10/githubs-ongoing-actions-outage/
+      - /2026/06/29/the-model-is-not-the-system/
+      - /2024/11/26/context-degradation-syndrome-when-large-language-models-lose-the-plot/
+      - /2024/01/31/the-case-for-a-government-exclusive-mastodon-instance/
+      - /2023/12/05/lets-talk-about-quantum-computing/
+      - /2023/01/30/case-risc-v/
+      - /2022/01/31/beatrix-and-i-built-a-computer/
+      - /2021/08/03/working-with-m4-macro-language/
+      - /2019/11/15/6502-based-computer-in-2019/
+      - /2019/01/03/using-rust-on-the-open-science-grid/
+      - /2016/04/14/tcp-and-ip/
+      - /2016/02/10/code-coverage-counterexamples/
+      - /2011/03/23/the-macos-x-open-1-command/
+      - /2011/03/16/pbcopy-and-pbpaste/
+      - /2009/12/16/source-code-for-lx-a-link-shortener/
+      - /2009/11/25/freegrep-is-now-at-github/
+      - /1999/10/14/letter-to-the-diamondback/
+
+  - slug: science-and-technology
+    title: Science & Technology
+    description: Physical systems, engineered systems, and the useful habit of asking what the mechanism actually is.
+    posts:
+      - /2026/05/08/the-data-center-water-crisis-that-isnt/
+      - /2026/04/23/nothing-is-stable-forever-or-maybe-everything-is/
+      - /2025/10/08/when-zebra-mussels-made-the-great-lakes-clean/
+      - /2025/07/22/no-the-sun-should-not-have-burned-out/
+      - /2024/06/10/why-cellphones-cannot-be-used-on-planes/
+      - /2024/04/14/debunking-the-long-tailpipe-myth/
+      - /2024/04/08/solar-eclipse-mathematics/
+      - /2023/12/05/lets-talk-about-quantum-computing/
+      - /2023/07/18/saving-the-ozone-layer/
+      - /2023/01/30/case-risc-v/
+      - /2021/01/20/why-is-mrna-in-my-vaccine/
+      - /2019/06/15/understanding-radioactive-exposure/
+      - /2018/12/05/sunspots-will-not-cause-an-ice-age/
+      - /2016/09/02/100-year-flood/
+      - /2016/06/01/cell-phones-still-dont-cause-cancer/
+      - /2016/01/21/circling-the-drain/
+      - /2015/10/17/applying-bayes-to-kic-8462852/
+      - /2015/07/15/atd-or-engineers-in-space/
+
+  - slug: teaching-and-learning
+    title: Teaching & Learning
+    description: What classrooms are for, how people learn, and why education is more than moving information between heads.
+    posts:
+      - /2026/06/05/your-major-is-irrelevant/
+      - /2025/08/07/the-ancient-dignity-of-education/
+      - /2023/01/25/using-ai-tools-class/
+      - /2022/09/18/value-mathematical-knowledge/
+      - /2020/05/12/teaching-and-learning-mathematics-online-is-published/
+      - /2019/02/13/new-chapter-on-mathematical-literacy/
+      - /2018/11/17/a-challenge-problem-for-extra-credit/
+      - /2017/04/24/students-and-customers/
+      - /2016/08/30/high-school-dropout-stopped-worrying-went-college/
+      - /2016/06/08/critical-information-acquisition/
+      - /2015/09/05/on-teaching-public-finance/
+      - /2015/08/21/radians-arent-bad/
+      - /2014/07/17/teaching-finite-mathematics/
+      - /2014/06/12/my-first-math-assignment-rubric/
+      - /2013/05/15/teacher-training-in-higher-education/
+
+  - slug: history-culture-and-ideas
+    title: History, Culture & Ideas
+    description: Historical institutions, cultural forms, inherited symbols, and ideas that become stranger when taken seriously.
+    posts:
+      - /2026/08/25/a-maintenance-plan-for-memory/
+      - /2025/09/07/thomas-arundell-of-wardour-hero-of-the-empire/
+      - /2025/09/05/the-other-nobility/
+      - /2025/08/07/the-ancient-dignity-of-education/
+      - /2025/05/26/the-electoral-college-was-designed-to-disenfranchise/
+      - /2025/01/01/the-lion-and-the-unicorn/
+      - /2024/11/03/the-evolution-of-the-royal-arms/
+      - /2024/10/03/what-makes-a-quaker-a-quaker/
+      - /2024/01/14/tartans-as-woven-heraldry-in-scotland/
+      - /2023/02/01/cincinnati-style-chili/
+      - /2022/07/22/origami-wabi-sabi-paper/
+      - /2020/04/11/context-of-chinese-syncretism/
+      - /2019/07/30/jamestown-democracy-gone-awry/
+      - /2018/05/16/the-teletype-sound-effect-in-the-movies/
+      - /2017/08/24/confederate-soldiers-not-united-states-veterans/
+      - /2016/07/03/runaway-trolley-never-coming-back/
+      - /2015/10/20/one-useless-man-posts-on-facebook-two-respond-to-it-and-three-or-more-become-a-flamewar/
+      - /2009/06/09/the-amstrad-pc-1512/
+
+series:
+  - slug: history-of-artificial-intelligence
+    title: A History of Artificial Intelligence
+    description: Eleven essays tracing artificial intelligence from logic and relay circuits through expert systems, statistical learning, neural networks, transformers, and the present argument over what AI is for.
+    posts:
+      - route: /2026/04/29/when-machines-learned-to-choose/
+        note: From Boolean logic and relay circuits to machines that could act on conditions.
+      - route: /2026/05/06/when-the-theory-ran-ahead-of-the-world/
+        note: Dartmouth, the perceptron, and the first ambitions of a named field.
+      - route: /2026/05/13/the-first-winter/
+        note: Why early promises outran hardware, data, and theory.
+      - route: /2026/05/20/the-rule-based-interregnum/
+        note: Expert systems made knowledge explicit—and exposed the cost of maintaining it.
+      - route: /2026/06/04/the-second-winter/
+        note: The commercial collapse that cleared the way for a different kind of AI.
+      - route: /2026/06/10/simple-rules-surprising-worlds/
+        note: Artificial life, emergence, and the discovery that complexity need not be designed.
+      - route: /2026/06/25/let-the-data-decide/
+        note: How statistical learning displaced hand-written rules.
+      - route: /2026/06/25/neurons-all-the-way-down/
+        note: Backpropagation, deep learning, and the return of connectionism.
+      - route: /2026/07/01/attention-is-all-you-need/
+        note: Transformers, language models, and the architecture behind the current boom.
+      - route: /2026/07/16/the-naming-problem/
+        note: Why successful AI so often stops being called AI.
+      - route: /2026/07/22/what-we-do-now/
+        note: What the field's seventy-year record suggests about governing the systems we have.
+
+  - slug: mission-vision-and-values
+    title: Mission, Vision, and Values
+    description: A five-part practical sequence on what an organization does, why it does it, how it decides, and what comes next.
+    posts:
+      - route: /2015/08/31/mission-vision-and-values/
+        note: Why the three statements are different and why an organization needs all three.
+      - route: /2015/09/01/the-mission-statement/
+        note: The present-tense statement of what an organization actually does.
+      - route: /2015/09/02/the-vision-statement/
+        note: The future condition the organization is trying to create.
+      - route: /2015/09/03/the-values-statement/
+        note: The decision framework that governs how the work gets done.
+      - route: /2015/09/04/after-the-mission-vision-and-values/
+        note: Goals, objectives, and the next layer of a usable strategic plan.
+
+  - slug: policysplainer
+    title: Policysplainer
+    description: Two compact explainers that reduce large policy questions to mechanisms, scale, and numbers.
+    posts:
+      - route: /2016/06/16/terrorism-policysplainer/
+        note: Putting the personal and public risk of terrorism into proportion.
+      - route: /2019/05/07/social-security-policysplainer/
+        note: How Social Security is financed, what it promises, and what its projections mean.

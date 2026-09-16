@@ -12,7 +12,7 @@
     "build": "npm run prepare && node scripts/prepare-build.mjs && astro build --silent && node scripts/finalize-build.mjs",
     "preview": "astro preview",
     "check": "npm run prepare && astro check",
-    "audit": "node scripts/audit-native-content.mjs",
+    "audit": "node scripts/audit-native-content.mjs && node scripts/validate-writing-data.mjs",
     "validate": "npm run audit && npm run check && npm run build && node scripts/validate-build.mjs"
   },
   "dependencies": {

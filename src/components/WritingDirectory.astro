@@ -1,0 +1,32 @@
+---
+interface Props {
+  entries: any[];
+  kind: 'subject' | 'series';
+}
+
+const { entries, kind } = Astro.props as Props;
+---
+
+<ul class="writing-directory">
+  {entries.map((entry) => (
+    <li>
+      <h3><a href={entry.route}>{entry.title}</a></h3>
+      <p>{entry.description}</p>
+      <p class="metadata">{kind === 'series' ? `${entry.part_count} parts` : `${entry.posts.length} selected essays`}</p>
+    </li>
+  ))}
+</ul>
+
+<style>
+  .writing-directory { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-5) var(--space-6); margin: 0; padding: 0; list-style: none; }
+  .writing-directory > li { position: relative; padding-left: var(--space-4); }
+  .writing-directory > li::before { position: absolute; top: .25rem; bottom: .25rem; left: 0; width: 3px; background: var(--color-gold-500); content: ''; }
+  .writing-directory h3 { margin: 0; font-size: 1.35rem; }
+  .writing-directory h3 a { color: var(--color-navy-900); text-decoration-color: var(--color-gold-500); }
+  .writing-directory p { margin: var(--space-2) 0 0; }
+  .writing-directory .metadata { font-size: .82rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+  .section--navy .writing-directory h3 a { color: #fff; }
+  .section--navy .writing-directory p { color: rgb(255 255 255 / 82%); }
+  .section--navy .writing-directory .metadata { color: var(--color-gold-300); }
+  @media (max-width: 48rem) { .writing-directory { grid-template-columns: 1fr; gap: var(--space-4); } }
+</style>

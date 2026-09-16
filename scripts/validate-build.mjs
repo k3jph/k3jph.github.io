@@ -16,6 +16,7 @@ async function walk(directory) {
 const files = await walk(dist);
 const htmlFiles = files.filter((file) => file.endsWith('.html'));
 const relativeFiles = new Set(files.map((file) => `/${path.relative(dist, file).split(path.sep).join('/')}`));
+const generatedWriting = JSON.parse(await readFile(path.join(root, '.generated/data/writing.json'), 'utf8'));
 const failures = [];
 const warnings = [];
 let references = 0;
@@ -58,6 +59,7 @@ const required = [
   '/index.html', '/blog/index.html', '/ancestry/index.html', '/books/index.html',
   '/about-me/index.html',
   '/honors/index.html', '/media/index.html', '/service/index.html', '/software/index.html', '/teaching/index.html',
+  ...generatedWriting.routes.map((route) => `/${route.replace(/^\/+|\/+$/g, '')}/index.html`),
   '/search/index.html', '/contact-me/index.html', '/contact-me.html', '/404.html', '/feed.xml', '/atom.xml',
   '/coat-of-arms/index.html', '/coat-of-arms/arms/index.html', '/coat-of-arms/emblazonments/index.html',
   '/coat-of-arms/insignia/index.html', '/coat-of-arms/tartan/index.html', '/coat-of-arms/records/index.html',
@@ -77,6 +79,11 @@ const pagesSitemap = await readFile(path.join(dist, 'sitemap-pages.xml'), 'utf8'
 if (!pagesSitemap.includes('<loc>https://jameshoward.us/media/</loc>')) failures.push('pages sitemap: missing /media/');
 const mainSitemap = await readFile(path.join(dist, 'sitemap.xml'), 'utf8');
 if (!mainSitemap.includes('<loc>https://jameshoward.us/media/</loc>')) failures.push('main sitemap: missing /media/');
+for (const route of generatedWriting.routes) {
+  if (!searchRoutes.has(route)) failures.push(`search index: missing ${route}`);
+  if (!pagesSitemap.includes(`<loc>https://jameshoward.us${route}</loc>`)) failures.push(`pages sitemap: missing ${route}`);
+  if (!mainSitemap.includes(`<loc>https://jameshoward.us${route}</loc>`)) failures.push(`main sitemap: missing ${route}`);
+}
 const generatedPosts = JSON.parse(await readFile(path.join(root, '.generated/data/posts.json'), 'utf8'));
 const historicalPosts = generatedPosts.filter((post) => post.historical_status);
 const historicalLabels = { historical: 'Historical context', superseded: 'Superseded information', resolved: 'Resolved event', discontinued: 'Discontinued' };
@@ -105,6 +112,31 @@ const rss = await readFile(path.join(dist, 'feed.xml'), 'utf8');
 const atom = await readFile(path.join(dist, 'atom.xml'), 'utf8');
 if (!rss.includes('<rss') || !rss.includes('<item>')) failures.push('feed.xml: invalid or empty RSS output');
 if (!atom.includes('<rss') || !atom.includes('<item>')) failures.push('atom.xml: invalid or empty compatibility feed output');
+if (rss.includes('https://jameshoward.us/writing/') || atom.includes('https://jameshoward.us/writing/')) failures.push('feeds: Writing landing pages were added to blog-post feeds');
+
+const writingHub = await readFile(path.join(dist, 'writing/index.html'), 'utf8');
+for (const heading of ['Selected Writing', 'Subjects', 'Series', 'Complete Blog Archive']) if (!writingHub.includes(`>${heading}</h2>`)) failures.push(`/writing/: missing ${heading} section`);
+const primaryNav = writingHub.match(/<nav id="site-nav"[\s\S]*?<\/nav>/)?.[0] ?? '';
+if (!primaryNav.includes('href="/writing/"') || !primaryNav.includes('>Writing</a>')) failures.push('primary navigation: missing Writing link');
+if (primaryNav.includes('href="/blog/"')) failures.push('primary navigation: Blog remains alongside Writing');
+const blogIndex = await readFile(path.join(dist, 'blog/index.html'), 'utf8');
+const firstPageCards = [...blogIndex.matchAll(/class="[^"]*\bpost-card\b/g)].length;
+if (firstPageCards !== 12) failures.push(`/blog/: expected 12 archive cards, found ${firstPageCards}`);
+
+const aiSeries = generatedWriting.series.find((series) => series.slug === 'history-of-artificial-intelligence');
+if (!aiSeries || aiSeries.part_count !== 11) failures.push('Writing data: AI-history series must contain 11 ordered parts');
+const aiSeriesHtml = await readFile(path.join(dist, 'writing/series/history-of-artificial-intelligence/index.html'), 'utf8');
+if (!/<ol\b[^>]*class="[^"]*\beditorial-post-list--ordered\b/.test(aiSeriesHtml)) failures.push('AI-history series: reading sequence is not a semantic ordered list');
+for (const post of aiSeries?.posts ?? []) if (!aiSeriesHtml.includes(`href="${post.route}"`)) failures.push(`AI-history series: missing part ${post.part} ${post.route}`);
+const aiOpening = await readFile(path.join(dist, '2026/04/29/when-machines-learned-to-choose/index.html'), 'utf8');
+if (!aiOpening.includes('class="series-context"') || !aiOpening.includes('Part 1 of 11') || !aiOpening.includes('href="/2026/05/06/when-the-theory-ran-ahead-of-the-world/"')) failures.push('AI-history opening post: incomplete series context');
+const socialSecurity = await readFile(path.join(dist, '2019/05/07/social-security-policysplainer/index.html'), 'utf8');
+const historicalNotice = socialSecurity.indexOf('<aside class="historical-status"');
+const seriesNotice = socialSecurity.indexOf('<nav class="series-context"');
+const articleContent = socialSecurity.indexOf('<div class="content"');
+if (!(historicalNotice >= 0 && seriesNotice > historicalNotice && articleContent > seriesNotice)) failures.push('Social Security Policysplainer: historical notice, series context, and article body are out of order');
+const ordinaryPost = await readFile(path.join(dist, '2016/07/03/runaway-trolley-never-coming-back/index.html'), 'utf8');
+if (ordinaryPost.includes('class="series-context"')) failures.push('ordinary non-series post rendered series context');
 
 const representativeChecks = [
   ['/index.html', '/teaching/'],
@@ -180,6 +212,7 @@ if (!heroTokens.includes('--hero-overlay: rgb(48 48 48 / 90%)')) failures.push('
 
 const routeLedger = JSON.parse(await readFile(path.join(root, '.generated/data/route-ledger.json'), 'utf8'));
 for (const route of ['/contact-me', '/contact-me/', '/contact-me.html', '/media', '/media/']) if (!routeLedger.routes.some((item) => item.route === route)) failures.push(`route ledger: missing ${route}`);
+for (const route of generatedWriting.routes) if (!routeLedger.routes.some((item) => item.route === route && item.source === '_data/writing.yml')) failures.push(`route ledger: missing Writing route ${route}`);
 
 const generatedSite = JSON.parse(await readFile(path.join(root, '.generated/data/site.json'), 'utf8'));
 const mediaRecords = generatedSite.media ?? [];

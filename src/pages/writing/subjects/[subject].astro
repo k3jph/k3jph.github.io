@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageIntro from '../../../components/PageIntro.astro';
+import SectionHeading from '../../../components/SectionHeading.astro';
+import EditorialPostList from '../../../components/EditorialPostList.astro';
+import WritingLinks from '../../../components/WritingLinks.astro';
+import writing from '../../../../.generated/data/writing.json';
+
+export function getStaticPaths() {
+  return writing.subjects.map((subject) => ({ params: { subject: subject.slug }, props: { subject } }));
+}
+
+const { subject } = Astro.props;
+---
+
+<BaseLayout title={subject.title} description={subject.description} image="/assets/img/blog.webp" canonical={subject.route}>
+  <PageIntro title={subject.title} subtitle={subject.description} image="/assets/img/blog.webp" compact/>
+  <section class="section">
+    <div class="reading-container">
+      <SectionHeading title="Selected Essays"/>
+      <EditorialPostList posts={subject.posts} label={`${subject.title} selected essays`}/>
+      <WritingLinks current="subjects"/>
+    </div>
+  </section>
+</BaseLayout>

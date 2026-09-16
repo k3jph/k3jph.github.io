@@ -6,6 +6,8 @@ JamesHoward.us is statically generated with Astro. The historical Markdown corpu
 
 Reusable content concepts are Markdown directives rendered by `src/plugins/remark-site-primitives.mjs`: figures, documents, media links, book details, professional recognition, ribbon racks, callouts, and credential grids. Structured records remain in `_data/` as the canonical source for index and detail views.
 
+The editorial Writing layer is canonical in `_data/writing.yml`. `scripts/prepare-content.mjs` validates its selected essays, subjects, series, route references, and route ownership, then resolves post metadata into disposable `.generated/data/writing.json`. Writing pages never duplicate post titles, dates, images, excerpts, or historical status in their canonical data.
+
 The presentation layer lives in `src/`: shared layouts and components, native archive pages, dynamic post/page routing, tag pagination, client-side search, RSS/Atom, and the sitemap. Static assets are served unchanged from `public/assets`.
 
 ## Publishing contract

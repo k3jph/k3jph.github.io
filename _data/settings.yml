@@ -11,8 +11,8 @@ main_menu_settings:
       url: /teaching
     - title: Service
       url: /service
-    - title: Blog
-      url: /blog
+    - title: Writing
+      url: /writing/
     - title: Contact Me
       url: /contact-me/
 

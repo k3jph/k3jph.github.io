@@ -1,0 +1,42 @@
+---
+import { sitePath } from '../lib/site';
+
+interface Props {
+  series: any;
+  currentRoute: string;
+}
+
+const { series, currentRoute } = Astro.props as Props;
+const index = series.posts.findIndex((post: any) => post.route === currentRoute);
+const previous = index > 0 ? series.posts[index - 1] : undefined;
+const next = index >= 0 && index < series.posts.length - 1 ? series.posts[index + 1] : undefined;
+---
+
+{index >= 0 && (
+  <nav class="series-context" aria-label={`${series.title} reading order`}>
+    <div>
+      <p class="eyebrow">Series</p>
+      <h2><a href={series.route}>{series.title}</a></h2>
+      <p class="metadata">Part {index + 1} of {series.part_count}</p>
+    </div>
+    <div class="series-context__links">
+      {previous ? <a href={sitePath(previous.route)}>← Previous</a> : <span aria-hidden="true"></span>}
+      <a href={series.route}>View series</a>
+      {next ? <a href={sitePath(next.route)}>Next →</a> : <span aria-hidden="true"></span>}
+    </div>
+  </nav>
+)}
+
+<style>
+  .series-context { display: grid; gap: var(--space-3); margin: 0 0 var(--space-5); padding: var(--space-4); border-left: 4px solid var(--color-gold-500); background: var(--color-slate-075); font-family: var(--font-sans); }
+  .series-context h2 { margin: 0; padding: 0; font-size: 1.35rem; }
+  .series-context h2::after { display: none; }
+  .series-context h2 a { color: var(--color-navy-900); text-decoration-color: var(--color-gold-500); }
+  .series-context .metadata { margin: var(--space-1) 0 0; }
+  .series-context__links { display: grid; grid-template-columns: 1fr auto 1fr; gap: var(--space-3); align-items: center; font-size: .88rem; font-weight: 700; }
+  .series-context__links :last-child { text-align: right; }
+  @media (max-width: 36rem) {
+    .series-context { padding: var(--space-3); }
+    .series-context__links { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--space-2) var(--space-3); }
+  }
+</style>

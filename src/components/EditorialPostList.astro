@@ -1,0 +1,45 @@
+---
+import { formatDate, sitePath } from '../lib/site';
+
+interface Props {
+  posts: any[];
+  ordered?: boolean;
+  label?: string;
+}
+
+const { posts, ordered = false, label } = Astro.props as Props;
+const List = ordered ? 'ol' : 'ul';
+const statusLabels: Record<string, string> = {
+  historical: 'Historical context',
+  superseded: 'Superseded information',
+  resolved: 'Resolved event',
+  discontinued: 'Discontinued',
+};
+---
+
+<List class:list={['editorial-post-list', { 'editorial-post-list--ordered': ordered }]} aria-label={label}>
+  {posts.map((post) => (
+    <li>
+      <div class="editorial-post-list__meta">
+        {ordered && <span>Part {post.part}</span>}
+        <time datetime={String(post.date).slice(0, 10)}>{formatDate(post.calendar_date, 'short')}</time>
+        {post.historical_status && <span>{statusLabels[post.historical_status.type]}</span>}
+      </div>
+      <h3><a href={sitePath(post.route)}>{post.title}</a></h3>
+      {post.note && <p>{post.note}</p>}
+    </li>
+  ))}
+</List>
+
+<style>
+  .editorial-post-list { display: grid; gap: var(--space-5); margin: 0; padding: 0; list-style: none; }
+  .editorial-post-list > li { position: relative; padding-left: var(--space-4); }
+  .editorial-post-list > li::before { position: absolute; top: .25rem; bottom: .25rem; left: 0; width: 2px; background: var(--color-gold-500); content: ''; }
+  .editorial-post-list__meta { display: flex; flex-wrap: wrap; gap: .3rem .85rem; margin-bottom: var(--space-1); color: var(--color-slate-700); font: 700 .78rem/1.45 var(--font-sans); letter-spacing: .04em; text-transform: uppercase; }
+  .editorial-post-list h3 { margin: 0; font-size: clamp(1.15rem, 2vw, 1.45rem); }
+  .editorial-post-list h3 a { color: var(--color-navy-900); text-decoration-color: var(--color-gold-500); }
+  .editorial-post-list p { margin: var(--space-1) 0 0; color: var(--color-slate-700); }
+  .editorial-post-list--ordered { counter-reset: writing-part; }
+  .section--navy .editorial-post-list h3 a { color: #fff; }
+  .section--navy .editorial-post-list p, .section--navy .editorial-post-list__meta { color: rgb(255 255 255 / 78%); }
+</style>
