@@ -46,6 +46,7 @@
   summary: "Provide nonprofit governance, specialist heraldic advice, and curriculum development for a scholarly organization concerned with history, genealogy, heraldry, and chivalric traditions."
 
 - organization: Chapman and Hall / CRC Press
+  id: crc-analytics-or-series
   role: Series Editor, Focus Series in Analytics and Operations Research
   dates: 2020–Present
   current: true
@@ -53,6 +54,7 @@
   summary: "Provide editorial stewardship for a scholarly series at the intersection of analytics and operations research."
 
 - organization: Military Operations Research Journal
+  id: military-operations-research-journal
   role: Associate Editor
   dates: 2020–Present
   current: true
@@ -60,6 +62,7 @@
   summary: "Contribute editorial review and professional judgment to the field’s principal scholarly journal."
 
 - organization: Howard County, Maryland
+  id: howard-county-board-of-appeals
   role: Chair and Member, Board of Appeals · Member, Charter Review Commission
   dates: 2011–2021
   current: false
@@ -76,6 +79,7 @@
   detail_page: /service/howard-county/
 
 - organization: Columbia Association
+  id: columbia-association-finance
   role: Budget Committee Member and Chair · Financial Advisory Committee Member
   dates: 2004–2010
   current: false
@@ -99,6 +103,7 @@
   summary: "Helped organize the chapter’s annual conference and awards program."
 
 - organization: University of Maryland Global Campus
+  id: umgc-lms-selection
   role: Learning Management System Selection Project Participant
   dates: Historical institutional service
   current: false

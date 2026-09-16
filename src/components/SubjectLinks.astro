@@ -1,0 +1,38 @@
+---
+interface Props {
+  subjects: any[];
+  current?: string;
+  title?: string;
+  description?: string;
+}
+
+const {
+  subjects,
+  current,
+  title = 'Explore by subject',
+  description = 'Follow the same ideas across Writing, Scholarship, Books, Software, Teaching, and other substantial work.',
+} = Astro.props as Props;
+const links = subjects.filter((subject) => subject.slug !== current);
+---
+
+<nav class="subject-links" aria-label={title}>
+  <p class="eyebrow">Subjects</p>
+  <h2>{title}</h2>
+  {description && <p>{description}</p>}
+  <ul>
+    {links.map((subject) => <li><a href={subject.route}>{subject.title}</a></li>)}
+  </ul>
+</nav>
+
+<style>
+  .subject-links { margin-top: var(--space-6); text-align: center; }
+  .subject-links h2 { margin: 0; font-size: clamp(1.4rem, 2.4vw, 1.9rem); }
+  .subject-links > p:not(.eyebrow) { max-width: 42rem; margin: var(--space-2) auto 0; color: var(--color-slate-700); }
+  .subject-links ul { display: flex; flex-wrap: wrap; justify-content: center; gap: .35rem .8rem; margin: var(--space-3) 0 0; padding: 0; list-style: none; font: 700 .9rem/1.5 var(--font-sans); }
+  .subject-links li + li::before { margin-right: .8rem; color: var(--color-gold-500); content: '·'; }
+  .subject-links a { color: var(--color-navy-900); text-decoration-color: var(--color-gold-500); }
+  @media (max-width: 36rem) {
+    .subject-links ul { display: grid; gap: var(--space-2); }
+    .subject-links li + li::before { content: none; }
+  }
+</style>

@@ -96,7 +96,8 @@ published:
     prior_editions: []
 
 other_book_length_work:
-  - title: "GURPS Disasters: Hurricane"
+  - slug: gurps-disasters-hurricane
+    title: "GURPS Disasters: Hurricane"
     year: 2019
     role: Author
     publisher: Steve Jackson Games

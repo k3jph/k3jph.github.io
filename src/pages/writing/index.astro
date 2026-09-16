@@ -5,7 +5,9 @@ import SectionHeading from '../../components/SectionHeading.astro';
 import PostCard from '../../components/PostCard.astro';
 import EditorialPostList from '../../components/EditorialPostList.astro';
 import WritingDirectory from '../../components/WritingDirectory.astro';
+import SubjectLinks from '../../components/SubjectLinks.astro';
 import writing from '../../../.generated/data/writing.json';
+import subjects from '../../../.generated/data/subjects.json';
 
 const featured = writing.selected.filter((post) => post.featured);
 const compact = writing.selected.filter((post) => !post.featured);
@@ -46,6 +48,7 @@ const description = 'Essays, explanations, arguments, and occasional excursions 
     <div class="reading-container text-center">
       <SectionHeading title="Complete Blog Archive" description="Every post remains where it was, in chronological order, including the oddities, announcements, experiments, and things that seemed important at the time."/>
       <a class="button" href="/blog/">Browse the complete Blog Archive →</a>
+      <SubjectLinks subjects={subjects.subjects} title="Follow the writing across site-wide subjects"/>
     </div>
   </section>
 </BaseLayout>

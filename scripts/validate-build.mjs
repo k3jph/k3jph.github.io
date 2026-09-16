@@ -17,6 +17,7 @@ const files = await walk(dist);
 const htmlFiles = files.filter((file) => file.endsWith('.html'));
 const relativeFiles = new Set(files.map((file) => `/${path.relative(dist, file).split(path.sep).join('/')}`));
 const generatedWriting = JSON.parse(await readFile(path.join(root, '.generated/data/writing.json'), 'utf8'));
+const generatedSubjects = JSON.parse(await readFile(path.join(root, '.generated/data/subjects.json'), 'utf8'));
 const failures = [];
 const warnings = [];
 let references = 0;
@@ -60,6 +61,7 @@ const required = [
   '/about-me/index.html',
   '/honors/index.html', '/media/index.html', '/service/index.html', '/software/index.html', '/teaching/index.html',
   ...generatedWriting.routes.map((route) => `/${route.replace(/^\/+|\/+$/g, '')}/index.html`),
+  ...generatedSubjects.routes.map((route) => `/${route.replace(/^\/+|\/+$/g, '')}/index.html`),
   '/search/index.html', '/contact-me/index.html', '/contact-me.html', '/404.html', '/feed.xml', '/atom.xml',
   '/coat-of-arms/index.html', '/coat-of-arms/arms/index.html', '/coat-of-arms/emblazonments/index.html',
   '/coat-of-arms/insignia/index.html', '/coat-of-arms/tartan/index.html', '/coat-of-arms/records/index.html',
@@ -80,6 +82,11 @@ if (!pagesSitemap.includes('<loc>https://jameshoward.us/media/</loc>')) failures
 const mainSitemap = await readFile(path.join(dist, 'sitemap.xml'), 'utf8');
 if (!mainSitemap.includes('<loc>https://jameshoward.us/media/</loc>')) failures.push('main sitemap: missing /media/');
 for (const route of generatedWriting.routes) {
+  if (!searchRoutes.has(route)) failures.push(`search index: missing ${route}`);
+  if (!pagesSitemap.includes(`<loc>https://jameshoward.us${route}</loc>`)) failures.push(`pages sitemap: missing ${route}`);
+  if (!mainSitemap.includes(`<loc>https://jameshoward.us${route}</loc>`)) failures.push(`main sitemap: missing ${route}`);
+}
+for (const route of generatedSubjects.routes) {
   if (!searchRoutes.has(route)) failures.push(`search index: missing ${route}`);
   if (!pagesSitemap.includes(`<loc>https://jameshoward.us${route}</loc>`)) failures.push(`pages sitemap: missing ${route}`);
   if (!mainSitemap.includes(`<loc>https://jameshoward.us${route}</loc>`)) failures.push(`main sitemap: missing ${route}`);
@@ -119,6 +126,7 @@ for (const heading of ['Selected Writing', 'Subjects', 'Series', 'Complete Blog 
 const primaryNav = writingHub.match(/<nav id="site-nav"[\s\S]*?<\/nav>/)?.[0] ?? '';
 if (!primaryNav.includes('href="/writing/"') || !primaryNav.includes('>Writing</a>')) failures.push('primary navigation: missing Writing link');
 if (primaryNav.includes('href="/blog/"')) failures.push('primary navigation: Blog remains alongside Writing');
+if (primaryNav.includes('href="/subjects/"')) failures.push('primary navigation: Subjects was added to the destination-oriented navbar');
 const blogIndex = await readFile(path.join(dist, 'blog/index.html'), 'utf8');
 const firstPageCards = [...blogIndex.matchAll(/class="[^"]*\bpost-card\b/g)].length;
 if (firstPageCards !== 12) failures.push(`/blog/: expected 12 archive cards, found ${firstPageCards}`);
@@ -137,6 +145,25 @@ const articleContent = socialSecurity.indexOf('<div class="content"');
 if (!(historicalNotice >= 0 && seriesNotice > historicalNotice && articleContent > seriesNotice)) failures.push('Social Security Policysplainer: historical notice, series context, and article body are out of order');
 const ordinaryPost = await readFile(path.join(dist, '2016/07/03/runaway-trolley-never-coming-back/index.html'), 'utf8');
 if (ordinaryPost.includes('class="series-context"')) failures.push('ordinary non-series post rendered series context');
+
+const subjectIndex = await readFile(path.join(dist, 'subjects/index.html'), 'utf8');
+if (!subjectIndex.includes('class="subject-directory"') || !subjectIndex.includes('Ways into the site by idea rather than by document type.')) failures.push('/subjects/: incomplete Subject directory');
+for (const subject of generatedSubjects.subjects) {
+  const html = await readFile(path.join(dist, subject.route.replace(/^\//, ''), 'index.html'), 'utf8');
+  for (const group of subject.groups) {
+    if (!group.items.length) failures.push(`${subject.route}: empty ${group.type} group in generated data`);
+    if (!html.includes(`>${group.title}</h2>`)) failures.push(`${subject.route}: missing ${group.title} resource group`);
+    for (const item of group.items) {
+      const href = item.route ?? item.href;
+      if (href && !html.includes(`href="${href}"`)) failures.push(`${subject.route}: missing ${group.type} resource ${item.title}`);
+    }
+  }
+  if (subject.writing_subject && !html.includes(`href="${subject.writing_subject.route}"`)) failures.push(`${subject.route}: missing related Writing Subject link`);
+}
+for (const route of ['/writing/', '/scholarship/', '/books/', '/software/', '/teaching/']) {
+  const html = await readFile(path.join(dist, route.replace(/^\//, ''), 'index.html'), 'utf8');
+  if (!html.includes('class="subject-links"')) failures.push(`${route}: missing destination Subject links`);
+}
 
 const representativeChecks = [
   ['/index.html', '/teaching/'],
@@ -213,6 +240,7 @@ if (!heroTokens.includes('--hero-overlay: rgb(48 48 48 / 90%)')) failures.push('
 const routeLedger = JSON.parse(await readFile(path.join(root, '.generated/data/route-ledger.json'), 'utf8'));
 for (const route of ['/contact-me', '/contact-me/', '/contact-me.html', '/media', '/media/']) if (!routeLedger.routes.some((item) => item.route === route)) failures.push(`route ledger: missing ${route}`);
 for (const route of generatedWriting.routes) if (!routeLedger.routes.some((item) => item.route === route && item.source === '_data/writing.yml')) failures.push(`route ledger: missing Writing route ${route}`);
+for (const route of generatedSubjects.routes) if (!routeLedger.routes.some((item) => item.route === route && item.source === '_data/subjects.yml')) failures.push(`route ledger: missing Subject route ${route}`);
 
 const generatedSite = JSON.parse(await readFile(path.join(root, '.generated/data/site.json'), 'utf8'));
 const mediaRecords = generatedSite.media ?? [];

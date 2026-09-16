@@ -4,6 +4,7 @@ import fg from 'fast-glob';
 import matter from 'gray-matter';
 import YAML from 'yaml';
 import { buildWritingData } from './lib/writing-data.mjs';
+import { buildSubjectsData } from './lib/subject-data.mjs';
 
 const root = process.cwd();
 const generated = path.join(root, '.generated');
@@ -60,9 +61,9 @@ async function loadYaml(file) {
   return YAML.parse(await readFile(path.join(root, file), 'utf8'));
 }
 
-const [books, honors, media, service, software, teaching, settings, profile, mddfRibbons, writingSource] = await Promise.all([
+const [books, honors, media, service, software, teaching, settings, profile, mddfRibbons, writingSource, subjectsSource] = await Promise.all([
   '_data/books.yml', '_data/honors.yml', '_data/media.yml', '_data/service.yml', '_data/software.yml',
-  '_data/teaching.yml', '_data/settings.yml', '_data/profile.yml', '_data/mddf_ribbons.yaml', '_data/writing.yml',
+  '_data/teaching.yml', '_data/settings.yml', '_data/profile.yml', '_data/mddf_ribbons.yaml', '_data/writing.yml', '_data/subjects.yml',
 ].map(loadYaml));
 
 const postFiles = (await fg('_posts/**/*.{md,markdown}', { cwd: root })).sort();
@@ -154,6 +155,17 @@ const nativeRoutes = [
 ];
 const writing = buildWritingData(writingSource, posts.map((post) => ({ ...post, excerpt: excerpt(post.body) })), [...nativeRoutes, ...routeLedger.map((item) => item.route)]);
 for (const url of writing.routes) routeLedger.push({ source: '_data/writing.yml', route: url, type: 'native-writing' });
+const scholarshipSource = parse(await readFile(path.join(root, 'scholarship.md'), 'utf8'));
+const subjects = buildSubjectsData(subjectsSource, {
+  posts: posts.map((post) => ({ ...post, excerpt: excerpt(post.body) })),
+  writing,
+  scholarshipMarkdown: scholarshipSource.content,
+  books,
+  software,
+  teaching,
+  service,
+}, [...nativeRoutes, ...routeLedger.map((item) => item.route)]);
+for (const url of subjects.routes) routeLedger.push({ source: '_data/subjects.yml', route: url, type: 'native-subject' });
 
 const redirects = [
   { from: '/hereditary-societies/', to: '/ancestry/', source: 'native-route-policy' },
@@ -181,5 +193,6 @@ const uniqueRedirects = [...redirectMap.values()];
 await writeFile(path.join(generated, 'data', 'site.json'), `${JSON.stringify({ siteUrl: 'https://jameshoward.us', books, honors, media, service, software, teaching, settings, profile, mddfRibbons, redirects: uniqueRedirects }, null, 2)}\n`);
 await writeFile(path.join(generated, 'data', 'posts.json'), `${JSON.stringify(posts.map((post) => ({ ...post.data, route: post.route, source_path: post.file, excerpt: excerpt(post.body) })), null, 2)}\n`);
 await writeFile(path.join(generated, 'data', 'writing.json'), `${JSON.stringify(writing, null, 2)}\n`);
+await writeFile(path.join(generated, 'data', 'subjects.json'), `${JSON.stringify(subjects, null, 2)}\n`);
 await writeFile(path.join(generated, 'data', 'route-ledger.json'), `${JSON.stringify({ generated_at: new Date().toISOString(), routes: routeLedger, redirects: uniqueRedirects }, null, 2)}\n`);
-console.log(`Prepared ${posts.length} posts, ${ancestryFiles.length} ancestry records, ${pageFiles.length} pages, ${writing.routes.length} Writing routes, and ${uniqueRedirects.length} redirects.`);
+console.log(`Prepared ${posts.length} posts, ${ancestryFiles.length} ancestry records, ${pageFiles.length} pages, ${writing.routes.length} Writing routes, ${subjects.routes.length} Subject routes, and ${uniqueRedirects.length} redirects.`);

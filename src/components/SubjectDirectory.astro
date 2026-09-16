@@ -1,0 +1,30 @@
+---
+interface Props {
+  subjects: any[];
+  heading?: 'h2' | 'h3';
+}
+
+const { subjects, heading = 'h2' } = Astro.props as Props;
+const Heading = heading;
+---
+
+<ul class="subject-directory">
+  {subjects.map((subject) => (
+    <li>
+      <Heading><a href={subject.route}>{subject.title}</a></Heading>
+      <p>{subject.description}</p>
+      <p class="subject-directory__families">{subject.families.join(' · ')}</p>
+    </li>
+  ))}
+</ul>
+
+<style>
+  .subject-directory { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-5) var(--space-6); margin: var(--space-6) 0 0; padding: 0; list-style: none; }
+  .subject-directory > li { position: relative; padding-left: var(--space-4); }
+  .subject-directory > li::before { position: absolute; top: .25rem; bottom: .25rem; left: 0; width: 3px; background: var(--color-gold-500); content: ''; }
+  .subject-directory :is(h2, h3) { margin: 0; font-size: clamp(1.3rem, 2.2vw, 1.7rem); }
+  .subject-directory :is(h2, h3) a { color: var(--color-navy-900); text-decoration-color: var(--color-gold-500); }
+  .subject-directory p { margin: var(--space-2) 0 0; }
+  .subject-directory__families { color: var(--color-slate-700); font: 700 .78rem/1.5 var(--font-sans); letter-spacing: .04em; text-transform: uppercase; }
+  @media (max-width: 48rem) { .subject-directory { grid-template-columns: 1fr; gap: var(--space-5); } }
+</style>

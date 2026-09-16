@@ -1,9 +1,9 @@
 ---
 import JHCard from './JHCard.astro';
 import { sitePath } from '../lib/site';
-const { item, heading='h3', variant='default', showCategory=false, showSummary=true }=Astro.props;const H=heading;const rawHref=item.detail_page||item.detail_url||item.url||item.publisher_url;const href=rawHref?sitePath(rawHref):undefined;
+const { item, heading='h3', variant='default', showCategory=false, showSummary=true, id }=Astro.props;const H=heading;const rawHref=item.detail_page||item.detail_url||item.url||item.publisher_url;const href=rawHref?sitePath(rawHref):undefined;
 const metadata=[item.role||item.issuer,item.postnominal,item.date||item.dates].filter(Boolean).join(' · ');
 const facts=[item.service_period&&`Service period: ${item.service_period}`,item.previous_grade&&`Previous grade: ${item.previous_grade}`,item.issuer_type&&`Classification: ${item.issuer_type}`].filter(Boolean);
 ---
-<JHCard variant={variant}>{showCategory&&item.category&&<p class="eyebrow">{item.category}</p>}<H>{href?<a href={href}>{item.title||item.name||item.organization}</a>:item.title||item.name||item.organization}</H>{metadata&&<p class="metadata">{metadata}</p>}{facts.length>0&&<ul class="data-card__facts">{facts.map((fact:string)=><li>{fact}</li>)}</ul>}{showSummary&&item.summary&&<p set:html={item.summary}/>}</JHCard>
+<JHCard variant={variant} id={id}>{showCategory&&item.category&&<p class="eyebrow">{item.category}</p>}<H>{href?<a href={href}>{item.title||item.name||item.organization}</a>:item.title||item.name||item.organization}</H>{metadata&&<p class="metadata">{metadata}</p>}{facts.length>0&&<ul class="data-card__facts">{facts.map((fact:string)=><li>{fact}</li>)}</ul>}{showSummary&&item.summary&&<p set:html={item.summary}/>}</JHCard>
 <style>.data-card__facts{margin:.65rem 0 0;padding:0;list-style:none;color:var(--color-slate-700);font:600 .86rem/1.5 var(--font-sans)}.jh-card--dark .data-card__facts{color:rgb(255 255 255/.76)}</style>

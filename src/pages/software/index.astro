@@ -1,4 +1,18 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';import PageIntro from '../../components/PageIntro.astro';import DataCard from '../../components/DataCard.astro';import SectionHeading from '../../components/SectionHeading.astro';import siteData from '../../../.generated/data/site.json';const groups=Object.entries(siteData.software).filter(([,v])=>Array.isArray(v));
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import DataCard from '../../components/DataCard.astro';
+import SectionHeading from '../../components/SectionHeading.astro';
+import SubjectLinks from '../../components/SubjectLinks.astro';
+import siteData from '../../../.generated/data/site.json';
+import subjectsData from '../../../.generated/data/subjects.json';
+import { slugifyTag } from '../../lib/site';
+
+const groups = Object.entries(siteData.software).filter(([, value]) => Array.isArray(value));
+const relatedSubjects = subjectsData.subjects.filter((subject) => ['artificial-intelligence', 'mathematics-statistics', 'operations-research-decision-systems', 'risk-resilience', 'software-open-systems'].includes(subject.slug));
 ---
-<BaseLayout title="Software" image="/assets/img/software-banner.webp"><PageIntro title="Software" subtitle="Open-source packages, research tools, and small useful machines." image="/assets/img/software-banner.webp"/>{groups.map(([name,items]:any,index)=><section class:list={['section',{'section--soft':index%2===1}]}><div class="container"><SectionHeading title={name.replaceAll('_',' ').replace(/\b\w/g,(c:string)=>c.toUpperCase())}/><div class="record-grid">{items.map((x:any)=><DataCard item={x}/>)}</div></div></section>)}</BaseLayout>
+<BaseLayout title="Software" image="/assets/img/software-banner.webp">
+  <PageIntro title="Software" subtitle="Open-source packages, research tools, and small useful machines." image="/assets/img/software-banner.webp"/>
+  {groups.map(([name,items]:any,index)=><section class:list={['section',{'section--soft':index%2===1}]}><div class="container"><SectionHeading title={name.replaceAll('_',' ').replace(/\b\w/g,(character:string)=>character.toUpperCase())}/><div class="record-grid">{items.map((item:any)=><DataCard item={item} id={`software-${slugifyTag(item.name)}`}/>)}</div></div></section>)}
+  <section class="section section--cream"><div class="container"><SubjectLinks subjects={relatedSubjects} title="Explore the software by subject"/></div></section>
+</BaseLayout>

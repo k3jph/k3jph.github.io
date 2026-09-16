@@ -1,0 +1,243 @@
+subjects:
+  - slug: artificial-intelligence
+    title: Artificial Intelligence
+    description: >-
+      Machines that choose, predict, classify, and speak—and the institutions
+      that must decide what to do with them.
+    writing_subject: artificial-intelligence
+    featured:
+      - type: writing
+        id: /2026/06/29/the-model-is-not-the-system/
+      - type: scholarship
+        id: https://doi.org/10.1080/08839514.2021.2001179
+      - type: software
+        id: Kami
+    resources:
+      writing:
+        - /2026/06/29/the-model-is-not-the-system/
+        - /2026/07/01/attention-is-all-you-need/
+        - /2026/07/16/the-naming-problem/
+        - /2026/07/22/what-we-do-now/
+        - /2015/03/14/introducing-my-bumblebees/
+      scholarship:
+        - https://doi.org/10.1080/08839514.2021.2001179
+        - https://spie.org/defense-commercial-sensing/presentation/Agent-based-modeling-for-evaluation-of-a-wearable-sensor-based/12548-14
+      software:
+        - Kami
+        - Virtual Bumblebees
+
+  - slug: mathematics-statistics
+    title: Mathematics & Statistics
+    description: >-
+      Probability, statistics, numerical methods, and the computational tools
+      that turn quantitative ideas into work.
+    writing_subject: mathematics-and-statistics
+    featured:
+      - type: books
+        id: computational-methods-numerical-analysis-r
+      - type: scholarship
+        id: https://www.jstatsoft.org/article/view/v095i08
+      - type: teaching
+        institution: umgc
+        course: STAT 200
+    resources:
+      writing:
+        - /2026/06/02/proving-something-is-true-is-not-the-same-as-proving-it-matters/
+        - /2025/08/04/the-gini-mean-difference/
+        - /2024/12/17/mcnemars-test-the-hidden-gem-for-paired-binary-data/
+        - /2023/11/05/how-math-influences-legal-decisions/
+        - /2023/11/01/what-is-stochastic-calculus/
+      scholarship:
+        - https://www.jstatsoft.org/article/view/v095i08
+      books:
+        - computational-methods-numerical-analysis-r
+        - teaching-learning-mathematics-online
+      software:
+        - cmna
+        - phonics
+        - waterfall
+      teaching:
+        - institution: umgc
+          course: STAT 200
+        - institution: unm
+          course: PADM 596
+        - institution: baruch
+          course: PAF 503
+
+  - slug: operations-research-decision-systems
+    title: Operations Research & Decision Systems
+    description: >-
+      Models, constrained resources, complex organizations, and decisions that
+      remain necessary even when the evidence is incomplete.
+    featured:
+      - type: books
+        id: handbook-military-defense-operations-research
+      - type: scholarship
+        id: https://spie.org/defense-commercial-sensing/presentation/Agent-based-modeling-for-evaluation-of-a-wearable-sensor-based/12548-14
+      - type: writing
+        id: /2026/06/29/the-model-is-not-the-system/
+    resources:
+      writing:
+        - /2026/06/29/the-model-is-not-the-system/
+        - /2026/07/30/effective-challenge-is-now-optional/
+        - /2026/07/27/when-every-banks-ai-fails-together/
+        - /2026/05/12/the-infrastructure-we-dismantled/
+        - /2015/09/14/why-this-hammer-costs-435/
+      scholarship:
+        - https://doi.org/10.1080/08839514.2021.2001179
+        - https://spie.org/defense-commercial-sensing/presentation/Agent-based-modeling-for-evaluation-of-a-wearable-sensor-based/12548-14
+        - https://www.jhuapl.edu/Content/techdigest/pdf/V35-N03/35-03-Howard.pdf
+      books:
+        - handbook-military-defense-operations-research
+      software:
+        - Kami
+        - Kivu Ebola analysis
+      teaching:
+        - institution: cmu
+          course: MSA 607
+        - institution: cmu
+          course: MSA 647
+      service:
+        - crc-analytics-or-series
+        - military-operations-research-journal
+
+  - slug: risk-resilience
+    title: Risk & Resilience
+    description: >-
+      Hazards, forecasts, resilience, and the stubborn gap between measuring
+      danger and deciding what to do about it.
+    writing_subject: risk-and-uncertainty
+    featured:
+      - type: books
+        id: socioeconomic-effects-national-flood-insurance-program
+      - type: scholarship
+        id: https://www.jhuapl.edu/Content/techdigest/pdf/V35-N03/35-03-Howard.pdf
+      - type: software
+        id: Kivu Ebola analysis
+    resources:
+      writing:
+        - /2026/07/30/effective-challenge-is-now-optional/
+        - /2026/07/27/when-every-banks-ai-fails-together/
+        - /2026/05/12/the-infrastructure-we-dismantled/
+        - /2025/03/08/vaccines-do-work/
+        - /2019/06/15/understanding-radioactive-exposure/
+        - /2016/08/09/statistical-likelihood-extreme-events-ellicott-city-floods/
+      scholarship:
+        - https://spie.org/defense-commercial-sensing/presentation/Agent-based-modeling-for-evaluation-of-a-wearable-sensor-based/12548-14
+        - https://www.jhuapl.edu/Content/techdigest/pdf/V35-N03/35-03-Howard.pdf
+      books:
+        - socioeconomic-effects-national-flood-insurance-program
+        - gurps-disasters-hurricane
+      software:
+        - Kivu Ebola analysis
+      teaching:
+        - institution: cmu
+          course: MSA 647
+        - institution: cmu
+          course: PSC 516
+
+  - slug: public-policy-institutions
+    title: Public Policy & Institutions
+    description: >-
+      Government, public money, institutional design, and the mechanisms
+      through which collective choices acquire consequences.
+    writing_subject: public-policy-and-institutions
+    featured:
+      - type: books
+        id: socioeconomic-effects-national-flood-insurance-program
+      - type: writing
+        id: /2019/05/07/social-security-policysplainer/
+      - type: service
+        id: howard-county-board-of-appeals
+    resources:
+      writing:
+        - /2026/09/03/the-sky-is-falling/
+        - /2026/05/01/the-39-trillion-number-is-wrong/
+        - /2025/05/26/the-electoral-college-was-designed-to-disenfranchise/
+        - /2019/05/07/social-security-policysplainer/
+        - /2023/07/18/saving-the-ozone-layer/
+      scholarship:
+        - https://ieeexplore.ieee.org/document/8965252
+      books:
+        - socioeconomic-effects-national-flood-insurance-program
+        - handbook-military-defense-operations-research
+      software:
+        - waterfall
+      teaching:
+        - institution: cmu
+          course: PSC 516
+        - institution: ubalt
+          course: PUAD 701
+        - institution: ubalt
+          course: PUAD 702
+      service:
+        - howard-county-board-of-appeals
+        - columbia-association-finance
+
+  - slug: software-open-systems
+    title: Software & Open Systems
+    description: >-
+      Programs, protocols, open systems, and the long practical history of
+      making machines do one useful thing correctly.
+    writing_subject: software-computing-and-the-internet
+    featured:
+      - type: software
+        id: FreeGrep
+      - type: books
+        id: computational-methods-numerical-analysis-r
+      - type: writing
+        id: /2023/01/30/case-risc-v/
+    resources:
+      writing:
+        - /2026/09/10/githubs-ongoing-actions-outage/
+        - /2023/01/30/case-risc-v/
+        - /2019/01/03/using-rust-on-the-open-science-grid/
+        - /2021/08/03/working-with-m4-macro-language/
+        - /2009/11/25/freegrep-is-now-at-github/
+      scholarship:
+        - https://www.jstatsoft.org/article/view/v095i08
+        - https://ieeexplore.ieee.org/document/8965252
+      books:
+        - computational-methods-numerical-analysis-r
+      software:
+        - FreeGrep
+        - cmna
+        - phonics
+        - Small Unix utilities
+
+  - slug: teaching-learning
+    title: Teaching & Learning
+    description: >-
+      Mathematics, technical education, online learning, and the work of
+      helping people understand machinery rather than merely operate it.
+    writing_subject: teaching-and-learning
+    featured:
+      - type: books
+        id: teaching-learning-mathematics-online
+      - type: scholarship
+        id: https://doi.org/10.1080/0020739X.2021.1954251
+      - type: writing
+        id: /2026/06/05/your-major-is-irrelevant/
+    resources:
+      writing:
+        - /2026/06/05/your-major-is-irrelevant/
+        - /2025/08/07/the-ancient-dignity-of-education/
+        - /2023/01/25/using-ai-tools-class/
+        - /2022/09/18/value-mathematical-knowledge/
+        - /2019/02/13/new-chapter-on-mathematical-literacy/
+      scholarship:
+        - https://doi.org/10.1080/0020739X.2021.1954251
+      books:
+        - teaching-learning-mathematics-online
+        - computational-methods-numerical-analysis-r
+      software:
+        - cmna
+      teaching:
+        - institution: umgc
+          course: MATH 107
+        - institution: umgc
+          course: STAT 200
+        - institution: cmu
+          course: MSA 600
+      service:
+        - umgc-lms-selection

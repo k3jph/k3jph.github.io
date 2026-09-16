@@ -8,6 +8,8 @@ Reusable content concepts are Markdown directives rendered by `src/plugins/remar
 
 The editorial Writing layer is canonical in `_data/writing.yml`. `scripts/prepare-content.mjs` validates its selected essays, subjects, series, route references, and route ownership, then resolves post metadata into disposable `.generated/data/writing.json`. Writing pages never duplicate post titles, dates, images, excerpts, or historical status in their canonical data.
 
+The site-wide Subjects discovery layer is canonical in `_data/subjects.yml`. It selects resources by stable identifier from Writing, Scholarship, Books, Software, Teaching, and the substantively relevant portions of Service. `scripts/prepare-content.mjs` resolves the destination metadata into disposable `.generated/data/subjects.json`; Subject pages do not create canonical copies of the underlying resources.
+
 The presentation layer lives in `src/`: shared layouts and components, native archive pages, dynamic post/page routing, tag pagination, client-side search, RSS/Atom, and the sitemap. Static assets are served unchanged from `public/assets`.
 
 ## Publishing contract

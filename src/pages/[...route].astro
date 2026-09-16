@@ -1,10 +1,10 @@
 ---
 import { getCollection, render } from 'astro:content';
-import BaseLayout from '../layouts/BaseLayout.astro'; import PageIntro from '../components/PageIntro.astro'; import TableOfContents from '../components/TableOfContents.astro'; import HeadingDivider from '../components/HeadingDivider.astro'; import ArmoryNav from '../components/ArmoryNav.astro'; import RelatedPosts from '../components/RelatedPosts.astro'; import HistoricalStatus from '../components/HistoricalStatus.astro'; import SeriesContext from '../components/SeriesContext.astro';
-import siteData from '../../.generated/data/site.json'; import writingData from '../../.generated/data/writing.json'; import {formatDate,isPublished,normalizeAssetPath,routeParam,slugifyTag} from '../lib/site';
+import BaseLayout from '../layouts/BaseLayout.astro'; import PageIntro from '../components/PageIntro.astro'; import TableOfContents from '../components/TableOfContents.astro'; import HeadingDivider from '../components/HeadingDivider.astro'; import ArmoryNav from '../components/ArmoryNav.astro'; import RelatedPosts from '../components/RelatedPosts.astro'; import HistoricalStatus from '../components/HistoricalStatus.astro'; import SeriesContext from '../components/SeriesContext.astro'; import SubjectLinks from '../components/SubjectLinks.astro';
+import siteData from '../../.generated/data/site.json'; import writingData from '../../.generated/data/writing.json'; import subjectsData from '../../.generated/data/subjects.json'; import {formatDate,isPublished,normalizeAssetPath,routeParam,slugifyTag} from '../lib/site';
 export async function getStaticPaths(){
   const blog=(await getCollection('blog')).filter(p=>isPublished(p.data));const ancestry=await getCollection('ancestry');const pages=await getCollection('pages');const entries=[...blog.map(e=>({entry:e,kind:'blog'})),...ancestry.map(e=>({entry:e,kind:'ancestry'})),...pages.map(e=>({entry:e,kind:'page'}))];
-  const native=['/','/blog/','/ancestry/','/books/','/honors/','/media/','/service/','/software/','/teaching/','/search/','/404.html','/contact-me/','/contact-me.html','/feed.xml','/atom.xml','/sitemap.xml',...writingData.routes];const occupied=new Set([...native,...entries.map(x=>x.entry.data.route)]);
+  const native=['/','/blog/','/ancestry/','/books/','/honors/','/media/','/service/','/software/','/teaching/','/search/','/404.html','/contact-me/','/contact-me.html','/feed.xml','/atom.xml','/sitemap.xml',...writingData.routes,...subjectsData.routes];const occupied=new Set([...native,...entries.map(x=>x.entry.data.route)]);
   const paths:any[]=entries.map(x=>({params:{route:routeParam(x.entry.data.route)},props:x}));
   for(const item of siteData.redirects){if(!occupied.has(item.from)){occupied.add(item.from);paths.push({params:{route:routeParam(item.from)},props:{kind:'redirect',to:item.to}});}}
   return paths;
@@ -12,7 +12,7 @@ export async function getStaticPaths(){
 const {entry,kind}=Astro.props as any;
 if(kind==='redirect') return Astro.redirect((Astro.props as any).to,301);
 const {Content,headings}=await render(entry);const data:any=entry.data;const image=normalizeAssetPath(data.featured_image);const ancestryServices=(data.service_ids??[]).map((id:string)=>siteData.service.find((r:any)=>r.id===id)).filter((r:any)=>r?.ancestry);const hasManualToc=entry.body?.includes('class="page-toc"');const hasInlineToc=hasManualToc||entry.body?.includes('aria-label="On this page"');const hasContentFlow=entry.body?.includes('class="content-flow"');const isArmory=Boolean(data.armory_section);const wideContent=kind==='ancestry'||hasManualToc||isArmory;const relatedTags=[...new Set([...String(entry.body??'').matchAll(/::related-posts\{[^}]*tag=(["'])(.*?)\1[^}]*\}/g)].map((match:any)=>match[2]))];
-const description=data.description??data.excerpt??data.subtitle;const seriesMemberships=kind==='blog'?writingData.series.filter((series:any)=>series.posts.some((post:any)=>post.route===data.route)):[];const escapeHtml=(value:string)=>value.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');const creditsHtml=data.credits?escapeHtml(String(data.credits)).replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,'<a href="$2">$1</a>').replace(/^_(.*)_$/s,'<em>$1</em>'):undefined;
+const description=data.description??data.excerpt??data.subtitle;const seriesMemberships=kind==='blog'?writingData.series.filter((series:any)=>series.posts.some((post:any)=>post.route===data.route)):[];const isScholarship=kind==='page'&&data.route==='/scholarship/';const escapeHtml=(value:string)=>value.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');const creditsHtml=data.credits?escapeHtml(String(data.credits)).replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,'<a href="$2">$1</a>').replace(/^_(.*)_$/s,'<em>$1</em>'):undefined;
 ---
 <BaseLayout title={data.title} description={description} image={image} canonical={data.route} type={kind==='blog'?'article':'website'} stylesheet={data.stylesheet} script={data.script} noindex={data.sitemap===false}>
   <PageIntro title={data.title} subtitle={kind==='blog'?formatDate(data.calendar_date):data.subtitle} image={image} compact={kind!=='blog'}/>
@@ -28,6 +28,7 @@ const description=data.description??data.excerpt??data.subtitle;const seriesMemb
       {creditsHtml&&<footer class="credits"><HeadingDivider compact/><p set:html={creditsHtml}/></footer>}
     </div>
   </article>
+  {isScholarship&&<section class="section section--cream"><div class="container"><SubjectLinks subjects={subjectsData.subjects} title="Explore the scholarship by subject"/></div></section>}
   {relatedTags.map((tag:string)=><RelatedPosts tag={tag} currentRoute={data.route} />)}
   {kind==='blog'&&<nav class="reading-container post-nav" aria-label="Blog navigation"><a href="/blog/">← Back to the blog archive</a></nav>}
   {wideContent&&<script is:inline src="/assets/js/content-gallery.js"></script>}

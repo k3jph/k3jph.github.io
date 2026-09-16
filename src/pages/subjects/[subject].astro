@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import SectionHeading from '../../components/SectionHeading.astro';
+import EditorialPostList from '../../components/EditorialPostList.astro';
+import SubjectResourceGroup from '../../components/SubjectResourceGroup.astro';
+import SubjectLinks from '../../components/SubjectLinks.astro';
+import subjects from '../../../.generated/data/subjects.json';
+
+export function getStaticPaths() {
+  return subjects.subjects.map((subject) => ({ params: { subject: subject.slug }, props: { subject } }));
+}
+
+const { subject } = Astro.props;
+const sectionClass = (index: number) => index % 3 === 0 ? 'section--soft' : index % 3 === 2 ? 'section--cream' : undefined;
+---
+
+<BaseLayout title={subject.title} description={subject.description} image="/assets/img/researchlibrary.webp" canonical={subject.route}>
+  <PageIntro title={subject.title} subtitle={subject.description} image="/assets/img/researchlibrary.webp" compact/>
+
+  {subject.featured.length > 0 && <section class="section">
+    <div class="reading-container">
+      <SectionHeading title="A Few Places to Begin" description="Representative entry points from across the site."/>
+      <SubjectResourceGroup items={subject.featured} label={`${subject.title} featured resources`} showFamily/>
+    </div>
+  </section>}
+
+  {subject.groups.map((group, index) => <section class:list={['section', sectionClass(index)]}>
+    <div class="reading-container">
+      <SectionHeading title={group.title}/>
+      {group.type === 'writing'
+        ? <EditorialPostList posts={group.items} label={`${subject.title} writing`}/>
+        : <SubjectResourceGroup items={group.items} label={`${subject.title} ${group.title.toLowerCase()}`}/>
+      }
+      {group.type === 'writing' && subject.writing_subject && <p class="subject-group-link"><a href={subject.writing_subject.route}>Explore the complete {subject.writing_subject.title} Writing Subject →</a></p>}
+    </div>
+  </section>)}
+
+  <section class="section">
+    <div class="container">
+      <SubjectLinks subjects={subjects.subjects} current={subject.slug} title="Explore another subject" description="The subject layer is deliberately flat: related ideas overlap rather than nesting cleanly inside one another."/>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .subject-group-link { margin: var(--space-5) 0 0; font: 700 .95rem var(--font-sans); text-align: center; }
+</style>
