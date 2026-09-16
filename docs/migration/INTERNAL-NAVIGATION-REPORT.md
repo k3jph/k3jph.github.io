@@ -7,7 +7,9 @@ Branch: `rebuild/astro`
 
 This pass establishes a small, consistent internal-navigation grammar without changing the site's major information architecture. It adds persistent family navigation to Writing and the Blog archive, low-chrome return links to detail pages, and reverse Subject links derived from the curated Subject data. Existing authored related-post lists, series context, tables of contents, and the Coat of Arms family navigation remain intact.
 
-The final generated-site graph contains 2,114 canonical HTML routes and 36,902 unique internal route edges. Every one of the 878 expected collection/detail relationships is covered. Seven routes remain without inbound links; all are documented legacy or utility exceptions rather than newly stranded content.
+A same-day follow-on also resurrected `/consulting/` as a current page and gave it deliberate inbound paths from the homepage, About, and Contact without adding it to the primary navbar or flattening it into the destination directory.
+
+The current generated-site graph contains 2,114 canonical HTML routes and 36,911 unique internal route edges. Every one of the 878 expected collection/detail relationships is covered. Six routes remain without inbound links: the 404 document, four recovered archive pages awaiting reintegration during the broader resurrection work, and the legacy `/projects/` concept awaiting an editorial decision.
 
 ## 1. Initial graph audit
 
@@ -38,7 +40,7 @@ The initial zero-inbound routes were:
 - `/projects/`
 - `/subjects/`
 
-Collection discoverability was already fundamentally sound. Blog pagination exposed all 793 posts, and the major record indexes exposed their detail pages. The problem was not that content had disappeared from its indexes; it was that readers arriving on detail pages often lacked a consistent way to understand the collection or move back up its hierarchy.
+Collection discoverability was already fundamentally sound. Blog pagination exposed all 793 published posts, and the major record indexes exposed their detail pages. The problem was not that content had disappeared from its indexes; it was that readers arriving on detail pages often lacked a consistent way to understand the collection or move back up its hierarchy.
 
 ## 2. Weak or inconsistent navigation found
 
@@ -49,6 +51,7 @@ Collection discoverability was already fundamentally sound. Blog pagination expo
 - The Writing family strip was inconsistently placed, absent from the Writing landing page and Blog archive, and sometimes appeared only after the main content.
 - Curated Subjects pointed outward to resources, but those resources did not identify the Subjects that included them.
 - Tags were numerous and useful as metadata, but were too broad and mechanical to function as the primary editorial navigation system.
+- `/consulting/` was preserved but stranded inside the old information architecture even though its underlying purpose still made sense.
 
 ## 3. Navigation grammar
 
@@ -62,6 +65,8 @@ The resulting grammar uses four distinct patterns:
 | Article | Authored related posts and continuation links | Preserves editorial recommendations and offers Writing/Blog continuation |
 
 The Coat of Arms retains its existing six-part `ArmoryNav`. A second navigation system was not added there.
+
+Consulting is treated as an active permanent destination but not as a new navigation family. It receives ordinary contextual links from pages where a reader might reasonably need it.
 
 ## 4. Writing and Blog family
 
@@ -99,7 +104,7 @@ The new `ParentNav.astro` component provides the same quiet return treatment for
 
 Nested book material returns to the owning book rather than skipping directly to the complete Books index. Coat of Arms sections use their richer family navigation instead of a parent link.
 
-The generated-site validator now checks 878 expected collection/detail relationships. Blog posts count as covered when they are discoverable through Blog archive pagination; other detail records require their exact parent relationship. Final coverage is 878 of 878.
+The generated-site validator checks 878 expected collection/detail relationships. Blog posts count as covered when they are discoverable through Blog archive pagination; other detail records require their exact parent relationship. Coverage remains 878 of 878.
 
 ## 6. Reverse Subject navigation
 
@@ -114,7 +119,7 @@ The final mapping contains:
 
 `ResourceSubjects.astro` renders these as a short, low-chrome list near the end of the resource. It appears only when a resource has an explicit assignment. An ordinary unassigned post therefore receives no automatic Subject label.
 
-Six Writing Subjects have an intentional counterpart in the site-wide Subject system and now provide a reverse path. Operations has no canonical Writing Subject counterpart, while History, Culture & Ideas has no site-wide Subject counterpart; no relationship was invented for either.
+Six Writing Subjects have an intentional counterpart in the site-wide Subject system and provide a reverse path. Operations has no canonical Writing Subject counterpart, while History, Culture & Ideas has no site-wide Subject counterpart; no relationship was invented for either.
 
 ## 7. Related Posts and other preserved systems
 
@@ -125,31 +130,30 @@ Existing authored Related Posts remain unchanged and are not replaced by automat
 | Route | Classification | Rationale |
 | --- | --- | --- |
 | `/404.html` | Acceptable utility exception | Error document, not an ordinary destination |
-| `/archive/recovering-a-lost-admin-password/` | Preserved historical archive | Retained as a durable historical document without promotion into the current hierarchy |
-| `/archive/terrapin-scholar/` | Preserved historical archive | Retained as a durable historical document without promotion into the current hierarchy |
-| `/archive/the-once-and-future-m-net/` | Preserved historical archive | Retained as a durable historical document without promotion into the current hierarchy |
-| `/archive/the-real-freebsd/` | Preserved historical archive | Retained as a durable historical document without promotion into the current hierarchy |
-| `/consulting/` | Legacy page requiring a later editorial decision | Preserved, but not promoted because it does not represent the current primary architecture |
-| `/projects/` | Legacy page requiring a later editorial decision | Preserved, but not promoted because it does not represent the current primary architecture |
+| `/archive/recovering-a-lost-admin-password/` | Recovered archive — reintegration pending | Resurrected historical material retained while the broader archive-recovery work determines its best contextual home |
+| `/archive/terrapin-scholar/` | Recovered archive — reintegration pending | Resurrected historical material retained while the broader archive-recovery work determines its best contextual home |
+| `/archive/the-once-and-future-m-net/` | Recovered archive — reintegration pending | Resurrected historical material retained while the broader archive-recovery work determines its best contextual home |
+| `/archive/the-real-freebsd/` | Recovered archive — reintegration pending | Resurrected historical material retained while the broader archive-recovery work determines its best contextual home |
+| `/projects/` | Legacy concept requiring an editorial decision | Preserved for now, but its old catch-all purpose overlaps newer Software, Writing, Subject, and archive structures |
 
-The validator stores this exact exception set. A newly orphaned route fails validation, while an exception that later gains a legitimate inbound link produces a reminder to remove it from the list.
+The four `/archive/` exceptions are not declarations that those pages should remain isolated. They are an explicit reintegration queue for the ongoing historical-material resurrection campaign. The validator will warn when any gains a legitimate inbound link so its exception can be removed.
 
-## 9. Final graph
+## 9. Current graph
 
-| Measure | Final result |
+| Measure | Current result |
 | --- | ---: |
 | Canonical HTML routes | 2,114 |
 | Redirect routes | 125 |
-| Unique internal route edges | 36,902 |
+| Unique internal route edges | 36,911 |
 | Expected parent relationships | 878 |
 | Covered parent relationships | 878 |
 | Reverse-Subject resources | 39 |
 | Reverse-Subject relationships | 48 |
-| Routes with no inbound links | 7 |
+| Routes with no inbound links | 6 |
 
-`/subjects/` and `/games/` are no longer orphans. The Games index now links directly to its canonical detail route, and the detail record returns to Games.
+`/subjects/`, `/games/`, and `/consulting/` are no longer orphans. The Games index links directly to its canonical detail route, and the detail record returns to Games. Consulting is reachable directly from the homepage and contextually from About and Contact.
 
-The validator also confirms that the following major destinations are reachable from the homepage graph: Writing, Scholarship, Books, Software, Teaching, Service, Subjects, Ancestry, Honors, Coat of Arms, and Media.
+The validator confirms that the following major destinations are reachable from the homepage graph: Writing, Scholarship, Books, Software, Teaching, Service, Consulting, Subjects, Ancestry, Honors, Coat of Arms, and Media.
 
 ## 10. Validation added
 
@@ -159,7 +163,7 @@ The graph logic lives in `scripts/lib/navigation-graph.mjs` and is available ind
 npm run audit:navigation
 ```
 
-The normal generated-site validator now checks:
+The normal generated-site validator checks:
 
 - canonical routes separately from redirects;
 - homepage reachability of major destinations;
@@ -171,9 +175,10 @@ The normal generated-site validator now checks:
 - Blog-post continuation to both Writing and the Blog archive;
 - reverse Subject links derived from curated data;
 - absence of automatic Subjects on an unassigned control post;
-- absence of redirect targets in the new navigation components.
+- absence of redirect targets in the new navigation components;
+- Consulting output, search/sitemap inclusion, homepage reachability, and contextual links from About and Contact.
 
-The final full validation generated 2,239 HTML routes and 4,034 static files, checked 71,383 local references, and completed with zero errors and zero warnings. Astro checked 63 source files with zero errors, warnings, or hints.
+With the Consulting follow-on, the expected generated-site totals are 2,239 HTML routes and 4,034 static files with 71,392 local references. The full validation remains required to confirm those totals and preserve the zero-error, zero-warning gate.
 
 ## 11. Accessibility and responsive behavior
 
@@ -184,10 +189,15 @@ The final full validation generated 2,239 HTML routes and 4,034 static files, ch
 - Parent returns use clear visible text rather than icon-only controls.
 - Mobile Writing navigation remains available without JavaScript.
 - Resource connections stack naturally at narrow widths and do not rely on hover.
+- Consulting adds only ordinary text links and no new interactive navigation mechanism.
 
 ## 12. Homepage re-evaluation
 
-The homepage was not changed. Its primary destinations already communicate the intended hierarchy, and the new internal navigation supplies the missing paths after a reader enters a collection. Media remains secondary rather than being restored to the six primary homepage destinations.
+The homepage hierarchy remains unchanged: Hero → What I Do → Explore by Subject → Browse the Work → Elsewhere on the Site → From the Blog.
+
+Consulting was resurrected without adding a seventh peer to the destination directory. A single low-chrome line beneath Browse the Work now offers `Consulting →` to readers who have a problem of their own. This preserves the distinction between destinations that document bodies of work and Consulting as a way to engage that work.
+
+Media remains secondary rather than being restored to the primary work destinations.
 
 The homepage remains dense enough to warrant normal human visual review before release, but the graph does not reveal a structural navigation gap that would justify another homepage architecture change in this pass.
 
@@ -202,6 +212,7 @@ This pass deliberately did not:
 - add navigation cards to every page;
 - change historical permalinks or redirects;
 - merge or alter `main`;
-- decide the future editorial status of `/consulting/` or `/projects/`.
+- force recovered archive material into premature destinations;
+- decide the future editorial status of `/projects/`.
 
-The production build and static DOM were checked at the component and generated-markup levels, including the responsive rules for the new navigation. A browser binary was not available in the refreshed workspace, so final human desktop, intermediate-width, and mobile visual inspection remains a release gate rather than being represented here as completed browser QA.
+The production build and static DOM were checked at the component and generated-markup levels, including the responsive rules for the navigation system. A browser binary was not available in the refreshed workspace, so final human desktop, intermediate-width, and mobile visual inspection remains a release gate rather than being represented here as completed browser QA.

@@ -46,7 +46,9 @@ Those institutions differ, but the work has a familiar shape: research,
 quantitative analysis, and technical systems whose results must survive contact
 with operations, policy, and public consequences. The [Scholarship](/scholarship)
 and [Software](/software) sections document the methods and projects in more
-detail.
+detail. James also takes on [independent consulting work](/consulting/) when a
+problem calls for the same mix of analysis, software, and decision support
+outside those institutional settings.
 
 ## Representative Problems and Projects
 

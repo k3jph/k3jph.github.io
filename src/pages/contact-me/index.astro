@@ -6,6 +6,7 @@ import PageIntro from '../../components/PageIntro.astro';
   <PageIntro title="Contact Me" subtitle="Send a note." image="/assets/img/heading-martlets.webp" compact/>
   <section class="section section--soft">
     <div class="reading-container">
+      <p class="contact-context">If you're reaching out about a project, the <a href="/consulting/">Consulting</a> page describes the kinds of problems I take on.</p>
       <form class="contact-page-form" action="https://formspree.io/xzbawrpg" method="POST" aria-label="Contact James Howard">
         <label for="contact-name">Your Full Name</label>
         <input id="contact-name" type="text" name="name" autocomplete="name">
@@ -20,4 +21,4 @@ import PageIntro from '../../components/PageIntro.astro';
     </div>
   </section>
 </BaseLayout>
-<style>.contact-page-form{display:grid;gap:.6rem;padding:var(--space-5);border-top:3px solid var(--color-gold-500);background:#fff;box-shadow:var(--shadow-sm)}.contact-page-form button{margin-top:1rem}</style>
+<style>.contact-context{margin:0 0 var(--space-4);font-size:1.05rem}.contact-page-form{display:grid;gap:.6rem;padding:var(--space-5);border-top:3px solid var(--color-gold-500);background:#fff;box-shadow:var(--shadow-sm)}.contact-page-form button{margin-top:1rem}</style>

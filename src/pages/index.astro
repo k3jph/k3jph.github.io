@@ -101,6 +101,7 @@ const personalDestinations = [
     <div class="container">
       <SectionHeading title="Browse the Work" description="Choose the kind of record you want to explore." variant="light"/>
       <DestinationDirectory entries={workDestinations} variant="dark"/>
+      <p class="home-consulting">Have a complicated problem of your own? <a href="/consulting/">Consulting →</a></p>
     </div>
   </section>
 
@@ -134,6 +135,9 @@ const personalDestinations = [
   .home-grid :global(.heading-divider) { margin-top: .1rem; }
   .home-grid p { max-width: 32rem; margin: .1rem auto 0; color: #fff; font-size: clamp(1.05rem, 1.8vw, 1.16rem); line-height: 1.55; text-align: center; text-wrap: balance; }
   .lead { font-size: 1.3rem; }
+  .home-consulting { margin: var(--space-5) 0 0; color: rgb(255 255 255 / 82%); font: 700 1rem var(--font-sans); text-align: center; }
+  .home-consulting a { color: var(--color-gold-300); }
+  .home-consulting a:hover, .home-consulting a:focus-visible { color: #fff; }
   .home-blog-links { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-3) var(--space-5); margin-top: var(--space-5); font: 700 1rem var(--font-sans); }
   @media (max-width: 48rem) {
     .home-grid { grid-template-columns: 1fr; gap: 2rem; }

@@ -40,7 +40,7 @@ export function classifyNavigationRoute(route) {
   if (route.startsWith('/books/')) return 'book detail';
   if (route === '/service/') return 'primary destination';
   if (route.startsWith('/service/')) return 'service detail';
-  if (['/about-me/', '/scholarship/', '/teaching/', '/software/', '/media/', '/contact-me/'].includes(route)) return 'primary destination';
+  if (['/about-me/', '/scholarship/', '/teaching/', '/software/', '/media/', '/consulting/', '/contact-me/'].includes(route)) return 'primary destination';
   return 'other permanent page';
 }
 
