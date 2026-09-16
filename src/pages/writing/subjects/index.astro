@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import PageIntro from '../../../components/PageIntro.astro';
-import SectionHeading from '../../../components/SectionHeading.astro';
 import WritingDirectory from '../../../components/WritingDirectory.astro';
 import WritingLinks from '../../../components/WritingLinks.astro';
 import writing from '../../../../.generated/data/writing.json';
@@ -11,7 +10,6 @@ import writing from '../../../../.generated/data/writing.json';
   <PageIntro title="Subjects" subtitle="Curated paths through substantial bodies of writing." image="/assets/img/blog.webp" compact/>
   <section class="section">
     <div class="container">
-      <SectionHeading title="Writing Subjects" description="Tags record the metadata that accumulated around individual posts. Subjects identify bodies of work worth exploring together."/>
       <WritingDirectory entries={writing.subjects} kind="subject"/>
       <WritingLinks current="subjects"/>
     </div>
