@@ -5,6 +5,7 @@ import SectionHeading from '../../components/SectionHeading.astro';
 import EditorialPostList from '../../components/EditorialPostList.astro';
 import SubjectResourceGroup from '../../components/SubjectResourceGroup.astro';
 import SubjectLinks from '../../components/SubjectLinks.astro';
+import ParentNav from '../../components/ParentNav.astro';
 import subjects from '../../../.generated/data/subjects.json';
 
 export function getStaticPaths() {
@@ -39,10 +40,12 @@ const sectionClass = (index: number) => index % 3 === 0 ? 'section--soft' : inde
   <section class="section">
     <div class="container">
       <SubjectLinks subjects={subjects.subjects} current={subject.slug} title="Explore another subject" description="The subject layer is deliberately flat: related ideas overlap rather than nesting cleanly inside one another."/>
+      <div class="subject-parent"><ParentNav href="/subjects/" label="All Subjects"/></div>
     </div>
   </section>
 </BaseLayout>
 
 <style>
   .subject-group-link { margin: var(--space-5) 0 0; font: 700 .95rem var(--font-sans); text-align: center; }
+  .subject-parent { margin-top: var(--space-5); text-align: center; }
 </style>

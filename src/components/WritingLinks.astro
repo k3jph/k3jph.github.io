@@ -11,12 +11,18 @@ const links = [
 ---
 
 <nav class="writing-links" aria-label="Writing navigation">
-  {links.map((link) => current === link.key
-    ? <span aria-current="page">{link.label}</span>
-    : <a href={sitePath(link.route)}>{link.label}</a>)}
+  <div class="container">
+    <ul>{links.map((link) => <li><a href={sitePath(link.route)} aria-current={current === link.key ? 'page' : undefined}>{link.label}</a></li>)}</ul>
+  </div>
 </nav>
 
 <style>
-  .writing-links { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-2) var(--space-4); padding: var(--space-5) 0; font: 700 .9rem var(--font-sans); }
-  .writing-links span { color: var(--color-slate-700); }
+  .writing-links { overflow-x: auto; border-block: 1px solid var(--color-slate-150); background: var(--color-slate-075); font: 700 .9rem var(--font-sans); }
+  .writing-links ul { display: flex; justify-content: center; gap: var(--space-2) var(--space-4); width: max-content; min-width: 100%; margin: 0; padding: var(--space-3) 0; list-style: none; white-space: nowrap; }
+  .writing-links a { display: block; padding: .35rem 0; color: var(--color-navy-900); text-decoration-color: transparent; }
+  .writing-links a:hover, .writing-links a:focus-visible, .writing-links a[aria-current='page'] { color: var(--color-gold-700); text-decoration-color: currentColor; text-decoration-thickness: .1em; text-underline-offset: .35em; }
+  @media (max-width: 48rem) {
+    .writing-links .container { width: max-content; min-width: 100%; padding-inline: 1rem; }
+    .writing-links ul { justify-content: flex-start; }
+  }
 </style>

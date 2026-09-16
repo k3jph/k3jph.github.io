@@ -1,0 +1,20 @@
+---
+import { sitePath } from '../lib/site';
+
+interface Props {
+  href: string;
+  label: string;
+}
+
+const { href, label } = Astro.props as Props;
+---
+
+<nav class="parent-nav" aria-label={`Return to ${label}`}>
+  <a href={sitePath(href)}>← {label}</a>
+</nav>
+
+<style>
+  .parent-nav { font: 700 1rem var(--font-sans); }
+  .parent-nav a { color: var(--color-navy-900); text-decoration-color: var(--color-gold-500); }
+  .parent-nav a:hover, .parent-nav a:focus-visible { color: var(--color-gold-700); text-decoration-thickness: .12em; }
+</style>

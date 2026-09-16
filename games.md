@@ -13,7 +13,7 @@ menu-label:     Games
 
 
 
-:::figure{src="/assets/img/GURPS_Disasters_Hurricane.webp" alt="GURPS Disasters: Hurricane gamebook cover" align="right" width="25%" link="/gurps-hurricane"}
+:::figure{src="/assets/img/GURPS_Disasters_Hurricane.webp" alt="GURPS Disasters: Hurricane gamebook cover" align="right" width="25%" link="/games/gurps-disasters-hurricane/"}
 
 :::
 

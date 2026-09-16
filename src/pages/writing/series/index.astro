@@ -9,11 +9,11 @@ import writing from '../../../../.generated/data/writing.json';
 
 <BaseLayout title="Writing Series" description="Connected essays arranged in their intended reading order." image="/assets/img/blog.webp" canonical="/writing/series/">
   <PageIntro title="Series" subtitle="Connected essays arranged in their intended reading order." image="/assets/img/blog.webp" compact/>
+  <WritingLinks current="series"/>
   <section class="section">
     <div class="container">
       <SectionHeading title="Writing Series" description="A series has continuity, an order, and enough substance to become a larger work. Shared subject matter alone is not enough."/>
       <WritingDirectory entries={writing.series} kind="series"/>
-      <WritingLinks current="series"/>
     </div>
   </section>
 </BaseLayout>

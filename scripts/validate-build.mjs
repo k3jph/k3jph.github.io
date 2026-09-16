@@ -1,5 +1,6 @@
 import { readFile, readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
+import { buildNavigationGraph, classifyNavigationRoute, parentRouteFor } from './lib/navigation-graph.mjs';
 
 const root = process.cwd();
 const dist = path.join(root, 'dist');
@@ -18,6 +19,7 @@ const htmlFiles = files.filter((file) => file.endsWith('.html'));
 const relativeFiles = new Set(files.map((file) => `/${path.relative(dist, file).split(path.sep).join('/')}`));
 const generatedWriting = JSON.parse(await readFile(path.join(root, '.generated/data/writing.json'), 'utf8'));
 const generatedSubjects = JSON.parse(await readFile(path.join(root, '.generated/data/subjects.json'), 'utf8'));
+const navigationGraph = await buildNavigationGraph(dist);
 const failures = [];
 const warnings = [];
 let references = 0;
@@ -268,8 +270,92 @@ for (const [category, expected] of Object.entries({ interviews_appearances: 8, q
 }
 for (const item of mediaRecords) for (const field of ['id', 'date', 'title', 'outlet', 'category']) if (!item[field]) failures.push(`media archive: ${item.id ?? 'unknown'} missing ${field}`);
 
+const expectedReachableRoutes = ['/writing/', '/scholarship/', '/books/', '/software/', '/teaching/', '/service/', '/subjects/', '/ancestry/', '/honors/', '/coat-of-arms/', '/media/'];
+for (const route of expectedReachableRoutes) if (!navigationGraph.reachable.has(route)) failures.push(`navigation graph: ${route} is not reachable from the homepage`);
+
+const allowedZeroInbound = new Set([
+  '/404.html',
+  '/archive/recovering-a-lost-admin-password/',
+  '/archive/terrapin-scholar/',
+  '/archive/the-once-and-future-m-net/',
+  '/archive/the-real-freebsd/',
+  '/consulting/',
+  '/projects/',
+]);
+for (const route of navigationGraph.zeroInbound) if (!allowedZeroInbound.has(route)) failures.push(`navigation graph: unexplained zero-inbound route ${route}`);
+for (const route of allowedZeroInbound) if (!navigationGraph.zeroInbound.includes(route)) warnings.push(`navigation graph: documented zero-inbound exception is now linked and should be reclassified: ${route}`);
+for (const item of navigationGraph.parentCoverage) if (!item.covered) failures.push(`navigation graph: ${item.parent} does not expose detail route ${item.route}`);
+
+const writingFamilyRoutes = [
+  ...generatedWriting.routes,
+  ...[...navigationGraph.routes].filter((route) => classifyNavigationRoute(route) === 'Blog archive/pagination'),
+];
+for (const route of writingFamilyRoutes) {
+  const html = navigationGraph.documents.get(route);
+  if (!html?.includes('class="writing-links"')) failures.push(`Writing family: ${route} is missing shared navigation`);
+  for (const target of ['/writing/', '/writing/subjects/', '/writing/series/', '/blog/']) if (!html?.includes(`href="${target}"`)) failures.push(`Writing family: ${route} is missing ${target}`);
+  if (!html?.includes('aria-current="page"')) failures.push(`Writing family: ${route} has no current-page state`);
+}
+
+const armoryRoutes = ['/coat-of-arms/', '/coat-of-arms/arms/', '/coat-of-arms/emblazonments/', '/coat-of-arms/insignia/', '/coat-of-arms/tartan/', '/coat-of-arms/records/'];
+for (const route of armoryRoutes) {
+  const html = navigationGraph.documents.get(route);
+  if (!html?.includes('class="armory-nav"')) failures.push(`Coat of Arms family: ${route} is missing ArmoryNav`);
+  for (const target of armoryRoutes) if (!html?.includes(`href="${target}"`)) failures.push(`Coat of Arms family: ${route} is missing ${target}`);
+}
+
+for (const route of navigationGraph.routes) {
+  const parent = parentRouteFor(route);
+  if (!parent) continue;
+  const html = navigationGraph.documents.get(route);
+  const classification = classifyNavigationRoute(route);
+  if (classification === 'Blog post') {
+    if (!html.includes('class="post-continuation"') || !html.includes('href="/writing/"') || !html.includes('href="/blog/"')) failures.push(`Blog navigation: ${route} lacks Writing and Blog continuation`);
+  } else if (classification === 'Coat of Arms section') {
+    if (!html.includes('class="armory-nav"')) failures.push(`parent navigation: ${route} lacks Coat of Arms family navigation`);
+  } else if (classification === 'Writing Subject' || classification === 'Writing Series') {
+    if (!html.includes('class="writing-links"')) failures.push(`parent navigation: ${route} lacks Writing family navigation`);
+  } else if (!html.includes('class="parent-nav"') || !html.includes(`href="${parent}"`)) {
+    failures.push(`parent navigation: ${route} does not return to ${parent}`);
+  }
+  if (!navigationGraph.routes.has(parent)) failures.push(`parent navigation: ${route} targets missing ${parent}`);
+}
+
+const reverseSubjects = new Map();
+for (const subject of generatedSubjects.subjects) {
+  for (const group of subject.groups) {
+    for (const item of group.items) {
+      const route = item.route ?? (item.href?.startsWith('/') && !item.href.includes('#') ? item.href : undefined);
+      if (!route) continue;
+      if (!reverseSubjects.has(route)) reverseSubjects.set(route, []);
+      reverseSubjects.get(route).push(subject);
+    }
+  }
+  if (subject.writing_subject) {
+    const html = navigationGraph.documents.get(subject.writing_subject.route);
+    if (!html?.includes('class="resource-subjects"') || !html.includes(`href="${subject.route}"`)) failures.push(`Writing Subject: ${subject.writing_subject.route} does not link to ${subject.route}`);
+  }
+}
+for (const [route, subjects] of reverseSubjects) {
+  const html = navigationGraph.documents.get(route);
+  if (!html) failures.push(`reverse Subjects: missing canonical resource route ${route}`);
+  if (!html?.includes('class="resource-subjects"')) failures.push(`reverse Subjects: ${route} lacks ResourceSubjects`);
+  for (const subject of subjects) if (!html?.includes(`href="${subject.route}"`)) failures.push(`reverse Subjects: ${route} does not link to ${subject.route}`);
+}
+if (ordinaryPost.includes('class="resource-subjects"')) failures.push('reverse Subjects: unassigned ordinary post received Subject navigation');
+
+const redirectTargets = new Set(routeLedger.redirects.map((item) => item.from));
+for (const [route, html] of navigationGraph.documents) {
+  for (const nav of html.matchAll(/<nav\b[^>]*class="[^"]*\b(?:parent-nav|resource-subjects|writing-links|armory-nav|post-continuation)\b[^"]*"[\s\S]*?<\/nav>/g)) {
+    for (const link of nav[0].matchAll(/href="([^"]+)"/g)) {
+      const target = link[1].split(/[?#]/)[0];
+      if (redirectTargets.has(target)) failures.push(`navigation normalization: ${route} links to redirect ${target}`);
+    }
+  }
+}
+
 const unique = [...new Set(failures)];
-console.log(JSON.stringify({ html_routes: htmlFiles.length, redirect_routes: redirectRoutes, static_files: files.length, local_references: references, errors: unique.length, warnings: warnings.length }, null, 2));
+console.log(JSON.stringify({ html_routes: htmlFiles.length, canonical_html_routes: navigationGraph.routes.size, redirect_routes: redirectRoutes, static_files: files.length, local_references: references, internal_route_edges: navigationGraph.edgeCount, canonical_parent_coverage: `${navigationGraph.parentCoverage.filter((item) => item.covered).length}/${navigationGraph.parentCoverage.length}`, reverse_subject_resources: reverseSubjects.size, reverse_subject_relationships: [...reverseSubjects.values()].reduce((total, subjects) => total + subjects.length, 0), permanent_page_orphans: navigationGraph.zeroInbound.length, errors: unique.length, warnings: warnings.length }, null, 2));
 if (warnings.length) console.warn(warnings.slice(0, 20).join('\n'));
 if (unique.length) {
   console.error(unique.slice(0, 100).join('\n'));

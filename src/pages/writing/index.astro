@@ -6,6 +6,7 @@ import PostCard from '../../components/PostCard.astro';
 import EditorialPostList from '../../components/EditorialPostList.astro';
 import WritingDirectory from '../../components/WritingDirectory.astro';
 import SubjectLinks from '../../components/SubjectLinks.astro';
+import WritingLinks from '../../components/WritingLinks.astro';
 import writing from '../../../.generated/data/writing.json';
 import subjects from '../../../.generated/data/subjects.json';
 
@@ -16,6 +17,7 @@ const description = 'Essays, explanations, arguments, and occasional excursions 
 
 <BaseLayout title="Writing" description={description} image="/assets/img/blog.webp" canonical="/writing/">
   <PageIntro title="Writing" subtitle={description} image="/assets/img/blog.webp"/>
+  <WritingLinks current="writing"/>
 
   <section class="section">
     <div class="reading-container">

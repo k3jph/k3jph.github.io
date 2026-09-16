@@ -15,11 +15,11 @@ const { series } = Astro.props;
 
 <BaseLayout title={series.title} description={series.description} image="/assets/img/blog.webp" canonical={series.route}>
   <PageIntro title={series.title} subtitle={series.description} image="/assets/img/blog.webp" compact/>
+  <WritingLinks current="series"/>
   <section class="section">
     <div class="reading-container">
       <SectionHeading title="Reading Order" eyebrow={`${series.part_count} parts`}/>
       <EditorialPostList posts={series.posts} ordered label={`${series.title} reading order`}/>
-      <WritingLinks current="series"/>
     </div>
   </section>
 </BaseLayout>

@@ -1,0 +1,29 @@
+---
+import { sitePath } from '../lib/site';
+
+interface Props {
+  subjects: any[];
+  title?: string;
+}
+
+const { subjects, title = subjects.length === 1 ? 'Related subject' : 'Related subjects' } = Astro.props as Props;
+---
+
+{subjects.length > 0 && <nav class="resource-subjects" aria-label={title}>
+  <h2>{title}</h2>
+  <ul>
+    {subjects.map((subject) => <li><a href={sitePath(subject.route)}>{subject.title}</a></li>)}
+  </ul>
+</nav>}
+
+<style>
+  .resource-subjects h2 { margin: 0; font-size: 1.15rem; }
+  .resource-subjects ul { display: flex; flex-wrap: wrap; gap: .35rem .8rem; margin: var(--space-2) 0 0; padding: 0; list-style: none; font: 700 .92rem/1.5 var(--font-sans); }
+  .resource-subjects li + li::before { margin-right: .8rem; color: var(--color-gold-500); content: '·'; }
+  .resource-subjects a { color: var(--color-navy-900); text-decoration-color: var(--color-gold-500); }
+  .resource-subjects a:hover, .resource-subjects a:focus-visible { color: var(--color-gold-700); text-decoration-thickness: .12em; }
+  @media (max-width: 36rem) {
+    .resource-subjects ul { display: grid; gap: var(--space-2); }
+    .resource-subjects li + li::before { content: none; }
+  }
+</style>
