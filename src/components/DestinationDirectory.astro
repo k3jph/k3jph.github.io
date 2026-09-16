@@ -1,0 +1,43 @@
+---
+interface Destination {
+  title: string;
+  href: string;
+  description: string;
+}
+
+interface Props {
+  entries: Destination[];
+  variant?: 'light' | 'dark' | 'quiet';
+}
+
+const { entries, variant = 'light' } = Astro.props as Props;
+---
+
+<ul class:list={['destination-directory', `destination-directory--${variant}`]}>
+  {entries.map((entry) => (
+    <li>
+      <h3>
+        <a href={entry.href}>{entry.title}<span aria-hidden="true"> →</span></a>
+      </h3>
+      <p>{entry.description}</p>
+    </li>
+  ))}
+</ul>
+
+<style>
+  .destination-directory { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-5) var(--space-6); margin: var(--space-5) 0 0; padding: 0; list-style: none; }
+  .destination-directory li { position: relative; padding-left: var(--space-4); }
+  .destination-directory li::before { position: absolute; top: .25rem; bottom: .25rem; left: 0; width: 3px; background: var(--color-gold-500); content: ''; }
+  .destination-directory h3 { margin: 0; font-size: clamp(1.25rem, 2vw, 1.55rem); }
+  .destination-directory h3 a { color: var(--color-navy-900); text-decoration-color: var(--color-gold-500); }
+  .destination-directory h3 a:hover, .destination-directory h3 a:focus-visible { color: var(--color-gold-700); text-decoration-thickness: .12em; }
+  .destination-directory p { margin: var(--space-2) 0 0; line-height: 1.6; }
+  .destination-directory--dark h3 a { color: #fff; text-decoration-color: var(--color-gold-300); }
+  .destination-directory--dark h3 a:hover, .destination-directory--dark h3 a:focus-visible { color: var(--color-gold-300); }
+  .destination-directory--dark p { color: rgb(255 255 255 / 82%); }
+  .destination-directory--quiet li { padding-left: 0; }
+  .destination-directory--quiet li::before { display: none; }
+  @media (max-width: 48rem) {
+    .destination-directory { grid-template-columns: 1fr; gap: var(--space-4); }
+  }
+</style>

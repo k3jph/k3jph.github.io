@@ -1,14 +1,145 @@
 ---
 import { getCollection } from 'astro:content';
-import BaseLayout from '../layouts/BaseLayout.astro'; import PostCard from '../components/PostCard.astro'; import SectionHeading from '../components/SectionHeading.astro'; import JHCard from '../components/JHCard.astro'; import HeadingDivider from '../components/HeadingDivider.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import DestinationDirectory from '../components/DestinationDirectory.astro';
+import HeadingDivider from '../components/HeadingDivider.astro';
+import PostCard from '../components/PostCard.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import SubjectDirectory from '../components/SubjectDirectory.astro';
 import { isPublished } from '../lib/site';
-const posts=(await getCollection('blog')).filter(p=>isPublished(p.data)).sort((a,b)=>+b.data.date-+a.data.date).slice(0,3);
-const worlds=[['Scholarship','/scholarship/','Research and writing across mathematics, operations research, technology, and public policy.'],['Teaching','/teaching/','Courses, instructional work, and a documentary syllabus archive.'],['Service','/service/','Public service, state emergency operations, nonprofit governance, and editorial work.'],['Software','/software/','Open-source packages and experiments that turn methods into working tools.'],['Ancestry','/ancestry/','Documented lineage research, certificates, societies, people, and places.'],['Books','/books/','Academic and policy books where technical problems get room to breathe.']];
+import subjects from '../../.generated/data/subjects.json';
+
+const posts = (await getCollection('blog'))
+  .filter((post) => isPublished(post.data))
+  .sort((a, b) => +b.data.date - +a.data.date)
+  .slice(0, 3);
+
+const workDestinations = [
+  {
+    title: 'Writing',
+    href: '/writing/',
+    description: 'Selected essays, subjects, and series drawn from the complete Blog archive.',
+  },
+  {
+    title: 'Scholarship',
+    href: '/scholarship/',
+    description: 'Scholarly work and the complete research record.',
+  },
+  {
+    title: 'Books',
+    href: '/books/',
+    description: 'Long-form work in mathematics, policy, operations research, and teaching.',
+  },
+  {
+    title: 'Software',
+    href: '/software/',
+    description: 'Open-source projects and working tools built around difficult problems.',
+  },
+  {
+    title: 'Teaching',
+    href: '/teaching/',
+    description: 'Courses, instructional work, and a documentary syllabus archive.',
+  },
+  {
+    title: 'Service',
+    href: '/service/',
+    description: 'Public work, professional stewardship, and institutional responsibility.',
+  },
+];
+
+const personalDestinations = [
+  {
+    title: 'Ancestry',
+    href: '/ancestry/',
+    description: 'Documented lineages, people, places, and the evidence connecting them.',
+  },
+  {
+    title: 'Honors',
+    href: '/honors/',
+    description: 'Awards, appointments, decorations, and other recognition.',
+  },
+  {
+    title: 'Coat of Arms',
+    href: '/coat-of-arms/',
+    description: 'The grant, insignia, emblazonments, tartan, and documentary record.',
+  },
+  {
+    title: 'Media Archive',
+    href: '/media/',
+    description: 'Interviews, quotations, profiles, and appearances collected over the years.',
+  },
+];
 ---
+
 <BaseLayout title="Home" profilePage>
-  <section class="home-hero"><div class="container home-grid"><img src="/assets/img/identity/jameshoward-arms.svg" alt="James Howard coat of arms"><div class="home-hero__identity"><h1><span class="visually-hidden">James Howard</span><img src="/assets/img/identity/jameshoward-wordmark.svg" alt=""></h1><HeadingDivider variant="light" compact/><p>A Mathematician, a Different Kind of Mathematician, and a Statistician</p></div></div></section>
-  <section class="section section--navy"><div class="reading-container text-center"><SectionHeading title="What I Do" variant="light"/><p class="lead">I use mathematics, statistics, software, and artificial intelligence to understand complicated systems—and explain what they mean when people and institutions have to make decisions.</p></div></section>
-  <section class="section"><div class="container"><SectionHeading eyebrow="The working archive" title="Explore My World"/><div class="record-grid">{worlds.map(([title,url,copy])=><JHCard variant="featured"><h3><a href={url}>{title}</a></h3><p>{copy}</p><a href={url}>Explore →</a></JHCard>)}</div></div></section>
-  <section class="section section--soft"><div class="container"><SectionHeading eyebrow="Recently published" title="From the Blog"/><div class="card-grid">{posts.map(post=><PostCard post={post}/>)}</div><p class="text-center"><a class="button" href="/blog/">Browse the archive</a></p></div></section>
+  <section class="home-hero">
+    <div class="container home-grid">
+      <img src="/assets/img/identity/jameshoward-arms.svg" alt="James Howard coat of arms">
+      <div class="home-hero__identity">
+        <h1><span class="visually-hidden">James Howard</span><img src="/assets/img/identity/jameshoward-wordmark.svg" alt=""></h1>
+        <HeadingDivider variant="light" compact/>
+        <p>A Mathematician, a Different Kind of Mathematician, and a Statistician</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--navy">
+    <div class="reading-container text-center">
+      <SectionHeading title="What I Do" variant="light"/>
+      <p class="lead">I use mathematics, statistics, software, and artificial intelligence to understand complicated systems—and explain what they mean when people and institutions have to make decisions.</p>
+    </div>
+  </section>
+
+  <section class="section section--cream" data-home-section="subjects">
+    <div class="container">
+      <SectionHeading title="Explore by Subject" description="Follow the ideas across writing, scholarship, books, software, teaching, and service."/>
+      <SubjectDirectory subjects={subjects.subjects} heading="h3" variant="compact"/>
+    </div>
+  </section>
+
+  <section class="section section--navy" data-home-section="work">
+    <div class="container">
+      <SectionHeading title="Browse the Work" description="Choose the kind of record you want to explore." variant="light"/>
+      <DestinationDirectory entries={workDestinations} variant="dark"/>
+    </div>
+  </section>
+
+  <section class="section" data-home-section="elsewhere">
+    <div class="container">
+      <SectionHeading title="Elsewhere on the Site" description="Personal archives, historical records, and a few less conventional corners."/>
+      <DestinationDirectory entries={personalDestinations} variant="quiet"/>
+    </div>
+  </section>
+
+  <section class="section section--soft" data-home-section="blog">
+    <div class="container">
+      <SectionHeading title="From the Blog" description="The latest entries from the complete chronological archive."/>
+      <div class="card-grid">{posts.map((post) => <PostCard post={post}/>)}</div>
+      <nav class="home-blog-links" aria-label="Writing and Blog">
+        <a href="/writing/">Explore Writing →</a>
+        <a href="/blog/">Browse the complete Blog Archive →</a>
+      </nav>
+    </div>
+  </section>
 </BaseLayout>
-<style>.home-hero{position:relative;display:grid;min-height:100vh;align-items:center;padding:7rem 0 4rem;background:#303030 url('/assets/img/header-home.webp') center/cover}.home-hero::before{position:absolute;inset:0;background:var(--hero-overlay);content:''}.home-grid{position:relative;display:grid;grid-template-columns:minmax(15rem,27.5rem) minmax(18rem,35rem);align-items:center;justify-content:center;gap:clamp(3rem,8vw,8rem)}.home-grid>img{max-height:62vh;margin:auto;filter:drop-shadow(0 12px 25px rgb(0 0 0/.2))}.home-hero__identity{display:grid;gap:1.15rem}.home-grid h1{margin:0}.home-grid h1 img{display:block;width:94%;margin-inline:auto;filter:brightness(0) invert(1)}.home-grid :global(.heading-divider){margin-top:.15rem}.home-grid p{max-width:34rem;margin:.15rem auto 0;color:#fff;font-size:clamp(1.08rem,2vw,1.22rem);line-height:1.55;text-align:center;text-wrap:balance}.lead{font-size:1.3rem}@media(max-width:48rem){.home-grid{grid-template-columns:1fr;gap:2rem}.home-grid>img{width:42vw;max-height:38vh}.home-hero{min-height:100svh}.home-hero__identity{gap:.75rem}}</style>
+
+<style>
+  .home-hero { position: relative; display: grid; min-height: 100vh; align-items: center; padding: 7rem 0 4rem; background: #303030 url('/assets/img/header-home.webp') center/cover; }
+  .home-hero::before { position: absolute; inset: 0; background: var(--hero-overlay); content: ''; }
+  .home-grid { position: relative; display: grid; grid-template-columns: minmax(14rem, 25rem) minmax(18rem, 32rem); align-items: center; justify-content: center; gap: clamp(2.5rem, 7vw, 7rem); }
+  .home-grid > img { max-height: 56vh; margin: auto; filter: drop-shadow(0 12px 25px rgb(0 0 0 / 20%)); }
+  .home-hero__identity { display: grid; gap: 1rem; }
+  .home-grid h1 { margin: 0; }
+  .home-grid h1 img { display: block; width: 92%; margin-inline: auto; filter: brightness(0) invert(1); }
+  .home-grid :global(.heading-divider) { margin-top: .1rem; }
+  .home-grid p { max-width: 32rem; margin: .1rem auto 0; color: #fff; font-size: clamp(1.05rem, 1.8vw, 1.16rem); line-height: 1.55; text-align: center; text-wrap: balance; }
+  .lead { font-size: 1.3rem; }
+  .home-blog-links { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-3) var(--space-5); margin-top: var(--space-5); font: 700 1rem var(--font-sans); }
+  @media (max-width: 48rem) {
+    .home-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .home-grid > img { width: min(40vw, 12rem); max-height: 34vh; }
+    .home-hero { min-height: 100svh; }
+    .home-hero__identity { gap: .75rem; }
+    .home-blog-links { align-items: center; flex-direction: column; text-align: center; }
+  }
+</style>

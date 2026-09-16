@@ -131,6 +131,22 @@ const blogIndex = await readFile(path.join(dist, 'blog/index.html'), 'utf8');
 const firstPageCards = [...blogIndex.matchAll(/class="[^"]*\bpost-card\b/g)].length;
 if (firstPageCards !== 12) failures.push(`/blog/: expected 12 archive cards, found ${firstPageCards}`);
 
+const homepage = await readFile(path.join(dist, 'index.html'), 'utf8');
+const homepageSections = ['subjects', 'work', 'elsewhere', 'blog'].map((section) => homepage.indexOf(`data-home-section="${section}"`));
+if (homepageSections.some((position) => position < 0) || homepageSections.some((position, index) => index > 0 && position <= homepageSections[index - 1])) failures.push('homepage: discovery sections are missing or out of order');
+if (homepage.includes('Explore My World') || homepage.includes('The working archive') || homepage.includes('jh-card--featured')) failures.push('homepage: legacy six-card destination architecture remains');
+for (const subject of generatedSubjects.subjects) if (!homepage.includes(`href="${subject.route}"`)) failures.push(`homepage: missing canonical Subject ${subject.route}`);
+for (const route of ['/writing/', '/scholarship/', '/books/', '/software/', '/teaching/', '/service/', '/ancestry/', '/honors/', '/coat-of-arms/', '/media/', '/blog/']) {
+  if (!homepage.includes(`href="${route}"`)) failures.push(`homepage: missing destination ${route}`);
+}
+const homepagePostRoutes = [...homepage.matchAll(/class="card-media" href="([^"]+)"/g)].map((match) => match[1]);
+if (homepagePostRoutes.length !== 3) failures.push(`homepage: expected 3 recent Blog posts, found ${homepagePostRoutes.length}`);
+for (const route of homepagePostRoutes) if (!searchRecords.some((record) => record.type === 'Blog' && record.url === route)) failures.push(`homepage: recent post is not in the Blog collection: ${route}`);
+const homepageJsonLd = [...homepage.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((match) => {
+  try { return JSON.parse(match[1]); } catch { return null; }
+});
+if (!homepageJsonLd.some((value) => value?.['@type'] === 'Person' && value.name && value.url)) failures.push('homepage: missing valid identity structured data');
+
 const aiSeries = generatedWriting.series.find((series) => series.slug === 'history-of-artificial-intelligence');
 if (!aiSeries || aiSeries.part_count !== 11) failures.push('Writing data: AI-history series must contain 11 ordered parts');
 const aiSeriesHtml = await readFile(path.join(dist, 'writing/series/history-of-artificial-intelligence/index.html'), 'utf8');
@@ -147,7 +163,7 @@ const ordinaryPost = await readFile(path.join(dist, '2016/07/03/runaway-trolley-
 if (ordinaryPost.includes('class="series-context"')) failures.push('ordinary non-series post rendered series context');
 
 const subjectIndex = await readFile(path.join(dist, 'subjects/index.html'), 'utf8');
-if (!subjectIndex.includes('class="subject-directory"') || !subjectIndex.includes('Ways into the site by idea rather than by document type.')) failures.push('/subjects/: incomplete Subject directory');
+if (!/class="[^"]*\bsubject-directory\b/.test(subjectIndex) || !subjectIndex.includes('Ways into the site by idea rather than by document type.')) failures.push('/subjects/: incomplete Subject directory');
 for (const subject of generatedSubjects.subjects) {
   const html = await readFile(path.join(dist, subject.route.replace(/^\//, ''), 'index.html'), 'utf8');
   for (const group of subject.groups) {

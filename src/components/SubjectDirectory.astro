@@ -2,18 +2,19 @@
 interface Props {
   subjects: any[];
   heading?: 'h2' | 'h3';
+  variant?: 'default' | 'compact';
 }
 
-const { subjects, heading = 'h2' } = Astro.props as Props;
+const { subjects, heading = 'h2', variant = 'default' } = Astro.props as Props;
 const Heading = heading;
 ---
 
-<ul class="subject-directory">
+<ul class:list={['subject-directory', `subject-directory--${variant}`]}>
   {subjects.map((subject) => (
     <li>
       <Heading><a href={subject.route}>{subject.title}</a></Heading>
       <p>{subject.description}</p>
-      <p class="subject-directory__families">{subject.families.join(' · ')}</p>
+      {variant === 'default' && <p class="subject-directory__families">{subject.families.join(' · ')}</p>}
     </li>
   ))}
 </ul>
@@ -26,5 +27,8 @@ const Heading = heading;
   .subject-directory :is(h2, h3) a { color: var(--color-navy-900); text-decoration-color: var(--color-gold-500); }
   .subject-directory p { margin: var(--space-2) 0 0; }
   .subject-directory__families { color: var(--color-slate-700); font: 700 .78rem/1.5 var(--font-sans); letter-spacing: .04em; text-transform: uppercase; }
+  .subject-directory--compact { gap: var(--space-4) var(--space-6); margin-top: var(--space-5); }
+  .subject-directory--compact :is(h2, h3) { font-size: clamp(1.2rem, 2vw, 1.5rem); }
+  .subject-directory--compact p { font-size: 1rem; line-height: 1.6; }
   @media (max-width: 48rem) { .subject-directory { grid-template-columns: 1fr; gap: var(--space-5); } }
 </style>
