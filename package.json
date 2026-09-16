@@ -14,6 +14,7 @@
     "check": "npm run prepare && astro check",
     "audit": "node scripts/audit-native-content.mjs && node scripts/validate-writing-data.mjs && node scripts/validate-subject-data.mjs",
     "audit:navigation": "node scripts/audit-navigation.mjs",
+    "audit:repository": "node scripts/audit-repository.mjs",
     "validate": "npm run audit && npm run check && npm run build && node scripts/validate-build.mjs"
   },
   "dependencies": {
