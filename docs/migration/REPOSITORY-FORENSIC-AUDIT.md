@@ -527,6 +527,14 @@ The generated `dist/` contains 4,161 filesystem files totaling 1,099,669,523 byt
 
 **No destructive action was taken.** No file was deleted, no ref was moved or removed, no object was pruned, no history was rewritten, and no asset was converted.
 
+## Follow-on: public deployment separation
+
+On 2026-09-17, the first audit-derived deployment-separation pass moved 11 editable SVG originals totaling **213,842,090 bytes** from `public/` to the tracked, non-public `source-assets/` tree. Their public PDF and/or WebP representations remain available.
+
+This reduced `public/` from **1,053,712,729** to **839,870,639 bytes**. The finalizer also removes Astro's build-only `.prerender/` bundle from the deployment output. A settled clean build produced an **875,024,612-byte (834.49-MiB)** `dist/`, leaving 124,975,388 bytes below the 1,000,000,000-byte deployment ceiling and 24,975,388 bytes below the new warning threshold.
+
+The files remain in the repository, so checkout and Git-history size did not materially decrease. No preserved material was deleted and no history was rewritten. See [`PUBLIC-ASSET-SEPARATION-REPORT.md`](PUBLIC-ASSET-SEPARATION-REPORT.md) for the file-level decision record, deferred candidates, validation contracts, and before/after measurements.
+
 ## Appendix A — 100 largest current files
 
 The `Referenced` column records a direct current-source string match. `No` means “review,” not “remove.” Git object IDs prove exact identity and duplicate groups.

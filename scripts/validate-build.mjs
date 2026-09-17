@@ -14,7 +14,33 @@ async function walk(directory) {
   return output;
 }
 
-const files = await walk(dist);
+const pause = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
+async function deploymentSnapshot() {
+  const files = await walk(dist);
+  const metadata = await Promise.all(files.map((file) => stat(file)));
+  return {
+    files,
+    bytes: metadata.reduce((total, item) => total + item.size, 0),
+    latest_mtime_ms: Math.max(...metadata.map((item) => item.mtimeMs)),
+  };
+}
+async function settledDeployment() {
+  await pause(1000);
+  let previous;
+  for (let attempt = 0; attempt < 10; attempt++) {
+    const current = await deploymentSnapshot();
+    if (previous && current.files.length === previous.files.length && current.bytes === previous.bytes && current.latest_mtime_ms === previous.latest_mtime_ms) return current;
+    previous = current;
+    await pause(250);
+  }
+  throw new Error('dist/ did not settle before validation');
+}
+
+const deployment = await settledDeployment();
+const files = deployment.files;
+const deploymentBytes = deployment.bytes;
+const deploymentWarningBytes = 900_000_000;
+const deploymentMaximumBytes = 1_000_000_000;
 const htmlFiles = files.filter((file) => file.endsWith('.html'));
 const relativeFiles = new Set(files.map((file) => `/${path.relative(dist, file).split(path.sep).join('/')}`));
 const generatedWriting = JSON.parse(await readFile(path.join(root, '.generated/data/writing.json'), 'utf8'));
@@ -24,6 +50,15 @@ const failures = [];
 const warnings = [];
 let references = 0;
 let redirectRoutes = 0;
+
+try {
+  await stat(path.join(dist, '.prerender'));
+  failures.push('deployment payload contains temporary .prerender build output');
+} catch {
+  // Expected: finalize-build removes Astro's build-only prerender bundle.
+}
+if (deploymentBytes > deploymentMaximumBytes) failures.push(`deployment payload ${deploymentBytes} bytes exceeds ${deploymentMaximumBytes}-byte limit`);
+else if (deploymentBytes > deploymentWarningBytes) warnings.push(`deployment payload ${deploymentBytes} bytes exceeds ${deploymentWarningBytes}-byte warning threshold`);
 
 function exists(url) {
   const clean = decodeURI(url.split(/[?#]/)[0]);
@@ -371,7 +406,7 @@ for (const [route, html] of navigationGraph.documents) {
 }
 
 const unique = [...new Set(failures)];
-console.log(JSON.stringify({ html_routes: htmlFiles.length, canonical_html_routes: navigationGraph.routes.size, redirect_routes: redirectRoutes, static_files: files.length, local_references: references, internal_route_edges: navigationGraph.edgeCount, canonical_parent_coverage: `${navigationGraph.parentCoverage.filter((item) => item.covered).length}/${navigationGraph.parentCoverage.length}`, reverse_subject_resources: reverseSubjects.size, reverse_subject_relationships: [...reverseSubjects.values()].reduce((total, subjects) => total + subjects.length, 0), permanent_page_orphans: navigationGraph.zeroInbound.length, errors: unique.length, warnings: warnings.length }, null, 2));
+console.log(JSON.stringify({ deployment_bytes: deploymentBytes, deployment_warning_bytes: deploymentWarningBytes, deployment_maximum_bytes: deploymentMaximumBytes, html_routes: htmlFiles.length, canonical_html_routes: navigationGraph.routes.size, redirect_routes: redirectRoutes, static_files: files.length, local_references: references, internal_route_edges: navigationGraph.edgeCount, canonical_parent_coverage: `${navigationGraph.parentCoverage.filter((item) => item.covered).length}/${navigationGraph.parentCoverage.length}`, reverse_subject_resources: reverseSubjects.size, reverse_subject_relationships: [...reverseSubjects.values()].reduce((total, subjects) => total + subjects.length, 0), permanent_page_orphans: navigationGraph.zeroInbound.length, errors: unique.length, warnings: warnings.length }, null, 2));
 if (warnings.length) console.warn(warnings.slice(0, 20).join('\n'));
 if (unique.length) {
   console.error(unique.slice(0, 100).join('\n'));

@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "policy": "Preserved repository assets intentionally excluded from the generated website payload.",
+  "files": [
+    {
+      "source_path": "source-assets/assets/docs/JHoward-UMBC-CPhil.svg",
+      "previous_public_path": "public/assets/docs/JHoward-UMBC-CPhil.svg",
+      "bytes": 44840790,
+      "format": "svg",
+      "public_derivatives": ["public/assets/docs/JHoward-UMBC-CPhil.pdf"],
+      "reason": "Editable credential scan source; the linked PDF remains public."
+    },
+    {
+      "source_path": "source-assets/assets/img/service/jhoward-mddf-commission.svg",
+      "previous_public_path": "public/assets/img/service/jhoward-mddf-commission.svg",
+      "bytes": 42525053,
+      "format": "svg",
+      "public_derivatives": [
+        "public/assets/img/service/jhoward-mddf-commission.pdf",
+        "public/assets/img/service/jhoward-mddf-commission.webp"
+      ],
+      "reason": "Editable commission source; the displayed WebP and linked PDF remain public."
+    },
+    {
+      "source_path": "source-assets/assets/img/honors/jhoward-kts.svg",
+      "previous_public_path": "public/assets/img/honors/jhoward-kts.svg",
+      "bytes": 25712227,
+      "format": "svg",
+      "public_derivatives": [
+        "public/assets/img/honors/jhoward-kts.pdf",
+        "public/assets/img/honors/jhoward-kts.webp"
+      ],
+      "reason": "Editable honors source; the displayed WebP and documentary PDF remain public."
+    },
+    {
+      "source_path": "source-assets/assets/img/honors/jhoward-matikonis.svg",
+      "previous_public_path": "public/assets/img/honors/jhoward-matikonis.svg",
+      "bytes": 22110234,
+      "format": "svg",
+      "public_derivatives": [
+        "public/assets/img/honors/jhoward-matikonis.pdf",
+        "public/assets/img/honors/jhoward-matikonis.webp"
+      ],
+      "reason": "Editable letters-patent source; the displayed WebP and linked PDF remain public."
+    },
+    {
+      "source_path": "source-assets/assets/img/honors/jhoward-krigsvold.svg",
+      "previous_public_path": "public/assets/img/honors/jhoward-krigsvold.svg",
+      "bytes": 18248986,
+      "format": "svg",
+      "public_derivatives": [
+        "public/assets/img/honors/jhoward-krigsvold.pdf",
+        "public/assets/img/honors/jhoward-krigsvold.webp"
+      ],
+      "reason": "Editable letters-patent source; the displayed WebP and linked PDF remain public."
+    },
+    {
+      "source_path": "source-assets/assets/docs/JHoward-MPA-PPA.svg",
+      "previous_public_path": "public/assets/docs/JHoward-MPA-PPA.svg",
+      "bytes": 17572692,
+      "format": "svg",
+      "public_derivatives": [
+        "public/assets/docs/JHoward-MPA-PPA.pdf",
+        "public/assets/docs/JHoward-MPA-PPA.webp"
+      ],
+      "reason": "Editable credential scan source; the linked PDF and rendered WebP remain public."
+    },
+    {
+      "source_path": "source-assets/assets/docs/jhoward-hoco-crcres.svg",
+      "previous_public_path": "public/assets/docs/jhoward-hoco-crcres.svg",
+      "bytes": 15494183,
+      "format": "svg",
+      "public_derivatives": [
+        "public/assets/docs/jhoward-hoco-crcres.pdf",
+        "public/assets/img/service/jhoward-hoco-crcres.webp"
+      ],
+      "reason": "Editable resolution source; the displayed WebP and documentary PDF remain public."
+    },
+    {
+      "source_path": "source-assets/assets/docs/JHoward-BS-Math.svg",
+      "previous_public_path": "public/assets/docs/JHoward-BS-Math.svg",
+      "bytes": 14826650,
+      "format": "svg",
+      "public_derivatives": [
+        "public/assets/docs/JHoward-BS-Math.pdf",
+        "public/assets/docs/JHoward-BS-Math.webp"
+      ],
+      "reason": "Editable credential scan source; the linked PDF and rendered WebP remain public."
+    },
+    {
+      "source_path": "source-assets/assets/docs/jhoward-umbc-phd.svg",
+      "previous_public_path": "public/assets/docs/jhoward-umbc-phd.svg",
+      "bytes": 5495541,
+      "format": "svg",
+      "public_derivatives": ["public/assets/docs/jhoward-umbc-phd.webp"],
+      "reason": "Editable historical credential source; the rendered WebP remains available for reintegration."
+    },
+    {
+      "source_path": "source-assets/assets/docs/JHoward-FBCS.svg",
+      "previous_public_path": "public/assets/docs/JHoward-FBCS.svg",
+      "bytes": 4195066,
+      "format": "svg",
+      "public_derivatives": [
+        "public/assets/docs/JHoward-FBCS.pdf",
+        "public/assets/docs/JHoward-FBCS.webp"
+      ],
+      "reason": "Editable credential scan source; the linked PDF and rendered WebP remain public."
+    },
+    {
+      "source_path": "source-assets/assets/docs/JHoward-UMD-CPS.svg",
+      "previous_public_path": "public/assets/docs/JHoward-UMD-CPS.svg",
+      "bytes": 2820668,
+      "format": "svg",
+      "public_derivatives": ["public/assets/docs/JHoward-UMD-CPS.pdf"],
+      "reason": "Editable credential scan source; the linked PDF remains public."
+    }
+  ]
+}

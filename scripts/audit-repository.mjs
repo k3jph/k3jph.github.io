@@ -11,6 +11,11 @@ const textExtensions = new Set([
   '.astro', '.css', '.csv', '.html', '.htm', '.js', '.json', '.jsx', '.md', '.mjs', '.scss',
   '.svg', '.ts', '.tsx', '.txt', '.xml', '.yaml', '.yml',
 ]);
+const referenceSourceExtensions = new Set([
+  '.astro', '.css', '.csv', '.html', '.htm', '.js', '.json', '.jsx', '.md', '.mjs', '.scss',
+  '.ts', '.tsx', '.txt', '.yaml', '.yml',
+]);
+const nonSiteReferencePrefixes = ['docs/migration/', 'scripts/', 'source-assets/', '.github/'];
 
 const imageExtensions = new Set(['.avif', '.bmp', '.gif', '.ico', '.jpeg', '.jpg', '.png', '.svg', '.tif', '.tiff', '.webp']);
 const documentExtensions = new Set(['.doc', '.docx', '.epub', '.odt', '.pdf', '.ppt', '.pptx', '.rtf', '.xls', '.xlsx']);
@@ -114,7 +119,11 @@ const duplicateGroups = [...Map.groupBy(currentBlobs, (entry) => entry.oid).entr
 
 const sourceCorpusParts = [];
 for (const entry of currentBlobs) {
-  if (!textExtensions.has(entry.extension) || entry.size > 10 * 1024 * 1024) continue;
+  if (
+    !referenceSourceExtensions.has(entry.extension)
+    || nonSiteReferencePrefixes.some((prefix) => entry.path.startsWith(prefix))
+    || entry.size > 10 * 1024 * 1024
+  ) continue;
   try {
     sourceCorpusParts.push(await readFile(path.join(root, entry.path), 'utf8'));
   } catch {
@@ -122,8 +131,11 @@ for (const entry of currentBlobs) {
   }
 }
 const sourceCorpus = sourceCorpusParts.join('\n');
+const assetCategories = new Set(['image', 'document', 'audio/video', 'font', 'archive/container', 'executable/binary']);
+const preservedSourceAssets = currentBlobs
+  .filter((entry) => entry.path.startsWith('source-assets/') && assetCategories.has(entry.category));
 const assetCandidates = currentBlobs
-  .filter((entry) => ['image', 'document', 'audio/video', 'font', 'archive/container', 'executable/binary'].includes(entry.category));
+  .filter((entry) => entry.path.startsWith('public/') && assetCategories.has(entry.category));
 const aliasTargets = new Map();
 for (const entry of assetCandidates) {
   const aliases = [entry.path];
@@ -371,6 +383,12 @@ const result = {
       apparently_unreferenced_object_storage_by_extension: summarizeUniqueObjectStorageBy(apparentlyUnreferencedAssets, 'extension'),
       apparently_unreferenced_object_storage_by_category: summarizeUniqueObjectStorageBy(apparentlyUnreferencedAssets, 'category'),
       largest_apparently_unreferenced: [...apparentlyUnreferencedAssets].sort((a, b) => b.size - a.size).slice(0, TOP_COUNT),
+    },
+    non_public_source_assets: {
+      files: preservedSourceAssets.length,
+      logical_bytes: preservedSourceAssets.reduce((sum, entry) => sum + entry.size, 0),
+      by_extension: summarize(preservedSourceAssets, 'extension'),
+      largest: [...preservedSourceAssets].sort((a, b) => b.size - a.size).slice(0, TOP_COUNT),
     },
     format_families: currentFormatFamilies.slice(0, TOP_COUNT),
   },
