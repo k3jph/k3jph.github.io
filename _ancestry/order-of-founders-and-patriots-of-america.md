@@ -107,7 +107,7 @@ Through direct descent from Founder Henry Adams and Patriot Daniel Adams, my
 admission to the Order affirms a continuous family legacy spanning from the
 earliest years of colonial settlement to the fight for American independence. In
 my line, the Adams name endured unbroken for nearly three centuries, concluding
-on 1 February 1910 with the death of [John Hess Adams](/ancestry/depm). The
+on 1 February 1910 with the death of [John Hess Adams](/ancestry/descendants-of-early-postmasters/). The
 application process, supported by careful documentary research, reflects the
 Order’s dedication to preserving and honoring the nation’s formative history.
 

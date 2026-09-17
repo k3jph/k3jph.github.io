@@ -42,7 +42,7 @@ Underwood](https://www.wikitree.com/wiki/Underwood-189) and [Mary
 Wilcocks](https://www.wikitree.com/wiki/Wilcocks-24), Alexander
 Underwood grew up in an era of intense religious and social
 transformation. The early 18th century saw a flourishing of
-[Quakerism](/ancestry/nsdeq), particularly in the American colonies,
+[Quakerism](/ancestry/national-society-descendants-of-early-quakers/), particularly in the American colonies,
 where its principles of pacifism, egalitarianism, and spiritual
 introspection gained traction among settlers seeking religious freedom.
 Underwood's family, deeply immersed in this movement, provided an

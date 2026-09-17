@@ -40,7 +40,7 @@ const deployment = await settledDeployment();
 const files = deployment.files;
 const deploymentBytes = deployment.bytes;
 const deploymentWarningBytes = 900_000_000;
-const deploymentMaximumBytes = 1_000_000_000;
+const deploymentDocumentedLimitBytes = 1_000_000_000;
 const htmlFiles = files.filter((file) => file.endsWith('.html'));
 const relativeFiles = new Set(files.map((file) => `/${path.relative(dist, file).split(path.sep).join('/')}`));
 const generatedWriting = JSON.parse(await readFile(path.join(root, '.generated/data/writing.json'), 'utf8'));
@@ -57,7 +57,7 @@ try {
 } catch {
   // Expected: finalize-build removes Astro's build-only prerender bundle.
 }
-if (deploymentBytes > deploymentMaximumBytes) failures.push(`deployment payload ${deploymentBytes} bytes exceeds ${deploymentMaximumBytes}-byte limit`);
+if (deploymentBytes > deploymentDocumentedLimitBytes) warnings.push(`deployment payload ${deploymentBytes} bytes exceeds GitHub Pages' documented ${deploymentDocumentedLimitBytes}-byte support boundary; this is not treated as a proven deployment cutoff`);
 else if (deploymentBytes > deploymentWarningBytes) warnings.push(`deployment payload ${deploymentBytes} bytes exceeds ${deploymentWarningBytes}-byte warning threshold`);
 
 function exists(url) {
@@ -116,8 +116,11 @@ const searchRecords = JSON.parse(searchIndex);
 const searchRoutes = new Set(searchRecords.map((item) => item.url));
 const pagesSitemap = await readFile(path.join(dist, 'sitemap-pages.xml'), 'utf8');
 if (!pagesSitemap.includes('<loc>https://jameshoward.us/media/</loc>')) failures.push('pages sitemap: missing /media/');
+if (!pagesSitemap.includes('<loc>https://jameshoward.us/contact-me/</loc>')) failures.push('pages sitemap: missing /contact-me/');
 const mainSitemap = await readFile(path.join(dist, 'sitemap.xml'), 'utf8');
 if (!mainSitemap.includes('<loc>https://jameshoward.us/media/</loc>')) failures.push('main sitemap: missing /media/');
+if (!mainSitemap.includes('<loc>https://jameshoward.us/contact-me/</loc>')) failures.push('main sitemap: missing /contact-me/');
+if (mainSitemap.includes('<loc>https://jameshoward.us/search/</loc>')) failures.push('main sitemap: noindex /search/ remains indexed');
 for (const route of generatedWriting.routes) {
   if (!searchRoutes.has(route)) failures.push(`search index: missing ${route}`);
   if (!pagesSitemap.includes(`<loc>https://jameshoward.us${route}</loc>`)) failures.push(`pages sitemap: missing ${route}`);
@@ -214,6 +217,8 @@ const articleContent = socialSecurity.indexOf('<div class="content"');
 if (!(historicalNotice >= 0 && seriesNotice > historicalNotice && articleContent > seriesNotice)) failures.push('Social Security Policysplainer: historical notice, series context, and article body are out of order');
 const ordinaryPost = await readFile(path.join(dist, '2016/07/03/runaway-trolley-never-coming-back/index.html'), 'utf8');
 if (ordinaryPost.includes('class="series-context"')) failures.push('ordinary non-series post rendered series context');
+const representativeTag = await readFile(path.join(dist, 'tag/artificial-intelligence/index.html'), 'utf8');
+if (!representativeTag.includes('<meta name="robots" content="noindex"')) failures.push('tag archives: representative route is not noindex');
 
 const subjectIndex = await readFile(path.join(dist, 'subjects/index.html'), 'utf8');
 if (!/class="[^"]*\bsubject-directory\b/.test(subjectIndex) || !subjectIndex.includes('Ways into the site by idea rather than by document type.')) failures.push('/subjects/: incomplete Subject directory');
@@ -345,7 +350,11 @@ for (const route of writingFamilyRoutes) {
   const html = navigationGraph.documents.get(route);
   if (!html?.includes('class="writing-links"')) failures.push(`Writing family: ${route} is missing shared navigation`);
   for (const target of ['/writing/', '/writing/subjects/', '/writing/series/', '/blog/']) if (!html?.includes(`href="${target}"`)) failures.push(`Writing family: ${route} is missing ${target}`);
-  if (!html?.includes('aria-current="page"')) failures.push(`Writing family: ${route} has no current-page state`);
+  const exactWritingRoute = ['/writing/', '/writing/subjects/', '/writing/series/', '/blog/'].includes(route);
+  const writingNav = html?.match(/<nav\b[^>]*class="[^"]*\bwriting-links\b[^"]*"[\s\S]*?<\/nav>/)?.[0] ?? '';
+  if (exactWritingRoute && (!writingNav.includes(`href="${route}"`) || !writingNav.includes('aria-current="page"'))) failures.push(`Writing family: ${route} has no exact current-page state`);
+  if (!exactWritingRoute && writingNav.includes('aria-current="page"')) failures.push(`Writing family: ${route} falsely marks a parent link as the current page`);
+  if (!writingNav.includes('is-active-section')) failures.push(`Writing family: ${route} has no active-section treatment`);
 }
 
 const armoryRoutes = ['/coat-of-arms/', '/coat-of-arms/arms/', '/coat-of-arms/emblazonments/', '/coat-of-arms/insignia/', '/coat-of-arms/tartan/', '/coat-of-arms/records/'];
@@ -406,7 +415,7 @@ for (const [route, html] of navigationGraph.documents) {
 }
 
 const unique = [...new Set(failures)];
-console.log(JSON.stringify({ deployment_bytes: deploymentBytes, deployment_warning_bytes: deploymentWarningBytes, deployment_maximum_bytes: deploymentMaximumBytes, html_routes: htmlFiles.length, canonical_html_routes: navigationGraph.routes.size, redirect_routes: redirectRoutes, static_files: files.length, local_references: references, internal_route_edges: navigationGraph.edgeCount, canonical_parent_coverage: `${navigationGraph.parentCoverage.filter((item) => item.covered).length}/${navigationGraph.parentCoverage.length}`, reverse_subject_resources: reverseSubjects.size, reverse_subject_relationships: [...reverseSubjects.values()].reduce((total, subjects) => total + subjects.length, 0), permanent_page_orphans: navigationGraph.zeroInbound.length, errors: unique.length, warnings: warnings.length }, null, 2));
+console.log(JSON.stringify({ deployment_bytes: deploymentBytes, deployment_warning_bytes: deploymentWarningBytes, deployment_documented_limit_bytes: deploymentDocumentedLimitBytes, html_routes: htmlFiles.length, canonical_html_routes: navigationGraph.routes.size, redirect_routes: redirectRoutes, static_files: files.length, local_references: references, internal_route_edges: navigationGraph.edgeCount, canonical_parent_coverage: `${navigationGraph.parentCoverage.filter((item) => item.covered).length}/${navigationGraph.parentCoverage.length}`, reverse_subject_resources: reverseSubjects.size, reverse_subject_relationships: [...reverseSubjects.values()].reduce((total, subjects) => total + subjects.length, 0), permanent_page_orphans: navigationGraph.zeroInbound.length, errors: unique.length, warnings: warnings.length }, null, 2));
 if (warnings.length) console.warn(warnings.slice(0, 20).join('\n'));
 if (unique.length) {
   console.error(unique.slice(0, 100).join('\n'));

@@ -49,7 +49,7 @@ the struggles of the eighteenth century and the civic responsibilities of the
 present day.
 
 While similar in purpose, the Sons of the Revolution (SR) and the [Sons of the
-American Revolution (SAR)](/ancestry/sar) are distinct organizations. The SR was
+American Revolution (SAR)](/ancestry/national-society-of-the-sons-of-the-american-revolution/) are distinct organizations. The SR was
 established first, founded in New York City by [John Austin
 Stevens](https://en.wikipedia.org/wiki/John_Austin_Stevens) as a centennial
 commemoration of the Declaration of Independence. The SAR, founded in 1889,

@@ -14,8 +14,12 @@
     "check": "npm run prepare && astro check",
     "audit": "node scripts/audit-native-content.mjs && node scripts/validate-writing-data.mjs && node scripts/validate-subject-data.mjs && node scripts/validate-source-assets.mjs",
     "audit:navigation": "node scripts/audit-navigation.mjs",
+    "audit:acceptance": "node scripts/audit-site-acceptance.mjs",
+    "audit:a11y": "node scripts/audit-accessibility.mjs",
+    "audit:search": "node scripts/audit-search.mjs",
+    "audit:external": "node scripts/audit-external-links.mjs",
     "audit:repository": "node scripts/audit-repository.mjs",
-    "validate": "npm run audit && npm run check && npm run build && node scripts/validate-build.mjs"
+    "validate": "npm run audit && npm run check && npm run build && node scripts/validate-build.mjs && node scripts/audit-site-acceptance.mjs && node scripts/audit-accessibility.mjs && node scripts/audit-search.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "7.3.1",
@@ -33,6 +37,10 @@
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",
-    "typescript": "6.0.3"
+    "axe-core": "4.10.3",
+    "jsdom": "30.1.0",
+    "parse5": "7.3.0",
+    "typescript": "6.0.3",
+    "undici": "8.10.2"
   }
 }

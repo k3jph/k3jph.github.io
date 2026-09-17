@@ -13,7 +13,7 @@ export function getStaticPaths() {
 const { series } = Astro.props;
 ---
 
-<BaseLayout title={series.title} description={series.description} image="/assets/img/blog.webp" canonical={series.route}>
+<BaseLayout title={`${series.title} — Writing Series`} description={series.description} image="/assets/img/blog.webp" canonical={series.route}>
   <PageIntro title={series.title} subtitle={series.description} image="/assets/img/blog.webp" compact/>
   <WritingLinks current="series"/>
   <section class="section">

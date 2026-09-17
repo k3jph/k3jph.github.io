@@ -33,7 +33,7 @@ everyday experiences of those living in Paulding County during that time. Her
 presence in the county at the turn of the 20th century links our family history
 to the broader narrative of Ohio's rural development and community life.
 
-Mina is also an ancestor in the [Century Families of Ohio](/ancestry/ogs/cfo).
+Mina is also an ancestor in the [Century Families of Ohio](/ancestry/century-families-of-ohio/).
 
 ## Legacy
 

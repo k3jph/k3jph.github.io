@@ -65,7 +65,7 @@ at Ray Cemetery in Byer, Ohio.
 William Ray was the grandson of [Moses
 Teague](https://www.wikitree.com/wiki/Teague-228), a patriot who served during
 the Revolutionary War, and the great-great-grandson of [Edward
-Teague](/ancestry/offm), an early settler of Maryland. The Teague family's
+Teague](/ancestry/order-of-the-first-families-of-maryland/), an early settler of Maryland. The Teague family's
 multigenerational commitment to defending and shaping the United States
 highlights a legacy of service and dedication that William upheld during the War
 of 1812.

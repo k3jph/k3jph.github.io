@@ -1,21 +1,5 @@
-import { readFile, readdir, stat } from 'node:fs/promises';
-import path from 'node:path';
-
-async function walk(directory) {
-  const files = [];
-  for (const name of await readdir(directory)) {
-    const file = path.join(directory, name);
-    (await stat(file)).isDirectory() ? files.push(...await walk(file)) : files.push(file);
-  }
-  return files;
-}
-
-function routeForFile(dist, file) {
-  const relative = `/${path.relative(dist, file).split(path.sep).join('/')}`;
-  if (relative === '/index.html') return '/';
-  if (relative.endsWith('/index.html')) return relative.slice(0, -'index.html'.length);
-  return relative;
-}
+import { readFile } from 'node:fs/promises';
+import { attr, elements, isSameSiteUrl, parseHtml, resolveUrl, routeForFile, routeForUrl, walk } from './html-site.mjs';
 
 export function classifyNavigationRoute(route) {
   if (route === '/') return 'homepage';
@@ -60,19 +44,6 @@ export function parentRouteFor(route) {
   return undefined;
 }
 
-function normalizeInternalHref(href) {
-  if (href.startsWith('https://jameshoward.us/')) return new URL(href).pathname;
-  if (!href.startsWith('/') || href.startsWith('//')) return undefined;
-  return href.split(/[?#]/)[0] || '/';
-}
-
-function resolveRoute(href, routes) {
-  const pathname = normalizeInternalHref(href);
-  if (!pathname) return undefined;
-  const candidates = [pathname, pathname.endsWith('/') ? pathname.slice(0, -1) : `${pathname}/`];
-  return candidates.find((candidate) => routes.has(candidate));
-}
-
 export async function buildNavigationGraph(dist) {
   const htmlFiles = (await walk(dist)).filter((file) => file.endsWith('.html'));
   const documents = new Map();
@@ -84,7 +55,7 @@ export async function buildNavigationGraph(dist) {
       redirectCount++;
       continue;
     }
-    documents.set(routeForFile(dist, file), html);
+    documents.set(routeForFile(dist, file), { html, document: parseHtml(html) });
   }
 
   const routes = new Set(documents.keys());
@@ -92,9 +63,11 @@ export async function buildNavigationGraph(dist) {
   const inbound = new Map([...routes].map((route) => [route, new Set()]));
   let edgeCount = 0;
 
-  for (const [route, html] of documents) {
-    for (const match of html.matchAll(/<a\b[^>]*\bhref="([^"]+)"/gi)) {
-      const target = resolveRoute(match[1], routes);
+  for (const [route, entry] of documents) {
+    for (const link of elements(entry.document, (node) => node.tagName === 'a' && attr(node, 'href'))) {
+      const url = resolveUrl(attr(link, 'href'), route);
+      if (!url || !isSameSiteUrl(url)) continue;
+      const target = routeForUrl(url, routes);
       if (!target || target === route || outbound.get(route).has(target)) continue;
       outbound.get(route).add(target);
       inbound.get(target).add(route);
@@ -130,7 +103,7 @@ export async function buildNavigationGraph(dist) {
   }
 
   return {
-    documents,
+    documents: new Map([...documents].map(([route, entry]) => [route, entry.html])),
     routes,
     outbound,
     inbound,

@@ -37,7 +37,7 @@ August 14, 1862, and was medically discharged on November 5, 1862.
 ### Early Life and Family
 
 Thomas was born in Warren County, Ohio, in 1838, the son of [Joseph
-Newman and Rebecca Pugh](/ancestry/eswco). The Newman family had
+Newman and Rebecca Pugh](/ancestry/early-settlers-of-warren-county-ohio/). The Newman family had
 long-standing ties to the region. His father, Joseph, was a farmer in
 Waynesville, Warren County.
 

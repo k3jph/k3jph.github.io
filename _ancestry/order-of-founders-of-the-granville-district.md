@@ -46,7 +46,7 @@ expansion of the region.
 
 ### Early Life and Family Background
 
-Moses was the [grandson of Edward Teague](/ancestry/offm), an early
+Moses was the [grandson of Edward Teague](/ancestry/order-of-the-first-families-of-maryland/), an early
 Maryland settler who arrived in the Province of Maryland in 1675 as part
 of the headright system. Edward's life as a frontier landowner in Cecil
 County laid the foundation for the Teague family's westward migration,

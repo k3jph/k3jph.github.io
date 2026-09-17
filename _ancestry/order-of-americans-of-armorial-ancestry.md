@@ -140,7 +140,7 @@ _jure sanguinis_ through [Henry Adams of
 Massachusetts](https://www.wikitree.com/wiki/Adams-277), the immigrant progenitor
 of the Adams family of Braintree and the forebear of two American presidents.
 Born in Somersetshire, England, around 1583, [Henry Adams immigrated to the
-Massachusetts Bay Colony in 1638](/ancestry/ofpa), settling first at Mount
+Massachusetts Bay Colony in 1638](/ancestry/order-of-founders-and-patriots-of-america/), settling first at Mount
 Wollaston, later known as Braintree (now Quincy). His arrival came amid the
 Great Migration, when thousands of English Puritans sought religious freedom and
 opportunity in New England.
@@ -201,7 +201,7 @@ My supplemental membership in the Order of Americans of Armorial Ancestry is
 _jure sanguinis_ through [John Bigelow of Watertown,
 Massachusetts](https://www.wikitree.com/wiki/Bigelow-24), who arrived in New
 England about 1637 and became one of the early settlers of that town. He was a
-[skilled blacksmith](/ancestry/gcat) and civic figure who helped establish the
+[skilled blacksmith](/ancestry/guild-of-colonial-artisans-and-tradesmen/) and civic figure who helped establish the
 social and economic foundations of Watertown during the first generation of the
 Massachusetts Bay Colony. His descendants became numerous throughout New
 England, producing several notable public servants and intellectuals in later

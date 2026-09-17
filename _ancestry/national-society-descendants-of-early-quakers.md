@@ -44,7 +44,7 @@ In addition to Jonathan Newman, my family tree includes several other early
 American Quakers, each of whom played an important role in the development of
 their communities:
 
-- [Marmaduke Coate](/ancestry/nssar)--A prominent member of the Quaker community
+- [Marmaduke Coate](/ancestry/national-society-of-the-sons-of-the-american-revolution/)--A prominent member of the Quaker community
   in New Jersey and Pennsylvania, Marmaduke Coate's dedication to the principles
   of the Society of Friends helped shape the early settlements in these regions.
 - Joseph Coppock--Active within the Quaker faith, Joseph Coppock was a
@@ -55,7 +55,7 @@ their communities:
   arrived in the late 17th century as part of William Penn's initiative to
   establish a Quaker refuge. His involvement in the community demonstrates the
   pioneering spirit and resilience of early Quaker settlers.
-- [Alexander Underwood](/ancestry/sdcc)--An early Quaker minister, Alexander Underwood was
+- [Alexander Underwood](/ancestry/society-of-the-descendants-of-the-colonial-clergy/)--An early Quaker minister, Alexander Underwood was
   deeply involved in the spiritual life of his community, spreading the
   teachings of the Society of Friends. His contributions reflect the commitment
   and steadfastness of early Friends in establishing peaceful and principled

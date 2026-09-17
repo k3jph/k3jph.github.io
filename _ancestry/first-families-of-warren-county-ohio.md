@@ -52,7 +52,7 @@ and family presence became part of the county's early development.
 ## Quaker Influence in Early Ohio Development
 
 Both Jonathan Newman and Joseph Cloud were members of the Religious
-Society of Friends, [commonly known as Quakers](/ancestry/nsdeq). Their
+Society of Friends, [commonly known as Quakers](/ancestry/national-society-descendants-of-early-quakers/). Their
 migration to Warren County was part of a broader movement of Quakers
 seeking religious freedom and opportunities in the early 19th century.
 Quakers played a significant role in the development of southwestern

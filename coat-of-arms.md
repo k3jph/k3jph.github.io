@@ -207,7 +207,7 @@ technical precision.
 
 <div class="formal-text-grid">
   <div class="formal-text">
-    <h4>English</h4>
+    <h3>English</h3>
     <blockquote lang="en">
       <p>
         Argent in pale a tetrahedron Azure pierced in bend by a sword Or with pommel and cross piece of the Second. Upon a helm befitting his degree with mantling Azure and doubled Or is set for crest, upon a wreath of the liveries a martlet Sable.
@@ -215,7 +215,7 @@ technical precision.
     </blockquote>
   </div>
   <div class="formal-text">
-    <h4>Maltese</h4>
+    <h3>Maltese</h3>
     <blockquote lang="mt">
       <p>
         Lewn il-Fidda in Pale tetrahedron lewn Ikħal minfud b'sejf In Bend lewn id-Deheb u bil-maqbad u s-salib tiegħu ta' lewn Ikħal. Fuq elmu li jixraq il-grad tiegħu bid-drappeġġ Ikħal u lewn id-Deheb hemm bħala Kresta fuq girlanda tal-istess ilwien ħuttafa ta' lewn Iswed.

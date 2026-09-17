@@ -2,7 +2,8 @@
 import siteData from '../../.generated/data/site.json';
 import { sitePath } from '../lib/site';
 const current = sitePath(Astro.url.pathname);
-const isCurrent = (url: string) => {
+const isExactCurrent = (url: string) => current === sitePath(url);
+const isActiveSection = (url: string) => {
   const target = sitePath(url);
   return target === '/' ? current === '/' : current === target || current.startsWith(target);
 };
@@ -12,7 +13,7 @@ const isCurrent = (url: string) => {
     <a class="brand" href="/" aria-label="James Howard home"><img src="/assets/img/identity/jameshoward-shield.svg" alt="" width="205" height="38"></a>
     <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
     <nav id="site-nav" aria-label="Primary navigation">
-      <ul>{siteData.settings.main_menu_settings.menu_items.map((item: any) => <li><a href={sitePath(item.url)} aria-current={isCurrent(item.url) ? 'page' : undefined}>{item.title}</a></li>)}<li><a href="/search/" aria-label="Search" aria-current={isCurrent('/search/') ? 'page' : undefined}>Search</a></li></ul>
+      <ul>{siteData.settings.main_menu_settings.menu_items.map((item: any) => <li><a href={sitePath(item.url)} class:list={{'is-active-section':isActiveSection(item.url)}} aria-current={isExactCurrent(item.url) ? 'page' : undefined}>{item.title}</a></li>)}<li><a href="/search/" aria-label="Search" class:list={{'is-active-section':isActiveSection('/search/')}} aria-current={isExactCurrent('/search/') ? 'page' : undefined}>Search</a></li></ul>
     </nav>
   </div>
 </header>
@@ -25,6 +26,11 @@ const isCurrent = (url: string) => {
 
     const threshold = () => Math.min(260, Math.max(160, window.innerHeight * .25));
     const updateHeader = () => header.classList.toggle('is-scrolled', window.scrollY >= threshold());
+    const setMenu = (open) => {
+      button.setAttribute('aria-expanded', String(open));
+      navigation.classList.toggle('is-open', open);
+      header.classList.toggle('is-menu-open', open);
+    };
     let scheduled = false;
     const onScroll = () => {
       if (scheduled) return;
@@ -36,6 +42,7 @@ const isCurrent = (url: string) => {
     addEventListener('scroll', onScroll, { passive: true });
     addEventListener('resize', updateHeader, { passive: true });
     const finishInitialState = () => {
+      setMenu(false);
       updateHeader();
       requestAnimationFrame(() => header.classList.add('is-ready'));
     };
@@ -45,16 +52,18 @@ const isCurrent = (url: string) => {
     addEventListener('load', finishInitialState, { once: true });
     addEventListener('hashchange', () => requestAnimationFrame(updateHeader));
 
-    button.addEventListener('click', () => {
-      const open = button.getAttribute('aria-expanded') === 'true';
-      button.setAttribute('aria-expanded', String(!open));
-      navigation.classList.toggle('is-open', !open);
-      header.classList.toggle('is-menu-open', !open);
+    button.addEventListener('click', () => setMenu(button.getAttribute('aria-expanded') !== 'true'));
+    navigation.addEventListener('click', (event) => { if (event.target instanceof Element && event.target.closest('a')) setMenu(false); });
+    addEventListener('keydown', (event) => {
+      if (event.key !== 'Escape' || button.getAttribute('aria-expanded') !== 'true') return;
+      setMenu(false);
+      button.focus();
     });
+    matchMedia('(min-width: 52.001rem)').addEventListener('change', (event) => { if (event.matches) setMenu(false); });
   })();
 </script>
 <style>
-  .site-header{position:fixed;z-index:50;top:0;right:0;left:0;border-bottom:1px solid transparent;background:transparent;font-family:var(--font-sans)}.site-header.is-ready{transition:background-color .5s ease,border-color .5s ease,box-shadow .5s ease}.site-header.is-scrolled,.site-header.is-menu-open{border-color:rgb(255 255 255/.13);background:#303030;box-shadow:0 5px 24px rgb(0 0 0/.2)}.header-inner{display:flex;min-height:4.6rem;align-items:center;justify-content:space-between;gap:1.5rem}.brand{display:flex;align-items:center;color:#fff;text-decoration:none}.brand img{display:block;width:min(12.8rem,42vw);height:auto}nav ul{display:flex;align-items:center;gap:1.25rem;margin:0;padding:0;list-style:none}nav a{position:relative;color:#fff;font-size:.86rem;font-weight:700;text-decoration:none}nav a::after{position:absolute;right:0;bottom:-.6rem;left:0;height:2px;transform:scaleX(0);background:var(--color-gold-300);content:'';transition:transform .2s ease}nav a[aria-current=page],nav a:hover{color:var(--color-gold-300)}nav a[aria-current=page]::after,nav a:hover::after{transform:scaleX(1)}.menu-button{display:none;padding:.5rem .75rem;border:1px solid rgb(255 255 255/.52);border-radius:.25rem;color:#fff;background:transparent;font:700 .9rem var(--font-sans)}
+  .site-header{position:fixed;z-index:50;top:0;right:0;left:0;border-bottom:1px solid transparent;background:transparent;font-family:var(--font-sans)}.site-header.is-ready{transition:background-color .5s ease,border-color .5s ease,box-shadow .5s ease}.site-header.is-scrolled,.site-header.is-menu-open{border-color:rgb(255 255 255/.13);background:#303030;box-shadow:0 5px 24px rgb(0 0 0/.2)}.header-inner{display:flex;min-height:4.6rem;align-items:center;justify-content:space-between;gap:1.5rem}.brand{display:flex;align-items:center;color:#fff;text-decoration:none}.brand img{display:block;width:min(12.8rem,42vw);height:auto}nav ul{display:flex;align-items:center;gap:1.25rem;margin:0;padding:0;list-style:none}nav a{position:relative;color:#fff;font-size:.86rem;font-weight:700;text-decoration:none}nav a::after{position:absolute;right:0;bottom:-.6rem;left:0;height:2px;transform:scaleX(0);background:var(--color-gold-300);content:'';transition:transform .2s ease}nav a:is([aria-current=page],.is-active-section),nav a:hover{color:var(--color-gold-300)}nav a:is([aria-current=page],.is-active-section)::after,nav a:hover::after{transform:scaleX(1)}.menu-button{display:none;padding:.5rem .75rem;border:1px solid rgb(255 255 255/.52);border-radius:.25rem;color:#fff;background:transparent;font:700 .9rem var(--font-sans)}
   @media(max-width:52rem){.menu-button{display:block}nav{display:none;position:absolute;top:100%;right:0;left:0;padding:.5rem 1rem 1rem;background:#303030;box-shadow:0 14px 24px rgb(0 0 0/.22)}nav.is-open{display:block}nav ul{align-items:stretch;flex-direction:column;gap:.25rem}nav a{display:block;padding:.45rem}nav a::after{right:auto;bottom:.2rem;left:.45rem;width:2.5rem}}
   @media(prefers-reduced-motion:reduce){.site-header,nav a::after{transition-duration:.01ms}}
 </style>

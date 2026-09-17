@@ -3,6 +3,7 @@ const galleryImages = [...document.querySelectorAll('[data-gallery-src]')];
 if (galleryImages.length) {
   const dialog = document.createElement('dialog');
   dialog.className = 'content-lightbox';
+  dialog.setAttribute('aria-label', 'Image viewer');
   dialog.innerHTML = '<button type="button" aria-label="Close image viewer">×</button><figure><img alt=""><figcaption></figcaption></figure><a target="_blank" rel="noopener">View original source</a>';
   document.body.append(dialog);
 

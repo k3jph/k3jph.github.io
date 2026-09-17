@@ -1,6 +1,7 @@
 ---
 import JHCard from './JHCard.astro';
 import { formatDate, normalizeAssetPath, sitePath } from '../lib/site';
-const { post } = Astro.props;
+const { post, heading = 'h3' } = Astro.props as { post: any; heading?: 'h2' | 'h3' };
+const Heading = heading;
 ---
-<JHCard class="post-card"><a slot="media" class="card-media" href={sitePath(post.data.route)}><img src={normalizeAssetPath(post.data.featured_image)} alt="" loading="lazy"></a><p class="eyebrow">{formatDate(post.data.calendar_date,'short')}</p><h3><a href={sitePath(post.data.route)}>{post.data.title}</a></h3>{post.data.excerpt && <p>{post.data.excerpt}</p>}</JHCard>
+<JHCard class="post-card"><a slot="media" class="card-media" href={sitePath(post.data.route)} aria-label={`Read ${post.data.title}`}><img src={normalizeAssetPath(post.data.featured_image)} alt="" loading="lazy"></a><p class="eyebrow">{formatDate(post.data.calendar_date,'short')}</p><Heading><a href={sitePath(post.data.route)}>{post.data.title}</a></Heading>{post.data.excerpt && <p>{post.data.excerpt}</p>}</JHCard>

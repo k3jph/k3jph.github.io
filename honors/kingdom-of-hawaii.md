@@ -82,9 +82,9 @@ grade of my 2024 appointment, **Knight Commander**, should therefore not be
 read as silently reproducing an 1886 grade. It belongs to the present
 issuer's revised system.
 
-<aside class="content-callout">
+<div class="content-callout" role="note">
   <strong>One name, two records.</strong> The nineteenth-century order is documented through its statutes and surviving museum objects. My appointment records a present-day ceremonial honor under the same historical name.
-</aside>
+</div>
 
 ### Kalākaua and the Pacific Confederation {#pacific-confederation}
 

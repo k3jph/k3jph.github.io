@@ -42,9 +42,9 @@ Ohio. By 1805, Nathaniel appears on the tax rolls for Ross County, and he he
 moved, with other family members, to White County, Indiana, where he died
 in 1850.
 
-His son, [Barzilla Bunnell (1807–1891)](/ancestry/ogs/ffo), born in Ross County,
+His son, [Barzilla Bunnell (1807–1891)](/ancestry/first-families-of-ohio/), born in Ross County,
 would go on to represent the next generation of Ohio-born Bunnells and is
-himself my qualifying ancestor for [First Families of Ohio](/ancestry/ogs/ffo).
+himself my qualifying ancestor for [First Families of Ohio](/ancestry/first-families-of-ohio/).
 The continuity of residence from the early territorial period through statehood
 and beyond makes the Bunnell line a representative example of Ohio's settler
 legacy, one that links the colonial mid-Atlantic to the western frontier of the

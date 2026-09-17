@@ -16,7 +16,7 @@ const { subject } = Astro.props;
 const siteSubject = subjects.subjects.find((item) => item.writing_subject?.route === subject.route);
 ---
 
-<BaseLayout title={subject.title} description={subject.description} image="/assets/img/blog.webp" canonical={subject.route}>
+<BaseLayout title={`${subject.title} — Writing`} description={subject.description} image="/assets/img/blog.webp" canonical={subject.route}>
   <PageIntro title={subject.title} subtitle={subject.description} image="/assets/img/blog.webp" compact/>
   <WritingLinks current="subjects"/>
   <section class="section">

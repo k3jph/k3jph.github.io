@@ -60,9 +60,9 @@ born in Warren County in 1838. Through this lineage, the family's
 contributions to the county continued well into the late 19th and early
 20th centuries.  Joseph Newman was the son of Jonathan Newman and Anne
 Cloud. Jonathan Newman is a qualifying ancestor for the [National
-Society Descendants of Early Quakers](/ancestry/nsdeq), and both
+Society Descendants of Early Quakers](/ancestry/national-society-descendants-of-early-quakers/), and both
 Jonathan Newman and Anne Cloud are qualifying ancestors for the [First
-Families of Warren County](/ancestry/ffwc).
+Families of Warren County](/ancestry/first-families-of-warren-county-ohio/).
 
 ## Benjamin Franklin Newman and Mary Margaret Pottorf
 

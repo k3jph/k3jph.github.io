@@ -2,13 +2,13 @@
 
 #### Books and Edited Volumes
 
-- James P. Howard, II, and John F. Beyers, Eds., _[Teaching and Learning Mathematics Online](/tlmo)_, 2nd ed. Boca Raton, Florida: Chapman and Hall/CRC, 2025.
-- Natalie M. Scala and James P. Howard, II, Eds., _[Handbook of Military and Defense Operations Research](/mdor)_, 2nd ed., ser. Series in Operations Research. Boca Raton, Florida: Chapman and Hall/CRC, 2024.
-- James P. Howard, II and John F. Beyers, Eds., [_Teaching and Learning Mathematics Online_](/tlmo). Boca Raton, Florida: Chapman and Hall/CRC, 2020.
-- Natalie M. Scala and James P. Howard, II, Eds., [_Handbook of Military and Defense Operations Research_](/mdor), ser. Series in Operations Research. Boca Raton, Florida: Chapman and Hall/CRC, 2020.
+- James P. Howard, II, and John F. Beyers, Eds., _[Teaching and Learning Mathematics Online](/books/teaching-learning-mathematics-online/)_, 2nd ed. Boca Raton, Florida: Chapman and Hall/CRC, 2025.
+- Natalie M. Scala and James P. Howard, II, Eds., _[Handbook of Military and Defense Operations Research](/books/handbook-military-defense-operations-research/)_, 2nd ed., ser. Series in Operations Research. Boca Raton, Florida: Chapman and Hall/CRC, 2024.
+- James P. Howard, II and John F. Beyers, Eds., [_Teaching and Learning Mathematics Online_](/books/teaching-learning-mathematics-online/). Boca Raton, Florida: Chapman and Hall/CRC, 2020.
+- Natalie M. Scala and James P. Howard, II, Eds., [_Handbook of Military and Defense Operations Research_](/books/handbook-military-defense-operations-research/), ser. Series in Operations Research. Boca Raton, Florida: Chapman and Hall/CRC, 2020.
 - James P. Howard, II, [_Hurricane_ ser. Gurps Disasters](/2019/12/19/gurps-disasters-hurricane-released/), Steve Jackson Games, Austin, Texas, 37-1711, 2019.
-- James P. Howard, II, _[Computational Methods for Numerical Analysis with R](/cmna)_, ser. Numerical Analysis and Scientific Computing. New York: Chapman and Hall/CRC, 2017.
-- James P. Howard, II, _[Socioeconomic Effects of the National Flood Insurance Program](/se-nfip)_, 1st ed., ser. SpringerBriefs in Political Science. Cham, Switzerland: Springer International Publishing, 2016.
+- James P. Howard, II, _[Computational Methods for Numerical Analysis with R](/books/computational-methods-numerical-analysis-r/)_, ser. Numerical Analysis and Scientific Computing. New York: Chapman and Hall/CRC, 2017.
+- James P. Howard, II, _[Socioeconomic Effects of the National Flood Insurance Program](/books/socioeconomic-effects-national-flood-insurance-program/)_, 1st ed., ser. SpringerBriefs in Political Science. Cham, Switzerland: Springer International Publishing, 2016.
 
 #### Articles, Chapters, Proceedings, and Dissertation
 
