@@ -13,6 +13,8 @@ main_menu_settings:
       url: /service
     - title: Writing
       url: /writing/
+    - title: Blog
+      url: /blog/
     - title: Contact Me
       url: /contact-me/
 

@@ -165,9 +165,12 @@ const writingHub = await readFile(path.join(dist, 'writing/index.html'), 'utf8')
 for (const heading of ['Selected Writing', 'Subjects', 'Series', 'Complete Blog Archive']) if (!writingHub.includes(`>${heading}</h2>`)) failures.push(`/writing/: missing ${heading} section`);
 const primaryNav = writingHub.match(/<nav id="site-nav"[\s\S]*?<\/nav>/)?.[0] ?? '';
 if (!primaryNav.includes('href="/writing/"') || !primaryNav.includes('>Writing</a>')) failures.push('primary navigation: missing Writing link');
-if (primaryNav.includes('href="/blog/"')) failures.push('primary navigation: Blog remains alongside Writing');
+if (!primaryNav.includes('href="/blog/"') || !primaryNav.includes('>Blog</a>')) failures.push('primary navigation: missing Blog link');
+if (!/<a\b(?=[^>]*\bhref="\/writing\/")(?=[^>]*\baria-current="page")[^>]*>Writing<\/a>/.test(primaryNav)) failures.push('/writing/: primary navigation does not mark Writing as the current page');
 if (primaryNav.includes('href="/subjects/"')) failures.push('primary navigation: Subjects was added to the destination-oriented navbar');
 const blogIndex = await readFile(path.join(dist, 'blog/index.html'), 'utf8');
+const blogPrimaryNav = blogIndex.match(/<nav id="site-nav"[\s\S]*?<\/nav>/)?.[0] ?? '';
+if (!/<a\b(?=[^>]*\bhref="\/blog\/")(?=[^>]*\baria-current="page")[^>]*>Blog<\/a>/.test(blogPrimaryNav)) failures.push('/blog/: primary navigation does not mark Blog as the current page');
 const firstPageCards = [...blogIndex.matchAll(/class="[^"]*\bpost-card\b/g)].length;
 if (firstPageCards !== 12) failures.push(`/blog/: expected 12 archive cards, found ${firstPageCards}`);
 
