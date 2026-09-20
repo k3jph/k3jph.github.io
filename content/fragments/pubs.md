@@ -68,6 +68,8 @@
 
 ### Presentations and Talks
 
+- James P. Howard, II, "Shields of the Learned: The Heraldry of Scientists and Mathematicians," The Augustan Society, Virtual, Jul. 18, 2026.
+- James P. Howard, II, "So You Want a Coat of Arms? Heraldry for Beginners," The Augustan Society, Virtual, Dec. 13, 2025.
 - James P. Howard, II, "[Decoding Time's Mysteries for Better Predictions](https://www.norbertwiener.umd.edu/FFT/2023/Speakers/James_Howard.html)," Keynote Lecture, Fall Fourier Talks 2023, College Park, Maryland, October 26, 2023.
 - Ivan Stanish, Jane E. Valentine, Damon C. Duquaine, Joseph D. Warfield, Ariel M. Greenberg, and James P. Howard, II, "[Agent-Based Modeling for Evaluation of a Wearable-Sensor-Based Disease Surveillance Network](https://spie.org/defense-commercial-sensing/presentation/Agent-based-modeling-for-evaluation-of-a-wearable-sensor-based/12548-14)," SPIE Defense + Commercial Sensing, Orlando, Florida, May 1, 2023.
 - Ivan Stanish, Joseph D. Warfield, Jane E. Valentine, Damon C. Duquaine, Ariel M. Greenberg, and James P. Howard, II, "[Agent-Based Modeling for Evaluation of a Wearable-Sensor-Based Disease Surveillance Network](https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=322453)," 2022 Joint Statistical Meetings, Washington, DC, Aug. 8, 2022.
