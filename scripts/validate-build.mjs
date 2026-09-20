@@ -174,6 +174,14 @@ if (!/<a\b(?=[^>]*\bhref="\/blog\/")(?=[^>]*\baria-current="page")[^>]*>Blog<\/a
 const firstPageCards = [...blogIndex.matchAll(/class="[^"]*\bpost-card\b/g)].length;
 if (firstPageCards !== 12) failures.push(`/blog/: expected 12 archive cards, found ${firstPageCards}`);
 
+const ancestrySubtitleRoute = '/ancestry/guild-of-colonial-artisans-and-tradesmen/';
+const ancestrySubtitleHtml = await readFile(path.join(dist, ancestrySubtitleRoute.replace(/^\//, ''), 'index.html'), 'utf8');
+if (!/<p[^>]*>Member <em>jure<\/em> Jeremiah Cloud/.test(ancestrySubtitleHtml)) failures.push(`${ancestrySubtitleRoute}: subtitle inline Markdown was not rendered`);
+if (ancestrySubtitleHtml.includes('Member _jure_ Jeremiah Cloud')) failures.push(`${ancestrySubtitleRoute}: subtitle contains literal Markdown`);
+if (!ancestrySubtitleHtml.includes('<meta name="description" content="Member jure Jeremiah Cloud')) failures.push(`${ancestrySubtitleRoute}: meta description contains Markdown instead of plain text`);
+const ancestrySubtitleSearchRecord = searchRecords.find((item) => item.url === ancestrySubtitleRoute);
+if (!ancestrySubtitleSearchRecord || !ancestrySubtitleSearchRecord.excerpt.startsWith('Member jure Jeremiah Cloud')) failures.push(`${ancestrySubtitleRoute}: search excerpt contains Markdown instead of plain text`);
+
 const homepage = await readFile(path.join(dist, 'index.html'), 'utf8');
 const homepageSections = ['subjects', 'work', 'elsewhere', 'blog'].map((section) => homepage.indexOf(`data-home-section="${section}"`));
 if (homepageSections.some((position) => position < 0) || homepageSections.some((position, index) => index > 0 && position <= homepageSections[index - 1])) failures.push('homepage: discovery sections are missing or out of order');
