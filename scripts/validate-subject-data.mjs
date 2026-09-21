@@ -56,7 +56,8 @@ if (JSON.stringify(generated) !== JSON.stringify(expected)) {
     return { path, generated: left, expected: right };
   };
   console.error('Generated Subject data does not match _data/subjects.yml and the canonical destination data.');
-  console.error(JSON.stringify(firstDifference(generated, expected), null, 2));
+  const comparableExpected = JSON.parse(JSON.stringify(expected));
+  console.error(JSON.stringify(firstDifference(generated, comparableExpected), null, 2));
   process.exit(1);
 }
 
