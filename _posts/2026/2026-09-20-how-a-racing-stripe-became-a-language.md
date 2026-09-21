@@ -5,7 +5,7 @@ date: 2026-09-20
 author: k3jph
 layout: post
 permalink: /2026/09/20/how-a-racing-stripe-became-a-language/
-featured_image: /assets/img/blog.webp
+featured_image: /assets/img/2026/how-a-racing-stripe-became-a-language.webp
 excerpt: >-
   In 1967 the U.S. Coast Guard adopted a new diagonal "racing stripe."
   Within a generation, coast guards around the world were speaking variations
