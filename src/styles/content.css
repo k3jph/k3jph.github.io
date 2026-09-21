@@ -88,6 +88,7 @@
 .figure-group--one { grid-template-columns: minmax(0, 1fr); }
 .figure-group--two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .figure-group--three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.figure-group--third-wide { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); }
 .content .figure-group > figure, .content .figure-group > .content-figure { display: flex; width: 100%; max-width: none; height: 100%; margin: 0; flex-direction: column; }
 .content .figure-group > figure figcaption, .content .figure-group > .content-figure figcaption { margin-top: auto; }
 .figure-group--framed > figure, .figure-group--framed > .content-figure { overflow: hidden; padding: var(--space-3); border: 1px solid var(--color-slate-300); background: #fff; box-shadow: var(--shadow-sm); }
@@ -182,7 +183,7 @@
   .toc ol, .page-toc ol, .page-toc ul { columns: 1; }
   .book-detail-hero, .facts, .credential-grid, .media-fact-grid, .details-list--grid, .document-grid, .content-columns { grid-template-columns: 1fr; }
   .content-grid__item { flex-basis: 100%; }
-  .figure-group--two, .figure-group--three { grid-template-columns: 1fr; }
+  .figure-group--two, .figure-group--three, .figure-group--third-wide { grid-template-columns: 1fr; }
   .timeline > div { grid-template-columns: 1fr; gap: var(--space-1); }
   .ribbon-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
