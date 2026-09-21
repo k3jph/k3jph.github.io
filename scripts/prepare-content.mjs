@@ -90,7 +90,7 @@ for (const file of postFiles) {
   const item = { file, data, body: parsed.content, route: url };
   posts.push(item);
   routeLedger.push({ source: file, route: url, type: 'blog' });
-  await writeEntry('blog', file.replace(/^_posts\//, ''), { ...data, calendar_date: `D${String(data.date).slice(0, 10)}`, excerpt: excerpt(parsed.content), source_path: file }, parsed.content, url);
+  await writeEntry('blog', file.replace(/^_posts\//, ''), { ...data, calendar_date: `D${String(data.date).slice(0, 10)}`, excerpt: data.excerpt ?? excerpt(parsed.content), source_path: file }, parsed.content, url);
 }
 
 const ancestryFiles = (await fg('_ancestry/**/*.{md,markdown}', { cwd: root })).sort();
@@ -191,7 +191,7 @@ for (const item of redirects) {
 const uniqueRedirects = [...redirectMap.values()];
 
 await writeFile(path.join(generated, 'data', 'site.json'), `${JSON.stringify({ siteUrl: 'https://jameshoward.us', books, honors, media, service, software, teaching, settings, profile, mddfRibbons, redirects: uniqueRedirects }, null, 2)}\n`);
-await writeFile(path.join(generated, 'data', 'posts.json'), `${JSON.stringify(posts.map((post) => ({ ...post.data, route: post.route, source_path: post.file, excerpt: excerpt(post.body) })), null, 2)}\n`);
+await writeFile(path.join(generated, 'data', 'posts.json'), `${JSON.stringify(posts.map((post) => ({ ...post.data, route: post.route, source_path: post.file, excerpt: post.data.excerpt ?? excerpt(post.body) })), null, 2)}\n`);
 await writeFile(path.join(generated, 'data', 'writing.json'), `${JSON.stringify(writing, null, 2)}\n`);
 await writeFile(path.join(generated, 'data', 'subjects.json'), `${JSON.stringify(subjects, null, 2)}\n`);
 await writeFile(path.join(generated, 'data', 'route-ledger.json'), `${JSON.stringify({ generated_at: new Date().toISOString(), routes: routeLedger, redirects: uniqueRedirects }, null, 2)}\n`);
