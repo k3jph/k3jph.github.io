@@ -5,10 +5,7 @@ date: 2026-09-20
 author: k3jph
 layout: post
 permalink: /2026/09/20/how-a-racing-stripe-became-a-language/
-featured_image: "https://commons.wikimedia.org/wiki/Special:FilePath/USCG_Cutter_Stratton_(WMSL_752)_conducts_trilateral_engagements_with_Japan_Coast_Guard_and_Philippine_Coast_Guard_in_Kagoshima,_Japan_(9131923).jpg"
-credits: >-
-  Featured image: U.S. Coast Guard photo by Senior Chief Petty Officer Matthew S. Masaschi,
-  via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:USCG_Cutter_Stratton_(WMSL_752)_conducts_trilateral_engagements_with_Japan_Coast_Guard_and_Philippine_Coast_Guard_in_Kagoshima,_Japan_(9131923).jpg).
+featured_image: /assets/img/blog.webp
 excerpt: >-
   In 1967 the U.S. Coast Guard adopted a new diagonal "racing stripe."
   Within a generation, coast guards around the world were speaking variations
