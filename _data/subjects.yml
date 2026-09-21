@@ -205,6 +205,30 @@ subjects:
         - phonics
         - Small Unix utilities
 
+
+  - slug: heraldry-visual-identity
+    title: Heraldry & Visual Identity
+    description: >-
+      Arms, badges, seals, livery, and the visual systems through which people
+      and institutions make identity recognizable.
+    featured:
+      - type: writing
+        id: /2026/09/20/how-a-racing-stripe-became-a-language/
+      - type: writing
+        id: /2024/05/04/a-maltese-grant-of-arms/
+      - type: service
+        id: augustan-society
+    resources:
+      writing:
+        - /2026/09/20/how-a-racing-stripe-became-a-language/
+        - /2025/08/11/false-quartering-in-heraldic-design/
+        - /2025/05/26/a-new-tartan/
+        - /2024/12/10/on-the-royal-badges/
+        - /2024/05/04/a-maltese-grant-of-arms/
+        - /2024/04/23/kamon-as-japanese-heraldry/
+      service:
+        - augustan-society
+
   - slug: teaching-learning
     title: Teaching & Learning
     description: >-

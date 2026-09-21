@@ -49,6 +49,8 @@ That would already make the racing stripe a neat piece of twentieth-century desi
 
 Christian Ostersehlte's study, ["The History of the 'Racing Stripe' Emblem and Brand Identity for World Sea Services and Coast Guards"](https://media.defense.gov/2017/Jul/02/2001772322/-1/-1/0/STRIPEHISTORY.PDF), traces the international spread. Sweden adopted the U.S.-style racing stripe early. By 1976, Swedish Coast Guard vessels were already carrying a dark-blue double slash on light-gray hulls. When the service's livery changed after its 1988 reorganization, the slash remained, now rendered in the national colors of yellow and blue. The [Swedish Coast Guard's current fleet](https://www.kustbevakningen.se/om-oss/fartyg-och-flyg/fartyg/) still makes the device immediately obvious.
 
+<div class="figure-group figure-group--third-wide">
+
 :::figure{src="https://commons.wikimedia.org/wiki/Special:FilePath/Swedish_Coast_Guard_racing_stripe.svg" alt="Swedish Coast Guard racing stripe in blue and yellow" align="left" width="4" role="emblem" link="https://commons.wikimedia.org/wiki/File:Swedish_Coast_Guard_racing_stripe.svg"}
 The modern Swedish Coast Guard slash uses the national colors, blue and yellow. Wikimedia Commons, public domain.
 :::
@@ -57,7 +59,11 @@ The modern Swedish Coast Guard slash uses the national colors, blue and yellow. 
 Swedish Coast Guard vessel *KBV 002 Triton*. Photo by Calistemon / Wikimedia Commons, CC BY-SA 4.0.
 :::
 
+</div>
+
 Canada provides another good early case. Ostersehlte places the white slash on the new polar icebreakers *Pierre Radisson* and *Franklin* at the end of the 1970s. The Canadian system is particularly striking because the hull itself is red, making the large white diagonal band the reversal of the American solution rather than a recoloring of it. The device is formal enough that the Canadian Coast Guard's fleet identity documentation includes an entire section headed ["Diagonal Stripe"](https://canadabuys.canada.ca/documents/pub/att/2015/02/13/a41e6d2182137957ebb7f39f7ed14f1f/ABES.PROD.PW__MC.B017.E24806.ATTA002.PDF). The Canadian government's [fleet record for *Pierre Radisson*](https://inter-j02.dfo-mpo.gc.ca/fdat/vessels/vessel-details/91?wbdisable=true) dates the ship's entry into service to 1978.
+
+<div class="figure-group figure-group--third-wide">
 
 :::figure{src="https://commons.wikimedia.org/wiki/Special:FilePath/Canadian_Coast_Guard_racing_stripe.svg" alt="Canadian Coast Guard white diagonal racing stripe on a red field" align="right" width="4" role="emblem" link="https://commons.wikimedia.org/wiki/File:Canadian_Coast_Guard_racing_stripe.svg"}
 The Canadian treatment reduces the idea almost to its geometric minimum: a white slash against the service's red hull. Wikimedia Commons.
@@ -67,7 +73,11 @@ The Canadian treatment reduces the idea almost to its geometric minimum: a white
 *CCGS Pierre Radisson*, one of the early Canadian ships associated with the white-slash treatment. Photo by Cephas / Wikimedia Commons, CC BY-SA 3.0.
 :::
 
+</div>
+
 The spread did not stop in the North Atlantic. Japan, India, the Philippines, and numerous other services use variations on the same grammar. Japan's current mark is especially interesting because its three blue strokes are far enough removed from the American red-and-blue slash to possess a strongly independent identity, while still reading immediately as a member of the same broad family. The [Japan Coast Guard's own organization page](https://www.kaiho.mlit.go.jp/e/organization/) displays the device across vessels of very different sizes.
+
+<div class="figure-group figure-group--third-wide">
 
 :::figure{src="https://commons.wikimedia.org/wiki/Special:FilePath/Japan_Coast_Guard_racing_stripe.svg" alt="Japan Coast Guard blue racing stripe" align="left" width="4" role="emblem" link="https://commons.wikimedia.org/wiki/File:Japan_Coast_Guard_racing_stripe.svg"}
 The Japan Coast Guard mark. Its geometry differs considerably from the American original, but the family resemblance remains obvious. Wikimedia Commons, public domain.
@@ -76,6 +86,8 @@ The Japan Coast Guard mark. Its geometry differs considerably from the American 
 :::figure{src="https://commons.wikimedia.org/wiki/Special:FilePath/PL_62,_a_Hateruma-class_patrol_vessel_of_the_Japan_Coast_Guard.jpg" alt="Japan Coast Guard Hateruma-class patrol vessel PL 62 carrying the blue diagonal stripe" align="center" width="8" role="supporting" link="https://commons.wikimedia.org/wiki/File:PL_62,_a_Hateruma-class_patrol_vessel_of_the_Japan_Coast_Guard.jpg"}
 A Japan Coast Guard Hateruma-class patrol vessel in Yokohama. Photo by Chris Jantsch / Wikimedia Commons, CC BY-SA 4.0.
 :::
+
+</div>
 
 India's Coast Guard uses blue diagonal bands, while the Philippine Coast Guard uses a more elaborate red, white, and blue treatment. These are not uniform copies of a template. The point is precisely that they are *not* uniform. The colors, number of bands, proportions, angles, and accompanying emblems vary. What remains stable is the choice to place a steep, conspicuous, high-contrast diagonal identity device on a long, largely horizontal vehicle.
 
