@@ -31,7 +31,38 @@ const expected = buildSubjectsData(source, {
 }, occupiedRoutes);
 
 if (JSON.stringify(generated) !== JSON.stringify(expected)) {
+  const firstDifference = (left, right, path = '
+
+console.log(JSON.stringify({
+  subjects: Object.fromEntries(generated.subjects.map((subject) => [subject.slug, subject.resource_counts])),
+  routes: generated.routes.length,
+}, null, 2));
+) => {
+    if (Object.is(left, right)) return null;
+    if (typeof left !== typeof right || left === null || right === null) return { path, generated: left, expected: right };
+    if (Array.isArray(left) || Array.isArray(right)) {
+      if (!Array.isArray(left) || !Array.isArray(right)) return { path, generated: left, expected: right };
+      if (left.length !== right.length) return { path: `${path}.length`, generated: left.length, expected: right.length };
+      for (let index = 0; index < left.length; index += 1) {
+        const difference = firstDifference(left[index], right[index], `${path}[${index}]`);
+        if (difference) return difference;
+      }
+      return null;
+    }
+    if (typeof left === 'object') {
+      const leftKeys = Object.keys(left);
+      const rightKeys = Object.keys(right);
+      if (JSON.stringify(leftKeys) !== JSON.stringify(rightKeys)) return { path: `${path} keys`, generated: leftKeys, expected: rightKeys };
+      for (const key of leftKeys) {
+        const difference = firstDifference(left[key], right[key], `${path}.${key}`);
+        if (difference) return difference;
+      }
+      return null;
+    }
+    return { path, generated: left, expected: right };
+  };
   console.error('Generated Subject data does not match _data/subjects.yml and the canonical destination data.');
+  console.error(JSON.stringify(firstDifference(generated, expected), null, 2));
   process.exit(1);
 }
 
