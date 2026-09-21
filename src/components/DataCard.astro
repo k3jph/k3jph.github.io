@@ -1,7 +1,7 @@
 ---
 import JHCard from './JHCard.astro';
 import { sitePath } from '../lib/site';
-const { item, heading='h3', variant='default', showCategory=false, showSummary=true, id }=Astro.props;const H=heading;const rawHref=item.detail_page||item.detail_url||item.url||item.publisher_url;const href=rawHref?sitePath(rawHref):undefined;
+const { item, heading='h3', variant='default', showCategory=false, showSummary=true, id }=Astro.props;const H=heading;const rawHref=item.detail_page||item.detail_url||item.url||item.publisher_url||item.evidence;const href=rawHref?sitePath(rawHref):undefined;
 const metadata=[item.role||item.issuer,item.postnominal,item.date||item.dates].filter(Boolean).join(' · ');
 const facts=[item.service_period&&`Service period: ${item.service_period}`,item.previous_grade&&`Previous grade: ${item.previous_grade}`,item.issuer_type&&`Classification: ${item.issuer_type}`].filter(Boolean);
 ---
