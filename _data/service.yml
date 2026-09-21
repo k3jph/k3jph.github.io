@@ -39,11 +39,12 @@
       Revolution.
 
 - organization: The Augustan Society
-  role: Member, Board of Directors · Vice-Justiciar for Maltese Heraldry
-  dates: 2024–Present
+  role: Vice President · Member, Board of Directors · Vice-Justiciar for Maltese Heraldry
+  dates: 2024–Present · Vice President since 20 September 2026
   current: true
   section: professional
-  summary: "Provide nonprofit governance, specialist heraldic advice, and curriculum development for a scholarly organization concerned with history, genealogy, heraldry, and chivalric traditions."
+  summary: "Serve as Vice President and board member, providing nonprofit governance, specialist heraldic advice, and curriculum development for a scholarly organization concerned with history, genealogy, heraldry, and chivalric traditions."
+  url: https://www.augustansociety.org/
 
 - organization: Chapman and Hall / CRC Press
   id: crc-analytics-or-series
@@ -52,6 +53,7 @@
   current: true
   section: professional
   summary: "Provide editorial stewardship for a scholarly series at the intersection of analytics and operations research."
+  url: https://www.routledge.com/about-us/chapman-hall
 
 - organization: Military Operations Research Journal
   id: military-operations-research-journal
@@ -60,6 +62,7 @@
   current: true
   section: professional
   summary: "Contribute editorial review and professional judgment to the field’s principal scholarly journal."
+  url: https://www.mors.org/publications/mor-journal
 
 - organization: Howard County, Maryland
   id: howard-county-board-of-appeals
@@ -101,6 +104,7 @@
   current: false
   section: professional
   summary: "Helped organize the chapter’s annual conference and awards program."
+  url: https://www.aspanet.org/ASPA/ASPA/Chapters-Sections/Chapter-Information-Pages/Maryland-Chapter.aspx
 
 - organization: University of Maryland Global Campus
   id: umgc-lms-selection
@@ -109,6 +113,7 @@
   current: false
   section: professional
   summary: "Contributed faculty perspective to an institutional project selecting the university’s learning-management system."
+  url: https://www.umgc.edu/
 
 - organization: College Park Scholars Alumni Association
   role: Founding and early governance work
@@ -116,3 +121,4 @@
   current: false
   section: professional
   summary: "Worked with university leaders to establish the alumni association and support its early governance."
+  url: https://scholars.umd.edu/scholars/alumni-friends
