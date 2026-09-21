@@ -24,7 +24,7 @@ label { color: var(--color-navy-900); font: 700 .86rem var(--font-sans); letter-
 input, select, textarea { width: 100%; min-height: 2.8rem; padding: .65rem .8rem; border: 1px solid var(--color-slate-400); border-radius: var(--radius-sm); color: var(--color-ink); background: var(--color-white); font: 1rem var(--font-sans); }
 button { font: inherit; }
 
-.container, .reading-container, .archive-container { width: min(calc(100% - 2rem), var(--container-width, var(--content-width))); margin-inline: auto; }
+.container, .reading-container, .archive-container { width: min(calc(100% - clamp(2rem, 6vw, 4rem)), var(--container-width, var(--content-width))); margin-inline: auto; }
 .reading-container { --container-width: var(--reading-width); }
 .archive-container { --container-width: var(--archive-width); }
 .skip-link { position: fixed; z-index: 1000; top: .5rem; left: .5rem; transform: translateY(-160%); padding: .7rem 1rem; color: var(--color-navy-950); background: #fff; font: 700 1rem var(--font-sans); }
