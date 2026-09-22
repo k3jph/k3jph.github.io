@@ -1,13 +1,10 @@
-// Seasonal effects driver.
-// Install this directory as /assets/seasonal and include:
-// <script defer src="/assets/seasonal/js/seasonal.js"></script>
+// Seasonal effects driver for jameshoward.us.
 //
 // Test URLs:
 //   /?season=america250
 //   /?season=fourth
 //   /?season=july4
 //   /?season=halloween
-//   /?season=christmas
 //   /?season=all
 
 (function () {
@@ -20,7 +17,6 @@
     independence: "america250",
     america: "america250",
     usa250: "america250",
-    xmas: "christmas",
     spooky: "halloween"
   };
 
@@ -52,7 +48,6 @@
 
   function loadScript(src, cb) {
     const s = document.createElement("script");
-    s.defer = true;
     s.src = src;
     if (cb) s.onload = cb;
     document.head.appendChild(s);
@@ -85,6 +80,17 @@
       windows: [
         { month: 7, startDay: 1, endDay: 7 },
         { year: 2026, month: 7, startDay: 1, endDay: 12 }
+      ]
+    },
+    {
+      name: "halloween",
+      script: "/assets/seasonal/js/halloween.js",
+      stylesheet: "/assets/seasonal/css/halloween.css",
+      motionHeavy: false,
+      dependencies: [],
+      windows: [
+        { month: 10, startDay: 25, endDay: 31 },
+        { month: 11, startDay: 1, endDay: 1 }
       ]
     }
   ];

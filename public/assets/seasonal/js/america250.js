@@ -24,9 +24,7 @@
     return;
   }
 
-  const host =
-    document.querySelector(".section-header .parallax") ||
-    document.querySelector(".section-header");
+  const host = document.querySelector(".home-hero");
 
   if (!host) {
     console.warn("america250.js: hero host not found");

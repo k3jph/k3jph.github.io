@@ -1,0 +1,53 @@
+/* Halloween presentation. The cobweb may appear site-wide; lightning is created only on the homepage. */
+
+body.halloween-mode .halloween-cobweb {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 40;
+  width: min(500px, 46vw);
+  aspect-ratio: 1 / 1;
+  opacity: .8;
+  pointer-events: none;
+  background: url("/assets/img/halloween/spiderweb.svg") top right / contain no-repeat;
+  filter: drop-shadow(0 0 1px rgb(0 0 0 / 15%));
+}
+
+body.halloween-mode .halloween-lightning {
+  position: fixed;
+  top: -20vh;
+  left: 0;
+  z-index: 45;
+  width: auto;
+  height: 180vh;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(0) rotate(-45deg);
+  transform-origin: top left;
+  filter:
+    drop-shadow(0 0 6px rgb(255 255 255 / 25%))
+    drop-shadow(0 0 12px rgb(255 255 255 / 15%));
+  transition: opacity 60ms linear, filter 90ms ease;
+  will-change: transform, opacity, filter;
+}
+
+body.halloween-mode .halloween-lightning.glow {
+  filter:
+    brightness(1.15) contrast(1.08)
+    drop-shadow(0 0 10px rgb(255 255 255 / 35%))
+    drop-shadow(0 0 22px rgb(163 199 255 / 28%))
+    drop-shadow(0 0 38px rgb(163 199 255 / 20%))
+    blur(.3px);
+}
+
+@media (max-width: 48rem) {
+  body.halloween-mode .halloween-cobweb {
+    width: min(360px, 72vw);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.halloween-mode .halloween-lightning {
+    display: none;
+  }
+}
