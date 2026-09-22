@@ -47,7 +47,7 @@
     bolt.decoding = "async";
     bolt.loading = "eager";
     bolt.src = ASSETS.bolt;
-    document.body.appendChild(bolt);
+    homeHero.appendChild(bolt);
 
     const audio = new Audio(ASSETS.thunder);
     audio.preload = "auto";
