@@ -13,11 +13,24 @@ body.halloween-mode .halloween-cobweb {
   filter: drop-shadow(0 0 1px rgb(0 0 0 / 15%));
 }
 
+body.halloween-mode .home-hero {
+  overflow: hidden;
+  isolation: isolate;
+}
+
+body.halloween-mode .home-hero::before {
+  z-index: 1;
+}
+
+body.halloween-mode .home-hero .home-grid {
+  z-index: 3;
+}
+
 body.halloween-mode .halloween-lightning {
-  position: fixed;
+  position: absolute;
   top: -20vh;
   left: 0;
-  z-index: 45;
+  z-index: 2;
   width: auto;
   height: 180vh;
   opacity: 0;
