@@ -1,7 +1,7 @@
 // Seasonal effects driver for jameshoward.us, including forced preview modes.
 //
 // Test URLs:
-//   /?season=america250
+//   /?season=america
 //   /?season=fourth
 //   /?season=july4
 //   /?season=halloween
@@ -11,12 +11,13 @@
   "use strict";
 
   const aliases = {
-    fourth: "america250",
-    july4: "america250",
-    julyfourth: "america250",
-    independence: "america250",
-    america: "america250",
-    usa250: "america250",
+    america250: "america",
+    fourth: "america",
+    july4: "america",
+    julyfourth: "america",
+    independence: "america",
+    usa250: "america",
+    usa: "america",
     spooky: "halloween"
   };
 
@@ -70,7 +71,7 @@
 
   const seasons = [
     {
-      name: "america250",
+      name: "america",
       script: "/assets/seasonal/js/america250.js",
       stylesheet: "/assets/seasonal/css/america250.css",
       motionHeavy: true,
@@ -78,8 +79,7 @@
         "https://cdn.jsdelivr.net/npm/fireworks-js@2.x/dist/index.umd.js"
       ],
       windows: [
-        { month: 7, startDay: 1, endDay: 7 },
-        { year: 2026, month: 7, startDay: 1, endDay: 12 }
+        { month: 7, startDay: 3, endDay: 5 }
       ]
     },
     {
@@ -89,8 +89,7 @@
       motionHeavy: false,
       dependencies: [],
       windows: [
-        { month: 10, startDay: 25, endDay: 31 },
-        { month: 11, startDay: 1, endDay: 1 }
+        { month: 10, startDay: 15, endDay: 31 }
       ]
     }
   ];
