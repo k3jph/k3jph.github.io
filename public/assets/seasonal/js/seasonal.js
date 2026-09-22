@@ -1,4 +1,4 @@
-// Seasonal effects driver for jameshoward.us.
+// Seasonal effects driver for jameshoward.us, including forced preview modes.
 //
 // Test URLs:
 //   /?season=america250
