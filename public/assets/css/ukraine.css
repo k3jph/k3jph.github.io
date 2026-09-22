@@ -2,9 +2,11 @@
   cursor: pointer;
   margin: 10px;
   padding: 10px 20px;
-  font-family: var(--font-sans);
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
   font-weight: 700;
-  text-decoration: none;
+  line-height: 1.45;
+  text-decoration: none !important;
   border: 5px solid;
   border-image-slice: 1;
   z-index: 100;
@@ -18,8 +20,21 @@
 .ukb-bottom-left { position: fixed; bottom: 0; left: 0; }
 .ukb-top-right { position: fixed; top: 0; right: 0; }
 .ukb-top-left { position: fixed; top: 0; left: 0; }
-.ukb:hover,
-.ukb:focus-visible { text-decoration: none; }
+a.ukb,
+a.ukb:visited,
+a.ukb:hover,
+a.ukb:focus-visible {
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+  text-decoration: none !important;
+}
+a.ukb-dark,
+a.ukb-dark:visited,
+a.ukb-dark:hover,
+a.ukb-dark:focus-visible { color: #f1f5f9; }
+a.ukb-light,
+a.ukb-light:visited,
+a.ukb-light:hover,
+a.ukb-light:focus-visible { color: #0f172a; }
 .ukb-fade-out { opacity: 0; pointer-events: none; }
 
 @media (max-width: 767px) {

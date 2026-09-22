@@ -10,7 +10,7 @@
     if (!document.querySelector('link[data-ukraine-banner]')) {
       const styleSheet = document.createElement("link");
       styleSheet.rel = "stylesheet";
-      styleSheet.href = "/assets/css/ukraine.css";
+      styleSheet.href = "/assets/css/ukraine.css?v=20260922-2";
       styleSheet.dataset.ukraineBanner = "true";
       document.head.appendChild(styleSheet);
     }
