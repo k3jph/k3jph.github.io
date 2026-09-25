@@ -13,6 +13,12 @@ redirect_from:
 
 ::book-detail{slug="computational-methods-numerical-analysis-r"}
 
+## Web companion
+
+The maintained companion site at [cmna.jameshoward.us](https://cmna.jameshoward.us/)
+collects the book, source code, interactive R laboratories, teaching material,
+worked numerical examples, errata, and continuing project updates.
+
 ## Errata
 
 * [April 3, 2019](/assets/docs/CMNA-Errata-20190403.pdf)
