@@ -40,13 +40,21 @@ a.ukb-light:focus-visible { color: #0f172a; }
 @media (max-width: 767px) {
   .ukb {
     box-sizing: border-box;
-    max-width: calc(100vw - 20px);
+    width: min(30rem, calc(100vw - 2rem));
+    max-width: none;
+    margin: 1rem;
+    padding: .75rem 1rem;
+    border-width: 4px;
+    font-size: .95rem;
+    line-height: 1.35;
     text-align: center;
   }
   .ukb-bottom-right,
   .ukb-bottom-left {
     right: auto;
     left: 50%;
+    margin-left: 0;
+    margin-right: 0;
     transform: translateX(-50%);
   }
 }
