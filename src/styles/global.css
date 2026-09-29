@@ -2,8 +2,8 @@
 @import './tokens.css';
 
 *, *::before, *::after { box-sizing: border-box; }
-html { color-scheme: light; scroll-behavior: smooth; }
-body { margin: 0; color: var(--color-ink); background: var(--color-white); font: 1.075rem/1.72 var(--font-serif); }
+html { max-width: 100%; overflow-x: clip; color-scheme: light; scroll-behavior: smooth; }
+body { max-width: 100%; margin: 0; overflow-x: clip; color: var(--color-ink); background: var(--color-white); font: 1.075rem/1.72 var(--font-serif); }
 img, svg, video, iframe { max-width: 100%; }
 img { height: auto; }
 a { color: var(--color-blue-600); text-decoration-thickness: .08em; text-underline-offset: .16em; transition: color var(--transition-ui); }
