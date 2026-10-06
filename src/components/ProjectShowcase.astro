@@ -1,0 +1,247 @@
+---
+const { projects = [] } = Astro.props;
+
+const hostname = (url: string) => {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    return url;
+  }
+};
+---
+
+<div class="project-showcase">
+  {projects.map((project: any) => (
+    <a
+      class="project-showcase__card"
+      href={project.url}
+      target={project.target}
+      rel={project.target ? 'noopener noreferrer' : undefined}
+      aria-label={`Visit ${project.title}`}
+    >
+      <div class:list={['project-showcase__preview', `project-showcase__preview--${project.theme ?? 'default'}`]}>
+        <div class="project-showcase__chrome" aria-hidden="true">
+          <span></span><span></span><span></span>
+          <small>{hostname(project.url)}</small>
+        </div>
+        <div class="project-showcase__brand">
+          <strong>{project.preview_title ?? project.title}</strong>
+          {project.preview_subtitle && <span>{project.preview_subtitle}</span>}
+        </div>
+      </div>
+      <div class="project-showcase__body">
+        {project.kind && <p class="eyebrow">{project.kind}</p>}
+        <h3>{project.title}</h3>
+        <p>{project.description}</p>
+        <span class="project-showcase__visit">{hostname(project.url)} →</span>
+      </div>
+    </a>
+  ))}
+</div>
+
+<style>
+  .project-showcase {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--space-4);
+  }
+
+  .project-showcase__card {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    overflow: hidden;
+    border: 1px solid var(--color-slate-150);
+    border-radius: var(--radius-md);
+    color: var(--color-ink);
+    background: #fff;
+    box-shadow: var(--shadow-sm);
+    text-decoration: none;
+    transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+  }
+
+  .project-showcase__card:hover,
+  .project-showcase__card:focus-visible {
+    color: var(--color-ink);
+    border-color: var(--color-gold-500);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-3px);
+  }
+
+  .project-showcase__preview {
+    --preview-bg: var(--color-navy-900);
+    --preview-accent: var(--color-gold-300);
+    --preview-fg: #fff;
+    position: relative;
+    min-height: 12rem;
+    overflow: hidden;
+    color: var(--preview-fg);
+    background:
+      linear-gradient(145deg, rgb(255 255 255 / 5%), transparent 52%),
+      var(--preview-bg);
+  }
+
+  .project-showcase__preview::before,
+  .project-showcase__preview::after {
+    position: absolute;
+    border: 1px solid color-mix(in srgb, var(--preview-accent) 50%, transparent);
+    content: '';
+    pointer-events: none;
+  }
+
+  .project-showcase__preview::before {
+    width: 12rem;
+    height: 12rem;
+    top: 2.6rem;
+    right: -3rem;
+    border-radius: 50%;
+  }
+
+  .project-showcase__preview::after {
+    width: 16rem;
+    height: 1px;
+    right: -2rem;
+    bottom: 2.25rem;
+    border-width: 1px 0 0;
+    transform: rotate(-18deg);
+    transform-origin: right center;
+  }
+
+  .project-showcase__chrome {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: .35rem;
+    padding: .7rem .8rem;
+    border-bottom: 1px solid rgb(255 255 255 / 16%);
+    color: rgb(255 255 255 / 70%);
+    font: 600 .66rem var(--font-sans);
+    letter-spacing: .02em;
+  }
+
+  .project-showcase__chrome > span {
+    width: .42rem;
+    height: .42rem;
+    border-radius: 50%;
+    background: currentColor;
+    opacity: .65;
+  }
+
+  .project-showcase__chrome small {
+    overflow: hidden;
+    margin-left: .3rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .project-showcase__brand {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    align-content: end;
+    gap: .45rem;
+    min-height: 8.8rem;
+    padding: 1rem 1.2rem 1.3rem;
+  }
+
+  .project-showcase__brand strong {
+    color: inherit;
+    font: 600 clamp(1.6rem, 3vw, 2.5rem)/1.02 var(--font-display);
+    letter-spacing: .015em;
+    text-wrap: balance;
+  }
+
+  .project-showcase__brand span {
+    max-width: 23rem;
+    color: color-mix(in srgb, var(--preview-fg) 82%, transparent);
+    font: 600 .78rem/1.4 var(--font-sans);
+    letter-spacing: .055em;
+    text-transform: uppercase;
+    text-wrap: balance;
+  }
+
+  .project-showcase__body {
+    display: grid;
+    align-content: start;
+    padding: var(--space-4);
+  }
+
+  .project-showcase__body .eyebrow {
+    margin-bottom: .45rem;
+  }
+
+  .project-showcase__body h3 {
+    margin: 0 0 .7rem;
+    font-size: 1.18rem;
+  }
+
+  .project-showcase__body > p:not(.eyebrow) {
+    margin: 0;
+    color: var(--color-slate-700);
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+
+  .project-showcase__visit {
+    align-self: end;
+    margin-top: var(--space-3);
+    color: var(--color-blue-600);
+    font: 700 .84rem var(--font-sans);
+  }
+
+  .project-showcase__preview--war1812 {
+    --preview-bg: #25211c;
+    --preview-accent: #b9945e;
+  }
+
+  .project-showcase__preview--judith {
+    --preview-bg: #241015;
+    --preview-accent: #c19b64;
+  }
+
+  .project-showcase__preview--cmna {
+    --preview-bg: #18354b;
+    --preview-accent: #88c7d8;
+  }
+
+  .project-showcase__preview--defenseor {
+    --preview-bg: #1c2730;
+    --preview-accent: #c35d50;
+  }
+
+  .project-showcase__preview--dungeon {
+    --preview-bg: #314238;
+    --preview-accent: #d6c199;
+  }
+
+  .project-showcase__preview--krigsvold {
+    --preview-bg: #15334b;
+    --preview-accent: #b8ddec;
+  }
+
+  @media (max-width: 64rem) {
+    .project-showcase {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 42rem) {
+    .project-showcase {
+      grid-template-columns: 1fr;
+    }
+
+    .project-showcase__preview {
+      min-height: 10.5rem;
+    }
+
+    .project-showcase__brand {
+      min-height: 7.3rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .project-showcase__card {
+      transition-duration: .01ms;
+    }
+  }
+</style>
