@@ -33,7 +33,7 @@
     const homeHero = document.querySelector(".home-hero");
     if (!homeHero) return;
 
-    const arms = homeHero.querySelector(".home-grid > img");
+    const arms = homeHero.querySelector(".home-hero__arms");
     if (arms) {
       arms.dataset.defaultSrc = arms.getAttribute("src") || "";
       arms.setAttribute("src", ASSETS.arms);
