@@ -183,9 +183,15 @@ const ancestrySubtitleSearchRecord = searchRecords.find((item) => item.url === a
 if (!ancestrySubtitleSearchRecord || !ancestrySubtitleSearchRecord.excerpt.startsWith('Member jure Jeremiah Cloud')) failures.push(`${ancestrySubtitleRoute}: search excerpt contains Markdown instead of plain text`);
 
 const homepage = await readFile(path.join(dist, 'index.html'), 'utf8');
-const homepageSections = ['blog', 'subjects', 'work', 'elsewhere'].map((section) => homepage.indexOf(`data-home-section="${section}"`));
+const homepageSections = ['blog', 'subjects', 'elsewhere'].map((section) => homepage.indexOf(`data-home-section="${section}"`));
 if (homepageSections.some((position) => position < 0) || homepageSections.some((position, index) => index > 0 && position <= homepageSections[index - 1])) failures.push('homepage: discovery sections are missing or out of order');
 if (homepage.includes('Explore My World') || homepage.includes('The working archive') || homepage.includes('jh-card--featured')) failures.push('homepage: legacy six-card destination architecture remains');
+if (homepage.includes('data-home-section="work"') || homepage.includes('Browse the Work')) failures.push('homepage: redundant main-menu destination section remains');
+const homepageSubjectCards = [...homepage.matchAll(/<a\b[^>]*class="home-subject-card"[^>]*href="([^"]+)"/g)].map((match) => match[1]);
+if (homepageSubjectCards.length !== generatedSubjects.subjects.length || new Set(homepageSubjectCards).size !== generatedSubjects.subjects.length) failures.push('homepage: Subject cards do not cover every canonical Subject exactly once');
+for (const subject of generatedSubjects.subjects) if (!homepageSubjectCards.includes(subject.route)) failures.push(`homepage: missing image card for ${subject.route}`);
+const homepageArchiveCards = [...homepage.matchAll(/<a\b[^>]*class="home-archive-card"[^>]*href="([^"]+)"/g)].map((match) => match[1]);
+if (homepageArchiveCards.length !== 4) failures.push('homepage: expected four illustrated archive destinations');
 for (const subject of generatedSubjects.subjects) if (!homepage.includes(`href="${subject.route}"`)) failures.push(`homepage: missing canonical Subject ${subject.route}`);
 for (const route of ['/writing/', '/scholarship/', '/books/', '/software/', '/teaching/', '/service/', '/consulting/', '/ancestry/', '/honors/', '/coat-of-arms/', '/media/', '/blog/']) {
   if (!homepage.includes(`href="${route}"`)) failures.push(`homepage: missing destination ${route}`);

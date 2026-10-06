@@ -1,10 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import DestinationDirectory from '../components/DestinationDirectory.astro';
 import HeadingDivider from '../components/HeadingDivider.astro';
 import SectionHeading from '../components/SectionHeading.astro';
-import SubjectDirectory from '../components/SubjectDirectory.astro';
 import { formatDate, isPublished, normalizeAssetPath, sitePath } from '../lib/site';
 import siteData from '../../.generated/data/site.json';
 import subjects from '../../.generated/data/subjects.json';
@@ -20,17 +18,24 @@ const featuredProjects = (siteData.settings.sites ?? [])
 
 const heroProjects = featuredProjects.slice(0, 4);
 
-const workDestinations = [
-  {
-    title: 'Writing',
-    href: '/writing/',
-    description: 'Selected essays, subjects, and series drawn from the complete Blog archive.',
-  },
-  {
-    title: 'Scholarship',
-    href: '/scholarship/',
-    description: 'Scholarly work and the complete research record.',
-  },
+const subjectArtwork: Record<string, string> = {
+  'artificial-intelligence': '/assets/img/2026/neurons-all-the-way-down.webp',
+  'mathematics-statistics': '/assets/img/2025/the-gini-mean-difference.webp',
+  'operations-research-decision-systems': '/assets/img/2026/the-model-is-not-the-system.webp',
+  'risk-resilience': '/assets/img/2026/effective-challenge-is-now-optional.webp',
+  'public-policy-institutions': '/assets/img/2026/the-39-trillion-number-is-wrong.webp',
+  'software-open-systems': '/assets/img/news/case-risc-v.webp',
+  'heraldry-visual-identity': '/assets/img/2025/by-the-arms-know-the-man.webp',
+  'teaching-learning': '/assets/img/2025/the-ancient-dignity-of-education.webp',
+};
+
+const subjectCards = subjects.subjects.map((subject: any) => ({
+  ...subject,
+  image: subjectArtwork[subject.slug],
+}));
+
+// These destinations have no equivalent in the main menu.
+const additionalDestinations = [
   {
     title: 'Books',
     href: '/books/',
@@ -42,14 +47,9 @@ const workDestinations = [
     description: 'Open-source projects and working tools built around difficult problems.',
   },
   {
-    title: 'Teaching',
-    href: '/teaching/',
-    description: 'Courses, instructional work, and a documentary syllabus archive.',
-  },
-  {
-    title: 'Service',
-    href: '/service/',
-    description: 'Public work, professional stewardship, and institutional responsibility.',
+    title: 'Consulting',
+    href: '/consulting/',
+    description: 'Have a complicated problem of your own?',
   },
 ];
 
@@ -58,21 +58,29 @@ const personalDestinations = [
     title: 'Ancestry',
     href: '/ancestry/',
     description: 'Documented lineages, people, places, and the evidence connecting them.',
+    image: '/assets/img/ancestry/ofgd/granville-grant-teague-1756-11-05.webp',
+    imagePosition: 'center 35%',
   },
   {
     title: 'Honors',
     href: '/honors/',
     description: 'Awards, appointments, decorations, and other recognition.',
+    image: '/assets/img/kingdom-of-hawaii-medal-hero.webp',
+    imagePosition: 'center 38%',
   },
   {
     title: 'Coat of Arms',
     href: '/coat-of-arms/',
     description: 'The grant, insignia, emblazonments, tartan, and documentary record.',
+    image: '/assets/img/armory/jhoward-coa-achernushkin-960px.webp',
+    imagePosition: 'center 35%',
   },
   {
     title: 'Media Archive',
     href: '/media/',
     description: 'Interviews, quotations, profiles, and appearances collected over the years.',
+    image: '/assets/img/news/radio-studio.webp',
+    imagePosition: 'center',
   },
 ];
 ---
@@ -145,25 +153,53 @@ const personalDestinations = [
     </section>
   </section>
 
-  <section class="section section--cream" data-home-section="subjects">
-    <div class="container">
-      <SectionHeading title="Explore by Subject" description="Follow the ideas across writing, scholarship, books, software, teaching, and service."/>
-      <SubjectDirectory subjects={subjects.subjects} heading="h3" variant="compact"/>
+  <section class="section section--cream home-discovery" data-home-section="subjects" aria-labelledby="home-subjects">
+    <div class="container home-discovery__container">
+      <SectionHeading title="Explore by Subject" id="home-subjects"/>
+      <ul class="home-subject-grid">
+        {subjectCards.map((subject: any) => (
+          <li>
+            <a class="home-subject-card" href={subject.route}>
+              <span class="home-subject-card__image">
+                <img src={subject.image} alt="" loading="lazy" decoding="async"/>
+              </span>
+              <div class="home-subject-card__copy">
+                <h3>{subject.title}</h3>
+                <span class="home-discovery-arrow" aria-hidden="true">↗</span>
+              </div>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <nav class="home-callouts" aria-label="Books, software, and consulting">
+        {additionalDestinations.map((destination) => (
+          <a class="home-callout" href={destination.href}>
+            <span class="home-callout__title">{destination.title}<span aria-hidden="true"> →</span></span>
+            <span class="home-callout__description">{destination.description}</span>
+          </a>
+        ))}
+      </nav>
     </div>
   </section>
 
-  <section class="section section--navy" data-home-section="work">
-    <div class="container">
-      <SectionHeading title="Browse the Work" description="Choose the kind of record you want to explore." variant="light"/>
-      <DestinationDirectory entries={workDestinations} variant="dark"/>
-      <p class="home-consulting">Have a complicated problem of your own? <a href="/consulting/">Consulting →</a></p>
-    </div>
-  </section>
-
-  <section class="section" data-home-section="elsewhere">
-    <div class="container">
-      <SectionHeading title="Elsewhere on the Site" description="Personal archives, historical records, and a few less conventional corners."/>
-      <DestinationDirectory entries={personalDestinations}/>
+  <section class="section section--navy home-discovery home-archives" data-home-section="elsewhere" aria-labelledby="home-archives">
+    <div class="container home-discovery__container">
+      <SectionHeading title="Elsewhere on the Site" id="home-archives" variant="light"/>
+      <ul class="home-archive-grid">
+        {personalDestinations.map((destination) => (
+          <li>
+            <a class="home-archive-card" href={destination.href}>
+              <span class="home-archive-card__image">
+                <img src={destination.image} alt="" loading="lazy" decoding="async" style={`object-position: ${destination.imagePosition};`}/>
+              </span>
+              <div class="home-archive-card__copy">
+                <h3>{destination.title}<span aria-hidden="true"> →</span></h3>
+                <span>{destination.description}</span>
+              </div>
+            </a>
+          </li>
+        ))}
+      </ul>
     </div>
   </section>
 </BaseLayout>
@@ -372,20 +408,133 @@ const personalDestinations = [
   }
 
 
-  .home-consulting {
-    margin: var(--space-5) 0 0;
-    color: rgb(255 255 255 / 82%);
-    font: 700 1rem var(--font-sans);
-    text-align: center;
+  .home-discovery__container { --container-width: 88rem; }
+
+  .home-subject-grid,
+  .home-archive-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: clamp(1rem, 1.6vw, 1.5rem);
+    margin: 0;
+    padding: 0;
+    list-style: none;
   }
 
-  .home-consulting a {
-    color: var(--color-gold-300);
+  .home-subject-grid > li,
+  .home-archive-grid > li { min-width: 0; }
+
+  .home-subject-card,
+  .home-archive-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid rgb(11 28 51 / 12%);
+    border-radius: var(--radius-md);
+    background: #fff;
+    box-shadow: var(--shadow-sm);
+    text-decoration: none;
+    transition: border-color .2s ease, box-shadow .2s ease;
   }
 
-  .home-consulting a:hover,
-  .home-consulting a:focus-visible {
+  .home-subject-card__image,
+  .home-archive-card__image {
+    display: block;
+    overflow: hidden;
+    aspect-ratio: 16 / 10;
+    background: var(--color-navy-950);
+  }
+
+  .home-subject-card__image img,
+  .home-archive-card__image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .35s ease;
+  }
+
+  .home-subject-card__copy {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    gap: .8rem;
+    padding: 1.25rem;
+    border-top: 3px solid var(--color-gold-500);
+  }
+
+  .home-subject-card h3,
+  .home-archive-card h3 {
+    margin: 0;
+    color: var(--color-navy-900);
+    font-size: clamp(1.05rem, 1.4vw, 1.4rem);
+    line-height: 1.3;
+  }
+
+  .home-discovery-arrow {
+    flex-shrink: 0;
+    color: var(--color-gold-700);
+    font: 400 1.8rem/1 var(--font-sans);
+  }
+
+  .home-subject-card:hover,
+  .home-subject-card:focus-visible,
+  .home-archive-card:hover,
+  .home-archive-card:focus-visible {
+    border-color: var(--color-gold-500);
+    box-shadow: var(--shadow-md);
+  }
+
+  .home-subject-card:hover img,
+  .home-subject-card:focus-visible img,
+  .home-archive-card:hover img,
+  .home-archive-card:focus-visible img { transform: scale(1.04); }
+
+  .home-callouts {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: var(--space-5);
+  }
+
+  .home-callout {
+    display: grid;
+    align-content: start;
+    gap: .6rem;
+    padding: clamp(1.25rem, 2vw, 2rem);
+    border-left: 4px solid var(--color-gold-300);
     color: #fff;
+    background: var(--color-navy-900);
+    text-decoration: none;
+    transition: background-color .2s ease;
+  }
+
+  .home-callout:hover,
+  .home-callout:focus-visible { color: #fff; background: var(--color-navy-700); }
+  .home-callout__title { display: flex; justify-content: space-between; gap: 1rem; font: 600 clamp(1.25rem, 2vw, 1.8rem)/1.2 var(--font-display); }
+  .home-callout__title > span { color: var(--color-gold-300); }
+  .home-callout__description { color: rgb(255 255 255 / 84%); font-size: .98rem; line-height: 1.5; }
+
+  .home-archives { background: var(--color-navy-900); }
+  .home-archive-card__image { aspect-ratio: 4 / 3; }
+  .home-archive-card__copy { display: grid; flex: 1; align-content: start; gap: .7rem; padding: 1.35rem; border-top: 3px solid var(--color-gold-500); }
+  .home-archive-card__copy > span { color: var(--color-slate-700); font-size: .98rem; line-height: 1.55; }
+  .home-archive-card h3 > span { color: var(--color-gold-700); }
+
+  @media (max-width: 68rem) {
+    .home-subject-grid,
+    .home-archive-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+
+  @media (max-width: 40rem), (max-aspect-ratio: 4/5) {
+    .home-discovery__container { width: min(92vw, 44rem); }
+    .home-subject-grid,
+    .home-archive-grid,
+    .home-callouts { grid-template-columns: 1fr; }
+    .home-subject-card h3,
+    .home-archive-card h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); }
+    .home-archive-card__image { aspect-ratio: 16 / 10; }
   }
 
   @media (max-width: 68rem) {
