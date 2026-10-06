@@ -183,14 +183,14 @@ const ancestrySubtitleSearchRecord = searchRecords.find((item) => item.url === a
 if (!ancestrySubtitleSearchRecord || !ancestrySubtitleSearchRecord.excerpt.startsWith('Member jure Jeremiah Cloud')) failures.push(`${ancestrySubtitleRoute}: search excerpt contains Markdown instead of plain text`);
 
 const homepage = await readFile(path.join(dist, 'index.html'), 'utf8');
-const homepageSections = ['subjects', 'work', 'elsewhere', 'blog'].map((section) => homepage.indexOf(`data-home-section="${section}"`));
+const homepageSections = ['blog', 'subjects', 'work', 'elsewhere'].map((section) => homepage.indexOf(`data-home-section="${section}"`));
 if (homepageSections.some((position) => position < 0) || homepageSections.some((position, index) => index > 0 && position <= homepageSections[index - 1])) failures.push('homepage: discovery sections are missing or out of order');
 if (homepage.includes('Explore My World') || homepage.includes('The working archive') || homepage.includes('jh-card--featured')) failures.push('homepage: legacy six-card destination architecture remains');
 for (const subject of generatedSubjects.subjects) if (!homepage.includes(`href="${subject.route}"`)) failures.push(`homepage: missing canonical Subject ${subject.route}`);
 for (const route of ['/writing/', '/scholarship/', '/books/', '/software/', '/teaching/', '/service/', '/consulting/', '/ancestry/', '/honors/', '/coat-of-arms/', '/media/', '/blog/']) {
   if (!homepage.includes(`href="${route}"`)) failures.push(`homepage: missing destination ${route}`);
 }
-const homepagePostRoutes = [...homepage.matchAll(/class="card-media" href="([^"]+)"/g)].map((match) => match[1]);
+const homepagePostRoutes = [...homepage.matchAll(/data-home-post href="([^"]+)"/g)].map((match) => match[1]);
 if (homepagePostRoutes.length !== 3) failures.push(`homepage: expected 3 recent Blog posts, found ${homepagePostRoutes.length}`);
 for (const route of homepagePostRoutes) if (!searchRecords.some((record) => record.type === 'Blog' && record.url === route)) failures.push(`homepage: recent post is not in the Blog collection: ${route}`);
 const homepageJsonLd = [...homepage.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((match) => {
