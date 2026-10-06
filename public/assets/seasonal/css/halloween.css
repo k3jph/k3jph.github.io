@@ -22,7 +22,8 @@ body.halloween-mode .home-hero::before {
   z-index: 1;
 }
 
-body.halloween-mode .home-hero .home-grid {
+body.halloween-mode .home-hero .home-hero__top,
+body.halloween-mode .home-hero .home-hero__blog {
   z-index: 3;
 }
 
