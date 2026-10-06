@@ -191,7 +191,7 @@ for (const route of ['/writing/', '/scholarship/', '/books/', '/software/', '/te
   if (!homepage.includes(`href="${route}"`)) failures.push(`homepage: missing destination ${route}`);
 }
 const homepagePostRoutes = [...homepage.matchAll(/data-home-post href="([^"]+)"/g)].map((match) => match[1]);
-if (homepagePostRoutes.length !== 3) failures.push(`homepage: expected 3 recent Blog posts, found ${homepagePostRoutes.length}`);
+if (homepagePostRoutes.length !== 4) failures.push(`homepage: expected 4 recent Blog posts, found ${homepagePostRoutes.length}`);
 for (const route of homepagePostRoutes) if (!searchRecords.some((record) => record.type === 'Blog' && record.url === route)) failures.push(`homepage: recent post is not in the Blog collection: ${route}`);
 const homepageJsonLd = [...homepage.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((match) => {
   try { return JSON.parse(match[1]); } catch { return null; }
