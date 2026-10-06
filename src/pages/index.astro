@@ -87,8 +87,7 @@ const personalDestinations = [
 
       <section class="home-hero__projects" aria-labelledby="home-projects">
         <div class="home-hero__label">
-          <p class="eyebrow">Selected Projects</p>
-          <h2 id="home-projects">Things with their own front doors</h2>
+          <h2 id="home-projects">Selected Projects</h2>
         </div>
         <div class="home-project-grid">
           {heroProjects.map((project: any) => (
@@ -120,7 +119,6 @@ const personalDestinations = [
     <section class="container home-hero__blog" data-home-section="blog" aria-labelledby="home-latest-writing">
       <div class="home-hero__blog-heading">
         <div>
-          <p class="eyebrow">Latest Writing</p>
           <h2 id="home-latest-writing">From the Blog</h2>
         </div>
         <a href="/blog/">Complete archive →</a>
@@ -239,12 +237,6 @@ const personalDestinations = [
     justify-content: space-between;
     gap: 1rem;
     margin-bottom: .7rem;
-  }
-
-  .home-hero__label .eyebrow,
-  .home-hero__blog-heading .eyebrow {
-    margin: 0 0 .12rem;
-    color: var(--color-gold-300);
   }
 
   .home-hero__label h2,
