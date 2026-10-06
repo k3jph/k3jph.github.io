@@ -70,7 +70,8 @@ sites:
     footer: false
     order: 30
     theme: cmna
-    image: https://jameshoward.us/assets/img/CMNA-cover-300.webp
+    # Image-only crop (38, 512, 1024, 1119) of the 1024px VitalSource cover, vbid 9781351646505.
+    image: /assets/img/projects/cmna-abacus.webp
     image_position: center 30%
     preview_title: CMNA
     preview_subtitle: Numerical analysis, built where you can see it
@@ -85,8 +86,9 @@ sites:
     footer: false
     order: 40
     theme: defenseor
-    image: https://defenseor.com/assets/covers/second-edition.jpg
-    image_position: center 28%
+    # Image-only crop (180, 574, 854, 1028) of the 1024px VitalSource cover, vbid 9781040047033.
+    image: /assets/img/projects/mdor-operations.webp
+    image_position: center top
     preview_title: Defense OR
     preview_subtitle: Modern Defense Operations Research
 
