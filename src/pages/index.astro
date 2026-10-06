@@ -73,7 +73,8 @@ const personalDestinations = [
     href: '/coat-of-arms/',
     description: 'The grant, insignia, emblazonments, tartan, and documentary record.',
     image: '/assets/img/armory/jhoward-coa-achernushkin-960px.webp',
-    imagePosition: 'center 35%',
+    imagePosition: 'center',
+    imageFit: 'contain',
   },
   {
     title: 'Media Archive',
@@ -189,7 +190,7 @@ const personalDestinations = [
         {personalDestinations.map((destination) => (
           <li>
             <a class="home-archive-card" href={destination.href}>
-              <span class="home-archive-card__image">
+              <span class:list={['home-archive-card__image', { 'home-archive-card__image--contain': destination.imageFit === 'contain' }]}>
                 <img src={destination.image} alt="" loading="lazy" decoding="async" style={`object-position: ${destination.imagePosition};`}/>
               </span>
               <div class="home-archive-card__copy">
@@ -490,6 +491,11 @@ const personalDestinations = [
   .home-subject-card:focus-visible img,
   .home-archive-card:hover img,
   .home-archive-card:focus-visible img { transform: scale(1.04); }
+
+  .home-archive-card .home-archive-card__image--contain img {
+    object-fit: contain;
+    transform: none;
+  }
 
   .home-callouts {
     display: grid;
