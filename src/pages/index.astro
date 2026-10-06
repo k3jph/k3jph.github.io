@@ -412,8 +412,12 @@ const personalDestinations = [
     }
   }
 
-  @media (max-width: 54rem) {
+  /* Tall viewports need the stacked composition even at laptop widths. */
+  @media (max-width: 54rem), (max-aspect-ratio: 4/5) {
     .home-hero {
+      align-content: start;
+      min-height: auto;
+      padding: 6.25rem 0 2.5rem;
       overflow: visible;
     }
 
@@ -430,7 +434,7 @@ const personalDestinations = [
     }
 
     .home-hero__arms {
-      width: min(30vw, 9rem);
+      width: min(34vw, 12rem);
       max-height: none;
     }
 
@@ -448,14 +452,14 @@ const personalDestinations = [
     }
   }
 
-  @media (max-width: 40rem) {
+  @media (max-width: 40rem), (max-aspect-ratio: 4/5) {
     .home-hero__identity {
       grid-template-columns: 1fr;
       justify-items: center;
     }
 
     .home-hero__arms {
-      width: min(38vw, 10rem);
+      width: min(52vw, 16rem);
     }
 
     .home-hero__identity p {
