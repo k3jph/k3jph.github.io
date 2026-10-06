@@ -183,15 +183,19 @@ const ancestrySubtitleSearchRecord = searchRecords.find((item) => item.url === a
 if (!ancestrySubtitleSearchRecord || !ancestrySubtitleSearchRecord.excerpt.startsWith('Member jure Jeremiah Cloud')) failures.push(`${ancestrySubtitleRoute}: search excerpt contains Markdown instead of plain text`);
 
 const homepage = await readFile(path.join(dist, 'index.html'), 'utf8');
-const homepageSections = ['blog', 'subjects', 'elsewhere'].map((section) => homepage.indexOf(`data-home-section="${section}"`));
+const homepageSections = ['blog', 'projects', 'subjects', 'elsewhere'].map((section) => homepage.indexOf(`data-home-section="${section}"`));
 if (homepageSections.some((position) => position < 0) || homepageSections.some((position, index) => index > 0 && position <= homepageSections[index - 1])) failures.push('homepage: discovery sections are missing or out of order');
 if (homepage.includes('Explore My World') || homepage.includes('The working archive') || homepage.includes('jh-card--featured')) failures.push('homepage: legacy six-card destination architecture remains');
 if (homepage.includes('data-home-section="work"') || homepage.includes('Browse the Work')) failures.push('homepage: redundant main-menu destination section remains');
-const homepageSubjectCards = [...homepage.matchAll(/<a\b[^>]*class="home-subject-card"[^>]*href="([^"]+)"/g)].map((match) => match[1]);
-if (homepageSubjectCards.length !== generatedSubjects.subjects.length || new Set(homepageSubjectCards).size !== generatedSubjects.subjects.length) failures.push('homepage: Subject cards do not cover every canonical Subject exactly once');
-for (const subject of generatedSubjects.subjects) if (!homepageSubjectCards.includes(subject.route)) failures.push(`homepage: missing image card for ${subject.route}`);
-const homepageArchiveCards = [...homepage.matchAll(/<a\b[^>]*class="home-archive-card"[^>]*href="([^"]+)"/g)].map((match) => match[1]);
-if (homepageArchiveCards.length !== 4) failures.push('homepage: expected four illustrated archive destinations');
+const homepageSubjects = [...homepage.matchAll(/<a\b[^>]*data-home-subject[^>]*href="([^"]+)"/g)].map((match) => match[1]);
+if (homepageSubjects.length !== generatedSubjects.subjects.length || new Set(homepageSubjects).size !== generatedSubjects.subjects.length) failures.push('homepage: Subject index does not cover every canonical Subject exactly once');
+for (const subject of generatedSubjects.subjects) if (!homepageSubjects.includes(subject.route)) failures.push(`homepage: missing Subject index entry for ${subject.route}`);
+const homepageArchives = [...homepage.matchAll(/<a\b[^>]*data-home-archive="[^"]+"[^>]*href="([^"]+)"/g)].map((match) => match[1]);
+if (homepageArchives.length !== 4 || new Set(homepageArchives).size !== 4) failures.push('homepage: expected four distinct archive destinations');
+const homepageProjects = [...homepage.matchAll(/<a\b[^>]*data-home-project="([^"]+)"[^>]*href="([^"]+)"/g)];
+const projectRegistry = JSON.parse(await readFile(path.join(root, '.generated/data/site.json'), 'utf8')).settings.sites.filter((project) => project.showcase);
+if (homepageProjects.length !== projectRegistry.length || new Set(homepageProjects.map((match) => match[1])).size !== projectRegistry.length) failures.push('homepage: showcased projects are missing or duplicated');
+for (const project of projectRegistry) if (!homepageProjects.some((match) => match[1] === project.id && match[2] === project.url)) failures.push(`homepage: missing canonical project ${project.id}`);
 for (const subject of generatedSubjects.subjects) if (!homepage.includes(`href="${subject.route}"`)) failures.push(`homepage: missing canonical Subject ${subject.route}`);
 for (const route of ['/writing/', '/scholarship/', '/books/', '/software/', '/teaching/', '/service/', '/consulting/', '/ancestry/', '/honors/', '/coat-of-arms/', '/media/', '/blog/']) {
   if (!homepage.includes(`href="${route}"`)) failures.push(`homepage: missing destination ${route}`);

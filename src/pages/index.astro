@@ -1,648 +1,350 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import HeadingDivider from '../components/HeadingDivider.astro';
-import SectionHeading from '../components/SectionHeading.astro';
 import { formatDate, isPublished, normalizeAssetPath, sitePath } from '../lib/site';
 import siteData from '../../.generated/data/site.json';
 import subjects from '../../.generated/data/subjects.json';
+const books = siteData.books;
 
-const posts = (await getCollection('blog'))
-  .filter((post) => isPublished(post.data))
-  .sort((a, b) => +b.data.date - +a.data.date)
-  .slice(0, 4);
-
-const featuredProjects = (siteData.settings.sites ?? [])
-  .filter((site: any) => site.showcase)
+const posts = (await getCollection('blog')).filter((post) => isPublished(post.data))
+  .sort((a, b) => +b.data.date - +a.data.date).slice(0, 4);
+const [leadPost, ...recentPosts] = posts;
+const projects = (siteData.settings.sites ?? []).filter((site: any) => site.showcase)
   .sort((a: any, b: any) => (a.order ?? 999) - (b.order ?? 999));
-
-const heroProjects = featuredProjects.slice(0, 4);
-
-const subjectArtwork: Record<string, string> = {
-  'artificial-intelligence': '/assets/img/2026/neurons-all-the-way-down.webp',
-  'mathematics-statistics': '/assets/img/2025/the-gini-mean-difference.webp',
-  'operations-research-decision-systems': '/assets/img/2026/the-model-is-not-the-system.webp',
-  'risk-resilience': '/assets/img/2026/effective-challenge-is-now-optional.webp',
-  'public-policy-institutions': '/assets/img/2026/the-39-trillion-number-is-wrong.webp',
-  'software-open-systems': '/assets/img/news/case-risc-v.webp',
-  'heraldry-visual-identity': '/assets/img/2024/on-the-royal-badges.webp',
-  'teaching-learning': '/assets/img/2025/the-ancient-dignity-of-education.webp',
-};
-
-const subjectCards = subjects.subjects.map((subject: any) => ({
-  ...subject,
-  image: subjectArtwork[subject.slug],
-}));
-
-// These destinations have no equivalent in the main menu.
+const historyProject = projects.find((project: any) => project.id === 'war1812');
+const exhibitionProject = projects.find((project: any) => project.id === 'judith');
+const bookProjects = projects.filter((project: any) => ['cmna', 'defenseor'].includes(project.id))
+  .map((project: any) => ({ ...project,
+    book: books.published.find((book: any) => book.short_route === (project.id === 'cmna' ? '/cmna/' : '/mdor/')),
+  }));
+const otherProjects = projects.filter((project: any) => !['war1812', 'judith', 'cmna', 'defenseor'].includes(project.id));
 const additionalDestinations = [
-  {
-    title: 'Books',
-    href: '/books/',
-    description: 'Long-form work in mathematics, policy, operations research, and teaching.',
-  },
-  {
-    title: 'Software',
-    href: '/software/',
-    description: 'Open-source projects and working tools built around difficult problems.',
-  },
-  {
-    title: 'Consulting',
-    href: '/consulting/',
-    description: 'Have a complicated problem of your own?',
-  },
+  { title: 'Books', href: '/books/', description: 'Long-form work in mathematics, policy, operations research, and teaching.' },
+  { title: 'Software', href: '/software/', description: 'Open-source projects and working tools built around difficult problems.' },
+  { title: 'Consulting', href: '/consulting/', description: 'Have a complicated problem of your own?' },
 ];
-
 const personalDestinations = [
-  {
-    title: 'Ancestry',
-    href: '/ancestry/',
-    description: 'Documented lineages, people, places, and the evidence connecting them.',
-    image: '/assets/img/ancestry/ofgd/granville-grant-teague-1756-11-05.webp',
-    imagePosition: 'center 35%',
-  },
-  {
-    title: 'Honors',
-    href: '/honors/',
-    description: 'Awards, appointments, decorations, and other recognition.',
-    image: '/assets/img/kingdom-of-hawaii-medal-hero.webp',
-    imagePosition: 'center 38%',
-  },
-  {
-    title: 'Coat of Arms',
-    href: '/coat-of-arms/',
-    description: 'The grant, insignia, emblazonments, tartan, and documentary record.',
-    image: '/assets/img/armory/jhoward-coa-achernushkin-960px.webp',
-    imagePosition: 'center',
-    imageFit: 'contain',
-  },
-  {
-    title: 'Media Archive',
-    href: '/media/',
-    description: 'Interviews, quotations, profiles, and appearances collected over the years.',
-    image: '/assets/img/news/radio-studio.webp',
-    imagePosition: 'center',
-  },
+  { id: 'ancestry', title: 'Ancestry', href: '/ancestry/', description: 'Documented lineages, people, places, and the evidence connecting them.', image: '/assets/img/ancestry/ofgd/granville-grant-teague-1756-11-05.webp', position: 'center 35%' },
+  { id: 'arms', title: 'Coat of Arms', href: '/coat-of-arms/', description: 'The grant, insignia, emblazonments, tartan, and documentary record.', image: '/assets/img/armory/jhoward-coa-achernushkin-960px.webp', position: 'center' },
+  { id: 'honors', title: 'Honors', href: '/honors/', description: 'Awards, appointments, decorations, and other recognition.', image: '/assets/img/kingdom-of-hawaii-medal-hero.webp', position: 'center 38%' },
+  { id: 'media', title: 'Media Archive', href: '/media/', description: 'Interviews, quotations, profiles, and appearances collected over the years.', image: '/assets/img/news/radio-studio.webp', position: 'center' },
 ];
 ---
 
 <BaseLayout title="Home" profilePage>
-  <section class="home-hero">
-    <div class="container home-hero__top">
-      <div class="home-hero__identity">
-        <h1 class="visually-hidden">James Howard</h1>
-        <img class="home-hero__arms" src="/assets/img/identity/jameshoward-arms.svg" alt="James Howard coat of arms">
-        <p>A Mathematician, a Different Kind of Mathematician, and a Statistician</p>
-      </div>
-
-      <section class="home-hero__projects" aria-labelledby="home-projects">
-        <div class="home-hero__label">
-          <h2 id="home-projects">Selected Projects</h2>
+  <div class="home-editorial">
+    <section class="home-hero" aria-labelledby="home-identity">
+      <div class="home-hero__top home-wrap">
+        <div class="home-hero__identity">
+          <img class="home-hero__arms" src="/assets/img/identity/jameshoward-arms.svg" alt="James Howard coat of arms" width="432" height="489" fetchpriority="high"/>
         </div>
-        <div class="home-project-grid">
-          {heroProjects.map((project: any) => (
-            <a
-              class="home-project-card"
-              href={project.url}
-              target={project.target}
-              rel={project.target ? 'noopener noreferrer' : undefined}
-              aria-label={`Visit ${project.title}`}
-            >
-              <img
-                src={project.image}
-                alt=""
-                loading="eager"
-                decoding="async"
-                style={`object-position: ${project.image_position ?? 'center'};`}
-              />
-              <span class="home-card-shade"></span>
-              <span class="home-project-card__copy">
-                {project.kind && <small>{project.kind}</small>}
-                <strong>{project.title}</strong>
-              </span>
-            </a>
-          ))}
+        <div class="home-hero__copy">
+          <h1 id="home-identity">
+            <span class="home-hero__prelude">A mathematician.</span>
+            <span class="home-hero__statement">A different kind<br/> of mathematician.</span>
+            <span class="home-hero__coda">And a statistician.</span>
+          </h1>
+          <p>Mathematics, software, public policy—and the occasional strange project.</p>
+          <div class="home-hero__actions">
+            <a class="home-action" href="#home-latest-writing">Read the latest <span aria-hidden="true">↓</span></a>
+            <a class="home-text-link" href="#home-projects">Explore the projects <span aria-hidden="true">↘</span></a>
+          </div>
         </div>
-      </section>
-    </div>
-
-    <div class="home-hero__divider">
-      <HeadingDivider variant="light"/>
-    </div>
-
-    <section class="container home-hero__blog" data-home-section="blog" aria-labelledby="home-latest-writing">
-      <div class="home-hero__blog-heading">
-        <div>
-          <h2 id="home-latest-writing">From the Blog</h2>
-        </div>
-        <a href="/blog/">Complete archive →</a>
-      </div>
-      <div class="home-blog-grid">
-        {posts.map((post) => (
-          <article class="home-blog-card">
-            <a data-home-post href={sitePath(post.data.route)} aria-label={`Read ${post.data.title}`}>
-              <img src={normalizeAssetPath(post.data.featured_image)} alt="" loading="eager" decoding="async">
-              <span class="home-card-shade"></span>
-              <span class="home-blog-card__copy">
-                <small>{formatDate(post.data.calendar_date, 'short')}</small>
-                <strong>{post.data.title}</strong>
-              </span>
-            </a>
-          </article>
-        ))}
+        <div class="home-hero__foot" aria-hidden="true"><span>Ideas. Methods. Evidence.</span><span>Scroll to explore ↓</span></div>
       </div>
     </section>
-  </section>
 
-  <section class="section section--cream home-discovery" data-home-section="subjects" aria-labelledby="home-subjects">
-    <div class="container home-discovery__container">
-      <SectionHeading title="Explore by Subject" id="home-subjects"/>
-      <ul class="home-subject-grid">
-        {subjectCards.map((subject: any) => (
-          <li>
-            <a class="home-subject-card" href={subject.route}>
-              <span class="home-subject-card__image">
-                <img src={subject.image} alt="" loading="lazy" decoding="async"/>
-              </span>
-              <div class="home-subject-card__copy">
-                <h3>{subject.title}</h3>
-                <span class="home-discovery-arrow" aria-hidden="true">↗</span>
+    <section class="home-writing home-section" data-home-section="blog" aria-labelledby="home-latest-writing">
+      <div class="home-wrap">
+        <div class="home-section-head">
+          <div><p class="home-kicker">Notes from the working archive</p><h2 id="home-latest-writing">From the Blog</h2></div>
+          <a class="home-text-link" href="/blog/">Complete archive <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="home-writing__layout">
+          {leadPost && <article class="home-writing__lead">
+            <a data-home-post href={sitePath(leadPost.data.route)} aria-labelledby="home-lead-title">
+              <div class="home-writing__image"><img src={normalizeAssetPath(leadPost.data.featured_image)} alt="" loading="lazy" decoding="async"/></div>
+              <div class="home-writing__lead-copy">
+                <time class="home-date" datetime={leadPost.data.calendar_date.replace(/^D/, '')}>{formatDate(leadPost.data.calendar_date, 'short')}</time>
+                <h3 id="home-lead-title">{leadPost.data.title}</h3>
+                {leadPost.data.excerpt && <p>{leadPost.data.excerpt}</p>}
+                <span class="home-read-link">Read the essay <span aria-hidden="true">→</span></span>
               </div>
             </a>
-          </li>
-        ))}
-      </ul>
-      <nav class="home-callouts" aria-label="Books, software, and consulting">
-        {additionalDestinations.map((destination) => (
-          <a class="home-callout" href={destination.href}>
-            <span class="home-callout__title">{destination.title}<span aria-hidden="true"> →</span></span>
-            <span class="home-callout__description">{destination.description}</span>
-          </a>
-        ))}
-      </nav>
-    </div>
-  </section>
+          </article>}
+          <div class="home-writing__recent">
+            <p class="home-kicker">More recent writing</p>
+            <ol>
+              {recentPosts.map((post) => <li><article>
+                <a data-home-post href={sitePath(post.data.route)}>
+                  <time class="home-date" datetime={post.data.calendar_date.replace(/^D/, '')}>{formatDate(post.data.calendar_date, 'short')}</time>
+                  <h3>{post.data.title}</h3>
+                  {post.data.excerpt && <p>{post.data.excerpt}</p>}
+                  <span class="home-read-link">Read <span aria-hidden="true">→</span></span>
+                </a>
+              </article></li>)}
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section class="section section--navy home-discovery home-archives" data-home-section="elsewhere" aria-labelledby="home-archives">
-    <div class="container home-discovery__container">
-      <SectionHeading title="Elsewhere on the Site" id="home-archives" variant="light"/>
-      <ul class="home-archive-grid">
-        {personalDestinations.map((destination) => (
-          <li>
-            <a class="home-archive-card" href={destination.href}>
-              <span class:list={['home-archive-card__image', { 'home-archive-card__image--contain': destination.imageFit === 'contain' }]}>
-                <img src={destination.image} alt="" loading="lazy" decoding="async" style={`object-position: ${destination.imagePosition};`}/>
-              </span>
-              <div class="home-archive-card__copy">
-                <h3>{destination.title}<span aria-hidden="true"> →</span></h3>
-                <span>{destination.description}</span>
+    <section class="home-projects" data-home-section="projects" aria-labelledby="home-projects">
+      <div class="home-wrap home-projects__heading"><p class="home-kicker">Independent sites & ongoing work</p><h2 id="home-projects">Selected Projects</h2></div>
+      {historyProject && <article class="home-history">
+        <img class="home-history__art" src={historyProject.image} alt="" loading="lazy" decoding="async" style={'object-position: ' + (historyProject.image_position ?? 'center') + ';'}/>
+        <div class="home-wrap home-history__inner">
+          <div class="home-history__copy">
+            <p class="home-kicker">{historyProject.kind}</p>
+            <h3><span class="home-history__year">1812</span> <span>The Whole Story</span></h3>
+            <p>{historyProject.description}</p>
+            <a class="home-action" data-home-project="war1812" href={historyProject.url} target={historyProject.target} rel="noopener noreferrer">Begin the story <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </article>}
+      {exhibitionProject && <article class="home-exhibition">
+        <div class="home-exhibition__image"><img src={exhibitionProject.image} alt="" loading="lazy" decoding="async" style={'object-position: ' + (exhibitionProject.image_position ?? 'center') + ';'}/></div>
+        <div class="home-exhibition__copy">
+          <p class="home-kicker">{exhibitionProject.kind}</p>
+          <h3>Judith <span>&</span><br/> Holofernes</h3>
+          <p class="home-exhibition__subtitle">The Fatal Image</p>
+          <p>{exhibitionProject.description}</p>
+          <a class="home-text-link" data-home-project="judith" href={exhibitionProject.url} target={exhibitionProject.target} rel="noopener noreferrer">Enter the exhibition <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>}
+      <div class="home-methods home-section">
+        <div class="home-wrap">
+          <div class="home-section-head"><div><p class="home-kicker">Books with a life beyond the page</p><h3>Methods you can put to work.</h3></div></div>
+          <div class="home-methods__pair">
+            {bookProjects.map((project: any) => <article class="home-book">
+              {project.book && <img src={project.book.cover} alt={project.book.cover_alt} width="300" height="440" loading="lazy" decoding="async"/>}
+              <div>
+                <p class="home-kicker">{project.kind}</p>
+                <h4>{project.title}</h4>
+                {project.book && <p class="home-book__credit">{project.book.role} · {project.book.edition}</p>}
+                <p>{project.description}</p>
+                <a class="home-text-link" data-home-project={project.id} href={project.url} target={project.target} rel="noopener noreferrer">Explore the companion <span aria-hidden="true">↗</span></a>
               </div>
-            </a>
-          </li>
-        ))}
-      </ul>
-    </div>
-  </section>
+            </article>)}
+          </div>
+          {otherProjects.length > 0 && <div class="home-project-notes">
+            {otherProjects.map((project: any) => <article>
+              <p class="home-kicker">{project.kind}</p>
+              <h4><a data-home-project={project.id} href={project.url} target={project.target} rel="noopener noreferrer">{project.title}<span aria-hidden="true"> ↗</span></a></h4>
+              <p>{project.description}</p>
+            </article>)}
+          </div>}
+        </div>
+      </div>
+    </section>
+
+    <nav class="home-destinations home-wrap" aria-label="Books, software, and consulting">
+      {additionalDestinations.map((destination) => <a href={destination.href}><span>{destination.title}<span aria-hidden="true"> ↗</span></span><p>{destination.description}</p></a>)}
+    </nav>
+
+    <section class="home-subjects home-section" data-home-section="subjects" aria-labelledby="home-subjects">
+      <div class="home-wrap home-subjects__layout">
+        <div class="home-subjects__intro">
+          <img src="/assets/img/identity/kamon-info.svg" alt="" width="80" height="80" loading="lazy"/>
+          <p class="home-kicker">Find your way in</p><h2 id="home-subjects">Explore<br/> by Subject</h2>
+        </div>
+        <ul class="home-subject-index">
+          {subjects.subjects.map((subject: any) => <li><a data-home-subject href={subject.route}><span>{subject.title}</span><span aria-hidden="true">↗</span></a></li>)}
+        </ul>
+      </div>
+    </section>
+
+    <section class="home-archives home-section" data-home-section="elsewhere" aria-labelledby="home-archives">
+      <div class="home-wrap">
+        <div class="home-section-head"><div><p class="home-kicker">People, symbols & the documentary record</p><h2 id="home-archives">The personal archive.</h2></div></div>
+        <div class="home-archive-composition">
+          {personalDestinations.map((destination) => <a data-home-archive={destination.id} class:list={['home-archive-entry', 'home-archive-entry--' + destination.id]} href={destination.href}>
+            <div class="home-archive-entry__image"><img src={destination.image} alt="" loading="lazy" decoding="async" style={'object-position: ' + destination.position + ';'}/></div>
+            <div class="home-archive-entry__copy"><h3>{destination.title}<span aria-hidden="true"> ↗</span></h3><p>{destination.description}</p></div>
+          </a>)}
+        </div>
+      </div>
+    </section>
+  </div>
 </BaseLayout>
 
 <style>
-  .home-hero {
-    position: relative;
-    display: grid;
-    align-content: center;
-    gap: clamp(1.4rem, 2.4vh, 2.2rem);
-    min-height: 100svh;
-    padding: clamp(6.25rem, 9vh, 7.5rem) 0 clamp(1.5rem, 3vh, 2.5rem);
-    overflow: hidden;
-    background: #303030 url('/assets/img/header-home.webp') center/cover;
+  .home-editorial { --home-rule: rgb(11 28 51 / 20%); background: var(--color-cream); }
+  .home-wrap { width: min(calc(100% - clamp(2.5rem, 8vw, 8rem)), 86rem); margin-inline: auto; }
+  .home-section { padding-block: clamp(4rem, 7vw, 7rem); }
+  .home-editorial :is(h1, h2, h3, h4, p) { margin: 0; }
+  .home-editorial :is(h2, h3, h4) { font-family: var(--font-serif); font-weight: 400; }
+  .home-editorial h2 { font-size: clamp(2.3rem, 4vw, 4rem); line-height: 1.1; }
+  .home-editorial a { text-decoration: none; }
+  .home-editorial :is(a, article, section, div) { min-width: 0; }
+  .home-editorial [id^='home-'] { scroll-margin-top: 6rem; }
+  .home-kicker { color: var(--color-gold-700); font: 700 .73rem/1.5 var(--font-sans); text-transform: uppercase; letter-spacing: .13em; }
+  .home-section-head { display: flex; align-items: end; justify-content: space-between; gap: 2rem; margin-bottom: 2.8rem; }
+  .home-section-head .home-kicker { margin-bottom: .65rem; }
+  .home-text-link, .home-read-link { display: inline-flex; align-items: center; gap: 1.5rem; color: var(--color-navy-900); font: 700 .9rem/1.4 var(--font-sans); }
+  .home-text-link { padding-block: .65rem; border-bottom: 1px solid var(--color-gold-500); }
+  .home-text-link > span, .home-read-link > span { color: var(--color-gold-700); transition: transform .2s ease; }
+  a:hover .home-read-link > span, a.home-text-link:hover > span { transform: translateX(.25rem); }
+  .home-date { display: block; color: var(--color-slate-700); font: 700 .73rem/1.5 var(--font-sans); letter-spacing: .04em; }
+  .home-action { display: inline-flex; align-items: center; justify-content: space-between; gap: 2rem; min-height: 3.1rem; padding: .85rem 1.3rem; color: var(--color-navy-950); background: var(--color-gold-300); font: 700 .87rem/1.3 var(--font-sans); transition: background .2s ease; }
+  .home-action:hover { color: var(--color-navy-950); background: #fff; }
+
+  .home-hero { position: relative; isolation: isolate; overflow: hidden; color: var(--color-cream); background: var(--color-navy-950); }
+  .home-hero::before { position: absolute; z-index: 0; inset: 0; background: radial-gradient(ellipse at 18% 48%, rgb(37 95 145 / 30%), transparent 58%), linear-gradient(115deg, transparent 65%, rgb(27 61 100 / 30%)); content: ''; pointer-events: none; }
+  .home-hero::after { position: absolute; z-index: 0; right: -13rem; top: -10rem; width: min(70vw, 66rem); aspect-ratio: 1; background: url('/assets/img/identity/kamon-warning.svg') center / contain no-repeat; opacity: .045; content: ''; pointer-events: none; }
+  .home-hero__top { position: relative; z-index: 3; display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); align-items: center; column-gap: clamp(3rem, 6vw, 7rem); row-gap: 3rem; min-height: min(58rem, 100svh); padding-block: clamp(8rem, 12vh, 11rem) 2rem; }
+  .home-hero__identity { display: flex; align-items: center; justify-content: center; }
+  .home-hero__arms { display: block; width: min(100%, 31rem); height: auto; filter: drop-shadow(0 18px 28px rgb(0 0 0 / 25%)); }
+  .home-hero h1 { color: var(--color-cream); font-family: var(--font-serif); font-weight: 400; text-wrap: initial; }
+  .home-hero h1 > span { display: block; }
+  .home-hero__prelude, .home-hero__coda { font-size: clamp(1.25rem, 2.1vw, 2rem); line-height: 1.4; }
+  .home-hero__prelude { margin-bottom: 1.2rem; }
+  .home-hero__statement { font-size: clamp(2.5rem, 5.1vw, 5.6rem); line-height: 1.03; letter-spacing: -.035em; }
+  .home-hero__coda { margin-top: 1.2rem; color: var(--color-gold-300); }
+  .home-hero__copy > p { max-width: 32rem; margin-top: 2rem; color: rgb(248 244 233 / 80%); font-size: clamp(1rem, 1.35vw, 1.2rem); line-height: 1.6; }
+  .home-hero__actions { display: flex; align-items: center; flex-wrap: wrap; gap: .8rem 1.8rem; margin-top: 2rem; }
+  .home-hero__actions .home-text-link, .home-hero__actions .home-text-link > span { color: var(--color-cream); }
+  .home-hero__foot { grid-column: 1 / -1; align-self: end; display: flex; justify-content: space-between; gap: 1rem; padding-top: 1.4rem; border-top: 1px solid rgb(230 199 125 / 25%); color: var(--color-gold-300); font: 400 .7rem/1.5 var(--font-display); letter-spacing: .08em; }
+
+  .home-writing__layout { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); gap: clamp(2rem, 5vw, 5rem); }
+  .home-writing__lead > a { display: block; color: var(--color-navy-900); }
+  .home-writing__image { overflow: hidden; aspect-ratio: 16 / 10; background: var(--color-navy-800); }
+  .home-writing__image img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+  .home-writing__lead a:hover img { transform: scale(1.025); }
+  .home-writing__lead-copy { padding-top: 1.4rem; }
+  .home-writing__lead h3 { margin-top: .5rem; font-size: clamp(2rem, 3.3vw, 3.4rem); line-height: 1.1; }
+  .home-writing__lead-copy > p { max-width: 43rem; margin-top: 1rem; line-height: 1.65; }
+  .home-writing__lead-copy .home-read-link { margin-top: 1.3rem; }
+  .home-writing__recent > .home-kicker { margin-bottom: 1.4rem; }
+  .home-writing__recent ol { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--home-rule); }
+  .home-writing__recent li { border-bottom: 1px solid var(--home-rule); }
+  .home-writing__recent a { display: block; padding-block: 1.6rem; color: var(--color-navy-900); }
+  .home-writing__recent h3 { margin-top: .55rem; font-size: clamp(1.5rem, 2vw, 2rem); line-height: 1.18; }
+  .home-writing__recent p { display: -webkit-box; overflow: hidden; -webkit-line-clamp: 3; -webkit-box-orient: vertical; margin-top: .8rem; color: var(--color-slate-700); font-size: .96rem; line-height: 1.55; }
+  .home-writing__recent .home-read-link { margin-top: 1rem; }
+  .home-writing a:hover h3 { color: var(--color-gold-700); }
+
+  .home-projects { background: #fff; }
+  .home-projects__heading { padding-block: 3.5rem 2.5rem; border-top: 1px solid var(--home-rule); }
+  .home-projects__heading .home-kicker { margin-bottom: .7rem; }
+  .home-history { position: relative; isolation: isolate; overflow: hidden; color: var(--color-cream); background: var(--color-navy-950); }
+  .home-history__art { position: absolute; inset: 0; z-index: -2; display: block; width: 100%; height: 100%; object-fit: cover; }
+  .home-history::before { position: absolute; z-index: -1; inset: 0; background: linear-gradient(90deg, rgb(7 17 31 / 96%), rgb(7 17 31 / 82%) 30%, rgb(7 17 31 / 15%) 78%); content: ''; }
+  .home-history__inner { min-height: 42rem; display: flex; align-items: center; padding-block: 5rem; }
+  .home-history__copy { max-width: 32rem; }
+  .home-history .home-kicker { color: var(--color-gold-300); }
+  .home-history h3 { margin-block: 1rem 1.6rem; color: var(--color-cream); line-height: 1; }
+  .home-history h3 > span { display: block; font-size: clamp(2rem, 3.5vw, 3.4rem); }
+  .home-history h3 .home-history__year { font-size: clamp(6rem, 12vw, 12rem); letter-spacing: -.055em; line-height: .85; margin-bottom: 1.1rem; }
+  .home-history__copy > p:not(.home-kicker) { max-width: 29rem; font-size: 1.2rem; line-height: 1.65; }
+  .home-history .home-action { margin-top: 2rem; }
+  .home-exhibition { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); color: var(--color-cream); background: var(--color-navy-950); }
+  .home-exhibition__image { position: relative; min-height: 39rem; overflow: hidden; }
+  .home-exhibition__image img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; }
+  .home-exhibition__copy { display: flex; flex-direction: column; align-items: start; justify-content: center; padding: clamp(2.5rem, 5vw, 6rem); }
+  .home-exhibition .home-kicker { color: var(--color-gold-300); }
+  .home-exhibition h3 { margin-top: 1.5rem; color: var(--color-cream); font-size: clamp(3rem, 5.6vw, 6rem); line-height: .97; letter-spacing: -.025em; }
+  .home-exhibition h3 span { color: var(--color-gold-300); }
+  .home-exhibition .home-exhibition__subtitle { margin-top: 1.4rem; color: var(--color-gold-300); font-size: 1.5rem; font-style: italic; }
+  .home-exhibition__copy > p:not(.home-kicker):not(.home-exhibition__subtitle) { max-width: 30rem; margin-top: 1.4rem; color: rgb(248 244 233 / 82%); }
+  .home-exhibition .home-text-link { margin-top: 2rem; color: var(--color-cream); }
+  .home-exhibition .home-text-link > span { color: var(--color-gold-300); }
+  .home-methods h3 { font-size: clamp(2.2rem, 3.8vw, 3.6rem); line-height: 1.12; }
+  .home-methods__pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(2rem, 5vw, 5rem); }
+  .home-book { display: grid; grid-template-columns: minmax(0, .58fr) minmax(0, 1fr); align-items: start; gap: clamp(1.4rem, 2.5vw, 2.5rem); }
+  .home-book > img { display: block; width: 100%; height: auto; box-shadow: 5px 9px 16px rgb(7 17 31 / 15%); }
+  .home-book h4 { margin-top: .65rem; font-size: clamp(1.45rem, 2vw, 2rem); line-height: 1.2; }
+  .home-book__credit { margin-top: .8rem !important; color: var(--color-slate-700); font: 400 .76rem/1.5 var(--font-sans); }
+  .home-book p:not(.home-kicker):not(.home-book__credit) { margin-top: 1rem; font-size: 1rem; line-height: 1.6; }
+  .home-book .home-text-link { margin-top: 1rem; }
+  .home-project-notes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(2rem, 5vw, 5rem); margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--home-rule); }
+  .home-project-notes h4 { margin-top: .6rem; font-size: 1.8rem; }
+  .home-project-notes h4 a { color: var(--color-navy-900); }
+  .home-project-notes h4 a:hover { color: var(--color-gold-700); }
+  .home-project-notes h4 span { color: var(--color-gold-700); }
+  .home-project-notes p:not(.home-kicker) { margin-top: .75rem; color: var(--color-slate-700); line-height: 1.6; }
+
+  .home-destinations { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.5rem; padding-block: 3rem; border-bottom: 1px solid var(--home-rule); }
+  .home-destinations > a { display: block; color: var(--color-navy-900); }
+  .home-destinations > a > span { display: flex; justify-content: space-between; gap: 1rem; font: 400 clamp(1.3rem, 2.1vw, 2rem)/1.2 var(--font-display); }
+  .home-destinations > a > span > span { color: var(--color-gold-700); }
+  .home-destinations p { margin-top: .9rem; color: var(--color-slate-700); font-size: .96rem; line-height: 1.6; }
+  .home-destinations > a:hover > span { color: var(--color-gold-700); }
+  .home-subjects__layout { display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); gap: clamp(2rem, 5vw, 5rem); }
+  .home-subjects__intro img { display: block; width: 4rem; height: 4rem; margin-bottom: 1.6rem; }
+  .home-subjects__intro .home-kicker { margin-bottom: .7rem; }
+  .home-subject-index { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 2.2rem; margin: 0; padding: 0; list-style: none; }
+  .home-subject-index li { border-top: 1px solid var(--home-rule); }
+  .home-subject-index a { display: flex; height: 100%; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 1.2rem; color: var(--color-navy-900); font-size: clamp(1.15rem, 1.6vw, 1.5rem); line-height: 1.3; }
+  .home-subject-index a > span:last-child { color: var(--color-gold-700); font: 400 1.2rem var(--font-sans); }
+  .home-subject-index a:hover { color: var(--color-gold-700); }
+
+  .home-archives { color: var(--color-cream); background: var(--color-navy-900); }
+  .home-archives h2 { color: var(--color-cream); }
+  .home-archives .home-kicker { color: var(--color-gold-300); }
+  .home-archive-composition { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, .9fr) minmax(0, .85fr); gap: 1.6rem; }
+  .home-archive-entry { display: flex; flex-direction: column; overflow: hidden; color: var(--color-cream); background: var(--color-navy-950); }
+  .home-archive-entry--ancestry, .home-archive-entry--arms { grid-row: span 2; }
+  .home-archive-entry__image { position: relative; flex: 1; min-height: 0; overflow: hidden; }
+  .home-archive-entry__image img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; }
+  .home-archive-entry--ancestry .home-archive-entry__image { min-height: 28rem; }
+  .home-archive-entry--arms .home-archive-entry__image img { object-fit: contain; }
+  .home-archive-entry--honors .home-archive-entry__image, .home-archive-entry--media .home-archive-entry__image { flex: none; aspect-ratio: 16 / 10; }
+  .home-archive-entry__copy { padding: 1.35rem 1.5rem; border-top: 1px solid rgb(230 199 125 / 35%); }
+  .home-archive-entry h3 { display: flex; justify-content: space-between; gap: .6rem; color: var(--color-cream); font-size: 1.55rem; }
+  .home-archive-entry h3 span { color: var(--color-gold-300); font-size: 1.1rem; }
+  .home-archive-entry p { margin-top: .6rem; color: rgb(248 244 233 / 76%); font-size: .92rem; line-height: 1.6; }
+  .home-archive-entry:hover h3 { color: var(--color-gold-300); }
+
+  @media (max-width: 72rem) {
+    .home-methods__pair { grid-template-columns: 1fr; gap: 3rem; }
+    .home-book { grid-template-columns: minmax(0, 12rem) minmax(0, 1fr); }
+    .home-book > div { max-width: 38rem; }
+    .home-archive-composition { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .home-archive-entry--ancestry, .home-archive-entry--arms { grid-row: auto; }
+    .home-archive-entry--arms .home-archive-entry__image { min-height: 28rem; }
   }
-
-  .home-hero::before {
-    position: absolute;
-    inset: 0;
-    background: var(--hero-overlay);
-    content: '';
-  }
-
-  .home-hero__top,
-  .home-hero__blog,
-  .home-hero__divider {
-    position: relative;
-    z-index: 1;
-  }
-
-  .home-hero__top,
-  .home-hero__blog {
-    width: min(94vw, 96rem);
-  }
-
-  .home-hero__divider {
-    width: 100%;
-  }
-
-  .home-hero__top {
-    display: grid;
-    grid-template-columns: minmax(15rem, 28rem) minmax(0, 1fr);
-    align-items: center;
-    gap: clamp(2rem, 4vw, 5rem);
-  }
-
-  .home-hero__identity {
-    display: grid;
-    justify-items: center;
-    gap: 1rem;
-  }
-
-  .home-hero__arms {
-    width: min(100%, 28rem);
-    max-height: 48vh;
-    object-fit: contain;
-    filter: drop-shadow(0 12px 25px rgb(0 0 0 / 20%));
-  }
-
-  .home-hero__identity p {
-    max-width: 23rem;
-    margin: 0;
-    color: rgb(255 255 255 / 84%);
-    font-size: clamp(.88rem, 1.15vw, 1.02rem);
-    line-height: 1.45;
-    text-align: center;
-    text-wrap: balance;
-  }
-
-  .home-hero__projects {
-    min-width: 0;
-  }
-
-  .home-hero__label,
-  .home-hero__blog-heading {
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-bottom: .7rem;
-  }
-
-  .home-hero__label h2,
-  .home-hero__blog-heading h2 {
-    margin: 0;
-    color: #fff;
-    font-size: clamp(1.15rem, 1.7vw, 1.55rem);
-    line-height: 1.12;
-  }
-
-  .home-project-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: clamp(.65rem, 1vw, 1rem);
-  }
-
-  .home-project-card,
-  .home-blog-card a {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    border: 1px solid rgb(255 255 255 / 22%);
-    border-radius: var(--radius-md);
-    background: #111;
-    box-shadow: 0 12px 28px rgb(0 0 0 / 18%);
-    text-decoration: none;
-    isolation: isolate;
-  }
-
-  .home-project-card {
-    aspect-ratio: 16 / 7;
-  }
-
-  .home-project-card img,
-  .home-blog-card img {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: saturate(.88) contrast(1.03);
-    transition: transform .35s ease, filter .35s ease;
-  }
-
-  .home-card-shade {
-    position: absolute;
-    z-index: 1;
-    inset: 0;
-    background: linear-gradient(to top, rgb(7 17 31 / 88%) 0%, rgb(7 17 31 / 24%) 58%, rgb(7 17 31 / 4%) 100%);
-  }
-
-  .home-project-card__copy,
-  .home-blog-card__copy {
-    position: absolute;
-    z-index: 2;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: grid;
-    gap: .22rem;
-    padding: .82rem .95rem;
-    color: #fff;
-    text-shadow: 0 1px 8px rgb(0 0 0 / 75%);
-  }
-
-  .home-project-card__copy small,
-  .home-blog-card__copy small {
-    color: var(--color-gold-300);
-    font: 700 .62rem/1.2 var(--font-sans);
-    letter-spacing: .065em;
-    text-transform: uppercase;
-  }
-
-  .home-project-card__copy strong,
-  .home-blog-card__copy strong {
-    color: #fff;
-    font: 600 clamp(.86rem, 1.05vw, 1.04rem)/1.2 var(--font-serif);
-    text-wrap: balance;
-  }
-
-  .home-project-card:hover img,
-  .home-project-card:focus-visible img,
-  .home-blog-card a:hover img,
-  .home-blog-card a:focus-visible img {
-    filter: saturate(1) contrast(1.05);
-    transform: scale(1.035);
-  }
-
-  .home-project-card:hover,
-  .home-project-card:focus-visible,
-  .home-blog-card a:hover,
-  .home-blog-card a:focus-visible {
-    border-color: var(--color-gold-300);
-  }
-
-  .home-hero__blog {
-    padding-top: 0;
-  }
-
-  .home-hero__blog-heading a {
-    color: rgb(255 255 255 / 82%);
-    font: 700 .74rem var(--font-sans);
-  }
-
-  .home-hero__blog-heading a:hover,
-  .home-hero__blog-heading a:focus-visible {
-    color: var(--color-gold-300);
-  }
-
-  .home-blog-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: clamp(.65rem, 1vw, 1rem);
-  }
-
-  .home-blog-card {
-    min-width: 0;
-  }
-
-  .home-blog-card a {
-    aspect-ratio: 16 / 6.5;
-  }
-
-  .home-blog-card__copy {
-    padding: .72rem .85rem;
-  }
-
-
-  .home-discovery__container { --container-width: 88rem; }
-
-  .home-subject-grid,
-  .home-archive-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: clamp(1rem, 1.6vw, 1.5rem);
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .home-subject-grid > li,
-  .home-archive-grid > li { min-width: 0; }
-
-  .home-subject-card,
-  .home-archive-card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    overflow: hidden;
-    border: 1px solid rgb(11 28 51 / 12%);
-    border-radius: var(--radius-md);
-    background: #fff;
-    box-shadow: var(--shadow-sm);
-    text-decoration: none;
-    transition: border-color .2s ease, box-shadow .2s ease;
-  }
-
-  .home-subject-card__image,
-  .home-archive-card__image {
-    display: block;
-    overflow: hidden;
-    aspect-ratio: 16 / 10;
-    background: var(--color-navy-950);
-  }
-
-  .home-subject-card__image img,
-  .home-archive-card__image img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform .35s ease;
-  }
-
-  .home-subject-card__copy {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: space-between;
-    gap: .8rem;
-    padding: 1.25rem;
-    border-top: 3px solid var(--color-gold-500);
-  }
-
-  .home-subject-card h3,
-  .home-archive-card h3 {
-    margin: 0;
-    color: var(--color-navy-900);
-    font-size: clamp(1.05rem, 1.4vw, 1.4rem);
-    line-height: 1.3;
-  }
-
-  .home-discovery-arrow {
-    flex-shrink: 0;
-    color: var(--color-gold-700);
-    font: 400 1.8rem/1 var(--font-sans);
-  }
-
-  .home-subject-card:hover,
-  .home-subject-card:focus-visible,
-  .home-archive-card:hover,
-  .home-archive-card:focus-visible {
-    border-color: var(--color-gold-500);
-    box-shadow: var(--shadow-md);
-  }
-
-  .home-subject-card:hover img,
-  .home-subject-card:focus-visible img,
-  .home-archive-card:hover img,
-  .home-archive-card:focus-visible img { transform: scale(1.04); }
-
-  .home-archive-card .home-archive-card__image--contain img {
-    object-fit: contain;
-    transform: none;
-  }
-
-  .home-callouts {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1rem;
-    margin-top: var(--space-5);
-  }
-
-  .home-callout {
-    display: grid;
-    align-content: start;
-    gap: .6rem;
-    padding: clamp(1.25rem, 2vw, 2rem);
-    border-left: 4px solid var(--color-gold-300);
-    color: #fff;
-    background: var(--color-navy-900);
-    text-decoration: none;
-    transition: background-color .2s ease;
-  }
-
-  .home-callout:hover,
-  .home-callout:focus-visible { color: #fff; background: var(--color-navy-700); }
-  .home-callout__title { display: flex; justify-content: space-between; gap: 1rem; font: 600 clamp(1.25rem, 2vw, 1.8rem)/1.2 var(--font-display); }
-  .home-callout__title > span { color: var(--color-gold-300); }
-  .home-callout__description { color: rgb(255 255 255 / 84%); font-size: .98rem; line-height: 1.5; }
-
-  .home-archives { background: var(--color-navy-900); }
-  .home-archive-card__image { aspect-ratio: 4 / 3; }
-  .home-archive-card__copy { display: grid; flex: 1; align-content: start; gap: .7rem; padding: 1.35rem; border-top: 3px solid var(--color-gold-500); }
-  .home-archive-card__copy > span { color: var(--color-slate-700); font-size: .98rem; line-height: 1.55; }
-  .home-archive-card h3 > span { color: var(--color-gold-700); }
-
-  @media (max-width: 68rem) {
-    .home-subject-grid,
-    .home-archive-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  }
-
-  @media (max-width: 40rem), (max-aspect-ratio: 4/5) {
-    .home-discovery__container { width: min(92vw, 44rem); }
-    .home-subject-grid,
-    .home-archive-grid,
-    .home-callouts { grid-template-columns: 1fr; }
-    .home-subject-card h3,
-    .home-archive-card h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); }
-    .home-archive-card__image { aspect-ratio: 16 / 10; }
-  }
-
-  @media (max-width: 68rem) {
-    .home-hero {
-      align-content: start;
-      min-height: 100svh;
-    }
-
-    .home-hero__top {
-      grid-template-columns: minmax(12rem, 20rem) minmax(0, 1fr);
-      gap: 2rem;
-    }
-
-    .home-hero__arms {
-      max-height: 38vh;
-    }
-
-    .home-project-card {
-      aspect-ratio: 16 / 8.5;
-    }
-
-    .home-blog-card a {
-      aspect-ratio: 16 / 8;
-    }
-  }
-
-  /* Tall viewports need the stacked composition even at laptop widths. */
   @media (max-width: 54rem), (max-aspect-ratio: 4/5) {
-    .home-hero {
-      align-content: start;
-      min-height: auto;
-      padding: 6.25rem 0 2.5rem;
-      overflow: visible;
-    }
-
-    .home-hero__top {
-      grid-template-columns: 1fr;
-      width: min(92vw, 44rem);
-    }
-
-    .home-hero__identity {
-      grid-template-columns: auto 1fr;
-      align-items: center;
-      justify-items: start;
-      gap: 1.25rem;
-    }
-
-    .home-hero__arms {
-      width: min(34vw, 12rem);
-      max-height: none;
-    }
-
-    .home-hero__identity p {
-      max-width: 23rem;
-      text-align: left;
-    }
-
-    .home-hero__blog {
-      width: min(92vw, 44rem);
-    }
-
-    .home-blog-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+    .home-hero__top { grid-template-columns: 1fr; gap: 2.5rem; min-height: auto; padding-top: 7rem; padding-bottom: 2rem; }
+    .home-hero__arms { width: min(56vw, 28rem); }
+    .home-hero__copy { max-width: 42rem; margin-inline: auto; text-align: center; }
+    .home-hero__statement { font-size: clamp(2.6rem, 6.5vw, 5rem); }
+    .home-hero__copy > p { margin-inline: auto; }
+    .home-hero__actions { justify-content: center; }
+    .home-hero__foot { margin-top: .5rem; }
+    .home-writing__layout { grid-template-columns: 1fr; gap: 3rem; }
+    .home-methods__pair { grid-template-columns: 1fr; }
+    .home-book { grid-template-columns: minmax(0, 12rem) minmax(0, 1fr); }
+    .home-exhibition { grid-template-columns: 1fr; }
+    .home-exhibition__image { min-height: 0; aspect-ratio: 16 / 10; }
+    .home-exhibition__copy { padding: 3rem max(1.25rem, 4vw); }
+    .home-exhibition h3 { font-size: clamp(3rem, 8vw, 5rem); }
+    .home-history__inner { min-height: 35rem; }
+    .home-history::before { background: linear-gradient(90deg, rgb(7 17 31 / 94%), rgb(7 17 31 / 72%) 55%, rgb(7 17 31 / 40%)); }
+    .home-subjects__layout { grid-template-columns: 1fr; gap: 2rem; }
+    .home-subjects__intro img { width: 3rem; height: 3rem; }
+    .home-subjects__intro h2 br { display: none; }
+    .home-destinations, .home-project-notes { grid-template-columns: 1fr; gap: 2rem; }
+    .home-destinations > a > span { justify-content: start; }
+    .home-archive-composition { grid-template-columns: 1fr; gap: 2rem; }
+    .home-archive-entry--ancestry .home-archive-entry__image, .home-archive-entry--arms .home-archive-entry__image { flex: none; min-height: 0; height: 25rem; }
+    .home-archive-entry--honors .home-archive-entry__image, .home-archive-entry--media .home-archive-entry__image { aspect-ratio: 16 / 9; }
   }
-
-  @media (max-width: 40rem), (max-aspect-ratio: 4/5) {
-    .home-hero__identity {
-      grid-template-columns: 1fr;
-      justify-items: center;
-    }
-
-    .home-hero__arms {
-      width: min(52vw, 16rem);
-    }
-
-    .home-hero__identity p {
-      text-align: center;
-    }
-
-    .home-project-grid,
-    .home-blog-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .home-project-card,
-    .home-blog-card a {
-      aspect-ratio: 16 / 8;
-    }
+  @media (max-width: 36rem) {
+    .home-section-head { align-items: start; flex-direction: column; gap: 1rem; margin-bottom: 2rem; }
+    .home-hero__top { padding-top: 6.5rem; }
+    .home-hero__arms { width: min(60vw, 20rem); }
+    .home-hero__statement { font-size: clamp(2.05rem, 7.8vw, 3rem); }
+    .home-hero__foot { font-family: var(--font-sans); font-size: .63rem; letter-spacing: .02em; }
+    .home-book { grid-template-columns: minmax(0, 7rem) minmax(0, 1fr); gap: 1.2rem; }
+    .home-book h4 { font-size: 1.3rem; }
+    .home-book .home-text-link { gap: .6rem; font-size: .8rem; }
+    .home-subject-index { grid-template-columns: 1fr; }
+    .home-history__inner { min-height: 32rem; padding-block: 4rem; }
+    .home-history__copy > p:not(.home-kicker) { font-size: 1.05rem; }
   }
-
-  /* Keep the portrait laptop's arms in proportion to its wider cards. */
-  @media (min-width: 40rem) and (max-aspect-ratio: 4/5) {
-    .home-hero__arms {
-      width: min(56vw, 28rem);
-    }
-  }
-
   @media (prefers-reduced-motion: reduce) {
-    .home-project-card img,
-    .home-blog-card img {
-      transition-duration: .01ms;
-    }
+    .home-editorial *, .home-editorial *::before, .home-editorial *::after { transition: none; }
+    .home-writing__lead a:hover img { transform: none; }
   }
 </style>
