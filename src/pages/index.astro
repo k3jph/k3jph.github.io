@@ -4,15 +4,21 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import DestinationDirectory from '../components/DestinationDirectory.astro';
 import HeadingDivider from '../components/HeadingDivider.astro';
 import PostCard from '../components/PostCard.astro';
+import ProjectShowcase from '../components/ProjectShowcase.astro';
 import SectionHeading from '../components/SectionHeading.astro';
 import SubjectDirectory from '../components/SubjectDirectory.astro';
 import { isPublished } from '../lib/site';
+import siteData from '../../.generated/data/site.json';
 import subjects from '../../.generated/data/subjects.json';
 
 const posts = (await getCollection('blog'))
   .filter((post) => isPublished(post.data))
   .sort((a, b) => +b.data.date - +a.data.date)
   .slice(0, 3);
+
+const featuredProjects = (siteData.settings.sites ?? [])
+  .filter((site: any) => site.showcase)
+  .sort((a: any, b: any) => (a.order ?? 999) - (b.order ?? 999));
 
 const workDestinations = [
   {
@@ -94,6 +100,13 @@ const personalDestinations = [
     <div class="container">
       <SectionHeading title="Explore by Subject" description="Follow the ideas across writing, scholarship, books, software, teaching, and service."/>
       <SubjectDirectory subjects={subjects.subjects} heading="h3" variant="compact"/>
+    </div>
+  </section>
+
+  <section class="section section--soft" data-home-section="projects">
+    <div class="container">
+      <SectionHeading title="Sites & Projects" description="Some projects need more room than a page. These are the sites that grew around them."/>
+      <ProjectShowcase projects={featuredProjects}/>
     </div>
   </section>
 
