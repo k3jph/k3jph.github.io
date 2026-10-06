@@ -40,6 +40,8 @@ sites:
     footer: false
     order: 10
     theme: war1812
+    image: https://cdn.loc.gov/service/pnp/ppmsca/35500/35544v.jpg
+    image_position: center 46%
     preview_title: "1812"
     preview_subtitle: The Whole Story
 
@@ -53,6 +55,8 @@ sites:
     footer: false
     order: 20
     theme: judith
+    image: https://judith.jameshoward.us/artworks/caravaggio-judith.webp
+    image_position: center 42%
     preview_title: Judith & Holofernes
     preview_subtitle: The Fatal Image
 
@@ -66,8 +70,10 @@ sites:
     footer: false
     order: 30
     theme: cmna
+    image: https://jameshoward.us/assets/img/CMNA-cover-300.webp
+    image_position: center 30%
     preview_title: CMNA
-    preview_subtitle: Numerical analysis, built where you can see it.
+    preview_subtitle: Numerical analysis, built where you can see it
 
   - id: defenseor
     title: Modern Defense Operations Research
@@ -79,6 +85,8 @@ sites:
     footer: false
     order: 40
     theme: defenseor
+    image: https://defenseor.com/assets/covers/second-edition.jpg
+    image_position: center 28%
     preview_title: Defense OR
     preview_subtitle: Modern Defense Operations Research
 
@@ -92,8 +100,10 @@ sites:
     footer: true
     order: 50
     theme: dungeon
+    image: https://dungeonmanor.uk/images/cover.jpg
+    image_position: center
     preview_title: Dungeon
-    preview_subtitle: A mound, a manor, and two thousand years.
+    preview_subtitle: A mound, a manor, and two thousand years
 
   - id: krigsvold
     title: The Count of Krigsvold
@@ -105,8 +115,10 @@ sites:
     footer: true
     order: 60
     theme: krigsvold
+    image: https://krigsvold.org/assets/img/krigsvold-map.webp
+    image_position: center
     preview_title: Krigsvold
-    preview_subtitle: An Antarctic title put to work.
+    preview_subtitle: An Antarctic title put to work
 
 notices:
   - title: Disclosure Statement
