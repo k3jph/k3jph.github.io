@@ -189,9 +189,8 @@ const personalDestinations = [
   .home-action { display: inline-flex; align-items: center; justify-content: space-between; gap: 2rem; min-height: 3.1rem; padding: .85rem 1.3rem; color: var(--color-navy-950); background: var(--color-gold-300); font: 700 .87rem/1.3 var(--font-sans); transition: background .2s ease; }
   .home-action:hover { color: var(--color-navy-950); background: #fff; }
 
-  .home-hero { position: relative; isolation: isolate; overflow: hidden; color: var(--color-cream); background: var(--color-navy-950); }
-  .home-hero::before { position: absolute; z-index: 0; inset: 0; background: radial-gradient(ellipse at 18% 48%, rgb(37 95 145 / 30%), transparent 58%), linear-gradient(115deg, transparent 65%, rgb(27 61 100 / 30%)); content: ''; pointer-events: none; }
-  .home-hero::after { position: absolute; z-index: 0; right: -13rem; top: -10rem; width: min(70vw, 66rem); aspect-ratio: 1; background: url('/assets/img/identity/kamon-warning.svg') center / contain no-repeat; opacity: .045; content: ''; pointer-events: none; }
+  .home-hero { position: relative; isolation: isolate; overflow: hidden; color: var(--color-cream); background: var(--color-navy-950) url('/assets/img/header-home.webp') center / cover no-repeat; background-blend-mode: luminosity; }
+  .home-hero::before { position: absolute; z-index: 0; inset: 0; background: radial-gradient(ellipse at 18% 48%, rgb(37 95 145 / 30%), transparent 58%), linear-gradient(115deg, rgb(7 17 31 / 88%), rgb(12 35 60 / 80%)); content: ''; pointer-events: none; }
   .home-hero__top { position: relative; z-index: 3; display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); align-items: center; column-gap: clamp(3rem, 6vw, 7rem); row-gap: 3rem; min-height: min(58rem, 100svh); padding-block: clamp(8rem, 12vh, 11rem) 2rem; }
   .home-hero__identity { display: flex; align-items: center; justify-content: center; }
   .home-hero__arms { display: block; width: min(100%, 31rem); height: auto; filter: drop-shadow(0 18px 28px rgb(0 0 0 / 25%)); }
