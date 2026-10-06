@@ -77,9 +77,9 @@ sites:
     preview_subtitle: Numerical analysis, built where you can see it
 
   - id: defenseor
-    title: Modern Defense Operations Research
+    title: Handbook of Military & Defense Operations Research
     kind: Book companion
-    description: The companion site for Modern Defense Operations Research, bringing the book, its authors, and supporting material together.
+    description: The companion site for Handbook of Military & Defense Operations Research, bringing the book, its authors, and supporting material together.
     url: https://defenseor.com/
     target: _blank
     showcase: true
@@ -90,7 +90,7 @@ sites:
     image: /assets/img/projects/mdor-operations.webp
     image_position: center top
     preview_title: Defense OR
-    preview_subtitle: Modern Defense Operations Research
+    preview_subtitle: Handbook of Military & Defense Operations Research
 
   - id: dungeon
     title: The Manor of the Dungeon in Kent
