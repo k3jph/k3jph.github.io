@@ -19,7 +19,23 @@ const hostname = (url: string) => {
       rel={project.target ? 'noopener noreferrer' : undefined}
       aria-label={`Visit ${project.title}`}
     >
-      <div class:list={['project-showcase__preview', `project-showcase__preview--${project.theme ?? 'default'}`]}>
+      <div
+        class:list={[
+          'project-showcase__preview',
+          `project-showcase__preview--${project.theme ?? 'default'}`,
+          { 'project-showcase__preview--image': Boolean(project.image) },
+        ]}
+      >
+        {project.image && (
+          <img
+            class="project-showcase__image"
+            src={project.image}
+            alt=""
+            loading="lazy"
+            decoding="async"
+            style={`object-position: ${project.image_position ?? 'center'};`}
+          />
+        )}
         <div class="project-showcase__chrome" aria-hidden="true">
           <span></span><span></span><span></span>
           <small>{hostname(project.url)}</small>
@@ -74,6 +90,7 @@ const hostname = (url: string) => {
     position: relative;
     min-height: 12rem;
     overflow: hidden;
+    isolation: isolate;
     color: var(--preview-fg);
     background:
       linear-gradient(145deg, rgb(255 255 255 / 5%), transparent 52%),
@@ -83,6 +100,7 @@ const hostname = (url: string) => {
   .project-showcase__preview::before,
   .project-showcase__preview::after {
     position: absolute;
+    z-index: 1;
     border: 1px solid color-mix(in srgb, var(--preview-accent) 50%, transparent);
     content: '';
     pointer-events: none;
@@ -106,6 +124,45 @@ const hostname = (url: string) => {
     transform-origin: right center;
   }
 
+  .project-showcase__preview--image::before {
+    inset: 0;
+    width: auto;
+    height: auto;
+    border: 0;
+    border-radius: 0;
+    background:
+      linear-gradient(to bottom, rgb(7 17 31 / 18%) 0%, rgb(7 17 31 / 24%) 38%, rgb(7 17 31 / 76%) 100%),
+      linear-gradient(110deg, color-mix(in srgb, var(--preview-bg) 24%, transparent), transparent 62%);
+  }
+
+  .project-showcase__preview--image::after {
+    inset: 0;
+    width: auto;
+    height: auto;
+    border: 0;
+    background: linear-gradient(to right, rgb(0 0 0 / 8%), transparent 42%, rgb(0 0 0 / 8%));
+    box-shadow: inset 0 0 0 1px rgb(255 255 255 / 7%);
+    transform: none;
+  }
+
+  .project-showcase__image {
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: saturate(.82) contrast(1.04);
+    transform: scale(1.01);
+    transition: transform .45s ease, filter .45s ease;
+  }
+
+  .project-showcase__card:hover .project-showcase__image,
+  .project-showcase__card:focus-visible .project-showcase__image {
+    filter: saturate(.94) contrast(1.05);
+    transform: scale(1.035);
+  }
+
   .project-showcase__chrome {
     position: relative;
     z-index: 2;
@@ -114,7 +171,9 @@ const hostname = (url: string) => {
     gap: .35rem;
     padding: .7rem .8rem;
     border-bottom: 1px solid rgb(255 255 255 / 16%);
-    color: rgb(255 255 255 / 70%);
+    color: rgb(255 255 255 / 74%);
+    background: rgb(7 17 31 / 34%);
+    backdrop-filter: blur(3px);
     font: 600 .66rem var(--font-sans);
     letter-spacing: .02em;
   }
@@ -124,7 +183,7 @@ const hostname = (url: string) => {
     height: .42rem;
     border-radius: 50%;
     background: currentColor;
-    opacity: .65;
+    opacity: .68;
   }
 
   .project-showcase__chrome small {
@@ -142,6 +201,7 @@ const hostname = (url: string) => {
     gap: .45rem;
     min-height: 8.8rem;
     padding: 1rem 1.2rem 1.3rem;
+    text-shadow: 0 2px 12px rgb(0 0 0 / 68%);
   }
 
   .project-showcase__brand strong {
@@ -153,8 +213,8 @@ const hostname = (url: string) => {
 
   .project-showcase__brand span {
     max-width: 23rem;
-    color: color-mix(in srgb, var(--preview-fg) 82%, transparent);
-    font: 600 .78rem/1.4 var(--font-sans);
+    color: color-mix(in srgb, var(--preview-fg) 88%, transparent);
+    font: 700 .78rem/1.4 var(--font-sans);
     letter-spacing: .055em;
     text-transform: uppercase;
     text-wrap: balance;
@@ -240,7 +300,8 @@ const hostname = (url: string) => {
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .project-showcase__card {
+    .project-showcase__card,
+    .project-showcase__image {
       transition-duration: .01ms;
     }
   }
