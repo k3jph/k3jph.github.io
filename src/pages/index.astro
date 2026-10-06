@@ -2,44 +2,22 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import DestinationDirectory from '../components/DestinationDirectory.astro';
-import ProjectShowcase from '../components/ProjectShowcase.astro';
 import SectionHeading from '../components/SectionHeading.astro';
 import SubjectDirectory from '../components/SubjectDirectory.astro';
-import { formatDate, isPublished, sitePath } from '../lib/site';
+import { formatDate, isPublished, normalizeAssetPath, sitePath } from '../lib/site';
 import siteData from '../../.generated/data/site.json';
 import subjects from '../../.generated/data/subjects.json';
 
 const posts = (await getCollection('blog'))
   .filter((post) => isPublished(post.data))
   .sort((a, b) => +b.data.date - +a.data.date)
-  .slice(0, 3);
-
-const selectedWork = [
-  {
-    kind: 'Scholarship · Artificial intelligence',
-    title: 'Crystal Cube: Forecasting Disruptive Events',
-    description: 'Forecasting disruption as a systems problem: combine signals, make the model useful, and confront the gap between prediction and decision.',
-    href: 'https://doi.org/10.1080/08839514.2021.2001179',
-    target: '_blank',
-  },
-  {
-    kind: 'Book · Numerical analysis',
-    title: 'Computational Methods for Numerical Analysis with R',
-    description: 'Numerical analysis with the computation left visible, so approximation, error, and algorithmic choices can be inspected rather than merely asserted.',
-    href: '/books/computational-methods-numerical-analysis-r/',
-  },
-  {
-    kind: 'Digital humanities · Virtual exhibition',
-    title: 'Judith & Holofernes: The Fatal Image',
-    description: 'An explorable art-historical argument connecting works across eight centuries through research, images, and interface.',
-    href: 'https://judith.jameshoward.us/',
-    target: '_blank',
-  },
-];
+  .slice(0, 4);
 
 const featuredProjects = (siteData.settings.sites ?? [])
   .filter((site: any) => site.showcase)
   .sort((a: any, b: any) => (a.order ?? 999) - (b.order ?? 999));
+
+const heroProjects = featuredProjects.slice(0, 4);
 
 const workDestinations = [
   {
@@ -100,57 +78,68 @@ const personalDestinations = [
 
 <BaseLayout title="Home" profilePage>
   <section class="home-hero">
-    <div class="container home-grid">
+    <div class="container home-hero__top">
       <div class="home-hero__identity">
         <h1 class="visually-hidden">James Howard</h1>
         <img class="home-hero__arms" src="/assets/img/identity/jameshoward-arms.svg" alt="James Howard coat of arms">
         <p>A Mathematician, a Different Kind of Mathematician, and a Statistician</p>
       </div>
 
-      <div class="home-hero__editorial">
-        <section class="home-hero__work" aria-labelledby="home-selected-work">
-          <div class="home-hero__section-heading">
-            <p class="eyebrow">Selected Work</p>
-            <h2 id="home-selected-work">A few ways into the work</h2>
-          </div>
-          <div class="home-work-list">
-            {selectedWork.map((item) => (
-              <a
-                class="home-work-item"
-                href={item.href}
-                target={item.target}
-                rel={item.target ? 'noopener noreferrer' : undefined}
-              >
-                <span class="home-work-item__kind">{item.kind}</span>
-                <strong>{item.title}</strong>
-                <span class="home-work-item__description">{item.description}</span>
-                <span class="home-work-item__more">Read more →</span>
-              </a>
-            ))}
-          </div>
-          <a class="home-hero__all-link" href="/scholarship/">Explore scholarship →</a>
-        </section>
-
-        <section class="home-hero__blog" data-home-section="blog" aria-labelledby="home-latest-writing">
-          <div class="home-hero__section-heading">
-            <p class="eyebrow">Latest Writing</p>
-            <h2 id="home-latest-writing">From the Blog</h2>
-          </div>
-          <div class="home-blog-list">
-            {posts.map((post) => (
-              <article class="home-blog-item">
-                <p>{formatDate(post.data.calendar_date, 'short')}</p>
-                <h3><a data-home-post href={sitePath(post.data.route)}>{post.data.title}</a></h3>
-              </article>
-            ))}
-          </div>
-          <nav class="home-blog-links" aria-label="Writing and Blog">
-            <a href="/writing/">Selected writing →</a>
-            <a href="/blog/">Complete archive →</a>
-          </nav>
-        </section>
-      </div>
+      <section class="home-hero__projects" aria-labelledby="home-projects">
+        <div class="home-hero__label">
+          <p class="eyebrow">Selected Projects</p>
+          <h2 id="home-projects">Things with their own front doors</h2>
+        </div>
+        <div class="home-project-grid">
+          {heroProjects.map((project: any) => (
+            <a
+              class="home-project-card"
+              href={project.url}
+              target={project.target}
+              rel={project.target ? 'noopener noreferrer' : undefined}
+              aria-label={`Visit ${project.title}`}
+            >
+              <img
+                src={project.image}
+                alt=""
+                loading="eager"
+                decoding="async"
+                style={`object-position: ${project.image_position ?? 'center'};`}
+              />
+              <span class="home-card-shade"></span>
+              <span class="home-project-card__copy">
+                {project.kind && <small>{project.kind}</small>}
+                <strong>{project.title}</strong>
+              </span>
+            </a>
+          ))}
+        </div>
+      </section>
     </div>
+
+    <section class="container home-hero__blog" data-home-section="blog" aria-labelledby="home-latest-writing">
+      <div class="home-hero__blog-heading">
+        <div>
+          <p class="eyebrow">Latest Writing</p>
+          <h2 id="home-latest-writing">From the Blog</h2>
+        </div>
+        <a href="/blog/">Complete archive →</a>
+      </div>
+      <div class="home-blog-grid">
+        {posts.map((post) => (
+          <article class="home-blog-card">
+            <a data-home-post href={sitePath(post.data.route)} aria-label={`Read ${post.data.title}`}>
+              <img src={normalizeAssetPath(post.data.featured_image)} alt="" loading="eager" decoding="async">
+              <span class="home-card-shade"></span>
+              <span class="home-blog-card__copy">
+                <small>{formatDate(post.data.calendar_date, 'short')}</small>
+                <strong>{post.data.title}</strong>
+              </span>
+            </a>
+          </article>
+        ))}
+      </div>
+    </section>
   </section>
 
   <section class="section section--navy">
@@ -164,13 +153,6 @@ const personalDestinations = [
     <div class="container">
       <SectionHeading title="Explore by Subject" description="Follow the ideas across writing, scholarship, books, software, teaching, and service."/>
       <SubjectDirectory subjects={subjects.subjects} heading="h3" variant="compact"/>
-    </div>
-  </section>
-
-  <section class="section section--soft" data-home-section="projects">
-    <div class="container">
-      <SectionHeading title="Sites & Projects" description="Some projects need more room than a page. These are the sites that grew around them."/>
-      <ProjectShowcase projects={featuredProjects}/>
     </div>
   </section>
 
@@ -194,9 +176,11 @@ const personalDestinations = [
   .home-hero {
     position: relative;
     display: grid;
+    align-content: center;
+    gap: clamp(1.4rem, 2.4vh, 2.2rem);
     min-height: 100svh;
-    align-items: center;
-    padding: clamp(6.5rem, 10vh, 8rem) 0 clamp(2.5rem, 5vh, 4rem);
+    padding: clamp(6.25rem, 9vh, 7.5rem) 0 clamp(1.5rem, 3vh, 2.5rem);
+    overflow: hidden;
     background: #303030 url('/assets/img/header-home.webp') center/cover;
   }
 
@@ -207,171 +191,186 @@ const personalDestinations = [
     content: '';
   }
 
-  .home-grid {
+  .home-hero__top,
+  .home-hero__blog {
     position: relative;
+    z-index: 1;
+    width: min(94vw, 96rem);
+  }
+
+  .home-hero__top {
     display: grid;
-    grid-template-columns: minmax(14rem, clamp(20rem, 25vw, 29rem)) minmax(0, 1fr);
+    grid-template-columns: minmax(15rem, 28rem) minmax(0, 1fr);
     align-items: center;
-    gap: clamp(2.5rem, 5vw, 6rem);
-    width: min(94vw, 92rem);
+    gap: clamp(2rem, 4vw, 5rem);
   }
 
   .home-hero__identity {
     display: grid;
     justify-items: center;
-    gap: clamp(1rem, 2.2vh, 1.6rem);
-    min-width: 0;
+    gap: 1rem;
   }
 
   .home-hero__arms {
-    width: 100%;
-    max-height: 58vh;
+    width: min(100%, 28rem);
+    max-height: 48vh;
     object-fit: contain;
     filter: drop-shadow(0 12px 25px rgb(0 0 0 / 20%));
   }
 
   .home-hero__identity p {
-    max-width: 24rem;
+    max-width: 23rem;
     margin: 0;
-    color: rgb(255 255 255 / 88%);
-    font-size: clamp(.94rem, 1.35vw, 1.08rem);
-    line-height: 1.5;
+    color: rgb(255 255 255 / 84%);
+    font-size: clamp(.88rem, 1.15vw, 1.02rem);
+    line-height: 1.45;
     text-align: center;
     text-wrap: balance;
   }
 
-  .home-hero__editorial {
-    display: grid;
-    grid-template-columns: minmax(0, 1.2fr) minmax(17rem, .8fr);
-    gap: clamp(2rem, 3.2vw, 4rem);
+  .home-hero__projects {
     min-width: 0;
   }
 
-  .home-hero__work,
-  .home-hero__blog {
-    min-width: 0;
+  .home-hero__label,
+  .home-hero__blog-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: .7rem;
   }
 
-  .home-hero__section-heading {
-    padding-bottom: .9rem;
-    border-bottom: 1px solid rgb(255 255 255 / 28%);
-  }
-
-  .home-hero__section-heading .eyebrow {
-    margin: 0 0 .35rem;
+  .home-hero__label .eyebrow,
+  .home-hero__blog-heading .eyebrow {
+    margin: 0 0 .12rem;
     color: var(--color-gold-300);
   }
 
-  .home-hero__section-heading h2 {
+  .home-hero__label h2,
+  .home-hero__blog-heading h2 {
     margin: 0;
     color: #fff;
-    font-size: clamp(1.45rem, 2.1vw, 2rem);
+    font-size: clamp(1.15rem, 1.7vw, 1.55rem);
     line-height: 1.12;
   }
 
-  .home-work-list,
-  .home-blog-list {
+  .home-project-grid {
     display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(.65rem, 1vw, 1rem);
   }
 
-  .home-work-item {
-    display: grid;
-    gap: .34rem;
-    padding: clamp(.8rem, 1.4vh, 1rem) 0;
-    border-bottom: 1px solid rgb(255 255 255 / 16%);
-    color: #fff;
+  .home-project-card,
+  .home-blog-card a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border: 1px solid rgb(255 255 255 / 22%);
+    border-radius: var(--radius-md);
+    background: #111;
+    box-shadow: 0 12px 28px rgb(0 0 0 / 18%);
     text-decoration: none;
+    isolation: isolate;
   }
 
-  .home-work-item:hover,
-  .home-work-item:focus-visible {
+  .home-project-card {
+    aspect-ratio: 16 / 7;
+  }
+
+  .home-project-card img,
+  .home-blog-card img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: saturate(.88) contrast(1.03);
+    transition: transform .35s ease, filter .35s ease;
+  }
+
+  .home-card-shade {
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+    background: linear-gradient(to top, rgb(7 17 31 / 88%) 0%, rgb(7 17 31 / 24%) 58%, rgb(7 17 31 / 4%) 100%);
+  }
+
+  .home-project-card__copy,
+  .home-blog-card__copy {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    gap: .22rem;
+    padding: .82rem .95rem;
     color: #fff;
+    text-shadow: 0 1px 8px rgb(0 0 0 / 75%);
   }
 
-  .home-work-item__kind {
+  .home-project-card__copy small,
+  .home-blog-card__copy small {
     color: var(--color-gold-300);
-    font: 700 .69rem/1.3 var(--font-sans);
-    letter-spacing: .075em;
+    font: 700 .62rem/1.2 var(--font-sans);
+    letter-spacing: .065em;
     text-transform: uppercase;
   }
 
-  .home-work-item strong {
+  .home-project-card__copy strong,
+  .home-blog-card__copy strong {
     color: #fff;
-    font: 600 clamp(1rem, 1.4vw, 1.16rem)/1.28 var(--font-serif);
+    font: 600 clamp(.86rem, 1.05vw, 1.04rem)/1.2 var(--font-serif);
+    text-wrap: balance;
   }
 
-  .home-work-item__description {
-    color: rgb(255 255 255 / 72%);
-    font-size: clamp(.8rem, 1vw, .9rem);
-    line-height: 1.42;
+  .home-project-card:hover img,
+  .home-project-card:focus-visible img,
+  .home-blog-card a:hover img,
+  .home-blog-card a:focus-visible img {
+    filter: saturate(1) contrast(1.05);
+    transform: scale(1.035);
   }
 
-  .home-work-item__more {
-    color: rgb(255 255 255 / 88%);
-    font: 700 .72rem var(--font-sans);
-    opacity: 0;
-    transform: translateX(-.25rem);
-    transition: opacity .18s ease, transform .18s ease;
+  .home-project-card:hover,
+  .home-project-card:focus-visible,
+  .home-blog-card a:hover,
+  .home-blog-card a:focus-visible {
+    border-color: var(--color-gold-300);
   }
 
-  .home-work-item:hover .home-work-item__more,
-  .home-work-item:focus-visible .home-work-item__more {
-    opacity: 1;
-    transform: translateX(0);
+  .home-hero__blog {
+    border-top: 1px solid rgb(255 255 255 / 22%);
+    padding-top: clamp(.9rem, 1.6vh, 1.25rem);
   }
 
-  .home-blog-item {
-    padding: clamp(.9rem, 1.6vh, 1.15rem) 0;
-    border-bottom: 1px solid rgb(255 255 255 / 16%);
+  .home-hero__blog-heading a {
+    color: rgb(255 255 255 / 82%);
+    font: 700 .74rem var(--font-sans);
   }
 
-  .home-blog-item > p {
-    margin: 0 0 .38rem;
-    color: var(--color-gold-300);
-    font: 700 .69rem var(--font-sans);
-    letter-spacing: .06em;
-    text-transform: uppercase;
-  }
-
-  .home-blog-item h3 {
-    margin: 0;
-    font-size: clamp(.98rem, 1.35vw, 1.14rem);
-    line-height: 1.32;
-  }
-
-  .home-blog-item a {
-    color: #fff;
-    text-decoration: none;
-  }
-
-  .home-blog-item a:hover,
-  .home-blog-item a:focus-visible,
-  .home-hero__all-link:hover,
-  .home-hero__all-link:focus-visible,
-  .home-blog-links a:hover,
-  .home-blog-links a:focus-visible {
+  .home-hero__blog-heading a:hover,
+  .home-hero__blog-heading a:focus-visible {
     color: var(--color-gold-300);
   }
 
-  .home-hero__all-link,
-  .home-blog-links {
-    margin-top: .85rem;
-    font: 700 .78rem var(--font-sans);
+  .home-blog-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: clamp(.65rem, 1vw, 1rem);
   }
 
-  .home-hero__all-link {
-    display: inline-block;
-    color: rgb(255 255 255 / 88%);
+  .home-blog-card {
+    min-width: 0;
   }
 
-  .home-blog-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: .55rem 1rem;
+  .home-blog-card a {
+    aspect-ratio: 16 / 6.5;
   }
 
-  .home-blog-links a {
-    color: rgb(255 255 255 / 88%);
+  .home-blog-card__copy {
+    padding: .72rem .85rem;
   }
 
   .lead {
@@ -394,31 +393,37 @@ const personalDestinations = [
     color: #fff;
   }
 
-  @media (max-width: 70rem) {
-    .home-grid {
-      grid-template-columns: minmax(12rem, 21rem) minmax(0, 1fr);
-      gap: 2.5rem;
+  @media (max-width: 68rem) {
+    .home-hero {
+      align-content: start;
+      min-height: 100svh;
     }
 
-    .home-hero__editorial {
+    .home-hero__top {
+      grid-template-columns: minmax(12rem, 20rem) minmax(0, 1fr);
       gap: 2rem;
     }
 
-    .home-work-item__description {
-      display: none;
+    .home-hero__arms {
+      max-height: 38vh;
+    }
+
+    .home-project-card {
+      aspect-ratio: 16 / 8.5;
+    }
+
+    .home-blog-card a {
+      aspect-ratio: 16 / 8;
     }
   }
 
   @media (max-width: 54rem) {
     .home-hero {
-      min-height: 100svh;
-      align-items: start;
-      padding-top: 6.5rem;
+      overflow: visible;
     }
 
-    .home-grid {
+    .home-hero__top {
       grid-template-columns: 1fr;
-      gap: 2rem;
       width: min(92vw, 44rem);
     }
 
@@ -439,12 +444,12 @@ const personalDestinations = [
       text-align: left;
     }
 
-    .home-hero__editorial {
-      grid-template-columns: 1fr 1fr;
+    .home-hero__blog {
+      width: min(92vw, 44rem);
     }
 
-    .home-work-item__more {
-      display: none;
+    .home-blog-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 
@@ -462,17 +467,20 @@ const personalDestinations = [
       text-align: center;
     }
 
-    .home-hero__editorial {
+    .home-project-grid,
+    .home-blog-grid {
       grid-template-columns: 1fr;
     }
 
-    .home-work-item__description {
-      display: block;
+    .home-project-card,
+    .home-blog-card a {
+      aspect-ratio: 16 / 8;
     }
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .home-work-item__more {
+    .home-project-card img,
+    .home-blog-card img {
       transition-duration: .01ms;
     }
   }
