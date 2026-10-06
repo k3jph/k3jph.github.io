@@ -477,6 +477,13 @@ const personalDestinations = [
     }
   }
 
+  /* Keep the portrait laptop's arms in proportion to its wider cards. */
+  @media (min-width: 40rem) and (max-aspect-ratio: 4/5) {
+    .home-hero__arms {
+      width: min(56vw, 28rem);
+    }
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .home-project-card img,
     .home-blog-card img {
