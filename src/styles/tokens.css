@@ -20,7 +20,7 @@
   --color-white: #fff;
   --color-ink: #222a33;
   --color-danger: #a3392e;
-  --hero-overlay: rgb(48 48 48 / 90%);
+  --hero-overlay: linear-gradient(115deg, rgb(7 17 31 / 90%), rgb(12 35 60 / 80%));
   --font-display: 'Cinzel', Georgia, serif;
   --font-serif: 'Cambo', Georgia, serif;
   --font-sans: 'Lato', 'Helvetica Neue', Arial, sans-serif;
@@ -32,7 +32,7 @@
   --space-6: 4rem;
   --space-7: 6rem;
   --space-8: 8rem;
-  --reading-width: 56rem;
+  --reading-width: 48rem;
   --content-width: 78rem;
   --archive-width: 88rem;
   --radius-sm: .25rem;

@@ -326,12 +326,12 @@ for (const [alias, target] of [
 }
 
 const headerSource = await readFile(path.join(root, 'src/components/SiteHeader.astro'), 'utf8');
-for (const pattern of ['Math.min(260, Math.max(160, window.innerHeight * .25))', 'background:#303030', 'background-color .5s', 'border-color .5s', 'box-shadow .5s', "addEventListener('pageshow'", '@media(prefers-reduced-motion:reduce)']) {
+for (const pattern of ['Math.min(260, Math.max(160, window.innerHeight * .25))', 'background:var(--color-navy-950)', 'background-color .5s', 'border-color .5s', 'box-shadow .5s', "addEventListener('pageshow'", '@media(prefers-reduced-motion:reduce)']) {
   if (!headerSource.includes(pattern)) failures.push(`SiteHeader: missing behavior contract ${pattern}`);
 }
 if (/transition\s*:\s*all\b/.test(headerSource)) failures.push('SiteHeader: uses transition: all');
 const heroTokens = await readFile(path.join(root, 'src/styles/tokens.css'), 'utf8');
-if (!heroTokens.includes('--hero-overlay: rgb(48 48 48 / 90%)')) failures.push('hero: uniform charcoal overlay token changed');
+if (!heroTokens.includes('--hero-overlay: linear-gradient(115deg, rgb(7 17 31 / 90%), rgb(12 35 60 / 80%))')) failures.push('hero: missing shared navy overlay');
 
 const routeLedger = JSON.parse(await readFile(path.join(root, '.generated/data/route-ledger.json'), 'utf8'));
 for (const route of ['/contact-me', '/contact-me/', '/contact-me.html', '/media', '/media/']) if (!routeLedger.routes.some((item) => item.route === route)) failures.push(`route ledger: missing ${route}`);

@@ -2,4 +2,4 @@
 import PostCard from './PostCard.astro';
 const { posts } = Astro.props;
 ---
-<div class="card-grid">{posts.map((post:any)=><PostCard post={post} heading="h2"/>)}</div>
+<div class="card-grid blog-archive">{posts.map((post:any,index:number)=><PostCard post={post} heading="h2" featured={index===0}/>)}</div>
