@@ -1,10 +1,12 @@
 ---
 import siteData from '../../.generated/data/site.json';
 import { sitePath } from '../lib/site';
+
+const otherSites = (siteData.settings.sites ?? []).filter((item:any) => item.footer);
 ---
 <footer class="site-footer">
   <div class="container footer-grid">
-    <div><h2>Other Sites</h2><ul>{siteData.settings.other_sites.map((item:any)=><li><a href={item.url} target={item.target} rel={item.target ? 'noopener noreferrer' : undefined}>{item.title}</a></li>)}</ul></div>
+    <div><h2>Other Sites</h2><ul>{otherSites.map((item:any)=><li><a href={item.url} target={item.target} rel={item.target ? 'noopener noreferrer' : undefined}>{item.title}</a></li>)}</ul></div>
     <div><h2>Notices</h2><ul>{siteData.settings.notices.map((item:any)=><li><a href={sitePath(item.url)} data-cookie-preferences={item.data?.['cookie-preferences'] != null ? '' : undefined}>{item.title}</a></li>)}</ul></div>
     <div><h2>Follow me on</h2><ul class="social-list">{siteData.settings.social_media.map((item:any)=><li><a href={item.url} rel="me noopener">{item.name}</a></li>)}</ul></div>
   </div>
