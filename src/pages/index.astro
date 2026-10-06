@@ -117,7 +117,9 @@ const personalDestinations = [
       </section>
     </div>
 
-    <HeadingDivider variant="light"/>
+    <div class="home-hero__divider">
+      <HeadingDivider variant="light"/>
+    </div>
 
     <section class="container home-hero__blog" data-home-section="blog" aria-labelledby="home-latest-writing">
       <div class="home-hero__blog-heading">
@@ -193,10 +195,19 @@ const personalDestinations = [
   }
 
   .home-hero__top,
-  .home-hero__blog {
+  .home-hero__blog,
+  .home-hero__divider {
     position: relative;
     z-index: 1;
+  }
+
+  .home-hero__top,
+  .home-hero__blog {
     width: min(94vw, 96rem);
+  }
+
+  .home-hero__divider {
+    width: 100%;
   }
 
   .home-hero__top {
