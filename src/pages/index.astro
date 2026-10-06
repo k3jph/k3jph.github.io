@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import DestinationDirectory from '../components/DestinationDirectory.astro';
+import HeadingDivider from '../components/HeadingDivider.astro';
 import SectionHeading from '../components/SectionHeading.astro';
 import SubjectDirectory from '../components/SubjectDirectory.astro';
 import { formatDate, isPublished, normalizeAssetPath, sitePath } from '../lib/site';
@@ -115,6 +116,8 @@ const personalDestinations = [
         </div>
       </section>
     </div>
+
+    <HeadingDivider variant="light"/>
 
     <section class="container home-hero__blog" data-home-section="blog" aria-labelledby="home-latest-writing">
       <div class="home-hero__blog-heading">
@@ -333,8 +336,7 @@ const personalDestinations = [
   }
 
   .home-hero__blog {
-    border-top: 1px solid rgb(255 255 255 / 22%);
-    padding-top: clamp(.9rem, 1.6vh, 1.25rem);
+    padding-top: 0;
   }
 
   .home-hero__blog-heading a {
