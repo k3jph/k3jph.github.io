@@ -1,5 +1,6 @@
 import { readFile, readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
+import { BLOG_PAGE_SIZE } from '../src/lib/site.ts';
 import { buildNavigationGraph, classifyNavigationRoute, parentRouteFor } from './lib/navigation-graph.mjs';
 
 const root = process.cwd();
@@ -172,7 +173,7 @@ const blogIndex = await readFile(path.join(dist, 'blog/index.html'), 'utf8');
 const blogPrimaryNav = blogIndex.match(/<nav id="site-nav"[\s\S]*?<\/nav>/)?.[0] ?? '';
 if (!/<a\b(?=[^>]*\bhref="\/blog\/")(?=[^>]*\baria-current="page")[^>]*>Blog<\/a>/.test(blogPrimaryNav)) failures.push('/blog/: primary navigation does not mark Blog as the current page');
 const firstPageCards = [...blogIndex.matchAll(/class="[^"]*\bpost-card\b/g)].length;
-if (firstPageCards !== 12) failures.push(`/blog/: expected 12 archive cards, found ${firstPageCards}`);
+if (firstPageCards !== BLOG_PAGE_SIZE) failures.push(`/blog/: expected ${BLOG_PAGE_SIZE} archive cards, found ${firstPageCards}`);
 
 const ancestrySubtitleRoute = '/ancestry/guild-of-colonial-artisans-and-tradesmen/';
 const ancestrySubtitleHtml = await readFile(path.join(dist, ancestrySubtitleRoute.replace(/^\//, ''), 'index.html'), 'utf8');

@@ -3,7 +3,8 @@ export const SITE = {
   description: 'The long-lived personal archive of James P. Howard, II: mathematics, software, teaching, public service, scholarship, history, genealogy, heraldry, and the occasional strange project.',
   authorEmail: 'jh@jameshoward.us', socialImage: '/assets/img/header-home.webp',
 };
-export const BLOG_PAGE_SIZE = 12;
+// The lead card spans two slots: eleven posts fill twelve grid slots.
+export const BLOG_PAGE_SIZE = 11;
 export function normalizeAssetPath(value?: string) {
   if (!value) return SITE.socialImage;
   if (/^(?:https?:)?\/\//.test(value) || value.startsWith('data:')) return value;
