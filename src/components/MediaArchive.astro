@@ -1,5 +1,6 @@
 ---
 import SectionHeading from './SectionHeading.astro';
+import SectionNav from './SectionNav.astro';
 
 interface MediaRecord {
   id: string;
@@ -46,6 +47,7 @@ const externalLabel = (status?: string) => status === 'redirected' ? 'Current so
 ---
 
 <div class="media-archive">
+  <SectionNav items={sections.map(section => ({href:`#${section.key}`,label:section.title}))}/>
   {sections.map((section) => (
     <section class={section.className} aria-labelledby={section.key}>
       <div class="archive-container">
@@ -84,7 +86,7 @@ const externalLabel = (status?: string) => status === 'redirected' ? 'Current so
 <style>
   .media-archive__list {
     width: min(100%, 58rem);
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     list-style: none;
   }
@@ -92,7 +94,8 @@ const externalLabel = (status?: string) => status === 'redirected' ? 'Current so
     margin-top: clamp(1.75rem, 3vw, 2.5rem);
   }
   .media-record {
-    padding: 0;
+    padding: 1.5rem 0 0;
+    border-top: 1px solid var(--color-slate-300);
   }
   .media-record__meta {
     display: flex;
@@ -110,7 +113,7 @@ const externalLabel = (status?: string) => status === 'redirected' ? 'Current so
     margin: 0;
     font-family: var(--font-serif);
     font-size: clamp(1.25rem, 2.2vw, 1.55rem);
-    font-style: italic;
+    font-style: normal;
     font-weight: 400;
     line-height: 1.3;
   }

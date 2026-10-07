@@ -183,15 +183,25 @@ const ancestrySubtitleSearchRecord = searchRecords.find((item) => item.url === a
 if (!ancestrySubtitleSearchRecord || !ancestrySubtitleSearchRecord.excerpt.startsWith('Member jure Jeremiah Cloud')) failures.push(`${ancestrySubtitleRoute}: search excerpt contains Markdown instead of plain text`);
 
 const homepage = await readFile(path.join(dist, 'index.html'), 'utf8');
-const homepageSections = ['subjects', 'work', 'elsewhere', 'blog'].map((section) => homepage.indexOf(`data-home-section="${section}"`));
+const homepageSections = ['blog', 'projects', 'subjects', 'elsewhere'].map((section) => homepage.indexOf(`data-home-section="${section}"`));
 if (homepageSections.some((position) => position < 0) || homepageSections.some((position, index) => index > 0 && position <= homepageSections[index - 1])) failures.push('homepage: discovery sections are missing or out of order');
 if (homepage.includes('Explore My World') || homepage.includes('The working archive') || homepage.includes('jh-card--featured')) failures.push('homepage: legacy six-card destination architecture remains');
+if (homepage.includes('data-home-section="work"') || homepage.includes('Browse the Work')) failures.push('homepage: redundant main-menu destination section remains');
+const homepageSubjects = [...homepage.matchAll(/<a\b[^>]*data-home-subject[^>]*href="([^"]+)"/g)].map((match) => match[1]);
+if (homepageSubjects.length !== generatedSubjects.subjects.length || new Set(homepageSubjects).size !== generatedSubjects.subjects.length) failures.push('homepage: Subject index does not cover every canonical Subject exactly once');
+for (const subject of generatedSubjects.subjects) if (!homepageSubjects.includes(subject.route)) failures.push(`homepage: missing Subject index entry for ${subject.route}`);
+const homepageArchives = [...homepage.matchAll(/<a\b[^>]*data-home-archive="[^"]+"[^>]*href="([^"]+)"/g)].map((match) => match[1]);
+if (homepageArchives.length !== 4 || new Set(homepageArchives).size !== 4) failures.push('homepage: expected four distinct archive destinations');
+const homepageProjects = [...homepage.matchAll(/<a\b[^>]*data-home-project="([^"]+)"[^>]*href="([^"]+)"/g)];
+const projectRegistry = JSON.parse(await readFile(path.join(root, '.generated/data/site.json'), 'utf8')).settings.sites.filter((project) => project.showcase);
+if (homepageProjects.length !== projectRegistry.length || new Set(homepageProjects.map((match) => match[1])).size !== projectRegistry.length) failures.push('homepage: showcased projects are missing or duplicated');
+for (const project of projectRegistry) if (!homepageProjects.some((match) => match[1] === project.id && match[2] === project.url)) failures.push(`homepage: missing canonical project ${project.id}`);
 for (const subject of generatedSubjects.subjects) if (!homepage.includes(`href="${subject.route}"`)) failures.push(`homepage: missing canonical Subject ${subject.route}`);
 for (const route of ['/writing/', '/scholarship/', '/books/', '/software/', '/teaching/', '/service/', '/consulting/', '/ancestry/', '/honors/', '/coat-of-arms/', '/media/', '/blog/']) {
   if (!homepage.includes(`href="${route}"`)) failures.push(`homepage: missing destination ${route}`);
 }
-const homepagePostRoutes = [...homepage.matchAll(/class="card-media" href="([^"]+)"/g)].map((match) => match[1]);
-if (homepagePostRoutes.length !== 3) failures.push(`homepage: expected 3 recent Blog posts, found ${homepagePostRoutes.length}`);
+const homepagePostRoutes = [...homepage.matchAll(/data-home-post href="([^"]+)"/g)].map((match) => match[1]);
+if (homepagePostRoutes.length !== 4) failures.push(`homepage: expected 4 recent Blog posts, found ${homepagePostRoutes.length}`);
 for (const route of homepagePostRoutes) if (!searchRecords.some((record) => record.type === 'Blog' && record.url === route)) failures.push(`homepage: recent post is not in the Blog collection: ${route}`);
 const homepageJsonLd = [...homepage.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((match) => {
   try { return JSON.parse(match[1]); } catch { return null; }
@@ -316,12 +326,12 @@ for (const [alias, target] of [
 }
 
 const headerSource = await readFile(path.join(root, 'src/components/SiteHeader.astro'), 'utf8');
-for (const pattern of ['Math.min(260, Math.max(160, window.innerHeight * .25))', 'background:#303030', 'background-color .5s', 'border-color .5s', 'box-shadow .5s', "addEventListener('pageshow'", '@media(prefers-reduced-motion:reduce)']) {
+for (const pattern of ['Math.min(260, Math.max(160, window.innerHeight * .25))', 'background:var(--color-navy-950)', 'background-color .5s', 'border-color .5s', 'box-shadow .5s', "addEventListener('pageshow'", '@media(prefers-reduced-motion:reduce)']) {
   if (!headerSource.includes(pattern)) failures.push(`SiteHeader: missing behavior contract ${pattern}`);
 }
 if (/transition\s*:\s*all\b/.test(headerSource)) failures.push('SiteHeader: uses transition: all');
 const heroTokens = await readFile(path.join(root, 'src/styles/tokens.css'), 'utf8');
-if (!heroTokens.includes('--hero-overlay: rgb(48 48 48 / 90%)')) failures.push('hero: uniform charcoal overlay token changed');
+if (!heroTokens.includes('--hero-overlay: linear-gradient(115deg, rgb(7 17 31 / 90%), rgb(12 35 60 / 80%))')) failures.push('hero: missing shared navy overlay');
 
 const routeLedger = JSON.parse(await readFile(path.join(root, '.generated/data/route-ledger.json'), 'utf8'));
 for (const route of ['/contact-me', '/contact-me/', '/contact-me.html', '/media', '/media/']) if (!routeLedger.routes.some((item) => item.route === route)) failures.push(`route ledger: missing ${route}`);

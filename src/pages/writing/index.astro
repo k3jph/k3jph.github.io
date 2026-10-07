@@ -34,7 +34,7 @@ const description = 'Essays, explanations, arguments, and occasional excursions 
     <div class="container">
       <SectionHeading title="Subjects" variant="light" description="Editorial paths through durable bodies of work—not a renamed tag cloud."/>
       <WritingDirectory entries={writing.subjects} kind="subject" variant="light"/>
-      <p class="text-center section-action"><a class="button" href="/writing/subjects/">Explore all Writing Subjects →</a></p>
+      <p class="section-action"><a class="button" href="/writing/subjects/">Explore all Writing Subjects →</a></p>
     </div>
   </section>
 
@@ -42,12 +42,12 @@ const description = 'Essays, explanations, arguments, and occasional excursions 
     <div class="container">
       <SectionHeading title="Series" description="Connected essays with a real sequence and a reason to be read together."/>
       <WritingDirectory entries={writing.series} kind="series"/>
-      <p class="text-center section-action"><a class="button" href="/writing/series/">View all series →</a></p>
+      <p class="section-action"><a class="button" href="/writing/series/">View all series →</a></p>
     </div>
   </section>
 
   <section class="section section--cream">
-    <div class="reading-container text-center">
+    <div class="reading-container">
       <SectionHeading title="Complete Blog Archive" description="Every post remains where it was, in chronological order, including the oddities, announcements, experiments, and things that seemed important at the time."/>
       <a class="button" href="/blog/">Browse the complete Blog Archive →</a>
       <SubjectLinks subjects={subjects.subjects} title="Follow the writing across site-wide subjects"/>

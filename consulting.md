@@ -24,6 +24,8 @@ problem can become a data-engineering problem. A software system can become a
 governance problem. A policy question can collapse into an argument about
 assumptions. This is normal.
 
+<section class="consulting-capabilities" aria-labelledby="what-i-can-help-with">
+
 ## What I Can Help With
 
 ### Analysis and Decision Support
@@ -51,6 +53,8 @@ Sometimes the useful answer is not another model. I also review analyses,
 assumptions, methods, code, and technical claims, especially where the result
 will be used to make an operational, policy, or technical decision.
 
+</section>
+
 ## What the Work Looks Like
 
 Most consulting problems start less neatly than the headings above. The data are
@@ -73,6 +77,8 @@ through problems; [Books](/books/) contains the things that got entirely out of
 hand; and [Teaching](/teaching/) shows how I explain the machinery when somebody
 has to learn it.
 
+<section class="consulting-contact" aria-labelledby="work-with-me">
+
 ## Work With Me
 
 Have a problem? Tell me what you are trying to do.
@@ -81,3 +87,5 @@ If I can help, we can talk about what that would look like. If I cannot, I would
 rather tell you that than invent a reason I should.
 
 [Contact me →](/contact-me/)
+
+</section>

@@ -1,0 +1,6 @@
+---
+import '../styles/scholarship.css';
+import PageIndex from './PageIndex.astro';
+const { headings = [] } = Astro.props;
+---
+<PageIndex headings={headings} maxDepth={4} exclude={['complete-bibliography']}/>

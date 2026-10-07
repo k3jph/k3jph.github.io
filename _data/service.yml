@@ -1,4 +1,6 @@
 - organization: Maryland Defense Force
+  image: "/assets/img/mddf-dui.webp"
+  image_alt: "Maryland Defense Force distinctive unit insignia"
   role: Captain
   dates: 2006–Present · Captain since 2013
   current: true
@@ -7,6 +9,8 @@
   detail_page: /service/maryland-defense-force/
 
 - organization: Society of the War of 1812 in Maryland
+  image: "/assets/img/service/organizations/maryland-war-of-1812-seal.jpg"
+  image_alt: "Historic seal of the Maryland Society of the War of 1812"
   id: maryland-war-of-1812
   role: Treasurer · Member, Board of Managers
   dates: 2025–Present
@@ -23,6 +27,13 @@
       since January 2025. I also serve as Treasurer.
 
 - organization: Maryland Society, Sons of the American Revolution
+  image: "/assets/img/service/organizations/sar-logo.jpg"
+  image_alt: "Sons of the American Revolution insignia"
+  image_credit: "SAR insignia: Steeznuts"
+  image_source: "https://commons.wikimedia.org/wiki/File:SAR_Logo_color.jpg"
+  image_license: "CC BY-SA 4.0"
+  image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+  image_changes: "Unmodified"
   id: maryland-sar
   role: Vice President, Charles Carroll of Carrollton Chapter
   dates: 2026–Present
@@ -48,6 +59,8 @@
   url: https://www.augustansociety.org/
 
 - organization: Chapman and Hall / CRC Press
+  image: "/assets/img/service/organizations/crc-press.svg"
+  image_alt: "CRC Press logo"
   id: crc-analytics-or-series
   role: Series Editor, Focus Series in Analytics and Operations Research
   dates: 2020–Present
@@ -66,6 +79,14 @@
   url: https://www.mors.org/publications/mor-journal
 
 - organization: Howard County, Maryland
+  image: "/assets/img/news/thomas-viaduct.webp"
+  image_alt: "Thomas Viaduct in Howard County"
+  image_kind: "photo"
+  image_credit: "Photo: Jim Kuhn"
+  image_source: "https://commons.wikimedia.org/wiki/File:Thomas_Viaduct_Inside_Curve_(Relay,_MD).jpg"
+  image_license: "CC BY 2.0"
+  image_license_url: "https://creativecommons.org/licenses/by/2.0/"
+  image_changes: "Cropped"
   id: howard-county-board-of-appeals
   role: Chair and Member, Board of Appeals · Member, Charter Review Commission
   dates: 2011–2021
@@ -83,6 +104,14 @@
   detail_page: /service/howard-county/
 
 - organization: Columbia Association
+  image: "/assets/img/news/columbia-lakeK.webp"
+  image_alt: "Columbia lakefront at Lake Kittamaqundi"
+  image_kind: "photo"
+  image_credit: "Photo: Scott Saghirian"
+  image_source: "https://commons.wikimedia.org/wiki/File:Columbia_Lake_Front.jpg"
+  image_license: "CC BY 2.0"
+  image_license_url: "https://creativecommons.org/licenses/by/2.0/"
+  image_changes: "Cropped"
   id: columbia-association-finance
   role: Budget Committee Member and Chair · Financial Advisory Committee Member
   dates: 2004–2010

@@ -33,8 +33,6 @@ const statusLabels: Record<string, string> = {
 
 <style>
   .editorial-post-list { display: grid; gap: var(--space-5); margin: 0; padding: 0; list-style: none; }
-  .editorial-post-list > li { position: relative; padding-left: var(--space-4); }
-  .editorial-post-list > li::before { position: absolute; top: .25rem; bottom: .25rem; left: 0; width: 2px; background: var(--color-gold-500); content: ''; }
   .editorial-post-list__meta { display: flex; flex-wrap: wrap; gap: .3rem .85rem; margin-bottom: var(--space-1); color: var(--color-slate-700); font: 700 .78rem/1.45 var(--font-sans); letter-spacing: .04em; text-transform: uppercase; }
   .editorial-post-list h3 { margin: 0; font-size: clamp(1.15rem, 2vw, 1.45rem); }
   .editorial-post-list h3 a { color: var(--color-navy-900); text-decoration-color: var(--color-gold-500); }
@@ -42,4 +40,7 @@ const statusLabels: Record<string, string> = {
   .editorial-post-list--ordered { counter-reset: writing-part; }
   .section--navy .editorial-post-list h3 a { color: #fff; }
   .section--navy .editorial-post-list p, .section--navy .editorial-post-list__meta { color: rgb(255 255 255 / 78%); }
+
+  .editorial-post-list > li { padding: 1.25rem 0 0; border-top: 1px solid var(--color-slate-300); }
+  .editorial-post-list > li::before { display: none; }
 </style>

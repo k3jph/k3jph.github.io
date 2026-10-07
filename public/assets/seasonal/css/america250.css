@@ -36,7 +36,8 @@ body.america250-mode .home-hero::before {
   filter: drop-shadow(0 3px 5px rgb(0 0 0 / 45%));
 }
 
-body.america250-mode .home-hero .home-grid {
+body.america250-mode .home-hero .home-hero__top,
+body.america250-mode .home-hero .home-hero__blog {
   position: relative;
   z-index: 3;
 }

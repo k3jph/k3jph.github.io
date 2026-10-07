@@ -1,0 +1,58 @@
+---
+import katex from 'katex';
+import { slugifyTag } from '../lib/site';
+const { institution, dark = false } = Astro.props;
+const escapeHtml = (text: string) => text.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
+const descriptionHtml = (text: string) => text.split(/\[latex\]([\s\S]*?)\[\/latex\]/g).map((part, index) =>
+  index % 2 ? katex.renderToString(part, { throwOnError: true }) : escapeHtml(part)
+).join('');
+const courseId = (code: string) => `teaching-${slugifyTag(institution.id)}-${slugifyTag(code)}`;
+---
+<section class:list={['teaching-institution', {'teaching-institution--dark': dark}]} aria-labelledby={`institution-${institution.id}`}>
+  <header>
+    <h3 id={`institution-${institution.id}`}>{institution.name}</h3>
+    <p class="metadata">{institution.years}</p>
+  </header>
+  <div class="teaching-courses">
+    {institution.courses.map((course: any) => {
+      const documents = course.syllabi?.filter((syllabus: any) => syllabus.file).length ?? 0;
+      return <details id={courseId(course.code)}>
+        <summary>
+          <span class="course-heading"><span class="course-code">{course.code}</span><strong>{course.title}</strong><span class="course-documents">{documents ? `${documents} syllabus ${documents === 1 ? 'file' : 'files'}` : 'Course description'}</span></span>
+          <span class="course-toggle" aria-hidden="true"></span>
+        </summary>
+        <div class="course-body">
+          <p set:html={descriptionHtml(course.description)}/>
+          {course.syllabi?.length > 0 && <ul>{course.syllabi.map((syllabus: any) => <li>{syllabus.file ? <a href={syllabus.file}>{syllabus.label}</a> : <span class="metadata">{syllabus.label}</span>}</li>)}</ul>}
+        </div>
+      </details>;
+    })}
+  </div>
+</section>
+<style>
+  .teaching-institution { display: grid; grid-template-columns: minmax(12rem, 1fr) minmax(0, 2.4fr); gap: 3rem; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--color-slate-300); }
+  .teaching-institution:first-of-type { margin-top: 0; }
+  h3 { margin: 0; font-size: clamp(1.5rem, 2.4vw, 2.1rem); }
+  header .metadata { margin: .75rem 0 0; }
+  details { border-bottom: 1px solid var(--color-slate-300); color: var(--color-ink); }
+  summary { display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; padding: 1.25rem 0; cursor: pointer; list-style: none; }
+  summary::-webkit-details-marker { display: none; }
+  .course-heading { display: grid; gap: .3rem; }
+  .course-code { color: var(--color-gold-700); font: 700 .8rem/1.5 var(--font-sans); letter-spacing: .06em; }
+  strong { color: var(--color-navy-900); font: 400 clamp(1.2rem, 2vw, 1.55rem)/1.3 var(--font-serif); }
+  .course-documents { color: var(--color-slate-700); font: .8rem/1.5 var(--font-sans); }
+  .course-toggle { flex-shrink: 0; width: 1.5rem; color: var(--color-gold-700); font: 400 1.6rem/1 var(--font-sans); text-align: center; }
+  .course-toggle::before { content: '+'; }
+  details[open] .course-toggle::before { content: '−'; }
+  .course-body { padding: 0 0 1.5rem; }
+  .course-body p { margin-top: 0; }
+  .course-body ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem 1.5rem; margin: 1.25rem 0 0; padding: 0; list-style: none; font: .9rem/1.5 var(--font-sans); }
+  .course-body a { display: inline-block; padding-block: .2rem; }
+  .teaching-institution--dark { border-color: rgb(255 255 255 / 20%); }
+  .teaching-institution--dark h3, .teaching-institution--dark .course-code, .teaching-institution--dark .course-toggle, .teaching-institution--dark a { color: var(--color-gold-300); }
+  .teaching-institution--dark details { border-color: rgb(255 255 255 / 20%); color: var(--color-cream); }
+  .teaching-institution--dark strong { color: var(--color-cream); }
+  .teaching-institution--dark .metadata, .teaching-institution--dark .course-documents { color: rgb(255 255 255 / 76%); }
+  @media (max-width: 64rem), (max-aspect-ratio: 4/5) { .teaching-institution { grid-template-columns: 1fr; gap: 1.5rem; } }
+  @media (max-width: 40rem) { .course-body ul { grid-template-columns: 1fr; } }
+</style>
