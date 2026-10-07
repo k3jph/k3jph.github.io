@@ -1,21 +1,6 @@
 ---
 import '../styles/scholarship.css';
-
+import PageIndex from './PageIndex.astro';
 const { headings = [] } = Astro.props;
-// Bibliography categories are fourth-level headings in the shared fragment.
-// Include them here, without repeating its intermediate "Complete Bibliography" heading.
-const links = headings.filter((heading: any) =>
-  heading.depth >= 2 && heading.depth <= 4 && heading.slug !== 'complete-bibliography'
-);
 ---
-
-<nav class="scholarship-index" aria-label="On this page">
-  <p class="eyebrow">On this page</p>
-  <ul>
-    {links.map((heading: any) => (
-      <li class:list={{ 'scholarship-index__section': heading.depth === 2 }}>
-        <a href={`#${heading.slug}`}>{heading.text}</a>
-      </li>
-    ))}
-  </ul>
-</nav>
+<PageIndex headings={headings} maxDepth={4} exclude={['complete-bibliography']}/>

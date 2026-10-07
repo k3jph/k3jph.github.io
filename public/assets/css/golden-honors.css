@@ -1,63 +1,31 @@
-/* Detail pages for private heraldic and fraternal recognitions. */
-.golden-honor-introduction {
-  margin: 0 0 1.75rem;
-  color: #635e53;
-  font-family: "Spectral", Georgia, serif;
-  line-height: 1.65;
-}
-
-.golden-honor > .section-heading {
-  margin: 4.25rem auto 2rem;
-  padding: 0;
-}
-
-.golden-honor > .section-heading h2 {
-  color: #2e2c28;
-  text-align: center;
-}
+/* Documentary detail pages for private heraldic and fraternal recognitions. */
+.golden-honor-introduction { margin: 0 0 2rem; max-width: var(--reading-width); color: var(--color-slate-700); font-family: var(--font-serif); line-height: 1.65; }
+.golden-honor > .section-heading { margin: 3.5rem 0 2rem; padding: 0; }
+.golden-honor > .section-heading h2 { color: var(--color-navy-900); text-align: left; }
+.golden-honor > :is(p, ul) { max-width: var(--reading-width); }
 .golden-honor > p { line-height: 1.72; }
-
 .golden-honor-record {
-  margin: 4rem calc(50% - 50vw);
+  margin: 4rem 0;
   padding: 3.5rem 0;
-  background: #283f5c;
-  color: #fff;
+  background: var(--color-navy-950);
+  color: var(--color-cream);
+  box-shadow: 0 0 0 100vmax var(--color-navy-950);
+  clip-path: inset(0 -100vmax);
 }
-
-.golden-honor-record .section-heading {
-  margin: 0 auto;
-  padding: 0;
-}
-
-.golden-honor-record h2 {
-  margin-top: 0;
-  color: #f0d660;
-  text-align: center;
-}
-
-.golden-honor-record .row { margin: 2.25rem 0; }
-.golden-honor-record .golden-honor-document { display: block; color: #feefa8; font-family: Lato, sans-serif; font-size: .9em; font-weight: 700; text-align: center; }
-.golden-honor-document img { display: block; width: 100%; margin: 0 0 1rem; border: 1px solid rgba(255,255,255,.3); }
-.golden-honor-document:hover img { border-color: #feefa8; }
-
-.golden-honor-facts {
-  margin: 0;
-  padding: 1.5rem 1.75rem;
-  border: 1px solid rgba(255,255,255,.28);
-  background: rgba(13,30,49,.32);
-}
-.golden-honor-facts dt { color: #f0d660; font-family: Lato, sans-serif; font-size: .77em; letter-spacing: .04em; text-transform: uppercase; }
-.golden-honor-facts dd { margin: 0 0 1rem; line-height: 1.45; }
+.golden-honor-record .section-heading { margin: 0 0 2rem; padding: 0; }
+.golden-honor-record h2 { margin-top: 0; color: var(--color-gold-300); text-align: left; }
+.golden-honor-record .content-grid { gap: 2rem; }
+.golden-honor-document { display: block; color: var(--color-gold-300); font: 700 .9rem/1.5 var(--font-sans); }
+.golden-honor-document img { display: block; width: 100%; margin: 0 0 1rem; border: 1px solid rgb(255 255 255 / 30%); border-radius: 0; }
+.golden-honor-document:hover img { border-color: var(--color-gold-300); }
+.golden-honor-facts { margin: 0; padding: 1.5rem; border: 1px solid rgb(255 255 255 / 28%); background: var(--color-navy-800); }
+.golden-honor-facts dt { color: var(--color-gold-300); font: 700 .8rem/1.5 var(--font-sans); }
+.golden-honor-facts dd { margin: .3rem 0 1rem; line-height: 1.5; }
 .golden-honor-facts dd:last-child { margin-bottom: 0; }
-.golden-honor-record .container > p { font-family: "Spectral", Georgia, serif; line-height: 1.65; }
-
+.golden-honor-record :is(p, a) { color: var(--color-cream); }
 .golden-honor > ul { padding-left: 1.35rem; }
 .golden-honor > ul li { margin-bottom: .85rem; line-height: 1.55; }
-
-@media (max-width: 767px) {
-  .golden-honor > .section-heading { margin-top: 3.25rem; }
-  .golden-honor-record { margin-top: 3rem; margin-bottom: 3rem; padding-top: 2.5rem; padding-bottom: 2.5rem; }
-  .golden-honor-record .row { margin: 1.75rem auto; }
-  .golden-honor-record .col-md-6 + .col-md-6 { margin-top: 1.75rem; }
-  .golden-honor-facts { padding: 1.25rem; }
+@media (max-width: 48rem), (max-aspect-ratio: 4/5) {
+  .golden-honor-record { margin-block: 3rem; padding-block: 2.5rem; }
+  .golden-honor-record .content-grid__item { flex-basis: 100%; }
 }

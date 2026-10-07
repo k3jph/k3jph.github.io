@@ -9,6 +9,8 @@ guid: http://localhost/wp-faculty/?page_id=2
 
 
 
+<div class="about-introduction">
+
 :::figure{src="/assets/img/jhoward-greenglow.webp" alt="Me at the 2017 Howard County Library Evening in the Stacks" align="right" width="4" role="portrait"}
 Me at the 2017 Howard County Library Evening in the Stacks
 :::
@@ -32,6 +34,8 @@ The work is technical, but its point is not technical display. Models need
 assumptions, systems have constraints, and decisions have consequences. Much of
 the job is making those things visible—and explaining them clearly enough that a
 real person can act on them.
+
+</div>
 
 ## Professional Work
 
@@ -81,6 +85,8 @@ boards, professional-society work, the Maryland Defense Force, and long-running
 community and university service. These are places where the method is tested in
 the presence of actual rules, budgets, and constraints.
 
+<section class="about-credentials" aria-labelledby="credentials-and-recognition">
+
 ## Credentials and Recognition
 
 ### Education
@@ -97,7 +103,10 @@ the presence of actual rules, budgets, and constraints.
     * College Park Scholars Citation, [International Studies](/assets/docs/JHoward-UMD-CPS.pdf)
 * Post Secondary Educational Options Program, Miami University
 
-:::credential-grid
+<div class="credential-grid">
+
+<section aria-labelledby="professional-titles">
+
 ### Professional Titles
 
 * [European Engineer](/assets/docs/JHoward-EURING.pdf)
@@ -106,6 +115,10 @@ the presence of actual rules, budgets, and constraints.
 * Chartered Mathematician
 * [Chartered IT Professional](/assets/docs/JHoward-FBCS.pdf)
 
+</section>
+
+<section aria-labelledby="certifications">
+
 ### Certifications
 
 * [Project Management Professional](/assets/docs/certifications/JHoward-PMI-PMP.pdf)
@@ -113,11 +126,15 @@ the presence of actual rules, budgets, and constraints.
 * [PMI Professional in Business Analysis](/assets/docs/certifications/JHoward-PMI-PBA.pdf)
 * [Certified Associate in Project Management](/assets/docs/certifications/JHoward-PMI-CAPM.pdf)
 * [Certified Government Financial Manager](/assets/docs/certifications/JHoward-CGFM.pdf)
-:::
+</section>
+
+</div>
 
 ### Professional Recognition
 
 ::professional-recognition
+
+</section>
 
 ## Other Accomplishments
 *   [Correspondence Chess Expert](/2024/01/22/i-earned-iccfs-correspondence-chess-expert-title)
