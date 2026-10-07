@@ -27,7 +27,11 @@ the person using it cannot tell what it means. The selected work below is a way
 into those recurring questions; the complete record remains below it for anyone
 who needs the citations.
 
+<section class="scholarship-selected" aria-labelledby="selected-work">
+
 ## Selected Work
+
+<section class="scholarship-topic" aria-labelledby="forecasting-artificial-intelligence-and-complex-systems">
 
 ### Forecasting, Artificial Intelligence, and Complex Systems
 
@@ -37,7 +41,15 @@ who needs the citations.
 
 **[Forecasting Artificial Earth Satellite Populations](/2018/07/30/forecasting-artificial-earth-satellite-populations/)** (2018), Joint Statistical Meetings.  Satellite populations are a small example of a larger habit: find the mechanism behind a number that looks simple, then model the mechanism rather than merely extrapolating the number.
 
+</section>
+
+<section class="scholarship-topic" aria-labelledby="risk-policy-and-operational-decisions">
+
 ### Risk, Policy, and Operational Decisions
+
+<figure class="scholarship-cover">
+  <a href="/books/socioeconomic-effects-national-flood-insurance-program/"><img src="/assets/img/SE-NFIP-cover.webp" alt="Cover of Socioeconomic Effects of the National Flood Insurance Program" width="827" height="1255" loading="lazy" decoding="async"></a>
+</figure>
 
 **[Socioeconomic Effects of the National Flood Insurance Program](/books/socioeconomic-effects-national-flood-insurance-program/)** (2016).  This book grew from research on the policy, economic, and social consequences of a federal insurance program that exists precisely because risk refuses to stay inside a spreadsheet. It remains the clearest single record of the public-policy side of this work.
 
@@ -45,7 +57,15 @@ who needs the citations.
 
 **[Mixed Reality for Post-Disaster Situational Awareness](https://www.jhuapl.edu/Content/techdigest/pdf/V35-N03/35-03-Howard.pdf)** (2020, with Arthur O. Tucker IV and colleagues), _Johns Hopkins APL Technical Digest_.  A post-disaster system has to make information usable under conditions that are actively hostile to usability. The work joined sensing, visualization, and response rather than treating any one of them as sufficient.
 
+</section>
+
+<section class="scholarship-topic" aria-labelledby="mathematics-statistics-and-scientific-computing">
+
 ### Mathematics, Statistics, and Scientific Computing
+
+<figure class="scholarship-cover">
+  <a href="/books/computational-methods-numerical-analysis-r/"><img src="/assets/img/CMNA-cover-300.webp" alt="Cover of Computational Methods for Numerical Analysis with R" width="300" height="468" loading="lazy" decoding="async"></a>
+</figure>
 
 **[Computational Methods for Numerical Analysis with R](/books/computational-methods-numerical-analysis-r/)** (2017).  Numerical analysis becomes much more interesting when the computation is visible. This book uses R not as decorative software around mathematics, but as a way to make approximation, error, and algorithmic choices concrete.
 
@@ -53,11 +73,21 @@ who needs the citations.
 
 **[Blockchain Compliance with Federal Cryptographic Information Processing Standards](https://ieeexplore.ieee.org/document/8965252)** (2020, with Maria E. Vachino), _IEEE Security & Privacy_.  This paper asks the unglamorous but necessary question behind a technical proposal: whether a blockchain design can satisfy the standards and governance requirements of the system it is supposed to serve.
 
+</section>
+
+<section class="scholarship-topic" aria-labelledby="quantitative-learning-and-technical-communication">
+
 ### Quantitative Learning and Technical Communication
 
 **[Teaching and Learning Mathematics Online](/books/teaching-learning-mathematics-online/)** (2nd ed., 2025, co-editor with John F. Beyers).  Online mathematics education is not a matter of putting a textbook behind a login screen. The work in this volume concerns what students can actually do, see, test, and explain when the classroom is distributed.
 
 **[Teaching STEM Online at the Tertiary Level During the COVID-19 Pandemic](https://doi.org/10.1080/0020739X.2021.1954251)** (2023, with Mina Sedaghatjou and colleagues), _International Journal of Mathematical Education in Science and Technology_.  The pandemic forced the question in real time: which parts of technical teaching are genuinely portable, and which have to be redesigned when the room disappears?
+
+</section>
+
+</section>
+
+<section class="scholarship-record" aria-labelledby="complete-scholarly-record">
 
 ## Complete Scholarly Record
 
@@ -72,3 +102,5 @@ who needs the citations.
 
 
 ::fragment{name="grants"}
+
+</section>
