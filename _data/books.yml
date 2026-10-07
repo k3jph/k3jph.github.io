@@ -37,7 +37,10 @@ published:
     ebook_isbn: "9781040047033"
     publisher_url: https://www.routledge.com/Handbook-of-Military-and-Defense-Operations-Research/Scala-HowardII/p/book/9781032497488
     detail_url: /books/handbook-military-defense-operations-research/
-    cover: https://covers.vitalsource.com/vbid/9781040047033/width/640?style=preview
+    # Publisher cover: https://covers.vitalsource.com/vbid/9781040047033/width/1024?style=preview
+    cover: /assets/img/mdor-cover-1024.jpg
+    cover_width: 1024
+    cover_height: 1463
     cover_alt: "Cover of Handbook of Military and Defense Operations Research, second edition"
     summary: >-
       Natalie Scala and I edited this handbook around the fact that operations
@@ -62,7 +65,10 @@ published:
     ebook_isbn: "9781351646505"
     publisher_url: https://www.routledge.com/Computational-Methods-for-Numerical-Analysis-with-R/HowardII/p/book/9781498723633
     detail_url: /books/computational-methods-numerical-analysis-r/
-    cover: /assets/img/CMNA-cover-300.webp
+    # Publisher cover: https://covers.vitalsource.com/vbid/9781351646505/width/1024?style=preview
+    cover: /assets/img/CMNA-cover-1024.jpg
+    cover_width: 1024
+    cover_height: 1572
     cover_alt: "Cover of Computational Methods for Numerical Analysis with R"
     summary: >-
       A numerical-analysis text written around R as the working environment.

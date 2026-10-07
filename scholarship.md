@@ -64,7 +64,7 @@ who needs the citations.
 ### Mathematics, Statistics, and Scientific Computing
 
 <figure class="scholarship-cover">
-  <a href="/books/computational-methods-numerical-analysis-r/"><img src="/assets/img/CMNA-cover-300.webp" alt="Cover of Computational Methods for Numerical Analysis with R" width="300" height="468" loading="lazy" decoding="async"></a>
+  <a href="/books/computational-methods-numerical-analysis-r/"><img src="/assets/img/CMNA-cover-1024.jpg" alt="Cover of Computational Methods for Numerical Analysis with R" width="1024" height="1572" loading="lazy" decoding="async"></a>
 </figure>
 
 **[Computational Methods for Numerical Analysis with R](/books/computational-methods-numerical-analysis-r/)** (2017).  Numerical analysis becomes much more interesting when the computation is visible. This book uses R not as decorative software around mathematics, but as a way to make approximation, error, and algorithmic choices concrete.

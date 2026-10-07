@@ -117,7 +117,7 @@ const personalDestinations = [
           <div class="home-section-head"><div><p class="home-kicker">Books with a life beyond the page</p><h3>Methods you can put to work.</h3></div></div>
           <div class="home-methods__pair">
             {bookProjects.map((project: any) => <article class="home-book">
-              {project.book && <img src={project.book.cover} alt={project.book.cover_alt} width="300" height="440" loading="lazy" decoding="async"/>}
+              {project.book && <img src={project.book.cover} alt={project.book.cover_alt} width={project.book.cover_width} height={project.book.cover_height} loading="lazy" decoding="async"/>}
               <div>
                 <p class="home-kicker">{project.kind}</p>
                 <h4>{project.title}</h4>
