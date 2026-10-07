@@ -1,5 +1,13 @@
 # Migration Image Sources
 
+## Teaching and Learning Mathematics Online cover
+
+- **File:** `public/assets/img/tlmo-cover-1024.jpg`
+- **Source:** Publisher cover distributed by VitalSource for the second edition, edited by James P. Howard II and John F. Beyers
+- **Source URL:** <https://covers.vitalsource.com/vbid/9781040337578/width/1200?style=preview>
+- **Rights:** Copyrighted publisher cover, used to identify and promote the book and its companion site; no open license is claimed.
+- **Modification:** None. The source supplies a 1024 × 1536 pixel JPEG, preserved at its original resolution.
+
 ## Blog hero
 
 - **File:** `public/assets/img/blog.webp`

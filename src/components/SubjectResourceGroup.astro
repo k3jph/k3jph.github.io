@@ -15,7 +15,8 @@ const { items, label, showFamily = false } = Astro.props as Props;
     <li>
       {(showFamily || item.metadata) && <p class="subject-resource-list__meta">{[showFamily && item.family, item.metadata].filter(Boolean).join(' · ')}</p>}
       <h3>{item.href ? <a href={sitePath(item.href)}>{item.title}</a> : item.title}</h3>
-      {item.description && <p set:html={item.description}/>} 
+      {item.description && <p set:html={item.description}/>}
+      {item.companion_url && <p class="subject-resource-list__companion"><a href={item.companion_url}>Explore the companion <span aria-hidden="true">↗</span></a></p>}
     </li>
   ))}
 </ul>
@@ -25,6 +26,7 @@ const { items, label, showFamily = false } = Astro.props as Props;
   .subject-resource-list h3 { margin: 0; font-size: clamp(1.15rem, 2vw, 1.45rem); }
   .subject-resource-list h3 a { color: var(--color-navy-900); text-decoration-color: var(--color-gold-500); }
   .subject-resource-list p { margin: var(--space-1) 0 0; color: var(--color-slate-700); }
+  .subject-resource-list__companion { font: 700 .88rem/1.5 var(--font-sans); }
   .subject-resource-list__meta { font: 700 .78rem/1.5 var(--font-sans); letter-spacing: .04em; text-transform: uppercase; }
 
   .subject-resource-list > li { padding: 1.25rem 0 0; border-top: 1px solid var(--color-slate-300); }

@@ -4,6 +4,7 @@ import PageIntro from '../../components/PageIntro.astro';
 import SectionHeading from '../../components/SectionHeading.astro';
 import SectionNav from '../../components/SectionNav.astro';
 import TeachingInstitution from '../../components/TeachingInstitution.astro';
+import TLMOFeature from '../../components/TLMOFeature.astro';
 import SubjectLinks from '../../components/SubjectLinks.astro';
 import siteData from '../../../.generated/data/site.json';
 import subjectsData from '../../../.generated/data/subjects.json';
@@ -14,7 +15,8 @@ const relatedSubjects = subjectsData.subjects.filter((subject) => ['mathematics-
 ---
 <BaseLayout title="Teaching" image="/assets/img/teaching.webp">
   <PageIntro title="Teaching" subtitle="Start with the problem; work backward to the machinery." image="/assets/img/teaching.webp"/>
-  <SectionNav items={[{href:'#current-teaching',label:'Current teaching'},{href:'#historical-teaching',label:'Historical teaching'},{href:'#teaching-subjects',label:'Explore by subject'}]}/>
+  <SectionNav items={[{href:'#online-mathematics',label:'Teaching mathematics online'},{href:'#current-teaching',label:'Current teaching'},{href:'#historical-teaching',label:'Historical teaching'},{href:'#teaching-subjects',label:'Explore by subject'}]}/>
+  <section class="section" id="online-mathematics" aria-label="Teaching mathematics online"><div class="container"><TLMOFeature heading="h2" compact/></div></section>
   <section class="section section--navy" aria-labelledby="current-teaching">
     <div class="container"><SectionHeading title="Current Teaching" id="current-teaching" variant="light"/>
       {current.map((institution: any) => <TeachingInstitution institution={institution} dark/>)}

@@ -1,0 +1,72 @@
+---
+import siteData from '../../.generated/data/site.json';
+
+interface Props {
+  heading?: 'h2' | 'h4';
+  compact?: boolean;
+  homepage?: boolean;
+}
+
+const { heading = 'h2', compact = false, homepage = false } = Astro.props;
+const Heading = heading;
+const book = siteData.books.published.find((book: any) => book.slug === 'teaching-learning-mathematics-online');
+const project = siteData.settings.sites.find((project: any) => project.id === 'tlmo');
+---
+
+{book && project && <article class:list={['tlmo-feature', { 'tlmo-feature--compact': compact }]}>
+  <div class="tlmo-feature__art">
+    <svg class="tlmo-feature__curves" viewBox="0 0 520 460" fill="none" aria-hidden="true" focusable="false">
+      <path d="M38 352H490M102 414V34" stroke="#665f9a" stroke-width="1"/>
+      <path d="M-30 344C75 350 85 150 196 142S349 344 550 75" stroke="#665f9a" stroke-width="2"/>
+      <path d="M-30 384C147 394 166 345 228 294S381 166 550 174" stroke="#332c57" stroke-width="1.5"/>
+      <path d="M-30 240C103 126 159 300 275 275S428 82 550 95" stroke="#9a8fba" stroke-width="1"/>
+      <circle cx="102" cy="352" r="4" fill="#e8aa38"/>
+    </svg>
+    <img src={book.cover} alt={book.cover_alt} width={book.cover_width} height={book.cover_height} loading="lazy" decoding="async"/>
+  </div>
+  <div class="tlmo-feature__copy">
+    <p class="tlmo-feature__eyebrow">{project.kind} <span aria-hidden="true">·</span> Two editions</p>
+    <Heading class="tlmo-feature__title">{book.title}</Heading>
+    <p class="tlmo-feature__credit">{book.role}<br/>{book.edition} <span aria-hidden="true">·</span> {book.year}</p>
+    <p class="tlmo-feature__description">{project.description}</p>
+    <div class="tlmo-feature__actions">
+      <a class="tlmo-feature__button" data-home-project={homepage ? project.id : undefined} href={book.companion_url} target={project.target} rel="noopener noreferrer">Explore the companion <span aria-hidden="true">↗</span></a>
+      <a class="tlmo-feature__record" href={book.detail_url}>About the book <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</article>}
+
+<style>
+  .tlmo-feature { display: grid; grid-template-columns: minmax(0, .82fr) minmax(0, 1.18fr); align-items: center; gap: clamp(2rem, 4vw, 4rem); padding: clamp(1.5rem, 3.5vw, 3rem); color: #332c57; background: #f2f0f8; border-top: 2px solid #665f9a; }
+  .tlmo-feature__art { position: relative; display: grid; min-height: 26rem; place-items: center; isolation: isolate; background: radial-gradient(ellipse at center, #ded9ee 0%, transparent 68%); }
+  .tlmo-feature__curves { position: absolute; inset: 0; z-index: -1; width: 100%; height: 100%; opacity: .55; }
+  .tlmo-feature__art img { display: block; width: min(72%, 15rem); height: auto; transform: rotate(-3deg); box-shadow: 9px 16px 25px rgb(36 29 66 / 22%); }
+  .tlmo-feature__copy { min-width: 0; }
+  .tlmo-feature__eyebrow { margin: 0 0 1rem; color: #544c73; font: 700 .72rem/1.5 var(--font-sans); letter-spacing: .08em; text-transform: uppercase; }
+  .tlmo-feature__title { margin: 0; color: #332c57; font: 400 clamp(2rem, 3.4vw, 3.25rem)/1.12 var(--font-serif); text-wrap: balance; }
+  .tlmo-feature__credit { margin: 1.3rem 0 0; color: #544c73; font: 400 .85rem/1.6 var(--font-sans); }
+  .tlmo-feature__description { max-width: 36rem; margin: 1.25rem 0 0; color: #332c57; font: 400 1.08rem/1.65 var(--font-serif); }
+  .tlmo-feature__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.5rem; margin-top: 1.8rem; font: 700 .88rem/1.5 var(--font-sans); }
+  .tlmo-feature__button { display: inline-flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding: .85rem 1.15rem; color: #fff; background: #332c57; text-decoration: none; }
+  .tlmo-feature__button:hover { color: #fff; background: #241d42; }
+  .tlmo-feature__button span { color: #e8aa38; }
+  .tlmo-feature__record { color: #332c57; text-underline-offset: .25em; }
+  .tlmo-feature__record:hover { color: #544c73; }
+  .tlmo-feature--compact { grid-template-columns: minmax(0, 17rem) minmax(0, 1fr); }
+  .tlmo-feature--compact .tlmo-feature__art { min-height: 20rem; }
+  .tlmo-feature--compact .tlmo-feature__art img { width: min(68%, 11rem); }
+  .tlmo-feature--compact .tlmo-feature__title { font-size: clamp(1.8rem, 2.8vw, 2.75rem); }
+  @media (max-width: 54rem), (max-aspect-ratio: 4/5) {
+    .tlmo-feature, .tlmo-feature--compact { grid-template-columns: 1fr; gap: 2rem; }
+    .tlmo-feature__art { min-height: 21rem; }
+    .tlmo-feature__art img { width: min(52%, 13rem); }
+    .tlmo-feature__copy { max-width: 36rem; }
+  }
+  @media (max-width: 36rem) {
+    .tlmo-feature { padding: 1.5rem 1.25rem; }
+    .tlmo-feature__art, .tlmo-feature--compact .tlmo-feature__art { min-height: 17rem; }
+    .tlmo-feature__art img, .tlmo-feature--compact .tlmo-feature__art img { width: min(58%, 10.5rem); }
+    .tlmo-feature__title { font-size: clamp(1.7rem, 7vw, 2.3rem); }
+    .tlmo-feature__actions { align-items: start; flex-direction: column; }
+  }
+</style>

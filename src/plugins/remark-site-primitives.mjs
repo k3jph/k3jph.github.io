@@ -100,9 +100,10 @@ function walk(node) {
   if (node.name === 'book-detail') {
     const book = books.published.find((item) => item.slug === attributes.slug);
     if (!book) throw new Error(`Unknown book-detail slug: ${attributes.slug}`);
+    const companion = book.companion_url ? `<a href="${escapeHtml(book.companion_url)}">Explore the companion ↗</a>` : '';
     const doi = book.doi ? `<div><dt>DOI</dt><dd><a href="https://doi.org/${escapeHtml(book.doi)}">${escapeHtml(book.doi)}</a></dd></div>` : '';
     node.type = 'html';
-    node.value = `<article class="book-detail"><div class="book-detail-hero"><img src="${escapeHtml(assetPath(book.cover))}" alt="${escapeHtml(book.cover_alt)}"><div><p class="eyebrow">${escapeHtml(book.edition)} · ${escapeHtml(book.year)}</p><p>${book.summary}</p><p class="link-row"><a href="${escapeHtml(book.publisher_url)}">Publisher page ↗</a><a href="/books/">All books →</a></p></div></div><dl class="facts"><div><dt>Role</dt><dd>${escapeHtml(book.role)}</dd></div><div><dt>Publisher</dt><dd>${escapeHtml(book.publisher)}</dd></div><div><dt>Print ISBN</dt><dd>${escapeHtml(book.print_isbn)}</dd></div>${doi}</dl></article>`;
+    node.value = `<article class="book-detail"><div class="book-detail-hero"><img src="${escapeHtml(assetPath(book.cover))}" alt="${escapeHtml(book.cover_alt)}"><div><p class="eyebrow">${escapeHtml(book.edition)} · ${escapeHtml(book.year)}</p><p>${book.summary}</p><p class="link-row">${companion}<a href="${escapeHtml(book.publisher_url)}">Publisher page ↗</a><a href="/books/">All books →</a></p></div></div><dl class="facts"><div><dt>Role</dt><dd>${escapeHtml(book.role)}</dd></div><div><dt>Publisher</dt><dd>${escapeHtml(book.publisher)}</dd></div><div><dt>Print ISBN</dt><dd>${escapeHtml(book.print_isbn)}</dd></div>${doi}</dl></article>`;
     delete node.children;
     return;
   }

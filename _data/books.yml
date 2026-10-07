@@ -11,7 +11,11 @@ published:
     ebook_isbn: "9781040337578"
     publisher_url: https://www.routledge.com/Teaching-and-Learning-Mathematics-Online/HowardII-Beyers/p/book/9781032504537
     detail_url: /books/teaching-learning-mathematics-online/
-    cover: https://covers.vitalsource.com/vbid/9781040337578/width/640?style=preview
+    companion_url: https://tlmo.jameshoward.us/
+    # Publisher cover: https://covers.vitalsource.com/vbid/9781040337578/width/1200?style=preview (original supplied at 1024px).
+    cover: /assets/img/tlmo-cover-1024.jpg
+    cover_width: 1024
+    cover_height: 1536
     cover_alt: "Cover of Teaching and Learning Mathematics Online, second edition"
     summary: >-
       This collection is for people teaching mathematics and statistics in online
@@ -37,6 +41,7 @@ published:
     ebook_isbn: "9781040047033"
     publisher_url: https://www.routledge.com/Handbook-of-Military-and-Defense-Operations-Research/Scala-HowardII/p/book/9781032497488
     detail_url: /books/handbook-military-defense-operations-research/
+    companion_url: https://defenseor.com/
     # Publisher cover: https://covers.vitalsource.com/vbid/9781040047033/width/1024?style=preview
     cover: /assets/img/mdor-cover-1024.jpg
     cover_width: 1024
@@ -65,6 +70,7 @@ published:
     ebook_isbn: "9781351646505"
     publisher_url: https://www.routledge.com/Computational-Methods-for-Numerical-Analysis-with-R/HowardII/p/book/9781498723633
     detail_url: /books/computational-methods-numerical-analysis-r/
+    companion_url: https://cmna.jameshoward.us/
     # Publisher cover: https://covers.vitalsource.com/vbid/9781351646505/width/1024?style=preview
     cover: /assets/img/CMNA-cover-1024.jpg
     cover_width: 1024

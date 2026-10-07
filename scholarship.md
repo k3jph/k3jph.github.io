@@ -81,6 +81,8 @@ who needs the citations.
 
 **[Teaching and Learning Mathematics Online](/books/teaching-learning-mathematics-online/)** (2nd ed., 2025, co-editor with John F. Beyers).  Online mathematics education is not a matter of putting a textbook behind a login screen. The work in this volume concerns what students can actually do, see, test, and explain when the classroom is distributed.
 
+[Explore the TLMO companion](https://tlmo.jameshoward.us/) for both editions, their chapters and contributors, and teaching resources.
+
 **[Teaching STEM Online at the Tertiary Level During the COVID-19 Pandemic](https://doi.org/10.1080/0020739X.2021.1954251)** (2023, with Mina Sedaghatjou and colleagues), _International Journal of Mathematical Education in Science and Technology_.  The pandemic forced the question in real time: which parts of technical teaching are genuinely portable, and which have to be redesigned when the room disappears?
 
 </section>

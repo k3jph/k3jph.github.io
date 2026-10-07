@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import TLMOFeature from '../components/TLMOFeature.astro';
 import { formatDate, isPublished, normalizeAssetPath, sitePath } from '../lib/site';
 import siteData from '../../.generated/data/site.json';
 import subjects from '../../.generated/data/subjects.json';
@@ -17,7 +18,7 @@ const bookProjects = projects.filter((project: any) => ['cmna', 'defenseor'].inc
   .map((project: any) => ({ ...project,
     book: books.published.find((book: any) => book.short_route === (project.id === 'cmna' ? '/cmna/' : '/mdor/')),
   }));
-const otherProjects = projects.filter((project: any) => !['war1812', 'judith', 'cmna', 'defenseor'].includes(project.id));
+const otherProjects = projects.filter((project: any) => !['war1812', 'judith', 'tlmo', 'cmna', 'defenseor'].includes(project.id));
 const additionalDestinations = [
   { title: 'Books', href: '/books/', description: 'Long-form work in mathematics, policy, operations research, and teaching.' },
   { title: 'Software', href: '/software/', description: 'Open-source projects and working tools built around difficult problems.' },
@@ -115,6 +116,7 @@ const personalDestinations = [
       <div class="home-methods home-section">
         <div class="home-wrap">
           <div class="home-section-head"><div><p class="home-kicker">Books with a life beyond the page</p><h3>Methods you can put to work.</h3></div></div>
+          {projects.some((project: any) => project.id === 'tlmo') && <div class="home-methods__tlmo"><TLMOFeature heading="h4" homepage/></div>}
           <div class="home-methods__pair">
             {bookProjects.map((project: any) => <article class="home-book">
               {project.book && <img src={project.book.cover} alt={project.book.cover_alt} width={project.book.cover_width} height={project.book.cover_height} loading="lazy" decoding="async"/>}
@@ -249,6 +251,7 @@ const personalDestinations = [
   .home-exhibition .home-text-link { margin-top: 2rem; color: var(--color-cream); }
   .home-exhibition .home-text-link > span { color: var(--color-gold-300); }
   .home-methods h3 { font-size: clamp(2.2rem, 3.8vw, 3.6rem); line-height: 1.12; }
+  .home-methods__tlmo { margin-bottom: clamp(3rem, 5vw, 5rem); }
   .home-methods__pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(2rem, 5vw, 5rem); }
   .home-book { display: grid; grid-template-columns: minmax(0, .58fr) minmax(0, 1fr); align-items: start; gap: clamp(1.4rem, 2.5vw, 2.5rem); }
   .home-book > img { display: block; width: 100%; height: auto; box-shadow: 5px 9px 16px rgb(7 17 31 / 15%); }

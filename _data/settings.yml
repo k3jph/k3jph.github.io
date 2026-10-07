@@ -60,6 +60,20 @@ sites:
     preview_title: Judith & Holofernes
     preview_subtitle: The Fatal Image
 
+  - id: tlmo
+    title: Teaching and Learning Mathematics Online
+    kind: Book companion
+    description: Explore both editions, their chapters and contributors, and resources for teaching mathematics online.
+    url: https://tlmo.jameshoward.us/
+    target: _blank
+    showcase: true
+    footer: false
+    order: 25
+    theme: tlmo
+    image: /assets/img/tlmo-cover-1024.jpg
+    preview_title: TLMO
+    preview_subtitle: Teaching and Learning Mathematics Online
+
   - id: cmna
     title: Computational Methods for Numerical Analysis
     kind: Book companion

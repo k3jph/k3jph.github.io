@@ -206,6 +206,7 @@ export function buildSubjectsData(rawSource, canonical, occupiedRoutes = [], now
         href: book.detail_url ?? book.games_url ?? book.source_url ?? book.publisher_url,
         metadata: [book.edition, book.year, book.role].filter(Boolean).join(' · '),
         description: book.summary,
+        ...(book.companion_url ? { companion_url: book.companion_url } : {}),
       };
     }
     if (type === 'software') {
