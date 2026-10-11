@@ -1,6 +1,9 @@
 name: Import Potter cover asset
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/import-potter-cover.yml'
 
 permissions:
   contents: write
