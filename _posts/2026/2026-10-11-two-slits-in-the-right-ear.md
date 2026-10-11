@@ -5,14 +5,14 @@ date: 2026-10-11
 author: k3jph
 layout: post
 permalink: /2026/10/11/two-slits-in-the-right-ear/
-featured_image: "https://commons.wikimedia.org/wiki/Special:FilePath/Cowherd_driving_three_horned_cattle_before_him%3B_below%2C_in_the_foreground%2C_a_recumbent_steer_and_a_standing_steer%2C_marsh_and_trees_beyond_MET_DP832778.jpg?width=1200"
+featured_image: /assets/img/2026/two-slits-in-the-right-ear-cover.webp
 excerpt: >-
   A colonial Quaker's livestock earmark survived in the records of West Jersey.
   It turns out to be a small curiosity with an unexpected connection to heraldry.
 credits: >-
   Cover: Paulus Potter, [*Cowherd driving three horned cattle before him* (1649)](https://www.metmuseum.org/art/collection/search/398621),
   The Metropolitan Museum of Art, public domain ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)), via Wikimedia Commons.
-  Cover depicts a Dutch pastoral scene, not colonial New Jersey.
+  Cropped from the original etching. It depicts a Dutch pastoral scene, not colonial New Jersey.
   Interior earmark illustration: modern interpretation of Robert Willson's recorded mark;
   vector tracing of the approved reconstruction, not an original period image.
 categories:
