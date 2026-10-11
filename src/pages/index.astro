@@ -8,7 +8,7 @@ import subjects from '../../.generated/data/subjects.json';
 const books = siteData.books;
 
 const posts = (await getCollection('blog')).filter((post) => isPublished(post.data))
-  .sort((a, b) => +b.data.date - +a.data.date).slice(0, 4);
+  .sort((a, b) => +b.data.date - +a.data.date).slice(0, 3);
 const [leadPost, ...recentPosts] = posts;
 const projects = (siteData.settings.sites ?? []).filter((site: any) => site.showcase)
   .sort((a: any, b: any) => (a.order ?? 999) - (b.order ?? 999));
