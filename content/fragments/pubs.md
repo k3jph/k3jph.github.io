@@ -6,12 +6,13 @@
 - Natalie M. Scala and James P. Howard, II, Eds., _[Handbook of Military and Defense Operations Research](/books/handbook-military-defense-operations-research/)_, 2nd ed., ser. Series in Operations Research. Boca Raton, Florida: Chapman and Hall/CRC, 2024.
 - James P. Howard, II and John F. Beyers, Eds., [_Teaching and Learning Mathematics Online_](/books/teaching-learning-mathematics-online/). Boca Raton, Florida: Chapman and Hall/CRC, 2020.
 - Natalie M. Scala and James P. Howard, II, Eds., [_Handbook of Military and Defense Operations Research_](/books/handbook-military-defense-operations-research/), ser. Series in Operations Research. Boca Raton, Florida: Chapman and Hall/CRC, 2020.
-- James P. Howard, II, [_Hurricane_ ser. Gurps Disasters](/2019/12/19/gurps-disasters-hurricane-released/), Steve Jackson Games, Austin, Texas, 37-1711, 2019.
+- James P. Howard, II, [_Hurricane_ ser. Gurps Disasters](/2019/19/19/gurps-disasters-hurricane-released/), Steve Jackson Games, Austin, Texas, 37-1711, 2019.
 - James P. Howard, II, _[Computational Methods for Numerical Analysis with R](/books/computational-methods-numerical-analysis-r/)_, ser. Numerical Analysis and Scientific Computing. New York: Chapman and Hall/CRC, 2017.
 - James P. Howard, II, _[Socioeconomic Effects of the National Flood Insurance Program](/books/socioeconomic-effects-national-flood-insurance-program/)_, 1st ed., ser. SpringerBriefs in Political Science. Cham, Switzerland: Springer International Publishing, 2016.
 
 #### Articles, Chapters, Proceedings, and Dissertation
 
+- James Patrick Howard, II, "The Martlet Has No Feet," _Sylva Armorum_, vol. 1, pp. 19–40, 2026.
 - Mina Sedaghatjou, Janette Hughes, Minnie Liu, Francesca Ferrara, James P. Howard, II, and Maria Flavia Mammana, "[Teaching STEM Online at the Tertiary Level During the COVID-19 Pandemic](https://doi.org/10.1080/0020739X.2021.1954251)," _International Journal of Mathematical Education in Science and Technology_, vol. 54, no. 3, 2023, pp. 365–381, [doi:10.1080/0020739X.2021.1954251](https://doi.org/10.1080/0020739X.2021.1954251).
 - Anna L. Buczak, Benjamin D. Baugher, Christine S. Martin, Meg W. Keiley-Listermann, James P. Howard II, Nathan H. Parrish, Anton Q. Stalick, Daniel S. Berman, and Mark H. Dredze, "[Crystal Cube: Forecasting Disruptive Events](https://doi.org/10.1080/08839514.2021.2001179)," _Applied Artificial Intelligence_, 2021, [doi:10.1080/08839514.2021.2001179](https://doi.org/10.1080/08839514.2021.2001179).
 - James P. Howard, II, Arthur O. Tucker, IV, Stephen A. Bailey, James L. Dean, Michael Boyle, Christopher D. Stiles, and William C. Woodcock, "[Mixed Reality for Post-Disaster Situational Awareness](https://www.jhuapl.edu/Content/techdigest/pdf/V35-N03/35-03-Howard.pdf)," _Johns Hopkins APL Technical Digest_, vol. 35, no. 8, pp. 205-210, 2020.
