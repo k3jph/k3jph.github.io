@@ -1,0 +1,50 @@
+name: Import Potter cover asset
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download and prepare public-domain engraving
+        shell: bash
+        run: |
+          set -euo pipefail
+          source_url='https://upload.wikimedia.org/wikipedia/commons/0/00/Cowherd_driving_three_horned_cattle_before_him%3B_below%2C_in_the_foreground%2C_a_recumbent_steer_and_a_standing_steer%2C_marsh_and_trees_beyond_MET_DP832778.jpg'
+          commons_url='https://commons.wikimedia.org/wiki/Special:FilePath/Cowherd_driving_three_horned_cattle_before_him%3B_below%2C_in_the_foreground%2C_a_recumbent_steer_and_a_standing_steer%2C_marsh_and_trees_beyond_MET_DP832778.jpg'
+          met_url='https://images.metmuseum.org/CRDImages/dp/original/DP832778.jpg'
+          curl --fail --location --retry 3 --silent --show-error --user-agent 'JamesHowardBlog/1.0 (public-domain research use)' "$source_url" -o /tmp/potter.jpg ||
+          curl --fail --location --retry 3 --silent --show-error --user-agent 'JamesHowardBlog/1.0 (public-domain research use)' "$commons_url" -o /tmp/potter.jpg ||
+          curl --fail --location --retry 3 --silent --show-error --user-agent 'JamesHowardBlog/1.0 (public-domain research use)' "$met_url" -o /tmp/potter.jpg
+          python -m pip install --quiet Pillow
+          mkdir -p public/assets/img/2026
+          python - <<'PY'
+          from PIL import Image, ImageOps
+          source=Image.open('/tmp/potter.jpg').convert('RGB')
+          if source.width < 800 or source.height < 700:
+              raise RuntimeError(f'Unexpectedly small engraving: {source.size}')
+          cover=ImageOps.fit(source,(1600,900),method=Image.Resampling.LANCZOS,centering=(0.5,0.5))
+          output='public/assets/img/2026/two-slits-in-the-right-ear-cover.webp'
+          cover.save(output,'WEBP',quality=85,method=6)
+          print(f'Wrote {output}, source dimensions {source.size}')
+          PY
+      - name: Commit optimized cover
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/assets/img/2026/two-slits-in-the-right-ear-cover.webp
+          if ! git diff --staged --quiet; then
+            git commit -m "Add Paulus Potter public-domain cover for Willson earmark post"
+            git push origin HEAD:main
+          fi
