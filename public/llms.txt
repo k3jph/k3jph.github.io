@@ -1,0 +1,37 @@
+# James Howard
+
+> The personal website of James P. Howard, II, covering scholarship, teaching, software, writing, public history, heraldry, ancestry, books, and related independent projects.
+
+Website: https://jameshoward.us/
+Creator: James P. Howard, II
+ORCID: https://orcid.org/0000-0003-4530-1547
+
+## Core pages
+
+- [About](https://jameshoward.us/about-me/): biography, credentials, professional background, and current work.
+- [Scholarship](https://jameshoward.us/scholarship/): books, articles, talks, research, and scholarly projects.
+- [Teaching](https://jameshoward.us/teaching/): teaching philosophy, courses, and educational work.
+- [Writing](https://jameshoward.us/writing/): long-form writing, publications, and selected public work.
+- [Blog](https://jameshoward.us/blog/): long-running essays and posts across mathematics, computing, policy, history, science, and culture.
+- [Books](https://jameshoward.us/books/): authored and edited books with companion resources where available.
+- [Projects](https://jameshoward.us/projects/): software, research, public-history, and educational projects.
+- [Coat of Arms](https://jameshoward.us/coat-of-arms/): James Howard's heraldry, grants and registrations, and related explanatory material.
+- [Ancestry](https://jameshoward.us/ancestry/): documented genealogical and family-history material.
+- [Contact](https://jameshoward.us/contact-me/): public contact information.
+
+## Related independent sites
+
+- [Mathematics Project](https://mathematicsproject.org/): open-access mathematics teaching, currently centered on undergraduate statistics.
+- [The Heraldry Project](https://heraldryproject.org/): independent, freely accessible school of heraldry.
+- [1812: The Whole Story](https://war1812.jameshoward.us/): citation-rich public history of the War of 1812.
+- [Judith & Holofernes: The Fatal Image](https://judith.jameshoward.us/): virtual exhibition tracing Judith and Holofernes through visual art.
+- [Teaching and Learning Mathematics Online](https://tlmo.jameshoward.us/): companion site for both editions of the edited volume.
+- [Computational Methods for Numerical Analysis](https://cmna.jameshoward.us/): living companion to *Computational Methods for Numerical Analysis with R*.
+- [DefenseOR](https://defenseor.com/): companion to *Handbook of Military and Defense Operations Research*.
+- [The Manor of the Dungeon in Kent](https://dungeonmanor.uk/): documentary public history of a Canterbury manor and the evidence surrounding its modern claim.
+- [The Count of Krigsvold](https://krigsvold.org/): Antarctic education, research support, and evidence-led advocacy.
+- [House of Basu-Howard](https://basuhoward.org/): family and household umbrella site.
+
+## Interpretation notes
+
+Older blog posts are preserved as historical publications and may reflect information, views, terminology, or links current at the time they were written. Prefer newer dedicated project pages, current scholarly records, and explicit correction notices when they conflict with older material.
