@@ -1,0 +1,45 @@
+name: Prepare The Trouble with Zero cover image
+
+on:
+  push:
+    branches:
+      - publish/trouble-with-zero-2026-10-13
+    paths:
+      - .github/workflows/prepare-zero-cover.yml
+
+permissions:
+  contents: write
+
+jobs:
+  prepare-cover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download selected Pixabay photograph
+        run: |
+          curl --fail --location --retry 3 --silent --show-error \
+            'https://cdn.pixabay.com/photo/2020/04/10/16/17/thermometer-5026546_1280.jpg' \
+            --output /tmp/thermometer.jpg
+          test -s /tmp/thermometer.jpg
+      - name: Convert photograph to optimized WebP
+        run: |
+          python -m pip install --quiet Pillow
+          python - <<'PY'
+          from PIL import Image, ImageOps
+          image = Image.open('/tmp/thermometer.jpg').convert('RGB')
+          image.thumbnail((1600, 1200))
+          image.save('public/assets/img/2026/the-trouble-with-zero.webp', format='WEBP', quality=84, method=6)
+          print('Cover image dimensions', image.size)
+          PY
+      - name: Commit cover image to publication branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/assets/img/2026/the-trouble-with-zero.webp
+          git commit -m "Add licensed Pixabay thermometer cover for The Trouble with Zero"
+          git push origin HEAD:publish/trouble-with-zero-2026-10-13
