@@ -6,11 +6,5 @@
     "not_found_handling": "404-page",
     "html_handling": "auto-trailing-slash"
   },
-  "workers_dev": true,
-  "routes": [
-    {
-      "pattern": "jameshoward.us/*",
-      "zone_name": "jameshoward.us"
-    }
-  ]
+  "workers_dev": true
 }
