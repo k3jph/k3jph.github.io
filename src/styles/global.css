@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Cambo&family=Cinzel:wght@400;600;700;800&family=Lato:wght@400;500;600;700&display=swap');
 @import './tokens.css';
 
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-padding-top: 6rem; max-width: 100%; overflow-x: clip; color-scheme: light; scroll-behavior: smooth; }
-body { max-width: 100%; margin: 0; overflow-x: clip; color: var(--color-ink); background: var(--color-white); font: 1.075rem/1.72 var(--font-serif); }
+body, body.martlet { max-width: 100%; margin: 0; overflow-x: clip; color: var(--color-ink); background: var(--color-white); font: 1.075rem/1.72 var(--font-serif); }
 img, svg, video, iframe { max-width: 100%; }
 img { height: auto; }
 a { color: var(--color-blue-600); text-decoration-thickness: .08em; text-underline-offset: .16em; transition: color var(--transition-ui); }
@@ -15,7 +14,7 @@ h1 { font-size: clamp(2.25rem, 5vw, 4.65rem); }
 h2 { margin-top: 2.2em; font-size: clamp(1.75rem, 3vw, 2.6rem); }
 h3 { font-size: clamp(1.25rem, 2vw, 1.65rem); }
 p, li { text-wrap: pretty; }
-code, pre { font-size: .92em; }
+code, pre, kbd, samp { font-family: var(--font-mono); font-size: .92em; }
 pre { overflow: auto; padding: var(--space-4); border-radius: var(--radius-md); background: var(--color-navy-950); color: var(--color-slate-075); }
 table { width: 100%; border-collapse: collapse; font: .94rem var(--font-sans); }
 th, td { padding: .8rem .9rem; border-bottom: 1px solid var(--color-slate-300); text-align: left; vertical-align: top; }
@@ -128,3 +127,7 @@ button { font: inherit; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
+
+/* Preserve this site's composition around the reusable heading component. */
+.section-heading.martlet-section-heading { max-width: 48rem; margin: 0 auto var(--space-5); text-align: center; }
+.section-heading--left.martlet-section-heading { max-width: none; margin-inline: 0; text-align: left; }

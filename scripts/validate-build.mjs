@@ -331,8 +331,10 @@ for (const pattern of ['Math.min(260, Math.max(160, window.innerHeight * .25))',
   if (!headerSource.includes(pattern)) failures.push(`SiteHeader: missing behavior contract ${pattern}`);
 }
 if (/transition\s*:\s*all\b/.test(headerSource)) failures.push('SiteHeader: uses transition: all');
-const heroTokens = await readFile(path.join(root, 'src/styles/tokens.css'), 'utf8');
-if (!heroTokens.includes('--hero-overlay: linear-gradient(115deg, rgb(7 17 31 / 90%), rgb(12 35 60 / 80%))')) failures.push('hero: missing shared navy overlay');
+const { foundation: martletFoundation } = await import('@martlet/theme');
+if (martletFoundation.tokens['hero-overlay'] !== 'linear-gradient(115deg, rgb(7 17 31 / 90%), rgb(12 35 60 / 80%))') failures.push('hero: missing shared navy overlay');
+const heroAliases = await readFile(path.join(root, 'src/styles/tokens.css'), 'utf8');
+if (!heroAliases.includes('@martlet/theme/legacy.css')) failures.push('hero: missing shared token aliases');
 
 const routeLedger = JSON.parse(await readFile(path.join(root, '.generated/data/route-ledger.json'), 'utf8'));
 for (const route of ['/contact-me', '/contact-me/', '/contact-me.html', '/media', '/media/']) if (!routeLedger.routes.some((item) => item.route === route)) failures.push(`route ledger: missing ${route}`);
