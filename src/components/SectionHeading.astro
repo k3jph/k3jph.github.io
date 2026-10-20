@@ -1,4 +1,5 @@
 ---
+import MartletSectionHeading from '@martlet/astro/SectionHeading.astro';
 import HeadingDivider from './HeadingDivider.astro';
 
 interface Props {
@@ -20,13 +21,10 @@ const {
   variant = 'navy',
   align = 'left',
 } = Astro.props;
-const Heading = level;
 ---
-
-<header class:list={['section-heading', `section-heading--${variant}`, `section-heading--${align}`]}>
-  {eyebrow && <p class="eyebrow">{eyebrow}</p>}
-  <Heading id={id}>{title}</Heading>
-  <HeadingDivider variant={variant}/>
-  {description && <p class="section-heading__description">{description}</p>}
+<MartletSectionHeading title={title} id={id} eyebrow={eyebrow} description={description} level={level} align={align}
+  class={`section-heading section-heading--${variant} section-heading--${align}`}
+  eyebrowClass="eyebrow" descriptionClass="section-heading__description">
+  <HeadingDivider slot="divider" variant={variant}/>
   <slot/>
-</header>
+</MartletSectionHeading>
