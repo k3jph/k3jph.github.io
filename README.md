@@ -37,3 +37,7 @@ Content uses semantic Markdown directives such as `figure`, `document`, `book-de
 GitHub Actions validates pull requests. The deployment workflow builds and publishes `main` to GitHub Pages on pushes, manual dispatch, and the nightly scheduled-post check.
 
 See [the architecture notes](docs/migration/ARCHITECTURE.md) and [release checklist](docs/migration/RELEASE-READINESS.md) for migration details.
+
+## Shared theme
+
+The site installs `@martlet/theme` 2.0.0 and `@martlet/astro` 1.0.0 from npm. Exact versions and lockfile integrity keep builds reproducible. Design definitions live in [martlettheme/npm](https://github.com/martlettheme/npm), and the Astro components live in [martlettheme/astro](https://github.com/martlettheme/astro).
