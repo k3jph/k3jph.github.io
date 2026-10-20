@@ -13,7 +13,7 @@
   "scripts": {
     "prepare": "node scripts/prepare-content.mjs",
     "dev": "npm run prepare && astro dev",
-    "build": "npm run prepare && node scripts/prepare-build.mjs && astro build --silent && node scripts/finalize-build.mjs",
+    "build": "npm run prepare && node scripts/prepare-build.mjs && astro build --silent && node scripts/finalize-build.mjs && node scripts/optimize-audio.mjs",
     "preview": "astro preview",
     "check": "npm run prepare && astro check",
     "audit": "node scripts/audit-native-content.mjs && node scripts/validate-writing-data.mjs && node scripts/validate-subject-data.mjs && node scripts/validate-source-assets.mjs",
