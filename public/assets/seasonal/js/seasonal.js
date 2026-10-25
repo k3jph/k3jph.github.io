@@ -6,6 +6,7 @@
 //   /?season=july4
 //   /?season=halloween
 //   /?season=all
+//   /?season=none (disable every seasonal effect, including date-based ones)
 
 (function () {
   "use strict";
@@ -42,6 +43,7 @@
   }
 
   function isActive(season) {
+    if (forcedSeason === "none") return false;
     if (forcedAll) return true;
     if (forcedSeason === season.name) return true;
     return season.windows.some(inRange);
