@@ -5,7 +5,7 @@ date: 2026-10-25
 author: k3jph
 layout: post
 permalink: /2026/10/25/what-the-hell-does-temperature-actually-measure/
-featured_image: /assets/img/2026/what-the-hell-does-temperature-actually-measure.webp
+featured_image: /assets/img/2026/what-the-hell-does-temperature-actually-measure.avif
 excerpt: >-
   A thermometer tells us which object is hotter, but explaining what
   temperature actually measures takes us through molecular motion,
