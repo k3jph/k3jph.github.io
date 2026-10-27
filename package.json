@@ -30,7 +30,7 @@
     "@astrojs/rss": "4.0.19",
     "@martlet/astro": "1.0.0",
     "@martlet/theme": "2.0.0",
-    "astro": "7.3.2",
+    "astro": "7.4.2",
     "fast-glob": "3.3.3",
     "fuse.js": "7.5.0",
     "gray-matter": "4.0.3",
