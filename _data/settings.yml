@@ -106,6 +106,18 @@ sites:
     preview_title: Defense OR
     preview_subtitle: Handbook of Military & Defense Operations Research
 
+  - id: heraldry
+    title: The Heraldry Project
+    kind: Heraldry & education
+    description: A freely accessible school of heraldry, with illustrated lessons, interactive shield design, national traditions, and primary sources.
+    url: https://heraldryproject.org/
+    target: _blank
+    showcase: true
+    footer: false
+    order: 45
+    preview_title: The Heraldry Project
+    preview_subtitle: The language of arms
+
   - id: dungeon
     title: The Manor of the Dungeon in Kent
     kind: Public history
