@@ -23,7 +23,7 @@ ORCID: https://orcid.org/0000-0003-4530-1547
 
 - [Mathematics Project](https://mathematicsproject.org/): open-access mathematics teaching, currently centered on undergraduate statistics.
 - [The Heraldry Project](https://heraldryproject.org/): independent, freely accessible school of heraldry.
-- [1812: The Whole Story](https://war1812.jameshoward.us/): citation-rich public history of the War of 1812.
+- [1812: The Whole Story](https://1812project.org/): citation-rich public history of the War of 1812.
 - [Judith & Holofernes: The Fatal Image](https://judith.jameshoward.us/): virtual exhibition tracing Judith and Holofernes through visual art.
 - [Teaching and Learning Mathematics Online](https://tlmo.jameshoward.us/): companion site for both editions of the edited volume.
 - [Computational Methods for Numerical Analysis](https://cmna.jameshoward.us/): living companion to *Computational Methods for Numerical Analysis with R*.

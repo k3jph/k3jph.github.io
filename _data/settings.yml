@@ -34,7 +34,7 @@ sites:
     title: "1812: The Whole Story"
     kind: Public history
     description: The War of 1812 told as one connected story, with maps, evidence, timelines, and interactive historical systems.
-    url: https://war1812.jameshoward.us/
+    url: https://1812project.org/
     target: _blank
     showcase: true
     footer: false
